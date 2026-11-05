@@ -1,0 +1,7891 @@
+# IOE: entidades y operaciones, con variables y escala territorial
+
+758 operaciones; 147 agrupaciones de servicio responsable / unidad ejecutora; 0 fichas con error.
+
+Fuente: [https://www.ine.es/dyngs/IOE/listadoIoeActualAvan.htm?opc=todas](https://www.ine.es/dyngs/IOE/listadoIoeActualAvan.htm?opc=todas). Metadatos recogidos el 2026-11-05T13:37:49.003278+00:00. Son fichas de descubrimiento, no observaciones descargadas; una operación puede no ser cartografiable ni publicar todo su detalle.
+
+## Banco de España / Centro de Estudios Monetarios y Financieros (CEMFI)
+
+- **37146 · [SHARE - Survey of Health, Ageing and Retirement in Europe (BANESP)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946000398)**
+  - Sector o tema: Nivel, calidad y condiciones de vida
+  - Subsector o subtema: Condiciones y calidad de vida
+  - Nivel de desagregación: Nacional
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Obtener información longitudinal e interdisciplinar, objetiva y subjetiva, sobre las condiciones de vida de la población mayor de 50 años en la Unión Europea
+  - Variables de estudio: Salud, situación socio-económica, redes sociales y familiares
+  - Variables de clasificación: Socio-demográficas
+  - Periodicidad de la difusión: Bienal
+  - [Acceso a los resultados](https://share-eric.eu/publications/share-working-paper-series)
+
+## Banco de España / Departamento de Análisis de la Economía Española
+
+- **37143 · [Encuesta Financiera de las Familias (EFF) (BANESP)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931129402)**
+  - Sector o tema: Nivel, calidad y condiciones de vida
+  - Subsector o subtema: Consumo y distribución de la renta
+  - Nivel de desagregación: Nacional
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Relacionar las rentas, los activos (financieros y no financieros), las deudas y el gasto de cada unidad familiar. Caracterizar la situación patrimonial de las familias españolas
+  - Variables de estudio: Patrimonio (mobiliario e inmobiliario), deudas y rentas (salariales y no salariales)
+  - Variables de clasificación: Detalles de la renta, por fuentes de renta, y del patrimonio, según las clases de activos en que se materializa, con cruzamientos adicionales por variables socio-demográficas (edad, educación, situación laboral, etc.)
+  - Periodicidad de la difusión: Bienal - Últimos datos: Año 2022
+  - [Acceso a los resultados](https://app.bde.es/efs_www/home?lang=ES)
+- **37145 · [Encuesta de Competencias Financieras (ECF) (BANESP)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259945997608)**
+  - Sector o tema: Nivel, calidad y condiciones de vida
+  - Subsector o subtema: Condiciones y calidad de vida
+  - Nivel de desagregación: Autonómico
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Obtener información sobre los conocimientos financieros y la inclusión financiera de la población adulta
+  - Variables de estudio: Conocimientos numéricos y financieros, comportamiento financiero y actitudes, productos financieros
+  - Variables de clasificación: Variables sociodemográficas, tramos de renta, tenencia de activos
+  - Periodicidad de la difusión: Irregular
+  - [Acceso a los resultados](https://app.bde.es/efs_ecf/home?lang=ES)
+
+## Banco de España / Departamento de Estadística
+
+- **37040 · [Cuentas Financieras de la Economía Española. Sistema SEC/2010 (BANESP)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259944416171)**
+  - Sector o tema: Cuentas económicas
+  - Subsector o subtema: Cuentas financieras
+  - Nivel de desagregación: Nacional
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Medición de los saldos y operaciones de activos financieros y pasivos de las distintas agrupaciones institucionales de la Contabilidad Nacional. Las Cuentas Financieras de la Economía Española constituyen el bloque financiero de la Contabilidad Nacional de España
+  - Variables de estudio: Balances, operaciones y otros flujos de los distintos instrumentos financieros recogidos en el SEC 2010
+  - Variables de clasificación: Cuentas (balances financieros y cuentas de operaciones financieras), instrumentos financieros y las agrupaciones institucionales de la Contabilidad Nacional, según el SEC 2010
+  - Periodicidad de la difusión: Trimestral
+  - [Acceso a los resultados](https://www.bde.es/webbe/es/estadisticas/temas/cuentas-financieras.html)
+- **37142 · [Balanza de Pagos, Comercio Internacional de Servicios e Inversiones Extranjeras Directas, Posición de Inversión Internacional, Deuda Externa y Reservas Internacionales y Liquidez en Moneda Extranjera (BANESP)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931129238)**
+  - Sector o tema: Cuentas económicas
+  - Subsector o subtema: Sector exterior y balanza de pagos
+  - Nivel de desagregación: Nacional
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Medición de los intercambios de bienes, servicios, rentas y transferencias entre la economía nacional y el resto del mundo y de las operaciones financieras que se originan en el proceso. Medición de los stocks de activos y pasivos financieros frente al resto del mundo
+  - Variables de estudio: Operaciones con el resto del mundo de bienes, servicios, renta, transferencias corrientes y de capital y de activos no financieros no producidos. Balances financieros y operaciones con el resto del mundo de los distintos instrumentos y categorías funcionales recogidos en el Manual de Balanza de Pagos del FMI
+  - Variables de clasificación: Clasificación por rúbricas, categorías funcionales, instrumentos y sectores según el manual de Balanza de Pagos del FMI. Distribución geográfica. Clasificación por CNAE de la inversión directa
+  - Periodicidad de la difusión: Mensual (en la Balanza de Pagos); trimestral (en la Posición de Inversión Internacional)
+  - [Acceso a los resultados](https://www.bde.es/webbe/es/estadisticas/temas/estadisticas-exteriores.html)
+- **37144 · [Deuda Pública según el Protocolo de Déficit Excesivo (BANESP)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931130414)**
+  - Sector o tema: Cuentas económicas
+  - Subsector o subtema: Finanzas públicas
+  - Nivel de desagregación: Otros : Autonómica (órganos de Gobierno y empresas públicas propiedad de la comunidad autónoma), agregación de provincias (diputaciones) y local (grandes ayuntamientos)
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Elaboración de la deuda de cada uno de los subsectores que componen las Administraciones públicas en el marco del PDE, Reglamento (CE) n° 3605/93, de 22 de noviembre de 1993, modificado por el Reglamento (CE) n.º 475/2000, de 28 de febrero, y por el Reglamento nº 351/2002, de 25 de febrero
+  - Variables de estudio: Deuda de las Administraciones públicas, y los instrumentos en que esta se materializa, es decir: efectivo y depósitos, valores distintos de acciones (a corto y a largo plazo), préstamos (a corto y a largo plazo); pasivos en poder de otras Administraciones públicas y deuda de las empresas públicas materializada en los instrumentos mencionados anteriormente
+  - Variables de clasificación: Por subsectores de las Administraciones públicas: Administración Central, comunidades autónomas, corporaciones locales y Seguridad Social. La deuda de las comunidades autónomas se detalla por comunidades y la de las corporaciones locales se detalla para los ayuntamientos con más de 300.000 habitantes, resto de ayuntamientos capitales de provincia, ayuntamientos no capitales de provincia, diputaciones de régimen común, diputaciones forales del País Vasco y consejos y cabildos insulares. La deuda de las empresas públicas se presenta detallada por subsectores de las Administraciones públicas propietarias
+  - Periodicidad de la difusión: Trimestral
+  - [Acceso a los resultados](https://www.bde.es/webbe/es/estadisticas/temas/administraciones-publicas.html)
+
+## Consejo General del Poder Judicial / Sección de Estadística Judicial
+
+- **30464 · [Estadística de Litigios en Arrendamientos Urbanos (CGPJ)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931147042)**
+  - Sector o tema: Seguridad y justicia
+  - Subsector o subtema: Actividad judicial
+  - Nivel de desagregación: Provincial
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Estudio de la litigiosidad en materia de arrendamientos urbanos
+  - Variables de estudio: Sentencias y decretos
+  - Variables de clasificación: Tipo de arrendamiento, causa de litigio y pronunciamiento de la sentencia
+  - Periodicidad de la difusión: Trimestral
+  - [Acceso a los resultados](https://www.poderjudicial.es/cgpj/es/Temas/Estadistica-Judicial/Estadistica-por-temas/Datos-penales--civiles-y-laborales/Civil-y-laboral/Arrendamientos-Urbanos/)
+- **30465 · [Estadística de las Oficinas de Justicia en el Municipio (OJM) (CGPJ)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931147211)**
+  - Sector o tema: Seguridad y justicia
+  - Subsector o subtema: Actividad judicial
+  - Nivel de desagregación: Otros : Partidos Judiciales
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Estudiar la actividad judicial de las Oficinas de Justicia en el Municipio (antes Juzgados de Paz)
+  - Variables de estudio: Asuntos civiles y penales (ingresados y resueltos)
+  - Variables de clasificación: Tipología de los asuntos resueltos en el ámbito penal (juicios de faltas, exhortos penales y otros) y en el ámbito civil (juicios verbales, actos de conciliación y otros)
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](https://www.poderjudicial.es/cgpj/es/Temas/Estadistica-Judicial/Plan-Nacional-de-Estadistica-Judicial/Actividad-Judicial/Juzgados-de-Paz)
+- **71002 · [Estadística de la Actividad Judicial (CGPJ)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931129569)**
+  - Sector o tema: Seguridad y justicia
+  - Subsector o subtema: Actividad judicial
+  - Nivel de desagregación: Otros : Partidos judiciales
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Conocimiento de la actividad judicial y situación de los órganos judiciales
+  - Variables de estudio: Número de asuntos ingresados, resueltos y pendientes; número de sentencias y de autos; ejecuciones de sentencias; recursos elevados y devueltos; auxilio judicial
+  - Variables de clasificación: Tipo de órgano judicial
+  - Periodicidad de la difusión: Trimestral
+  - [Acceso a los resultados](https://www.poderjudicial.es/cgpj/es/Temas/Estadistica-Judicial/Plan-Nacional-de-Estadistica-Judicial/Actividad-Judicial/Actividad-de-los-Organos-Judiciales)
+- **71003 · [Sistema de Información Socioeconómica de los Partidos Judiciales (CGPJ)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931142956)**
+  - Sector o tema: Seguridad y justicia
+  - Subsector o subtema: Indicadores, síntesis y recopilaciones en seguridad y justicia
+  - Nivel de desagregación: Otros : Partidos judiciales
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Disponer de una batería de características sociodemográficas de cada partido judicial de forma que lo describan y permitan analizar su relación con la carga de trabajo de sus órganos judiciales
+  - Variables de estudio: Geográficas, demográficas, presupuestarias, económicas
+  - Variables de clasificación: Partido judicial
+  - Periodicidad de la difusión: Continua
+  - [Acceso a los resultados](https://www.poderjudicial.es/cgpj/es/Temas/Estadistica-Judicial/Estadistica-por-temas/Informacion-socioeconomica-relacionada-con-la-Administracion-de-Justicia/Sistema-de-Informacion-Socioeconomica-de-las-demarcaciones-judiciales/)
+- **71004 · [Estadística del Personal Judicial: Jueces y Magistrados (CGPJ)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931918199)**
+  - Sector o tema: Seguridad y justicia
+  - Subsector o subtema: Actividad judicial
+  - Nivel de desagregación: Autonómico
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Conocimiento de las características sociodemográficas y profesionales de jueces y magistrados de carrera
+  - Variables de estudio: Individuos, situaciones, flujos externos
+  - Variables de clasificación: Edades, antigüedades, género, forma de ingreso, situación administrativa, tipo de órgano y Tribunal Superior de Justicia de destino
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](https://www.poderjudicial.es/cgpj/es/Temas/Estadistica-Judicial/Plan-Nacional-de-Estadistica-Judicial/Recursos-humanos/Caracteristicas-de-Jueces-y-Magistrados)
+
+## Instituto Nacional de Estadística / Dirección General de Cuentas Nacionales - División de Nuevos Desarrollos
+
+- **30017 · [Cuentas Satélite de las Cooperativas y Mutualidades (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259936644135)**
+  - Sector o tema: Cuentas económicas
+  - Subsector o subtema: Cuentas satélite
+  - Nivel de desagregación: Nacional
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Elaboración de cuentas satélite de cooperativas y mutualidades en España, consistentes con la Contabilidad Nacional de España, base 2000. La metodología que se aplica es la del Sistema Europeo de Cuentas Nacionales y Regionales (SEC-95) aprobado mediante Reglamento (CE) nº 2223/96 del Consejo, de 25 de junio de 1996, y la del 'Manual for compiling satellite accounts of the social economy companies: cooperatives and mutuals' de la Comisión Europea. El proyecto ha sido cofinanciado por la Comisión Europea
+  - Variables de estudio: Las correspondientes a las cuentas corrientes y de acumulación de estas unidades y las de bienes y servicios correspondientes a las matrices de origen y de destino. Datos de empleo
+  - Variables de clasificación: Sectores institucionales, ramas de actividad
+  - Periodicidad de la difusión: Esporádica - Últimos datos: Año 2013 - 2017
+  - [Acceso a los resultados](/daco/daco42/daco4214/coop08.pdf)
+- **30092 · [Cuenta Satélite de la Economía Social (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946000394)**
+  - Sector o tema: Cuentas económicas
+  - Subsector o subtema: Contabilidad nacional
+  - Nivel de desagregación: Nacional
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Medición de la actividad económica de las instituciones sin fines de lucro de la economía nacional, representativas de la denominada economía social, como elemento anexo al sistema de cuentas nacionales
+  - Variables de estudio: Operaciones de bienes y servicios y de distribución de las cuentas corrientes y de acumulación
+  - Variables de clasificación: Sector y subsector institucional
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](/dyngs/INEbase/operacion.htm?c=Estadistica_C&cid=1254736177120&menu=ultiDatos&idp=1254735576581)
+- **30093 · [Tablas de Origen y Destino de la Economía Digital (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946003390)**
+  - Sector o tema: Cuentas económicas
+  - Subsector o subtema: Contabilidad nacional
+  - Nivel de desagregación: Nacional
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Medición de la aportación de la economía digital en el PIB a nivel de producto y ramas de actividad
+  - Variables de estudio: Producción, consumos intermedios, valor añadido bruto (VAB). Todas las variables se presentan desglosadas por productos específicos digitales
+  - Variables de clasificación: Rama de actividad y producto
+  - Periodicidad de la difusión: Anual
+
+## Instituto Nacional de Estadística / Dirección General de Cuentas Nacionales - Subdirección General de Cuentas Anuales
+
+- **30015 · [Índices de Reparto Regional del IVA y los Impuestos Especiales sobre la Cerveza, sobre el Alcohol y Bebidas Derivadas y sobre Productos Intermedios (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931056277)**
+  - Sector o tema: Administraciones públicas y asociaciones
+  - Subsector o subtema: Presupuestarias y fiscales
+  - Nivel de desagregación: Autonómico
+  - Ámbito territorial: Todo el territorio nacional, a excepción de Canarias, Navarra, País Vasco, Ceuta y Melilla
+  - Objetivo general: Elaboración de índices para el reparto regional del Impuesto sobre el Valor Añadido y de los Impuestos Especiales sobre la Cerveza, sobre el Alcohol y Bebidas Derivadas en el marco de la Ley 22/2009, de 18 de diciembre, por la que se regula el sistema de financiación de las comunidades autónomas de régimen común y Ciudades de Ceuta y Melilla
+  - Variables de estudio: Índices para el reparto regional del Impuesto sobre el Valor Añadido e Impuestos Especiales sobre la Cerveza, sobre el Alcohol y Bebidas Derivadas y sobre Productos Intermedios
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](/dyngs/INEbase/operacion.htm?c=Estadistica_C&cid=1254736167628&menu=ultiDatos&idp=1254735576581)
+- **30025 · [Contabilidad Regional de España (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259937889657)**
+  - Sector o tema: Cuentas económicas
+  - Subsector o subtema: Contabilidad regional y local
+  - Nivel de desagregación: Provincial
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Elaboración del sistema de Cuentas Regionales de España según la metodología establecida en el Reglamento (CE) del Parlamento Europeo y del Consejo, relativo al Sistema Europeo de Cuentas Nacionales y Regionales SEC-2010
+  - Variables de estudio: Las que figuran en el programa de transmisión (Anexo B) del SEC-2010: agregados regionales de las actividades de producción (valor añadido bruto, remuneración de los asalariados, empleo, formación bruta de capital); Producto Interior Bruto regional; cuentas regionales de renta de los hogares
+  - Variables de clasificación: Ramas de actividad, sectores institucionales, NUTS II, NUTS III
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](/dyngs/INEbase/operacion.htm?c=Estadistica_C&cid=1254736167628&menu=ultiDatos&idp=1254735576581)
+- **30029 · [Contabilidad Nacional Anual de España: Principales Agregados (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946000368)**
+  - Sector o tema: Cuentas económicas
+  - Subsector o subtema: Contabilidad nacional
+  - Nivel de desagregación: Nacional
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Estimación de los principales agregados anuales de la Contabilidad Nacional de España (Producto Interior Bruto y sus componentes de oferta, demanda y rentas; Renta Nacional Bruta y Renta Nacional Bruta Disponible; y estimaciones de empleo)
+  - Variables de estudio: Producto interior bruto, valor añadido bruto, impuestos y subvenciones sobre la producción y las importaciones, gasto en consumo final, formación bruta de capital, exportaciones e importaciones, remuneración de los asalariados, excedente de explotación y renta mixta brutos, empleo (puestos de trabajo, puestos de trabajo equivalentes a tiempo completo, horas trabajadas y personas todo ello desglosado para el total y asalariados), flujos de renta primaria y secundaria con el resto del mundo, renta nacional bruta y renta nacional bruta disponible
+  - Variables de clasificación: Rama de actividad
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](/dyngs/INEbase/operacion.htm?c=Estadistica_C&cid=1254736177057&menu=ultiDatos&idp=1254735576581)
+- **30030 · [Contabilidad Nacional Anual de España: Agregados por Rama de Actividad (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946000369)**
+  - Sector o tema: Cuentas económicas
+  - Subsector o subtema: Contabilidad nacional
+  - Nivel de desagregación: Nacional
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Estimación de agregados económicos de oferta y demanda por rama de actividad de la economía nacional
+  - Variables de estudio: Producción, consumos intermedios, valor añadido bruto, formación bruta de capital fijo, remuneración de asalariados, sueldos y salarios y cotizaciones sociales, excedente de explotación y renta mixta brutos, otros impuestos netos sobre la producción y empleo (puestos de trabajo, puestos de trabajo equivalentes a tiempo completo, horas trabajadas y personas todo ello desglosado para el total y asalariados). Balances de activos no financieros, formación bruta de capital fijo y consumos de capital fijo, cada uno de dichos agregados desglosados por ramas de actividad
+  - Variables de clasificación: Rama de actividad; activos fijos
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](/dyngs/INEbase/operacion.htm?c=Estadistica_C&cid=1254736177056&menu=ultiDatos&idp=1254735576581)
+- **30031 · [Cuentas Anuales No Financieras de los Sectores Institucionales (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946000371)**
+  - Sector o tema: Cuentas económicas
+  - Subsector o subtema: Contabilidad nacional
+  - Nivel de desagregación: Nacional
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Estimación de la sucesión de cuentas anuales no financieras de los sectores institucionales (cuentas corrientes, cuentas de acumulación y balances) de la economía nacional y de resultados anexos a la misma (gasto en consumo final de los hogares por finalidad, resultados detallados del sector Administraciones Públicas y resultados detallados del sector Instituciones Financieras)
+  - Variables de estudio: Operaciones de bienes y servicios y de distribución de las cuentas corrientes y de acumulación; stock de activos fijos, existencias y terrenos
+  - Variables de clasificación: Sector y subsector institucional; finalidad de consumo; finalidad de gasto público
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](/dyngs/INEbase/operacion.htm?c=Estadistica_C&cid=1254736177054&menu=ultiDatos&idp=1254735576581)
+- **30032 · [Tablas de Origen y Destino (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946000372)**
+  - Sector o tema: Cuentas económicas
+  - Subsector o subtema: Contabilidad nacional
+  - Nivel de desagregación: Nacional
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Estimación del equilibrio general de bienes y servicios de la economía nacional a nivel de producto
+  - Variables de estudio: Producción, consumos intermedios, valor añadido bruto (VAB), remuneración de asalariados, excedente de explotación y renta mixta y otros impuestos netos sobre la producción, desglosados por ramas de actividad, impuestos y subvenciones sobre los productos, márgenes de comercio y transporte, gasto en consumo final, formación bruta de capital, exportaciones e importaciones. Todas las variables se presentan desglosadas por productos excepto los agregados de empleo, rentas y VAB
+  - Variables de clasificación: Rama de actividad y producto
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](/dyngs/INEbase/operacion.htm?c=Estadistica_C&cid=1254736177059&menu=resultados&idp=1254735576581)
+- **30033 · [Tablas Input-Output (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946000373)**
+  - Sector o tema: Cuentas económicas
+  - Subsector o subtema: Contabilidad nacional
+  - Nivel de desagregación: Nacional
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Estimación de los componentes del PIB de oferta y demanda a un nivel muy detallado de productos y ramas de actividad homogéneas para la economía nacional
+  - Variables de estudio: Producción, consumos intermedios, valor añadido bruto (VAB), remuneración de asalariados, excedente de explotación y renta mixta brutos y otros impuestos netos sobre la producción, desglosados por ramas de actividad homogéneas, impuestos y subvenciones sobre los productos, gasto en consumo final, formación bruta de capital, exportaciones e importaciones. Todas las variables se presentan desglosadas por productos excepto los agregados de empleo, rentas, producción y VAB
+  - Variables de clasificación: Rama de actividad (homogénea) y producto
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](/dyngs/INEbase/operacion.htm?c=Estadistica_C&cid=1254736177058&menu=resultados&idp=1254735576581)
+- **30064 · [Encuesta de Consumos Intermedios e Inversión (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259944556487)**
+  - Sector o tema: Minería e industria
+  - Subsector o subtema: Empresas y establecimientos industriales
+  - Nivel de desagregación: Nacional
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Conocimiento de las distintas materias primas y otros insumos utilizados por las empresas españolas en sus procesos productivos, así como de la inversión realizada por dichas empresas en el año objeto de estudio para su incorporación a las estimaciones requeridas en la elaboración de parte de los principales agregados macroeconómicos de la Contabilidad Nacional Anual de España
+  - Variables de estudio: Consumos de materias primas y otras materias consumibles; gastos en servicios exteriores; inversión
+  - Variables de clasificación: Ramas de actividad; productos; activos
+  - Periodicidad de la difusión: La correspondiente a las operaciones de la Contabilidad Nacional Anual de España indicadas anteriormente
+- **30091 · [Tabla de Pensiones (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946000389)**
+  - Sector o tema: Cuentas económicas
+  - Subsector o subtema: Contabilidad nacional
+  - Nivel de desagregación: Nacional
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Medición del funcionamiento de los sistemas de pensiones, como elemento anexo al sistema de cuentas nacionales
+  - Variables de estudio: Stock de derechos devengados por pensiones en seguros sociales y flujos que determinan su evolución (cotizaciones, prestaciones, etc.)
+  - Variables de clasificación: Garante del sistema de pensiones (sistemas de seguridad social y otros sistemas vinculados al empleo) y tipo sistema de pensiones (prestación definida y cotización definida)
+  - Periodicidad de la difusión: Trienal
+  - [Acceso a los resultados](/dyngs/INEbase/operacion.htm?c=Estadistica_C&cid=1254736177063&menu=ultiDatos&idp=1254735576581)
+- **30094 · [Cuentas Distribucionales de los Hogares (En proyecto) (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946004157)**
+  - Sector o tema: Cuentas económicas
+  - Subsector o subtema: Contabilidad nacional
+  - Nivel de desagregación: Nacional
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Medición de la distribución de la renta y el consumo dentro de los hogares residentes en viviendas familiares
+  - Variables de estudio: Rentas primarias y secundarias de los hogares, así como su gasto en consumo final y ahorro bruto
+  - Variables de clasificación: Diferentes tipos de rentas
+  - Periodicidad de la difusión: Anual
+
+## Instituto Nacional de Estadística / Dirección General de Cuentas Nacionales - Subdirección General de Cuentas Trimestrales
+
+- **30024 · [Contabilidad Nacional Trimestral de España: Principales Agregados (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259937889496)**
+  - Sector o tema: Cuentas económicas
+  - Subsector o subtema: Contabilidad nacional
+  - Nivel de desagregación: Nacional
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Estimación de los principales agregados trimestrales de la Contabilidad Nacional de España (Producto Interior Bruto y sus componentes de oferta, demanda y rentas; Renta Nacional Bruta y Renta Nacional Bruta Disponible; y estimaciones de empleo)
+  - Variables de estudio: Producto interior bruto, valor añadido bruto, impuestos y subvenciones sobre la producción y las importaciones, gasto en consumo final, formación bruta de capital, exportaciones e importaciones, remuneración de los asalariados, excedente de explotación bruto y empleo (puestos de trabajo, puestos de trabajo equivalentes a tiempo completo, horas trabajadas y personas), flujos de renta primaria y secundaria con el resto del mundo, renta nacional bruta y renta nacional bruta disponible
+  - Variables de clasificación: Rama de actividad
+  - Periodicidad de la difusión: Trimestral
+  - [Acceso a los resultados](/dyngs/INEbase/operacion.htm?c=Estadistica_C&cid=1254736164439&menu=ultiDatos&idp=1254735576581)
+- **30026 · [Cuentas Trimestrales No Financieras de los Sectores Institucionales (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259937891325)**
+  - Sector o tema: Cuentas económicas
+  - Subsector o subtema: Contabilidad nacional
+  - Nivel de desagregación: Nacional
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Estimación de la sucesión de cuentas anuales no financieras de los sectores institucionales (cuentas corrientes y cuentas de acumulación) de la economía nacional
+  - Variables de estudio: Operaciones de bienes y servicios y de distribución de las cuentas corrientes y de acumulación
+  - Variables de clasificación: Sector institucional
+  - Periodicidad de la difusión: Trimestral
+  - [Acceso a los resultados](/dyngs/INEbase/operacion.htm?c=Estadistica_C&cid=1254736165305&menu=ultiDatos&idp=1254735576581)
+
+## Instituto Nacional de Estadística / Dirección General de Estadísticas Económicas - Subdirección General de Estadísticas Coyunturales
+
+- **30050 · [Índices de Producción Industrial (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931057428)**
+  - Sector o tema: Minería e industria
+  - Subsector o subtema: Empresas y establecimientos industriales
+  - Nivel de desagregación: Autonómico
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Medición de la evolución mensual del volumen del valor añadido generado por las ramas industriales, salvo la construcción
+  - Variables de estudio: Producción por ramas de actividad y destino económico de los bienes
+  - Variables de clasificación: Clasificación nacional de actividades económicas (CNAE) y grandes sectores industriales (GSI)
+  - Periodicidad de la difusión: Mensual
+  - [Acceso a los resultados](/dyngs/INEbase/operacion.htm?c=Estadistica_C&cid=1254736145519&menu=ultiDatos&idp=1254735576715)
+- **30051 · [Índices de Precios Industriales (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931057597)**
+  - Sector o tema: Precios
+  - Subsector o subtema: Precios de las distintas actividades sectoriales
+  - Nivel de desagregación: Autonómico
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Medición de la evolución de los precios de los productos industriales salvo construcción, en la primera etapa de comercialización (mercado interior)
+  - Variables de estudio: Precios
+  - Variables de clasificación: Ramas de actividad (CNAE-2009) y grandes sectores industriales (GSI)
+  - Periodicidad de la difusión: Mensual
+  - [Acceso a los resultados](/dyngs/INEbase/operacion.htm?c=Estadistica_C&cid=1254736147699&menu=ultiDatos&idp=1254735576715)
+- **30052 · [Índices de Cifras de Negocios en la Industria (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931057766)**
+  - Sector o tema: Minería e industria
+  - Subsector o subtema: Empresas y establecimientos industriales
+  - Nivel de desagregación: Autonómico
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Medición de la evolución de las cifras de negocios en las actividades industriales
+  - Variables de estudio: Cantidades facturadas por la venta de bienes y servicios industriales
+  - Variables de clasificación: Ramas de actividad CNAE-2009 y sectores industriales por destino económico de los bienes
+  - Periodicidad de la difusión: Mensual
+  - [Acceso a los resultados](/dyngs/INEbase/operacion.htm?c=Estadistica_C&cid=1254736148782&menu=ultiDatos&idp=1254735576715)
+- **30062 · [Índices de Precios de Materiales y Energía e Índices Nacionales de la Mano de Obra (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931058104)**
+  - Sector o tema: Precios
+  - Subsector o subtema: Precios de las distintas actividades sectoriales
+  - Nivel de desagregación: Nacional
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Obtener los índices de precios de los distintos materiales que se utilizan en las fórmulas tipo, para aplicar a las cláusulas de revisión de precios que figuran en los contratos de las Administraciones públicas
+  - Variables de estudio: Precios de venta, sin incluir el IVA facturado, de distintos materiales empleados en la elaboración de los índices de precios de las fórmulas de revisión de precios de los contratos del Sector Público; el 85 por ciento de la variación mensual del IPC para los índices nacionales de la mano de obra
+  - Periodicidad de la difusión: Trimestral
+  - [Acceso a los resultados](/dyngs/INEbase/operacion.htm?c=Estadistica_C&cid=1254736154972&menu=resultados&idp=1254735576757)
+- **30063 · [Encuesta Coyuntural sobre Stocks y Existencias (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259941116557)**
+  - Sector o tema: Estadísticas de empresas y unidades de producción no referidas a sectores particulares
+  - Subsector o subtema: Estadísticas generales de unidades de producción
+  - Nivel de desagregación: Nacional
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Medición de la evolución en el corto plazo de las existencias en la industria y el comercio
+  - Variables de estudio: Valor del stock de existencias
+  - Variables de clasificación: Agrupación de actividad
+  - Periodicidad de la difusión: Trimestral
+  - [Acceso a los resultados](/dyngs/INEbase/operacion.htm?c=Estadistica_C&cid=1254736176995&menu=ultiDatos&idp=1254735576799)
+- **30071 · [Índices de Precios de Exportación y de Importación de Productos Industriales (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931059102)**
+  - Sector o tema: Precios
+  - Subsector o subtema: Precios de las distintas actividades sectoriales
+  - Nivel de desagregación: Nacional
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Medir la evolución mensual de los precios de los productos industriales vendidos en el mercado exterior (precios de exportación), así como de los productos industriales procedentes del resto del mundo (precios de importación)
+  - Variables de estudio: Precios
+  - Variables de clasificación: Ramas de actividad (CNAE-2009) y grandes sectores industriales (GSI)
+  - Periodicidad de la difusión: Mensual
+  - [Acceso a los resultados](/dyngs/INEbase/operacion.htm?c=Estadistica_C&cid=1254736148943&menu=ultiDatos&idp=1254735576715)
+- **30083 · [Índice de Cifra de Negocios Empresarial (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259941635453)**
+  - Sector o tema: Estadísticas de empresas y unidades de producción no referidas a sectores particulares
+  - Subsector o subtema: Estadísticas generales de unidades de producción
+  - Nivel de desagregación: Nacional
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Medición de la evolución en el corto plazo de la cifra de negocios de los sectores económicos no financieros de mercado
+  - Variables de estudio: Cifra de negocios
+  - Variables de clasificación: Principales sectores económicos
+  - Periodicidad de la difusión: Mensual
+  - [Acceso a los resultados](/dyngs/INEbase/operacion.htm?c=Estadistica_C&cid=1254736176958&menu=ultiDatos&idp=1254735576550)
+- **30098 · [Comercio Internacional de Servicios por Modos de Suministro (MoS) (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946002627)**
+  - Sector o tema: Comercio interior y exterior
+  - Subsector o subtema: Comercio exterior de servicios
+  - Nivel de desagregación: Nacional
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Conocer los modos, dentro de los cuatro posibles reconocidos en el Acuerdo General de Comercio Servicios (AGCS) de la Organización Mundial del Comercio (OMC), por los que España suministra o recibe los servicios que son objeto de transacción a nivel internacional. Se incluyen tanto los modos de suministro propios del comercio internacional de servicios entre residentes y no residentes, como el modo de suministro de servicios a través de filiales o sucursales extranjeras (comercio entre residentes)
+  - Variables de estudio: Exportaciones (prestaciones) e importaciones (adquisiciones) de servicios
+  - Variables de clasificación: Países de contrapartida (Nivel Geo5 del GEONOM), tipos de servicios principales, agrupaciones complementarias y componentes detallados de servicios comerciados a nivel internacional por la empresa (CABPS-2010) y modos de suministro incluidos en el AGCS (Modo1: Suministro transfronterizo; Modo2: Consumo en España o en el extranjero; Modo3: Presencia comercial y Modo4: Presencia de personas físicas)
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](/dyngs/INEbase/operacion.htm?c=Estadistica_C&cid=1254736177111&menu=ultiDatos&idp=1254735576778)
+- **30103 · [Índices de Comercio al por Menor (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931060418)**
+  - Sector o tema: Comercio interior y exterior
+  - Subsector o subtema: Comercio interior
+  - Nivel de desagregación: Autonómico
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Obtener información sobre la evolución del sector minorista
+  - Variables de estudio: Volumen de negocios y ocupación mensual
+  - Variables de clasificación: Agrupaciones de producto, comunidades autónomas y modos de distribución
+  - Periodicidad de la difusión: Mensual
+  - [Acceso a los resultados](/dyngs/INEbase/operacion.htm?c=Estadistica_C&cid=1254736176900&menu=ultiDatos&idp=1254735576799)
+- **30138 · [Índice de Precios de Consumo (IPC) (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931062915)**
+  - Sector o tema: Precios
+  - Subsector o subtema: IPC y paridades del poder adquisitivo
+  - Nivel de desagregación: Provincial
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Medición de la evolución de los precios de consumo mediante la obtención de índices sintéticos de distinto nivel de agregación
+  - Variables de estudio: Precios de consumo por tipos de gastos
+  - Periodicidad de la difusión: Mensual
+  - [Acceso a los resultados](/dyngs/INEbase/operacion.htm?c=Estadistica_C&cid=1254736176802&menu=ultiDatos&idp=1254735976607)
+- **30149 · [Estadística de Hipotecas (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931118728)**
+  - Sector o tema: Financieras y seguros
+  - Subsector o subtema: Estadísticas financieras varias
+  - Nivel de desagregación: Provincial
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Obtener información sobre constituciones, cambios y cancelaciones de hipotecas
+  - Variables de estudio: Número de hipotecas constituidas, número de cambios de hipotecas, número de cancelaciones de hipotecas
+  - Variables de clasificación: Naturaleza de la finca, capitales, tipos de interés, entidades financieras, tipo de cambio
+  - Periodicidad de la difusión: Mensual
+  - [Acceso a los resultados](/dyngs/INEbase/operacion.htm?c=Estadistica_C&cid=1254736170236&menu=ultiDatos&idp=1254735576606)
+- **30151 · [Estadística de Sociedades Mercantiles (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931118899)**
+  - Sector o tema: Estadísticas de empresas y unidades de producción no referidas a sectores particulares
+  - Subsector o subtema: Estadísticas generales de unidades de producción
+  - Nivel de desagregación: Provincial
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Información mensual y anual de las sociedades creadas, sociedades disueltas y de las modificaciones de sociedades
+  - Variables de estudio: Número y capital social de las sociedades constituidas, disueltas o que modifican su capital
+  - Variables de clasificación: Estado de la sociedad (constitución, aumento de capital, condición jurídica de la sociedad, capital...)
+  - Periodicidad de la difusión: Mensual
+  - [Acceso a los resultados](/dyngs/INEbase/operacion.htm?c=Estadistica_C&cid=1254736177026&menu=ultiDatos&idp=1254735576550)
+- **30153 · [Estadística sobre Ejecuciones Hipotecarias (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259941118007)**
+  - Sector o tema: Financieras y seguros
+  - Subsector o subtema: Estadísticas financieras varias
+  - Nivel de desagregación: Provincial
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Conocer con carácter trimestral la evolución de las ejecuciones hipotecarias distinguiendo según la naturaleza de las fincas, como aproximación al análisis de los alzamientos y desahucios
+  - Variables de estudio: Número de ejecuciones hipotecarias en proceso
+  - Variables de clasificación: Naturaleza de la finca
+  - Periodicidad de la difusión: Trimestral
+  - [Acceso a los resultados](/dyngs/INEbase/operacion.htm?c=Estadistica_C&cid=1254736176993&menu=ultiDatos&idp=1254735576606)
+- **30163 · [Estadística de Transporte de Personas (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931060920)**
+  - Sector o tema: Transporte y actividades conexas
+  - Subsector o subtema: Empresas y actividad del transporte en general
+  - Nivel de desagregación: Autonómico
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Analizar la evolución del tráfico de las empresas de transporte de viajeros
+  - Variables de estudio: Viajeros transportados, personal e ingresos
+  - Variables de clasificación: Tipos de transporte
+  - Periodicidad de la difusión: Mensual
+  - [Acceso a los resultados](/dyngs/INEbase/operacion.htm?c=Estadistica_C&cid=1254736176906&menu=ultiDatos&idp=1254735576820)
+- **30168 · [Estadística de Transmisión de Derechos de la Propiedad (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931061081)**
+  - Sector o tema: Financieras y seguros
+  - Subsector o subtema: Estadísticas financieras varias
+  - Nivel de desagregación: Provincial
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Obtener información sobre transmisión de derechos de la propiedad
+  - Variables de estudio: Número de transmisiones de derechos de la propiedad sobre fincas rústicas y urbanas
+  - Variables de clasificación: Naturaleza de la finca, título de adquisición, compraventa de viviendas según régimen y estado
+  - Periodicidad de la difusión: Mensual
+  - [Acceso a los resultados](/dyngs/INEbase/operacion.htm?c=Estadistica_C&cid=1254736171438&menu=ultiDatos&idp=1254735576606)
+- **30180 · [Índice de Precios de Consumo Armonizado (IPCA) (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931063082)**
+  - Sector o tema: Precios
+  - Subsector o subtema: IPC y paridades del poder adquisitivo
+  - Nivel de desagregación: Nacional
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Armonización de la medición de la evolución de los precios de consumo en la Unión Europea
+  - Variables de estudio: Precios de consumo por tipos de gasto
+  - Periodicidad de la difusión: Mensual
+  - [Acceso a los resultados](/dyngs/INEbase/operacion.htm?c=Estadistica_C&cid=1254736176803&menu=ultiDatos&idp=1254735976607)
+- **30181 · [Encuesta de Paridades del Poder Adquisitivo (PPA) (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931119070)**
+  - Sector o tema: Precios
+  - Subsector o subtema: IPC y paridades del poder adquisitivo
+  - Nivel de desagregación: Nacional
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Realizar la comparación espacial entre países del nivel de precio de los agregados del PIB
+  - Variables de estudio: Precios de consumo y salarios de determinados empleos
+  - Variables de clasificación: Desagregación geográfica por países y funcional del PIB, desde el punto de vista del gasto
+  - Periodicidad de la difusión: Anual o bienal según dominios
+  - [Acceso a los resultados](http://ec.europa.eu/eurostat/web/purchasing-power-parities/overview)
+- **30182 · [Índices de Precios del Sector Servicios (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931061920)**
+  - Sector o tema: Precios
+  - Subsector o subtema: Precios de las distintas actividades sectoriales
+  - Nivel de desagregación: Nacional
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Medir la evolución de los precios aplicados en el sector servicios, en la primera etapa de comercialización
+  - Variables de estudio: Precios
+  - Variables de clasificación: Diferentes agrupaciones de actividad de la CNAE-2009
+  - Periodicidad de la difusión: Trimestral
+  - [Acceso a los resultados](/dyngs/INEbase/operacion.htm?c=Estadistica_C&cid=1254736176864&menu=resultados&idp=1254735576778)
+- **30183 · [Indicadores de Actividad del Sector Servicios (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931062089)**
+  - Sector o tema: Servicios (estadísticas generales)
+  - Nivel de desagregación: Autonómico
+  - Ámbito territorial: Todo el territorio nacional, a excepción de Ceuta y Melilla
+  - Objetivo general: Obtener información mensual de la actividad económica del sector servicios
+  - Variables de estudio: Volumen de negocios y número de empleados
+  - Variables de clasificación: Diferentes agrupaciones de actividad y comunidades autónomas
+  - Periodicidad de la difusión: Mensual
+  - [Acceso a los resultados](/dyngs/INEbase/operacion.htm?c=Estadistica_C&cid=1254736176863&menu=ultiDatos&idp=1254735576778)
+- **30198 · [Encuesta sobre Comercio Internacional de Servicios y otras Operaciones Internacionales (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931062424)**
+  - Sector o tema: Comercio interior y exterior
+  - Subsector o subtema: Comercio exterior de servicios
+  - Nivel de desagregación: Nacional
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Recabar información para la Balanza de Pagos de Servicios, caracterizar a las empresas que comercian internacionalmente servicios y servir de instrumento de evaluación de la política comercial y las negociaciones multilaterales derivadas del Acuerdo General sobre el Comercio de Servicios (AGCS)
+  - Variables de estudio: Importaciones y exportaciones de servicios
+  - Variables de clasificación: Diferentes agrupaciones de tipo de servicio y país o área geográfica de contrapartida
+  - Periodicidad de la difusión: Trimestral, anual
+  - [Acceso a los resultados](/dyngs/INEbase/operacion.htm?c=Estadistica_C&cid=1254736174702&menu=ultiDatos&idp=1254735576778)
+- **30199 · [Indicadores de Confianza Empresarial (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931062593)**
+  - Sector o tema: Estadísticas de empresas y unidades de producción no referidas a sectores particulares
+  - Subsector o subtema: Estadísticas generales de unidades de producción
+  - Nivel de desagregación: Autonómico
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Obtener información mediante encuestas opináticas de la evolución de determinadas variables económicas en el tiempo y de las expectativas o perspectivas en el futuro
+  - Variables de estudio: Empleo, nivel de precios, exportaciones, inversión
+  - Variables de clasificación: Diferentes agrupaciones de actividad y tamaños
+  - Periodicidad de la difusión: Trimestral
+  - [Acceso a los resultados](/dyngs/INEbase/operacion.htm?c=Estadistica_C&cid=1254736163552&menu=ultiDatos&idp=1254735576550)
+- **30213 · [Índice de Precios de Vivienda en Alquiler (IPVA) (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946001121)**
+  - Sector o tema: Precios
+  - Subsector o subtema: Precios de las distintas actividades sectoriales
+  - Nivel de desagregación: Municipal o inferior
+  - Ámbito territorial: Todo el territorio nacional, a excepción de Navarra y País Vasco
+  - Objetivo general: Medir la evolución anual de las viviendas en alquiler
+  - Variables de estudio: Precios de alquiler de las viviendas para uso residencial
+  - Variables de clasificación: Edificación (vivienda colectiva o unifamiliar) y tamaño de vivienda
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](/experimental/ipva/experimental_precios_vivienda_alquiler.htm)
+- **30221 · [Estadística sobre Transporte Ferroviario (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931062756)**
+  - Sector o tema: Transporte y actividades conexas
+  - Subsector o subtema: Transporte terrestre
+  - Nivel de desagregación: Nacional
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Obtener información sobre el transporte ferroviario a nivel nacional, para que la Comisión Europea pueda realizar el seguimiento de la política común en transporte
+  - Variables de estudio: Tráfico de trenes de mercancías y pasajeros, volumen de pasajeros y mercancías transportadas, accidentalidad, infraestructura ferroviaria, material de transporte ferroviario y gasto en inversión y mantenimiento
+  - Periodicidad de la difusión: Trimestral, anual
+  - [Acceso a los resultados](/dyngs/INEbase/operacion.htm?c=Estadistica_C&cid=1254736177040&menu=ultiDatos&idp=1254735576820)
+- **30234 · [Índice de Producción del Sector Servicios (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259937891805)**
+  - Sector o tema: Servicios (estadísticas generales)
+  - Nivel de desagregación: Nacional
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Medición de la evolución a corto plazo del volumen del valor añadido generado por las ramas del sector servicios
+  - Variables de estudio: Valor de la producción
+  - Periodicidad de la difusión: Mensual
+  - [Acceso a los resultados](/dyngs/INEbase/operacion.htm?c=Estadistica_C&cid=1254736177099&menu=ultiDatos&idp=1254735576778)
+- **30240 · [Comercio Internacional de Servicios por Características de las Empresas (STEC) (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946002626)**
+  - Sector o tema: Comercio interior y exterior
+  - Subsector o subtema: Comercio exterior de servicios
+  - Nivel de desagregación: Nacional
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Conocer las principales características de las empresas residentes en España que realizan transacciones de comercio internacional de servicios con no residentes
+  - Variables de estudio: Exportaciones e importaciones de servicios
+  - Variables de clasificación: Área geográfica/países de contrapartida, actividad económica principal de la empresa (CNAE-2009), intervalo de tamaño sobre la base del número de asalariados y no asalariados de la empresa, tipos de servicios principales comerciados a nivel internacional por la empresa (CABPS-2010) y tipo de control (si la empresa es controlada desde España o desde el extranjero)
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](/dyngs/INEbase/operacion.htm?c=Estadistica_C&cid=1254736177112&menu=ultiDatos&idp=1254735576778)
+- **30293 · [Índice de Producción de la Construcción (IPCO) (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946004159)**
+  - Sector o tema: Construcción y vivienda
+  - Subsector o subtema: Construcción en general (edificación y obra pública)
+  - Nivel de desagregación: Nacional
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Medición de la evolución de la producción del sector de la construcción
+  - Variables de estudio: Valores de producción, valores de compra, producción
+  - Periodicidad de la difusión: Mensual
+  - [Acceso a los resultados](/dyngs/INEbase/operacion.htm?c=Estadistica_C&cid=1254736177119&menu=ultiDatos&idp=1254735576757)
+- **30294 · [Índice de Precios de Alquiler de Bienes Inmuebles Comerciales (IPABIC) (En proyecto) (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946004930)**
+  - Sector o tema: Precios
+  - Subsector o subtema: Precios de las distintas actividades sectoriales
+  - Nivel de desagregación: Nacional
+  - Ámbito territorial: Todo el territorio nacional, a excepción de País Vasco
+  - Objetivo general: Medición de la evolución de los precios de alquiler de los bienes inmuebles comerciales
+  - Variables de estudio: Precios de transacción de los bienes inmuebles comerciales
+  - Variables de clasificación: Tipo de bien inmueble comercial (residencial, local, oficina, nave industrial)
+  - Periodicidad de la difusión: Trimestral
+- **30295 · [Índice de Precios de Bienes Inmuebles Comerciales (IPBIC) (En proyecto) (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946004931)**
+  - Sector o tema: Precios
+  - Subsector o subtema: Precios de las distintas actividades sectoriales
+  - Nivel de desagregación: Nacional
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Medición de la evolución de los precios de adquisición de los bienes inmuebles comerciales
+  - Variables de estudio: Precios de transacción de los bienes inmuebles comerciales
+  - Variables de clasificación: Tipo de bien inmueble comercial (residencial, local, oficina, nave industrial)
+  - Periodicidad de la difusión: Trimestral
+- **30457 · [Índice de Precios de la Vivienda (IPV) (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931130750)**
+  - Sector o tema: Precios
+  - Subsector o subtema: Precios de las distintas actividades sectoriales
+  - Nivel de desagregación: Autonómico
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Obtener información sobre la evolución de los precios de las viviendas compradas
+  - Variables de estudio: Precios de transacción de las viviendas
+  - Variables de clasificación: Tipo de vivienda (vivienda nueva y de segunda mano)
+  - Periodicidad de la difusión: Trimestral
+  - [Acceso a los resultados](/dyngs/INEbase/operacion.htm?c=Estadistica_C&cid=1254736152838&menu=ultiDatos&idp=1254735976607)
+
+## Instituto Nacional de Estadística / Dirección General de Estadísticas Económicas - Subdirección General de Estadísticas de Sectores Económicos
+
+- **16023 · [Encuesta de Turismo de Residentes (ETR/FAMILITUR) (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931087297)**
+  - Sector o tema: Hostelería y turismo
+  - Subsector o subtema: Demanda turística
+  - Nivel de desagregación: Autonómico
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Cuantificación de los viajes de la población residente en España entre las distintas comunidades autónomas y hacia el extranjero y su caracterización en función de los aspectos más relevantes
+  - Variables de estudio: Viajes, pernoctaciones, duración media, gasto
+  - Variables de clasificación: Destino principal, alojamiento principal, motivo principal del viaje, duración del viaje, principal medio de transporte, forma de organización del viaje; conceptos del gasto; sexo, edad, nacionalidad, nivel de formación alcanzado y relación con la actividad de los viajeros
+  - Periodicidad de la difusión: Mensual, trimestral
+  - [Acceso a los resultados](/dyngs/INEbase/operacion.htm?c=Estadistica_C&cid=1254736176990&menu=ultiDatos&idp=1254735576863)
+- **16028 · [Estadística de Movimientos Turísticos en Fronteras (FRONTUR) (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931087472)**
+  - Sector o tema: Hostelería y turismo
+  - Subsector o subtema: Demanda turística
+  - Nivel de desagregación: Autonómico
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Estimación del número de visitantes no residentes que acceden a España por las distintas vías de acceso
+  - Variables de estudio: Visitantes (turistas, excursionistas)
+  - Variables de clasificación: Vía de acceso, tipo de alojamiento principal, país de residencia, motivo principal del viaje, forma de organización del viaje, duración de la estancia
+  - Periodicidad de la difusión: Mensual, anual
+  - [Acceso a los resultados](/dyngs/INEbase/operacion.htm?c=Estadistica_C&cid=1254736176996&menu=ultiDatos&idp=1254735576863)
+- **16029 · [Encuesta de Gasto Turístico (EGATUR) (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931087646)**
+  - Sector o tema: Hostelería y turismo
+  - Subsector o subtema: Demanda turística
+  - Nivel de desagregación: Autonómico
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Estimación del número de visitantes no residentes en España según características de los viajes y el gasto turístico de los mismos
+  - Variables de estudio: Visitantes no residentes por tipo de viaje y gasto turístico
+  - Variables de clasificación: Vía de acceso, tipo de alojamiento principal, país de residencia, motivo principal del viaje, forma de organización del viaje, partidas de gasto, duración de la estancia
+  - Periodicidad de la difusión: Mensual, anual
+  - [Acceso a los resultados](/dyngs/INEbase/operacion.htm?c=Estadistica_C&cid=1254736177002&menu=ultiDatos&idp=1254735576863)
+- **30027 · [Cuenta Satélite del Turismo de España (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259937891486)**
+  - Sector o tema: Cuentas económicas
+  - Subsector o subtema: Cuentas satélite
+  - Nivel de desagregación: Nacional
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Obtener una representación sistemática, comparable y completa de la actividad turística adaptada, en la medida de lo posible, a los conceptos, definiciones y clasificaciones que figuran en el manual de elaboración de la Cuenta Satélite del Turismo (CST) elaborado por la Organización Mundial del Turismo
+  - Variables de estudio: Todas las variables relacionadas con la generación y distribución del valor añadido turístico, empleo, formación bruta de capital fijo y gasto turístico
+  - Variables de clasificación: Las que figuran en las tablas incluidas en el mencionado manual de CST más todas aquéllas cuya presentación se considere oportuna para la descripción del fenómeno turístico en España
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](/dyngs/INEbase/operacion.htm?c=Estadistica_C&cid=1254736169169&menu=ultiDatos&idp=1254735576863)
+- **30040 · [Encuesta sobre Métodos de Producción en las Explotaciones Agrícolas (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931145889)**
+  - Sector o tema: Agricultura, ganadería, selvicultura y caza
+  - Subsector o subtema: Estructuras agrarias, registros y medios de producción
+  - Nivel de desagregación: Autonómico
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Obtención de información sobre los métodos de producción en las explotaciones agrícolas y cumplimiento de la normativa legal fijada por la UE
+  - Variables de estudio: Explotaciones, métodos de laboreo, conservación de suelos, características del paisaje, formas de pastoreo, establos, almacenamiento y tratamiento de abono, riego, mano de obra
+  - Variables de clasificación: Tamaño de la explotación
+  - Periodicidad de la difusión: Esporádica - Últimos datos: Año 2009
+  - [Acceso a los resultados](/dyngs/INEbase/operacion.htm?c=Estadistica_C&cid=1254736176852&menu=resultados&idp=1254735727106)
+- **30042 · [Censo Agrario (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931056754)**
+  - Sector o tema: Agricultura, ganadería, selvicultura y caza
+  - Subsector o subtema: Estructuras agrarias, registros y medios de producción
+  - Nivel de desagregación: Municipal o inferior
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Obtención de información sobre la estructura agraria, servir de base al directorio de explotaciones agrícolas y cumplimiento de la normativa legal fijada por la Unión Europea
+  - Variables de estudio: Explotaciones, superficie total de la explotación, aprovechamiento de la tierra, tenencia, cultivos, ganadería, desarrollo rural, agricultura ecológica y trabajo en la explotación
+  - Variables de clasificación: Tamaño de la explotación
+  - Periodicidad de la difusión: Decenal - Últimos datos: Año 2020
+  - [Acceso a los resultados](/dyngs/INEbase/operacion.htm?c=Estadistica_C&cid=1254736176851&menu=ultiDatos&idp=1254735727106)
+- **30044 · [Encuesta sobre la Estructura de las Explotaciones Agrarias (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931056923)**
+  - Sector o tema: Agricultura, ganadería, selvicultura y caza
+  - Subsector o subtema: Estructuras agrarias, registros y medios de producción
+  - Nivel de desagregación: Autonómico
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Obtención de información sobre la estructura agrícola y cumplimiento de la normativa legal fijada por la Unión Europea
+  - Variables de estudio: Explotaciones, superficie agrícola, ganadería, trabajo en la explotación, aprovechamiento de la tierra, maquinaria, irrigación, régimen de tenencia de la tierra y cultivos
+  - Variables de clasificación: Tamaño de la explotación
+  - Periodicidad de la difusión: Trienal - Últimos datos: Año 2023
+  - [Acceso a los resultados](/dyngs/INEbase/operacion.htm?c=Estadistica_C&cid=1254736176854&menu=ultiDatos&idp=1254735727106)
+- **30048 · [Estadística Estructural de Empresas: Sector Industrial (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931057090)**
+  - Sector o tema: Minería e industria
+  - Subsector o subtema: Empresas y establecimientos industriales
+  - Nivel de desagregación: Autonómico
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Conocer las principales características estructurales y económicas de las empresas industriales
+  - Variables de estudio: Personal ocupado, cifra de negocios y otros ingresos, compras y consumos, gastos de personal, impuestos e inversiones
+  - Variables de clasificación: Desglose por actividades según CNAE-2009 y tamaño de las empresas
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](/dyngs/INEbase/operacion.htm?c=Estadistica_C&cid=1254736143952&menu=ultiDatos&idp=1254735576715)
+- **30049 · [Encuesta Industrial Anual de Productos (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931057259)**
+  - Sector o tema: Minería e industria
+  - Subsector o subtema: Empresas y establecimientos industriales
+  - Nivel de desagregación: Autonómico
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Conocimiento detallado de la producción de los diferentes productos industriales
+  - Variables de estudio: Producción propia y producción realizada como subcontratista
+  - Variables de clasificación: Ramas de actividad
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](/dyngs/INEbase/operacion.htm?c=Estadistica_C&cid=1254736149053&menu=ultiDatos&idp=1254735576715)
+- **30056 · [Directorio de Empresas y Organismos Públicos Posibles Investigadores (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931059755)**
+  - Sector o tema: Investigación científica y desarrollo tecnológico
+  - Subsector o subtema: Infraestructura, equipamiento y entes para I+D
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Formación del directorio para la estadística de actividades en I+D
+  - Variables de estudio: Denominación y domiciliación de las empresas y organismos públicos posibles investigadores
+- **30057 · [Estadística sobre Actividades en I+D en el Sector Empresas (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931059914)**
+  - Sector o tema: Investigación científica y desarrollo tecnológico
+  - Subsector o subtema: Recursos económicos, personal y actividades en I+D
+  - Nivel de desagregación: Autonómico
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Medición de los recursos humanos y financieros destinados a actividades en I+D en el sector empresas
+  - Variables de estudio: Empresas que realizan I+D, personal empleado en I+D, gastos en I+D por disciplina científica y por rama de actividad
+  - Variables de clasificación: Rama de actividad
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](/dyngs/INEbase/operacion.htm?c=Estadistica_C&cid=1254736176754&menu=ultiDatos&idp=1254735576669)
+- **30058 · [Estadística sobre Actividades en I+D en el Sector Administración Pública (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931117881)**
+  - Sector o tema: Investigación científica y desarrollo tecnológico
+  - Subsector o subtema: Recursos económicos, personal y actividades en I+D
+  - Nivel de desagregación: Autonómico
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Medición de los recursos humanos y financieros destinados a actividades en I+D en el sector Administración pública
+  - Variables de estudio: Gastos en I+D, personal empleado en I+D
+  - Variables de clasificación: Campo o disciplina científica, objetivo socioeconómico
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](/dyngs/INEbase/operacion.htm?c=Estadistica_C&cid=1254736176754&menu=ultiDatos&idp=1254735576669)
+- **30059 · [Estadística sobre Actividades en I+D en el Sector Instituciones Privadas sin Fines de Lucro (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931118050)**
+  - Sector o tema: Investigación científica y desarrollo tecnológico
+  - Subsector o subtema: Recursos económicos, personal y actividades en I+D
+  - Nivel de desagregación: Autonómico
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Medición de los recursos financieros y humanos destinados a actividades en I+D en el sector instituciones privadas sin fines de lucro
+  - Variables de estudio: Gastos en I+D, personal empleado en I+D
+  - Variables de clasificación: Campo o disciplina científica, objetivo socioeconómico
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](/dyngs/INEbase/operacion.htm?c=Estadistica_C&cid=1254736176754&menu=ultiDatos&idp=1254735576669)
+- **30060 · [Estadística sobre Actividades en I+D en el Sector Enseñanza Superior (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931118219)**
+  - Sector o tema: Investigación científica y desarrollo tecnológico
+  - Subsector o subtema: Recursos económicos, personal y actividades en I+D
+  - Nivel de desagregación: Autonómico
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Medición de los recursos destinados a I+D por el sector enseñanza superior, mediante una estimación de los fondos generales universitarios dedicados a I+D y cómputo de los fondos específicos para I+D
+  - Variables de estudio: Gastos en I+D y personal dedicado a I+D
+  - Variables de clasificación: Campo o disciplina científica, objetivo socioeconómico
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](/dyngs/INEbase/operacion.htm?c=Estadistica_C&cid=1254736176754&menu=ultiDatos&idp=1254735576669)
+- **30061 · [Encuesta sobre Innovación en las Empresas (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931060083)**
+  - Sector o tema: Investigación científica y desarrollo tecnológico
+  - Subsector o subtema: Producción y transferencia en I+D
+  - Nivel de desagregación: Autonómico
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Conocimiento de las actividades innovadoras de las empresas, los resultados de la innovación y su impacto económico
+  - Variables de estudio: Gastos en actividades innovadoras, resultados de la innovación y su impacto económico
+  - Variables de clasificación: Ramas de actividad, tamaño de las empresas
+  - Periodicidad de la difusión: Bienal
+  - [Acceso a los resultados](/dyngs/INEbase/operacion.htm?c=Estadistica_C&cid=1254736176755&menu=ultiDatos&idp=1254735576669)
+- **30066 · [Estadísticas sobre las Actividades de Protección Medioambiental (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931058428)**
+  - Sector o tema: Medio ambiente y desarrollo sostenible
+  - Subsector o subtema: Personal, recursos económicos y actividades en medio ambiente
+  - Nivel de desagregación: Autonómico
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Disponer de datos regulares, representativos y comparables sobre los gastos, tanto corrientes como de inversión, que realizan las empresas con el fin de evaluar la política nacional y comunitaria en esta área medioambiental
+  - Variables de estudio: Actividades productivas medioambientales, valoración de los recursos dedicados a la protección ambiental, financiación
+  - Variables de clasificación: Actividad económica, actividades características ambientales, ámbitos ambientales
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](/dyngs/INEbase/operacion.htm?c=Estadistica_C&cid=1254736176846&menu=ultiDatos&idp=1254735976612)
+- **30070 · [Encuesta de Consumos Energéticos (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931058934)**
+  - Sector o tema: Extracción de productos energéticos y energía en general
+  - Subsector o subtema: Producción energética, distribución y consumo de productos energéticos
+  - Nivel de desagregación: Autonómico
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Obtener información detallada de los distintos tipos de combustibles utilizados por las empresas industriales
+  - Variables de estudio: Consumo de los distintos productos energéticos
+  - Variables de clasificación: Desglose por actividades según CNAE-2009 y tipo de producto energético consumido
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](/dyngs/INEbase/operacion.htm?c=Estadistica_C&cid=1254736146240&menu=ultiDatos&idp=1254735576715)
+- **30076 · [Estadísticas sobre el Uso del Agua (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259942698102)**
+  - Sector o tema: Medio ambiente y desarrollo sostenible
+  - Subsector o subtema: Recursos naturales y su utilización y rehabilitación
+  - Nivel de desagregación: Autonómico
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Disponer de datos regulares, fiables y comparables para el estudio del uso del recurso agua en los sectores económicos (agricultura, industria y servicios)
+  - Variables de estudio: Volúmenes de agua captada y suministrada; volumen de aguas residuales tratadas y de agua reutilizada. Importes facturados en concepto de suministro, alcantarillado y depuración
+  - Variables de clasificación: Actividad económica, actividades características integrantes del ciclo del agua
+  - Periodicidad de la difusión: Anual (sector agrario), irregular (sectores industrial y servicios)
+  - [Acceso a los resultados](/dyngs/INEbase/operacion.htm?c=Estadistica_C&cid=1254736176839&menu=ultiDatos&idp=1254735976602)
+- **30077 · [Estadística sobre el Suministro y Saneamiento del Agua (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259942698450)**
+  - Sector o tema: Medio ambiente y desarrollo sostenible
+  - Subsector o subtema: Captación, depuración y distribución de agua
+  - Nivel de desagregación: Autonómico
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Disponer de datos regulares, fiables y comparables para poder describir el estado, las presiones que se ejercen y las respuestas de la sociedad para optimizar el uso del recurso agua
+  - Variables de estudio: Volúmenes de agua captada y suministrada a los usuarios; volumen de aguas residuales tratadas y de agua reutilizada. Importes facturados a los usuarios por suministro, alcantarillado y depuración
+  - Variables de clasificación: Actividad económica, actividades características que conforman del ciclo del agua
+  - Periodicidad de la difusión: Bienal
+  - [Acceso a los resultados](/dyngs/INEbase/operacion.htm?c=Estadistica_C&cid=1254736176834&menu=ultiDatos&idp=1254735976602)
+- **30078 · [Estadísticas sobre Generación de Residuos (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259942698758)**
+  - Sector o tema: Medio ambiente y desarrollo sostenible
+  - Subsector o subtema: Producción, gestión y reciclaje de residuos
+  - Nivel de desagregación: Nacional
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Disponer de datos regulares, representativos y comparables, sobre la generación de residuos en la agricultura, pesca, acuicultura, industria, construcción, servicios y hogares con el fin de evaluar la política nacional y comunitaria en materia medioambiental
+  - Variables de estudio: Cantidades de residuos generados por clase de residuos por sectores de actividad y hogares
+  - Variables de clasificación: Clase de residuo según la clasificación europea de residuos (CER)
+  - Periodicidad de la difusión: Bienal
+  - [Acceso a los resultados](/dyngs/INEbase/operacion.htm?c=Estadistica_C&cid=1254736176841&menu=ultiDatos&idp=1254735976612)
+- **30079 · [Estadísticas sobre Recogida y Tratamiento de Residuos (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259942699258)**
+  - Sector o tema: Medio ambiente y desarrollo sostenible
+  - Subsector o subtema: Producción, gestión y reciclaje de residuos
+  - Nivel de desagregación: Nacional
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Disponer de datos regulares, representativos y comparables sobre la gestión y el tratamiento de los residuos con el fin de evaluar la política nacional y comunitaria en materia medioambiental
+  - Variables de estudio: Cantidades de residuos recogidos, reciclados, valorizados, incinerados (con y sin recuperación de energía), y vertidos y por clase de residuo. Número y capacidad de las instalaciones de tratamiento de residuos clasificadas por tipo de operación de tratamiento
+  - Variables de clasificación: Tipo de residuo según la clasificación europea de residuos (CER) y tipo de operación según la codificación D/R de la Ley de Residuos y Suelos Contaminados para una economía circular
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](/dyngs/INEbase/operacion.htm?c=Estadistica_C&cid=1254736176844&menu=ultiDatos&idp=1254735976612)
+- **30081 · [Indicadores del Sector de Tecnologías de la Información y las Comunicaciones (TIC) (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931060252)**
+  - Sector o tema: Tecnologías de la información y las comunicaciones (TIC)
+  - Subsector o subtema: Indicadores, síntesis y recopilaciones en el ámbito de las TIC
+  - Nivel de desagregación: Nacional
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Obtener información sobre las ramas y productos generados por el sector TIC según la metodología propuesta por la OCDE
+  - Variables de estudio: Cifra de negocios, valor de la producción, valor añadido, ocupados y otras variables específicas del sector
+  - Variables de clasificación: Rama de actividad, tipo de producto
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](/dyngs/INEbase/operacion.htm?c=Estadistica_C&cid=1254736176742&menu=ultiDatos&idp=1254735576692)
+- **30082 · [Estadística de Filiales de Empresas Españolas en el Exterior (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931136581)**
+  - Sector o tema: Estadísticas de empresas y unidades de producción no referidas a sectores particulares
+  - Subsector o subtema: Estadísticas generales de unidades de producción
+  - Nivel de desagregación: Nacional
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Investigar las principales características estructurales y económicas de las empresas filiales y sucursales ubicadas en el exterior que son controladas por una unidad en última instancia residente en la economía española
+  - Variables de estudio: Cifra de negocios, número de personas empleadas y número de empresas, gastos por retribuciones a los asalariados, inversión bruta en activos no corrientes tangibles
+  - Variables de clasificación: Diferentes agrupaciones de la CNAE-2009 para la actividad de las filiales y país de residencia de las filiales
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](/dyngs/INEbase/operacion.htm?c=Estadistica_C&cid=1254736162975&menu=ultiDatos&idp=1254735576550)
+- **30084 · [Cuentas Medioambientales: Cuenta de Emisiones a la Atmósfera (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259942700133)**
+  - Sector o tema: Cuentas económicas
+  - Subsector o subtema: Cuentas satélite
+  - Nivel de desagregación: Nacional
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Presentar de forma sistemática y comparable, los flujos de sustancias contaminantes emitidos a la atmósfera generados por el sistema económico, clasificados por sectores económicos, en el marco de las cuentas nacionales
+  - Variables de estudio: Emisiones contaminantes a la atmósfera
+  - Variables de clasificación: Ramas de actividad económica, sector hogares como consumidores finales
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](/dyngs/INEbase/operacion.htm?c=Estadistica_C&cid=1254736176941&menu=ultiDatos&idp=1254735976603)
+- **30085 · [Cuentas Medioambientales: Cuenta de Impuestos Ambientales (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259942700465)**
+  - Sector o tema: Cuentas económicas
+  - Subsector o subtema: Cuentas satélite
+  - Nivel de desagregación: Nacional
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Presentar de forma sistemática y comparable, los impuestos ambientales desagregados por ramas de actividad y sector hogares como consumidores finales, en el marco de las cuentas nacionales
+  - Variables de estudio: Impuestos ambientales
+  - Variables de clasificación: Ramas de actividad económica, sector hogares como consumidores finales
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](/dyngs/INEbase/operacion.htm?c=Estadistica_C&cid=1254736176942&menu=ultiDatos&idp=1254735976603)
+- **30086 · [Cuentas Medioambientales: Cuenta de Flujos de Materiales (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259942700806)**
+  - Sector o tema: Cuentas económicas
+  - Subsector o subtema: Cuentas satélite
+  - Nivel de desagregación: Nacional
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Presentar de forma sistemática y comparable los flujos de materiales en cantidades físicas de la economía nacional tanto al medio natural como al resto del mundo, en el marco de las cuentas nacionales
+  - Variables de estudio: Flujos de entradas, salidas y variaciones del stock de materiales
+  - Variables de clasificación: Producción, importación y exportación
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](/dyngs/INEbase/operacion.htm?c=Estadistica_C&cid=1254736176943&menu=ultiDatos&idp=1254735976603)
+- **30087 · [Cuentas Medioambientales: Otras Cuentas Medioambientales (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259942700977)**
+  - Sector o tema: Cuentas económicas
+  - Subsector o subtema: Cuentas satélite
+  - Nivel de desagregación: Nacional
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Elaborar las cuentas satélites del medio ambiente en el marco de las cuentas nacionales en los siguientes ámbitos: agua, energía, ecoindustria, bosques, recursos naturales, residuos u otros que sean objeto de requerimientos futuros por usuarios nacionales o internacionales
+  - Variables de estudio: Propias del sector
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](/dyngs/INEbase/operacion.htm?c=Estadistica_C&cid=1254736176944&menu=resultados&idp=1254735976603)
+- **30088 · [Cuentas Medioambientales: Cuenta de Gasto en Protección Medioambiental (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259945998306)**
+  - Sector o tema: Cuentas económicas
+  - Subsector o subtema: Cuentas satélite
+  - Nivel de desagregación: Nacional
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Presentar los flujos monetarios ligados a la protección del medio ambiente, de manera compatible con el sistema de cuentas nacionales, reflejando los recursos económicos que las unidades residentes dedican a la protección ambiental y que permiten obtener el agregado gasto nacional en protección ambiental
+  - Variables de estudio: Producción, consumo intermedio por productores especializados, importaciones y exportaciones, impuesto sobre el valor añadido (IVA) y otros impuestos menos subvenciones sobre los productos, formación bruta de capital fijo y adquisiciones menos cesiones de activos no financieros no producidos, consumo final, transferencias
+  - Variables de clasificación: Sectores del Sistema Europeo de Cuentas (SEC), Actividades de Protección Ambiental (CEPA), Actividades económicas NACE Rev. 2 para la producción auxiliar (secciones B, C, D y división 36)
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](/dyngs/INEbase/operacion.htm?c=Estadistica_C&cid=1254736177048&menu=ultiDatos&idp=1254735976603)
+- **30089 · [Cuentas Medioambientales: Cuenta de Bienes y Servicios Ambientales (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259945998307)**
+  - Sector o tema: Cuentas económicas
+  - Subsector o subtema: Cuentas satélite
+  - Nivel de desagregación: Nacional
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Presentar, de manera compatible con el sistema de cuentas nacionales, la información sobre las actividades de producción de la economía nacional que generan productos ambientales
+  - Variables de estudio: Producción, exportaciones, valor añadido bruto y empleo de las actividades de mercado
+  - Variables de clasificación: Actividades económicas NACE Rev. 2 (nivel de agregación A21, según se indica en el SEC), Clasificación de fines medioambientales (CEP)
+  - Periodicidad de la difusión: Aún no determinada
+  - [Acceso a los resultados](/dyngs/INEbase/operacion.htm?c=Estadistica_C&cid=1254736177053&menu=ultiDatos&idp=1254735976603)
+- **30090 · [Cuentas Medioambientales: Cuenta de Flujos Físicos de la Energía (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259945998308)**
+  - Sector o tema: Cuentas económicas
+  - Subsector o subtema: Cuentas satélite
+  - Nivel de desagregación: Nacional
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Presentar de forma sistemática y comparable, los flujos físicos de la energía expresados en terajulios en relación con las actividades económicas de producción, consumo y acumulación, en el marco de las cuentas nacionales
+  - Variables de estudio: Recursos energéticos naturales, productos energéticos y residuos energéticos
+  - Variables de clasificación: Ramas de actividad económica, sector hogares como consumidores finales
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](/dyngs/INEbase/operacion.htm?c=Estadistica_C&cid=1254736177046&menu=ultiDatos&idp=1254735976603)
+- **30095 · [Cuentas Medioambientales: Cuenta de los Residuos (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946000380)**
+  - Sector o tema: Cuentas económicas
+  - Subsector o subtema: Cuentas satélite
+  - Nivel de desagregación: Nacional
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Identificación de los flujos de generación y de tratamiento final de residuos que tienen lugar a nivel nacional
+  - Variables de estudio: Cantidades de residuos generados y tratados por tipo de residuos (CER-start)
+  - Variables de clasificación: Sectores de actividad económicas agregados y hogares como consumidores, año, peligrosidad, tipo de tratamiento
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](/dyngs/INEbase/operacion.htm?c=Estadistica_C&cid=1254736177062&menu=ultiDatos&idp=1254735976603)
+- **30099 · [Estadística sobre Cadenas de Valor Globales (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946003395)**
+  - Sector o tema: Estadísticas de empresas y unidades de producción no referidas a sectores particulares
+  - Subsector o subtema: Estadísticas generales de unidades de producción
+  - Nivel de desagregación: Nacional
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Estudiar las características de las cadenas de valor globales y la externalización de funciones empresariales por áreas geográficas
+  - Variables de estudio: Número de ocupados, Número de empresas activas, Número de puestos de trabajo creados debido al abastecimiento internacional, Número de puestos de trabajo perdidos o reubicados en el extranjero debido al abastecimiento internacional
+  - Variables de clasificación: Actividad, Función Empresarial, Tamaño según número de ocupados, Tipo de bienes adquiridos, Zona geográfica, Tipos de bienes suministrados, Tipo de servicios, Tipo de socio comercial, Tipo de cualificación laboral, Motivos para el abastecimiento internacional, Importancia de los factores, Barreras para el abastecimiento internacional, Acontecimientos que repercutan en el funcionamiento de las cadenas de valor globales
+  - Periodicidad de la difusión: Trienal
+  - [Acceso a los resultados](/dyngs/INEbase/operacion.htm?c=Estadistica_C&cid=1254736177116&menu=ultiDatos&idp=1254735576550)
+- **30169 · [Encuesta sobre el Uso de Tecnologías de la Información y las Comunicaciones y del Comercio Electrónico en las Empresas (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931061252)**
+  - Sector o tema: Tecnologías de la información y las comunicaciones (TIC)
+  - Subsector o subtema: Tecnologías de la información y las comunicaciones
+  - Nivel de desagregación: Autonómico
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Obtención de cifras e indicadores sobre la implantación y uso de las tecnologías de la información y las comunicaciones (TIC) en general, y sobre Internet y el comercio electrónico en particular
+  - Variables de estudio: Indicadores sobre implantación y uso de TIC, compras y ventas por comercio electrónico, factores que dificultan el acceso a las TIC y al comercio electrónico
+  - Variables de clasificación: Volumen de facturación, tamaño de las empresas según tramos de asalariados, agrupaciones de ramas de actividad
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](/dyngs/INEbase/operacion.htm?c=Estadistica_C&cid=1254736176743&menu=ultiDatos&idp=1254735576692)
+- **30177 · [Estadística Estructural de Empresas: Sector Servicios (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931061421)**
+  - Sector o tema: Servicios (estadísticas generales)
+  - Nivel de desagregación: Autonómico
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Conocer las principales características estructurales y económicas de las empresas del sector de servicios de mercado no financieros
+  - Variables de estudio: Personal ocupado, cifra de negocios y otros ingresos, compras y consumos, gastos de personal, impuestos e inversiones
+  - Variables de clasificación: Desglose por actividades según CNAE-2009 y tamaño de las empresas
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](/dyngs/INEbase/operacion.htm?c=Estadistica_C&cid=1254736176865&menu=ultiDatos&idp=1254735576778)
+- **30179 · [Índice de Precios Hoteleros (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931061751)**
+  - Sector o tema: Precios
+  - Subsector o subtema: Precios de las distintas actividades sectoriales
+  - Nivel de desagregación: Autonómico
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Obtención de un indicador mensual que mida la evolución de los precios del alojamiento hotelero, medido desde el punto de vista de la oferta
+  - Variables de estudio: Precios de las habitaciones dobles con baño, sin incluir el desayuno ni otros servicios, ni el IVA
+  - Variables de clasificación: Tipo de cliente y canales de venta (tour operador tradicional, agencia de viajes tradicional, empresas, particulares, grupos, contratación directa en la web, tour operador on-line, agencia de viajes on-line)
+  - Periodicidad de la difusión: Mensual
+  - [Acceso a los resultados](/dyngs/INEbase/operacion.htm?c=Estadistica_C&cid=1254736177015&menu=ultiDatos&idp=1254735576863)
+- **30197 · [Indicadores de Alta Tecnología (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931062258)**
+  - Sector o tema: Investigación científica y desarrollo tecnológico
+  - Subsector o subtema: Indicadores, síntesis y recopilaciones en I+D
+  - Nivel de desagregación: Autonómico
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Obtener información sobre sectores y productos considerados 'de alta tecnología' (sectores industriales y de servicios)
+  - Variables de estudio: Para ramas de actividad: indicadores de I+D, indicadores de innovación, ocupados, valor de la producción, valor añadido, número de empresas. Para productos: valor de la producción, valor de las importaciones, valor de las exportaciones
+  - Variables de clasificación: Rama de actividad, tipo de producto
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](/dyngs/INEbase/es/operacion.htm?c=Estadistica_C&cid=1254736176979&menu=resultados&idp=1254735576669)
+- **30201 · [Directorio Central de Empresas (DIRCE) (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259930989663)**
+  - Sector o tema: Estadísticas de empresas y unidades de producción no referidas a sectores particulares
+  - Subsector o subtema: Registros y directorios de unidades de producción
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Mantenimiento de un directorio central de unidades estadísticas de producción clasificadas por actividad, tamaño y localización
+  - Variables de estudio: Identificación, localización, tamaño y rama de actividad
+- **30203 · [Explotación Estadística del Directorio Central de Empresas (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259930989826)**
+  - Sector o tema: Estadísticas de empresas y unidades de producción no referidas a sectores particulares
+  - Subsector o subtema: Registros y directorios de unidades de producción
+  - Nivel de desagregación: Provincial
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Proporcionar datos estructurales del número de empresas y locales existentes en España, así como ofrecer datos sobre la evolución temporal de las empresas
+  - Variables de estudio: Empresas y unidades locales
+  - Variables de clasificación: Condición jurídica, rama de actividad, estratos de asalariados
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](/dyngs/INEbase/operacion.htm?c=Estadistica_C&cid=1254736160707&menu=ultiDatos&idp=1254735576550)
+- **30204 · [Demografía Armonizada de Empresas (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259930976744)**
+  - Sector o tema: Estadísticas de empresas y unidades de producción no referidas a sectores particulares
+  - Subsector o subtema: Estadísticas generales de unidades de producción
+  - Nivel de desagregación: Autonómico
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Proporcionar información agregada relativa a la población de empresas implantadas en el territorio nacional, tomando en consideración los aspectos vinculados al dinamismo empresarial y aplicando una metodología acordada en el ámbito de la Unión Europea. Esta metodología proporciona las directrices que permiten identificar poblaciones y generar indicadores relativos al stock, nacimientos, muertes y supervivencias de empresas, mediante una explotación estadística armonizada de los Directorios de empresas gestionados en las Oficinas de Estadística
+  - Variables de estudio: Stock de empresas activas, nacimientos, supervivencias y muertes de empresas
+  - Variables de clasificación: Actividad económica, número de asalariados y forma legal
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](/dyngs/INEbase/operacion.htm?c=Estadistica_C&cid=1254736161927&menu=ultiDatos&idp=1254735576550)
+- **30206 · [Panel de Indicadores Ambientales (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946005703)**
+  - Sector o tema: Medio ambiente y desarrollo sostenible
+  - Subsector o subtema: Indicadores, síntesis y recopilaciones sobre el medio ambiente y el desarrollo sostenible
+  - Nivel de desagregación: Nacional
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Diseño de indicadores que permite dar seguimiento a los diversos objetivos en materia de cambio climático, economía circular, energía, biodiversidad, agua y emisiones
+  - Variables de estudio: Indicadores de carácter medioambiental
+  - Variables de clasificación: Depende del indicador. Algunas variables de clasificación son: tipo de material, sector económico, tipo de transporte, combustible
+  - Periodicidad de la difusión: Continua
+  - [Acceso a los resultados](/dyngs/INEbase/operacion.htm?c=Estadistica_C&cid=1254736177113&menu=ultiDatos&idp=1254735976603)
+- **30222 · [Índice de Precios de Apartamentos Turísticos (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931133145)**
+  - Sector o tema: Precios
+  - Subsector o subtema: Precios de las distintas actividades sectoriales
+  - Nivel de desagregación: Nacional
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Obtención de un indicador mensual que mida la evolución de los precios del alojamiento en apartamentos turísticos, medido desde el punto de vista de la oferta
+  - Variables de estudio: Precios de los apartamentos por día, sin incluir el IVA
+  - Variables de clasificación: Tarifas de precios (normal, fin de semana, tour-operadores) y modalidad de apartamento (estudio, 2/4 pax y 4/6 pax)
+  - Periodicidad de la difusión: Mensual
+  - [Acceso a los resultados](/dyngs/INEbase/operacion.htm?c=Estadistica_C&cid=1254736176962&menu=ultiDatos&idp=1254735576863)
+- **30223 · [Índice de Precios de Campings (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931133314)**
+  - Sector o tema: Precios
+  - Subsector o subtema: Precios de las distintas actividades sectoriales
+  - Nivel de desagregación: Nacional
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Obtención de un indicador mensual que mida la evolución de los precios del alojamiento en campings, medido desde el punto de vista de la oferta
+  - Variables de estudio: Precio de una parcela por día, sin incluir el IVA
+  - Variables de clasificación: Tarifas normal (parcela, persona, tienda/caravana, coche) y tarifas especiales (hasta un mes, más de un mes)
+  - Periodicidad de la difusión: Mensual
+  - [Acceso a los resultados](/dyngs/INEbase/operacion.htm?c=Estadistica_C&cid=1254736176961&menu=ultiDatos&idp=1254735576863)
+- **30224 · [Estadística sobre el Uso de Biotecnología (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931132978)**
+  - Sector o tema: Investigación científica y desarrollo tecnológico
+  - Subsector o subtema: Recursos económicos, personal y actividades en I+D
+  - Nivel de desagregación: Autonómico
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Conocer la investigación en biotecnología que se hace en España y de qué tipo
+  - Variables de estudio: Gastos en investigación en tecnología y personal en investigación en biotecnología
+  - Variables de clasificación: Rama de actividad
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](/dyngs/INEbase/operacion.htm?c=Estadistica_C&cid=1254736176808&menu=ultiDatos&idp=1254735576669)
+- **30227 · [Estadística de Empresas según Pertenencia a Grupos (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931135384)**
+  - Sector o tema: Estadísticas de empresas y unidades de producción no referidas a sectores particulares
+  - Subsector o subtema: Estadísticas generales de unidades de producción
+  - Nivel de desagregación: Nacional
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Estudiar las principales características estructurales y económicas de las empresas residentes en España controladas en última instancia por empresas extranjeras y compararlas con los otros tres tipos de empresa según su pertenencia a grupos empresariales (empresas independientes, empresas de grupos domésticos y empresas residentes en España de multinacionales españolas)
+  - Variables de estudio: Personal ocupado, cifra de negocios, gastos de personal, número de empresas, compras de bienes y servicios, inversión bruta, valor añadido a coste de los factores, total gastos e ingresos de explotación y ventas fuera de España
+  - Variables de clasificación: Ramas de actividad e intervalos de tamaño de la filial. País y zona geográfica de la empresa matriz
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](/dyngs/INEbase/operacion.htm?c=Estadistica_C&cid=1254736161127&menu=ultiDatos&idp=1254735576550)
+- **30228 · [Estadística de Productos en el Sector Servicios (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931136744)**
+  - Sector o tema: Servicios (estadísticas generales)
+  - Nivel de desagregación: Nacional
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Investigar las características estructurales específicas de las empresas cuya actividad principal está incluida en diversas actividades del sector servicios
+  - Variables de estudio: Número de empresas, desagregación de la cifra de negocios por producto y sector de actividad del cliente
+  - Variables de clasificación: Agrupaciones de la CNAE 2009: transporte, alojamiento, servicios informáticos, servicios audiovisuales, actividades jurídicas, de consultoría y asesoría económica, servicios técnicos de arquitectura e ingeniería, servicios de publicidad y estudios de mercado, de selección y colocación de personal, de agencias de viajes y servicios industriales de limpieza
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](/dyngs/INEbase/operacion.htm?c=Estadistica_C&cid=1254736176898&menu=resultados&idp=1254735576778)
+- **30229 · [Índice de Precios de Alojamientos de Turismo Rural (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931146058)**
+  - Sector o tema: Precios
+  - Subsector o subtema: Precios de las distintas actividades sectoriales
+  - Nivel de desagregación: Autonómico
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Obtención de un indicador mensual que mida la evolución de los precios de alojamiento en establecimientos de turismo rural, medido desde el punto de vista de la oferta
+  - Variables de estudio: Precio de una habitación (o vivienda completa) por día, sin incluir el IVA
+  - Variables de clasificación: Tarifa entre semana y tarifa en fin de semana; modalidad de alquiler: uso compartido y uso completo
+  - Periodicidad de la difusión: Mensual
+  - [Acceso a los resultados](/dyngs/INEbase/operacion.htm?c=Estadistica_C&cid=1254736176963&menu=ultiDatos&idp=1254735576863)
+- **30230 · [Indicadores de Rentabilidad del Sector Hotelero (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259930976428)**
+  - Sector o tema: Hostelería y turismo
+  - Subsector o subtema: Indicadores, síntesis y recopilaciones turísticos
+  - Nivel de desagregación: Otros : provincial, zonas y puntos turísticos
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Obtener indicadores mensuales que proporcionen información sobre los ingresos percibidos por los empresarios hoteleros por la prestación del servicio de alojamiento, tanto por habitación ocupada como por habitación disponible
+  - Variables de estudio: Ingresos obtenidos por el servicio de alojamiento, por habitación ocupada y por habitación disponible (ADR y RevPAR, respectivamente)
+  - Variables de clasificación: Categoría
+  - Periodicidad de la difusión: Mensual
+  - [Acceso a los resultados](/dyngs/INEbase/operacion.htm?c=Estadistica_C&cid=1254736177015&menu=ultiDatos&idp=1254735576863)
+- **30232 · [Estadística Estructural de Empresas: Sector Comercio (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931156930)**
+  - Sector o tema: Comercio interior y exterior
+  - Nivel de desagregación: Autonómico
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Conocer las principales características estructurales y económicas de las empresas del sector comercio que incluye la venta y reparación de vehículos de motor y motocicletas (división 45 de la CNAE-2009), el comercio al por mayor e intermediarios del comercio (división 46) y el comercio al por menor (división 47)
+  - Variables de estudio: Personal ocupado, cifra de negocios y otros ingresos, compras y consumos, gastos de personal, impuestos e inversiones
+  - Variables de clasificación: Desglose por actividades según CNAE-2009 y tamaño de las empresas
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](/dyngs/INEbase/operacion.htm?c=Estadistica_C&cid=1254736176902&menu=ultiDatos&idp=1254735576799)
+- **30233 · [Estadística de Productos en el Sector Comercio (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931157071)**
+  - Sector o tema: Comercio interior y exterior
+  - Nivel de desagregación: Nacional
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Investigar las principales características estructurales específicas de las empresas del sector comercio
+  - Variables de estudio: Número de empresas, desagregación de la cifra de negocios por producto y tipo de cliente
+  - Variables de clasificación: Agrupaciones de la CNAE 2009: venta y reparación de vehículos de motor y motocicletas, comercio al por mayor e intermediarios del comercio y comercio al por menor
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](/dyngs/INEbase/operacion.htm?c=Estadistica_C&cid=1254736176903&menu=resultados&idp=1254735576799)
+- **30235 · [Encuesta de Ocupación Hotelera (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259941118172)**
+  - Sector o tema: Hostelería y turismo
+  - Subsector o subtema: Oferta turística
+  - Nivel de desagregación: Otros : provincial, zonas y puntos turísticos
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Obtención de indicadores coyunturales sobre la ocupación en los establecimientos hoteleros
+  - Variables de estudio: Viajeros, pernoctaciones y estancias medias, por comunidad autónoma y país de residencia, capacidad del alojamiento, grados de ocupación y personal empleado
+  - Variables de clasificación: Categoría del establecimiento y ubicación
+  - Periodicidad de la difusión: Mensual, anual
+  - [Acceso a los resultados](/dyngs/INEbase/operacion.htm?c=Estadistica_C&cid=1254736177015&menu=ultiDatos&idp=1254735576863)
+- **30236 · [Encuesta de Ocupación en Apartamentos Turísticos (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259941116026)**
+  - Sector o tema: Hostelería y turismo
+  - Subsector o subtema: Oferta turística
+  - Nivel de desagregación: Otros : provincial, zonas y puntos turísticos
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Obtención de indicadores coyunturales sobre la ocupación en los apartamentos turísticos
+  - Variables de estudio: Viajeros, pernoctaciones y estancias medias, por comunidad autónoma y país de residencia, capacidad del alojamiento, grados de ocupación y personal empleado
+  - Variables de clasificación: Tamaño del establecimiento y ubicación
+  - Periodicidad de la difusión: Mensual, anual
+  - [Acceso a los resultados](/dyngs/INEbase/operacion.htm?c=Estadistica_C&cid=1254736176962&menu=ultiDatos&idp=1254735576863)
+- **30237 · [Encuesta de Ocupación en Campings (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259941116205)**
+  - Sector o tema: Hostelería y turismo
+  - Subsector o subtema: Oferta turística
+  - Nivel de desagregación: Provincial : provincial, zonas y puntos turísticos
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Obtención de indicadores coyunturales sobre la ocupación en campings
+  - Variables de estudio: Viajeros, pernoctaciones y estancias medias, por comunidad autónoma y país de residencia, capacidad del alojamiento, grados de ocupación y personal empleado
+  - Variables de clasificación: Categoría del establecimiento y ubicación
+  - Periodicidad de la difusión: Mensual, anual
+  - [Acceso a los resultados](/dyngs/INEbase/operacion.htm?c=Estadistica_C&cid=1254736176961&menu=ultiDatos&idp=1254735576863)
+- **30238 · [Encuesta de Ocupación en Alojamientos de Turismo Rural (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259941116378)**
+  - Sector o tema: Hostelería y turismo
+  - Subsector o subtema: Oferta turística
+  - Nivel de desagregación: Otros : provincial, zonas y puntos turísticos
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Obtención de indicadores coyunturales sobre la ocupación en alojamientos de turismo rural
+  - Variables de estudio: Viajeros, pernoctaciones y estancias medias, por comunidad autónoma y país de residencia, capacidad del alojamiento, grados de ocupación y personal empleado
+  - Variables de clasificación: Tipo del establecimiento y ubicación
+  - Periodicidad de la difusión: Mensual, anual
+  - [Acceso a los resultados](/dyngs/INEbase/operacion.htm?c=Estadistica_C&cid=1254736176963&menu=ultiDatos&idp=1254735576863)
+- **30239 · [Encuesta de Ocupación en Albergues Turísticos (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259944023751)**
+  - Sector o tema: Hostelería y turismo
+  - Subsector o subtema: Oferta turística
+  - Nivel de desagregación: Autonómico
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Obtención de indicadores coyunturales sobre la ocupación en albergues
+  - Variables de estudio: Viajeros, pernoctaciones y estancias medias, por comunidad autónoma y país de residencia, capacidad del alojamiento, grados de ocupación y personal empleado
+  - Variables de clasificación: Tipo de establecimiento y ubicación
+  - Periodicidad de la difusión: Mensual, anual
+  - [Acceso a los resultados](/dyngs/INEbase/operacion.htm?c=Estadistica_C&cid=1254736176964&menu=ultiDatos&idp=1254735576863)
+- **30284 · [Cuentas Medioambientales: Cuenta de Subvenciones y Otras Transferencias Similares (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946004934)**
+  - Sector o tema: Cuentas económicas
+  - Subsector o subtema: Cuentas satélite
+  - Nivel de desagregación: Nacional
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Presentar datos sobre transferencias corrientes y de capital destinadas a apoyar actividades que protejan el medio ambiente y los recursos naturales, incluida la producción y utilización de productos medioambientales, de manera compatible con los conceptos y definiciones del Sistema de Cuentas Nacionales
+  - Variables de estudio: Subvenciones y otras transferencias similares ambientales
+  - Variables de clasificación: Sectores institucionales, ramas de actividad económica, Classification of environmental purposes (CEP)
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](/dyngs/INEbase/operacion.htm?c=Estadistica_C&cid=1254736177118&menu=ultiDatos&idp=1254735976603)
+- **30292 · [Estadística Estructural de Empresas: Sector Construcción (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946004158)**
+  - Sector o tema: Construcción y vivienda
+  - Subsector o subtema: Construcción en general (edificación y obra pública)
+  - Nivel de desagregación: Autonómico
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Conocer las principales características estructurales y económicas de las empresas del sector de Construcción
+  - Variables de estudio: Personal ocupado, cifra de negocios y otros ingresos, compras y consumos, gastos de personal, impuestos e inversiones
+  - Variables de clasificación: Desglose por actividades según CNAE-2025 y tamaño de las empresas
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](/dyngs/INEbase/operacion.htm?c=Estadistica_C&cid=1254736177121&menu=ultiDatos&idp=1254735576757)
+- **30333 · [Estimación de la Ocupación en Alojamientos Turísticos a partir de Datos de Plataformas Digitales (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946002619)**
+  - Sector o tema: Hostelería y turismo
+  - Subsector o subtema: Demanda turística
+  - Nivel de desagregación: Otros : Provincias con resultados para algunos municipios
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: El principal objetivo de esta estadística experimental es complementar la información de las encuestas tradicionales de ocupación en el ámbito del grupo Alojamientos turísticos y otros alojamientos de corta estancia que es el que tiene una mayor presencia en las plataformas digitales y en la que el fenómeno de la economía colaborativa (origen de estas plataformas) tiene un mayor impacto
+  - Variables de estudio: Alojamientos turísticos ocupados, noches ocupadas, estancia media y pernoctaciones
+  - Variables de clasificación: Procedencia de los viajeros (residentes/no residentes, y país/continente de origen de los no residentes) y características de los alojamientos (tamaño y tipo de alquiler). También desglose geográfico (CCAA, provincias ya algunos municipios)
+  - Periodicidad de la difusión: Mensual
+  - [Acceso a los resultados](/experimental/ocupacion/experimental_ocupacion.htm)
+- **30334 · [Medición del Turismo Nacional a partir de la Posición de los Teléfonos Móviles (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946002620)**
+  - Sector o tema: Hostelería y turismo
+  - Subsector o subtema: Demanda turística
+  - Nivel de desagregación: Municipal o inferior
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: El principal objetivo de esta estadística experimental es estimar los movimientos de los turistas residentes con un nivel de granularidad geográfica superior a la ETR, y con una mayor oportunidad
+  - Variables de estudio: Turistas, viajes y pernoctaciones
+  - Variables de clasificación: Si el origen o destino del viaje está en España, comunidad autónoma, provincia y municipio. Si el destino del viaje no está en España, país y continente
+  - Periodicidad de la difusión: Mensual
+  - [Acceso a los resultados](/experimental/viv_turistica/experimental_viv_turistica.htm)
+- **30335 · [Gasto Realizado por los Visitantes Extranjeros en sus Visitas a España (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946002621)**
+  - Sector o tema: Hostelería y turismo
+  - Subsector o subtema: Demanda turística
+  - Nivel de desagregación: Municipal o inferior
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: El objetivo de esta estadística experimental es proporcionar información trimestral sobre el gasto en destino real realizado por los visitantes extranjeros en sus visitas a España, con el fin de obtener una mayor desagregación que la proporcionada por la Encuesta de gasto turístico (EGATUR), tanto de los países de residencia como de las comunidades autónomas de destino
+  - Variables de estudio: Gasto en destino realizado por los visitantes no residentes en los viajes y las excursiones a España
+  - Variables de clasificación: Comunidad autónoma y país de residencia
+  - Periodicidad de la difusión: Trimestral
+  - [Acceso a los resultados](/experimental/gasto_tarjetas/trimestral.htm)
+- **30336 · [Medición del Número de Viviendas Turísticas en España y su Capacidad (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946002622)**
+  - Sector o tema: Hostelería y turismo
+  - Subsector o subtema: Oferta turística
+  - Nivel de desagregación: Municipal o inferior
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: El principal objetivo de esta estadística experimental es estimar el número de alojamientos de vivienda turística que hay en España, así como su capacidad, para dar respuesta a la creciente demanda de información que hay sobre esta materia
+  - Variables de estudio: Número de viviendas turísticas, número de plazas y plazas por vivienda turística
+  - Variables de clasificación: Geográficas (comunidad autónoma, provincia, municipio, distrito y sección censal), tamaño del municipio, zona (costera o interior) y grado de urbanización
+  - Periodicidad de la difusión: Semestral
+  - [Acceso a los resultados](/experimental/viv_turistica/experimental_viv_turistica.htm)
+- **30337 · [Distribución del Gasto Turístico Realizado por los Residentes en sus Visitas al Extranjero según País de Destino (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946003380)**
+  - Sector o tema: Hostelería y turismo
+  - Subsector o subtema: Demanda turística
+  - Nivel de desagregación: Otros : Total nacional desglosado por país de destino
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Suministrar información sobre el gasto turístico realizado por los visitantes residentes en España en sus visitas al extranjero para una mayor desagregación de los países de destino respecto de la información que es posible proporcionar considerando únicamente los datos obtenidos a través de la Encuesta de Turismo de Residentes (ETR)
+  - Variables de estudio: Gasto en destino realizado por los visitantes no residentes en los viajes y las excursiones a España
+  - Variables de clasificación: País de destino
+  - Periodicidad de la difusión: Trimestral
+  - [Acceso a los resultados](/experimental/turismo_gasto/turistas_residentes_gasto_extranjero.htm)
+
+## Instituto Nacional de Estadística / Dirección General de Estadísticas de la Población - Subdirección General de Estadísticas Demográficas
+
+- **30241 · [Censo de Viviendas (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946004928)**
+  - Sector o tema: Demografía y población
+  - Subsector o subtema: Estructura y situación de la población
+  - Nivel de desagregación: Municipal o inferior
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Recuento de las viviendas, hogares y conocimiento de sus características
+  - Variables de estudio: Régimen de tenencia, superficie útil, estructura de los hogares y núcleos familiares, características de la vivienda y del edificio
+  - Variables de clasificación: Área geográfica, tamaño del municipio, grado de urbanización, tipo de vivienda (principal /no principal), tamaño del hogar, régimen de tenencia, superficie, número de plantas sobre y bajo rasante, año de construcción
+  - Periodicidad de la difusión: Aún no determinada
+- **30245 · [Cifras Oficiales de Población de los Municipios Españoles: Revisión del Padrón Municipal (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259930993676)**
+  - Sector o tema: Demografía y población
+  - Subsector o subtema: Estructura y situación de la población
+  - Nivel de desagregación: Municipal o inferior
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Obtención de las cifras oficiales de población de todos los municipios españoles a 1 de enero de cada año
+  - Variables de estudio: Población
+  - Variables de clasificación: Sexo
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](/dyngs/INEbase/operacion.htm?c=Estadistica_C&cid=1254736177011&menu=resultados&idp=1254734710990)
+- **30247 · [Relación de Municipios y sus Códigos por Provincias (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259930990483)**
+  - Sector o tema: Normalización y metodología general
+  - Subsector o subtema: Elaboración y sistematización del uso de marcos conceptuales
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Obtención de la relación de municipios y sus códigos a 1 de enero de cada año
+  - Variables de estudio: Denominación y código de los municipios inscritos en el Registro de Entidades Locales
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](/dyngs/INEbase/operacion.htm?c=Estadistica_C&cid=1254736177031&menu=ultiDatos&idp=1254734710990)
+- **30261 · [Nomenclátor: Población por Unidad Poblacional (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259930990652)**
+  - Sector o tema: Demografía y población
+  - Subsector o subtema: Estructura y situación de la población
+  - Nivel de desagregación: Municipal o inferior
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Obtención de la relación y población de entidades y núcleos de población actualizada a 1 de enero de cada año
+  - Variables de estudio: Personas
+  - Variables de clasificación: Entidades colectivas, singulares, núcleos y diseminados de población de cada municipio con sus poblaciones, sexo
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](/dyngs/INEbase/operacion.htm?c=Estadistica_C&cid=1254736177010&menu=resultados&idp=1254735572981)
+- **30264 · [Indicadores Demográficos Básicos (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946004935)**
+  - Sector o tema: Demografía y población
+  - Subsector o subtema: Proyecciones, indicadores demográficos y recopilaciones
+  - Nivel de desagregación: Provincial
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Información sobre las principales características de la situación demográfica actual
+  - Variables de estudio: Población, mortalidad, fecundidad, migración
+  - Variables de clasificación: Sexo, edad, nacionalidad
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](/dyngs/INEbase/operacion.htm?c=Estadistica_C&cid=1254736177003&menu=ultiDatos&idp=1254735573002)
+- **30271 · [Tablas de Mortalidad (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931152707)**
+  - Sector o tema: Demografía y población
+  - Subsector o subtema: Proyecciones, indicadores demográficos y recopilaciones
+  - Nivel de desagregación: Provincial
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Medición de la mortalidad y las series biométricas para la población española de acuerdo a los flujos de defunciones observados y los efectivos poblacionales residentes en cada momento, por ámbito territorial
+  - Variables de estudio: Población, defunciones, riesgo de muerte, probabilidad de supervivencia, supervivientes a edades cumplidas y otras series biométricas
+  - Variables de clasificación: Sexo, edad
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](/dyngs/INEbase/operacion.htm?c=Estadistica_C&cid=1254736177004&menu=ultiDatos&idp=1254735573002)
+- **30276 · [Proyección de Hogares (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259936324286)**
+  - Sector o tema: Demografía y población
+  - Subsector o subtema: Proyecciones, indicadores demográficos y recopilaciones
+  - Nivel de desagregación: Provincial
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Proporcionar una simulación estadística del número de hogares futuros de España, de cada comunidad autónoma y de cada provincia, en caso de que se prolonguen las tendencias demográficas y comportamientos sociales actualmente observados. Se ofrecerá esta información cada dos años con un horizonte proyectivo de 15 años y desagregada según tipo de hogar. Los resultados serán, por su forma de construcción, plenamente coherentes con los de las Proyecciones de población también difundidos por el INE. Además, trimestralmente proporciona estimaciones de carácter provisional a las encuestas a hogares, que necesitan para su calibrado el número de hogares existentes cada mes, a nivel de provincia y según tamaño del hogar
+  - Variables de estudio: Número de hogares
+  - Variables de clasificación: Tamaño del hogar
+  - Periodicidad de la difusión: Bienal
+  - [Acceso a los resultados](/dyngs/INEbase/es/operacion.htm?c=Estadistica_C&cid=1254736176954&menu=resultados&idp=1254735572981)
+- **30278 · [Proyecciones de Población (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259944587212)**
+  - Sector o tema: Demografía y población
+  - Subsector o subtema: Proyecciones, indicadores demográficos y recopilaciones
+  - Nivel de desagregación: Provincial
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Cálculo de poblaciones futuras, por sexo y edad, con horizonte de población de 50 años. Las proyecciones pretenden mostrar cómo será la evolución de la población de mantenerse las tendencias demográficas más recientes
+  - Variables de estudio: Población, nacimientos, defunciones y movimientos migratorios
+  - Variables de clasificación: Sexo, país de nacimiento (España, extranjero), edad y año
+  - Periodicidad de la difusión: Bienal
+  - [Acceso a los resultados](/dyngs/INEbase/operacion.htm?c=Estadistica_C&cid=1254736176953&menu=ultiDatos&idp=1254735572981)
+- **30279 · [Estadística de Adquisiciones de Nacionalidad Española de Residentes (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259944596944)**
+  - Sector o tema: Demografía y población
+  - Subsector o subtema: Estructura y situación de la población
+  - Nivel de desagregación: Provincial
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Conocer el número de procedimientos de adquisición de nacionalidad española por parte de residentes en España resueltos cada año en función de las principales características demográficas del modo de adquisición. Esta información es a su vez necesaria para construir las cifras de población, dado que la variable 'nacionalidad' se ve afectada por el proceso de adquisición de nacionalidad española
+  - Variables de estudio: Residentes que han adquirido la nacionalidad española
+  - Variables de clasificación: Sexo, edad, nacionalidad anterior, modo de adquisición, país de nacimiento, año de llegada a España, nivel de estudios, relación con la actividad económica y ocupación
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](/dyngs/INEbase/operacion.htm?c=Estadistica_C&cid=1254736177001&menu=ultiDatos&idp=1254735573002)
+- **30280 · [Encuesta de Características Esenciales de la Población y las Viviendas (ECEPOV) (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946000382)**
+  - Sector o tema: Demografía y población
+  - Subsector o subtema: Estructura y situación de la población
+  - Nivel de desagregación: Otros : Provincial, grandes ciudades
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Conocimiento de características sociodemográficas de la población, de las formas de convivencia y de las viviendas
+  - Variables de estudio: Para personas: Edad, sexo, nacionalidad, situación de residencia, estado civil, relaciones de parentesco, lugar de nacimiento, variables migratorias, nivel educativo, movilidad cotidiana, conocimiento de lenguas. Para viviendas: Instalaciones, régimen de tenencia, superficie útil y número de habitaciones. Para edificios: número de plantas, año de construcción, accesibilidad, garaje y otras instalaciones
+  - Variables de clasificación: Zona, tamaño del municipio, estructura de los hogares y núcleos familiares, características de la vivienda y del edificio
+  - Periodicidad de la difusión: Quinquenal
+  - [Acceso a los resultados](/dyngs/INEbase/es/operacion.htm?c=Estadistica_C&cid=1254736177092&menu=ultiDatos&idp=1254735572981)
+- **30281 · [Censo Anual de Población (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946002629)**
+  - Sector o tema: Demografía y población
+  - Subsector o subtema: Estructura y situación de la población
+  - Nivel de desagregación: Municipal o inferior
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Recuento de la población y conocimiento de sus características
+  - Variables de estudio: Personas
+  - Variables de clasificación: Edad, sexo, nacionalidad, estado civil, relaciones de parentesco, lugar de nacimiento, variables migratorias, estudios en curso, nivel educativo, relación con la actividad económica, rama de actividad, ocupación, situación profesional
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](/dyngs/INEbase/operacion.htm?c=Estadistica_C&cid=1254736176992&menu=ultiDatos&idp=1254735572981)
+- **30282 · [Estadística Continua de Población (ECP) (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946002630)**
+  - Sector o tema: Demografía y población
+  - Subsector o subtema: Estructura y situación de la población
+  - Nivel de desagregación: Provincial
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Proporcionar cifras trimestrales de población residente y de hogares
+  - Variables de estudio: Personas y hogares
+  - Variables de clasificación: Sexo, año de nacimiento, edad, nacionalidad y país de nacimiento
+  - Periodicidad de la difusión: Trimestral
+  - [Acceso a los resultados](/dyngs/INEbase/operacion.htm?c=Estadistica_C&cid=1254736177095&menu=ultiDatos&idp=1254735572981)
+- **30283 · [Estadística de Migraciones y Cambios de Residencia (EMCR) (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946002631)**
+  - Sector o tema: Demografía y población
+  - Subsector o subtema: Migraciones
+  - Nivel de desagregación: Municipal o inferior
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Cuantificación y descripción de las principales características demográficas de los flujos migratorios tanto exteriores como interiores así como de los cambios de residencia dentro de la misma provincia o isla
+  - Variables de estudio: Inmigraciones procedentes del extranjero, emigraciones con destino al extranjero, migraciones interiores y cambios de residencia
+  - Variables de clasificación: Sexo, año de nacimiento, edad, nacionalidad, país de nacimiento, año de llegada a España, nivel de estudios, relación con la actividad y ocupación del migrante y origen (país, comunidad autónoma o provincia) o destino (país, comunidad autónoma o provincia) de la migración o cambio de residencia
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](/dyngs/INEbase/operacion.htm?c=Estadistica_C&cid=1254736177098&menu=ultiDatos&idp=1254735573002)
+- **30291 · [Estudios de Movilidad a partir de la Telefonía Móvil (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946001122)**
+  - Sector o tema: Demografía y población
+  - Subsector o subtema: Estructura y situación de la población
+  - Nivel de desagregación: Municipal o inferior
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Medición de la movilidad cotidiana de la población, delimitación de áreas urbanas funcionales en torno a ciudades y de población vinculada y estacional
+  - Variables de estudio: Personas
+  - Variables de clasificación: Áreas de movilidad específicas del proyecto (agrupaciones de municipios menores de 5.000 habitantes, municipios entre 5.0000 y 50.000, barrios o distritos de municipios mayores de 50.000)
+  - Periodicidad de la difusión: Aún no determinada
+  - [Acceso a los resultados](/covid/covid_movilidad.htm)
+- **30302 · [MNP: Estadística de Matrimonios (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259930993328)**
+  - Sector o tema: Demografía y población
+  - Subsector o subtema: Nacimientos, matrimonios y defunciones
+  - Nivel de desagregación: Municipal o inferior
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Obtención de los resultados definitivos de matrimonios para su publicación anual
+  - Variables de estudio: Matrimonios
+  - Variables de clasificación: Edades de los cónyuges, sexo, estado civil anterior, profesión, lugar de residencia, forma de celebración, nacionalidad de los cónyuges
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](/dyngs/INEbase/operacion.htm?c=Estadistica_C&cid=1254736176999&menu=ultiDatos&idp=1254735573002)
+- **30304 · [MNP: Estadística de Nacimientos (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931196821)**
+  - Sector o tema: Demografía y población
+  - Subsector o subtema: Nacimientos, matrimonios y defunciones
+  - Nivel de desagregación: Municipal o inferior
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Obtención de los resultados definitivos de nacimientos para su publicación anual
+  - Variables de estudio: Nacimientos
+  - Variables de clasificación: Edad de los padres, sexo, lugar de residencia, tiempo de gestación, peso del nacido, orden del nacimiento, profesión de la madre, profesión del padre, lugar de inscripción, nacionalidad de los padres
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](/dyngs/INEbase/operacion.htm?c=Estadistica_C&cid=1254736177007&menu=ultiDatos&idp=1254735573002)
+- **30306 · [MNP: Estadística de Defunciones (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931197163)**
+  - Sector o tema: Demografía y población
+  - Subsector o subtema: Nacimientos, matrimonios y defunciones
+  - Nivel de desagregación: Municipal o inferior
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Obtención de los resultados definitivos de defunciones para su publicación anual
+  - Variables de estudio: Defunciones
+  - Variables de clasificación: Edad, sexo, estado civil, profesión, lugar de residencia, lugar del fallecimiento
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](/dyngs/INEbase/operacion.htm?c=Estadistica_C&cid=1254736177008&menu=ultiDatos&idp=1254735573002)
+- **30317 · [Encuesta de Fecundidad (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259945997610)**
+  - Sector o tema: Demografía y población
+  - Subsector o subtema: Estructura y situación de la población
+  - Nivel de desagregación: Autonómico
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Obtención de datos sobre la fecundidad en España
+  - Variables de estudio: Fecundidad de la población
+  - Variables de clasificación: Sexo, edad, estado civil, relación de pareja, situación laboral, nivel de educación, nacionalidad, número de hijos
+  - Periodicidad de la difusión: Esporádica - Últimos datos: Año 2018
+  - [Acceso a los resultados](/dyngs/INEbase/operacion.htm?c=Estadistica_C&cid=1254736177006&menu=ultiDatos&idp=1254735573002)
+- **30319 · [Encuesta Nacional de Inmigrantes (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946004170)**
+  - Sector o tema: Demografía y población
+  - Subsector o subtema: Migraciones
+  - Nivel de desagregación: Autonómico
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Obtención de datos sobre las características socio-demográficas de los inmigrantes residentes en España, sus condiciones de vida, características socio-económicas, composición del grupo familiar, trayectorias migratorias, relaciones que mantienen los inmigrantes con sus países de origen (remesas, contactos,...), participación social y planes de futuro
+  - Variables de estudio: Condiciones en el país de partida, experiencia migratoria y medios utilizados para la llegada a España, variaciones residenciales y laborales en España, situación documental en España, relación con el país de nacimiento
+  - Variables de clasificación: Comunidad autónoma
+  - Periodicidad de la difusión: Quinquenal
+  - [Acceso a los resultados](https://www.ine.es/dyngs/INEbase/operacion.htm?c=Estadistica_C&cid=1254736177005&menu=resultados&idp=1254735573002)
+- **30323 · [Estimación Mensual de Nacimientos (EMN) (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946001876)**
+  - Sector o tema: Demografía y población
+  - Subsector o subtema: Nacimientos, matrimonios y defunciones
+  - Nivel de desagregación: Provincial
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Ofrecer estimaciones rápidas sobre el número de nacimientos ocurridos cada mes a partir de las inscripciones registradas en los Registros Civiles informatizados
+  - Variables de estudio: Nacimientos
+  - Variables de clasificación: Sexo del nacido y edad de la madre
+  - Periodicidad de la difusión: Mensual
+  - [Acceso a los resultados](/dyngs/INEbase/operacion.htm?c=Estadistica_C&cid=1254736177079&menu=ultiDatos&idp=1254735573002)
+- **30324 · [Estimación de Defunciones Semanales (EDeS) (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946001877)**
+  - Sector o tema: Demografía y población
+  - Subsector o subtema: Nacimientos, matrimonios y defunciones
+  - Nivel de desagregación: Provincial
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Ofrecer estimaciones rápidas sobre el número de defunciones ocurridas cada semana a partir de las inscripciones registradas en los Registros Civiles informatizados
+  - Variables de estudio: Defunciones
+  - Variables de clasificación: Sexo y edad
+  - Periodicidad de la difusión: Mensual
+  - [Acceso a los resultados](/experimental/defunciones/experimental_defunciones.htm)
+
+## Instituto Nacional de Estadística / Dirección General de Estadísticas de la Población - Subdirección General de Estadísticas Sociales
+
+- **30256 · [Indicadores Urbanos (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931139270)**
+  - Sector o tema: Nivel, calidad y condiciones de vida
+  - Subsector o subtema: Indicadores, síntesis y recopilaciones en el ámbito social
+  - Nivel de desagregación: Otros : Áreas urbanas (ciudades y conurbaciones, áreas urbanas funcionales, áreas submunicipales)
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Análisis del fenómeno urbano mediante la recogida de datos estadísticos de contenido socioeconómico, los cuales permitan conocer y medir la calidad de vida en un amplio número de áreas territoriales
+  - Variables de estudio: Se obtienen 45 indicadores relevantes en 7 dominios o áreas de estudio
+  - Variables de clasificación: Sexo, edad, tipo de hogar, nivel de renta, situación laboral, nivel de educación, nacionalidad, modos de desplazamiento al trabajo
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](/dyngs/INEbase/operacion.htm?c=Estadistica_C&cid=1254736176957&menu=ultiDatos&idp=1254735976608)
+- **30325 · [Atlas de Distribución de Renta de los Hogares (ADRH) (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946001875)**
+  - Sector o tema: Nivel, calidad y condiciones de vida
+  - Subsector o subtema: Consumo y distribución de la renta
+  - Nivel de desagregación: Autonómico
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Ofrecer información sobre la distribución de la renta media de los hogares, y sus componentes, de forma muy detallada en el territorio. También se ofrecen algunos indicadores de desigualdad monetaria
+  - Variables de estudio: Renta neta y bruta percibida por los hogares a partir de fuentes tributarias, y fuentes de renta (salarios, pensiones, prestaciones...)
+  - Variables de clasificación: Sexo, edad, nacionalidad
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](/dyngs/INEbase/operacion.htm?c=Estadistica_C&cid=1254736177088&menu=ultiDatos&idp=1254735976608)
+- **30414 · [Encuesta de Morbilidad Hospitalaria (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931063768)**
+  - Sector o tema: Salud
+  - Subsector o subtema: Personal, recursos económicos y actividades del sistema sanitario
+  - Nivel de desagregación: Provincial
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Conocimiento de la morbilidad atendida en hospitales según el diagnóstico principal
+  - Variables de estudio: Altas hospitalarias, estancias causadas, estancia media
+  - Variables de clasificación: Diagnóstico principal, sexo, edad, motivo del alta, dependencia del hospital, urgencia del ingreso, provincia de residencia, provincia de hospitalización
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](/dyngs/INEbase/operacion.htm?c=Estadistica_C&cid=1254736176778&menu=ultiDatos&idp=1254735573175)
+- **30416 · [Estadística de Profesionales Sanitarios Colegiados (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931063921)**
+  - Sector o tema: Salud
+  - Subsector o subtema: Personal, recursos económicos y actividades del sistema sanitario
+  - Nivel de desagregación: Provincial
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Información del número de colegiados en las profesiones sanitarias tituladas con organización profesional, de acuerdo con lo dispuesto en el artículo 2 de la Ley 44/2003, de 21 de noviembre, de ordenación de las profesiones sanitarias
+  - Variables de estudio: Colegiados por especialidad
+  - Variables de clasificación: Sexo, lugar de colegiación, edad, situación laboral
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](/dyngs/INEbase/operacion.htm?c=Estadistica_C&cid=1254736176781&menu=ultiDatos&idp=1254735573175)
+- **30417 · [Estadística de Defunciones según la Causa de Muerte (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931064091)**
+  - Sector o tema: Salud
+  - Subsector o subtema: Estado de salud y factores condicionantes
+  - Nivel de desagregación: Provincial
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Conocimiento del fenómeno de la mortalidad atendiendo a la causa básica de la defunción, distinguiendo entre muertes fetales tardías y el resto, y suministrar información para la construcción de indicadores de salud
+  - Variables de estudio: Personas fallecidas y muertes fetales tardías
+  - Variables de clasificación: Causa de la defunción, sexo, edad, mes de fallecimiento, provincia de residencia y de fallecimiento y nivel de estudios
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](/dyngs/INEbase/operacion.htm?c=Estadistica_C&cid=1254736176780&menu=ultiDatos&idp=1254735573175)
+- **30418 · [Encuesta de Discapacidad, Autonomía Personal y Situaciones de Dependencia (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931064261)**
+  - Sector o tema: Salud
+  - Subsector o subtema: Estado de salud y factores condicionantes
+  - Nivel de desagregación: Autonómico
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Estimación del número de personas con alguna discapacidad y cuáles son éstas
+  - Variables de estudio: Limitaciones en la actividad y restricciones en la participación en las situaciones de la vida cotidiana, severidad de dichas limitaciones y restricciones, tipos de deficiencias, causas de las deficiencias, ayudas técnicas, adaptaciones especiales (en el hogar, en el trabajo, etc.) cuidados personales y utilización de los servicios sociales y sanitarios
+  - Variables de clasificación: Edad, sexo, tipo de discapacidad, de deficiencia, ingresos familiares, nivel de estudios, relación con la actividad, tamaño del municipio de residencia, etc
+  - Periodicidad de la difusión: Sexenal - Últimos datos: Año 2023
+  - [Acceso a los resultados](/dyngs/INEbase/operacion.htm?c=Estadistica_C&cid=1254736176782&menu=ultiDatos&idp=1254735573175)
+- **30447 · [Encuesta de Empleo del Tiempo (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931064593)**
+  - Sector o tema: Nivel, calidad y condiciones de vida
+  - Subsector o subtema: Condiciones y calidad de vida
+  - Nivel de desagregación: Autonómico
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Conocimiento de las actividades realizadas por las personas: actividad de producción de bienes y servicios (renumeradas y no remuneradas), distribución de las responsabilidades familiares del hogar, participación de la población en actividades culturales y de ocio, tiempo empleado en transporte y en otras actividades
+  - Variables de estudio: Nivel, estructura y distribución del tiempo de la población en diferentes actividades, porcentaje de personas que realizan distintas actividades y duración promedio y agregada de aquéllas
+  - Variables de clasificación: Sociales básicas
+  - Periodicidad de la difusión: Irregular - Últimos datos: 2009-2010
+  - [Acceso a los resultados](/dyngs/INEbase/operacion.htm?c=Estadistica_C&cid=1254736176815&menu=resultados&idp=1254735976608)
+- **30450 · [Encuesta sobre Equipamiento y Uso de Tecnologías de Información y Comunicación en los Hogares (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931064762)**
+  - Sector o tema: Tecnologías de la información y las comunicaciones (TIC)
+  - Subsector o subtema: Tecnologías de la información y las comunicaciones
+  - Nivel de desagregación: Autonómico
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Conocer la penetración de las tecnologías de información y comunicación en los hogares, su equipamiento en dichas tecnologías y el uso que las personas hacen del ordenador, Internet y comercio electrónico
+  - Variables de estudio: Equipamiento de las viviendas (teléfono, TV, ordenador, Internet), grado de utilización de nuevas tecnologías (ordenador, Internet, comercio electrónico) de las personas
+  - Variables de clasificación: Tamaño del hogar, sexo, edad, nivel de estudios, relación con la situación laboral
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](/dyngs/INEbase/operacion.htm?c=Estadistica_C&cid=1254736176741&menu=ultiDatos&idp=1254735976608)
+- **30453 · [Encuesta de Condiciones de Vida (ECV) (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931119237)**
+  - Sector o tema: Nivel, calidad y condiciones de vida
+  - Subsector o subtema: Condiciones y calidad de vida
+  - Nivel de desagregación: Autonómico
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Investigación sobre distintos aspectos del nivel, condiciones de vida de los hogares y sus cambios
+  - Variables de estudio: Ingresos del hogar y de sus miembros, condiciones de vida, evolución en el tiempo del nivel y condiciones de vida, composición de la pobreza y la exclusión social
+  - Variables de clasificación: Demográficas, económicas, sociales
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](/dyngs/INEbase/operacion.htm?c=Estadistica_C&cid=1254736176807&menu=ultiDatos&idp=1254735976608)
+- **30454 · [Encuesta a las Personas Sin Hogar (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931065097)**
+  - Sector o tema: Nivel, calidad y condiciones de vida
+  - Subsector o subtema: Situación social de grupos específicos
+  - Nivel de desagregación: Autonómico
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Conocer el perfil sociodemográfico y las condiciones de vida de las personas sin hogar
+  - Variables de estudio: Características sociodemográficas, frecuentación de servicios sociales, condiciones de vida, alojamiento: antecedentes y búsqueda, actividad, empleo y paro, situación económica, formación, salud, vínculos familiares y sociales, utilización de servicios sociales e igualdad, no discriminación y relación con la justicia
+  - Variables de clasificación: Edad, sexo y nacionalidad
+  - Periodicidad de la difusión: Irregular - Últimos datos: Año 2022
+  - [Acceso a los resultados](/dyngs/INEbase/operacion.htm?c=Estadistica_C&cid=1254736176817&menu=ultiDatos&idp=1254735976608)
+- **30458 · [Encuesta de Presupuestos Familiares (EPF) (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931130921)**
+  - Sector o tema: Nivel, calidad y condiciones de vida
+  - Subsector o subtema: Consumo y distribución de la renta
+  - Nivel de desagregación: Autonómico
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Evolución anual de los gastos de los hogares, estructura y distribución de los mismos. Información para la estimación del consumo privado de la Contabilidad Nacional y para establecer la estructura de las ponderaciones del IPC
+  - Variables de estudio: Gastos de consumo de los hogares por bienes y servicios en términos monetarios y no monetarios
+  - Variables de clasificación: Tamaño de municipio, tamaño y composición del hogar
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](/dyngs/INEbase/operacion.htm?c=Estadistica_C&cid=1254736176806&menu=ultiDatos&idp=1254735976608)
+- **30463 · [Estadística de Nulidades, Separaciones y Divorcios (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931146871)**
+  - Sector o tema: Demografía y población
+  - Subsector o subtema: Nacimientos, matrimonios y defunciones
+  - Nivel de desagregación: Provincial
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Conocimiento del número de divorcios, separaciones y nulidades y de las principales características sociodemográficas de los cónyuges implicados
+  - Variables de estudio: Número de sentencias de divorcio, separación y nulidad
+  - Variables de clasificación: Edad, sexo y nacionalidad de los cónyuges, duración del matrimonio, número de hijos y características del fallo de la sentencia
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](/dyngs/INEbase/operacion.htm?c=Estadistica_C&cid=1254736176798&menu=ultiDatos&idp=1254735573206)
+- **30466 · [Estadística de la Población Condenada Adulta (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931147382)**
+  - Sector o tema: Seguridad y justicia
+  - Subsector o subtema: Actividad judicial
+  - Nivel de desagregación: Autonómico
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Estudio sociodemográfico y criminológico de los condenados adultos por sentencia firme
+  - Variables de estudio: Personas condenadas. Delitos y penas
+  - Variables de clasificación: Sexo, edad, nacionalidad, tipo de delito, tipo y duración de la pena
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](/dyngs/INEbase/operacion.htm?c=Estadistica_C&cid=1254736176793&menu=ultiDatos&idp=1254735573206)
+- **30467 · [Estadística de la Población Condenada Menor de Edad (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931147553)**
+  - Sector o tema: Seguridad y justicia
+  - Subsector o subtema: Actividad judicial
+  - Nivel de desagregación: Autonómico
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Estudio sociodemográfico y criminológico de los menores condenados por sentencia firme
+  - Variables de estudio: Menores condenados. Infracciones penales y medidas adoptadas
+  - Variables de clasificación: Sexo, nacionalidad, edad, tipo de infracción cometida y tipo de medida adoptada
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](/dyngs/INEbase/operacion.htm?c=Estadistica_C&cid=1254736176795&menu=ultiDatos&idp=1254735573206)
+- **30468 · [Estadística de Violencia Doméstica y Violencia de Género (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931147724)**
+  - Sector o tema: Seguridad y justicia
+  - Subsector o subtema: Actividad judicial
+  - Nivel de desagregación: Autonómico
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Estudio de la violencia doméstica y de la violencia de género
+  - Variables de estudio: Víctimas, personas denunciadas, medidas cautelares dictadas e infracciones penales imputadas. Sentencias firmes
+  - Variables de clasificación: Sexo, edad, lugar de nacimiento. Tipo de medidas cautelares, tipo de infracciones penales
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](/dyngs/INEbase/operacion.htm?c=Estadistica_C&cid=1254736176866&menu=ultiDatos&idp=1254735573206)
+- **30469 · [Encuesta de Centros y Servicios de Atención a las Personas Sin Hogar y en Exclusión Residencial (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931147891)**
+  - Sector o tema: Nivel, calidad y condiciones de vida
+  - Subsector o subtema: Situación social de grupos específicos
+  - Nivel de desagregación: Autonómico
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Estudio de las características de los centros de atención a las personas sin hogar
+  - Variables de estudio: Prestaciones ofrecidas, población atendida, fuentes de financiación, recursos humanos y financieros, y características de los centros
+  - Variables de clasificación: Prestación ofrecida, población atendida, titularidad, tamaño del municipio de ubicación, centros de alojamiento colectivo y centros que ofrecen restauración
+  - Periodicidad de la difusión: Bienal
+  - [Acceso a los resultados](/dyngs/INEbase/operacion.htm?c=Estadistica_C&cid=1254736176925&menu=ultiDatos&idp=1254735976608)
+- **30471 · [Indicadores de Calidad de Vida (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259937891970)**
+  - Sector o tema: Nivel, calidad y condiciones de vida
+  - Subsector o subtema: Indicadores, síntesis y recopilaciones en el ámbito social
+  - Nivel de desagregación: Autonómico
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Medida concisa y multidimensional del bienestar de la población y de los factores que lo condicionan y su comparación en el tiempo, entre grupos sociales y entre territorios
+  - Variables de estudio: Indicadores sobre condiciones materiales de vida, trabajo, salud, educación, ocio y relaciones sociales, seguridad física y personal, gobernanza y derechos básicos, entorno y medioambiente, bienestar subjetivo
+  - Variables de clasificación: Sexo, edad, tipo de hogar, nivel de renta, nivel de educación, nacionalidad, grado de urbanización
+  - Periodicidad de la difusión: Continua
+  - [Acceso a los resultados](https://www.ine.es/dynt3/ICV/index.html)
+- **30473 · [Encuesta de Salud de España (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946000393)**
+  - Sector o tema: Salud
+  - Subsector o subtema: Estado de salud y factores condicionantes
+  - Nivel de desagregación: Autonómico
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Información armonizada sobre morbilidad percibida, utilización de servicios sanitarios, determinantes de salud y actividades preventivas
+  - Variables de estudio: Autopercepción del estado de salud, limitación de la actividad, uso de servicios sanitarios y de medicamentos, comportamiento y hábitos de vida y realización de prácticas preventivas
+  - Variables de clasificación: Edad, sexo, país de nacimiento, nivel de estudios, relación con la actividad económica, clase social de la persona de referencia, ingresos mensuales
+  - Periodicidad de la difusión: Trienal
+  - [Acceso a los resultados](/dyngs/INEbase/operacion.htm?c=Estadistica_C&cid=1254736177114&menu=ultiDatos&idp=1254735573175)
+- **30474 · [Encuesta de Inclusión Financiera (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946004936)**
+  - Sector o tema: Nivel, calidad y condiciones de vida
+  - Subsector o subtema: Condiciones y calidad de vida
+  - Nivel de desagregación: Nacional
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Obtener información sobre inclusión financiera, hábitos y preferencias de los ciudadanos en su relación con las entidades financieras. Acceso a otros servicios básicos
+  - Variables de estudio: Productos financieros, operaciones bancarias, canales utilizados para gestiones bancarias, uso de banca online, métodos de pago habitual, servicios bancarios ofrecidos por la sucursal/oficina bancaria habitual, conocimientos financieros. Otros servicios básicos
+  - Variables de clasificación: Edad, sexo, estado civil, nivel de estudios, relación con la actividad económica, ingresos del hogar, tamaño del hogar, tamaño del municipio
+  - Periodicidad de la difusión: Irregular
+- **30475 · [Encuesta de Discapacidad, Autonomía Personal y Situaciones de Dependencia - Centros (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946005708)**
+  - Sector o tema: Salud
+  - Subsector o subtema: Estado de salud y factores condicionantes
+  - Nivel de desagregación: Autonómico
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Estimación del número de personas residentes en centros con alguna discapacidad y cuáles son éstas
+  - Variables de estudio: Limitaciones en la actividad y restricciones en la participación en las situaciones de la vida cotidiana, severidad de dichas limitaciones y restricciones, tipos de deficiencias, causas de las deficiencias, ayudas técnicas, adaptaciones especiales (en el hogar, en el trabajo, etc.) cuidados personales y tipo de asistencia
+  - Variables de clasificación: Edad, sexo, tipo de discapacidad, de deficiencia, tipo de centro
+  - Periodicidad de la difusión: Sexenal - Últimos datos: Año 2023
+  - [Acceso a los resultados](https://www.ine.es/dyngs/INEbase/operacion.htm?c=Estadistica_C&cid=1254736176782&menu=ultiDatos&idp=1254735573175)
+
+## Instituto Nacional de Estadística / Dirección General de Estadísticas de la Población - Subdirección General de Estadísticas del Mercado Laboral
+
+- **30100 · [Encuesta de Inserción Laboral de la Población con Titulación Superior (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931156791)**
+  - Sector o tema: Educación y formación
+  - Subsector o subtema: Formación permanente y relación educación empleo
+  - Nivel de desagregación: Autonómico
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Obtener información para el colectivo que finaliza la universidad: de los itinerarios educativos y laborales seguidos, el análisis de las características de los empleos encontrados y su adecuación a la formación recibida así como el estudio de los periodos de desempleo e inactividad una vez han abandonado el sistema educativo
+  - Variables de estudio: Entorno demográfico y universitario, educación y aprendizaje, proceso de incorporación al mercado laboral, distancia entre formación y empleo, movilidad del titulado
+  - Variables de clasificación: Sexo, edad, tipo de universidad, agrupaciones de titulaciones, rama de estudio, ámbito de estudio, comunidad autónoma de la universidad de estudio, nacionalidad, país o región de residencia
+  - Periodicidad de la difusión: Cuatrienal - Últimos datos: Año 2019
+  - [Acceso a los resultados](/dyngs/INEbase/operacion.htm?c=Estadistica_C&cid=1254736176991&menu=ultiDatos&idp=1254735976597)
+- **30122 · [Estadística de Financiación y Gastos de la Enseñanza Privada (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931060585)**
+  - Sector o tema: Educación y formación
+  - Subsector o subtema: Personal y aspectos económicos de la educación
+  - Nivel de desagregación: Autonómico
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Estudio de las características estructurales y económicas de los centros de enseñanza que desarrollan su actividad en el sector de la enseñanza privada reglada, tanto concertados (con alguna unidad escolar financiada con fondos públicos) como no concertados
+  - Variables de estudio: Gastos e ingresos, coste de los distintos niveles de enseñanza, servicios complementarios y servicios asistenciales, estructura y actividad de los centros, personal y alumnos
+  - Variables de clasificación: Nivel educativo, tipo, tamaño y titularidad del centro, tipo de servicio
+  - Periodicidad de la difusión: Sexenal - Últimos datos: Curso 2020/2021
+  - [Acceso a los resultados](/dyngs/INEbase/operacion.htm?c=Estadistica_C&cid=1254736176760&menu=ultiDatos&idp=1254735573113)
+- **30132 · [Encuesta Cuatrienal de Coste Laboral (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931119406)**
+  - Sector o tema: Mercado laboral y salarios
+  - Subsector o subtema: Ingresos y costes salariales
+  - Nivel de desagregación: Autonómico
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Estimación del coste de la mano de obra y sus componentes según las tabulaciones determinadas por Eurostat
+  - Variables de estudio: Coste de la mano de obra por conceptos, tiempo de trabajo
+  - Variables de clasificación: Tamaño del establecimiento por número de trabajadores, ramas de actividad
+  - Periodicidad de la difusión: Cuatrienal - Últimos datos: Año 2020
+  - [Acceso a los resultados](https://ec.europa.eu/eurostat/web/labour-market/information-data/labour-costs)
+- **30133 · [Encuesta Cuatrienal de Estructura Salarial (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931119569)**
+  - Sector o tema: Mercado laboral y salarios
+  - Subsector o subtema: Ingresos y costes salariales
+  - Nivel de desagregación: Autonómico
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Conocimiento de la distribución de los salarios en función de las características individuales y colectivas
+  - Variables de estudio: Salarios mensuales y anuales
+  - Variables de clasificación: Rama de actividad, sexo, ocupación, titulación, tipo de contrato, antigüedad
+  - Periodicidad de la difusión: Cuatrienal - Últimos datos: Año 2022
+  - [Acceso a los resultados](/dyngs/INEbase/es/operacion.htm?c=Estadistica_C&cid=1254736177025&menu=resultados&secc=1254736195109&idp=1254735976596)
+- **30185 · [Índice de Precios del Trabajo (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931119735)**
+  - Sector o tema: Precios
+  - Subsector o subtema: Precios de las distintas actividades sectoriales
+  - Nivel de desagregación: Autonómico
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Medición de la evolución de los precios de la mano de obra y obtención de índices de distinto nivel de agregación
+  - Variables de estudio: Precios de la mano de obra aproximados por el salario/hora según distintas características de los trabajadores
+  - Variables de clasificación: Actividad económica según la CNAE-2009, sexo, intervalos de edad, ocupación según la CNO-2011, tipo de contrato, nacionalidad (española y resto de nacionalidades), antigüedad
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](/dyngs/INEbase/operacion.htm?c=Estadistica_C&cid=1254736177027&menu=ultiDatos&idp=1254735976596)
+- **30187 · [Encuesta Trimestral de Coste Laboral (ETCL) (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931119895)**
+  - Sector o tema: Mercado laboral y salarios
+  - Subsector o subtema: Ingresos y costes salariales
+  - Nivel de desagregación: Autonómico
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Estudiar la evolución a corto plazo del coste laboral y sus componentes más importantes, prestando una especial atención a los salarios
+  - Variables de estudio: Sueldos y salarios, cotizaciones sociales, horas trabajadas
+  - Variables de clasificación: Sectores y ramas de actividad, tamaños de las unidades y tipo de jornada
+  - Periodicidad de la difusión: Trimestral
+  - [Acceso a los resultados](/dyngs/INEbase/operacion.htm?c=Estadistica_C&cid=1254736045053&menu=ultiDatos&idp=1254735976596)
+- **30188 · [Encuesta Anual de Coste Laboral (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931120063)**
+  - Sector o tema: Mercado laboral y salarios
+  - Subsector o subtema: Ingresos y costes salariales
+  - Nivel de desagregación: Autonómico
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Estimación del coste anual de la mano de obra y sus componentes
+  - Variables de estudio: Coste de la mano de obra por conceptos
+  - Variables de clasificación: Tamaño del establecimiento por número de trabajadores, ramas de actividad
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](/dyngs/INEbase/operacion.htm?c=Estadistica_C&cid=1254736060920&menu=ultiDatos&idp=1254735976596)
+- **30189 · [Encuesta Anual de Estructura Salarial (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931120231)**
+  - Sector o tema: Mercado laboral y salarios
+  - Subsector o subtema: Ingresos y costes salariales
+  - Nivel de desagregación: Autonómico
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Conocimiento de la distribución de los salarios en función de las características individuales y colectivas
+  - Variables de estudio: Salario anual
+  - Variables de clasificación: Ramas de actividad, sexo, ocupación
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](/dyngs/INEbase/es/operacion.htm?c=Estadistica_C&cid=1254736177025&menu=resultados&secc=1254736061996&idp=1254735976596)
+- **30211 · [Índice de Coste Laboral Armonizado (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931120399)**
+  - Sector o tema: Mercado laboral y salarios
+  - Subsector o subtema: Ingresos y costes salariales
+  - Nivel de desagregación: Nacional
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Estimación de los índices de costes laborales mediante una metodología común para toda la Unión Europea
+  - Variables de estudio: Coste laboral total, coste salarial, cotizaciones sociales obligatorias
+  - Variables de clasificación: Ramas de actividad
+  - Periodicidad de la difusión: Trimestral
+  - [Acceso a los resultados](/dyngs/INEbase/operacion.htm?c=Estadistica_C&cid=1254736053992&menu=ultiDatos&idp=1254735976596)
+- **30308 · [Encuesta de Población Activa (EPA) (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931120732)**
+  - Sector o tema: Mercado laboral y salarios
+  - Subsector o subtema: Mercado laboral
+  - Nivel de desagregación: Provincial
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Obtención de resultados sobre los ocupados, los parados y los inactivos. La Encuesta de Población Activa (EPA) da cumplimiento a lo establecido en el Reglamento (CE) n° 577/98 del Consejo de 9 de marzo de 1998 relativo a la organización de una encuesta muestral sobre la población activa en la Comunidad, puesto que la EPA contiene a la Encuesta Comunitaria de Fuerza de Trabajo (ECFT) de la Unión Europea
+  - Variables de estudio: Relación con la actividad
+  - Variables de clasificación: Edad, sexo, estado civil, nacionalidad, estudios, rama de actividad, ocupación, situación profesional, tipo de contrato, horas trabajadas
+  - Periodicidad de la difusión: Trimestral, anual
+  - [Acceso a los resultados](/dyngs/INEbase/es/operacion.htm?c=Estadistica_C&cid=1254736176918&idp=1254735976595&menu=resultados)
+- **30309 · [Encuesta Comunitaria de Fuerza de Trabajo (ECFT) (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931120900)**
+  - Sector o tema: Mercado laboral y salarios
+  - Subsector o subtema: Mercado laboral
+  - Nivel de desagregación: Autonómico
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Obtención de resultados sobre la fuerza de trabajo de forma coordinada en los países de la Unión Europea, para dar cumplimiento a la reglamentación de la Unión Europea
+  - Variables de estudio: Relación con la actividad
+  - Variables de clasificación: Edad, sexo, estado civil, estudios, nacionalidad, ocupación, actividad, situación profesional, características del empleo
+  - Periodicidad de la difusión: Trimestral
+  - [Acceso a los resultados](http://ec.europa.eu/eurostat/web/lfs/overview)
+- **30310 · [Flujos de la Población Activa (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931121066)**
+  - Sector o tema: Mercado laboral y salarios
+  - Subsector o subtema: Mercado laboral
+  - Nivel de desagregación: Autonómico
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Seguimiento de la población o de grupos particulares de ella a lo largo del tiempo, en lo referente a su relación con el mercado laboral, mediante la explotación especial de los ficheros de la EPA
+  - Variables de estudio: Cambios respecto a la actividad económica
+  - Variables de clasificación: Edad, sexo, nivel de formación alcanzado, nacionalidad, situación profesional de los ocupados, grandes grupos ocupacionales, sector de actividad, tipo de contrato
+  - Periodicidad de la difusión: Trimestral
+  - [Acceso a los resultados](/dyngs/INEbase/operacion.htm?c=Estadistica_C&cid=1254736176907&menu=ultiDatos&idp=1254735976595)
+- **30320 · [Estadística del Empleo de las Personas con Discapacidad (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259930978853)**
+  - Sector o tema: Mercado laboral y salarios
+  - Subsector o subtema: Relaciones laborales y otros aspectos del trabajo
+  - Nivel de desagregación: Autonómico
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Conocer la situación de las personas con discapacidad y su integración en el mercado laboral
+  - Variables de estudio: Relación con la actividad de la población que ha solicitado una valoración del grado de discapacidad
+  - Variables de clasificación: Edad, sexo, tipo de discapacidad, grado de discapacidad, tipología del hogar
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](/dyngs/INEbase/operacion.htm?c=Estadistica_C&cid=1254736055502&menu=ultiDatos&idp=1254735976621)
+- **30331 · [Estadística del Salario de las Personas con Discapacidad (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259941118497)**
+  - Sector o tema: Mercado laboral y salarios
+  - Subsector o subtema: Relaciones laborales y otros aspectos del trabajo
+  - Nivel de desagregación: Nacional
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Analizar la ganancia anual de los trabajadores con discapacidad y hacerlo en términos comparativos con los trabajadores sin discapacidad
+  - Variables de estudio: Salarios anuales
+  - Variables de clasificación: Edad, sexo, tipo de discapacidad, grado de discapacidad, ocupación, tipo de contrato, tipo de jornada
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](/dyngs/INEbase/operacion.htm?c=Estadistica_C&cid=1254736176911&menu=ultiDatos&idp=1254735976621)
+- **30332 · [Estadística de la Vida Laboral de las Personas con Discapacidad (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946000381)**
+  - Sector o tema: Mercado laboral y salarios
+  - Subsector o subtema: Relaciones laborales y otros aspectos del trabajo
+  - Nivel de desagregación: Nacional
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Conocer la situación de las personas con discapacidad en cuanto a su relación con la afiliación, la cotización y las prestaciones percibidas
+  - Variables de estudio: Tipo de contrato y duración, características del empleador, bases de cotización, pensiones, etc.
+  - Variables de clasificación: Edad, sexo, tipo de discapacidad, grado de discapacidad
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](/dyngs/INEbase/operacion.htm?c=Estadistica_C&cid=1254736177069&menu=ultiDatos&idp=1254735976621)
+- **30338 · [Estadística sobre Relación con la Actividad a partir de Datos Administrativos (En proyecto) (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946003396)**
+  - Sector o tema: Mercado laboral y salarios
+  - Subsector o subtema: Mercado laboral
+  - Nivel de desagregación: Municipal o inferior
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Proporcionar información de máximo detalle territorial sobre las principales variables del mercado laboral
+  - Variables de estudio: Edad, sexo, nacionalidad, situación de residencia, estado civil, relaciones de parentesco, lugar de nacimiento, variables migratorias, estudios en curso, nivel educativo, relación con la actividad económica, rama de actividad, ocupación, situación profesional
+  - Variables de clasificación: Zonas geográficas, tamaño del municipio
+  - Periodicidad de la difusión: Mensual
+- **30451 · [Encuesta de Transición Educativa - Formativa e Inserción Laboral (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931064931)**
+  - Sector o tema: Educación y formación
+  - Subsector o subtema: Formación permanente y relación educación empleo
+  - Nivel de desagregación: Autonómico
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Proporcionar información sobre la trayectoria educativa posterior de las personas que han realizado estudios de educación secundaria y formación profesional, así como los diversos aspectos de su proceso de inserción laboral, es decir, la transición desde la educación y la formación al mercado de trabajo
+  - Variables de estudio: Datos sociodemográficos, educación y aprendizaje, analizando en detalle la trayectoria educativa seguida, proceso de incorporación al mercado laboral, distancia entre formación y empleo, movilidad del entrevistado
+  - Variables de clasificación: Sexo, edad, colectivo investigado, titularidad del centro, nacionalidad, comunidad autónoma de estudio, modalidad de Bachillerato, agrupación de familias profesionales
+  - Periodicidad de la difusión: Cuatrienal - Últimos datos: Año 2019
+  - [Acceso a los resultados](/dyngs/INEbase/operacion.htm?c=Estadistica_C&cid=1254736056996&menu=ultiDatos&idp=1254735976597)
+- **30459 · [Encuesta sobre la Participación de la Población Adulta en las Actividades de Aprendizaje (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931132647)**
+  - Sector o tema: Educación y formación
+  - Subsector o subtema: Formación permanente y relación educación empleo
+  - Nivel de desagregación: Autonómico
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Conocer las actividades de formación y aprendizaje realizadas por la población adulta 'aprendizaje a lo largo de la vida'
+  - Variables de estudio: Participación en actividades de aprendizaje, características de las actividades de aprendizaje, dificultades para participar, búsqueda de información sobre posibilidades de aprendizaje y conocimientos lingüísticos
+  - Variables de clasificación: Tipo de actividad (educación formal y no formal, aprendizaje informal), características de las personas adultas (sexo, grupo de edad, nacionalidad, perfil educativo, situación en el mercado laboral), habilidades adquiridas (TIC, idiomas), participación cultural y social
+  - Periodicidad de la difusión: Sexenal - Últimos datos: Año 2022
+  - [Acceso a los resultados](/dyngs/INEbase/operacion.htm?c=Estadistica_C&cid=1254736176759&menu=ultiDatos&idp=1254735573113)
+- **30460 · [Encuesta de Gasto de los Hogares en Educación (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931146559)**
+  - Sector o tema: Educación y formación
+  - Subsector o subtema: Personal y aspectos económicos de la educación
+  - Nivel de desagregación: Nacional
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Profundizar en el conocimiento del gasto de los hogares en educación en los distintos niveles educativos y atender la demanda internacional de información
+  - Variables de estudio: Desagregación del gasto total en educación de los hogares, tanto de los gastos en bienes y servicios adquiridos en los centros educativos como de aquéllos procedentes de otros sectores (transporte, alojamiento, comedores, artes gráficas, etc.) ocasionados con motivo de la educación de alguno de sus miembros. Análisis detallado del gasto en educación que permita la obtención de resultados del gasto total y gastos medios (por hogar y por estudiante) por nivel de enseñanza, o tipo de bien o servicio
+  - Variables de clasificación: Tipo de centro, nivel de enseñanza, tipo de bien o servicio
+  - Periodicidad de la difusión: Cuatrienal - Últimos datos: Curso 2023-2024
+  - [Acceso a los resultados](/dyngs/INEbase/operacion.htm?c=Estadistica_C&cid=1254736176983&menu=ultiDatos&idp=1254735573113)
+
+## Instituto Nacional de Estadística / Dirección General de Estadísticas de la Población - Unidad de Apoyo a la DG de Estadísticas de la Población
+
+- **30290 · [Marco Muestral para Encuestas Dirigidas a la Población (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946000391)**
+  - Sector o tema: Demografía y población
+  - Nivel de desagregación: Municipal o inferior
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Obtener un marco de viviendas y personas para la extracción de muestras de estadísticas de población y hogares
+  - Variables de estudio: Direcciones, Población y Viviendas
+
+## Instituto Nacional de Estadística / Dirección General de Planificación Estadística y Procesos - Subdirección General de Coordinación y Planificación Estadística
+
+- **30720 · [Inventario de Fuentes Administrativas (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946000390)**
+  - Sector o tema: Normalización y metodología general
+  - Subsector o subtema: Organización y difusión de la metainformación
+  - Ámbito territorial: No aplicable
+  - Objetivo general: Obtener un repertorio de fuentes administrativas que están siendo explotadas con fines estadísticos, con uso directo o indirecto en alguna fase del proceso de producción, o que podrían ser susceptibles de tal aprovechamiento estadístico. El inventario es un instrumento útil para la planificación y diseño de nueva operación estadística o para la revisión metodológica de las operaciones ya existentes. La unidad adoptada como base del inventario es la fuente administrativa, definida en sentido amplio como aquella documentación que contiene información recogida y mantenida con la finalidad de gestionar la actividad administrativa (tanto registros creados por una ley, como en general, formularios, modelos o cuestionarios que se creen para atender y ordenar una actividad administrativa). El inventario contiene metainformación asociada a cada fuente administrativa que puede ser relevante para evaluar su idoneidad en el uso y aprovechamiento estadístico
+  - Variables de estudio: Identificación, contenido, tratamiento en origen, disponibilidad y difusión de la fuente
+  - Periodicidad de la difusión: Continua
+
+## Instituto Nacional de Estadística / Dirección General de Planificación Estadística y Procesos - Subdirección General de Difusión y Comunicación
+
+- **30456 · [Mujeres y Hombres en España (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931065264)**
+  - Sector o tema: Nivel, calidad y condiciones de vida
+  - Subsector o subtema: Indicadores, síntesis y recopilaciones en el ámbito social
+  - Nivel de desagregación: Nacional
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Introducir la perspectiva de género en toda la información estadística para promover medidas políticas y sociales encaminadas a establecer la igualdad de género en todos los campos de preocupación social
+  - Variables de estudio: Indicadores de género en población, educación, trabajo, ciencia y tecnología, renta, distribución y consumo, protección social, salud, cultura y ocio, cohesión social
+  - Variables de clasificación: Edad, estudios, ingresos, situación en la actividad
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](/ss/Satellite?param1=PYSDetalleGratuitas&L=0&c=INEPublicacion_C&cid=1259924822888&p=1254735110672&pagename=ProductosYServicios%2FPYSLayout)
+- **30601 · [Anuario Estadístico de España (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931054993)**
+  - Sector o tema: Estadísticas no desglosables por sector o tema
+  - Subsector o subtema: Estadísticas y recopilaciones generales
+  - Nivel de desagregación: Municipal o inferior
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Recopilación y difusión de las diversas estadísticas obtenidas por el INE y por otros organismos
+  - Variables de estudio: De carácter general
+  - Variables de clasificación: De carácter general
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](/prodyser/pubweb/anuarios_mnu.htm)
+- **30603 · [España en Cifras (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931055159)**
+  - Sector o tema: Estadísticas no desglosables por sector o tema
+  - Subsector o subtema: Estadísticas y recopilaciones generales
+  - Nivel de desagregación: Provincial
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Información sobre diversos aspectos interesantes de la demografía, sociedad y economía de España, utilizando textos, tablas y gráficos estadísticos
+  - Variables de estudio: De carácter general
+  - Variables de clasificación: De carácter general
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](/dyngs/PUB/es/index.htm?cid=1471)
+- **30605 · [Banco de Datos TEMPUS 3 (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931055492)**
+  - Sector o tema: Estadísticas no desglosables por sector o tema
+  - Subsector o subtema: Bancos de datos generales
+  - Nivel de desagregación: Municipal o inferior
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Difusión informatizada de los principales datos estadísticos elaborados por el INE y otros organismos en forma de series cronológicas
+  - Variables de estudio: De carácter general
+  - Variables de clasificación: De carácter general
+  - Periodicidad de la difusión: Continua
+  - [Acceso a los resultados](/consul/menu.do)
+- **30607 · [Banco de Datos INEbase (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931055636)**
+  - Sector o tema: Estadísticas no desglosables por sector o tema
+  - Subsector o subtema: Bancos de datos generales
+  - Nivel de desagregación: Municipal o inferior
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Organización y difusión de la información estadística en internet en forma de tabla
+  - Variables de estudio: No aplicable
+  - Periodicidad de la difusión: Continua
+  - [Acceso a los resultados](/inebase/index.html)
+- **30609 · [Censos Históricos (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931055781)**
+  - Sector o tema: Demografía y población
+  - Subsector o subtema: Proyecciones, indicadores demográficos y recopilaciones
+  - Nivel de desagregación: Municipal o inferior
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Recuperar material disperso por distintos archivos históricos y bibliotecas en forma de publicaciones monográficas, para cada una de las operaciones censales de los siglos XVI a XIX
+  - Variables de estudio: De carácter general
+  - Variables de clasificación: De carácter general
+  - Periodicidad de la difusión: Irregular
+  - [Acceso a los resultados](/inebaseweb/71807.do?language=0)
+- **30610 · [Península Ibérica en Cifras (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946004150)**
+  - Sector o tema: Estadísticas no desglosables por sector o tema
+  - Subsector o subtema: Estadísticas y recopilaciones generales
+  - Nivel de desagregación: Otros : NUTS II
+  - Ámbito territorial: España y Portugal
+  - Objetivo general: Información estadística de España y Portugal, tanto por separado como de la península en su conjunto, dentro del marco de la Unión Europea, a partir de datos armonizados suministrados en su momento por los Institutos Nacionales de Estadística de los dos países a la Oficina Estadística de la Unión Europea (Eurostat)
+  - Variables de estudio: De carácter general
+  - Variables de clasificación: De carácter general
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](/dyngs/PUB/es/index.htm?cid=1485)
+- **30611 · [Indicadores de España para el FMI (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946004152)**
+  - Sector o tema: Estadísticas no desglosables por sector o tema
+  - Subsector o subtema: Estadísticas y recopilaciones generales
+  - Nivel de desagregación: Nacional
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Los indicadores recopilados recogen toda la información nacional que se publica según el estándar de difusión de datos DSBB, aprobado por el Fondo Monetario Internacional. Además, están disponibles para su descarga en formato SDMX
+  - Variables de estudio: De carácter general
+  - Variables de clasificación: De carácter general
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](https://www.ine.es/dynt3/FMI/es/)
+
+## Instituto Nacional de Estadística / Dirección General de Planificación Estadística y Procesos - Subdirección General de Metodología y Diseño de Muestras
+
+- **30707 · [Sistema Integrado de Metadatos (SIM) (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259930993165)**
+  - Sector o tema: Normalización y metodología general
+  - Subsector o subtema: Organización y difusión de la metainformación
+  - Ámbito territorial: No aplicable
+  - Objetivo general: El Sistema Integrado de Metadatos (SIM) incluye los metadatos de referencia, para describir las operaciones estadísticas en su conjunto, los metadatos estructurales, para identificar y describir el dato; y los metadatos de proceso, que contienen los detalles de los tratamientos a los que se someten los datos a lo largo del proceso de producción estadística. El objetivo del SIM es favorecer la eficiencia y reutilización en el proceso productivo y facilitar la coordinación metodológica entre los elaboradores de encuestas. El SIM ofrece actualmente a los usuarios un informe metodológico estandarizado para todas las operaciones estadísticas y un glosario de conceptos y definiciones asociados a la información difundida por el INE
+  - Variables de estudio: No aplicable
+  - [Acceso a los resultados](/dynt3/metadatos/index.html)
+- **30714 · [Adaptación de Clasificaciones Internacionales a la Realidad Nacional (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259930990169)**
+  - Sector o tema: Normalización y metodología general
+  - Subsector o subtema: Elaboración y sistematización del uso de marcos conceptuales
+  - Ámbito territorial: No aplicable
+  - Objetivo general: Adaptación de las nuevas versiones que se realicen de las clasificaciones internacionales, principalmente de la Unión Europea, a la realidad nacional. Gestión y mantenimiento de las aplicaciones informáticas de consulta y codificación para el uso de las clasificaciones estadísticas, GESCLA, AYUDACOD y CodIA
+  - Variables de estudio: No aplicable
+  - [Acceso a los resultados](/dyngs/INEbase/es/categoria.htm?c=Estadistica_P&cid=1254735976614)
+- **30715 · [Estándares (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259930974085)**
+  - Sector o tema: Normalización y metodología general
+  - Subsector o subtema: Elaboración y sistematización del uso de marcos conceptuales
+  - Ámbito territorial: No aplicable
+  - Objetivo general: Definición de conceptos, variables y clasificaciones estandarizados, que faciliten la reutilización de procesos en diferentes operaciones estadísticas e impulsen la comparabilidad de sus resultados. Definición de modelos y métodos que permitan un proceso de producción más eficiente. Definición de estándares de metadatos de proceso y de referencia
+  - Variables de estudio: No aplicable
+  - [Acceso a los resultados](/dyngs/MYP/es/index.htm?cid=1)
+
+## Instituto Nacional de Estadística / División Unidad Grandes Empresas
+
+- **30801 · [Panel de Indicadores de Comercio Internacional de Valor Añadido (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946005704)**
+  - Sector o tema: Comercio interior y exterior
+  - Subsector o subtema: Indicadores, síntesis y recopilaciones del comercio
+  - Nivel de desagregación: Nacional
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: El Panel de Indicadores de Comercio Internacional de Valor Añadido (Trade in Value Added, TiVA) permite evaluar el impacto sobre la actividad económica nacional (o del resto del mundo) de la participación de la economía española en cadenas de valor globales desde diferentes perspectivas, como el valor añadido generado, el empleo vinculado o la emisión de gases de efecto invernadero. Todo ello en el marco del sistema de cuentas nacionales
+  - Variables de estudio: Valor añadido interior, valor añadido exterior, empleo interior (nº personas ocupadas) y emisiones de CO2e
+  - Variables de clasificación: Rama de actividad, país importador, país exportador, gases de efecto invernadero interiores, gases de efecto invernadero exteriores, año
+  - Periodicidad de la difusión: Anual
+
+## Instituto Nacional de Estadística / Oficina del Censo Electoral
+
+- **85001 · [Estadística del Padrón de la Población Española Residente en el Extranjero (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259930979534)**
+  - Sector o tema: Demografía y población
+  - Subsector o subtema: Estructura y situación de la población
+  - Nivel de desagregación: Nacional
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Explotación y difusión del fichero de población de nacionalidad española residente en el extranjero
+  - Variables de estudio: Población de nacionalidad española residente en el extranjero
+  - Variables de clasificación: País de residencia, sexo, edad, lugar de nacimiento (provincia/país) y municipio de inscripción a efectos electorales
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](/dyngs/INEbase/operacion.htm?c=Estadistica_C&cid=1254736177014&menu=ultiDatos&idp=1254734710990)
+
+## Instituto Nacional de Estadística / Subdirección General de Relaciones Internacionales y Agenda 2030
+
+- **30800 · [Indicadores de la Agenda 2030 para el Desarrollo Sostenible (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259945998989)**
+  - Sector o tema: Estadísticas no desglosables por sector o tema
+  - Subsector o subtema: Estadísticas y recopilaciones generales
+  - Nivel de desagregación: Municipal o inferior
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Constituir un marco de indicadores estadísticos que sirva para el seguimiento de los Objetivos y Metas de la Agenda 2030 para el Desarrollo Sostenible
+  - Variables de estudio: Indicadores de carácter social, económico, medioambiental e institucional
+  - Variables de clasificación: Dependen del indicador. En general, para los indicadores sociales las variables son sexo y edad, y para los económicos el sector
+  - Periodicidad de la difusión: Continua
+  - [Acceso a los resultados](/dyngs/ODS/es/index.htm)
+
+## Ministerio de Agricultura, Pesca y Alimentación - Secretaría General de Recursos Agrarios y Seguridad Alimentaria / Dirección General de Alimentación - Subdirección General de Calidad y Sostenibilidad Alimentaria.
+
+- **01165 · [Estadística de la Producción Ecológica (MAPA)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259945998988)**
+  - Sector o tema: Agricultura, ganadería, selvicultura y caza
+  - Subsector o subtema: Indicadores, síntesis y recopilaciones agrarias
+  - Nivel de desagregación: Provincial
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Obtener información sobre la producción ecológica: superficie cultivada, producción, efectivos de ganado, producción cárnica, acuicultura y operadores ecológicos según calificación ecológica
+  - Variables de estudio: Superficie, efectivos de ganado y producción, acuicultura
+  - Variables de clasificación: Tipo de cultivo o aprovechamientos, tipo de animales, calificación ecológica
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](https://www.mapa.gob.es/es/alimentacion/temas/produccion-eco/)
+
+## Ministerio de Agricultura, Pesca y Alimentación - Secretaría General de Recursos Agrarios y Seguridad Alimentaria / Dirección General de Alimentación - Subdirección General de Promoción de los Alimentos de España
+
+- **01152 · [Consumo Alimentario Extradoméstico en España: Hábitos del Consumidor (MAPA)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931144674)**
+  - Sector o tema: Nivel, calidad y condiciones de vida
+  - Subsector o subtema: Consumo y distribución de la renta
+  - Nivel de desagregación: Otros : Regiones estadísticas Nielsen
+  - Ámbito territorial: Todo el territorio nacional, a excepción de Canarias, Ceuta y Melilla
+  - Objetivo general: Conocer el comportamiento del consumidor frente al consumo fuera del hogar. Identificar los principales factores que caracterizan los hábitos alimentarios de los españoles fuera del hogar. Realizar el seguimiento de su evolución. Conocer la importancia de los distintos tipos de establecimientos a los que acude el consumidor español
+  - Variables de estudio: Productos consumidos, momento de su consumo, número de comidas fuera del hogar, tipo de establecimiento, motivos de elección y precio
+  - Variables de clasificación: Años, productos, zonas geográficas, tipo de establecimiento
+  - Periodicidad de la difusión: Trimestral
+  - [Acceso a los resultados](https://www.mapa.gob.es/es/alimentacion/temas/consumo-tendencias/panel-de-consumo-alimentario/hosteleria-y-restauracion/)
+- **01153 · [Consumo Alimentario en Hogares en España (MAPA)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931144847)**
+  - Sector o tema: Nivel, calidad y condiciones de vida
+  - Subsector o subtema: Consumo y distribución de la renta
+  - Nivel de desagregación: Autonómico
+  - Ámbito territorial: Todo el territorio nacional, a excepción de Ceuta y Melilla
+  - Objetivo general: Realización del estudio del Consumo alimentario en hogares en España. A través de las anotaciones efectuadas por un panel de responsables de compra del hogar, con un escáner, se conocen las cantidades, precios, sitios de compra, etc.
+  - Variables de estudio: Cantidad comprada, precio unitario, gastos en alimentación, cuota de mercado en porcentaje de valor y volumen según lugar de compra, número de comidas fuera del hogar, tipo de establecimiento, motivos de elección y precio
+  - Variables de clasificación: Años, productos, zonas geográficas, lugar de compra, tipo de establecimiento, nivel socioeconómico del hogar, número de miembros del hogar, edad del responsable de la compra, actividad del ama de casa, presencia de niños y su edad, tipo de establecimiento donde se compra, ciclos de vida del hogar
+  - Periodicidad de la difusión: Mensual
+  - [Acceso a los resultados](https://www.mapa.gob.es/es/alimentacion/temas/consumo-tendencias/panel-de-consumo-alimentario/series-anuales/)
+- **01154 · [Observatorio del Consumo y la Distribución Agroalimentaria (MAPA)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931145022)**
+  - Sector o tema: Nivel, calidad y condiciones de vida
+  - Subsector o subtema: Consumo y distribución de la renta
+  - Nivel de desagregación: Autonómico
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Obtención de variables cualitativas y cuantitativas sobre los hábitos de consumo de la población y las tendencias de la distribución de los productos alimentarios
+  - Variables de estudio: Hábitos de compra, estrategias comerciales de la distribución, hábitos de consumo alimentario, marcas, percepción de precios
+  - Variables de clasificación: Edad, perfil socioeconómico, sexo, tipo de establecimiento y tamaño del habitat
+  - Periodicidad de la difusión: Trimestral, anual
+  - [Acceso a los resultados](https://www.mapa.gob.es/es/estadistica/temas/estadisticas-alimentacion/consumo-alimentario/)
+- **01155 · [Barómetro del Clima de Confianza del Sector Agroalimentario (MAPA)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931145197)**
+  - Sector o tema: Nivel, calidad y condiciones de vida
+  - Subsector o subtema: Opinión pública
+  - Nivel de desagregación: Otros : Autonómico, Merca
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Elaborar índices que permitan medir de forma cuantitativa y periódicamente el clima de confianza de los distintos agentes participantes en el proceso de comercialización agroalimentaria (productores, industria, mayoristas, distribuidores y consumidores)
+  - Variables de estudio: Coyuntura económica, coyuntura sectorial, confianza alimentaria y ámbito comercial
+  - Variables de clasificación: Distintos agentes de la cadena (productores, industria, mayoristas, distribuidores y consumidores), sectores
+  - Periodicidad de la difusión: Trimestral, anual
+  - [Acceso a los resultados](https://www.mapa.gob.es/es/alimentacion/temas/consumo-tendencias/barometro-del-clima-de-confianza-del-sector-agroalimentario/)
+- **01156 · [Panel de Uso de los Alimentos (MAPA)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259945998985)**
+  - Sector o tema: Nivel, calidad y condiciones de vida
+  - Subsector o subtema: Consumo y distribución de la renta
+  - Nivel de desagregación: Nacional
+  - Ámbito territorial: Todo el territorio nacional, a excepción de Canarias, Ceuta y Melilla
+  - Objetivo general: Conocer las recetas que los hogares elaboran cada día
+  - Variables de estudio: Alimentos consumidos en casa o cogidos de casa para consumir fuera por todos los individuos del hogar
+  - Variables de clasificación: Sexo y edad del consumidor final, el momento en el que consumió, la forma de preparación, la receta y el motivo de consumo
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](https://www.mapa.gob.es/es/alimentacion/temas/consumo-tendencias/panel-de-consumo-alimentario/ultimos-datos/)
+- **01157 · [Panel de Cuantificación del Desperdicio Alimentario en los Hogares (MAPA)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259945998986)**
+  - Sector o tema: Nivel, calidad y condiciones de vida
+  - Subsector o subtema: Consumo y distribución de la renta
+  - Nivel de desagregación: Nacional
+  - Ámbito territorial: Todo el territorio nacional, a excepción de Canarias, Ceuta y Melilla
+  - Objetivo general: Cuantificar el desperdicio de alimentos, entendido éste como los alimentos que se tiran a la basura por deterioro, tal cual se compraron sin que haya habido ningún tipo de elaboración por parte del consumidor, así como los productos desechados una vez cocinados por el consumidor (es decir, la parte de las recetas que se tira a la basura por sobrar en el plato o por llevar un tiempo en la nevera)
+  - Variables de estudio: Productos desperdiciados, recetas desperdiciadas, ratio entre porcentaje tirado y porcentaje comprado, volumen absoluto de desperdicio
+  - Variables de clasificación: Zonas geográficas, ciclos de vida
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](https://www.mapa.gob.es/es/alimentacion/temas/desperdicio/desperdicio-alimentario-hogares/default.aspx)
+- **01181 · [Panel de Cuantificación del Desperdicio Alimentario en el Consumo Extradoméstico (MAPA)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946001123)**
+  - Sector o tema: Nivel, calidad y condiciones de vida
+  - Subsector o subtema: Consumo y distribución de la renta
+  - Nivel de desagregación: Otros : Regiones estadísticas Nielsen
+  - Ámbito territorial: Todo el territorio nacional, a excepción de Canarias, Ceuta y Melilla
+  - Objetivo general: Cuantificar el desperdicio de alimentos en el consumo fuera del hogar por parte de los consumidores residentes en España
+  - Variables de estudio: Productos desperdiciados, ratio entre porcentaje tirado y porcentaje comprado, volumen absoluto de desperdicio
+  - Variables de clasificación: Zonas geográficas, ciclos de vida, momento de consumo
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](https://www.mapa.gob.es/es/alimentacion/temas/desperdicio/desperdicio-alimentario-fuera-hogar/default.aspx)
+
+## Ministerio de Agricultura, Pesca y Alimentación - Secretaría General de Recursos Agrarios y Seguridad Alimentaria / Dirección General de Producciones y Mercados Agrarios - Subdirección General de Medios de Producción Agrícolas y Oficina Española de Variedades Vegetales
+
+- **01087 · [Estadística Mensual de Inscripciones de Maquinaria Agrícola (MAPA)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931099653)**
+  - Sector o tema: Agricultura, ganadería, selvicultura y caza
+  - Subsector o subtema: Estructuras agrarias, registros y medios de producción
+  - Nivel de desagregación: Provincial
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Conocer las incorporaciones de nueva maquinaria al proceso productivo agrario español
+  - Variables de estudio: Maquinaria nueva
+  - Variables de clasificación: Tipo de maquinaria, marca y finalidad
+  - Periodicidad de la difusión: Mensual
+  - [Acceso a los resultados](http://www.mapa.gob.es/es/estadistica/temas/estadisticas-agrarias/agricultura/estadisticas-medios-produccion/maquinaria-agricola.aspx)
+- **01134 · [Estadísticas de Producción y Comercialización de Material Forestal de Reproducción (MAPA)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931128391)**
+  - Sector o tema: Agricultura, ganadería, selvicultura y caza
+  - Subsector o subtema: Selvicultura y caza
+  - Nivel de desagregación: Autonómico
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Obtener información relativa a la producción, comercialización y trazabilidad del Material Forestal de Reproducción, necesario para la realización de actuaciones forestales, como repoblaciones, forestaciones de tierras agrícolas o restauraciones de la cubierta vegetal. Este material se compone de semillas, plantas y partes de planta producidos en centros y viveros forestales. Además, se recoge información sobre las unidades de admisión incluidas en el Registro y Catálogo Nacional de Materiales de Base de acuerdo con el Real Decreto 289/2003, sobre comercialización de los materiales forestales de reproducción, por tipos y categorías
+  - Variables de estudio: Semillas, estaquillas y plantas
+  - Variables de clasificación: Especies forestales, categorías de material forestal de reproducción
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](https://www.miteco.gob.es/es/ministerio/servicios/estadisticas/estadisticas-forestales/estadisticas-de-produccion-y-comercializacion-de-material-forestal.html)
+- **23043 · [Indicadores Agroambientales (Balance de Nitrógeno y Fósforo) (MAPA)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259945998987)**
+  - Sector o tema: Agricultura, ganadería, selvicultura y caza
+  - Subsector o subtema: Indicadores, síntesis y recopilaciones agrarias
+  - Nivel de desagregación: Nacional
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Determinación de los balances de nitrógeno y fósforo en la agricultura española para atender los requerimientos de Eurostat
+  - Variables de estudio: Entradas y salidas de nitrógeno y fósforo en el suelo agrario. Las entradas incluyen el aportado mediante fertilizantes inorgánicos, orgánicos, semillas, deposiciones durante el pastoreo, la fijación biológica y la deposición atmosférica. Entre las salidas se contabilizan los nutrientes retirados con la cosecha o en restos de cultivo, las volatilizaciones, lo pastoreado y lo quemado en campo
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](http://www.mapa.gob.es/es/agricultura/temas/medios-de-produccion/productos-fertilizantes/)
+
+## Ministerio de Agricultura, Pesca y Alimentación - Subsecretaría de Agricultura, Pesca y Alimentación / Subdirección General de Análisis, Coordinación y Estadística
+
+- **01005 · [Calendarios de Siembra y Recolección (MAPA)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931123084)**
+  - Sector o tema: Agricultura, ganadería, selvicultura y caza
+  - Subsector o subtema: Estructuras agrarias, registros y medios de producción
+  - Nivel de desagregación: Provincial
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Conocimiento de la distribución temporal de la siembra, recolección y comercialización de productos agrícolas
+  - Variables de estudio: Periodos de siembra, recolección y comercialización
+  - Variables de clasificación: Cultivos y variedades que se siembran, recolectan y comercializan, por meses
+  - Periodicidad de la difusión: Cada ocho años - Últimos datos: 2014-2016
+  - [Acceso a los resultados](https://www.mapa.gob.es/es/estadistica/temas/estadisticas-agrarias/agricultura/calendarios-siembras-recoleccion/)
+- **01006 · [Encuesta Semestral de Ganado Bovino y su Producción Láctea (MAPA)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931123252)**
+  - Sector o tema: Agricultura, ganadería, selvicultura y caza
+  - Subsector o subtema: Producción ganadera
+  - Nivel de desagregación: Provincial
+  - Ámbito territorial: Todo el territorio nacional, a excepción de Ceuta y Melilla
+  - Objetivo general: Conocimiento de los efectivos de ganado bovino por tipos y de la producción de leche en la explotación y su destino, para la gestión sectorial
+  - Variables de estudio: Efectivos de ganado bovino según tipos, animales, producción y destino de la leche
+  - Variables de clasificación: Intervalos de tamaño de la explotación
+  - Periodicidad de la difusión: Semestral
+  - [Acceso a los resultados](http://www.mapa.gob.es/es/estadistica/temas/estadisticas-agrarias/ganaderia/encuestas-ganaderas/)
+- **01007 · [Encuesta Semestral de Ganado Porcino (MAPA)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931123427)**
+  - Sector o tema: Agricultura, ganadería, selvicultura y caza
+  - Subsector o subtema: Producción ganadera
+  - Nivel de desagregación: Provincial
+  - Ámbito territorial: Todo el territorio nacional, a excepción de Ceuta y Melilla
+  - Objetivo general: Conocimiento de los efectivos de ganado porcino por tipos, para la gestión sectorial
+  - Variables de estudio: Efectivos de ganado porcino según tipos de animales
+  - Variables de clasificación: Intervalos de tamaño de la explotación
+  - Periodicidad de la difusión: Semestral
+  - [Acceso a los resultados](http://www.mapa.gob.es/es/estadistica/temas/estadisticas-agrarias/ganaderia/encuestas-ganaderas/)
+- **01008 · [Encuesta Anual de Ganados Ovino y Caprino, y su Producción Láctea (MAPA)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931092418)**
+  - Sector o tema: Agricultura, ganadería, selvicultura y caza
+  - Subsector o subtema: Producción ganadera
+  - Nivel de desagregación: Provincial
+  - Ámbito territorial: Todo el territorio nacional, a excepción de Ceuta y Melilla
+  - Objetivo general: Conocimiento de los efectivos de ganado ovino y caprino por tipos y de la producción láctea en la explotación y su destino, para la gestión sectorial
+  - Variables de estudio: Efectivos de ganado ovino y caprino según tipos de animales, producción y destino de la leche
+  - Variables de clasificación: Intervalos de tamaño de la explotación
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](http://www.mapa.gob.es/es/estadistica/temas/estadisticas-agrarias/ganaderia/encuestas-ganaderas/)
+- **01009 · [Encuestas de Producción de Huevos e Incubación (MAPA)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931092593)**
+  - Sector o tema: Agricultura, ganadería, selvicultura y caza
+  - Subsector o subtema: Producción ganadera
+  - Nivel de desagregación: Autonómico
+  - Ámbito territorial: Todo el territorio nacional, a excepción de Ceuta y Melilla
+  - Objetivo general: Conocimiento de la actividad y estructura de las salas de incubación
+  - Variables de estudio: Huevos entrados, pollitos nacidos y su destino
+  - Variables de clasificación: Aptitud productiva de las aves
+  - Periodicidad de la difusión: Mensual, anual
+  - [Acceso a los resultados](http://www.mapa.gob.es/es/estadistica/temas/estadisticas-agrarias/ganaderia/encuestas-mensuales-anual-salas-incubacion/)
+- **01010 · [Encuesta Mensual y Anual de Sacrificio de Ganado en Mataderos (MAPA)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931092768)**
+  - Sector o tema: Agricultura, ganadería, selvicultura y caza
+  - Subsector o subtema: Producción ganadera
+  - Nivel de desagregación: Autonómico
+  - Ámbito territorial: Todo el territorio nacional, a excepción de Ceuta y Melilla
+  - Objetivo general: Conocimiento del número de efectivos sacrificados por tipos y de la producción de carne en canal y su destino, para la gestión del mercado
+  - Variables de estudio: Número de animales sacrificados y peso en canal
+  - Variables de clasificación: Tipos de animales
+  - Periodicidad de la difusión: Mensual, anual
+  - [Acceso a los resultados](http://www.mapa.gob.es/es/estadistica/temas/estadisticas-agrarias/ganaderia/encuestas-sacrificio-ganado/)
+- **01013 · [Estadística Anual de Lana, Miel y Otras Producciones Ganaderas (MAPA)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931092943)**
+  - Sector o tema: Agricultura, ganadería, selvicultura y caza
+  - Subsector o subtema: Producción ganadera
+  - Nivel de desagregación: Provincial
+  - Ámbito territorial: Todo el territorio nacional, a excepción de Ceuta y Melilla
+  - Objetivo general: Conocimiento de la producción de lana, miel, cera y estiércol, y trabajo animal
+  - Variables de estudio: Producciones
+  - Variables de clasificación: Tipo de producción
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](http://www.mapa.gob.es/es/estadistica/temas/estadisticas-agrarias/ganaderia/lana-miel-huevos-consumo-humano/)
+- **01014 · [Evaluación Anual del Movimiento Comercial Pecuario (MOCOPE) (MAPA)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931093115)**
+  - Sector o tema: Agricultura, ganadería, selvicultura y caza
+  - Subsector o subtema: Producción ganadera
+  - Nivel de desagregación: Provincial
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Conocimiento de los efectivos de ganado que se comercializan en vivo según especies, tipos y destino
+  - Variables de estudio: Número de animales comercializados y destino
+  - Variables de clasificación: Especies y tipos de animales
+  - Periodicidad de la difusión: Anual
+- **01015 · [Encuesta de Cunicultura (MAPA)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931093290)**
+  - Sector o tema: Agricultura, ganadería, selvicultura y caza
+  - Subsector o subtema: Producción ganadera
+  - Nivel de desagregación: Autonómico
+  - Ámbito territorial: Todo el territorio nacional, a excepción de Ceuta y Melilla
+  - Objetivo general: Conocimiento de la estructura y producción de las explotaciones cunícolas
+  - Variables de estudio: Producción de conejos, producción de piensos para conejos, animales sacrificados y peso en canal
+  - Variables de clasificación: Estratos de tamaño de las granjas
+  - Periodicidad de la difusión: Decenal - Últimos datos: Año 2022
+  - [Acceso a los resultados](http://www.mapa.gob.es/es/estadistica/temas/estadisticas-agrarias/ganaderia/encuesta-nacional-cunicultura/)
+- **01017 · [Estadística de Viñedo (MAPA)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931093467)**
+  - Sector o tema: Agricultura, ganadería, selvicultura y caza
+  - Subsector o subtema: Producción agrícola
+  - Nivel de desagregación: Provincial
+  - Ámbito territorial: Todo el territorio nacional, a excepción de Ceuta y Melilla
+  - Objetivo general: Proporcionar información de la superficie de viñedo, por variedades de uva de vinificación, destinada a fines distintos de la producción de uva de mesa, así como conocer el número de explotaciones por tamaño y principales variedades
+  - Variables de estudio: Viñas destinadas a otros fines (viñas que deben inscribirse en el Registro Vitícola). No incluye las viñas destinadas a uva de mesa
+  - Variables de clasificación: Edad, tamaño (superficie), densidad de la plantación, variedad
+  - Periodicidad de la difusión: Quinquenal - Últimos datos: Año 2020
+  - [Acceso a los resultados](http://www.mapa.gob.es/es/estadistica/temas/estadisticas-agrarias/agricultura/encuestas-de-vinedo/)
+- **01018 · [Encuesta de Base de Plantaciones de Frutales, Olivar y Uva de Mesa (MAPA)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931093639)**
+  - Sector o tema: Agricultura, ganadería, selvicultura y caza
+  - Subsector o subtema: Producción agrícola
+  - Nivel de desagregación: Provincial
+  - Ámbito territorial: Todo el territorio nacional, a excepción de Ceuta y Melilla
+  - Objetivo general: Determinar el potencial de producción de las plantaciones, con fines comerciales, de las principales especies de frutales, olivar y uva de mesa, y disponer a medio plazo de la producción y de la oferta de los mercados
+  - Variables de estudio: Superficies plantadas y especies
+  - Variables de clasificación: Especies, agrupaciones por variedades, intervalos de edades, marco de plantación
+  - Periodicidad de la difusión: Quinquenal - Últimos datos: Año 2022
+  - [Acceso a los resultados](http://www.mapa.gob.es/es/estadistica/temas/estadisticas-agrarias/agricultura/encuestas-plantaciones-arboles-frutales/)
+- **01019 · [Avances Mensuales de Superficies y Producciones Agrícolas (MAPA)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931093816)**
+  - Sector o tema: Agricultura, ganadería, selvicultura y caza
+  - Subsector o subtema: Producción agrícola
+  - Nivel de desagregación: Provincial
+  - Ámbito territorial: Todo el territorio nacional, a excepción de Ceuta y Melilla
+  - Objetivo general: Conocimiento de la evolución coyuntural de superficies y producciones para los principales cultivos herbáceos, y producciones para los cultivos leñosos más importantes, para gestión de mercados
+  - Variables de estudio: Superficies y rendimientos
+  - Variables de clasificación: Principales cultivos
+  - Periodicidad de la difusión: Mensual
+  - [Acceso a los resultados](http://www.mapa.gob.es/es/estadistica/temas/estadisticas-agrarias/agricultura/avances-superficies-producciones-agricolas/)
+- **01021 · [Estadística sobre Superficies de Cultivos y Aprovechamientos por Términos Municipales (MAPA)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931093988)**
+  - Sector o tema: Agricultura, ganadería, selvicultura y caza
+  - Subsector o subtema: Producción agrícola
+  - Nivel de desagregación: Provincial
+  - Ámbito territorial: Todo el territorio nacional, a excepción de Ceuta y Melilla
+  - Objetivo general: Conocimiento de las superficies anuales ocupadas por cultivos y aprovechamientos para, mediante integración, obtener resultados a mayores niveles de agregación geográfica
+  - Variables de estudio: Superficies
+  - Variables de clasificación: Tipos de cultivo, operación de superficie
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](http://www.mapama.gob.es/es/estadistica/temas/estadisticas-agrarias/agricultura/superficies-producciones-anuales-cultivos/)
+- **01023 · [Encuesta Anual de Superficies y Rendimientos de Cultivos (MAPA)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931094327)**
+  - Sector o tema: Agricultura, ganadería, selvicultura y caza
+  - Subsector o subtema: Producción agrícola
+  - Nivel de desagregación: Provincial
+  - Ámbito territorial: Todo el territorio nacional, a excepción de Ceuta y Melilla
+  - Objetivo general: Determinación de las superficies ocupadas por los cultivos y otras cubiertas del suelo y estimación del rendimiento medio de los principales cultivos
+  - Variables de estudio: Superficies y rendimientos
+  - Variables de clasificación: Tipos de cultivo, sistemas de cultivo
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](http://www.mapa.gob.es/es/estadistica/temas/estadisticas-agrarias/agricultura/esyrce/)
+- **01034 · [Encuesta Mensual de Recogida de Leche y de Productos Lácteos Elaborados (MAPA)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931094849)**
+  - Sector o tema: Minería e industria
+  - Subsector o subtema: Industria agroalimentaria
+  - Nivel de desagregación: Nacional
+  - Ámbito territorial: Todo el territorio nacional, a excepción de Ceuta y Melilla
+  - Objetivo general: Seguimiento mensual de la leche de vaca recogida por la industria y de productos lácteos elaborados, para la gestión de la cuota láctea
+  - Variables de estudio: Leche adquirida, producción de leche envasada y de derivados
+  - Variables de clasificación: Productos
+  - Periodicidad de la difusión: Mensual, anual
+  - [Acceso a los resultados](http://www.mapa.gob.es/es/estadistica/temas/estadisticas-agrarias/ganaderia/estadistica-industrias-lacteas/estadistica-lactea-mensual/)
+- **01035 · [Encuesta Anual de Recogida de Leche y de Productos Lácteos Elaborados (MAPA)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931095022)**
+  - Sector o tema: Minería e industria
+  - Subsector o subtema: Industria agroalimentaria
+  - Nivel de desagregación: Nacional
+  - Ámbito territorial: Todo el territorio nacional, a excepción de Ceuta y Melilla
+  - Objetivo general: Determinación anual del volumen de recogida de leche de vaca, oveja y cabra por la industria, y de productos lácteos elaborados, para gestión de la cuota láctea
+  - Variables de estudio: Leche recogida y productos elaborados
+  - Variables de clasificación: Productos
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](http://www.mapa.gob.es/es/estadistica/temas/estadisticas-agrarias/ganaderia/estadistica-industrias-lacteas/)
+- **01037 · [Encuesta Trienal de la Estructura de Industrias Lácteas (MAPA)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931095195)**
+  - Sector o tema: Minería e industria
+  - Subsector o subtema: Industria agroalimentaria
+  - Nivel de desagregación: Nacional
+  - Ámbito territorial: Todo el territorio nacional, a excepción de Ceuta y Melilla
+  - Objetivo general: Determinación de la estructura de las industrias lácteas, según estratos de dimensión de la actividad productiva
+  - Variables de estudio: Leche utilizada, productos obtenidos, mano de obra, resultados económicos
+  - Variables de clasificación: Volúmenes de leche tratada
+  - Periodicidad de la difusión: Trienal - Últimos datos: Año 2015
+  - [Acceso a los resultados](http://www.mapa.gob.es/es/estadistica/temas/estadisticas-agrarias/ganaderia/estadistica-industrias-lacteas/estadistica-lactea-anual/default.aspx)
+- **01044 · [Precios Medios Anuales de las Tierras de Uso Agrario (MAPA)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931095710)**
+  - Sector o tema: Precios
+  - Subsector o subtema: Precios de las distintas actividades sectoriales
+  - Nivel de desagregación: Autonómico
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Obtención de precios medios de las tierras de uso agrario por comunidades autónomas para diversos tipos de aprovechamiento, para información del mercado. Cumplimiento del 'acuerdo de caballeros' establecido por escrito con la Unión Europea
+  - Variables de estudio: Precios
+  - Variables de clasificación: Aprovechamiento de las tierras
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](https://www.mapa.gob.es/es/estadistica/temas/estadisticas-agrarias/economia/tierra-precios)
+- **01046 · [Precios e Índices Medios Nacionales Mensuales y Anuales Percibidos por los Agricultores (MAPA)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931095884)**
+  - Sector o tema: Precios
+  - Subsector o subtema: Precios de las distintas actividades sectoriales
+  - Nivel de desagregación: Nacional
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: El objetivo fundamental de los índices de precios percibidos (OUTPUT) es medir la evolución de los precios que percibe el agricultor y el ganadero por la venta de los productos agrarios. Junto a los índices de precios pagados (INPUT) son indicadores básicos utilizados para el seguimiento de los mercados y el cálculo de la renta agraria. Cumplimiento del 'acuerdo de caballeros' establecido por escrito con la Unión Europea
+  - Variables de estudio: Precios medios mensuales y anuales; índices de precios mensuales, anuales y anuales móviles; para el conjunto de los productos agrarios y para los grupos de productos más significativos
+  - Variables de clasificación: Productos
+  - Periodicidad de la difusión: Mensual, anual
+  - [Acceso a los resultados](http://www.mapa.gob.es/es/estadistica/temas/estadisticas-agrarias/economia/precios-percibidos-pagados-salarios/precios-percibidos-por-los-agricultores-y-ganaderos/default.aspx)
+- **01047 · [Precios e Índices Medios Nacionales Mensuales y Anuales Pagados por los Agricultores (MAPA)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931096058)**
+  - Sector o tema: Precios
+  - Subsector o subtema: Precios de las distintas actividades sectoriales
+  - Nivel de desagregación: Nacional
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: El objetivo fundamental de los índices de precios pagados (INPUT) es medir la evolución de los precios que paga el agricultor y el ganadero por los medios de producción (bienes y servicios) utilizados para la obtención de los productos agrarios. Junto a los índices de precios percibidos (OUTPUT) son indicadores básicos utilizados para el seguimiento de los mercados y el cálculo de la renta agraria. Cumplimiento del 'acuerdo de caballeros' establecido por escrito con la Unión Europea
+  - Variables de estudio: Precios medios mensuales y anuales de fertilizantes y alimentos para el ganado. Índices de precios mensuales y anuales del resto de las principales agrupaciones de bienes y servicios de uso corriente y bienes de inversión
+  - Variables de clasificación: Tipos de producto y/o servicio
+  - Periodicidad de la difusión: Mensual, anual
+  - [Acceso a los resultados](http://www.mapa.gob.es/es/estadistica/temas/estadisticas-agrarias/economia/precios-percibidos-pagados-salarios/precios-pagados-por-los-agricultores-y-ganaderos/default.aspx)
+- **01048 · [Índices y Salarios Agrarios Trimestrales y Anuales (MAPA)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931096230)**
+  - Sector o tema: Agricultura, ganadería, selvicultura y caza
+  - Subsector o subtema: Estructuras agrarias, registros y medios de producción
+  - Nivel de desagregación: Autonómico
+  - Ámbito territorial: Todo el territorio nacional, a excepción de Ceuta y Melilla
+  - Objetivo general: Proporcionar información sobre la evolución nacional y por comunidades autónomas, de los índices y salarios que perciben las personas trabajadoras por cuenta ajena, incluyendo la variable de discapacidad, a cambio de desarrollar una determinada actividad en una explotación agraria
+  - Variables de estudio: Salario
+  - Variables de clasificación: Oficios
+  - Periodicidad de la difusión: Trimestral, anual
+  - [Acceso a los resultados](https://www.mapa.gob.es/es/estadistica/temas/estadisticas-agrarias/economia/salarios-agrarios)
+- **01049 · [Red Española de Datos de Sostenibilidad Agraria (REDSA) (MAPA)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931096402)**
+  - Sector o tema: Agricultura, ganadería, selvicultura y caza
+  - Subsector o subtema: Indicadores, síntesis y recopilaciones agrarias
+  - Nivel de desagregación: Autonómico
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Determinación anual de la estructura técnica del proceso productivo y de los resultados económicos de las explotaciones agrarias; así como del cálculo de las 'producciones estándar de las actividades': variable de base para la clasificación de dichas explotaciones
+  - Variables de estudio: Estructurales, producciones, subvenciones, consumos intermedios, capital, mano de obra, etc., de las explotaciones agrarias
+  - Variables de clasificación: Comunidad autónoma, orientación técnico-económica y tamaño de explotación
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](http://www.mapa.gob.es/es/estadistica/temas/estadisticas-agrarias/economia/red-contable-recan/)
+- **01050 · [Cánones Anuales de Arrendamientos Rústicos (MAPA)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931096577)**
+  - Sector o tema: Precios
+  - Subsector o subtema: Precios de las distintas actividades sectoriales
+  - Nivel de desagregación: Autonómico
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Obtención de cánones de arrendamientos por comunidades autónomas para diversos tipos de aprovechamiento de las tierras. Cumplimiento del 'acuerdo de caballeros' establecido por escrito con la Unión Europea
+  - Variables de estudio: Cánones
+  - Variables de clasificación: Aprovechamiento de la tierra
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](http://www.mapa.gob.es/es/estadistica/temas/estadisticas-agrarias/economia/canones-anuales-arrendamientos-rusticos/)
+- **01053 · [Cuentas Económicas Nacionales de la Agricultura (MAPA)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931096919)**
+  - Sector o tema: Cuentas económicas
+  - Subsector o subtema: Cuentas satélite
+  - Nivel de desagregación: Nacional
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Cálculo de las macromagnitudes utilizadas como indicadores de los resultados económicos nacionales anuales de la actividad agraria
+  - Variables de estudio: Valoración de las macromagnitudes más importantes y sus desagregados; fundamentalmente: producción agrícola, producción ganadera, servicios agrarios, actividades secundarias no agrarias no separables de la actividad agraria, consumos intermedios, renta agraria, etc. (metodología SEC-95)
+  - Variables de clasificación: Grupos de productos: agrícolas, ganaderos, servicios, consumos intermedios, etc.
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](http://www.mapa.gob.es/es/estadistica/temas/estadisticas-agrarias/economia/cuentas-economicas-agricultura/)
+- **01054 · [Cuentas Económicas de la Agricultura Regionales (MAPA)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931097091)**
+  - Sector o tema: Cuentas económicas
+  - Subsector o subtema: Cuentas satélite
+  - Nivel de desagregación: Autonómico
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Cálculo de las macromagnitudes utilizadas como indicadores de los resultados económicos nacionales anuales de la actividad agraria. Cumplimiento del 'acuerdo de caballeros' establecido por escrito con la Unión Europea
+  - Variables de estudio: Valoración de las macromagnitudes más importantes y sus desagregados; fundamentalmente: producción agrícola, producción ganadera, servicios agrarios, actividades secundarias no agrarias no separables de la actividad agraria, consumos intermedios, renta agraria, etc. (metodología SEC-95)
+  - Variables de clasificación: Regiones y grupos de productos: agrícolas, ganaderos, servicios, consumos intermedios, etc
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](http://www.mapa.gob.es/es/estadistica/temas/estadisticas-agrarias/economia/cuentas-economicas-agricultura/)
+- **01055 · [Balances de Aprovisionamiento de Productos Agrícolas Excepto Vino (MAPA)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931097263)**
+  - Sector o tema: Agricultura, ganadería, selvicultura y caza
+  - Subsector o subtema: Indicadores, síntesis y recopilaciones agrarias
+  - Nivel de desagregación: Nacional
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Establecimiento anual del cuadro nacional de equilibrio oferta-demanda de productos agrícolas distintos del vino, para evaluación del mercado
+  - Variables de estudio: Producciones, utilización, stocks, autoabastecimiento
+  - Variables de clasificación: Tipo de producto
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](https://www.mapa.gob.es/app/publicaciones/art_datos.asp?articuloid=1428&codrevista=AEA)
+- **01056 · [Balances de Aprovisionamiento de Carnes (MAPA)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931097431)**
+  - Sector o tema: Agricultura, ganadería, selvicultura y caza
+  - Subsector o subtema: Indicadores, síntesis y recopilaciones agrarias
+  - Nivel de desagregación: Nacional
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Establecimiento anual del cuadro nacional de equilibrio oferta-demanda de carnes, para ordenación del mercado
+  - Variables de estudio: Producciones, utilización, stocks, autoabastecimiento
+  - Variables de clasificación: Tipo de producto
+  - Periodicidad de la difusión: Anual
+- **01061 · [Encuesta de Utilización de Medios de Producción (MAPA)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931097599)**
+  - Sector o tema: Agricultura, ganadería, selvicultura y caza
+  - Subsector o subtema: Estructuras agrarias, registros y medios de producción
+  - Nivel de desagregación: Autonómico
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Determinación de la utilización de medios de producción en la agricultura y la ganadería a fin de evaluar los consumos intermedios y la producción estándar de las principales producciones
+  - Variables de estudio: Bienes y servicios utilizados
+  - Variables de clasificación: Dimensión económica de las explotaciones
+  - Periodicidad de la difusión: Mensual
+  - [Acceso a los resultados](http://www.mapa.gob.es/es/estadistica/temas/estadisticas-agrarias/agricultura/estadisticas-medios-produccion/)
+- **01063 · [Encuesta de Establecimientos de Acuicultura (MAPA)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931097942)**
+  - Sector o tema: Pesca y acuicultura
+  - Subsector o subtema: Acuicultura y pesca fluvial
+  - Nivel de desagregación: Provincial
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Obtención de datos primarios de los establecimientos de acuicultura y de su actividad, así como del empleo
+  - Variables de estudio: Nº de establecimientos, producción, valor, nº de horas trabajadas, nº de trabajadores
+  - Variables de clasificación: Tipo de establecimiento, especies, fases de cultivo, origen del agua, zona de ubicación, destino geográfico, tipo de comercialización, tipo de empleo, tipo de jornada, sexo-empleo
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](https://www.mapa.gob.es/es/estadistica/temas/estadisticas-pesqueras/acuicultura/encuesta-establecimientos-acuicultura)
+- **01064 · [Estadística de la Flota Pesquera (MAPA)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931098117)**
+  - Sector o tema: Pesca y acuicultura
+  - Subsector o subtema: Flota y actividad de las empresas pesqueras
+  - Nivel de desagregación: Provincial
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Conocimiento de la flota pesquera como estructura básica para el desarrollo de la pesca marítima
+  - Variables de estudio: Nº de buques, arqueo, potencia, eslora
+  - Variables de clasificación: Modalidad de pesca, caladero principal, año de construcción, material del casco, comunidad autónoma y provincia del puerto base
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](http://www.mapa.gob.es/es/estadistica/temas/estadisticas-pesqueras/pesca-maritima/estadistica-flota-pesquera/)
+- **01066 · [Cuentas Económicas Nacionales de la Pesca (MAPA)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931098292)**
+  - Sector o tema: Cuentas económicas
+  - Subsector o subtema: Cuentas satélite
+  - Nivel de desagregación: Nacional
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Establecimiento de macromagnitudes utilizadas como indicadores de la actividad pesquera, para su utilización en la planificación y ordenación sectoriales
+  - Variables de estudio: Valoración de macromagnitudes (metodología SEC-95)
+  - Variables de clasificación: Grupos de productos y consumos intermedios
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](https://www.mapa.gob.es/es/estadistica/temas/estadisticas-pesqueras/economia-empleo/indicadores-sector-pesquero)
+- **01067 · [Balances de Aprovisionamiento de Productos de la Pesca (MAPA)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931098464)**
+  - Sector o tema: Pesca y acuicultura
+  - Subsector o subtema: Indicadores, síntesis y recopilaciones pesqueras
+  - Nivel de desagregación: Nacional
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Establecimiento anual del cuadro nacional de equilibrio oferta-demanda de productos pesqueros
+  - Variables de estudio: Producción, utilización, stocks, autoabastecimiento
+  - Variables de clasificación: Tipos de producto
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](https://www.mapa.gob.es/app/publicaciones/art_datos.asp?articuloid=1461&codrevista=AEA)
+- **01082 · [Previsiones Nacionales de Producciones Cárnicas (MAPA)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931099312)**
+  - Sector o tema: Agricultura, ganadería, selvicultura y caza
+  - Subsector o subtema: Producción ganadera
+  - Nivel de desagregación: Nacional
+  - Ámbito territorial: Todo el territorio nacional, a excepción de Ceuta y Melilla
+  - Objetivo general: Determinación por métodos cuantitativos de la oferta de carnes en los 12 meses siguientes al último de que se dispone de información estadística
+  - Variables de estudio: Producciones cárnicas
+  - Variables de clasificación: Tipos de animales
+  - Periodicidad de la difusión: Mensual
+  - [Acceso a los resultados](https://www.mapa.gob.es/es/ganaderia/estadisticas/mercados_agricolas_ganaderos)
+- **01084 · [Estadística Anual de Consumo de Alimentos por el Ganado (MAPA)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931099482)**
+  - Sector o tema: Agricultura, ganadería, selvicultura y caza
+  - Subsector o subtema: Estructuras agrarias, registros y medios de producción
+  - Nivel de desagregación: Autonómico
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Determinación de los consumos de alimentos (piensos y forrajes) por las distintas especies ganaderas
+  - Variables de estudio: Piensos y forrajes consumidos
+  - Variables de clasificación: Territorio, especies, tipo pienso y/o forraje
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](https://www.mapa.gob.es/es/ganaderia/temas/alimentacion-animal/acceso-publico)
+- **01088 · [Estadística Anual de Consumo de Fertilizantes en Agricultura (MAPA)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931099828)**
+  - Sector o tema: Agricultura, ganadería, selvicultura y caza
+  - Subsector o subtema: Estructuras agrarias, registros y medios de producción
+  - Nivel de desagregación: Autonómico
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Determinación de la utilización de medios de producción en la agricultura y la ganadería a fin de evaluar los consumos intermedios y la producción estándar de las principales producciones. Conocimiento del volumen de fertilizantes inorgánicos utilizados en la agricultura
+  - Variables de estudio: Consumo agrícola, movimientos (producción, importación, ventas agrícolas y exportación)
+  - Variables de clasificación: Principales productos fertilizantes, elemento fertilizante (N,P,K)
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](http://www.mapa.gob.es/es/estadistica/temas/estadisticas-agrarias/agricultura/estadisticas-medios-produccion/fertilizantes.aspx)
+- **01089 · [Encuesta de Utilización de Productos Fitosanitarios (MAPA)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931099998)**
+  - Sector o tema: Agricultura, ganadería, selvicultura y caza
+  - Subsector o subtema: Estructuras agrarias, registros y medios de producción
+  - Nivel de desagregación: Nacional
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Determinación de la cantidad que de cada sustancia activa contengan los plaguicidas utilizados en los principales cultivos y superficie tratada con cada sustancia
+  - Variables de estudio: Cantidad de sustancias activas utilizadas por cultivo y superficie tratada con cada sustancia
+  - Variables de clasificación: Tipo de sustancia activa
+  - Periodicidad de la difusión: Quinquenal - Últimos datos: Año 2024
+  - [Acceso a los resultados](http://www.mapa.gob.es/es/estadistica/temas/estadisticas-agrarias/agricultura/estadisticas-medios-produccion/fitosanitarios.aspx)
+- **01099 · [Encuesta Económica de Pesca Marítima (MAPA)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931101721)**
+  - Sector o tema: Pesca y acuicultura
+  - Subsector o subtema: Flota y actividad de las empresas pesqueras
+  - Nivel de desagregación: Nacional
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Investigación de los datos económicos primarios para el conocimiento de la rentabilidad de los distintos tipos de flotas; obtención de indicadores utilizables en la determinación de las macromagnitudes del sector pesquero, así como de las cuentas de resultado de gestión
+  - Variables de estudio: Ingresos, consumos intermedios, capital, amortizaciones, subvenciones, costes de personal, nº horas trabajadas, nº trabajadores
+  - Variables de clasificación: Tipo de buque, caladero principal, sexo-empleo
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](http://www.mapa.gob.es/es/estadistica/temas/estadisticas-pesqueras/pesca-maritima/encuesta-economica-pesca-maritima/default.aspx)
+- **01116 · [Precios Medios Nacionales (MAPA)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931124110)**
+  - Sector o tema: Precios
+  - Subsector o subtema: Precios de las distintas actividades sectoriales
+  - Nivel de desagregación: Nacional
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Obtención de precios medios ponderados, a nivel nacional, de los productos agrícolas y ganaderos de mayor relevancia, en la posición comercial más próxima al agricultor/ganadero
+  - Variables de estudio: Precios
+  - Variables de clasificación: Tipo de producto
+  - Periodicidad de la difusión: Semanal
+  - [Acceso a los resultados](https://www.mapa.gob.es/es/estadistica/temas/estadisticas-agrarias/economia/precios-medios-nacionales/)
+- **01117 · [Precios Medios Anuales de Productos y Medios de Producción Complementarios (MAPA)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931124282)**
+  - Sector o tema: Precios
+  - Subsector o subtema: Precios de las distintas actividades sectoriales
+  - Nivel de desagregación: Nacional
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Obtención de precios medios ponderados percibidos y/o pagados, de otros productos y medios de producción no incluidos en otras operaciones estadísticas
+  - Variables de estudio: Precios
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](https://www.mapa.gob.es/es/estadistica/temas/estadistica-digital/powerbi-precios-percibidos-pagados)
+- **01122 · [Balances de Aprovisionamiento de Vino (MAPA)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931104123)**
+  - Sector o tema: Agricultura, ganadería, selvicultura y caza
+  - Subsector o subtema: Indicadores, síntesis y recopilaciones agrarias
+  - Nivel de desagregación: Nacional
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Cálculo anual del equilibrio oferta-demanda del vino, para ordenación del mercado, (datos provisionales y definitivos)
+  - Variables de estudio: Producción total, importación/exportación, existencias iniciales/finales, utilización interior, etc
+  - Variables de clasificación: Tipos de producto
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](http://www.mapa.gob.es/es/estadistica/temas/estadisticas-agrarias/agricultura/balance-del-vino/)
+- **01123 · [Balances de Aprovisionamiento de Productos Ganaderos Distintos de las Carnes (MAPA)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931104291)**
+  - Sector o tema: Agricultura, ganadería, selvicultura y caza
+  - Subsector o subtema: Indicadores, síntesis y recopilaciones agrarias
+  - Nivel de desagregación: Nacional
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Establecimiento anual del cuadro nacional de equilibrio oferta-demanda de productos ganaderos distintos de la carne, para ordenación del mercado
+  - Variables de estudio: Producción, utilización interior, stocks, autoabastecimiento
+  - Variables de clasificación: Tipo de producto
+  - Periodicidad de la difusión: Anual
+- **01126 · [Cuentas Económicas Regionales de la Pesca (MAPA)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931104459)**
+  - Sector o tema: Cuentas económicas
+  - Subsector o subtema: Cuentas satélite
+  - Nivel de desagregación: Autonómico
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Establecimiento de macromagnitudes utilizadas como indicadores de resultados económicos regionales anuales de la actividad pesquera
+  - Variables de estudio: Valoración de macromagnitudes (metodología SEC-95)
+  - Variables de clasificación: Regiones, grupos de productos, consumos intermedios
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](https://www.mapa.gob.es/es/estadistica/temas/estadisticas-pesqueras/economia-empleo/indicadores-sector-pesquero)
+- **01135 · [Estadística Anual de Superficies y Producciones de Cultivos (MAPA)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931104627)**
+  - Sector o tema: Agricultura, ganadería, selvicultura y caza
+  - Subsector o subtema: Producción agrícola
+  - Nivel de desagregación: Provincial
+  - Ámbito territorial: Todo el territorio nacional, a excepción de Ceuta y Melilla
+  - Objetivo general: Establecimiento de resultados anuales de superficies, rendimientos y producciones de los diferentes cultivos para el conocimiento de la realidad agrícola
+  - Variables de estudio: Superficie, rendimiento, producción y destino
+  - Variables de clasificación: Cultivo, secano, regadío
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](http://www.mapa.gob.es/es/estadistica/temas/estadisticas-agrarias/agricultura/superficies-producciones-anuales-cultivos/)
+- **01136 · [Indicadores de Desarrollo Rural (MAPA)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931144317)**
+  - Sector o tema: Medio ambiente y desarrollo sostenible
+  - Subsector o subtema: Indicadores, síntesis y recopilaciones sobre el medio ambiente y el desarrollo sostenible
+  - Nivel de desagregación: Nacional
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Diseño de indicadores de desarrollo rural
+  - Variables de estudio: Propias del sector
+  - Periodicidad de la difusión: Aún no determinada
+  - [Acceso a los resultados](https://www.mapa.gob.es/es/ministerio/servicios/analisis-y-prospectiva/serie-indicadores/indicadores_semestre)
+- **01140 · [Encuesta Económica de Acuicultura (MAPA)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931151305)**
+  - Sector o tema: Pesca y acuicultura
+  - Subsector o subtema: Acuicultura y pesca fluvial
+  - Nivel de desagregación: Nacional
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Investigación de los datos económicos primarios para el conocimiento de la rentabilidad de los distintos tipos de establecimientos de acuicultura; obtención de indicadores utilizables en la determinación de las macromagnitudes del sector pesquero y de las cuentas de resultado de gestión
+  - Variables de estudio: Ingresos, consumos intermedios, capital, amortizaciones, subvenciones, costes de personal, etc
+  - Variables de clasificación: Tipo de establecimiento
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](http://www.mapa.gob.es/es/estadistica/temas/estadisticas-pesqueras/acuicultura/encuesta-economica-acuicultura/default.aspx)
+- **01142 · [Estadísticas de Capturas y Desembarcos de Pesca Marítima (MAPA)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931151479)**
+  - Sector o tema: Pesca y acuicultura
+  - Subsector o subtema: Flota y actividad de las empresas pesqueras
+  - Nivel de desagregación: Nacional
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Cuantificar las capturas de pesca marítima y los esfuerzos correspondientes de la flota pesquera española, a fin de ordenar las extracciones en los distintos caladeros y zonas de pesca, así como conocer los desembarcos realizados en España y en el resto del mundo, y el valor alcanzado en la primera venta, para su utilización en la regulación de la actividad
+  - Variables de estudio: Cantidades, valor
+  - Variables de clasificación: Modalidad de pesca, bandera buque, zona de captura, año, mes, especies, presentación, destino
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](http://www.mapa.gob.es/es/estadistica/temas/estadisticas-pesqueras/pesca-maritima/estadistica-capturas-desembarcos/default.aspx)
+- **01160 · [Encuesta de Comercialización de Productos Fitosanitarios (MAPA)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259941117239)**
+  - Sector o tema: Agricultura, ganadería, selvicultura y caza
+  - Subsector o subtema: Estructuras agrarias, registros y medios de producción
+  - Nivel de desagregación: Nacional
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Determinación de la cantidad que de cada sustancia activa contengan los plaguicidas comercializados en España
+  - Variables de estudio: Cantidad de sustancias activas comercializadas
+  - Variables de clasificación: Tipo de sustancia activa
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](http://www.mapa.gob.es/es/estadistica/temas/estadisticas-agrarias/agricultura/estadisticas-medios-produccion/fitosanitarios.aspx)
+- **01170 · [Precios Coyunturales de Productos Agrícolas (MAPA)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259941117423)**
+  - Sector o tema: Precios
+  - Subsector o subtema: Precios de las distintas actividades sectoriales
+  - Nivel de desagregación: Nacional
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Obtención de precios medios ponderados diarios o semanales en mercados representativos para determinados productos (cereales, vino, aceites, frutas y hortalizas, etc.), con especificación de posición comercial, variedades/tipo y calibres, según productos
+  - Variables de estudio: Precios y/o cantidades comercializadas en mercados mayoristas, bodegas, almazaras, salida de organización de productores de frutas y hortalizas (OPFH) o empresa comercial, para los distintos productos, en mercados representativos, sin IVA
+  - Variables de clasificación: Productos, variedades/tipología, posición comercial, en mercados representativos
+  - Periodicidad de la difusión: Diaria, semanal
+  - [Acceso a los resultados](http://www.mapa.gob.es/es/estadistica/temas/estadisticas-agrarias/economia/precios-coyunturales-prod-agricolas/)
+- **01180 · [Precios Coyunturales de Productos Ganaderos (MAPA)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259941117601)**
+  - Sector o tema: Precios
+  - Subsector o subtema: Precios de las distintas actividades sectoriales
+  - Nivel de desagregación: Nacional
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Obtención de precios medios ponderados semanales o mensuales en mercados representativos para determinados productos (ganado vivo/canal de vacuno, ovino, porcino; así como de: pollos, huevos, conejos, y determinados productos: lácteos, miel, etc.), con especificación de posición comercial, tipología, etc., según productos, sin IVA
+  - Variables de estudio: Precios y/o cantidades comercializadas de los distintos productos ganaderos, en mercados representativos
+  - Variables de clasificación: Productos, tipología, posición comercial, en mercados representativos
+  - Periodicidad de la difusión: Semanal, mensual
+  - [Acceso a los resultados](http://www.mapa.gob.es/es/estadistica/temas/estadisticas-agrarias/economia/precios-coyunturales-productos-ganaderos/)
+- **01182 · [Estudios de Costes y Rentas de las Explotaciones Agrarias (ECREA) (MAPA)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946003373)**
+  - Sector o tema: Agricultura, ganadería, selvicultura y caza
+  - Subsector o subtema: Indicadores, síntesis y recopilaciones agrarias
+  - Nivel de desagregación: Autonómico
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Determinación anual de la estructura técnico-económica del proceso productivo y de los resultados económicos de las explotaciones agrarias por cultivos y actividades ganaderas a partir de los datos de la Red Contable Agraria Nacional (RECAN)
+  - Variables de estudio: Estructurales, producciones, subvenciones, consumos intermedios, capital, mano de obra, etc¿, de las explotaciones agrarias
+  - Variables de clasificación: Comunidad autónoma, cultivo o actividad ganadera y tipo de producción (secano, regadío o invernadero)
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](https://www.mapa.gob.es/es/ministerio/servicios/analisis-y-prospectiva/financiacion-fiscalidad-estudio-costes/ecrea/default.aspx)
+
+## Ministerio de Asuntos Exteriores, Unión Europea y Cooperación - Secretaría de Estado de Cooperación Internacional / Dirección General de Políticas de Desarrollo Sostenible
+
+- **85004 · [Estadística de Ayuda Oficial al Desarrollo (AOD) y Otros Flujos Oficiales al Desarrollo Sostenible (AOTDS/TOSSD) de España (MAUC)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259930979684)**
+  - Sector o tema: Administraciones públicas y asociaciones
+  - Subsector o subtema: Entes, medios y actividad de las administraciones públicas
+  - Nivel de desagregación: Municipal o inferior
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Medir con carácter anual toda la ayuda oficial al desarrollo de España, es decir la ayuda que las Administraciones públicas dedican a objetivos de ayuda al desarrollo en países catalogados por la OCDE como receptores de ayuda oficial en función de su nivel de desarrollo
+  - Variables de estudio: Recursos oficiales destinados a contribuciones a organismos internacionales, aportaciones al presupuesto comunitario y recursos destinados bilateralmente a programas y proyectos de ayuda oficial al desarrollo
+  - Variables de clasificación: Sectores, países y regiones geográficas, centros financiadores, duración del proyecto
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](https:///infoaod.maec.es)
+
+## Ministerio de Ciencia, Innovación y Universidades - Secretaría de Estado Ciencia, Innovación y Universidades / Dirección General de Planificación, Coordinación y Transferencia de Conocimiento - Subdirección General de Planificación, Seguimiento y Evaluación
+
+- **43025 · [Estadística de Créditos Presupuestarios (Iniciales y Finales) de I+D (MCNU)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931077216)**
+  - Sector o tema: Investigación científica y desarrollo tecnológico
+  - Subsector o subtema: Recursos económicos, personal y actividades en I+D
+  - Nivel de desagregación: Nacional
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Medir los gastos en actividades de I+D financiados por las Administraciones Públicas
+  - Variables de estudio: Presupuestos para I+D en unidades monetarias
+  - Variables de clasificación: Presupuestos para I+D desglosados por objetivos socioeconómicos NABS 2007
+  - Periodicidad de la difusión: Semestral
+  - [Acceso a los resultados](https://www.ciencia.gob.es/Ministerio/Estadisticas/sicti/presupuestos_idi.html)
+- **44025 · [Estadística de Estudiantes Universitarios (MCNU)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931121574)**
+  - Sector o tema: Educación y formación
+  - Subsector o subtema: Actividad del sistema educativo
+  - Nivel de desagregación: Otros : Universidades
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Conocimiento del perfil, situación y trayectoria de los alumnos matriculados y graduados de titulaciones oficiales de grado, máster y doctorado y satisfacción de requerimientos internacionales
+  - Variables de estudio: Alumnado matriculado y graduado
+  - Variables de clasificación: Rama de enseñanza, tipo de estudios, duración de los estudios, tipología de los planes, tipología de los centros y variables demográficas y curriculares del alumnado
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](https://www.ciencia.gob.es/Ministerio/Estadisticas/SIIU/Estudiantes.html)
+- **44041 · [Estadística de Universidades, Centros y Titulaciones (MCNU)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931122412)**
+  - Sector o tema: Educación y formación
+  - Subsector o subtema: Actividad del sistema educativo
+  - Nivel de desagregación: Otros : Universidades
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Conocimiento y cuantificación de las estructuras docentes e investigadoras universitarias: universidades, centros, departamentos, escuelas de doctorado, institutos de investigación, hospitales adscritos, etc., así como las titulaciones de grado, máster y doctorado que se imparten, naturaleza de impartición, número de plazas, número de preinscritos y de admitidos y matrícula de nuevo ingreso. Relación entre oferta y demanda en los estudios universitarios
+  - Variables de estudio: Centros universitarios, tipología y naturaleza, titulaciones de grado, máster y doctorado, oferta de plazas en universidades públicas, demanda de titulaciones, admisión a la titulación, matrícula de nuevo ingreso, nota de corte
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](https://www.ciencia.gob.es/Ministerio/Estadisticas/SIIU/UCT.html)
+- **44043 · [Estadística de Personal de las Universidades (MCNU)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931077875)**
+  - Sector o tema: Educación y formación
+  - Subsector o subtema: Personal y aspectos económicos de la educación
+  - Nivel de desagregación: Otros : Universidades
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Conocimiento y cuantificación del personal docente e investigador, del personal de administración y servicios y del personal investigador de las universidades públicas y privadas en todos sus centros propios y adscritos
+  - Variables de estudio: Personal docente e investigador, personal investigador y personal de administración y servicios
+  - Variables de clasificación: Cuerpo/categoría/grupo, área de conocimiento, sexo, edad, antigüedad, complementos docentes, complementos de investigación y dedicación
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](https://www.ciencia.gob.es/Ministerio/Estadisticas/SIIU/Personal.html)
+- **44045 · [Estadística de Financiación y Gasto de las Universidades Públicas Españolas (MCNU)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259941630933)**
+  - Sector o tema: Educación y formación
+  - Subsector o subtema: Personal y aspectos económicos de la educación
+  - Nivel de desagregación: Autonómico
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Conocimiento de la situación presupuestaria y financiera de las universidades públicas españolas
+  - Variables de estudio: Liquidación presupuestaria de gastos y de ingresos de las universidades públicas españolas: gastos de personal, de bienes y servicios, financieros, etc., así como análisis del balance y la cuenta de resultados de las universidades públicas
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](https://www.ciencia.gob.es/Ministerio/Estadisticas/SIIU/Financiacion.html)
+- **44048 · [Estadística de Precios Públicos Universitarios (MCNU)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259930976093)**
+  - Sector o tema: Precios
+  - Subsector o subtema: Precios de las distintas actividades sectoriales
+  - Nivel de desagregación: Autonómico
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Conocer los precios públicos que se establecen cada año para las enseñanzas universitarias y calcular precios medios de las distintas enseñanzas
+  - Variables de estudio: Precios públicos según experimentalidad de los estudios y número de convocatoria y precios públicos medios
+  - Variables de clasificación: Estudio y experimentalidad para los precios transcritos de los boletines autonómicos. Estudio, rama de enseñanza, ámbito de estudio y número de convocatorias
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](https://www.ciencia.gob.es/Ministerio/Estadisticas/SIIU/Precios.html)
+- **44049 · [Estadística de las Pruebas de Acceso a la Universidad (PAU) (MCNU)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259930975785)**
+  - Sector o tema: Educación y formación
+  - Subsector o subtema: Resultados y evaluación del sistema educativo
+  - Nivel de desagregación: Otros : Universidades
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Conocimiento y cuantificación de los estudiantes que realizan las pruebas de acceso a la universidad cada año, tanto en la fase general como en la fase específica, así como las notas que obtienen en cada una de las materias matriculadas
+  - Variables de estudio: Vía de acceso, nota de acceso, nota obtenida en las diferentes fases del proceso de acceso, nota del estudio que le da acceso a la prueba, etc.
+  - Variables de clasificación: Sexo, edad, nacionalidad
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](https://www.ciencia.gob.es/Ministerio/Estadisticas/SIIU/PAU.html)
+- **44050 · [Estadística de Afiliación a la Seguridad Social de los Egresados Universitarios (MCNU)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946000405)**
+  - Sector o tema: Educación y formación
+  - Subsector o subtema: Formación permanente y relación educación empleo
+  - Nivel de desagregación: Otros : Universidades
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Disponer de información sobre el empleo, la empleabilidad y la inserción laboral de los titulados universitarios, a efectos de aportar transparencia al Sistema Universitario Español (SUE)
+  - Variables de estudio: Tasa de afiliación, afiliados en régimen de autónomos, afiliados con contrato indefinido, grupo de cotización, base media de cotización anual
+  - Variables de clasificación: Sexo, edad, nacionalidad, tipo de universidad, modalidad de la universidad, rama de enseñanza, ámbito de estudio y campo de estudio
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](https://www.ciencia.gob.es/Ministerio/Estadisticas/SIIU/Afiliacion.html)
+- **44051 · [Estadística de Internacionalización Universitaria (MCNU)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946001132)**
+  - Sector o tema: Educación y formación
+  - Subsector o subtema: Resultados y evaluación del sistema educativo
+  - Nivel de desagregación: Otros : Universidades
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: La Estadística de Internacionalización de la Educación Universitaria pretende por un lado ofrecer datos sobre la movilidad (entrada y salida) de los estudiantes, españoles y extranjeros, para realizar estudios universitarios, y por otro, el estudio de la nacionalidad de los estudiantes y profesores extranjeros en las universidades españolas. La movilidad de los estudiantes nos permite conocer los flujos de entrada y salida de estudiantes universitarios entre países, siendo este un tema clave en la política tanto nacional como europea
+  - Variables de estudio: Movilidad de estudiantes internacionales, estudiantes y profesores extranjeros
+  - Variables de clasificación: Tipo de universidad, tipo de movilidad, nivel académico, zona de procedencia/destino, país de nacionalidad
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](https://www.ciencia.gob.es/Ministerio/Estadisticas/SIIU/Internacionalizacion.html)
+- **44052 · [Indicadores de Rendimiento Académico Universitario (MCNU)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946001133)**
+  - Sector o tema: Educación y formación
+  - Subsector o subtema: Resultados y evaluación del sistema educativo
+  - Nivel de desagregación: Otros : Universidades
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: El objetivo de esta operación es realizar un seguimiento de los estudiantes y de los estudios que realizan presentando datos relativos al rendimiento académico en relación a los créditos, a la renovación de estudiantes en las diferentes titulaciones, al abandono y cambio de estudios, al tiempo invertido hasta egresar, a las notas de los expedientes y a las tasas de transición de Grado a Máster
+  - Variables de estudio: Rendimiento, nota del expediente, abandono del estudio, cambio de estudio, idoneidad, duración de los estudios, renovación de la titulación, transición de Grado a Máster
+  - Variables de clasificación: Tipo y modalidad de la universidad, universidad, ámbito de estudio
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](https://www.ciencia.gob.es/Ministerio/Estadisticas/SIIU/Rendimiento.html)
+- **44053 · [Estadística de Becas y Ayudas al Estudio Universitario (MCNU)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946001134)**
+  - Sector o tema: Educación y formación
+  - Subsector o subtema: Resultados y evaluación del sistema educativo
+  - Nivel de desagregación: Otros : Universidades
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Presentar datos relacionados con las becas y ayudas convocadas por la Administración General del Estado, las comunidades autónomas y las universidades y que tienen como destinatarios estudiantes matriculados en estudios oficiales en el Sistema Universitario Español
+  - Variables de estudio: Convocatorias, plazas convocadas, beneficiarios, importe concedido, años becado, rendimiento becario
+  - Variables de clasificación: Universidad, tipo y modalidad de la universidad, tipo de órgano convocante, tipo de beca, umbral renta familiar, nivel académico, ámbito de estudio
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](https://www.ciencia.gob.es/Ministerio/Estadisticas/SIIU/Becas.html)
+
+## Ministerio de Ciencia, Innovación y Universidades - Secretaría de Estado Ciencia, Innovación y Universidades / Secretaría General de Investigación - Instituto de Salud Carlos III, O. A. - Centro Nacional de Epidemiología
+
+- **54063 · [Estadística de Enfermedades de Declaración Obligatoria (MCNU)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931112898)**
+  - Sector o tema: Salud
+  - Subsector o subtema: Prevención y detección de enfermedades
+  - Nivel de desagregación: Municipal o inferior
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Vigilancia epidemiológica, detección de la ocurrencia anormal de las enfermedades de declaración obligatoria para la adopción de medidas de control
+  - Variables de estudio: Enfermedad, localización geográfica (provincial y/o municipal), fecha de los primeros síntomas, factores de riesgo
+  - Variables de clasificación: Edad, sexo
+  - Periodicidad de la difusión: Semanal
+  - [Acceso a los resultados](https://cne.isciii.es/es/servicios/enfermedades-transmisibles/objetivos-boletines)
+- **54064 · [Estadística Estatal de SIDA (MCNU)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931113069)**
+  - Sector o tema: Salud
+  - Subsector o subtema: Prevención y detección de enfermedades
+  - Nivel de desagregación: Provincial
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Conocimiento del número de casos de sida y sus factores de riesgo
+  - Variables de estudio: Número de casos, factores de riesgo
+  - Variables de clasificación: Edad, sexo
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](https://cne.isciii.es/es/web/cne/servicios/enfermedades-transmisibles/enfermedades-a-z/vih)
+- **54066 · [Estadística Estatal de Encefalopatías Espongiformes Transmisibles Humanas (MCNU)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931113411)**
+  - Sector o tema: Salud
+  - Subsector o subtema: Prevención y detección de enfermedades
+  - Nivel de desagregación: Autonómico
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Conocimiento del número de afectados por las distintas formas de encefalopatía espongiforme transmisible humana
+  - Variables de estudio: Número de casos
+  - Variables de clasificación: Edad, sexo
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](https://cne.isciii.es/es/servicios/enfermedades-transmisibles/objetivos-boletines)
+
+## Ministerio de Cultura - Secretaría de Estado de Cultura / Dirección General de Artes Escénicas y Música - Centro de Documentación de las Artes Escénicas y de la Música / División de Estadística y Estudios
+
+- **50041 · [Explotación Estadística de las Bases de Datos de Recursos Musicales y de la Danza (Entidades y Profesionales) (MCLT)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931108075)**
+  - Sector o tema: Cultura, deporte y ocio
+  - Subsector o subtema: Artes escénicas y de la música y cinematografía y artes audiovisuales
+  - Nivel de desagregación: Autonómico
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Conocimiento de la situación de los recursos existentes en la música y en la danza en España
+  - Variables de estudio: Entidades, profesionales y actividades de la música y de la danza
+  - Variables de clasificación: Tipo de entidad, especialidad profesional, tipo de actividad
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](https://www.cultura.gob.es/servicios-a-la-ciudadania/estadisticas/cultura/mc/culturabase/recursos-musicales-y-danza/resultados-recursos-musicales-y-danza.html)
+- **50044 · [Explotación Estadística de las Bases de Datos de Recursos de las Artes Escénicas (MCLT)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931107904)**
+  - Sector o tema: Cultura, deporte y ocio
+  - Subsector o subtema: Artes escénicas y de la música y cinematografía y artes audiovisuales
+  - Nivel de desagregación: Autonómico
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Conocimiento de la situación de los recursos existentes en las artes escénicas
+  - Variables de estudio: Entidades, compañías, espacios escénicos y actividades
+  - Variables de clasificación: Tipo de entidad
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](https://www.cultura.gob.es/servicios-a-la-ciudadania/estadisticas/cultura/mc/culturabase/recursos-artes-escenicas/resultados-recursos-artes-escenicas.html)
+- **50050 · [Estadística de Edición Española de Música con ISMN (MCLT)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931108246)**
+  - Sector o tema: Cultura, deporte y ocio
+  - Subsector o subtema: Edición
+  - Nivel de desagregación: Autonómico
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Conocimiento de la situación de la producción editorial de la música a través del "International Standard Music Number" (ISMN)
+  - Variables de estudio: Obras y agentes editores
+  - Variables de clasificación: Tipo de edición, género musical, páginas, tamaño, soporte, precio, tirada, edición, lengua de publicación y de traducción
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](https://www.cultura.gob.es/servicios-a-la-ciudadania/estadisticas/cultura/mc/culturabase/musica-con-ismn/resultados-musica-con-ismn.html)
+
+## Ministerio de Cultura - Subsecretaría de Cultura / Secretaría General Técnica - División de Estadística y Estudios
+
+- **30401 · [Estadística de Producción Editorial de Libros (MCLT)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931121405)**
+  - Sector o tema: Cultura, deporte y ocio
+  - Subsector o subtema: Edición
+  - Nivel de desagregación: Provincial
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Información del número y características de las publicaciones no periódicas impresas, editadas y puestas a disposición del público
+  - Variables de estudio: Títulos (libros y folletos)
+  - Variables de clasificación: Tema, idioma de publicación y traducción, edición, número de páginas, tipo de publicación, comunidad autónoma y provincia de edición
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](https://www.cultura.gob.es/servicios-a-la-ciudadania/estadisticas/cultura/mc/culturabase/produccion-editorial/resultados-produccion-editorial.html)
+- **30403 · [Estadística de Bibliotecas (MCLT)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931063249)**
+  - Sector o tema: Cultura, deporte y ocio
+  - Subsector o subtema: Museos, bibliotecas y patrimonio histórico
+  - Nivel de desagregación: Provincial
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Proporcionar información sobre las principales características de las bibliotecas: equipamiento; instalaciones; actividad; recursos materiales, económicos y humanos; tipo de financiación y uso de las tecnologías
+  - Variables de estudio: Número de bibliotecas y de puntos de servicio, usuarios, visitas, fondos, préstamos, horas de apertura, superficie, puestos de consulta, equipamiento, personal, gastos y fuentes de financiación
+  - Variables de clasificación: Tipo de biblioteca, titularidad, financiación, forma de acceso, clase de fondos, tipo de personal, clase de gastos
+  - Periodicidad de la difusión: Bienal
+  - [Acceso a los resultados](https://www.culturaydeporte.gob.es/servicios-a-la-ciudadania/estadisticas/cultura/mc/culturabase/bibliotecas/resultados-bibliotecas.html)
+- **41021 · [Encuesta de Hábitos y Prácticas Culturales en España (MCLT)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931106513)**
+  - Sector o tema: Cultura, deporte y ocio
+  - Subsector o subtema: Infraestructura, equipamiento, entes, recursos económicos y prácticas culturales en general
+  - Nivel de desagregación: Autonómico
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Conocer y cuantificar el comportamiento cultural de la población y el equipamiento cultural de las familias
+  - Variables de estudio: Equipamiento, prácticas culturales en los sectores de: cine, teatro, ópera, conciertos, bibliotecas, archivos, museos, lectura, audición de música, TV, radio, video, informática, cursos de formación complementaria y otros. Consumo de productos sujetos a derecho de propiedad intelectual
+  - Variables de clasificación: Variables sociodemográficas de los individuos
+  - Periodicidad de la difusión: Bienal - Últimos datos: 2021-2022
+  - [Acceso a los resultados](https://www.cultura.gob.es/servicios-a-la-ciudadania/estadisticas/cultura/mc/culturabase/encuesta-de-habitos/resultados-habitos.html)
+- **41050 · [Estadística de Financiación y Gasto Público en Cultura (MCLT)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931106688)**
+  - Sector o tema: Cultura, deporte y ocio
+  - Subsector o subtema: Infraestructura, equipamiento, entes, recursos económicos y prácticas culturales en general
+  - Nivel de desagregación: Autonómico
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Conocimiento de los recursos económicos del sector público destinados a la cultura
+  - Variables de estudio: Financiación y gasto en cultura
+  - Variables de clasificación: Actividad cultural, clasificación presupuestaria, tipo de administración
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](https://www.cultura.gob.es/servicios-a-la-ciudadania/estadisticas/cultura/mc/culturabase/gasto-publico/resultados-gasto-publico.html)
+- **49005 · [Anuario de Estadísticas Culturales (MCLT)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931106865)**
+  - Sector o tema: Cultura, deporte y ocio
+  - Subsector o subtema: Indicadores, síntesis y recopilaciones de cultura y ocio
+  - Nivel de desagregación: Autonómico
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Proporcionar información sintética sobre la realidad cultural, a través de indicadores estadísticos
+  - Variables de estudio: De carácter general del sector
+  - Variables de clasificación: Propias del sector
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](https://www.cultura.gob.es/servicios-a-la-ciudadania/estadisticas/cultura/mc/aec.html)
+- **50001 · [Explotación Estadística de la Base de Datos de Protección del Patrimonio Histórico Español (Bienes Muebles e Inmuebles) (MCLT)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931107208)**
+  - Sector o tema: Cultura, deporte y ocio
+  - Subsector o subtema: Artes plásticas y patrimonio histórico-artístico
+  - Nivel de desagregación: Autonómico
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Conocimiento de los bienes muebles e inmuebles integrantes del Patrimonio Histórico Español
+  - Variables de estudio: Protección de los bienes muebles e inmuebles
+  - Variables de clasificación: Estado de la tramitación y categoría
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](https://www.cultura.gob.es/servicios-a-la-ciudadania/estadisticas/cultura/mc/culturabase/patrimonio/resultados-patrimonio.html)
+- **50003 · [Estadística de Archivos (MCLT)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931107556)**
+  - Sector o tema: Cultura, deporte y ocio
+  - Subsector o subtema: Museos, bibliotecas y patrimonio histórico
+  - Nivel de desagregación: Nacional
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Conocimiento de la situación de los archivos estatales gestionados por el departamento y por el Ministerio de Defensa
+  - Variables de estudio: Equipamiento, servicios, accesibilidad, personal, fondos, características del edificio
+  - Variables de clasificación: Fondos documentales y restaurados por tipo de documento; Servicios en sala y en Internet de archivos estatales por características
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](https://www.cultura.gob.es/servicios-a-la-ciudadania/estadisticas/cultura/mc/culturabase/archivos/resultados-archivos.html)
+- **50004 · [Estadística de Museos y Colecciones Museográficas (MCLT)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931107033)**
+  - Sector o tema: Cultura, deporte y ocio
+  - Subsector o subtema: Museos, bibliotecas y patrimonio histórico
+  - Nivel de desagregación: Autonómico
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Conocimiento de la situación de las instituciones museísticas y cumplimiento de los requerimientos internacionales
+  - Variables de estudio: Infraestructura, equipamiento, servicios, actividad, accesibilidad, personal, fondos
+  - Variables de clasificación: Titularidad, tipología del museo
+  - Periodicidad de la difusión: Bienal
+  - [Acceso a los resultados](https://www.cultura.gob.es/servicios-a-la-ciudadania/estadisticas/cultura/mc/culturabase/museos-y-colecciones-museograficas/resultados-museos.html)
+- **50026 · [Estadística de Edición Española de Libros con ISBN (MCLT)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931107381)**
+  - Sector o tema: Cultura, deporte y ocio
+  - Subsector o subtema: Edición
+  - Nivel de desagregación: Provincial
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Conocimiento de la evolución anual del mercado de oferta de libros españoles y análisis de los principales parámetros de la producción editorial que contribuyen a determinar la dimensión económica del sector editorial
+  - Variables de estudio: Libros y agentes editores
+  - Variables de clasificación: Materia, naturaleza jurídica del agente editor, idiomas españoles, ediciones, lengua traducida, formato
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](https://www.cultura.gob.es/servicios-a-la-ciudadania/estadisticas/cultura/mc/culturabase/libro/resultados-libro.html)
+- **50051 · [Banco de Datos CULTURAbase (MCLT)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931140933)**
+  - Sector o tema: Cultura, deporte y ocio
+  - Subsector o subtema: Indicadores, síntesis y recopilaciones de cultura y ocio
+  - Nivel de desagregación: Autonómico
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Organización y difusión de la información estadística cultural en Internet en forma de tabla
+  - Variables de estudio: De carácter general del sector
+  - Variables de clasificación: Propias del sector
+  - Periodicidad de la difusión: Continua
+  - [Acceso a los resultados](https://www.cultura.gob.es/servicios-a-la-ciudadania/estadisticas/cultura/mc/culturabase/portada.html)
+- **50052 · [Cuenta Satélite de la Cultura (MCLT)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931142784)**
+  - Sector o tema: Cuentas económicas
+  - Subsector o subtema: Cuentas satélite
+  - Nivel de desagregación: Nacional
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Elaborar la cuenta satélite de la cultura en el marco de las Cuentas Nacionales
+  - Variables de estudio: Principales magnitudes macroeconómicas relacionadas con el sector
+  - Variables de clasificación: Propias del sector
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](https://www.cultura.gob.es/servicios-a-la-ciudadania/estadisticas/cultura/mc/culturabase/cuenta-satelite/resultados-cuenta-satelite.html)
+- **50053 · [Explotación Estadística del Registro General de Propiedad Intelectual (MCLT)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259930978680)**
+  - Sector o tema: Cultura, deporte y ocio
+  - Subsector o subtema: Infraestructura, equipamiento, entes, recursos económicos y prácticas culturales en general
+  - Nivel de desagregación: Nacional
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Conocimiento de los derechos de propiedad intelectual inscritos en el Registro General de Propiedad Intelectual
+  - Variables de estudio: Derechos inscritos
+  - Variables de clasificación: Tipo de derecho y registro, sexo y nacionalidad de los autores o titulares de primeras inscripciones
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](https://www.cultura.gob.es/servicios-a-la-ciudadania/estadisticas/cultura/mc/culturabase/propiedad-intelectual/resultados-propiedad-intelectual.html)
+- **50054 · [Explotación Estadística de los Datos de Derechos de Propiedad Intelectual Gestionados por las Entidades de Gestión (MCLT)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931156621)**
+  - Sector o tema: Cultura, deporte y ocio
+  - Subsector o subtema: Infraestructura, equipamiento, entes, recursos económicos y prácticas culturales en general
+  - Nivel de desagregación: Nacional
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Conocimiento de los derechos de propiedad intelectual gestionados por las entidades de gestión
+  - Variables de estudio: Cantidades recaudadas y repartidas
+  - Variables de clasificación: Propias del sector, sexo de los miembros de las entidades de gestión (si persona física)
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](https://www.cultura.gob.es/servicios-a-la-ciudadania/estadisticas/cultura/mc/culturabase/propiedad-intelectual/resultados-propiedad-intelectual.html)
+- **50057 · [Explotación de la Encuesta de Población Activa en el Ámbito Cultural (MCLT)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259948063816)**
+  - Sector o tema: Cultura, deporte y ocio
+  - Subsector o subtema: Indicadores, síntesis y recopilaciones de cultura y ocio
+  - Nivel de desagregación: Autonómico
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Proporcionar indicadores en el ámbito cultural mediante la explotación específica de la Encuesta de Población Activa considerando el criterio conjunto tanto de las ocupaciones como de las actividades económicas culturales
+  - Variables de estudio: Empleo cultural
+  - Variables de clasificación: Edad, sexo, nivel de estudios, situación profesional, tipo de jornada
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](https://www.cultura.gob.es/servicios-a-la-ciudadania/estadisticas/cultura/mc/culturabase/empleo-cultural/resultados-empleo.html)
+- **50059 · [Explotación de las Estadísticas Turísticas en el Ámbito Cultural (MCLT)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259945998304)**
+  - Sector o tema: Cultura, deporte y ocio
+  - Subsector o subtema: Indicadores, síntesis y recopilaciones de cultura y ocio
+  - Nivel de desagregación: Autonómico
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Proporcionar indicadores relativos a viajes realizados tanto por residentes en España como no residentes en España iniciados principalmente por motivos culturales mediante la explotación específica de las operaciones estadísticas turísticas (FAMILITUR, FRONTUR y EGATUR)
+  - Variables de estudio: Número de viajes vinculados a la cultura y gasto total realizado
+  - Variables de clasificación: Lugar de residencia, destino principal
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](https://www.cultura.gob.es/servicios-a-la-ciudadania/estadisticas/cultura/mc/culturabase/turismo-cultural/resultados-turismo.html)
+- **50065 · [Explotación de las Estadísticas de las Enseñanzas en el Ámbito Cultural (MCLT)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259945998303)**
+  - Sector o tema: Cultura, deporte y ocio
+  - Subsector o subtema: Indicadores, síntesis y recopilaciones de cultura y ocio
+  - Nivel de desagregación: Autonómico
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Proporcionar indicadores relativos las enseñanzas relacionadas con las profesiones culturales mediante la explotación específica de las Estadísticas de las Enseñanzas
+  - Variables de estudio: Alumnado matriculado, alumnado que termina los estudios
+  - Variables de clasificación: Sexo, tipo de enseñanza, especialidad, titularidad del centro
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](https://www.cultura.gob.es/servicios-a-la-ciudadania/estadisticas/cultura/mc/culturabase/ensenanzas/resultados-ensenanza.html)
+- **50067 · [Explotación de la Encuesta de Presupuestos Familiares en el Ámbito Cultural (MCLT)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259945998301)**
+  - Sector o tema: Cultura, deporte y ocio
+  - Subsector o subtema: Indicadores, síntesis y recopilaciones de cultura y ocio
+  - Nivel de desagregación: Autonómico
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Proporcionar indicadores relativos al gasto de consumo de los hogares vinculado a la cultura mediante la explotación específica de la Encuesta de Presupuestos Familiares
+  - Variables de estudio: Gastos de consumo de los hogares por bienes y servicios vinculados a la cultura
+  - Variables de clasificación: Tipo de bien o servicio, características del sustentador principal, tamaño de municipio
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](https://www.cultura.gob.es/servicios-a-la-ciudadania/estadisticas/cultura/mc/culturabase/gasto-hogares/resultados-gasto-hogares.html)
+- **50069 · [Explotación de las Estadísticas de Comercio Exterior en el Ámbito Cultural (MCLT)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259945998298)**
+  - Sector o tema: Cultura, deporte y ocio
+  - Subsector o subtema: Indicadores, síntesis y recopilaciones de cultura y ocio
+  - Nivel de desagregación: Nacional
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Proporcionar indicadores relativos al comercio exterior, exportaciones e importaciones, de bienes y productos culturales mediante la explotación específica de las Estadísticas de Comercio Exterior
+  - Variables de estudio: Exportaciones e importaciones
+  - Variables de clasificación: Bienes y productos culturales. Áreas geográficas
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](https://www.cultura.gob.es/servicios-a-la-ciudadania/estadisticas/cultura/mc/culturabase/comercio-exterior/resultados-comercio-exterior.html)
+- **50071 · [Explotación del Directorio Central de Empresas en el Ámbito Cultural (MCLT)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259945998296)**
+  - Sector o tema: Cultura, deporte y ocio
+  - Subsector o subtema: Indicadores, síntesis y recopilaciones de cultura y ocio
+  - Nivel de desagregación: Autonómico
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Proporcionar indicadores relativos al número de empresas en el ámbito cultural mediante la explotación específica del Directorio Central de Empresas
+  - Variables de estudio: Número de empresas cuya actividad económica principal pertenece al ámbito cultural
+  - Variables de clasificación: Actividad económica principal, tamaño según el número de asalariados, condición jurídica y comunidad autónoma
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](https://www.cultura.gob.es/servicios-a-la-ciudadania/estadisticas/cultura/mc/culturabase/empresas-culturales/resultados-empresas.html)
+- **68023 · [Estadística de Asuntos Taurinos (MCLT)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259942188283)**
+  - Sector o tema: Cultura, deporte y ocio
+  - Subsector o subtema: Infraestructura, equipamiento, entes, recursos económicos y prácticas culturales en general
+  - Nivel de desagregación: Autonómico
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Difusión de datos relativos a asuntos taurinos
+  - Variables de estudio: Profesionales taurinos, escuelas taurinas, ganaderías y festejos celebrados, categoría de las plazas, reses, localidades y fechas
+  - Variables de clasificación: Profesionales por sección profesional, sexo, edad, nacionalidad; tipo de festejo; categoría de la plaza
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](https://www.cultura.gob.es/servicios-a-la-ciudadania/estadisticas/cultura/mc/culturabase/asuntos-taurinos/resultados-asuntos-taurinos.html)
+
+## Ministerio de Cultura - Subsecretaría de Cultura / Secretaría General Técnica - División de Estadística y Estudios / Subdirección General de Promoción y Acceso a la Cultura
+
+- **49006 · [Explotación Estadística del Bono Cultural Joven (MCLT)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946003384)**
+  - Sector o tema: Cultura, deporte y ocio
+  - Subsector o subtema: Infraestructura, equipamiento, entes, recursos económicos y prácticas culturales en general
+  - Nivel de desagregación: Provincial
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Conocimiento de la dimensión económica del BCJ en una edición
+  - Variables de estudio: Beneficiarios, Entidades adheridas y gasto realizado
+  - Variables de clasificación: Propias del sector
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](https://www.cultura.gob.es/servicios-a-la-ciudadania/estadisticas/cultura/mc/culturabase/bono-cultural/resultados-bono-cultural.html)
+
+## Ministerio de Cultura - Subsecretaría de Cultura / Secretaría General Técnica - División de Estadística y Estudios / Subdirección General del Protectorado de Fundaciones
+
+- **50074 · [Estadística de Fundaciones Sujetas al Protectorado Estatal (MCLT)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946001126)**
+  - Sector o tema: Cultura, deporte y ocio
+  - Subsector o subtema: Infraestructura, equipamiento, entes, recursos económicos y prácticas culturales en general
+  - Nivel de desagregación: Nacional
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Conocimiento de la estructura, dimensión y comportamiento económico de las fundaciones en un ejercicio
+  - Variables de estudio: Fundaciones tratadas, principales indicadores económicos que se derivan de las cuentas económicas que las fundaciones sujetas al Protectorado estatal entregan con periodicidad anual
+  - Variables de clasificación: Propias del sector
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](https://www.cultura.gob.es/servicios-a-la-ciudadania/estadisticas/cultura/mc/culturabase/fundaciones/resultados-fundaciones.html)
+
+## Ministerio de Cultura / Instituto de la Cinematografía y de las Artes Audiovisuales, O.A. - Subdirección General de Fomento de la Industria Cinematográfica y Audiovisual / División de Estadística y Estudios
+
+- **50061 · [Estadística de Cinematografía: Producción, Exhibición, Distribución y Fomento (MCLT)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931108429)**
+  - Sector o tema: Cultura, deporte y ocio
+  - Subsector o subtema: Artes escénicas y de la música y cinematografía y artes audiovisuales
+  - Nivel de desagregación: Provincial
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Información sobre las áreas de producción, exhibición, distribución y protección cinematográfica
+  - Variables de estudio: Producción y coproducción de películas, películas exhibidas, espectadores y recaudación, ayudas recibidas, distribución, salas y explotación videográfica
+  - Variables de clasificación: País, espectadores y recaudación. Para producción española, dirección y guion por sexo
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](https://www.cultura.gob.es/servicios-a-la-ciudadania/estadisticas/cultura/mc/culturabase/cine-contenidos-audiovisuales/resultados-cine-contenidos-audiovisuales.html)
+
+## Ministerio de Defensa - Subsecretaría de Defensa / Secretaría General Técnica
+
+- **76002 · [Personal Civil Funcionario al Servicio de la Administración Militar (MDEF)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259930980688)**
+  - Sector o tema: Administraciones públicas y asociaciones
+  - Subsector o subtema: Personal de las administraciones públicas y sus retribuciones
+  - Nivel de desagregación: Provincial
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Conocimiento de las características sociodemográficas y profesionales del personal civil funcionario del Ministerio de Defensa
+  - Variables de estudio: Situaciones administrativas y bajas producidas durante el año
+  - Variables de clasificación: Grupos, niveles, formas de ocupación, distribución geográfica, edades y sexo
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](http://www.defensa.gob.es/defensa/estadisticas/)
+- **76003 · [Personal Civil Laboral al Servicio de la Administración Militar (MDEF)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259930980861)**
+  - Sector o tema: Administraciones públicas y asociaciones
+  - Subsector o subtema: Personal de las administraciones públicas y sus retribuciones
+  - Nivel de desagregación: Provincial
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Conocimiento de las características sociodemográficas y profesionales del personal civil laboral del Ministerio de Defensa
+  - Variables de estudio: Situaciones laborales y bajas producidas durante el año
+  - Variables de clasificación: Grupos profesionales, distribución geográfica, relación con la administración, tipo de contrato, edades y sexo
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](http://www.defensa.gob.es/defensa/estadisticas/)
+- **76012 · [Estadística de Establecimientos Sanitarios Militares con Régimen de Internado (MDEF)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259930981034)**
+  - Sector o tema: Salud
+  - Subsector o subtema: Personal, recursos económicos y actividades del sistema sanitario
+  - Nivel de desagregación: Nacional
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Información de la actividad asistencial y económica de los centros hospitalarios dependientes del Ministerio de Defensa, su dotación de personal y características estructurales
+  - Variables de estudio: Establecimientos, hospitalizados y estancias causadas, personal, infraestructura, actividades asistenciales y económicas
+  - Variables de clasificación: Especialidades
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](http://www.defensa.gob.es/defensa/estadisticas/)
+- **76013 · [Estadística de Morbilidad Hospitalaria en Establecimientos Sanitarios Militares (MDEF)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259930981204)**
+  - Sector o tema: Salud
+  - Subsector o subtema: Personal, recursos económicos y actividades del sistema sanitario
+  - Nivel de desagregación: Nacional
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Conocimiento de la morbilidad atendida en establecimientos sanitarios dependientes del Ministerio de Defensa
+  - Variables de estudio: Hospitalización, estancias hospitalarias y cirugía ambulatoria
+  - Variables de clasificación: Hospitales, número de hospitalizados y diagnóstico
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](http://www.defensa.gob.es/defensa/estadisticas/)
+- **76014 · [Estadística de Bibliotecas del Ministerio de Defensa (MDEF)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259930981376)**
+  - Sector o tema: Cultura, deporte y ocio
+  - Subsector o subtema: Museos, bibliotecas y patrimonio histórico
+  - Nivel de desagregación: Nacional
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Conocimiento de los fondos existentes en las bibliotecas del Ministerio de Defensa
+  - Variables de estudio: Volúmenes existentes, préstamos realizados, personal
+  - Variables de clasificación: Ejército u organismo
+  - Periodicidad de la difusión: Bienal
+  - [Acceso a los resultados](http://www.defensa.gob.es/defensa/estadisticas/)
+- **76015 · [Estadística de Museos y Colecciones Museográficas del Ministerio de Defensa (MDEF)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259930981545)**
+  - Sector o tema: Cultura, deporte y ocio
+  - Subsector o subtema: Museos, bibliotecas y patrimonio histórico
+  - Nivel de desagregación: Nacional
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Conocimiento de las instalaciones y actividades de los museos en las Fuerzas Armadas
+  - Variables de estudio: Instalaciones, personal, género, actividades, gastos
+  - Variables de clasificación: Ejército u organismo
+  - Periodicidad de la difusión: Bienal
+  - [Acceso a los resultados](http://www.defensa.gob.es/defensa/estadisticas/)
+- **76017 · [Estadística de Archivos del Ministerio de Defensa (MDEF)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259930981887)**
+  - Sector o tema: Cultura, deporte y ocio
+  - Subsector o subtema: Museos, bibliotecas y patrimonio histórico
+  - Nivel de desagregación: Nacional
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Conocer las dotaciones, instalaciones y fondos documentales existentes en los archivos militares
+  - Variables de estudio: Infraestructura, servicios y equipamiento; fondos documentales ; actividad del archivo durante el año; personal
+  - Variables de clasificación: Subsistema archivístico; tipo de archivo
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](http://www.defensa.gob.es/defensa/estadisticas/)
+- **76018 · [Estadística de Actividades Musicales en las Fuerzas Armadas (MDEF)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259930982056)**
+  - Sector o tema: Cultura, deporte y ocio
+  - Subsector o subtema: Artes escénicas y de la música y cinematografía y artes audiovisuales
+  - Nivel de desagregación: Nacional
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Conocimiento de la existencia de medios y actividades de las bandas musicales de las Fuerzas Armadas
+  - Variables de estudio: Instalaciones, instrumentos, archivo musical, actividades y personal
+  - Variables de clasificación: Ejércitos
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](http://www.defensa.gob.es/defensa/estadisticas/)
+- **76019 · [Estadística de Centros de Enseñanza del Ministerio de Defensa (MDEF)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931113930)**
+  - Sector o tema: Educación y formación
+  - Subsector o subtema: Infraestructura, equipamiento y entes para educación
+  - Nivel de desagregación: Nacional
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Conocimiento de la infraestructura de la enseñanza del Ministerio de Defensa
+  - Variables de estudio: Centros de enseñanza, personal docente del centro, instalaciones docentes, y actividades del centro
+  - Variables de clasificación: Ejército u organismo y tipo de enseñanza que se imparte
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](http://www.defensa.gob.es/defensa/estadisticas/)
+- **76020 · [Estadística de Cursos y Estudios en el Ministerio de Defensa (MDEF)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931114101)**
+  - Sector o tema: Educación y formación
+  - Subsector o subtema: Actividad del sistema educativo
+  - Nivel de desagregación: Nacional
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Conocimiento de los cursos impartidos en los centros de enseñanza en el Ministerio de Defensa
+  - Variables de estudio: Cursos, tipo de cursos, alumnos, género, profesores, tipo de profesores, distribución de la actividad del curso
+  - Variables de clasificación: Ejército u organismo
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](http://www.defensa.gob.es/defensa/estadisticas/)
+- **76022 · [Estadística de Accidentes de Carácter Militar en las Fuerzas Armadas (MDEF)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931114272)**
+  - Sector o tema: Mercado laboral y salarios
+  - Subsector o subtema: Relaciones laborales y otros aspectos del trabajo
+  - Nivel de desagregación: Provincial
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Conocimiento de los accidentes de carácter militar en las Fuerzas Armadas
+  - Variables de estudio: Tipo de suceso, tipos de accidentes de carácter militar
+  - Variables de clasificación: Ejército u organismo, colectivo, categoría o empleo, sexo, lugar y naturaleza de la lesión
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](http://www.defensa.gob.es/defensa/estadisticas/)
+- **76025 · [Estadística de Agresiones en las Fuerzas Armadas (MDEF)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931114444)**
+  - Sector o tema: Seguridad y justicia
+  - Subsector o subtema: Seguridad ciudadana
+  - Nivel de desagregación: Nacional
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Conocimiento de las agresiones en las Fuerzas Armadas
+  - Variables de estudio: Tipo de agresiones
+  - Variables de clasificación: Ejército u organismo, colectivo, categoría o empleo, sexo, lugar y naturaleza de la lesión
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](http://www.defensa.gob.es/defensa/estadisticas/)
+- **76026 · [Estadística de Presupuestos del Ministerio de Defensa (MDEF)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931114616)**
+  - Sector o tema: Administraciones públicas y asociaciones
+  - Subsector o subtema: Presupuestarias y fiscales
+  - Nivel de desagregación: Nacional
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Conocimiento de la distribución de los presupuestos en los servicios presupuestarios y ejércitos y organismos
+  - Variables de estudio: Partidas presupuestarias según clasificación económica, por programas, orgánica y evolución del presupuesto
+  - Variables de clasificación: Ejércitos y organismos, servicios presupuestarios, capítulos y funciones presupuestarias
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](http://www.defensa.gob.es/defensa/estadisticas/)
+- **76028 · [Estadística de Contratación en el Ministerio de Defensa (MDEF)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931114789)**
+  - Sector o tema: Administraciones públicas y asociaciones
+  - Subsector o subtema: Presupuestarias y fiscales
+  - Nivel de desagregación: Nacional
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Conocimiento de la contratación administrativa en el Ministerio de Defensa
+  - Variables de estudio: Importe de la contratación según orden de proceder, importe de los contratos e importe según las adjudicaciones mensuales y encomiendas de gestión
+  - Variables de clasificación: Ejércitos y organismos, contratación por meses y por año de financiación
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](http://www.defensa.gob.es/defensa/estadisticas/)
+- **76033 · [Estadística de Jurisdicción Militar (MDEF)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931114962)**
+  - Sector o tema: Seguridad y justicia
+  - Subsector o subtema: Actividad judicial
+  - Nivel de desagregación: Nacional
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Conocimiento de la actividad judicial militar y de las cuestiones penitenciarias militares
+  - Variables de estudio: Procedimientos penales, procedimientos contencioso - disciplinarios, conflictos de jurisdicción, cuestiones penitenciarias
+  - Variables de clasificación: Tipo de procedimiento, órganos jurisdiccionales militares, estado del procedimiento; altas de la población interna, bajas de la población interna, situación de la población interna
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](http://www.defensa.gob.es/defensa/estadisticas/)
+- **76042 · [Estadística de Centros de Investigación y Desarrollo en el Ministerio de Defensa (MDEF)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931115135)**
+  - Sector o tema: Investigación científica y desarrollo tecnológico
+  - Subsector o subtema: Recursos económicos, personal y actividades en I+D
+  - Nivel de desagregación: Nacional
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Conocimiento de los centros que realizan I+D en el Ministerio de Defensa o en Organismos Públicos adscritos al Ministerio de Defensa
+  - Variables de estudio: Personal según su dedicación, gastos internos y externos, distribución geográfica y biotecnología
+  - Variables de clasificación: Centro, titulación del personal, sexo
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](http://www.defensa.gob.es/defensa/estadisticas/)
+- **76044 · [Personal Militar de Carrera de las Fuerzas Armadas (MDEF)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931115306)**
+  - Sector o tema: Administraciones públicas y asociaciones
+  - Subsector o subtema: Personal de las administraciones públicas y sus retribuciones
+  - Nivel de desagregación: Nacional
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Conocimiento de las características demográficas y profesionales del militar de carrera de las Fuerzas Armadas
+  - Variables de estudio: Efectivos, situaciones, distribución territorial y por ejércitos
+  - Variables de clasificación: Empleo, cuerpo, escala, edad, categoría y sexo
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](http://www.defensa.gob.es/defensa/estadisticas/)
+- **76045 · [Personal Militar con una Relación de Servicios de Carácter Temporal (MDEF)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931115479)**
+  - Sector o tema: Administraciones públicas y asociaciones
+  - Subsector o subtema: Personal de las administraciones públicas y sus retribuciones
+  - Nivel de desagregación: Provincial
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Conocimiento de las características demográficas y profesionales del militar de complemento y de tropa y marinería de las Fuerzas Armadas cuya relación de servicios es de carácter temporal
+  - Variables de estudio: Efectivos, situaciones, distribución territorial y por ejércitos
+  - Variables de clasificación: Empleo, cuerpo, escala, edad, categoría, especialidad y sexo
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](http://www.defensa.gob.es/defensa/estadisticas/)
+- **76046 · [Estadística de Convocatorias para el Ingreso como Militar de Carrera (MDEF)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931131090)**
+  - Sector o tema: Administraciones públicas y asociaciones
+  - Subsector o subtema: Personal de las administraciones públicas y sus retribuciones
+  - Nivel de desagregación: Nacional
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Conocimiento de las características de las convocatorias para el ingreso como militar de carrera
+  - Variables de estudio: Convocatorias, número de plazas, individuos, situaciones, ejército
+  - Variables de clasificación: Ejército, cuerpo, escala, edad, tipo de acceso y género
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](http://www.defensa.gob.es/defensa/estadisticas/)
+- **76047 · [Estadística de Convocatorias para el Ingreso como Militar de Complemento (MDEF)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931131263)**
+  - Sector o tema: Administraciones públicas y asociaciones
+  - Subsector o subtema: Personal de las administraciones públicas y sus retribuciones
+  - Nivel de desagregación: Nacional
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Conocimiento de las características de las convocatorias para el ingreso como militar de complemento
+  - Variables de estudio: Convocatorias, número de plazas, individuos, situaciones, ejército
+  - Variables de clasificación: Ejército, cuerpo, escala, edad, tipo de acceso y género
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](http://www.defensa.gob.es/defensa/estadisticas/)
+- **76048 · [Estadística de Convocatorias para el Ingreso como Militar de Tropa y Marinería (MDEF)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931131436)**
+  - Sector o tema: Administraciones públicas y asociaciones
+  - Subsector o subtema: Personal de las administraciones públicas y sus retribuciones
+  - Nivel de desagregación: Nacional
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Conocimiento de las características de las convocatorias para el ingreso como militar de tropa y marinería
+  - Variables de estudio: Convocatorias, número de plazas, individuos, situaciones, ejército
+  - Variables de clasificación: Ejército, ciclo, escala, edad, tipo de acceso y género
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](http://www.defensa.gob.es/defensa/estadisticas/)
+- **76049 · [Estadística de Convocatorias para el Acceso a Reservista Voluntario (MDEF)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931131609)**
+  - Sector o tema: Administraciones públicas y asociaciones
+  - Subsector o subtema: Personal de las administraciones públicas y sus retribuciones
+  - Nivel de desagregación: Nacional
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Conocimiento de las características de las convocatorias para el acceso a reservista voluntario
+  - Variables de estudio: Convocatorias, número de plazas, individuos, situaciones, ejército
+  - Variables de clasificación: Ejército, escala, edad, tipo de acceso y género
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](http://www.defensa.gob.es/defensa/estadisticas/)
+- **76050 · [Personal Estatutario al Servicio de la Administración Militar (MDEF)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931154300)**
+  - Sector o tema: Administraciones públicas y asociaciones
+  - Subsector o subtema: Personal de las administraciones públicas y sus retribuciones
+  - Nivel de desagregación: Provincial
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Conocimiento de las características sociodemográficas y profesionales del personal estatutario del Ministerio de Defensa
+  - Variables de estudio: Efectivos y situaciones
+  - Variables de clasificación: Grupos, categorías, edades, sexo
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](http://www.defensa.gob.es/defensa/estadisticas/)
+- **76055 · [Personal Reservista de Especial Disponibilidad, Reservista Voluntario y Reservista Obligatorio (MDEF)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946001135)**
+  - Sector o tema: Administraciones públicas y asociaciones
+  - Subsector o subtema: Personal de las administraciones públicas y sus retribuciones
+  - Nivel de desagregación: Provincial
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Conocimiento de las características demográficas y profesionales de los militares reservistas de las FAS
+  - Variables de estudio: Efectivos, distribución territorial, distribución por ejércitos y empleos
+  - Variables de clasificación: Empleo, cuerpo, edad, categoría y sexo
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](http://www.defensa.gob.es/defensa/estadisticas/)
+- **76056 · [Personal Militar de Carrera de la Guardia Civil (MDEF)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946001136)**
+  - Sector o tema: Administraciones públicas y asociaciones
+  - Subsector o subtema: Personal de las administraciones públicas y sus retribuciones
+  - Nivel de desagregación: Provincial
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Conocimiento de las características demográficas y profesionales del militar de carrera de la Guardia Civil
+  - Variables de estudio: Efectivos, situaciones, distribución territorial y por ejércitos
+  - Variables de clasificación: Empleo, cuerpo, escala, edad, categoría y sexo
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](http://www.defensa.gob.es/defensa/estadisticas/)
+- **76057 · [Estadística de Indicadores de Igualdad y Conciliación en las Fuerzas Armadas (MDEF)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946001137)**
+  - Sector o tema: Administraciones públicas y asociaciones
+  - Subsector o subtema: Personal de las administraciones públicas y sus retribuciones
+  - Nivel de desagregación: Nacional
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Conocimiento de indicadores de las desigualdades existentes entre los hombres y mujeres que componen las Fuerzas Armadas
+  - Variables de estudio: Efectivos, distribución por ejércitos, cuerpos, especialidades y empleos
+  - Variables de clasificación: Empleo, cuerpo, especialidades, edad y sexo
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](http://www.defensa.gob.es/defensa/estadisticas/)
+
+## Ministerio de Derechos Sociales, Consumo y Agenda 2030 - Secretaría General de Consumo y Juego / Agencia Española de Seguridad Alimentaria y Nutrición O.A. - Subdirección General de Control Oficial y Alertas
+
+- **54107 · [Informe Anual del Sistema de Control de Establecimientos Alimentarios y Alimentos Producidos o Comercializados en el Mercado Intracomunitario con Repercusiones en Seguridad Alimentaria (MDCA)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946001869)**
+  - Sector o tema: Salud
+  - Subsector o subtema: Prevención y detección de enfermedades
+  - Nivel de desagregación: Nacional
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Recoger de forma global e integrada los resultados de los controles oficiales de seguridad alimentaria en establecimientos alimentarios y alimentos realizados por las comunidades y ciudades autónomas en el ámbito de sus competencias, dentro del marco de aplicación del Plan Nacional de Control Oficial de la Cadena Alimentaria, elaborado en cumplimiento del Reglamento (UE) 2017/625, sobre controles y otras actividades oficiales
+  - Variables de estudio: Los controles oficiales de la cadena alimentaria realizados por las comunidades y ciudades autónomas dentro del marco de aplicación de los programas de control incluidos en el Plan Nacional de Control Oficial de la Cadena Alimentaria
+  - Variables de clasificación: Controles programados, controles programados realizados, controles no programados realizados, controles realizados, controles con incumplimientos, medidas adoptadas frente a incumplimientos, por categoría de alimento y por tipo de establecimiento alimentario
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](https://www.aesan.gob.es/AECOSAN/web/seguridad_alimentaria/seccion/informe_anual_pncoca.htm)
+- **54108 · [Estadística del Sistema Coordinado de Intercambio Rápido de Información (MDCA)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946001870)**
+  - Sector o tema: Estadísticas no desglosables por sector o tema
+  - Subsector o subtema: Estadísticas y recopilaciones generales
+  - Nivel de desagregación: Nacional
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Recoger de forma global e integrada los resultados de las notificaciones intercambiadas a través del Sistema Coordinado de Intercambio Rápido de Información, que es un sistema coordinado de alertas alimentarias, cuyos principios de actuación y funcionamiento se basan en los artículos 50 a 52 del Reglamento (CE) nº 178/2002 del Parlamento Europeo y del Consejo, por el que se establecen los principios y los requisitos generales de la legislación alimentaria, se crea la Autoridad Europea de Seguridad Alimentaria y se fijan procedimientos relativos a la seguridad alimentaria
+  - Variables de estudio: Tipo de notificación, producto implicado, tipo de peligro detectado, origen de las notificaciones y origen de los productos implicados
+  - Variables de clasificación: Tipo de notificación: alerta, información, rechazo en frontera y varios, Producto implicado: origen animal, origen vegetal, materiales en contacto con alimentos y otros orígenes, Tipo de peligro detectado: peligros biológicos, peligros químicos, peligros peligros físicos y otros peligros, Origen de las notificaciones: quién realiza la notificación inicial, Origen de los productos implicados: lugar donde se han producido los productos
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](https://www.aesan.gob.es/AECOSAN/web/seguridad_alimentaria/subseccion/SCIRI.htm)
+- **54109 · [Informe AESAN del Análisis de los Datos Anuales de las Zoonosis Alimentarias (MDCA)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946001871)**
+  - Sector o tema: Salud
+  - Subsector o subtema: Prevención y detección de enfermedades
+  - Nivel de desagregación: Autonómico
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Transmisión del análisis de los datos anuales de las zoonosis alimentarias y evaluación de las tendencias observadas por cada uno de los agentes zoonóticos. Cumpliendo con lo descrito en el artículo 3 (3) del Real Decreto 1940/2004 sobre el análisis de los datos recopilados, (traspuesto en nuestro ordenamiento jurídico de la Directiva 2003/99/CE)
+  - Variables de estudio: Agentes zoonóticos responsables de las zoonosis alimentarias y los resultados analíticos de esas muestras analizadas por las CCAA de acuerdo a sus programas de vigilancia y control oficial
+  - Variables de clasificación: Tipo de muestra alimentaria analizada, positividad y agente zoonótico encontrado en el análisis de cada una de las muestras
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](https://www.aesan.gob.es/AECOSAN/web/seguridad_alimentaria/subseccion/vigilancia_zoonosis.htm)
+- **54111 · [Informe AESAN del Análisis de los Datos Anuales de las Antibiorresistencias en Bacterias Zoonóticas y Comensales (MDCA)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946003393)**
+  - Sector o tema: Salud
+  - Subsector o subtema: Prevención y detección de enfermedades
+  - Nivel de desagregación: Autonómico
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Transmisión del análisis de los datos anuales de las antibiorresistencias en bacterias zoonóticas y comensales cumpliendo con lo descrito en el artículo 3 (3) del Real Decreto 1940/2004 sobre el análisis de los datos recopilados, (traspuesto en nuestro ordenamiento jurídico de la Directiva 2003/99/CE)
+  - Variables de estudio: Agentes zoonóticos, sustancias antimicrobianas y las resistencias de los agentes a cada una de las sustancias antimicrobianas según la Decisión 2020/1729/UE
+  - Variables de clasificación: Agente zoonótico y tipo de muestra/alimento
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](https://www.aesan.gob.es/AECOSAN/web/seguridad_alimentaria/subseccion/vigilancia_resistencias_antimicrobianos.htm)
+- **54112 · [Informe AESAN del Análisis de los Resultados del Control de Plaguicidas en Alimentos (MDCA)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946003394)**
+  - Sector o tema: Salud
+  - Subsector o subtema: Prevención y detección de enfermedades
+  - Nivel de desagregación: Autonómico
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Recopilación y tratamiento de los resultados anuales obtenidos a partir de los análisis de plaguicidas en alimentos obtenidos por las CCAA en el marco de sus actividades de Control Oficial. Como base legal para este objetivo se encuentra el Reglamento 396/2005 del Parlamento Europeo y del Consejo, relativo a los límites máximos de residuos de plaguicidas en alimentos y piensos de origen vegetal y animal y sus modificaciones
+  - Variables de estudio: Sustancia de efecto plaguicida, tipo de alimento y niveles máximos permitidos de residuos de plaguicidas en alimentos
+  - Variables de clasificación: Sustancia de efecto plaguicida y tipo de muestra/alimento
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](https://www.aesan.gob.es/AECOSAN/web/seguridad_alimentaria/subseccion/programa_control_residuos.htm)
+
+## Ministerio de Derechos Sociales, Consumo y Agenda 2030 - Secretaría General de Consumo y Juego / Dirección General de Consumo - Subdirección General de Coordinación, Calidad y Cooperación en Consumo
+
+- **54084 · [Estadística de la Labor Analítica de Productos Alimenticios y Productos Industriales del Centro de Investigación y Control de la Calidad (CICC) (MDCA)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931110301)**
+  - Sector o tema: Nivel, calidad y condiciones de vida
+  - Subsector o subtema: Condiciones y calidad de vida
+  - Nivel de desagregación: Nacional
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Información sobre la calidad de los productos de uso y consumo, fomento de la calidad y detección y prevención del fraude
+  - Variables de estudio: Muestras de productos, procedencia, determinaciones y resultados analíticos
+  - Variables de clasificación: Categorías de productos alimenticios e industriales de uso y consumo
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](https://www.dsca.gob.es/es/consumo/vigilamos-mercado/centro-investigacion-control-calidad-cicc)
+- **54095 · [Estadística de Productos no Alimenticios Notificados en la Red de Alerta (Safety Gate y RAPNA) (MDCA)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931133648)**
+  - Sector o tema: Nivel, calidad y condiciones de vida
+  - Subsector o subtema: Condiciones y calidad de vida
+  - Nivel de desagregación: Nacional
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Alerta rápida e intercambio de información de las autoridades de consumo de los países de la Unión Europea y la Comisión Europea sobre productos peligrosos que representen un riesgo grave para la seguridad de los consumidores. Retirar del mercado aquellos productos que pueden dañar la salud o seguridad de los ciudadanos
+  - Variables de estudio: País emisor de la alerta, tipo de producto alertado, origen del producto, riesgo que motiva la alerta
+  - Periodicidad de la difusión: Semanal
+  - [Acceso a los resultados](https://www.dsca.gob.es/es/consumo/vigilamos-mercado/red-alertas/informacion-de-seguridad-y-estadisticas/prod-no-alimenticios-notif-red-alerta)
+
+## Ministerio de Derechos Sociales, Consumo y Agenda 2030 - Secretaría General de Consumo y Juego / Dirección General de Consumo - Subdirección General de Regulación y Derechos de las Personas Consumidoras
+
+- **54096 · [Estadística de la Actividad del Centro Europeo del Consumidor en España (CEC-ES): Consultas, Reclamaciones y Litigios de Carácter Transfronterizo (MDCA)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931158025)**
+  - Sector o tema: Nivel, calidad y condiciones de vida
+  - Subsector o subtema: Condiciones y calidad de vida
+  - Nivel de desagregación: Otros : Nacional y de la UE
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Ofrecer información y asistencia jurídica en materia de consumo transfronterizo a todos los ciudadanos que residen habitualmente en la Unión Europea (UE), Islandia y Noruega
+  - Variables de estudio: País de residencia del reclamante, país donde se produce la adquisición del producto o servicio, tipo de bien afectado y motivo de la reclamación, consulta o litigio
+  - Variables de clasificación: Operador económico y Estado de la UE
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](https://portal-cec.consumo.gob.es/sites/default/files/documentos/MEMORIA_ANUAL_2025_CEC_ESPANA_4.pdf)
+- **54097 · [Estadística de la Actividad de las Juntas Arbitrales de Consumo (MDCA)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931134181)**
+  - Sector o tema: Nivel, calidad y condiciones de vida
+  - Subsector o subtema: Condiciones y calidad de vida
+  - Nivel de desagregación: Municipal o inferior
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Conocer la gestión del Sistema Arbitral de Consumo
+  - Variables de estudio: Solicitudes de arbitraje presentadas por sector, subsector; destino de solicitudes, tipos de laudos, número de acuerdos amistosos, de peritajes y de ofertas de adhesión
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](https://www.dsca.gob.es/sites/default/files/consumo_masinfo/230405_oie_54097_actividadsac_2022.pdf)
+
+## Ministerio de Derechos Sociales, Consumo y Agenda 2030 - Secretaría de Estado de Derechos Sociales / Dirección General de Derechos de los Animales - División de Bienestar de los Animales
+
+- **54113 · [Estadística de Protección Animal. Animales de Compañía en Hogares (En proyecto) (MDCA)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946004933)**
+  - Sector o tema: Nivel, calidad y condiciones de vida
+  - Subsector o subtema: Situación social de grupos específicos
+  - Nivel de desagregación: Provincial
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Conocimiento del número de perros y gatos que habitan en hogares
+  - Variables de estudio: Animales de compañía (perros y gatos) en hogares
+  - Variables de clasificación: Número de perros y gatos por provincia según especie
+  - Periodicidad de la difusión: Anual
+
+## Ministerio de Derechos Sociales, Consumo y Agenda 2030 - Secretaría de Estado de Derechos Sociales / Dirección General de Diversidad Familiar y Servicios Sociales - Subdirección General de Diversidad Familiar y Apoyo a las Familias
+
+- **63006 · [Estadística de Títulos de Familia Numerosa (MDCA)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931083201)**
+  - Sector o tema: Protección social y servicios sociales
+  - Subsector o subtema: Otras prestaciones económicas
+  - Nivel de desagregación: Provincial
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Obtención y difusión de datos relativos a las distintas categorías y composición de las familias numerosas en España que obtienen clasificación o reconocimiento como tales
+  - Variables de estudio: Títulos nuevos, renovados y en vigor, concedidos a familias numerosas
+  - Variables de clasificación: Categorías establecidas en la legislación, número de hijos con y sin discapacidad, tipo de familia
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](https://www.dsca.gob.es/es/derechos-sociales/familias/estadisticas)
+
+## Ministerio de Derechos Sociales, Consumo y Agenda 2030 - Secretaría de Estado de Derechos Sociales / Instituto de Mayores y Servicios Sociales (IMSERSO) - Subdirección General de Planificación, Ordenación y Evaluación
+
+- **54050 · [Base Estatal de Datos de Personas con Valoración del Grado de Discapacidad (MDCA)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946000386)**
+  - Sector o tema: Protección social y servicios sociales
+  - Subsector o subtema: Indicadores, síntesis y recopilaciones de protección y asistencia social
+  - Nivel de desagregación: Provincial
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Obtención y difusión de datos relativos a la gestión de valoraciones de discapacidad en las distintas CCAA, Ceuta y Melilla
+  - Variables de estudio: Personas valoradas en su grado de discapacidad
+  - Variables de clasificación: Sexo, edad, grado de discapacidad reconocido, tipo de la primera deficiencia y ámbito geográfico
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](https://imserso.es/el-imserso/documentacion/estadisticas/base-estatal-datos-personas-con-discapacidad)
+- **64043 · [Estadística de Beneficiarios de Prestaciones Socioeconómicas a Personas con Discapacidad (MDCA)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931084751)**
+  - Sector o tema: Protección social y servicios sociales
+  - Subsector o subtema: Otras prestaciones económicas
+  - Nivel de desagregación: Provincial
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Obtención y difusión de datos relativos a beneficiarios de las prestaciones previstas en el Real Decreto 383/84, de 1 de febrero
+  - Variables de estudio: Beneficiarios e importes
+  - Variables de clasificación: Edad, sexo, tipo de subsidio o prestación, tipo de discapacidad
+  - Periodicidad de la difusión: Mensual
+  - [Acceso a los resultados](https://imserso.es/el-imserso/documentacion/estadisticas/presentaciones-sociales-economicas-personas-discapacidad)
+- **64049 · [Estadística de Pensiones No Contributivas (MDCA)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931084922)**
+  - Sector o tema: Protección social y servicios sociales
+  - Subsector o subtema: Otras prestaciones económicas
+  - Nivel de desagregación: Provincial
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Obtención y difusión de datos relativos a la gestión, pago y perfil de los beneficiarios de pensiones de la Seguridad Social en su modalidad no contributiva y prestaciones sociales y económicas para personas con discapacidad reguladas por el real Decreto 383/1984, de 1 de febrero
+  - Variables de estudio: Pensiones de la Seguridad Social en su modalidad no contributiva y prestaciones sociales y económicas para personas con discapacidad reguladas en el real Decreto 383/1984, de 1 de febrero
+  - Variables de clasificación: Datos de gestión: número de solicitudes, número y contenido de resoluciones, revisiones número de revisiones iniciadas y número y contenido de resoluciones emitidas. Datos de pago: número de pensiones y prestaciones e importes abonados. Datos de perfil: Tipo de pensión o prestación, edad, sexo, estado civil, número de convivientes y grado de discapacidad
+  - Periodicidad de la difusión: Mensual
+  - [Acceso a los resultados](https://imserso.es/el-imserso/documentacion/estadisticas/pensiones-no-contributivas-jubilacion-invalidez-pnc)
+- **64055 · [Estadística de Prestaciones del Sistema para la Autonomía y Atención a la Dependencia (SAAD) (MDCA)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931141438)**
+  - Sector o tema: Protección social y servicios sociales
+  - Subsector o subtema: Otras prestaciones económicas
+  - Nivel de desagregación: Autonómico
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Obtención y difusión de datos relativos a la gestión del Sistema para la Autonomía y Atención a la Dependencia, derivadas de la Ley 39/2006, de 14 de diciembre, de promoción de la autonomía personal y atención a las personas en situación de dependencia
+  - Variables de estudio: Solicitudes, resoluciones de valoración, personas beneficiarias con derecho a prestación, personas beneficiarias con prestación reconocida
+  - Variables de clasificación: Sexo y edad de la persona solicitante; grado y nivel, o grado en su caso, de las resoluciones de valoración; sexo y edad de la persona beneficiaria; tipo de servicio (prevención de dependencia y promoción de la autonomía, personal, atención residencial, centros de día y noche, ayuda a domicilio, teleasistencia); tipo de prestación económica (vinculada al servicio, cuidados en el entorno familiar, asistencia personal)
+  - Periodicidad de la difusión: Mensual
+  - [Acceso a los resultados](https://imserso.es/el-imserso/documentacion/estadisticas/sistema-autonomia-atencion-dependencia-saad)
+- **64060 · [Estadística de Servicios Sociales Dirigidos a Personas Mayores en España (MDCA)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259945998991)**
+  - Sector o tema: Protección social y servicios sociales
+  - Subsector o subtema: Indicadores, síntesis y recopilaciones de protección y asistencia social
+  - Nivel de desagregación: Autonómico
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Obtención y difusión de datos relativos a los servicios sociales destinados a la atención de las personas mayores
+  - Variables de estudio: Personas usuarias, centros, plazas e importe de los servicios sociales
+  - Variables de clasificación: Sexo, edad, población, tipo de servicio social (teleasistencia, ayuda a domicilio, hogares, centros de día, centros residenciales y viviendas para mayores) e importe del servicio (precio público y aportación del usuario)
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](https://imserso.es/el-imserso/documentacion/estadisticas/servicios-sociales-dirigidos-personas-mayores-espana)
+- **64063 · [Censo de Centros Residenciales de Servicios Sociales en España (MDCA)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946001862)**
+  - Sector o tema: Protección social y servicios sociales
+  - Subsector o subtema: Indicadores, síntesis y recopilaciones de protección y asistencia social
+  - Nivel de desagregación: Provincial
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Obtención y difusión de datos relativos a los centros residenciales en las distintas CCAA, Ceuta y Melilla
+  - Variables de estudio: Personas residentes y personal de plantilla de los centros
+  - Variables de clasificación: Tamaño (número de habitaciones, camas por habitación, Nº de zonas comunes) y tipo de centros residenciales, titularidad y gestión pública o privada; sexo, edad, grado de funcionalidad, discapacidad reconocida de los residentes; tipología profesional del personal de la plantilla. Ámbito geográfico
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](https://imserso.es/el-imserso/documentacion/estadisticas/censo-de-centros-residenciales-en-espana)
+
+## Ministerio de Economía, Comercio y Empresa - Secretaría de Estado de Comercio / Dirección General de Inteligencia Económica y Comercial - Subdirección General de Estudios y Prospección Comercial
+
+- **14001 · [Encuesta de Coyuntura de la Exportación (MECM)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931088514)**
+  - Sector o tema: Comercio interior y exterior
+  - Subsector o subtema: Comercio exterior de bienes
+  - Nivel de desagregación: Nacional
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Análisis de la coyuntura de las exportaciones españolas
+  - Variables de estudio: Cartera de pedidos extranjeros; precios y márgenes de exportación; factores que afectan a la actividad exportadora; contratación de personal en actividades de exportación; grado de dedicación de la plantilla a tareas de exportación
+  - Variables de clasificación: Ramas de actividad y valor de exportación
+  - Periodicidad de la difusión: Trimestral
+  - [Acceso a los resultados](https://comercio.gob.es/ImportacionExportacion/Informes_Estadisticas/Paginas/Encuesta-de-coyuntura.aspx)
+- **15030 · [Estadística del Comercio Exterior por Sectores Económicos (MECM)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931088849)**
+  - Sector o tema: Comercio interior y exterior
+  - Subsector o subtema: Comercio exterior de bienes
+  - Nivel de desagregación: Provincial
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Exportación e importación por sectores económicos relevantes para España
+  - Variables de estudio: Intercambios de bienes expresados en valor
+  - Variables de clasificación: Sectores económicos y áreas geográficas
+  - Periodicidad de la difusión: Mensual, trimestral
+  - [Acceso a los resultados](https://comercio.gob.es/ImportacionExportacion/Informes_Estadisticas/Paginas/Informes-periodicos.aspx)
+
+## Ministerio de Economía, Comercio y Empresa - Secretaría de Estado de Comercio / Dirección General de Política Comercial - Subdirección General de Inspección, Certificación y Asistencia Técnica del Comercio Exterior
+
+- **15023 · [Campaña de Exportación de cada uno de los diferentes Productos (MECM)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931087992)**
+  - Sector o tema: Comercio interior y exterior
+  - Subsector o subtema: Comercio exterior de bienes
+  - Nivel de desagregación: Nacional
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Obtención de información referente a los diferentes productos exportados
+  - Variables de estudio: Producto, cantidades exportadas, campañas
+  - Variables de clasificación: Mes, semana, provincia de procedencia, país de destino
+  - Periodicidad de la difusión: Anual
+- **15024 · [Estadística de Importación y Exportación de Especies Incluidas en Convenio CITES (MECM)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931088166)**
+  - Sector o tema: Comercio interior y exterior
+  - Subsector o subtema: Comercio exterior de bienes
+  - Nivel de desagregación: Nacional
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Obtención de información sobre la importación y exportación de especies amenazadas de fauna y flora silvestres y de sus productos derivados (Convenio CITES)
+  - Variables de estudio: Cantidades exportadas e importadas de especies incluidas en convenio CITES por clases
+  - Variables de clasificación: País de procedencia, destino, mes
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](http://ec.europa.eu/environment/cites/reports_en.htm#annual)
+- **15029 · [Estadísticas de Comercio Exterior de Productos Sometidos a Control de Calidad Comercial (MECM)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931088342)**
+  - Sector o tema: Comercio interior y exterior
+  - Subsector o subtema: Comercio exterior de bienes
+  - Nivel de desagregación: Provincial
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Obtención de información sobre las mercancías importadas y exportadas objeto de control de calidad comercial
+  - Variables de estudio: Productos, variedades, meses, zonas de exportación, países de destino, volúmenes comercializados
+  - Periodicidad de la difusión: Mensual
+- **15031 · [Estadísticas de Importación de Productos Industriales Sometidos a Control SOIVRE de Seguridad (MECM)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931150340)**
+  - Sector o tema: Comercio interior y exterior
+  - Subsector o subtema: Comercio exterior de bienes
+  - Nivel de desagregación: Provincial
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Obtención de información sobre las mercancías importadas objeto de control de seguridad
+  - Variables de estudio: Productos, meses, puntos de entrada, países de origen, volúmenes comercializados
+  - Periodicidad de la difusión: Mensual
+
+## Ministerio de Economía, Comercio y Empresa - Secretaría de Estado de Comercio / Dirección General de Política Comercial y Seguridad Económica - Subdirección General de Regulación de Inversiones
+
+- **29131 · [Inversión Extranjera Directa en España (Posición) (MECM)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931149455)**
+  - Sector o tema: Cuentas económicas
+  - Subsector o subtema: Sector exterior y balanza de pagos
+  - Nivel de desagregación: Autonómico
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Valoración de stock de inversión extranjera en España: volumen, distribución por país de origen inmediato y último, sectorial de destino y comunidad autónoma
+  - Variables de estudio: Patrimonio neto, posición global, financiación exterior, inmovilizado material y empleo en empresas con participación de capital extranjero
+  - Variables de clasificación: Sector destino distribuido, país último y país inmediato, periodo, comunidad autónoma
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](http://datainvex.comercio.es/)
+- **29132 · [Inversión Extranjera Directa en España (Flujos) (MECM)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931149633)**
+  - Sector o tema: Cuentas económicas
+  - Subsector o subtema: Sector exterior y balanza de pagos
+  - Nivel de desagregación: Autonómico
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Valoración de los flujos de inversión extranjera en España: volumen, distribución por país de origen inmediato y último, sectorial de destino y CCAA
+  - Variables de estudio: Flujos de inversión bruta y neta de la inversión extranjera. Sector destino distribuido, país último y país inmediato, periodo, comunidad autónoma
+  - Variables de clasificación: Sector destino distribuido, país último y país inmediato, periodo, comunidad autónoma
+  - Periodicidad de la difusión: Trimestral
+  - [Acceso a los resultados](http://datainvex.comercio.es/)
+- **29133 · [Inversión Española Directa en el Exterior (Posición) (MECM)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931148743)**
+  - Sector o tema: Cuentas económicas
+  - Subsector o subtema: Sector exterior y balanza de pagos
+  - Nivel de desagregación: Autonómico
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Valoración del stock de inversión española en el extranjero: volumen, distribución por país de destino inmediato, distribución sectorial por origen y destino y por comunidad autónoma
+  - Variables de estudio: Patrimonio neto, posición global, financiación exterior y empleo en empresas extranjeras con participación de capital español
+  - Variables de clasificación: Sector destino distribuido, país inmediato, sector origen, periodo, comunidad autónoma
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](http://datainvex.comercio.es/)
+- **29134 · [Inversión Española Directa en el Exterior (Flujos) (MECM)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931148921)**
+  - Sector o tema: Cuentas económicas
+  - Subsector o subtema: Sector exterior y balanza de pagos
+  - Nivel de desagregación: Autonómico
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Valoración de los flujos de inversión española en el exterior: volumen, distribución por país de destino inmediato, distribución sectorial por origen y destino y por CCAA
+  - Variables de estudio: Flujos de inversión bruta y neta española en el exterior
+  - Variables de clasificación: Sector destino distribuido, país inmediato, sector origen, periodo (año y trimestres), comunidad autónoma
+  - Periodicidad de la difusión: Trimestral
+  - [Acceso a los resultados](http://datainvex.comercio.es/)
+
+## Ministerio de Economía, Comercio y Empresa - Secretaría de Estado de Economía y Apoyo a la Empresa / Dirección General de Análisis Económico - Subdirección General de Coyuntura y Previsiones Económicas
+
+- **29081 · [Índices de Valor Unitario para el Comercio Exterior (MECM)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259930987939)**
+  - Sector o tema: Comercio interior y exterior
+  - Subsector o subtema: Indicadores, síntesis y recopilaciones del comercio
+  - Nivel de desagregación: Nacional
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Seguimiento de la evolución del valor, los precios y el volumen de exportaciones e importaciones a partir de los datos sobre comercio exterior facilitados por la AEAT
+  - Variables de estudio: Valor unitario
+  - Variables de clasificación: Grupos de utilización, áreas geográficas, Clasificación uniforme para el comercio internacional (CUCI Rev.4), Clasificación de productos por actividades (CPA - 2008)
+  - Periodicidad de la difusión: Mensual
+  - [Acceso a los resultados](https://portal.mineco.gob.es/es-es/economiayempresa/EconomiaInformesMacro/Paginas/bdsice.aspx)
+- **29083 · [Síntesis de Indicadores Económicos (SIE) (MECM)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259930988111)**
+  - Sector o tema: Estadísticas no desglosables por sector o tema
+  - Subsector o subtema: Estadísticas y recopilaciones generales
+  - Nivel de desagregación: Nacional
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Apreciación de la coyuntura reciente a partir de los indicadores económicos más relevantes
+  - Variables de estudio: Indicadores económicos nacionales e internacionales sobre actividad y demanda interna, mercado laboral, precios, salarios, sector exterior y sector público
+  - Periodicidad de la difusión: Mensual
+  - [Acceso a los resultados](https://portal.mineco.gob.es/es-es/economiayempresa/EconomiaInformesMacro/Paginas/EconomiaInformesMacro.aspx)
+- **29085 · [Indicadores de Disponibilidades Interiores de Manufacturas de Consumo y Equipo (MECM)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931145372)**
+  - Sector o tema: Estadísticas no desglosables por sector o tema
+  - Subsector o subtema: Estadísticas y recopilaciones generales
+  - Nivel de desagregación: Nacional
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Aproximación y seguimiento del comportamiento del consumo privado y de la inversión en equipo a través de indicadores de producción, por una parte, e indicadores de comercio exterior, por otra
+  - Variables de estudio: Indicadores de disponibilidades interiores de bienes de consumo, distinguiendo entre consumo alimenticio, duradero y no duradero, y bienes de equipo
+  - Periodicidad de la difusión: Mensual
+  - [Acceso a los resultados](https://portal.mineco.gob.es/es-es/economiayempresa/EconomiaInformesMacro/Paginas/bdsice.aspx)
+- **29086 · [Indicadores Sintéticos de la Economía Española (MECM)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931145542)**
+  - Sector o tema: Estadísticas no desglosables por sector o tema
+  - Subsector o subtema: Estadísticas y recopilaciones generales
+  - Nivel de desagregación: Nacional
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Obtención de un conjunto de herramientas útiles para el seguimiento coyuntural de la actividad económica, así como para realizar previsiones a corto plazo
+  - Variables de estudio: Indicadores sintéticos de actividad, de consumo, de inversión en equipo, de inversión en construcción, de inversión en vivienda, de actividad en la industria, de actividad en la construcción, de actividad en los servicios, de exportación y de importación
+  - Periodicidad de la difusión: Mensual
+  - [Acceso a los resultados](https://portal.mineco.gob.es/es-es/economiayempresa/EconomiaInformesMacro/Paginas/bdsice.aspx)
+
+## Ministerio de Economía, Comercio y Empresa - Secretaría de Estado de Economía y Apoyo a la Empresa / Dirección General de Seguros y Fondos de Pensiones - Subdirección General de Autorizaciones, Conductas de Mercado y Distribución
+
+- **29047 · [Estadística de Mediación de Seguros y Reaseguros Privados (MECM)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946000387)**
+  - Sector o tema: Financieras y seguros
+  - Subsector o subtema: Seguros y fondos de pensiones
+  - Nivel de desagregación: Nacional
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Elaboración y publicación de estadísticas de mediación de seguros y reaseguros privados
+  - Variables de estudio: Volumen total de producción ramos de no vida, volumen total de producción ramo de vida, nueva producción ramos de no vida, nueva producción ramo de vida
+  - Variables de clasificación: Ramos, primas, comisiones y honorarios profesionales
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](https://dgsfp.mineco.gob.es/es/DireccionGeneral/Paginas/default.aspx)
+
+## Ministerio de Economía, Comercio y Empresa - Secretaría de Estado de Economía y Apoyo a la Empresa / Dirección General de Seguros y Fondos de Pensiones - Subdirección General de Organización, Estudios y Previsión Social Complementaria
+
+- **29041 · [Estadística de Seguros Privados y de Previsión Social Complementaria (anual) (MECM)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259930989311)**
+  - Sector o tema: Financieras y seguros
+  - Subsector o subtema: Seguros y fondos de pensiones
+  - Nivel de desagregación: Nacional
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Obtención de información del sector asegurador, situación financiera y estado de solvencia de las entidades que lo integran
+  - Variables de estudio: Volumen de negocios, siniestralidad, provisiones técnicas, inversiones, capitales propios, resultados y solvencia
+  - Variables de clasificación: Forma jurídica, ramas de actividad
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](https://dgsfp.mineco.gob.es/es/DireccionGeneral/Paginas/default.aspx)
+- **29042 · [Estadística de Seguros Privados y de Previsión Social Complementaria (trimestral) (MECM)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259930989487)**
+  - Sector o tema: Financieras y seguros
+  - Subsector o subtema: Seguros y fondos de pensiones
+  - Nivel de desagregación: Nacional
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Formación de un soporte estadístico actualizado para el conocimiento del sector asegurador, su ritmo de actividad y evolución de la situación económico-patrimonial, financiera y de solvencia
+  - Variables de estudio: Volumen de negocios, siniestralidad, previsiones técnicas, resultado, inversiones y solvencia
+  - Variables de clasificación: Forma jurídica, ramas de actividad
+  - Periodicidad de la difusión: Trimestral
+  - [Acceso a los resultados](https://dgsfp.mineco.gob.es/es/DireccionGeneral/Paginas/default.aspx)
+
+## Ministerio de Economía, Comercio y Empresa - Secretaría de Estado de Economía y Apoyo a la Empresa / Secretaría General del Tesoro y Financiación Internacional-Dirección General del Tesoro y Política Financiera - Subdirección General de Gestión de la Deuda Pública
+
+- **29001 · [Deuda del Estado (MECM)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259930988281)**
+  - Sector o tema: Cuentas económicas
+  - Subsector o subtema: Finanzas públicas
+  - Nivel de desagregación: Nacional
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Sistematización de la información sobre la Deuda del Estado en circulación, las condiciones de emisión y la carga financiera
+  - Variables de estudio: Emisiones, amortizaciones e intereses de la Deuda del Estado, condiciones de las emisiones, tipos de interés, costes financieros y vida media de las emisiones
+  - Periodicidad de la difusión: Mensual, anual
+  - [Acceso a los resultados](http://www.tesoro.es/deuda-publica/estadisticas-mensuales)
+- **29021 · [Programas de Papel Comercial y Notas a Medio Plazo (MECM)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259930988453)**
+  - Sector o tema: Cuentas económicas
+  - Subsector o subtema: Sector exterior y balanza de pagos
+  - Nivel de desagregación: Nacional
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Seguimiento del programa de papel comercial y notas a medio plazo en el euromercado y en el mercado americano
+  - Variables de estudio: Tipo de interés, volumen emitido
+  - Variables de clasificación: Monedas
+  - Periodicidad de la difusión: Mensual
+- **29022 · [Detalle de las Operaciones Vivas de Financiación Exterior. Servicio de Deuda Exterior del Tesoro (MECM)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259930988625)**
+  - Sector o tema: Cuentas económicas
+  - Subsector o subtema: Sector exterior y balanza de pagos
+  - Nivel de desagregación: Nacional
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Información detallada de las principales características de las operaciones de deuda exterior del Tesoro
+  - Variables de estudio: Tipo de operación, saldo vivo y tipo de interés
+  - Variables de clasificación: Monedas
+  - Periodicidad de la difusión: Mensual
+- **29023 · [Registro Mensual y Trimestral de Movimientos del Servicio de Deuda Exterior del Tesoro (MECM)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259930988797)**
+  - Sector o tema: Cuentas económicas
+  - Subsector o subtema: Sector exterior y balanza de pagos
+  - Nivel de desagregación: Nacional
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Información de los pagos efectuados por el Tesoro
+  - Variables de estudio: Cantidades pagadas por amortización, intereses y comisiones en moneda original y euros
+  - Periodicidad de la difusión: Mensual
+- **29025 · [Autorización a No Residentes para Emitir en Euros en España (Mercado Matador) (MECM)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259930988967)**
+  - Sector o tema: Financieras y seguros
+  - Subsector o subtema: Estadísticas financieras varias
+  - Nivel de desagregación: Nacional
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Descripción de emisiones en el mercado de bonos de renta fija emitidos por no residentes (mercado matador)
+  - Variables de estudio: Emisión, importe, cupón, precio, comisión, vencimiento, autorización, opciones, nominal, director, agente de pagos
+  - Variables de clasificación: Emisores, años, bancos
+  - Periodicidad de la difusión: Anual
+
+## Ministerio de Educación, Formación Profesional y Deportes - Consejo Superior de Deportes, O.A. / Agencia Estatal Comisión Española para la Lucha Antidopaje en el Deporte (CELAD)/Subdirección General de Estadística y Estudios
+
+- **45041 · [Estadística del Control del Dopaje (MEFD)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931079065)**
+  - Sector o tema: Cultura, deporte y ocio
+  - Subsector o subtema: Deportes
+  - Nivel de desagregación: Nacional
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Conocimiento de los resultados del control antidopaje realizado por laboratorios homologados
+  - Variables de estudio: Muestras fisiológicas, autorizaciones de uso terapéutico
+  - Variables de clasificación: Modalidad deportiva, tipo de muestra, sustancias dopantes, tipo de competición, procedencia de la muestra, sexo
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](https://www.educacionfpydeportes.gob.es/mc/deportedata/dopaje/resultados.html)
+
+## Ministerio de Educación, Formación Profesional y Deportes - Consejo Superior de Deportes, O.A. / Dirección General de Deportes - Secretaría General
+
+- **45124 · [Estadística de Formación de Entrenadoras y Entrenadores del Deporte (MEFD)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931078893)**
+  - Sector o tema: Educación y formación
+  - Subsector o subtema: Actividad del sistema educativo
+  - Nivel de desagregación: Autonómico
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Conocer indicadores de la formación de entrenadores deportivos realizados en el ámbito exclusivamente federativo o con la colaboración de la administración autonómica competente en materia de deporte conforme a lo previsto en el Real Decreto 1363/2007
+  - Variables de estudio: Alumnos, diplomas
+  - Variables de clasificación: Tipo de cursos, federación, modalidad o especialidad deportiva, niveles, sexo
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](https://www.educacionfpydeportes.gob.es/mc/deportedata/formacion/resultados.html)
+
+## Ministerio de Educación, Formación Profesional y Deportes - Consejo Superior de Deportes, O.A. / Dirección General de Deportes - Subdirección General de Alta Competición/Subdirección General de Estadística y Estudios
+
+- **45021 · [Estadística de Deporte Federado (MEFD)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931078549)**
+  - Sector o tema: Cultura, deporte y ocio
+  - Subsector o subtema: Deportes
+  - Nivel de desagregación: Otros : Autonómico en algunos casos
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Conocimiento de la actividad deportiva federada
+  - Variables de estudio: Licencias, clubs, centros de alto rendimiento, deportistas de alto nivel, participación y resultados en competiciones nacionales e internacionales
+  - Variables de clasificación: Sexo, federaciones, modalidades deportivas, tipo de competición
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](https://www.educacionfpydeportes.gob.es/mc/deportedata/federado/resultados.html)
+
+## Ministerio de Educación, Formación Profesional y Deportes - Consejo Superior de Deportes, O.A. / Dirección General de Deportes - Subdirección General de Promoción e Innovación Deportiva
+
+- **45101 · [Explotación Estadística del Censo Nacional de Instalaciones Deportivas (MEFD)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931079233)**
+  - Sector o tema: Cultura, deporte y ocio
+  - Subsector o subtema: Deportes
+  - Nivel de desagregación: Municipal o inferior
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Conocimiento de la situación de la infraestructura deportiva, espacios deportivos públicos y privados, convencionales o no, de uso público en España
+  - Variables de estudio: Espacios deportivos, agentes gestores, plazas de espectadores
+  - Variables de clasificación: Titularidad, tipo de espacio, modalidad deportiva
+  - Periodicidad de la difusión: Esporádica - Últimos datos: Año 2005
+  - [Acceso a los resultados](https://www.educacionfpydeportes.gob.es/mc/deportedata/instalaciones/resultados.html)
+
+## Ministerio de Educación, Formación Profesional y Deportes - Consejo Superior de Deportes, O.A. / Dirección General de Deportes - Subdirección General de Promoción e Innovación Deportiva / Subdirección General de Estadística y Estudios
+
+- **45030 · [Explotación Estadística de la Base de Datos de Campeonatos de España Universitarios y en Edad Escolar (MEFD)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259945998273)**
+  - Sector o tema: Cultura, deporte y ocio
+  - Subsector o subtema: Deportes
+  - Nivel de desagregación: Autonómico
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Conocimiento de la participación en las fases finales de los campeonatos de España universitarios y en edad escolar
+  - Variables de estudio: Deportista participante universitario, deportista participante en edad escolar
+  - Variables de clasificación: Sexo, modalidad deportiva
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](https://www.educacionfpydeportes.gob.es/mc/deportedata/campeonatos/resultados.html)
+
+## Ministerio de Educación, Formación Profesional y Deportes - Secretaría de Estado de Educación / Dirección General de Evaluación y Cooperación Territorial - Instituto Nacional de Evaluación Educativa
+
+- **42184 · [Programa para la Evaluación Internacional de Competencias de la Población Adulta (PIAAC Programme for the International Assessment of Adult Competencies de la OCDE) (MEFD)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259930979366)**
+  - Sector o tema: Educación y formación
+  - Subsector o subtema: Resultados y evaluación del sistema educativo
+  - Nivel de desagregación: Nacional
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Identificar y medir diferencias entre individuos adultos en relación con competencias y habilidades en alfabetización, cálculo y comprensión lectora. Relacionar dichas competencias y habilidades con las exigencias del puesto de trabajo
+  - Variables de estudio: Grado de destreza en comprensión alfanumérica, cálculo numérico y comprensión lectora
+  - Variables de clasificación: Edad, sexo, situación en la actividad, nivel y campo de estudios formales realizados y/o en curso, nivel de formación alcanzado, formación desarrollada durante los doce últimos meses, formación en el trabajo, estatus laboral, adquisición y pérdida de conocimientos, experiencia requerida para el trabajo, utilización de conocimientos en el trabajo, ingresos, uso de conocimientos para escribir y leer, conocimientos numéricos, compromisos culturales y sociales, estado de salud, país de nacimiento, nacionalidad, información sobre los padres (país de nacimiento, nivel de formación, ocupación), etc.
+  - Periodicidad de la difusión: Irregular - Últimos datos: Año 2024
+  - [Acceso a los resultados](https://www.educacionyfp.gob.es/inee/evaluaciones-internacionales/piaac.html)
+
+## Ministerio de Educación, Formación Profesional y Deportes - Secretaría de Estado de Educación / Dirección General de Evaluación y Cooperación Territorial - Instituto Nacional de Evaluación Educativa / Subdirección General de Estadística y Estudios
+
+- **42181 · [Sistema Estatal de Indicadores de la Educación (MEFD)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931078379)**
+  - Sector o tema: Educación y formación
+  - Subsector o subtema: Indicadores, síntesis y recopilaciones en educación
+  - Nivel de desagregación: Autonómico
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Definición y construcción de un sistema de indicadores que proporcione información sobre el estado de la educación en el ámbito estatal, compatible con los modelos internacionales, y que se pueda aplicar por las administraciones educativas
+  - Variables de estudio: Contexto, recursos, escolarización, procesos y resultados educativos
+  - Variables de clasificación: Nivel de enseñanza, sexo
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](https://www.educacionyfp.gob.es/servicios-al-ciudadano/estadisticas/indicadores/sistema-estatal-indicadores.html)
+
+## Ministerio de Educación, Formación Profesional y Deportes - Secretaría de Estado de Educación / Dirección General de Planificación y Gestión Educativa - Unidad de Acción Educativa Exterior / Subdirección General de Estadística y Estudios
+
+- **41042 · [Estadística de Acción Educativa en el Exterior (MEFD)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931075666)**
+  - Sector o tema: Educación y formación
+  - Subsector o subtema: Actividad del sistema educativo
+  - Nivel de desagregación: Nacional
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Conocimiento estadístico de la acción educativa española en el exterior
+  - Variables de estudio: Centros, profesorado, alumnado
+  - Variables de clasificación: País, etapas educativas, tipo de centro, tipo de programa, sexo
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](https://www.educacionyfp.gob.es/servicios-al-ciudadano/estadisticas/exterior/accion.html)
+
+## Ministerio de Educación, Formación Profesional y Deportes - Subsecretaría de Educación, Formación Profesional y Deportes / Secretaría General Técnica - Subdirección General de Estadística y Estudios
+
+- **41001 · [Estadística de Enseñanzas No Universitarias (Centros, Matrícula, Graduación y Personal) (MEFD)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931075839)**
+  - Sector o tema: Educación y formación
+  - Subsector o subtema: Actividad del sistema educativo
+  - Nivel de desagregación: Provincial
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Conocimiento de la situación de las enseñanzas de educación infantil, primaria, secundaria obligatoria, bachillerato, formación profesional, educación especial, enseñanzas artísticas, enseñanzas de idiomas, enseñanzas deportivas, educación de adultos y otras enseñanzas que se impartan en el marco del sistema educativo no universitario, y satisfacción de requerimientos internacionales
+  - Variables de estudio: Unidades, grupos, alumnado matriculado, alumnado repetidor, alumnado de nuevo ingreso, alumnado que necesita recursos adicionales, alumnado extranjero, graduados, personal, servicios complementarios
+  - Variables de clasificación: Titularidad del centro, enseñanzas, variables demográficas y curriculares del alumnado matriculado y graduado, categoría, dedicación y edad del personal, área geográfica de procedencia del alumnado extranjero
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](https://www.educacionyfp.gob.es/servicios-al-ciudadano/estadisticas/no-universitaria.html)
+- **41012 · [Estadística de Gasto Público en Educación (MEFD)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931076016)**
+  - Sector o tema: Educación y formación
+  - Subsector o subtema: Personal y aspectos económicos de la educación
+  - Nivel de desagregación: Autonómico
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Conocimiento de los recursos económicos del sector público destinados a la educación y satisfacción de requerimientos internacionales
+  - Variables de estudio: Gasto en educación de todos los niveles de enseñanza
+  - Variables de clasificación: Administración gestora, actividades de educación, clasificación presupuestaria
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](https://www.educacionyfp.gob.es/servicios-al-ciudadano/estadisticas/economicas/gasto.html)
+- **41015 · [Las Cifras de la Educación en España. Estadísticas e Indicadores (MEFD)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931076192)**
+  - Sector o tema: Educación y formación
+  - Subsector o subtema: Indicadores, síntesis y recopilaciones en educación
+  - Nivel de desagregación: Autonómico
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Proporcionar información sintética sobre múltiples aspectos de la educación, a través de indicadores estadísticos
+  - Variables de estudio: De carácter general del sector
+  - Variables de clasificación: Propias del sector
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](https://www.educacionyfp.gob.es/servicios-al-ciudadano/estadisticas/indicadores/cifras-educacion-espana.html)
+- **41016 · [Datos de la Educación al Inicio del Curso Escolar (MEFD)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931076362)**
+  - Sector o tema: Educación y formación
+  - Subsector o subtema: Actividad del sistema educativo
+  - Nivel de desagregación: Nacional
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Estimación y difusión de las variables más significativas del sistema educativo a la iniciación del curso escolar
+  - Variables de estudio: Alumnos matriculados, centros, profesores, gasto, becas
+  - Variables de clasificación: Nivel de enseñanza
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](https://www.educacionyfp.gob.es/servicios-al-ciudadano/estadisticas/indicadores/datos-cifras.html)
+- **41022 · [Estadística de las Tecnologías de la Información y la Comunicación en los Centros Educativos No Universitarios (MEFD)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931076701)**
+  - Sector o tema: Tecnologías de la información y las comunicaciones (TIC)
+  - Subsector o subtema: Tecnologías de la información y las comunicaciones
+  - Nivel de desagregación: Provincial
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Conocer la implantación y utilización en los centros docentes de las tecnologías asociadas a la sociedad de la información y satisfacer las demandas nacionales e internacionales de indicadores estadísticos
+  - Variables de estudio: Equipamiento informático del centro, conexión y servicios en Internet y nivel de conocimiento y de uso de las nuevas tecnologías por el profesorado
+  - Variables de clasificación: Tipo de centro, titularidad, ubicación geográfica, tamaño del municipio, nivel de enseñanza
+  - Periodicidad de la difusión: Bienal
+  - [Acceso a los resultados](https://www.educacionfpydeportes.gob.es/servicios-al-ciudadano/estadisticas/no-universitaria/centros/tic.html)
+- **41023 · [Indicadores Estadísticos de la Educación (MEFD)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931139769)**
+  - Sector o tema: Educación y formación
+  - Subsector o subtema: Indicadores, síntesis y recopilaciones en educación
+  - Nivel de desagregación: Autonómico
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Obtención de indicadores a partir de las estadísticas de la educación y de otras estadísticas que proporcionan información relacionada o relacionable con la educación, con el fin de ofrecer información sintética sobre múltiples aspectos de la educación
+  - Variables de estudio: Contexto de la educación, recursos destinados a la educación, escolarización en las enseñanzas del sistema educativo y formativo, aspectos específicos de la escolarización, la transición y los resultados en el sistema educativo, los resultados a largo plazo de la educación y las relaciones de la educación con el exterior
+  - Variables de clasificación: Sexo, titularidad del centro, comunidad autónoma y otras variables propias del sector
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](https://www.educacionyfp.gob.es/servicios-al-ciudadano/estadisticas/indicadores/sistema-estatal-indicadores.html)
+- **41025 · [Estadística del Alumnado de Formación Profesional del Sistema Educativo (MEFD)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931148233)**
+  - Sector o tema: Educación y formación
+  - Subsector o subtema: Actividad del sistema educativo
+  - Nivel de desagregación: Provincial
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Conocimiento del perfil, situación, trayectoria y resultados académicos de los alumnos de formación profesional, y satisfacción de requerimientos internacionales
+  - Variables de estudio: Grupos, alumnado matriculado, alumnado de nuevo ingreso, alumnado extranjero, graduados
+  - Variables de clasificación: Titularidad del centro, enseñanzas, familia profesional, variables demográficas y curriculares del alumnado graduado y área de procedencia del alumnado extranjero
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](https://www.educacionyfp.gob.es/servicios-al-ciudadano/estadisticas/no-universitaria/alumnado/fp.html)
+- **41026 · [Estadística de Bibliotecas Escolares (MEFD)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931154129)**
+  - Sector o tema: Educación y formación
+  - Subsector o subtema: Infraestructura, equipamiento y entes para educación
+  - Nivel de desagregación: Provincial
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Conocimiento del equipamiento de las bibliotecas escolares no universitarias y de la actividad desarrollada por ellas
+  - Variables de estudio: Fondos, equipamiento, superficie, horario, préstamos domiciliarios, tipo de usuarios, personal, gastos en adquisición de fondos
+  - Variables de clasificación: Titularidad del centro, tipo de centro, enseñanzas, tipo de fondos, categoría del personal, tamaño de centro, actividades de utilización
+  - Periodicidad de la difusión: Cuatrienal - Últimos datos: Curso 2023-2024
+  - [Acceso a los resultados](https://www.educacionyfp.gob.es/servicios-al-ciudadano/estadisticas/no-universitaria/centros/bibliotecas.html)
+- **41027 · [Explotación de las Variables Educativas en la Encuesta de Población Activa: Nivel de Formación y Formación Permanente (MEFD)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259942576509)**
+  - Sector o tema: Educación y formación
+  - Subsector o subtema: Formación permanente y relación educación empleo
+  - Nivel de desagregación: Autonómico
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Proporcionar en un apartado específico una síntesis de información basada en las variables educativas de la Encuesta de población activa y de la Encuesta comunitaria de fuerza del trabajo
+  - Variables de estudio: Nivel de formación de la población, abandono ejecutivo de la educación-formación, formación permanente y continua y situación laboral
+  - Variables de clasificación: Edad, sexo, nacionalidad, nivel de formación, tipo de formación, objetivo de la formación, estatus laboral, ocupación, rama de actividad
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](https://www.educacionyfp.gob.es/servicios-al-ciudadano/estadisticas/laborales/epa.html)
+- **41028 · [Estadística Internacional de los Sistemas de Educación y Formación - Cuestionario UNESCO/OCDE/Eurostat (MEFD)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259943367219)**
+  - Sector o tema: Educación y formación
+  - Subsector o subtema: Actividad del sistema educativo
+  - Nivel de desagregación: Autonómico
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Conocimiento de la actividad del sistema educativo-formativo en sus diferentes niveles educativos y atender las demandas internacionales de esta información
+  - Variables de estudio: Alumnado matriculado, alumnado de nuevo ingreso, alumnado graduado, alumnado que participa en movilidad internacional, alumnado en aprendizaje de lenguas extranjeras, unidades escolares, profesorado y otro personal, financiación gasto educativo, gasto educativo
+  - Variables de clasificación: Niveles educativos, sexo, edad, dedicación (completa/parcial), lengua extranjera cursada, nivel de Administración financiadora, actividades de educación, clasificación presupuestaria
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](https://www.educacionyfp.gob.es/servicios-al-ciudadano/estadisticas/internacional/cuestionario-uoe.html)
+- **41029 · [Estadística de Alumnado con Necesidad Específica de Apoyo Educativo (MEFD)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259945999668)**
+  - Sector o tema: Educación y formación
+  - Subsector o subtema: Actividad del sistema educativo
+  - Nivel de desagregación: Provincial
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Conocimiento de la situación del alumnado que requiere y recibe atención educativa diferente a la ordinaria por presentar necesidades específicas de apoyo educativo, dando respuesta a requerimientos nacionales e internacionales
+  - Variables de estudio: Alumnado con necesidad específica de apoyo
+  - Variables de clasificación: Tipo de necesidad, enseñanza, modalidad de escolarización, sexo, titularidad/financiación del centro
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](https://www.educacionyfp.gob.es/servicios-al-ciudadano/estadisticas/no-universitaria/alumnado/apoyo.html)
+- **41030 · [Estadística de Enseñanza de Lenguas Extranjeras (MEFD)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259945999669)**
+  - Sector o tema: Educación y formación
+  - Subsector o subtema: Actividad del sistema educativo
+  - Nivel de desagregación: Municipal o inferior
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Conocimiento de la situación en relación al estudio de lenguas extranjeras como materia y de su utilización como lengua de enseñanza en las Enseñanzas no universitarias
+  - Variables de estudio: Alumnado que estudia lenguas extranjeras como materia y alumnado que recibe enseñanza en una lengua extranjera; centros en los que existen experiencias de utilización de una lengua extranjera como lengua de enseñanza
+  - Variables de clasificación: Lengua extranjera, orden de estudio de la lengua, enseñanza cursada y titularidad del centro
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](https://www.educacionyfp.gob.es/servicios-al-ciudadano/estadisticas/no-universitaria/alumnado/lenextran.html)
+- **41103 · [Estadística de Movilidad del Profesorado de Enseñanzas No Universitarias en Centros Públicos (MEFD)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931077051)**
+  - Sector o tema: Educación y formación
+  - Subsector o subtema: Personal y aspectos económicos de la educación
+  - Nivel de desagregación: Autonómico
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Conocimiento de los flujos de profesorado, inter e intra comunidades autónomas, derivados de los concursos de traslados de personal docente no universitario de ámbito estatal y de ámbito autonómico
+  - Variables de estudio: Participantes en el concurso de traslados
+  - Variables de clasificación: Tipo de participación, territorio donde imparte la docencia, resultados del concurso, tipo de destino
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](https://www.educacionyfp.gob.es/servicios-al-ciudadano/estadisticas/no-universitaria/profesorado/movilidad.html)
+- **41104 · [Estadística de Seguimiento Educativo Posterior de las Personas Graduadas en Formación Profesional del Sistema Educativo (MEFD)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946001125)**
+  - Sector o tema: Educación y formación
+  - Subsector o subtema: Actividad del sistema educativo
+  - Nivel de desagregación: Autonómico
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Disponer de información sobre el seguimiento educativo en los años posteriores de los graduados en FP Básica, Grado Medio y Grado Superior y, en especial, su continuidad en los grados superiores de FP, así como en la universidad
+  - Variables de estudio: Alumnado matriculado; alumnado matriculado tres cursos siguientes a graduación
+  - Variables de clasificación: Sexo, edad, grado de FP, enseñanza cursada, número de años desde graduación, comunidad autónoma y familia profesional
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](https://www.educacionyfp.gob.es/servicios-al-ciudadano/estadisticas/laborales/seguimiento.html)
+- **41105 · [Estadística de Inserción Laboral de las Personas Graduadas en Enseñanzas de Formación Profesional del Sistema Educativo (MEFD)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946001124)**
+  - Sector o tema: Educación y formación
+  - Subsector o subtema: Formación permanente y relación educación empleo
+  - Nivel de desagregación: Autonómico
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Disponer de información sobre el empleo, la empleabilidad y la inserción laboral de los graduados en la Formación Profesional del sistema educativo
+  - Variables de estudio: Tasa de afiliación, afiliados en régimen de autónomos, afiliados con contrato indefinido, grupo de cotización, base media de cotización anual
+  - Variables de clasificación: Sexo, edad, nacionalidad, grado de FP, comunidad autónoma, familia profesional
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](https://www.educacionyfp.gob.es/servicios-al-ciudadano/estadisticas/laborales/insercion.html)
+- **41106 · [Estadística de Seguimiento Educativo y Rendimiento Académico del Alumnado que Accede a Formación Profesional del Sistema Educativo (MEFD)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946001865)**
+  - Sector o tema: Educación y formación
+  - Subsector o subtema: Actividad del sistema educativo
+  - Nivel de desagregación: Autonómico
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Disponer de información sobre el acceso, progresión, terminación o abandono del alumnado de FP Básica, Grado Medio y Grado Superior
+  - Variables de estudio: Alumnado que accede; alumnado que abandona, alumnado que continúa, cambios de estudio, alumnado que completa estudios, duraciones medias
+  - Variables de clasificación: Sexo, edad, grado de FP, familia profesional/ciclo formativo, comunidad autónoma y titularidad del centro
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](https://www.educacionfpydeportes.gob.es/servicios-al-ciudadano/estadisticas/no-universitaria/alumnado/fp/rendimiento.html)
+- **42101 · [Estadística de Becas y Ayudas al Estudio (MEFD)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931076873)**
+  - Sector o tema: Educación y formación
+  - Subsector o subtema: Personal y aspectos económicos de la educación
+  - Nivel de desagregación: Otros : Provincial/universidades
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Conocimiento de los recursos económicos destinados a becas por las Administraciones educativa, y satisfacción de requerimientos internacionales
+  - Variables de estudio: Becas, alumnos becarios, importes de las becas concedidas
+  - Variables de clasificación: Niveles educativos y tipo de beca, sexo
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](https://www.educacionyfp.gob.es/servicios-al-ciudadano/estadisticas/economicas/becas.html)
+- **42185 · [Estadística de los Programas Educativos Europeos (MEFD)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259930979016)**
+  - Sector o tema: Educación y formación
+  - Subsector o subtema: Actividad del sistema educativo
+  - Nivel de desagregación: Autonómico
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Conocimiento de los aspectos esenciales del programa europeo Erasmus+ de la Comisión Europea, en los ámbitos de la educación y la formación, gestionado desde España para fomentar la cooperación transnacional entre centros de los sectores de la Educación Escolar, la Formación Profesional, la Educación Superior y la Educación de Personas Adultas, con el fin de mejorar la calidad de la educación y reforzar la dimensión europea
+  - Variables de estudio: Proyectos, participantes e importe
+  - Variables de clasificación: Tipo de programa, tipo de acción, nivel educativo, área temática del proyecto, país de destino-movilidad, país de origen-movilidad, sexo-participante
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](https://www.educacionyfp.gob.es/servicios-al-ciudadano/estadisticas/exterior/programas.html)
+- **42186 · [Estadística de los Grados A, B y C del Sistema de Formación Profesional (MEFD)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946001138)**
+  - Sector o tema: Educación y formación
+  - Subsector o subtema: Formación permanente y relación educación empleo
+  - Nivel de desagregación: Provincial
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Obtención y difusión de datos relativos a cursos, alumnado y certificaciones de los grados A, B y C para personas trabajadoras dentro del Sistema de Formación Profesional, vinculados al Catálogo Nacional de Estándares de Competencias Profesionales e integrada por cursos conducentes a microacreditaciones, certificados de competencia y certificados profesionales
+  - Variables de estudio: Centros que imparten la formación, cursos impartidos, alumnado participante, alumnado evaluado positivamente y alumnado que consigue el certificado; personal formador
+  - Variables de clasificación: Nivel, titularidad del centro, sexo, edad, familia profesional
+  - Periodicidad de la difusión: Anual
+- **42187 · [Estadística de Seguimiento Educativo y Rendimiento Académico del Alumnado que Accede a Bachillerato (MEFD)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946004156)**
+  - Sector o tema: Educación y formación
+  - Subsector o subtema: Actividad del sistema educativo
+  - Nivel de desagregación: Provincial
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Disponer de información sobre el acceso, progresión, terminación o abandono del alumnado de Bachillerato
+  - Variables de estudio: Alumnado que accede; alumnado que abandona, alumnado que continúa, cambios de estudio, alumnado que completa estudios, duraciones medias
+  - Variables de clasificación: Sexo, edad, comunidad autónoma / provincia y titularidad del centro
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](https://www.educacionfpydeportes.gob.es/servicios-al-ciudadano/estadisticas/no-universitaria/alumnado/resultados.html)
+- **42188 · [Estadística de Homologaciones de Títulos o Convalidaciones de Estudios No Universitarios (En proyecto) (MEFD)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946004171)**
+  - Sector o tema: Educación y formación
+  - Subsector o subtema: Resultados y evaluación del sistema educativo
+  - Nivel de desagregación: Otros : País de origen de los estudios extranjeros homologados o convalidados
+  - Ámbito territorial: Todo el territorio Nacional
+  - Objetivo general: Conocimiento estadístico de las homologaciones de títulos o de las convalidaciones de estudios no universitarios obtenidos en sistemas educativos extranjeros
+  - Variables de estudio: Resoluciones favorables de homologación/convalidación de estudios extranjeros no universitarios y resoluciones no favorables
+  - Variables de clasificación: Estudios homologados/convalidados, país del sistema educativo de los estudios, sexo, edad, nacionalidad de la persona, país de residencia, actuación a través de representante
+  - Periodicidad de la difusión: Anual
+- **42189 · [Estadística de Competencias Digitales Acreditadas al Personal Docente (MEFD)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946004938)**
+  - Sector o tema: Tecnologías de la información y las comunicaciones (TIC)
+  - Subsector o subtema: Tecnologías de la información y las comunicaciones
+  - Nivel de desagregación: Autonómico
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Obtención y difusión de datos relativos al personal docente al que se le ha acreditado el nivel de competencias digitales y el nivel máximo acreditado y su relación con el total de profesorado
+  - Variables de estudio: Personal docente acreditado y profesorado con acreditación de competencias digitales
+  - Variables de clasificación: Cuerpo/categoría, sector educativo/titularidad del centro, sexo, nivel de competencia digital acreditado
+  - Periodicidad de la difusión: Anual y bienal
+- **49007 · [Cuenta Satélite del Deporte (MEFD)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946003383)**
+  - Sector o tema: Cuentas económicas
+  - Subsector o subtema: Cuentas satélite
+  - Nivel de desagregación: Nacional
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Elaborar las cuentas satélites del Deporte en el marco de las Cuentas Nacionales
+  - Variables de estudio: Principales magnitudes macroeconómicas relacionadas con el sector
+  - Variables de clasificación: Propias del sector
+  - Periodicidad de la difusión: Anual
+- **50055 · [Anuario de Estadísticas Deportivas (MEFD)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259942577260)**
+  - Sector o tema: Cultura, deporte y ocio
+  - Subsector o subtema: Indicadores, síntesis y recopilaciones de cultura y ocio
+  - Nivel de desagregación: Autonómico
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Proporcionar información sintética sobre la realidad deportiva, a través de indicadores estadísticos
+  - Variables de estudio: De carácter general del sector
+  - Variables de clasificación: Propias del sector
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](https://www.educacionfpydeportes.gob.es/servicios-al-ciudadano/estadisticas/deportes/anuario.html)
+- **50056 · [Banco de Datos DEPORTEdata (MEFD)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259944578242)**
+  - Sector o tema: Cultura, deporte y ocio
+  - Subsector o subtema: Deportes
+  - Nivel de desagregación: Autonómico
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Organización y difusión de la información estadística del ámbito deportivo en Internet en forma de tabla
+  - Variables de estudio: De carácter general del sector
+  - Variables de clasificación: Sexo, tipo de enseñanza, especialidad, titularidad del centro
+  - Periodicidad de la difusión: Continua
+  - [Acceso a los resultados](https://www.educacionyfp.gob.es/mc/deportedata/portada.html)
+- **50058 · [Explotación de la Encuesta de Población Activa en el Ámbito Deportivo (MEFD)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259948064456)**
+  - Sector o tema: Cultura, deporte y ocio
+  - Subsector o subtema: Deportes
+  - Nivel de desagregación: Autonómico
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Proporcionar indicadores en el ámbito deportivo mediante la explotación específica de la Encuesta de Población Activa considerando el criterio conjunto tanto de las ocupaciones como de las actividades económicas deportivas
+  - Variables de estudio: Empleo deportivo
+  - Variables de clasificación: Edad, sexo, nivel de estudios, situación profesional, tipo de jornada
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](https://www.educacionfpydeportes.gob.es/mc/deportedata/empleo/resultados.html)
+- **50060 · [Explotación de las Estadísticas Turísticas en el Ámbito Deportivo (MEFD)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259945998305)**
+  - Sector o tema: Cultura, deporte y ocio
+  - Subsector o subtema: Deportes
+  - Nivel de desagregación: Autonómico
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Proporcionar indicadores relativos a viajes realizados tanto por residentes en España como no residentes en España iniciados principalmente por motivos vinculados al deporte mediante la explotación específica de las operaciones estadísticas turísticas (FAMILITUR y EGATUR)
+  - Variables de estudio: Número de viajes vinculados al deporte y gasto total realizado
+  - Variables de clasificación: Sexo, duración de la estancia y destino principal
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](https://www.educacionfpydeportes.gob.es/mc/deportedata/turismo/resultados.html)
+- **50066 · [Explotación de las Estadísticas de las Enseñanzas en el Ámbito Deportivo (MEFD)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259945998302)**
+  - Sector o tema: Cultura, deporte y ocio
+  - Subsector o subtema: Deportes
+  - Nivel de desagregación: Autonómico
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Proporcionar indicadores relativos las enseñanzas relacionadas con las profesiones deportivas mediante la explotación específica de las Estadística de las Enseñanzas
+  - Variables de estudio: Alumnado matriculado, alumnado que termina los estudios
+  - Variables de clasificación: Sexo, tipo de enseñanza, especialidad, titularidad del centro
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](https://www.educacionfpydeportes.gob.es/mc/deportedata/ensenanza/resultados.html)
+- **50068 · [Explotación de la Encuesta de Presupuestos Familiares en el Ámbito Deportivo (MEFD)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259945998300)**
+  - Sector o tema: Cultura, deporte y ocio
+  - Subsector o subtema: Deportes
+  - Nivel de desagregación: Autonómico
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Proporcionar indicadores relativos al gasto de consumo de los hogares vinculado al deporte mediante la explotación específica de la Encuesta de Presupuestos Familiares
+  - Variables de estudio: Gastos de consumo de los hogares por bienes y servicios vinculados al deporte
+  - Variables de clasificación: Tipo de bien o servicio, características del sustentador principal, tamaño de municipio
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](https://www.educacionfpydeportes.gob.es/mc/deportedata/gasto-hogares/resultados.html)
+- **50070 · [Explotación de las Estadísticas de Comercio Exterior en el Ámbito Deportivo (MEFD)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259945998299)**
+  - Sector o tema: Cultura, deporte y ocio
+  - Subsector o subtema: Deportes
+  - Nivel de desagregación: Nacional
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Proporcionar indicadores relativos al comercio exterior, exportaciones e importaciones, de bienes y productos vinculados al deporte mediante la explotación específica de las Estadísticas de Comercio Exterior
+  - Variables de estudio: Exportaciones e importaciones
+  - Variables de clasificación: Bienes y productos vinculados al deporte. Áreas geográficas
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](https://www.educacionfpydeportes.gob.es/mc/deportedata/comercio-exterior/resultados.html)
+- **50072 · [Explotación del Directorio Central de Empresas en el Ámbito Deportivo (MEFD)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259945998297)**
+  - Sector o tema: Cultura, deporte y ocio
+  - Subsector o subtema: Deportes
+  - Nivel de desagregación: Autonómico
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Proporcionar indicadores relativos al número de empresas en el ámbito deportivo mediante la explotación específica del Directorio Central de Empresas
+  - Variables de estudio: Número de empresas cuya actividad económica principal pertenece al ámbito deportivo
+  - Variables de clasificación: Actividad económica principal, tamaño según el número de asalariados y comunidad autónoma
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](https://www.educacionfpydeportes.gob.es/mc/deportedata/empresas/resultados.html)
+- **50073 · [Explotación de las Estadísticas de Financiación y Gasto Público en el Ámbito Deportivo (MEFD)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259945998295)**
+  - Sector o tema: Cultura, deporte y ocio
+  - Subsector o subtema: Deportes
+  - Nivel de desagregación: Autonómico
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Conocimiento de los recursos económicos del sector público destinados al deporte
+  - Variables de estudio: Financiación y gasto en deporte
+  - Variables de clasificación: Actividad deportiva, clasificación presupuestaria, tipo de administración
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](https://www.educacionfpydeportes.gob.es/mc/deportedata/gasto-publico/resultados.html)
+
+## Ministerio de Educación, Formación Profesional y Deportes - Subsecretaría de Educación, Formación Profesional y Deportes / Secretaría General Técnica - Subdirección General de Estadística y Estudios/Instituto Nacional de Evaluación Educativa
+
+- **42190 · [Estadística de Características Socioeconómicas de la Población Escolar (En proyecto) (MEFD)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946004937)**
+  - Sector o tema: Nivel, calidad y condiciones de vida
+  - Subsector o subtema: Condiciones y calidad de vida
+  - Nivel de desagregación: Otros : Sección censal
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Proporcionar la distribución de la población en edad escolar por características socioeconómicas e indicadores de vulnerabilidad educativa asociada a situaciones de desventaja socioeconómica, de forma muy detallada en el territorio
+  - Variables de estudio: Nivel de estudios de los tutores legales, situación laboral y ocupación de los tutores legales, estructura del hogar, tipo de vivienda, renta del hogar, indicador de vulnerabilidad
+  - Variables de clasificación: Edad, sexo, nacionalidad, país de nacimiento
+  - Periodicidad de la difusión: Quinquenal
+
+## Ministerio de Educación, Formación Profesional y Deportes - Subsecretaría de Educación, Formación Profesional y Deportes / Secretaría General Técnica - Subdirección General de Estadística y Estudios/Subdirección General de Promoción e Innovación Deportiva (Consejo Superior de Deportes)
+
+- **45061 · [Encuesta de Hábitos Deportivos en España (MEFD)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931129889)**
+  - Sector o tema: Cultura, deporte y ocio
+  - Subsector o subtema: Deportes
+  - Nivel de desagregación: Autonómico
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Conocer y cuantificar el comportamiento de la población y el equipamiento de las familias en relación al deporte
+  - Variables de estudio: Equipamientos deportivos, prácticas deportivas de la población y asistencia a espectáculos deportivos
+  - Variables de clasificación: Variables sociodemográficas de la población
+  - Periodicidad de la difusión: Bienal - Últimos datos: Año 2022
+  - [Acceso a los resultados](https://www.educacionfpydeportes.gob.es/mc/deportedata/habitos/resultados.html)
+
+## Ministerio de Hacienda - Secretaría General de Fondos Europeos / Dirección General de Fondos Europeos - Subdirección General de Incentivos Regionales
+
+- **29101 · [Estadística de Inversiones y Empleo Generados por los Incentivos Económicos Regionales (MHAC)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259930985183)**
+  - Sector o tema: Administraciones públicas y asociaciones
+  - Subsector o subtema: Presupuestarias y fiscales
+  - Nivel de desagregación: Autonómico
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Análisis de la evolución de las inversiones y puestos de trabajo generados por los incentivos económicos regionales
+  - Variables de estudio: Inversiones, creación de puestos de trabajo, cuantía de la subvención, localización
+  - Variables de clasificación: Clase de inversión, intervalos de inversión
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](https://www.pap.hacienda.gob.es/sitios/ir/es-ES/ia/Paginas/MemoriasAnuales.aspx)
+
+## Ministerio de Hacienda - Secretaría de Estado de Hacienda / Agencia Estatal de Administración Tributaria - Departamento de Aduanas e Impuestos Especiales - Subdirección General de Planificación, Estadística y Coordinación
+
+- **32021 · [Estadística de Intercambio de Bienes entre Estados de la UE (Umbrales de Exención) (MHAC)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259930985682)**
+  - Sector o tema: Comercio interior y exterior
+  - Subsector o subtema: Comercio exterior de bienes
+  - Nivel de desagregación: Nacional
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Conocimiento en cantidad y valor de los bienes objeto del intercambio entre Estados miembros de la Unión Europea
+  - Variables de estudio: Introducciones y expediciones de bienes expresadas en valor, peso y unidades
+  - Variables de clasificación: Países de origen o destino de la Unión Europea, código de mercancía y flujo
+  - Periodicidad de la difusión: Mensual, anual
+  - [Acceso a los resultados](https://sede.agenciatributaria.gob.es/Sede/estadisticas/estadisticas-comercio-exterior.html)
+- **32022 · [Estadística de Intercambio de Bienes entre Estados de la UE (Bajo el Umbral de Exención) (MHAC)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259930985857)**
+  - Sector o tema: Comercio interior y exterior
+  - Subsector o subtema: Comercio exterior de bienes
+  - Nivel de desagregación: Nacional
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Estimación del valor de los bienes objeto de intercambio con otros Estados miembros de la Unión Europea por operadores que no superan el umbral de exención
+  - Variables de estudio: Introducciones y expediciones de bienes en valor
+  - Variables de clasificación: Flujos
+  - Periodicidad de la difusión: Mensual
+  - [Acceso a los resultados](https://sede.agenciatributaria.gob.es/Sede/estadisticas/estadisticas-comercio-exterior.html)
+- **32023 · [Estadística de Comercio Extracomunitario (MHAC)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259930986032)**
+  - Sector o tema: Comercio interior y exterior
+  - Subsector o subtema: Comercio exterior de bienes
+  - Nivel de desagregación: Nacional
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Conocimiento del valor y la cantidad de los bienes objeto de la importación y exportación con los países no pertenecientes a la Unión Europea
+  - Variables de estudio: Importaciones y exportaciones en valor, peso y unidades
+  - Variables de clasificación: Países de procedencia, país de origen de la mercancía, país de destino de la mercancía código de mercancía, flujo, mes, provincia de origen o destino de la mercancía, naturaleza de la transacción, medio de transporte en frontera
+  - Periodicidad de la difusión: Mensual, anual
+  - [Acceso a los resultados](https://sede.agenciatributaria.gob.es/Sede/estadisticas/estadisticas-comercio-exterior.html)
+- **32025 · [Estadística del Comercio Exterior de las Comunidades Autónomas (MHAC)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259930986209)**
+  - Sector o tema: Comercio interior y exterior
+  - Subsector o subtema: Comercio exterior de bienes
+  - Nivel de desagregación: Autonómico
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Conocimiento del valor y la cantidad de los bienes objeto de intercambio de las comunidades autónomas con todos los países del mundo
+  - Variables de estudio: Intercambios de bienes expresados en valor, peso y unidades de todos los países con cada una de las comunidades autónomas
+  - Variables de clasificación: Flujo, provincia de origen o destino de la mercancía, provincia de domicilio fiscal del importador o exportador, código de la mercancía
+  - Periodicidad de la difusión: Mensual, anual
+  - [Acceso a los resultados](https://sede.agenciatributaria.gob.es/Sede/estadisticas/estadisticas-comercio-exterior.html)
+- **32097 · [Estadística de Comercio Exterior de Bienes por Características de las Empresas (MHAC)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946003391)**
+  - Sector o tema: Comercio interior y exterior
+  - Subsector o subtema: Comercio exterior de bienes
+  - Nivel de desagregación: Autonómico
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Conocimiento del número de empresas importadoras y exportadoras por diferentes características de las mismas y del valor de sus importaciones y exportaciones
+  - Variables de estudio: Número de empresas importadoras y exportadoras y valor de las importaciones y exportaciones
+  - Variables de clasificación: Países, zonas geográficas, CNAE, CNPA, número de asalariados, tipo de empresa, comunidades autónomas
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](https://sede.agenciatributaria.gob.es/Sede/estadisticas/estadisticas-comercio-exterior/datos-comercio-exterior-caracteristicas-empresa.html)
+
+## Ministerio de Hacienda - Secretaría de Estado de Hacienda / Agencia Estatal de Administración Tributaria - Servicio de Estudios Tributarios y Estadísticas - Subdirección General de Estadísticas
+
+- **31062 · [Estadística del Mercado de Trabajo y Pensiones en las Fuentes Tributarias (MHAC)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931130238)**
+  - Sector o tema: Mercado laboral y salarios
+  - Subsector o subtema: Mercado laboral
+  - Nivel de desagregación: Provincial
+  - Ámbito territorial: Todo el territorio nacional, a excepción de Navarra y País Vasco
+  - Objetivo general: Ofrecer los datos necesarios y suficientes para el estudio de los asalariados, los desempleados y los pensionistas a través de tablas estadísticas en las que tanto los perceptores como las percepciones satisfechas se clasifican según diversos criterios
+  - Variables de estudio: Para los tres colectivos (asalariados, desempleados y pensionistas) las que aparecen directamente en los modelos de declaración y las que, sin aparecer directamente, se obtienen por simple agregación o combinación de ellas
+  - Variables de clasificación: Perceptor (sexo, tramos de retribución, edad, nacionalidad,sector de actividad) y retenedor (sexo,tipo de entidad, sector de actividad y dimensión)
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](https://sede.agenciatributaria.gob.es/Sede/datosabiertos/catalogo/hacienda/Mercado_de_Trabajo_y_Pensiones_en_las_Fuentes_Tributarias.shtml)
+- **32026 · [Resultados Económicos y Tributarios en el IVA (MHAC)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931135719)**
+  - Sector o tema: Estadísticas de empresas y unidades de producción no referidas a sectores particulares
+  - Subsector o subtema: Estadísticas generales de unidades de producción
+  - Nivel de desagregación: Autonómico
+  - Ámbito territorial: Todo el territorio nacional, a excepción de Navarra y País Vasco
+  - Objetivo general: El objetivo final el analizar el Impuesto correspondiente al consumo final interior mediante el análisis indirecto que proporcionan sus declaraciones-liquidaciones. Esto es, el impuesto correspondiente a la agregación de los valores añadidos incorporados a la producción por todas las unidades económicas del sistema (unidades declarantes)
+  - Variables de estudio: Las que aparecen directamente en los modelos de declaración y las que, sin aparecer directamente, se obtienen por simple agregación de ellas
+  - Variables de clasificación: Tipo de entidad, tipo de actividad, clase, colectivo, sector, signo del resultado de liquidación
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](https://sede.agenciatributaria.gob.es/Sede/datosabiertos/catalogo/hacienda/Resultados_economicos_y_tributarios_en_el_Impuesto_sobre_el_Valor_Anadido.shtml)
+- **32061 · [Estadística de los Declarantes del Impuesto sobre el Patrimonio (MHAC)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259938279133)**
+  - Sector o tema: Administraciones públicas y asociaciones
+  - Subsector o subtema: Presupuestarias y fiscales
+  - Nivel de desagregación: Autonómico
+  - Ámbito territorial: Todo el territorio nacional, a excepción de Navarra y País Vasco
+  - Objetivo general: Obtención de los principales resultados estadísticos de la declaración anual del Impuesto sobre el Patrimonio
+  - Variables de estudio: Declarantes, importe de las partidas de la declaración anual sobre el patrimonio
+  - Variables de clasificación: Tramos de base imponible del impuesto, sexo
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](https://sede.agenciatributaria.gob.es/Sede/datosabiertos/catalogo/hacienda/Estadistica_de_los_declarantes_del_Impuesto_sobre_el_Patrimonio.shtml)
+- **32063 · [Estadística de los Declarantes del IRPF (MHAC)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259930986731)**
+  - Sector o tema: Administraciones públicas y asociaciones
+  - Subsector o subtema: Presupuestarias y fiscales
+  - Nivel de desagregación: Autonómico
+  - Ámbito territorial: Todo el territorio nacional, a excepción de Navarra y País Vasco
+  - Objetivo general: Obtención de los principales resultados estadísticos de la declaración anual del Impuesto sobre la Renta de las Personas Físicas
+  - Variables de estudio: La práctica totalidad de las partidas que aparecen en la declaración anual del IRPF
+  - Variables de clasificación: Tramos de rendimientos, tipo de declaración, sexo
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](https://sede.agenciatributaria.gob.es/Sede/datosabiertos/catalogo/hacienda/Estadistica_de_los_declarantes_del_IRPF.shtml)
+- **32064 · [Estadística por Partidas del IVA (MHAC)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931116344)**
+  - Sector o tema: Estadísticas de empresas y unidades de producción no referidas a sectores particulares
+  - Subsector o subtema: Estadísticas generales de unidades de producción
+  - Nivel de desagregación: Autonómico
+  - Ámbito territorial: Todo el territorio nacional, a excepción de Navarra y País Vasco
+  - Objetivo general: Obtención de los principales resultados estadísticos de la declaración anual del Impuesto sobre el Valor Añadido
+  - Variables de estudio: Declarantes, importe de las partidas de la declaración anual del IVA
+  - Variables de clasificación: Tramos de base imponible del impuesto, tipo impositivo, tipo de actividad, tipo de entidad, tipo de sociedad
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](https://sede.agenciatributaria.gob.es/Sede/datosabiertos/catalogo/hacienda/Estadistica_por_partidas_del_Impuesto_sobre_el_Valor_Anadido.shtml)
+- **32065 · [Estadística del Impuesto Especial sobre Determinados Medios de Transporte (anual) (MHAC)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931141766)**
+  - Sector o tema: Administraciones públicas y asociaciones
+  - Subsector o subtema: Presupuestarias y fiscales
+  - Nivel de desagregación: Autonómico
+  - Ámbito territorial: Todo el territorio nacional, a excepción de Navarra y País Vasco
+  - Objetivo general: Ofrecer información económica y tributaria contenida en las propias declaraciones clasificada desde distintas perspectivas: tipo de combustible, cilindrada, comunidad autónoma, tipos impositivos y tramos de base imponible, equivalente al valor del vehículo en el momento de su adquisición
+  - Variables de estudio: Valor vehículo (base imponible), precio medio del vehículo sin Impuesto especial sobre determinados medios de transporte (IEDMT), precio medio del vehículo con IEDMT, base imponible reducida, porcentaje de reducción, cuota, cuota a ingresar, emisión media de CO2
+  - Variables de clasificación: Tipo de combustible, origen, comunidad autónoma, tramos de base imponible, epígrafe, cilindrada, período
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](https://sede.agenciatributaria.gob.es/Sede/datosabiertos/catalogo/hacienda/Estadistica_del_Impuesto_sobre_Matriculacion_de_Vehiculos_Automoviles.shtml)
+- **32066 · [Estadística del Impuesto Especial sobre Determinados Medios de Transporte (avance mensual) (MHAC)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931141935)**
+  - Sector o tema: Administraciones públicas y asociaciones
+  - Subsector o subtema: Presupuestarias y fiscales
+  - Nivel de desagregación: Autonómico
+  - Ámbito territorial: Todo el territorio nacional, a excepción de Navarra y País Vasco
+  - Objetivo general: Ofrecer un avance mensual de la información económica y tributaria contenida en las propias declaraciones clasificada desde distintas perspectivas: tipo de combustible, cilindrada, comunidad autónoma, tipos impositivos y tramos de base imponible, equivalente al valor del vehículo en el momento de su adquisición
+  - Variables de estudio: Valor vehículo (base imponible), precio medio del vehículo sin Impuesto especial sobre determinados medios de transporte (IEDMT), precio medio del vehículo con IEDMT, base imponible reducida, porcentaje de reducción, cuota, cuota a ingresar, emisión media de CO2
+  - Variables de clasificación: Tipo de combustible, origen, comunidad autónoma, tramos de base imponible, epígrafe, cilindrada
+  - Periodicidad de la difusión: Mensual
+  - [Acceso a los resultados](https://sede.agenciatributaria.gob.es/Sede/datosabiertos/catalogo/hacienda/Estadistica_del_Impuesto_sobre_Matriculacion_de_Vehiculos_Automoviles.shtml)
+- **32067 · [Estadística de Movilidad del Mercado de Trabajo en las Fuentes Tributarias (MHAC)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259942575268)**
+  - Sector o tema: Mercado laboral y salarios
+  - Subsector o subtema: Mercado laboral
+  - Nivel de desagregación: Municipal o inferior
+  - Ámbito territorial: Todo el territorio nacional, a excepción de Navarra y País Vasco
+  - Objetivo general: Analizar las altas, bajas y permanencias en el empleo asalariado, tanto desde la óptica de la movilidad geográfica como de la movilidad sectorial de los trabajadores
+  - Variables de estudio: Número de asalariados y su salario
+  - Variables de clasificación: Sexo, edad, nacionalidad, tramo de salario, sector de actividad
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](https://sede.agenciatributaria.gob.es/Sede/datosabiertos/catalogo/hacienda/Movilidad_del_Mercado_de_Trabajo_en_las_Fuentes_Tributarias.shtml)
+- **32068 · [Estadística del Rendimiento de Actividades Económicas (MHAC)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259943331801)**
+  - Sector o tema: Estadísticas de empresas y unidades de producción no referidas a sectores particulares
+  - Subsector o subtema: Estadísticas generales de unidades de producción
+  - Nivel de desagregación: Autonómico
+  - Ámbito territorial: Todo el territorio nacional, a excepción de Navarra y País Vasco
+  - Objetivo general: Describir las características más destacables de las pequeñas y medianas empresas españolas sin forma societaria; descripción de la demografía empresarial y la tributación por fuentes de renta. Esto permite completar la visión de las actividades realizadas mediante empresas con forma societaria
+  - Variables de estudio: La mayoría de las partidas que aparecen en la declaración anual del IRPF y como novedad se presenta la tributación de la actividad y el tipo atribuible por modalidad de determinación del rendimiento
+  - Variables de clasificación: Colectivo, tramos de edad, nacionalidad, sexo, agrupación de IAE, determinación del rendimiento de la actividad económica, fuente de renta, número de asalariados
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](https://sede.agenciatributaria.gob.es/Sede/datosabiertos/catalogo/hacienda/Estadistica_de_Rendimientos_de_actividades_economicas.shtml)
+- **32069 · [Estadística sobre la Discapacidad en las Declaraciones del Impuesto sobre la Renta de las Personas Físicas (MHAC)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259945998309)**
+  - Sector o tema: Administraciones públicas y asociaciones
+  - Subsector o subtema: Presupuestarias y fiscales
+  - Nivel de desagregación: Autonómico
+  - Ámbito territorial: Todo el territorio nacional, a excepción de Navarra y País Vasco
+  - Objetivo general: Describir los datos que constan en algunas fuentes fiscales y las características personales y familiares del conjunto de personas integradas en aquellas declaraciones en las que, o bien el titular, o bien alguna de las personas de él dependientes (ascendiente o descendiente) tienen alguna discapacidad reconocida
+  - Variables de estudio: Número, importe y media de la práctica totalidad de las partidas que aparecen en la declaración anual del IRPF referidas a las declaraciones en las que uno de los componentes de la familia genera derecho a la aplicación de mínimo por discapacidad
+  - Variables de clasificación: Categoría de la declaración (por situaciones de discapacidad), características demográficas principales de la persona con discapacidad (sexo, edad, tipo de dependencia)
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](https://sede.agenciatributaria.gob.es/Sede/datosabiertos/catalogo/hacienda/Estadistica_sobre_discapacidad_declaraciones_IRPF.shtml)
+- **32070 · [Estadística de los Declarantes del IRPF por Municipios (MHAC)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259945998310)**
+  - Sector o tema: Administraciones públicas y asociaciones
+  - Subsector o subtema: Presupuestarias y fiscales
+  - Nivel de desagregación: Municipal o inferior
+  - Ámbito territorial: Todo el territorio nacional, a excepción de Navarra y País Vasco
+  - Objetivo general: Describir los niveles de renta en el ámbito municipal y ofrecer una perspectiva integral de la renta personal bruta y renta disponible de los declarantes de IRPF
+  - Variables de estudio: Renta bruta y renta disponible, datos económicos y tributarios del impuesto, situación familiar, índice declarativo, posicionamiento de los municipios mayores de 1.000 habitantes por renta bruta media
+  - Variables de clasificación: Tamaño de población, municipios de más de 1.000 habitantes
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](https://sede.agenciatributaria.gob.es/Sede/datosabiertos/catalogo/hacienda/Estadistica_de_los_declarantes_del_IRPF_por_municipios.shtml)
+- **32071 · [Cuentas Anuales Consolidadas del Impuesto de Sociedades (MHAC)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946000396)**
+  - Sector o tema: Estadísticas de empresas y unidades de producción no referidas a sectores particulares
+  - Subsector o subtema: Estadísticas generales de unidades de producción
+  - Nivel de desagregación: Nacional
+  - Ámbito territorial: Todo el territorio nacional, a excepción de Navarra y País Vasco
+  - Objetivo general: Ampliar la información disponible hasta ahora a través de las estadísticas de Cuentas anuales en el Impuesto sobre Sociedades combinándola con lo declarado a través del modelo 220
+  - Variables de estudio: Las que aparecen directamente en los modelos de declaración y las que, sin aparecer directamente, se obtienen por simple agregación de ellas, así como los tipos efectivos de los colectivos y sus desagregaciones
+  - Variables de clasificación: Modelo de liquidación, tipo de entidad, cifra de Negocios, agrupación sectorial, dimensión de la empresa
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](https://sede.agenciatributaria.gob.es/Sede/datosabiertos/catalogo/hacienda/Cuentas_Anuales_Consolidadas_del_Impuesto_sobre_Sociedades.shtml)
+- **32072 · [Estadística de los Declarantes del Impuesto sobre la Renta de las Personas Físicas de los Mayores Municipios por Código Postal (MHAC)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946000395)**
+  - Sector o tema: Administraciones públicas y asociaciones
+  - Subsector o subtema: Presupuestarias y fiscales
+  - Nivel de desagregación: Municipal o inferior
+  - Ámbito territorial: Todo el territorio nacional, a excepción de Navarra y País Vasco
+  - Objetivo general: Complementar a la Estadística de declarantes de IRPF por municipios, específicamente diseñado para proporcionar un mayor detalle de la renta bruta media y las magnitudes declaradas a nivel de distrito postal en los mayores municipios del territorio de régimen fiscal común
+  - Variables de estudio: Renta bruta y renta disponible, datos económicos y tributarios del impuesto, situación familiar, índice declarativo, posicionamiento de los municipios mayores de 1.000 habitantes por renta bruta media
+  - Variables de clasificación: Código postal, Tramos de Base Imponible
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](https://sede.agenciatributaria.gob.es/Sede/datosabiertos/catalogo/hacienda/Estadistica_del_IRPF_por_codigo_postal.shtml)
+- **32073 · [Anuario Estadístico (MHAC)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946000397)**
+  - Sector o tema: Estadísticas no desglosables por sector o tema
+  - Subsector o subtema: Estadísticas y recopilaciones generales
+  - Nivel de desagregación: Municipal o inferior
+  - Ámbito territorial: Todo el territorio nacional, a excepción de Navarra y País Vasco
+  - Objetivo general: Difundir datos de IRPF, Patrimonio, Sociedades, IVA y Mercado de trabajo; y su principal novedad radica en el cambio de filosofía de la producción estadística desde una perspectiva estática y anual por modelo a una dinámica y plurianual de varios modelos, proporcionando al usuario un catálogo de variables económicas agregadas, y unas variables de clasificación comunes a los diferentes impuestos
+  - Variables de estudio: Las principales magnitudes publicadas en las estadísticas anuales difundidas en la página Web de la AEAT, agrupados por año y ya sometidos a tratamiento de secreto estadístico
+  - Variables de clasificación: Modelo de liquidación, tipo de entidad, cifra de Negocios, agrupación sectorial, dimensión de la empresa, género y nacionalidad de las personas físicas, y territorial a nivel de CCAA
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](https://sede.agenciatributaria.gob.es/Sede/datosabiertos/catalogo/hacienda/Anuario_Estadistico.shtml)
+- **32074 · [Muestra Anual de Patrimonio (MHAC)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946000399)**
+  - Sector o tema: Administraciones públicas y asociaciones
+  - Subsector o subtema: Presupuestarias y fiscales
+  - Nivel de desagregación: Autonómico
+  - Ámbito territorial: Todo el territorio nacional, a excepción de Navarra y País Vasco
+  - Objetivo general: Poner a disposición de los investigadores y usuarios la Muestra Anual de Patrimonio basada en las declaraciones del Impuesto sobre el Patrimonio (modelo D-714)
+  - Variables de estudio: Declarantes, importe de las partidas de la declaración anual sobre el patrimonio
+  - Variables de clasificación: Comunidad autónoma, género
+  - Periodicidad de la difusión: Anual
+- **32082 · [Cuentas Anuales No Consolidadas del Impuesto de Sociedades (MHAC)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946001863)**
+  - Sector o tema: Estadísticas de empresas y unidades de producción no referidas a sectores particulares
+  - Subsector o subtema: Estadísticas generales de unidades de producción
+  - Nivel de desagregación: Provincial
+  - Ámbito territorial: Todo el territorio nacional, a excepción de Navarra y País Vasco
+  - Objetivo general: La estadística presentada en Impuesto sobre Sociedades sin consolidar pretende ofrecer una imagen detallada del sector societario en su conjunto a través de información relativa a la estructura patrimonial y a los resultados de las entidades declarantes clasificadas por el tipo de colectivo empresarial, la comunidad autónoma en la que declaran, el sector al que pertenecen y la dimensión de la empresa según su número medio de asalariados en el año de la estadística o su cifra de negocios
+  - Variables de estudio: Las que aparecen directamente en los modelos de declaración y las que, sin aparecer directamente, se obtienen por simple agregación de ellas
+  - Variables de clasificación: Tramos de ingreso total declarado, condición jurídica, resultado económico, tipo de empresa y agrupación sectorial
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](https://sede.agenciatributaria.gob.es/Sede/datosabiertos/catalogo/hacienda/Cuentas_Anuales_No_Consolidadas_del_Impuesto_sobre_Sociedades.shtml)
+- **32083 · [Muestra Panel del Impuesto sobre el Patrimonio (MHAC)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946001864)**
+  - Sector o tema: Administraciones públicas y asociaciones
+  - Subsector o subtema: Presupuestarias y fiscales
+  - Nivel de desagregación: Autonómico
+  - Ámbito territorial: Todo el territorio nacional, a excepción de Navarra y País Vasco
+  - Objetivo general: Permitir el análisis de la evolución del impuesto, proporcionando información sobre la riqueza patrimonial de las personas físicas, su distribución territorial y los diferentes activos que la componen
+  - Variables de estudio: Declarantes, importe de las partidas de la declaración anual sobre el patrimonio
+  - Variables de clasificación: Comunidad autónoma, género y tramos de renta de la partida 23
+  - Periodicidad de la difusión: Cuatrienal
+  - [Acceso a los resultados](https://sede.agenciatributaria.gob.es/Sede/datosabiertos/catalogo/hacienda/Muestra_panel_de_Patrimonio.shtml)
+- **32090 · [Declaración País por País de Multinacionales con Matriz Española (MHAC)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946002625)**
+  - Sector o tema: Estadísticas de empresas y unidades de producción no referidas a sectores particulares
+  - Subsector o subtema: Estadísticas generales de unidades de producción
+  - Nivel de desagregación: Otros : Mundial: países o jurisdicciones fiscales
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Proporcionar nueva información para analizar y conocer la estructura y el comportamiento de los grandes grupos multinacionales españoles, y en particular, en relación con la imposición directa, lo que permite construir una visión más completa de las actividades mundiales de los grupos multinacionales españoles de mayor tamaño. No se limita únicamente a proporcionar los datos del modelo 231 en unas estructuras de tablas fijas, sino que proporciona también ratios y medias por filiales
+  - Variables de estudio: Número de grupos, entidades integrantes filiales, ingresos (propios, con terceros y de entidades vinculadas), resultado antes del impuesto de sociedades, impuesto de sociedades pagado, impuesto de sociedades devengado, resultados no distribuidos, número de trabajadores, activos y capital
+  - Variables de clasificación: Beneficio, tipo efecto positivo pagado, tipo efecto positivo devengado y Jurisdicción fiscal
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](https://sede.agenciatributaria.gob.es/Sede/estadisticas/estadisticas-impuesto/declaracion-pais-pais-multinacionales-matriz-espanola.html)
+- **32094 · [Estadística de Pymes Societarias y No Societarias (MHAC)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946003387)**
+  - Sector o tema: Estadísticas de empresas y unidades de producción no referidas a sectores particulares
+  - Subsector o subtema: Estadísticas generales de unidades de producción
+  - Nivel de desagregación: Autonómico
+  - Ámbito territorial: Territorio de Régimen Fiscal Común; es decir excluidas las empresas con domicilio en Navarra y País Vasco
+  - Objetivo general: Analizar de forma simultánea, dos colectivos de empresas que realizan actividades económicas: un subconjunto son las pymes no societarias en estimación directa normal y simplificada y el otro, las empresas societarias de reducida dimensión. El objetivo es completar la visión de la actividad económica general con una visión comparada, ya que hasta ahora, el análisis se ha realizado de manera independiente en las estadísticas ya publicadas Cuentas Anuales no Consolidadas del Impuesto sobre Sociedades (anteriormente Cuentas anuales en el Impuesto sobre Sociedades) y Rendimientos de la Actividad Económica de los Empresarios Autónomos o Personas Físicas
+  - Variables de estudio: Número de empresas, número de asalariado, Empresas con cuota del impuesto nula, producción, cifra de negocios, consumos intermedios, aprovisionamientos, resto de gastos de explotación, valor añadido, gastos de personal, resultado bruto de explotación, EBITDA, amortización y provisiones, deterioro y resultado enajenación inmovilizado, resultado neto de explotación, resultado financiero, resultado antes de impuestos, impuestos directos, resultado contable, activo, base imponible positiva, cuota íntegra, cuota líquida y una gran variedad de ratios y tasas
+  - Variables de clasificación: Tipo de empresa, comunidad autónoma, actividad económica (IAE), tramo de asalariados y dimensión de asalariados, signo del resultado contable, tramo de cifra de negocios, presencia mayoritaria y categoría pyme societaria criterio UE
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](https://sede.agenciatributaria.gob.es/Sede/datosabiertos/catalogo/hacienda/Estadistica_de_PYMES_societarias_y_no_societarias.shtml)
+- **32102 · [Estadística de Viviendas Declaradas en el IRPF (MHAC)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946005710)**
+  - Sector o tema: Construcción y vivienda
+  - Subsector o subtema: Parque de edificios y viviendas y su utilización
+  - Nivel de desagregación: Municipal o inferior
+  - Ámbito territorial: Todo el territorio nacional, a excepción de Navarra y País Vasco
+  - Objetivo general: Incorporar a la información estadística habitual una foto del mercado inmobiliario residencial perteneciente a propietarios individuales declarantes del IRPF
+  - Variables de estudio: Número de viviendas con valor catastral y su valor catastral medio, número, porcentaje y valor catastral medio de viviendas habituales, arrendadas y a disposición del titular, alquiler m2 mensual medio, m2 medios, días de alquiler medios, valor de referencia medio, rentabilidad bruta, número total de viviendas, número total de viviendas sin valor catastral, renta imputada, número equivalente de viviendas arrendadas, ingresos y gastos de arrendamientos, rendimiento neto y neto reducido, número equivalente, importe y media
+  - Variables de clasificación: Uso de la vivienda; CCAA , provincia, municipio y código postal de ubicación de la vivienda; Tramos de población; Vivienda habitual; CCAA de residencia del declarante; Viviendas arrendadas; Vivienda habitual con parte arrendada; Uso exclusivo con parte arrendada
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](https://sede.agenciatributaria.gob.es/Sede/estadisticas/estadisticas-impuesto/estadistica-viviendas-declaradas-irpf.html)
+
+## Ministerio de Hacienda - Secretaría de Estado de Hacienda / Agencia Estatal de Administración Tributaria - Servicio de Estudios Tributarios y Estadísticas - Subdirección General de Presupuestación y Seguimiento de los Ingresos Tributarios
+
+- **32001 · [Estadística de Recaudación Tributaria (mensual) (MHAC)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259930985505)**
+  - Sector o tema: Administraciones públicas y asociaciones
+  - Subsector o subtema: Presupuestarias y fiscales
+  - Nivel de desagregación: Provincial
+  - Ámbito territorial: Todo el territorio nacional, a excepción de Navarra y País Vasco
+  - Objetivo general: Conocimiento de los ingresos tributarios del Estado gestionados por las delegaciones de la Agencia Estatal de la Administración Tributaria (AEAT), así como la participación de las Administraciones públicas en los citados ingresos, y estudio de las relaciones entre la evolución de los impuestos y la evolución de la coyuntura económica
+  - Variables de estudio: Ingresos líquidos, devoluciones, bases imponibles, impuestos devengados e ingresos tributarios de las principales figuras tributarias, con sus respectivas series temporales
+  - Variables de clasificación: Clase de impuestos y tasas
+  - Periodicidad de la difusión: Mensual
+  - [Acceso a los resultados](https://sede.agenciatributaria.gob.es/Sede/datosabiertos/catalogo/hacienda/Informe_mensual_de_Recaudacion_Tributaria.shtml)
+- **32002 · [Estadística de Recaudación Tributaria (anual) (MHAC)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931152010)**
+  - Sector o tema: Administraciones públicas y asociaciones
+  - Subsector o subtema: Presupuestarias y fiscales
+  - Nivel de desagregación: Provincial
+  - Ámbito territorial: Todo el territorio nacional, a excepción de Navarra y País Vasco
+  - Objetivo general: Conocimiento de los ingresos tributarios del Estado gestionados por las delegaciones de la Agencia Estatal de la Administración Tributaria (AEAT), así como la participación de las Administraciones públicas en los citados ingresos, y estudio de las relaciones entre la evolución de los impuestos y la evolución de la coyuntura económica
+  - Variables de estudio: Ingresos líquidos, devoluciones, bases imponibles, impuestos devengados e ingresos tributarios de las principales figuras tributarias, con sus respectivas series temporales
+  - Variables de clasificación: Clase de impuestos y tasas
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](https://sede.agenciatributaria.gob.es/Sede/datosabiertos/catalogo/hacienda/Informes_anuales_de_Recaudacion_Tributaria.shtml)
+- **32028 · [Estadística de Ventas, Empleo y Salarios en las Grandes Empresas (MHAC)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931136073)**
+  - Sector o tema: Estadísticas de empresas y unidades de producción no referidas a sectores particulares
+  - Subsector o subtema: Estadísticas generales de unidades de producción
+  - Nivel de desagregación: Nacional
+  - Ámbito territorial: Territorio de Régimen Fiscal Común; es decir, están excluidas las empresas que operan exclusivamente en los territorios gestionados por las haciendas del País Vasco y Navarra y, en el caso de las variables obtenidas de los modelos de declaración del IVA, las empresas que lo hacen en los territorios que quedan fuera del ámbito de aplicación de dicho impuesto (Canarias, Ceuta y Melilla)
+  - Objetivo general: Medición de la evolución de las ventas, comercio exterior, empleo y salarios en las grandes empresas
+  - Variables de estudio: Ventas interiores, exportaciones, importaciones, perceptores de retribuciones salariales y retribuciones del trabajo
+  - Variables de clasificación: Clasificación Nacional de Actividades Económicas, CNAE-09
+  - Periodicidad de la difusión: Mensual
+  - [Acceso a los resultados](https://sede.agenciatributaria.gob.es/Sede/datosabiertos/catalogo/hacienda/Informes_Ventas_Empleos_y_Salarios_en_las_declaraciones_tributarias.shtml)
+- **32092 · [Ventas, Empleo y Salarios en Grandes Empresas y Pymes (MHAC)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946003385)**
+  - Sector o tema: Estadísticas de empresas y unidades de producción no referidas a sectores particulares
+  - Subsector o subtema: Estadísticas generales de unidades de producción
+  - Nivel de desagregación: Nacional
+  - Ámbito territorial: Territorio de Régimen Fiscal Común; es decir, están excluidas las empresas que operan exclusivamente en los territorios gestionados por las haciendas del País Vasco y Navarra y, en el caso de las variables obtenidas de los modelos de declaración del IVA, las empresas que lo hacen en los territorios que quedan fuera del ámbito de aplicación de dicho impuesto (Canarias, Ceuta y Melilla)
+  - Objetivo general: Medición de la evolución de las ventas, compras, comercio exterior, empleo y salarios en las grandes empresas y pymes
+  - Variables de estudio: Ventas y compras interiores, exportaciones, importaciones, perceptores de retribuciones salariales y retribuciones del trabajo
+  - Variables de clasificación: Clasificación Nacional de Actividades Económicas CNAE-09
+  - Periodicidad de la difusión: Trimestral
+  - [Acceso a los resultados](https://sede.agenciatributaria.gob.es/Sede/datosabiertos/catalogo/hacienda/Informe_Ventas_Empleo_y_Salarios_en_Grandes_Empresas_y_Pymes.shtml)
+- **32096 · [Ventas Diarias (MHAC)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946003389)**
+  - Sector o tema: Estadísticas de empresas y unidades de producción no referidas a sectores particulares
+  - Subsector o subtema: Estadísticas generales de unidades de producción
+  - Nivel de desagregación: Nacional
+  - Ámbito territorial: Territorio IVA; es decir, están excluidas las empresas que operan exclusivamente en los territorios gestionados por las haciendas del País Vasco y Navarra, y las empresas que lo hacen en los territorios que quedan fuera del ámbito de aplicación del IVA (Canarias, Ceuta y Melilla)
+  - Objetivo general: Medición del nivel y de la evolución diaria de las ventas que realizan las empresas incluidas en el sistema de Suministro Inmediato de Información
+  - Variables de estudio: Ventas totales (interiores y exportaciones)
+  - Variables de clasificación: Clasificación Nacional de Actividades Económicas CNAE-09
+  - Periodicidad de la difusión: Semanal
+  - [Acceso a los resultados](https://sede.agenciatributaria.gob.es/Sede/estadisticas/ventas-empleos-salarios-declaraciones-tributarias/ventas-diarias.html)
+- **32099 · [Observatorio de Márgenes Empresariales (MHAC)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946004939)**
+  - Sector o tema: Estadísticas de empresas y unidades de producción no referidas a sectores particulares
+  - Subsector o subtema: Estadísticas generales de unidades de producción
+  - Nivel de desagregación: Nacional
+  - Ámbito territorial: Todo el territorio nacional, a excepción de Canarias, Navarra, País Vasco, Ceuta y Melilla
+  - Objetivo general: Disponer de información sobre los márgenes empresariales a partir de las cuentas anuales de pérdidas y ganancias del Impuesto sobre Sociedades y de un indicador trimestral de esos márgenes complementando la información contenida en las estadísticas de Ventas, Empleo y Salarios en las declaraciones tributarias
+  - Variables de estudio: Variables de los modelos periódicos (IVA y retenciones), variables del Impuesto sobre Sociedades y variables de cuentas nacionales construidas a partir del Impuesto sobre Sociedades
+  - Variables de clasificación: Clasificación Nacional de Actividades Económicas CNAE-09
+  - Periodicidad de la difusión: Trimestral
+  - [Acceso a los resultados](https://sede.agenciatributaria.gob.es/Sede/estadisticas/observatorio-margenes-empresariales.html)
+- **32100 · [Avance de Ventas Interiores en Grandes Empresas y Pymes (MHAC)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946004940)**
+  - Sector o tema: Estadísticas de empresas y unidades de producción no referidas a sectores particulares
+  - Subsector o subtema: Estadísticas generales de unidades de producción
+  - Nivel de desagregación: Nacional
+  - Ámbito territorial: Todo el territorio nacional, a excepción de Canarias, Navarra, País Vasco, Ceuta y Melilla
+  - Objetivo general: Obtener, a partir de los libros de facturas emitidas y recibidas dentro del sistema de Suministro Inmediato de Información, indicadores adelantados de las ventas interiores de la estadística trimestral de Ventas, Empleo y Salarios en las declaraciones tributarias
+  - Variables de estudio: Ventas interiores
+  - Variables de clasificación: Clasificación Nacional de Actividades Económicas CNAE-09
+  - Periodicidad de la difusión: Semanal
+  - [Acceso a los resultados](https://sede.agenciatributaria.gob.es/Sede/estadisticas/ventas-empleo-salarios-declaraciones-tributarias/avance-ventas-interiores-trimestrales.html)
+- **32101 · [Informe de Impuestos Especiales (MHAC)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946004941)**
+  - Sector o tema: Administraciones públicas y asociaciones
+  - Subsector o subtema: Presupuestarias y fiscales
+  - Nivel de desagregación: Nacional
+  - Ámbito territorial: Todo el territorio nacional y países de la Unión Europea
+  - Objetivo general: Ofrecer información sobre los principales Impuestos Especiales (y además del Impuesto sobre Gases Fluorados de Efecto Invernadero y de los impuestos medioambientales) en el sistema tributario español y su comparación con los países de la Unión Europea
+  - Variables de estudio: Variables de los modelos de declaración de los Impuestos Especiales
+  - Variables de clasificación: Por tipo de impuesto
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](https://sede.agenciatributaria.gob.es/Sede/estadisticas/estadisticas-impuesto/informe-impuestos-especiales.html)
+
+## Ministerio de Hacienda - Secretaría de Estado de Hacienda / Dirección General de Tributos - Subdirección General de Política Tributaria
+
+- **31002 · [Recaudación y Estadísticas del Sistema Tributario Español (MHAC)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259930982225)**
+  - Sector o tema: Administraciones públicas y asociaciones
+  - Subsector o subtema: Presupuestarias y fiscales
+  - Nivel de desagregación: Autonómico
+  - Ámbito territorial: Todo el territorio nacional, a excepción de Navarra y País Vasco
+  - Objetivo general: Información sobre la evolución desde 1979 de la recaudación tributaria (del Estado,CCAA,EELL) de las principales magnitudes de los diversos tributos, de la presión fiscal y de los beneficios fiscales presupuestados
+  - Variables de estudio: Recaudación, número de declarantes, resultado contable, ajustes extracontables, base imponible, reducciones en la base imponible, base liquidable, mínimo personal y familiar, cuota íntegra, tipo medio, deducciones, bonificaciones, cuota líquida, cuota diferencial, tipo efectivo, cuota a ingresar, retenciones e ingresos a cuenta, pagos fraccionados, resultados de la declaración, compensación de cuotas, participación en los ingresos de las Administraciones territoriales, asignación tributaria a la Iglesia Católica y a otros fines de interés social, valor patrimonial, cuotas devengadas, cuotas deducibles, importaciones, operaciones interiores, presión fiscal, beneficios fiscales, número de unidades urbanas, valor catastral, superficie, número de parcelas, número de recibos
+  - Variables de clasificación: Capítulos presupuestarios, niveles de división de la Administración pública: estatal, autonómico y local, países de la OCDE, países de la Unión Europea, clases de bienes y derechos, regímenes tributarios, fuentes de renta, tipo de gravamen, naturaleza jurídica, clases de actividad, tramos de base imponible y de ingresos, naturaleza de los bienes inmuebles, población de derecho, valor catastral, años de revisión y renovación, figuras y conceptos tributarios, políticas de gasto
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](https://www.hacienda.gob.es/es-ES/Areas%20Tematicas/Impuestos/Direccion%20General%20de%20Tributos/Paginas/Estadisticas_Recaudacion.aspx)
+- **31003 · [El Impuesto sobre la Renta de las Personas Físicas. Análisis de los Datos Estadísticos del Ejercicio (MHAC)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259930982395)**
+  - Sector o tema: Administraciones públicas y asociaciones
+  - Subsector o subtema: Presupuestarias y fiscales
+  - Nivel de desagregación: Provincial
+  - Ámbito territorial: Todo el territorio nacional, a excepción de Navarra y País Vasco
+  - Objetivo general: Análisis de los datos estadísticos de las principales variables de las declaraciones anuales del Impuesto sobre la Renta de las Personas Físicas (IRPF) en el ejercicio de referencia y su evolución durante el último quinquenio
+  - Variables de estudio: Número de declarantes, base imponible, base liquidable, reducciones de la base imponible, mínimo personal y familiar, cuota íntegra, deducciones, cuota líquida, cuota diferencial, tipo medio, tipo efectivo, resultado de la declaración, participación de las comunidades autónomas, asignación tributaria a la Iglesia Católica y a otros fines de interés social, índices de desigualdad, progresividad y redistribución
+  - Variables de clasificación: Tramos de base imponible, fuentes de renta, clases de tributación: individual y conjunta, sexo
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](https://www.hacienda.gob.es/es-ES/Areas%20Tematicas/Impuestos/Direccion%20General%20de%20Tributos/Paginas/Estadisticas_IRPF.aspx)
+- **31005 · [El Impuesto sobre el Valor Añadido. Análisis de los Datos Estadísticos del Ejercicio (MHAC)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259930982565)**
+  - Sector o tema: Administraciones públicas y asociaciones
+  - Subsector o subtema: Presupuestarias y fiscales
+  - Nivel de desagregación: Provincial
+  - Ámbito territorial: Todo el territorio nacional, a excepción de Navarra y País Vasco
+  - Objetivo general: Análisis de los datos estadísticos de las principales variables del Impuesto sobre el Valor Añadido (IVA) en el ejercicio de referencia y su evolución durante el último quinquenio
+  - Variables de estudio: Número de declarantes, base imponible, recargo de equivalencia, cuotas devengadas, cuotas deducibles, resultados del régimen general y del régimen simplificado, compensaciones de cuotas de períodos anteriores, resultado de la liquidación, tipo medio, tipo efectivo, tasa recaudatoria, recaudación, ingresos brutos, devoluciones, ajustes con el País Vasco y Navarra, grado de cumplimiento presupuestario
+  - Variables de clasificación: Regímenes impositivos, tramos de base imponible, personalidad jurídica, clases de operaciones, tipos impositivos, tipos de actividades, sectores económicos
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](https://www.hacienda.gob.es/es-ES/Areas%20Tematicas/Impuestos/Direccion%20General%20de%20Tributos/Paginas/Estadisticas_IVA.aspx)
+- **31006 · [Impuesto sobre Sociedades. Análisis de los Datos Estadísticos del Ejercicio (MHAC)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259930982735)**
+  - Sector o tema: Administraciones públicas y asociaciones
+  - Subsector o subtema: Presupuestarias y fiscales
+  - Nivel de desagregación: Nacional
+  - Ámbito territorial: Todo el territorio nacional, a excepción de Navarra y País Vasco
+  - Objetivo general: Análisis de los datos estadísticos de las principales variables de las declaraciones individuales presentadas del Impuesto sobre Sociedades para el ejercicio de referencia (modelo 200) y su evolución en el último quinquenio, así como de las declaraciones de grupos en consolidación fiscal (modelo 220), lo que permite, por un lado, el estudio de los rasgos más relevantes de dichos grupos y, por otro lado, ofrecer la agregación de los datos con los relativos a entidades que no se integran en grupo alguno, lo que refleja con mayor exactitud la estructura del tributo y su evolución, así como la explicación de los ingresos obtenidos mediante liquidación
+  - Variables de estudio: Número de declarantes, partidas del balance y de la cuenta de resultados, ratios de tesorería y endeudamiento, fondo de maniobra, resultado contable, ajustes extracontables, base imponible, compensación de bases imponibles negativas de períodos anteriores, cuota íntegra, tipo medio, bonificaciones, deducciones, cuota líquida, tipo efectivo, pagos a cuenta, cuota diferencial
+  - Variables de clasificación: Tramos de ingresos, regímenes impositivos, naturaleza jurídica, sectores económicos, tipos de gravamen, colectivos: sociedades no financieras, entidades de crédito, aseguradoras, instituciones de inversión colectiva, empresas de reducida dimensión, grupos en consolidación fiscal y entidades no pertenecientes a grupos
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](https://www.hacienda.gob.es/es-ES/Areas%20Tematicas/Impuestos/Direccion%20General%20de%20Tributos/Paginas/Estadisticas_Sociedades.aspx)
+- **31009 · [El Impuesto sobre el Patrimonio. Análisis de los Datos Estadísticos del Ejercicio (MHAC)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259944581106)**
+  - Sector o tema: Administraciones públicas y asociaciones
+  - Subsector o subtema: Presupuestarias y fiscales
+  - Nivel de desagregación: Autonómico
+  - Ámbito territorial: Todo el territorio nacional, a excepción de Navarra y País Vasco
+  - Objetivo general: Análisis de los datos estadísticos de las principales variables de las declaraciones anuales del Impuesto sobre el Patrimonio en el ejercicio de referencia y su evolución durante el último quinquenio
+  - Variables de estudio: Número de declarantes, valor de los bienes y derechos, deudas, base imponible, mínimo exento, base liquidable, cuota íntegra, tipo medio, bonificaciones, cuota a ingresar, tipo efectivo, índices de desigualdad y progresividad
+  - Variables de clasificación: Tramos de base imponible, clases de bienes y derechos, sexo
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](https://www.hacienda.gob.es/es-ES/Areas%20Tematicas/Impuestos/Direccion%20General%20de%20Tributos/Paginas/Estadisticas_IP.aspx)
+
+## Ministerio de Hacienda - Secretaría de Estado de Hacienda / Dirección General del Catastro - Subdirección General de Tecnología y Despliegue Digital
+
+- **31088 · [Estadística de Ordenanzas Fiscales del Impuesto sobre Bienes Inmuebles (MHAC)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931145712)**
+  - Sector o tema: Administraciones públicas y asociaciones
+  - Subsector o subtema: Presupuestarias y fiscales
+  - Nivel de desagregación: Municipal o inferior
+  - Ámbito territorial: Todo el territorio nacional, a excepción de Navarra y País Vasco
+  - Objetivo general: Publicación de los principales aspectos de las Ordenanzas fiscales del Impuesto sobre Bienes Inmuebles, aprobadas por los ayuntamientos
+  - Variables de estudio: Tipos de gravamen (urbana: general y tipos diferenciados; rústica, y características especiales), entidades gestoras y recaudadoras, recargos, exenciones y bonificaciones
+  - Variables de clasificación: Intervalos de población
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](https://www.catastro.hacienda.gob.es/es-ES/estadisticas_9.html)
+- **31089 · [Estadística del Impuesto sobre Bienes Inmuebles (MHAC)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931151656)**
+  - Sector o tema: Administraciones públicas y asociaciones
+  - Subsector o subtema: Presupuestarias y fiscales
+  - Nivel de desagregación: Municipal o inferior
+  - Ámbito territorial: Todo el territorio nacional, a excepción de Navarra y País Vasco
+  - Objetivo general: Obtención de las principales variables tributarias correspondientes al impuesto sobre bienes inmuebles, así como de la presión fiscal que se deriva de dicho impuesto
+  - Variables de estudio: Recibos, base imponible, base liquidable, cuota íntegra, cuota líquida
+  - Variables de clasificación: Año valoración /Renovación por tipo de IBI, Intervalos de población, CCAA, provincias y municipio
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](https://www.catastro.hacienda.gob.es/es-ES/estadisticas_6.html)
+- **31090 · [Estadística del Catastro Inmobiliario Urbano (MHAC)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946000375)**
+  - Sector o tema: Administraciones públicas y asociaciones
+  - Subsector o subtema: Presupuestarias y fiscales
+  - Nivel de desagregación: Municipal o inferior
+  - Ámbito territorial: Todo el territorio nacional, a excepción de Navarra y País Vasco
+  - Objetivo general: Publicación de las principales características de los inmuebles urbanos que forman parte de la base de datos catastral
+  - Variables de estudio: Bienes inmuebles urbanos, parcelas, superficie, valor catastral total, valor catastral del suelo, valor catastral de la construcción, número de municipios
+  - Variables de clasificación: Intervalos de población, año última valoración, intervalos de bienes inmuebles, intervalos de valor catastral, intervalos de población por usos, municipio, CCAA y provincia
+  - Periodicidad de la difusión: Mensual, anual
+  - [Acceso a los resultados](https://www.catastro.hacienda.gob.es/es-ES/estadisticas_1.html)
+- **31091 · [Estadística del Catastro Inmobiliario Rústico (MHAC)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946000377)**
+  - Sector o tema: Administraciones públicas y asociaciones
+  - Subsector o subtema: Presupuestarias y fiscales
+  - Nivel de desagregación: Municipal o inferior
+  - Ámbito territorial: Todo el territorio nacional, a excepción de Navarra y País Vasco
+  - Objetivo general: Publicación de las principales características de los inmuebles rústicos que forman parte de la base de datos catastral
+  - Variables de estudio: Superficie, valor catastral, parcelas, subparcelas, fecha renovación, tipo de cultivo, número de municipios
+  - Variables de clasificación: Año, Intervalos superficie rústica, intervalos valor catastral, intervalos de número de parcelas, intervalos de población, municipios, CCAA y provincia
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](https://www.catastro.hacienda.gob.es/es-ES/estadisticas_10.html)
+- **31092 · [Estadística del Catastro de Bienes Inmuebles de Características Especiales (BICE) (MHAC)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946000378)**
+  - Sector o tema: Administraciones públicas y asociaciones
+  - Subsector o subtema: Presupuestarias y fiscales
+  - Nivel de desagregación: Municipal o inferior
+  - Ámbito territorial: Todo el territorio nacional, a excepción de Navarra y País Vasco
+  - Objetivo general: Publicación de las principales características de los bienes inmuebles de características especiales (BICE) que forman parte de la base de datos catastral
+  - Variables de estudio: Unidades, valor catastral
+  - Variables de clasificación: Grupo, municipio
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](https://www.catastro.hacienda.gob.es/es-ES/estadisticas_11.html)
+- **31093 · [Estadística de Titulares Catastrales (MHAC)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946000379)**
+  - Sector o tema: Administraciones públicas y asociaciones
+  - Subsector o subtema: Presupuestarias y fiscales
+  - Nivel de desagregación: Municipal o inferior
+  - Ámbito territorial: Todo el territorio nacional, a excepción de Navarra y País Vasco
+  - Objetivo general: Publicación de los datos de titularidad de los inmuebles que forman parte de la base de datos catastral y de información sobre la actividad administrativa anual relativa a las altas de bienes inmuebles de uso residencial
+  - Variables de estudio: Número de titulares en urbana y rústica (a nivel de CCAA y provincia se ofrece desglose según nº de bienes inmuebles)
+  - Variables de clasificación: Urbano, rústico, urbano/rústico, intervalo por bienes, municipio, provincia y ccaa
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](https://www.catastro.hacienda.gob.es/es-ES/estadisticas_3_1.html)
+
+## Ministerio de Hacienda - Secretaría de Estado de Hacienda / Instituto de Estudios Fiscales, O.A.
+
+- **31066 · [Panel de Hogares (MHAC)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931153492)**
+  - Sector o tema: Administraciones públicas y asociaciones
+  - Subsector o subtema: Presupuestarias y fiscales
+  - Nivel de desagregación: Autonómico
+  - Ámbito territorial: Territorio fiscal común
+  - Objetivo general: Facilitar información para realizar estudios de carácter longitudinal sobre la renta de las personas físicas y su distribución y concentración a partir del seguimiento de un panel de individuos a lo largo del tiempo. Asimismo, se utiliza la información del panel para diseñar política fiscal a través de herramientas de microsimulación. También es una finalidad la difusión periódica de la información del panel en el marco del Acuerdo de la Comisión Delegada del Gobierno para Asuntos Económicos sobre mejoras en la transparencia en los ámbitos estadístico y económico
+  - Variables de estudio: Las contenidas en las declaraciones del IRPF (Modelo 100) así como variables de patrimonio
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](https://www.ief.es/Investigacion/Est_panelHogares.vbhtml)
+
+## Ministerio de Hacienda - Secretaría de Estado de Hacienda / Instituto de Estudios Fiscales, O.A. - Dirección de Estudios
+
+- **31065 · [Opinión Pública y Fiscalidad. Barómetro Fiscal IEF (MHAC)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931153317)**
+  - Sector o tema: Nivel, calidad y condiciones de vida
+  - Subsector o subtema: Opinión pública
+  - Nivel de desagregación: Nacional
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Medir la evolución de las opiniones y las actitudes de los españoles relativas a la fiscalidad. Estudio longitudinal desde 1995
+  - Variables de estudio: Tres bloques fijos: la relación entre los impuestos y la oferta pública de servicios y prestaciones; el comportamiento fiscal de los contribuyentes y la imagen corporativa de la Hacienda Pública. Un bloque específico cada año sobre un tema de actualidad fiscal
+  - Variables de clasificación: Situación profesional, sector de actividad, sexo, edad, nacionalidad, tamaño de municipio, Comunidad Autónoma
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](https://www.ief.es/Investigacion/Soc_barometro.vbhtml)
+
+## Ministerio de Hacienda - Secretaría de Estado de Hacienda / Secretaría General de Financiación Autonómica y Local - Subdirección General de Estudios Financieros de Entidades Locales
+
+- **31011 · [Inventario de Entes del Sector Público Local (MHAC)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946003375)**
+  - Sector o tema: Administraciones públicas y asociaciones
+  - Subsector o subtema: Entes, medios y actividad de las administraciones públicas
+  - Nivel de desagregación: Municipal o inferior
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Proporcionar un inventario de entes del Sector Público Local
+  - Variables de estudio: Entidades locales y sus entes dependientes
+  - Variables de clasificación: Tipo de ente y provincia
+  - Periodicidad de la difusión: Continua
+  - [Acceso a los resultados](https://serviciostelematicosext.hacienda.gob.es/sgcief/InventarioBDGEL/Home/ConsultaInventario)
+- **31021 · [Base de Datos General de Entidades Locales (MHAC)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259930983942)**
+  - Sector o tema: Administraciones públicas y asociaciones
+  - Subsector o subtema: Entes, medios y actividad de las administraciones públicas
+  - Nivel de desagregación: Municipal o inferior
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Inventario de los entes que conforman el sector público local
+  - Variables de estudio: Entidades locales y sus entes dependientes, entidades locales supramunicipales, su composición y finalidad
+  - Periodicidad de la difusión: Continua
+  - [Acceso a los resultados](https://serviciostelematicosext.hacienda.gob.es/sgcief/InventarioBDGEL/Home/ConsultaBDGEL)
+- **31025 · [Presupuestos de las Entidades Locales (MHAC)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259930984134)**
+  - Sector o tema: Administraciones públicas y asociaciones
+  - Subsector o subtema: Presupuestarias y fiscales
+  - Nivel de desagregación: Municipal o inferior
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Obtención de las cifras de ingresos y gastos presupuestados por las entidades locales
+  - Variables de estudio: Presupuestos de ingresos y gastos consolidados
+  - Variables de clasificación: Clasificación económica, por programas, ingresos y gastos corrientes, de capital y financieros de las entidades que forman cada corporación local
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](https://serviciostelematicosext.hacienda.gob.es/SGFAL/CONPREL)
+- **31026 · [Liquidación de Presupuestos de las Entidades Locales (MHAC)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259930984309)**
+  - Sector o tema: Administraciones públicas y asociaciones
+  - Subsector o subtema: Presupuestarias y fiscales
+  - Nivel de desagregación: Municipal o inferior
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Obtención de la liquidación del presupuesto de las entidades locales
+  - Variables de estudio: Previsión definitiva, derechos y obligaciones liquidados, ingresos y pagos liquidados
+  - Variables de clasificación: Clasificación económica de ingresos y gastos, clasificación funcional del gasto
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](https://serviciostelematicosext.hacienda.gob.es/SGFAL/CONPREL)
+- **31042 · [Imposición Local. Tipos de Gravamen, Índices y Coeficientes (MHAC)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259930983767)**
+  - Sector o tema: Administraciones públicas y asociaciones
+  - Subsector o subtema: Presupuestarias y fiscales
+  - Nivel de desagregación: Municipal o inferior
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Obtención de información censal de los principales parámetros determinantes de la presión fiscal municipal y provincial
+  - Variables de estudio: Impuesto sobre Bienes Inmuebles, tipos de urbana y rústica; Impuesto sobre Actividades Económicas, coeficiente de incremento e índices de situación mínimo y máximo; Impuesto sobre Vehículos de Tracción Mecánica, coeficiente de incremento; Impuesto sobre el Incremento de Valor de los Terrenos de Naturaleza Urbana, porcentajes y tipo; Impuesto sobre Construcciones, Instalaciones y Obras, tipo impositivo; recargo provincial del IAE, porcentaje de recargo
+  - Variables de clasificación: Tramo de tamaño de municipio
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](https://serviciostelematicosext.hacienda.gob.es/SGFAL/ConsultaTipos/html/portadaconsultasm.aspx)
+- **31048 · [Coste Efectivo de los Servicios Prestados por las Entidades Locales (MHAC)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259945999679)**
+  - Sector o tema: Administraciones públicas y asociaciones
+  - Subsector o subtema: Presupuestarias y fiscales
+  - Nivel de desagregación: Municipal o inferior
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Obtención del coste efectivo en el ejercicio de referencia de todos los servicios que las entidades locales prestan directamente o a través de entidades y organismos vinculados o dependientes, relativos a los servicios de prestación obligatoria, mencionados en los artículos 26.1 y 36 de la Ley 7/1985, de 2 de abril, reguladora de las Bases de Régimen Local, y a los servicios derivados del ejercicio de las competencias propias citadas en los artículos 7, 25.2 y 27 de dicha Ley. El cálculo del coste efectivo debe tener en cuenta los costes reales, directos e indirectos, de estos servicios y debe realizarse con los criterios establecidos en la Orden HAP/2075/2014, de 6 de noviembre de 2014
+  - Variables de estudio: La forma de gestión (directa o indirecta), el coste efectivo y su composición, las unidades físicas de referencia de cada uno de los servicios prestados incluidos en el ámbito de aplicación
+  - Variables de clasificación: Los servicios de prestación obligatoria, mencionados en los artículos 26.1 y 36 de la Ley 7/1985, de 2 de abril, reguladora de las Bases de Régimen Local, y los servicios derivados del ejercicio de las competencias propias citadas en los artículos 7, 25.2 y 27 de dicha ley
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](https://www.hacienda.gob.es/es-ES/CDI/Paginas/InformacionPresupuestaria/InformacionEELLs/CosteServicios.aspx)
+- **31049 · [Deuda Viva de las Entidades Locales a 31 de Diciembre (MHAC)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259945999680)**
+  - Sector o tema: Administraciones públicas y asociaciones
+  - Subsector o subtema: Presupuestarias y fiscales
+  - Nivel de desagregación: Municipal o inferior
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Obtener la deuda viva, de acuerdo con la definición del Protocolo del Déficit Excesivo (PDE), de cada una de las entidades locales a 31 de diciembre de cada ejercicio, incluida la de las Ciudades de Ceuta y Melilla
+  - Variables de estudio: Deuda viva a 31 de diciembre según criterio PDE
+  - Variables de clasificación: Componentes de la deuda viva según criterio PDE (préstamos de instituciones financieras, valores no representativos de deuda, Fondo de Financiación de entidades locales, etc.)
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](https://www.hacienda.gob.es/es-ES/CDI/Paginas/SistemasFinanciacionDeuda/InformacionEELLs/DeudaViva.aspx)
+- **31050 · [Ejecución Presupuestaria Trimestral de las Entidades Locales (MHAC)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259945999681)**
+  - Sector o tema: Administraciones públicas y asociaciones
+  - Subsector o subtema: Presupuestarias y fiscales
+  - Nivel de desagregación: Municipal o inferior
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Obtención de información económico financiera de la ejecución trimestral de los presupuestos de las entidades locales en sus distintas fases
+  - Variables de estudio: Ingresos y gastos consolidados en las distintas fases de la ejecución trimestral de los presupuestos
+  - Variables de clasificación: Clasificación económica de ingresos y gastos
+  - Periodicidad de la difusión: Trimestral
+  - [Acceso a los resultados](https://www.hacienda.gob.es/es-ES/CDI/Paginas/InformacionPresupuestaria/InformacionEELLs/Consultaejecprestrimestral.aspx)
+- **31051 · [Haciendas Locales en Cifras (MHAC)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259945999685)**
+  - Sector o tema: Administraciones públicas y asociaciones
+  - Subsector o subtema: Presupuestarias y fiscales
+  - Nivel de desagregación: Municipal o inferior
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Ofrecer las cifras que caracterizan y definen las haciendas locales en España relativas a los municipios, provincias e islas y a las Ciudades de Ceuta y Melilla en el ejercicio correspondiente y su evolución desde los cinco ejercicios anteriores
+  - Variables de estudio: Ingresos y gastos, magnitudes financieras (ahorro, saldo no financiero, remanente de tesorería), deuda viva según el Protocolo del Déficit Excesivo, la participación en los tributos del Estado y las subvenciones y compensaciones
+  - Variables de clasificación: Clasificación económica de ingresos y gastos y clasificación por programas de los gastos
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](https://www.hacienda.gob.es/es-ES/CDI/Paginas/SistemasFinanciacionDeuda/InformacionEELLs/HaciendasLocalesencifras.aspx)
+
+## Ministerio de Hacienda - Secretaría de Estado de Hacienda / Secretaría General de Financiación Autonómica y Local-Dirección General de Estabilidad Presupuestaria y Gestión Financiera Territorial - Subdirección General de Análisis Presupuestario y Estadística de las Comunidades Autónomas
+
+- **31010 · [Inventario de Entes dependientes de las Comunidades Autónomas (MHAC)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946003374)**
+  - Sector o tema: Administraciones públicas y asociaciones
+  - Subsector o subtema: Entes, medios y actividad de las administraciones públicas
+  - Nivel de desagregación: Autonómico
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Ofrecer la estructura, dimensión y composición del Sector Público Autonómico
+  - Variables de estudio: Tipos de entes, componentes y finalidad
+  - Variables de clasificación: Tipo de ente, actividad y componentes
+  - Periodicidad de la difusión: Semestral
+  - [Acceso a los resultados](https://serviciostelematicosext.hacienda.gob.es/SGCIEF/PubInvCCAA/secciones/FrmSelComunidad.aspx)
+- **31022 · [Informe sobre el Impacto del Sector Público Autonómico en la Actividad Económico-Financiera de las Comunidades Autónomas (MHAC)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259930992993)**
+  - Sector o tema: Administraciones públicas y asociaciones
+  - Subsector o subtema: Entes, medios y actividad de las administraciones públicas
+  - Nivel de desagregación: Autonómico
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: El análisis del impacto de la composición y dimensión del sector público autonómico en la actividad económico-financiera de las comunidades autónomas
+  - Variables de estudio: Tipos de entes, componentes y finalidades
+  - Periodicidad de la difusión: Semestral
+  - [Acceso a los resultados](https://serviciostelematicosext.hacienda.gob.es/SGCIEF/Ispanet/InformesSectorPublicoAutonomico.aspx)
+- **31028 · [Presupuestos de las Comunidades Autónomas (MHAC)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259930984484)**
+  - Sector o tema: Administraciones públicas y asociaciones
+  - Subsector o subtema: Presupuestarias y fiscales
+  - Nivel de desagregación: Autonómico
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Presentación, de modo homogéneo, de las cifras de ingresos y gastos presupuestarios de las comunidades autónomas
+  - Variables de estudio: Gasto e ingresos consolidados y sin consolidar
+  - Variables de clasificación: Clasificación económica de ingresos y gastos y clasificación funcional del gasto
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](https://serviciostelematicosext.hacienda.gob.es/SGCIEF/PublicacionPresupuestos/aspx/inicio.aspx)
+- **31030 · [Liquidación de Presupuestos de las Comunidades Autónomas (MHAC)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259930984659)**
+  - Sector o tema: Administraciones públicas y asociaciones
+  - Subsector o subtema: Presupuestarias y fiscales
+  - Nivel de desagregación: Autonómico
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Presentación, de modo homogéneo, de las cifras de ingresos y gastos correspondientes a la liquidación de presupuestos de las comunidades autónomas en sus distintas fases de ejecución presupuestaria
+  - Variables de estudio: Ingresos y gastos consolidados y sin consolidar de la liquidación de presupuestos, por fases
+  - Variables de clasificación: Clasificación económica de ingresos y gastos y clasificación funcional del gasto
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](https://serviciostelematicosext.hacienda.gob.es/SGCIEF/PublicacionLiquidaciones/aspx/menuInicio.aspx)
+- **31045 · [Ejecución Presupuestaria Mensual de las Comunidades Autónomas (MHAC)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259930974416)**
+  - Sector o tema: Administraciones públicas y asociaciones
+  - Subsector o subtema: Presupuestarias y fiscales
+  - Nivel de desagregación: Autonómico
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Presentación, de modo homogéneo, de las cifras de ingresos y gastos correspondientes a las distintas fases de la ejecución presupuestaria mensual de las comunidades autónomas
+  - Variables de estudio: Ingresos y gastos consolidados
+  - Variables de clasificación: Clasificación económica de ingresos y gastos
+  - Periodicidad de la difusión: Mensual
+  - [Acceso a los resultados](https://serviciostelematicosext.hacienda.gob.es/SGCIEF/Cimcanet/aspx/consulta/consulta.aspx)
+- **31046 · [Indicadores sobre Gasto Farmacéutico y Sanitario de las Comunidades Autónomas (MHAC)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259948148512)**
+  - Sector o tema: Administraciones públicas y asociaciones
+  - Subsector o subtema: Presupuestarias y fiscales
+  - Nivel de desagregación: Autonómico
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Presentación de datos mensuales de las CCAA en materia de gasto en productos farmacéuticos y sanitarios
+  - Variables de estudio: Gasto farmacéutico hospitalario, gasto en productos farmacéuticos y sanitarios por recetas médicas u orden de dispensación y gasto en productos sanitarios sin receta médica u orden de dispensación
+  - Periodicidad de la difusión: Mensual
+  - [Acceso a los resultados](https://www.hacienda.gob.es/es-ES/CDI/Paginas/EstabilidadPresupuestaria/InformacionAAPPs/Indicadores-sobre-Gasto-Farmac%C3%A9utico-y-Sanitario.aspx)
+- **31047 · [Informe sobre Plazos de Pago a Proveedores y Deuda Comercial de las Comunidades Autónomas (MHAC)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259948150599)**
+  - Sector o tema: Administraciones públicas y asociaciones
+  - Subsector o subtema: Presupuestarias y fiscales
+  - Nivel de desagregación: Autonómico
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Dar cumplimiento a la obligación establecida en la LOEPSF de proporcionar información sobre el Periodo Medio de Pago
+  - Variables de estudio: Ratio de operaciones pagadas, importe de pagos realizados, ratio de operaciones pendientes de pago, importe de pagos pendientes, periodo medio de pago, importes de deuda comercial y no financiera. Para determinadas variables se clasifica su carácter sanitario y no sanitario
+  - Periodicidad de la difusión: Mensual
+  - [Acceso a los resultados](https://serviciostelematicosext.hacienda.gob.es/SGCIEF/PMP_NET/aspx/consulta/consulta.aspx?tipoPublicacion=1)
+- **31052 · [Estadística de Gasto Sanitario Público Mensual (En proyecto) (MHAC)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946005709)**
+  - Sector o tema: Administraciones públicas y asociaciones
+  - Subsector o subtema: Presupuestarias y fiscales
+  - Nivel de desagregación: Autonómico
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Presentación de datos mensuales y anuales de organismos del Estado (INGESA, MUFACE, MUGEJU, ISFAS e Instituciones Penitenciarias) y Comunidades Autónomas en materia del gasto sanitario
+  - Variables de estudio: Gasto en personal, Gasto en conciertos sanitarios, Otros gastos corrientes, Gasto en inversiones y Otros gastos de capital
+  - Periodicidad de la difusión: Mensual
+
+## Ministerio de Hacienda - Secretaría de Estado de Hacienda / Secretaría General de Financiación Autonómica y Local-Dirección General de Estabilidad Presupuestaria y Gestión Financiera Territorial - Subdirección General de Gestión Presupuestaria y Financiera de Entidades Locales
+
+- **31143 · [Informe sobre Plazos de Pago a Proveedores y Deuda Comercial de las Corporaciones Locales (MHAC)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946001868)**
+  - Sector o tema: Administraciones públicas y asociaciones
+  - Subsector o subtema: Entes, medios y actividad de las administraciones públicas
+  - Nivel de desagregación: Municipal o inferior
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Dar cumplimiento a la obligación establecida en la Ley Orgánica de Estabilidad Presupuestaria y Sostenibilidad Financiera (LOEPSF) de proporcionar información sobre el Periodo Medio de Pago
+  - Variables de estudio: Ratio de operaciones pagadas, importe de pagos realizados, ratio de operaciones pendientes de pago, importe de pagos pendientes, periodo medio de pago, importes de deuda comercial y no financiera
+  - Periodicidad de la difusión: Mensual, trimestral
+  - [Acceso a los resultados](https://serviciostelematicosext.hacienda.gob.es/SGCIEF/PMP_NET/aspx/consulta/consulta.aspx?tipoPublicacion=2)
+
+## Ministerio de Hacienda - Secretaría de Estado de Hacienda / Secretaría General de Financiación Autonómica y Local-Dirección General de Estabilidad Presupuestaria y Gestión Financiera Territorial - Subdirección General de Gestión de la Financiación Autonómica
+
+- **31038 · [Haciendas Autonómicas en Cifras (MHAC)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259930983251)**
+  - Sector o tema: Administraciones públicas y asociaciones
+  - Subsector o subtema: Presupuestarias y fiscales
+  - Nivel de desagregación: Autonómico
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Ofrecer información relativa a las Haciendas de las comunidades autónomas y ciudades de Ceuta y Melilla, en los aspectos presupuestarios, y de recursos financieros de que disponen
+  - Variables de estudio: Recursos de las comunidades autónomas y ciudades con estatuto de autonomía, información pormenorizada sobre los presupuestos generales de las comunidades autónomas y de las ciudades con estatuto de autonomía, ofreciendo tanto su análisis económico como su clasificación funcional
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](https://www.hacienda.gob.es/es-ES/CDI/Paginas/SistemasFinanciacionDeuda/InformacionCCAAs/haciendas%202005.aspx)
+- **31039 · [Estadística sobre la Gestión y Ejecución de los Fondos de Compensación Interterritorial (MHAC)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259930983421)**
+  - Sector o tema: Administraciones públicas y asociaciones
+  - Subsector o subtema: Presupuestarias y fiscales
+  - Nivel de desagregación: Provincial
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Seguimiento de la ejecución de los Fondos de Compensación Interterritorial
+  - Variables de estudio: Créditos, compromisos de gastos y propuestas de pagos
+  - Variables de clasificación: Consejerías, subfunciones y proyectos
+  - Periodicidad de la difusión: Trimestral
+  - [Acceso a los resultados](https://www.hacienda.gob.es/es-ES/CDI/Paginas/InformacionPresupuestaria/InformacionCCAAs/GestionFCI.aspx)
+
+## Ministerio de Hacienda - Secretaría de Estado de Presupuestos y Gastos / Dirección General de Presupuestos
+
+- **31013 · [Presupuestos Generales del Estado (MHAC)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946003376)**
+  - Sector o tema: Administraciones públicas y asociaciones
+  - Subsector o subtema: Presupuestarias y fiscales
+  - Nivel de desagregación: Nacional
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Proporcionar información sobre la previsión de gastos e ingresos del Estado para un ejercicio económico
+  - Variables de estudio: Gastos e ingresos
+  - Variables de clasificación: Clasificación económica, orgánica y por programas
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](https://www.sepg.pap.hacienda.gob.es/sitios/sepg/es-ES/Presupuestos/PGE/Paginas/PresupuestosGE.aspx)
+
+## Ministerio de Hacienda - Secretaría de Estado de Presupuestos y Gastos / Intervención General de la Administración del Estado - Oficina Nacional de Contabilidad
+
+- **32081 · [Indicadores Establecidos en la Directiva 2011/85/UE (MHAC)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946001120)**
+  - Sector o tema: Cuentas económicas
+  - Subsector o subtema: Finanzas públicas
+  - Nivel de desagregación: Nacional
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Proporcionar información sobre los pasivos contingentes que puedan incidir de manera significativa en los presupuestos públicos, en particular las garantías públicas, los préstamos morosos y los pasivos resultantes de la actividad de las corporaciones públicas
+  - Variables de estudio: Importe de las garantías públicas, préstamos de dudoso cobro, pasivos de las unidades públicas clasificadas fuera del sector AAPP, participación pública en el capital de las unidades no incluidas en el sector AAPP, obligaciones pendientes de pago relativas a las Asociaciones público Privadas
+  - Variables de clasificación: Sector Administraciones Públicas y subsectores que lo integran
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](https://www.igae.pap.hacienda.gob.es/sitios/igae/es-ES/Contabilidad/ContabilidadNacional/Publicaciones/Paginas/IndicadoresDirectivaUE.aspx)
+
+## Ministerio de Hacienda - Secretaría de Estado de Presupuestos y Gastos / Intervención General de la Administración del Estado - Oficina Nacional de Contabilidad - División II: Gestión de Contabilidad
+
+- **31122 · [Ejecución Mensual del Presupuesto del Estado (MHAC)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931117042)**
+  - Sector o tema: Administraciones públicas y asociaciones
+  - Subsector o subtema: Presupuestarias y fiscales
+  - Nivel de desagregación: Nacional
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Seguimiento de la ejecución de los presupuestos de ingresos y gastos del Estado, así como del déficit de caja no financiero
+  - Variables de estudio: Déficit de caja no financiero, ingresos, pagos, créditos, gastos comprometidos, obligaciones reconocidas, previsión de ingresos y derechos reconocidos
+  - Variables de clasificación: Clasificación económica, orgánica y por programas
+  - Periodicidad de la difusión: Mensual
+  - [Acceso a los resultados](https://www.igae.pap.hacienda.gob.es/sitios/igae/es-ES/Contabilidad/ContabilidadPublica/CPE/EjecucionPresupuestaria/Paginas/imejecucionpresupuesto.aspx)
+- **31123 · [Ejecución Mensual de los Presupuestos de Organismos Públicos (MHAC)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259930986908)**
+  - Sector o tema: Administraciones públicas y asociaciones
+  - Subsector o subtema: Presupuestarias y fiscales
+  - Nivel de desagregación: Nacional
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Seguimiento de los presupuestos de ingresos y gastos de los organismos públicos
+  - Variables de estudio: Ingresos, pagos, créditos, gastos comprometidos, obligaciones reconocidas, previsiones de ingresos y derechos reconocidos
+  - Variables de clasificación: Clasificación económica y orgánica
+  - Periodicidad de la difusión: Mensual
+  - [Acceso a los resultados](https://www.igae.pap.hacienda.gob.es/sitios/igae/es-ES/Contabilidad/ContabilidadPublica/CPE/EjecucionPresupuestaria/Paginas/EjecucionPresupuestoOrganismos.aspx)
+- **31124 · [Avances de Liquidación de los Presupuestos del Estado y de sus Organismos Públicos (MHAC)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259930987083)**
+  - Sector o tema: Administraciones públicas y asociaciones
+  - Subsector o subtema: Presupuestarias y fiscales
+  - Nivel de desagregación: Nacional
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Presentación de las previsiones de liquidación de los presupuestos del Estado y de sus organismos públicos
+  - Variables de estudio: Déficit de caja no financiero, ingresos, pagos, créditos, previsiones de ingresos, obligaciones reconocidas y derechos reconocidos
+  - Variables de clasificación: Clasificación económica y orgánica
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](https://www.igae.pap.hacienda.gob.es/sitios/igae/es-ES/Contabilidad/ContabilidadPublica/CPE/EjecucionPresupuestaria/Paginas/EjecucionPresupuestaria.aspx)
+- **31125 · [Estadística de Liquidación de los Presupuestos del Estado y de sus Organismos Públicos, Empresas y Fundaciones (MHAC)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259930987258)**
+  - Sector o tema: Administraciones públicas y asociaciones
+  - Subsector o subtema: Presupuestarias y fiscales
+  - Nivel de desagregación: Nacional
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Presentación de la liquidación de los presupuestos de ingresos y gastos del Estado y de sus organismos públicos, así como de los presupuestos de explotación y capital de las entidades del sector público administrativo, empresarial y fundacional
+  - Variables de estudio: Déficit de caja no financiero, ingresos, pagos, créditos, previsiones de ingresos, obligaciones reconocidas y derechos reconocidos, cuenta de pérdidas y ganancias y estados de flujos de efectivo
+  - Variables de clasificación: Clasificación económica, orgánica y por programas
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](https://www.igae.pap.hacienda.gob.es/sitios/igae/es-ES/Contabilidad/ContabilidadPublica/CPE/EjecucionPresupuestaria/Paginas/EjecucionPresupuestaria.aspx)
+- **31132 · [Informe sobre Cumplimiento de Plazos Legales de Pago (MHAC)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259942575892)**
+  - Sector o tema: Administraciones públicas y asociaciones
+  - Subsector o subtema: Presupuestarias y fiscales
+  - Nivel de desagregación: Nacional
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Informar sobre el cumplimiento de los plazos legales previstos para el pago de las obligaciones de la Administración General del Estado
+  - Variables de estudio: Pagos efectuados como contraprestación en las operaciones comerciales (operaciones con cargo al capítulo 2 y 6 del Presupuesto de Gastos)
+  - Variables de clasificación: Periodo medio de pago, operaciones pendientes de pago y operaciones en las que se ha excedido el periodo legal de pago
+  - Periodicidad de la difusión: Trimestral
+  - [Acceso a los resultados](https://www.igae.pap.hacienda.gob.es/sitios/igae/es-ES/Contabilidad/informacionEconomica/Paginas/itplazospago.aspx)
+- **32076 · [Informe sobre el Periodo Medio de Pago a Proveedores de los Subsectores Administración Central y Fondos de la Seguridad Social (MHAC)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946001115)**
+  - Sector o tema: Administraciones públicas y asociaciones
+  - Subsector o subtema: Presupuestarias y fiscales
+  - Nivel de desagregación: Nacional
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Dar cumplimiento a la obligación establecida en la LOEPSF de proporcionar información sobre el Periodo Medio de Pago
+  - Variables de estudio: Ratio de operaciones pagadas, importe de pagos realizados, ratio de operaciones pendientes de pago, importe de pagos pendientes, periodo medio de pago
+  - Variables de clasificación: Entidades dependientes de la Administración Central y de la Seguridad social
+  - Periodicidad de la difusión: Mensual
+  - [Acceso a los resultados](https://www.igae.pap.hacienda.gob.es/sitios/igae/es-ES/Contabilidad/informacionEconomica/Paginas/imperiodopagoproveedores.aspx)
+
+## Ministerio de Hacienda - Secretaría de Estado de Presupuestos y Gastos / Intervención General de la Administración del Estado - Oficina Nacional de Contabilidad - División III: Análisis y Elaboración de las Cuentas Nacionales
+
+- **31126 · [Cuentas de las Empresas Públicas (MHAC)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259930987433)**
+  - Sector o tema: Cuentas económicas
+  - Subsector o subtema: Cuentas de sectores y subsectores institucionales
+  - Nivel de desagregación: Nacional
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Elaboración de las cuentas económicas y financieras de las empresas públicas financieras y no financieras
+  - Variables de estudio: Las rúbricas que integran las cuentas económicas y financieras de la Contabilidad Nacional de las Empresas Públicas
+  - Variables de clasificación: Empresas públicas productivas y financieras
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](https://www.igae.pap.hacienda.gob.es/sitios/igae/es-ES/Contabilidad/ContabilidadNacional/Publicaciones/Paginas/empresaspublicas.aspx)
+- **31127 · [Cuentas de las Administraciones Públicas (MHAC)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259930987603)**
+  - Sector o tema: Cuentas económicas
+  - Subsector o subtema: Cuentas de sectores y subsectores institucionales
+  - Nivel de desagregación: Nacional
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Elaboración de las Cuentas Económicas de las Administraciones Públicas
+  - Variables de estudio: Las rúbricas que integran las cuentas económicas de la Contabilidad Nacional de las Administraciones Públicas
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](https://www.igae.pap.hacienda.gob.es/sitios/igae/es-ES/Contabilidad/ContabilidadNacional/Publicaciones/Paginas/iacuentasAAPP.aspx)
+- **31128 · [Cuentas de las Administraciones Públicas Territoriales (MHAC)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259930987771)**
+  - Sector o tema: Cuentas económicas
+  - Subsector o subtema: Cuentas de sectores y subsectores institucionales
+  - Nivel de desagregación: Autonómico
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Elaboración de las Cuentas Económicas de las Administraciones Públicas Territoriales, presentándose la información desagregada por comunidad autónoma
+  - Variables de estudio: Las rúbricas que integran las cuentas económicas de la Contabilidad Nacional de las Administraciones Públicas Territoriales
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](https://www.igae.pap.hacienda.gob.es/sitios/igae/es-ES/Contabilidad/ContabilidadNacional/Publicaciones/Paginas/iacuentasregionales.aspx)
+- **31130 · [Cuentas Trimestrales de las Administraciones Públicas (MHAC)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259930977071)**
+  - Sector o tema: Cuentas económicas
+  - Subsector o subtema: Cuentas de sectores y subsectores institucionales
+  - Nivel de desagregación: Nacional
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Elaboración de las Cuentas Económicas Trimestrales de las Administraciones Públicas
+  - Variables de estudio: Las rúbricas que integran las cuentas económicas de la Contabilidad Nacional de las Administraciones Públicas
+  - Variables de clasificación: Sector Administraciones Públicas y subsectores que lo integran
+  - Periodicidad de la difusión: Trimestral
+  - [Acceso a los resultados](https://www.igae.pap.hacienda.gob.es/sitios/igae/es-ES/Contabilidad/ContabilidadNacional/Publicaciones/Paginas/iacuentasAAPPTrimestral.aspx)
+- **32075 · [Operaciones No Financieras Anuales del Sector Administraciones Públicas y sus Subsectores (MHAC)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946001114)**
+  - Sector o tema: Cuentas económicas
+  - Subsector o subtema: Finanzas públicas
+  - Nivel de desagregación: Nacional
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Proporcionar información de operaciones no financieras realizadas por el conjunto del sector de las Administraciones Públicas (S.13) y sus subsectores, en términos del Sistema Europeo de Cuentas Nacionales y Regionales de la Unión Europea (SEC 2010) Base 2010
+  - Variables de estudio: Operaciones no financieras
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](https://www.igae.pap.hacienda.gob.es/sitios/igae/es-ES/Contabilidad/ContabilidadNacional/Publicaciones/Paginas/Publicaciones.aspx)
+- **32077 · [Impuestos y Cotizaciones Sociales (MHAC)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946001116)**
+  - Sector o tema: Cuentas económicas
+  - Subsector o subtema: Finanzas públicas
+  - Nivel de desagregación: Nacional
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Proporcionar información de impuestos y cotizaciones sociales de las Administraciones , de acuerdo con la clasificación económica establecida en el SEC
+  - Variables de estudio: Importe de las rúbricas de los impuestos y cotizaciones sociales
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](https://www.igae.pap.hacienda.gob.es/sitios/igae/es-ES/Contabilidad/ContabilidadNacional/Publicaciones/Paginas/iaimpuestosycotizaciones.aspx)
+- **32078 · [Clasificación Funcional del Gasto de las Administraciones Públicas (COFOG) (MHAC)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946001117)**
+  - Sector o tema: Cuentas económicas
+  - Subsector o subtema: Finanzas públicas
+  - Nivel de desagregación: Nacional
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Proporciona información sobre la clasificación funcional del gasto no financiero de las Administraciones Públicas conforme a los criterios del SEC2010
+  - Variables de estudio: Gasto por funciones y operaciones económicas
+  - Variables de clasificación: Las rúbricas que integran las cuentas económicas de la Contabilidad Nacional, las funciones y subfunciones de la clasificación funcional de los gastos no financieros (COFOG)
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](https://www.hacienda.gob.es/es-es/cdi/paginas/contabilidadnacional/cofog/clasificacion-funcional-del-gasto-de-las-administraciones-publicas.aspx)
+- **32079 · [Operaciones No Financieras Trimestrales del Sector Administraciones Públicas y sus Subsectores (MHAC)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946001118)**
+  - Sector o tema: Cuentas económicas
+  - Subsector o subtema: Finanzas públicas
+  - Nivel de desagregación: Nacional
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Proporcionar información trimestral, en términos de contabilidad nacional, sobre los ingresos y gastos del sector Administraciones públicas, detallados por operaciones, así como la capacidad necesidad de financiación
+  - Variables de estudio: Operaciones no financieras
+  - Periodicidad de la difusión: Trimestral
+  - [Acceso a los resultados](https://www.igae.pap.hacienda.gob.es/sitios/igae/es-ES/Contabilidad/ContabilidadNacional/Publicaciones/Paginas/itnofinancierasTotal.aspx)
+- **32080 · [Operaciones No Financieras Mensuales Consolidadas de los Subsectores Administración Central, Administración Regional y Fondos de la Seguridad Social. Detalle por Subsectores (MHAC)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946001119)**
+  - Sector o tema: Cuentas económicas
+  - Subsector o subtema: Finanzas públicas
+  - Nivel de desagregación: Nacional
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Proporcionar información mensual, en términos de contabilidad nacional, sobre los ingresos y gastos del subsector Administración central, detallados por operaciones, así como la capacidad/necesidad de financiación
+  - Variables de estudio: Operaciones no financieras
+  - Periodicidad de la difusión: Mensual
+  - [Acceso a los resultados](https://www.igae.pap.hacienda.gob.es/sitios/igae/es-ES/Contabilidad/ContabilidadNacional/Publicaciones/Paginas/imnofinancierasAC.aspx)
+
+## Ministerio de Hacienda - Secretaría de Estado de Presupuestos y Gastos / Intervención General de la Administración del Estado - Subdirección General de Estudios y Coordinación
+
+- **31119 · [Inventario de Entes del Sector Público Estatal, Autonómico y Local (INVENTE) (MHAC)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259948145825)**
+  - Sector o tema: Administraciones públicas y asociaciones
+  - Subsector o subtema: Entes, medios y actividad de las administraciones públicas
+  - Nivel de desagregación: Municipal o inferior
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Ofrecer la estructura, dimensión y composición del Sector Público Estatal, Autonómico y Local
+  - Variables de estudio: Tipos de entes, componentes y finalidad
+  - Variables de clasificación: Actividad, contabilidad nacional, estructura de dominio
+  - Periodicidad de la difusión: Semestral
+  - [Acceso a los resultados](https://www.igae.pap.hacienda.gob.es/sitios/igae/es-ES/invente/Paginas/inicio.aspx)
+- **31121 · [Efectivos de Personal al Servicio del Sector Público Estatal (MHAC)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931116692)**
+  - Sector o tema: Administraciones públicas y asociaciones
+  - Subsector o subtema: Personal de las administraciones públicas y sus retribuciones
+  - Nivel de desagregación: Nacional
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Seguimiento del personal que presta sus servicios en el sector público estatal
+  - Variables de estudio: Número de efectivos
+  - Variables de clasificación: Ministerios y organismos, categorias y subsectores, sexo y tipos de personal
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](https://www.igae.pap.hacienda.gob.es/sitios/igae/es-ES/Contabilidad/informacionEconomica/Paginas/personalsectorpublicoestatal.aspx)
+
+## Ministerio de Hacienda - Subsecretaría de Hacienda / Comisionado para el Mercado de Tabacos, O.A.
+
+- **28071 · [Estadística de Venta de Labores de Tabaco a Expendedurías en la Península e Illes Balears (MHAC)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931116175)**
+  - Sector o tema: Comercio interior y exterior
+  - Subsector o subtema: Comercio interior
+  - Nivel de desagregación: Provincial
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Conocimiento de la distribución geográfica del consumo de labores de tabaco en el área del monopolio de distribución minorista
+  - Variables de estudio: Ventas en unidades físicas y peso y monetarias de las diferentes clases de labores de tabaco
+  - Periodicidad de la difusión: Mensual
+  - [Acceso a los resultados](http://www.hacienda.gob.es/es-ES/Areas%20Tematicas/CMTabacos/Paginas/EstadisticassobreelMercadodeTabacos.aspx)
+
+## Ministerio de Hacienda - Subsecretaría de Hacienda / Dirección General del Patrimonio del Estado - Subdirección General de Clasificación de Contratistas y Registro de Contratos
+
+- **28021 · [Explotación Estadística del Registro de Contratos del Sector Público (MHAC)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931115652)**
+  - Sector o tema: Administraciones públicas y asociaciones
+  - Subsector o subtema: Presupuestarias y fiscales
+  - Nivel de desagregación: Nacional
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Conocimiento de los contratos celebrados por las Administraciones públicas y demás entidades del sector público sujetas al texto refundido de la Ley de Contratos del Sector Público y elaboración de la información requerida por la Unión Europea y la Organización Mundial del Comercio
+  - Variables de estudio: Tipo de contrato, administración contratante, procedimiento de adjudicación, importe de adjudicación
+  - Variables de clasificación: Órgano que adjudica el contrato
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](https://www.hacienda.gob.es/es-ES/Servicios/Contratacion/Junta%20Consultiva%20de%20Contratacion%20Administrativa/Paginas/Registro%20publico%20de%20contratos.aspx)
+
+## Ministerio de Hacienda - Subsecretaría de Hacienda / Inspección General - Subdirección General de Estadística de Servicios
+
+- **28041 · [Gestión de los Servicios de las Delegaciones de Economía y Hacienda. Sistema de Índices de Eficiencia, Calidad y Eficacia (SIECE) (MHAC)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931115827)**
+  - Sector o tema: Administraciones públicas y asociaciones
+  - Subsector o subtema: Entes, medios y actividad de las administraciones públicas
+  - Nivel de desagregación: Provincial
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Evaluación de la gestión de los servicios territoriales de las Delegaciones de Economía y Hacienda
+  - Variables de estudio: Dentro del ámbito de actuación de las Delegaciones de Economía y Hacienda: gestión de pensiones, presupuestos y liquidación de entidades locales, bienes y derechos incluidos en el Inventario de Bienes del Estado, gestión de depósitos en metálico y en valores, medios personales, gestión, seguimiento y control de contratos, procesos de contabilidad, función interventora y auditora, gestión de catastro y gestión proyectos de obras
+  - Variables de clasificación: Delegaciones de Economía y Hacienda
+  - Periodicidad de la difusión: Anual
+- **28042 · [Resumen Informativo de Recaudación, Tributos Cedidos y Concertados (MHAC)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931116000)**
+  - Sector o tema: Administraciones públicas y asociaciones
+  - Subsector o subtema: Presupuestarias y fiscales
+  - Nivel de desagregación: Provincial
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Conocimiento de los ingresos del Estado cedidos, concertados y convenidos con las comunidades autónomas. Conocimiento de la gestión de los tributos cedidos a las comunidades autónomas
+  - Variables de estudio: Ingresos, impuestos, tasas, transferencias
+  - Variables de clasificación: Comunidades autónomas
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](https://www.hacienda.gob.es/es-ES/CDI/Paginas/Impuestos/RecaudacionDefinitivaTributosCedidos.aspx)
+
+## Ministerio de Hacienda - Subsecretaría de Hacienda / Secretaría General Técnica - Subdirección General de Coordinación de la Información Económico-Financiera
+
+- **31012 · [Indicadores sobre Gasto Farmacéutico y Sanitario del Estado (MHAC)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946003377)**
+  - Sector o tema: Administraciones públicas y asociaciones
+  - Subsector o subtema: Presupuestarias y fiscales
+  - Nivel de desagregación: Nacional
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Presentación de datos mensuales y anuales del total nacional, del Estado y de sus entidades estatales en materia de gasto farmacéutico y sanitario, así como análisis de gastos coyunturales en coordinación con la operación realizada para las comunidades autónomas
+  - Variables de estudio: Gasto farmacéutico hospitalario, gasto en productos farmacéuticos y sanitarios por recetas médicas u orden de dispensación, gasto en productos sanitarios sin receta médica u orden de dispensación
+  - Periodicidad de la difusión: Mensual
+  - [Acceso a los resultados](https://www.hacienda.gob.es/es-ES/CDI/Paginas/EstabilidadPresupuestaria/InformacionAAPPs/Indicadores-sobre-Gasto-Farmac%C3%A9utico-y-Sanitario.aspx)
+- **32098 · [Estadística de Empleo en el Sector Público (MHAC)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946004153)**
+  - Sector o tema: Administraciones públicas y asociaciones
+  - Subsector o subtema: Personal de las administraciones públicas y sus retribuciones
+  - Nivel de desagregación: Autonómico
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Disponer de información detallada que permita medir la evolución del empleo en el Sector Público, según el Sistema Europeo de Cuentas Nacionales y Regionales (SEC), incluyendo tanto las personas que ejercen una actividad productiva como los puestos de trabajo, según las definiciones y criterios relacionados con el empleo presentes en el SEC, y considerando como ámbito poblacional la totalidad del sector público de acuerdo con el SEC (De acuerdo con el Sistema Europeo de Cuentas Nacionales y Regionales, el sector público comprende todas las unidades institucionales clasificadas en el sector S.13 (Administraciones Públicas), así como aquellas unidades pertenecientes a los sectores S.11 (sociedades no financieras) y S.12 (instituciones financieras) que están bajo el control efectivo de una administración pública)
+  - Variables de estudio: Número de empleados y puestos de trabajo en el Sector Público, según las definiciones y criterios relacionados con el empleo presentes en el Sistema Europeo de Cuentas Nacionales y Regionales
+  - Variables de clasificación: Subsector de la Administración, Clasificación en términos de Contabilidad Nacional del Ente/Organismo, Tipo de Ente/Organismo, Régimen de protección social, Relación laboral/Administrativa, Temporalidad, Tipo de jornada, Sexo, Edad, Actividad económica, Ámbito territorial
+  - Periodicidad de la difusión: Semestral
+
+## Ministerio de Hacienda / Sociedad Estatal de Participaciones Industriales - Unidad de Investigación - Fundación SEPI
+
+- **32091 · [Encuesta sobre Estrategias Empresariales (MHAC)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946002628)**
+  - Sector o tema: Minería e industria
+  - Nivel de desagregación: Provincial
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Generar información con una encuesta de panel anual dirigida a una muestra de empresas industriales manufactureras (divisiones 10 a 32 de la CNAE-2009, excluyendo la división 19, es decir, las actividades industriales relacionadas con refino de petróleo y tratamiento de combustibles) radicadas en España, de diez o más trabajadores
+  - Variables de estudio: Actividad, productos y procesos de fabricación; Clientes y proveedores; Costes y precios; Mercados servidos; Actividades tecnológicas; Comercio exterior; Empleo; Datos contables
+  - Variables de clasificación: Variables de sector a dos dígitos CNAE-2009 y de tamaño de empresa medido por el número de trabajadores
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](https://www.fundacionsepi.es/investigacion/esee/)
+
+## Ministerio de Igualdad - Secretaría de Estado de Igualdad y para la Erradicación de la Violencia contra las Mujeres / Delegación del Gobierno contra la Violencia de Género - Subdirección General de Sensibilización, Prevención y Estudios de la Violencia contra las Mujeres
+
+- **65003 · [Estadística de Ayudas Sociales del Artículo 27 a Mujeres Víctimas de Violencia de Género (MIGD)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931152872)**
+  - Sector o tema: Protección social y servicios sociales
+  - Subsector o subtema: Otras prestaciones económicas
+  - Nivel de desagregación: Provincial
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Obtención y difusión de resultados de las ayudas sociales a mujeres víctimas de violencia de género recogidas en el artículo 27 de la Ley Orgánica 1/2004, de 28 de diciembre, de Medidas de Protección Integral contra la Violencia de Género
+  - Variables de estudio: Mujeres beneficiarias de las ayudas
+  - Variables de clasificación: Edad, nacionalidad, causas de denegación, discapacidad y grado, responsabilidades familiares, cantidades percibidas, duración de la ayuda
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](https://violenciagenero.igualdad.gob.es/violenciaencifras/boletines/mensuales/)
+- **65004 · [016-Servicio de Información y Asesoramiento Jurídico en Materia de Violencia Contra la Mujer por Razón de Género (MIGD)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931153013)**
+  - Sector o tema: Nivel, calidad y condiciones de vida
+  - Subsector o subtema: Situación social de grupos específicos
+  - Nivel de desagregación: Provincial
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Proporcionar información sobre la utilización del servicio 016. Se atienden todas las consultas de violencia contra la mujer por razón de género recogidas en la Ley Orgánica 1/2004, de 28 de diciembre; en el Convenio del Consejo de Europa sobre prevención y lucha contra la violencia contra la mujer y la violencia doméstica, hecho en la misma ciudad el 11 de mayo de 2011 Convenio de Estambul, España ratifica en 2014 (BOE núm. 137, de 6 de junio de 2014), así como a lo establecido en la Ley Orgánica 10/2022, de 6 de septiembre, de garantía integral de la libertad sexual
+  - Variables de estudio: Consultas de violencia contra la mujer por razón de género atendidas en el servicio 016
+  - Variables de clasificación: Número de consultas por tipo de violencia, personas que efectúan las consultas, edad de la víctima y del agresor, nacionalidad de la víctima y del agresor, estado civil de la víctima y del agresor, número de hijos, nivel de estudios, situación laboral, día de la semana, hora del día, tamaño del hábitat, duración de la relación, tipo de maltrato, tipo de consulta
+  - Periodicidad de la difusión: Mensual, anual
+  - [Acceso a los resultados](https://violenciagenero.igualdad.gob.es/violenciaencifras/boletines/mensuales/)
+- **65005 · [Violencia de Género: Boletín Estadístico Mensual (MIGD)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259930978034)**
+  - Sector o tema: Nivel, calidad y condiciones de vida
+  - Subsector o subtema: Indicadores, síntesis y recopilaciones en el ámbito social
+  - Nivel de desagregación: Provincial
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Proporcionar información estadística referente a violencia de género
+  - Variables de estudio: De carácter general del sector
+  - Variables de clasificación: Propias del sector
+  - Periodicidad de la difusión: Mensual
+  - [Acceso a los resultados](https://violenciagenero.igualdad.gob.es/violenciaencifras/boletines/mensuales/)
+- **65006 · [Servicio Telefónico de Atención y Protección para Víctimas de Violencia contra las Mujeres-ATENPRO (MIGD)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259930978172)**
+  - Sector o tema: Nivel, calidad y condiciones de vida
+  - Subsector o subtema: Situación social de grupos específicos
+  - Nivel de desagregación: Provincial
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Proporcionar información estadística sobre el funcionamiento y uso del servicio de atención y protección a las víctimas de violencia de género
+  - Variables de estudio: Usuarias del servicio
+  - Variables de clasificación: Edad, nacionalidad, estado civil, número de hijos, nivel de estudios, situación laboral, etc. de las usuarias del servicio, tipo de relación entre usuaria y agresor, edad y nacionalidad del agresor, tamaño del hábitat, tiempo de permanencia en el servicio
+  - Periodicidad de la difusión: Mensual, anual
+  - [Acceso a los resultados](https://violenciagenero.igualdad.gob.es/violenciaencifras/boletines/mensuales/)
+- **65007 · [Macroencuesta de Violencia contra la Mujer (MIGD)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259930978342)**
+  - Sector o tema: Nivel, calidad y condiciones de vida
+  - Subsector o subtema: Situación social de grupos específicos
+  - Nivel de desagregación: Nacional
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Estimar la prevalencia de la violencia contra la mujer en España diferenciando la violencia que se produce en el ámbito de la pareja o expareja de la violencia sufrida por las mujeres fuera del ámbito de la pareja. Identificar y cuantificar los tipos de violencia sufridos distinguiendo entre violencia física, sexual, emocional, de control y económica en el caso de la violencia en la pareja, y entre violencia física y sexual en el caso de la violencia ejercida por terceros
+  - Variables de estudio: Violencia declarada alguna vez en la vida, violencia declarada en el último año, frecuencia, severidad, tipo de agresor
+  - Variables de clasificación: Situación familiar y laboral, nivel educativo, nivel de ingresos de la entrevistada, nivel de ingresos en el hogar, país de nacimiento, discapacidad, tamaño del hábitat de residencia
+  - Periodicidad de la difusión: Cuatrienal - Últimos datos: Año 2024
+  - [Acceso a los resultados](https://violenciagenero.igualdad.gob.es/violenciaencifras/macroencuesta/)
+- **65010 · [Sistema de Seguimiento por Medios Telemáticos de las Medidas de Alejamiento en el Ámbito de la Violencia de Género (MIGD)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259930974593)**
+  - Sector o tema: Seguridad y justicia
+  - Subsector o subtema: Seguridad ciudadana
+  - Nivel de desagregación: Provincial
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Proporcionar información sobre las medidas de alejamiento acordadas por los jueces en virtud de lo dispuesto en el artículo 64.3 de la Ley Orgánica 1/2004, de 28 de diciembre, de Medidas de Protección Integral contra la Violencia de Género
+  - Variables de estudio: Dispositivos electrónicos instalados a inculpado y víctima en casos de violencia de género
+  - Variables de clasificación: Número de dispositivos instalados, activos y desinstalados. Edad, nacionalidad y provincia de residencia de la víctima y del inculpado
+  - Periodicidad de la difusión: Mensual, anual
+  - [Acceso a los resultados](https://violenciagenero.igualdad.gob.es/violenciaencifras/boletines/mensuales/)
+- **65014 · [Anuario Estadístico de Violencia de Género (MIGD)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259930975410)**
+  - Sector o tema: Nivel, calidad y condiciones de vida
+  - Subsector o subtema: Indicadores, síntesis y recopilaciones en el ámbito social
+  - Nivel de desagregación: Provincial
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Proporcionar información estadística referente a violencia de género
+  - Variables de estudio: De carácter general del sector
+  - Variables de clasificación: Propias del sector
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](https://violenciagenero.igualdad.gob.es/violenciaEnCifras/observatorio/home.htm)
+- **65015 · [Violencia de Género. Boletín Estadístico Anual (MIGD)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259944581740)**
+  - Sector o tema: Nivel, calidad y condiciones de vida
+  - Subsector o subtema: Indicadores, síntesis y recopilaciones en el ámbito social
+  - Nivel de desagregación: Provincial
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Proporcionar información estadística referente a violencia de género
+  - Variables de estudio: De carácter general del sector
+  - Variables de clasificación: Propias del sector
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](https://violenciagenero.igualdad.gob.es/violenciaencifras/boletines/anuales/)
+- **65016 · [Encuesta Europea de Violencia de Género (MIGD)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259945998992)**
+  - Sector o tema: Nivel, calidad y condiciones de vida
+  - Subsector o subtema: Situación social de grupos específicos
+  - Nivel de desagregación: Nacional
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Estimar la prevalencia de la violencia de género contra mujeres en España, cuantificando de forma separada el acoso sexual en el trabajo, la violencia sufrida en la infancia, el acoso, la violencia en la pareja y en la expareja, la violencia fuera de la pareja en la edad adulta. Identificar y cuantificar los tipos de violencia sufridos distinguiendo entre violencia psicológica, física, y sexual
+  - Variables de estudio: Violencia declarada alguna vez en la vida, violencia declarada en el último año, frecuencia, severidad, tipo de agresor
+  - Variables de clasificación: Situación familiar y laboral, nivel educativo, nivel de ingresos de la entrevistada, nivel de ingresos en el hogar, país de nacimiento discapacidad, tamaño del hábitat de residencia
+  - Periodicidad de la difusión: Quinquenal
+  - [Acceso a los resultados](https://violenciagenero.igualdad.gob.es/violenciaEnCifras/Encuesta_Europea/home.htm)
+- **65017 · [Estadística de Recursos Autonómicos en Materia de Violencia contra la Mujer (MIGD)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946000384)**
+  - Sector o tema: Protección social y servicios sociales
+  - Subsector o subtema: Indicadores, síntesis y recopilaciones de protección y asistencia social
+  - Nivel de desagregación: Provincial
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Proporcionar información sobre los recursos públicos de titularidad autonómica existentes en los distintos ámbitos de actuación destinados a la prevención, asistencia y erradicación de las distintas formas de violencia contra la mujer
+  - Variables de estudio: Recursos de alojamiento, profesionales dedicados/as y víctimas acogidas en ellos durante el año de referencia; centros de atención integral y víctimas atendidas en ellos; campañas de sensibilización o prevención llevadas a cabo en distintos medios de difusión; instrumentos de cooperación interinstitucional; efectivos policiales y víctimas atendidas por profesionales que han recibido formación especializada; menores con escolarización inmediata en otro centro educativo por motivo de violencia ejercida contra su madre; idoneidad de las instalaciones de los juzgados; profesionales y víctimas atendidas en los distintos recursos ofrecidos por la administración de justicia; llamadas recibidas en teléfonos de atención especializada y profesionales dedicados; profesionales dedicados a servicios de teleasistencia y víctimas beneficiarias; ayudas económicas a víctimas y sus hijas/os y subvenciones a empresas para favorecer su inserción laboral; hombres que recibieron terapia preventiva o de reeducación; actuaciones para la empleabilidad de las víctimas, prevención o sensibilización en centros educativos; usuarios de puntos de encuentro familiar
+  - Variables de clasificación: Tramos de edad, discapacidad y país de nacimiento extranjero
+  - Periodicidad de la difusión: Bienal
+  - [Acceso a los resultados](https://violenciagenero.igualdad.gob.es/violenciaencifras/recursos-autonomicos/)
+- **65018 · [Estadística de Víctimas Mortales por Violencia Contra la Mujer por Razón de Género (MIGD)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946001113)**
+  - Sector o tema: Protección social y servicios sociales
+  - Subsector o subtema: Indicadores, síntesis y recopilaciones de protección y asistencia social
+  - Nivel de desagregación: Provincial
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Obtención y difusión de resultados agregados de todos los casos de mujeres víctimas mortales por violencia de género a manos de sus parejas o ex parejas en los términos de la Ley Orgánica 1/2004, de 28 de diciembre y de sus hijas/os menores agredidos/as con resultado de muerte, así como de las mujeres víctimas mortales por razones de género diferentes a las recogidas en dicha Ley, con la finalidad de proporcionar una herramienta para mejorar el conocimiento y facilitar el análisis de estos sucesos de cara a la prevención y erradicación de esta lacra social
+  - Variables de estudio: Número de mujeres víctimas mortales por violencia en pareja o expareja; número de hijas/os menores de edad de víctimas mortales por violencia en pareja o expareja; número de mujeres víctimas mortales por razón de género fuera del ámbito de la pareja o expareja; menores de edad victimas mortales por cualquier tipo de violencia contra las mujeres fuera del ámbito de la pareja o expareja; número de menores de edad huérfanos de mujeres victimas de violencia por razón de género fuera del ámbito de la pareja o expareja
+  - Variables de clasificación: Fecha, lugar y modo de la agresión; entrega, fuga y tentativa o consumación de suicidio por parte el agresor; nacionalidad, país de nacimiento, discapacidad, nivel de estudios, situación laboral y situación administrativa de la víctima y su presunto agresor; nivel de ingresos del hogar de la víctima; edad, sexo, discapacidad y convivencia en el hogar de los/las hijos/as de la víctima y de los/las del presunto agresor; embarazo de la víctima en el momento de la agresión; adicciones del presunto agresor e ingestión de drogas o alcohol en la fecha de la agresión; tipo de relación entre la víctima y su presunto agresor, duración de ésta y convivencia; número de agresores, existencia de denuncias previas interpuestas, tipo de denuncias y denunciantes; existencia de proceso judicial y continuación de la víctima en él; vigencia y quebrantamiento de medidas cautelares con o sin oposición de la víctima, motivo de su no vigencia; edad, sexo, discapacidad, convivencia y relación con la víctima de otras personas agredidas con o sin resultado de muerte; fecha y resultado de la última valoración de riesgo realizada a la víctima; utilización del servicio ATENPRO y de otros recursos especializados por parte de la víctima; tipo de violencia ejercida contra la víctima, ayudas económicas por violencia de género percibidas por la víctima; constancia de violencia ejercida por el presunto agresor contra hijas/os de la víctima menores o con discapacidad, presencia de éstos durante la agresión y contacto con el presunto agresor tras la agresión
+  - Periodicidad de la difusión: Continua, mensual, trimestral, semestral, anual
+  - [Acceso a los resultados](https://violenciagenero.igualdad.gob.es/violenciaencifras/boletines/mensuales/)
+
+## Ministerio de Igualdad / Instituto de las Mujeres, O.A.
+
+- **64001 · [Mujeres en Cifras (MIGD)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931085785)**
+  - Sector o tema: Nivel, calidad y condiciones de vida
+  - Subsector o subtema: Indicadores, síntesis y recopilaciones en el ámbito social
+  - Nivel de desagregación: Autonómico
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Recopilación y difusión de datos básicos sobre la mujer
+  - Variables de estudio: De carácter general del sector; demográficas, socioeconómicas
+  - Variables de clasificación: Propias del sector
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](https://www.inmujeres.gob.es/MujerCifras/Home.htm)
+
+## Ministerio de Inclusión, Seguridad Social y Migraciones - Secretaría de Estado de Migraciones / Observatorio Permanente de la Inmigración
+
+- **63051 · [Estadística de Concesiones de Nacionalidad Española por Residencia (MISM)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931137589)**
+  - Sector o tema: Demografía y población
+  - Subsector o subtema: Migraciones
+  - Nivel de desagregación: Provincial
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Obtención, explotación y difusión de datos sobre volumen y características de concesiones de nacionalidad española por residencia en el año de referencia
+  - Variables de estudio: Concesión de nacionalidad española por residencia en el año de referencia
+  - Variables de clasificación: Grupo de edad, sexo, nacionalidad, grupo de nacionalidad según plazo de acceso a la nacionalidad, provincia de residencia, comunidad autónoma de residencia, plazo exigido
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](https://www.inclusion.gob.es/web/opi/estadisticas/catalogo/concesiones_nacionalidad?tab=ultimos-datos)
+- **63052 · [Estadística de Personas Extranjeras con Documentación de Residencia en Vigor (MISM)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931137744)**
+  - Sector o tema: Demografía y población
+  - Subsector o subtema: Migraciones
+  - Nivel de desagregación: Provincial
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Obtención, explotación y difusión de datos sobre el número de extranjeros con tarjeta de residencia en vigor y sujetos al régimen de extranjería o asilo, incluyendo los documentados por protección internacional, apatridia y personas vinculadas al mundo de los negocios y al talento, o extranjeros que poseen certificado de registro (o una tarjeta de familiar de ciudadanos de la UE), se beneficien o no del régimen de libre circulación UE-AELC, o aquellos con una Tarjeta de Identificación de Extranjero (TIE) expedida al amparo del Acuerdo de Retirada
+  - Variables de estudio: Extranjeros con tarjeta de residencia en vigor y sujetos al régimen de extranjería o asilo, o extranjeros que poseen certificado de registro (o una tarjeta de familiar de ciudadanos de la UE), se beneficien o no del régimen de libre circulación UE-AELC, o aquellos con una Tarjeta de Identificación de Extranjero (TIE) expedida al amparo del Acuerdo de Retirada, el último día del semestre
+  - Variables de clasificación: Nacionalidad, país de nacimiento, ccaa/provincia de residencia en el momento de la concesión, grupo de edad, sexo, tipo de documentación, tipo de autorización, motivo de concesión
+  - Periodicidad de la difusión: Semestral
+  - [Acceso a los resultados](https://www.inclusion.gob.es/web/opi/estadisticas/catalogo/extranjeros_con_certificado#nav-resultados)
+- **63053 · [Estadística de Personas Extranjeras con Autorización de Estancia por Estudios en Vigor (MISM)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931137899)**
+  - Sector o tema: Demografía y población
+  - Subsector o subtema: Migraciones
+  - Nivel de desagregación: Provincial
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Obtención, explotación y difusión de datos sobre volumen y características de los extranjeros con autorización de estancia por estudios, movilidad de alumnos, prácticas no laborales, servicios de voluntariado o una autorización de familiar en vigor el último día del semestre
+  - Variables de estudio: Extranjeros con autorización de estancia por estudios, movilidad de alumnos, prácticas no laborales, servicios de voluntariado o una autorización de familiar en vigor el último día del semestre
+  - Variables de clasificación: Grupo de edad, sexo, nacionalidad, comunidad autónoma de residencia, provincia de residencia, tipo de autorización de estancia y tipo de solicitante
+  - Periodicidad de la difusión: Semestral
+  - [Acceso a los resultados](https://www.inclusion.gob.es/web/opi/estadisticas/catalogo/extranjeros_estudios#nav-resultados)
+- **63054 · [Estadística de Visados Expedidos en Oficinas Consulares (MISM)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931138055)**
+  - Sector o tema: Demografía y población
+  - Subsector o subtema: Migraciones
+  - Nivel de desagregación: Nacional
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Obtención, explotación y difusión de datos sobre volumen y características de los visados expedidos por las oficinas consulares de España en el exterior
+  - Variables de estudio: Visados expedidos en las misiones diplomáticas u oficinas consulares españolas
+  - Variables de clasificación: Grupo de edad, sexo, nacionalidad, zona de expedición, clase de visado, finalidad del visado
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](https://www.inclusion.gob.es/web/opi/estadisticas/catalogo/visados?tab=ultimos-datos)
+- **63058 · [Flujo de Documentos de Residencia Concedidos a Personas Extranjeras (MISM)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259930979191)**
+  - Sector o tema: Demografía y población
+  - Subsector o subtema: Migraciones
+  - Nivel de desagregación: Provincial
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Obtención, explotación y difusión de datos sobre el flujo anual de autorizaciones de residencia concedidas a extranjeros, incluyendo las tarjetas de residencia concedidas por protección internacional, apátrida y vinculadas al mundo de los negocios y al talento, certificados de registro expedidos a ciudadanos de la Unión Europea y las tarjetas de familiar de dichos ciudadanos, y Tarjetas de Identificación de Extranjero (TIE) expedidas al amparo del Acuerdo de Retirada a británicos y familiares
+  - Variables de estudio: Autorizaciones de residencia concedidas a extranjeros durante el año de referencia
+  - Variables de clasificación: Nacionalidad, lugar de nacimiento, ccaa/provincia de residencia, grupo de edad, sexo, tipo de documentación, tipo de autorización, motivo de concesión
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](https://www.inclusion.gob.es/web/opi/estadisticas/catalogo/flujo_autorizaciones?tab=ultimos-datos)
+- **64065 · [Personas Ucranianas con Documentación de Residencia en Vigor (MISM)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946003381)**
+  - Sector o tema: Demografía y población
+  - Subsector o subtema: Migraciones
+  - Nivel de desagregación: Provincial
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Obtención, explotación y difusión de datos mensuales sobre el número de personas con nacionalidad de Ucrania con documentación de residencia en vigor, incluidas la protección temporal y la autorización de estancia por estudios, y su afiliación a la Seguridad Social
+  - Variables de estudio: Personas con nacionalidad de Ucrania con documentación de residencia o con autorización de estancia por estudios en vigor el último día del mes. Y número de ucranianas y ucranianos con autorización de residencia y trabajo que están afiliadas a la Seguridad Social al menos un día del mes de referencia
+  - Variables de clasificación: Sexo, grupo de edad, tipo de documentación, tipo de autorización, motivo de concesión, tipo de solicitante, tipo de autorización de estancia, CNAE a 2 dígitos, grupo de cotización, tipo de contrato
+  - Periodicidad de la difusión: Trimestral
+  - [Acceso a los resultados](https://www.inclusion.gob.es/web/opi/estadisticas/catalogo/ucranianos?tab=ultimos-datos)
+- **64066 · [Personas Menores No Acompañadas y Jóvenes Extuteladas con Autorización de Residencia (MISM)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946003382)**
+  - Sector o tema: Demografía y población
+  - Subsector o subtema: Migraciones
+  - Nivel de desagregación: Nacional
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Obtención, explotación y difusión del número de personas extranjeras de 16 a 23 años que disponen de un documento acreditativo de residencia legal como menor no acompañada o joven extutelada en vigor el último día de cada mes, y su afiliación a la Seguridad Social
+  - Variables de estudio: Personas extranjeras de 16 a 23 años que disponen de un documento acreditativo de residencia legal como menor no acompañada o joven extutelada en vigor el último día del mes, y el número de ellas que están afiliadas a la Seguridad Social al menos un día del mes de referencia
+  - Variables de clasificación: Sexo, edad, nacionalidad, tipo de autorización, motivo de concesión, actividad económica y régimen de la Seguridad Social
+  - Periodicidad de la difusión: Semestral
+  - [Acceso a los resultados](https://www.inclusion.gob.es/web/opi/estadisticas/catalogo/menores?tab=ultimos-datos)
+- **64068 · [Personas con Autorización de Residencia por Arraigo en Vigor (MISM)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946004155)**
+  - Sector o tema: Demografía y población
+  - Subsector o subtema: Migraciones
+  - Nivel de desagregación: Provincial
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Obtención, explotación y difusión de datos sobre las personas extranjeras que son titulares de una autorización de residencia por arraigo que acredita su residencia legal en España, y su afiliación a la Seguridad Social
+  - Variables de estudio: Personas extranjeras que el último día de cada trimestre son titulares de una autorización de residencia por arraigo que acredita su residencia legal en España. Número de personas con esta documentación que están afiliadas a la Seguridad Social al menos un día del último mes del trimestre de referencia
+  - Variables de clasificación: Sexo, grupo de edad, principales nacionalidades, comunidad autónoma/provincia de residencia en el momento del registro, tipo de arraigo, tipo de autorización, motivo de concesión anterior, régimen de afiliación, actividad económica, tipo de contrato, grupo de cotización
+  - Periodicidad de la difusión: Trimestral
+  - [Acceso a los resultados](https://www.inclusion.gob.es/web/opi/estadisticas/catalogo/arraigo?tab=ultimos-datos)
+
+## Ministerio de Inclusión, Seguridad Social y Migraciones - Secretaría de Estado de la Seguridad Social y Pensiones / Dirección General de Ordenación de la Seguridad Social - Subdirección General de Gestión de Clases Pasivas
+
+- **31141 · [Estadística de Pensiones del Sistema de Clases Pasivas (MISM)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259930985009)**
+  - Sector o tema: Protección social y servicios sociales
+  - Subsector o subtema: Clases pasivas
+  - Nivel de desagregación: Provincial
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Análisis de las pensiones de clases pasivas
+  - Variables de estudio: Pensiones, importes totales y medios
+  - Variables de clasificación: Edad, sexo, tipo de pensión
+  - Periodicidad de la difusión: Mensual
+  - [Acceso a los resultados](http://www.clasespasivas.sepg.pap.hacienda.gob.es/sitios/clasespasivas/es-ES/PENSIONESCLASESPASIVAS/Paginas/PensionesClasesPasivas.aspx)
+
+## Ministerio de Inclusión, Seguridad Social y Migraciones - Secretaría de Estado de la Seguridad Social y Pensiones / Dirección General de Ordenación de la Seguridad Social - Subdirección General de Seguimiento Estadístico de la Seguridad Social
+
+- **63013 · [Estadística de Enfermedades Profesionales (MISM)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931083371)**
+  - Sector o tema: Mercado laboral y salarios
+  - Subsector o subtema: Relaciones laborales y otros aspectos del trabajo
+  - Nivel de desagregación: Provincial
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Obtención y difusión de datos sobre enfermedades profesionales, a través del sistema CEPROSS, según el Real Decreto 1299/2006, de 10 de noviembre y Orden TAS 1/2007, de 2 de enero, por los que se establecen el nuevo cuadro de enfermedades profesionales y los criterios para su notificación y registro
+  - Variables de estudio: Enfermedades profesionales con baja médica y sin baja médica
+  - Variables de clasificación: Actividad económica, ocupación del trabajador, sexo y edad, tipo de enfermedad y agentes causantes, y otras no definidas
+  - Periodicidad de la difusión: Mensual, anual
+  - [Acceso a los resultados](https://www.seg-social.es/wps/portal/wss/internet/EstadisticasPresupuestosEstudios/Estadisticas/EST231/2082)
+- **64051 · [Muestra Continua de Vidas Laborales (MISM)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931137090)**
+  - Sector o tema: Mercado laboral y salarios
+  - Subsector o subtema: Indicadores, síntesis y recopilaciones en el ámbito laboral
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Proporcionar una muestra representativa de microdatos de empadronamiento, afiliación, cotización, retenciones y prestaciones a lo largo de la vida, para la realización de estudios sobre la empleo, trabajo o protección social procedentes de registros de la Seguridad Social, de la Agencia Estatal de Administración Tributaria y del Padrón Municipal
+  - Variables de estudio: Demográficas, tipo de contrato y duración, características del empleador, convivientes, bases de cotización, retribuciones, pensiones, etc.
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](http://www.seg-social.es/wps/portal/wss/internet/EstadisticasPresupuestosEstudios/Estadisticas/EST211)
+- **64052 · [Estadística de Incapacidad Temporal (MISM)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931137255)**
+  - Sector o tema: Protección social y servicios sociales
+  - Subsector o subtema: Seguridad social contributiva
+  - Nivel de desagregación: Provincial
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Obtención y difusión de los datos relativos a la prestación de incapacidad temporal, establecida en el título II, capítulo V del Real Decreto Legislativo 8/2015, de 30 de octubre, por el que se aprueba el texto refundido de la Ley General de la Seguridad Social
+  - Variables de estudio: Duración media de los procesos finalizados en el periodo, incidencia media mensual por cada mil trabajadores protegidos, número medio mensual de procesos iniciados en el periodo, prevalencia por cada mil trabajadores protegidos, número de procesos en vigor al final del periodo considerado, gasto medio mensual por cada trabajador protegido y trabajadores protegidos al final del periodo considerado
+  - Variables de clasificación: Tipo de entidad que lo gestiona, tipo de contingencia
+  - Periodicidad de la difusión: Mensual
+  - [Acceso a los resultados](https://www.seg-social.es/wps/portal/wss/internet/EstadisticasPresupuestosEstudios/Estadisticas/EST45/EST46)
+- **64056 · [Estadística de Patologías No Traumáticas (MISM)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259945998981)**
+  - Sector o tema: Mercado laboral y salarios
+  - Subsector o subtema: Relaciones laborales y otros aspectos del trabajo
+  - Nivel de desagregación: Provincial
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Recoger y difundir información relativa a las enfermedades no incluidas en la lista de enfermedades profesionales que contraiga el trabajador con motivo de la realización de su trabajo, siempre que se pruebe que la enfermedad tuvo por causa exclusiva la ejecución del trabajo (art. 156.2.e. LGSS), y a las enfermedades o defectos, padecidos con anterioridad por el trabajador, que se agraven como consecuencia de la lesión constitutiva del accidente (art.156.2.f. LGSS)
+  - Variables de estudio: Patologías no traumáticas
+  - Variables de clasificación: Sexo, grupos de edad y ocupación del trabajador; actividad económica de la empresa; consecuencias a nivel laboral, tipo y categoría y enfermedad de la patología no traumática
+  - Periodicidad de la difusión: Trimestral
+  - [Acceso a los resultados](https://www.seg-social.es/wps/portal/wss/internet/EstadisticasPresupuestosEstudios/Estadisticas/EST231/2083)
+- **64057 · [Estadística de Riesgo Durante la Lactancia Natural (MISM)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259945998982)**
+  - Sector o tema: Protección social y servicios sociales
+  - Subsector o subtema: Seguridad social contributiva
+  - Nivel de desagregación: Provincial
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Obtención y difusión de los datos relativos a la prestación de riesgo durante la lactancia natural, establecida en el título II, capítulo IX del Real Decreto Legislativo 8/2015, de 30 de octubre, por el que se aprueba el texto refundido de la Ley General de la Seguridad Social
+  - Variables de estudio: Número medio mensual de procesos iniciados en el periodo, número de procesos en vigor al final del periodo y duración media de procesos finalizados en el periodo
+  - Variables de clasificación: Tipo de entidad que lo gestiona, régimen de la Seguridad Social
+  - Periodicidad de la difusión: Mensual
+  - [Acceso a los resultados](http://www.seg-social.es/wps/portal/wss/internet/EstadisticasPresupuestosEstudios/Estadisticas/EST45/EST282)
+- **64058 · [Estadística de Riesgo Durante el Embarazo (MISM)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259945998983)**
+  - Sector o tema: Protección social y servicios sociales
+  - Subsector o subtema: Seguridad social contributiva
+  - Nivel de desagregación: Provincial
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Obtención y difusión de los datos relativos a la prestación de riesgo durante el embarazo, establecida en el título II, capítulo VIII del Real Decreto Legislativo 8/2015, de 30 de octubre, por el que se aprueba el texto refundido de la Ley General de la Seguridad Social
+  - Variables de estudio: Número medio mensual de procesos iniciados en el periodo, número de procesos en vigor al final del periodo y duración media de procesos finalizados en el periodo
+  - Variables de clasificación: Tipo de entidad que lo gestiona, régimen de la Seguridad Social
+  - Periodicidad de la difusión: Mensual
+  - [Acceso a los resultados](http://www.seg-social.es/wps/portal/wss/internet/EstadisticasPresupuestosEstudios/Estadisticas/EST45/EST280)
+- **64059 · [Estadística de Cuidado de Menores Afectados por Cáncer u Otra Enfermedad Grave (MISM)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259945998984)**
+  - Sector o tema: Protección social y servicios sociales
+  - Subsector o subtema: Seguridad social contributiva
+  - Nivel de desagregación: Provincial
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Obtención y difusión de los datos relativos a la prestación de cuidado de menores afectados por cáncer u otra enfermedad grave, establecida en el título II, capítulo X del Real Decreto Legislativo 8/2015, de 30 de octubre, por el que se aprueba el texto refundido de la Ley General de la Seguridad Social
+  - Variables de estudio: Número medio mensual de procesos iniciados en el periodo, número de procesos en vigor al final del periodo y duración media de procesos finalizados en el periodo
+  - Variables de clasificación: Tipo de entidad que lo gestiona, régimen de la Seguridad Social
+  - Periodicidad de la difusión: Mensual
+  - [Acceso a los resultados](http://www.seg-social.es/wps/portal/wss/internet/EstadisticasPresupuestosEstudios/Estadisticas/EST45/2503)
+- **64069 · [Indicador de Necesidades Laborales (INLab) (En proyecto) (MISM)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946005711)**
+  - Sector o tema: Mercado laboral y salarios
+  - Subsector o subtema: Indicadores, síntesis y recopilaciones en el ámbito laboral
+  - Nivel de desagregación: Nacional
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Obtención de un indicador multidimensional que permita identificar el grado de desequilibrios existentes en el mercado laboral y de los factores que lo condicionan y su comparación en el tiempo, entre las diferentes actividades económicas
+  - Variables de estudio: INLab se compone de cuatro dimensiones: escasez de mano de obra, envejecimiento, migraciones y actividad laboral. Cada dimensión combina diversos indicadores procedentes de fuentes estadísticas oficiales, como vacantes, demandantes de empleo, bases de cotización, afiliados a la Seguridad Social, ocupados y parados
+  - Variables de clasificación: Actividad económica (CNAE)
+  - Periodicidad de la difusión: Anual
+
+## Ministerio de Inclusión, Seguridad Social y Migraciones - Secretaría de Estado de la Seguridad Social y Pensiones / Instituto Nacional de la Seguridad Social - Subdirección General de Gestión Económico- Presupuestaria y Estudios Económicos
+
+- **58017 · [Estadística de Pensiones Contributivas del Sistema de la Seguridad Social (MISM)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931083882)**
+  - Sector o tema: Protección social y servicios sociales
+  - Subsector o subtema: Seguridad social contributiva
+  - Nivel de desagregación: Municipal o inferior
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Obtención y difusión de datos sobre la evolución de las pensiones contributivas abonadas en la nómina de pensiones de la Seguridad Social
+  - Variables de estudio: Número e importe de las pensiones abonadas y movimientos de alta y baja. Pensionistas. Complementos a mínimos y otros complementos
+  - Variables de clasificación: Régimen de la Seguridad Social, clase, sexo, edad, tramos de importe, grados de incapacidad, país de residencia, país del convenio, país de nacionalidad, provincia de gestión, municipio de residencia
+  - Periodicidad de la difusión: Mensual
+  - [Acceso a los resultados](https://www.seg-social.es/wps/portal/wss/internet/EstadisticasPresupuestosEstudios/Estadisticas/EST23/EST24)
+- **58041 · [Estadística de Prestaciones Familiares (MISM)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931084053)**
+  - Sector o tema: Protección social y servicios sociales
+  - Subsector o subtema: Otras prestaciones económicas
+  - Nivel de desagregación: Provincial
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Obtención y difusión de datos en materia de beneficiarios y causantes de la prestación familiar por hijo o menor a cargo, prestaciones por parto o adopción múltiple y otras prestaciones familiares de pago único
+  - Variables de estudio: Beneficiarios, causantes, importes
+  - Variables de clasificación: Grado de discapacidad, provincia de gestión, sexo y grupos de edad
+  - Periodicidad de la difusión: Mensual para prestaciones de pago periódico, trimestral para prestaciones de pago único
+  - [Acceso a los resultados](https://www.seg-social.es/wps/portal/wss/internet/EstadisticasPresupuestosEstudios/Estadisticas/EST45)
+- **64053 · [Estadística de Prestación por Nacimiento y Cuidado de Menor (MISM)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931138925)**
+  - Sector o tema: Protección social y servicios sociales
+  - Subsector o subtema: Otras prestaciones económicas
+  - Nivel de desagregación: Provincial
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Obtención y difusión de los datos relativos a las prestaciones por nacimiento y cuidado de menor
+  - Variables de estudio: Número de prestaciones reconocidas e importes abonados por este tipo de prestaciones en los periodos de referencia, contributivas y no contributivas. Número y duración media de procesos cerrados para el primer progenitor, para el segundo progenitor y para familias monoparentales
+  - Variables de clasificación: Provincia, modalidad de acceso
+  - Periodicidad de la difusión: Trimestral
+  - [Acceso a los resultados](https://www.seg-social.es/wps/portal/wss/internet/EstadisticasPresupuestosEstudios/Estadisticas/EST45/4a60e9f5-f322-4af2-930d-2f42a86aca59)
+- **64067 · [Estadística de Prestaciones de Ingreso Mínimo Vital (MISM)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946004154)**
+  - Sector o tema: Protección social y servicios sociales
+  - Subsector o subtema: Otras prestaciones económicas
+  - Nivel de desagregación: Provincial
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Obtención y difusión de datos sobre las prestaciones de ingreso mínimo vital abonadas mensualmente
+  - Variables de estudio: Número e importe de las prestaciones, unidades de convivencia, titulares y Beneficiarios, altas en nómina, número de Complemento de ayuda para la infancia. Número de solicitudes
+  - Variables de clasificación: Edad y sexo del titular y de los beneficiarios, nacionalidad de titulares, composición de las unidades de convivencia, provincia de gestión. Solicitudes según situación de trámite
+  - Periodicidad de la difusión: Mensual
+  - [Acceso a los resultados](https://www.seg-social.es/wps/portal/wss/internet/EstadisticasPresupuestosEstudios/Estadisticas/cbe2fda1-3ac7-4bc8-a5ec-06c178839e11)
+
+## Ministerio de Inclusión, Seguridad Social y Migraciones - Secretaría de Estado de la Seguridad Social y Pensiones / Tesorería General de la Seguridad Social - Subdirección General de Presupuestos, Estudios Económicos y Estadísticas
+
+- **58015 · [Estadística de Afiliación de Trabajadores a la Seguridad Social (MISM)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931081504)**
+  - Sector o tema: Mercado laboral y salarios
+  - Subsector o subtema: Mercado laboral
+  - Nivel de desagregación: Municipal o inferior
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Obtención y difusión de datos sobre trabajadores afiliados y movimientos de altas y bajas de afiliación al sistema de la Seguridad Social
+  - Variables de estudio: Afiliados, altas y bajas de afiliación
+  - Variables de clasificación: Régimen de Seguridad Social, sexo, edad actividad económica, nacionalidad, tipo de contrato y dependencia laboral, sector institucional, según criterio TGSS
+  - Periodicidad de la difusión: Mensual, anual
+  - [Acceso a los resultados](https://www.seg-social.es/wps/portal/wss/internet/EstadisticasPresupuestosEstudios/Estadisticas/EST8/EST10)
+- **58051 · [Estadística de Cuentas de Cotización a la Seguridad Social (MISM)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259945999676)**
+  - Sector o tema: Mercado laboral y salarios
+  - Subsector o subtema: Mercado laboral
+  - Nivel de desagregación: Provincial
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Obtención y difusión de datos relativos a las cuentas de cotización a la Seguridad Social y movimientos de altas y bajas
+  - Variables de estudio: Cuentas de cotización, altas y bajas
+  - Variables de clasificación: Régimen de Seguridad Social
+  - Periodicidad de la difusión: Mensual, anual
+  - [Acceso a los resultados](http://www.seg-social.es/wps/portal/wss/internet/EstadisticasPresupuestosEstudios/Estadisticas/EST20)
+- **58052 · [Panel de datos de Empresas-Trabajadores (MISM)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259945999677)**
+  - Sector o tema: Mercado laboral y salarios
+  - Subsector o subtema: Indicadores, síntesis y recopilaciones en el ámbito laboral
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Proporcionar una muestra representativa de microdatos de cuentas de cotización y sus trabajadores, y prestaciones procedentes de los registros de Seguridad Social para la realización de estudios sobre empleo y protección social
+  - Variables de estudio: Cuentas de cotización, trabajadores, altas y bajas
+  - Variables de clasificación: Trabajador: sexo, edad, nacionalidad, país de nacimiento, tipo de contrato, tipo de jornada, antigüedad, grupo de cotización, bases de cotización, tipo de prestación. Empresa/ centro de cotización del trabajador: actividad económica, tamaño de la empresa
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](https://www.seg-social.es/wps/portal/wss/internet/EstadisticasPresupuestosEstudios/Estadisticas/2e753046-c94e-4d22-8db0-4e8c959017fc)
+- **58053 · [Estadística de Bases de Cotización de la Seguridad Social (MISM)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946000385)**
+  - Sector o tema: Mercado laboral y salarios
+  - Subsector o subtema: Ingresos y costes salariales
+  - Nivel de desagregación: Provincial
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Obtención y difusión de datos Cotizantes y a sus Bases de cotización a la Seguridad Social
+  - Variables de estudio: Cotizantes y Bases de Cotización al Régimen General de la Seguridad Social
+  - Variables de clasificación: Sexo, edad, nacionalidad, tipo de contrato, tipo de jornada, actividad económica, grupo de cotización, provincia
+  - Periodicidad de la difusión: Trimestral
+  - [Acceso a los resultados](https://www.seg-social.es/wps/portal/wss/internet/EstadisticasPresupuestosEstudios/Estadisticas/c9bd51e5-79bc-44f2-9618-14d6094eb585)
+
+## Ministerio de Industria y Turismo - Secretaría de Estado de Industria / División de Estadísticas Industriales, Análisis de la Información e Informes
+
+- **08041 · [Estadística del Cemento (MITU)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259945999670)**
+  - Sector o tema: Minería e industria
+  - Subsector o subtema: Industria manufacturera
+  - Nivel de desagregación: Otros : Agrupaciones regionales de determinadas comunidades autónomas
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Conocimiento de la producción de cemento y clinker, de las ventas y el consumo aparente de cemento y del comercio exterior de cemento y clinker
+  - Variables de estudio: Producción de clinker y cemento, ventas domésticas de cemento gris y blanco, consumo aparente de cemento, exportaciones de cemento y clinker, importaciones de cemento y clinker
+  - Periodicidad de la difusión: Mensual
+  - [Acceso a los resultados](https://industria.gob.es/es-es/estadisticas/Paginas/Estadistica-Cemento.aspx)
+
+## Ministerio de Industria y Turismo - Secretaría de Estado de Turismo / Instituto de Turismo de España (TURESPAÑA), O.A.
+
+- **16030 · [Estadística de Empleo Turístico según la EPA. (Explotación de Turespaña) (MITU)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931139937)**
+  - Sector o tema: Hostelería y turismo
+  - Subsector o subtema: Oferta turística
+  - Nivel de desagregación: Autonómico
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Conocer el empleo turístico de acuerdo a los datos de la Encuesta de Población Activa (EPA)
+  - Variables de estudio: Relación con la actividad económica
+  - Variables de clasificación: Edad, sexo, nacionalidad, estudios, ocupación, situación profesional, tipo de contrato laboral, jornada laboral
+  - Periodicidad de la difusión: Trimestral
+  - [Acceso a los resultados](https://conocimiento.tourspain.es/es/empleo-sector-turistico/)
+- **16031 · [Estadística de Empleo Turístico según la Afiliación a la Seguridad Social. (Explotación de Turespaña) (MITU)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931140109)**
+  - Sector o tema: Hostelería y turismo
+  - Subsector o subtema: Oferta turística
+  - Nivel de desagregación: Autonómico
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Conocer el empleo turístico según los datos de Afiliación a la Seguridad Social
+  - Variables de estudio: Trabajadores afiliados en alta laboral a la Seguridad Social
+  - Variables de clasificación: Régimen de afiliación a la Seguridad Social, actividades de la industria turística
+  - Periodicidad de la difusión: Mensual
+  - [Acceso a los resultados](https://conocimiento.tourspain.es/es/empleo-sector-turistico/)
+- **16035 · [Pasajeros Aéreos Internacionales (MITU)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931140281)**
+  - Sector o tema: Hostelería y turismo
+  - Subsector o subtema: Demanda turística
+  - Nivel de desagregación: Autonómico
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Medir las entradas en España de turistas transportados por compañías aéreas de bajo coste y tradicionales, así como sus características sociodemográficas y anualmente el gasto turístico realizado en España
+  - Variables de estudio: Aeropuertos de origen y destino, compañía de transporte, y las variables que recoge la encuesta EGATUR
+  - Variables de clasificación: País emisor, comunidad autónoma de destino, compañía aérea, y gasto, comportamiento y perfil sociodemográfico del viajero
+  - Periodicidad de la difusión: Mensual
+  - [Acceso a los resultados](https://conocimiento.tourspain.es/es/trafico-capacidad-aerea/)
+
+## Ministerio de Industria y Turismo - Subsecretaría de Industria y Turismo / Oficina Española de Patentes y Marcas, O.A.
+
+- **09101 · [Estadísticas de Propiedad Industrial (MITU)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931086951)**
+  - Sector o tema: Investigación científica y desarrollo tecnológico
+  - Subsector o subtema: Producción y transferencia en I+D
+  - Nivel de desagregación: Municipal o inferior
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Información de las solicitudes de protección jurídica de propiedad industrial
+  - Variables de estudio: Patentes, modelos de utilidad, marcas, nombres comerciales, rótulos de establecimientos, diseño industrial, topografías de productos semiconductores, certificados complementarios de protección
+  - Variables de clasificación: Solicitudes, resoluciones, clasificación internacional, titulares, nº de expediente
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](https://www.oepm.es/es/sobre-OEPM/estadisticas/estadisticas-de-propiedad-industrial/)
+- **09102 · [Boletín de Propiedad Industrial (MITU)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931087124)**
+  - Sector o tema: Investigación científica y desarrollo tecnológico
+  - Subsector o subtema: Producción y transferencia en I+D
+  - Nivel de desagregación: Provincial
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Información de protección jurídica de propiedad industrial
+  - Variables de estudio: Patentes, modelos de utilidad, marcas, nombres comerciales, rótulos de establecimientos, diseño industrial, topografías de productos semiconductores, certificados complementarios de protección, resoluciones administrativas
+  - Variables de clasificación: Solicitudes, notificaciones y resoluciones de las distintas modalidades de propiedad industrial
+  - Periodicidad de la difusión: Diaria
+  - [Acceso a los resultados](https://sede.oepm.gob.es/bopi/)
+
+## Ministerio de Industria y Turismo - Subsecretaría de Industria y Turismo / Secretaría General Técnica - Subdirección General de Estudios y Publicaciones
+
+- **08024 · [Estadística de Fabricación de Vehículos (MITU)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931086279)**
+  - Sector o tema: Minería e industria
+  - Subsector o subtema: Industria manufacturera
+  - Nivel de desagregación: Autonómico
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Estudio del sector de la industria de la construcción de vehículos automóviles y bicicletas
+  - Variables de estudio: Producción por clase de vehículo (cantidad y valor)
+  - Variables de clasificación: Tipo de carburante, cilindrada, peso
+  - Periodicidad de la difusión: Mensual
+  - [Acceso a los resultados](https://industria.gob.es/es-ES/estadisticas/Paginas/encuesta-vehiculos.aspx)
+- **08032 · [Encuesta de Coyuntura Industrial (MITU)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931086613)**
+  - Sector o tema: Minería e industria
+  - Subsector o subtema: Empresas y establecimientos industriales
+  - Nivel de desagregación: Autonómico
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Conocimiento y seguimiento del sector industrial
+  - Variables de estudio: Cartera de pedidos, stocks, producción, utilización de la capacidad productiva, empleo, precios
+  - Variables de clasificación: Destino económico de los bienes, sectores BIDDER
+  - Periodicidad de la difusión: Mensual
+  - [Acceso a los resultados](https://industria.gob.es/es-ES/estadisticas/Paginas/encuesta-coyuntura.aspx)
+- **08033 · [Encuesta de Coyuntura Industrial en el Sector de la Construcción (MITU)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931086782)**
+  - Sector o tema: Construcción y vivienda
+  - Subsector o subtema: Construcción en general (edificación y obra pública)
+  - Nivel de desagregación: Nacional
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Conocimiento y seguimiento cualitativo del sector de la construcción
+  - Variables de estudio: Obra ejecutada, plantilla, cartera de pedidos, trabajo asegurado, precios, producción
+  - Variables de clasificación: Tipo de obra
+  - Periodicidad de la difusión: Mensual
+  - [Acceso a los resultados](https://www.mincotur.gob.es/es-es/IndicadoresyEstadisticas/Industria/EncuestaCoyuntura/Paginas/encuesta-coyuntura.aspx)
+
+## Ministerio de Juventud e Infancia - Secretaría de Estado de Juventud e Infancia / Dirección General de Derechos de la Infancia y de la Adolescencia - Subdirección General de Promoción de los Derechos de la Infancia y de la Adolescencia
+
+- **63022 · [Estadística de Medidas de Protección a la Infancia y a la Adolescencia: Adopciones, Acogimientos y Tutela de Personas Menores de Edad (MJUI)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931084581)**
+  - Sector o tema: Protección social y servicios sociales
+  - Subsector o subtema: Indicadores, síntesis y recopilaciones de protección y asistencia social
+  - Nivel de desagregación: Autonómico
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Obtención y difusión de datos sobre las medidas de protección habidas en materia de adopción, acogimientos y tutela de personas menores de edad
+  - Variables de estudio: Adopciones, acogimientos, tutelas y personas menores de edad tuteladas
+  - Variables de clasificación: Edad, sexo y país de origen de los adoptados y personas menores de edad tuteladas
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](https://observatoriodelainfancia.juventudeinfancia.gob.es/boletinf-medidas-proteccion)
+- **64025 · [Estadística de Medidas Impuestas a Personas Menores de Edad en Conflicto con la Ley (En proyecto) (MJUI)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946005707)**
+  - Sector o tema: Seguridad y justicia
+  - Subsector o subtema: Indicadores, síntesis y recopilaciones en seguridad y justicia
+  - Nivel de desagregación: Autonómico
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Obtención y difusión de datos sobre las medidas impuestas a los menores de edad en conflicto con la Ley en las distintas CC.AA.
+  - Variables de estudio: Medidas judiciales susceptibles de ser impuestas por jueces a menores, previstas en la Ley Orgánica 5/2000 (LORPM)
+  - Variables de clasificación: Edad y sexo
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](https://www.juventudeinfancia.gob.es/es/infancia/estadisticas-boletines/boletin-datos-estadisticos-medidas-impuestas-personas-menores-edad-conflicto-ley)
+
+## Ministerio de Juventud e Infancia - Secretaría de Estado de Juventud e Infancia / Instituto de la Juventud, O.A.
+
+- **64022 · [Encuesta de Juventud (MJUI)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931085952)**
+  - Sector o tema: Nivel, calidad y condiciones de vida
+  - Subsector o subtema: Situación social de grupos específicos
+  - Nivel de desagregación: Nacional
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Obtención y difusión de datos sobre la situación general de la juventud en España
+  - Variables de estudio: Grado de independencia de la familia, independencia económica, incorporación al trabajo, actitudes sociales, políticas, religiosas, organización del tiempo
+  - Variables de clasificación: Sexo, grupos de edad, situación socioeconómica, nivel de estudios, tamaño del municipio de residencia
+  - Periodicidad de la difusión: Cuatrienal - Últimos datos: Año 2023
+  - [Acceso a los resultados](https://www.injuve.es/observatorio/demografia-e-informacion-general/informe-juventud-en-espana-2024-y-encuesta-de-juventud-2023)
+- **64023 · [Juventud en Cifras (MJUI)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931086117)**
+  - Sector o tema: Nivel, calidad y condiciones de vida
+  - Subsector o subtema: Indicadores, síntesis y recopilaciones en el ámbito social
+  - Nivel de desagregación: Provincial
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Recopilación y difusión de datos básicos y de encuestas disponibles (en concreto de la Encuesta de Juventud), sobre la población en España, de 15 a 29 años, que describa su situación social y características
+  - Variables de estudio: De carácter general del sector
+  - Variables de clasificación: Propias del sector
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](http://www.injuve.es/observatorio/demografia-e-informacion-general)
+- **64024 · [Sondeos de Opinión y Situación de la Juventud en España (MJUI)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931137425)**
+  - Sector o tema: Nivel, calidad y condiciones de vida
+  - Subsector o subtema: Situación social de grupos específicos
+  - Nivel de desagregación: Nacional
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Conocimiento y descripción de la situación general de la juventud en España
+  - Variables de estudio: Valores, actitudes, asociacionismo, relaciones sexuales, violencia, inmigración, teléfono móvil e Internet, relaciones familiares, emancipación, igualdad hombre-mujer, ocio y tiempo libre, consumo de tabaco, alcohol y otras sustancias
+  - Variables de clasificación: Entidad de población por número de habitantes, sexo, grupos de edad, situación socioeconómica y nivel de estudios
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](https://www.injuve.es/observatorio/sondeos-de-opinion)
+
+## Ministerio de Política Territorial y Memoria Democrática - Secretaría de Estado de Política Territorial / Secretaría General de Coordinación Territorial - Dirección General de Cooperación Autonómica y Local - Subdirección General de Cooperación Local
+
+- **81042 · [Explotación Estadística de la Encuesta de Infraestructura y Equipamientos Locales (EIEL) (MTMD)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931105481)**
+  - Sector o tema: Nivel, calidad y condiciones de vida
+  - Subsector o subtema: Infraestructura y equipamiento social
+  - Nivel de desagregación: Municipal o inferior
+  - Ámbito territorial: Todo el territorio nacional, a excepción de Navarra y País Vasco
+  - Objetivo general: Información de las dotaciones locales de los municipios con población inferior a 50.000 habitantes
+  - Variables de estudio: Población, viviendas, planeamiento urbanístico, infraestructura viaria urbana e interurbana, energía, alumbrado público, abastecimiento, saneamiento, depuración, residuos urbanos, servicios de comunicaciones, nuevas tecnologías, núcleos de población, entidad de población, centros de enseñanza, culturales, sanitarios, deportivos, cementerios, tanatorios, protección civil y otros equipamientos
+  - Variables de clasificación: Núcleos de población, entidad de población, municipio, provincia, comunidad autónoma
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](https://mpt.gob.es/portal/politica-territorial/local/coop_econom_local_estado_fondos_europeos/eiel.html)
+
+## Ministerio de Política Territorial y Memoria Democrática - Secretaría de Estado de Política Territorial / Secretaría General de Coordinación Territorial - Dirección General de Régimen Jurídico Autonómico y Local - Subdirección General de Régimen Jurídico Local
+
+- **81001 · [Banco de Datos de Personas Electas a Órganos Representativos Locales (MTMD)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931105137)**
+  - Sector o tema: Administraciones públicas y asociaciones
+  - Subsector o subtema: Resultados electorales y partidos políticos
+  - Nivel de desagregación: Municipal o inferior
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Obtención de un banco de datos de miembros electos de ayuntamientos, diputaciones provinciales, diputaciones forales, cabildos y consejos insulares
+  - Variables de estudio: Comunidad autónoma, provincia, municipio, código INE, cargo para el que ha sido elegido, nombre, apellidos, sexo, grupo político, miembro de Junta de Gobierno, fecha de toma de posesión, fecha de cese, si repite mandato, fecha de nacimiento, profesión, nivel de estudios, nacionalidad y dedicación
+  - [Acceso a los resultados](https://mpt.gob.es/politica-territorial/local/sistema_de_informacion_local_-SIL-/alcaldes_y_concejales.html)
+- **81021 · [Base de Datos del Registro de Entidades Locales (MTMD)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931105309)**
+  - Sector o tema: Administraciones públicas y asociaciones
+  - Subsector o subtema: Entes, medios y actividad de las administraciones públicas
+  - Nivel de desagregación: Municipal o inferior
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Inscripción de todas las entidades locales de España y de las modificaciones que experimentan sus datos registrales
+  - Variables de estudio: Denominación, extensión territorial, número de habitantes, órganos, obras y servicios, municipio, provincia, comunidad autónoma
+  - Periodicidad de la difusión: Continua
+  - [Acceso a los resultados](https://mptmd.gob.es/portal/politica-territorial/local/sistema_de_informacion_local_-sil-/registro_eell)
+
+## Ministerio de Sanidad - Secretaría de Estado de Sanidad / Agencia Española de Medicamentos y Productos Sanitarios
+
+- **54043 · [Estadística de Sustancias Estupefacientes y Psicotrópicas (Tráfico Lícito) (MSND)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931108945)**
+  - Sector o tema: Salud
+  - Subsector o subtema: Medicamentos y otros productos sanitarios
+  - Nivel de desagregación: Nacional
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Información sobre los productos precisos para atender las necesidades sanitarias de estupefacientes y su movimiento internacional con arreglo a los convenios de Ginebra y Viena
+  - Variables de estudio: Tipo de sustancia, consumo
+  - Variables de clasificación: Sustancias importadas por país de origen, exportación por país de destino
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](https://www.aemps.gob.es/medicamentos-de-uso-humano/estupefacientes-y-psicotropos/)
+
+## Ministerio de Sanidad - Secretaría de Estado de Sanidad / Delegación del Gobierno para el Plan Nacional sobre Drogas - Observatorio Español de las Drogas y las Adicciones
+
+- **54098 · [Indicadores de Consumo de Sustancias Psicoactivas: Admisiones a Tratamiento (MSND)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931134354)**
+  - Sector o tema: Salud
+  - Subsector o subtema: Indicadores, síntesis y recopilaciones de salud
+  - Nivel de desagregación: Autonómico
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Describir las características sociodemográficas y algunos patrones de consumo (y sus tendencias temporales) de las personas admitidas a tratamiento por cada sustancia psicoactiva en los centros notificadores
+  - Variables de estudio: Admisiones a tratamiento ambulatorio por abuso o dependencia de sustancias psicoactivas en un año dado
+  - Variables de clasificación: Variables sociodemográficas, droga principal por la que es admitido a tratamiento, frecuencia de consumo de droga principal, año de inicio en el consumo de droga principal, tratamiento previo por la misma droga, vía más frecuente de administración de droga principal, otras drogas consumidas en 30 días previos, tiempo transcurrido desde última vez que se inyectó drogas, estado serológico frente a VIH, VHC y VHB
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](http://www.pnsd.mscbs.gob.es/profesionales/sistemasInformacion/sistemaInformacion/indicadores.htm)
+- **54099 · [Indicadores de Consumo de Sustancias Psicoactivas: Mortalidad por Reacción Aguda (MSND)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931134528)**
+  - Sector o tema: Salud
+  - Subsector o subtema: Indicadores, síntesis y recopilaciones de salud
+  - Nivel de desagregación: Autonómico
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Estimar las tendencias del número de muertes por reacción aguda a sustancias psicoactivas y describir las características sociodemográficas y la prevalencia de algunos patrones de consumo relevantes de las personas fallecidas
+  - Variables de estudio: Muertes por reacción aguda a sustancias psicoactivas en un año dado
+  - Variables de clasificación: Edad, sexo, fecha de defunción, provincia y municipio de defunción, provincia y municipio de residencia, estado civil, procedencia del cadáver, criterios clínicos de muerte RASUPSI que cumple el fallecido, evidencias de suicidio, signos recientes de venopunciones, existencia de patología previa importante que ha podido precipitar la muerte, anticuerpos anti-VIH, sustancias toxicológicas o metabolitos detectados en los análisis toxicológicos
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](http://www.pnsd.mscbs.gob.es/profesionales/sistemasInformacion/sistemaInformacion/indicadores.htm)
+- **54100 · [Indicadores de Consumo de Sustancias Psicoactivas: Urgencias Hospitalarias (MSND)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931134702)**
+  - Sector o tema: Salud
+  - Subsector o subtema: Indicadores, síntesis y recopilaciones de salud
+  - Nivel de desagregación: Autonómico
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Describir las características sociodemográficas de los consumidores de sustancias psicoactivas atendidos en los servicios hospitalarios de urgencia y algunos de sus patrones de consumo
+  - Variables de estudio: Urgencias hospitalarias en consumidores de sustancias psicoactivas en un año dado
+  - Variables de clasificación: Edad, sexo, fecha de admisión en urgencias, nacionalidad, provincia y municipio de residencia, condición legal del paciente (detenido o no), diagnóstico de la urgencia, nombre de las sustancias psicoactivas relacionadas con la urgencia y vía de administración, resolución de la urgencia
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](http://www.pnsd.mscbs.gob.es/profesionales/sistemasInformacion/sistemaInformacion/indicadores.htm)
+- **54101 · [Encuesta sobre Uso de Drogas en Enseñanzas Secundarias en España (ESTUDES) (MSND)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931134876)**
+  - Sector o tema: Salud
+  - Subsector o subtema: Estado de salud y factores condicionantes
+  - Nivel de desagregación: Autonómico
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Conocer la situación y las tendencias del consumo de drogas entre los estudiantes de enseñanza secundaria, bachillerato y formación profesional para diseñar y evaluar políticas dirigidas a prevenir el consumo de sustancias psicoactivas, los problemas asociados y otras cuestiones relacionadas
+  - Variables de estudio: Prevalencia y frecuencia de consumo de las distintas sustancias psicoactivas, riesgo percibido, accesibilidad percibida, aprobación/rechazo de distintas conductas de consumo, información recibida sobre el tema y vía por la que la ha recibido, consumo de sustancias psicoactivas por sus pares, actitud de los padres ante el consumo de sustancias psicoactivas
+  - Variables de clasificación: Edad, sexo, comunidad autónoma, titularidad del centro educativo, tipo de estudios, situación laboral principal de los padres, nivel de estudios completado por los padres, repetición de curso, dinero de bolsillo disponible semanalmente, utilización del tiempo libre
+  - Periodicidad de la difusión: Bienal
+  - [Acceso a los resultados](http://www.pnsd.mscbs.gob.es/profesionales/sistemasInformacion/sistemaInformacion/encuestas_ESTUDES.htm)
+- **54102 · [Encuesta sobre Alcohol y Drogas en Población General en España (EDADES) (MSND)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931135050)**
+  - Sector o tema: Salud
+  - Subsector o subtema: Estado de salud y factores condicionantes
+  - Nivel de desagregación: Autonómico
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Conocer la prevalencia de consumo de alcohol y las distintas sustancias psicoactivas en población de 15 a 64 años, y sus patrones de consumo más relevantes
+  - Variables de estudio: Prevalencia y frecuencia de consumo de alcohol y las distintas sustancias psicoactivas, riesgo percibido, accesibilidad percibida, valoración y visibilidad del problema de las sustancias psicoactivas en su entorno cercano, valoración de diversas medidas para hacer frente al problema de las sustancias psicoactivas
+  - Variables de clasificación: Edad, sexo, situación laboral principal, máximo nivel de estudios completado, tamaño del hábitat
+  - Periodicidad de la difusión: Bienal
+  - [Acceso a los resultados](http://www.pnsd.mscbs.gob.es/profesionales/sistemasInformacion/sistemaInformacion/encuestas_EDADES.htm)
+- **54103 · [Encuesta sobre Salud y Consumo de Drogas en Población Interna en Instituciones Penitenciarias en España (ESDIP) (MSND)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259942958706)**
+  - Sector o tema: Salud
+  - Subsector o subtema: Estado de salud y factores condicionantes
+  - Nivel de desagregación: Nacional
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Conocer la situación sobre la salud, consumo de sustancias psicoactivas, prácticas de riesgo y tratamiento por uso de sustancias psicoactivas en internos en instituciones penitenciarias en España, sus tendencias y evolución con el fin de diseñar y evaluar políticas dirigidas a prevenir el consumo y los problemas asociados al consumo de sustancias psicoactivas en los centros penitenciarios españoles
+  - Variables de estudio: Características sociodemográficas, situación del estado de salud percibido, prevalencia del consumo de las distintas sustancias psicoactivas; patrones de consumo: perfil, inyectores, policonsumo; prácticas de riesgo y situación y acceso al tratamiento y a elementos para la reducción del riesgo
+  - Variables de clasificación: Edad, sexo, país de origen; estudios alcanzados; situación penitenciaria; origen del ingreso en prisión
+  - Periodicidad de la difusión: Quinquenal - Últimos datos: Año 2022
+  - [Acceso a los resultados](http://www.pnsd.mscbs.gob.es/profesionales/sistemasInformacion/sistemaInformacion/encuestas_ESDIP.htm)
+- **54104 · [Indicadores de Adicciones Comportamentales/Sin Sustancia: Admisiones a Tratamiento (MSND)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946004929)**
+  - Sector o tema: Salud
+  - Subsector o subtema: Indicadores, síntesis y recopilaciones de salud
+  - Nivel de desagregación: Autonómico
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Describir las características sociodemográficas, patrones y tendencias temporales, de las personas admitidas a tratamiento por adicciones comportamentales en los centros notificadores
+  - Variables de estudio: Admisiones a tratamiento ambulatorio por adicciones comportamentales en un año dado
+  - Variables de clasificación: Variables sociodemográficas
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](https://pnsd.sanidad.gob.es/profesionales/sistemasInformacion/sistemaInformacion/indicadores.htm)
+
+## Ministerio de Sanidad - Secretaría de Estado de Sanidad / Dirección General de Cartera Común de Servicios del Sistema Nacional de Salud y Farmacia - Subdirección General de Cartera de Servicios del Sistema Nacional de Salud y Fondos de Compensación
+
+- **54012 · [Cuentas Satélites del Gasto Sanitario Público (MSND)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931111687)**
+  - Sector o tema: Cuentas económicas
+  - Subsector o subtema: Cuentas satélite
+  - Nivel de desagregación: Autonómico
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Obtención de la cifra agregada de gasto público en sanidad; clasificación por agregados de contabilidad nacional, clasificación económica, funcional y por sector de gasto; territorialización del gasto público en sanidad; y aproximación metodológica a las Cuentas de Salud de la OCDE
+  - Variables de estudio: Económicas: remuneración del personal, consumo intermedio, conciertos, transferencias corrientes, gasto de capital. Funcionales: servicios hospitalarios y especializados, servicios de atención primaria, servicios de salud pública, servicios colectivos de salud, farmacia, traslado, prótesis. Contabilidad Nacional: consumo colectivo, consumo individual, producción de no mercado, producción de mercado
+  - Variables de clasificación: Servicios suministrados, agentes ejecutores del gasto
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](http://www.sanidad.gob.es/estadEstudios/estadisticas/inforRecopilaciones/gastoSanitario2005/home.htm)
+
+## Ministerio de Sanidad - Secretaría de Estado de Sanidad / Dirección General de Cartera Común de Servicios del Sistema Nacional de Salud y Farmacia - Subdirección General de Farmacia
+
+- **54042 · [Estadística del Consumo Farmacéutico a través de Recetas Médicas del Sistema Nacional de Salud, Incluido el Mutualismo Administrativo (MSND)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931108604)**
+  - Sector o tema: Salud
+  - Subsector o subtema: Medicamentos y otros productos sanitarios
+  - Nivel de desagregación: Autonómico
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Información sobre el consumo de medicamentos y productos sanitarios incluidos en la Prestación Farmacéutica del Sistema Nacional de Salud, prescritos en recetas médicas del Sistema Nacional de Salud incluidas las recetas de MUFACE, ISFAS y MUGEJU y dispensados a través de las oficinas de farmacia
+  - Variables de estudio: Número de envases, gasto, gasto medio por envase, importe PVPIVA, dosis habitante día (DHD), coste tratamiento día (CTD)
+  - Variables de clasificación: Medicamentos (por subgrupos farmacológicos ATC, por principios activos, por tipo medicamento: genérico, huérfano, biosimilar), productos sanitarios, oficinas de farmacia
+  - Periodicidad de la difusión: Mensual, anual
+  - [Acceso a los resultados](https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/home.htm)
+- **54089 · [Estadística de Consumo de Medicamentos en los Hospitales de la Red Pública del Sistema Nacional de Salud (MSND)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931154471)**
+  - Sector o tema: Salud
+  - Subsector o subtema: Medicamentos y otros productos sanitarios
+  - Nivel de desagregación: Autonómico
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Información sobre el consumo de medicamentos en los hospitales de la Red Pública del SNS
+  - Variables de estudio: Número de envases de medicamentos consumidos y coste real consumo, importe PVL
+  - Variables de clasificación: Medicamentos (por subgrupos farmacológicos ATC, por principios activos, por tipo medicamento: genérico, huérfano, biosimilar)
+  - Periodicidad de la difusión: Mensual
+  - [Acceso a los resultados](https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/hospitalario/home.htm)
+
+## Ministerio de Sanidad - Secretaría de Estado de Sanidad / Dirección General de Salud Pública y Equidad en Salud - Centro de Coordinación de Alertas y Emergencias Sanitarias
+
+- **54110 · [Estadística del Registro Estatal de Enfermedades Raras (ReeR) (MSND)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946002615)**
+  - Sector o tema: Salud
+  - Subsector o subtema: Prevención y detección de enfermedades
+  - Nivel de desagregación: Autonómico
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Proporcionar información epidemiológica sobre las enfermedades raras, para orientar la planificación y gestión sanitaria y la evaluación de las actividades preventivas y asistenciales relacionadas. Proveer los indicadores básicos que permitan la comparación entre las comunidades autónomas y con otros países
+  - Variables de estudio: Número de casos registrados vivos y fallecidos del listado de enfermedades raras del ReeR. Prevalencia puntual
+  - Variables de clasificación: Edad, sexo
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](https://www.sanidad.gob.es/areas/alertasEmergenciasSanitarias/vigilancia/home.htm)
+
+## Ministerio de Sanidad - Secretaría de Estado de Sanidad / Dirección General de Salud Pública y Equidad en Salud - Subdirección General de Promoción, Prevención y Equidad en Salud
+
+- **54008 · [Estadística Estatal de Actividad de Centros y Servicios de Transfusión (MSND)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931110654)**
+  - Sector o tema: Salud
+  - Subsector o subtema: Personal, recursos económicos y actividades del sistema sanitario
+  - Nivel de desagregación: Autonómico
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Conocimiento de la actividad de los Centros y Servicios de Transfusión en relación a todos los procesos de la cadena transfusional (del donante al receptor), como parte del Sistema de Información del Sistema Nacional para la Seguridad Transfusional (SI-SNST)
+  - Variables de estudio: Donantes; extracciones realizadas; componentes sanguíneos: elaborados, transfundidos, y no utilizados
+  - Variables de clasificación: Centros, y tipo de componente sanguíneo
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](https://www.sanidad.gob.es/profesionales/saludPublica/medicinaTransfusional/publicaciones/publicaciones.htm)
+- **54021 · [Estadística de Interrupciones Voluntarias del Embarazo (MSND)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931110826)**
+  - Sector o tema: Salud
+  - Subsector o subtema: Estado de salud y factores condicionantes
+  - Nivel de desagregación: Provincial
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Información sobre las características sociodemográficas y sobre las condiciones sanitarias en que se realizan las interrupciones voluntarias del embarazo, las características de las mujeres que se someten a una interrupción y de los centros en que se realizan
+  - Variables de estudio: Motivo de la interrupción, método empleado en la intervención, semanas de gestación, tipo de centro
+  - Variables de clasificación: Grupo de edad, nivel de instrucción, situación laboral de la mujer, métodos anticonceptivos, provincia de residencia
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](https://www.sanidad.gob.es/areas/promocionPrevencion/embarazo/home.htm)
+- **54022 · [Estadística de Vacunaciones Sistemáticas (MSND)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931110998)**
+  - Sector o tema: Salud
+  - Subsector o subtema: Estado de salud y factores condicionantes
+  - Nivel de desagregación: Autonómico
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Conocimiento de las vacunaciones realizadas en la población, en lo que se refiere al calendario de vacunaciones
+  - Variables de estudio: Clase de vacuna, dosis administradas
+  - Variables de clasificación: Edad
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](https://pestadistico.inteligenciadegestion.sanidad.gob.es/publicoSNS/S/sivamin)
+- **54105 · [Encuesta Nacional de Salud a Población Gitana (MSND)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946004161)**
+  - Sector o tema: Salud
+  - Subsector o subtema: Estado de salud y factores condicionantes
+  - Nivel de desagregación: Nacional
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Información sobre morbilidad percibida, utilización de servicios sanitarios, comportamiento y hábitos de vida y actividades preventivas de la población gitana residente en España
+  - Variables de estudio: Autovaloración del estado de salud, limitación de la actividad, utilización de servicios sanitarios y de medicamentos, hábitos de vida, cobertura sanitaria
+  - Variables de clasificación: Edad, sexo y estatus socioeconómico (nivel de estudios y ocupación)
+  - Periodicidad de la difusión: Cada ocho años - Últimos datos: Año 2023
+  - [Acceso a los resultados](https://www.sanidad.gob.es/areas/promocionPrevencion/promoSaludEquidad/equidadYDesigualdad/comunidadGitana/home.htm)
+- **64061 · [Estudio sobre las Conductas Saludables de Adolescentes Escolarizados (HBSC) (MSND)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946004160)**
+  - Sector o tema: Salud
+  - Subsector o subtema: Estado de salud y factores condicionantes
+  - Nivel de desagregación: Autonómico
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Estudio colaborador de la OMS en el que participa una red de 50 países, la mayor parte europeos, y cuyo objetivo es obtener información sobre los estilos de vida de los adolescentes, incluyendo hábitos de alimentación, actividad física, consumo de sustancias, conducta sexual, contextos de desarrollo (familiar, escolar, grupo de iguales) y su estado de salud y bienestar
+  - Variables de estudio: Hábitos de alimentación, control de peso e imagen corporal, cepillado dental, horas de sueño, actividad física, consumo de sustancias, conducta antisocial, conducta sexual, lesiones, calidad de las relaciones en el contexto familiar, en el contexto de los iguales, en el contexto escolar, bullying, relaciones de pareja, vecindario, percepción de salud, ajuste psicológico y bienestar
+  - Variables de clasificación: Edad, sexo, hábitat, titularidad del centro educativo y comunidad autónoma. También se consideran variables de estatus socioeconómico familiar (nivel de estudios y estatus profesional de la madre y el padre, percepción subjetiva de riqueza, capacidad adquisitiva familiar) y país de origen (en el caso de adolescentes inmigrantes o procedentes de adopción internacional)
+  - Periodicidad de la difusión: Cuatrienal
+  - [Acceso a los resultados](https://www.sanidad.gob.es/areas/promocionPrevencion/entornosSaludables/escuela/estudioHBSC/home.htm)
+- **64062 · [Sistema de Información del Programa de Cribado Neonatal del Sistema Nacional de Salud (MSND)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946000401)**
+  - Sector o tema: Salud
+  - Subsector o subtema: Prevención y detección de enfermedades
+  - Nivel de desagregación: Autonómico
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Conocer la situación del programa de cribado neonatal en cada comunidad y ciudad autónoma respecto al cumplimiento de los objetivos de calidad del mismo. Conocer la incidencia de las enfermedades que forman parte del programa de cribado neonatal así como la incidencia de portadores de algunas de las enfermedades incluidas en el mismo. Proporcionar información sobre la actividad de los laboratorios de cribado neonatal y resto de unidades que forman parte del programa
+  - Variables de estudio: Cobertura, tasa de participación, tiempo de toma de muestra, calidad de la muestra, tiempo de transporte, tiempo de respuesta del laboratorio, tiempo de remisión a la unidad clínica de seguimiento, tiempo de instauración del tratamiento, diagnóstico definitivo, seguimiento incidencia de cada una de las enfermedades, incidencia de portadores (por enfermedad), falsos positivos, valor predictivo positivo de la prueba
+  - Variables de clasificación: Nivel de cumplimiento de cada uno de los objetivos de calidad
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](https://www.sanidad.gob.es/areas/promocionPrevencion/cribado/cribadoNeonatal/home.htm)
+
+## Ministerio de Sanidad - Secretaría de Estado de Sanidad / Dirección General de Salud Pública y Equidad en Salud - Subdirección General de Sanidad Ambiental y Salud Laboral
+
+- **54025 · [Calidad de las Aguas de Consumo Humano (MSND)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931111172)**
+  - Sector o tema: Salud
+  - Subsector o subtema: Estado de salud y factores condicionantes
+  - Nivel de desagregación: Otros : Zona de abastecimiento y punto de muestreo
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Desarrollo de un sistema de información relativo al abastecimiento y control de la calidad de las aguas de consumo humano. Conocer y divulgar la calidad del agua de consumo humano para evaluar su repercusión en la salud de la población servida
+  - Variables de estudio: Zonas de abastecimiento, infraestructuras del abastecimiento (captación, tratamiento de potabilización, depósitos de almacenamiento de agua, redes de distribución, cisternas). Puntos de muestreo, parámetros controlados
+  - Variables de clasificación: Temporal, territorial, hidrológico y tipología
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](https://www.sanidad.gob.es/areas/sanidadAmbiental/calidadAguas/aguasConsumoHumano/home.htm)
+- **54027 · [Calidad de las Aguas de Baño (MSND)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931111343)**
+  - Sector o tema: Salud
+  - Subsector o subtema: Estado de salud y factores condicionantes
+  - Nivel de desagregación: Otros : Zonas de baño marítimas o continentales
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Desarrollo de un sistema de información relativo a la calidad de las aguas de baño. Conocer y divulgar la calidad del agua de baño marítima y continental para evaluar su repercusión en la salud de la población usuaria
+  - Variables de estudio: Zonas de aguas de baño, playas. Puntos de muestreo, parámetros controlados
+  - Variables de clasificación: Temporal, territorial, hidrológico y tipología
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](https://www.sanidad.gob.es/areas/sanidadAmbiental/calidadAguas/aguasBanno/home.htm)
+
+## Ministerio de Sanidad - Secretaría de Estado de Sanidad / Organización Nacional de Trasplantes, O.A.
+
+- **54032 · [Estadística de Actividad de Donación y Trasplante de Órganos (MSND)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931154953)**
+  - Sector o tema: Salud
+  - Subsector o subtema: Personal, recursos económicos y actividades del sistema sanitario
+  - Nivel de desagregación: Municipal o inferior
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Conocimiento de la actividad de donación, extracción y trasplante de órganos
+  - Variables de estudio: Donantes, extracciones realizadas y trasplantes realizados
+  - Variables de clasificación: Centro, comunidad autónoma, órgano
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](https://www.ont.es/https-www-ont-es-informacion-a-los-profesionales-4-actividad-de-donacion-y-trasplante-4-5/)
+- **54033 · [Estadística de Actividad de Donación, Procesamiento y Trasplante de Tejidos y Células (MSND)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931155123)**
+  - Sector o tema: Salud
+  - Subsector o subtema: Personal, recursos económicos y actividades del sistema sanitario
+  - Nivel de desagregación: Municipal o inferior
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Conocimiento de la actividad de donación, extracción, procesamiento e implante de tejidos y células
+  - Variables de estudio: Donantes, extracciones realizadas, procesamientos realizados e implantes realizados
+  - Variables de clasificación: Centro, comunidad autónoma, tipo de tejido, tipo de célula
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](https://www.ont.es/https-www-ont-es-informacion-a-los-profesionales-4-actividad-de-donacion-y-trasplante-4-5/)
+
+## Ministerio de Sanidad - Secretaría de Estado de Sanidad / Secretaría General de Salud Digital, Información e Innovación del Sistema Nacional de Salud - Subdirección General de Información Sanitaria
+
+- **30123 · [Estadística de Centros Sanitarios de Atención Especializada (MSND)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931111863)**
+  - Sector o tema: Salud
+  - Subsector o subtema: Personal, recursos económicos y actividades del sistema sanitario
+  - Nivel de desagregación: Autonómico
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Información de la actividad asistencial, económica y docente de los centros con internamiento (hospitales) y sus características estructurales, y de los centros sin internamiento, principales provisores de servicios de atención especializada, que permite además de la obtención de índices, mostrar el funcionamiento del sector y hacer seguimiento y análisis de su evolución
+  - Variables de estudio: Oferta asistencial, dotación, personal, altas, estancias, consultas, ingresos, técnicas de diagnóstico, actividad en otras áreas, actividad quirúrgica, actividad obstetricia, servicios de urgencia, gastos, inversiones e ingresos
+  - Variables de clasificación: Tipo de centro de atención especializada: con internamiento (hospital) sin internamiento, finalidad asistencial del centro, dependencia funcional según entidad financiadora, forma jurídica, contrato con el Sistema Nacional de Salud, acreditación docente
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](https://www.sanidad.gob.es/estadEstudios/estadisticas/estHospiInternado/inforAnual/homeESCRI.htm)
+- **54011 · [Explotación Estadística del Conjunto Mínimo Básico de Datos (RAE-CMBD): Demanda Hospitalaria y Morbilidad Atendida (MSND)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931112209)**
+  - Sector o tema: Salud
+  - Subsector o subtema: Personal, recursos económicos y actividades del sistema sanitario
+  - Nivel de desagregación: Autonómico
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Conocimiento de los procesos de hospitalización (diagnóstico, comorbilidad, tipo de proceso de atención y tipo de proceso) con internamiento y sin internamiento de los hospitales públicos y privados
+  - Variables de estudio: Fechas de ingreso y alta, diagnóstico principal y secundarios, procedimientos diagnósticos y terapéuticos, destino y situación al alta, claves de historia clínica y hospital, financiación de la asistencia
+  - Variables de clasificación: Edad, sexo, lugar de residencia, lugar de hospitalización
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](https://pestadistico.inteligenciadegestion.sanidad.gob.es/publicoSNS/N/rae-cmbd/rae-cmbd)
+- **54023 · [Indicadores de Salud (MSND)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931112383)**
+  - Sector o tema: Salud
+  - Subsector o subtema: Indicadores, síntesis y recopilaciones de salud
+  - Nivel de desagregación: Autonómico
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Mostrar la evolución de la situación de salud en la población española mediante una serie de indicadores de salud
+  - Variables de estudio: Percepción de la salud, mortalidad por causa de muerte, incapacidad, morbilidad por diversas enfermedades, factores de riesgo relacionados con la salud, nacimientos con bajo peso
+  - Variables de clasificación: Edad, sexo, nivel de estudios
+  - Periodicidad de la difusión: Trienal - Últimos datos: Año 2023
+  - [Acceso a los resultados](https://www.sanidad.gob.es/estadEstudios/estadisticas/inforRecopilaciones/indicadoresSalud.htm)
+- **54086 · [Sistema de Información de Atención Primaria del Sistema Nacional de Salud (MSND)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931112552)**
+  - Sector o tema: Salud
+  - Subsector o subtema: Personal, recursos económicos y actividades del sistema sanitario
+  - Nivel de desagregación: Otros : Áreas de Salud
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Proporcionar información sobre la dotación de personal, actividad (general y en prestaciones específicas) y número de centros físicos y/o funcionales del Sistema Nacional de Salud que tienen como finalidad la atención primaria. Proporcionar información sobre dispositivos móviles, recursos humanos y actividad de los servicios de urgencias y emergencias (112/061)
+  - Variables de estudio: Personal, actividad y centros de atención primaria. Personal, actividad y dispositivos móviles de los servicios de urgencias y emergencias (112/061)
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](https://www.sanidad.gob.es/estadEstudios/estadisticas/sisInfSanSNS/actDesarrollada.htm)
+- **54087 · [Barómetro Sanitario (MSND)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931112726)**
+  - Sector o tema: Salud
+  - Subsector o subtema: Indicadores, síntesis y recopilaciones de salud
+  - Nivel de desagregación: Autonómico
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Obtener información sobre la percepción de los ciudadanos del funcionamiento del sistema sanitario, el impacto de medidas vinculadas a las políticas sanitarias, el conocimiento y/o actitudes de los ciudadanos ante problemas de salud de interés coyuntural, el grado de penetración de campañas de información, y la reevaluación de aspectos analizados en periodos anteriores
+  - Variables de estudio: La parte fija del cuestionario aborda la valoración del funcionamiento del Sistema Nacional de Salud, la valoración del funcionamiento de los servicios sanitarios públicos, las listas de espera, la equidad en el acceso a los servicios y la valoración de la descentralización de la gestión sanitaria. La parte variable del cuestionario incluye diferentes dimensiones que se definen para cada estudio anual
+  - Variables de clasificación: Edad, sexo, nivel de estudios, actividad, tamaño del municipio de residencia, nivel de ingresos y comunidad autónoma de residencia
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](https://www.sanidad.gob.es/estadEstudios/estadisticas/inforRecopilaciones/barometro/home.htm)
+- **54106 · [Base de Datos Clínicos de Atención Primaria - BDCAP (MSND)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946000402)**
+  - Sector o tema: Salud
+  - Subsector o subtema: Personal, recursos económicos y actividades del sistema sanitario
+  - Nivel de desagregación: Autonómico
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: En esencia, se trata de conocer qué se atiende en Atención Primaria, cómo se atiende, cuánto se resuelve o controla y a qué coste. Pretende también realizar un seguimiento longitudinal (cohorte)
+  - Variables de estudio: Problemas de salud, procedimientos realizados o solicitados al hospital, interconsultas a especialidades hospitalarias, fármacos prescritos y que han sido dispensados en las farmacias, valores de parámetros (resultados de mediciones), visitas
+  - Variables de clasificación: Año de estudio, comunidad autónoma, estrato de zona básica de salud, sexo, grupos de edad (grandes grupos y quinquenales), agrupación según país de nacimiento (regiones OMS), nivel económico, situación laboral
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](https://www.sanidad.gob.es/estadEstudios/sistInfSanit/atPrimariaUrgExtraH/bdcap/home.htm)
+
+## Ministerio de Trabajo y Economía Social - Secretaría de Estado de Trabajo / Fondo de Garantía Salarial (FOGASA), O.A.
+
+- **58061 · [Estadística del Fondo de Garantía Salarial (MTES)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931085615)**
+  - Sector o tema: Protección social y servicios sociales
+  - Subsector o subtema: Otras prestaciones económicas
+  - Nivel de desagregación: Provincial
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Obtención y difusión de datos relativos a las operaciones efectuadas por el Fondo de Garantía Salarial (FOGASA)
+  - Variables de estudio: Expedientes, empresas afectadas, trabajadores beneficiarios y prestaciones acordadas
+  - Variables de clasificación: Rama de actividad, causa de pago, tramos de tamaño de la empresa
+  - Periodicidad de la difusión: Mensual, anual
+  - [Acceso a los resultados](http://www.mites.gob.es/fogasa/estadisticas.html)
+
+## Ministerio de Trabajo y Economía Social - Secretaría de Estado de Trabajo / Instituto Nacional de Seguridad y Salud en el Trabajo, O.A., M.P.
+
+- **64050 · [Encuesta Nacional de Condiciones de Trabajo (MTES)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931136412)**
+  - Sector o tema: Nivel, calidad y condiciones de vida
+  - Subsector o subtema: Condiciones y calidad de vida
+  - Nivel de desagregación: Nacional
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Conocimiento del conjunto de variables que definen el escenario laboral frente a la salud de la población trabajadora española: entorno laboral que influye en la salud de los trabajadores; exposiciones laborales más frecuentes; estructuras preventivas existentes, actividad preventiva de las empresas a partir de las acciones desarrolladas; evolución de las condiciones de trabajo de la población trabajadora
+  - Variables de estudio: Condiciones de empleo, características del puesto de trabajo, condiciones ambientales del puesto, condiciones de seguridad, carga física y mental de trabajo, factores psicosociales, organización de la prevención de riesgos laborales, daños a la salud
+  - Variables de clasificación: Edad del trabajador, sexo, nacionalidad, nivel de estudios, tamaño de plantilla del centro de trabajo, actividad económica
+  - Periodicidad de la difusión: Irregular - Últimos datos: Año 2021
+  - [Acceso a los resultados](https://www.mites.gob.es/es/estadisticas/condiciones_trabajo_relac_laborales/index.htm)
+- **64054 · [Encuesta de Gestión Preventiva en las Empresas (MTES)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931140599)**
+  - Sector o tema: Mercado laboral y salarios
+  - Subsector o subtema: Relaciones laborales y otros aspectos del trabajo
+  - Nivel de desagregación: Nacional
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Conocimiento del nivel y tipo de actividad preventiva y recursos que disponen las empresas para garantizar la seguridad y salud de sus trabajadores; descripción de su organización del trabajo y de la presencia de riesgos laborales
+  - Variables de estudio: Recursos de su organización preventiva, actividades preventivas realizadas, tipo de organización del trabajo, riesgos laborales, daños a la salud
+  - Variables de clasificación: Rama de actividad económica (agrupada), sector de actividad, tamaño de empresa
+  - Periodicidad de la difusión: Irregular - Últimos datos: Año 2018
+  - [Acceso a los resultados](https://www.insst.es/encuestas-nacionales-de-condiciones-de-trabajo-y-gestion-preventiva)
+
+## Ministerio de Trabajo y Economía Social - Secretaría de Estado de Trabajo / Servicio Público de Empleo Estatal, O.A. - Subdirección General de Estadística e Información
+
+- **58021 · [Estadística de Prestaciones por Desempleo (MTES)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931081850)**
+  - Sector o tema: Protección social y servicios sociales
+  - Subsector o subtema: Otras prestaciones económicas
+  - Nivel de desagregación: Provincial
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Obtención y difusión de datos relativos a las prestaciones por desempleo
+  - Variables de estudio: Beneficiarios de prestaciones por desempleo, cuantía media de la prestación
+  - Variables de clasificación: Tipo, duración, causa del derecho o de acceso a la prestación, sexo y edad, periodos reconocidos/consumidos, capitalización prestaciones, causa de baja, nacionalidad
+  - Periodicidad de la difusión: Mensual, anual
+  - [Acceso a los resultados](https://www.mites.gob.es/es/estadisticas/prestaciones_SS_otra_proteccion/PRD/welcome.htm)
+- **59021 · [Estadística del Movimiento Laboral Registrado (MTES)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931085263)**
+  - Sector o tema: Mercado laboral y salarios
+  - Subsector o subtema: Mercado laboral
+  - Nivel de desagregación: Municipal o inferior
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Obtención y difusión de datos sobre el movimiento laboral registrado en los servicios públicos de empleo
+  - Variables de estudio: Demandas de empleo (parados registrados y no parados), contratos registrados, ofertas y colocaciones
+  - Variables de clasificación: Edad, sexo, tipo de contrato, tipo de jornada, duración, actividad económica, ocupación y estudios, causas de exclusión del paro registrado, antigüedad de la inscripción
+  - Periodicidad de la difusión: Mensual, anual
+  - [Acceso a los resultados](http://www.mites.gob.es/es/estadisticas/mercado_trabajo/MLR/welcome.htm)
+- **59022 · [Estadística del Sistema de Formación en el Trabajo y Formación Programada por las Empresas para sus Trabajadores (MTES)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931085439)**
+  - Sector o tema: Educación y formación
+  - Subsector o subtema: Formación permanente y relación educación empleo
+  - Nivel de desagregación: Provincial
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Obtención y difusión de datos relativos a cursos y alumnos de formación profesional para el empleo
+  - Variables de estudio: Cursos impartidos, alumnos asistentes a los cursos y alumnos que han obtenido evaluación positiva
+  - Variables de clasificación: Duración, nivel y lugar donde se imparten los cursos, sexo, edad y situación laboral de los alumnos
+  - Periodicidad de la difusión: Trimestral, anual
+  - [Acceso a los resultados](http://www.mites.gob.es/es/estadisticas/FP_medidas_apoyo_empleo/FPE/welcome.htm)
+
+## Ministerio de Trabajo y Economía Social - Secretaría de Estado de Trabajo / Subdirección General de Estadística y Análisis Sociolaboral
+
+- **58002 · [Estadística de Autorizaciones de Trabajo a Extranjeros (MTES)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931079579)**
+  - Sector o tema: Mercado laboral y salarios
+  - Subsector o subtema: Mercado laboral
+  - Nivel de desagregación: Provincial
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Obtención y difusión de datos relacionados con las autorizaciones de trabajo de extranjeros que desean desarrollar una actividad laboral en España
+  - Variables de estudio: Autorizaciones de trabajo concedidas y denegadas
+  - Variables de clasificación: Clase de autorización, dependencia laboral, sexo, edad, país de nacionalidad del solicitante, duración, actividad y ocupación
+  - Periodicidad de la difusión: Mensual, anual
+  - [Acceso a los resultados](https://www.mites.gob.es/es/estadisticas/Inmigracion_emigracion/PTE/index.html)
+- **58003 · [Estadística de Cooperativas Constituidas (MTES)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931079755)**
+  - Sector o tema: Mercado laboral y salarios
+  - Subsector o subtema: Mercado laboral
+  - Nivel de desagregación: Provincial
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Obtención y difusión de datos relativos a las sociedades cooperativas que se constituyen en el período y socios iniciales que las componen
+  - Variables de estudio: Cooperativas constituidas y socios iniciales que las componen y socios por cooperativa
+  - Variables de clasificación: Ámbito territorial, clase de cooperativa, actividad económica, sexo socios iniciales
+  - Periodicidad de la difusión: Trimestral, anual
+  - [Acceso a los resultados](https://www.mites.gob.es/es/estadisticas/mercado_trabajo/COO/index.html)
+- **58004 · [Estadística de Sociedades Laborales Registradas (MTES)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931079929)**
+  - Sector o tema: Mercado laboral y salarios
+  - Subsector o subtema: Mercado laboral
+  - Nivel de desagregación: Provincial
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Obtención y difusión de datos relativos a sociedades laborales que se constituyen en el período y socios iniciales que las componen
+  - Variables de estudio: Sociedades laborales registradas y socios iniciales de ellas
+  - Variables de clasificación: Actividad económica, tipo de socios, sexo
+  - Periodicidad de la difusión: Trimestral, anual
+  - [Acceso a los resultados](https://www.mites.gob.es/es/estadisticas/mercado_trabajo/LAB/welcome.htm)
+- **58006 · [Estadística de Regulación de Empleo (MTES)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931080103)**
+  - Sector o tema: Mercado laboral y salarios
+  - Subsector o subtema: Relaciones laborales y otros aspectos del trabajo
+  - Nivel de desagregación: Provincial
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Obtención y difusión de datos relacionados con las medidas de regulación de empleo
+  - Variables de estudio: Procedimientos, empresas y trabajadores afectados, días de suspensión, horas de reducción
+  - Variables de clasificación: Causas alegadas, actividad económica, tamaño de la empresa, sexo, finalidad del procedimiento
+  - Periodicidad de la difusión: Mensual, anual
+  - [Acceso a los resultados](https://www.mites.gob.es/es/estadisticas/condiciones_trabajo_relac_laborales/REG/welcome.htm)
+- **58007 · [Estadística de Apoyo a la Creación de Empleo (MTES)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931080279)**
+  - Sector o tema: Mercado laboral y salarios
+  - Subsector o subtema: Relaciones laborales y otros aspectos del trabajo
+  - Nivel de desagregación: Provincial
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Obtención y difusión de datos relacionados con los programas de apoyo a la creación de empleo
+  - Variables de estudio: Beneficiarios, importe de la ayuda
+  - Variables de clasificación: Programa, tipo de ayuda y, en algunos casos, edad y sexo de los beneficiarios y actividad económica
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](http://www.mites.gob.es/es/estadisticas/contenidos/anuario.htm)
+- **58008 · [Estadística de Mediación, Arbitraje y Conciliación Laboral (MTES)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931080453)**
+  - Sector o tema: Mercado laboral y salarios
+  - Subsector o subtema: Relaciones laborales y otros aspectos del trabajo
+  - Nivel de desagregación: Provincial
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Obtención y difusión de datos relacionados con las mediaciones y conciliaciones (individuales o colectivas) y conciliaciones individuales terminadas en despido
+  - Variables de estudio: Conciliaciones individuales, conciliaciones colectivas, mediaciones, empresas y trabajadores afectados y cantidades acordadas por conciliaciones
+  - Variables de clasificación: Actividad económica, motivación de la reclamación, forma de resolución
+  - Periodicidad de la difusión: Mensual, anual
+  - [Acceso a los resultados](https://www.mites.gob.es/es/estadisticas/condiciones_trabajo_relac_laborales/MAC/welcome.htm)
+- **58009 · [Estadística de Asuntos Judiciales Sociales (MTES)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931080629)**
+  - Sector o tema: Seguridad y justicia
+  - Subsector o subtema: Actividad judicial
+  - Nivel de desagregación: Provincial
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Obtención y difusión de datos en relación con la actividad de los juzgados de lo social
+  - Variables de estudio: Asuntos resueltos y cantidades reconocidas
+  - Variables de clasificación: Tipo de asunto, clase de resolución
+  - Periodicidad de la difusión: Trimestral, anual
+  - [Acceso a los resultados](https://www.mites.gob.es/es/estadisticas/condiciones_trabajo_relac_laborales/AJS/welcome.htm)
+- **58010 · [Estadística de Convenios Colectivos de Trabajo (MTES)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931080804)**
+  - Sector o tema: Mercado laboral y salarios
+  - Subsector o subtema: Relaciones laborales y otros aspectos del trabajo
+  - Nivel de desagregación: Provincial
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Obtención y difusión de los resultados más relevantes de los convenios colectivos, así como información sobre el proceso de negociación colectiva
+  - Variables de estudio: Convenios (firmados y con efectos económicos), trabajadores beneficiados, empresas afectadas, variación salarial pactada y revisada, cláusulas de garantía salarial y jornada laboral media pactada. Convenios firmados y sus trabajadores con información sobre cláusulas cualitativas (horas extraordinarias, complementos de prestaciones sociales, formación, salariales, jubilación, etc.)
+  - Variables de clasificación: Ámbito funcional del convenio, composición de la mesa negociadora en los convenios firmados y actividad económica. Inaplicaciones de convenios y trabajadores afectados, procedimiento de inaplicación, condiciones de trabajo inaplicadas, ámbito funcional del convenio inaplicado, tamaño de la empresa que realiza la inaplicación y sector de actividad económica
+  - Periodicidad de la difusión: Mensual, anual
+  - [Acceso a los resultados](https://www.mites.gob.es/es/estadisticas/condiciones_trabajo_relac_laborales/CCT/welcome.htm)
+- **58011 · [Estadística de Huelgas y Cierres Patronales (MTES)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931080980)**
+  - Sector o tema: Mercado laboral y salarios
+  - Subsector o subtema: Relaciones laborales y otros aspectos del trabajo
+  - Nivel de desagregación: Provincial
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Obtención y difusión de datos sobre huelgas y cierres patronales aplicando las definiciones establecidas por la Organización Internacional del Trabajo y repercusión territorial de los conflictos
+  - Variables de estudio: Huelgas, cierres patronales, centros de trabajo y trabajadores convocados e implicados, participantes y jornadas no trabajadas, días de duración
+  - Variables de clasificación: Actividad económica, sector institucional, clase de convenio colectivo, motivación, organización convocante, nivel de incidencia
+  - Periodicidad de la difusión: Mensual, anual
+  - [Acceso a los resultados](https://www.mites.gob.es/es/estadisticas/condiciones_trabajo_relac_laborales/HUE/welcome.htm)
+- **58012 · [Estadística de Accidentes de Trabajo (MTES)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931081156)**
+  - Sector o tema: Mercado laboral y salarios
+  - Subsector o subtema: Relaciones laborales y otros aspectos del trabajo
+  - Nivel de desagregación: Provincial
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Obtención y difusión de datos sobre accidentes de trabajo
+  - Variables de estudio: Accidentes de trabajo, días de duración de las bajas, gravedad del accidente, recaídas, accidentes sin baja
+  - Variables de clasificación: Actividad económica del centro, ocupación del trabajador, lugar del accidente, tipo de contrato, tipo de lugar, tipo de trabajo, actividad física específica, desviación, agente desviación forma - contacto, agente forma - contacto, tipo de lesión sufrida por el accidentado, parte del cuerpo lesionada, causa del alta, tamaño de la empresa, sexo y edad del trabajador, antigüedad en el puesto de trabajo
+  - Periodicidad de la difusión: Mensual, anual
+  - [Acceso a los resultados](https://www.mites.gob.es/es/estadisticas/condiciones_trabajo_relac_laborales/EAT/welcome.htm)
+- **58014 · [Encuesta Comunitaria de Formación Profesional Continua (MTES)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931081332)**
+  - Sector o tema: Educación y formación
+  - Subsector o subtema: Formación permanente y relación educación empleo
+  - Nivel de desagregación: Nacional
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Evaluar la magnitud y las características de la formación profesional continua financiada por las empresas, así como estudiar las empresas que no realizan ningún tipo de formación
+  - Variables de estudio: Empresas formadoras y no formadoras, participantes en cursos, duración y costes de la formación, actividades formativas
+  - Variables de clasificación: Actividad económica, tamaño de empresa
+  - Periodicidad de la difusión: Quinquenal - Últimos datos: Año 2020
+  - [Acceso a los resultados](http://www.mites.gob.es/es/estadisticas/FP_medidas_apoyo_empleo/EFPC/index.htm)
+- **58020 · [Estadística de Ayudas a Trabajadores Afectados por Procesos de Reestructuración de Empresas (MTES)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931081676)**
+  - Sector o tema: Protección social y servicios sociales
+  - Subsector o subtema: Otras prestaciones económicas
+  - Nivel de desagregación: Provincial
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Obtención y difusión de datos relativos a las ayudas para la jubilación anticipada de los trabajadores
+  - Variables de estudio: Beneficiarios e importe de las ayudas
+  - Variables de clasificación: Clase de ayudas, edad y sexo de los beneficiarios, titularidad de la empresa, actividad económica y tamaño de la empresa
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](https://www.mites.gob.es/es/estadisticas/prestaciones_SS_otra_proteccion/SEEPROS/welcome.htm)
+- **58022 · [Estadísticas Integradas de Protección Social en Términos SEEPROS (MTES)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931082026)**
+  - Sector o tema: Protección social y servicios sociales
+  - Subsector o subtema: Indicadores, síntesis y recopilaciones de protección y asistencia social
+  - Nivel de desagregación: Nacional
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Obtención y difusión de datos que permitan comparaciones entre países sobre extensión e intensidad de la protección social y su financiación
+  - Variables de estudio: Ingresos por cotizaciones, ingresos por aportaciones públicas, otros ingresos, gastos en prestaciones, gastos de administración, otros gastos, beneficiarios de las prestaciones
+  - Variables de clasificación: Sector de procedencia de los ingresos, función y tipo de prestación de los gastos
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](https://www.mites.gob.es/es/estadisticas/prestaciones_SS_otra_proteccion/SEEPROS/welcome.htm)
+- **58023 · [Boletín de Estadísticas Laborales (MTES)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931082195)**
+  - Sector o tema: Estadísticas no desglosables por sector o tema
+  - Subsector o subtema: Estadísticas y recopilaciones generales
+  - Nivel de desagregación: Provincial
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Difusión de datos estadísticos, ordenados en series temporales, referentes a materias sociolaborales
+  - Variables de estudio: De carácter general del sector
+  - Variables de clasificación: Propias del sector
+  - Periodicidad de la difusión: Continua
+  - [Acceso a los resultados](https://www.mites.gob.es/estadisticas/bel/welcome.htm)
+- **58024 · [Anuario de Estadísticas del Ministerio de Trabajo y Economía Social (MTES)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931082363)**
+  - Sector o tema: Estadísticas no desglosables por sector o tema
+  - Subsector o subtema: Estadísticas y recopilaciones generales
+  - Nivel de desagregación: Provincial
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Difusión de datos estadísticos en materia laboral y social referentes principalmente a los dos últimos años
+  - Variables de estudio: De carácter general del sector
+  - Variables de clasificación: Propias del sector
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](https://www.mites.gob.es/es/estadisticas/contenidos/anuario.htm)
+- **58025 · [Banco de Datos de Series Laborales (MTES)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931082530)**
+  - Sector o tema: Estadísticas no desglosables por sector o tema
+  - Subsector o subtema: Bancos de datos generales
+  - Nivel de desagregación: Provincial
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Disponer en soporte magnético de las series temporales correspondientes a las principales variables sociolaborales, posibilitando su consulta y difusión y la obtención automática de tablas estadísticas
+  - Variables de estudio: Características sociolaborales
+  - Variables de clasificación: Propias del sector
+  - Periodicidad de la difusión: Continua
+  - [Acceso a los resultados](https://expinterweb.mites.gob.es/series/)
+- **58026 · [Estadística de Empresas de Trabajo Temporal (MTES)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931082677)**
+  - Sector o tema: Mercado laboral y salarios
+  - Subsector o subtema: Mercado laboral
+  - Nivel de desagregación: Provincial
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Obtención y difusión de datos que permitan evaluar y analizar globalmente la actividad desarrollada por las empresas de trabajo temporal, así como las características de éstas y de las empresas usuarias
+  - Variables de estudio: Empresas de trabajo temporal, contratos de puesta a disposición, cesiones de trabajadores
+  - Variables de clasificación: Ámbito territorial de autorización de las ETT, actividad económica y supuesto de utilización del contrato de puesta a disposición
+  - Periodicidad de la difusión: Mensual, anual
+  - [Acceso a los resultados](https://www.mites.gob.es/es/estadisticas/mercado_trabajo/ETT/welcome.htm)
+- **58028 · [Estadística de Empresas Inscritas en la Seguridad Social (MTES)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931082851)**
+  - Sector o tema: Estadísticas de empresas y unidades de producción no referidas a sectores particulares
+  - Subsector o subtema: Registros y directorios de unidades de producción
+  - Nivel de desagregación: Provincial
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Obtención y difusión de datos relativos a las empresas inscritas en la Seguridad Social
+  - Variables de estudio: Empresas, trabajadores
+  - Variables de clasificación: Actividad económica, tipo y tamaño de la empresa, sexo, tipo de contrato y tipo de jornada
+  - Periodicidad de la difusión: Mensual, trimestral
+  - [Acceso a los resultados](https://www.mites.gob.es/es/estadisticas/mercado_trabajo/EMP/welcome.htm)
+- **58029 · [Encuesta de Calidad de Vida en el Trabajo (MTES)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931083026)**
+  - Sector o tema: Nivel, calidad y condiciones de vida
+  - Subsector o subtema: Condiciones y calidad de vida
+  - Nivel de desagregación: Autonómico
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Obtener información sobre las situaciones y actividades que se producen en el entorno de trabajo y sobre las percepciones personales que los trabajadores tienen de sus condiciones y relaciones laborales, así como de la satisfacción con su trabajo
+  - Variables de estudio: Grado de satisfacción con diferentes aspectos laborales (salario, jornada, ambiente de trabajo, estrés, discriminación, etc.), entorno, organización y realización del trabajo, formación laboral, movilidad, conciliación de vida familiar y laboral
+  - Variables de clasificación: Sexo, edad, nivel de estudios, ocupación, situación profesional, actividad económica, tamaño de municipio, tamaño de la empresa
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](https://www.mites.gob.es/estadisticas/Ecvt/welcome.htm)
+- **58030 · [Encuesta de Formación Profesional para el Empleo en Empresas (MTES)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931142104)**
+  - Sector o tema: Educación y formación
+  - Subsector o subtema: Formación permanente y relación educación empleo
+  - Nivel de desagregación: Nacional
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Evaluar la magnitud y las características de la formación en el trabajo y formación bonificada a las empresas para sus trabajadores, así como estudiar las empresas que no necesitan ningún tipo de formación
+  - Variables de estudio: Empresas formadoras y no formadoras, participantes en cursos, duración y costes de la formación, actividades formativas
+  - Variables de clasificación: Actividad económica, tamaño de empresa
+  - Periodicidad de la difusión: Quinquenal - Últimos datos: Año 2020
+  - [Acceso a los resultados](http://www.mites.gob.es/es/estadisticas/FP_medidas_apoyo_empleo/EFPC/index.htm)
+- **58031 · [Encuesta Anual Laboral (MTES)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259943055622)**
+  - Sector o tema: Mercado laboral y salarios
+  - Subsector o subtema: Mercado laboral
+  - Nivel de desagregación: Autonómico
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Obtención de información sobre medidas de adaptación de las empresas ante cambios en las circunstancias económicas, medidas de flexibilidad interna aplicadas en las empresas, necesidades formativas observadas y previsiones empresariales
+  - Variables de estudio: Reacción ante cambios en la demanda, medidas de flexibilidad interna, medidas colectivas, desarrollo de medidas en materia de flexibilidad laboral, necesidades formativas y formación, previsiones empresariales
+  - Variables de clasificación: Tamaño según el número de trabajadores, actividad económica del centro
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](https://www.mites.gob.es/es/estadisticas/mercado_trabajo/EAL/welcome.htm)
+- **58032 · [Estadística de Despidos y su Coste (MTES)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259945999675)**
+  - Sector o tema: Mercado laboral y salarios
+  - Subsector o subtema: Relaciones laborales y otros aspectos del trabajo
+  - Nivel de desagregación: Provincial
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Estudio de los despidos y su coste siendo este la combinación tanto de la cantidad pagada por FOGASA como la cantidad indemnizada que consta en los registros de la Agencia Estatal de Administración Tributaria y en las Haciendas Forales de Navarra y País Vasco correspondientes al año de referencia
+  - Variables de estudio: Tipo de despido e indemnización por despido
+  - Variables de clasificación: Salarios, sexo, edad, nacionalidad, tipo de contrato, actividad económica, duración del último periodo de alta en SS
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](https://www.mites.gob.es/es/estadisticas/condiciones_trabajo_relac_laborales/dec/welcome.htm)
+- **58033 · [Estadística de Planes de Igualdad (MTES)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946004925)**
+  - Sector o tema: Mercado laboral y salarios
+  - Subsector o subtema: Relaciones laborales y otros aspectos del trabajo
+  - Nivel de desagregación: Provincial
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Proporcionar información estadística de los aspectos más relevantes de las medidas adoptadas por las empresas tendentes a alcanzar la igualdad de trato y de oportunidades entre los hombres y las mujeres trabajadores y a eliminar la discriminación por razón de sexo. Este conjunto ordenado de medidas se trasladan a un plan de igualdad que las empresas tienen la obligación de registrar en el Registro y Depósito de Convenios Colectivos, Acuerdos Colectivos de Trabajo y Planes de Igualdad (REGCON)
+  - Variables de estudio: Planes de igualdad, empresas que han adoptado planes de igualdad y trabajadores cubiertos
+  - Variables de clasificación: Ámbito territorial, sexo de los trabajadores cubiertos por planes de igualdad, actividad económica, composición de la representación de los trabajadores y ámbito funcional de los planes de igualdad
+  - Periodicidad de la difusión: Trimestral
+- **59001 · [Estadística del Fondo Social Europeo (MTES)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931085093)**
+  - Sector o tema: Mercado laboral y salarios
+  - Subsector o subtema: Relaciones laborales y otros aspectos del trabajo
+  - Nivel de desagregación: Autonómico
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Obtención y difusión de datos relativos a ayudas concedidas por el Fondo Social Europeo a España
+  - Variables de estudio: Beneficiarios de las ayudas, finalidad e importe de la ayuda
+  - Variables de clasificación: Tipo de colectivo, tipo de acción, clase de zona de aplicación, tipo de agente gestor
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](https://www.mites.gob.es/es/estadisticas/contenidos/anuario.htm)
+- **59002 · [Estadística de Entidades de Economía Social Inscritas en la Seguridad Social (MTES)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931142436)**
+  - Sector o tema: Mercado laboral y salarios
+  - Subsector o subtema: Mercado laboral
+  - Nivel de desagregación: Provincial
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Obtención y difusión de datos relativos a sociedades cooperativas y laborales inscritas en la Seguridad Social y sus trabajadores
+  - Variables de estudio: Sociedades cooperativas y laborales y sus trabajadores
+  - Variables de clasificación: Sociedades cooperativas: número de sociedades, centros de cotización, tamaño de la sociedad, año de alta en la Seguridad Social, clase de cooperativa, provincia y comunidad autónoma, sector, sección y división de actividad y distribución de sus trabajadores según estas variables y por sexo. Sociedades laborales: número de sociedades, tipos de sociedad, centros de cotización, tamaño de la sociedad, año de alta en la Seguridad Social, provincia y comunidad autónoma, sector, sección y división de actividad y distribución de sus trabajadores según estas variables y por sexo
+  - Periodicidad de la difusión: Trimestral
+  - [Acceso a los resultados](https://www.mites.gob.es/es/estadisticas/mercado_trabajo/EESSS/welcome.htm#)
+- **59003 · [Estadística de Personas Trabajadoras por Cuenta Propia Afiliadas a la Seguridad Social (MTES)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931142610)**
+  - Sector o tema: Mercado laboral y salarios
+  - Subsector o subtema: Mercado laboral
+  - Nivel de desagregación: Provincial
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Obtención y difusión de datos sobre personas trabajadoras autónomas afiliadas a los distintos regímenes de la Seguridad Social
+  - Variables de estudio: Personas trabajadoras por cuenta propia afiliadas a la Seguridad Social, incluidas las personas trabajadoras autónomas propiamente dichas
+  - Variables de clasificación: En la difusión trimestral: Régimen de la Seguridad Social, sexo, edad, actividad económica, nacionalidad, situación profesional, antigüedad, base de cotización. En la difusión mensual: comparativo anual y mensual; Porcentaje de variación de actividad económica. Colectivos incentivados
+  - Periodicidad de la difusión: Mensual, trimestral
+  - [Acceso a los resultados](https://www.mites.gob.es/es/estadisticas/mercado_trabajo/TAASS/welcome.htm)
+- **63007 · [Estadística de Españoles Residentes en el Extranjero Retornados (MTES)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931084224)**
+  - Sector o tema: Demografía y población
+  - Subsector o subtema: Migraciones
+  - Nivel de desagregación: Provincial
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Obtención y difusión de datos relativos al flujo de españoles residentes en el extranjero retornados
+  - Variables de estudio: Bajas consulares
+  - Variables de clasificación: Origen y destino
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](http://www.mites.gob.es/es/estadisticas/contenidos/anuario.htm)
+- **63012 · [Estadística de Prestaciones por Razón de Necesidad para Residentes en el Exterior y Retornados (MTES)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931084399)**
+  - Sector o tema: Protección social y servicios sociales
+  - Subsector o subtema: Otras prestaciones económicas
+  - Nivel de desagregación: Nacional
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Obtención y difusión de datos relativos a beneficiarios de las prestaciones por razón de necesidad para españoles residentes en el extranjero que, habiendo alcanzado la edad de jubilación, o estando en situación de incapacidad absoluta para todo tipo de trabajo, carecen de recursos económicos y de las pensiones asistenciales por ancianidad cuando retornan a España
+  - Variables de estudio: Beneficiarios de pensiones e importe de éstas
+  - Variables de clasificación: Sexo, edad, estado civil y país de residencia de los beneficiarios
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](https://www.mites.gob.es/es/estadisticas/prestaciones_SS_otra_proteccion/EPRN/welcome.htm)
+- **63014 · [Estadística de Políticas de Mercado de Trabajo (MTES)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931083543)**
+  - Sector o tema: Mercado laboral y salarios
+  - Subsector o subtema: Indicadores, síntesis y recopilaciones en el ámbito laboral
+  - Nivel de desagregación: Nacional
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Obtención y difusión de datos que permitan comparaciones entre los países de la Unión Europea relacionados con las medidas de políticas de mercado de trabajo
+  - Variables de estudio: Gasto y participantes en las categorías de medidas de políticas
+  - Variables de clasificación: Modalidad de gasto, sexo, edad, origen y destino de los participantes
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](http://www.mites.gob.es/es/estadisticas/contenidos/anuario.htm)
+- **63056 · [Estadística de Prestaciones para "Niños de la Guerra" (MTES)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931139096)**
+  - Sector o tema: Protección social y servicios sociales
+  - Subsector o subtema: Otras prestaciones económicas
+  - Nivel de desagregación: Nacional
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Obtención y difusión de datos relativos a beneficiarios de prestaciones para niños desplazados a causa de la guerra civil, al amparo de la Ley 3/2005, de 18 de marzo
+  - Variables de estudio: Beneficiarios de las prestaciones e importe de éstas
+  - Variables de clasificación: Sexo, edad, país de residencia de los beneficiarios
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](https://www.mites.gob.es/es/estadisticas/contenidos/anuario.htm)
+
+## Ministerio de Transportes y Movilidad Sostenible - Secretaría de Estado de Transportes y Movilidad Sostenible / Puertos del Estado
+
+- **22041 · [Resumen General del Tráfico Portuario (MTRM)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931074850)**
+  - Sector o tema: Transporte y actividades conexas
+  - Subsector o subtema: Transporte marítimo
+  - Nivel de desagregación: Nacional
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Información del tráfico portuario y su comparación con el año anterior
+  - Variables de estudio: Mercancías, pasajeros, buques, avituallamiento, pesca capturada
+  - Periodicidad de la difusión: Mensual
+  - [Acceso a los resultados](http://www.puertos.es/es-es/estadisticas/Paginas/estadistica_mensual.aspx)
+- **22043 · [Memorias de las Autoridades Portuarias (MTRM)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931075011)**
+  - Sector o tema: Transporte y actividades conexas
+  - Subsector o subtema: Transporte marítimo
+  - Nivel de desagregación: Otros : Puertos
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Información del tráfico portuario de buques, mercancías y pasajeros; información económica de los puertos e inversiones
+  - Variables de estudio: Mercancías, pasajeros, avituallamiento, pesca capturada, buques, resultados del ejercicio
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](http://www.puertos.es/es-es/estadisticas/Paginas/MemoriasAnuales.aspx)
+- **22045 · [Anuario Estadístico de Puertos del Estado (MTRM)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931075174)**
+  - Sector o tema: Transporte y actividades conexas
+  - Subsector o subtema: Transporte marítimo
+  - Nivel de desagregación: Nacional
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Información del tráfico portuario de buques, mercancías y pasajeros; inversiones e instalaciones
+  - Variables de estudio: Mercancías, pasajeros, buques, avituallamiento, pesca capturada, instalaciones, inversiones
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](http://www.puertos.es/es-es/estadisticas/RestoEstad%C3%ADsticas/Paginas/Resto-estadisticas.aspx)
+- **22046 · [Estadística sobre el Transporte Marítimo de Mercancías y Pasajeros (MTRM)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931075335)**
+  - Sector o tema: Transporte y actividades conexas
+  - Subsector o subtema: Transporte marítimo
+  - Nivel de desagregación: Nacional
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Información sobre el transporte de mercancías y pasajeros efectuado por buques que hagan escala en los puertos españoles, para dar cumplimiento a la normativa comunitaria (Directiva 2009/42/CE del Parlamento Europeo y del Consejo, de 6 de mayo de 2009, sobre la relación estadística del transporte marítimo de mercancías y pasajeros)
+  - Variables de estudio: Peso bruto de las mercancías en toneladas, número de pasajeros, número de buques, tonelaje de los buques en arqueo bruto y contenedores
+  - Variables de clasificación: Puerto declarante, puerto de carga y descarga, zona costera marítima, tipo de cargamento y mercancías y nacionalidad de registro de buque
+  - Periodicidad de la difusión: Mensual, anual
+  - [Acceso a los resultados](http://www.puertos.es/es-es/estadisticas/Paginas/estadistica_mensual.aspx)
+
+## Ministerio de Transportes y Movilidad Sostenible - Secretaría de Estado de Transportes y Movilidad Sostenible / Secretaría General de Transporte Aéreo y Marítimo - Dirección General de Aviación Civil - Subdirección General de Transporte Aéreo
+
+- **22073 · [Estadísticas de Tráfico de Líneas Aéreas Regulares y no Regulares, Aeropuertos y Aeronaves para OACI (MTRM)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931074690)**
+  - Sector o tema: Transporte y actividades conexas
+  - Subsector o subtema: Transporte aéreo
+  - Nivel de desagregación: Nacional
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Obtención de datos de tráfico aéreo de aeronaves, pasajeros, carga y correo en vuelos regulares de pago, vuelos no regulares de pago y vuelos sin remuneración de las compañías aéreas españolas. Obtención de datos de flota y personal de las compañías aéreas españolas. Obtención de datos económicos de compañías aéreas españolas con tráfico regular internacional. Obtención del número de aeronaves matriculadas en España
+  - Variables de estudio: Aeronaves en la flota, capacidad y personal de las explotadoras, tráfico de aeronaves, pasajeros, carga y correo en vuelos regulares de pago, vuelos no regulares de pago y vuelos sin remuneración
+  - Variables de clasificación: Tipo de aeronave, personal empleado según período del año, etapas de vuelo (interiores, internacionales), tipo de vuelo (regular, no regular)
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](https://www.mitma.gob.es/informacion-para-el-ciudadano/informacion-estadistica/transporte/transporte-aereo)
+- **22075 · [Estadística de Tráfico en los Aeropuertos Españoles (MTRM)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259941114458)**
+  - Sector o tema: Transporte y actividades conexas
+  - Subsector o subtema: Transporte aéreo
+  - Nivel de desagregación: Otros : Aeropuertos
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Información sobre el movimiento en cada uno de los aeropuertos nacionales abierto al tráfico aéreo
+  - Variables de estudio: Número de operaciones, pasajeros, mercancías
+  - Variables de clasificación: Aeropuertos, pasajeros (regular, no regular), aeronaves (regular, no regular), mercancías (regular, no regular), doméstico, UE, extra UE
+  - Periodicidad de la difusión: Mensual
+  - [Acceso a los resultados](https://www.aena.es/es/estadisticas/inicio.html)
+
+## Ministerio de Transportes y Movilidad Sostenible - Secretaría de Estado de Transportes y Movilidad Sostenible / Secretaría General de Transporte Aéreo y Marítimo - Dirección General de la Marina Mercante
+
+- **25009 · [Estadística del Sector Empresarial de Transporte Marítimo / Aéreo de Mercancías (MTRM)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946001872)**
+  - Sector o tema: Transporte y actividades conexas
+  - Subsector o subtema: Empresas y actividad del transporte en general
+  - Nivel de desagregación: Otros : Puertos / Aeropuertos
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Disponer de información sobre los costes del transporte de mercancías en relación con los territorios extrapeninsulares, tanto por vía marítima como aérea
+  - Variables de estudio: Precios medios aplicados anualmente en el transporte de mercancías marítimo y aéreo en los distintos trayectos entre los territorios extrapeninsulares y la península, así como en los trayectos interinsulares. Los precios medios incluirán el coste del flete, gastos de gestión administrativa, recargos por fletes especiales, costes de manipulación de la mercancía en puertos o aeropuertos de origen y destino, tasas u otras exacciones portuarias o aeroportuarias aplicadas directamente a las mercancías transportadas, costes de los controles de seguridad y protección, y recargo por incremento del coste del combustible, cuando se aplique
+  - Variables de clasificación: Unidades estándar habitualmente utilizadas, unidades refrigeradas, unidades especiales y unidades en vacío, por unidad de presentación de mercancía (kilos, toneladas, metros lineales de equipo rodante, contenedores de 20, 40 y 45 pies)
+  - Periodicidad de la difusión: Anual
+
+## Ministerio de Transportes y Movilidad Sostenible - Secretaría de Estado de Transportes y Movilidad Sostenible / Secretaría General de Transporte Aéreo y Marítimo - Dirección General de la Marina Mercante - Sociedad de Salvamento y Seguridad Marítima (SASEMAR), E.P.E.
+
+- **22025 · [Estadística de Accidentes de Buques (MTRM)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931073520)**
+  - Sector o tema: Seguridad y justicia
+  - Subsector o subtema: Seguridad vial y accidentes de tráfico
+  - Nivel de desagregación: Nacional
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Conocimiento del número de accidentes marítimos habidos y sus causas
+  - Variables de estudio: Tipo de buque, causas del accidente, personas afectadas
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](https://www.transportes.gob.es/organos-colegiados/ciaim/publicaciones)
+- **22027 · [Estadística de Emergencias por Contaminación Marina Atendidas por Salvamento Marítimo (MTRM)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931132306)**
+  - Sector o tema: Medio ambiente y desarrollo sostenible
+  - Subsector o subtema: Calidad, vigilancia, control y prevención del medio ambiente
+  - Nivel de desagregación: Autonómico
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Análisis detallado de los datos para la mejora en la gestión de la contaminación marina
+  - Variables de estudio: Origen de la contaminación, producto contaminante, localización
+  - Variables de clasificación: Tipo, cantidad, zona
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](https://datos.salvamentomaritimo.es/)
+
+## Ministerio de Transportes y Movilidad Sostenible - Secretaría de Estado de Transportes y Movilidad Sostenible / Secretaría General de Transporte Aéreo y Marítimo - Dirección General de la Marina Mercante - Subdirección General de Seguridad, Contaminación e Inspección Marítima
+
+- **22022 · [Registro de Buques y Registro de Empresas Navieras (MTRM)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931073354)**
+  - Sector o tema: Transporte y actividades conexas
+  - Subsector o subtema: Transporte marítimo
+  - Nivel de desagregación: Nacional
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Conocimiento de todos los buques y sus circunstancias registrales, conocimiento de todos los armadores del sector y de los fletadores de la modalidad "cascos desnudos"
+  - Variables de estudio: Nombre de la empresa, número y tamaño de los buques, edad, tipo de buque
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](https://sede.transportes.gob.es/areas-actividad/marina-mercantemaritimo/rebeca-registro-especial-buques-empresas-navieras)
+
+## Ministerio de Transportes y Movilidad Sostenible - Secretaría de Estado de Transportes y Movilidad Sostenible / Secretaría General de Transporte Terrestre - Dirección General de Carreteras
+
+- **21001 · [Estadística del Programa Nacional de Aforos (MTRM)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931072893)**
+  - Sector o tema: Transporte y actividades conexas
+  - Subsector o subtema: Transporte terrestre
+  - Nivel de desagregación: Provincial
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Obtención, por las estaciones de aforo, de datos del tráfico que circula por diversos tramos que componen la red nacional de carreteras, para la elaboración de estadísticas de circulación vial
+  - Variables de estudio: Intensidad media diaria de vehículos, intensidades temporales, tipo de carretera, tipo de red, tipo de vehículo, velocidades, congestión
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](https://www.transportes.gob.es/carreteras/nuestra-red/movilidad/mapas-trafico)
+
+## Ministerio de Transportes y Movilidad Sostenible - Secretaría de Estado de Transportes y Movilidad Sostenible / Secretaría General de Transporte Terrestre- Dirección General de Transporte por Carretera y Ferrocarril
+
+- **22078 · [Estadística del Sector Empresarial Ferroviario (MTRM)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946001131)**
+  - Sector o tema: Transporte y actividades conexas
+  - Subsector o subtema: Transporte terrestre
+  - Nivel de desagregación: Autonómico
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Disponer de información de transporte de viajeros y transporte de mercancías, así como información contable y consumos energéticos
+  - Variables de estudio: Oferta y demanda de transporte ferroviario por tipo de servicio y régimen de prestación, material móvil, consumos energéticos y variables socioeconómicas y contables
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](https://www.mitma.gob.es/ferrocarriles/informacion-estadistica/transporte/transporte-por-ferrocarril-renfe-operadora)
+
+## Ministerio de Transportes y Movilidad Sostenible - Secretaría de Estado de Transportes y Movilidad Sostenible / Secretaría General de Transporte Terrestre- Dirección General de Transporte por Carretera y Ferrocarril - Subdirección General de Gestión del Transporte por Carretera y Ferrocarril
+
+- **22001 · [Registro General de Transportistas y de Actividades Auxiliares y Complementarias del Transporte (MTRM)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931073021)**
+  - Sector o tema: Transporte y actividades conexas
+  - Subsector o subtema: Transporte terrestre
+  - Nivel de desagregación: Autonómico
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Conocimiento anual de las empresas y del parque de vehículos autorizados a realizar transporte de mercancías y viajeros
+  - Variables de estudio: Empresas, vehículos
+  - Variables de clasificación: Peso, carga, antigüedad, clase de autorización (radio de acción y tipo de servicio)
+  - Periodicidad de la difusión: Mensual, anual
+  - [Acceso a los resultados](https://www.transportes.gob.es/transporte-terrestre/servicios-al-transportista/consulta-al-registro-de-empresas-y-actividades-de-transporte)
+- **22009 · [Estadística sobre Transporte Internacional por Carretera (MTRM)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931073187)**
+  - Sector o tema: Transporte y actividades conexas
+  - Subsector o subtema: Transporte terrestre
+  - Nivel de desagregación: Nacional
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Conocimiento del desarrollo del transporte internacional de viajeros y mercancías por carreteras
+  - Variables de estudio: Autorizaciones, viajes
+  - Variables de clasificación: Áreas geográficas
+  - Periodicidad de la difusión: Semestral, anual
+  - [Acceso a los resultados](https://www.transportes.gob.es/transporte-terrestre/transporte-internacional-por-carretera)
+
+## Ministerio de Transportes y Movilidad Sostenible - Subsecretaría de Transportes y Movilidad Sostenible / Comisión de Investigación de Accidentes e Incidentes de Aviación Civil
+
+- **22072 · [Estadística de Accidentes de Aviación (MTRM)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931075498)**
+  - Sector o tema: Seguridad y justicia
+  - Subsector o subtema: Seguridad vial y accidentes de tráfico
+  - Nivel de desagregación: Nacional
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Conocimiento de los accidentes sufridos por las aeronaves civiles en España
+  - Variables de estudio: Lugar del accidente, marca y modelo de la aeronave, nombre del explotador, personas a bordo, víctimas mortales y con lesiones graves
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](https://www.transportes.gob.es/organos-colegiados/ciaiac/informacion-estadistica)
+
+## Ministerio de Transportes y Movilidad Sostenible - Subsecretaría de Transportes y Movilidad Sostenible / Dirección General de Programación Económica y Presupuestos - Subdirección General de Estudios Económicos y Estadísticas
+
+- **20001 · [Estadística de Construcción de Edificios (MTRM)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931070985)**
+  - Sector o tema: Construcción y vivienda
+  - Subsector o subtema: Construcción en general (edificación y obra pública)
+  - Nivel de desagregación: Municipal o inferior
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Obtención de datos relativos a las obras mayores de construcción, rehabilitación y demolición de edificios, procedentes de las licencias concedidas por los ayuntamientos
+  - Variables de estudio: Licencias concedidas; edificios y viviendas con sus características; superficie a construir, a rehabilitar y a demoler; volumen de los edificios a construir; emplazamiento, duración prevista y presupuesto de ejecución material de las obras; tipología constructiva, materiales empleados, instalaciones y energía; tipología y características de las obras de rehabilitación
+  - Variables de clasificación: Tipo de obra, clase de promotor, régimen legal de protección, destino de las edificaciones
+  - Periodicidad de la difusión: Mensual, anual
+  - [Acceso a los resultados](https://www.transportes.gob.es/informacion-para-el-ciudadano/informacion-estadistica/construccion/construccion-de-edificios/construccion-de-edificios-licencias-municipales-de-obra)
+- **20004 · [Estadística de Licitación Oficial en la Construcción (MTRM)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931071339)**
+  - Sector o tema: Construcción y vivienda
+  - Subsector o subtema: Construcción en general (edificación y obra pública)
+  - Nivel de desagregación: Provincial
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Conocimiento de la demanda de construcción de obra pública realizada por las distintas Administraciones Públicas
+  - Variables de estudio: Licitación por agente contratante, por forma de contratación, por tipología de obra, por comunidades autónomas y licitación del Grupo Fomento
+  - Variables de clasificación: Agente contratante, forma de contratación, tipología de obra, Grupo Fomento
+  - Periodicidad de la difusión: Mensual
+  - [Acceso a los resultados](https://www.transportes.gob.es/informacion-para-el-ciudadano/informacion-estadistica/construccion/licitacion-oficial-en-construccion/licitacion-oficial-de-la-construccion)
+- **20005 · [Índices de Producción de la Industria de la Construcción (MTRM)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931071518)**
+  - Sector o tema: Construcción y vivienda
+  - Subsector o subtema: Construcción en general (edificación y obra pública)
+  - Nivel de desagregación: Nacional
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Obtener indicador económico de producción en construcción
+  - Variables de estudio: Valores de producción, consumos intermedios, valores de compra, sueldos, salarios, empleados y horas trabajadas
+  - Variables de clasificación: Tipología de obra, rama de actividad y estado poblacional
+  - Periodicidad de la difusión: Mensual
+  - [Acceso a los resultados](https://www.transportes.gob.es/informacion-para-el-ciudadano/informacion-estadistica/construccion/indices-de-produccion-de-la-industria-de-la-construccion-eipic)
+- **20006 · [Estadística de Visados de Dirección de Obra (Estadísticas de Obras en Edificación) (MTRM)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931071695)**
+  - Sector o tema: Construcción y vivienda
+  - Subsector o subtema: Construcción en general (edificación y obra pública)
+  - Nivel de desagregación: Provincial
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Conocer la evolución de la actividad de la construcción y del parque de edificios que se construyen en España, sean obras nuevas, ampliaciones o reformas
+  - Variables de estudio: Por tipo de obra (nueva, ampliación, reforma, etc.) según su destino (viviendas, servicios comerciales, servicios burocráticos, etc.) y tipo de promotor. Número de certificaciones fin de obra, número de viviendas y presupuestos de ejecución material de los encargos de dirección de las obras nuevas, de las ampliaciones de las obras de reforma y/o rehabilitación por destino de obra y por clase de promotor; número de edificios y número de viviendas terminadas por clase de promotor
+  - Variables de clasificación: Visados de: obra nueva, ampliación de edificios, reforma y/o restauración de edificios y certificaciones fin de obra
+  - Periodicidad de la difusión: Mensual
+  - [Acceso a los resultados](https://www.transportes.gob.es/informacion-para-el-ciudadano/informacion-estadistica/construccion/obras-en-edificacion-visados-de-direccion-de-obra-de-los-colegios-de-arquitectos-tecnicos)
+- **20008 · [Índices de Costes del Sector de la Construcción (MTRM)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931071874)**
+  - Sector o tema: Construcción y vivienda
+  - Subsector o subtema: Indicadores, síntesis y recopilaciones de la construcción y vivienda
+  - Nivel de desagregación: Nacional
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Obtención del índice de costes del sector construcción. Deflactor producción en construcción
+  - Variables de estudio: Diferentes rúbricas, según CNAE, que intervienen en la construcción (edificación e ingeniería civil)
+  - Variables de clasificación: Tipología de obra y mano de obra
+  - Periodicidad de la difusión: Mensual
+  - [Acceso a los resultados](https://www.transportes.gob.es/informacion-para-el-ciudadano/informacion-estadistica/construccion/indice-de-costes-del-sector-de-la-construccion/indice-de-costes-del-sector-de-la-construccion-cnae-2009-base-2010)
+- **20010 · [Anuario Estadístico del MFOM (MTRM)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931072048)**
+  - Sector o tema: Estadísticas no desglosables por sector o tema
+  - Subsector o subtema: Estadísticas y recopilaciones generales
+  - Nivel de desagregación: Provincial
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Recopilación y difusión de datos relacionados con la actividad del organismo, la construcción y el transporte
+  - Variables de estudio: De carácter general del sector
+  - Variables de clasificación: Propias del sector
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](https://www.transportes.gob.es/informacion-para-el-ciudadano/informacion-estadistica/anuario-estadisticas-de-sintesis-y-boletin/anuario-estadistico)
+- **20011 · [Boletín Estadístico del MFOM (MTRM)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931072218)**
+  - Sector o tema: Estadísticas no desglosables por sector o tema
+  - Subsector o subtema: Estadísticas y recopilaciones generales
+  - Nivel de desagregación: Provincial
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Difusión de la actividad del organismo
+  - Variables de estudio: Licitación oficial en construcción, adjudicaciones de obras de las empresas del MFOM, tráfico en carreteras, portuario y aéreo, obras en edificación, construcción de edificios, índices de producción de la industria de la construcción, indicadores de costes de construcción e indicadores económicos, índices de revisión de precios
+  - Variables de clasificación: Propias del sector
+  - Periodicidad de la difusión: Mensual
+  - [Acceso a los resultados](https://apps.fomento.gob.es/BoletinOnline/)
+- **20015 · [Atlas Estadístico de la Construcción en España (MTRM)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931125479)**
+  - Sector o tema: Construcción y vivienda
+  - Subsector o subtema: Indicadores, síntesis y recopilaciones de la construcción y vivienda
+  - Nivel de desagregación: Municipal o inferior
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Presentación cartográfica de los procesos relacionados con la construcción y el transporte de sus materiales
+  - Variables de estudio: Información estadística de carácter general
+  - Variables de clasificación: Propias de cada sector
+  - Periodicidad de la difusión: Quinquenal - Últimos datos: Año 2013
+  - [Acceso a los resultados](https://www.transportes.gob.es/informacion-para-el-ciudadano/informacion-estadistica/anuario-estadisticas-de-sintesis-y-boletin/atlas-estadistico-de-la-construccion-en-espana/atlasestadistico-de-la-construccion-en-espana)
+- **20061 · [Encuesta Permanente de Transporte de Mercancías por Carretera (MTRM)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931072725)**
+  - Sector o tema: Transporte y actividades conexas
+  - Subsector o subtema: Transporte terrestre
+  - Nivel de desagregación: Autonómico
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Conocimiento de los flujos del transporte de mercancías por carretera y cumplimiento de los requerimientos de la Unión Europea (Reglamento (CE) nº 1172/98 del Consejo de 25 de mayo de 1998)
+  - Variables de estudio: Operaciones de transporte (con carga y en vacío), toneladas transportadas y toneladas/km producidas
+  - Variables de clasificación: Tipo de transporte, origen y destino de la operación, clase de mercancías
+  - Periodicidad de la difusión: Trimestral, anual
+  - [Acceso a los resultados](https://www.transportes.gob.es/informacion-para-el-ciudadano/informacion-estadistica/transporte/transporte-de-mercancias-por-carretera)
+- **20066 · [Índice de Precios del Transporte (MTRM)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931136250)**
+  - Sector o tema: Precios
+  - Subsector o subtema: Precios de las distintas actividades sectoriales
+  - Nivel de desagregación: Nacional
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Seguimiento de la tendencia del precio por kilómetro recorrido en transporte público
+  - Variables de estudio: Índice de precios
+  - Variables de clasificación: Distancia del recorrido
+  - Periodicidad de la difusión: Trimestral
+  - [Acceso a los resultados](https://www.transportes.gob.es/informacion-para-el-ciudadano/informacion-estadistica/transporte/transporte-de-mercancias-por-carretera)
+
+## Ministerio de Transportes y Movilidad Sostenible - Subsecretaría de Transportes y Movilidad Sostenible / Dirección General del Instituto Geográfico Nacional - Subdirección General de Astronomía, Geofísica y Aplicaciones Espaciales
+
+- **20042 · [Estadística de Sismología (MTRM)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931070132)**
+  - Sector o tema: Medio ambiente y desarrollo sostenible
+  - Subsector o subtema: Calidad, vigilancia, control y prevención del medio ambiente
+  - Nivel de desagregación: Nacional
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Información sobre las observaciones sísmicas realizadas en la red sísmica nacional y vigilancia y control de explosiones nucleares. Normativa sismorresistente
+  - Variables de estudio: Sismos, microterremotos, riesgos de sismicidad, explosiones nucleares. Mapas de peligrosidad sísmica
+  - Variables de clasificación: Magnitudes, coordenadas, profundidad, aceleraciones, energía
+  - Periodicidad de la difusión: Continua
+  - [Acceso a los resultados](http://www.ign.es/web/ign/portal/sis-area-sismicidad)
+- **20043 · [Estadística de Campo Magnético (MTRM)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931070301)**
+  - Sector o tema: Medio ambiente y desarrollo sostenible
+  - Subsector o subtema: Calidad, vigilancia, control y prevención del medio ambiente
+  - Nivel de desagregación: Nacional
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Información sobre las componentes del campo magnético terrestre en el territorio nacional
+  - Variables de estudio: Intensidad del campo, intensidad vertical y horizontal de la inducción magnética terrestre, declinación
+  - Variables de clasificación: Componentes X, Y e inclinación; índices C y K; tormentas magnéticas, impulsos bruscos, efectos cromosféricos
+  - Periodicidad de la difusión: Continua, anual
+  - [Acceso a los resultados](http://www.ign.es/web/ign/portal/gmt-area-geomagnetismo)
+- **20045 · [Estadística de Vigilancia Volcánica (MTRM)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931070470)**
+  - Sector o tema: Medio ambiente y desarrollo sostenible
+  - Subsector o subtema: Calidad, vigilancia, control y prevención del medio ambiente
+  - Nivel de desagregación: Nacional
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Información sobre las observaciones de fenómenos asociados a la actividad volcánica
+  - Variables de estudio: Sismos, medidas geodésicas, gravimétricas
+  - Variables de clasificación: Magnitudes, coordenadas, aceleración de la gravedad
+  - Periodicidad de la difusión: Continua
+  - [Acceso a los resultados](http://www.ign.es/web/ign/portal/vlc-area-volcanologia)
+
+## Ministerio de Transportes y Movilidad Sostenible - Subsecretaría de Transportes y Movilidad Sostenible / Dirección General del Instituto Geográfico Nacional - Subdirección General de Cartografía y Observación del Territorio y Centro Nacional de Información Geográfica (CNIG), O.A.
+
+- **20041 · [Proyecto CORINE Land Cover (UE) (MTRM)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931070639)**
+  - Sector o tema: Medio ambiente y desarrollo sostenible
+  - Subsector o subtema: Recursos naturales y su utilización y rehabilitación
+  - Nivel de desagregación: Municipal o inferior
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Actualización de la base de datos de cubiertas y uso del suelo en escala 1:100.000, dentro del proyecto europeo CORINE Land COVER de la UE
+  - Variables de estudio: Cubierta y uso del suelo
+  - Variables de clasificación: Nomenclatura CORINE Land COVER Nivel 3
+  - Periodicidad de la difusión: Irregular - Últimos datos: Año 2018
+  - [Acceso a los resultados](https://www.ign.es/web/copernicus/productos-a-descargar)
+- **20044 · [Atlas Nacional de España (MTRM)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931070811)**
+  - Sector o tema: Estadísticas no desglosables por sector o tema
+  - Subsector o subtema: Estadísticas y recopilaciones generales
+  - Nivel de desagregación: Provincial : Provincial (excepcionalmente municipal)
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Presentación cartográfica de una visión completa e integrada de la geografía física (medio físico terrestre y marino) y humana (información demográfica, sociología, conocimiento del territorio, actividades económicas y otros) de España
+  - Variables de estudio: Información estadística de carácter general
+  - Variables de clasificación: Variables propias de cada sector
+  - Periodicidad de la difusión: Continua
+  - [Acceso a los resultados](http://www.ign.es/web/ign/portal/ane-area-ane)
+- **20046 · [Sistema de Información de Ocupación del Suelo en España (SIOSE) (MTRM)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931143636)**
+  - Sector o tema: Medio ambiente y desarrollo sostenible
+  - Subsector o subtema: Recursos naturales y su utilización y rehabilitación
+  - Nivel de desagregación: Municipal o inferior
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Actualización del Sistema de Información sobre Ocupación del Suelo en España (SIOSE), a escalas 1:25.000 o 1:5.000 según versión, y que integra y armoniza la información de las bases de datos de cubiertas y usos del suelo existente de las comunidades autónomas y de la Administración General del Estado
+  - Variables de estudio: Cubierta y uso del suelo
+  - Variables de clasificación: Modelo de datos SIOSE
+  - Periodicidad de la difusión: Irregular - Últimos datos: Año 2017
+  - [Acceso a los resultados](https://www.siose.es/web/guest/descripcion)
+
+## Ministerio de Transportes y Movilidad Sostenible - Subsecretaría de Transportes y Movilidad Sostenible / Secretaría General Técnica - Subdirección General de Normativa y Estudios Técnicos
+
+- **20025 · [Los Transportes y las Infraestructuras (MTRM)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931069970)**
+  - Sector o tema: Transporte y actividades conexas
+  - Subsector o subtema: Indicadores, síntesis y recopilaciones de los transportes
+  - Nivel de desagregación: Nacional
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Difusión y análisis de las estadísticas relativas al transporte y a las infraestructuras
+  - Variables de estudio: De carácter general del sector
+  - Variables de clasificación: Propias del sector
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](https://publicaciones.transportes.gob.es/Filtros?terms=Los+Transportes+y+las+Infraestructuras)
+
+## Ministerio de Vivienda y Agenda Urbana - Subsecretaría de Vivienda y Agenda Urbana / Subdirección General de Coordinación Económica y de Servicios
+
+- **20007 · [Estadística de Valor Tasado de Vivienda (MVAU)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931125306)**
+  - Sector o tema: Precios
+  - Subsector o subtema: Precios de las distintas actividades sectoriales
+  - Nivel de desagregación: Provincial
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Obtener información sobre la evolución de los precios de las viviendas. Estimar el precio de la vivienda libre y protegida
+  - Variables de estudio: Variación del valor medio de las viviendas tasadas. Valor medio del metro cuadrado de la vivienda de hasta 5 años de antigüedad y de más de 5 años de antigüedad, tanto para vivienda libre como protegida
+  - Variables de clasificación: Zonas geográficas (provincia, áreas urbanas, municipio, código postal), antigüedad de la vivienda y tipología de la vivienda (unifamiliar o en bloque)
+  - Periodicidad de la difusión: Trimestral
+  - [Acceso a los resultados](https://www.mitma.gob.es/el-ministerio/informacion-estadistica/vivienda-y-actuaciones-urbanas/estadisticas/valor-tasado-de-la-vivienda)
+- **20019 · [Atlas Estadístico de las Áreas Urbanas en España (MVAU)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931125647)**
+  - Sector o tema: Nivel, calidad y condiciones de vida
+  - Subsector o subtema: Indicadores, síntesis y recopilaciones en el ámbito social
+  - Nivel de desagregación: Municipal o inferior
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Presentación cartográfica de los procesos relacionados con la construcción, vivienda y suelo en relación con la situación y la evolución socioeconómica y demográfica en el territorio especialmente enfocada al análisis de las áreas urbanas
+  - Variables de estudio: Información estadística de carácter general
+  - Variables de clasificación: Propias del sector, incorporando el área urbana como nivel de agregación específico
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](https://www.mivau.gob.es/urbanismo-y-suelo/suelo/atlas-estadistico-de-las-areas-urbanas)
+- **23062 · [Estadística de Financiación de Actuaciones Protegibles (MVAU)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931128901)**
+  - Sector o tema: Construcción y vivienda
+  - Subsector o subtema: Parque de edificios y viviendas y su utilización
+  - Nivel de desagregación: Nacional
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Seguimiento financiero de las actuaciones protegibles, por número de viviendas y préstamos convenidos, establecidas mediante convenios de colaboración suscritos entre el ministerio y las comunidades autónomas y ciudades de Ceuta y Melilla
+  - Variables de estudio: Actuaciones protegibles en términos físicos y monetarios
+  - Variables de clasificación: Propias del sector
+  - Periodicidad de la difusión: Mensual
+  - [Acceso a los resultados](https://www.mivau.gob.es/vivienda/info-plan-estatal-de-vivienda-2026-2030)
+- **25002 · [Estadística de Precios del Suelo (MVAU)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931131954)**
+  - Sector o tema: Precios
+  - Subsector o subtema: Precios de las distintas actividades sectoriales
+  - Nivel de desagregación: Provincial
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Estimar el precio medio del metro cuadrado de suelo urbano
+  - Variables de estudio: Precio medio del metro cuadrado de suelo urbano
+  - Variables de clasificación: Tamaño de municipio y tamaño del solar
+  - Periodicidad de la difusión: Trimestral
+  - [Acceso a los resultados](https://www.transportes.gob.es/el-ministerio/informacion-estadistica/vivienda-y-actuaciones-urbanas/estadisticas/suelo/estadisticas-de-precios-de-suelo-urbano)
+- **25003 · [Estadística de Transacciones Inmobiliarias (MVAU)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931132131)**
+  - Sector o tema: Construcción y vivienda
+  - Subsector o subtema: Parque de edificios y viviendas y su utilización
+  - Nivel de desagregación: Provincial
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Estimar el número de viviendas que ha sido objeto de transacción de compraventa, clasificadas según tipología de vivienda
+  - Variables de estudio: Transacciones efectuadas de vivienda libre nueva y de segunda mano y protegida nueva y de segunda mano, y valor declarado de las transacciones de vivienda libre
+  - Variables de clasificación: Vivienda según tipo y antigüedad
+  - Periodicidad de la difusión: Trimestral
+  - [Acceso a los resultados](https://www.transportes.gob.es/el-ministerio/informacion-estadistica/vivienda-y-actuaciones-urbanas/estadisticas/transacciones-inmobiliarias-compraventa)
+- **25004 · [Estadística de Vivienda Libre y Protegida (MVAU)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931136913)**
+  - Sector o tema: Construcción y vivienda
+  - Subsector o subtema: Parque de edificios y viviendas y su utilización
+  - Nivel de desagregación: Provincial
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Proporcionar datos mensuales sobre el número de viviendas libres iniciadas y terminadas, sobre las distintas fases administrativas para la calificación de viviendas protegidas, y sobre la rehabilitación protegida
+  - Variables de estudio: Viviendas libres iniciadas y terminadas. Número de solicitudes y calificaciones de vivienda protegida de nueva construcción y rehabilitación protegida
+  - Variables de clasificación: Tipología de las viviendas. Vivienda protegida de nueva construcción destinada a la venta y al arrendamiento
+  - Periodicidad de la difusión: Trimestral
+  - [Acceso a los resultados](https://www.transportes.gob.es/el-ministerio/informacion-estadistica/vivienda-y-actuaciones-urbanas/estadisticas/vivienda-protegida/vivienda-y-rehabilitacion-protegidas)
+- **25005 · [Estudio sobre el Stock de Viviendas Nuevas (MVAU)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931143118)**
+  - Sector o tema: Construcción y vivienda
+  - Subsector o subtema: Parque de edificios y viviendas y su utilización
+  - Nivel de desagregación: Provincial
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Estudiar la oferta de vivienda de obra nueva
+  - Variables de estudio: Stock de viviendas nuevas sin vender
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](https://www.transportes.gob.es/informacion-para-el-ciudadano/informacion-estadistica/vivienda-y-actuaciones-urbanas/estadisticas/stock-de-vivienda-nueva/estadisticas-sobre-stock-de-vivienda-nueva)
+- **25006 · [Estimación del Parque de Viviendas (MVAU)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931143291)**
+  - Sector o tema: Construcción y vivienda
+  - Subsector o subtema: Parque de edificios y viviendas y su utilización
+  - Nivel de desagregación: Provincial
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Estimación del parque de viviendas
+  - Variables de estudio: Viviendas familiares
+  - Variables de clasificación: Tipo de vivienda
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](https://www.transportes.gob.es/el-ministerio/informacion-estadistica/vivienda-y-actuaciones-urbanas/estadisticas/estimacion-del-parque-de-viviendas)
+
+## Ministerio de la Presidencia, Justicia y Relaciones con las Cortes - Secretaría de Estado de Justicia / Secretaría General para la Innovación y Calidad del Servicio Público de Justicia - Dirección General de Seguridad Jurídica y Fe Pública - Colegio de Registradores de la Propiedad, Mercantiles y Bienes Muebles de España
+
+- **30219 · [Estadística del Procedimiento Concursal (MPJC)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931118557)**
+  - Sector o tema: Financieras y seguros
+  - Subsector o subtema: Estadísticas financieras varias
+  - Nivel de desagregación: Provincial
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Información trimestral y anual sobre los procedimientos concursales
+  - Variables de estudio: Número de deudores concursados (personas físicas o jurídicas), tipo de concurso (voluntario, necesario), clase de procedimiento (ordinario, especial o sin masa)
+  - Variables de clasificación: Actividad económica de la empresa, condición jurídica de la empresa, tramo de asalariados y antigüedad
+  - Periodicidad de la difusión: Trimestral
+  - [Acceso a los resultados](https://www.registradores.org/actualidad/portal-estadistico-registral/estadisticas-concursales#portlet_com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_92PKQIzgTNBS)
+
+## Ministerio de la Presidencia, Justicia y Relaciones con las Cortes / Centro de Investigaciones Sociológicas, O.A.
+
+- **79001 · [Barómetros de Opinión (MPJC)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931104974)**
+  - Sector o tema: Nivel, calidad y condiciones de vida
+  - Subsector o subtema: Opinión pública
+  - Nivel de desagregación: Nacional
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Pulso de la opinión pública en cuestiones de actualidad y seguimiento de la valoración subjetiva de la situación social, política y económica
+  - Variables de estudio: Valoración de la situación económica actual y prospectiva, valoración de la situación política actual y prospectiva, expectativas realizadas con el empleo, intención directa de voto, simpatía hacia los partidos políticos, valoración de los líderes políticos nacionales, valoración de los miembros del gobierno, valoración de los principales problemas del país, expectativas, vacaciones, constitución e instituciones
+  - Variables de clasificación: Sexo, edad, nivel de estudios, relación con la actividad, ocupación, condición socioeconómica
+  - Periodicidad de la difusión: Mensual
+  - [Acceso a los resultados](https://www.cis.es/catalogo-estudios/resultados-definidos/barometros)
+- **79002 · [Encuesta Social General Española (MPJC)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259937889153)**
+  - Sector o tema: Nivel, calidad y condiciones de vida
+  - Subsector o subtema: Opinión pública
+  - Nivel de desagregación: Nacional
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Obtener un retrato de la sociedad española y establecer relaciones entre los distintos aspectos que la componen. El cuestionario aplicado está compuesto por dos bloques de preguntas, uno fijo que se repetirá en todas las ediciones de la encuesta y otro variable, que cambia en cada edición
+  - Variables de estudio: Módulo fijo: situación laboral, ocupación, sector de actividad, características del trabajo actual y del primer empleo, nivel de ingresos personal y del hogar, ubicación en escala ideológica, satisfacción con la vida y con aspectos concretos (trabajo, amistades, etc.), religión y práctica religiosa, identidad nacional, pertenencia a asociaciones. Nivel de estudios, situación laboral, ocupación, sector de actividad, religión, práctica religiosa y ubicación en la escala de ideología del cónyuge/pareja, de los padres de la persona entrevistada (cuando la persona entrevistada tenía 16 años), y, en su caso, de los hijos/as
+  - Variables de clasificación: Características sociodemográficas
+  - Periodicidad de la difusión: Bienal
+  - [Acceso a los resultados](https://www.cis.es/es/buscar?_com_liferay_portal_search_web_search_bar_portlet_SearchBarPortlet_INSTANCE_header02_formDate=1773738356116&q=Encuesta+Social+General+)
+- **79003 · [Encuesta Social Europea (MPJC)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259942187764)**
+  - Sector o tema: Nivel, calidad y condiciones de vida
+  - Subsector o subtema: Opinión pública
+  - Nivel de desagregación: Nacional
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Recoger datos de calidad para avanzar en el conocimiento de la realidad sociopolítica tanto a investigadores como a gestores públicos. Es una encuesta adscrita a un European Research Infrastructure Consortium (ERIC) de la Comisión Europea sobre actitudes, valores, características sociodemográficas y pautas de comportamiento en Europa y se realiza en más de veinticinco países europeos
+  - Variables de estudio: Módulo fijo: confianza en el gobierno, políticos y principales instituciones, interés en la política e indicadores de participación política, valores y actitudes sociales y políticas, valores y actitudes en temas morales, indicadores sobre inclusión/exclusión social, percepción de la amenaza terrorista, del miedo al delito, religión y práctica religiosa, identificación étnica, sentimiento nacional, satisfacción con la vida e indicadores de bienestar. Dos módulos rotatorios (edición 2014): el primero incluye preguntas para indagar sobre las actitudes hacia la inmigración y el segundo se centra en obtener datos sobre las desigualdades sociales en materia de salud
+  - Variables de clasificación: Variables sociodemográficas, nivel de estudios, situación laboral, ocupación y sector de actividad (tanto de la persona entrevistada como de su cónyuge/pareja), indicadores sobre ingresos y situación económica personal y del hogar
+  - Periodicidad de la difusión: Bienal
+  - [Acceso a los resultados](https://ess.sikt.no/en/series/321b06ad-1b98-4b7d-93ad-ca8a24e8788a)
+- **79004 · [Índice de Confianza del Consumidor (ICC) (MPJC)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259942178084)**
+  - Sector o tema: Nivel, calidad y condiciones de vida
+  - Subsector o subtema: Indicadores, síntesis y recopilaciones en el ámbito social
+  - Nivel de desagregación: Nacional
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Anticipar el comportamiento del consumo privado en España y proveer información que ayude a interpretar dicho comportamiento. Su construcción se fundamenta principalmente en preguntas sobre las percepciones de los consumidores tanto con relación a la evolución económica reciente (6 meses), como con respecto a su potencial evolución en el futuro inmediato (6 meses)
+  - Variables de estudio: Indicador de situación actual e indicador de expectativas. Tipo de interés, ahorro, expectativas de inflación, consumo de bienes duraderos
+  - Variables de clasificación: Sexo, edad, estado civil, tamaño de hábitat, estudios, actividad, situación laboral, ingresos, nacionalidad, ideología y recuerdo de voto
+  - Periodicidad de la difusión: Mensual
+  - [Acceso a los resultados](https://www.cis.es/es/estudios/catalogo?start=1&q=%C3%8Dndice+de+confianza+del+consumidor&fromDate=&from=%5B+now%5D&toDate=&to=%5Bnow-100y+%5D&sort=&catalogo=estudio)
+- **79005 · [Encuesta de Opinión Pública y Política Fiscal (MPJC)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259945998990)**
+  - Sector o tema: Nivel, calidad y condiciones de vida
+  - Subsector o subtema: Opinión pública
+  - Nivel de desagregación: Nacional
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Pulso de la opinión pública en cuestiones sobre la percepción del funcionamiento de los servicios y prestaciones públicas, el papel de los impuestos y de la política fiscal
+  - Variables de estudio: Bienestar subjetivo, confianza y actitudes cívicas, percepción del funcionamiento de los servicios y prestaciones públicas, del balance y presión fiscal, apreciación del cumplimiento fiscal y del fraude fiscal existente y sus posibles causas y efectos, conocimiento fiscal y realización de la declaración de la renta del ejercicio actual
+  - Variables de clasificación: Sexo, edad, nivel de estudios, relación con la actividad, ocupación, condición socioeconómica, ubicación ideológica y recuerdo de voto
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](https://www.cis.es/es/estudios/opinion-publica-y-politica-fiscal-xlii-?results=results_1772110199465&cuestionario=17977&muestra=26302&pregunta=655420&variable=1084757&chartType=bar)
+
+## Ministerio del Interior - Secretaría General de Instituciones Penitenciarias / Dirección General de Ejecución Penal y Reinserción Social - Subdirección General de Medio Abierto y de Penas y Medidas Alternativas
+
+- **68024 · [Información Estadística de Penas y Medidas Alternativas a la Prisión (MINT)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259942576062)**
+  - Sector o tema: Seguridad y justicia
+  - Subsector o subtema: Seguridad ciudadana
+  - Nivel de desagregación: Otros : Servicios de gestión de penas y medidas alternativas
+  - Ámbito territorial: Todo el territorio nacional, a excepción de Cataluña
+  - Objetivo general: Conocimiento cuantitativo de la población penada a penas y medidas penales alternativas a la prisión
+  - Variables de estudio: Mandamientos recibidos, mandamientos finalizados/archivados, stock de condenas, penados
+  - Variables de clasificación: Datos sociodemográficos generales, tipos delictivos, tipos de condena, tipos de consecuencia penal
+  - Periodicidad de la difusión: Trimestral, anual
+  - [Acceso a los resultados](https://www.institucionpenitenciaria.es/es/penas-y-medidas-alternativas/estadisticas-relacionadas)
+
+## Ministerio del Interior - Secretaría General de Instituciones Penitenciarias / Dirección General de Ejecución Penal y Reinserción Social - Subdirección General de Relaciones Institucionales y Coordinación Territorial
+
+- **68020 · [Estadística General de la Población Reclusa. Periodicidad Mensual (MINT)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931066776)**
+  - Sector o tema: Seguridad y justicia
+  - Subsector o subtema: Seguridad ciudadana
+  - Nivel de desagregación: Autonómico
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Conocimiento cuantitativo de la población reclusa y número de ingresos en el año
+  - Variables de estudio: Población reclusa
+  - Variables de clasificación: Sexo, grupos de edad, nacionalidad (español o extranjero), situación procesal-penal, códigos penales, tipología delictiva
+  - Periodicidad de la difusión: Mensual, anual
+  - [Acceso a los resultados](https://www.institucionpenitenciaria.es/es/web/home/fondo-documental/estadistica-penitenciaria)
+- **68021 · [Estadística de los Internos en los Centros Penitenciarios. Evolución Semanal (MINT)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931066946)**
+  - Sector o tema: Seguridad y justicia
+  - Subsector o subtema: Seguridad ciudadana
+  - Nivel de desagregación: Autonómico
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Conocimiento cuantitativo de la población reclusa
+  - Variables de estudio: Población reclusa
+  - Variables de clasificación: Sexo, situación procesal-penal
+  - Periodicidad de la difusión: Semanal
+  - [Acceso a los resultados](https://www.institucionpenitenciaria.es/es/web/home/fondo-documental/estadistica-penitenciaria)
+
+## Ministerio del Interior - Secretaría de Estado de Seguridad / Centro de Inteligencia contra el Terrorismo y el Crimen Organizado (CITCO)
+
+- **68030 · [Estadística de Tráfico de Drogas (MINT)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259930974248)**
+  - Sector o tema: Seguridad y justicia
+  - Subsector o subtema: Seguridad ciudadana
+  - Nivel de desagregación: Provincial
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Obtención de información estadística sobre el tráfico de drogas recabada por los distintos órganos competentes (Guardia Civil, Cuerpo Nacional de Policía, Dirección Adjunta de Vigilancia Aduanera y comunidades autónomas con policía autonómica)
+  - Variables de estudio: Decomisos de drogas, detenidos y/o denunciados
+  - Variables de clasificación: Fecha del hecho, cantidad incautada, número de detenidos, denunciados, nacionalidad, edad y sexo
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](https://www.interior.gob.es/opencms/es/prensa/balances-e-informes/)
+- **68052 · [Estadística sobre la Trata y la Explotación de Seres Humanos (MINT)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946001867)**
+  - Sector o tema: Seguridad y justicia
+  - Subsector o subtema: Seguridad ciudadana
+  - Nivel de desagregación: Autonómico
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Obtención de información estadística sobre la actividad reactiva y preventiva en materia de trata y explotación de seres humanos recabada por los distintos organismos competentes (Policía Nacional y Guardia Civil)
+  - Variables de estudio: Atestados policiales, inspecciones administrativas, víctimas, detenidos y personas inspeccionadas
+  - Variables de clasificación: Fecha del hecho, tipo de trata o explotación de seres humanos, rutas de la trata y acciones y medios empleados en la misma, lugares de explotación, número de detenidos, víctimas o personas inspeccionadas, nacionalidad, sexo y edad
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](https://www.interior.gob.es/opencms/es/prensa/balances-e-informes/)
+
+## Ministerio del Interior - Secretaría de Estado de Seguridad / Dirección General de Coordinación y Estudios
+
+- **68001 · [Estadística de Seguridad: Actuaciones Policiales (MINT)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931069292)**
+  - Sector o tema: Seguridad y justicia
+  - Subsector o subtema: Seguridad ciudadana
+  - Nivel de desagregación: Provincial
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Obtención de información estadística sobre seguridad ciudadana recabada por los distintos órganos competentes (Guardia Civil, Cuerpo Nacional de Policía, comunidades autónomas con policía propia y cuerpos de la Policía Local)
+  - Variables de estudio: Tipo de hecho, medios empleados, víctimas, modus operandi, número de autores, naturaleza del lugar, armas utilizadas
+  - Variables de clasificación: Fecha, hora, calificación, grado de ejecución
+  - Periodicidad de la difusión: Trimestral, anual
+  - [Acceso a los resultados](https://www.interior.gob.es/opencms/es/archivos-y-documentacion/documentacion-y-publicaciones/anuarios-y-estadisticas/anuarios-estadisticos-anteriores/)
+- **68002 · [Estadística de Seguridad: Responsables (MINT)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931069462)**
+  - Sector o tema: Seguridad y justicia
+  - Subsector o subtema: Seguridad ciudadana
+  - Nivel de desagregación: Provincial
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Obtención de información estadística sobre seguridad ciudadana recabada por los distintos órganos competentes (Guardia Civil, Cuerpo Nacional de Policía, comunidades autónomas con policía propia y cuerpos de Policía Local)
+  - Variables de estudio: Detenciones e imputaciones, participación, lesiones que presenta, antecedentes, consumo de droga y alcohol
+  - Variables de clasificación: Fecha de nacimiento, lugar de origen y residencia, sexo, edad, estado civil, situación laboral, nivel educativo
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](https://www.interior.gob.es/opencms/es/archivos-y-documentacion/documentacion-y-publicaciones/anuarios-y-estadisticas/anuarios-estadisticos-anteriores/)
+- **68025 · [Estadística del Sistema de Seguimiento Integral en los Casos de Violencia de Género (Sistema VioGén) (MINT)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259944434523)**
+  - Sector o tema: Seguridad y justicia
+  - Subsector o subtema: Seguridad ciudadana
+  - Nivel de desagregación: Provincial
+  - Ámbito territorial: Todo el territorio nacional, a excepción de Cataluña y País Vasco
+  - Objetivo general: Facilitar la medición de la incidencia de la violencia sobre la mujer en la población española así como la distribución de los casos conocidos según el nivel de riesgo estimado por los especialistas policiales responsables de la seguridad de las víctimas
+  - Variables de estudio: Casos de violencia de género, valoraciones policiales del riesgo
+  - Variables de clasificación: Situación de los casos de violencia de género (activos, supervisados, inactivos, baja y residencia en el extranjero), nivel de riesgo estimado, fuerzas policiales que tienen asignada su seguridad, evolución del número de valoraciones policiales del riesgo según tipología (VPR, VPER y VFR)
+  - Periodicidad de la difusión: Mensual
+  - [Acceso a los resultados](https://sistemaviogen.ses.mir.es/publico/viogen/estadisticas.htm)
+
+## Ministerio del Interior - Secretaría de Estado de Seguridad / Dirección General de la Guardia Civil
+
+- **68053 · [Estadística de Prevención y Actuación en Incendios Forestales (MINT)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946001878)**
+  - Sector o tema: Medio ambiente y desarrollo sostenible
+  - Subsector o subtema: Calidad, vigilancia, control y prevención del medio ambiente
+  - Nivel de desagregación: Autonómico
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Descripción y análisis de los datos relativos a incendios forestales conocidos por la Guardia Civil
+  - Variables de estudio: Incendios forestales conocidos, detenidos/investigados, fallecidos, heridos, evacuados
+  - Variables de clasificación: Momento de ocurrencia del incendio (durante el periodo de campaña o durante el resto del año)
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](https://www.interior.gob.es/opencms/es/archivos-y-documentacion/documentacion-y-publicaciones/anuarios-y-estadisticas/anuarios-estadisticos-anteriores/)
+- **68054 · [Estadística de Actuaciones de Protección del Medio Ambiente (MINT)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946001879)**
+  - Sector o tema: Medio ambiente y desarrollo sostenible
+  - Subsector o subtema: Calidad, vigilancia, control y prevención del medio ambiente
+  - Nivel de desagregación: Nacional
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Descripción y análisis de los datos relativos a la protección del medio ambiente (infracciones administrativas y penales conocidas por la Guardia Civil)
+  - Variables de estudio: Hechos conocidos, hechos esclarecidos, detenidos/investigados
+  - Variables de clasificación: Tipo de hecho, unidad actuante, calificación (delito/infracción administrativa)
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](https://www.interior.gob.es/opencms/es/archivos-y-documentacion/documentacion-y-publicaciones/anuarios-y-estadisticas/anuarios-estadisticos-anteriores/)
+- **68055 · [Estadística sobre el Control de Armas (MINT)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946001880)**
+  - Sector o tema: Seguridad y justicia
+  - Subsector o subtema: Seguridad ciudadana
+  - Nivel de desagregación: Provincial
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Obtención de información estadística sobre seguridad ciudadana en relación con el control de armas en el territorio nacional
+  - Variables de estudio: Licencias y autorizaciones de armas, expedientes tramitados de licencias y autorizaciones de armas, armas amparadas por licencia o autorización, establecimientos cuya actividad está relacionada con las armas, expedientes tramitados de circulación y comercio de armas, inspecciones, denuncias administrativas, exámenes de obtención de licencias o autorizaciones
+  - Variables de clasificación: Tipo de licencia o autorización, edad, sexo, tipo de expediente, categoría del arma, destino del arma (depósito/chatarra), tipo de establecimiento, tipo de inspección, tipo de denuncia administrativa, Cuerpo policial
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](https://www.interior.gob.es/opencms/es/archivos-y-documentacion/documentacion-y-publicaciones/anuarios-y-estadisticas/anuarios-estadisticos-anteriores/)
+- **68056 · [Estadística de Auxilio y Control del Tráfico y del Transporte (MINT)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946002614)**
+  - Sector o tema: Seguridad y justicia
+  - Subsector o subtema: Seguridad vial y accidentes de tráfico
+  - Nivel de desagregación: Provincial
+  - Ámbito territorial: Todo el territorio nacional, a excepción de Cataluña y País Vasco
+  - Objetivo general: Difusión de la actividad policial realizada por la Agrupación de Tráfico de la Guardia Civil
+  - Variables de estudio: Denuncias, intervenciones, pliegos de descargo, kilómetros recorridos, patrullas realizadas, horas invertidas en patrullas, escoltas realizadas, horas invertidas en escoltas, detenidos e investigados por delitos contra la seguridad vial, vehículos de transporte controlados
+  - Variables de clasificación: Tipo de normativa de aplicación (tráfico o transportes), tipo de intervención (auxilios o rescates), tipo de delito, sexo, tipo de transporte, nacionalidad del vehículo
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](https://www.interior.gob.es/opencms/es/archivos-y-documentacion/documentacion-y-publicaciones/anuarios-y-estadisticas/anuarios-estadisticos-anteriores/)
+- **68060 · [Estadística sobre el Control de Pirotecnia y Cartuchería (MINT)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946003378)**
+  - Sector o tema: Seguridad y justicia
+  - Subsector o subtema: Seguridad ciudadana
+  - Nivel de desagregación: Nacional
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Obtención de información estadística sobre seguridad ciudadana en relación con el control de pirotecnia y cartuchería en el territorio nacional
+  - Variables de estudio: Autorizaciones otorgadas de adquisición de cartuchería metálica, establecimientos autorizados para la fabricación y el almacenamiento de cartuchería y pirotecnia, expedientes tramitados de circulación y comercio de cartuchería y pirotecnia, inspecciones, denuncias administrativas
+  - Variables de clasificación: Tipo de usuario de la autorización, tipo de establecimiento, tipo de expediente, tipo de inspección
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](https://www.interior.gob.es/opencms/es/archivos-y-documentacion/documentacion-y-publicaciones/anuarios-y-estadisticas/anuarios-estadisticos-anteriores/)
+- **68061 · [Estadística sobre el Control de Explosivos (MINT)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946003379)**
+  - Sector o tema: Seguridad y justicia
+  - Subsector o subtema: Seguridad ciudadana
+  - Nivel de desagregación: Nacional
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Obtención de información estadística sobre seguridad ciudadana en relación con el control de explosivos en el territorio nacional
+  - Variables de estudio: Autorizaciones otorgadas para la utilización habitual de explosivos, establecimientos autorizados para la fabricación y el almacenamiento de explosivos, expedientes tramitados de circulación y comercio de explosivos, inspecciones, denuncias administrativas
+  - Variables de clasificación: Ámbito de la autorización, tipo de establecimiento, tipo de expediente, tipo de inspección
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](https://www.interior.gob.es/opencms/es/archivos-y-documentacion/documentacion-y-publicaciones/anuarios-y-estadisticas/anuarios-estadisticos-anteriores/)
+- **68062 · [Estadística de Personal de la Dirección General de la Guardia Civil (MINT)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946004145)**
+  - Sector o tema: Administraciones públicas y asociaciones
+  - Subsector o subtema: Personal de las administraciones públicas y sus retribuciones
+  - Nivel de desagregación: Nacional
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Proporcionar información sobre diferentes aspectos del personal de la Dirección General de la Guardia Civil
+  - Variables de estudio: Efectivos, oferta de empleo, puestos de trabajo, anuncios de vacantes, aspirantes, alumnos, datos generales de los cursos de perfeccionamiento, medidas de conciliación familiar y laboral
+  - Variables de clasificación: Empleo, escala, forma de acceso, situación administrativa, sexo, Cuerpo militar, grupo funcionarial/laboral, tipo de concurso, centro docente, tipo de enseñanza, tipo de medida de conciliación familiar y laboral
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](https://www.interior.gob.es/opencms/es/archivos-y-documentacion/documentacion-y-publicaciones/anuarios-y-estadisticas/anuarios-estadisticos-anteriores/)
+- **68063 · [Estadística de Actuaciones del Servicio Aéreo de la Guardia Civil (MINT)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946004146)**
+  - Sector o tema: Seguridad y justicia
+  - Subsector o subtema: Seguridad ciudadana
+  - Nivel de desagregación: Nacional
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Obtención de información estadística sobre actuaciones del Servicio Aéreo de la Guardia Civil
+  - Variables de estudio: Aeronaves, servicios, horas invertidas, personas rescatadas
+  - Variables de clasificación: Tipo de aeronave, tipo de servicio, tipo de lesión, sexo, unidad actuante
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](https://www.interior.gob.es/opencms/es/archivos-y-documentacion/documentacion-y-publicaciones/anuarios-y-estadisticas/anuarios-estadisticos-anteriores/)
+- **68064 · [Estadística de Actuaciones del Servicio de Montaña de la Guardia Civil (MINT)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946004147)**
+  - Sector o tema: Seguridad y justicia
+  - Subsector o subtema: Seguridad ciudadana
+  - Nivel de desagregación: Provincial
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Obtención de información estadística sobre accidentes y rescates en montaña
+  - Variables de estudio: Víctimas rescatadas, intervenciones
+  - Variables de clasificación: Tipo de víctima (fallecido, herido, ileso), medio de rescate, mes, día de la semana, actividad realizada, tipo de accidente, macizo montañoso, edad, tipo de guía, sexo, tipo de personal (federado, no federado), tipo de instrucción
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](https://www.interior.gob.es/opencms/es/archivos-y-documentacion/documentacion-y-publicaciones/anuarios-y-estadisticas/anuarios-estadisticos-anteriores/)
+- **68065 · [Estadística sobre Actuaciones en Materia de Resguardo Fiscal del Estado (MINT)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946004148)**
+  - Sector o tema: Seguridad y justicia
+  - Subsector o subtema: Seguridad ciudadana
+  - Nivel de desagregación: Nacional
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Obtención de información estadística sobre actuaciones en materia de Resguardo Fiscal del Estado
+  - Variables de estudio: Sustancias aprehendidas, tabaco aprehendido, personas implicadas, impuestos especiales, hidrocarburos, otras infracciones de contrabando, importaciones temporales de automóviles, especímenes protegidos, objetos sujetos a propiedad industrial/intelectual, intervenciones de medios de pago, denuncias administrativas, inspecciones
+  - Variables de clasificación: Tipo de sustancia, cantidad, valoración económica, legislación, tipo de labor del tabaco, tipo de implicación del autor, naturaleza del lugar, medio de transporte, tipo de impuesto especial, tipo de infracción, tipo de inspección
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](https://www.interior.gob.es/opencms/es/archivos-y-documentacion/documentacion-y-publicaciones/anuarios-y-estadisticas/anuarios-estadisticos-anteriores/)
+- **68066 · [Estadística de Actuaciones del Servicio Marítimo de la Guardia Civil (MINT)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946004149)**
+  - Sector o tema: Seguridad y justicia
+  - Subsector o subtema: Seguridad ciudadana
+  - Nivel de desagregación: Nacional
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Obtención de información estadística sobre actuaciones del Servicio Marítimo de la Guardia Civil
+  - Variables de estudio: Embarcaciones, millas náuticas recorridas, servicios, horas de servicio, personas rescatadas/auxiliadas, infracciones denunciadas, cursos, horas de enseñanza, objetos aprehendidos, valoración económica
+  - Variables de clasificación: Tipo de embarcación, tipo de servicio, tipo de lesión, tipo de infracción, tipo de actividad denunciada, tipo de curso, tipo de objeto
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](https://www.interior.gob.es/opencms/es/archivos-y-documentacion/documentacion-y-publicaciones/anuarios-y-estadisticas/anuarios-estadisticos-anteriores/)
+
+## Ministerio del Interior - Secretaría de Estado de Seguridad / Dirección General de la Policía
+
+- **68003 · [Documentación de Españoles (Documento Nacional de Identidad y Pasaporte) (MINT)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931069632)**
+  - Sector o tema: Seguridad y justicia
+  - Subsector o subtema: Seguridad ciudadana
+  - Nivel de desagregación: Municipal o inferior
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Explotación del Registro de españoles con documento nacional de identidad y con pasaporte
+  - Variables de estudio: Producción de documentación de españoles (DNI y pasaporte)
+  - Variables de clasificación: Tipo de equipo de expedición, tipo de trámite, sexo, unidad de documentación, edad y periodo de validez
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](https://www.interior.gob.es/opencms/es/archivos-y-documentacion/documentacion-y-publicaciones/anuarios-y-estadisticas/anuarios-estadisticos-anteriores/)
+
+## Ministerio del Interior - Secretaría de Estado de Seguridad / Dirección General de la Policía - Comisaría General de Extranjería y Fronteras
+
+- **68029 · [Estadísticas Comunitarias en el Ámbito de la Migración y la Protección Internacional (MINT)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259944608738)**
+  - Sector o tema: Demografía y población
+  - Subsector o subtema: Migraciones
+  - Nivel de desagregación: Nacional
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Información sobre prevención de entrada y estancias ilegales y retornos
+  - Variables de estudio: Expulsiones, devoluciones, readmisiones, denegaciones de entrada, otras
+  - Variables de clasificación: Edad, sexo, nacionalidad, condición de ser menor no acompañado o no y tipo de retorno
+  - Periodicidad de la difusión: Anual y trimestral
+  - [Acceso a los resultados](https://ec.europa.eu/eurostat/web/main/data/database)
+
+## Ministerio del Interior - Subsecretaría del Interior / Dirección General de Protección Civil y Emergencias - Subdirección General de Prevención, Planificación y Emergencias
+
+- **68057 · [Estadística de Emergencias Producidas en el Transporte Terrestre de Mercancías Peligrosas (MINT)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946002616)**
+  - Sector o tema: Seguridad y justicia
+  - Subsector o subtema: Protección civil
+  - Nivel de desagregación: Nacional
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Informar de los accidentes que ocurren en España en los transportes terrestres de mercancías peligrosas de tipo 2 o superior (el continente sufre desperfectos, daños, incendio o explosión, o se produce vuelco o descarrilamiento)
+  - Variables de estudio: Emergencias producidas en el transporte terrestre de mercancías peligrosas
+  - Variables de clasificación: Tipo de accidente
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](https://www.interior.gob.es/opencms/es/archivos-y-documentacion/documentacion-y-publicaciones/anuarios-y-estadisticas/anuarios-estadisticos-anteriores/)
+- **68058 · [Estadística de Fallecidos por Riesgos Naturales (MINT)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946002617)**
+  - Sector o tema: Seguridad y justicia
+  - Subsector o subtema: Protección civil
+  - Nivel de desagregación: Autonómico
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Informar de las defunciones por fenómenos naturales que ocurrren en España
+  - Variables de estudio: Fallecidos por riesgos naturales
+  - Variables de clasificación: Tipo de riesgo y sexo
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](https://www.interior.gob.es/opencms/es/archivos-y-documentacion/documentacion-y-publicaciones/anuarios-y-estadisticas/anuarios-estadisticos-anteriores/)
+- **68059 · [Estadística de Incendios Forestales a Efectos de Protección Civil (MINT)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946002618)**
+  - Sector o tema: Seguridad y justicia
+  - Subsector o subtema: Protección civil
+  - Nivel de desagregación: Nacional
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Disponer de datos de los incendios forestales ocurridos en España con intervención de medios estatales o con consecuencias sobre la población y sus bienes
+  - Variables de estudio: Incendios forestales notificados, incendios forestales con efectos de protección civil, incendios forestales con intervención de medios estatales
+  - Variables de clasificación: Mes, tipo de consecuencia de protección civil, entidad de los medios estatales intervinientes, situación operativa de emergencia declarada
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](https://www.interior.gob.es/opencms/es/archivos-y-documentacion/documentacion-y-publicaciones/anuarios-y-estadisticas/anuarios-estadisticos-anteriores/)
+
+## Ministerio del Interior - Subsecretaría del Interior / Dirección General de Protección Internacional - Subdirección General de Relaciones Institucionales e Información de Protección Internacional
+
+- **68040 · [Estadística de Población Extranjera Solicitante de Protección Internacional, Refugiados, Beneficiarios de Protección Subsidiaria, Desplazados y Apátridas (MINT)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931129735)**
+  - Sector o tema: Demografía y población
+  - Subsector o subtema: Estructura y situación de la población
+  - Nivel de desagregación: Provincial
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Mantener y difundir la serie y evolución de los datos más relevantes relativos a los procedimientos de reconocimiento de la protección internacional y del estatuto de apátrida en España
+  - Variables de estudio: Solicitantes de protección internacional (PI); decisiones sobre la admisión a trámite de las solicitudes de PI; propuestas de resolución elevadas a la Comisión Interministerial de Asilo y Refugio (CIAR); resoluciones a propuesta de la CIAR; requerimientos dirigidos a España por otros Estados parte; respuestas a los requerimientos dirigidos a España por otros Estados parte; solicitantes del estatuto de apátrida; resoluciones de las solicitudes del estatuto de apátrida; solicitudes de PI pendientes de resolución; solicitudes del estatuto de apátrida pendientes de resolución; solicitantes del Programa Nacional de Reasentamiento; solicitantes de PI menores no acompañados; recursos estimados y desestimados contra resoluciones de PI; requerimientos efectuados por España a otros Estados; respuestas a los requerimientos efectuados por España a otros Estados parte; consultas aceptadas dirigidas a España por otros Estados parte; consultas aceptadas efectuadas por España a otros Estados parte; estatutos de apátrida concedidos por sentencia
+  - Variables de clasificación: Sexo, edad, país de origen, lugar de presentación de la solicitud, tipo de decisión, estado miembro
+  - Periodicidad de la difusión: Mensual, trimestral, anual
+  - [Acceso a los resultados](https://proteccion-asilo.interior.gob.es/es/datos-e-informacion-estadistica/)
+
+## Ministerio del Interior - Subsecretaría del Interior / Dirección General de Tráfico - Observatorio Nacional de Seguridad Vial
+
+- **70041 · [Estadística de Matriculación de Vehículos (MINT)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931067116)**
+  - Sector o tema: Transporte y actividades conexas
+  - Subsector o subtema: Transporte terrestre
+  - Nivel de desagregación: Provincial
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Conocimiento de los vehículos que se dan de alta en la circulación y sus características, así como su incidencia en el parque de vehículos
+  - Variables de estudio: Matriculación de vehículos
+  - Variables de clasificación: Tipo de vehículo, servicio a que se destina, procedencia, marca, año de matriculación, potencia, masa máxima autorizada, carga para el caso de los tipos de vehículos asociados al transporte de mercancías, número de plazas para los vehículos de transporte de viajeros y propulsión
+  - Periodicidad de la difusión: Mensual, anual
+  - [Acceso a los resultados](https://www.dgt.es/menusecundario/dgt-en-cifras/dgt-en-cifras-resultados/dgt-en-cifras-detalle/Matriculaciones-Tablas-estadisticas-2024/)
+- **70042 · [Estadística de Transferencia de Vehículos (MINT)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931067279)**
+  - Sector o tema: Transporte y actividades conexas
+  - Subsector o subtema: Transporte terrestre
+  - Nivel de desagregación: Provincial
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Conocimiento de los cambios de titularidad de los vehículos según tipo
+  - Variables de estudio: Transferencia de vehículos
+  - Variables de clasificación: Tipo de vehículo, provincia de formalización, provincia de matriculación
+  - Periodicidad de la difusión: Mensual, anual
+  - [Acceso a los resultados](https://www.dgt.es/menusecundario/dgt-en-cifras/dgt-en-cifras-resultados/dgt-en-cifras-detalle/Cambios-de-titularidad-Tablas-estadisticas-2024/)
+- **70043 · [Estadística de Bajas de Vehículos (MINT)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931067442)**
+  - Sector o tema: Transporte y actividades conexas
+  - Subsector o subtema: Transporte terrestre
+  - Nivel de desagregación: Provincial
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Conocimiento de los vehículos que son retirados de la circulación y sus características
+  - Variables de estudio: Baja de los vehículos
+  - Variables de clasificación: Tipo de vehículo, año de matriculación, motivo de la baja, potencia, cilindrada, carga, plazas y propulsión
+  - Periodicidad de la difusión: Mensual, anual
+  - [Acceso a los resultados](https://www.dgt.es/menusecundario/dgt-en-cifras/dgt-en-cifras-resultados/?categorias=/Tema/Vehiculos/)
+- **70044 · [Estadística del Parque Nacional de Vehículos (MINT)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931067605)**
+  - Sector o tema: Transporte y actividades conexas
+  - Subsector o subtema: Transporte terrestre
+  - Nivel de desagregación: Municipal o inferior
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Análisis del número de vehículos en circulación, su composición y características técnicas
+  - Variables de estudio: Vehículos
+  - Variables de clasificación: Tipo de vehículo, propulsión, potencia, año de matriculación, carga en el caso de los tipos de vehículos asociados al transporte de mercancías, número de plazas para los vehículos de transporte de viajeros y el número de ruedas en el caso de los ciclomotores
+  - Periodicidad de la difusión: Mensual, anual
+  - [Acceso a los resultados](https://www.dgt.es/menusecundario/dgt-en-cifras/)
+- **70045 · [Estadística de Exámenes para la Obtención de Permisos y Licencias de Conducción (MINT)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931067768)**
+  - Sector o tema: Seguridad y justicia
+  - Subsector o subtema: Seguridad vial y accidentes de tráfico
+  - Nivel de desagregación: Provincial
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Conocimiento del número de personas que solicitan la obtención de un permiso o licencia de conducción y número de exámenes que realizan hasta obtenerlos
+  - Variables de estudio: Presentaciones a exámenes
+  - Variables de clasificación: Edad y sexo de los examinados, tipo de pruebas realizadas, resultado de las pruebas, tipo de permiso
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](https://www.dgt.es/menusecundario/dgt-en-cifras/dgt-en-cifras-resultados/?categorias=/Tema/Conductores/)
+- **70046 · [Estadística de Expedición y Revisión de Permisos y Licencias para Conducir (MINT)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931067936)**
+  - Sector o tema: Seguridad y justicia
+  - Subsector o subtema: Seguridad vial y accidentes de tráfico
+  - Nivel de desagregación: Provincial
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Conocimiento del número de personas que obtienen o revisan un permiso o licencia de conducción, sexo y edad de los titulares de los permisos y características de los permisos
+  - Variables de estudio: Expediciones y revisiones de permisos y licencias para conducir
+  - Variables de clasificación: Tipo de permiso, sexo, edad
+  - Periodicidad de la difusión: Mensual
+  - [Acceso a los resultados](https://www.dgt.es/menusecundario/dgt-en-cifras/dgt-en-cifras-resultados/?categorias=/Tema/Conductores/)
+- **70048 · [Estadística de Accidentes de Tráfico con Víctimas (MINT)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931068274)**
+  - Sector o tema: Seguridad y justicia
+  - Subsector o subtema: Seguridad vial y accidentes de tráfico
+  - Nivel de desagregación: Municipal o inferior
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Conocimiento de los accidentes de tráfico con víctimas, con especificación de las circunstancias que concurren en ellos y sus consecuencias
+  - Variables de estudio: Accidentes de circulación con víctimas, muertes, heridos graves y leves
+  - Variables de clasificación: Zona de ocurrencia del accidente, características de la vía, condiciones meteorológicas, tipo de vehículo, tipo de usuario, edad y sexo de los usuarios y de las víctimas
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](https://www.dgt.es/menusecundario/dgt-en-cifras/dgt-en-cifras-resultados/?categorias=/Tema/Siniestros-de-trafico/)
+- **70049 · [Estadística de Denuncias por Infracciones de Tráfico (MINT)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931068442)**
+  - Sector o tema: Seguridad y justicia
+  - Subsector o subtema: Seguridad vial y accidentes de tráfico
+  - Nivel de desagregación: Provincial
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Información sobre las denuncias por infracciones al Código de la circulación
+  - Variables de estudio: Denuncias por infracción de tráfico
+  - Variables de clasificación: Mes, tipo de vehículo infractor, precepto legal infringido, carretera donde se produjo la infracción
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](https://www.dgt.es/menusecundario/dgt-en-cifras/dgt-en-cifras-resultados/?categorias=/Tema/Conductores/)
+- **70051 · [Censo de Conductores (MINT)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931068780)**
+  - Sector o tema: Seguridad y justicia
+  - Subsector o subtema: Seguridad vial y accidentes de tráfico
+  - Nivel de desagregación: Municipal o inferior
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Conocimiento del número de personas que poseen un permiso de conducir vigente y sus características
+  - Variables de estudio: Titulares de un permiso de conducción inscrito en el Registro de Conductores e Infractores, permisos de conducción
+  - Variables de clasificación: Edad y sexo de los titulares de los permisos, tipologías y antigüedad de los permisos
+  - Periodicidad de la difusión: Mensual, trimestral
+  - [Acceso a los resultados](https://www.dgt.es/menusecundario/dgt-en-cifras/dgt-en-cifras-resultados/?categorias=/Tema/Conductores/)
+
+## Ministerio del Interior - Subsecretaría del Interior / Secretaría General Técnica - Subdirección General de Asociaciones, Archivos y Documentación
+
+- **68008 · [Anuario Estadístico del Ministerio del Interior (MINT)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931065428)**
+  - Sector o tema: Seguridad y justicia
+  - Subsector o subtema: Indicadores, síntesis y recopilaciones en seguridad y justicia
+  - Nivel de desagregación: Provincial
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Recopilación y difusión de operaciones estadísticas responsabilidad del Ministerio del Interior y de datos relacionados con su actividad
+  - Variables de estudio: De carácter general del sector
+  - Variables de clasificación: Propias del sector
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](https://www.interior.gob.es/opencms/es/archivos-y-documentacion/documentacion-y-publicaciones/anuarios-y-estadisticas/anuarios-estadisticos-anteriores/)
+- **68010 · [Estadística de Asociaciones (MINT)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931065763)**
+  - Sector o tema: Administraciones públicas y asociaciones
+  - Subsector o subtema: Asociaciones
+  - Nivel de desagregación: Provincial
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Conocimiento del movimiento asociativo en España de ámbito nacional y de las asociaciones declaradas de utilidad pública
+  - Variables de estudio: Altas en el Registro Nacional de Asociaciones (RNA), entidades asociativas inscritas en el RNA en activo, declaraciones de utilidad pública realizadas por el Ministerio del Interior, declaraciones de utilidad pública realizadas por el Ministerio del Interior vigentes y revocaciones de utilidad pública realizadas por el Ministerio del Interior
+  - Variables de clasificación: Sección, ámbito, fines sociales, comunidad autónoma del domicilio social, provincia del domicilio social, año de inscripción en el Registro Nacional de Asociaciones, año de la declaración de utilidad pública y año de la revocación de utilidad pública
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](https://www.interior.gob.es/opencms/es/archivos-y-documentacion/documentacion-y-publicaciones/anuarios-y-estadisticas/anuarios-estadisticos-anteriores/)
+
+## Ministerio para la Transformación Digital y de la Función Pública - Secretaría de Estado de Función Pública / Agencia Estatal de Administración Digital - Departamento de Gestión Económica y Presupuestaria y Asuntos Generales
+
+- **80039 · [Estadística de Presupuestos de Tecnologías de la Información y las Comunicaciones en la Administración del Estado (MTDF)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931210587)**
+  - Sector o tema: Tecnologías de la información y las comunicaciones (TIC)
+  - Subsector o subtema: Tecnologías de la información y las comunicaciones
+  - Nivel de desagregación: Nacional
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Estudio del presupuesto destinado a Tecnologías de la Información y las Comunicaciones por parte de los ministerios y sus organismos públicos y entidades de derecho público vinculados o dependientes, en base a los Presupuestos Generales del Estado iniciales
+  - Variables de estudio: Presupuesto de gastos, capítulos 1, 2 y 6 (miles de euros)
+  - Variables de clasificación: Secciones presupuestarias, capítulos y conceptos presupuestarios y funciones presupuestarias
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](http://administracionelectronica.gob.es/pae_Home/pae_OBSAE/pae_Informes/pae_PresupTICAdminEstado/pae_PrepDescarga.html)
+
+## Ministerio para la Transformación Digital y de la Función Pública - Secretaría de Estado de Función Pública / Agencia Estatal de Administración Digital - Departamento de Nuevos Servicios Innovadores
+
+- **80022 · [Las Tecnologías de la Información y las Comunicaciones en las Administraciones Públicas (MTDF)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931106167)**
+  - Sector o tema: Tecnologías de la información y las comunicaciones (TIC)
+  - Subsector o subtema: Tecnologías de la información y las comunicaciones
+  - Nivel de desagregación: Nacional
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Conocimiento de los medios técnicos y humanos en el área de tecnologías de la información y las comunicaciones de la Administración del Estado (Administración General de Estado y sus organismos públicos y entidades de derecho público vinculados o dependientes), así como las infraestructuras existentes. Conocimiento del grado de implantación de la administración electrónica en el territorio nacional
+  - Variables de estudio: Inversiones en comunicaciones, en infraestructuras hardware y software, en puestos informáticos y en servicios en los Organismos del Estado, en la Administración General de Estado y sus Organismos Públicos y Entidades de derecho Público vinculados o dependientes
+  - Variables de clasificación: Parque informático instalado. Avance de la Administración electrónica en las comunidades autónomas y estratos de municipios según tamaño
+  - Periodicidad de la difusión: Anual o bienal según dominios
+  - [Acceso a los resultados](http://administracionelectronica.gob.es/pae_Home/pae_OBSAE/pae_Informes/pae_InformeREINA/pae_InfDescarga.html)
+
+## Ministerio para la Transformación Digital y de la Función Pública - Secretaría de Estado de Función Pública / Dirección General de la Función Pública - Subdirección General de Datos para el Empleo Público
+
+- **80024 · [Estadística del Personal al Servicio de las Administraciones Públicas (MTDF)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931106340)**
+  - Sector o tema: Administraciones públicas y asociaciones
+  - Subsector o subtema: Personal de las administraciones públicas y sus retribuciones
+  - Nivel de desagregación: Provincial
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Disponer de manera ágil de información actualizada sobre los recursos humanos de las Administraciones Públicas con un doble propósito: por un lado, dotar a los órganos competentes en materia de función pública de información para la planificación y gestión del empleo público y, por otro, presentar información a la ciudadanía de forma transparente y accesible. La población objeto de estudio es el personal al servicio de las Administraciones Públicas, contemplado como el conjunto de los efectivos que prestan sus servicios en distintos órganos y entes del sector público estatal, autonómico y local. No se incluyen en la estadística cargos electos, altos cargos; magistrados, jueces y fiscales ni personal al servicio de los Órganos Constitucionales, así como órganos equivalentes en las Comunidades Autónomas. Tampoco se incluyen determinados tipos de entes como sociedades mercantiles, consorcios o fundaciones o de otros entes con dotación diferenciada del sector público del Estado; personal del sector público institucional de las Comunidades Autónomas y de la Administración Local, con excepción de los organismos autónomos ni personal del Centro Nacional de Inteligencia
+  - Variables de estudio: Tipo o clase de personal, subclase de personal, modalidad de relación de servicios, puesto de trabajo, edad, sexo, distribución territorial, régimen de protección social, temporalidad, tipo de temporalidad, grado y tipo de discapacidad
+  - Variables de clasificación: Tipo de Administración, tipo de Organismos, área y subárea de la Administración, fuente de datos y distribución territorial
+  - Periodicidad de la difusión: Mensual y semestral
+  - [Acceso a los resultados](https://digital.gob.es/funcion-publica/dgfp/registro-central-personal/boletin)
+
+## Ministerio para la Transformación Digital y de la Función Pública - Secretaría de Estado de Función Pública / Mutualidad General de Funcionarios Civiles del Estado O.A.
+
+- **80040 · [Titulares y beneficiarios/as de la Mutualidad de Funcionarios Civiles del Estado (MTDF)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946004144)**
+  - Sector o tema: Administraciones públicas y asociaciones
+  - Subsector o subtema: Entes, medios y actividad de las administraciones públicas
+  - Nivel de desagregación: Nacional
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Dar a conocer el colectivo protegido por la Mutualidad, disgregado entre en personas titulares y beneficiarias
+  - Variables de estudio: Número de personas titulares y número de personas beneficiarias del Mutualismo administrativo y la suma de ambas
+  - Periodicidad de la difusión: Anual
+
+## Ministerio para la Transición Ecológica y el Reto Demográfico - Secretaría General para el Reto Demográfico / Dirección General de Políticas contra la Despoblación - Subdirección General de Análisis, Planificación y Ayudas contra la Despoblación
+
+- **23033 · [Estadística de Diversidad de Especies Silvestres (MTED)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259945998279)**
+  - Sector o tema: Medio ambiente y desarrollo sostenible
+  - Subsector o subtema: Recursos naturales y su utilización y rehabilitación
+  - Nivel de desagregación: Nacional
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Proporcionar información sobre las especies silvestres en territorio español, su estado de conservación y grado de amenaza al que están sometidas, con especial atención a las incluidas en el Listado de Especies Silvestres en Régimen de Protección Especial (LESRPE) y en el Catálogo Español de Especies Amenazadas (CEEA) con el fin de adoptar medidas para su protección
+  - Variables de estudio: Taxones en estado silvestre, evolución de la población de aves comunes según los principales ecosistemas presentes en España
+  - Variables de clasificación: Grupos taxonómicos, nivel de protección según las categorías internacionalmente reconocidas así como en las categorías establecidas en la legislación nacional (incluidas en el CEEA y/o en el LESPE), con o sin planes de conservación o de recuperación aprobados
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](https://iepnb.gob.es/nuestros-datos/indicadores/indicadores-iepnb)
+- **23101 · [Indicador Multidimensional de Situación y Sinopsis Territorial (INSISTE) (MTED)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946001874)**
+  - Sector o tema: Nivel, calidad y condiciones de vida
+  - Subsector o subtema: Indicadores, síntesis y recopilaciones en el ámbito social
+  - Nivel de desagregación: Municipal o inferior
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Elaborar un indicador que tenga en cuenta diferentes dimensiones y que dé respuesta a la demanda existente de especificar los criterios de las zonas de prioridad demográfica
+  - Variables de estudio: Se tendrán en cuenta diferentes dimensiones (demográfica, servicios, socioeconómica, medioambiental, etc.) y dentro de cada una de las dimensiones se definirán una serie de variables específicas
+  - Periodicidad de la difusión: Anual
+
+## Ministerio para la Transición Ecológica y el Reto Demográfico - Secretaría de Estado de Energía / Dirección General de Planificación y Coordinación Energética - Subdirección General de Prospectiva y Estadísticas Energéticas
+
+- **08002 · [Estadística de Destilación de Carbones (Mensual) (MTED)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931089532)**
+  - Sector o tema: Extracción de productos energéticos y energía en general
+  - Subsector o subtema: Producción energética, distribución y consumo de productos energéticos
+  - Nivel de desagregación: Nacional
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Conocimiento de la producción de las coquerías
+  - Variables de estudio: Producción y destino del coque, gases de coquería y horno alto, balance de carbones
+  - Periodicidad de la difusión: Mensual
+  - [Acceso a los resultados](https://www.miteco.gob.es/es/energia/estrategia-normativa/balances/publicaciones/destilacion-carbon-mensuales.html)
+- **08003 · [Estadística de Destilación de Carbones (Anual) (MTED)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931089700)**
+  - Sector o tema: Extracción de productos energéticos y energía en general
+  - Subsector o subtema: Producción energética, distribución y consumo de productos energéticos
+  - Nivel de desagregación: Provincial
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Conocimiento de la producción de las coquerías
+  - Variables de estudio: Producción del coque, gases de coquería y horno alto, alquitranes y otros derivados, destino de los suministros, aprovisionamiento, existencias y consumo de carbones por tipo
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](https://www.miteco.gob.es/es/energia/estrategia-normativa/balances/publicaciones/destilacion-carbon-anuales.html)
+- **08006 · [Estadística de Industrias del Gas (Suministro al Mercado Interior) (MTED)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931089868)**
+  - Sector o tema: Extracción de productos energéticos y energía en general
+  - Subsector o subtema: Producción energética, distribución y consumo de productos energéticos
+  - Nivel de desagregación: Nacional
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Conocimiento de la distribución y consumo de gases combustibles
+  - Variables de estudio: Balance de gases: producción, importaciones, exportaciones y consumo. Suministros desagregados
+  - Variables de clasificación: Tipos de gas
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](https://www.miteco.gob.es/es/energia/estrategia-normativa/balances/publicaciones/gas-natural-anual.html)
+- **08011 · [Estadística de Refinerías de Petróleo (Mensual) (MTED)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931090372)**
+  - Sector o tema: Extracción de productos energéticos y energía en general
+  - Subsector o subtema: Producción energética, distribución y consumo de productos energéticos
+  - Nivel de desagregación: Nacional
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Conocimiento de la producción de las refinerías de petróleo
+  - Variables de estudio: Balance de crudo: producción, importaciones, y total procesado. Producción de refinería por tipo de producto
+  - Periodicidad de la difusión: Mensual
+  - [Acceso a los resultados](https://www.miteco.gob.es/es/energia/estrategia-normativa/balances/publicaciones/estadisticas-petroleo.html)
+- **08012 · [Estadística de Refinerías de Petróleo (Anual) (MTED)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931090540)**
+  - Sector o tema: Extracción de productos energéticos y energía en general
+  - Subsector o subtema: Producción energética, distribución y consumo de productos energéticos
+  - Nivel de desagregación: Nacional
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Conocimiento de la producción de las refinerías de petróleo
+  - Variables de estudio: Balance de crudo: producción, importaciones, y total procesado. Producción de refinería por tipo de producto
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](https://www.miteco.gob.es/es/energia/estrategia-normativa/balances/publicaciones/estadisticas-petroleo.html)
+- **08016 · [Estadística de Industria de Energía Eléctrica (Mensual) (MTED)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931091056)**
+  - Sector o tema: Extracción de productos energéticos y energía en general
+  - Subsector o subtema: Producción energética, distribución y consumo de productos energéticos
+  - Nivel de desagregación: Nacional
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Conocimiento de la producción de energía eléctrica
+  - Variables de estudio: Balance eléctrico: aprovisionamientos, consumos y producción de electricidad bruta y neta
+  - Variables de clasificación: Tipo de central y tipo de combustible
+  - Periodicidad de la difusión: Mensual
+  - [Acceso a los resultados](https://www.miteco.gob.es/es/energia/estrategia-normativa/balances/publicaciones/electricas-mensuales.html)
+- **08017 · [Estadística de Industria de Energía Eléctrica (Anual) (MTED)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931091226)**
+  - Sector o tema: Extracción de productos energéticos y energía en general
+  - Subsector o subtema: Producción energética, distribución y consumo de productos energéticos
+  - Nivel de desagregación: Nacional
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Conocimiento de la producción anual de energía eléctrica
+  - Variables de estudio: Balance eléctrico: aprovisionamientos, consumos y producción de electricidad bruta y neta. Energía eléctrica comercializada y precios en cliente final
+  - Variables de clasificación: Tipo de central y tipo de combustible. Tarifa y tipo de consumidor
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](https://www.miteco.gob.es/es/energia/estrategia-normativa/balances/publicaciones/electricas-anuales.html)
+- **10001 · [Boletín de Coyuntura Energética (Trimestral) (MTED)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931091396)**
+  - Sector o tema: Extracción de productos energéticos y energía en general
+  - Subsector o subtema: Indicadores, síntesis y recopilaciones energéticas
+  - Nivel de desagregación: Nacional
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Conocimiento de la evolución de las principales magnitudes energéticas
+  - Variables de estudio: Balance energético provisional: producción, importaciones, exportaciones y consumo
+  - Variables de clasificación: Tipo de producto
+  - Periodicidad de la difusión: Trimestral
+  - [Acceso a los resultados](https://www.miteco.gob.es/es/energia/estrategia-normativa/balances/coyuntura-trimestral.html)
+- **10002 · [Balance Energético (Anual) (MTED)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931091561)**
+  - Sector o tema: Extracción de productos energéticos y energía en general
+  - Subsector o subtema: Indicadores, síntesis y recopilaciones energéticas
+  - Nivel de desagregación: Nacional
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Conocimiento del balance energético nacional
+  - Variables de estudio: Balance energético: producción, importaciones, exportaciones y consumo
+  - Variables de clasificación: Tipo de producto
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](https://www.miteco.gob.es/es/energia/estrategia-normativa/balances/balances.html)
+- **23103 · [Estadística Anual de Energías Renovables y Residuos (MTED)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946003367)**
+  - Sector o tema: Extracción de productos energéticos y energía en general
+  - Subsector o subtema: Producción energética, distribución y consumo de productos energéticos
+  - Nivel de desagregación: Provincial
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Conocimiento de la producción, transformación y consumo anual de energías renovables y residuos
+  - Variables de estudio: Balance de energías renovables y residuos: aprovisionamientos, consumos, importaciones, exportaciones y producción. Asimismo, potencia y capacidad instalada por tipo de fuente renovable o de residuos
+  - Variables de clasificación: Instalación o central, provincia, comunidad autónoma, zona climática para las bombas de calor aerotérmicas, y sectores de producción y/o consumo
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](https://www.miteco.gob.es/gl/ministerio/servicios/estadisticas/estadisticas-de-energia/estadisticas-de-productos-energeticos/estadisticas-de-energias-renovables-y-residuos.html)
+- **23104 · [Estadística Anual de Hidrógeno (MTED)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946003368)**
+  - Sector o tema: Extracción de productos energéticos y energía en general
+  - Subsector o subtema: Producción energética, distribución y consumo de productos energéticos
+  - Nivel de desagregación: Nacional
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Conocimiento de la producción y consumo anual de hidrógeno
+  - Variables de estudio: Balance de hidrógeno: aprovisionamientos, consumos y producción, así como capacidad instalada para producción y almacenamiento
+  - Variables de clasificación: País de origen y destino, canales de producción, distribución y sectores de consumo
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](https://www.miteco.gob.es/eu/ministerio/servicios/estadisticas/estadisticas-de-energia/estadisticas-de-productos-energeticos/estadisticas-de-hidrogeno.html)
+- **23105 · [Estadística Anual de Biomasa (MTED)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946003369)**
+  - Sector o tema: Extracción de productos energéticos y energía en general
+  - Subsector o subtema: Producción energética, distribución y consumo de productos energéticos
+  - Nivel de desagregación: Provincial
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Conocimiento de la producción y consumo anual de biomasa
+  - Variables de estudio: Producción, importaciones, exportaciones y existencias de biomasa
+  - Variables de clasificación: Provincia, comunidad autónoma, y combustibles según los requisitos del epígrafe m) de la Parte 1 del Anexo IX del reglamento (UE) 2018/1999 del Parlamento Europeo y del Consejo de 11 de diciembre de 2018 sobre la gobernanza de la Unión de la Energía y de la Acción por el Clima
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](https://www.miteco.gob.es/eu/ministerio/servicios/estadisticas/estadisticas-de-energia/estadisticas-de-productos-energeticos/estadisticas-de-biomasa.html)
+- **23106 · [Estadística Anual de Autoconsumo y Almacenamiento Energético (MTED)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946003370)**
+  - Sector o tema: Extracción de productos energéticos y energía en general
+  - Subsector o subtema: Producción energética, distribución y consumo de productos energéticos
+  - Nivel de desagregación: Provincial
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Conocimiento del autoconsumo y almacenamiento energético anual
+  - Variables de estudio: Producción y potencia eléctrica de instalaciones de autoconsumo y almacenamiento
+  - Variables de clasificación: Sectores de consumo, modalidad de autoconsumo, distribución provincial
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](https://www.miteco.gob.es/eu/ministerio/servicios/estadisticas/estadisticas-de-energia/estadisticas-de-consumo-y-almacenamiento-energetico/estadisticas-de-consumo-y-almacenamiento-energetico.html)
+- **23107 · [Estadística Anual de Consumo Energético Residencial (MTED)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946003371)**
+  - Sector o tema: Extracción de productos energéticos y energía en general
+  - Subsector o subtema: Producción energética, distribución y consumo de productos energéticos
+  - Nivel de desagregación: Nacional
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Conocimiento del consumo anual en el sector residencial por combustible y usos/servicios
+  - Variables de estudio: Consumos de productos energéticos
+  - Variables de clasificación: Consumo por usos del sector residencial, tipo de electrodoméstico y tipo de energía
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](https://www.miteco.gob.es/eu/ministerio/servicios/estadisticas/estadisticas-de-energia/estadisticas-de-consumo-y-almacenamiento-energetico/estadisticas-de-consumo-energetico-residencial.html)
+- **23108 · [Estadística Anual de Consumo Energético en la Industria (MTED)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946003372)**
+  - Sector o tema: Extracción de productos energéticos y energía en general
+  - Subsector o subtema: Producción energética, distribución y consumo de productos energéticos
+  - Nivel de desagregación: Nacional
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Conocimiento del consumo anual en el sector industrial por combustible y usos
+  - Variables de estudio: Consumos de combustibles
+  - Variables de clasificación: Usos en el consumo industrial según clasificación requerida en el Reglamento (UE) 2022/132 de la Comisión de 28 de enero de 2022
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](https://www.miteco.gob.es/es/ministerio/servicios/estadisticas/estadisticas-de-energia/estadisticas-de-consumo-y-almacenamiento-energetico/estadisticas-de-consumo-energetico-industrial.html)
+- **23109 · [Estadística Anual de Consumo Energético en Sector Servicios (MTED)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946003392)**
+  - Sector o tema: Extracción de productos energéticos y energía en general
+  - Subsector o subtema: Producción energética, distribución y consumo de productos energéticos
+  - Nivel de desagregación: Nacional
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Conocimiento del consumo anual en el sector servicios por combustible y usos
+  - Variables de estudio: Consumos de combustibles
+  - Variables de clasificación: Usos en el sector servicios según clasificación requerida en el Reglamento (UE) 2022/132 de la Comisión de 28 de enero de 2022
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](https://www.miteco.gob.es/es/ministerio/servicios/estadisticas/estadisticas-de-energia/estadisticas-de-consumo-y-almacenamiento-energetico/estadisticas-de-consumo-energetico-sector-servicios.html)
+
+## Ministerio para la Transición Ecológica y el Reto Demográfico - Secretaría de Estado de Energía / Dirección General de Política Energética y Minas - Subdirección General de Hidrocarburos y Nuevos Combustibles
+
+- **08013 · [Estadística del Mercado de Productos Petrolíferos (Mensual) (MTED)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931090708)**
+  - Sector o tema: Extracción de productos energéticos y energía en general
+  - Subsector o subtema: Producción energética, distribución y consumo de productos energéticos
+  - Nivel de desagregación: Provincial
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Generar información relevante sobre el sector de productos petrolíferos y cumplir las obligaciones mensuales de información a la Agencia Internacional de la Energía y a la Unión Europea en relación con el abastecimiento de crudo y existencias mínimas de seguridad
+  - Variables de estudio: Producción; importaciones, exportaciones y existencias de crudo, productos petrolíferos y biocarburantes; consumos de productos petrolíferos y biocarburantes
+  - Variables de clasificación: País de origen y destino, canales de distribución y sectores de consumo
+  - Periodicidad de la difusión: Mensual
+  - [Acceso a los resultados](https://www.miteco.gob.es/fr/ministerio/servicios/estadisticas/estadisticas-de-energia/estadisticas-de-productos-energeticos/estadisticas-sobre-productos-petroliferos.html)
+- **08014 · [Estadística del Mercado de Productos Petrolíferos (Anual) (MTED)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931090882)**
+  - Sector o tema: Extracción de productos energéticos y energía en general
+  - Subsector o subtema: Producción energética, distribución y consumo de productos energéticos
+  - Nivel de desagregación: Provincial
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Generar información relevante sobre el sector de productos petrolíferos y cumplir las obligaciones anuales de información a la Agencia Internacional de la Energía y a la Unión Europea en relación con el abastecimiento de crudo y existencias mínimas de seguridad
+  - Variables de estudio: Producción; importaciones, exportaciones y existencias de crudo, productos petrolíferos y biocarburantes; consumos de productos petrolíferos y biocarburantes
+  - Variables de clasificación: País de origen y destino, canales de distribución y sectores de consumo
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](https://www.miteco.gob.es/fr/ministerio/servicios/estadisticas/estadisticas-de-energia/estadisticas-de-productos-energeticos/estadisticas-sobre-productos-petroliferos.html)
+- **08051 · [Información sobre Precios de Carburantes en Estaciones de Servicio (Mensual) (MTED)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931152361)**
+  - Sector o tema: Precios
+  - Subsector o subtema: Precios de las distintas actividades sectoriales
+  - Nivel de desagregación: Provincial
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Informar con la máxima transparencia sobre los precios de venta al público de los carburantes en las estaciones de servicio de España, mediante información detallada, actualizada y bien organizada
+  - Variables de estudio: Precio medio mensual de venta al público por litro de las gasolinas y los gasóleos de automoción
+  - Variables de clasificación: Carburante (gasolinas 95 o gasóleo A), mes
+  - Periodicidad de la difusión: Mensual
+  - [Acceso a los resultados](https://www.miteco.gob.es/es/energia/hidrocarburos-nuevos-combustibles/petroleo/informes/informes-mensuales.html)
+- **08052 · [Información sobre Precios de Carburantes en Estaciones de Servicio (Anual) (MTED)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931152187)**
+  - Sector o tema: Precios
+  - Subsector o subtema: Precios de las distintas actividades sectoriales
+  - Nivel de desagregación: Provincial
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Informar con la máxima transparencia sobre los precios de venta al público de los carburantes en las estaciones de servicio de España, mediante información detallada, actualizada y bien organizada
+  - Variables de estudio: Precio medio mensual de venta al público por litro de las gasolinas y los gasóleos de automoción
+  - Variables de clasificación: Carburante (gasolinas 95 o gasóleo A), año
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](https://www.miteco.gob.es/es/energia/hidrocarburos-nuevos-combustibles/petroleo/informes/informes-anuales.html)
+- **08054 · [Estadística sobre el Mercado de Gas Natural (Mensual) (MTED)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946000403)**
+  - Sector o tema: Extracción de productos energéticos y energía en general
+  - Subsector o subtema: Producción energética, distribución y consumo de productos energéticos
+  - Nivel de desagregación: Autonómico
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Generar información relevante sobre el sector de gas natural y cumplir las obligaciones de información a la Agencia Internacional de la Energía y a la Unión Europea en relación con el abastecimiento de gas natural
+  - Variables de estudio: Producción de gas natural, importaciones y exportaciones de gas natural, existencias de gas natural, consumos y número de clientes de gas natural
+  - Variables de clasificación: Consumo de gas natural según su uso (Convencional o Sector eléctrico), Consumo de gas natural y número de clientes según el grupo de presión (Grupo 1, Grupo 2, Grupo 3, GNL consumo directo), Importaciones de gas natural (por puntos de entrada, por países de origen), Exportaciones de gas natural (por puntos de salida, por países de destino, Existencias de gas natural (en plantas de regasificación, en almacenamientos subterráneos, gas útil, gas colchón)
+  - Periodicidad de la difusión: Mensual
+  - [Acceso a los resultados](https://www.cores.es/es/estadisticas)
+- **08055 · [Estadística de Información sobre Precios de Importación de Crudo (MTED)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946000404)**
+  - Sector o tema: Precios
+  - Subsector o subtema: Precios de las distintas actividades sectoriales
+  - Nivel de desagregación: Nacional
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Informar con la máxima transparencia sobre los precios y volúmenes de importación de crudo de petróleo
+  - Variables de estudio: Precio medio mensual de las importaciones de crudo en España en forma de precio CIF ($/barril de petróleo o $/tonelada de petróleo) y el volumen total mensual importado de petróleo crudo (en toneladas o en barriles de petróleo)
+  - Variables de clasificación: Tipo de petróleo crudo y área geográfica (país de origen)
+  - Periodicidad de la difusión: Mensual
+  - [Acceso a los resultados](https://www.cores.es/es/publicaciones)
+
+## Ministerio para la Transición Ecológica y el Reto Demográfico - Secretaría de Estado de Energía / Dirección General de Política Energética y Minas - Subdirección General de Minas
+
+- **08020 · [Estadística de Extracción de Carbones (Anual) (MTED)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931091901)**
+  - Sector o tema: Minería e industria
+  - Subsector o subtema: Extracción de minerales
+  - Nivel de desagregación: Provincial
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Conocimiento de la producción de carbones
+  - Variables de estudio: Explotaciones, personal ocupado por clase y sexo, horas trabajadas y costes de personal, producción por producto (cantidad y valor), existencias, destino de los productos, potencia instalada, materias primas, explosivos, energía consumida, inversiones
+  - Variables de clasificación: Tipo de carbón, tamaño del establecimiento
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](https://www.miteco.gob.es/es/ministerio/servicios/estadisticas/estadisticas-de-minas/estadistica-minera-y-de-explotacion-de-las-aguas.html)
+- **08023 · [Estadística de Extracción de Minerales no Metálicos ni Energéticos (MTED)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931092076)**
+  - Sector o tema: Minería e industria
+  - Subsector o subtema: Extracción de minerales
+  - Nivel de desagregación: Provincial
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Conocimiento de la producción de minerales no metálicos ni energéticos
+  - Variables de estudio: Explotaciones, personal ocupado por clase y sexo, horas trabajadas y coste de personal, potencia instalada, explosivos y otros insumos, energía consumida, otros gastos, inversiones de capital, productos obtenidos (cantidad y valor), destino de la producción
+  - Variables de clasificación: Tipo de producto, tamaño del establecimiento
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](https://www.miteco.gob.es/es/ministerio/servicios/estadisticas/estadisticas-de-minas/estadistica-minera-y-de-explotacion-de-las-aguas.html)
+- **08036 · [Estadística de Aguas Minerales y Termales (MTED)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931130061)**
+  - Sector o tema: Minería e industria
+  - Subsector o subtema: Extracción de minerales
+  - Nivel de desagregación: Autonómico
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Conocimiento de las explotaciones de aguas minerales y termales
+  - Variables de estudio: Naturaleza de los manantiales o puntos de agua, caudal captado y volumen de agua embotellada, balnearios
+  - Variables de clasificación: Tipo de agua y provincias
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](https://aguasmineralesytermales.igme.es/datos-estadisticos)
+- **08037 · [Estadística de Extracción de Minerales Metálicos (MTED)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931138400)**
+  - Sector o tema: Minería e industria
+  - Subsector o subtema: Extracción de minerales
+  - Nivel de desagregación: Provincial
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Conocimiento de la producción de minerales metálicos
+  - Variables de estudio: Explotaciones, personal ocupado por clase, horas trabajadas, mineral bruto extraído por clase o tipo, producción vendible y existencias por productos, ley de la producción vendible, potencia instalada, materias primas, explosivos y otros insumos, energía
+  - Variables de clasificación: Clase de mineral metálico, ley, tamaño del establecimiento
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](https://www.miteco.gob.es/es/ministerio/servicios/estadisticas/estadisticas-de-minas/estadistica-minera-y-de-explotacion-de-las-aguas.html)
+- **08038 · [Estadística de Extracción de Petróleo y Gas (MTED)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931138750)**
+  - Sector o tema: Minería e industria
+  - Subsector o subtema: Extracción de minerales
+  - Nivel de desagregación: Provincial
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Conocimiento de la producción de petróleo y gas
+  - Variables de estudio: Explotaciones, personal ocupado por clase y sexo, horas trabajadas y costes de personal, producción por producto (cantidad y valor), existencias, destino de los productos, potencia instalada, materias primas, explosivos, energía consumida, inversiones
+  - Variables de clasificación: Tipo de hidrocarburo, tamaño del establecimiento
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](https://www.miteco.gob.es/es/ministerio/servicios/estadisticas/estadisticas-de-minas/estadistica-minera-y-de-explotacion-de-las-aguas.html)
+- **08039 · [Estadística de Extracción de Petróleo y Gas (Mensual) (MTED)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931138575)**
+  - Sector o tema: Minería e industria
+  - Subsector o subtema: Extracción de minerales
+  - Nivel de desagregación: Provincial
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Conocimiento de la producción de petróleo y gas
+  - Variables de estudio: Producción, existencias, demanda neta, sector de destino
+  - Variables de clasificación: Tipo de hidrocarburo
+  - Periodicidad de la difusión: Mensual
+
+## Ministerio para la Transición Ecológica y el Reto Demográfico - Secretaría de Estado de Medio Ambiente / Agencia Estatal de Meteorología
+
+- **23093 · [Estadística de las Variables Meteorofenológicas (MTED)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931125136)**
+  - Sector o tema: Medio ambiente y desarrollo sostenible
+  - Subsector o subtema: Clima y meteorología
+  - Nivel de desagregación: Municipal o inferior
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Disponer de valores estadísticos (medios, normales, extremos y desviaciones) de los elementos del clima para describirlo y diagnosticar su variabilidad espacial y temporal
+  - Variables de estudio: Temperatura del aire, precipitación, humedad, ocurrencia de meteoros, insolación, radiación global, evaporación, viento, presión, visibilidad, temperatura del suelo, fenología de especies animales y vegetales
+  - Periodicidad de la difusión: Mensual, anual
+  - [Acceso a los resultados](https://www.aemet.es/es/datos_abiertos/estadisticas/estadistica_meteorofenologicas)
+- **23094 · [Estadística de Composición Química de la Atmósfera (MTED)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259945998277)**
+  - Sector o tema: Medio ambiente y desarrollo sostenible
+  - Subsector o subtema: Clima y meteorología
+  - Nivel de desagregación: Otros : Estaciones de Medida
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Describir y caracterizar las variaciones y tendencias en la concentración de algunos contaminantes atmosféricos medidos en estaciones cuya ubicación se encuentra suficientemente alejada de las fuentes emisoras
+  - Variables de estudio: Concentraciones de masa medidas en cada una de las estaciones de la red de los siguientes contaminantes: ozono (O3), dióxido de azufre (SO2), dióxido de nitrógeno (NO2), monóxido de nitrógeno (NO), amonios, nitratos, material particulado (PM10), sulfato (PM10) y nitrato (PM10)
+  - Variables de clasificación: Variaciones temporales de la concentración de CO2, de la concentración de gases reactivos y de la concentración de aerosoles en atmósfera libre
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](https://www.aemet.es/es/datos_abiertos/estadisticas/composicion_quimica_atmosfera)
+- **23095 · [Balance Hídrico (MTED)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259945998278)**
+  - Sector o tema: Medio ambiente y desarrollo sostenible
+  - Subsector o subtema: Clima y meteorología
+  - Nivel de desagregación: Otros : Grandes cuencas hidrográficas
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Describir y caracterizar la precipitación, la evapotranspiración de referencia y el contenido de humedad en el suelo, en función de un Balance Hídrico climatológico diario
+  - Variables de estudio: Precipitación diaria, evapotranspiración de referencia de Penmann-Monteith calculada a partir de información de temperatura, viento, presión, humedad relativa del aire e insolación y humedad del suelo como porcentaje a partir de balance hídrico
+  - Periodicidad de la difusión: Semanal, mensual
+  - [Acceso a los resultados](https://www.aemet.es/es/datos_abiertos/estadisticas/balance_hidrico)
+- **23096 · [Estadística de Fenómenos Meteorológicos Adversos (MTED)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259945998276)**
+  - Sector o tema: Medio ambiente y desarrollo sostenible
+  - Subsector o subtema: Clima y meteorología
+  - Nivel de desagregación: Provincial
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Describir y caracterizar la distribución mensual/anual de la ocurrencia de ciertos fenómenos meteorológicos adversos en las diferentes provincias. Es decir, la frecuencia en número de días al mes o año de superación de umbrales de determinadas variables meteorológicas, inusuales desde el punto de vista climatológico, a la vez que suficientemente adversas para poder afectar a la seguridad de las personas y a los bienes materiales
+  - Variables de estudio: Precipitación acumulada en 1 y 12 horas, rachas de viento, temperaturas máxima y mínima diarias
+  - Periodicidad de la difusión: Mensual, anual
+  - [Acceso a los resultados](https://www.aemet.es/es/datos_abiertos/estadisticas/fenomenos_meteorologicos_adversos)
+- **23097 · [Índice Meteorológico del Riesgo de Incendio (MTED)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259945998274)**
+  - Sector o tema: Medio ambiente y desarrollo sostenible
+  - Subsector o subtema: Clima y meteorología
+  - Nivel de desagregación: Provincial
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Disponer de valores estadísticos en cada provincia del índice meteorológico de riesgo de incendio medio en cada una de las clases o niveles (bajo, moderado, alto, muy alto y extremo), y sus series diarias
+  - Variables de estudio: Nivel medio diario del riesgo de incendio forestal, obtenido a partir del índice FWI, calculado para cada provincia (Fire Weather Index)
+  - Variables de clasificación: Nivel de riesgo de incendio
+  - Periodicidad de la difusión: Diaria
+  - [Acceso a los resultados](https://www.aemet.es/es/datos_abiertos/estadisticas/riesgo_incendios)
+- **23098 · [Estadística de Vigilancia del Clima (MTED)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259945998275)**
+  - Sector o tema: Medio ambiente y desarrollo sostenible
+  - Subsector o subtema: Clima y meteorología
+  - Nivel de desagregación: Provincial
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Dar una visión general del comportamiento de las temperaturas y de las precipitaciones particularizada para todo el territorio nacional, así como para las áreas correspondientes a comunidades autónomas y provincias, caracterizando el comportamiento climático en su variabilidad espacial y temporal en relación con sus valores normales.
+  - Variables de estudio: Temperatura del aire, máxima, mínima y media diaria. Acumulaciones de precipitación diaria
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](https://www.aemet.es/es/web/datos_abiertos/estadisticas/vigilancia_clima)
+
+## Ministerio para la Transición Ecológica y el Reto Demográfico - Secretaría de Estado de Medio Ambiente / Dirección General de Biodiversidad, Bosques y Desertificación - Subdirección General de Biodiversidad Terrestre y Marina
+
+- **23031 · [Espacios Naturales o de Interés (MTED)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931144147)**
+  - Sector o tema: Medio ambiente y desarrollo sostenible
+  - Subsector o subtema: Recursos naturales y su utilización y rehabilitación
+  - Nivel de desagregación: Autonómico
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Conocimiento del número y superficie de espacios protegidos (dirigido a establecer medidas de conservación de los valores del patrimonio natural español por los que fueron declarados), de la caracterización de los usos del suelo (principalmente de los ecosistemas naturales: forestales, humedales, etc.) y de los instrumentos de planificación y de gestión
+  - Variables de estudio: Número y superficie de espacios protegidos, sus instrumentos de planificación y gestión, así como la caracterización de sus principales ecosistemas
+  - Variables de clasificación: Área Protegida (según categorías internaciones de la UICN); Superficie por ecosistemas
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](https://iepnb.gob.es/nuestros-datos/indicadores/indicadores-iepnb)
+
+## Ministerio para la Transición Ecológica y el Reto Demográfico - Secretaría de Estado de Medio Ambiente / Dirección General de Biodiversidad, Bosques y Desertificación - Subdirección General de Política Forestal y Lucha contra la Desertificación
+
+- **01029 · [Estadística Anual de Cortas de Madera (MTED)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931127020)**
+  - Sector o tema: Agricultura, ganadería, selvicultura y caza
+  - Subsector o subtema: Selvicultura y caza
+  - Nivel de desagregación: Provincial
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Obtención de datos a nivel provincial sobre las extracciones anuales de madera y leña de los montes españoles, clasificadas según especies arbóreas y tipo de propiedad (pública o privada). Así mismo, se ofrecen datos sobre el valor económico de esta producción
+  - Variables de estudio: Volumen de madera y leña extraída y destino
+  - Variables de clasificación: Especies y titularidad del monte
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](https://www.miteco.gob.es/es/biodiversidad/estadisticas/forestal_estad_anual_cortas_madera.html)
+- **01030 · [Estadística Anual de Otros Aprovechamientos Forestales (MTED)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931127190)**
+  - Sector o tema: Agricultura, ganadería, selvicultura y caza
+  - Subsector o subtema: Selvicultura y caza
+  - Nivel de desagregación: Provincial
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Obtención de información sobre la generación de productos y beneficios económicos distintos a la madera y la leña. Algunos de estos productos, como el corcho, los piñones, las castañas, las trufas, las setas o la resina, tienen una relevancia considerable en el mercado, tanto nacional como internacional
+  - Variables de estudio: Producción de corcho, resina, frutos, hongos, etc.
+  - Variables de clasificación: Producto y titularidad del monte
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](https://www.miteco.gob.es/es/biodiversidad/estadisticas/forestal_anual_otros_aprovechamientos.html)
+- **01069 · [Estadística Anual de Proyectos y Actuaciones Forestales (MTED)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931127360)**
+  - Sector o tema: Agricultura, ganadería, selvicultura y caza
+  - Subsector o subtema: Selvicultura y caza
+  - Nivel de desagregación: Provincial
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Obtención de información sobre las repoblaciones forestales efectuadas según objetivos, especies y tipo de propiedad. Estas actuaciones tienen como objetivo volver a revegetar las zonas incendiadas o cortadas, densificar la masa boscosa o establecer bosques en zonas desarboladas
+  - Variables de estudio: Superficies repobladas por especies y propiedad de la superficie
+  - Variables de clasificación: Especies
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](https://www.miteco.gob.es/es/biodiversidad/estadisticas/forestal_anual_proyectos_actuaciones.html)
+- **01070 · [Cuentas Económicas Nacionales de la Selvicultura (MTED)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931127535)**
+  - Sector o tema: Cuentas económicas
+  - Subsector o subtema: Cuentas satélite
+  - Nivel de desagregación: Nacional
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Proporcionar una descripción cuantitativa coherente del conjunto de la rama de la actividad forestal en España. Se establecen macromagnitudes utilizadas como indicadores de resultados económicos anuales de la actividad silvícola
+  - Variables de estudio: Valoración de macromagnitudes (metodología SEC - 95)
+  - Variables de clasificación: Grupos de productos y consumos intermedios
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](https://www.miteco.gob.es/es/biodiversidad/estadisticas/cuentas_selvicultura.html)
+- **01085 · [Estadística Anual de Caza (MTED)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931127871)**
+  - Sector o tema: Agricultura, ganadería, selvicultura y caza
+  - Subsector o subtema: Selvicultura y caza
+  - Nivel de desagregación: Provincial
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Obtener información relativa a la caza como aprovechamiento y actividad recreativa. Se incluyen las licencias de caza expedidas, las capturas por especie, la superficie de los distintos tipos de terrenos cinegéticos, y otras actuaciones relacionadas, así como beneficios económicos complementarios generados
+  - Variables de estudio: Licencias expedidas y vigentes, capturas de especies cinegéticas, sueltas de especies cinegéticas, producción de especies cinegéticas, terrenos cinegéticos
+  - Variables de clasificación: Especies cinegéticas, terrenos cinegéticos
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](https://www.miteco.gob.es/es/biodiversidad/estadisticas/est_anual_caza.html)
+- **01086 · [Estadística Anual de Pesca Fluvial (MTED)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931128046)**
+  - Sector o tema: Pesca y acuicultura
+  - Subsector o subtema: Acuicultura y pesca fluvial
+  - Nivel de desagregación: Provincial
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Obtener información relativa a la pesca fluvial como aprovechamiento y actividad recreativa. Se incluyen las licencias de pesca expedidas, las capturas por especie, la superficie de masas de aprovechamiento piscícola y otras actuaciones relacionadas, así como beneficios económicos complementarios generados
+  - Variables de estudio: Licencias expedidas y vigentes, capturas de especies piscícolas, sueltas de especies piscícolas, masas de aprovechamiento piscícola
+  - Variables de clasificación: Especies piscícolas, masas de aprovechamiento piscícola
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](https://www.miteco.gob.es/es/biodiversidad/estadisticas/est_anual_pesca_fluvial.html)
+- **01124 · [Balance Nacional de la Madera (MTED)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931128221)**
+  - Sector o tema: Agricultura, ganadería, selvicultura y caza
+  - Subsector o subtema: Indicadores, síntesis y recopilaciones agrarias
+  - Nivel de desagregación: Nacional
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Analizar los flujos de la madera en rollo en el mercado nacional, considerando las cifras de extracción de madera, así como las cifras de comercio exterior (importaciones y exportaciones) y el consumo de madera realizado por la industria de primera transformación (pasta, tablero, sierra, chapa, bioenergía, postes)
+  - Variables de estudio: Producción, utilización, stocks, autoabastecimiento
+  - Variables de clasificación: Tipo de producto
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](https://www.miteco.gob.es/es/biodiversidad/estadisticas/forestal_balance_nacional_madera.html)
+- **01137 · [LIGNUM. Sistema Estatal de Información sobre el Comercio de la Madera (MTED)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946000383)**
+  - Sector o tema: Agricultura, ganadería, selvicultura y caza
+  - Subsector o subtema: Selvicultura y caza
+  - Nivel de desagregación: Autonómico
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Obtener información estadística sobre el comercio de la madera y sobre los agentes y comerciantes que aprovechan, importan o realizan compra-venta de madera y productos de la madera, así como cualquier otra información relevante para asegurar su legalidad. LIGNUM recoge los datos sobre las licencias FLEGT recibidas en España, las declaraciones responsables que presentan los agentes cada año y los controles EUTR realizados por las autoridades competentes a los agentes
+  - Variables de estudio: Licencias FLEGT, agentes EUTR, productos de madera declarados, controles EUTR
+  - Variables de clasificación: Productos de madera importados con licencia FLEGT (tipos de producto, pesos, especies de madera). Agentes EUTR (número, tipología). Comercialización de productos según las declaraciones responsables (cantidades, países de origen)
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](https://www.miteco.gob.es/es/biodiversidad/estadisticas/lignum-info.html)
+- **04001 · [Inventario Forestal Nacional (MTED)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931126335)**
+  - Sector o tema: Agricultura, ganadería, selvicultura y caza
+  - Subsector o subtema: Selvicultura y caza
+  - Nivel de desagregación: Provincial
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Obtención de información sobre la situación, régimen de propiedad y protección, naturaleza, estado legal, probable evolución y capacidad productora de todo tipo de bienes de los montes españoles, así como su biodiversidad
+  - Variables de estudio: Superficies, existencias, crecimientos e indicadores de las masas forestales, incluidos los indicadores de biodiversidad
+  - Variables de clasificación: Hectáreas, árboles, volúmenes de madera y leña, crecimiento de las masas arbóreas, especies fanerógamas y criptógamas, cantidad de hábitats estudiados, cantidad de madera muerta e indicadores de fragmentación
+  - Periodicidad de la difusión: Decenal - Últimos datos: 2008 - 2018
+  - [Acceso a los resultados](https://www.miteco.gob.es/es/biodiversidad/temas/inventarios-nacionales/inventario-forestal-nacional.html)
+- **04002 · [Estadística de Incendios Forestales (MTED)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931126505)**
+  - Sector o tema: Medio ambiente y desarrollo sostenible
+  - Subsector o subtema: Calidad, vigilancia, control y prevención del medio ambiente
+  - Nivel de desagregación: Provincial
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Recoger datos homogéneos a nivel nacional de todos los incendios forestales ocurridos. Disponible en avances informativos, elaborados con datos provisionales, y en estadísticas definitivas, obtenidas tras procesar más de 150 campos de información de los partes de incendio forestal
+  - Variables de estudio: Extensión, características, circunstancias y causas de los incendios forestales
+  - Variables de clasificación: Superficie afectada, medios de extinción empleados, pérdidas causadas por los incendios
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](https://www.miteco.gob.es/es/ministerio/servicios/estadisticas/estadisticas-forestales/incendios-forestales.html)
+- **04004 · [Inventario Nacional del Estado de Salud de los Bosques (MTED)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931126680)**
+  - Sector o tema: Medio ambiente y desarrollo sostenible
+  - Subsector o subtema: Calidad, vigilancia, control y prevención del medio ambiente
+  - Nivel de desagregación: Autonómico
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Evaluar el estado y la evolución de las masas forestales europeas con arreglo a una serie de metodologías y protocolos estandarizados para toda Europa
+  - Variables de estudio: Parámetros de defoliación y decoloración y posibles agentes causantes, suelos y análisis foliares
+  - Variables de clasificación: Grados posibles de afección y agentes dañinos probables, variables de estación
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](https://www.miteco.gob.es/es/biodiversidad/temas/inventarios-nacionales/redes-europeas-seguimiento-bosques.html)
+- **04006 · [Inventario Nacional de Erosión de Suelos (MTED)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931126850)**
+  - Sector o tema: Medio ambiente y desarrollo sostenible
+  - Subsector o subtema: Calidad, vigilancia, control y prevención del medio ambiente
+  - Nivel de desagregación: Provincial
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Obtener información Geográfica homogénea sobre procesos erosivos para toda España
+  - Variables de estudio: Pérdidas de suelo por unidad de superficie y tiempo
+  - Variables de clasificación: Niveles erosivos, torrencialidad, presencia de procesos erosivos
+  - Periodicidad de la difusión: Decenal
+  - [Acceso a los resultados](https://www.miteco.gob.es/es/biodiversidad/temas/inventarios-nacionales/inventario-nacional-erosion-suelos.html)
+- **23030 · [Estadística sobre Gestión Forestal Sostenible (MTED)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931143972)**
+  - Sector o tema: Agricultura, ganadería, selvicultura y caza
+  - Subsector o subtema: Selvicultura y caza
+  - Nivel de desagregación: Autonómico
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Organización, administración y uso de los montes de forma que permita mantener su biodiversidad, productividad, vitalidad, potencialidad y capacidad de regeneración, para atender, ahora y en el futuro, sus múltiples funciones ecológicas, económicas y sociales
+  - Variables de estudio: Superficie forestal con instrumento de ordenación, número de montes con instrumento de ordenación, superficie forestal certificada por un sistema internacional de certificación, certificados de cadena de custodia emitidos
+  - Variables de clasificación: Tipo de titularidad del monte
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](https://www.miteco.gob.es/es/biodiversidad/estadisticas/forestal_gestion_sostenible.html)
+- **23051 · [Inventario Nacional de Sumideros de Carbono (MTED)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931139432)**
+  - Sector o tema: Medio ambiente y desarrollo sostenible
+  - Subsector o subtema: Calidad, vigilancia, control y prevención del medio ambiente
+  - Nivel de desagregación: Nacional
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Cuantificar el efecto de 'sumidero de carbono' que realizan las masas boscosas, a efectos de cumplimiento del protocolo de Kyoto
+  - Variables de estudio: Toneladas de carbono "secuestrado" por los árboles
+  - Variables de clasificación: Superficie forestal arbolada, coeficientes de paso para el cálculo de biomasa arbolada
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](https://www.miteco.gob.es/es/cambio-climatico/temas/sumideros-de-carbono.html)
+
+## Ministerio para la Transición Ecológica y el Reto Demográfico - Secretaría de Estado de Medio Ambiente / Dirección General de Calidad y Evaluación Ambiental - Subdirección General de Prevención de la Contaminación
+
+- **23041 · [Estadística de Calidad del Aire (MTED)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931124792)**
+  - Sector o tema: Medio ambiente y desarrollo sostenible
+  - Subsector o subtema: Calidad, vigilancia, control y prevención del medio ambiente
+  - Nivel de desagregación: Otros : Territorios representados por cada sensor
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Dar una visión general de la calidad del aire en España siguiendo los criterios establecidos por la normativa nacional y de la Unión Europea y por los convenios internacionales firmados por España
+  - Variables de estudio: Concentración de contaminantes en el aire ambiente, aerosoles y precipitación
+  - Variables de clasificación: Estadísticos de contaminantes de calidad del aire en relación con los valores legislados, para las estaciones de toda España: dióxido de azufre (SO2); dióxido de nitrógeno (NO2) óxidos de nitrógeno (NOx); partículas en suspensión de tamaño inferior a 10 µm (PM10); partículas en suspensión de tamaño inferior a 2,5 µm (PM2,5); plomo (Pb); benceno (C6H6), monóxido de carbono (CO); ozono (O3); arsénico (As); cadmio (Cd); níquel (Ni); y benzo(a)pireno (B(a)P). Estadísticos de agregación y evolución histórica a nivel zona de calidad del aire en relación con los valores legislados. Además en las estaciones de fondo de la Red EMEP/VAG/CAMP se incluyen estadísticos de: metales pesados en aire ambiente, mercurio gaseoso total, hidrocarburos aromáticos policíclicos (HAP) distintos al B(a)P en aire ambiente, depósitos totales de metales pesados y depósitos totales de HAP
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](https://www.miteco.gob.es/es/ministerio/servicios/estadisticas/estadisticas-de-calidad-y-evaluacion-ambiental/estadistica-de-calidad-del-aire.html)
+- **23042 · [Inventario de Emisiones Contaminantes a la Atmósfera (MTED)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931124964)**
+  - Sector o tema: Medio ambiente y desarrollo sostenible
+  - Subsector o subtema: Calidad, vigilancia, control y prevención del medio ambiente
+  - Nivel de desagregación: Autonómico
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Conocer la cantidad de contaminantes emitidos a la atmósfera por los diferentes sectores de actividad y su evolución
+  - Variables de estudio: Masa de gases de efecto invernadero y otros contaminantes atmosféricos emitidos a la atmósfera
+  - Variables de clasificación: Sectores de actividad (nomenclaturas específicas SNAP, CFR y NFR), tipos de contaminantes, CO2, CH4, N2O, HFC, PFC, SF6, NOx, SOx, NH3, CO, COVNM, PM10, PM2,5, BC, metales pesados, PAH, HCB, PCB, dioxinas, combustibles, metodologías del Convenio de Ginebra (manuales EMEP/EEA) y del Convenio Marco de Cambio Climático (manuales IPCC)
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](https://www.miteco.gob.es/es/ministerio/servicios/estadisticas/estadisticas-de-calidad-y-evaluacion-ambiental/inventario-de-emisiones-contaminantes-a-la-atmosfera.html)
+- **23099 · [Registro Estatal de Emisiones y Fuentes Contaminantes, PRTR-ESPAÑA (MTED)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946001866)**
+  - Sector o tema: Medio ambiente y desarrollo sostenible
+  - Subsector o subtema: Calidad, vigilancia, control y prevención del medio ambiente
+  - Nivel de desagregación: Nacional
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: El Registro Estatal de Emisiones y Fuentes Contaminantes, PRTR-España, es un inventario de información ambiental que pone a disposición del público información sobre las emisiones a la atmósfera, al agua y al suelo de las sustancias contaminantes y datos de transferencias de residuos fuera del emplazamiento que los genera, en los sectores industriales otras fuentes puntuales y difusas, de acuerdo a lo establecido en la legislación internacional (Protocolo de Kiev y Convenio de Aarhus), europea (Reglamento E-PRTR) y nacional (Real Decreto 508/2007 y modificaciones posteriores). Además permite obtener series cronológicas sobre la evolución de las emisiones en función del contaminante/sustancia, dando así cumplimiento a la normativa internacional y nacional referida, convenios internacionales, y a las obligaciones de reporte del Reino de España en el ámbito de la UE en esta materia
+  - Variables de estudio: Sustancias contaminantes, según la lista incluida en el Anexo del RD 508/2007 emitidos a la atmósfera, al agua al suelo y transferencias de residuos fuera del emplazamiento con destino dentro o fuera del territorio nacional (clasificados LER, 'Lista Europea de Residuos' y correspondencia clasificación CER-STAT), de acuerdo a la normativa de aplicación PRTR
+  - Variables de clasificación: Establecimientos, complejos, instalaciones, y plantas industriales con su empresa matriz, ubicación geográfica con coordenadas, demarcación hidrográfica. Actividades industriales según DEI y clasificación PRTR ,emisiones de sustancias contaminantes y transferencia de residuos incluidas las accidentales; contaminantes (Reglamento (CE) 166/2006 y RD815/2013) o residuos (LER), según sea el caso; cada uno de los medios ambientales (atmósfera, agua, tierra) receptores del contaminante; transferencias de residuos fuera del emplazamiento y destino de las mismas; vertidos de agua directos e indirectos; Información de fuentes difusas; Datos del propietario o titular del complejo/instalación o planta; combustibles (nomenclatura NAPFUE). Estas variables son conforme a la Directiva INSPIRE, sobre información georreferenciada
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](https://www.miteco.gob.es/es/ministerio/servicios/estadisticas/estadisticas-de-calidad-y-evaluacion-ambiental/prtr-espana.html)
+
+## Ministerio para la Transición Ecológica y el Reto Demográfico - Secretaría de Estado de Medio Ambiente / Dirección General de Calidad y Evaluación Ambiental - Subdirección General de Residuos
+
+- **23008 · [Estadística de Envases y Residuos de Envases (MTED)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931128561)**
+  - Sector o tema: Medio ambiente y desarrollo sostenible
+  - Subsector o subtema: Producción, gestión y reciclaje de residuos
+  - Nivel de desagregación: Nacional
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Recabar información sobre la generación y gestión de envases y residuos de envases como base para la evaluación de la calidad ambiental de la Unión Europea y dar cumplimiento a otros acuerdos internacionales y a la legislación nacional
+  - Variables de estudio: Cantidad (en número y toneladas) de envases y productos envasados y residuos de envases producidos (en número y toneladas), tipología, envases reutilizables según tipología, envases gestionados dentro del Estado, residuos de envases exportados e importados, comercio intracomunitario
+  - Variables de clasificación: Año, gestión
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](https://www.miteco.gob.es/es/ministerio/servicios/estadisticas/estadisticas-de-calidad-y-evaluacion-ambiental/estadistica-de-envases-y-residuos-de-envases.html)
+- **23102 · [Cuantificación de los Residuos Alimentarios del Sector Primario (MTED)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946002624)**
+  - Sector o tema: Medio ambiente y desarrollo sostenible
+  - Subsector o subtema: Producción, gestión y reciclaje de residuos
+  - Nivel de desagregación: Nacional
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Cuantificar los residuos alimentarios generados por el sector primario en el Estado español
+  - Variables de estudio: Datos de producción anual y cantidad de residuos alimentarios generados
+  - Variables de clasificación: Tamaño de la empresa y CNAE-2009 principal y secundario de la empresa
+  - Periodicidad de la difusión: Anual
+
+## Ministerio para la Transición Ecológica y el Reto Demográfico - Secretaría de Estado de Medio Ambiente / Dirección General del Agua - Subdirección General de Protección de las Aguas y Gestión de Riesgos
+
+- **10041 · [Seguimiento del Estado Cuantitativo de las Aguas Subterráneas (MTED)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931113584)**
+  - Sector o tema: Medio ambiente y desarrollo sostenible
+  - Subsector o subtema: Recursos naturales y su utilización y rehabilitación
+  - Nivel de desagregación: Otros : Demarcaciones hidrográficas
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Control de los recursos de agua almacenados en acuíferos de recarga natural y del vaciado (natural y por extracción)
+  - Variables de estudio: Profundidad del nivel del agua en la red piezométrica
+  - Variables de clasificación: Índices de llenado por unidades hidrogeológicas y demarcaciones hidrográficas
+  - Periodicidad de la difusión: Mensual, anual
+  - [Acceso a los resultados](https://www.miteco.gob.es/es/ministerio/servicios/estadisticas/estadisticas-de-agua/seguimiento-del-estado-cuantitativo-de-las-aguas-subterraneas.html)
+- **10042 · [Seguimiento del Estado Químico de las Aguas Subterráneas (MTED)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931125991)**
+  - Sector o tema: Medio ambiente y desarrollo sostenible
+  - Subsector o subtema: Calidad, vigilancia, control y prevención del medio ambiente
+  - Nivel de desagregación: Otros : Demarcaciones hidrográficas
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Control general de la evolución de la calidad del agua subterránea
+  - Variables de estudio: Parámetros físico-químicos
+  - Variables de clasificación: Estado químico de cada masa de agua
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](https://www.miteco.gob.es/es/ministerio/servicios/estadisticas/estadisticas-de-agua/seguimiento-del-estado-quimico-de-las-aguas-subterraneas.html)
+- **21021 · [Seguimiento del Estado de las Aguas Superficiales (MTED)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931126163)**
+  - Sector o tema: Medio ambiente y desarrollo sostenible
+  - Subsector o subtema: Calidad, vigilancia, control y prevención del medio ambiente
+  - Nivel de desagregación: Otros : Demarcaciones hidrográficas
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Información sobre el estado de las masas de agua continentales superficiales
+  - Variables de estudio: Parámetros físicos-químicos, biológicos e hidromorfológicos
+  - Variables de clasificación: Estado químico y ecológico de cada masa de agua
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](https://www.miteco.gob.es/es/ministerio/servicios/estadisticas/estadisticas-de-agua/seguimiento-del-estado-de-las-aguas-superficiales.html)
+- **21041 · [Estadística de Embalses y Producible de Energía Hidroeléctrica (MTED)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931113756)**
+  - Sector o tema: Extracción de productos energéticos y energía en general
+  - Subsector o subtema: Producción energética, distribución y consumo de productos energéticos
+  - Nivel de desagregación: Otros : Confederaciones hidrográficas
+  - Ámbito territorial: Todo el territorio nacional
+  - Objetivo general: Conocer la situación y producción hidroeléctrica de todos los embalses de España
+  - Variables de estudio: Nombre del embalse, río, capacidad total, capacidad útil, energía propia, energía repercutida, sistema de explotación a que pertenece, uso (consuntivo o hidroeléctrico)
+  - Variables de clasificación: Recursos hídricos, embalses y energía
+  - Periodicidad de la difusión: Anual
+  - [Acceso a los resultados](https://www.miteco.gob.es/es/ministerio/servicios/estadisticas/estadisticas-de-agua/estadistica-de-embalses-y-producible-de-energia-hidroelectrica.html)

@@ -1,0 +1,3824 @@
+{
+  "head": {
+    "link": [],
+    "vars": [
+      "publisher",
+      "name",
+      "datasets"
+    ]
+  },
+  "results": {
+    "distinct": false,
+    "ordered": true,
+    "bindings": [
+      {
+        "publisher": {
+          "type": "uri",
+          "value": "http://datos.gob.es/recurso/sector-publico/org/Organismo/A05003423"
+        },
+        "name": {
+          "type": "literal",
+          "xml:lang": "es",
+          "value": "Instituto Canario de Estadística (ISTAC)"
+        },
+        "datasets": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "value": "22880"
+        }
+      },
+      {
+        "publisher": {
+          "type": "uri",
+          "value": "http://datos.gob.es/recurso/sector-publico/org/Organismo/EA0042823"
+        },
+        "name": {
+          "type": "literal",
+          "xml:lang": "es",
+          "value": "Instituto Nacional de Estadística"
+        },
+        "datasets": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "value": "21805"
+        }
+      },
+      {
+        "publisher": {
+          "type": "uri",
+          "value": "http://datos.gob.es/recurso/sector-publico/org/Organismo/A04027063"
+        },
+        "name": {
+          "type": "literal",
+          "xml:lang": "es",
+          "value": "Instituto de Estadística de las Islas Baleares (IBESTAT)"
+        },
+        "datasets": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "value": "14436"
+        }
+      },
+      {
+        "publisher": {
+          "type": "uri",
+          "value": "http://datos.gob.es/recurso/sector-publico/org/Organismo/A16003011"
+        },
+        "name": {
+          "type": "literal",
+          "xml:lang": "es",
+          "value": "Comunidad Autónoma del País Vasco"
+        },
+        "datasets": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "value": "9416"
+        }
+      },
+      {
+        "publisher": {
+          "type": "uri",
+          "value": "http://datos.gob.es/recurso/sector-publico/org/Organismo/EA0041268"
+        },
+        "name": {
+          "type": "literal",
+          "xml:lang": "es",
+          "value": "Agencia Estatal Consejo Superior de Investigaciones Científicas"
+        },
+        "datasets": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "value": "7169"
+        }
+      },
+      {
+        "publisher": {
+          "type": "uri",
+          "value": "http://datos.gob.es/recurso/sector-publico/org/Organismo/I00000687"
+        },
+        "name": {
+          "type": "literal",
+          "xml:lang": "es",
+          "value": "Parlamento de Canarias"
+        },
+        "datasets": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "value": "4621"
+        }
+      },
+      {
+        "publisher": {
+          "type": "uri",
+          "value": "http://datos.gob.es/recurso/sector-publico/org/Organismo/A13002908"
+        },
+        "name": {
+          "type": "literal",
+          "xml:lang": "es",
+          "value": "Comunidad de Madrid"
+        },
+        "datasets": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "value": "2655"
+        }
+      },
+      {
+        "publisher": {
+          "type": "uri",
+          "value": "http://datos.gob.es/recurso/sector-publico/org/Organismo/EA0040772"
+        },
+        "name": {
+          "type": "literal",
+          "xml:lang": "es",
+          "value": "Centro de Investigaciones Sociológicas"
+        },
+        "datasets": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "value": "2586"
+        }
+      },
+      {
+        "publisher": {
+          "type": "uri",
+          "value": "http://datos.gob.es/recurso/sector-publico/org/Organismo/A02002834"
+        },
+        "name": {
+          "type": "literal",
+          "xml:lang": "es",
+          "value": "Gobierno de Aragón"
+        },
+        "datasets": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "value": "2034"
+        }
+      },
+      {
+        "publisher": {
+          "type": "uri",
+          "value": "http://datos.gob.es/recurso/sector-publico/org/Organismo/A15002917"
+        },
+        "name": {
+          "type": "literal",
+          "xml:lang": "es",
+          "value": "Comunidad Foral de Navarra"
+        },
+        "datasets": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "value": "1947"
+        }
+      },
+      {
+        "publisher": {
+          "type": "uri",
+          "value": "http://datos.gob.es/recurso/sector-publico/org/Organismo/L02000020"
+        },
+        "name": {
+          "type": "literal",
+          "xml:lang": "es",
+          "value": "Diputación Foral de Gipuzkoa"
+        },
+        "datasets": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "value": "1849"
+        }
+      },
+      {
+        "publisher": {
+          "type": "uri",
+          "value": "http://datos.gob.es/recurso/sector-publico/org/Organismo/A09002970"
+        },
+        "name": {
+          "type": "literal",
+          "xml:lang": "es",
+          "value": "Generalitat de Catalunya"
+        },
+        "datasets": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "value": "1429"
+        }
+      },
+      {
+        "publisher": {
+          "type": "uri",
+          "value": "http://datos.gob.es/recurso/sector-publico/org/Organismo/L01290672"
+        },
+        "name": {
+          "type": "literal",
+          "xml:lang": "es",
+          "value": "Ayuntamiento de Málaga"
+        },
+        "datasets": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "value": "1375"
+        }
+      },
+      {
+        "publisher": {
+          "type": "uri",
+          "value": "http://datos.gob.es/recurso/sector-publico/org/Organismo/A10002983"
+        },
+        "name": {
+          "type": "literal",
+          "xml:lang": "es",
+          "value": "Generalitat Valenciana"
+        },
+        "datasets": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "value": "1312"
+        }
+      },
+      {
+        "publisher": {
+          "type": "uri",
+          "value": "http://datos.gob.es/recurso/sector-publico/org/Organismo/L02000048"
+        },
+        "name": {
+          "type": "literal",
+          "xml:lang": "es",
+          "value": "Diputación Foral de Bizkaia"
+        },
+        "datasets": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "value": "1276"
+        }
+      },
+      {
+        "publisher": {
+          "type": "uri",
+          "value": "http://datos.gob.es/recurso/sector-publico/org/Organismo/E05230301"
+        },
+        "name": {
+          "type": "literal",
+          "xml:lang": "es",
+          "value": "Ministerio de Educación, Formación Profesional y Deportes"
+        },
+        "datasets": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "value": "1069"
+        }
+      },
+      {
+        "publisher": {
+          "type": "uri",
+          "value": "http://datos.gob.es/recurso/sector-publico/org/Organismo/E00130502"
+        },
+        "name": {
+          "type": "literal",
+          "xml:lang": "es",
+          "value": "Dirección General de Tráfico"
+        },
+        "datasets": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "value": "1005"
+        }
+      },
+      {
+        "publisher": {
+          "type": "uri",
+          "value": "http://datos.gob.es/recurso/sector-publico/org/Organismo/L01280148"
+        },
+        "name": {
+          "type": "literal",
+          "xml:lang": "es",
+          "value": "Ayuntamiento de Arganda del Rey"
+        },
+        "datasets": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "value": "968"
+        }
+      },
+      {
+        "publisher": {
+          "type": "uri",
+          "value": "http://datos.gob.es/recurso/sector-publico/org/Organismo/A07002862"
+        },
+        "name": {
+          "type": "literal",
+          "xml:lang": "es",
+          "value": "Junta de Castilla y León"
+        },
+        "datasets": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "value": "838"
+        }
+      },
+      {
+        "publisher": {
+          "type": "uri",
+          "value": "http://datos.gob.es/recurso/sector-publico/org/Organismo/L01330241"
+        },
+        "name": {
+          "type": "literal",
+          "xml:lang": "es",
+          "value": "Ayuntamiento de Gijón"
+        },
+        "datasets": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "value": "783"
+        }
+      },
+      {
+        "publisher": {
+          "type": "uri",
+          "value": "http://datos.gob.es/recurso/sector-publico/org/Organismo/A14002961"
+        },
+        "name": {
+          "type": "literal",
+          "xml:lang": "es",
+          "value": "Región de Murcia"
+        },
+        "datasets": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "value": "737"
+        }
+      },
+      {
+        "publisher": {
+          "type": "uri",
+          "value": "http://datos.gob.es/recurso/sector-publico/org/Organismo/L01280796"
+        },
+        "name": {
+          "type": "literal",
+          "xml:lang": "es",
+          "value": "Ayuntamiento de Madrid"
+        },
+        "datasets": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "value": "675"
+        }
+      },
+      {
+        "publisher": {
+          "type": "uri",
+          "value": "http://datos.gob.es/recurso/sector-publico/org/Organismo/A01002820"
+        },
+        "name": {
+          "type": "literal",
+          "xml:lang": "es",
+          "value": "Junta de Andalucía"
+        },
+        "datasets": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "value": "583"
+        }
+      },
+      {
+        "publisher": {
+          "type": "uri",
+          "value": "http://datos.gob.es/recurso/sector-publico/org/Organismo/A12002994"
+        },
+        "name": {
+          "type": "literal",
+          "xml:lang": "es",
+          "value": "Xunta de Galicia"
+        },
+        "datasets": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "value": "566"
+        }
+      },
+      {
+        "publisher": {
+          "type": "uri",
+          "value": "http://datos.gob.es/recurso/sector-publico/org/Organismo/L01080193"
+        },
+        "name": {
+          "type": "literal",
+          "xml:lang": "es",
+          "value": "Ayuntamiento de Barcelona"
+        },
+        "datasets": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "value": "555"
+        }
+      },
+      {
+        "publisher": {
+          "type": "uri",
+          "value": "http://datos.gob.es/recurso/sector-publico/org/Organismo/A03002951"
+        },
+        "name": {
+          "type": "literal",
+          "xml:lang": "es",
+          "value": "Principado de Asturias"
+        },
+        "datasets": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "value": "519"
+        }
+      },
+      {
+        "publisher": {
+          "type": "uri",
+          "value": "http://datos.gob.es/recurso/sector-publico/org/Organismo/A17002943"
+        },
+        "name": {
+          "type": "literal",
+          "xml:lang": "es",
+          "value": "Gobierno de La Rioja"
+        },
+        "datasets": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "value": "458"
+        }
+      },
+      {
+        "publisher": {
+          "type": "uri",
+          "value": "http://datos.gob.es/recurso/sector-publico/org/Organismo/E0DAT0002"
+        },
+        "name": {
+          "type": "literal",
+          "xml:lang": "es",
+          "value": "Catálogo Oficial de Datos y Servicios INSPIRE"
+        },
+        "datasets": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "value": "411"
+        }
+      },
+      {
+        "publisher": {
+          "type": "uri",
+          "value": "http://datos.gob.es/recurso/sector-publico/org/Organismo/L03380010"
+        },
+        "name": {
+          "type": "literal",
+          "xml:lang": "es",
+          "value": "Cabildo Insular de La Palma"
+        },
+        "datasets": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "value": "400"
+        }
+      },
+      {
+        "publisher": {
+          "type": "uri",
+          "value": "http://datos.gob.es/recurso/sector-publico/org/Organismo/A04003003"
+        },
+        "name": {
+          "type": "literal",
+          "xml:lang": "es",
+          "value": "Gobierno de las Illes Balears"
+        },
+        "datasets": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "value": "399"
+        }
+      },
+      {
+        "publisher": {
+          "type": "uri",
+          "value": "http://datos.gob.es/recurso/sector-publico/org/Organismo/L01502973"
+        },
+        "name": {
+          "type": "literal",
+          "xml:lang": "es",
+          "value": "Ayuntamiento de Zaragoza"
+        },
+        "datasets": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "value": "395"
+        }
+      },
+      {
+        "publisher": {
+          "type": "uri",
+          "value": "http://datos.gob.es/recurso/sector-publico/org/Organismo/U02100001"
+        },
+        "name": {
+          "type": "literal",
+          "xml:lang": "es",
+          "value": "Universidad de Zaragoza"
+        },
+        "datasets": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "value": "391"
+        }
+      },
+      {
+        "publisher": {
+          "type": "uri",
+          "value": "http://datos.gob.es/recurso/sector-publico/org/Organismo/A08002880"
+        },
+        "name": {
+          "type": "literal",
+          "xml:lang": "es",
+          "value": "Comunidad Autónoma de Castilla-La Mancha"
+        },
+        "datasets": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "value": "353"
+        }
+      },
+      {
+        "publisher": {
+          "type": "uri",
+          "value": "http://datos.gob.es/recurso/sector-publico/org/Organismo/L01462444"
+        },
+        "name": {
+          "type": "literal",
+          "xml:lang": "es",
+          "value": "Ayuntamiento de Torrent"
+        },
+        "datasets": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "value": "342"
+        }
+      },
+      {
+        "publisher": {
+          "type": "uri",
+          "value": "http://datos.gob.es/recurso/sector-publico/org/Organismo/L01480209"
+        },
+        "name": {
+          "type": "literal",
+          "xml:lang": "es",
+          "value": "Ayuntamiento de Bilbao"
+        },
+        "datasets": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "value": "341"
+        }
+      },
+      {
+        "publisher": {
+          "type": "uri",
+          "value": "http://datos.gob.es/recurso/sector-publico/org/Organismo/A05003638"
+        },
+        "name": {
+          "type": "literal",
+          "xml:lang": "es",
+          "value": "Comunidad Autónoma de Canarias"
+        },
+        "datasets": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "value": "308"
+        }
+      },
+      {
+        "publisher": {
+          "type": "uri",
+          "value": "http://datos.gob.es/recurso/sector-publico/org/Organismo/L01462508"
+        },
+        "name": {
+          "type": "literal",
+          "xml:lang": "es",
+          "value": "Ayuntamiento de Valencia"
+        },
+        "datasets": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "value": "296"
+        }
+      },
+      {
+        "publisher": {
+          "type": "uri",
+          "value": "http://datos.gob.es/recurso/sector-publico/org/Organismo/U01200001"
+        },
+        "name": {
+          "type": "literal",
+          "xml:lang": "es",
+          "value": "Universidad de Murcia"
+        },
+        "datasets": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "value": "279"
+        }
+      },
+      {
+        "publisher": {
+          "type": "uri",
+          "value": "http://datos.gob.es/recurso/sector-publico/org/Organismo/E00003801"
+        },
+        "name": {
+          "type": "literal",
+          "xml:lang": "es",
+          "value": "Ministerio del Interior"
+        },
+        "datasets": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "value": "265"
+        }
+      },
+      {
+        "publisher": {
+          "type": "uri",
+          "value": "http://datos.gob.es/recurso/sector-publico/org/Organismo/A06004074"
+        },
+        "name": {
+          "type": "literal",
+          "xml:lang": "es",
+          "value": "Instituto Cántabro de Estadística"
+        },
+        "datasets": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "value": "259"
+        }
+      },
+      {
+        "publisher": {
+          "type": "uri",
+          "value": "http://datos.gob.es/recurso/sector-publico/org/Organismo/L03380011"
+        },
+        "name": {
+          "type": "literal",
+          "xml:lang": "es",
+          "value": "Cabildo Insular de Tenerife"
+        },
+        "datasets": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "value": "239"
+        }
+      },
+      {
+        "publisher": {
+          "type": "uri",
+          "value": "http://datos.gob.es/recurso/sector-publico/org/Organismo/L01100377"
+        },
+        "name": {
+          "type": "literal",
+          "xml:lang": "es",
+          "value": "Ayuntamiento de Cáceres"
+        },
+        "datasets": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "value": "235"
+        }
+      },
+      {
+        "publisher": {
+          "type": "uri",
+          "value": "http://datos.gob.es/recurso/sector-publico/org/Organismo/EA0042931"
+        },
+        "name": {
+          "type": "literal",
+          "xml:lang": "es",
+          "value": "Comisión Nacional de los Mercados y la Competencia"
+        },
+        "datasets": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "value": "222"
+        }
+      },
+      {
+        "publisher": {
+          "type": "uri",
+          "value": "http://datos.gob.es/recurso/sector-publico/org/Organismo/L01300243"
+        },
+        "name": {
+          "type": "literal",
+          "xml:lang": "es",
+          "value": "Ayuntamiento de Lorca"
+        },
+        "datasets": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "value": "204"
+        }
+      },
+      {
+        "publisher": {
+          "type": "uri",
+          "value": "http://datos.gob.es/recurso/sector-publico/org/Organismo/E05072501"
+        },
+        "name": {
+          "type": "literal",
+          "xml:lang": "es",
+          "value": "Ministerio de Inclusión, Seguridad Social y Migraciones"
+        },
+        "datasets": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "value": "204"
+        }
+      },
+      {
+        "publisher": {
+          "type": "uri",
+          "value": "http://datos.gob.es/recurso/sector-publico/org/Organismo/L01010590"
+        },
+        "name": {
+          "type": "literal",
+          "xml:lang": "es",
+          "value": "Ayuntamiento de Vitoria-Gasteiz"
+        },
+        "datasets": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "value": "197"
+        }
+      },
+      {
+        "publisher": {
+          "type": "uri",
+          "value": "http://datos.gob.es/recurso/sector-publico/org/Organismo/U01600001"
+        },
+        "name": {
+          "type": "literal",
+          "xml:lang": "es",
+          "value": "Universidad de Cantabria"
+        },
+        "datasets": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "value": "194"
+        }
+      },
+      {
+        "publisher": {
+          "type": "uri",
+          "value": "http://datos.gob.es/recurso/sector-publico/org/Organismo/L01280066"
+        },
+        "name": {
+          "type": "literal",
+          "xml:lang": "es",
+          "value": "Ayuntamiento de Alcobendas"
+        },
+        "datasets": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "value": "177"
+        }
+      },
+      {
+        "publisher": {
+          "type": "uri",
+          "value": "http://datos.gob.es/recurso/sector-publico/org/Organismo/L01360577"
+        },
+        "name": {
+          "type": "literal",
+          "xml:lang": "es",
+          "value": "Ayuntamiento de Vigo"
+        },
+        "datasets": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "value": "148"
+        }
+      },
+      {
+        "publisher": {
+          "type": "uri",
+          "value": "http://datos.gob.es/recurso/sector-publico/org/Organismo/U00200001"
+        },
+        "name": {
+          "type": "literal",
+          "xml:lang": "es",
+          "value": "Universidad de Extremadura"
+        },
+        "datasets": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "value": "135"
+        }
+      },
+      {
+        "publisher": {
+          "type": "uri",
+          "value": "http://datos.gob.es/recurso/sector-publico/org/Organismo/E05250001"
+        },
+        "name": {
+          "type": "literal",
+          "xml:lang": "es",
+          "value": "Ministerio de Hacienda"
+        },
+        "datasets": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "value": "130"
+        }
+      },
+      {
+        "publisher": {
+          "type": "uri",
+          "value": "http://datos.gob.es/recurso/sector-publico/org/Organismo/L01082798"
+        },
+        "name": {
+          "type": "literal",
+          "xml:lang": "es",
+          "value": "Ayuntamiento de Terrassa"
+        },
+        "datasets": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "value": "126"
+        }
+      },
+      {
+        "publisher": {
+          "type": "uri",
+          "value": "http://datos.gob.es/recurso/sector-publico/org/Organismo/L01330045"
+        },
+        "name": {
+          "type": "literal",
+          "xml:lang": "es",
+          "value": "Ayuntamiento de Avilés"
+        },
+        "datasets": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "value": "107"
+        }
+      },
+      {
+        "publisher": {
+          "type": "uri",
+          "value": "http://datos.gob.es/recurso/sector-publico/org/Organismo/L01200697"
+        },
+        "name": {
+          "type": "literal",
+          "xml:lang": "es",
+          "value": "Ayuntamiento de Donostia/San Sebastián"
+        },
+        "datasets": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "value": "107"
+        }
+      },
+      {
+        "publisher": {
+          "type": "uri",
+          "value": "http://datos.gob.es/recurso/sector-publico/org/Organismo/L02000012"
+        },
+        "name": {
+          "type": "literal",
+          "xml:lang": "es",
+          "value": "Diputación Provincial de Castelló/Castellón"
+        },
+        "datasets": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "value": "98"
+        }
+      },
+      {
+        "publisher": {
+          "type": "uri",
+          "value": "http://datos.gob.es/recurso/sector-publico/org/Organismo/PUDAT0001"
+        },
+        "name": {
+          "type": "literal",
+          "xml:lang": "es",
+          "value": "Universidad de Mondragón"
+        },
+        "datasets": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "value": "94"
+        }
+      },
+      {
+        "publisher": {
+          "type": "uri",
+          "value": "http://datos.gob.es/recurso/sector-publico/org/Organismo/L01380380"
+        },
+        "name": {
+          "type": "literal",
+          "xml:lang": "es",
+          "value": "Ayuntamiento de Santa Cruz de Tenerife"
+        },
+        "datasets": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "value": "86"
+        }
+      },
+      {
+        "publisher": {
+          "type": "uri",
+          "value": "http://datos.gob.es/recurso/sector-publico/org/Organismo/E00125901"
+        },
+        "name": {
+          "type": "literal",
+          "xml:lang": "es",
+          "value": "Centro Nacional de Información Geográfica"
+        },
+        "datasets": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "value": "84"
+        }
+      },
+      {
+        "publisher": {
+          "type": "uri",
+          "value": "http://datos.gob.es/recurso/sector-publico/org/Organismo/EA0001302"
+        },
+        "name": {
+          "type": "literal",
+          "xml:lang": "es",
+          "value": "Autoridad Portuaria de Barcelona"
+        },
+        "datasets": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "value": "79"
+        }
+      },
+      {
+        "publisher": {
+          "type": "uri",
+          "value": "http://datos.gob.es/recurso/sector-publico/org/Organismo/E05228601"
+        },
+        "name": {
+          "type": "literal",
+          "xml:lang": "es",
+          "value": "Ministerio de la Presidencia, Justicia y Relaciones con las Cortes"
+        },
+        "datasets": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "value": "77"
+        }
+      },
+      {
+        "publisher": {
+          "type": "uri",
+          "value": "http://datos.gob.es/recurso/sector-publico/org/Organismo/E05068001"
+        },
+        "name": {
+          "type": "literal",
+          "xml:lang": "es",
+          "value": "Ministerio para la Transición Ecológica y el Reto Demográfico"
+        },
+        "datasets": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "value": "77"
+        }
+      },
+      {
+        "publisher": {
+          "type": "uri",
+          "value": "http://datos.gob.es/recurso/sector-publico/org/Organismo/A19002898"
+        },
+        "name": {
+          "type": "literal",
+          "xml:lang": "es",
+          "value": "Ciudad Autónoma de Melilla"
+        },
+        "datasets": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "value": "76"
+        }
+      },
+      {
+        "publisher": {
+          "type": "uri",
+          "value": "http://datos.gob.es/recurso/sector-publico/org/Organismo/L01281343"
+        },
+        "name": {
+          "type": "literal",
+          "xml:lang": "es",
+          "value": "Ayuntamiento de San Sebastián de los Reyes"
+        },
+        "datasets": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "value": "73"
+        }
+      },
+      {
+        "publisher": {
+          "type": "uri",
+          "value": "http://datos.gob.es/recurso/sector-publico/org/Organismo/A14036695"
+        },
+        "name": {
+          "type": "literal",
+          "xml:lang": "es",
+          "value": "Instituto de Turismo de la Región de Murcia (ITREM)"
+        },
+        "datasets": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "value": "67"
+        }
+      },
+      {
+        "publisher": {
+          "type": "uri",
+          "value": "http://datos.gob.es/recurso/sector-publico/org/Organismo/EA0019768"
+        },
+        "name": {
+          "type": "literal",
+          "xml:lang": "es",
+          "value": "Biblioteca Nacional de España"
+        },
+        "datasets": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "value": "65"
+        }
+      },
+      {
+        "publisher": {
+          "type": "uri",
+          "value": "http://datos.gob.es/recurso/sector-publico/org/Organismo/L02000008"
+        },
+        "name": {
+          "type": "literal",
+          "xml:lang": "es",
+          "value": "Diputación Provincial de Barcelona"
+        },
+        "datasets": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "value": "65"
+        }
+      },
+      {
+        "publisher": {
+          "type": "uri",
+          "value": "http://datos.gob.es/recurso/sector-publico/org/Organismo/EA0003337"
+        },
+        "name": {
+          "type": "literal",
+          "xml:lang": "es",
+          "value": "Entidad Pública Empresarial Renfe-Operadora"
+        },
+        "datasets": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "value": "63"
+        }
+      },
+      {
+        "publisher": {
+          "type": "uri",
+          "value": "http://datos.gob.es/recurso/sector-publico/org/Organismo/U00800001"
+        },
+        "name": {
+          "type": "literal",
+          "xml:lang": "es",
+          "value": "Universidad de Granada"
+        },
+        "datasets": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "value": "62"
+        }
+      },
+      {
+        "publisher": {
+          "type": "uri",
+          "value": "http://datos.gob.es/recurso/sector-publico/org/Organismo/L01281150"
+        },
+        "name": {
+          "type": "literal",
+          "xml:lang": "es",
+          "value": "Ayuntamiento de Pozuelo de Alarcón"
+        },
+        "datasets": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "value": "58"
+        }
+      },
+      {
+        "publisher": {
+          "type": "uri",
+          "value": "http://datos.gob.es/recurso/sector-publico/org/Organismo/L01390759"
+        },
+        "name": {
+          "type": "literal",
+          "xml:lang": "es",
+          "value": "Ayuntamiento de Santander"
+        },
+        "datasets": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "value": "58"
+        }
+      },
+      {
+        "publisher": {
+          "type": "uri",
+          "value": "http://datos.gob.es/recurso/sector-publico/org/Organismo/L02000029"
+        },
+        "name": {
+          "type": "literal",
+          "xml:lang": "es",
+          "value": "Diputación Provincial de Málaga"
+        },
+        "datasets": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "value": "54"
+        }
+      },
+      {
+        "publisher": {
+          "type": "uri",
+          "value": "http://datos.gob.es/recurso/sector-publico/org/Organismo/A11002926"
+        },
+        "name": {
+          "type": "literal",
+          "xml:lang": "es",
+          "value": "Junta de Extremadura"
+        },
+        "datasets": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "value": "51"
+        }
+      },
+      {
+        "publisher": {
+          "type": "uri",
+          "value": "http://datos.gob.es/recurso/sector-publico/org/Organismo/E05251701"
+        },
+        "name": {
+          "type": "literal",
+          "xml:lang": "es",
+          "value": "Ministerio para la Transformación Digital y de la Función Pública"
+        },
+        "datasets": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "value": "51"
+        }
+      },
+      {
+        "publisher": {
+          "type": "uri",
+          "value": "http://datos.gob.es/recurso/sector-publico/org/Organismo/EA0042926"
+        },
+        "name": {
+          "type": "literal",
+          "xml:lang": "es",
+          "value": "Instituto de Crédito Oficial"
+        },
+        "datasets": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "value": "50"
+        }
+      },
+      {
+        "publisher": {
+          "type": "uri",
+          "value": "http://datos.gob.es/recurso/sector-publico/org/Organismo/L01281317"
+        },
+        "name": {
+          "type": "literal",
+          "xml:lang": "es",
+          "value": "Ayuntamiento de San Lorenzo de El Escorial"
+        },
+        "datasets": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "value": "49"
+        }
+      },
+      {
+        "publisher": {
+          "type": "uri",
+          "value": "http://datos.gob.es/recurso/sector-publico/org/Organismo/L01061535"
+        },
+        "name": {
+          "type": "literal",
+          "xml:lang": "es",
+          "value": "Ayuntamiento de Villanueva de la Serena"
+        },
+        "datasets": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "value": "46"
+        }
+      },
+      {
+        "publisher": {
+          "type": "uri",
+          "value": "http://datos.gob.es/recurso/sector-publico/org/Organismo/L01082009"
+        },
+        "name": {
+          "type": "literal",
+          "xml:lang": "es",
+          "value": "Ayuntamiento de Sant Boi de Llobregat"
+        },
+        "datasets": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "value": "45"
+        }
+      },
+      {
+        "publisher": {
+          "type": "uri",
+          "value": "http://datos.gob.es/recurso/sector-publico/org/Organismo/I00000061"
+        },
+        "name": {
+          "type": "literal",
+          "xml:lang": "es",
+          "value": "Senado de España"
+        },
+        "datasets": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "value": "39"
+        }
+      },
+      {
+        "publisher": {
+          "type": "uri",
+          "value": "http://datos.gob.es/recurso/sector-publico/org/Organismo/EA0028512"
+        },
+        "name": {
+          "type": "literal",
+          "xml:lang": "es",
+          "value": "Agencia Estatal de Administración Tributaria"
+        },
+        "datasets": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "value": "39"
+        }
+      },
+      {
+        "publisher": {
+          "type": "uri",
+          "value": "http://datos.gob.es/recurso/sector-publico/org/Organismo/L01081691"
+        },
+        "name": {
+          "type": "literal",
+          "xml:lang": "es",
+          "value": "Ayuntamiento de El Prat de Llobregat"
+        },
+        "datasets": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "value": "39"
+        }
+      },
+      {
+        "publisher": {
+          "type": "uri",
+          "value": "http://datos.gob.es/recurso/sector-publico/org/Organismo/L01082114"
+        },
+        "name": {
+          "type": "literal",
+          "xml:lang": "es",
+          "value": "Ayuntamiento de Sant Feliu de Llobregat"
+        },
+        "datasets": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "value": "38"
+        }
+      },
+      {
+        "publisher": {
+          "type": "uri",
+          "value": "http://datos.gob.es/recurso/sector-publico/org/Organismo/L02000001"
+        },
+        "name": {
+          "type": "literal",
+          "xml:lang": "es",
+          "value": "Diputación Foral de Álava"
+        },
+        "datasets": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "value": "37"
+        }
+      },
+      {
+        "publisher": {
+          "type": "uri",
+          "value": "http://datos.gob.es/recurso/sector-publico/org/Organismo/LA0010696"
+        },
+        "name": {
+          "type": "literal",
+          "xml:lang": "es",
+          "value": "Titsa, Transportes Interurbanos de Tenerife S.A."
+        },
+        "datasets": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "value": "36"
+        }
+      },
+      {
+        "publisher": {
+          "type": "uri",
+          "value": "http://datos.gob.es/recurso/sector-publico/org/Organismo/EA0043519"
+        },
+        "name": {
+          "type": "literal",
+          "xml:lang": "es",
+          "value": "Confederación Hidrográfica del Guadalquivir"
+        },
+        "datasets": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "value": "35"
+        }
+      },
+      {
+        "publisher": {
+          "type": "uri",
+          "value": "http://datos.gob.es/recurso/sector-publico/org/Organismo/A16005967"
+        },
+        "name": {
+          "type": "literal",
+          "xml:lang": "es",
+          "value": "Radio Televisión Vasca (EITB)"
+        },
+        "datasets": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "value": "35"
+        }
+      },
+      {
+        "publisher": {
+          "type": "uri",
+          "value": "http://datos.gob.es/recurso/sector-publico/org/Organismo/E05234201"
+        },
+        "name": {
+          "type": "literal",
+          "xml:lang": "es",
+          "value": "Ministerio de Cultura"
+        },
+        "datasets": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "value": "32"
+        }
+      },
+      {
+        "publisher": {
+          "type": "uri",
+          "value": "http://datos.gob.es/recurso/sector-publico/org/Organismo/L02000003"
+        },
+        "name": {
+          "type": "literal",
+          "xml:lang": "es",
+          "value": "Diputación Provincial de Alicante"
+        },
+        "datasets": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "value": "32"
+        }
+      },
+      {
+        "publisher": {
+          "type": "uri",
+          "value": "http://datos.gob.es/recurso/sector-publico/org/Organismo/L01030092"
+        },
+        "name": {
+          "type": "literal",
+          "xml:lang": "es",
+          "value": "Ayuntamiento de Alcoy"
+        },
+        "datasets": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "value": "32"
+        }
+      },
+      {
+        "publisher": {
+          "type": "uri",
+          "value": "http://datos.gob.es/recurso/sector-publico/org/Organismo/LA0006111"
+        },
+        "name": {
+          "type": "literal",
+          "xml:lang": "es",
+          "value": "Diputación de Pontevedra"
+        },
+        "datasets": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "value": "31"
+        }
+      },
+      {
+        "publisher": {
+          "type": "uri",
+          "value": "http://datos.gob.es/recurso/sector-publico/org/Organismo/EA0038829"
+        },
+        "name": {
+          "type": "literal",
+          "xml:lang": "es",
+          "value": "Oficina Española de Patentes y Marcas, O.A."
+        },
+        "datasets": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "value": "29"
+        }
+      },
+      {
+        "publisher": {
+          "type": "uri",
+          "value": "http://datos.gob.es/recurso/sector-publico/org/Organismo/EA0043420"
+        },
+        "name": {
+          "type": "literal",
+          "xml:lang": "es",
+          "value": "Confederación Hidrográfica del Duero"
+        },
+        "datasets": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "value": "29"
+        }
+      },
+      {
+        "publisher": {
+          "type": "uri",
+          "value": "http://datos.gob.es/recurso/sector-publico/org/Organismo/EA0044367"
+        },
+        "name": {
+          "type": "literal",
+          "xml:lang": "es",
+          "value": "Entidad Pública Empresarial Red.es"
+        },
+        "datasets": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "value": "29"
+        }
+      },
+      {
+        "publisher": {
+          "type": "uri",
+          "value": "http://datos.gob.es/recurso/sector-publico/org/Organismo/EA0040021"
+        },
+        "name": {
+          "type": "literal",
+          "xml:lang": "es",
+          "value": "Mutualidad General de Funcionarios Civiles del Estado (MUFACE)"
+        },
+        "datasets": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "value": "27"
+        }
+      },
+      {
+        "publisher": {
+          "type": "uri",
+          "value": "http://datos.gob.es/recurso/sector-publico/org/Organismo/E05024401"
+        },
+        "name": {
+          "type": "literal",
+          "xml:lang": "es",
+          "value": "Ministerio de Agricultura, Pesca y Alimentación"
+        },
+        "datasets": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "value": "26"
+        }
+      },
+      {
+        "publisher": {
+          "type": "uri",
+          "value": "http://datos.gob.es/recurso/sector-publico/org/Organismo/EA0040811"
+        },
+        "name": {
+          "type": "literal",
+          "xml:lang": "es",
+          "value": "Fundación Pluralismo y Convivencia, F.S.P."
+        },
+        "datasets": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "value": "25"
+        }
+      },
+      {
+        "publisher": {
+          "type": "uri",
+          "value": "http://datos.gob.es/recurso/sector-publico/org/Organismo/E05231501"
+        },
+        "name": {
+          "type": "literal",
+          "xml:lang": "es",
+          "value": "Ministerio de Industria y Turismo"
+        },
+        "datasets": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "value": "25"
+        }
+      },
+      {
+        "publisher": {
+          "type": "uri",
+          "value": "http://datos.gob.es/recurso/sector-publico/org/Organismo/L01140351"
+        },
+        "name": {
+          "type": "literal",
+          "xml:lang": "es",
+          "value": "Ayuntamiento de Hinojosa del Duque"
+        },
+        "datasets": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "value": "24"
+        }
+      },
+      {
+        "publisher": {
+          "type": "uri",
+          "value": "http://datos.gob.es/recurso/sector-publico/org/Organismo/L01140425"
+        },
+        "name": {
+          "type": "literal",
+          "xml:lang": "es",
+          "value": "Ayuntamiento de Montilla"
+        },
+        "datasets": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "value": "24"
+        }
+      },
+      {
+        "publisher": {
+          "type": "uri",
+          "value": "http://datos.gob.es/recurso/sector-publico/org/Organismo/L01140207"
+        },
+        "name": {
+          "type": "literal",
+          "xml:lang": "es",
+          "value": "Ayuntamiento de Conquista"
+        },
+        "datasets": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "value": "23"
+        }
+      },
+      {
+        "publisher": {
+          "type": "uri",
+          "value": "http://datos.gob.es/recurso/sector-publico/org/Organismo/L01140673"
+        },
+        "name": {
+          "type": "literal",
+          "xml:lang": "es",
+          "value": "Ayuntamiento de Villafranca de Córdoba"
+        },
+        "datasets": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "value": "23"
+        }
+      },
+      {
+        "publisher": {
+          "type": "uri",
+          "value": "http://datos.gob.es/recurso/sector-publico/org/Organismo/L01241152"
+        },
+        "name": {
+          "type": "literal",
+          "xml:lang": "es",
+          "value": "Ayuntamiento de Ponferrada"
+        },
+        "datasets": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "value": "22"
+        }
+      },
+      {
+        "publisher": {
+          "type": "uri",
+          "value": "http://datos.gob.es/recurso/sector-publico/org/Organismo/L01300161"
+        },
+        "name": {
+          "type": "literal",
+          "xml:lang": "es",
+          "value": "Ayuntamiento de Cartagena"
+        },
+        "datasets": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "value": "22"
+        }
+      },
+      {
+        "publisher": {
+          "type": "uri",
+          "value": "http://datos.gob.es/recurso/sector-publico/org/Organismo/L01140291"
+        },
+        "name": {
+          "type": "literal",
+          "xml:lang": "es",
+          "value": "Ayuntamiento de Fuente Obejuna"
+        },
+        "datasets": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "value": "22"
+        }
+      },
+      {
+        "publisher": {
+          "type": "uri",
+          "value": "http://datos.gob.es/recurso/sector-publico/org/Organismo/L01140484"
+        },
+        "name": {
+          "type": "literal",
+          "xml:lang": "es",
+          "value": "Ayuntamiento de Palenciana"
+        },
+        "datasets": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "value": "21"
+        }
+      },
+      {
+        "publisher": {
+          "type": "uri",
+          "value": "http://datos.gob.es/recurso/sector-publico/org/Organismo/L01140517"
+        },
+        "name": {
+          "type": "literal",
+          "xml:lang": "es",
+          "value": "Ayuntamiento de Pedroche"
+        },
+        "datasets": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "value": "21"
+        }
+      },
+      {
+        "publisher": {
+          "type": "uri",
+          "value": "http://datos.gob.es/recurso/sector-publico/org/Organismo/L01140121"
+        },
+        "name": {
+          "type": "literal",
+          "xml:lang": "es",
+          "value": "Ayuntamiento de Bujalance"
+        },
+        "datasets": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "value": "21"
+        }
+      },
+      {
+        "publisher": {
+          "type": "uri",
+          "value": "http://datos.gob.es/recurso/sector-publico/org/Organismo/L01140235"
+        },
+        "name": {
+          "type": "literal",
+          "xml:lang": "es",
+          "value": "Ayuntamiento de Dos Torres"
+        },
+        "datasets": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "value": "20"
+        }
+      },
+      {
+        "publisher": {
+          "type": "uri",
+          "value": "http://datos.gob.es/recurso/sector-publico/org/Organismo/L01140240"
+        },
+        "name": {
+          "type": "literal",
+          "xml:lang": "es",
+          "value": "Ayuntamiento de Encinas Reales"
+        },
+        "datasets": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "value": "20"
+        }
+      },
+      {
+        "publisher": {
+          "type": "uri",
+          "value": "http://datos.gob.es/recurso/sector-publico/org/Organismo/L02000014"
+        },
+        "name": {
+          "type": "literal",
+          "xml:lang": "es",
+          "value": "Diputación Provincial de Córdoba"
+        },
+        "datasets": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "value": "20"
+        }
+      },
+      {
+        "publisher": {
+          "type": "uri",
+          "value": "http://datos.gob.es/recurso/sector-publico/org/Organismo/E05232701"
+        },
+        "name": {
+          "type": "literal",
+          "xml:lang": "es",
+          "value": "Ministerio de Política Territorial y Memoria Democrática"
+        },
+        "datasets": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "value": "20"
+        }
+      },
+      {
+        "publisher": {
+          "type": "uri",
+          "value": "http://datos.gob.es/recurso/sector-publico/org/Organismo/U03400001"
+        },
+        "name": {
+          "type": "literal",
+          "xml:lang": "es",
+          "value": "Universidad de Castilla-La Mancha"
+        },
+        "datasets": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "value": "20"
+        }
+      },
+      {
+        "publisher": {
+          "type": "uri",
+          "value": "http://datos.gob.es/recurso/sector-publico/org/Organismo/L01140039"
+        },
+        "name": {
+          "type": "literal",
+          "xml:lang": "es",
+          "value": "Ayuntamiento de Alcaracejos"
+        },
+        "datasets": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "value": "20"
+        }
+      },
+      {
+        "publisher": {
+          "type": "uri",
+          "value": "http://datos.gob.es/recurso/sector-publico/org/Organismo/L01140706"
+        },
+        "name": {
+          "type": "literal",
+          "xml:lang": "es",
+          "value": "Ayuntamiento de Villanueva del Duque"
+        },
+        "datasets": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "value": "19"
+        }
+      },
+      {
+        "publisher": {
+          "type": "uri",
+          "value": "http://datos.gob.es/recurso/sector-publico/org/Organismo/L01140229"
+        },
+        "name": {
+          "type": "literal",
+          "xml:lang": "es",
+          "value": "Ayuntamiento de Doña Mencía"
+        },
+        "datasets": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "value": "19"
+        }
+      },
+      {
+        "publisher": {
+          "type": "uri",
+          "value": "http://datos.gob.es/recurso/sector-publico/org/Organismo/L01140689"
+        },
+        "name": {
+          "type": "literal",
+          "xml:lang": "es",
+          "value": "Ayuntamiento de Villaharta"
+        },
+        "datasets": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "value": "19"
+        }
+      },
+      {
+        "publisher": {
+          "type": "uri",
+          "value": "http://datos.gob.es/recurso/sector-publico/org/Organismo/L01471868"
+        },
+        "name": {
+          "type": "literal",
+          "xml:lang": "es",
+          "value": "Ayuntamiento de Valladolid"
+        },
+        "datasets": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "value": "19"
+        }
+      },
+      {
+        "publisher": {
+          "type": "uri",
+          "value": "http://datos.gob.es/recurso/sector-publico/org/Organismo/L01140399"
+        },
+        "name": {
+          "type": "literal",
+          "xml:lang": "es",
+          "value": "Ayuntamiento de Luque"
+        },
+        "datasets": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "value": "19"
+        }
+      },
+      {
+        "publisher": {
+          "type": "uri",
+          "value": "http://datos.gob.es/recurso/sector-publico/org/Organismo/EA0043088"
+        },
+        "name": {
+          "type": "literal",
+          "xml:lang": "es",
+          "value": "Instituto de Mayores y Servicios Sociales"
+        },
+        "datasets": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "value": "19"
+        }
+      },
+      {
+        "publisher": {
+          "type": "uri",
+          "value": "http://datos.gob.es/recurso/sector-publico/org/Organismo/L01140386"
+        },
+        "name": {
+          "type": "literal",
+          "xml:lang": "es",
+          "value": "Ayuntamiento de Lucena"
+        },
+        "datasets": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "value": "18"
+        }
+      },
+      {
+        "publisher": {
+          "type": "uri",
+          "value": "http://datos.gob.es/recurso/sector-publico/org/Organismo/L01140594"
+        },
+        "name": {
+          "type": "literal",
+          "xml:lang": "es",
+          "value": "Ayuntamiento de San Sebastián de los Ballesteros"
+        },
+        "datasets": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "value": "18"
+        }
+      },
+      {
+        "publisher": {
+          "type": "uri",
+          "value": "http://datos.gob.es/recurso/sector-publico/org/Organismo/L01140641"
+        },
+        "name": {
+          "type": "literal",
+          "xml:lang": "es",
+          "value": "Ayuntamiento de Valsequillo"
+        },
+        "datasets": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "value": "18"
+        }
+      },
+      {
+        "publisher": {
+          "type": "uri",
+          "value": "http://datos.gob.es/recurso/sector-publico/org/Organismo/L01140305"
+        },
+        "name": {
+          "type": "literal",
+          "xml:lang": "es",
+          "value": "Ayuntamiento de Fuente Palmera"
+        },
+        "datasets": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "value": "18"
+        }
+      },
+      {
+        "publisher": {
+          "type": "uri",
+          "value": "http://datos.gob.es/recurso/sector-publico/org/Organismo/L01140459"
+        },
+        "name": {
+          "type": "literal",
+          "xml:lang": "es",
+          "value": "Ayuntamiento de Moriles"
+        },
+        "datasets": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "value": "18"
+        }
+      },
+      {
+        "publisher": {
+          "type": "uri",
+          "value": "http://datos.gob.es/recurso/sector-publico/org/Organismo/L01140137"
+        },
+        "name": {
+          "type": "literal",
+          "xml:lang": "es",
+          "value": "Ayuntamiento de Cabra"
+        },
+        "datasets": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "value": "18"
+        }
+      },
+      {
+        "publisher": {
+          "type": "uri",
+          "value": "http://datos.gob.es/recurso/sector-publico/org/Organismo/L01140734"
+        },
+        "name": {
+          "type": "literal",
+          "xml:lang": "es",
+          "value": "Ayuntamiento de Villaviciosa de Córdoba"
+        },
+        "datasets": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "value": "17"
+        }
+      },
+      {
+        "publisher": {
+          "type": "uri",
+          "value": "http://datos.gob.es/recurso/sector-publico/org/Organismo/L01140410"
+        },
+        "name": {
+          "type": "literal",
+          "xml:lang": "es",
+          "value": "Ayuntamiento de Montemayor"
+        },
+        "datasets": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "value": "17"
+        }
+      },
+      {
+        "publisher": {
+          "type": "uri",
+          "value": "http://datos.gob.es/recurso/sector-publico/org/Organismo/EA0001301"
+        },
+        "name": {
+          "type": "literal",
+          "xml:lang": "es",
+          "value": "Autoridad Portuaria de Baleares"
+        },
+        "datasets": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "value": "17"
+        }
+      },
+      {
+        "publisher": {
+          "type": "uri",
+          "value": "http://datos.gob.es/recurso/sector-publico/org/Organismo/L01140272"
+        },
+        "name": {
+          "type": "literal",
+          "xml:lang": "es",
+          "value": "Ayuntamiento de Fernán-Núñez"
+        },
+        "datasets": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "value": "17"
+        }
+      },
+      {
+        "publisher": {
+          "type": "uri",
+          "value": "http://datos.gob.es/recurso/sector-publico/org/Organismo/L01140497"
+        },
+        "name": {
+          "type": "literal",
+          "xml:lang": "es",
+          "value": "Ayuntamiento de Palma del Río"
+        },
+        "datasets": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "value": "17"
+        }
+      },
+      {
+        "publisher": {
+          "type": "uri",
+          "value": "http://datos.gob.es/recurso/sector-publico/org/Organismo/L01140095"
+        },
+        "name": {
+          "type": "literal",
+          "xml:lang": "es",
+          "value": "Ayuntamiento de Belmez"
+        },
+        "datasets": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "value": "17"
+        }
+      },
+      {
+        "publisher": {
+          "type": "uri",
+          "value": "http://datos.gob.es/recurso/sector-publico/org/Organismo/L01140109"
+        },
+        "name": {
+          "type": "literal",
+          "xml:lang": "es",
+          "value": "Ayuntamiento de Benamejí"
+        },
+        "datasets": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "value": "17"
+        }
+      },
+      {
+        "publisher": {
+          "type": "uri",
+          "value": "http://datos.gob.es/recurso/sector-publico/org/Organismo/EA0023306"
+        },
+        "name": {
+          "type": "literal",
+          "xml:lang": "es",
+          "value": "Sociedad Estatal de Participaciones Industriales"
+        },
+        "datasets": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "value": "17"
+        }
+      },
+      {
+        "publisher": {
+          "type": "uri",
+          "value": "http://datos.gob.es/recurso/sector-publico/org/Organismo/L01140654"
+        },
+        "name": {
+          "type": "literal",
+          "xml:lang": "es",
+          "value": "Ayuntamiento de La Victoria"
+        },
+        "datasets": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "value": "17"
+        }
+      },
+      {
+        "publisher": {
+          "type": "uri",
+          "value": "http://datos.gob.es/recurso/sector-publico/org/Organismo/L01140174"
+        },
+        "name": {
+          "type": "literal",
+          "xml:lang": "es",
+          "value": "Ayuntamiento de La Carlota"
+        },
+        "datasets": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "value": "16"
+        }
+      },
+      {
+        "publisher": {
+          "type": "uri",
+          "value": "http://datos.gob.es/recurso/sector-publico/org/Organismo/EA0043369"
+        },
+        "name": {
+          "type": "literal",
+          "xml:lang": "es",
+          "value": "Organismo Autónomo Parques Nacionales"
+        },
+        "datasets": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "value": "16"
+        }
+      },
+      {
+        "publisher": {
+          "type": "uri",
+          "value": "http://datos.gob.es/recurso/sector-publico/org/Organismo/L02000006"
+        },
+        "name": {
+          "type": "literal",
+          "xml:lang": "es",
+          "value": "Diputación Provincial de Badajoz"
+        },
+        "datasets": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "value": "16"
+        }
+      },
+      {
+        "publisher": {
+          "type": "uri",
+          "value": "http://datos.gob.es/recurso/sector-publico/org/Organismo/L01140569"
+        },
+        "name": {
+          "type": "literal",
+          "xml:lang": "es",
+          "value": "Ayuntamiento de Puente Genil"
+        },
+        "datasets": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "value": "16"
+        }
+      },
+      {
+        "publisher": {
+          "type": "uri",
+          "value": "http://datos.gob.es/recurso/sector-publico/org/Organismo/L01140500"
+        },
+        "name": {
+          "type": "literal",
+          "xml:lang": "es",
+          "value": "Ayuntamiento de Pedro Abad"
+        },
+        "datasets": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "value": "15"
+        }
+      },
+      {
+        "publisher": {
+          "type": "uri",
+          "value": "http://datos.gob.es/recurso/sector-publico/org/Organismo/L01140180"
+        },
+        "name": {
+          "type": "literal",
+          "xml:lang": "es",
+          "value": "Ayuntamiento de El Carpio"
+        },
+        "datasets": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "value": "15"
+        }
+      },
+      {
+        "publisher": {
+          "type": "uri",
+          "value": "http://datos.gob.es/recurso/sector-publico/org/Organismo/L01140556"
+        },
+        "name": {
+          "type": "literal",
+          "xml:lang": "es",
+          "value": "Ayuntamiento de Priego de Córdoba"
+        },
+        "datasets": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "value": "15"
+        }
+      },
+      {
+        "publisher": {
+          "type": "uri",
+          "value": "http://datos.gob.es/recurso/sector-publico/org/Organismo/U02300001"
+        },
+        "name": {
+          "type": "literal",
+          "xml:lang": "es",
+          "value": "Universidad Autónoma de Madrid"
+        },
+        "datasets": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "value": "15"
+        }
+      },
+      {
+        "publisher": {
+          "type": "uri",
+          "value": "http://datos.gob.es/recurso/sector-publico/org/Organismo/U04900001"
+        },
+        "name": {
+          "type": "literal",
+          "xml:lang": "es",
+          "value": "Universidad de Huelva"
+        },
+        "datasets": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "value": "15"
+        }
+      },
+      {
+        "publisher": {
+          "type": "uri",
+          "value": "http://datos.gob.es/recurso/sector-publico/org/Organismo/L01140403"
+        },
+        "name": {
+          "type": "literal",
+          "xml:lang": "es",
+          "value": "Ayuntamiento de Montalbán de Córdoba"
+        },
+        "datasets": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "value": "15"
+        }
+      },
+      {
+        "publisher": {
+          "type": "uri",
+          "value": "http://datos.gob.es/recurso/sector-publico/org/Organismo/L01140060"
+        },
+        "name": {
+          "type": "literal",
+          "xml:lang": "es",
+          "value": "Ayuntamiento de Añora"
+        },
+        "datasets": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "value": "15"
+        }
+      },
+      {
+        "publisher": {
+          "type": "uri",
+          "value": "http://datos.gob.es/recurso/sector-publico/org/Organismo/U04800001"
+        },
+        "name": {
+          "type": "literal",
+          "xml:lang": "es",
+          "value": "Universidad de Almería"
+        },
+        "datasets": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "value": "15"
+        }
+      },
+      {
+        "publisher": {
+          "type": "uri",
+          "value": "http://datos.gob.es/recurso/sector-publico/org/Organismo/GE0012152"
+        },
+        "name": {
+          "type": "literal",
+          "xml:lang": "es",
+          "value": "Cartográfica de Canarias, S.A. (GRAFCAN)"
+        },
+        "datasets": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "value": "15"
+        }
+      },
+      {
+        "publisher": {
+          "type": "uri",
+          "value": "http://datos.gob.es/recurso/sector-publico/org/Organismo/U05600001"
+        },
+        "name": {
+          "type": "literal",
+          "xml:lang": "es",
+          "value": "Universidad Rey Juan Carlos"
+        },
+        "datasets": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "value": "15"
+        }
+      },
+      {
+        "publisher": {
+          "type": "uri",
+          "value": "http://datos.gob.es/recurso/sector-publico/org/Organismo/U01900001"
+        },
+        "name": {
+          "type": "literal",
+          "xml:lang": "es",
+          "value": "Universidad de Valladolid"
+        },
+        "datasets": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "value": "15"
+        }
+      },
+      {
+        "publisher": {
+          "type": "uri",
+          "value": "http://datos.gob.es/recurso/sector-publico/org/Organismo/L01140057"
+        },
+        "name": {
+          "type": "literal",
+          "xml:lang": "es",
+          "value": "Ayuntamiento de Almodóvar del Río"
+        },
+        "datasets": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "value": "15"
+        }
+      },
+      {
+        "publisher": {
+          "type": "uri",
+          "value": "http://datos.gob.es/recurso/sector-publico/org/Organismo/L01140155"
+        },
+        "name": {
+          "type": "literal",
+          "xml:lang": "es",
+          "value": "Ayuntamiento de Carcabuey"
+        },
+        "datasets": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "value": "15"
+        }
+      },
+      {
+        "publisher": {
+          "type": "uri",
+          "value": "http://datos.gob.es/recurso/sector-publico/org/Organismo/L01140044"
+        },
+        "name": {
+          "type": "literal",
+          "xml:lang": "es",
+          "value": "Ayuntamiento de Almedinilla"
+        },
+        "datasets": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "value": "14"
+        }
+      },
+      {
+        "publisher": {
+          "type": "uri",
+          "value": "http://datos.gob.es/recurso/sector-publico/org/Organismo/L01140608"
+        },
+        "name": {
+          "type": "literal",
+          "xml:lang": "es",
+          "value": "Ayuntamiento de Santaella"
+        },
+        "datasets": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "value": "14"
+        }
+      },
+      {
+        "publisher": {
+          "type": "uri",
+          "value": "http://datos.gob.es/recurso/sector-publico/org/Organismo/EA0042970"
+        },
+        "name": {
+          "type": "literal",
+          "xml:lang": "es",
+          "value": "Comisión Nacional del Mercado de Valores"
+        },
+        "datasets": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "value": "14"
+        }
+      },
+      {
+        "publisher": {
+          "type": "uri",
+          "value": "http://datos.gob.es/recurso/sector-publico/org/Organismo/L01140348"
+        },
+        "name": {
+          "type": "literal",
+          "xml:lang": "es",
+          "value": "Ayuntamiento de El Guijo"
+        },
+        "datasets": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "value": "14"
+        }
+      },
+      {
+        "publisher": {
+          "type": "uri",
+          "value": "http://datos.gob.es/recurso/sector-publico/org/Organismo/L01312016"
+        },
+        "name": {
+          "type": "literal",
+          "xml:lang": "es",
+          "value": "Ayuntamiento de Pamplona"
+        },
+        "datasets": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "value": "14"
+        }
+      },
+      {
+        "publisher": {
+          "type": "uri",
+          "value": "http://datos.gob.es/recurso/sector-publico/org/Organismo/E00003301"
+        },
+        "name": {
+          "type": "literal",
+          "xml:lang": "es",
+          "value": "Ministerio de Defensa"
+        },
+        "datasets": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "value": "14"
+        }
+      },
+      {
+        "publisher": {
+          "type": "uri",
+          "value": "http://datos.gob.es/recurso/sector-publico/org/Organismo/L01140266"
+        },
+        "name": {
+          "type": "literal",
+          "xml:lang": "es",
+          "value": "Ayuntamiento de Espiel"
+        },
+        "datasets": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "value": "14"
+        }
+      },
+      {
+        "publisher": {
+          "type": "uri",
+          "value": "http://datos.gob.es/recurso/sector-publico/org/Organismo/L01140364"
+        },
+        "name": {
+          "type": "literal",
+          "xml:lang": "es",
+          "value": "Ayuntamiento de Hornachuelos"
+        },
+        "datasets": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "value": "14"
+        }
+      },
+      {
+        "publisher": {
+          "type": "uri",
+          "value": "http://datos.gob.es/recurso/sector-publico/org/Organismo/L01140620"
+        },
+        "name": {
+          "type": "literal",
+          "xml:lang": "es",
+          "value": "Ayuntamiento de Torrecampo"
+        },
+        "datasets": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "value": "14"
+        }
+      },
+      {
+        "publisher": {
+          "type": "uri",
+          "value": "http://datos.gob.es/recurso/sector-publico/org/Organismo/L01140446"
+        },
+        "name": {
+          "type": "literal",
+          "xml:lang": "es",
+          "value": "Ayuntamiento de Monturque"
+        },
+        "datasets": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "value": "14"
+        }
+      },
+      {
+        "publisher": {
+          "type": "uri",
+          "value": "http://datos.gob.es/recurso/sector-publico/org/Organismo/L01140575"
+        },
+        "name": {
+          "type": "literal",
+          "xml:lang": "es",
+          "value": "Ayuntamiento de La Rambla"
+        },
+        "datasets": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "value": "14"
+        }
+      },
+      {
+        "publisher": {
+          "type": "uri",
+          "value": "http://datos.gob.es/recurso/sector-publico/org/Organismo/L01140538"
+        },
+        "name": {
+          "type": "literal",
+          "xml:lang": "es",
+          "value": "Ayuntamiento de Posadas"
+        },
+        "datasets": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "value": "14"
+        }
+      },
+      {
+        "publisher": {
+          "type": "uri",
+          "value": "http://datos.gob.es/recurso/sector-publico/org/Organismo/L01140615"
+        },
+        "name": {
+          "type": "literal",
+          "xml:lang": "es",
+          "value": "Ayuntamiento de Santa Eufemia"
+        },
+        "datasets": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "value": "14"
+        }
+      },
+      {
+        "publisher": {
+          "type": "uri",
+          "value": "http://datos.gob.es/recurso/sector-publico/org/Organismo/E05070101"
+        },
+        "name": {
+          "type": "literal",
+          "xml:lang": "es",
+          "value": "Ministerio de Sanidad"
+        },
+        "datasets": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "value": "13"
+        }
+      },
+      {
+        "publisher": {
+          "type": "uri",
+          "value": "http://datos.gob.es/recurso/sector-publico/org/Organismo/EA0043776"
+        },
+        "name": {
+          "type": "literal",
+          "xml:lang": "es",
+          "value": "Confederación Hidrográfica del Júcar"
+        },
+        "datasets": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "value": "13"
+        }
+      },
+      {
+        "publisher": {
+          "type": "uri",
+          "value": "http://datos.gob.es/recurso/sector-publico/org/Organismo/L01140667"
+        },
+        "name": {
+          "type": "literal",
+          "xml:lang": "es",
+          "value": "Ayuntamiento de Villa del Río"
+        },
+        "datasets": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "value": "13"
+        }
+      },
+      {
+        "publisher": {
+          "type": "uri",
+          "value": "http://datos.gob.es/recurso/sector-publico/org/Organismo/L01140752"
+        },
+        "name": {
+          "type": "literal",
+          "xml:lang": "es",
+          "value": "Ayuntamiento de Zuheros"
+        },
+        "datasets": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "value": "13"
+        }
+      },
+      {
+        "publisher": {
+          "type": "uri",
+          "value": "http://datos.gob.es/recurso/sector-publico/org/Organismo/L01140023"
+        },
+        "name": {
+          "type": "literal",
+          "xml:lang": "es",
+          "value": "Ayuntamiento de Aguilar de la Frontera"
+        },
+        "datasets": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "value": "13"
+        }
+      },
+      {
+        "publisher": {
+          "type": "uri",
+          "value": "http://datos.gob.es/recurso/sector-publico/org/Organismo/L02000047"
+        },
+        "name": {
+          "type": "literal",
+          "xml:lang": "es",
+          "value": "Diputación Provincial de Valladolid"
+        },
+        "datasets": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "value": "13"
+        }
+      },
+      {
+        "publisher": {
+          "type": "uri",
+          "value": "http://datos.gob.es/recurso/sector-publico/org/Organismo/L01140713"
+        },
+        "name": {
+          "type": "literal",
+          "xml:lang": "es",
+          "value": "Ayuntamiento de Villanueva del Rey"
+        },
+        "datasets": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "value": "13"
+        }
+      },
+      {
+        "publisher": {
+          "type": "uri",
+          "value": "http://datos.gob.es/recurso/sector-publico/org/Organismo/L01140142"
+        },
+        "name": {
+          "type": "literal",
+          "xml:lang": "es",
+          "value": "Ayuntamiento de Cañete de las Torres"
+        },
+        "datasets": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "value": "13"
+        }
+      },
+      {
+        "publisher": {
+          "type": "uri",
+          "value": "http://datos.gob.es/recurso/sector-publico/org/Organismo/L01140478"
+        },
+        "name": {
+          "type": "literal",
+          "xml:lang": "es",
+          "value": "Ayuntamiento de Obejo"
+        },
+        "datasets": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "value": "13"
+        }
+      },
+      {
+        "publisher": {
+          "type": "uri",
+          "value": "http://datos.gob.es/recurso/sector-publico/org/Organismo/U01000001"
+        },
+        "name": {
+          "type": "literal",
+          "xml:lang": "es",
+          "value": "Universidad Complutense de Madrid"
+        },
+        "datasets": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "value": "13"
+        }
+      },
+      {
+        "publisher": {
+          "type": "uri",
+          "value": "http://datos.gob.es/recurso/sector-publico/org/Organismo/L01140288"
+        },
+        "name": {
+          "type": "literal",
+          "xml:lang": "es",
+          "value": "Ayuntamiento de Fuente la Lancha"
+        },
+        "datasets": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "value": "13"
+        }
+      },
+      {
+        "publisher": {
+          "type": "uri",
+          "value": "http://datos.gob.es/recurso/sector-publico/org/Organismo/L01140636"
+        },
+        "name": {
+          "type": "literal",
+          "xml:lang": "es",
+          "value": "Ayuntamiento de Valenzuela"
+        },
+        "datasets": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "value": "13"
+        }
+      },
+      {
+        "publisher": {
+          "type": "uri",
+          "value": "http://datos.gob.es/recurso/sector-publico/org/Organismo/L01140312"
+        },
+        "name": {
+          "type": "literal",
+          "xml:lang": "es",
+          "value": "Ayuntamiento de Fuente-Tójar"
+        },
+        "datasets": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "value": "13"
+        }
+      },
+      {
+        "publisher": {
+          "type": "uri",
+          "value": "http://datos.gob.es/recurso/sector-publico/org/Organismo/U03600001"
+        },
+        "name": {
+          "type": "literal",
+          "xml:lang": "es",
+          "value": "Universidad Carlos III de Madrid"
+        },
+        "datasets": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "value": "13"
+        }
+      },
+      {
+        "publisher": {
+          "type": "uri",
+          "value": "http://datos.gob.es/recurso/sector-publico/org/Organismo/L01140370"
+        },
+        "name": {
+          "type": "literal",
+          "xml:lang": "es",
+          "value": "Ayuntamiento de Iznájar"
+        },
+        "datasets": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "value": "12"
+        }
+      },
+      {
+        "publisher": {
+          "type": "uri",
+          "value": "http://datos.gob.es/recurso/sector-publico/org/Organismo/L01140333"
+        },
+        "name": {
+          "type": "literal",
+          "xml:lang": "es",
+          "value": "Ayuntamiento de Guadalcázar"
+        },
+        "datasets": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "value": "12"
+        }
+      },
+      {
+        "publisher": {
+          "type": "uri",
+          "value": "http://datos.gob.es/recurso/sector-publico/org/Organismo/L01140581"
+        },
+        "name": {
+          "type": "literal",
+          "xml:lang": "es",
+          "value": "Ayuntamiento de Rute"
+        },
+        "datasets": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "value": "12"
+        }
+      },
+      {
+        "publisher": {
+          "type": "uri",
+          "value": "http://datos.gob.es/recurso/sector-publico/org/Organismo/L01140431"
+        },
+        "name": {
+          "type": "literal",
+          "xml:lang": "es",
+          "value": "Ayuntamiento de Montoro"
+        },
+        "datasets": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "value": "12"
+        }
+      },
+      {
+        "publisher": {
+          "type": "uri",
+          "value": "http://datos.gob.es/recurso/sector-publico/org/Organismo/L01140168"
+        },
+        "name": {
+          "type": "literal",
+          "xml:lang": "es",
+          "value": "Ayuntamiento de Cardeña"
+        },
+        "datasets": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "value": "12"
+        }
+      },
+      {
+        "publisher": {
+          "type": "uri",
+          "value": "http://datos.gob.es/recurso/sector-publico/org/Organismo/EA0043299"
+        },
+        "name": {
+          "type": "literal",
+          "xml:lang": "es",
+          "value": "Agencia Estatal de Meteorología"
+        },
+        "datasets": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "value": "11"
+        }
+      },
+      {
+        "publisher": {
+          "type": "uri",
+          "value": "http://datos.gob.es/recurso/sector-publico/org/Organismo/L01140018"
+        },
+        "name": {
+          "type": "literal",
+          "xml:lang": "es",
+          "value": "Ayuntamiento de Adamuz"
+        },
+        "datasets": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "value": "11"
+        }
+      },
+      {
+        "publisher": {
+          "type": "uri",
+          "value": "http://datos.gob.es/recurso/sector-publico/org/Organismo/L01140728"
+        },
+        "name": {
+          "type": "literal",
+          "xml:lang": "es",
+          "value": "Ayuntamiento de Villaralto"
+        },
+        "datasets": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "value": "11"
+        }
+      },
+      {
+        "publisher": {
+          "type": "uri",
+          "value": "http://datos.gob.es/recurso/sector-publico/org/Organismo/EA0022362"
+        },
+        "name": {
+          "type": "literal",
+          "xml:lang": "es",
+          "value": "Fondo Español de Garantía Agraria"
+        },
+        "datasets": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "value": "11"
+        }
+      },
+      {
+        "publisher": {
+          "type": "uri",
+          "value": "http://datos.gob.es/recurso/sector-publico/org/Organismo/L01140253"
+        },
+        "name": {
+          "type": "literal",
+          "xml:lang": "es",
+          "value": "Ayuntamiento de Espejo"
+        },
+        "datasets": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "value": "11"
+        }
+      },
+      {
+        "publisher": {
+          "type": "uri",
+          "value": "http://datos.gob.es/recurso/sector-publico/org/Organismo/L01140076"
+        },
+        "name": {
+          "type": "literal",
+          "xml:lang": "es",
+          "value": "Ayuntamiento de Baena"
+        },
+        "datasets": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "value": "10"
+        }
+      },
+      {
+        "publisher": {
+          "type": "uri",
+          "value": "http://datos.gob.es/recurso/sector-publico/org/Organismo/L01350167"
+        },
+        "name": {
+          "type": "literal",
+          "xml:lang": "es",
+          "value": "Ayuntamiento de Las Palmas de Gran Canaria"
+        },
+        "datasets": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "value": "10"
+        }
+      },
+      {
+        "publisher": {
+          "type": "uri",
+          "value": "http://datos.gob.es/recurso/sector-publico/org/Organismo/L01140327"
+        },
+        "name": {
+          "type": "literal",
+          "xml:lang": "es",
+          "value": "Ayuntamiento de La Granjuela"
+        },
+        "datasets": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "value": "10"
+        }
+      },
+      {
+        "publisher": {
+          "type": "uri",
+          "value": "http://datos.gob.es/recurso/sector-publico/org/Organismo/EA0001304"
+        },
+        "name": {
+          "type": "literal",
+          "xml:lang": "es",
+          "value": "Autoridad Portuaria de Cartagena"
+        },
+        "datasets": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "value": "9"
+        }
+      },
+      {
+        "publisher": {
+          "type": "uri",
+          "value": "http://datos.gob.es/recurso/sector-publico/org/Organismo/L01140116"
+        },
+        "name": {
+          "type": "literal",
+          "xml:lang": "es",
+          "value": "Ayuntamiento de Blázquez, Los"
+        },
+        "datasets": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "value": "9"
+        }
+      },
+      {
+        "publisher": {
+          "type": "uri",
+          "value": "http://datos.gob.es/recurso/sector-publico/org/Organismo/EA0041150"
+        },
+        "name": {
+          "type": "literal",
+          "xml:lang": "es",
+          "value": "Consorcio Barcelona Supercomputing Center - Centro Nacional de Supercomputación"
+        },
+        "datasets": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "value": "9"
+        }
+      },
+      {
+        "publisher": {
+          "type": "uri",
+          "value": "http://datos.gob.es/recurso/sector-publico/org/Organismo/L01140522"
+        },
+        "name": {
+          "type": "literal",
+          "xml:lang": "es",
+          "value": "Ayuntamiento de Peñarroya-Pueblonuevo"
+        },
+        "datasets": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "value": "9"
+        }
+      },
+      {
+        "publisher": {
+          "type": "uri",
+          "value": "http://datos.gob.es/recurso/sector-publico/org/Organismo/E00116401"
+        },
+        "name": {
+          "type": "literal",
+          "xml:lang": "es",
+          "value": "Instituto Nacional de Técnica Aeroespacial Esteban Terradas (INTA)"
+        },
+        "datasets": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "value": "8"
+        }
+      },
+      {
+        "publisher": {
+          "type": "uri",
+          "value": "http://datos.gob.es/recurso/sector-publico/org/Organismo/EA0041513"
+        },
+        "name": {
+          "type": "literal",
+          "xml:lang": "es",
+          "value": "Servicio Público de Empleo Estatal"
+        },
+        "datasets": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "value": "8"
+        }
+      },
+      {
+        "publisher": {
+          "type": "uri",
+          "value": "http://datos.gob.es/recurso/sector-publico/org/Organismo/EA0001315"
+        },
+        "name": {
+          "type": "literal",
+          "xml:lang": "es",
+          "value": "Autoridad Portuaria de Motril"
+        },
+        "datasets": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "value": "8"
+        }
+      },
+      {
+        "publisher": {
+          "type": "uri",
+          "value": "http://datos.gob.es/recurso/sector-publico/org/Organismo/EA0001313"
+        },
+        "name": {
+          "type": "literal",
+          "xml:lang": "es",
+          "value": "Autoridad Portuaria de Marín y Ría de Pontevedra"
+        },
+        "datasets": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "value": "7"
+        }
+      },
+      {
+        "publisher": {
+          "type": "uri",
+          "value": "http://datos.gob.es/recurso/sector-publico/org/Organismo/EA0041173"
+        },
+        "name": {
+          "type": "literal",
+          "xml:lang": "es",
+          "value": "Fundación Española para la Ciencia y la Tecnología"
+        },
+        "datasets": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "value": "7"
+        }
+      },
+      {
+        "publisher": {
+          "type": "uri",
+          "value": "http://datos.gob.es/recurso/sector-publico/org/Organismo/L01081120"
+        },
+        "name": {
+          "type": "literal",
+          "xml:lang": "es",
+          "value": "Ayuntamiento de Manlleu"
+        },
+        "datasets": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "value": "7"
+        }
+      },
+      {
+        "publisher": {
+          "type": "uri",
+          "value": "http://datos.gob.es/recurso/sector-publico/org/Organismo/LA0000129"
+        },
+        "name": {
+          "type": "literal",
+          "xml:lang": "es",
+          "value": "Consejo Insular de Aguas de Tenerife"
+        },
+        "datasets": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "value": "7"
+        }
+      },
+      {
+        "publisher": {
+          "type": "uri",
+          "value": "http://datos.gob.es/recurso/sector-publico/org/Organismo/E05233601"
+        },
+        "name": {
+          "type": "literal",
+          "xml:lang": "es",
+          "value": "Ministerio de Vivienda y Agenda Urbana"
+        },
+        "datasets": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "value": "7"
+        }
+      },
+      {
+        "publisher": {
+          "type": "uri",
+          "value": "http://datos.gob.es/recurso/sector-publico/org/Organismo/I00000121"
+        },
+        "name": {
+          "type": "literal",
+          "xml:lang": "es",
+          "value": "Agencia Española de Protección de Datos"
+        },
+        "datasets": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "value": "6"
+        }
+      },
+      {
+        "publisher": {
+          "type": "uri",
+          "value": "http://datos.gob.es/recurso/sector-publico/org/Organismo/EA0001277"
+        },
+        "name": {
+          "type": "literal",
+          "xml:lang": "es",
+          "value": "Puertos del Estado"
+        },
+        "datasets": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "value": "6"
+        }
+      },
+      {
+        "publisher": {
+          "type": "uri",
+          "value": "http://datos.gob.es/recurso/sector-publico/org/Organismo/EA0042469"
+        },
+        "name": {
+          "type": "literal",
+          "xml:lang": "es",
+          "value": "Centro de Investigaciones Energéticas, Medioambientales y Tecnológicas"
+        },
+        "datasets": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "value": "6"
+        }
+      },
+      {
+        "publisher": {
+          "type": "uri",
+          "value": "http://datos.gob.es/recurso/sector-publico/org/Organismo/EA0001308"
+        },
+        "name": {
+          "type": "literal",
+          "xml:lang": "es",
+          "value": "Autoridad Portuaria de Gijón"
+        },
+        "datasets": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "value": "5"
+        }
+      },
+      {
+        "publisher": {
+          "type": "uri",
+          "value": "http://datos.gob.es/recurso/sector-publico/org/Organismo/EA0001314"
+        },
+        "name": {
+          "type": "literal",
+          "xml:lang": "es",
+          "value": "Autoridad Portuaria de Melilla"
+        },
+        "datasets": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "value": "5"
+        }
+      },
+      {
+        "publisher": {
+          "type": "uri",
+          "value": "http://datos.gob.es/recurso/sector-publico/org/Organismo/EA0044546"
+        },
+        "name": {
+          "type": "literal",
+          "xml:lang": "es",
+          "value": "Trabajo Penitenciario y Formación para el Empleo"
+        },
+        "datasets": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "value": "4"
+        }
+      },
+      {
+        "publisher": {
+          "type": "uri",
+          "value": "http://datos.gob.es/recurso/sector-publico/org/Organismo/EA0024162"
+        },
+        "name": {
+          "type": "literal",
+          "xml:lang": "es",
+          "value": "Consorcio de la Zona Franca de Vigo"
+        },
+        "datasets": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "value": "4"
+        }
+      },
+      {
+        "publisher": {
+          "type": "uri",
+          "value": "http://datos.gob.es/recurso/sector-publico/org/Organismo/EA0024049"
+        },
+        "name": {
+          "type": "literal",
+          "xml:lang": "es",
+          "value": "Consorcio de la Zona Franca de Cádiz"
+        },
+        "datasets": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "value": "4"
+        }
+      },
+      {
+        "publisher": {
+          "type": "uri",
+          "value": "http://datos.gob.es/recurso/sector-publico/org/Organismo/EA0041447"
+        },
+        "name": {
+          "type": "literal",
+          "xml:lang": "es",
+          "value": "Fondo de Garantía Salarial"
+        },
+        "datasets": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "value": "4"
+        }
+      },
+      {
+        "publisher": {
+          "type": "uri",
+          "value": "http://datos.gob.es/recurso/sector-publico/org/Organismo/L03380005"
+        },
+        "name": {
+          "type": "literal",
+          "xml:lang": "es",
+          "value": "Cabildo Insular de El Hierro"
+        },
+        "datasets": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "value": "4"
+        }
+      },
+      {
+        "publisher": {
+          "type": "uri",
+          "value": "http://datos.gob.es/recurso/sector-publico/org/Organismo/LA0013065"
+        },
+        "name": {
+          "type": "literal",
+          "xml:lang": "es",
+          "value": "Metropolitano de Tenerife, S.A."
+        },
+        "datasets": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "value": "4"
+        }
+      },
+      {
+        "publisher": {
+          "type": "uri",
+          "value": "http://datos.gob.es/recurso/sector-publico/org/Organismo/EA0001318"
+        },
+        "name": {
+          "type": "literal",
+          "xml:lang": "es",
+          "value": "Autoridad Portuaria de Santander"
+        },
+        "datasets": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "value": "4"
+        }
+      },
+      {
+        "publisher": {
+          "type": "uri",
+          "value": "http://datos.gob.es/recurso/sector-publico/org/Organismo/E00125801"
+        },
+        "name": {
+          "type": "literal",
+          "xml:lang": "es",
+          "value": "Centro de Estudios y Experimentación de Obras Públicas"
+        },
+        "datasets": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "value": "3"
+        }
+      },
+      {
+        "publisher": {
+          "type": "uri",
+          "value": "http://datos.gob.es/recurso/sector-publico/org/Organismo/EA0022323"
+        },
+        "name": {
+          "type": "literal",
+          "xml:lang": "es",
+          "value": "Entidad Estatal de Seguros Agrarios - Enesa"
+        },
+        "datasets": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "value": "3"
+        }
+      },
+      {
+        "publisher": {
+          "type": "uri",
+          "value": "http://datos.gob.es/recurso/sector-publico/org/Organismo/EA0040819"
+        },
+        "name": {
+          "type": "literal",
+          "xml:lang": "es",
+          "value": "Agencia Estatal Boletín Oficial del Estado"
+        },
+        "datasets": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "value": "3"
+        }
+      },
+      {
+        "publisher": {
+          "type": "uri",
+          "value": "http://datos.gob.es/recurso/sector-publico/org/Organismo/L01281132"
+        },
+        "name": {
+          "type": "literal",
+          "xml:lang": "es",
+          "value": "Ayuntamiento de Pinto"
+        },
+        "datasets": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "value": "3"
+        }
+      },
+      {
+        "publisher": {
+          "type": "uri",
+          "value": "http://datos.gob.es/recurso/sector-publico/org/Organismo/EA0001320"
+        },
+        "name": {
+          "type": "literal",
+          "xml:lang": "es",
+          "value": "Autoridad Portuaria de Tarragona"
+        },
+        "datasets": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "value": "3"
+        }
+      },
+      {
+        "publisher": {
+          "type": "uri",
+          "value": "http://datos.gob.es/recurso/sector-publico/org/Organismo/I00000847"
+        },
+        "name": {
+          "type": "literal",
+          "xml:lang": "es",
+          "value": "Sindicatura de Comptes de la Comunitat Valenciana"
+        },
+        "datasets": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "value": "3"
+        }
+      },
+      {
+        "publisher": {
+          "type": "uri",
+          "value": "http://datos.gob.es/recurso/sector-publico/org/Organismo/EA0042662"
+        },
+        "name": {
+          "type": "literal",
+          "xml:lang": "es",
+          "value": "Real Patronato sobre Discapacidad"
+        },
+        "datasets": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "value": "3"
+        }
+      },
+      {
+        "publisher": {
+          "type": "uri",
+          "value": "http://datos.gob.es/recurso/sector-publico/org/Organismo/E04926001"
+        },
+        "name": {
+          "type": "literal",
+          "xml:lang": "es",
+          "value": "Secretaría de Estado de la Seguridad Social y Pensiones [EXTINTO]"
+        },
+        "datasets": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "value": "2"
+        }
+      },
+      {
+        "publisher": {
+          "type": "uri",
+          "value": "http://datos.gob.es/recurso/sector-publico/org/Organismo/EA0022023"
+        },
+        "name": {
+          "type": "literal",
+          "xml:lang": "es",
+          "value": "Fundación Lázaro Galdiano"
+        },
+        "datasets": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "value": "2"
+        }
+      },
+      {
+        "publisher": {
+          "type": "uri",
+          "value": "http://datos.gob.es/recurso/sector-publico/org/Organismo/E05235701"
+        },
+        "name": {
+          "type": "literal",
+          "xml:lang": "es",
+          "value": "Ministerio de Derechos Sociales, Consumo y Agenda 2030"
+        },
+        "datasets": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "value": "2"
+        }
+      },
+      {
+        "publisher": {
+          "type": "uri",
+          "value": "http://datos.gob.es/recurso/sector-publico/org/Organismo/LA0012321"
+        },
+        "name": {
+          "type": "literal",
+          "xml:lang": "es",
+          "value": "Instituto Tecnológico de Energías Renovables, S.A."
+        },
+        "datasets": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "value": "2"
+        }
+      },
+      {
+        "publisher": {
+          "type": "uri",
+          "value": "http://datos.gob.es/recurso/sector-publico/org/Organismo/U02800001"
+        },
+        "name": {
+          "type": "literal",
+          "xml:lang": "es",
+          "value": "Universidad Nacional de Educación a Distancia"
+        },
+        "datasets": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "value": "2"
+        }
+      },
+      {
+        "publisher": {
+          "type": "uri",
+          "value": "http://datos.gob.es/recurso/sector-publico/org/Organismo/EA0038904"
+        },
+        "name": {
+          "type": "literal",
+          "xml:lang": "es",
+          "value": "Empresa Nacional de Innovación, Sme, SA"
+        },
+        "datasets": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "value": "2"
+        }
+      },
+      {
+        "publisher": {
+          "type": "uri",
+          "value": "http://datos.gob.es/recurso/sector-publico/org/Organismo/L01081017"
+        },
+        "name": {
+          "type": "literal",
+          "xml:lang": "es",
+          "value": "Ayuntamiento de L'Hospitalet de Llobregat"
+        },
+        "datasets": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "value": "2"
+        }
+      },
+      {
+        "publisher": {
+          "type": "uri",
+          "value": "http://datos.gob.es/recurso/sector-publico/org/Organismo/EA0041267"
+        },
+        "name": {
+          "type": "literal",
+          "xml:lang": "es",
+          "value": "Centro para el Desarrollo Tecnológico y la Innovación E.P.E."
+        },
+        "datasets": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "value": "2"
+        }
+      },
+      {
+        "publisher": {
+          "type": "uri",
+          "value": "http://datos.gob.es/recurso/sector-publico/org/Organismo/L01380125"
+        },
+        "name": {
+          "type": "literal",
+          "xml:lang": "es",
+          "value": "Ayuntamiento de Fasnia"
+        },
+        "datasets": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "value": "1"
+        }
+      },
+      {
+        "publisher": {
+          "type": "uri",
+          "value": "http://datos.gob.es/recurso/sector-publico/org/Organismo/L01110201"
+        },
+        "name": {
+          "type": "literal",
+          "xml:lang": "es",
+          "value": "Ayuntamiento de Jerez de la Frontera"
+        },
+        "datasets": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "value": "1"
+        }
+      },
+      {
+        "publisher": {
+          "type": "uri",
+          "value": "http://datos.gob.es/recurso/sector-publico/org/Organismo/L01480139"
+        },
+        "name": {
+          "type": "literal",
+          "xml:lang": "es",
+          "value": "Ayuntamiento de Barakaldo"
+        },
+        "datasets": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "value": "1"
+        }
+      },
+      {
+        "publisher": {
+          "type": "uri",
+          "value": "http://datos.gob.es/recurso/sector-publico/org/Organismo/LA0002292"
+        },
+        "name": {
+          "type": "literal",
+          "xml:lang": "es",
+          "value": "Sociedad Insular para la Promoción de las Personas con Discapacidad, S.L."
+        },
+        "datasets": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "value": "1"
+        }
+      },
+      {
+        "publisher": {
+          "type": "uri",
+          "value": "http://datos.gob.es/recurso/sector-publico/org/Organismo/EA0021786"
+        },
+        "name": {
+          "type": "literal",
+          "xml:lang": "es",
+          "value": "Museo Nacional Centro de Arte Reina Sofía"
+        },
+        "datasets": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "value": "1"
+        }
+      },
+      {
+        "publisher": {
+          "type": "uri",
+          "value": "http://datos.gob.es/recurso/sector-publico/org/Organismo/LA0002304"
+        },
+        "name": {
+          "type": "literal",
+          "xml:lang": "es",
+          "value": "Auditorio de Tenerife Adán Martín, S.A."
+        },
+        "datasets": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "value": "1"
+        }
+      },
+      {
+        "publisher": {
+          "type": "uri",
+          "value": "http://datos.gob.es/recurso/sector-publico/org/Organismo/A10018363"
+        },
+        "name": {
+          "type": "literal",
+          "xml:lang": "es",
+          "value": "Fundación para el Fomento de la Investigación Sanitaria y Biomédica de la Comunitat Valenciana (FISABIO)"
+        },
+        "datasets": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "value": "1"
+        }
+      },
+      {
+        "publisher": {
+          "type": "uri",
+          "value": "http://datos.gob.es/recurso/sector-publico/org/Organismo/EA0038967"
+        },
+        "name": {
+          "type": "literal",
+          "xml:lang": "es",
+          "value": "Compañía Española de Financiación del Desarrollo Cofides, S.A."
+        },
+        "datasets": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "value": "1"
+        }
+      },
+      {
+        "publisher": {
+          "type": "uri",
+          "value": "http://datos.gob.es/recurso/sector-publico/org/Organismo/A06002853"
+        },
+        "name": {
+          "type": "literal",
+          "xml:lang": "es",
+          "value": "Gobierno de Cantabria"
+        },
+        "datasets": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "value": "1"
+        }
+      }
+    ]
+  }
+}

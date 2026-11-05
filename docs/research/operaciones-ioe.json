@@ -1,0 +1,4554 @@
+{
+  "source": "https://www.ine.es/dyngs/IOE/listadoIoeActualAvan.htm?opc=todas",
+  "retrievedAt": "2026-11-05T13:34:48.516273+00:00",
+  "operations": [
+    {
+      "code": "01005",
+      "title": "Calendarios de Siembra y Recolección (MAPA)",
+      "responsibleCode": "MAPA",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931123084"
+    },
+    {
+      "code": "01006",
+      "title": "Encuesta Semestral de Ganado Bovino y su Producción Láctea (MAPA)",
+      "responsibleCode": "MAPA",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931123252"
+    },
+    {
+      "code": "01007",
+      "title": "Encuesta Semestral de Ganado Porcino (MAPA)",
+      "responsibleCode": "MAPA",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931123427"
+    },
+    {
+      "code": "01008",
+      "title": "Encuesta Anual de Ganados Ovino y Caprino, y su Producción Láctea (MAPA)",
+      "responsibleCode": "MAPA",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931092418"
+    },
+    {
+      "code": "01009",
+      "title": "Encuestas de Producción de Huevos e Incubación (MAPA)",
+      "responsibleCode": "MAPA",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931092593"
+    },
+    {
+      "code": "01010",
+      "title": "Encuesta Mensual y Anual de Sacrificio de Ganado en Mataderos (MAPA)",
+      "responsibleCode": "MAPA",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931092768"
+    },
+    {
+      "code": "01013",
+      "title": "Estadística Anual de Lana, Miel y Otras Producciones Ganaderas (MAPA)",
+      "responsibleCode": "MAPA",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931092943"
+    },
+    {
+      "code": "01014",
+      "title": "Evaluación Anual del Movimiento Comercial Pecuario (MOCOPE) (MAPA)",
+      "responsibleCode": "MAPA",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931093115"
+    },
+    {
+      "code": "01015",
+      "title": "Encuesta de Cunicultura (MAPA)",
+      "responsibleCode": "MAPA",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931093290"
+    },
+    {
+      "code": "01017",
+      "title": "Estadística de Viñedo (MAPA)",
+      "responsibleCode": "MAPA",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931093467"
+    },
+    {
+      "code": "01018",
+      "title": "Encuesta de Base de Plantaciones de Frutales, Olivar y Uva de Mesa (MAPA)",
+      "responsibleCode": "MAPA",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931093639"
+    },
+    {
+      "code": "01019",
+      "title": "Avances Mensuales de Superficies y Producciones Agrícolas (MAPA)",
+      "responsibleCode": "MAPA",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931093816"
+    },
+    {
+      "code": "01021",
+      "title": "Estadística sobre Superficies de Cultivos y Aprovechamientos por Términos Municipales (MAPA)",
+      "responsibleCode": "MAPA",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931093988"
+    },
+    {
+      "code": "01023",
+      "title": "Encuesta Anual de Superficies y Rendimientos de Cultivos (MAPA)",
+      "responsibleCode": "MAPA",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931094327"
+    },
+    {
+      "code": "01029",
+      "title": "Estadística Anual de Cortas de Madera (MTED)",
+      "responsibleCode": "MTED",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931127020"
+    },
+    {
+      "code": "01030",
+      "title": "Estadística Anual de Otros Aprovechamientos Forestales (MTED)",
+      "responsibleCode": "MTED",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931127190"
+    },
+    {
+      "code": "01034",
+      "title": "Encuesta Mensual de Recogida de Leche y de Productos Lácteos Elaborados (MAPA)",
+      "responsibleCode": "MAPA",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931094849"
+    },
+    {
+      "code": "01035",
+      "title": "Encuesta Anual de Recogida de Leche y de Productos Lácteos Elaborados (MAPA)",
+      "responsibleCode": "MAPA",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931095022"
+    },
+    {
+      "code": "01037",
+      "title": "Encuesta Trienal de la Estructura de Industrias Lácteas (MAPA)",
+      "responsibleCode": "MAPA",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931095195"
+    },
+    {
+      "code": "01044",
+      "title": "Precios Medios Anuales de las Tierras de Uso Agrario (MAPA)",
+      "responsibleCode": "MAPA",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931095710"
+    },
+    {
+      "code": "01046",
+      "title": "Precios e Índices Medios Nacionales Mensuales y Anuales Percibidos por los Agricultores (MAPA)",
+      "responsibleCode": "MAPA",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931095884"
+    },
+    {
+      "code": "01047",
+      "title": "Precios e Índices Medios Nacionales Mensuales y Anuales Pagados por los Agricultores (MAPA)",
+      "responsibleCode": "MAPA",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931096058"
+    },
+    {
+      "code": "01048",
+      "title": "Índices y Salarios Agrarios Trimestrales y Anuales (MAPA)",
+      "responsibleCode": "MAPA",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931096230"
+    },
+    {
+      "code": "01049",
+      "title": "Red Española de Datos de Sostenibilidad Agraria (REDSA) (MAPA)",
+      "responsibleCode": "MAPA",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931096402"
+    },
+    {
+      "code": "01050",
+      "title": "Cánones Anuales de Arrendamientos Rústicos (MAPA)",
+      "responsibleCode": "MAPA",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931096577"
+    },
+    {
+      "code": "01053",
+      "title": "Cuentas Económicas Nacionales de la Agricultura (MAPA)",
+      "responsibleCode": "MAPA",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931096919"
+    },
+    {
+      "code": "01054",
+      "title": "Cuentas Económicas de la Agricultura Regionales (MAPA)",
+      "responsibleCode": "MAPA",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931097091"
+    },
+    {
+      "code": "01055",
+      "title": "Balances de Aprovisionamiento de Productos Agrícolas Excepto Vino (MAPA)",
+      "responsibleCode": "MAPA",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931097263"
+    },
+    {
+      "code": "01056",
+      "title": "Balances de Aprovisionamiento de Carnes (MAPA)",
+      "responsibleCode": "MAPA",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931097431"
+    },
+    {
+      "code": "01061",
+      "title": "Encuesta de Utilización de Medios de Producción (MAPA)",
+      "responsibleCode": "MAPA",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931097599"
+    },
+    {
+      "code": "01063",
+      "title": "Encuesta de Establecimientos de Acuicultura (MAPA)",
+      "responsibleCode": "MAPA",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931097942"
+    },
+    {
+      "code": "01064",
+      "title": "Estadística de la Flota Pesquera (MAPA)",
+      "responsibleCode": "MAPA",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931098117"
+    },
+    {
+      "code": "01066",
+      "title": "Cuentas Económicas Nacionales de la Pesca (MAPA)",
+      "responsibleCode": "MAPA",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931098292"
+    },
+    {
+      "code": "01067",
+      "title": "Balances de Aprovisionamiento de Productos de la Pesca (MAPA)",
+      "responsibleCode": "MAPA",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931098464"
+    },
+    {
+      "code": "01069",
+      "title": "Estadística Anual de Proyectos y Actuaciones Forestales (MTED)",
+      "responsibleCode": "MTED",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931127360"
+    },
+    {
+      "code": "01070",
+      "title": "Cuentas Económicas Nacionales de la Selvicultura (MTED)",
+      "responsibleCode": "MTED",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931127535"
+    },
+    {
+      "code": "01082",
+      "title": "Previsiones Nacionales de Producciones Cárnicas (MAPA)",
+      "responsibleCode": "MAPA",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931099312"
+    },
+    {
+      "code": "01084",
+      "title": "Estadística Anual de Consumo de Alimentos por el Ganado (MAPA)",
+      "responsibleCode": "MAPA",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931099482"
+    },
+    {
+      "code": "01085",
+      "title": "Estadística Anual de Caza (MTED)",
+      "responsibleCode": "MTED",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931127871"
+    },
+    {
+      "code": "01086",
+      "title": "Estadística Anual de Pesca Fluvial (MTED)",
+      "responsibleCode": "MTED",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931128046"
+    },
+    {
+      "code": "01087",
+      "title": "Estadística Mensual de Inscripciones de Maquinaria Agrícola (MAPA)",
+      "responsibleCode": "MAPA",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931099653"
+    },
+    {
+      "code": "01088",
+      "title": "Estadística Anual de Consumo de Fertilizantes en Agricultura (MAPA)",
+      "responsibleCode": "MAPA",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931099828"
+    },
+    {
+      "code": "01089",
+      "title": "Encuesta de Utilización de Productos Fitosanitarios (MAPA)",
+      "responsibleCode": "MAPA",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931099998"
+    },
+    {
+      "code": "01099",
+      "title": "Encuesta Económica de Pesca Marítima (MAPA)",
+      "responsibleCode": "MAPA",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931101721"
+    },
+    {
+      "code": "01116",
+      "title": "Precios Medios Nacionales (MAPA)",
+      "responsibleCode": "MAPA",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931124110"
+    },
+    {
+      "code": "01117",
+      "title": "Precios Medios Anuales de Productos y Medios de Producción Complementarios (MAPA)",
+      "responsibleCode": "MAPA",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931124282"
+    },
+    {
+      "code": "01122",
+      "title": "Balances de Aprovisionamiento de Vino (MAPA)",
+      "responsibleCode": "MAPA",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931104123"
+    },
+    {
+      "code": "01123",
+      "title": "Balances de Aprovisionamiento de Productos Ganaderos Distintos de las Carnes (MAPA)",
+      "responsibleCode": "MAPA",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931104291"
+    },
+    {
+      "code": "01124",
+      "title": "Balance Nacional de la Madera (MTED)",
+      "responsibleCode": "MTED",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931128221"
+    },
+    {
+      "code": "01126",
+      "title": "Cuentas Económicas Regionales de la Pesca (MAPA)",
+      "responsibleCode": "MAPA",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931104459"
+    },
+    {
+      "code": "01134",
+      "title": "Estadísticas de Producción y Comercialización de Material Forestal de Reproducción (MAPA)",
+      "responsibleCode": "MAPA",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931128391"
+    },
+    {
+      "code": "01135",
+      "title": "Estadística Anual de Superficies y Producciones de Cultivos (MAPA)",
+      "responsibleCode": "MAPA",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931104627"
+    },
+    {
+      "code": "01136",
+      "title": "Indicadores de Desarrollo Rural (MAPA)",
+      "responsibleCode": "MAPA",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931144317"
+    },
+    {
+      "code": "01137",
+      "title": "LIGNUM. Sistema Estatal de Información sobre el Comercio de la Madera (MTED)",
+      "responsibleCode": "MTED",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946000383"
+    },
+    {
+      "code": "01140",
+      "title": "Encuesta Económica de Acuicultura (MAPA)",
+      "responsibleCode": "MAPA",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931151305"
+    },
+    {
+      "code": "01142",
+      "title": "Estadísticas de Capturas y Desembarcos de Pesca Marítima (MAPA)",
+      "responsibleCode": "MAPA",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931151479"
+    },
+    {
+      "code": "01152",
+      "title": "Consumo Alimentario Extradoméstico en España: Hábitos del Consumidor (MAPA)",
+      "responsibleCode": "MAPA",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931144674"
+    },
+    {
+      "code": "01153",
+      "title": "Consumo Alimentario en Hogares en España (MAPA)",
+      "responsibleCode": "MAPA",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931144847"
+    },
+    {
+      "code": "01154",
+      "title": "Observatorio del Consumo y la Distribución Agroalimentaria (MAPA)",
+      "responsibleCode": "MAPA",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931145022"
+    },
+    {
+      "code": "01155",
+      "title": "Barómetro del Clima de Confianza del Sector Agroalimentario (MAPA)",
+      "responsibleCode": "MAPA",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931145197"
+    },
+    {
+      "code": "01156",
+      "title": "Panel de Uso de los Alimentos (MAPA)",
+      "responsibleCode": "MAPA",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259945998985"
+    },
+    {
+      "code": "01157",
+      "title": "Panel de Cuantificación del Desperdicio Alimentario en los Hogares (MAPA)",
+      "responsibleCode": "MAPA",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259945998986"
+    },
+    {
+      "code": "01160",
+      "title": "Encuesta de Comercialización de Productos Fitosanitarios (MAPA)",
+      "responsibleCode": "MAPA",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259941117239"
+    },
+    {
+      "code": "01165",
+      "title": "Estadística de la Producción Ecológica (MAPA)",
+      "responsibleCode": "MAPA",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259945998988"
+    },
+    {
+      "code": "01170",
+      "title": "Precios Coyunturales de Productos Agrícolas (MAPA)",
+      "responsibleCode": "MAPA",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259941117423"
+    },
+    {
+      "code": "01180",
+      "title": "Precios Coyunturales de Productos Ganaderos (MAPA)",
+      "responsibleCode": "MAPA",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259941117601"
+    },
+    {
+      "code": "01181",
+      "title": "Panel de Cuantificación del Desperdicio Alimentario en el Consumo Extradoméstico (MAPA)",
+      "responsibleCode": "MAPA",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946001123"
+    },
+    {
+      "code": "01182",
+      "title": "Estudios de Costes y Rentas de las Explotaciones Agrarias (ECREA) (MAPA)",
+      "responsibleCode": "MAPA",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946003373"
+    },
+    {
+      "code": "04001",
+      "title": "Inventario Forestal Nacional (MTED)",
+      "responsibleCode": "MTED",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931126335"
+    },
+    {
+      "code": "04002",
+      "title": "Estadística de Incendios Forestales (MTED)",
+      "responsibleCode": "MTED",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931126505"
+    },
+    {
+      "code": "04004",
+      "title": "Inventario Nacional del Estado de Salud de los Bosques (MTED)",
+      "responsibleCode": "MTED",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931126680"
+    },
+    {
+      "code": "04006",
+      "title": "Inventario Nacional de Erosión de Suelos (MTED)",
+      "responsibleCode": "MTED",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931126850"
+    },
+    {
+      "code": "08002",
+      "title": "Estadística de Destilación de Carbones (Mensual) (MTED)",
+      "responsibleCode": "MTED",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931089532"
+    },
+    {
+      "code": "08003",
+      "title": "Estadística de Destilación de Carbones (Anual) (MTED)",
+      "responsibleCode": "MTED",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931089700"
+    },
+    {
+      "code": "08006",
+      "title": "Estadística de Industrias del Gas (Suministro al Mercado Interior) (MTED)",
+      "responsibleCode": "MTED",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931089868"
+    },
+    {
+      "code": "08011",
+      "title": "Estadística de Refinerías de Petróleo (Mensual) (MTED)",
+      "responsibleCode": "MTED",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931090372"
+    },
+    {
+      "code": "08012",
+      "title": "Estadística de Refinerías de Petróleo (Anual) (MTED)",
+      "responsibleCode": "MTED",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931090540"
+    },
+    {
+      "code": "08013",
+      "title": "Estadística del Mercado de Productos Petrolíferos (Mensual) (MTED)",
+      "responsibleCode": "MTED",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931090708"
+    },
+    {
+      "code": "08014",
+      "title": "Estadística del Mercado de Productos Petrolíferos (Anual) (MTED)",
+      "responsibleCode": "MTED",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931090882"
+    },
+    {
+      "code": "08016",
+      "title": "Estadística de Industria de Energía Eléctrica (Mensual) (MTED)",
+      "responsibleCode": "MTED",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931091056"
+    },
+    {
+      "code": "08017",
+      "title": "Estadística de Industria de Energía Eléctrica (Anual) (MTED)",
+      "responsibleCode": "MTED",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931091226"
+    },
+    {
+      "code": "08020",
+      "title": "Estadística de Extracción de Carbones (Anual) (MTED)",
+      "responsibleCode": "MTED",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931091901"
+    },
+    {
+      "code": "08023",
+      "title": "Estadística de Extracción de Minerales no Metálicos ni Energéticos (MTED)",
+      "responsibleCode": "MTED",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931092076"
+    },
+    {
+      "code": "08024",
+      "title": "Estadística de Fabricación de Vehículos (MITU)",
+      "responsibleCode": "MITU",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931086279"
+    },
+    {
+      "code": "08032",
+      "title": "Encuesta de Coyuntura Industrial (MITU)",
+      "responsibleCode": "MITU",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931086613"
+    },
+    {
+      "code": "08033",
+      "title": "Encuesta de Coyuntura Industrial en el Sector de la Construcción (MITU)",
+      "responsibleCode": "MITU",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931086782"
+    },
+    {
+      "code": "08036",
+      "title": "Estadística de Aguas Minerales y Termales (MTED)",
+      "responsibleCode": "MTED",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931130061"
+    },
+    {
+      "code": "08037",
+      "title": "Estadística de Extracción de Minerales Metálicos (MTED)",
+      "responsibleCode": "MTED",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931138400"
+    },
+    {
+      "code": "08038",
+      "title": "Estadística de Extracción de Petróleo y Gas (MTED)",
+      "responsibleCode": "MTED",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931138750"
+    },
+    {
+      "code": "08039",
+      "title": "Estadística de Extracción de Petróleo y Gas (Mensual) (MTED)",
+      "responsibleCode": "MTED",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931138575"
+    },
+    {
+      "code": "08041",
+      "title": "Estadística del Cemento (MITU)",
+      "responsibleCode": "MITU",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259945999670"
+    },
+    {
+      "code": "08051",
+      "title": "Información sobre Precios de Carburantes en Estaciones de Servicio (Mensual) (MTED)",
+      "responsibleCode": "MTED",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931152361"
+    },
+    {
+      "code": "08052",
+      "title": "Información sobre Precios de Carburantes en Estaciones de Servicio (Anual) (MTED)",
+      "responsibleCode": "MTED",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931152187"
+    },
+    {
+      "code": "08054",
+      "title": "Estadística sobre el Mercado de Gas Natural (Mensual) (MTED)",
+      "responsibleCode": "MTED",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946000403"
+    },
+    {
+      "code": "08055",
+      "title": "Estadística de Información sobre Precios de Importación de Crudo (MTED)",
+      "responsibleCode": "MTED",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946000404"
+    },
+    {
+      "code": "09101",
+      "title": "Estadísticas de Propiedad Industrial (MITU)",
+      "responsibleCode": "MITU",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931086951"
+    },
+    {
+      "code": "09102",
+      "title": "Boletín de Propiedad Industrial (MITU)",
+      "responsibleCode": "MITU",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931087124"
+    },
+    {
+      "code": "10001",
+      "title": "Boletín de Coyuntura Energética (Trimestral) (MTED)",
+      "responsibleCode": "MTED",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931091396"
+    },
+    {
+      "code": "10002",
+      "title": "Balance Energético (Anual) (MTED)",
+      "responsibleCode": "MTED",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931091561"
+    },
+    {
+      "code": "10041",
+      "title": "Seguimiento del Estado Cuantitativo de las Aguas Subterráneas (MTED)",
+      "responsibleCode": "MTED",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931113584"
+    },
+    {
+      "code": "10042",
+      "title": "Seguimiento del Estado Químico de las Aguas Subterráneas (MTED)",
+      "responsibleCode": "MTED",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931125991"
+    },
+    {
+      "code": "14001",
+      "title": "Encuesta de Coyuntura de la Exportación (MECM)",
+      "responsibleCode": "MECM",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931088514"
+    },
+    {
+      "code": "15023",
+      "title": "Campaña de Exportación de cada uno de los diferentes Productos (MECM)",
+      "responsibleCode": "MECM",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931087992"
+    },
+    {
+      "code": "15024",
+      "title": "Estadística de Importación y Exportación de Especies Incluidas en Convenio CITES (MECM)",
+      "responsibleCode": "MECM",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931088166"
+    },
+    {
+      "code": "15029",
+      "title": "Estadísticas de Comercio Exterior de Productos Sometidos a Control de Calidad Comercial (MECM)",
+      "responsibleCode": "MECM",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931088342"
+    },
+    {
+      "code": "15030",
+      "title": "Estadística del Comercio Exterior por Sectores Económicos (MECM)",
+      "responsibleCode": "MECM",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931088849"
+    },
+    {
+      "code": "15031",
+      "title": "Estadísticas de Importación de Productos Industriales Sometidos a Control SOIVRE de Seguridad (MECM)",
+      "responsibleCode": "MECM",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931150340"
+    },
+    {
+      "code": "16023",
+      "title": "Encuesta de Turismo de Residentes (ETR/FAMILITUR) (INE)",
+      "responsibleCode": "INE",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931087297"
+    },
+    {
+      "code": "16028",
+      "title": "Estadística de Movimientos Turísticos en Fronteras (FRONTUR) (INE)",
+      "responsibleCode": "INE",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931087472"
+    },
+    {
+      "code": "16029",
+      "title": "Encuesta de Gasto Turístico (EGATUR) (INE)",
+      "responsibleCode": "INE",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931087646"
+    },
+    {
+      "code": "16030",
+      "title": "Estadística de Empleo Turístico según la EPA. (Explotación de Turespaña) (MITU)",
+      "responsibleCode": "MITU",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931139937"
+    },
+    {
+      "code": "16031",
+      "title": "Estadística de Empleo Turístico según la Afiliación a la Seguridad Social. (Explotación de Turespaña) (MITU)",
+      "responsibleCode": "MITU",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931140109"
+    },
+    {
+      "code": "16035",
+      "title": "Pasajeros Aéreos Internacionales (MITU)",
+      "responsibleCode": "MITU",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931140281"
+    },
+    {
+      "code": "20001",
+      "title": "Estadística de Construcción de Edificios (MTRM)",
+      "responsibleCode": "MTRM",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931070985"
+    },
+    {
+      "code": "20004",
+      "title": "Estadística de Licitación Oficial en la Construcción (MTRM)",
+      "responsibleCode": "MTRM",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931071339"
+    },
+    {
+      "code": "20005",
+      "title": "Índices de Producción de la Industria de la Construcción (MTRM)",
+      "responsibleCode": "MTRM",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931071518"
+    },
+    {
+      "code": "20006",
+      "title": "Estadística de Visados de Dirección de Obra (Estadísticas de Obras en Edificación) (MTRM)",
+      "responsibleCode": "MTRM",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931071695"
+    },
+    {
+      "code": "20007",
+      "title": "Estadística de Valor Tasado de Vivienda (MVAU)",
+      "responsibleCode": "MVAU",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931125306"
+    },
+    {
+      "code": "20008",
+      "title": "Índices de Costes del Sector de la Construcción (MTRM)",
+      "responsibleCode": "MTRM",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931071874"
+    },
+    {
+      "code": "20010",
+      "title": "Anuario Estadístico del MFOM (MTRM)",
+      "responsibleCode": "MTRM",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931072048"
+    },
+    {
+      "code": "20011",
+      "title": "Boletín Estadístico del MFOM (MTRM)",
+      "responsibleCode": "MTRM",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931072218"
+    },
+    {
+      "code": "20015",
+      "title": "Atlas Estadístico de la Construcción en España (MTRM)",
+      "responsibleCode": "MTRM",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931125479"
+    },
+    {
+      "code": "20019",
+      "title": "Atlas Estadístico de las Áreas Urbanas en España (MVAU)",
+      "responsibleCode": "MVAU",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931125647"
+    },
+    {
+      "code": "20025",
+      "title": "Los Transportes y las Infraestructuras (MTRM)",
+      "responsibleCode": "MTRM",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931069970"
+    },
+    {
+      "code": "20041",
+      "title": "Proyecto CORINE Land Cover (UE) (MTRM)",
+      "responsibleCode": "MTRM",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931070639"
+    },
+    {
+      "code": "20042",
+      "title": "Estadística de Sismología (MTRM)",
+      "responsibleCode": "MTRM",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931070132"
+    },
+    {
+      "code": "20043",
+      "title": "Estadística de Campo Magnético (MTRM)",
+      "responsibleCode": "MTRM",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931070301"
+    },
+    {
+      "code": "20044",
+      "title": "Atlas Nacional de España (MTRM)",
+      "responsibleCode": "MTRM",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931070811"
+    },
+    {
+      "code": "20045",
+      "title": "Estadística de Vigilancia Volcánica (MTRM)",
+      "responsibleCode": "MTRM",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931070470"
+    },
+    {
+      "code": "20046",
+      "title": "Sistema de Información de Ocupación del Suelo en España (SIOSE) (MTRM)",
+      "responsibleCode": "MTRM",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931143636"
+    },
+    {
+      "code": "20061",
+      "title": "Encuesta Permanente de Transporte de Mercancías por Carretera (MTRM)",
+      "responsibleCode": "MTRM",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931072725"
+    },
+    {
+      "code": "20066",
+      "title": "Índice de Precios del Transporte (MTRM)",
+      "responsibleCode": "MTRM",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931136250"
+    },
+    {
+      "code": "21001",
+      "title": "Estadística del Programa Nacional de Aforos (MTRM)",
+      "responsibleCode": "MTRM",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931072893"
+    },
+    {
+      "code": "21021",
+      "title": "Seguimiento del Estado de las Aguas Superficiales (MTED)",
+      "responsibleCode": "MTED",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931126163"
+    },
+    {
+      "code": "21041",
+      "title": "Estadística de Embalses y Producible de Energía Hidroeléctrica (MTED)",
+      "responsibleCode": "MTED",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931113756"
+    },
+    {
+      "code": "22001",
+      "title": "Registro General de Transportistas y de Actividades Auxiliares y Complementarias del Transporte (MTRM)",
+      "responsibleCode": "MTRM",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931073021"
+    },
+    {
+      "code": "22009",
+      "title": "Estadística sobre Transporte Internacional por Carretera (MTRM)",
+      "responsibleCode": "MTRM",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931073187"
+    },
+    {
+      "code": "22022",
+      "title": "Registro de Buques y Registro de Empresas Navieras (MTRM)",
+      "responsibleCode": "MTRM",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931073354"
+    },
+    {
+      "code": "22025",
+      "title": "Estadística de Accidentes de Buques (MTRM)",
+      "responsibleCode": "MTRM",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931073520"
+    },
+    {
+      "code": "22027",
+      "title": "Estadística de Emergencias por Contaminación Marina Atendidas por Salvamento Marítimo (MTRM)",
+      "responsibleCode": "MTRM",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931132306"
+    },
+    {
+      "code": "22041",
+      "title": "Resumen General del Tráfico Portuario (MTRM)",
+      "responsibleCode": "MTRM",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931074850"
+    },
+    {
+      "code": "22043",
+      "title": "Memorias de las Autoridades Portuarias (MTRM)",
+      "responsibleCode": "MTRM",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931075011"
+    },
+    {
+      "code": "22045",
+      "title": "Anuario Estadístico de Puertos del Estado (MTRM)",
+      "responsibleCode": "MTRM",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931075174"
+    },
+    {
+      "code": "22046",
+      "title": "Estadística sobre el Transporte Marítimo de Mercancías y Pasajeros (MTRM)",
+      "responsibleCode": "MTRM",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931075335"
+    },
+    {
+      "code": "22072",
+      "title": "Estadística de Accidentes de Aviación (MTRM)",
+      "responsibleCode": "MTRM",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931075498"
+    },
+    {
+      "code": "22073",
+      "title": "Estadísticas de Tráfico de Líneas Aéreas Regulares y no Regulares, Aeropuertos y Aeronaves para OACI (MTRM)",
+      "responsibleCode": "MTRM",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931074690"
+    },
+    {
+      "code": "22075",
+      "title": "Estadística de Tráfico en los Aeropuertos Españoles (MTRM)",
+      "responsibleCode": "MTRM",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259941114458"
+    },
+    {
+      "code": "22078",
+      "title": "Estadística del Sector Empresarial Ferroviario (MTRM)",
+      "responsibleCode": "MTRM",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946001131"
+    },
+    {
+      "code": "23008",
+      "title": "Estadística de Envases y Residuos de Envases (MTED)",
+      "responsibleCode": "MTED",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931128561"
+    },
+    {
+      "code": "23030",
+      "title": "Estadística sobre Gestión Forestal Sostenible (MTED)",
+      "responsibleCode": "MTED",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931143972"
+    },
+    {
+      "code": "23031",
+      "title": "Espacios Naturales o de Interés (MTED)",
+      "responsibleCode": "MTED",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931144147"
+    },
+    {
+      "code": "23033",
+      "title": "Estadística de Diversidad de Especies Silvestres (MTED)",
+      "responsibleCode": "MTED",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259945998279"
+    },
+    {
+      "code": "23041",
+      "title": "Estadística de Calidad del Aire (MTED)",
+      "responsibleCode": "MTED",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931124792"
+    },
+    {
+      "code": "23042",
+      "title": "Inventario de Emisiones Contaminantes a la Atmósfera (MTED)",
+      "responsibleCode": "MTED",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931124964"
+    },
+    {
+      "code": "23043",
+      "title": "Indicadores Agroambientales (Balance de Nitrógeno y Fósforo) (MAPA)",
+      "responsibleCode": "MAPA",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259945998987"
+    },
+    {
+      "code": "23051",
+      "title": "Inventario Nacional de Sumideros de Carbono (MTED)",
+      "responsibleCode": "MTED",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931139432"
+    },
+    {
+      "code": "23062",
+      "title": "Estadística de Financiación de Actuaciones Protegibles (MVAU)",
+      "responsibleCode": "MVAU",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931128901"
+    },
+    {
+      "code": "23093",
+      "title": "Estadística de las Variables Meteorofenológicas (MTED)",
+      "responsibleCode": "MTED",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931125136"
+    },
+    {
+      "code": "23094",
+      "title": "Estadística de Composición Química de la Atmósfera (MTED)",
+      "responsibleCode": "MTED",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259945998277"
+    },
+    {
+      "code": "23095",
+      "title": "Balance Hídrico (MTED)",
+      "responsibleCode": "MTED",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259945998278"
+    },
+    {
+      "code": "23096",
+      "title": "Estadística de Fenómenos Meteorológicos Adversos (MTED)",
+      "responsibleCode": "MTED",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259945998276"
+    },
+    {
+      "code": "23097",
+      "title": "Índice Meteorológico del Riesgo de Incendio (MTED)",
+      "responsibleCode": "MTED",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259945998274"
+    },
+    {
+      "code": "23098",
+      "title": "Estadística de Vigilancia del Clima (MTED)",
+      "responsibleCode": "MTED",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259945998275"
+    },
+    {
+      "code": "23099",
+      "title": "Registro Estatal de Emisiones y Fuentes Contaminantes, PRTR-ESPAÑA (MTED)",
+      "responsibleCode": "MTED",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946001866"
+    },
+    {
+      "code": "23101",
+      "title": "Indicador Multidimensional de Situación y Sinopsis Territorial (INSISTE) (MTED)",
+      "responsibleCode": "MTED",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946001874"
+    },
+    {
+      "code": "23102",
+      "title": "Cuantificación de los Residuos Alimentarios del Sector Primario (MTED)",
+      "responsibleCode": "MTED",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946002624"
+    },
+    {
+      "code": "23103",
+      "title": "Estadística Anual de Energías Renovables y Residuos (MTED)",
+      "responsibleCode": "MTED",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946003367"
+    },
+    {
+      "code": "23104",
+      "title": "Estadística Anual de Hidrógeno (MTED)",
+      "responsibleCode": "MTED",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946003368"
+    },
+    {
+      "code": "23105",
+      "title": "Estadística Anual de Biomasa (MTED)",
+      "responsibleCode": "MTED",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946003369"
+    },
+    {
+      "code": "23106",
+      "title": "Estadística Anual de Autoconsumo y Almacenamiento Energético (MTED)",
+      "responsibleCode": "MTED",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946003370"
+    },
+    {
+      "code": "23107",
+      "title": "Estadística Anual de Consumo Energético Residencial (MTED)",
+      "responsibleCode": "MTED",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946003371"
+    },
+    {
+      "code": "23108",
+      "title": "Estadística Anual de Consumo Energético en la Industria (MTED)",
+      "responsibleCode": "MTED",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946003372"
+    },
+    {
+      "code": "23109",
+      "title": "Estadística Anual de Consumo Energético en Sector Servicios (MTED)",
+      "responsibleCode": "MTED",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946003392"
+    },
+    {
+      "code": "25002",
+      "title": "Estadística de Precios del Suelo (MVAU)",
+      "responsibleCode": "MVAU",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931131954"
+    },
+    {
+      "code": "25003",
+      "title": "Estadística de Transacciones Inmobiliarias (MVAU)",
+      "responsibleCode": "MVAU",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931132131"
+    },
+    {
+      "code": "25004",
+      "title": "Estadística de Vivienda Libre y Protegida (MVAU)",
+      "responsibleCode": "MVAU",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931136913"
+    },
+    {
+      "code": "25005",
+      "title": "Estudio sobre el Stock de Viviendas Nuevas (MVAU)",
+      "responsibleCode": "MVAU",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931143118"
+    },
+    {
+      "code": "25006",
+      "title": "Estimación del Parque de Viviendas (MVAU)",
+      "responsibleCode": "MVAU",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931143291"
+    },
+    {
+      "code": "25009",
+      "title": "Estadística del Sector Empresarial de Transporte Marítimo / Aéreo de Mercancías (MTRM)",
+      "responsibleCode": "MTRM",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946001872"
+    },
+    {
+      "code": "28021",
+      "title": "Explotación Estadística del Registro de Contratos del Sector Público (MHAC)",
+      "responsibleCode": "MHAC",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931115652"
+    },
+    {
+      "code": "28041",
+      "title": "Gestión de los Servicios de las Delegaciones de Economía y Hacienda. Sistema de Índices de Eficiencia, Calidad y Eficacia (SIECE) (MHAC)",
+      "responsibleCode": "MHAC",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931115827"
+    },
+    {
+      "code": "28042",
+      "title": "Resumen Informativo de Recaudación, Tributos Cedidos y Concertados (MHAC)",
+      "responsibleCode": "MHAC",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931116000"
+    },
+    {
+      "code": "28071",
+      "title": "Estadística de Venta de Labores de Tabaco a Expendedurías en la Península e Illes Balears (MHAC)",
+      "responsibleCode": "MHAC",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931116175"
+    },
+    {
+      "code": "29001",
+      "title": "Deuda del Estado (MECM)",
+      "responsibleCode": "MECM",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259930988281"
+    },
+    {
+      "code": "29021",
+      "title": "Programas de Papel Comercial y Notas a Medio Plazo (MECM)",
+      "responsibleCode": "MECM",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259930988453"
+    },
+    {
+      "code": "29022",
+      "title": "Detalle de las Operaciones Vivas de Financiación Exterior. Servicio de Deuda Exterior del Tesoro (MECM)",
+      "responsibleCode": "MECM",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259930988625"
+    },
+    {
+      "code": "29023",
+      "title": "Registro Mensual y Trimestral de Movimientos del Servicio de Deuda Exterior del Tesoro (MECM)",
+      "responsibleCode": "MECM",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259930988797"
+    },
+    {
+      "code": "29025",
+      "title": "Autorización a No Residentes para Emitir en Euros en España (Mercado Matador) (MECM)",
+      "responsibleCode": "MECM",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259930988967"
+    },
+    {
+      "code": "29041",
+      "title": "Estadística de Seguros Privados y de Previsión Social Complementaria (anual) (MECM)",
+      "responsibleCode": "MECM",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259930989311"
+    },
+    {
+      "code": "29042",
+      "title": "Estadística de Seguros Privados y de Previsión Social Complementaria (trimestral) (MECM)",
+      "responsibleCode": "MECM",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259930989487"
+    },
+    {
+      "code": "29047",
+      "title": "Estadística de Mediación de Seguros y Reaseguros Privados (MECM)",
+      "responsibleCode": "MECM",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946000387"
+    },
+    {
+      "code": "29081",
+      "title": "Índices de Valor Unitario para el Comercio Exterior (MECM)",
+      "responsibleCode": "MECM",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259930987939"
+    },
+    {
+      "code": "29083",
+      "title": "Síntesis de Indicadores Económicos (SIE) (MECM)",
+      "responsibleCode": "MECM",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259930988111"
+    },
+    {
+      "code": "29085",
+      "title": "Indicadores de Disponibilidades Interiores de Manufacturas de Consumo y Equipo (MECM)",
+      "responsibleCode": "MECM",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931145372"
+    },
+    {
+      "code": "29086",
+      "title": "Indicadores Sintéticos de la Economía Española (MECM)",
+      "responsibleCode": "MECM",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931145542"
+    },
+    {
+      "code": "29101",
+      "title": "Estadística de Inversiones y Empleo Generados por los Incentivos Económicos Regionales (MHAC)",
+      "responsibleCode": "MHAC",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259930985183"
+    },
+    {
+      "code": "29131",
+      "title": "Inversión Extranjera Directa en España (Posición) (MECM)",
+      "responsibleCode": "MECM",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931149455"
+    },
+    {
+      "code": "29132",
+      "title": "Inversión Extranjera Directa en España (Flujos) (MECM)",
+      "responsibleCode": "MECM",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931149633"
+    },
+    {
+      "code": "29133",
+      "title": "Inversión Española Directa en el Exterior (Posición) (MECM)",
+      "responsibleCode": "MECM",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931148743"
+    },
+    {
+      "code": "29134",
+      "title": "Inversión Española Directa en el Exterior (Flujos) (MECM)",
+      "responsibleCode": "MECM",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931148921"
+    },
+    {
+      "code": "30015",
+      "title": "Índices de Reparto Regional del IVA y los Impuestos Especiales sobre la Cerveza, sobre el Alcohol y Bebidas Derivadas y sobre Productos Intermedios (INE)",
+      "responsibleCode": "INE",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931056277"
+    },
+    {
+      "code": "30017",
+      "title": "Cuentas Satélite de las Cooperativas y Mutualidades (INE)",
+      "responsibleCode": "INE",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259936644135"
+    },
+    {
+      "code": "30024",
+      "title": "Contabilidad Nacional Trimestral de España: Principales Agregados (INE)",
+      "responsibleCode": "INE",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259937889496"
+    },
+    {
+      "code": "30025",
+      "title": "Contabilidad Regional de España (INE)",
+      "responsibleCode": "INE",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259937889657"
+    },
+    {
+      "code": "30026",
+      "title": "Cuentas Trimestrales No Financieras de los Sectores Institucionales (INE)",
+      "responsibleCode": "INE",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259937891325"
+    },
+    {
+      "code": "30027",
+      "title": "Cuenta Satélite del Turismo de España (INE)",
+      "responsibleCode": "INE",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259937891486"
+    },
+    {
+      "code": "30029",
+      "title": "Contabilidad Nacional Anual de España: Principales Agregados (INE)",
+      "responsibleCode": "INE",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946000368"
+    },
+    {
+      "code": "30030",
+      "title": "Contabilidad Nacional Anual de España: Agregados por Rama de Actividad (INE)",
+      "responsibleCode": "INE",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946000369"
+    },
+    {
+      "code": "30031",
+      "title": "Cuentas Anuales No Financieras de los Sectores Institucionales (INE)",
+      "responsibleCode": "INE",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946000371"
+    },
+    {
+      "code": "30032",
+      "title": "Tablas de Origen y Destino (INE)",
+      "responsibleCode": "INE",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946000372"
+    },
+    {
+      "code": "30033",
+      "title": "Tablas Input-Output (INE)",
+      "responsibleCode": "INE",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946000373"
+    },
+    {
+      "code": "30040",
+      "title": "Encuesta sobre Métodos de Producción en las Explotaciones Agrícolas (INE)",
+      "responsibleCode": "INE",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931145889"
+    },
+    {
+      "code": "30042",
+      "title": "Censo Agrario (INE)",
+      "responsibleCode": "INE",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931056754"
+    },
+    {
+      "code": "30044",
+      "title": "Encuesta sobre la Estructura de las Explotaciones Agrarias (INE)",
+      "responsibleCode": "INE",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931056923"
+    },
+    {
+      "code": "30048",
+      "title": "Estadística Estructural de Empresas: Sector Industrial (INE)",
+      "responsibleCode": "INE",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931057090"
+    },
+    {
+      "code": "30049",
+      "title": "Encuesta Industrial Anual de Productos (INE)",
+      "responsibleCode": "INE",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931057259"
+    },
+    {
+      "code": "30050",
+      "title": "Índices de Producción Industrial (INE)",
+      "responsibleCode": "INE",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931057428"
+    },
+    {
+      "code": "30051",
+      "title": "Índices de Precios Industriales (INE)",
+      "responsibleCode": "INE",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931057597"
+    },
+    {
+      "code": "30052",
+      "title": "Índices de Cifras de Negocios en la Industria (INE)",
+      "responsibleCode": "INE",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931057766"
+    },
+    {
+      "code": "30056",
+      "title": "Directorio de Empresas y Organismos Públicos Posibles Investigadores (INE)",
+      "responsibleCode": "INE",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931059755"
+    },
+    {
+      "code": "30057",
+      "title": "Estadística sobre Actividades en I+D en el Sector Empresas (INE)",
+      "responsibleCode": "INE",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931059914"
+    },
+    {
+      "code": "30058",
+      "title": "Estadística sobre Actividades en I+D en el Sector Administración Pública (INE)",
+      "responsibleCode": "INE",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931117881"
+    },
+    {
+      "code": "30059",
+      "title": "Estadística sobre Actividades en I+D en el Sector Instituciones Privadas sin Fines de Lucro (INE)",
+      "responsibleCode": "INE",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931118050"
+    },
+    {
+      "code": "30060",
+      "title": "Estadística sobre Actividades en I+D en el Sector Enseñanza Superior (INE)",
+      "responsibleCode": "INE",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931118219"
+    },
+    {
+      "code": "30061",
+      "title": "Encuesta sobre Innovación en las Empresas (INE)",
+      "responsibleCode": "INE",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931060083"
+    },
+    {
+      "code": "30062",
+      "title": "Índices de Precios de Materiales y Energía e Índices Nacionales de la Mano de Obra (INE)",
+      "responsibleCode": "INE",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931058104"
+    },
+    {
+      "code": "30063",
+      "title": "Encuesta Coyuntural sobre Stocks y Existencias (INE)",
+      "responsibleCode": "INE",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259941116557"
+    },
+    {
+      "code": "30064",
+      "title": "Encuesta de Consumos Intermedios e Inversión (INE)",
+      "responsibleCode": "INE",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259944556487"
+    },
+    {
+      "code": "30066",
+      "title": "Estadísticas sobre las Actividades de Protección Medioambiental (INE)",
+      "responsibleCode": "INE",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931058428"
+    },
+    {
+      "code": "30070",
+      "title": "Encuesta de Consumos Energéticos (INE)",
+      "responsibleCode": "INE",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931058934"
+    },
+    {
+      "code": "30071",
+      "title": "Índices de Precios de Exportación y de Importación de Productos Industriales (INE)",
+      "responsibleCode": "INE",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931059102"
+    },
+    {
+      "code": "30076",
+      "title": "Estadísticas sobre el Uso del Agua (INE)",
+      "responsibleCode": "INE",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259942698102"
+    },
+    {
+      "code": "30077",
+      "title": "Estadística sobre el Suministro y Saneamiento del Agua (INE)",
+      "responsibleCode": "INE",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259942698450"
+    },
+    {
+      "code": "30078",
+      "title": "Estadísticas sobre Generación de Residuos (INE)",
+      "responsibleCode": "INE",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259942698758"
+    },
+    {
+      "code": "30079",
+      "title": "Estadísticas sobre Recogida y Tratamiento de Residuos (INE)",
+      "responsibleCode": "INE",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259942699258"
+    },
+    {
+      "code": "30081",
+      "title": "Indicadores del Sector de Tecnologías de la Información y las Comunicaciones (TIC) (INE)",
+      "responsibleCode": "INE",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931060252"
+    },
+    {
+      "code": "30082",
+      "title": "Estadística de Filiales de Empresas Españolas en el Exterior (INE)",
+      "responsibleCode": "INE",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931136581"
+    },
+    {
+      "code": "30083",
+      "title": "Índice de Cifra de Negocios Empresarial (INE)",
+      "responsibleCode": "INE",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259941635453"
+    },
+    {
+      "code": "30084",
+      "title": "Cuentas Medioambientales: Cuenta de Emisiones a la Atmósfera (INE)",
+      "responsibleCode": "INE",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259942700133"
+    },
+    {
+      "code": "30085",
+      "title": "Cuentas Medioambientales: Cuenta de Impuestos Ambientales (INE)",
+      "responsibleCode": "INE",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259942700465"
+    },
+    {
+      "code": "30086",
+      "title": "Cuentas Medioambientales: Cuenta de Flujos de Materiales (INE)",
+      "responsibleCode": "INE",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259942700806"
+    },
+    {
+      "code": "30087",
+      "title": "Cuentas Medioambientales: Otras Cuentas Medioambientales (INE)",
+      "responsibleCode": "INE",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259942700977"
+    },
+    {
+      "code": "30088",
+      "title": "Cuentas Medioambientales: Cuenta de Gasto en Protección Medioambiental (INE)",
+      "responsibleCode": "INE",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259945998306"
+    },
+    {
+      "code": "30089",
+      "title": "Cuentas Medioambientales: Cuenta de Bienes y Servicios Ambientales (INE)",
+      "responsibleCode": "INE",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259945998307"
+    },
+    {
+      "code": "30090",
+      "title": "Cuentas Medioambientales: Cuenta de Flujos Físicos de la Energía (INE)",
+      "responsibleCode": "INE",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259945998308"
+    },
+    {
+      "code": "30091",
+      "title": "Tabla de Pensiones (INE)",
+      "responsibleCode": "INE",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946000389"
+    },
+    {
+      "code": "30092",
+      "title": "Cuenta Satélite de la Economía Social (INE)",
+      "responsibleCode": "INE",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946000394"
+    },
+    {
+      "code": "30093",
+      "title": "Tablas de Origen y Destino de la Economía Digital (INE)",
+      "responsibleCode": "INE",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946003390"
+    },
+    {
+      "code": "30094",
+      "title": "Cuentas Distribucionales de los Hogares (En proyecto) (INE)",
+      "responsibleCode": "INE",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946004157"
+    },
+    {
+      "code": "30095",
+      "title": "Cuentas Medioambientales: Cuenta de los Residuos (INE)",
+      "responsibleCode": "INE",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946000380"
+    },
+    {
+      "code": "30098",
+      "title": "Comercio Internacional de Servicios por Modos de Suministro (MoS) (INE)",
+      "responsibleCode": "INE",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946002627"
+    },
+    {
+      "code": "30099",
+      "title": "Estadística sobre Cadenas de Valor Globales (INE)",
+      "responsibleCode": "INE",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946003395"
+    },
+    {
+      "code": "30100",
+      "title": "Encuesta de Inserción Laboral de la Población con Titulación Superior (INE)",
+      "responsibleCode": "INE",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931156791"
+    },
+    {
+      "code": "30103",
+      "title": "Índices de Comercio al por Menor (INE)",
+      "responsibleCode": "INE",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931060418"
+    },
+    {
+      "code": "30122",
+      "title": "Estadística de Financiación y Gastos de la Enseñanza Privada (INE)",
+      "responsibleCode": "INE",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931060585"
+    },
+    {
+      "code": "30123",
+      "title": "Estadística de Centros Sanitarios de Atención Especializada (MSND)",
+      "responsibleCode": "MSND",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931111863"
+    },
+    {
+      "code": "30132",
+      "title": "Encuesta Cuatrienal de Coste Laboral (INE)",
+      "responsibleCode": "INE",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931119406"
+    },
+    {
+      "code": "30133",
+      "title": "Encuesta Cuatrienal de Estructura Salarial (INE)",
+      "responsibleCode": "INE",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931119569"
+    },
+    {
+      "code": "30138",
+      "title": "Índice de Precios de Consumo (IPC) (INE)",
+      "responsibleCode": "INE",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931062915"
+    },
+    {
+      "code": "30149",
+      "title": "Estadística de Hipotecas (INE)",
+      "responsibleCode": "INE",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931118728"
+    },
+    {
+      "code": "30151",
+      "title": "Estadística de Sociedades Mercantiles (INE)",
+      "responsibleCode": "INE",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931118899"
+    },
+    {
+      "code": "30153",
+      "title": "Estadística sobre Ejecuciones Hipotecarias (INE)",
+      "responsibleCode": "INE",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259941118007"
+    },
+    {
+      "code": "30163",
+      "title": "Estadística de Transporte de Personas (INE)",
+      "responsibleCode": "INE",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931060920"
+    },
+    {
+      "code": "30168",
+      "title": "Estadística de Transmisión de Derechos de la Propiedad (INE)",
+      "responsibleCode": "INE",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931061081"
+    },
+    {
+      "code": "30169",
+      "title": "Encuesta sobre el Uso de Tecnologías de la Información y las Comunicaciones y del Comercio Electrónico en las Empresas (INE)",
+      "responsibleCode": "INE",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931061252"
+    },
+    {
+      "code": "30177",
+      "title": "Estadística Estructural de Empresas: Sector Servicios (INE)",
+      "responsibleCode": "INE",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931061421"
+    },
+    {
+      "code": "30179",
+      "title": "Índice de Precios Hoteleros (INE)",
+      "responsibleCode": "INE",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931061751"
+    },
+    {
+      "code": "30180",
+      "title": "Índice de Precios de Consumo Armonizado (IPCA) (INE)",
+      "responsibleCode": "INE",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931063082"
+    },
+    {
+      "code": "30181",
+      "title": "Encuesta de Paridades del Poder Adquisitivo (PPA) (INE)",
+      "responsibleCode": "INE",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931119070"
+    },
+    {
+      "code": "30182",
+      "title": "Índices de Precios del Sector Servicios (INE)",
+      "responsibleCode": "INE",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931061920"
+    },
+    {
+      "code": "30183",
+      "title": "Indicadores de Actividad del Sector Servicios (INE)",
+      "responsibleCode": "INE",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931062089"
+    },
+    {
+      "code": "30185",
+      "title": "Índice de Precios del Trabajo (INE)",
+      "responsibleCode": "INE",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931119735"
+    },
+    {
+      "code": "30187",
+      "title": "Encuesta Trimestral de Coste Laboral (ETCL) (INE)",
+      "responsibleCode": "INE",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931119895"
+    },
+    {
+      "code": "30188",
+      "title": "Encuesta Anual de Coste Laboral (INE)",
+      "responsibleCode": "INE",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931120063"
+    },
+    {
+      "code": "30189",
+      "title": "Encuesta Anual de Estructura Salarial (INE)",
+      "responsibleCode": "INE",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931120231"
+    },
+    {
+      "code": "30197",
+      "title": "Indicadores de Alta Tecnología (INE)",
+      "responsibleCode": "INE",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931062258"
+    },
+    {
+      "code": "30198",
+      "title": "Encuesta sobre Comercio Internacional de Servicios y otras Operaciones Internacionales (INE)",
+      "responsibleCode": "INE",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931062424"
+    },
+    {
+      "code": "30199",
+      "title": "Indicadores de Confianza Empresarial (INE)",
+      "responsibleCode": "INE",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931062593"
+    },
+    {
+      "code": "30201",
+      "title": "Directorio Central de Empresas (DIRCE) (INE)",
+      "responsibleCode": "INE",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259930989663"
+    },
+    {
+      "code": "30203",
+      "title": "Explotación Estadística del Directorio Central de Empresas (INE)",
+      "responsibleCode": "INE",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259930989826"
+    },
+    {
+      "code": "30204",
+      "title": "Demografía Armonizada de Empresas (INE)",
+      "responsibleCode": "INE",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259930976744"
+    },
+    {
+      "code": "30206",
+      "title": "Panel de Indicadores Ambientales (INE)",
+      "responsibleCode": "INE",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946005703"
+    },
+    {
+      "code": "30211",
+      "title": "Índice de Coste Laboral Armonizado (INE)",
+      "responsibleCode": "INE",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931120399"
+    },
+    {
+      "code": "30213",
+      "title": "Índice de Precios de Vivienda en Alquiler (IPVA) (INE)",
+      "responsibleCode": "INE",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946001121"
+    },
+    {
+      "code": "30219",
+      "title": "Estadística del Procedimiento Concursal (MPJC)",
+      "responsibleCode": "MPJC",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931118557"
+    },
+    {
+      "code": "30221",
+      "title": "Estadística sobre Transporte Ferroviario (INE)",
+      "responsibleCode": "INE",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931062756"
+    },
+    {
+      "code": "30222",
+      "title": "Índice de Precios de Apartamentos Turísticos (INE)",
+      "responsibleCode": "INE",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931133145"
+    },
+    {
+      "code": "30223",
+      "title": "Índice de Precios de Campings (INE)",
+      "responsibleCode": "INE",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931133314"
+    },
+    {
+      "code": "30224",
+      "title": "Estadística sobre el Uso de Biotecnología (INE)",
+      "responsibleCode": "INE",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931132978"
+    },
+    {
+      "code": "30227",
+      "title": "Estadística de Empresas según Pertenencia a Grupos (INE)",
+      "responsibleCode": "INE",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931135384"
+    },
+    {
+      "code": "30228",
+      "title": "Estadística de Productos en el Sector Servicios (INE)",
+      "responsibleCode": "INE",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931136744"
+    },
+    {
+      "code": "30229",
+      "title": "Índice de Precios de Alojamientos de Turismo Rural (INE)",
+      "responsibleCode": "INE",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931146058"
+    },
+    {
+      "code": "30230",
+      "title": "Indicadores de Rentabilidad del Sector Hotelero (INE)",
+      "responsibleCode": "INE",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259930976428"
+    },
+    {
+      "code": "30232",
+      "title": "Estadística Estructural de Empresas: Sector Comercio (INE)",
+      "responsibleCode": "INE",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931156930"
+    },
+    {
+      "code": "30233",
+      "title": "Estadística de Productos en el Sector Comercio (INE)",
+      "responsibleCode": "INE",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931157071"
+    },
+    {
+      "code": "30234",
+      "title": "Índice de Producción del Sector Servicios (INE)",
+      "responsibleCode": "INE",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259937891805"
+    },
+    {
+      "code": "30235",
+      "title": "Encuesta de Ocupación Hotelera (INE)",
+      "responsibleCode": "INE",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259941118172"
+    },
+    {
+      "code": "30236",
+      "title": "Encuesta de Ocupación en Apartamentos Turísticos (INE)",
+      "responsibleCode": "INE",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259941116026"
+    },
+    {
+      "code": "30237",
+      "title": "Encuesta de Ocupación en Campings (INE)",
+      "responsibleCode": "INE",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259941116205"
+    },
+    {
+      "code": "30238",
+      "title": "Encuesta de Ocupación en Alojamientos de Turismo Rural (INE)",
+      "responsibleCode": "INE",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259941116378"
+    },
+    {
+      "code": "30239",
+      "title": "Encuesta de Ocupación en Albergues Turísticos (INE)",
+      "responsibleCode": "INE",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259944023751"
+    },
+    {
+      "code": "30240",
+      "title": "Comercio Internacional de Servicios por Características de las Empresas (STEC) (INE)",
+      "responsibleCode": "INE",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946002626"
+    },
+    {
+      "code": "30241",
+      "title": "Censo de Viviendas (INE)",
+      "responsibleCode": "INE",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946004928"
+    },
+    {
+      "code": "30245",
+      "title": "Cifras Oficiales de Población de los Municipios Españoles: Revisión del Padrón Municipal (INE)",
+      "responsibleCode": "INE",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259930993676"
+    },
+    {
+      "code": "30247",
+      "title": "Relación de Municipios y sus Códigos por Provincias (INE)",
+      "responsibleCode": "INE",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259930990483"
+    },
+    {
+      "code": "30256",
+      "title": "Indicadores Urbanos (INE)",
+      "responsibleCode": "INE",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931139270"
+    },
+    {
+      "code": "30261",
+      "title": "Nomenclátor: Población por Unidad Poblacional (INE)",
+      "responsibleCode": "INE",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259930990652"
+    },
+    {
+      "code": "30264",
+      "title": "Indicadores Demográficos Básicos (INE)",
+      "responsibleCode": "INE",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946004935"
+    },
+    {
+      "code": "30271",
+      "title": "Tablas de Mortalidad (INE)",
+      "responsibleCode": "INE",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931152707"
+    },
+    {
+      "code": "30276",
+      "title": "Proyección de Hogares (INE)",
+      "responsibleCode": "INE",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259936324286"
+    },
+    {
+      "code": "30278",
+      "title": "Proyecciones de Población (INE)",
+      "responsibleCode": "INE",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259944587212"
+    },
+    {
+      "code": "30279",
+      "title": "Estadística de Adquisiciones de Nacionalidad Española de Residentes (INE)",
+      "responsibleCode": "INE",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259944596944"
+    },
+    {
+      "code": "30280",
+      "title": "Encuesta de Características Esenciales de la Población y las Viviendas (ECEPOV) (INE)",
+      "responsibleCode": "INE",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946000382"
+    },
+    {
+      "code": "30281",
+      "title": "Censo Anual de Población (INE)",
+      "responsibleCode": "INE",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946002629"
+    },
+    {
+      "code": "30282",
+      "title": "Estadística Continua de Población (ECP) (INE)",
+      "responsibleCode": "INE",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946002630"
+    },
+    {
+      "code": "30283",
+      "title": "Estadística de Migraciones y Cambios de Residencia (EMCR) (INE)",
+      "responsibleCode": "INE",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946002631"
+    },
+    {
+      "code": "30284",
+      "title": "Cuentas Medioambientales: Cuenta de Subvenciones y Otras Transferencias Similares (INE)",
+      "responsibleCode": "INE",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946004934"
+    },
+    {
+      "code": "30290",
+      "title": "Marco Muestral para Encuestas Dirigidas a la Población (INE)",
+      "responsibleCode": "INE",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946000391"
+    },
+    {
+      "code": "30291",
+      "title": "Estudios de Movilidad a partir de la Telefonía Móvil (INE)",
+      "responsibleCode": "INE",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946001122"
+    },
+    {
+      "code": "30292",
+      "title": "Estadística Estructural de Empresas: Sector Construcción (INE)",
+      "responsibleCode": "INE",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946004158"
+    },
+    {
+      "code": "30293",
+      "title": "Índice de Producción de la Construcción (IPCO) (INE)",
+      "responsibleCode": "INE",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946004159"
+    },
+    {
+      "code": "30294",
+      "title": "Índice de Precios de Alquiler de Bienes Inmuebles Comerciales (IPABIC) (En proyecto) (INE)",
+      "responsibleCode": "INE",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946004930"
+    },
+    {
+      "code": "30295",
+      "title": "Índice de Precios de Bienes Inmuebles Comerciales (IPBIC) (En proyecto) (INE)",
+      "responsibleCode": "INE",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946004931"
+    },
+    {
+      "code": "30302",
+      "title": "MNP: Estadística de Matrimonios (INE)",
+      "responsibleCode": "INE",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259930993328"
+    },
+    {
+      "code": "30304",
+      "title": "MNP: Estadística de Nacimientos (INE)",
+      "responsibleCode": "INE",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931196821"
+    },
+    {
+      "code": "30306",
+      "title": "MNP: Estadística de Defunciones (INE)",
+      "responsibleCode": "INE",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931197163"
+    },
+    {
+      "code": "30308",
+      "title": "Encuesta de Población Activa (EPA) (INE)",
+      "responsibleCode": "INE",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931120732"
+    },
+    {
+      "code": "30309",
+      "title": "Encuesta Comunitaria de Fuerza de Trabajo (ECFT) (INE)",
+      "responsibleCode": "INE",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931120900"
+    },
+    {
+      "code": "30310",
+      "title": "Flujos de la Población Activa (INE)",
+      "responsibleCode": "INE",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931121066"
+    },
+    {
+      "code": "30317",
+      "title": "Encuesta de Fecundidad (INE)",
+      "responsibleCode": "INE",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259945997610"
+    },
+    {
+      "code": "30319",
+      "title": "Encuesta Nacional de Inmigrantes (INE)",
+      "responsibleCode": "INE",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946004170"
+    },
+    {
+      "code": "30320",
+      "title": "Estadística del Empleo de las Personas con Discapacidad (INE)",
+      "responsibleCode": "INE",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259930978853"
+    },
+    {
+      "code": "30323",
+      "title": "Estimación Mensual de Nacimientos (EMN) (INE)",
+      "responsibleCode": "INE",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946001876"
+    },
+    {
+      "code": "30324",
+      "title": "Estimación de Defunciones Semanales (EDeS) (INE)",
+      "responsibleCode": "INE",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946001877"
+    },
+    {
+      "code": "30325",
+      "title": "Atlas de Distribución de Renta de los Hogares (ADRH) (INE)",
+      "responsibleCode": "INE",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946001875"
+    },
+    {
+      "code": "30331",
+      "title": "Estadística del Salario de las Personas con Discapacidad (INE)",
+      "responsibleCode": "INE",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259941118497"
+    },
+    {
+      "code": "30332",
+      "title": "Estadística de la Vida Laboral de las Personas con Discapacidad (INE)",
+      "responsibleCode": "INE",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946000381"
+    },
+    {
+      "code": "30333",
+      "title": "Estimación de la Ocupación en Alojamientos Turísticos a partir de Datos de Plataformas Digitales (INE)",
+      "responsibleCode": "INE",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946002619"
+    },
+    {
+      "code": "30334",
+      "title": "Medición del Turismo Nacional a partir de la Posición de los Teléfonos Móviles (INE)",
+      "responsibleCode": "INE",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946002620"
+    },
+    {
+      "code": "30335",
+      "title": "Gasto Realizado por los Visitantes Extranjeros en sus Visitas a España (INE)",
+      "responsibleCode": "INE",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946002621"
+    },
+    {
+      "code": "30336",
+      "title": "Medición del Número de Viviendas Turísticas en España y su Capacidad (INE)",
+      "responsibleCode": "INE",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946002622"
+    },
+    {
+      "code": "30337",
+      "title": "Distribución del Gasto Turístico Realizado por los Residentes en sus Visitas al Extranjero según País de Destino (INE)",
+      "responsibleCode": "INE",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946003380"
+    },
+    {
+      "code": "30338",
+      "title": "Estadística sobre Relación con la Actividad a partir de Datos Administrativos (En proyecto) (INE)",
+      "responsibleCode": "INE",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946003396"
+    },
+    {
+      "code": "30401",
+      "title": "Estadística de Producción Editorial de Libros (MCLT)",
+      "responsibleCode": "MCLT",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931121405"
+    },
+    {
+      "code": "30403",
+      "title": "Estadística de Bibliotecas (MCLT)",
+      "responsibleCode": "MCLT",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931063249"
+    },
+    {
+      "code": "30414",
+      "title": "Encuesta de Morbilidad Hospitalaria (INE)",
+      "responsibleCode": "INE",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931063768"
+    },
+    {
+      "code": "30416",
+      "title": "Estadística de Profesionales Sanitarios Colegiados (INE)",
+      "responsibleCode": "INE",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931063921"
+    },
+    {
+      "code": "30417",
+      "title": "Estadística de Defunciones según la Causa de Muerte (INE)",
+      "responsibleCode": "INE",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931064091"
+    },
+    {
+      "code": "30418",
+      "title": "Encuesta de Discapacidad, Autonomía Personal y Situaciones de Dependencia (INE)",
+      "responsibleCode": "INE",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931064261"
+    },
+    {
+      "code": "30447",
+      "title": "Encuesta de Empleo del Tiempo (INE)",
+      "responsibleCode": "INE",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931064593"
+    },
+    {
+      "code": "30450",
+      "title": "Encuesta sobre Equipamiento y Uso de Tecnologías de Información y Comunicación en los Hogares (INE)",
+      "responsibleCode": "INE",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931064762"
+    },
+    {
+      "code": "30451",
+      "title": "Encuesta de Transición Educativa - Formativa e Inserción Laboral (INE)",
+      "responsibleCode": "INE",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931064931"
+    },
+    {
+      "code": "30453",
+      "title": "Encuesta de Condiciones de Vida (ECV) (INE)",
+      "responsibleCode": "INE",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931119237"
+    },
+    {
+      "code": "30454",
+      "title": "Encuesta a las Personas Sin Hogar (INE)",
+      "responsibleCode": "INE",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931065097"
+    },
+    {
+      "code": "30456",
+      "title": "Mujeres y Hombres en España (INE)",
+      "responsibleCode": "INE",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931065264"
+    },
+    {
+      "code": "30457",
+      "title": "Índice de Precios de la Vivienda (IPV) (INE)",
+      "responsibleCode": "INE",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931130750"
+    },
+    {
+      "code": "30458",
+      "title": "Encuesta de Presupuestos Familiares (EPF) (INE)",
+      "responsibleCode": "INE",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931130921"
+    },
+    {
+      "code": "30459",
+      "title": "Encuesta sobre la Participación de la Población Adulta en las Actividades de Aprendizaje (INE)",
+      "responsibleCode": "INE",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931132647"
+    },
+    {
+      "code": "30460",
+      "title": "Encuesta de Gasto de los Hogares en Educación (INE)",
+      "responsibleCode": "INE",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931146559"
+    },
+    {
+      "code": "30463",
+      "title": "Estadística de Nulidades, Separaciones y Divorcios (INE)",
+      "responsibleCode": "INE",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931146871"
+    },
+    {
+      "code": "30464",
+      "title": "Estadística de Litigios en Arrendamientos Urbanos (CGPJ)",
+      "responsibleCode": "CGPJ",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931147042"
+    },
+    {
+      "code": "30465",
+      "title": "Estadística de las Oficinas de Justicia en el Municipio (OJM) (CGPJ)",
+      "responsibleCode": "CGPJ",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931147211"
+    },
+    {
+      "code": "30466",
+      "title": "Estadística de la Población Condenada Adulta (INE)",
+      "responsibleCode": "INE",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931147382"
+    },
+    {
+      "code": "30467",
+      "title": "Estadística de la Población Condenada Menor de Edad (INE)",
+      "responsibleCode": "INE",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931147553"
+    },
+    {
+      "code": "30468",
+      "title": "Estadística de Violencia Doméstica y Violencia de Género (INE)",
+      "responsibleCode": "INE",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931147724"
+    },
+    {
+      "code": "30469",
+      "title": "Encuesta de Centros y Servicios de Atención a las Personas Sin Hogar y en Exclusión Residencial (INE)",
+      "responsibleCode": "INE",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931147891"
+    },
+    {
+      "code": "30471",
+      "title": "Indicadores de Calidad de Vida (INE)",
+      "responsibleCode": "INE",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259937891970"
+    },
+    {
+      "code": "30473",
+      "title": "Encuesta de Salud de España (INE)",
+      "responsibleCode": "INE",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946000393"
+    },
+    {
+      "code": "30474",
+      "title": "Encuesta de Inclusión Financiera (INE)",
+      "responsibleCode": "INE",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946004936"
+    },
+    {
+      "code": "30475",
+      "title": "Encuesta de Discapacidad, Autonomía Personal y Situaciones de Dependencia - Centros (INE)",
+      "responsibleCode": "INE",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946005708"
+    },
+    {
+      "code": "30601",
+      "title": "Anuario Estadístico de España (INE)",
+      "responsibleCode": "INE",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931054993"
+    },
+    {
+      "code": "30603",
+      "title": "España en Cifras (INE)",
+      "responsibleCode": "INE",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931055159"
+    },
+    {
+      "code": "30605",
+      "title": "Banco de Datos TEMPUS 3 (INE)",
+      "responsibleCode": "INE",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931055492"
+    },
+    {
+      "code": "30607",
+      "title": "Banco de Datos INEbase (INE)",
+      "responsibleCode": "INE",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931055636"
+    },
+    {
+      "code": "30609",
+      "title": "Censos Históricos (INE)",
+      "responsibleCode": "INE",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931055781"
+    },
+    {
+      "code": "30610",
+      "title": "Península Ibérica en Cifras (INE)",
+      "responsibleCode": "INE",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946004150"
+    },
+    {
+      "code": "30611",
+      "title": "Indicadores de España para el FMI (INE)",
+      "responsibleCode": "INE",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946004152"
+    },
+    {
+      "code": "30707",
+      "title": "Sistema Integrado de Metadatos (SIM) (INE)",
+      "responsibleCode": "INE",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259930993165"
+    },
+    {
+      "code": "30714",
+      "title": "Adaptación de Clasificaciones Internacionales a la Realidad Nacional (INE)",
+      "responsibleCode": "INE",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259930990169"
+    },
+    {
+      "code": "30715",
+      "title": "Estándares (INE)",
+      "responsibleCode": "INE",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259930974085"
+    },
+    {
+      "code": "30720",
+      "title": "Inventario de Fuentes Administrativas (INE)",
+      "responsibleCode": "INE",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946000390"
+    },
+    {
+      "code": "30800",
+      "title": "Indicadores de la Agenda 2030 para el Desarrollo Sostenible (INE)",
+      "responsibleCode": "INE",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259945998989"
+    },
+    {
+      "code": "30801",
+      "title": "Panel de Indicadores de Comercio Internacional de Valor Añadido (INE)",
+      "responsibleCode": "INE",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946005704"
+    },
+    {
+      "code": "31002",
+      "title": "Recaudación y Estadísticas del Sistema Tributario Español (MHAC)",
+      "responsibleCode": "MHAC",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259930982225"
+    },
+    {
+      "code": "31003",
+      "title": "El Impuesto sobre la Renta de las Personas Físicas. Análisis de los Datos Estadísticos del Ejercicio (MHAC)",
+      "responsibleCode": "MHAC",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259930982395"
+    },
+    {
+      "code": "31005",
+      "title": "El Impuesto sobre el Valor Añadido. Análisis de los Datos Estadísticos del Ejercicio (MHAC)",
+      "responsibleCode": "MHAC",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259930982565"
+    },
+    {
+      "code": "31006",
+      "title": "Impuesto sobre Sociedades. Análisis de los Datos Estadísticos del Ejercicio (MHAC)",
+      "responsibleCode": "MHAC",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259930982735"
+    },
+    {
+      "code": "31009",
+      "title": "El Impuesto sobre el Patrimonio. Análisis de los Datos Estadísticos del Ejercicio (MHAC)",
+      "responsibleCode": "MHAC",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259944581106"
+    },
+    {
+      "code": "31010",
+      "title": "Inventario de Entes dependientes de las Comunidades Autónomas (MHAC)",
+      "responsibleCode": "MHAC",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946003374"
+    },
+    {
+      "code": "31011",
+      "title": "Inventario de Entes del Sector Público Local (MHAC)",
+      "responsibleCode": "MHAC",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946003375"
+    },
+    {
+      "code": "31012",
+      "title": "Indicadores sobre Gasto Farmacéutico y Sanitario del Estado (MHAC)",
+      "responsibleCode": "MHAC",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946003377"
+    },
+    {
+      "code": "31013",
+      "title": "Presupuestos Generales del Estado (MHAC)",
+      "responsibleCode": "MHAC",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946003376"
+    },
+    {
+      "code": "31021",
+      "title": "Base de Datos General de Entidades Locales (MHAC)",
+      "responsibleCode": "MHAC",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259930983942"
+    },
+    {
+      "code": "31022",
+      "title": "Informe sobre el Impacto del Sector Público Autonómico en la Actividad Económico-Financiera de las Comunidades Autónomas (MHAC)",
+      "responsibleCode": "MHAC",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259930992993"
+    },
+    {
+      "code": "31025",
+      "title": "Presupuestos de las Entidades Locales (MHAC)",
+      "responsibleCode": "MHAC",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259930984134"
+    },
+    {
+      "code": "31026",
+      "title": "Liquidación de Presupuestos de las Entidades Locales (MHAC)",
+      "responsibleCode": "MHAC",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259930984309"
+    },
+    {
+      "code": "31028",
+      "title": "Presupuestos de las Comunidades Autónomas (MHAC)",
+      "responsibleCode": "MHAC",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259930984484"
+    },
+    {
+      "code": "31030",
+      "title": "Liquidación de Presupuestos de las Comunidades Autónomas (MHAC)",
+      "responsibleCode": "MHAC",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259930984659"
+    },
+    {
+      "code": "31038",
+      "title": "Haciendas Autonómicas en Cifras (MHAC)",
+      "responsibleCode": "MHAC",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259930983251"
+    },
+    {
+      "code": "31039",
+      "title": "Estadística sobre la Gestión y Ejecución de los Fondos de Compensación Interterritorial (MHAC)",
+      "responsibleCode": "MHAC",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259930983421"
+    },
+    {
+      "code": "31042",
+      "title": "Imposición Local. Tipos de Gravamen, Índices y Coeficientes (MHAC)",
+      "responsibleCode": "MHAC",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259930983767"
+    },
+    {
+      "code": "31045",
+      "title": "Ejecución Presupuestaria Mensual de las Comunidades Autónomas (MHAC)",
+      "responsibleCode": "MHAC",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259930974416"
+    },
+    {
+      "code": "31046",
+      "title": "Indicadores sobre Gasto Farmacéutico y Sanitario de las Comunidades Autónomas (MHAC)",
+      "responsibleCode": "MHAC",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259948148512"
+    },
+    {
+      "code": "31047",
+      "title": "Informe sobre Plazos de Pago a Proveedores y Deuda Comercial de las Comunidades Autónomas (MHAC)",
+      "responsibleCode": "MHAC",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259948150599"
+    },
+    {
+      "code": "31048",
+      "title": "Coste Efectivo de los Servicios Prestados por las Entidades Locales (MHAC)",
+      "responsibleCode": "MHAC",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259945999679"
+    },
+    {
+      "code": "31049",
+      "title": "Deuda Viva de las Entidades Locales a 31 de Diciembre (MHAC)",
+      "responsibleCode": "MHAC",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259945999680"
+    },
+    {
+      "code": "31050",
+      "title": "Ejecución Presupuestaria Trimestral de las Entidades Locales (MHAC)",
+      "responsibleCode": "MHAC",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259945999681"
+    },
+    {
+      "code": "31051",
+      "title": "Haciendas Locales en Cifras (MHAC)",
+      "responsibleCode": "MHAC",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259945999685"
+    },
+    {
+      "code": "31052",
+      "title": "Estadística de Gasto Sanitario Público Mensual (En proyecto) (MHAC)",
+      "responsibleCode": "MHAC",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946005709"
+    },
+    {
+      "code": "31062",
+      "title": "Estadística del Mercado de Trabajo y Pensiones en las Fuentes Tributarias (MHAC)",
+      "responsibleCode": "MHAC",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931130238"
+    },
+    {
+      "code": "31065",
+      "title": "Opinión Pública y Fiscalidad. Barómetro Fiscal IEF (MHAC)",
+      "responsibleCode": "MHAC",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931153317"
+    },
+    {
+      "code": "31066",
+      "title": "Panel de Hogares (MHAC)",
+      "responsibleCode": "MHAC",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931153492"
+    },
+    {
+      "code": "31088",
+      "title": "Estadística de Ordenanzas Fiscales del Impuesto sobre Bienes Inmuebles (MHAC)",
+      "responsibleCode": "MHAC",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931145712"
+    },
+    {
+      "code": "31089",
+      "title": "Estadística del Impuesto sobre Bienes Inmuebles (MHAC)",
+      "responsibleCode": "MHAC",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931151656"
+    },
+    {
+      "code": "31090",
+      "title": "Estadística del Catastro Inmobiliario Urbano (MHAC)",
+      "responsibleCode": "MHAC",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946000375"
+    },
+    {
+      "code": "31091",
+      "title": "Estadística del Catastro Inmobiliario Rústico (MHAC)",
+      "responsibleCode": "MHAC",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946000377"
+    },
+    {
+      "code": "31092",
+      "title": "Estadística del Catastro de Bienes Inmuebles de Características Especiales (BICE) (MHAC)",
+      "responsibleCode": "MHAC",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946000378"
+    },
+    {
+      "code": "31093",
+      "title": "Estadística de Titulares Catastrales (MHAC)",
+      "responsibleCode": "MHAC",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946000379"
+    },
+    {
+      "code": "31119",
+      "title": "Inventario de Entes del Sector Público Estatal, Autonómico y Local (INVENTE) (MHAC)",
+      "responsibleCode": "MHAC",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259948145825"
+    },
+    {
+      "code": "31121",
+      "title": "Efectivos de Personal al Servicio del Sector Público Estatal (MHAC)",
+      "responsibleCode": "MHAC",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931116692"
+    },
+    {
+      "code": "31122",
+      "title": "Ejecución Mensual del Presupuesto del Estado (MHAC)",
+      "responsibleCode": "MHAC",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931117042"
+    },
+    {
+      "code": "31123",
+      "title": "Ejecución Mensual de los Presupuestos de Organismos Públicos (MHAC)",
+      "responsibleCode": "MHAC",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259930986908"
+    },
+    {
+      "code": "31124",
+      "title": "Avances de Liquidación de los Presupuestos del Estado y de sus Organismos Públicos (MHAC)",
+      "responsibleCode": "MHAC",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259930987083"
+    },
+    {
+      "code": "31125",
+      "title": "Estadística de Liquidación de los Presupuestos del Estado y de sus Organismos Públicos, Empresas y Fundaciones (MHAC)",
+      "responsibleCode": "MHAC",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259930987258"
+    },
+    {
+      "code": "31126",
+      "title": "Cuentas de las Empresas Públicas (MHAC)",
+      "responsibleCode": "MHAC",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259930987433"
+    },
+    {
+      "code": "31127",
+      "title": "Cuentas de las Administraciones Públicas (MHAC)",
+      "responsibleCode": "MHAC",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259930987603"
+    },
+    {
+      "code": "31128",
+      "title": "Cuentas de las Administraciones Públicas Territoriales (MHAC)",
+      "responsibleCode": "MHAC",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259930987771"
+    },
+    {
+      "code": "31130",
+      "title": "Cuentas Trimestrales de las Administraciones Públicas (MHAC)",
+      "responsibleCode": "MHAC",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259930977071"
+    },
+    {
+      "code": "31132",
+      "title": "Informe sobre Cumplimiento de Plazos Legales de Pago (MHAC)",
+      "responsibleCode": "MHAC",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259942575892"
+    },
+    {
+      "code": "31141",
+      "title": "Estadística de Pensiones del Sistema de Clases Pasivas (MISM)",
+      "responsibleCode": "MISM",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259930985009"
+    },
+    {
+      "code": "31143",
+      "title": "Informe sobre Plazos de Pago a Proveedores y Deuda Comercial de las Corporaciones Locales (MHAC)",
+      "responsibleCode": "MHAC",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946001868"
+    },
+    {
+      "code": "32001",
+      "title": "Estadística de Recaudación Tributaria (mensual) (MHAC)",
+      "responsibleCode": "MHAC",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259930985505"
+    },
+    {
+      "code": "32002",
+      "title": "Estadística de Recaudación Tributaria (anual) (MHAC)",
+      "responsibleCode": "MHAC",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931152010"
+    },
+    {
+      "code": "32021",
+      "title": "Estadística de Intercambio de Bienes entre Estados de la UE (Umbrales de Exención) (MHAC)",
+      "responsibleCode": "MHAC",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259930985682"
+    },
+    {
+      "code": "32022",
+      "title": "Estadística de Intercambio de Bienes entre Estados de la UE (Bajo el Umbral de Exención) (MHAC)",
+      "responsibleCode": "MHAC",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259930985857"
+    },
+    {
+      "code": "32023",
+      "title": "Estadística de Comercio Extracomunitario (MHAC)",
+      "responsibleCode": "MHAC",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259930986032"
+    },
+    {
+      "code": "32025",
+      "title": "Estadística del Comercio Exterior de las Comunidades Autónomas (MHAC)",
+      "responsibleCode": "MHAC",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259930986209"
+    },
+    {
+      "code": "32026",
+      "title": "Resultados Económicos y Tributarios en el IVA (MHAC)",
+      "responsibleCode": "MHAC",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931135719"
+    },
+    {
+      "code": "32028",
+      "title": "Estadística de Ventas, Empleo y Salarios en las Grandes Empresas (MHAC)",
+      "responsibleCode": "MHAC",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931136073"
+    },
+    {
+      "code": "32061",
+      "title": "Estadística de los Declarantes del Impuesto sobre el Patrimonio (MHAC)",
+      "responsibleCode": "MHAC",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259938279133"
+    },
+    {
+      "code": "32063",
+      "title": "Estadística de los Declarantes del IRPF (MHAC)",
+      "responsibleCode": "MHAC",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259930986731"
+    },
+    {
+      "code": "32064",
+      "title": "Estadística por Partidas del IVA (MHAC)",
+      "responsibleCode": "MHAC",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931116344"
+    },
+    {
+      "code": "32065",
+      "title": "Estadística del Impuesto Especial sobre Determinados Medios de Transporte (anual) (MHAC)",
+      "responsibleCode": "MHAC",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931141766"
+    },
+    {
+      "code": "32066",
+      "title": "Estadística del Impuesto Especial sobre Determinados Medios de Transporte (avance mensual) (MHAC)",
+      "responsibleCode": "MHAC",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931141935"
+    },
+    {
+      "code": "32067",
+      "title": "Estadística de Movilidad del Mercado de Trabajo en las Fuentes Tributarias (MHAC)",
+      "responsibleCode": "MHAC",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259942575268"
+    },
+    {
+      "code": "32068",
+      "title": "Estadística del Rendimiento de Actividades Económicas (MHAC)",
+      "responsibleCode": "MHAC",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259943331801"
+    },
+    {
+      "code": "32069",
+      "title": "Estadística sobre la Discapacidad en las Declaraciones del Impuesto sobre la Renta de las Personas Físicas (MHAC)",
+      "responsibleCode": "MHAC",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259945998309"
+    },
+    {
+      "code": "32070",
+      "title": "Estadística de los Declarantes del IRPF por Municipios (MHAC)",
+      "responsibleCode": "MHAC",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259945998310"
+    },
+    {
+      "code": "32071",
+      "title": "Cuentas Anuales Consolidadas del Impuesto de Sociedades (MHAC)",
+      "responsibleCode": "MHAC",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946000396"
+    },
+    {
+      "code": "32072",
+      "title": "Estadística de los Declarantes del Impuesto sobre la Renta de las Personas Físicas de los Mayores Municipios por Código Postal (MHAC)",
+      "responsibleCode": "MHAC",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946000395"
+    },
+    {
+      "code": "32073",
+      "title": "Anuario Estadístico (MHAC)",
+      "responsibleCode": "MHAC",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946000397"
+    },
+    {
+      "code": "32074",
+      "title": "Muestra Anual de Patrimonio (MHAC)",
+      "responsibleCode": "MHAC",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946000399"
+    },
+    {
+      "code": "32075",
+      "title": "Operaciones No Financieras Anuales del Sector Administraciones Públicas y sus Subsectores (MHAC)",
+      "responsibleCode": "MHAC",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946001114"
+    },
+    {
+      "code": "32076",
+      "title": "Informe sobre el Periodo Medio de Pago a Proveedores de los Subsectores Administración Central y Fondos de la Seguridad Social (MHAC)",
+      "responsibleCode": "MHAC",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946001115"
+    },
+    {
+      "code": "32077",
+      "title": "Impuestos y Cotizaciones Sociales (MHAC)",
+      "responsibleCode": "MHAC",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946001116"
+    },
+    {
+      "code": "32078",
+      "title": "Clasificación Funcional del Gasto de las Administraciones Públicas (COFOG) (MHAC)",
+      "responsibleCode": "MHAC",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946001117"
+    },
+    {
+      "code": "32079",
+      "title": "Operaciones No Financieras Trimestrales del Sector Administraciones Públicas y sus Subsectores (MHAC)",
+      "responsibleCode": "MHAC",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946001118"
+    },
+    {
+      "code": "32080",
+      "title": "Operaciones No Financieras Mensuales Consolidadas de los Subsectores Administración Central, Administración Regional y Fondos de la Seguridad Social. Detalle por Subsectores (MHAC)",
+      "responsibleCode": "MHAC",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946001119"
+    },
+    {
+      "code": "32081",
+      "title": "Indicadores Establecidos en la Directiva 2011/85/UE (MHAC)",
+      "responsibleCode": "MHAC",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946001120"
+    },
+    {
+      "code": "32082",
+      "title": "Cuentas Anuales No Consolidadas del Impuesto de Sociedades (MHAC)",
+      "responsibleCode": "MHAC",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946001863"
+    },
+    {
+      "code": "32083",
+      "title": "Muestra Panel del Impuesto sobre el Patrimonio (MHAC)",
+      "responsibleCode": "MHAC",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946001864"
+    },
+    {
+      "code": "32090",
+      "title": "Declaración País por País de Multinacionales con Matriz Española (MHAC)",
+      "responsibleCode": "MHAC",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946002625"
+    },
+    {
+      "code": "32091",
+      "title": "Encuesta sobre Estrategias Empresariales (MHAC)",
+      "responsibleCode": "MHAC",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946002628"
+    },
+    {
+      "code": "32092",
+      "title": "Ventas, Empleo y Salarios en Grandes Empresas y Pymes (MHAC)",
+      "responsibleCode": "MHAC",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946003385"
+    },
+    {
+      "code": "32094",
+      "title": "Estadística de Pymes Societarias y No Societarias (MHAC)",
+      "responsibleCode": "MHAC",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946003387"
+    },
+    {
+      "code": "32096",
+      "title": "Ventas Diarias (MHAC)",
+      "responsibleCode": "MHAC",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946003389"
+    },
+    {
+      "code": "32097",
+      "title": "Estadística de Comercio Exterior de Bienes por Características de las Empresas (MHAC)",
+      "responsibleCode": "MHAC",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946003391"
+    },
+    {
+      "code": "32098",
+      "title": "Estadística de Empleo en el Sector Público (MHAC)",
+      "responsibleCode": "MHAC",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946004153"
+    },
+    {
+      "code": "32099",
+      "title": "Observatorio de Márgenes Empresariales (MHAC)",
+      "responsibleCode": "MHAC",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946004939"
+    },
+    {
+      "code": "32100",
+      "title": "Avance de Ventas Interiores en Grandes Empresas y Pymes (MHAC)",
+      "responsibleCode": "MHAC",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946004940"
+    },
+    {
+      "code": "32101",
+      "title": "Informe de Impuestos Especiales (MHAC)",
+      "responsibleCode": "MHAC",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946004941"
+    },
+    {
+      "code": "32102",
+      "title": "Estadística de Viviendas Declaradas en el IRPF (MHAC)",
+      "responsibleCode": "MHAC",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946005710"
+    },
+    {
+      "code": "37040",
+      "title": "Cuentas Financieras de la Economía Española. Sistema SEC/2010 (BANESP)",
+      "responsibleCode": "BANESP",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259944416171"
+    },
+    {
+      "code": "37142",
+      "title": "Balanza de Pagos, Comercio Internacional de Servicios e Inversiones Extranjeras Directas, Posición de Inversión Internacional, Deuda Externa y Reservas Internacionales y Liquidez en Moneda Extranjera (BANESP)",
+      "responsibleCode": "BANESP",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931129238"
+    },
+    {
+      "code": "37143",
+      "title": "Encuesta Financiera de las Familias (EFF) (BANESP)",
+      "responsibleCode": "BANESP",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931129402"
+    },
+    {
+      "code": "37144",
+      "title": "Deuda Pública según el Protocolo de Déficit Excesivo (BANESP)",
+      "responsibleCode": "BANESP",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931130414"
+    },
+    {
+      "code": "37145",
+      "title": "Encuesta de Competencias Financieras (ECF) (BANESP)",
+      "responsibleCode": "BANESP",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259945997608"
+    },
+    {
+      "code": "37146",
+      "title": "SHARE - Survey of Health, Ageing and Retirement in Europe (BANESP)",
+      "responsibleCode": "BANESP",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946000398"
+    },
+    {
+      "code": "41001",
+      "title": "Estadística de Enseñanzas No Universitarias (Centros, Matrícula, Graduación y Personal) (MEFD)",
+      "responsibleCode": "MEFD",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931075839"
+    },
+    {
+      "code": "41012",
+      "title": "Estadística de Gasto Público en Educación (MEFD)",
+      "responsibleCode": "MEFD",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931076016"
+    },
+    {
+      "code": "41015",
+      "title": "Las Cifras de la Educación en España. Estadísticas e Indicadores (MEFD)",
+      "responsibleCode": "MEFD",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931076192"
+    },
+    {
+      "code": "41016",
+      "title": "Datos de la Educación al Inicio del Curso Escolar (MEFD)",
+      "responsibleCode": "MEFD",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931076362"
+    },
+    {
+      "code": "41021",
+      "title": "Encuesta de Hábitos y Prácticas Culturales en España (MCLT)",
+      "responsibleCode": "MCLT",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931106513"
+    },
+    {
+      "code": "41022",
+      "title": "Estadística de las Tecnologías de la Información y la Comunicación en los Centros Educativos No Universitarios (MEFD)",
+      "responsibleCode": "MEFD",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931076701"
+    },
+    {
+      "code": "41023",
+      "title": "Indicadores Estadísticos de la Educación (MEFD)",
+      "responsibleCode": "MEFD",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931139769"
+    },
+    {
+      "code": "41025",
+      "title": "Estadística del Alumnado de Formación Profesional del Sistema Educativo (MEFD)",
+      "responsibleCode": "MEFD",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931148233"
+    },
+    {
+      "code": "41026",
+      "title": "Estadística de Bibliotecas Escolares (MEFD)",
+      "responsibleCode": "MEFD",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931154129"
+    },
+    {
+      "code": "41027",
+      "title": "Explotación de las Variables Educativas en la Encuesta de Población Activa: Nivel de Formación y Formación Permanente (MEFD)",
+      "responsibleCode": "MEFD",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259942576509"
+    },
+    {
+      "code": "41028",
+      "title": "Estadística Internacional de los Sistemas de Educación y Formación - Cuestionario UNESCO/OCDE/Eurostat (MEFD)",
+      "responsibleCode": "MEFD",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259943367219"
+    },
+    {
+      "code": "41029",
+      "title": "Estadística de Alumnado con Necesidad Específica de Apoyo Educativo (MEFD)",
+      "responsibleCode": "MEFD",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259945999668"
+    },
+    {
+      "code": "41030",
+      "title": "Estadística de Enseñanza de Lenguas Extranjeras (MEFD)",
+      "responsibleCode": "MEFD",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259945999669"
+    },
+    {
+      "code": "41042",
+      "title": "Estadística de Acción Educativa en el Exterior (MEFD)",
+      "responsibleCode": "MEFD",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931075666"
+    },
+    {
+      "code": "41050",
+      "title": "Estadística de Financiación y Gasto Público en Cultura (MCLT)",
+      "responsibleCode": "MCLT",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931106688"
+    },
+    {
+      "code": "41103",
+      "title": "Estadística de Movilidad del Profesorado de Enseñanzas No Universitarias en Centros Públicos (MEFD)",
+      "responsibleCode": "MEFD",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931077051"
+    },
+    {
+      "code": "41104",
+      "title": "Estadística de Seguimiento Educativo Posterior de las Personas Graduadas en Formación Profesional del Sistema Educativo (MEFD)",
+      "responsibleCode": "MEFD",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946001125"
+    },
+    {
+      "code": "41105",
+      "title": "Estadística de Inserción Laboral de las Personas Graduadas en Enseñanzas de Formación Profesional del Sistema Educativo (MEFD)",
+      "responsibleCode": "MEFD",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946001124"
+    },
+    {
+      "code": "41106",
+      "title": "Estadística de Seguimiento Educativo y Rendimiento Académico del Alumnado que Accede a Formación Profesional del Sistema Educativo (MEFD)",
+      "responsibleCode": "MEFD",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946001865"
+    },
+    {
+      "code": "42101",
+      "title": "Estadística de Becas y Ayudas al Estudio (MEFD)",
+      "responsibleCode": "MEFD",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931076873"
+    },
+    {
+      "code": "42181",
+      "title": "Sistema Estatal de Indicadores de la Educación (MEFD)",
+      "responsibleCode": "MEFD",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931078379"
+    },
+    {
+      "code": "42184",
+      "title": "Programa para la Evaluación Internacional de Competencias de la Población Adulta (PIAAC Programme for the International Assessment of Adult Competencies de la OCDE) (MEFD)",
+      "responsibleCode": "MEFD",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259930979366"
+    },
+    {
+      "code": "42185",
+      "title": "Estadística de los Programas Educativos Europeos (MEFD)",
+      "responsibleCode": "MEFD",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259930979016"
+    },
+    {
+      "code": "42186",
+      "title": "Estadística de los Grados A, B y C del Sistema de Formación Profesional (MEFD)",
+      "responsibleCode": "MEFD",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946001138"
+    },
+    {
+      "code": "42187",
+      "title": "Estadística de Seguimiento Educativo y Rendimiento Académico del Alumnado que Accede a Bachillerato (MEFD)",
+      "responsibleCode": "MEFD",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946004156"
+    },
+    {
+      "code": "42188",
+      "title": "Estadística de Homologaciones de Títulos o Convalidaciones de Estudios No Universitarios (En proyecto) (MEFD)",
+      "responsibleCode": "MEFD",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946004171"
+    },
+    {
+      "code": "42189",
+      "title": "Estadística de Competencias Digitales Acreditadas al Personal Docente (MEFD)",
+      "responsibleCode": "MEFD",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946004938"
+    },
+    {
+      "code": "42190",
+      "title": "Estadística de Características Socioeconómicas de la Población Escolar (En proyecto) (MEFD)",
+      "responsibleCode": "MEFD",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946004937"
+    },
+    {
+      "code": "43025",
+      "title": "Estadística de Créditos Presupuestarios (Iniciales y Finales) de I+D (MCNU)",
+      "responsibleCode": "MCNU",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931077216"
+    },
+    {
+      "code": "44025",
+      "title": "Estadística de Estudiantes Universitarios (MCNU)",
+      "responsibleCode": "MCNU",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931121574"
+    },
+    {
+      "code": "44041",
+      "title": "Estadística de Universidades, Centros y Titulaciones (MCNU)",
+      "responsibleCode": "MCNU",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931122412"
+    },
+    {
+      "code": "44043",
+      "title": "Estadística de Personal de las Universidades (MCNU)",
+      "responsibleCode": "MCNU",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931077875"
+    },
+    {
+      "code": "44045",
+      "title": "Estadística de Financiación y Gasto de las Universidades Públicas Españolas (MCNU)",
+      "responsibleCode": "MCNU",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259941630933"
+    },
+    {
+      "code": "44048",
+      "title": "Estadística de Precios Públicos Universitarios (MCNU)",
+      "responsibleCode": "MCNU",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259930976093"
+    },
+    {
+      "code": "44049",
+      "title": "Estadística de las Pruebas de Acceso a la Universidad (PAU) (MCNU)",
+      "responsibleCode": "MCNU",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259930975785"
+    },
+    {
+      "code": "44050",
+      "title": "Estadística de Afiliación a la Seguridad Social de los Egresados Universitarios (MCNU)",
+      "responsibleCode": "MCNU",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946000405"
+    },
+    {
+      "code": "44051",
+      "title": "Estadística de Internacionalización Universitaria (MCNU)",
+      "responsibleCode": "MCNU",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946001132"
+    },
+    {
+      "code": "44052",
+      "title": "Indicadores de Rendimiento Académico Universitario (MCNU)",
+      "responsibleCode": "MCNU",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946001133"
+    },
+    {
+      "code": "44053",
+      "title": "Estadística de Becas y Ayudas al Estudio Universitario (MCNU)",
+      "responsibleCode": "MCNU",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946001134"
+    },
+    {
+      "code": "45021",
+      "title": "Estadística de Deporte Federado (MEFD)",
+      "responsibleCode": "MEFD",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931078549"
+    },
+    {
+      "code": "45030",
+      "title": "Explotación Estadística de la Base de Datos de Campeonatos de España Universitarios y en Edad Escolar (MEFD)",
+      "responsibleCode": "MEFD",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259945998273"
+    },
+    {
+      "code": "45041",
+      "title": "Estadística del Control del Dopaje (MEFD)",
+      "responsibleCode": "MEFD",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931079065"
+    },
+    {
+      "code": "45061",
+      "title": "Encuesta de Hábitos Deportivos en España (MEFD)",
+      "responsibleCode": "MEFD",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931129889"
+    },
+    {
+      "code": "45101",
+      "title": "Explotación Estadística del Censo Nacional de Instalaciones Deportivas (MEFD)",
+      "responsibleCode": "MEFD",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931079233"
+    },
+    {
+      "code": "45124",
+      "title": "Estadística de Formación de Entrenadoras y Entrenadores del Deporte (MEFD)",
+      "responsibleCode": "MEFD",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931078893"
+    },
+    {
+      "code": "49005",
+      "title": "Anuario de Estadísticas Culturales (MCLT)",
+      "responsibleCode": "MCLT",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931106865"
+    },
+    {
+      "code": "49006",
+      "title": "Explotación Estadística del Bono Cultural Joven (MCLT)",
+      "responsibleCode": "MCLT",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946003384"
+    },
+    {
+      "code": "49007",
+      "title": "Cuenta Satélite del Deporte (MEFD)",
+      "responsibleCode": "MEFD",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946003383"
+    },
+    {
+      "code": "50001",
+      "title": "Explotación Estadística de la Base de Datos de Protección del Patrimonio Histórico Español (Bienes Muebles e Inmuebles) (MCLT)",
+      "responsibleCode": "MCLT",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931107208"
+    },
+    {
+      "code": "50003",
+      "title": "Estadística de Archivos (MCLT)",
+      "responsibleCode": "MCLT",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931107556"
+    },
+    {
+      "code": "50004",
+      "title": "Estadística de Museos y Colecciones Museográficas (MCLT)",
+      "responsibleCode": "MCLT",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931107033"
+    },
+    {
+      "code": "50026",
+      "title": "Estadística de Edición Española de Libros con ISBN (MCLT)",
+      "responsibleCode": "MCLT",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931107381"
+    },
+    {
+      "code": "50041",
+      "title": "Explotación Estadística de las Bases de Datos de Recursos Musicales y de la Danza (Entidades y Profesionales) (MCLT)",
+      "responsibleCode": "MCLT",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931108075"
+    },
+    {
+      "code": "50044",
+      "title": "Explotación Estadística de las Bases de Datos de Recursos de las Artes Escénicas (MCLT)",
+      "responsibleCode": "MCLT",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931107904"
+    },
+    {
+      "code": "50050",
+      "title": "Estadística de Edición Española de Música con ISMN (MCLT)",
+      "responsibleCode": "MCLT",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931108246"
+    },
+    {
+      "code": "50051",
+      "title": "Banco de Datos CULTURAbase (MCLT)",
+      "responsibleCode": "MCLT",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931140933"
+    },
+    {
+      "code": "50052",
+      "title": "Cuenta Satélite de la Cultura (MCLT)",
+      "responsibleCode": "MCLT",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931142784"
+    },
+    {
+      "code": "50053",
+      "title": "Explotación Estadística del Registro General de Propiedad Intelectual (MCLT)",
+      "responsibleCode": "MCLT",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259930978680"
+    },
+    {
+      "code": "50054",
+      "title": "Explotación Estadística de los Datos de Derechos de Propiedad Intelectual Gestionados por las Entidades de Gestión (MCLT)",
+      "responsibleCode": "MCLT",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931156621"
+    },
+    {
+      "code": "50055",
+      "title": "Anuario de Estadísticas Deportivas (MEFD)",
+      "responsibleCode": "MEFD",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259942577260"
+    },
+    {
+      "code": "50056",
+      "title": "Banco de Datos DEPORTEdata (MEFD)",
+      "responsibleCode": "MEFD",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259944578242"
+    },
+    {
+      "code": "50057",
+      "title": "Explotación de la Encuesta de Población Activa en el Ámbito Cultural (MCLT)",
+      "responsibleCode": "MCLT",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259948063816"
+    },
+    {
+      "code": "50058",
+      "title": "Explotación de la Encuesta de Población Activa en el Ámbito Deportivo (MEFD)",
+      "responsibleCode": "MEFD",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259948064456"
+    },
+    {
+      "code": "50059",
+      "title": "Explotación de las Estadísticas Turísticas en el Ámbito Cultural (MCLT)",
+      "responsibleCode": "MCLT",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259945998304"
+    },
+    {
+      "code": "50060",
+      "title": "Explotación de las Estadísticas Turísticas en el Ámbito Deportivo (MEFD)",
+      "responsibleCode": "MEFD",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259945998305"
+    },
+    {
+      "code": "50061",
+      "title": "Estadística de Cinematografía: Producción, Exhibición, Distribución y Fomento (MCLT)",
+      "responsibleCode": "MCLT",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931108429"
+    },
+    {
+      "code": "50065",
+      "title": "Explotación de las Estadísticas de las Enseñanzas en el Ámbito Cultural (MCLT)",
+      "responsibleCode": "MCLT",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259945998303"
+    },
+    {
+      "code": "50066",
+      "title": "Explotación de las Estadísticas de las Enseñanzas en el Ámbito Deportivo (MEFD)",
+      "responsibleCode": "MEFD",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259945998302"
+    },
+    {
+      "code": "50067",
+      "title": "Explotación de la Encuesta de Presupuestos Familiares en el Ámbito Cultural (MCLT)",
+      "responsibleCode": "MCLT",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259945998301"
+    },
+    {
+      "code": "50068",
+      "title": "Explotación de la Encuesta de Presupuestos Familiares en el Ámbito Deportivo (MEFD)",
+      "responsibleCode": "MEFD",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259945998300"
+    },
+    {
+      "code": "50069",
+      "title": "Explotación de las Estadísticas de Comercio Exterior en el Ámbito Cultural (MCLT)",
+      "responsibleCode": "MCLT",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259945998298"
+    },
+    {
+      "code": "50070",
+      "title": "Explotación de las Estadísticas de Comercio Exterior en el Ámbito Deportivo (MEFD)",
+      "responsibleCode": "MEFD",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259945998299"
+    },
+    {
+      "code": "50071",
+      "title": "Explotación del Directorio Central de Empresas en el Ámbito Cultural (MCLT)",
+      "responsibleCode": "MCLT",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259945998296"
+    },
+    {
+      "code": "50072",
+      "title": "Explotación del Directorio Central de Empresas en el Ámbito Deportivo (MEFD)",
+      "responsibleCode": "MEFD",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259945998297"
+    },
+    {
+      "code": "50073",
+      "title": "Explotación de las Estadísticas de Financiación y Gasto Público en el Ámbito Deportivo (MEFD)",
+      "responsibleCode": "MEFD",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259945998295"
+    },
+    {
+      "code": "50074",
+      "title": "Estadística de Fundaciones Sujetas al Protectorado Estatal (MCLT)",
+      "responsibleCode": "MCLT",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946001126"
+    },
+    {
+      "code": "54008",
+      "title": "Estadística Estatal de Actividad de Centros y Servicios de Transfusión (MSND)",
+      "responsibleCode": "MSND",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931110654"
+    },
+    {
+      "code": "54011",
+      "title": "Explotación Estadística del Conjunto Mínimo Básico de Datos (RAE-CMBD): Demanda Hospitalaria y Morbilidad Atendida (MSND)",
+      "responsibleCode": "MSND",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931112209"
+    },
+    {
+      "code": "54012",
+      "title": "Cuentas Satélites del Gasto Sanitario Público (MSND)",
+      "responsibleCode": "MSND",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931111687"
+    },
+    {
+      "code": "54021",
+      "title": "Estadística de Interrupciones Voluntarias del Embarazo (MSND)",
+      "responsibleCode": "MSND",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931110826"
+    },
+    {
+      "code": "54022",
+      "title": "Estadística de Vacunaciones Sistemáticas (MSND)",
+      "responsibleCode": "MSND",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931110998"
+    },
+    {
+      "code": "54023",
+      "title": "Indicadores de Salud (MSND)",
+      "responsibleCode": "MSND",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931112383"
+    },
+    {
+      "code": "54025",
+      "title": "Calidad de las Aguas de Consumo Humano (MSND)",
+      "responsibleCode": "MSND",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931111172"
+    },
+    {
+      "code": "54027",
+      "title": "Calidad de las Aguas de Baño (MSND)",
+      "responsibleCode": "MSND",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931111343"
+    },
+    {
+      "code": "54032",
+      "title": "Estadística de Actividad de Donación y Trasplante de Órganos (MSND)",
+      "responsibleCode": "MSND",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931154953"
+    },
+    {
+      "code": "54033",
+      "title": "Estadística de Actividad de Donación, Procesamiento y Trasplante de Tejidos y Células (MSND)",
+      "responsibleCode": "MSND",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931155123"
+    },
+    {
+      "code": "54042",
+      "title": "Estadística del Consumo Farmacéutico a través de Recetas Médicas del Sistema Nacional de Salud, Incluido el Mutualismo Administrativo (MSND)",
+      "responsibleCode": "MSND",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931108604"
+    },
+    {
+      "code": "54043",
+      "title": "Estadística de Sustancias Estupefacientes y Psicotrópicas (Tráfico Lícito) (MSND)",
+      "responsibleCode": "MSND",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931108945"
+    },
+    {
+      "code": "54050",
+      "title": "Base Estatal de Datos de Personas con Valoración del Grado de Discapacidad (MDCA)",
+      "responsibleCode": "MDCA",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946000386"
+    },
+    {
+      "code": "54063",
+      "title": "Estadística de Enfermedades de Declaración Obligatoria (MCNU)",
+      "responsibleCode": "MCNU",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931112898"
+    },
+    {
+      "code": "54064",
+      "title": "Estadística Estatal de SIDA (MCNU)",
+      "responsibleCode": "MCNU",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931113069"
+    },
+    {
+      "code": "54066",
+      "title": "Estadística Estatal de Encefalopatías Espongiformes Transmisibles Humanas (MCNU)",
+      "responsibleCode": "MCNU",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931113411"
+    },
+    {
+      "code": "54084",
+      "title": "Estadística de la Labor Analítica de Productos Alimenticios y Productos Industriales del Centro de Investigación y Control de la Calidad (CICC) (MDCA)",
+      "responsibleCode": "MDCA",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931110301"
+    },
+    {
+      "code": "54086",
+      "title": "Sistema de Información de Atención Primaria del Sistema Nacional de Salud (MSND)",
+      "responsibleCode": "MSND",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931112552"
+    },
+    {
+      "code": "54087",
+      "title": "Barómetro Sanitario (MSND)",
+      "responsibleCode": "MSND",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931112726"
+    },
+    {
+      "code": "54089",
+      "title": "Estadística de Consumo de Medicamentos en los Hospitales de la Red Pública del Sistema Nacional de Salud (MSND)",
+      "responsibleCode": "MSND",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931154471"
+    },
+    {
+      "code": "54095",
+      "title": "Estadística de Productos no Alimenticios Notificados en la Red de Alerta (Safety Gate y RAPNA) (MDCA)",
+      "responsibleCode": "MDCA",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931133648"
+    },
+    {
+      "code": "54096",
+      "title": "Estadística de la Actividad del Centro Europeo del Consumidor en España (CEC-ES): Consultas, Reclamaciones y Litigios de Carácter Transfronterizo (MDCA)",
+      "responsibleCode": "MDCA",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931158025"
+    },
+    {
+      "code": "54097",
+      "title": "Estadística de la Actividad de las Juntas Arbitrales de Consumo (MDCA)",
+      "responsibleCode": "MDCA",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931134181"
+    },
+    {
+      "code": "54098",
+      "title": "Indicadores de Consumo de Sustancias Psicoactivas: Admisiones a Tratamiento (MSND)",
+      "responsibleCode": "MSND",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931134354"
+    },
+    {
+      "code": "54099",
+      "title": "Indicadores de Consumo de Sustancias Psicoactivas: Mortalidad por Reacción Aguda (MSND)",
+      "responsibleCode": "MSND",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931134528"
+    },
+    {
+      "code": "54100",
+      "title": "Indicadores de Consumo de Sustancias Psicoactivas: Urgencias Hospitalarias (MSND)",
+      "responsibleCode": "MSND",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931134702"
+    },
+    {
+      "code": "54101",
+      "title": "Encuesta sobre Uso de Drogas en Enseñanzas Secundarias en España (ESTUDES) (MSND)",
+      "responsibleCode": "MSND",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931134876"
+    },
+    {
+      "code": "54102",
+      "title": "Encuesta sobre Alcohol y Drogas en Población General en España (EDADES) (MSND)",
+      "responsibleCode": "MSND",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931135050"
+    },
+    {
+      "code": "54103",
+      "title": "Encuesta sobre Salud y Consumo de Drogas en Población Interna en Instituciones Penitenciarias en España (ESDIP) (MSND)",
+      "responsibleCode": "MSND",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259942958706"
+    },
+    {
+      "code": "54104",
+      "title": "Indicadores de Adicciones Comportamentales/Sin Sustancia: Admisiones a Tratamiento (MSND)",
+      "responsibleCode": "MSND",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946004929"
+    },
+    {
+      "code": "54105",
+      "title": "Encuesta Nacional de Salud a Población Gitana (MSND)",
+      "responsibleCode": "MSND",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946004161"
+    },
+    {
+      "code": "54106",
+      "title": "Base de Datos Clínicos de Atención Primaria - BDCAP (MSND)",
+      "responsibleCode": "MSND",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946000402"
+    },
+    {
+      "code": "54107",
+      "title": "Informe Anual del Sistema de Control de Establecimientos Alimentarios y Alimentos Producidos o Comercializados en el Mercado Intracomunitario con Repercusiones en Seguridad Alimentaria (MDCA)",
+      "responsibleCode": "MDCA",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946001869"
+    },
+    {
+      "code": "54108",
+      "title": "Estadística del Sistema Coordinado de Intercambio Rápido de Información (MDCA)",
+      "responsibleCode": "MDCA",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946001870"
+    },
+    {
+      "code": "54109",
+      "title": "Informe AESAN del Análisis de los Datos Anuales de las Zoonosis Alimentarias (MDCA)",
+      "responsibleCode": "MDCA",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946001871"
+    },
+    {
+      "code": "54110",
+      "title": "Estadística del Registro Estatal de Enfermedades Raras (ReeR) (MSND)",
+      "responsibleCode": "MSND",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946002615"
+    },
+    {
+      "code": "54111",
+      "title": "Informe AESAN del Análisis de los Datos Anuales de las Antibiorresistencias en Bacterias Zoonóticas y Comensales (MDCA)",
+      "responsibleCode": "MDCA",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946003393"
+    },
+    {
+      "code": "54112",
+      "title": "Informe AESAN del Análisis de los Resultados del Control de Plaguicidas en Alimentos (MDCA)",
+      "responsibleCode": "MDCA",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946003394"
+    },
+    {
+      "code": "54113",
+      "title": "Estadística de Protección Animal. Animales de Compañía en Hogares (En proyecto) (MDCA)",
+      "responsibleCode": "MDCA",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946004933"
+    },
+    {
+      "code": "58002",
+      "title": "Estadística de Autorizaciones de Trabajo a Extranjeros (MTES)",
+      "responsibleCode": "MTES",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931079579"
+    },
+    {
+      "code": "58003",
+      "title": "Estadística de Cooperativas Constituidas (MTES)",
+      "responsibleCode": "MTES",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931079755"
+    },
+    {
+      "code": "58004",
+      "title": "Estadística de Sociedades Laborales Registradas (MTES)",
+      "responsibleCode": "MTES",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931079929"
+    },
+    {
+      "code": "58006",
+      "title": "Estadística de Regulación de Empleo (MTES)",
+      "responsibleCode": "MTES",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931080103"
+    },
+    {
+      "code": "58007",
+      "title": "Estadística de Apoyo a la Creación de Empleo (MTES)",
+      "responsibleCode": "MTES",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931080279"
+    },
+    {
+      "code": "58008",
+      "title": "Estadística de Mediación, Arbitraje y Conciliación Laboral (MTES)",
+      "responsibleCode": "MTES",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931080453"
+    },
+    {
+      "code": "58009",
+      "title": "Estadística de Asuntos Judiciales Sociales (MTES)",
+      "responsibleCode": "MTES",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931080629"
+    },
+    {
+      "code": "58010",
+      "title": "Estadística de Convenios Colectivos de Trabajo (MTES)",
+      "responsibleCode": "MTES",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931080804"
+    },
+    {
+      "code": "58011",
+      "title": "Estadística de Huelgas y Cierres Patronales (MTES)",
+      "responsibleCode": "MTES",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931080980"
+    },
+    {
+      "code": "58012",
+      "title": "Estadística de Accidentes de Trabajo (MTES)",
+      "responsibleCode": "MTES",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931081156"
+    },
+    {
+      "code": "58014",
+      "title": "Encuesta Comunitaria de Formación Profesional Continua (MTES)",
+      "responsibleCode": "MTES",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931081332"
+    },
+    {
+      "code": "58015",
+      "title": "Estadística de Afiliación de Trabajadores a la Seguridad Social (MISM)",
+      "responsibleCode": "MISM",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931081504"
+    },
+    {
+      "code": "58017",
+      "title": "Estadística de Pensiones Contributivas del Sistema de la Seguridad Social (MISM)",
+      "responsibleCode": "MISM",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931083882"
+    },
+    {
+      "code": "58020",
+      "title": "Estadística de Ayudas a Trabajadores Afectados por Procesos de Reestructuración de Empresas (MTES)",
+      "responsibleCode": "MTES",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931081676"
+    },
+    {
+      "code": "58021",
+      "title": "Estadística de Prestaciones por Desempleo (MTES)",
+      "responsibleCode": "MTES",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931081850"
+    },
+    {
+      "code": "58022",
+      "title": "Estadísticas Integradas de Protección Social en Términos SEEPROS (MTES)",
+      "responsibleCode": "MTES",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931082026"
+    },
+    {
+      "code": "58023",
+      "title": "Boletín de Estadísticas Laborales (MTES)",
+      "responsibleCode": "MTES",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931082195"
+    },
+    {
+      "code": "58024",
+      "title": "Anuario de Estadísticas del Ministerio de Trabajo y Economía Social (MTES)",
+      "responsibleCode": "MTES",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931082363"
+    },
+    {
+      "code": "58025",
+      "title": "Banco de Datos de Series Laborales (MTES)",
+      "responsibleCode": "MTES",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931082530"
+    },
+    {
+      "code": "58026",
+      "title": "Estadística de Empresas de Trabajo Temporal (MTES)",
+      "responsibleCode": "MTES",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931082677"
+    },
+    {
+      "code": "58028",
+      "title": "Estadística de Empresas Inscritas en la Seguridad Social (MTES)",
+      "responsibleCode": "MTES",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931082851"
+    },
+    {
+      "code": "58029",
+      "title": "Encuesta de Calidad de Vida en el Trabajo (MTES)",
+      "responsibleCode": "MTES",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931083026"
+    },
+    {
+      "code": "58030",
+      "title": "Encuesta de Formación Profesional para el Empleo en Empresas (MTES)",
+      "responsibleCode": "MTES",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931142104"
+    },
+    {
+      "code": "58031",
+      "title": "Encuesta Anual Laboral (MTES)",
+      "responsibleCode": "MTES",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259943055622"
+    },
+    {
+      "code": "58032",
+      "title": "Estadística de Despidos y su Coste (MTES)",
+      "responsibleCode": "MTES",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259945999675"
+    },
+    {
+      "code": "58033",
+      "title": "Estadística de Planes de Igualdad (MTES)",
+      "responsibleCode": "MTES",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946004925"
+    },
+    {
+      "code": "58041",
+      "title": "Estadística de Prestaciones Familiares (MISM)",
+      "responsibleCode": "MISM",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931084053"
+    },
+    {
+      "code": "58051",
+      "title": "Estadística de Cuentas de Cotización a la Seguridad Social (MISM)",
+      "responsibleCode": "MISM",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259945999676"
+    },
+    {
+      "code": "58052",
+      "title": "Panel de datos de Empresas-Trabajadores (MISM)",
+      "responsibleCode": "MISM",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259945999677"
+    },
+    {
+      "code": "58053",
+      "title": "Estadística de Bases de Cotización de la Seguridad Social (MISM)",
+      "responsibleCode": "MISM",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946000385"
+    },
+    {
+      "code": "58061",
+      "title": "Estadística del Fondo de Garantía Salarial (MTES)",
+      "responsibleCode": "MTES",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931085615"
+    },
+    {
+      "code": "59001",
+      "title": "Estadística del Fondo Social Europeo (MTES)",
+      "responsibleCode": "MTES",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931085093"
+    },
+    {
+      "code": "59002",
+      "title": "Estadística de Entidades de Economía Social Inscritas en la Seguridad Social (MTES)",
+      "responsibleCode": "MTES",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931142436"
+    },
+    {
+      "code": "59003",
+      "title": "Estadística de Personas Trabajadoras por Cuenta Propia Afiliadas a la Seguridad Social (MTES)",
+      "responsibleCode": "MTES",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931142610"
+    },
+    {
+      "code": "59021",
+      "title": "Estadística del Movimiento Laboral Registrado (MTES)",
+      "responsibleCode": "MTES",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931085263"
+    },
+    {
+      "code": "59022",
+      "title": "Estadística del Sistema de Formación en el Trabajo y Formación Programada por las Empresas para sus Trabajadores (MTES)",
+      "responsibleCode": "MTES",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931085439"
+    },
+    {
+      "code": "63006",
+      "title": "Estadística de Títulos de Familia Numerosa (MDCA)",
+      "responsibleCode": "MDCA",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931083201"
+    },
+    {
+      "code": "63007",
+      "title": "Estadística de Españoles Residentes en el Extranjero Retornados (MTES)",
+      "responsibleCode": "MTES",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931084224"
+    },
+    {
+      "code": "63012",
+      "title": "Estadística de Prestaciones por Razón de Necesidad para Residentes en el Exterior y Retornados (MTES)",
+      "responsibleCode": "MTES",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931084399"
+    },
+    {
+      "code": "63013",
+      "title": "Estadística de Enfermedades Profesionales (MISM)",
+      "responsibleCode": "MISM",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931083371"
+    },
+    {
+      "code": "63014",
+      "title": "Estadística de Políticas de Mercado de Trabajo (MTES)",
+      "responsibleCode": "MTES",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931083543"
+    },
+    {
+      "code": "63022",
+      "title": "Estadística de Medidas de Protección a la Infancia y a la Adolescencia: Adopciones, Acogimientos y Tutela de Personas Menores de Edad (MJUI)",
+      "responsibleCode": "MJUI",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931084581"
+    },
+    {
+      "code": "63051",
+      "title": "Estadística de Concesiones de Nacionalidad Española por Residencia (MISM)",
+      "responsibleCode": "MISM",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931137589"
+    },
+    {
+      "code": "63052",
+      "title": "Estadística de Personas Extranjeras con Documentación de Residencia en Vigor (MISM)",
+      "responsibleCode": "MISM",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931137744"
+    },
+    {
+      "code": "63053",
+      "title": "Estadística de Personas Extranjeras con Autorización de Estancia por Estudios en Vigor (MISM)",
+      "responsibleCode": "MISM",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931137899"
+    },
+    {
+      "code": "63054",
+      "title": "Estadística de Visados Expedidos en Oficinas Consulares (MISM)",
+      "responsibleCode": "MISM",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931138055"
+    },
+    {
+      "code": "63056",
+      "title": "Estadística de Prestaciones para \"Niños de la Guerra\" (MTES)",
+      "responsibleCode": "MTES",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931139096"
+    },
+    {
+      "code": "63058",
+      "title": "Flujo de Documentos de Residencia Concedidos a Personas Extranjeras (MISM)",
+      "responsibleCode": "MISM",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259930979191"
+    },
+    {
+      "code": "64001",
+      "title": "Mujeres en Cifras (MIGD)",
+      "responsibleCode": "MIGD",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931085785"
+    },
+    {
+      "code": "64022",
+      "title": "Encuesta de Juventud (MJUI)",
+      "responsibleCode": "MJUI",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931085952"
+    },
+    {
+      "code": "64023",
+      "title": "Juventud en Cifras (MJUI)",
+      "responsibleCode": "MJUI",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931086117"
+    },
+    {
+      "code": "64024",
+      "title": "Sondeos de Opinión y Situación de la Juventud en España (MJUI)",
+      "responsibleCode": "MJUI",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931137425"
+    },
+    {
+      "code": "64025",
+      "title": "Estadística de Medidas Impuestas a Personas Menores de Edad en Conflicto con la Ley (En proyecto) (MJUI)",
+      "responsibleCode": "MJUI",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946005707"
+    },
+    {
+      "code": "64043",
+      "title": "Estadística de Beneficiarios de Prestaciones Socioeconómicas a Personas con Discapacidad (MDCA)",
+      "responsibleCode": "MDCA",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931084751"
+    },
+    {
+      "code": "64049",
+      "title": "Estadística de Pensiones No Contributivas (MDCA)",
+      "responsibleCode": "MDCA",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931084922"
+    },
+    {
+      "code": "64050",
+      "title": "Encuesta Nacional de Condiciones de Trabajo (MTES)",
+      "responsibleCode": "MTES",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931136412"
+    },
+    {
+      "code": "64051",
+      "title": "Muestra Continua de Vidas Laborales (MISM)",
+      "responsibleCode": "MISM",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931137090"
+    },
+    {
+      "code": "64052",
+      "title": "Estadística de Incapacidad Temporal (MISM)",
+      "responsibleCode": "MISM",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931137255"
+    },
+    {
+      "code": "64053",
+      "title": "Estadística de Prestación por Nacimiento y Cuidado de Menor (MISM)",
+      "responsibleCode": "MISM",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931138925"
+    },
+    {
+      "code": "64054",
+      "title": "Encuesta de Gestión Preventiva en las Empresas (MTES)",
+      "responsibleCode": "MTES",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931140599"
+    },
+    {
+      "code": "64055",
+      "title": "Estadística de Prestaciones del Sistema para la Autonomía y Atención a la Dependencia (SAAD) (MDCA)",
+      "responsibleCode": "MDCA",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931141438"
+    },
+    {
+      "code": "64056",
+      "title": "Estadística de Patologías No Traumáticas (MISM)",
+      "responsibleCode": "MISM",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259945998981"
+    },
+    {
+      "code": "64057",
+      "title": "Estadística de Riesgo Durante la Lactancia Natural (MISM)",
+      "responsibleCode": "MISM",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259945998982"
+    },
+    {
+      "code": "64058",
+      "title": "Estadística de Riesgo Durante el Embarazo (MISM)",
+      "responsibleCode": "MISM",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259945998983"
+    },
+    {
+      "code": "64059",
+      "title": "Estadística de Cuidado de Menores Afectados por Cáncer u Otra Enfermedad Grave (MISM)",
+      "responsibleCode": "MISM",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259945998984"
+    },
+    {
+      "code": "64060",
+      "title": "Estadística de Servicios Sociales Dirigidos a Personas Mayores en España (MDCA)",
+      "responsibleCode": "MDCA",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259945998991"
+    },
+    {
+      "code": "64061",
+      "title": "Estudio sobre las Conductas Saludables de Adolescentes Escolarizados (HBSC) (MSND)",
+      "responsibleCode": "MSND",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946004160"
+    },
+    {
+      "code": "64062",
+      "title": "Sistema de Información del Programa de Cribado Neonatal del Sistema Nacional de Salud (MSND)",
+      "responsibleCode": "MSND",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946000401"
+    },
+    {
+      "code": "64063",
+      "title": "Censo de Centros Residenciales de Servicios Sociales en España (MDCA)",
+      "responsibleCode": "MDCA",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946001862"
+    },
+    {
+      "code": "64065",
+      "title": "Personas Ucranianas con Documentación de Residencia en Vigor (MISM)",
+      "responsibleCode": "MISM",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946003381"
+    },
+    {
+      "code": "64066",
+      "title": "Personas Menores No Acompañadas y Jóvenes Extuteladas con Autorización de Residencia (MISM)",
+      "responsibleCode": "MISM",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946003382"
+    },
+    {
+      "code": "64067",
+      "title": "Estadística de Prestaciones de Ingreso Mínimo Vital (MISM)",
+      "responsibleCode": "MISM",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946004154"
+    },
+    {
+      "code": "64068",
+      "title": "Personas con Autorización de Residencia por Arraigo en Vigor (MISM)",
+      "responsibleCode": "MISM",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946004155"
+    },
+    {
+      "code": "64069",
+      "title": "Indicador de Necesidades Laborales (INLab) (En proyecto) (MISM)",
+      "responsibleCode": "MISM",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946005711"
+    },
+    {
+      "code": "65003",
+      "title": "Estadística de Ayudas Sociales del Artículo 27 a Mujeres Víctimas de Violencia de Género (MIGD)",
+      "responsibleCode": "MIGD",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931152872"
+    },
+    {
+      "code": "65004",
+      "title": "016-Servicio de Información y Asesoramiento Jurídico en Materia de Violencia Contra la Mujer por Razón de Género (MIGD)",
+      "responsibleCode": "MIGD",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931153013"
+    },
+    {
+      "code": "65005",
+      "title": "Violencia de Género: Boletín Estadístico Mensual (MIGD)",
+      "responsibleCode": "MIGD",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259930978034"
+    },
+    {
+      "code": "65006",
+      "title": "Servicio Telefónico de Atención y Protección para Víctimas de Violencia contra las Mujeres-ATENPRO (MIGD)",
+      "responsibleCode": "MIGD",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259930978172"
+    },
+    {
+      "code": "65007",
+      "title": "Macroencuesta de Violencia contra la Mujer (MIGD)",
+      "responsibleCode": "MIGD",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259930978342"
+    },
+    {
+      "code": "65010",
+      "title": "Sistema de Seguimiento por Medios Telemáticos de las Medidas de Alejamiento en el Ámbito de la Violencia de Género (MIGD)",
+      "responsibleCode": "MIGD",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259930974593"
+    },
+    {
+      "code": "65014",
+      "title": "Anuario Estadístico de Violencia de Género (MIGD)",
+      "responsibleCode": "MIGD",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259930975410"
+    },
+    {
+      "code": "65015",
+      "title": "Violencia de Género. Boletín Estadístico Anual (MIGD)",
+      "responsibleCode": "MIGD",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259944581740"
+    },
+    {
+      "code": "65016",
+      "title": "Encuesta Europea de Violencia de Género (MIGD)",
+      "responsibleCode": "MIGD",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259945998992"
+    },
+    {
+      "code": "65017",
+      "title": "Estadística de Recursos Autonómicos en Materia de Violencia contra la Mujer (MIGD)",
+      "responsibleCode": "MIGD",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946000384"
+    },
+    {
+      "code": "65018",
+      "title": "Estadística de Víctimas Mortales por Violencia Contra la Mujer por Razón de Género (MIGD)",
+      "responsibleCode": "MIGD",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946001113"
+    },
+    {
+      "code": "68001",
+      "title": "Estadística de Seguridad: Actuaciones Policiales (MINT)",
+      "responsibleCode": "MINT",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931069292"
+    },
+    {
+      "code": "68002",
+      "title": "Estadística de Seguridad: Responsables (MINT)",
+      "responsibleCode": "MINT",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931069462"
+    },
+    {
+      "code": "68003",
+      "title": "Documentación de Españoles (Documento Nacional de Identidad y Pasaporte) (MINT)",
+      "responsibleCode": "MINT",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931069632"
+    },
+    {
+      "code": "68008",
+      "title": "Anuario Estadístico del Ministerio del Interior (MINT)",
+      "responsibleCode": "MINT",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931065428"
+    },
+    {
+      "code": "68010",
+      "title": "Estadística de Asociaciones (MINT)",
+      "responsibleCode": "MINT",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931065763"
+    },
+    {
+      "code": "68020",
+      "title": "Estadística General de la Población Reclusa. Periodicidad Mensual (MINT)",
+      "responsibleCode": "MINT",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931066776"
+    },
+    {
+      "code": "68021",
+      "title": "Estadística de los Internos en los Centros Penitenciarios. Evolución Semanal (MINT)",
+      "responsibleCode": "MINT",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931066946"
+    },
+    {
+      "code": "68023",
+      "title": "Estadística de Asuntos Taurinos (MCLT)",
+      "responsibleCode": "MCLT",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259942188283"
+    },
+    {
+      "code": "68024",
+      "title": "Información Estadística de Penas y Medidas Alternativas a la Prisión (MINT)",
+      "responsibleCode": "MINT",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259942576062"
+    },
+    {
+      "code": "68025",
+      "title": "Estadística del Sistema de Seguimiento Integral en los Casos de Violencia de Género (Sistema VioGén) (MINT)",
+      "responsibleCode": "MINT",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259944434523"
+    },
+    {
+      "code": "68029",
+      "title": "Estadísticas Comunitarias en el Ámbito de la Migración y la Protección Internacional (MINT)",
+      "responsibleCode": "MINT",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259944608738"
+    },
+    {
+      "code": "68030",
+      "title": "Estadística de Tráfico de Drogas (MINT)",
+      "responsibleCode": "MINT",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259930974248"
+    },
+    {
+      "code": "68040",
+      "title": "Estadística de Población Extranjera Solicitante de Protección Internacional, Refugiados, Beneficiarios de Protección Subsidiaria, Desplazados y Apátridas (MINT)",
+      "responsibleCode": "MINT",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931129735"
+    },
+    {
+      "code": "68052",
+      "title": "Estadística sobre la Trata y la Explotación de Seres Humanos (MINT)",
+      "responsibleCode": "MINT",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946001867"
+    },
+    {
+      "code": "68053",
+      "title": "Estadística de Prevención y Actuación en Incendios Forestales (MINT)",
+      "responsibleCode": "MINT",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946001878"
+    },
+    {
+      "code": "68054",
+      "title": "Estadística de Actuaciones de Protección del Medio Ambiente (MINT)",
+      "responsibleCode": "MINT",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946001879"
+    },
+    {
+      "code": "68055",
+      "title": "Estadística sobre el Control de Armas (MINT)",
+      "responsibleCode": "MINT",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946001880"
+    },
+    {
+      "code": "68056",
+      "title": "Estadística de Auxilio y Control del Tráfico y del Transporte (MINT)",
+      "responsibleCode": "MINT",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946002614"
+    },
+    {
+      "code": "68057",
+      "title": "Estadística de Emergencias Producidas en el Transporte Terrestre de Mercancías Peligrosas (MINT)",
+      "responsibleCode": "MINT",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946002616"
+    },
+    {
+      "code": "68058",
+      "title": "Estadística de Fallecidos por Riesgos Naturales (MINT)",
+      "responsibleCode": "MINT",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946002617"
+    },
+    {
+      "code": "68059",
+      "title": "Estadística de Incendios Forestales a Efectos de Protección Civil (MINT)",
+      "responsibleCode": "MINT",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946002618"
+    },
+    {
+      "code": "68060",
+      "title": "Estadística sobre el Control de Pirotecnia y Cartuchería (MINT)",
+      "responsibleCode": "MINT",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946003378"
+    },
+    {
+      "code": "68061",
+      "title": "Estadística sobre el Control de Explosivos (MINT)",
+      "responsibleCode": "MINT",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946003379"
+    },
+    {
+      "code": "68062",
+      "title": "Estadística de Personal de la Dirección General de la Guardia Civil (MINT)",
+      "responsibleCode": "MINT",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946004145"
+    },
+    {
+      "code": "68063",
+      "title": "Estadística de Actuaciones del Servicio Aéreo de la Guardia Civil (MINT)",
+      "responsibleCode": "MINT",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946004146"
+    },
+    {
+      "code": "68064",
+      "title": "Estadística de Actuaciones del Servicio de Montaña de la Guardia Civil (MINT)",
+      "responsibleCode": "MINT",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946004147"
+    },
+    {
+      "code": "68065",
+      "title": "Estadística sobre Actuaciones en Materia de Resguardo Fiscal del Estado (MINT)",
+      "responsibleCode": "MINT",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946004148"
+    },
+    {
+      "code": "68066",
+      "title": "Estadística de Actuaciones del Servicio Marítimo de la Guardia Civil (MINT)",
+      "responsibleCode": "MINT",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946004149"
+    },
+    {
+      "code": "70041",
+      "title": "Estadística de Matriculación de Vehículos (MINT)",
+      "responsibleCode": "MINT",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931067116"
+    },
+    {
+      "code": "70042",
+      "title": "Estadística de Transferencia de Vehículos (MINT)",
+      "responsibleCode": "MINT",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931067279"
+    },
+    {
+      "code": "70043",
+      "title": "Estadística de Bajas de Vehículos (MINT)",
+      "responsibleCode": "MINT",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931067442"
+    },
+    {
+      "code": "70044",
+      "title": "Estadística del Parque Nacional de Vehículos (MINT)",
+      "responsibleCode": "MINT",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931067605"
+    },
+    {
+      "code": "70045",
+      "title": "Estadística de Exámenes para la Obtención de Permisos y Licencias de Conducción (MINT)",
+      "responsibleCode": "MINT",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931067768"
+    },
+    {
+      "code": "70046",
+      "title": "Estadística de Expedición y Revisión de Permisos y Licencias para Conducir (MINT)",
+      "responsibleCode": "MINT",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931067936"
+    },
+    {
+      "code": "70048",
+      "title": "Estadística de Accidentes de Tráfico con Víctimas (MINT)",
+      "responsibleCode": "MINT",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931068274"
+    },
+    {
+      "code": "70049",
+      "title": "Estadística de Denuncias por Infracciones de Tráfico (MINT)",
+      "responsibleCode": "MINT",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931068442"
+    },
+    {
+      "code": "70051",
+      "title": "Censo de Conductores (MINT)",
+      "responsibleCode": "MINT",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931068780"
+    },
+    {
+      "code": "71002",
+      "title": "Estadística de la Actividad Judicial (CGPJ)",
+      "responsibleCode": "CGPJ",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931129569"
+    },
+    {
+      "code": "71003",
+      "title": "Sistema de Información Socioeconómica de los Partidos Judiciales (CGPJ)",
+      "responsibleCode": "CGPJ",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931142956"
+    },
+    {
+      "code": "71004",
+      "title": "Estadística del Personal Judicial: Jueces y Magistrados (CGPJ)",
+      "responsibleCode": "CGPJ",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931918199"
+    },
+    {
+      "code": "76002",
+      "title": "Personal Civil Funcionario al Servicio de la Administración Militar (MDEF)",
+      "responsibleCode": "MDEF",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259930980688"
+    },
+    {
+      "code": "76003",
+      "title": "Personal Civil Laboral al Servicio de la Administración Militar (MDEF)",
+      "responsibleCode": "MDEF",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259930980861"
+    },
+    {
+      "code": "76012",
+      "title": "Estadística de Establecimientos Sanitarios Militares con Régimen de Internado (MDEF)",
+      "responsibleCode": "MDEF",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259930981034"
+    },
+    {
+      "code": "76013",
+      "title": "Estadística de Morbilidad Hospitalaria en Establecimientos Sanitarios Militares (MDEF)",
+      "responsibleCode": "MDEF",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259930981204"
+    },
+    {
+      "code": "76014",
+      "title": "Estadística de Bibliotecas del Ministerio de Defensa (MDEF)",
+      "responsibleCode": "MDEF",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259930981376"
+    },
+    {
+      "code": "76015",
+      "title": "Estadística de Museos y Colecciones Museográficas del Ministerio de Defensa (MDEF)",
+      "responsibleCode": "MDEF",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259930981545"
+    },
+    {
+      "code": "76017",
+      "title": "Estadística de Archivos del Ministerio de Defensa (MDEF)",
+      "responsibleCode": "MDEF",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259930981887"
+    },
+    {
+      "code": "76018",
+      "title": "Estadística de Actividades Musicales en las Fuerzas Armadas (MDEF)",
+      "responsibleCode": "MDEF",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259930982056"
+    },
+    {
+      "code": "76019",
+      "title": "Estadística de Centros de Enseñanza del Ministerio de Defensa (MDEF)",
+      "responsibleCode": "MDEF",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931113930"
+    },
+    {
+      "code": "76020",
+      "title": "Estadística de Cursos y Estudios en el Ministerio de Defensa (MDEF)",
+      "responsibleCode": "MDEF",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931114101"
+    },
+    {
+      "code": "76022",
+      "title": "Estadística de Accidentes de Carácter Militar en las Fuerzas Armadas (MDEF)",
+      "responsibleCode": "MDEF",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931114272"
+    },
+    {
+      "code": "76025",
+      "title": "Estadística de Agresiones en las Fuerzas Armadas (MDEF)",
+      "responsibleCode": "MDEF",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931114444"
+    },
+    {
+      "code": "76026",
+      "title": "Estadística de Presupuestos del Ministerio de Defensa (MDEF)",
+      "responsibleCode": "MDEF",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931114616"
+    },
+    {
+      "code": "76028",
+      "title": "Estadística de Contratación en el Ministerio de Defensa (MDEF)",
+      "responsibleCode": "MDEF",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931114789"
+    },
+    {
+      "code": "76033",
+      "title": "Estadística de Jurisdicción Militar (MDEF)",
+      "responsibleCode": "MDEF",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931114962"
+    },
+    {
+      "code": "76042",
+      "title": "Estadística de Centros de Investigación y Desarrollo en el Ministerio de Defensa (MDEF)",
+      "responsibleCode": "MDEF",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931115135"
+    },
+    {
+      "code": "76044",
+      "title": "Personal Militar de Carrera de las Fuerzas Armadas (MDEF)",
+      "responsibleCode": "MDEF",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931115306"
+    },
+    {
+      "code": "76045",
+      "title": "Personal Militar con una Relación de Servicios de Carácter Temporal (MDEF)",
+      "responsibleCode": "MDEF",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931115479"
+    },
+    {
+      "code": "76046",
+      "title": "Estadística de Convocatorias para el Ingreso como Militar de Carrera (MDEF)",
+      "responsibleCode": "MDEF",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931131090"
+    },
+    {
+      "code": "76047",
+      "title": "Estadística de Convocatorias para el Ingreso como Militar de Complemento (MDEF)",
+      "responsibleCode": "MDEF",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931131263"
+    },
+    {
+      "code": "76048",
+      "title": "Estadística de Convocatorias para el Ingreso como Militar de Tropa y Marinería (MDEF)",
+      "responsibleCode": "MDEF",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931131436"
+    },
+    {
+      "code": "76049",
+      "title": "Estadística de Convocatorias para el Acceso a Reservista Voluntario (MDEF)",
+      "responsibleCode": "MDEF",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931131609"
+    },
+    {
+      "code": "76050",
+      "title": "Personal Estatutario al Servicio de la Administración Militar (MDEF)",
+      "responsibleCode": "MDEF",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931154300"
+    },
+    {
+      "code": "76055",
+      "title": "Personal Reservista de Especial Disponibilidad, Reservista Voluntario y Reservista Obligatorio (MDEF)",
+      "responsibleCode": "MDEF",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946001135"
+    },
+    {
+      "code": "76056",
+      "title": "Personal Militar de Carrera de la Guardia Civil (MDEF)",
+      "responsibleCode": "MDEF",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946001136"
+    },
+    {
+      "code": "76057",
+      "title": "Estadística de Indicadores de Igualdad y Conciliación en las Fuerzas Armadas (MDEF)",
+      "responsibleCode": "MDEF",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946001137"
+    },
+    {
+      "code": "79001",
+      "title": "Barómetros de Opinión (MPJC)",
+      "responsibleCode": "MPJC",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931104974"
+    },
+    {
+      "code": "79002",
+      "title": "Encuesta Social General Española (MPJC)",
+      "responsibleCode": "MPJC",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259937889153"
+    },
+    {
+      "code": "79003",
+      "title": "Encuesta Social Europea (MPJC)",
+      "responsibleCode": "MPJC",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259942187764"
+    },
+    {
+      "code": "79004",
+      "title": "Índice de Confianza del Consumidor (ICC) (MPJC)",
+      "responsibleCode": "MPJC",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259942178084"
+    },
+    {
+      "code": "79005",
+      "title": "Encuesta de Opinión Pública y Política Fiscal (MPJC)",
+      "responsibleCode": "MPJC",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259945998990"
+    },
+    {
+      "code": "80022",
+      "title": "Las Tecnologías de la Información y las Comunicaciones en las Administraciones Públicas (MTDF)",
+      "responsibleCode": "MTDF",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931106167"
+    },
+    {
+      "code": "80024",
+      "title": "Estadística del Personal al Servicio de las Administraciones Públicas (MTDF)",
+      "responsibleCode": "MTDF",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931106340"
+    },
+    {
+      "code": "80039",
+      "title": "Estadística de Presupuestos de Tecnologías de la Información y las Comunicaciones en la Administración del Estado (MTDF)",
+      "responsibleCode": "MTDF",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931210587"
+    },
+    {
+      "code": "80040",
+      "title": "Titulares y beneficiarios/as de la Mutualidad de Funcionarios Civiles del Estado (MTDF)",
+      "responsibleCode": "MTDF",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946004144"
+    },
+    {
+      "code": "81001",
+      "title": "Banco de Datos de Personas Electas a Órganos Representativos Locales (MTMD)",
+      "responsibleCode": "MTMD",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931105137"
+    },
+    {
+      "code": "81021",
+      "title": "Base de Datos del Registro de Entidades Locales (MTMD)",
+      "responsibleCode": "MTMD",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931105309"
+    },
+    {
+      "code": "81042",
+      "title": "Explotación Estadística de la Encuesta de Infraestructura y Equipamientos Locales (EIEL) (MTMD)",
+      "responsibleCode": "MTMD",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931105481"
+    },
+    {
+      "code": "85001",
+      "title": "Estadística del Padrón de la Población Española Residente en el Extranjero (INE)",
+      "responsibleCode": "INE",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259930979534"
+    },
+    {
+      "code": "85004",
+      "title": "Estadística de Ayuda Oficial al Desarrollo (AOD) y Otros Flujos Oficiales al Desarrollo Sostenible (AOTDS/TOSSD) de España (MAUC)",
+      "responsibleCode": "MAUC",
+      "url": "https://www.ine.es/dyngs/IOE/operacion.htm?id=1259930979684"
+    }
+  ]
+}

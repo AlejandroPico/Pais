@@ -1,0 +1,842 @@
+# Operaciones por tema: índice de implementación
+
+758 operaciones del inventario estatal, organizadas en 27 sectores oficiales. No todas son cartografiables ni publican datos abiertos completos.
+
+## Administraciones públicas y asociaciones (81)
+
+- **28021** · [Explotación Estadística del Registro de Contratos del Sector Público (MHAC)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931115652) — Nacional
+- **28041** · [Gestión de los Servicios de las Delegaciones de Economía y Hacienda. Sistema de Índices de Eficiencia, Calidad y Eficacia (SIECE) (MHAC)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931115827) — Provincial
+- **28042** · [Resumen Informativo de Recaudación, Tributos Cedidos y Concertados (MHAC)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931116000) — Provincial
+- **29101** · [Estadística de Inversiones y Empleo Generados por los Incentivos Económicos Regionales (MHAC)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259930985183) — Autonómico
+- **30015** · [Índices de Reparto Regional del IVA y los Impuestos Especiales sobre la Cerveza, sobre el Alcohol y Bebidas Derivadas y sobre Productos Intermedios (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931056277) — Autonómico
+- **31002** · [Recaudación y Estadísticas del Sistema Tributario Español (MHAC)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259930982225) — Autonómico
+- **31003** · [El Impuesto sobre la Renta de las Personas Físicas. Análisis de los Datos Estadísticos del Ejercicio (MHAC)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259930982395) — Provincial
+- **31005** · [El Impuesto sobre el Valor Añadido. Análisis de los Datos Estadísticos del Ejercicio (MHAC)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259930982565) — Provincial
+- **31006** · [Impuesto sobre Sociedades. Análisis de los Datos Estadísticos del Ejercicio (MHAC)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259930982735) — Nacional
+- **31009** · [El Impuesto sobre el Patrimonio. Análisis de los Datos Estadísticos del Ejercicio (MHAC)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259944581106) — Autonómico
+- **31010** · [Inventario de Entes dependientes de las Comunidades Autónomas (MHAC)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946003374) — Autonómico
+- **31011** · [Inventario de Entes del Sector Público Local (MHAC)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946003375) — Municipal o inferior
+- **31012** · [Indicadores sobre Gasto Farmacéutico y Sanitario del Estado (MHAC)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946003377) — Nacional
+- **31013** · [Presupuestos Generales del Estado (MHAC)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946003376) — Nacional
+- **31021** · [Base de Datos General de Entidades Locales (MHAC)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259930983942) — Municipal o inferior
+- **31022** · [Informe sobre el Impacto del Sector Público Autonómico en la Actividad Económico-Financiera de las Comunidades Autónomas (MHAC)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259930992993) — Autonómico
+- **31025** · [Presupuestos de las Entidades Locales (MHAC)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259930984134) — Municipal o inferior
+- **31026** · [Liquidación de Presupuestos de las Entidades Locales (MHAC)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259930984309) — Municipal o inferior
+- **31028** · [Presupuestos de las Comunidades Autónomas (MHAC)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259930984484) — Autonómico
+- **31030** · [Liquidación de Presupuestos de las Comunidades Autónomas (MHAC)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259930984659) — Autonómico
+- **31038** · [Haciendas Autonómicas en Cifras (MHAC)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259930983251) — Autonómico
+- **31039** · [Estadística sobre la Gestión y Ejecución de los Fondos de Compensación Interterritorial (MHAC)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259930983421) — Provincial
+- **31042** · [Imposición Local. Tipos de Gravamen, Índices y Coeficientes (MHAC)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259930983767) — Municipal o inferior
+- **31045** · [Ejecución Presupuestaria Mensual de las Comunidades Autónomas (MHAC)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259930974416) — Autonómico
+- **31046** · [Indicadores sobre Gasto Farmacéutico y Sanitario de las Comunidades Autónomas (MHAC)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259948148512) — Autonómico
+- **31047** · [Informe sobre Plazos de Pago a Proveedores y Deuda Comercial de las Comunidades Autónomas (MHAC)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259948150599) — Autonómico
+- **31048** · [Coste Efectivo de los Servicios Prestados por las Entidades Locales (MHAC)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259945999679) — Municipal o inferior
+- **31049** · [Deuda Viva de las Entidades Locales a 31 de Diciembre (MHAC)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259945999680) — Municipal o inferior
+- **31050** · [Ejecución Presupuestaria Trimestral de las Entidades Locales (MHAC)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259945999681) — Municipal o inferior
+- **31051** · [Haciendas Locales en Cifras (MHAC)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259945999685) — Municipal o inferior
+- **31052** · [Estadística de Gasto Sanitario Público Mensual (En proyecto) (MHAC)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946005709) — Autonómico
+- **31066** · [Panel de Hogares (MHAC)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931153492) — Autonómico
+- **31088** · [Estadística de Ordenanzas Fiscales del Impuesto sobre Bienes Inmuebles (MHAC)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931145712) — Municipal o inferior
+- **31089** · [Estadística del Impuesto sobre Bienes Inmuebles (MHAC)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931151656) — Municipal o inferior
+- **31090** · [Estadística del Catastro Inmobiliario Urbano (MHAC)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946000375) — Municipal o inferior
+- **31091** · [Estadística del Catastro Inmobiliario Rústico (MHAC)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946000377) — Municipal o inferior
+- **31092** · [Estadística del Catastro de Bienes Inmuebles de Características Especiales (BICE) (MHAC)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946000378) — Municipal o inferior
+- **31093** · [Estadística de Titulares Catastrales (MHAC)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946000379) — Municipal o inferior
+- **31119** · [Inventario de Entes del Sector Público Estatal, Autonómico y Local (INVENTE) (MHAC)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259948145825) — Municipal o inferior
+- **31121** · [Efectivos de Personal al Servicio del Sector Público Estatal (MHAC)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931116692) — Nacional
+- **31122** · [Ejecución Mensual del Presupuesto del Estado (MHAC)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931117042) — Nacional
+- **31123** · [Ejecución Mensual de los Presupuestos de Organismos Públicos (MHAC)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259930986908) — Nacional
+- **31124** · [Avances de Liquidación de los Presupuestos del Estado y de sus Organismos Públicos (MHAC)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259930987083) — Nacional
+- **31125** · [Estadística de Liquidación de los Presupuestos del Estado y de sus Organismos Públicos, Empresas y Fundaciones (MHAC)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259930987258) — Nacional
+- **31132** · [Informe sobre Cumplimiento de Plazos Legales de Pago (MHAC)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259942575892) — Nacional
+- **31143** · [Informe sobre Plazos de Pago a Proveedores y Deuda Comercial de las Corporaciones Locales (MHAC)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946001868) — Municipal o inferior
+- **32001** · [Estadística de Recaudación Tributaria (mensual) (MHAC)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259930985505) — Provincial
+- **32002** · [Estadística de Recaudación Tributaria (anual) (MHAC)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931152010) — Provincial
+- **32061** · [Estadística de los Declarantes del Impuesto sobre el Patrimonio (MHAC)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259938279133) — Autonómico
+- **32063** · [Estadística de los Declarantes del IRPF (MHAC)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259930986731) — Autonómico
+- **32065** · [Estadística del Impuesto Especial sobre Determinados Medios de Transporte (anual) (MHAC)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931141766) — Autonómico
+- **32066** · [Estadística del Impuesto Especial sobre Determinados Medios de Transporte (avance mensual) (MHAC)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931141935) — Autonómico
+- **32069** · [Estadística sobre la Discapacidad en las Declaraciones del Impuesto sobre la Renta de las Personas Físicas (MHAC)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259945998309) — Autonómico
+- **32070** · [Estadística de los Declarantes del IRPF por Municipios (MHAC)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259945998310) — Municipal o inferior
+- **32072** · [Estadística de los Declarantes del Impuesto sobre la Renta de las Personas Físicas de los Mayores Municipios por Código Postal (MHAC)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946000395) — Municipal o inferior
+- **32074** · [Muestra Anual de Patrimonio (MHAC)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946000399) — Autonómico
+- **32076** · [Informe sobre el Periodo Medio de Pago a Proveedores de los Subsectores Administración Central y Fondos de la Seguridad Social (MHAC)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946001115) — Nacional
+- **32083** · [Muestra Panel del Impuesto sobre el Patrimonio (MHAC)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946001864) — Autonómico
+- **32098** · [Estadística de Empleo en el Sector Público (MHAC)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946004153) — Autonómico
+- **32101** · [Informe de Impuestos Especiales (MHAC)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946004941) — Nacional
+- **68010** · [Estadística de Asociaciones (MINT)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931065763) — Provincial
+- **68062** · [Estadística de Personal de la Dirección General de la Guardia Civil (MINT)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946004145) — Nacional
+- **76002** · [Personal Civil Funcionario al Servicio de la Administración Militar (MDEF)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259930980688) — Provincial
+- **76003** · [Personal Civil Laboral al Servicio de la Administración Militar (MDEF)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259930980861) — Provincial
+- **76026** · [Estadística de Presupuestos del Ministerio de Defensa (MDEF)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931114616) — Nacional
+- **76028** · [Estadística de Contratación en el Ministerio de Defensa (MDEF)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931114789) — Nacional
+- **76044** · [Personal Militar de Carrera de las Fuerzas Armadas (MDEF)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931115306) — Nacional
+- **76045** · [Personal Militar con una Relación de Servicios de Carácter Temporal (MDEF)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931115479) — Provincial
+- **76046** · [Estadística de Convocatorias para el Ingreso como Militar de Carrera (MDEF)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931131090) — Nacional
+- **76047** · [Estadística de Convocatorias para el Ingreso como Militar de Complemento (MDEF)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931131263) — Nacional
+- **76048** · [Estadística de Convocatorias para el Ingreso como Militar de Tropa y Marinería (MDEF)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931131436) — Nacional
+- **76049** · [Estadística de Convocatorias para el Acceso a Reservista Voluntario (MDEF)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931131609) — Nacional
+- **76050** · [Personal Estatutario al Servicio de la Administración Militar (MDEF)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931154300) — Provincial
+- **76055** · [Personal Reservista de Especial Disponibilidad, Reservista Voluntario y Reservista Obligatorio (MDEF)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946001135) — Provincial
+- **76056** · [Personal Militar de Carrera de la Guardia Civil (MDEF)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946001136) — Provincial
+- **76057** · [Estadística de Indicadores de Igualdad y Conciliación en las Fuerzas Armadas (MDEF)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946001137) — Nacional
+- **80024** · [Estadística del Personal al Servicio de las Administraciones Públicas (MTDF)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931106340) — Provincial
+- **80040** · [Titulares y beneficiarios/as de la Mutualidad de Funcionarios Civiles del Estado (MTDF)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946004144) — Nacional
+- **81001** · [Banco de Datos de Personas Electas a Órganos Representativos Locales (MTMD)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931105137) — Municipal o inferior
+- **81021** · [Base de Datos del Registro de Entidades Locales (MTMD)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931105309) — Municipal o inferior
+- **85004** · [Estadística de Ayuda Oficial al Desarrollo (AOD) y Otros Flujos Oficiales al Desarrollo Sostenible (AOTDS/TOSSD) de España (MAUC)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259930979684) — Municipal o inferior
+
+## Agricultura, ganadería, selvicultura y caza (43)
+
+- **01005** · [Calendarios de Siembra y Recolección (MAPA)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931123084) — Provincial
+- **01006** · [Encuesta Semestral de Ganado Bovino y su Producción Láctea (MAPA)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931123252) — Provincial
+- **01007** · [Encuesta Semestral de Ganado Porcino (MAPA)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931123427) — Provincial
+- **01008** · [Encuesta Anual de Ganados Ovino y Caprino, y su Producción Láctea (MAPA)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931092418) — Provincial
+- **01009** · [Encuestas de Producción de Huevos e Incubación (MAPA)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931092593) — Autonómico
+- **01010** · [Encuesta Mensual y Anual de Sacrificio de Ganado en Mataderos (MAPA)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931092768) — Autonómico
+- **01013** · [Estadística Anual de Lana, Miel y Otras Producciones Ganaderas (MAPA)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931092943) — Provincial
+- **01014** · [Evaluación Anual del Movimiento Comercial Pecuario (MOCOPE) (MAPA)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931093115) — Provincial
+- **01015** · [Encuesta de Cunicultura (MAPA)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931093290) — Autonómico
+- **01017** · [Estadística de Viñedo (MAPA)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931093467) — Provincial
+- **01018** · [Encuesta de Base de Plantaciones de Frutales, Olivar y Uva de Mesa (MAPA)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931093639) — Provincial
+- **01019** · [Avances Mensuales de Superficies y Producciones Agrícolas (MAPA)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931093816) — Provincial
+- **01021** · [Estadística sobre Superficies de Cultivos y Aprovechamientos por Términos Municipales (MAPA)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931093988) — Provincial
+- **01023** · [Encuesta Anual de Superficies y Rendimientos de Cultivos (MAPA)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931094327) — Provincial
+- **01029** · [Estadística Anual de Cortas de Madera (MTED)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931127020) — Provincial
+- **01030** · [Estadística Anual de Otros Aprovechamientos Forestales (MTED)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931127190) — Provincial
+- **01048** · [Índices y Salarios Agrarios Trimestrales y Anuales (MAPA)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931096230) — Autonómico
+- **01049** · [Red Española de Datos de Sostenibilidad Agraria (REDSA) (MAPA)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931096402) — Autonómico
+- **01055** · [Balances de Aprovisionamiento de Productos Agrícolas Excepto Vino (MAPA)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931097263) — Nacional
+- **01056** · [Balances de Aprovisionamiento de Carnes (MAPA)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931097431) — Nacional
+- **01061** · [Encuesta de Utilización de Medios de Producción (MAPA)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931097599) — Autonómico
+- **01069** · [Estadística Anual de Proyectos y Actuaciones Forestales (MTED)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931127360) — Provincial
+- **01082** · [Previsiones Nacionales de Producciones Cárnicas (MAPA)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931099312) — Nacional
+- **01084** · [Estadística Anual de Consumo de Alimentos por el Ganado (MAPA)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931099482) — Autonómico
+- **01085** · [Estadística Anual de Caza (MTED)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931127871) — Provincial
+- **01087** · [Estadística Mensual de Inscripciones de Maquinaria Agrícola (MAPA)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931099653) — Provincial
+- **01088** · [Estadística Anual de Consumo de Fertilizantes en Agricultura (MAPA)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931099828) — Autonómico
+- **01089** · [Encuesta de Utilización de Productos Fitosanitarios (MAPA)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931099998) — Nacional
+- **01122** · [Balances de Aprovisionamiento de Vino (MAPA)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931104123) — Nacional
+- **01123** · [Balances de Aprovisionamiento de Productos Ganaderos Distintos de las Carnes (MAPA)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931104291) — Nacional
+- **01124** · [Balance Nacional de la Madera (MTED)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931128221) — Nacional
+- **01134** · [Estadísticas de Producción y Comercialización de Material Forestal de Reproducción (MAPA)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931128391) — Autonómico
+- **01135** · [Estadística Anual de Superficies y Producciones de Cultivos (MAPA)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931104627) — Provincial
+- **01137** · [LIGNUM. Sistema Estatal de Información sobre el Comercio de la Madera (MTED)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946000383) — Autonómico
+- **01160** · [Encuesta de Comercialización de Productos Fitosanitarios (MAPA)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259941117239) — Nacional
+- **01165** · [Estadística de la Producción Ecológica (MAPA)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259945998988) — Provincial
+- **01182** · [Estudios de Costes y Rentas de las Explotaciones Agrarias (ECREA) (MAPA)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946003373) — Autonómico
+- **04001** · [Inventario Forestal Nacional (MTED)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931126335) — Provincial
+- **23030** · [Estadística sobre Gestión Forestal Sostenible (MTED)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931143972) — Autonómico
+- **23043** · [Indicadores Agroambientales (Balance de Nitrógeno y Fósforo) (MAPA)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259945998987) — Nacional
+- **30040** · [Encuesta sobre Métodos de Producción en las Explotaciones Agrícolas (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931145889) — Autonómico
+- **30042** · [Censo Agrario (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931056754) — Municipal o inferior
+- **30044** · [Encuesta sobre la Estructura de las Explotaciones Agrarias (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931056923) — Autonómico
+
+## Comercio interior y exterior (20)
+
+- **14001** · [Encuesta de Coyuntura de la Exportación (MECM)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931088514) — Nacional
+- **15023** · [Campaña de Exportación de cada uno de los diferentes Productos (MECM)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931087992) — Nacional
+- **15024** · [Estadística de Importación y Exportación de Especies Incluidas en Convenio CITES (MECM)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931088166) — Nacional
+- **15029** · [Estadísticas de Comercio Exterior de Productos Sometidos a Control de Calidad Comercial (MECM)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931088342) — Provincial
+- **15030** · [Estadística del Comercio Exterior por Sectores Económicos (MECM)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931088849) — Provincial
+- **15031** · [Estadísticas de Importación de Productos Industriales Sometidos a Control SOIVRE de Seguridad (MECM)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931150340) — Provincial
+- **28071** · [Estadística de Venta de Labores de Tabaco a Expendedurías en la Península e Illes Balears (MHAC)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931116175) — Provincial
+- **29081** · [Índices de Valor Unitario para el Comercio Exterior (MECM)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259930987939) — Nacional
+- **30098** · [Comercio Internacional de Servicios por Modos de Suministro (MoS) (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946002627) — Nacional
+- **30103** · [Índices de Comercio al por Menor (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931060418) — Autonómico
+- **30198** · [Encuesta sobre Comercio Internacional de Servicios y otras Operaciones Internacionales (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931062424) — Nacional
+- **30232** · [Estadística Estructural de Empresas: Sector Comercio (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931156930) — Autonómico
+- **30233** · [Estadística de Productos en el Sector Comercio (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931157071) — Nacional
+- **30240** · [Comercio Internacional de Servicios por Características de las Empresas (STEC) (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946002626) — Nacional
+- **30801** · [Panel de Indicadores de Comercio Internacional de Valor Añadido (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946005704) — Nacional
+- **32021** · [Estadística de Intercambio de Bienes entre Estados de la UE (Umbrales de Exención) (MHAC)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259930985682) — Nacional
+- **32022** · [Estadística de Intercambio de Bienes entre Estados de la UE (Bajo el Umbral de Exención) (MHAC)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259930985857) — Nacional
+- **32023** · [Estadística de Comercio Extracomunitario (MHAC)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259930986032) — Nacional
+- **32025** · [Estadística del Comercio Exterior de las Comunidades Autónomas (MHAC)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259930986209) — Autonómico
+- **32097** · [Estadística de Comercio Exterior de Bienes por Características de las Empresas (MHAC)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946003391) — Autonómico
+
+## Construcción y vivienda (15)
+
+- **08033** · [Encuesta de Coyuntura Industrial en el Sector de la Construcción (MITU)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931086782) — Nacional
+- **20001** · [Estadística de Construcción de Edificios (MTRM)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931070985) — Municipal o inferior
+- **20004** · [Estadística de Licitación Oficial en la Construcción (MTRM)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931071339) — Provincial
+- **20005** · [Índices de Producción de la Industria de la Construcción (MTRM)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931071518) — Nacional
+- **20006** · [Estadística de Visados de Dirección de Obra (Estadísticas de Obras en Edificación) (MTRM)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931071695) — Provincial
+- **20008** · [Índices de Costes del Sector de la Construcción (MTRM)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931071874) — Nacional
+- **20015** · [Atlas Estadístico de la Construcción en España (MTRM)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931125479) — Municipal o inferior
+- **23062** · [Estadística de Financiación de Actuaciones Protegibles (MVAU)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931128901) — Nacional
+- **25003** · [Estadística de Transacciones Inmobiliarias (MVAU)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931132131) — Provincial
+- **25004** · [Estadística de Vivienda Libre y Protegida (MVAU)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931136913) — Provincial
+- **25005** · [Estudio sobre el Stock de Viviendas Nuevas (MVAU)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931143118) — Provincial
+- **25006** · [Estimación del Parque de Viviendas (MVAU)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931143291) — Provincial
+- **30292** · [Estadística Estructural de Empresas: Sector Construcción (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946004158) — Autonómico
+- **30293** · [Índice de Producción de la Construcción (IPCO) (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946004159) — Nacional
+- **32102** · [Estadística de Viviendas Declaradas en el IRPF (MHAC)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946005710) — Municipal o inferior
+
+## Cuentas económicas (52)
+
+- **01053** · [Cuentas Económicas Nacionales de la Agricultura (MAPA)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931096919) — Nacional
+- **01054** · [Cuentas Económicas de la Agricultura Regionales (MAPA)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931097091) — Autonómico
+- **01066** · [Cuentas Económicas Nacionales de la Pesca (MAPA)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931098292) — Nacional
+- **01070** · [Cuentas Económicas Nacionales de la Selvicultura (MTED)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931127535) — Nacional
+- **01126** · [Cuentas Económicas Regionales de la Pesca (MAPA)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931104459) — Autonómico
+- **29001** · [Deuda del Estado (MECM)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259930988281) — Nacional
+- **29021** · [Programas de Papel Comercial y Notas a Medio Plazo (MECM)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259930988453) — Nacional
+- **29022** · [Detalle de las Operaciones Vivas de Financiación Exterior. Servicio de Deuda Exterior del Tesoro (MECM)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259930988625) — Nacional
+- **29023** · [Registro Mensual y Trimestral de Movimientos del Servicio de Deuda Exterior del Tesoro (MECM)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259930988797) — Nacional
+- **29131** · [Inversión Extranjera Directa en España (Posición) (MECM)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931149455) — Autonómico
+- **29132** · [Inversión Extranjera Directa en España (Flujos) (MECM)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931149633) — Autonómico
+- **29133** · [Inversión Española Directa en el Exterior (Posición) (MECM)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931148743) — Autonómico
+- **29134** · [Inversión Española Directa en el Exterior (Flujos) (MECM)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931148921) — Autonómico
+- **30017** · [Cuentas Satélite de las Cooperativas y Mutualidades (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259936644135) — Nacional
+- **30024** · [Contabilidad Nacional Trimestral de España: Principales Agregados (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259937889496) — Nacional
+- **30025** · [Contabilidad Regional de España (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259937889657) — Provincial
+- **30026** · [Cuentas Trimestrales No Financieras de los Sectores Institucionales (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259937891325) — Nacional
+- **30027** · [Cuenta Satélite del Turismo de España (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259937891486) — Nacional
+- **30029** · [Contabilidad Nacional Anual de España: Principales Agregados (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946000368) — Nacional
+- **30030** · [Contabilidad Nacional Anual de España: Agregados por Rama de Actividad (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946000369) — Nacional
+- **30031** · [Cuentas Anuales No Financieras de los Sectores Institucionales (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946000371) — Nacional
+- **30032** · [Tablas de Origen y Destino (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946000372) — Nacional
+- **30033** · [Tablas Input-Output (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946000373) — Nacional
+- **30084** · [Cuentas Medioambientales: Cuenta de Emisiones a la Atmósfera (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259942700133) — Nacional
+- **30085** · [Cuentas Medioambientales: Cuenta de Impuestos Ambientales (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259942700465) — Nacional
+- **30086** · [Cuentas Medioambientales: Cuenta de Flujos de Materiales (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259942700806) — Nacional
+- **30087** · [Cuentas Medioambientales: Otras Cuentas Medioambientales (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259942700977) — Nacional
+- **30088** · [Cuentas Medioambientales: Cuenta de Gasto en Protección Medioambiental (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259945998306) — Nacional
+- **30089** · [Cuentas Medioambientales: Cuenta de Bienes y Servicios Ambientales (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259945998307) — Nacional
+- **30090** · [Cuentas Medioambientales: Cuenta de Flujos Físicos de la Energía (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259945998308) — Nacional
+- **30091** · [Tabla de Pensiones (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946000389) — Nacional
+- **30092** · [Cuenta Satélite de la Economía Social (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946000394) — Nacional
+- **30093** · [Tablas de Origen y Destino de la Economía Digital (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946003390) — Nacional
+- **30094** · [Cuentas Distribucionales de los Hogares (En proyecto) (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946004157) — Nacional
+- **30095** · [Cuentas Medioambientales: Cuenta de los Residuos (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946000380) — Nacional
+- **30284** · [Cuentas Medioambientales: Cuenta de Subvenciones y Otras Transferencias Similares (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946004934) — Nacional
+- **31126** · [Cuentas de las Empresas Públicas (MHAC)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259930987433) — Nacional
+- **31127** · [Cuentas de las Administraciones Públicas (MHAC)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259930987603) — Nacional
+- **31128** · [Cuentas de las Administraciones Públicas Territoriales (MHAC)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259930987771) — Autonómico
+- **31130** · [Cuentas Trimestrales de las Administraciones Públicas (MHAC)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259930977071) — Nacional
+- **32075** · [Operaciones No Financieras Anuales del Sector Administraciones Públicas y sus Subsectores (MHAC)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946001114) — Nacional
+- **32077** · [Impuestos y Cotizaciones Sociales (MHAC)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946001116) — Nacional
+- **32078** · [Clasificación Funcional del Gasto de las Administraciones Públicas (COFOG) (MHAC)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946001117) — Nacional
+- **32079** · [Operaciones No Financieras Trimestrales del Sector Administraciones Públicas y sus Subsectores (MHAC)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946001118) — Nacional
+- **32080** · [Operaciones No Financieras Mensuales Consolidadas de los Subsectores Administración Central, Administración Regional y Fondos de la Seguridad Social. Detalle por Subsectores (MHAC)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946001119) — Nacional
+- **32081** · [Indicadores Establecidos en la Directiva 2011/85/UE (MHAC)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946001120) — Nacional
+- **37040** · [Cuentas Financieras de la Economía Española. Sistema SEC/2010 (BANESP)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259944416171) — Nacional
+- **37142** · [Balanza de Pagos, Comercio Internacional de Servicios e Inversiones Extranjeras Directas, Posición de Inversión Internacional, Deuda Externa y Reservas Internacionales y Liquidez en Moneda Extranjera (BANESP)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931129238) — Nacional
+- **37144** · [Deuda Pública según el Protocolo de Déficit Excesivo (BANESP)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931130414) — Otros : Autonómica (órganos de Gobierno y empresas públicas propiedad de la comunidad autónoma), agregación de provincias (diputaciones) y local (grandes ayuntamientos)
+- **49007** · [Cuenta Satélite del Deporte (MEFD)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946003383) — Nacional
+- **50052** · [Cuenta Satélite de la Cultura (MCLT)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931142784) — Nacional
+- **54012** · [Cuentas Satélites del Gasto Sanitario Público (MSND)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931111687) — Autonómico
+
+## Cultura, deporte y ocio (43)
+
+- **30401** · [Estadística de Producción Editorial de Libros (MCLT)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931121405) — Provincial
+- **30403** · [Estadística de Bibliotecas (MCLT)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931063249) — Provincial
+- **41021** · [Encuesta de Hábitos y Prácticas Culturales en España (MCLT)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931106513) — Autonómico
+- **41050** · [Estadística de Financiación y Gasto Público en Cultura (MCLT)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931106688) — Autonómico
+- **45021** · [Estadística de Deporte Federado (MEFD)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931078549) — Otros : Autonómico en algunos casos
+- **45030** · [Explotación Estadística de la Base de Datos de Campeonatos de España Universitarios y en Edad Escolar (MEFD)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259945998273) — Autonómico
+- **45041** · [Estadística del Control del Dopaje (MEFD)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931079065) — Nacional
+- **45061** · [Encuesta de Hábitos Deportivos en España (MEFD)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931129889) — Autonómico
+- **45101** · [Explotación Estadística del Censo Nacional de Instalaciones Deportivas (MEFD)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931079233) — Municipal o inferior
+- **49005** · [Anuario de Estadísticas Culturales (MCLT)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931106865) — Autonómico
+- **49006** · [Explotación Estadística del Bono Cultural Joven (MCLT)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946003384) — Provincial
+- **50001** · [Explotación Estadística de la Base de Datos de Protección del Patrimonio Histórico Español (Bienes Muebles e Inmuebles) (MCLT)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931107208) — Autonómico
+- **50003** · [Estadística de Archivos (MCLT)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931107556) — Nacional
+- **50004** · [Estadística de Museos y Colecciones Museográficas (MCLT)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931107033) — Autonómico
+- **50026** · [Estadística de Edición Española de Libros con ISBN (MCLT)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931107381) — Provincial
+- **50041** · [Explotación Estadística de las Bases de Datos de Recursos Musicales y de la Danza (Entidades y Profesionales) (MCLT)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931108075) — Autonómico
+- **50044** · [Explotación Estadística de las Bases de Datos de Recursos de las Artes Escénicas (MCLT)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931107904) — Autonómico
+- **50050** · [Estadística de Edición Española de Música con ISMN (MCLT)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931108246) — Autonómico
+- **50051** · [Banco de Datos CULTURAbase (MCLT)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931140933) — Autonómico
+- **50053** · [Explotación Estadística del Registro General de Propiedad Intelectual (MCLT)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259930978680) — Nacional
+- **50054** · [Explotación Estadística de los Datos de Derechos de Propiedad Intelectual Gestionados por las Entidades de Gestión (MCLT)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931156621) — Nacional
+- **50055** · [Anuario de Estadísticas Deportivas (MEFD)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259942577260) — Autonómico
+- **50056** · [Banco de Datos DEPORTEdata (MEFD)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259944578242) — Autonómico
+- **50057** · [Explotación de la Encuesta de Población Activa en el Ámbito Cultural (MCLT)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259948063816) — Autonómico
+- **50058** · [Explotación de la Encuesta de Población Activa en el Ámbito Deportivo (MEFD)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259948064456) — Autonómico
+- **50059** · [Explotación de las Estadísticas Turísticas en el Ámbito Cultural (MCLT)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259945998304) — Autonómico
+- **50060** · [Explotación de las Estadísticas Turísticas en el Ámbito Deportivo (MEFD)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259945998305) — Autonómico
+- **50061** · [Estadística de Cinematografía: Producción, Exhibición, Distribución y Fomento (MCLT)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931108429) — Provincial
+- **50065** · [Explotación de las Estadísticas de las Enseñanzas en el Ámbito Cultural (MCLT)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259945998303) — Autonómico
+- **50066** · [Explotación de las Estadísticas de las Enseñanzas en el Ámbito Deportivo (MEFD)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259945998302) — Autonómico
+- **50067** · [Explotación de la Encuesta de Presupuestos Familiares en el Ámbito Cultural (MCLT)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259945998301) — Autonómico
+- **50068** · [Explotación de la Encuesta de Presupuestos Familiares en el Ámbito Deportivo (MEFD)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259945998300) — Autonómico
+- **50069** · [Explotación de las Estadísticas de Comercio Exterior en el Ámbito Cultural (MCLT)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259945998298) — Nacional
+- **50070** · [Explotación de las Estadísticas de Comercio Exterior en el Ámbito Deportivo (MEFD)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259945998299) — Nacional
+- **50071** · [Explotación del Directorio Central de Empresas en el Ámbito Cultural (MCLT)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259945998296) — Autonómico
+- **50072** · [Explotación del Directorio Central de Empresas en el Ámbito Deportivo (MEFD)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259945998297) — Autonómico
+- **50073** · [Explotación de las Estadísticas de Financiación y Gasto Público en el Ámbito Deportivo (MEFD)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259945998295) — Autonómico
+- **50074** · [Estadística de Fundaciones Sujetas al Protectorado Estatal (MCLT)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946001126) — Nacional
+- **68023** · [Estadística de Asuntos Taurinos (MCLT)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259942188283) — Autonómico
+- **76014** · [Estadística de Bibliotecas del Ministerio de Defensa (MDEF)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259930981376) — Nacional
+- **76015** · [Estadística de Museos y Colecciones Museográficas del Ministerio de Defensa (MDEF)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259930981545) — Nacional
+- **76017** · [Estadística de Archivos del Ministerio de Defensa (MDEF)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259930981887) — Nacional
+- **76018** · [Estadística de Actividades Musicales en las Fuerzas Armadas (MDEF)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259930982056) — Nacional
+
+## Demografía y población (35)
+
+- **30241** · [Censo de Viviendas (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946004928) — Municipal o inferior
+- **30245** · [Cifras Oficiales de Población de los Municipios Españoles: Revisión del Padrón Municipal (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259930993676) — Municipal o inferior
+- **30261** · [Nomenclátor: Población por Unidad Poblacional (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259930990652) — Municipal o inferior
+- **30264** · [Indicadores Demográficos Básicos (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946004935) — Provincial
+- **30271** · [Tablas de Mortalidad (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931152707) — Provincial
+- **30276** · [Proyección de Hogares (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259936324286) — Provincial
+- **30278** · [Proyecciones de Población (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259944587212) — Provincial
+- **30279** · [Estadística de Adquisiciones de Nacionalidad Española de Residentes (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259944596944) — Provincial
+- **30280** · [Encuesta de Características Esenciales de la Población y las Viviendas (ECEPOV) (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946000382) — Otros : Provincial, grandes ciudades
+- **30281** · [Censo Anual de Población (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946002629) — Municipal o inferior
+- **30282** · [Estadística Continua de Población (ECP) (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946002630) — Provincial
+- **30283** · [Estadística de Migraciones y Cambios de Residencia (EMCR) (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946002631) — Municipal o inferior
+- **30290** · [Marco Muestral para Encuestas Dirigidas a la Población (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946000391) — Municipal o inferior
+- **30291** · [Estudios de Movilidad a partir de la Telefonía Móvil (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946001122) — Municipal o inferior
+- **30302** · [MNP: Estadística de Matrimonios (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259930993328) — Municipal o inferior
+- **30304** · [MNP: Estadística de Nacimientos (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931196821) — Municipal o inferior
+- **30306** · [MNP: Estadística de Defunciones (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931197163) — Municipal o inferior
+- **30317** · [Encuesta de Fecundidad (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259945997610) — Autonómico
+- **30319** · [Encuesta Nacional de Inmigrantes (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946004170) — Autonómico
+- **30323** · [Estimación Mensual de Nacimientos (EMN) (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946001876) — Provincial
+- **30324** · [Estimación de Defunciones Semanales (EDeS) (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946001877) — Provincial
+- **30463** · [Estadística de Nulidades, Separaciones y Divorcios (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931146871) — Provincial
+- **30609** · [Censos Históricos (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931055781) — Municipal o inferior
+- **63007** · [Estadística de Españoles Residentes en el Extranjero Retornados (MTES)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931084224) — Provincial
+- **63051** · [Estadística de Concesiones de Nacionalidad Española por Residencia (MISM)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931137589) — Provincial
+- **63052** · [Estadística de Personas Extranjeras con Documentación de Residencia en Vigor (MISM)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931137744) — Provincial
+- **63053** · [Estadística de Personas Extranjeras con Autorización de Estancia por Estudios en Vigor (MISM)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931137899) — Provincial
+- **63054** · [Estadística de Visados Expedidos en Oficinas Consulares (MISM)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931138055) — Nacional
+- **63058** · [Flujo de Documentos de Residencia Concedidos a Personas Extranjeras (MISM)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259930979191) — Provincial
+- **64065** · [Personas Ucranianas con Documentación de Residencia en Vigor (MISM)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946003381) — Provincial
+- **64066** · [Personas Menores No Acompañadas y Jóvenes Extuteladas con Autorización de Residencia (MISM)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946003382) — Nacional
+- **64068** · [Personas con Autorización de Residencia por Arraigo en Vigor (MISM)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946004155) — Provincial
+- **68029** · [Estadísticas Comunitarias en el Ámbito de la Migración y la Protección Internacional (MINT)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259944608738) — Nacional
+- **68040** · [Estadística de Población Extranjera Solicitante de Protección Internacional, Refugiados, Beneficiarios de Protección Subsidiaria, Desplazados y Apátridas (MINT)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931129735) — Provincial
+- **85001** · [Estadística del Padrón de la Población Española Residente en el Extranjero (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259930979534) — Nacional
+
+## Educación y formación (43)
+
+- **30100** · [Encuesta de Inserción Laboral de la Población con Titulación Superior (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931156791) — Autonómico
+- **30122** · [Estadística de Financiación y Gastos de la Enseñanza Privada (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931060585) — Autonómico
+- **30451** · [Encuesta de Transición Educativa - Formativa e Inserción Laboral (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931064931) — Autonómico
+- **30459** · [Encuesta sobre la Participación de la Población Adulta en las Actividades de Aprendizaje (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931132647) — Autonómico
+- **30460** · [Encuesta de Gasto de los Hogares en Educación (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931146559) — Nacional
+- **41001** · [Estadística de Enseñanzas No Universitarias (Centros, Matrícula, Graduación y Personal) (MEFD)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931075839) — Provincial
+- **41012** · [Estadística de Gasto Público en Educación (MEFD)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931076016) — Autonómico
+- **41015** · [Las Cifras de la Educación en España. Estadísticas e Indicadores (MEFD)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931076192) — Autonómico
+- **41016** · [Datos de la Educación al Inicio del Curso Escolar (MEFD)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931076362) — Nacional
+- **41023** · [Indicadores Estadísticos de la Educación (MEFD)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931139769) — Autonómico
+- **41025** · [Estadística del Alumnado de Formación Profesional del Sistema Educativo (MEFD)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931148233) — Provincial
+- **41026** · [Estadística de Bibliotecas Escolares (MEFD)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931154129) — Provincial
+- **41027** · [Explotación de las Variables Educativas en la Encuesta de Población Activa: Nivel de Formación y Formación Permanente (MEFD)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259942576509) — Autonómico
+- **41028** · [Estadística Internacional de los Sistemas de Educación y Formación - Cuestionario UNESCO/OCDE/Eurostat (MEFD)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259943367219) — Autonómico
+- **41029** · [Estadística de Alumnado con Necesidad Específica de Apoyo Educativo (MEFD)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259945999668) — Provincial
+- **41030** · [Estadística de Enseñanza de Lenguas Extranjeras (MEFD)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259945999669) — Municipal o inferior
+- **41042** · [Estadística de Acción Educativa en el Exterior (MEFD)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931075666) — Nacional
+- **41103** · [Estadística de Movilidad del Profesorado de Enseñanzas No Universitarias en Centros Públicos (MEFD)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931077051) — Autonómico
+- **41104** · [Estadística de Seguimiento Educativo Posterior de las Personas Graduadas en Formación Profesional del Sistema Educativo (MEFD)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946001125) — Autonómico
+- **41105** · [Estadística de Inserción Laboral de las Personas Graduadas en Enseñanzas de Formación Profesional del Sistema Educativo (MEFD)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946001124) — Autonómico
+- **41106** · [Estadística de Seguimiento Educativo y Rendimiento Académico del Alumnado que Accede a Formación Profesional del Sistema Educativo (MEFD)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946001865) — Autonómico
+- **42101** · [Estadística de Becas y Ayudas al Estudio (MEFD)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931076873) — Otros : Provincial/universidades
+- **42181** · [Sistema Estatal de Indicadores de la Educación (MEFD)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931078379) — Autonómico
+- **42184** · [Programa para la Evaluación Internacional de Competencias de la Población Adulta (PIAAC Programme for the International Assessment of Adult Competencies de la OCDE) (MEFD)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259930979366) — Nacional
+- **42185** · [Estadística de los Programas Educativos Europeos (MEFD)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259930979016) — Autonómico
+- **42186** · [Estadística de los Grados A, B y C del Sistema de Formación Profesional (MEFD)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946001138) — Provincial
+- **42187** · [Estadística de Seguimiento Educativo y Rendimiento Académico del Alumnado que Accede a Bachillerato (MEFD)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946004156) — Provincial
+- **42188** · [Estadística de Homologaciones de Títulos o Convalidaciones de Estudios No Universitarios (En proyecto) (MEFD)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946004171) — Otros : País de origen de los estudios extranjeros homologados o convalidados
+- **44025** · [Estadística de Estudiantes Universitarios (MCNU)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931121574) — Otros : Universidades
+- **44041** · [Estadística de Universidades, Centros y Titulaciones (MCNU)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931122412) — Otros : Universidades
+- **44043** · [Estadística de Personal de las Universidades (MCNU)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931077875) — Otros : Universidades
+- **44045** · [Estadística de Financiación y Gasto de las Universidades Públicas Españolas (MCNU)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259941630933) — Autonómico
+- **44049** · [Estadística de las Pruebas de Acceso a la Universidad (PAU) (MCNU)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259930975785) — Otros : Universidades
+- **44050** · [Estadística de Afiliación a la Seguridad Social de los Egresados Universitarios (MCNU)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946000405) — Otros : Universidades
+- **44051** · [Estadística de Internacionalización Universitaria (MCNU)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946001132) — Otros : Universidades
+- **44052** · [Indicadores de Rendimiento Académico Universitario (MCNU)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946001133) — Otros : Universidades
+- **44053** · [Estadística de Becas y Ayudas al Estudio Universitario (MCNU)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946001134) — Otros : Universidades
+- **45124** · [Estadística de Formación de Entrenadoras y Entrenadores del Deporte (MEFD)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931078893) — Autonómico
+- **58014** · [Encuesta Comunitaria de Formación Profesional Continua (MTES)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931081332) — Nacional
+- **58030** · [Encuesta de Formación Profesional para el Empleo en Empresas (MTES)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931142104) — Nacional
+- **59022** · [Estadística del Sistema de Formación en el Trabajo y Formación Programada por las Empresas para sus Trabajadores (MTES)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931085439) — Provincial
+- **76019** · [Estadística de Centros de Enseñanza del Ministerio de Defensa (MDEF)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931113930) — Nacional
+- **76020** · [Estadística de Cursos y Estudios en el Ministerio de Defensa (MDEF)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931114101) — Nacional
+
+## Estadísticas de empresas y unidades de producción no referidas a sectores particulares (23)
+
+- **30063** · [Encuesta Coyuntural sobre Stocks y Existencias (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259941116557) — Nacional
+- **30082** · [Estadística de Filiales de Empresas Españolas en el Exterior (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931136581) — Nacional
+- **30083** · [Índice de Cifra de Negocios Empresarial (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259941635453) — Nacional
+- **30099** · [Estadística sobre Cadenas de Valor Globales (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946003395) — Nacional
+- **30151** · [Estadística de Sociedades Mercantiles (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931118899) — Provincial
+- **30199** · [Indicadores de Confianza Empresarial (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931062593) — Autonómico
+- **30201** · [Directorio Central de Empresas (DIRCE) (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259930989663) — Desglose no indicado
+- **30203** · [Explotación Estadística del Directorio Central de Empresas (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259930989826) — Provincial
+- **30204** · [Demografía Armonizada de Empresas (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259930976744) — Autonómico
+- **30227** · [Estadística de Empresas según Pertenencia a Grupos (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931135384) — Nacional
+- **32026** · [Resultados Económicos y Tributarios en el IVA (MHAC)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931135719) — Autonómico
+- **32028** · [Estadística de Ventas, Empleo y Salarios en las Grandes Empresas (MHAC)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931136073) — Nacional
+- **32064** · [Estadística por Partidas del IVA (MHAC)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931116344) — Autonómico
+- **32068** · [Estadística del Rendimiento de Actividades Económicas (MHAC)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259943331801) — Autonómico
+- **32071** · [Cuentas Anuales Consolidadas del Impuesto de Sociedades (MHAC)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946000396) — Nacional
+- **32082** · [Cuentas Anuales No Consolidadas del Impuesto de Sociedades (MHAC)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946001863) — Provincial
+- **32090** · [Declaración País por País de Multinacionales con Matriz Española (MHAC)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946002625) — Otros : Mundial: países o jurisdicciones fiscales
+- **32092** · [Ventas, Empleo y Salarios en Grandes Empresas y Pymes (MHAC)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946003385) — Nacional
+- **32094** · [Estadística de Pymes Societarias y No Societarias (MHAC)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946003387) — Autonómico
+- **32096** · [Ventas Diarias (MHAC)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946003389) — Nacional
+- **32099** · [Observatorio de Márgenes Empresariales (MHAC)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946004939) — Nacional
+- **32100** · [Avance de Ventas Interiores en Grandes Empresas y Pymes (MHAC)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946004940) — Nacional
+- **58028** · [Estadística de Empresas Inscritas en la Seguridad Social (MTES)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931082851) — Provincial
+
+## Estadísticas no desglosables por sector o tema (18)
+
+- **20010** · [Anuario Estadístico del MFOM (MTRM)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931072048) — Provincial
+- **20011** · [Boletín Estadístico del MFOM (MTRM)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931072218) — Provincial
+- **20044** · [Atlas Nacional de España (MTRM)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931070811) — Provincial : Provincial (excepcionalmente municipal)
+- **29083** · [Síntesis de Indicadores Económicos (SIE) (MECM)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259930988111) — Nacional
+- **29085** · [Indicadores de Disponibilidades Interiores de Manufacturas de Consumo y Equipo (MECM)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931145372) — Nacional
+- **29086** · [Indicadores Sintéticos de la Economía Española (MECM)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931145542) — Nacional
+- **30601** · [Anuario Estadístico de España (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931054993) — Municipal o inferior
+- **30603** · [España en Cifras (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931055159) — Provincial
+- **30605** · [Banco de Datos TEMPUS 3 (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931055492) — Municipal o inferior
+- **30607** · [Banco de Datos INEbase (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931055636) — Municipal o inferior
+- **30610** · [Península Ibérica en Cifras (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946004150) — Otros : NUTS II
+- **30611** · [Indicadores de España para el FMI (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946004152) — Nacional
+- **30800** · [Indicadores de la Agenda 2030 para el Desarrollo Sostenible (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259945998989) — Municipal o inferior
+- **32073** · [Anuario Estadístico (MHAC)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946000397) — Municipal o inferior
+- **54108** · [Estadística del Sistema Coordinado de Intercambio Rápido de Información (MDCA)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946001870) — Nacional
+- **58023** · [Boletín de Estadísticas Laborales (MTES)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931082195) — Provincial
+- **58024** · [Anuario de Estadísticas del Ministerio de Trabajo y Economía Social (MTES)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931082363) — Provincial
+- **58025** · [Banco de Datos de Series Laborales (MTES)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931082530) — Provincial
+
+## Extracción de productos energéticos y energía en general (21)
+
+- **08002** · [Estadística de Destilación de Carbones (Mensual) (MTED)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931089532) — Nacional
+- **08003** · [Estadística de Destilación de Carbones (Anual) (MTED)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931089700) — Provincial
+- **08006** · [Estadística de Industrias del Gas (Suministro al Mercado Interior) (MTED)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931089868) — Nacional
+- **08011** · [Estadística de Refinerías de Petróleo (Mensual) (MTED)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931090372) — Nacional
+- **08012** · [Estadística de Refinerías de Petróleo (Anual) (MTED)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931090540) — Nacional
+- **08013** · [Estadística del Mercado de Productos Petrolíferos (Mensual) (MTED)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931090708) — Provincial
+- **08014** · [Estadística del Mercado de Productos Petrolíferos (Anual) (MTED)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931090882) — Provincial
+- **08016** · [Estadística de Industria de Energía Eléctrica (Mensual) (MTED)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931091056) — Nacional
+- **08017** · [Estadística de Industria de Energía Eléctrica (Anual) (MTED)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931091226) — Nacional
+- **08054** · [Estadística sobre el Mercado de Gas Natural (Mensual) (MTED)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946000403) — Autonómico
+- **10001** · [Boletín de Coyuntura Energética (Trimestral) (MTED)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931091396) — Nacional
+- **10002** · [Balance Energético (Anual) (MTED)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931091561) — Nacional
+- **21041** · [Estadística de Embalses y Producible de Energía Hidroeléctrica (MTED)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931113756) — Otros : Confederaciones hidrográficas
+- **23103** · [Estadística Anual de Energías Renovables y Residuos (MTED)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946003367) — Provincial
+- **23104** · [Estadística Anual de Hidrógeno (MTED)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946003368) — Nacional
+- **23105** · [Estadística Anual de Biomasa (MTED)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946003369) — Provincial
+- **23106** · [Estadística Anual de Autoconsumo y Almacenamiento Energético (MTED)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946003370) — Provincial
+- **23107** · [Estadística Anual de Consumo Energético Residencial (MTED)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946003371) — Nacional
+- **23108** · [Estadística Anual de Consumo Energético en la Industria (MTED)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946003372) — Nacional
+- **23109** · [Estadística Anual de Consumo Energético en Sector Servicios (MTED)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946003392) — Nacional
+- **30070** · [Encuesta de Consumos Energéticos (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931058934) — Autonómico
+
+## Financieras y seguros (8)
+
+- **29025** · [Autorización a No Residentes para Emitir en Euros en España (Mercado Matador) (MECM)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259930988967) — Nacional
+- **29041** · [Estadística de Seguros Privados y de Previsión Social Complementaria (anual) (MECM)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259930989311) — Nacional
+- **29042** · [Estadística de Seguros Privados y de Previsión Social Complementaria (trimestral) (MECM)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259930989487) — Nacional
+- **29047** · [Estadística de Mediación de Seguros y Reaseguros Privados (MECM)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946000387) — Nacional
+- **30149** · [Estadística de Hipotecas (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931118728) — Provincial
+- **30153** · [Estadística sobre Ejecuciones Hipotecarias (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259941118007) — Provincial
+- **30168** · [Estadística de Transmisión de Derechos de la Propiedad (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931061081) — Provincial
+- **30219** · [Estadística del Procedimiento Concursal (MPJC)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931118557) — Provincial
+
+## Hostelería y turismo (17)
+
+- **16023** · [Encuesta de Turismo de Residentes (ETR/FAMILITUR) (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931087297) — Autonómico
+- **16028** · [Estadística de Movimientos Turísticos en Fronteras (FRONTUR) (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931087472) — Autonómico
+- **16029** · [Encuesta de Gasto Turístico (EGATUR) (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931087646) — Autonómico
+- **16030** · [Estadística de Empleo Turístico según la EPA. (Explotación de Turespaña) (MITU)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931139937) — Autonómico
+- **16031** · [Estadística de Empleo Turístico según la Afiliación a la Seguridad Social. (Explotación de Turespaña) (MITU)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931140109) — Autonómico
+- **16035** · [Pasajeros Aéreos Internacionales (MITU)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931140281) — Autonómico
+- **30230** · [Indicadores de Rentabilidad del Sector Hotelero (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259930976428) — Otros : provincial, zonas y puntos turísticos
+- **30235** · [Encuesta de Ocupación Hotelera (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259941118172) — Otros : provincial, zonas y puntos turísticos
+- **30236** · [Encuesta de Ocupación en Apartamentos Turísticos (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259941116026) — Otros : provincial, zonas y puntos turísticos
+- **30237** · [Encuesta de Ocupación en Campings (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259941116205) — Provincial : provincial, zonas y puntos turísticos
+- **30238** · [Encuesta de Ocupación en Alojamientos de Turismo Rural (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259941116378) — Otros : provincial, zonas y puntos turísticos
+- **30239** · [Encuesta de Ocupación en Albergues Turísticos (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259944023751) — Autonómico
+- **30333** · [Estimación de la Ocupación en Alojamientos Turísticos a partir de Datos de Plataformas Digitales (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946002619) — Otros : Provincias con resultados para algunos municipios
+- **30334** · [Medición del Turismo Nacional a partir de la Posición de los Teléfonos Móviles (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946002620) — Municipal o inferior
+- **30335** · [Gasto Realizado por los Visitantes Extranjeros en sus Visitas a España (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946002621) — Municipal o inferior
+- **30336** · [Medición del Número de Viviendas Turísticas en España y su Capacidad (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946002622) — Municipal o inferior
+- **30337** · [Distribución del Gasto Turístico Realizado por los Residentes en sus Visitas al Extranjero según País de Destino (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946003380) — Otros : Total nacional desglosado por país de destino
+
+## Investigación científica y desarrollo tecnológico (12)
+
+- **09101** · [Estadísticas de Propiedad Industrial (MITU)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931086951) — Municipal o inferior
+- **09102** · [Boletín de Propiedad Industrial (MITU)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931087124) — Provincial
+- **30056** · [Directorio de Empresas y Organismos Públicos Posibles Investigadores (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931059755) — Desglose no indicado
+- **30057** · [Estadística sobre Actividades en I+D en el Sector Empresas (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931059914) — Autonómico
+- **30058** · [Estadística sobre Actividades en I+D en el Sector Administración Pública (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931117881) — Autonómico
+- **30059** · [Estadística sobre Actividades en I+D en el Sector Instituciones Privadas sin Fines de Lucro (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931118050) — Autonómico
+- **30060** · [Estadística sobre Actividades en I+D en el Sector Enseñanza Superior (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931118219) — Autonómico
+- **30061** · [Encuesta sobre Innovación en las Empresas (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931060083) — Autonómico
+- **30197** · [Indicadores de Alta Tecnología (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931062258) — Autonómico
+- **30224** · [Estadística sobre el Uso de Biotecnología (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931132978) — Autonómico
+- **43025** · [Estadística de Créditos Presupuestarios (Iniciales y Finales) de I+D (MCNU)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931077216) — Nacional
+- **76042** · [Estadística de Centros de Investigación y Desarrollo en el Ministerio de Defensa (MDEF)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931115135) — Nacional
+
+## Medio ambiente y desarrollo sostenible (35)
+
+- **01136** · [Indicadores de Desarrollo Rural (MAPA)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931144317) — Nacional
+- **04002** · [Estadística de Incendios Forestales (MTED)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931126505) — Provincial
+- **04004** · [Inventario Nacional del Estado de Salud de los Bosques (MTED)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931126680) — Autonómico
+- **04006** · [Inventario Nacional de Erosión de Suelos (MTED)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931126850) — Provincial
+- **10041** · [Seguimiento del Estado Cuantitativo de las Aguas Subterráneas (MTED)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931113584) — Otros : Demarcaciones hidrográficas
+- **10042** · [Seguimiento del Estado Químico de las Aguas Subterráneas (MTED)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931125991) — Otros : Demarcaciones hidrográficas
+- **20041** · [Proyecto CORINE Land Cover (UE) (MTRM)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931070639) — Municipal o inferior
+- **20042** · [Estadística de Sismología (MTRM)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931070132) — Nacional
+- **20043** · [Estadística de Campo Magnético (MTRM)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931070301) — Nacional
+- **20045** · [Estadística de Vigilancia Volcánica (MTRM)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931070470) — Nacional
+- **20046** · [Sistema de Información de Ocupación del Suelo en España (SIOSE) (MTRM)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931143636) — Municipal o inferior
+- **21021** · [Seguimiento del Estado de las Aguas Superficiales (MTED)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931126163) — Otros : Demarcaciones hidrográficas
+- **22027** · [Estadística de Emergencias por Contaminación Marina Atendidas por Salvamento Marítimo (MTRM)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931132306) — Autonómico
+- **23008** · [Estadística de Envases y Residuos de Envases (MTED)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931128561) — Nacional
+- **23031** · [Espacios Naturales o de Interés (MTED)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931144147) — Autonómico
+- **23033** · [Estadística de Diversidad de Especies Silvestres (MTED)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259945998279) — Nacional
+- **23041** · [Estadística de Calidad del Aire (MTED)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931124792) — Otros : Territorios representados por cada sensor
+- **23042** · [Inventario de Emisiones Contaminantes a la Atmósfera (MTED)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931124964) — Autonómico
+- **23051** · [Inventario Nacional de Sumideros de Carbono (MTED)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931139432) — Nacional
+- **23093** · [Estadística de las Variables Meteorofenológicas (MTED)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931125136) — Municipal o inferior
+- **23094** · [Estadística de Composición Química de la Atmósfera (MTED)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259945998277) — Otros : Estaciones de Medida
+- **23095** · [Balance Hídrico (MTED)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259945998278) — Otros : Grandes cuencas hidrográficas
+- **23096** · [Estadística de Fenómenos Meteorológicos Adversos (MTED)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259945998276) — Provincial
+- **23097** · [Índice Meteorológico del Riesgo de Incendio (MTED)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259945998274) — Provincial
+- **23098** · [Estadística de Vigilancia del Clima (MTED)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259945998275) — Provincial
+- **23099** · [Registro Estatal de Emisiones y Fuentes Contaminantes, PRTR-ESPAÑA (MTED)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946001866) — Nacional
+- **23102** · [Cuantificación de los Residuos Alimentarios del Sector Primario (MTED)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946002624) — Nacional
+- **30066** · [Estadísticas sobre las Actividades de Protección Medioambiental (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931058428) — Autonómico
+- **30076** · [Estadísticas sobre el Uso del Agua (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259942698102) — Autonómico
+- **30077** · [Estadística sobre el Suministro y Saneamiento del Agua (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259942698450) — Autonómico
+- **30078** · [Estadísticas sobre Generación de Residuos (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259942698758) — Nacional
+- **30079** · [Estadísticas sobre Recogida y Tratamiento de Residuos (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259942699258) — Nacional
+- **30206** · [Panel de Indicadores Ambientales (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946005703) — Nacional
+- **68053** · [Estadística de Prevención y Actuación en Incendios Forestales (MINT)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946001878) — Autonómico
+- **68054** · [Estadística de Actuaciones de Protección del Medio Ambiente (MINT)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946001879) — Nacional
+
+## Mercado laboral y salarios (43)
+
+- **30132** · [Encuesta Cuatrienal de Coste Laboral (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931119406) — Autonómico
+- **30133** · [Encuesta Cuatrienal de Estructura Salarial (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931119569) — Autonómico
+- **30187** · [Encuesta Trimestral de Coste Laboral (ETCL) (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931119895) — Autonómico
+- **30188** · [Encuesta Anual de Coste Laboral (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931120063) — Autonómico
+- **30189** · [Encuesta Anual de Estructura Salarial (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931120231) — Autonómico
+- **30211** · [Índice de Coste Laboral Armonizado (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931120399) — Nacional
+- **30308** · [Encuesta de Población Activa (EPA) (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931120732) — Provincial
+- **30309** · [Encuesta Comunitaria de Fuerza de Trabajo (ECFT) (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931120900) — Autonómico
+- **30310** · [Flujos de la Población Activa (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931121066) — Autonómico
+- **30320** · [Estadística del Empleo de las Personas con Discapacidad (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259930978853) — Autonómico
+- **30331** · [Estadística del Salario de las Personas con Discapacidad (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259941118497) — Nacional
+- **30332** · [Estadística de la Vida Laboral de las Personas con Discapacidad (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946000381) — Nacional
+- **30338** · [Estadística sobre Relación con la Actividad a partir de Datos Administrativos (En proyecto) (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946003396) — Municipal o inferior
+- **31062** · [Estadística del Mercado de Trabajo y Pensiones en las Fuentes Tributarias (MHAC)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931130238) — Provincial
+- **32067** · [Estadística de Movilidad del Mercado de Trabajo en las Fuentes Tributarias (MHAC)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259942575268) — Municipal o inferior
+- **58002** · [Estadística de Autorizaciones de Trabajo a Extranjeros (MTES)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931079579) — Provincial
+- **58003** · [Estadística de Cooperativas Constituidas (MTES)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931079755) — Provincial
+- **58004** · [Estadística de Sociedades Laborales Registradas (MTES)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931079929) — Provincial
+- **58006** · [Estadística de Regulación de Empleo (MTES)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931080103) — Provincial
+- **58007** · [Estadística de Apoyo a la Creación de Empleo (MTES)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931080279) — Provincial
+- **58008** · [Estadística de Mediación, Arbitraje y Conciliación Laboral (MTES)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931080453) — Provincial
+- **58010** · [Estadística de Convenios Colectivos de Trabajo (MTES)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931080804) — Provincial
+- **58011** · [Estadística de Huelgas y Cierres Patronales (MTES)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931080980) — Provincial
+- **58012** · [Estadística de Accidentes de Trabajo (MTES)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931081156) — Provincial
+- **58015** · [Estadística de Afiliación de Trabajadores a la Seguridad Social (MISM)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931081504) — Municipal o inferior
+- **58026** · [Estadística de Empresas de Trabajo Temporal (MTES)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931082677) — Provincial
+- **58031** · [Encuesta Anual Laboral (MTES)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259943055622) — Autonómico
+- **58032** · [Estadística de Despidos y su Coste (MTES)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259945999675) — Provincial
+- **58033** · [Estadística de Planes de Igualdad (MTES)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946004925) — Provincial
+- **58051** · [Estadística de Cuentas de Cotización a la Seguridad Social (MISM)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259945999676) — Provincial
+- **58052** · [Panel de datos de Empresas-Trabajadores (MISM)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259945999677) — Desglose no indicado
+- **58053** · [Estadística de Bases de Cotización de la Seguridad Social (MISM)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946000385) — Provincial
+- **59001** · [Estadística del Fondo Social Europeo (MTES)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931085093) — Autonómico
+- **59002** · [Estadística de Entidades de Economía Social Inscritas en la Seguridad Social (MTES)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931142436) — Provincial
+- **59003** · [Estadística de Personas Trabajadoras por Cuenta Propia Afiliadas a la Seguridad Social (MTES)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931142610) — Provincial
+- **59021** · [Estadística del Movimiento Laboral Registrado (MTES)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931085263) — Municipal o inferior
+- **63013** · [Estadística de Enfermedades Profesionales (MISM)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931083371) — Provincial
+- **63014** · [Estadística de Políticas de Mercado de Trabajo (MTES)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931083543) — Nacional
+- **64051** · [Muestra Continua de Vidas Laborales (MISM)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931137090) — Desglose no indicado
+- **64054** · [Encuesta de Gestión Preventiva en las Empresas (MTES)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931140599) — Nacional
+- **64056** · [Estadística de Patologías No Traumáticas (MISM)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259945998981) — Provincial
+- **64069** · [Indicador de Necesidades Laborales (INLab) (En proyecto) (MISM)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946005711) — Nacional
+- **76022** · [Estadística de Accidentes de Carácter Militar en las Fuerzas Armadas (MDEF)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931114272) — Provincial
+
+## Minería e industria (18)
+
+- **01034** · [Encuesta Mensual de Recogida de Leche y de Productos Lácteos Elaborados (MAPA)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931094849) — Nacional
+- **01035** · [Encuesta Anual de Recogida de Leche y de Productos Lácteos Elaborados (MAPA)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931095022) — Nacional
+- **01037** · [Encuesta Trienal de la Estructura de Industrias Lácteas (MAPA)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931095195) — Nacional
+- **08020** · [Estadística de Extracción de Carbones (Anual) (MTED)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931091901) — Provincial
+- **08023** · [Estadística de Extracción de Minerales no Metálicos ni Energéticos (MTED)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931092076) — Provincial
+- **08024** · [Estadística de Fabricación de Vehículos (MITU)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931086279) — Autonómico
+- **08032** · [Encuesta de Coyuntura Industrial (MITU)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931086613) — Autonómico
+- **08036** · [Estadística de Aguas Minerales y Termales (MTED)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931130061) — Autonómico
+- **08037** · [Estadística de Extracción de Minerales Metálicos (MTED)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931138400) — Provincial
+- **08038** · [Estadística de Extracción de Petróleo y Gas (MTED)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931138750) — Provincial
+- **08039** · [Estadística de Extracción de Petróleo y Gas (Mensual) (MTED)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931138575) — Provincial
+- **08041** · [Estadística del Cemento (MITU)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259945999670) — Otros : Agrupaciones regionales de determinadas comunidades autónomas
+- **30048** · [Estadística Estructural de Empresas: Sector Industrial (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931057090) — Autonómico
+- **30049** · [Encuesta Industrial Anual de Productos (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931057259) — Autonómico
+- **30050** · [Índices de Producción Industrial (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931057428) — Autonómico
+- **30052** · [Índices de Cifras de Negocios en la Industria (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931057766) — Autonómico
+- **30064** · [Encuesta de Consumos Intermedios e Inversión (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259944556487) — Nacional
+- **32091** · [Encuesta sobre Estrategias Empresariales (MHAC)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946002628) — Provincial
+
+## Nivel, calidad y condiciones de vida (48)
+
+- **01152** · [Consumo Alimentario Extradoméstico en España: Hábitos del Consumidor (MAPA)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931144674) — Otros : Regiones estadísticas Nielsen
+- **01153** · [Consumo Alimentario en Hogares en España (MAPA)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931144847) — Autonómico
+- **01154** · [Observatorio del Consumo y la Distribución Agroalimentaria (MAPA)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931145022) — Autonómico
+- **01155** · [Barómetro del Clima de Confianza del Sector Agroalimentario (MAPA)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931145197) — Otros : Autonómico, Merca
+- **01156** · [Panel de Uso de los Alimentos (MAPA)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259945998985) — Nacional
+- **01157** · [Panel de Cuantificación del Desperdicio Alimentario en los Hogares (MAPA)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259945998986) — Nacional
+- **01181** · [Panel de Cuantificación del Desperdicio Alimentario en el Consumo Extradoméstico (MAPA)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946001123) — Otros : Regiones estadísticas Nielsen
+- **20019** · [Atlas Estadístico de las Áreas Urbanas en España (MVAU)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931125647) — Municipal o inferior
+- **23101** · [Indicador Multidimensional de Situación y Sinopsis Territorial (INSISTE) (MTED)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946001874) — Municipal o inferior
+- **30256** · [Indicadores Urbanos (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931139270) — Otros : Áreas urbanas (ciudades y conurbaciones, áreas urbanas funcionales, áreas submunicipales)
+- **30325** · [Atlas de Distribución de Renta de los Hogares (ADRH) (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946001875) — Autonómico
+- **30447** · [Encuesta de Empleo del Tiempo (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931064593) — Autonómico
+- **30453** · [Encuesta de Condiciones de Vida (ECV) (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931119237) — Autonómico
+- **30454** · [Encuesta a las Personas Sin Hogar (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931065097) — Autonómico
+- **30456** · [Mujeres y Hombres en España (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931065264) — Nacional
+- **30458** · [Encuesta de Presupuestos Familiares (EPF) (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931130921) — Autonómico
+- **30469** · [Encuesta de Centros y Servicios de Atención a las Personas Sin Hogar y en Exclusión Residencial (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931147891) — Autonómico
+- **30471** · [Indicadores de Calidad de Vida (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259937891970) — Autonómico
+- **30474** · [Encuesta de Inclusión Financiera (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946004936) — Nacional
+- **31065** · [Opinión Pública y Fiscalidad. Barómetro Fiscal IEF (MHAC)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931153317) — Nacional
+- **37143** · [Encuesta Financiera de las Familias (EFF) (BANESP)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931129402) — Nacional
+- **37145** · [Encuesta de Competencias Financieras (ECF) (BANESP)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259945997608) — Autonómico
+- **37146** · [SHARE - Survey of Health, Ageing and Retirement in Europe (BANESP)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946000398) — Nacional
+- **42190** · [Estadística de Características Socioeconómicas de la Población Escolar (En proyecto) (MEFD)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946004937) — Otros : Sección censal
+- **54084** · [Estadística de la Labor Analítica de Productos Alimenticios y Productos Industriales del Centro de Investigación y Control de la Calidad (CICC) (MDCA)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931110301) — Nacional
+- **54095** · [Estadística de Productos no Alimenticios Notificados en la Red de Alerta (Safety Gate y RAPNA) (MDCA)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931133648) — Nacional
+- **54096** · [Estadística de la Actividad del Centro Europeo del Consumidor en España (CEC-ES): Consultas, Reclamaciones y Litigios de Carácter Transfronterizo (MDCA)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931158025) — Otros : Nacional y de la UE
+- **54097** · [Estadística de la Actividad de las Juntas Arbitrales de Consumo (MDCA)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931134181) — Municipal o inferior
+- **54113** · [Estadística de Protección Animal. Animales de Compañía en Hogares (En proyecto) (MDCA)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946004933) — Provincial
+- **58029** · [Encuesta de Calidad de Vida en el Trabajo (MTES)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931083026) — Autonómico
+- **64001** · [Mujeres en Cifras (MIGD)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931085785) — Autonómico
+- **64022** · [Encuesta de Juventud (MJUI)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931085952) — Nacional
+- **64023** · [Juventud en Cifras (MJUI)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931086117) — Provincial
+- **64024** · [Sondeos de Opinión y Situación de la Juventud en España (MJUI)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931137425) — Nacional
+- **64050** · [Encuesta Nacional de Condiciones de Trabajo (MTES)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931136412) — Nacional
+- **65004** · [016-Servicio de Información y Asesoramiento Jurídico en Materia de Violencia Contra la Mujer por Razón de Género (MIGD)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931153013) — Provincial
+- **65005** · [Violencia de Género: Boletín Estadístico Mensual (MIGD)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259930978034) — Provincial
+- **65006** · [Servicio Telefónico de Atención y Protección para Víctimas de Violencia contra las Mujeres-ATENPRO (MIGD)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259930978172) — Provincial
+- **65007** · [Macroencuesta de Violencia contra la Mujer (MIGD)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259930978342) — Nacional
+- **65014** · [Anuario Estadístico de Violencia de Género (MIGD)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259930975410) — Provincial
+- **65015** · [Violencia de Género. Boletín Estadístico Anual (MIGD)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259944581740) — Provincial
+- **65016** · [Encuesta Europea de Violencia de Género (MIGD)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259945998992) — Nacional
+- **79001** · [Barómetros de Opinión (MPJC)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931104974) — Nacional
+- **79002** · [Encuesta Social General Española (MPJC)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259937889153) — Nacional
+- **79003** · [Encuesta Social Europea (MPJC)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259942187764) — Nacional
+- **79004** · [Índice de Confianza del Consumidor (ICC) (MPJC)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259942178084) — Nacional
+- **79005** · [Encuesta de Opinión Pública y Política Fiscal (MPJC)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259945998990) — Nacional
+- **81042** · [Explotación Estadística de la Encuesta de Infraestructura y Equipamientos Locales (EIEL) (MTMD)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931105481) — Municipal o inferior
+
+## Normalización y metodología general (5)
+
+- **30247** · [Relación de Municipios y sus Códigos por Provincias (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259930990483) — Desglose no indicado
+- **30707** · [Sistema Integrado de Metadatos (SIM) (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259930993165) — Desglose no indicado
+- **30714** · [Adaptación de Clasificaciones Internacionales a la Realidad Nacional (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259930990169) — Desglose no indicado
+- **30715** · [Estándares (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259930974085) — Desglose no indicado
+- **30720** · [Inventario de Fuentes Administrativas (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946000390) — Desglose no indicado
+
+## Pesca y acuicultura (7)
+
+- **01063** · [Encuesta de Establecimientos de Acuicultura (MAPA)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931097942) — Provincial
+- **01064** · [Estadística de la Flota Pesquera (MAPA)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931098117) — Provincial
+- **01067** · [Balances de Aprovisionamiento de Productos de la Pesca (MAPA)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931098464) — Nacional
+- **01086** · [Estadística Anual de Pesca Fluvial (MTED)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931128046) — Provincial
+- **01099** · [Encuesta Económica de Pesca Marítima (MAPA)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931101721) — Nacional
+- **01140** · [Encuesta Económica de Acuicultura (MAPA)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931151305) — Nacional
+- **01142** · [Estadísticas de Capturas y Desembarcos de Pesca Marítima (MAPA)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931151479) — Nacional
+
+## Precios (31)
+
+- **01044** · [Precios Medios Anuales de las Tierras de Uso Agrario (MAPA)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931095710) — Autonómico
+- **01046** · [Precios e Índices Medios Nacionales Mensuales y Anuales Percibidos por los Agricultores (MAPA)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931095884) — Nacional
+- **01047** · [Precios e Índices Medios Nacionales Mensuales y Anuales Pagados por los Agricultores (MAPA)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931096058) — Nacional
+- **01050** · [Cánones Anuales de Arrendamientos Rústicos (MAPA)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931096577) — Autonómico
+- **01116** · [Precios Medios Nacionales (MAPA)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931124110) — Nacional
+- **01117** · [Precios Medios Anuales de Productos y Medios de Producción Complementarios (MAPA)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931124282) — Nacional
+- **01170** · [Precios Coyunturales de Productos Agrícolas (MAPA)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259941117423) — Nacional
+- **01180** · [Precios Coyunturales de Productos Ganaderos (MAPA)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259941117601) — Nacional
+- **08051** · [Información sobre Precios de Carburantes en Estaciones de Servicio (Mensual) (MTED)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931152361) — Provincial
+- **08052** · [Información sobre Precios de Carburantes en Estaciones de Servicio (Anual) (MTED)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931152187) — Provincial
+- **08055** · [Estadística de Información sobre Precios de Importación de Crudo (MTED)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946000404) — Nacional
+- **20007** · [Estadística de Valor Tasado de Vivienda (MVAU)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931125306) — Provincial
+- **20066** · [Índice de Precios del Transporte (MTRM)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931136250) — Nacional
+- **25002** · [Estadística de Precios del Suelo (MVAU)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931131954) — Provincial
+- **30051** · [Índices de Precios Industriales (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931057597) — Autonómico
+- **30062** · [Índices de Precios de Materiales y Energía e Índices Nacionales de la Mano de Obra (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931058104) — Nacional
+- **30071** · [Índices de Precios de Exportación y de Importación de Productos Industriales (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931059102) — Nacional
+- **30138** · [Índice de Precios de Consumo (IPC) (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931062915) — Provincial
+- **30179** · [Índice de Precios Hoteleros (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931061751) — Autonómico
+- **30180** · [Índice de Precios de Consumo Armonizado (IPCA) (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931063082) — Nacional
+- **30181** · [Encuesta de Paridades del Poder Adquisitivo (PPA) (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931119070) — Nacional
+- **30182** · [Índices de Precios del Sector Servicios (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931061920) — Nacional
+- **30185** · [Índice de Precios del Trabajo (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931119735) — Autonómico
+- **30213** · [Índice de Precios de Vivienda en Alquiler (IPVA) (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946001121) — Municipal o inferior
+- **30222** · [Índice de Precios de Apartamentos Turísticos (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931133145) — Nacional
+- **30223** · [Índice de Precios de Campings (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931133314) — Nacional
+- **30229** · [Índice de Precios de Alojamientos de Turismo Rural (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931146058) — Autonómico
+- **30294** · [Índice de Precios de Alquiler de Bienes Inmuebles Comerciales (IPABIC) (En proyecto) (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946004930) — Nacional
+- **30295** · [Índice de Precios de Bienes Inmuebles Comerciales (IPBIC) (En proyecto) (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946004931) — Nacional
+- **30457** · [Índice de Precios de la Vivienda (IPV) (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931130750) — Autonómico
+- **44048** · [Estadística de Precios Públicos Universitarios (MCNU)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259930976093) — Autonómico
+
+## Protección social y servicios sociales (26)
+
+- **31141** · [Estadística de Pensiones del Sistema de Clases Pasivas (MISM)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259930985009) — Provincial
+- **54050** · [Base Estatal de Datos de Personas con Valoración del Grado de Discapacidad (MDCA)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946000386) — Provincial
+- **58017** · [Estadística de Pensiones Contributivas del Sistema de la Seguridad Social (MISM)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931083882) — Municipal o inferior
+- **58020** · [Estadística de Ayudas a Trabajadores Afectados por Procesos de Reestructuración de Empresas (MTES)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931081676) — Provincial
+- **58021** · [Estadística de Prestaciones por Desempleo (MTES)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931081850) — Provincial
+- **58022** · [Estadísticas Integradas de Protección Social en Términos SEEPROS (MTES)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931082026) — Nacional
+- **58041** · [Estadística de Prestaciones Familiares (MISM)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931084053) — Provincial
+- **58061** · [Estadística del Fondo de Garantía Salarial (MTES)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931085615) — Provincial
+- **63006** · [Estadística de Títulos de Familia Numerosa (MDCA)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931083201) — Provincial
+- **63012** · [Estadística de Prestaciones por Razón de Necesidad para Residentes en el Exterior y Retornados (MTES)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931084399) — Nacional
+- **63022** · [Estadística de Medidas de Protección a la Infancia y a la Adolescencia: Adopciones, Acogimientos y Tutela de Personas Menores de Edad (MJUI)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931084581) — Autonómico
+- **63056** · [Estadística de Prestaciones para "Niños de la Guerra" (MTES)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931139096) — Nacional
+- **64043** · [Estadística de Beneficiarios de Prestaciones Socioeconómicas a Personas con Discapacidad (MDCA)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931084751) — Provincial
+- **64049** · [Estadística de Pensiones No Contributivas (MDCA)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931084922) — Provincial
+- **64052** · [Estadística de Incapacidad Temporal (MISM)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931137255) — Provincial
+- **64053** · [Estadística de Prestación por Nacimiento y Cuidado de Menor (MISM)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931138925) — Provincial
+- **64055** · [Estadística de Prestaciones del Sistema para la Autonomía y Atención a la Dependencia (SAAD) (MDCA)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931141438) — Autonómico
+- **64057** · [Estadística de Riesgo Durante la Lactancia Natural (MISM)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259945998982) — Provincial
+- **64058** · [Estadística de Riesgo Durante el Embarazo (MISM)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259945998983) — Provincial
+- **64059** · [Estadística de Cuidado de Menores Afectados por Cáncer u Otra Enfermedad Grave (MISM)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259945998984) — Provincial
+- **64060** · [Estadística de Servicios Sociales Dirigidos a Personas Mayores en España (MDCA)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259945998991) — Autonómico
+- **64063** · [Censo de Centros Residenciales de Servicios Sociales en España (MDCA)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946001862) — Provincial
+- **64067** · [Estadística de Prestaciones de Ingreso Mínimo Vital (MISM)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946004154) — Provincial
+- **65003** · [Estadística de Ayudas Sociales del Artículo 27 a Mujeres Víctimas de Violencia de Género (MIGD)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931152872) — Provincial
+- **65017** · [Estadística de Recursos Autonómicos en Materia de Violencia contra la Mujer (MIGD)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946000384) — Provincial
+- **65018** · [Estadística de Víctimas Mortales por Violencia Contra la Mujer por Razón de Género (MIGD)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946001113) — Provincial
+
+## Salud (42)
+
+- **30123** · [Estadística de Centros Sanitarios de Atención Especializada (MSND)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931111863) — Autonómico
+- **30414** · [Encuesta de Morbilidad Hospitalaria (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931063768) — Provincial
+- **30416** · [Estadística de Profesionales Sanitarios Colegiados (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931063921) — Provincial
+- **30417** · [Estadística de Defunciones según la Causa de Muerte (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931064091) — Provincial
+- **30418** · [Encuesta de Discapacidad, Autonomía Personal y Situaciones de Dependencia (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931064261) — Autonómico
+- **30473** · [Encuesta de Salud de España (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946000393) — Autonómico
+- **30475** · [Encuesta de Discapacidad, Autonomía Personal y Situaciones de Dependencia - Centros (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946005708) — Autonómico
+- **54008** · [Estadística Estatal de Actividad de Centros y Servicios de Transfusión (MSND)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931110654) — Autonómico
+- **54011** · [Explotación Estadística del Conjunto Mínimo Básico de Datos (RAE-CMBD): Demanda Hospitalaria y Morbilidad Atendida (MSND)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931112209) — Autonómico
+- **54021** · [Estadística de Interrupciones Voluntarias del Embarazo (MSND)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931110826) — Provincial
+- **54022** · [Estadística de Vacunaciones Sistemáticas (MSND)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931110998) — Autonómico
+- **54023** · [Indicadores de Salud (MSND)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931112383) — Autonómico
+- **54025** · [Calidad de las Aguas de Consumo Humano (MSND)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931111172) — Otros : Zona de abastecimiento y punto de muestreo
+- **54027** · [Calidad de las Aguas de Baño (MSND)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931111343) — Otros : Zonas de baño marítimas o continentales
+- **54032** · [Estadística de Actividad de Donación y Trasplante de Órganos (MSND)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931154953) — Municipal o inferior
+- **54033** · [Estadística de Actividad de Donación, Procesamiento y Trasplante de Tejidos y Células (MSND)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931155123) — Municipal o inferior
+- **54042** · [Estadística del Consumo Farmacéutico a través de Recetas Médicas del Sistema Nacional de Salud, Incluido el Mutualismo Administrativo (MSND)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931108604) — Autonómico
+- **54043** · [Estadística de Sustancias Estupefacientes y Psicotrópicas (Tráfico Lícito) (MSND)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931108945) — Nacional
+- **54063** · [Estadística de Enfermedades de Declaración Obligatoria (MCNU)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931112898) — Municipal o inferior
+- **54064** · [Estadística Estatal de SIDA (MCNU)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931113069) — Provincial
+- **54066** · [Estadística Estatal de Encefalopatías Espongiformes Transmisibles Humanas (MCNU)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931113411) — Autonómico
+- **54086** · [Sistema de Información de Atención Primaria del Sistema Nacional de Salud (MSND)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931112552) — Otros : Áreas de Salud
+- **54087** · [Barómetro Sanitario (MSND)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931112726) — Autonómico
+- **54089** · [Estadística de Consumo de Medicamentos en los Hospitales de la Red Pública del Sistema Nacional de Salud (MSND)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931154471) — Autonómico
+- **54098** · [Indicadores de Consumo de Sustancias Psicoactivas: Admisiones a Tratamiento (MSND)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931134354) — Autonómico
+- **54099** · [Indicadores de Consumo de Sustancias Psicoactivas: Mortalidad por Reacción Aguda (MSND)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931134528) — Autonómico
+- **54100** · [Indicadores de Consumo de Sustancias Psicoactivas: Urgencias Hospitalarias (MSND)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931134702) — Autonómico
+- **54101** · [Encuesta sobre Uso de Drogas en Enseñanzas Secundarias en España (ESTUDES) (MSND)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931134876) — Autonómico
+- **54102** · [Encuesta sobre Alcohol y Drogas en Población General en España (EDADES) (MSND)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931135050) — Autonómico
+- **54103** · [Encuesta sobre Salud y Consumo de Drogas en Población Interna en Instituciones Penitenciarias en España (ESDIP) (MSND)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259942958706) — Nacional
+- **54104** · [Indicadores de Adicciones Comportamentales/Sin Sustancia: Admisiones a Tratamiento (MSND)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946004929) — Autonómico
+- **54105** · [Encuesta Nacional de Salud a Población Gitana (MSND)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946004161) — Nacional
+- **54106** · [Base de Datos Clínicos de Atención Primaria - BDCAP (MSND)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946000402) — Autonómico
+- **54107** · [Informe Anual del Sistema de Control de Establecimientos Alimentarios y Alimentos Producidos o Comercializados en el Mercado Intracomunitario con Repercusiones en Seguridad Alimentaria (MDCA)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946001869) — Nacional
+- **54109** · [Informe AESAN del Análisis de los Datos Anuales de las Zoonosis Alimentarias (MDCA)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946001871) — Autonómico
+- **54110** · [Estadística del Registro Estatal de Enfermedades Raras (ReeR) (MSND)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946002615) — Autonómico
+- **54111** · [Informe AESAN del Análisis de los Datos Anuales de las Antibiorresistencias en Bacterias Zoonóticas y Comensales (MDCA)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946003393) — Autonómico
+- **54112** · [Informe AESAN del Análisis de los Resultados del Control de Plaguicidas en Alimentos (MDCA)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946003394) — Autonómico
+- **64061** · [Estudio sobre las Conductas Saludables de Adolescentes Escolarizados (HBSC) (MSND)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946004160) — Autonómico
+- **64062** · [Sistema de Información del Programa de Cribado Neonatal del Sistema Nacional de Salud (MSND)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946000401) — Autonómico
+- **76012** · [Estadística de Establecimientos Sanitarios Militares con Régimen de Internado (MDEF)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259930981034) — Nacional
+- **76013** · [Estadística de Morbilidad Hospitalaria en Establecimientos Sanitarios Militares (MDEF)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259930981204) — Nacional
+
+## Seguridad y justicia (41)
+
+- **22025** · [Estadística de Accidentes de Buques (MTRM)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931073520) — Nacional
+- **22072** · [Estadística de Accidentes de Aviación (MTRM)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931075498) — Nacional
+- **30464** · [Estadística de Litigios en Arrendamientos Urbanos (CGPJ)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931147042) — Provincial
+- **30465** · [Estadística de las Oficinas de Justicia en el Municipio (OJM) (CGPJ)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931147211) — Otros : Partidos Judiciales
+- **30466** · [Estadística de la Población Condenada Adulta (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931147382) — Autonómico
+- **30467** · [Estadística de la Población Condenada Menor de Edad (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931147553) — Autonómico
+- **30468** · [Estadística de Violencia Doméstica y Violencia de Género (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931147724) — Autonómico
+- **58009** · [Estadística de Asuntos Judiciales Sociales (MTES)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931080629) — Provincial
+- **64025** · [Estadística de Medidas Impuestas a Personas Menores de Edad en Conflicto con la Ley (En proyecto) (MJUI)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946005707) — Autonómico
+- **65010** · [Sistema de Seguimiento por Medios Telemáticos de las Medidas de Alejamiento en el Ámbito de la Violencia de Género (MIGD)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259930974593) — Provincial
+- **68001** · [Estadística de Seguridad: Actuaciones Policiales (MINT)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931069292) — Provincial
+- **68002** · [Estadística de Seguridad: Responsables (MINT)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931069462) — Provincial
+- **68003** · [Documentación de Españoles (Documento Nacional de Identidad y Pasaporte) (MINT)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931069632) — Municipal o inferior
+- **68008** · [Anuario Estadístico del Ministerio del Interior (MINT)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931065428) — Provincial
+- **68020** · [Estadística General de la Población Reclusa. Periodicidad Mensual (MINT)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931066776) — Autonómico
+- **68021** · [Estadística de los Internos en los Centros Penitenciarios. Evolución Semanal (MINT)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931066946) — Autonómico
+- **68024** · [Información Estadística de Penas y Medidas Alternativas a la Prisión (MINT)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259942576062) — Otros : Servicios de gestión de penas y medidas alternativas
+- **68025** · [Estadística del Sistema de Seguimiento Integral en los Casos de Violencia de Género (Sistema VioGén) (MINT)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259944434523) — Provincial
+- **68030** · [Estadística de Tráfico de Drogas (MINT)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259930974248) — Provincial
+- **68052** · [Estadística sobre la Trata y la Explotación de Seres Humanos (MINT)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946001867) — Autonómico
+- **68055** · [Estadística sobre el Control de Armas (MINT)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946001880) — Provincial
+- **68056** · [Estadística de Auxilio y Control del Tráfico y del Transporte (MINT)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946002614) — Provincial
+- **68057** · [Estadística de Emergencias Producidas en el Transporte Terrestre de Mercancías Peligrosas (MINT)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946002616) — Nacional
+- **68058** · [Estadística de Fallecidos por Riesgos Naturales (MINT)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946002617) — Autonómico
+- **68059** · [Estadística de Incendios Forestales a Efectos de Protección Civil (MINT)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946002618) — Nacional
+- **68060** · [Estadística sobre el Control de Pirotecnia y Cartuchería (MINT)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946003378) — Nacional
+- **68061** · [Estadística sobre el Control de Explosivos (MINT)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946003379) — Nacional
+- **68063** · [Estadística de Actuaciones del Servicio Aéreo de la Guardia Civil (MINT)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946004146) — Nacional
+- **68064** · [Estadística de Actuaciones del Servicio de Montaña de la Guardia Civil (MINT)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946004147) — Provincial
+- **68065** · [Estadística sobre Actuaciones en Materia de Resguardo Fiscal del Estado (MINT)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946004148) — Nacional
+- **68066** · [Estadística de Actuaciones del Servicio Marítimo de la Guardia Civil (MINT)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946004149) — Nacional
+- **70045** · [Estadística de Exámenes para la Obtención de Permisos y Licencias de Conducción (MINT)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931067768) — Provincial
+- **70046** · [Estadística de Expedición y Revisión de Permisos y Licencias para Conducir (MINT)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931067936) — Provincial
+- **70048** · [Estadística de Accidentes de Tráfico con Víctimas (MINT)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931068274) — Municipal o inferior
+- **70049** · [Estadística de Denuncias por Infracciones de Tráfico (MINT)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931068442) — Provincial
+- **70051** · [Censo de Conductores (MINT)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931068780) — Municipal o inferior
+- **71002** · [Estadística de la Actividad Judicial (CGPJ)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931129569) — Otros : Partidos judiciales
+- **71003** · [Sistema de Información Socioeconómica de los Partidos Judiciales (CGPJ)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931142956) — Otros : Partidos judiciales
+- **71004** · [Estadística del Personal Judicial: Jueces y Magistrados (CGPJ)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931918199) — Autonómico
+- **76025** · [Estadística de Agresiones en las Fuerzas Armadas (MDEF)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931114444) — Nacional
+- **76033** · [Estadística de Jurisdicción Militar (MDEF)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931114962) — Nacional
+
+## Servicios (estadísticas generales) (4)
+
+- **30177** · [Estadística Estructural de Empresas: Sector Servicios (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931061421) — Autonómico
+- **30183** · [Indicadores de Actividad del Sector Servicios (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931062089) — Autonómico
+- **30228** · [Estadística de Productos en el Sector Servicios (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931136744) — Nacional
+- **30234** · [Índice de Producción del Sector Servicios (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259937891805) — Nacional
+
+## Tecnologías de la información y las comunicaciones (TIC) (7)
+
+- **30081** · [Indicadores del Sector de Tecnologías de la Información y las Comunicaciones (TIC) (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931060252) — Nacional
+- **30169** · [Encuesta sobre el Uso de Tecnologías de la Información y las Comunicaciones y del Comercio Electrónico en las Empresas (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931061252) — Autonómico
+- **30450** · [Encuesta sobre Equipamiento y Uso de Tecnologías de Información y Comunicación en los Hogares (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931064762) — Autonómico
+- **41022** · [Estadística de las Tecnologías de la Información y la Comunicación en los Centros Educativos No Universitarios (MEFD)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931076701) — Provincial
+- **42189** · [Estadística de Competencias Digitales Acreditadas al Personal Docente (MEFD)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946004938) — Autonómico
+- **80022** · [Las Tecnologías de la Información y las Comunicaciones en las Administraciones Públicas (MTDF)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931106167) — Nacional
+- **80039** · [Estadística de Presupuestos de Tecnologías de la Información y las Comunicaciones en la Administración del Estado (MTDF)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931210587) — Nacional
+
+## Transporte y actividades conexas (20)
+
+- **20025** · [Los Transportes y las Infraestructuras (MTRM)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931069970) — Nacional
+- **20061** · [Encuesta Permanente de Transporte de Mercancías por Carretera (MTRM)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931072725) — Autonómico
+- **21001** · [Estadística del Programa Nacional de Aforos (MTRM)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931072893) — Provincial
+- **22001** · [Registro General de Transportistas y de Actividades Auxiliares y Complementarias del Transporte (MTRM)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931073021) — Autonómico
+- **22009** · [Estadística sobre Transporte Internacional por Carretera (MTRM)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931073187) — Nacional
+- **22022** · [Registro de Buques y Registro de Empresas Navieras (MTRM)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931073354) — Nacional
+- **22041** · [Resumen General del Tráfico Portuario (MTRM)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931074850) — Nacional
+- **22043** · [Memorias de las Autoridades Portuarias (MTRM)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931075011) — Otros : Puertos
+- **22045** · [Anuario Estadístico de Puertos del Estado (MTRM)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931075174) — Nacional
+- **22046** · [Estadística sobre el Transporte Marítimo de Mercancías y Pasajeros (MTRM)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931075335) — Nacional
+- **22073** · [Estadísticas de Tráfico de Líneas Aéreas Regulares y no Regulares, Aeropuertos y Aeronaves para OACI (MTRM)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931074690) — Nacional
+- **22075** · [Estadística de Tráfico en los Aeropuertos Españoles (MTRM)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259941114458) — Otros : Aeropuertos
+- **22078** · [Estadística del Sector Empresarial Ferroviario (MTRM)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946001131) — Autonómico
+- **25009** · [Estadística del Sector Empresarial de Transporte Marítimo / Aéreo de Mercancías (MTRM)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259946001872) — Otros : Puertos / Aeropuertos
+- **30163** · [Estadística de Transporte de Personas (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931060920) — Autonómico
+- **30221** · [Estadística sobre Transporte Ferroviario (INE)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931062756) — Nacional
+- **70041** · [Estadística de Matriculación de Vehículos (MINT)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931067116) — Provincial
+- **70042** · [Estadística de Transferencia de Vehículos (MINT)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931067279) — Provincial
+- **70043** · [Estadística de Bajas de Vehículos (MINT)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931067442) — Provincial
+- **70044** · [Estadística del Parque Nacional de Vehículos (MINT)](https://www.ine.es/dyngs/IOE/operacion.htm?id=1259931067605) — Municipal o inferior

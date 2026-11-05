@@ -1,0 +1,181 @@
+{
+  "date": "2026-11-05",
+  "files": {
+    "ACCESOS_PENDIENTES.md": {
+      "bytes": 6909,
+      "sha256": "f97a0f82b15a69cdb74dba641845ce39ab9a6bbc8efe0c26fb7e0bcf4fa15e29"
+    },
+    "comprobacion-enlaces.json": {
+      "bytes": 59819,
+      "sha256": "b33a79a0af5771bdc3d503f60bc580072c6e04baa0dab98079c5e574d76c4cc0"
+    },
+    "datasets-catalogo-nacional.csv.gz": {
+      "bytes": 2422921,
+      "sha256": "ea31f0492ff5d042ab231382974cc16353723eb5971f26e4648a10c4b56669a4"
+    },
+    "fuentes-tematicas.csv": {
+      "bytes": 101052,
+      "sha256": "ac1d773776dc4aaec2c8c049a3e9cef3affc46519ed52c2f7959cfd971ee6e39"
+    },
+    "fuentes-tematicas.json": {
+      "bytes": 247271,
+      "sha256": "0f6dffa5179148cf171b5943ad67d81057ece0abd3fbf4db9586333a21e21594"
+    },
+    "GUIA_DE_FUENTES.md": {
+      "bytes": 131561,
+      "sha256": "45ede0756382357a431272aee94885ed0c96c4388bf3ce3848ab811bdf89ddcb"
+    },
+    "IOE_COMPLETO.md": {
+      "bytes": 111209,
+      "sha256": "2c716019e929bb64b53912231341d60f95c0cb90545f06c0cc1463f63a7dd622"
+    },
+    "IOE_POR_ENTIDAD.md": {
+      "bytes": 798024,
+      "sha256": "f44c68608f5c7656de7a585445df1cc2580c851da22f25c3bb8831e601cf853f"
+    },
+    "IOE_POR_TEMA.md": {
+      "bytes": 124817,
+      "sha256": "17a4fb6b6210982e7ca9d1ed6d04970a8b9aa27d46872c888141c7caac94ca33"
+    },
+    "operaciones-ioe-detalladas.csv": {
+      "bytes": 536324,
+      "sha256": "e68955bf02ef2a1b5fb72fe7be065f9bfe169e958812bfef3085642186d7b6ee"
+    },
+    "operaciones-ioe-detalladas.json": {
+      "bytes": 2308482,
+      "sha256": "06b36198d6f7785205451fbc7a1559b6f3eebb92ec96936df5528a754d575c3f"
+    },
+    "operaciones-ioe.csv": {
+      "bytes": 104636,
+      "sha256": "0c5c061ea9768becb117384abb10febf22d9331de5e90a7ce565a84399e2986c"
+    },
+    "operaciones-ioe.json": {
+      "bytes": 177528,
+      "sha256": "88319778b35424d49b42c2a37772f4626ccd477941cc87a28e2d7837b831962a"
+    },
+    "publicadores-catalogo-nacional.json": {
+      "bytes": 239525,
+      "sha256": "205b9211d0a365e3c05ae0cec236f59e62869e282d8fd79c63d7ce9614e0e982"
+    },
+    "PUBLICADORES_NACIONALES.md": {
+      "bytes": 180653,
+      "sha256": "e1bf4ac92c56ca9004cf16d0e5149fd03ef46ce1d1961974f6720379afaed1ad"
+    },
+    "publishers-sparql.json": {
+      "bytes": 114074,
+      "sha256": "7f26af8c2af0b897f2b9431e0a845f01f588804238661984f941f52d025d4867"
+    },
+    "README.md": {
+      "bytes": 8852,
+      "sha256": "8ce641039bc73a5fcc808dda4e4375c7d61520f6fae420510342a3698a41f5f3"
+    },
+    "sectores/administraciones-publicas-y-asociaciones.md": {
+      "bytes": 115197,
+      "sha256": "1fb1e60a2c6b1bec269945958a732c1f65e8e8f3c76f6a9c7726df4e3c578ad9"
+    },
+    "sectores/agricultura-ganaderia-selvicultura-y-caza.md": {
+      "bytes": 59532,
+      "sha256": "68af3781a54df2ba7a3bcbed1bb45d478d262a2d3aefec88b08d8710ec1435b1"
+    },
+    "sectores/comercio-interior-y-exterior.md": {
+      "bytes": 26428,
+      "sha256": "f853f518fc5ad708714a7096c5b16782a2391316263f860a2e51b170d68f7b44"
+    },
+    "sectores/construccion-y-vivienda.md": {
+      "bytes": 22492,
+      "sha256": "c68740b63817bc4c78e1695538541b3e0be3a55b1c7a7fc42dd5cd247e047653"
+    },
+    "sectores/cuentas-economicas.md": {
+      "bytes": 70629,
+      "sha256": "4652de4a12ec508fa1a21da3b421c1257dd858667ad9ca9118b045a49bdc47b5"
+    },
+    "sectores/cultura-deporte-y-ocio.md": {
+      "bytes": 54506,
+      "sha256": "952a475d4fd7cc02e79c27746195b708ef91f6691492a5004e84b26c418fb3e2"
+    },
+    "sectores/demografia-y-poblacion.md": {
+      "bytes": 48530,
+      "sha256": "54c7dbb709a57e4cf9a7fac92446fb3bfa49aa0f8cf5e497bd297ff8f11f7e20"
+    },
+    "sectores/educacion-y-formacion.md": {
+      "bytes": 66030,
+      "sha256": "5f54edca390c399e01d03042f404e013b838b837d7d50637cddd47f5a5bbc69c"
+    },
+    "sectores/estadisticas-de-empresas-y-unidades-de-produccion-no-referidas-a-sectores-particulares.md": {
+      "bytes": 36781,
+      "sha256": "0bf2bec0db7247bf626f55b1b80de9c9918e144b72ac5d595d9092d97243b62f"
+    },
+    "sectores/estadisticas-no-desglosables-por-sector-o-tema.md": {
+      "bytes": 21807,
+      "sha256": "b39006e6d31a65904da87310a5b85ccf51a14372035ab59c03f9f2f102592a65"
+    },
+    "sectores/extraccion-de-productos-energeticos-y-energia-en-general.md": {
+      "bytes": 31879,
+      "sha256": "d39de86a3f5b030843b558b45bb05d54320f639d09849dfc7b3142e676e7d67b"
+    },
+    "sectores/financieras-y-seguros.md": {
+      "bytes": 10671,
+      "sha256": "6de6d78a0090def89f2fcb15f43a4e56eac080d31b0b8598c3abcd002560339c"
+    },
+    "sectores/hosteleria-y-turismo.md": {
+      "bytes": 23599,
+      "sha256": "26965f1386af185a2c8cd66949a63ba942019ea059551ffed6c2e9f12827969b"
+    },
+    "sectores/investigacion-cientifica-y-desarrollo-tecnologico.md": {
+      "bytes": 15928,
+      "sha256": "3d92de6bd9f3c641a187a7f6a1905408dc2b002fdf8156bfb42ecf1b26e2fa0d"
+    },
+    "sectores/medio-ambiente-y-desarrollo-sostenible.md": {
+      "bytes": 51908,
+      "sha256": "151cecb957b4e5248d663db84f69d02a81946e96a1511f9282e46251b1407f67"
+    },
+    "sectores/mercado-laboral-y-salarios.md": {
+      "bytes": 60480,
+      "sha256": "3c56f3d1d919764ac2d6b0c9b9b3bd7177dfe11c8fbcd881e97e48fc3ee56b01"
+    },
+    "sectores/mineria-e-industria.md": {
+      "bytes": 23020,
+      "sha256": "9ff4c92ed478a9b001369be7aa487b83d4d4a6b61724615d1906981ce830db18"
+    },
+    "sectores/nivel-calidad-y-condiciones-de-vida.md": {
+      "bytes": 69145,
+      "sha256": "5f902adde6bfab563c1db0a4286b8a7aca04764bcc02927071d72a0bb505a596"
+    },
+    "sectores/normalizacion-y-metodologia-general.md": {
+      "bytes": 6522,
+      "sha256": "98997191c4d355a65a669dda625a1de2c5c89d282fa0e058340fdb822c68f1f1"
+    },
+    "sectores/pesca-y-acuicultura.md": {
+      "bytes": 9988,
+      "sha256": "0c923256e529f589514a1f0e518ef6c70fde1035b50e6ecb74bb0f7fece52848"
+    },
+    "sectores/precios.md": {
+      "bytes": 41161,
+      "sha256": "ff59365421bceaff979f3d6f17d7aab444a31a3c5cc7571add3e5419f82a925b"
+    },
+    "sectores/proteccion-social-y-servicios-sociales.md": {
+      "bytes": 42248,
+      "sha256": "ebff836604e6a088bfbfc8c31fdc1752187f46b799567c03788c7f5034af0e3d"
+    },
+    "sectores/salud.md": {
+      "bytes": 65351,
+      "sha256": "051f6426de207d2db040902a3eba61add246a3e281b4c8f80629fbaebba0999f"
+    },
+    "sectores/seguridad-y-justicia.md": {
+      "bytes": 52887,
+      "sha256": "1f08400f70109ec3f60a3034d48fffc00a1465cd4883eaf97cf86ca89e4eec7e"
+    },
+    "sectores/servicios-estadisticas-generales.md": {
+      "bytes": 5234,
+      "sha256": "02f3feb20610c58ecedbf5767fe5ea0acdaa88cb778c277aec34f130a1ef3666"
+    },
+    "sectores/tecnologias-de-la-informacion-y-las-comunicaciones-tic.md": {
+      "bytes": 11341,
+      "sha256": "ac6615d96a09e6096068c3e151c4c66e5970bdb871672eb5553618935714f2e2"
+    },
+    "sectores/transporte-y-actividades-conexas.md": {
+      "bytes": 25491,
+      "sha256": "9ceab14d44c5de184c71256cfe2e9d4d862a4bdaebc78a0ae060853298ee84ff"
+    }
+  }
+}

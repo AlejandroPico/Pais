@@ -4,6 +4,10 @@ Un atlas para explorar España a través de sus datos oficiales, con un mapa pro
 
 **Web:** https://alejandropico.github.io/Pais/
 
+## Investigación de fuentes públicas
+
+La [investigación extensa de datos públicos de España](docs/research/README.md) reúne 182 fichas de fuentes y servicios, el catálogo de 238 publicadores con 116.236 conjuntos federados, y las 758 operaciones del inventario estadístico estatal con variables, responsables y escala territorial. Incluye fuentes estatales, autonómicas, locales, científicas y europeas. Es un inventario para decidir futuras incorporaciones, no un anuncio de que esas capas estén ya en el mapa.
+
 ## Primera entrega
 
 - Relieve IGN con elevación 3D real (DEM global Mapzen/USGS), ortofoto PNOA y callejero IGN. Ninguna clave de pago.

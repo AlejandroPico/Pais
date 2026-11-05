@@ -1,5 +1,7 @@
 # Fuentes y condiciones de integración
 
+La lista siguiente describe la primera versión del atlas. Para el inventario ampliado de organismos y conjuntos, consultar la [investigación de fuentes públicas](research/README.md) y su [guía de 182 fuentes y servicios](research/GUIA_DE_FUENTES.md).
+
 Inventario inicial verificado el 5 de noviembre de 2026. Las fechas de los datos son independientes de la consulta del catálogo.
 
 | Organismo | Recursos | Estado inicial y acceso |

@@ -1,0 +1,1499 @@
+{
+  "checkedAt": "2026-11-05T13:53:18.575927+00:00",
+  "scope": "Comprobación HTTP de puertas de entrada. Un 200 no valida el contenido completo, licencia, API, descarga ni todas las familias; un 403 o timeout puede ser protección automatizada y no inexistencia de la fuente.",
+  "checked": 216,
+  "successful": 195,
+  "results": [
+    {
+      "url": "https://abertos.xunta.gal/es/",
+      "status": 200,
+      "resolvedUrl": "https://abertos.xunta.gal/es/",
+      "title": "Portada - Portal Abertos",
+      "checkedAt": "2026-11-05T13:50:22.433323+00:00"
+    },
+    {
+      "url": "https://aca.gencat.cat/",
+      "status": 200,
+      "resolvedUrl": "https://aca.gencat.cat/ca/inici",
+      "title": "Inici. Agència Catalana de l'Aigua",
+      "checkedAt": "2026-11-05T13:50:21.972562+00:00"
+    },
+    {
+      "url": "https://administracionelectronica.gob.es/ctt/dir3",
+      "status": 200,
+      "resolvedUrl": "https://administracionelectronica.gob.es/ctt/dir3",
+      "title": "PAe | CTT General",
+      "checkedAt": "2026-11-05T13:50:22.085591+00:00"
+    },
+    {
+      "url": "https://aip.enaire.es/AIP/DatosDigitales-en.html",
+      "status": 200,
+      "resolvedUrl": "https://aip.enaire.es/AIP/DatosDigitales-en.html",
+      "title": "AIP Spain",
+      "checkedAt": "2026-11-05T13:50:22.087324+00:00"
+    },
+    {
+      "url": "https://analisi.transparenciacatalunya.cat/",
+      "status": 200,
+      "resolvedUrl": "https://analisi.transparenciacatalunya.cat/",
+      "title": "",
+      "checkedAt": "2026-11-05T13:50:22.349161+00:00"
+    },
+    {
+      "url": "https://atmosphere.copernicus.eu/",
+      "status": 200,
+      "resolvedUrl": "https://atmosphere.copernicus.eu/",
+      "title": "Copernicus",
+      "checkedAt": "2026-11-05T13:50:22.364877+00:00"
+    },
+    {
+      "url": "https://augasdegalicia.xunta.gal/",
+      "status": 200,
+      "resolvedUrl": "https://augasdegalicia.xunta.gal/",
+      "title": "Portada - Augas de Galicia",
+      "checkedAt": "2026-11-05T13:50:22.278575+00:00"
+    },
+    {
+      "url": "https://climate.copernicus.eu/",
+      "status": 200,
+      "resolvedUrl": "https://climate.copernicus.eu/",
+      "title": "Copernicus",
+      "checkedAt": "2026-11-05T13:50:22.603503+00:00"
+    },
+    {
+      "url": "https://cne.isciii.es/",
+      "status": 200,
+      "resolvedUrl": "https://cne.isciii.es/",
+      "title": "Inicio - CNE - ISCIII Portal Web",
+      "checkedAt": "2026-11-05T13:50:22.557836+00:00"
+    },
+    {
+      "url": "https://comercio.gob.es/datacomex-datainvex/Paginas/Index.aspx",
+      "status": 200,
+      "resolvedUrl": "https://comercio.gob.es/datacomex-datainvex/Paginas/Index.aspx",
+      "title": "Vicepresidencia Primera del Gobierno. Ministerio de Economía, Comercio y Empresa - Sitio web de DataComex & DataInvex",
+      "checkedAt": "2026-11-05T13:50:23.485495+00:00"
+    },
+    {
+      "url": "https://conectemos.digital.gob.es/es/mapas-y-graficos/cobertura-banda-ancha-fija",
+      "status": 200,
+      "resolvedUrl": "https://conectemos.digital.gob.es/es/mapas-y-graficos/cobertura-banda-ancha-fija",
+      "title": "Cobertura de Banda Ancha fija",
+      "checkedAt": "2026-11-05T13:50:22.588342+00:00"
+    },
+    {
+      "url": "https://conocimiento.tourspain.es/es/",
+      "status": 200,
+      "resolvedUrl": "https://conocimiento.tourspain.es/es/",
+      "title": "Portal de conocimiento e inteligencia turística de España | tourspain.es",
+      "checkedAt": "2026-11-05T13:50:23.554034+00:00"
+    },
+    {
+      "url": "https://cordis.europa.eu/about/services/es",
+      "status": 200,
+      "resolvedUrl": "https://cordis.europa.eu/about/services/es",
+      "title": "Servicios de CORDIS | CORDIS | Comisión Europea",
+      "checkedAt": "2026-11-05T13:50:22.811394+00:00"
+    },
+    {
+      "url": "https://dadesobertes.caib.es/",
+      "status": 200,
+      "resolvedUrl": "https://www.caib.es/sites/opendatacaib/ca/inici_home/?campa=yes",
+      "title": "Portal Dades Obertes GOIB-inici",
+      "checkedAt": "2026-11-05T13:50:23.212780+00:00"
+    },
+    {
+      "url": "https://dadesobertes.gva.es/",
+      "status": 200,
+      "resolvedUrl": "https://dadesobertes.gva.es/va/",
+      "title": "",
+      "checkedAt": "2026-11-05T13:50:24.338258+00:00"
+    },
+    {
+      "url": "https://data-explorer.oecd.org/",
+      "status": 200,
+      "resolvedUrl": "https://data-explorer.oecd.org/",
+      "title": "",
+      "checkedAt": "2026-11-05T13:50:23.581395+00:00"
+    },
+    {
+      "url": "https://data.cnmc.es/",
+      "status": 200,
+      "resolvedUrl": "https://data.cnmc.es/",
+      "title": "Inicio | CNMC Data",
+      "checkedAt": "2026-11-05T13:50:23.759369+00:00"
+    },
+    {
+      "url": "https://data.ecb.europa.eu/",
+      "status": 200,
+      "resolvedUrl": "https://data.ecb.europa.eu/",
+      "title": "Homepage | ECB Data Portal",
+      "checkedAt": "2026-11-05T13:50:24.265903+00:00"
+    },
+    {
+      "url": "https://data.jrc.ec.europa.eu/",
+      "status": 200,
+      "resolvedUrl": "https://data.jrc.ec.europa.eu/",
+      "title": "Log in",
+      "checkedAt": "2026-11-05T13:50:23.887613+00:00"
+    },
+    {
+      "url": "https://data.renfe.com/es/",
+      "status": 200,
+      "resolvedUrl": "https://data.renfe.com/es/",
+      "title": "Bienvenida - Renfe Data",
+      "checkedAt": "2026-11-05T13:50:24.003227+00:00"
+    },
+    {
+      "url": "https://data.who.int/",
+      "status": 200,
+      "resolvedUrl": "https://data.who.int/",
+      "title": "WHO Data",
+      "checkedAt": "2026-11-05T13:50:24.098881+00:00"
+    },
+    {
+      "url": "https://datos.canarias.es/",
+      "status": 200,
+      "resolvedUrl": "https://datos.canarias.es/portal/",
+      "title": "Canarias Datos Abiertos &#8211; Todos los datos abiertos generados en Canarias",
+      "checkedAt": "2026-11-05T13:50:24.497122+00:00"
+    },
+    {
+      "url": "https://datos.comunidad.madrid/",
+      "status": 200,
+      "resolvedUrl": "https://www.comunidad.madrid/gobierno/datos-abiertos",
+      "title": "Datos abiertos | Comunidad de Madrid",
+      "checkedAt": "2026-11-05T13:50:25.380267+00:00"
+    },
+    {
+      "url": "https://datos.gob.es/es/apidata",
+      "status": 200,
+      "resolvedUrl": "https://datos.gob.es/es/apidata",
+      "title": "API - Datos.gob.es",
+      "checkedAt": "2026-11-05T13:50:24.508791+00:00"
+    },
+    {
+      "url": "https://datos.gob.es/es/catalogo",
+      "status": 200,
+      "resolvedUrl": "https://datos.gob.es/es/catalogo/conjuntos-datos",
+      "title": "",
+      "checkedAt": "2026-11-05T13:50:24.507751+00:00"
+    },
+    {
+      "url": "https://datos.icane.es/",
+      "status": 200,
+      "resolvedUrl": "https://datos.icane.es/",
+      "title": "Bienvenida - Portal Open Data ICANE",
+      "checkedAt": "2026-11-05T13:53:18.113829+00:00"
+    },
+    {
+      "url": "https://datos.madrid.es/dataset/",
+      "status": 200,
+      "resolvedUrl": "https://datos.madrid.es/dataset/",
+      "title": "Conjunto de datos - Portal de datos abiertos del Ayuntamiento de Madrid",
+      "checkedAt": "2026-11-05T13:50:25.377803+00:00"
+    },
+    {
+      "url": "https://datos.tenerife.es/",
+      "status": 200,
+      "resolvedUrl": "https://datos.tenerife.es/es/",
+      "title": "Datos abiertos del Cabildo de Tenerife",
+      "checkedAt": "2026-11-05T13:50:25.112321+00:00"
+    },
+    {
+      "url": "https://datosabiertos.castillalamancha.es/",
+      "status": null,
+      "error": "Remote end closed connection without response",
+      "checkedAt": "2026-11-05T13:50:24.692378+00:00"
+    },
+    {
+      "url": "https://datosabiertos.jcyl.es/",
+      "status": 200,
+      "resolvedUrl": "https://datosabiertos.jcyl.es/web/es/datos-abiertos-castilla-leon.html",
+      "title": "Datos Abiertos de Castilla y León | Datos Abiertos | Junta de Castilla y León",
+      "checkedAt": "2026-11-05T13:50:25.138913+00:00"
+    },
+    {
+      "url": "https://datosabiertos.malaga.eu/",
+      "status": null,
+      "error": "The read operation timed out",
+      "checkedAt": "2026-11-05T13:50:48.565321+00:00"
+    },
+    {
+      "url": "https://datosabiertos.regiondemurcia.es/",
+      "status": 200,
+      "resolvedUrl": "https://datosabiertos.regiondemurcia.es/",
+      "title": "Datos Abiertos en la Región de Murcia",
+      "checkedAt": "2026-11-05T13:50:25.350926+00:00"
+    },
+    {
+      "url": "https://dgsfp.mineco.gob.es/",
+      "status": 200,
+      "resolvedUrl": "https://dgsfp.mineco.gob.es/es/Paginas/Iniciocarrousel.aspx",
+      "title": "Páginas - Dirección General de Seguros y Fondos de Pensiones",
+      "checkedAt": "2026-11-05T13:50:27.272579+00:00"
+    },
+    {
+      "url": "https://digital.csic.es/",
+      "status": 200,
+      "resolvedUrl": "https://digital.csic.es/",
+      "title": "Home | DIGITAL.CSIC",
+      "checkedAt": "2026-11-05T13:50:25.600972+00:00"
+    },
+    {
+      "url": "https://digital.gob.es/funcion-publica.html",
+      "status": 200,
+      "resolvedUrl": "https://digital.gob.es/funcion-publica/dgfp.html",
+      "title": "Portal MTDFP | Función Pública",
+      "checkedAt": "2026-11-05T13:50:25.588870+00:00"
+    },
+    {
+      "url": "https://ec.europa.eu/eurostat/data",
+      "status": 200,
+      "resolvedUrl": "https://ec.europa.eu/eurostat/data",
+      "title": "Data - Eurostat",
+      "checkedAt": "2026-11-05T13:50:25.866748+00:00"
+    },
+    {
+      "url": "https://econet.carm.es/",
+      "status": 200,
+      "resolvedUrl": "https://econet.carm.es/",
+      "title": "Portal Estadístico de la Región de Murcia - CREM",
+      "checkedAt": "2026-11-05T13:50:26.495146+00:00"
+    },
+    {
+      "url": "https://emergency.copernicus.eu/",
+      "status": 200,
+      "resolvedUrl": "https://emergency.copernicus.eu/",
+      "title": "Home | Copernicus EMS",
+      "checkedAt": "2026-11-05T13:50:26.294741+00:00"
+    },
+    {
+      "url": "https://emodnet.ec.europa.eu/en/emodnet-central-portal",
+      "status": 200,
+      "resolvedUrl": "https://emodnet.ec.europa.eu/en/emodnet-central-portal",
+      "title": "EMODnet Central Portal | European Marine Observation and Data Network (EMODnet)",
+      "checkedAt": "2026-11-05T13:50:26.821942+00:00"
+    },
+    {
+      "url": "https://estadistica.castillalamancha.es/",
+      "status": 200,
+      "resolvedUrl": "https://estadistica.castillalamancha.es/",
+      "title": "Home | Portal de estadística",
+      "checkedAt": "2026-11-05T13:50:26.710589+00:00"
+    },
+    {
+      "url": "https://estadistica.jcyl.es/",
+      "status": 200,
+      "resolvedUrl": "https://estadistica.jcyl.es/web/es/estadistica.html",
+      "title": "Estadística | Estadística | Junta de Castilla y León",
+      "checkedAt": "2026-11-05T13:50:27.148676+00:00"
+    },
+    {
+      "url": "https://estadisticasdecriminalidad.ses.mir.es/",
+      "status": 200,
+      "resolvedUrl": "https://estadisticasdecriminalidad.ses.mir.es/publico/portalestadistico/",
+      "title": "Datos - Portal Estadístico",
+      "checkedAt": "2026-11-05T13:50:27.542580+00:00"
+    },
+    {
+      "url": "https://gbif.es/portal-nacional-de-datos/",
+      "status": 200,
+      "resolvedUrl": "https://gbif.es/portal-nacional-de-datos/",
+      "title": "Portal de datos de biodiversidad de GBIF.ES - GBIF.ES",
+      "checkedAt": "2026-11-05T13:50:27.430726+00:00"
+    },
+    {
+      "url": "https://geoportal.navarra.es/",
+      "status": 200,
+      "resolvedUrl": "https://geoportal.navarra.es/es/",
+      "title": "INICIO - Geoportal - navarra.es",
+      "checkedAt": "2026-11-05T13:50:27.684919+00:00"
+    },
+    {
+      "url": "https://geoportalgasolineras.es/geoportal-instalaciones/Inicio",
+      "status": 200,
+      "resolvedUrl": "https://geoportalgasolineras.es/geoportal-instalaciones/Inicio",
+      "title": "Geoportal",
+      "checkedAt": "2026-11-05T13:50:27.537475+00:00"
+    },
+    {
+      "url": "https://gisco-services.ec.europa.eu/distribution/v2/",
+      "status": 200,
+      "resolvedUrl": "https://gisco-services.ec.europa.eu/distribution/v2/",
+      "title": "Geographic data downloads – GISCO data distribution",
+      "checkedAt": "2026-11-05T13:50:27.710018+00:00"
+    },
+    {
+      "url": "https://gobiernoabierto.juntaex.es/",
+      "status": null,
+      "error": "<urlopen error timed out>",
+      "checkedAt": "2026-11-05T13:50:45.568543+00:00"
+    },
+    {
+      "url": "https://gobiernoabierto.navarra.es/es/open-data",
+      "status": 200,
+      "resolvedUrl": "https://gobiernoabierto.navarra.es/es/open-data",
+      "title": "Datos Abiertos | Gobierno Abierto de Navarra",
+      "checkedAt": "2026-11-05T13:50:28.385932+00:00"
+    },
+    {
+      "url": "https://ibestat.es/",
+      "status": 200,
+      "resolvedUrl": "https://ibestat.es/",
+      "title": "IBESTAT &#x2d; Instituto de Estadística de las Islas Baleares",
+      "checkedAt": "2026-11-05T13:50:28.003974+00:00"
+    },
+    {
+      "url": "https://icearagon.aragon.es/",
+      "status": 200,
+      "resolvedUrl": "https://icearagon.aragon.es/portal/",
+      "title": "Bienvenida a ICEARAGON &shy; ICEARAGON",
+      "checkedAt": "2026-11-05T13:50:28.251363+00:00"
+    },
+    {
+      "url": "https://icv.gva.es/",
+      "status": 200,
+      "resolvedUrl": "https://icv.gva.es/va/",
+      "title": "Institut Cartogràfic Valencià - ICV - Generalitat Valenciana",
+      "checkedAt": "2026-11-05T13:50:29.607997+00:00"
+    },
+    {
+      "url": "https://ide.castillalamancha.es/",
+      "status": null,
+      "error": "<urlopen error [SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] ssl/tls alert handshake failure (_ssl.c:1082)>",
+      "checkedAt": "2026-11-05T13:50:28.475133+00:00"
+    },
+    {
+      "url": "https://ideas.asturias.es/",
+      "status": 200,
+      "resolvedUrl": "https://ideas.asturias.es/",
+      "title": "Sistema de información territorial e infraestructura de datos espaciales de Asturias - IDEAS",
+      "checkedAt": "2026-11-05T13:50:28.821234+00:00"
+    },
+    {
+      "url": "https://idecyl.jcyl.es/",
+      "status": 200,
+      "resolvedUrl": "https://idecyl.jcyl.es/",
+      "title": "",
+      "checkedAt": "2026-11-05T13:50:29.003439+00:00"
+    },
+    {
+      "url": "https://ideihm.covam.es/portal/",
+      "status": 200,
+      "resolvedUrl": "https://ideihm.covam.es/portal/",
+      "title": "Inicio - IdeIHM",
+      "checkedAt": "2026-11-05T13:50:30.844314+00:00"
+    },
+    {
+      "url": "https://iderioja.larioja.org/",
+      "status": 200,
+      "resolvedUrl": "https://iderioja.larioja.org/",
+      "title": "IDERIOJA",
+      "checkedAt": "2026-11-05T13:50:29.987726+00:00"
+    },
+    {
+      "url": "https://ilostat.ilo.org/",
+      "status": 403,
+      "error": "HTTP Error 403: Forbidden",
+      "checkedAt": "2026-11-05T13:50:30.161520+00:00"
+    },
+    {
+      "url": "https://imserso.es/el-imserso/documentacion/estadisticas",
+      "status": 200,
+      "resolvedUrl": "https://imserso.es/el-imserso/documentacion/estadisticas",
+      "title": "Estadísticas - Instituto de Mayores y Servicios Sociales",
+      "checkedAt": "2026-11-05T13:50:30.669665+00:00"
+    },
+    {
+      "url": "https://infoelectoral.interior.gob.es/es/elecciones-celebradas/area-de-descargas/",
+      "status": 403,
+      "error": "HTTP Error 403: Forbidden",
+      "checkedAt": "2026-11-05T13:50:31.214686+00:00"
+    },
+    {
+      "url": "https://irekia.araba.eus/es/open-data",
+      "status": 200,
+      "resolvedUrl": "https://irekia.araba.eus/es/open-data",
+      "title": "Open Data",
+      "checkedAt": "2026-11-05T13:50:31.377973+00:00"
+    },
+    {
+      "url": "https://kohesio.ec.europa.eu/",
+      "status": 200,
+      "resolvedUrl": "https://kohesio.ec.europa.eu/en/",
+      "title": "Kohesio",
+      "checkedAt": "2026-11-05T13:50:31.608703+00:00"
+    },
+    {
+      "url": "https://land.copernicus.eu/",
+      "status": 200,
+      "resolvedUrl": "https://land.copernicus.eu/en",
+      "title": "Copernicus Land Monitoring Service",
+      "checkedAt": "2026-11-05T13:50:32.707591+00:00"
+    },
+    {
+      "url": "https://mapas.cantabria.es/",
+      "status": 200,
+      "resolvedUrl": "https://mapas.cantabria.es/",
+      "title": "Mapas Cantabria - Visualizador de Información Geográfica",
+      "checkedAt": "2026-11-05T13:50:31.712799+00:00"
+    },
+    {
+      "url": "https://mapas.xunta.gal/es",
+      "status": 200,
+      "resolvedUrl": "https://mapas.xunta.gal/es",
+      "title": "Geoportal / Infraestructura de Datos Espaciales de Galicia | Información Xeográfica de Galicia",
+      "checkedAt": "2026-11-05T13:50:31.958523+00:00"
+    },
+    {
+      "url": "https://marine.copernicus.eu/",
+      "status": 200,
+      "resolvedUrl": "https://marine.copernicus.eu/",
+      "title": "Home | CMEMS",
+      "checkedAt": "2026-11-05T13:50:32.201006+00:00"
+    },
+    {
+      "url": "https://mpt.gob.es/memoria-democratica/mapa-de-fosas/guia-de-fosas-por-comunidades-autonomas",
+      "status": 404,
+      "error": "HTTP Error 404: Not Found",
+      "checkedAt": "2026-11-05T13:50:32.504699+00:00"
+    },
+    {
+      "url": "https://nap.transportes.gob.es/Home/",
+      "status": 200,
+      "resolvedUrl": "https://nap.transportes.gob.es/Home/",
+      "title": "Home | NAP",
+      "checkedAt": "2026-11-05T13:50:32.910121+00:00"
+    },
+    {
+      "url": "https://nastat.navarra.es/",
+      "status": 200,
+      "resolvedUrl": "https://nastat.navarra.es/es/",
+      "title": "Home - Nastat - navarra.es",
+      "checkedAt": "2026-11-05T13:50:33.396142+00:00"
+    },
+    {
+      "url": "https://observatoriodelainfancia.juventudeinfancia.gob.es/infancia-en-datos",
+      "status": null,
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate signature failure (_ssl.c:1082)>",
+      "checkedAt": "2026-11-05T13:50:32.974535+00:00"
+    },
+    {
+      "url": "https://opendata-ajuntament.barcelona.cat/",
+      "status": 200,
+      "resolvedUrl": "https://opendata-ajuntament.barcelona.cat/",
+      "title": "Open Data BCN | Servei de dades obertes de l'Ajuntament de Barcelona",
+      "checkedAt": "2026-11-05T13:50:33.403297+00:00"
+    },
+    {
+      "url": "https://opendata.aemet.es/centrodedescargas/inicio",
+      "status": 200,
+      "resolvedUrl": "https://opendata.aemet.es/centrodedescargas/inicio",
+      "title": "Aemet OpenData",
+      "checkedAt": "2026-11-05T13:50:33.461815+00:00"
+    },
+    {
+      "url": "https://opendata.aragon.es/",
+      "status": 200,
+      "resolvedUrl": "https://opendata.aragon.es/",
+      "title": "Inicio - Datos abiertos Aragón Open Data. Gobierno de Aragón",
+      "checkedAt": "2026-11-05T13:50:33.680746+00:00"
+    },
+    {
+      "url": "https://opendata.euskadi.eus/",
+      "status": 200,
+      "resolvedUrl": "https://opendata.euskadi.eus/hasiera/",
+      "title": "Open Data Euskadi, Eusko Jaurlaritzaren datu irekiak - Euskadi.eus",
+      "checkedAt": "2026-11-05T13:50:34.042119+00:00"
+    },
+    {
+      "url": "https://opendata.vlci.valencia.es/",
+      "status": 200,
+      "resolvedUrl": "https://opendata.vlci.valencia.es/",
+      "title": "Bienvenida",
+      "checkedAt": "2026-11-05T13:53:18.361510+00:00"
+    },
+    {
+      "url": "https://ordenacionjuego.es/datos-estudios/estudios/descarga-datos-mercado-juego",
+      "status": 200,
+      "resolvedUrl": "https://ordenacionjuego.es/datos-estudios/estudios/descarga-datos-mercado-juego",
+      "title": "Descarga datos Mercado de Juego | Dirección General de Ordenación del Juego",
+      "checkedAt": "2026-11-05T13:50:36.137834+00:00"
+    },
+    {
+      "url": "https://pares.cultura.gob.es/",
+      "status": 200,
+      "resolvedUrl": "https://pares.cultura.gob.es/inicio.html",
+      "title": "Portal de Archivos Españoles (PARES) - PARES | Ministerio de Cultura",
+      "checkedAt": "2026-11-05T13:50:34.254085+00:00"
+    },
+    {
+      "url": "https://pegv.gva.es/",
+      "status": 200,
+      "resolvedUrl": "https://pegv.gva.es/va/",
+      "title": "Inici - Portal estadístic de la Generalitat - Generalitat Valenciana",
+      "checkedAt": "2026-11-05T13:50:38.491483+00:00"
+    },
+    {
+      "url": "https://pnsd.sanidad.gob.es/profesionales/sistemasInformacion/",
+      "status": 200,
+      "resolvedUrl": "https://pnsd.sanidad.gob.es/profesionales/sistemasInformacion/",
+      "title": "Portal Plan Nacional sobre Drogas - Observatorio Espa&ntilde;ol de las Drogas y las Adicciones (OEDA)",
+      "checkedAt": "2026-11-05T13:50:36.271973+00:00"
+    },
+    {
+      "url": "https://portuscopia.puertos.es/",
+      "status": 200,
+      "resolvedUrl": "https://portuscopia.puertos.es/",
+      "title": "Portuscopia",
+      "checkedAt": "2026-11-05T13:50:36.387361+00:00"
+    },
+    {
+      "url": "https://proteccion-asilo.interior.gob.es/",
+      "status": 200,
+      "resolvedUrl": "https://proteccion-asilo.interior.gob.es/es/inicio/",
+      "title": "Asilo y Refugio | Inicio",
+      "checkedAt": "2026-11-05T13:50:36.836491+00:00"
+    },
+    {
+      "url": "https://prtr-es.miteco.gob.es/",
+      "status": 200,
+      "resolvedUrl": "https://prtr-es.miteco.gob.es/",
+      "title": "PRTR España | Registro Estatal de Emisiones y Fuentes Contaminantes (PRTR-España)",
+      "checkedAt": "2026-11-05T13:50:39.460895+00:00"
+    },
+    {
+      "url": "https://sede.aemps.gob.es/datos-abiertos/",
+      "status": 200,
+      "resolvedUrl": "https://sede.aemps.gob.es/datos-abiertos/",
+      "title": "Datos abiertos | Sede Electrónica de la AEMPS",
+      "checkedAt": "2026-11-05T13:50:39.585565+00:00"
+    },
+    {
+      "url": "https://sede.agenciatributaria.gob.es/Sede/estadisticas.html",
+      "status": 200,
+      "resolvedUrl": "https://sede.agenciatributaria.gob.es/Sede/estadisticas.html",
+      "title": "Agencia Tributaria: Estadísticas",
+      "checkedAt": "2026-11-05T13:50:39.551456+00:00"
+    },
+    {
+      "url": "https://servicio.mapa.gob.es/siarweb/home",
+      "status": 200,
+      "resolvedUrl": "https://servicio.mapa.gob.es/siarweb/home",
+      "title": "SiAR",
+      "checkedAt": "2026-11-05T13:50:39.687995+00:00"
+    },
+    {
+      "url": "https://sitex.juntaex.es/SITEX/pages/ideex",
+      "status": 200,
+      "resolvedUrl": "https://sitex.juntaex.es/SITEX/pages/ideex",
+      "title": "Ideex",
+      "checkedAt": "2026-11-05T13:50:39.770695+00:00"
+    },
+    {
+      "url": "https://sitmurcia.carm.es/",
+      "status": 200,
+      "resolvedUrl": "https://sitmurcia.carm.es/",
+      "title": "Inicio - sitmurcia",
+      "checkedAt": "2026-11-05T13:50:40.014625+00:00"
+    },
+    {
+      "url": "https://ssweb.seap.minhap.es/REL/",
+      "status": 403,
+      "error": "HTTP Error 403: Forbidden",
+      "checkedAt": "2026-11-05T13:50:39.849159+00:00"
+    },
+    {
+      "url": "https://ted.europa.eu/",
+      "status": 200,
+      "resolvedUrl": "https://ted.europa.eu/en/",
+      "title": "TED - EU Tenders, the Supplement to the Official Journal - TED",
+      "checkedAt": "2026-11-05T13:50:40.167743+00:00"
+    },
+    {
+      "url": "https://transparencia.asturias.es/",
+      "status": 200,
+      "resolvedUrl": "https://transparencia.asturias.es/",
+      "title": "Portal de Transparencia del Principado de Asturias",
+      "checkedAt": "2026-11-05T13:50:40.376189+00:00"
+    },
+    {
+      "url": "https://transparencia.gob.es/",
+      "status": 200,
+      "resolvedUrl": "https://transparencia.gob.es/",
+      "title": "Portal Transparencia | Inicio",
+      "checkedAt": "2026-11-05T13:50:40.396011+00:00"
+    },
+    {
+      "url": "https://violenciagenero.igualdad.gob.es/violenciaencifras/",
+      "status": 200,
+      "resolvedUrl": "https://violenciagenero.igualdad.gob.es/violenciaencifras/",
+      "title": "Estadísticas, encuestas, estudios e investigaciones",
+      "checkedAt": "2026-11-05T13:50:40.546084+00:00"
+    },
+    {
+      "url": "https://web.larioja.org/dato-abierto",
+      "status": 200,
+      "resolvedUrl": "https://web.larioja.org/dato-abierto",
+      "title": "Dato abierto",
+      "checkedAt": "2026-11-05T13:50:41.215120+00:00"
+    },
+    {
+      "url": "https://www.adif.es/sobre-adif/declaracion-red",
+      "status": 403,
+      "error": "HTTP Error 403: Forbidden",
+      "checkedAt": "2026-11-05T13:50:40.609600+00:00"
+    },
+    {
+      "url": "https://www.aei.gob.es/",
+      "status": 200,
+      "resolvedUrl": "https://www.aei.gob.es/",
+      "title": "| Agencia Estatal de Investigación",
+      "checkedAt": "2026-11-05T13:50:40.754292+00:00"
+    },
+    {
+      "url": "https://www.aena.es/es/estadisticas/inicio.html",
+      "status": 200,
+      "resolvedUrl": "https://www.aena.es/es/estadisticas/inicio.html",
+      "title": "Inicio",
+      "checkedAt": "2026-11-05T13:50:41.588938+00:00"
+    },
+    {
+      "url": "https://www.aesan.gob.es/",
+      "status": 200,
+      "resolvedUrl": "https://www.aesan.gob.es/",
+      "title": "Agencia Española de Seguridad Alimentaria y Nutrición",
+      "checkedAt": "2026-11-05T13:50:41.349021+00:00"
+    },
+    {
+      "url": "https://www.aica.gob.es/",
+      "status": 200,
+      "resolvedUrl": "https://www.aica.gob.es/",
+      "title": "AICA | Inicio",
+      "checkedAt": "2026-11-05T13:50:41.636028+00:00"
+    },
+    {
+      "url": "https://www.airef.es/es/datalab/ccll-lab/",
+      "status": null,
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1082)>",
+      "checkedAt": "2026-11-05T13:50:41.673834+00:00"
+    },
+    {
+      "url": "https://www.aragon.es/gobierno/iaest",
+      "status": 200,
+      "resolvedUrl": "https://www.aragon.es/gobierno/iaest",
+      "title": "Instituto Aragonés de Estadística (IAEST). Gobierno de Aragón",
+      "checkedAt": "2026-11-05T13:53:18.229557+00:00"
+    },
+    {
+      "url": "https://www.bde.es/wbe/es/estadisticas/",
+      "status": 200,
+      "resolvedUrl": "https://www.bde.es/wbe/es/estadisticas/",
+      "title": "Estadísticas del Banco de España - Banco de España",
+      "checkedAt": "2026-11-05T13:50:42.556128+00:00"
+    },
+    {
+      "url": "https://www.bne.es/es/perfiles/bibliotecarios/suministro-registros",
+      "status": null,
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1082)>",
+      "checkedAt": "2026-11-05T13:50:42.000980+00:00"
+    },
+    {
+      "url": "https://www.boe.es/datosabiertos/api/api.php",
+      "status": 200,
+      "resolvedUrl": "https://www.boe.es/datosabiertos/api/api.php",
+      "title": "BOE.es - Datos abiertos (OpenData)",
+      "checkedAt": "2026-11-05T13:50:42.087145+00:00"
+    },
+    {
+      "url": "https://www.caib.es/sites/ideib/es/inicio/",
+      "status": 200,
+      "resolvedUrl": "https://www.caib.es/sites/ideib/es/inicio/",
+      "title": "Geoportal de la Infraestructura de Dades Espacials de les Illes Balears IDEIB-Proyecto IDEIB",
+      "checkedAt": "2026-11-05T13:50:42.273490+00:00"
+    },
+    {
+      "url": "https://www.cartociudad.es/web/portal/directorio-de-servicios/descarga",
+      "status": 200,
+      "resolvedUrl": "https://www.cartociudad.es/web/portal/directorio-de-servicios/descarga",
+      "title": "CartoCiudad",
+      "checkedAt": "2026-11-05T13:50:42.598534+00:00"
+    },
+    {
+      "url": "https://www.catastro.hacienda.gob.es/es-ES/datos_abiertos.html",
+      "status": 200,
+      "resolvedUrl": "https://www.catastro.hacienda.gob.es/es-ES/datos_abiertos.html",
+      "title": "Portal del Catastro: Página no encontrada",
+      "checkedAt": "2026-11-05T13:50:42.696547+00:00"
+    },
+    {
+      "url": "https://www.cdti.es/",
+      "status": 200,
+      "resolvedUrl": "https://www.cdti.es/",
+      "title": "",
+      "checkedAt": "2026-11-05T13:50:42.639560+00:00"
+    },
+    {
+      "url": "https://www.ceuta.es/",
+      "status": 200,
+      "resolvedUrl": "https://www.ceuta.es/ceuta/",
+      "title": "Ciudad Autónoma de Ceuta - Inicio",
+      "checkedAt": "2026-11-05T13:50:43.509406+00:00"
+    },
+    {
+      "url": "https://www.chcantabrico.es/",
+      "status": 200,
+      "resolvedUrl": "https://www.chcantabrico.es/",
+      "title": "Inicio",
+      "checkedAt": "2026-11-05T13:50:43.041023+00:00"
+    },
+    {
+      "url": "https://www.chduero.es/",
+      "status": 200,
+      "resolvedUrl": "https://www.chduero.es/",
+      "title": "Portal de la CHD - CHDuero",
+      "checkedAt": "2026-11-05T13:50:43.346010+00:00"
+    },
+    {
+      "url": "https://www.chebro.es/",
+      "status": 200,
+      "resolvedUrl": "https://www.chebro.es/",
+      "title": "Inicio - Portal CHEbro",
+      "checkedAt": "2026-11-05T13:50:43.770316+00:00"
+    },
+    {
+      "url": "https://www.chguadalquivir.es/",
+      "status": 200,
+      "resolvedUrl": "https://www.chguadalquivir.es/inicio",
+      "title": "Confederación Hidrográfica del Guadalquivir - CHG",
+      "checkedAt": "2026-11-05T13:50:44.004916+00:00"
+    },
+    {
+      "url": "https://www.chguadiana.es/",
+      "status": 200,
+      "resolvedUrl": "https://www.chguadiana.es/",
+      "title": "Confederación Hidrográfica del Guadiana",
+      "checkedAt": "2026-11-05T13:50:44.020227+00:00"
+    },
+    {
+      "url": "https://www.chj.es/",
+      "status": 200,
+      "resolvedUrl": "https://www.chj.es/es-es/Paginas/Home.aspx",
+      "title": "",
+      "checkedAt": "2026-11-05T13:50:44.542891+00:00"
+    },
+    {
+      "url": "https://www.chminosil.es/",
+      "status": null,
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1082)>",
+      "checkedAt": "2026-11-05T13:50:44.173787+00:00"
+    },
+    {
+      "url": "https://www.chsegura.es/",
+      "status": 200,
+      "resolvedUrl": "https://www.chsegura.es/es/",
+      "title": "Confederación Hidrográfica del Segura",
+      "checkedAt": "2026-11-05T13:50:45.242322+00:00"
+    },
+    {
+      "url": "https://www.chtajo.es/",
+      "status": 200,
+      "resolvedUrl": "https://www.chtajo.es/",
+      "title": "Confederación Hidrográfica del Tajo - www.chtajo.es",
+      "checkedAt": "2026-11-05T13:50:45.257788+00:00"
+    },
+    {
+      "url": "https://www.ciencia.gob.es/Ministerio/Estadisticas.html",
+      "status": 200,
+      "resolvedUrl": "https://www.ciencia.gob.es/Ministerio/Estadisticas.html",
+      "title": "Estadísticas y datos abiertos",
+      "checkedAt": "2026-11-05T13:50:45.544524+00:00"
+    },
+    {
+      "url": "https://www.ciencia.gob.es/Ministerio/Estadisticas/SIIU.html",
+      "status": 200,
+      "resolvedUrl": "https://www.ciencia.gob.es/Ministerio/Estadisticas/SIIU.html",
+      "title": "Sistema Integrado de Información Universitaria (SIIU)",
+      "checkedAt": "2026-11-05T13:50:45.621675+00:00"
+    },
+    {
+      "url": "https://www.cis.es/",
+      "status": 200,
+      "resolvedUrl": "https://www.cis.es/en/",
+      "title": "Centro de Investigaciones Sociológicas (CIS) – Estudios y barómetros de opinión",
+      "checkedAt": "2026-11-05T13:50:45.982207+00:00"
+    },
+    {
+      "url": "https://www.cnmv.es/portal/Publicaciones/SeriesWeb/Inicio",
+      "status": 200,
+      "resolvedUrl": "https://www.cnmv.es/portal/Publicaciones/SeriesWeb/Inicio",
+      "title": "CNMV - Series Estad&#237;sticas",
+      "checkedAt": "2026-11-05T13:50:46.087289+00:00"
+    },
+    {
+      "url": "https://www.comunidad.madrid/geoportal",
+      "status": 200,
+      "resolvedUrl": "https://www.comunidad.madrid/geoportal",
+      "title": "GeoPortal | Comunidad de Madrid",
+      "checkedAt": "2026-11-05T13:50:46.339956+00:00"
+    },
+    {
+      "url": "https://www.comunidad.madrid/gobierno/estadistica",
+      "status": 200,
+      "resolvedUrl": "https://www.comunidad.madrid/gobierno/estadistica",
+      "title": "Estadísticas | Comunidad de Madrid",
+      "checkedAt": "2026-11-05T13:50:46.447061+00:00"
+    },
+    {
+      "url": "https://www.congreso.es/datos-abiertos",
+      "status": 200,
+      "resolvedUrl": "https://www.congreso.es/es/datos-abiertos",
+      "title": "Datos Abiertos - Congreso de los Diputados",
+      "checkedAt": "2026-11-05T13:50:46.278842+00:00"
+    },
+    {
+      "url": "https://www.cooperacionespanola.es/area-de-estadistica/",
+      "status": 200,
+      "resolvedUrl": "https://www.cooperacionespanola.es/area-de-estadistica/",
+      "title": "Área de Estadística - Cooperación Española",
+      "checkedAt": "2026-11-05T13:50:48.190423+00:00"
+    },
+    {
+      "url": "https://www.cores.es/estadisticas",
+      "status": 200,
+      "resolvedUrl": "https://www.cores.es/estadisticas",
+      "title": "Estadísticas | CORES",
+      "checkedAt": "2026-11-05T13:50:47.470427+00:00"
+    },
+    {
+      "url": "https://www.csd.gob.es/es/datos-abiertos",
+      "status": 200,
+      "resolvedUrl": "https://www.csd.gob.es/es/datos-abiertos",
+      "title": "Datos abiertos | CSD - Consejo Superior de Deportes",
+      "checkedAt": "2026-11-05T13:50:46.687083+00:00"
+    },
+    {
+      "url": "https://www.csn.es/",
+      "status": 200,
+      "resolvedUrl": "https://www.csn.es/",
+      "title": "Inicio - CSN",
+      "checkedAt": "2026-11-05T13:50:46.980365+00:00"
+    },
+    {
+      "url": "https://www.cultura.gob.es/cultura/areas/patrimonio/mc/ipce/inicio.html",
+      "status": 200,
+      "resolvedUrl": "https://www.cultura.gob.es/cultura/areas/patrimonio/mc/ipce/inicio.html",
+      "title": "Instituto del Patrimonio Cultural de España - Instituto del Patrimonio Cultural de España | Ministerio de Cultura",
+      "checkedAt": "2026-11-05T13:50:47.427584+00:00"
+    },
+    {
+      "url": "https://www.cultura.gob.es/servicios-a-la-ciudadania/estadisticas/cultura/mc/culturabase/portada.html",
+      "status": 200,
+      "resolvedUrl": "https://www.cultura.gob.es/servicios-a-la-ciudadania/estadisticas/cultura/mc/culturabase/portada.html",
+      "title": "CULTURABase - CULTURABase | Ministerio de Cultura",
+      "checkedAt": "2026-11-05T13:50:47.656115+00:00"
+    },
+    {
+      "url": "https://www.defensa.gob.es/",
+      "status": 200,
+      "resolvedUrl": "https://www.defensa.gob.es/",
+      "title": "Página principal - Ministerio de Defensa de España",
+      "checkedAt": "2026-11-05T13:50:47.596217+00:00"
+    },
+    {
+      "url": "https://www.dgt.es/menusecundario/dgt-en-cifras/",
+      "status": 200,
+      "resolvedUrl": "https://www.dgt.es/menusecundario/dgt-en-cifras/",
+      "title": "DGT - DGT en cifras",
+      "checkedAt": "2026-11-05T13:50:53.507368+00:00"
+    },
+    {
+      "url": "https://www.diba.cat/es/web/cartografia-sig-local/sitmun.diba.cat",
+      "status": 200,
+      "resolvedUrl": "https://www.diba.cat/es/web/cartografia-sig-local/sitmun.diba.cat",
+      "title": "Visors de mapes - Cartografia i SIG Local - Diputació de Barcelona",
+      "checkedAt": "2026-11-05T13:50:50.229510+00:00"
+    },
+    {
+      "url": "https://www.dsca.gob.es/",
+      "status": 200,
+      "resolvedUrl": "https://www.dsca.gob.es/es",
+      "title": "Página de Inicio | Ministerio de Derechos Sociales, Consumo y Agenda 2030",
+      "checkedAt": "2026-11-05T13:53:18.326546+00:00"
+    },
+    {
+      "url": "https://www.ecdc.europa.eu/en/data",
+      "status": 200,
+      "resolvedUrl": "https://www.ecdc.europa.eu/en/data-dashboards-and-databases",
+      "title": "Data, dashboards and databases",
+      "checkedAt": "2026-11-05T13:50:48.514866+00:00"
+    },
+    {
+      "url": "https://www.educacionfpydeportes.gob.es/servicios-al-ciudadano/estadisticas.html",
+      "status": 200,
+      "resolvedUrl": "https://www.educacionfpydeportes.gob.es/servicios-al-ciudadano/estadisticas.html",
+      "title": "Estadísticas del MEFD | Ministerio de Educación, Formación Profesional y Deportes",
+      "checkedAt": "2026-11-05T13:50:49.765560+00:00"
+    },
+    {
+      "url": "https://www.eea.europa.eu/en/datahub",
+      "status": 200,
+      "resolvedUrl": "https://www.eea.europa.eu/en/datahub",
+      "title": "Datahub (EEA)",
+      "checkedAt": "2026-11-05T13:50:48.857137+00:00"
+    },
+    {
+      "url": "https://www.enagas.es/",
+      "status": null,
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1082)>",
+      "checkedAt": "2026-11-05T13:50:48.927860+00:00"
+    },
+    {
+      "url": "https://www.esios.ree.es/es/",
+      "status": 200,
+      "resolvedUrl": "https://www.esios.ree.es/es/",
+      "title": "Esios Red Eléctrica",
+      "checkedAt": "2026-11-05T13:50:49.110446+00:00"
+    },
+    {
+      "url": "https://www.euskalmet.euskadi.eus/servicios/open-data/",
+      "status": 200,
+      "resolvedUrl": "https://www.euskalmet.euskadi.eus/servicios/open-data/",
+      "title": "Euskalmet | Agencia vasca de meteorolog&iacute;a",
+      "checkedAt": "2026-11-05T13:50:49.412572+00:00"
+    },
+    {
+      "url": "https://www.eustat.eus/",
+      "status": 200,
+      "resolvedUrl": "https://www.eustat.eus/indice.html",
+      "title": "Euskal AEko datu estatistikoak",
+      "checkedAt": "2026-11-05T13:50:49.757803+00:00"
+    },
+    {
+      "url": "https://www.fao.org/faostat/es/",
+      "status": 200,
+      "resolvedUrl": "https://www.fao.org/faostat/es/",
+      "title": "FAOSTAT",
+      "checkedAt": "2026-11-05T13:50:49.891824+00:00"
+    },
+    {
+      "url": "https://www.fega.gob.es/",
+      "status": 200,
+      "resolvedUrl": "https://www.fega.gob.es/es",
+      "title": "Inicio | Portal Web del FEGA",
+      "checkedAt": "2026-11-05T13:50:50.016070+00:00"
+    },
+    {
+      "url": "https://www.fiscal.es/",
+      "status": 200,
+      "resolvedUrl": "https://www.fiscal.es/",
+      "title": "Inicio - fiscal.es",
+      "checkedAt": "2026-11-05T13:50:50.218261+00:00"
+    },
+    {
+      "url": "https://www.geo.euskadi.eus/",
+      "status": 200,
+      "resolvedUrl": "https://www.geo.euskadi.eus/hasiera/",
+      "title": "geoEuskadi. Datu Espazialen Egitura - Euskadiko DEA",
+      "checkedAt": "2026-11-05T13:50:50.675279+00:00"
+    },
+    {
+      "url": "https://www.gijon.es/es/datos-abiertos",
+      "status": 200,
+      "resolvedUrl": "https://www.gijon.es/es/datos-abiertos",
+      "title": "Ayuntamiento de Gijón / Xixón",
+      "checkedAt": "2026-11-05T13:50:50.386856+00:00"
+    },
+    {
+      "url": "https://www.gipuzkoairekia.eus/",
+      "status": 200,
+      "resolvedUrl": "https://www.gipuzkoairekia.eus/eu/hasiera",
+      "title": "Hasiera - gipuzkoairekia",
+      "checkedAt": "2026-11-05T13:50:50.622811+00:00"
+    },
+    {
+      "url": "https://www.gobiernodecanarias.org/istac/",
+      "status": 200,
+      "resolvedUrl": "https://www.gobiernodecanarias.org/istac/",
+      "title": "Inicio ISTAC - Gobierno de Canarias",
+      "checkedAt": "2026-11-05T13:50:50.715844+00:00"
+    },
+    {
+      "url": "https://www.grafcan.es/",
+      "status": 200,
+      "resolvedUrl": "https://www.grafcan.es/",
+      "title": "Inicio - GRAFCAN - Mapas de Canarias",
+      "checkedAt": "2026-11-05T13:50:50.973446+00:00"
+    },
+    {
+      "url": "https://www.hacienda.gob.es/es-ES/CDI/Paginas/centraldeinformacion.aspx",
+      "status": 200,
+      "resolvedUrl": "https://www.hacienda.gob.es/es-ES/CDI/Paginas/centraldeinformacion.aspx",
+      "title": "Central de Información Económico-Financiera: Ministerio de Hacienda",
+      "checkedAt": "2026-11-05T13:50:51.650086+00:00"
+    },
+    {
+      "url": "https://www.hacienda.gob.es/es-ES/GobiernoAbierto/Datos%20Abiertos/Paginas/licitaciones_plataforma_contratacion.aspx",
+      "status": 200,
+      "resolvedUrl": "https://www.hacienda.gob.es/es-ES/GobiernoAbierto/Datos%20Abiertos/Paginas/licitaciones_plataforma_contratacion.aspx",
+      "title": "Licitaciones publicadas en la Plataforma de Contratación del Sector Público: Ministerio de Hacienda",
+      "checkedAt": "2026-11-05T13:50:51.361961+00:00"
+    },
+    {
+      "url": "https://www.hacienda.gob.es/es-es/areas%20tematicas/cmtabacos/paginas/estadisticascmt2026.aspx",
+      "status": 200,
+      "resolvedUrl": "https://www.hacienda.gob.es/es-es/areas%20tematicas/cmtabacos/paginas/estadisticascmt2026.aspx",
+      "title": "Estadísticas Mercado de Tabacos 2026: Ministerio de Hacienda",
+      "checkedAt": "2026-11-05T13:50:51.655324+00:00"
+    },
+    {
+      "url": "https://www.icane.es/",
+      "status": 200,
+      "resolvedUrl": "https://www.icane.es/",
+      "title": "Inicio - ICANE - cantabria.es",
+      "checkedAt": "2026-11-05T13:50:52.793338+00:00"
+    },
+    {
+      "url": "https://www.icgc.cat/",
+      "status": 200,
+      "resolvedUrl": "https://www.icgc.cat:443/ca",
+      "title": "Inici ICGC | icgc",
+      "checkedAt": "2026-11-05T13:50:52.056888+00:00"
+    },
+    {
+      "url": "https://www.idae.es/",
+      "status": 200,
+      "resolvedUrl": "https://www.idae.es/",
+      "title": "Inicio | Idae",
+      "checkedAt": "2026-11-05T13:50:51.864830+00:00"
+    },
+    {
+      "url": "https://www.idee.es/segun-tipo-de-servicio",
+      "status": 200,
+      "resolvedUrl": "https://www.idee.es/segun-tipo-de-servicio",
+      "title": "Geoportal IDEE",
+      "checkedAt": "2026-11-05T13:50:52.740490+00:00"
+    },
+    {
+      "url": "https://www.idescat.cat/",
+      "status": 200,
+      "resolvedUrl": "https://www.idescat.cat/",
+      "title": "Idescat. Institut d'Estadística de Catalunya",
+      "checkedAt": "2026-11-05T13:50:52.195000+00:00"
+    },
+    {
+      "url": "https://www.ieo.es/",
+      "status": 200,
+      "resolvedUrl": "https://ieo.csic.es/",
+      "title": "IEO-CSIC |",
+      "checkedAt": "2026-11-05T13:50:53.359529+00:00"
+    },
+    {
+      "url": "https://www.igae.pap.hacienda.gob.es/",
+      "status": 200,
+      "resolvedUrl": "https://www.igae.pap.hacienda.gob.es/sitios/igae/es-ES/Paginas/inicio.aspx",
+      "title": "IGAE:Intervención General de la Administración del Estado",
+      "checkedAt": "2026-11-05T13:50:53.198220+00:00"
+    },
+    {
+      "url": "https://www.ige.gal/",
+      "status": 200,
+      "resolvedUrl": "https://www.ige.gal/",
+      "title": "IGE (Instituto Galego de Estat&iacute;stica)",
+      "checkedAt": "2026-11-05T13:50:52.972058+00:00"
+    },
+    {
+      "url": "https://www.igme.es/datos-y-mapas/",
+      "status": 200,
+      "resolvedUrl": "https://www.igme.es/datos-y-mapas/",
+      "title": "Acceso a documentos, datos y mapas » IGME - CSIC",
+      "checkedAt": "2026-11-05T13:50:53.709289+00:00"
+    },
+    {
+      "url": "https://www.ign.es/web/ide-area-nodo-ide-ign",
+      "status": 200,
+      "resolvedUrl": "https://www.ign.es/web/ide-area-nodo-ide-ign",
+      "title": "Infraestructuras de Datos Espaciales - Instituto Geogr&aacute;fico Nacional",
+      "checkedAt": "2026-11-05T13:50:53.931272+00:00"
+    },
+    {
+      "url": "https://www.ign.es/web/ign/portal/sis-area-sismicidad",
+      "status": 200,
+      "resolvedUrl": "https://www.ign.es/web/ign/portal/sis-area-sismicidad",
+      "title": "Información sísmica - Instituto Geogr&aacute;fico Nacional",
+      "checkedAt": "2026-11-05T13:50:53.695653+00:00"
+    },
+    {
+      "url": "https://www.inclusion.gob.es/es/web/opi/estadisticas/catalogo",
+      "status": 200,
+      "resolvedUrl": "https://www.inclusion.gob.es/es/web/opi/estadisticas/catalogo",
+      "title": "Catálogo de datos - Observatorio Permanente de la Inmigración - Ministerio de Inclusión, Seguridad Social y Migraciones",
+      "checkedAt": "2026-11-05T13:50:54.171959+00:00"
+    },
+    {
+      "url": "https://www.ine.es/dyngs/IOE/consultaPlan.htm?cid=9",
+      "status": 200,
+      "resolvedUrl": "https://www.ine.es/dyngs/IOE/consultaPlan.htm?cid=9",
+      "title": "INE / La organización estadística en España / Inventario de Operaciones Estadísticas&nbsp;/&nbsp;Plan Estadístico Nacional 2025-2028 (plan vigente)",
+      "checkedAt": "2026-11-05T13:50:53.787551+00:00"
+    },
+    {
+      "url": "https://www.ine.es/dyngs/IOE/index.htm",
+      "status": 200,
+      "resolvedUrl": "https://www.ine.es/dyngs/IOE/index.htm",
+      "title": "INE / La organización estadística en España / Inventario de Operaciones Estadísticas&nbsp;/&nbsp;Inventario actual",
+      "checkedAt": "2026-11-05T13:50:53.824144+00:00"
+    },
+    {
+      "url": "https://www.ine.es/inebmenu/indice.htm",
+      "status": 200,
+      "resolvedUrl": "https://www.ine.es/inebmenu/indice.htm",
+      "title": "INEbase",
+      "checkedAt": "2026-11-05T13:50:53.855337+00:00"
+    },
+    {
+      "url": "https://www.infosubvenciones.es/bdnstrans/doc/swagger",
+      "status": 200,
+      "resolvedUrl": "https://www.infosubvenciones.es/bdnstrans/doc/swagger",
+      "title": "Sistema Nacional de Publicidad de Subvenciones y Ayudas Públicas",
+      "checkedAt": "2026-11-05T13:50:54.052540+00:00"
+    },
+    {
+      "url": "https://www.injuve.es/observatorio",
+      "status": null,
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate signature failure (_ssl.c:1082)>",
+      "checkedAt": "2026-11-05T13:50:53.926985+00:00"
+    },
+    {
+      "url": "https://www.inmujeres.gob.es/MujerCifras/Home.htm",
+      "status": 200,
+      "resolvedUrl": "https://www.inmujeres.gob.es/MujerCifras/Home.htm",
+      "title": "Instituto de la Mujer y para la Igualdad de Oportunidades - Mujeres en cifras",
+      "checkedAt": "2026-11-05T13:50:54.084838+00:00"
+    },
+    {
+      "url": "https://www.insst.es/el-observatorio",
+      "status": 200,
+      "resolvedUrl": "https://www.insst.es/el-observatorio",
+      "title": "Observatorio Condiciones de Trabajo Prevención de Riesgos Laborales",
+      "checkedAt": "2026-11-05T13:50:54.826644+00:00"
+    },
+    {
+      "url": "https://www.interior.gob.es/opencms/es/archivos-y-documentacion/documentacion-y-publicaciones/anuarios-y-estadisticas/",
+      "status": 403,
+      "error": "HTTP Error 403: Forbidden",
+      "checkedAt": "2026-11-05T13:50:54.195796+00:00"
+    },
+    {
+      "url": "https://www.juntadeandalucia.es/datosabiertos/portal/",
+      "status": 200,
+      "resolvedUrl": "https://www.juntadeandalucia.es/datosabiertos/portal/",
+      "title": "Portada inicial | Portal de datos abiertos",
+      "checkedAt": "2026-11-05T13:50:54.307469+00:00"
+    },
+    {
+      "url": "https://www.juntadeandalucia.es/institutodeestadisticaycartografia/",
+      "status": 200,
+      "resolvedUrl": "https://www.juntadeandalucia.es/institutodeestadisticaycartografia/dega/",
+      "title": "Portal de Datos Estadísticos y Geoespaciales de Andalucía | Inicio",
+      "checkedAt": "2026-11-05T13:50:54.477500+00:00"
+    },
+    {
+      "url": "https://www.juntadeandalucia.es/institutodeestadisticaycartografia/dega/datos-espaciales-de-referencia-de-andalucia-dera",
+      "status": 200,
+      "resolvedUrl": "https://www.juntadeandalucia.es/institutodeestadisticaycartografia/dega/datos-espaciales-de-referencia-de-andalucia-dera",
+      "title": "Datos Espaciales de Referencia de Andalucía (DERA) | Instituto de Estadística y Cartografía de Andalucía",
+      "checkedAt": "2026-11-05T13:50:54.688841+00:00"
+    },
+    {
+      "url": "https://www.juntaex.es/ieex/",
+      "status": 200,
+      "resolvedUrl": "https://www.juntaex.es/ieex/",
+      "title": "Instituto de Estadística de Extremadura - Juntaex.es",
+      "checkedAt": "2026-11-05T13:53:18.574416+00:00"
+    },
+    {
+      "url": "https://www.larioja.org/estadistica/",
+      "status": 200,
+      "resolvedUrl": "https://www.larioja.org/estadistica/es",
+      "title": "Estadística - Portal del Gobierno de La Rioja",
+      "checkedAt": "2026-11-05T13:50:55.187415+00:00"
+    },
+    {
+      "url": "https://www.mapa.gob.es/es/agricultura/temas/sistema-de-informacion-geografica-de-datos-agrarios",
+      "status": 200,
+      "resolvedUrl": "https://www.mapa.gob.es/es/agricultura/temas/sistema-de-informacion-geografica-de-datos-agrarios",
+      "title": "Sistema de Información Geográfica de Datos Agrarios (SIGA)",
+      "checkedAt": "2026-11-05T13:50:54.567969+00:00"
+    },
+    {
+      "url": "https://www.mapa.gob.es/es/desarrollo-rural/temas/caminos-naturales",
+      "status": 200,
+      "resolvedUrl": "https://www.mapa.gob.es/es/desarrollo-rural/temas/caminos-naturales",
+      "title": "",
+      "checkedAt": "2026-11-05T13:50:54.647579+00:00"
+    },
+    {
+      "url": "https://www.mapa.gob.es/es/enesa/",
+      "status": 200,
+      "resolvedUrl": "https://www.mapa.gob.es/es/enesa/",
+      "title": "ENESA",
+      "checkedAt": "2026-11-05T13:50:54.751038+00:00"
+    },
+    {
+      "url": "https://www.mapa.gob.es/es/estadistica/temas/",
+      "status": 200,
+      "resolvedUrl": "https://www.mapa.gob.es/es/estadistica/temas/",
+      "title": "Contenidos principales",
+      "checkedAt": "2026-11-05T13:50:54.880760+00:00"
+    },
+    {
+      "url": "https://www.melilla.es/",
+      "status": 200,
+      "resolvedUrl": "https://www.melilla.es/melillaportal/index.jsp",
+      "title": "Ciudad Aut�noma de Melilla",
+      "checkedAt": "2026-11-05T13:50:55.088442+00:00"
+    },
+    {
+      "url": "https://www.meteo.cat/wpweb/serveis/dades-obertes/",
+      "status": 200,
+      "resolvedUrl": "https://www.meteo.cat/wpweb/serveis/dades-obertes/",
+      "title": "Dades obertes | Meteocat",
+      "checkedAt": "2026-11-05T13:50:55.112211+00:00"
+    },
+    {
+      "url": "https://www.meteogalicia.gal/",
+      "status": 200,
+      "resolvedUrl": "https://www.meteogalicia.gal/web/",
+      "title": "MeteoGalicia - Predición do tempo en Galicia",
+      "checkedAt": "2026-11-05T13:50:55.516594+00:00"
+    },
+    {
+      "url": "https://www.mintur.gob.es/es-es/IndicadoresyEstadisticas/Paginas/Estadisticas.aspx",
+      "status": 200,
+      "resolvedUrl": "https://www.mintur.gob.es/es-es/IndicadoresyEstadisticas/Paginas/Estadisticas.aspx",
+      "title": "Mantenimiento del sistema | Ministerio de Industria y Turismo",
+      "checkedAt": "2026-11-05T13:53:18.305020+00:00"
+    },
+    {
+      "url": "https://www.miteco.gob.es/es/agua.html",
+      "status": 200,
+      "resolvedUrl": "https://www.miteco.gob.es/es/agua/temas.html",
+      "title": "Agua",
+      "checkedAt": "2026-11-05T13:50:55.306902+00:00"
+    },
+    {
+      "url": "https://www.miteco.gob.es/es/calidad-y-evaluacion-ambiental.html",
+      "status": 200,
+      "resolvedUrl": "https://www.miteco.gob.es/es/calidad-y-evaluacion-ambiental/temas.html",
+      "title": "Calidad y Evaluación Ambiental",
+      "checkedAt": "2026-11-05T13:50:55.445441+00:00"
+    },
+    {
+      "url": "https://www.miteco.gob.es/es/cambio-climatico.html",
+      "status": 200,
+      "resolvedUrl": "https://www.miteco.gob.es/es/cambio-climatico/temas.html",
+      "title": "Cambio climático",
+      "checkedAt": "2026-11-05T13:50:55.613959+00:00"
+    },
+    {
+      "url": "https://www.miteco.gob.es/es/cartografia-y-sig/ide/directorio_datos_servicios/biodiversidad.html",
+      "status": 200,
+      "resolvedUrl": "https://www.miteco.gob.es/es/cartografia-y-sig/ide/directorio_datos_servicios/biodiversidad.html",
+      "title": "Biodiversidad",
+      "checkedAt": "2026-11-05T13:50:55.523315+00:00"
+    },
+    {
+      "url": "https://www.miteco.gob.es/es/cartografia-y-sig/ide/enlace_interes/ides-oocc.html",
+      "status": 200,
+      "resolvedUrl": "https://www.miteco.gob.es/es/cartografia-y-sig/ide/enlace_interes/ides-oocc.html",
+      "title": "IDEs Organismos de Cuencas",
+      "checkedAt": "2026-11-05T13:53:18.548242+00:00"
+    },
+    {
+      "url": "https://www.miteco.gob.es/es/costas.html",
+      "status": 200,
+      "resolvedUrl": "https://www.miteco.gob.es/es/costas/temas.html",
+      "title": "Costas y Medio Marino",
+      "checkedAt": "2026-11-05T13:50:55.632872+00:00"
+    },
+    {
+      "url": "https://www.miteco.gob.es/es/energia.html",
+      "status": 200,
+      "resolvedUrl": "https://www.miteco.gob.es/es/energia.html",
+      "title": "Energía",
+      "checkedAt": "2026-11-05T13:50:55.611229+00:00"
+    },
+    {
+      "url": "https://www.miteco.gob.es/es/parques-nacionales-oapn.html",
+      "status": 200,
+      "resolvedUrl": "https://www.miteco.gob.es/es/parques-nacionales-oapn.html",
+      "title": "Organismo Autónomo Parques Nacionales",
+      "checkedAt": "2026-11-05T13:50:55.696783+00:00"
+    },
+    {
+      "url": "https://www.mites.gob.es/es/estadisticas/",
+      "status": null,
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1082)>",
+      "checkedAt": "2026-11-05T13:50:55.664881+00:00"
+    },
+    {
+      "url": "https://www.mites.gob.es/fogasa/",
+      "status": null,
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1082)>",
+      "checkedAt": "2026-11-05T13:50:55.682957+00:00"
+    },
+    {
+      "url": "https://www.mivau.gob.es/",
+      "status": 403,
+      "error": "HTTP Error 403: Forbidden",
+      "checkedAt": "2026-11-05T13:50:55.695193+00:00"
+    },
+    {
+      "url": "https://www.observatorioreligion.es/directorio-lugares-culto/",
+      "status": 200,
+      "resolvedUrl": "https://observatorioreligion.es/directorio/",
+      "title": "Directorio de lugares de culto en España - Observatorio del Pluralismo religioso",
+      "checkedAt": "2026-11-05T13:50:57.833687+00:00"
+    },
+    {
+      "url": "https://www.oepm.es/es/sobre-OEPM/estadisticas/",
+      "status": 200,
+      "resolvedUrl": "https://www.oepm.es/es/sobre-OEPM/estadisticas/",
+      "title": "Portal OEPM",
+      "checkedAt": "2026-11-05T13:50:56.135160+00:00"
+    },
+    {
+      "url": "https://www.ont.es/",
+      "status": 200,
+      "resolvedUrl": "https://www.ont.es/",
+      "title": "La Organización Nacional de Trasplantes - Organización Nacional de Trasplantes",
+      "checkedAt": "2026-11-05T13:50:58.575750+00:00"
+    },
+    {
+      "url": "https://www.ontsi.es/",
+      "status": 200,
+      "resolvedUrl": "https://www.ontsi.es/es",
+      "title": "Home | Ontsi - Red.es",
+      "checkedAt": "2026-11-05T13:50:55.903125+00:00"
+    },
+    {
+      "url": "https://www.opendatabizkaia.eus/",
+      "status": 200,
+      "resolvedUrl": "https://www.opendatabizkaia.eus/",
+      "title": "Open Data Bizkaia",
+      "checkedAt": "2026-11-05T13:50:56.099680+00:00"
+    },
+    {
+      "url": "https://www.opendatalapalma.es/",
+      "status": 200,
+      "resolvedUrl": "https://www.opendatalapalma.es/",
+      "title": "Open Data La Palma",
+      "checkedAt": "2026-11-05T13:50:56.719063+00:00"
+    },
+    {
+      "url": "https://www.pap.hacienda.gob.es/invente2/PagMenuPrincipalV2.aspx?Entorno=2",
+      "status": 200,
+      "resolvedUrl": "https://www.pap.hacienda.gob.es/invente2/PagMenuPrincipalV2.aspx?Entorno=2",
+      "title": "Inventario de entes del sector público",
+      "checkedAt": "2026-11-05T13:51:02.665806+00:00"
+    },
+    {
+      "url": "https://www.poderjudicial.es/cgpj/es/Temas/Estadistica-Judicial/",
+      "status": 200,
+      "resolvedUrl": "https://www.poderjudicial.es/cgpj/es/Temas/Estadistica-Judicial/",
+      "title": "Estadística Judicial | CGPJ | Temas",
+      "checkedAt": "2026-11-05T13:50:57.842228+00:00"
+    },
+    {
+      "url": "https://www.puertos.es/",
+      "status": 200,
+      "resolvedUrl": "https://www.puertos.es/",
+      "title": "Inicio | Puertos del Estado",
+      "checkedAt": "2026-11-05T13:50:57.993102+00:00"
+    },
+    {
+      "url": "https://www.sadei.es/",
+      "status": 200,
+      "resolvedUrl": "https://www.sadei.es/inicio",
+      "title": "Inicio - Sociedad Asturiana de Estudios Econ&oacute;micos e Industriales",
+      "checkedAt": "2026-11-05T13:50:58.666025+00:00"
+    },
+    {
+      "url": "https://www.sanidad.gob.es/estadEstudios/",
+      "status": 200,
+      "resolvedUrl": "https://www.sanidad.gob.es/estadEstudios/",
+      "title": "Ministerio de Sanidad - Portal Estadístico del SNS",
+      "checkedAt": "2026-11-05T13:50:58.071912+00:00"
+    },
+    {
+      "url": "https://www.seg-social.es/wps/portal/wss/internet/EstadisticasPresupuestosEstudios",
+      "status": 200,
+      "resolvedUrl": "https://www.seg-social.es/wps/portal/wss/internet/EstadisticasPresupuestosEstudios",
+      "title": "Seguridad Social: Estadísticas, Presupuestos y Estudios",
+      "checkedAt": "2026-11-05T13:50:58.721036+00:00"
+    },
+    {
+      "url": "https://www.segittur.es/",
+      "status": 200,
+      "resolvedUrl": "https://www.segittur.es/",
+      "title": "INICIO - SEGITTUR",
+      "checkedAt": "2026-11-05T13:50:59.960998+00:00"
+    },
+    {
+      "url": "https://www.senado.es/web/relacionesciudadanos/datosabiertos/informaciodatosabiertos/index.html?lang=es_ES",
+      "status": 200,
+      "resolvedUrl": "https://www.senado.es/web/relacionesciudadanos/datosabiertos/informaciodatosabiertos/index.html?lang=es_ES",
+      "title": "Información general | Senado de España",
+      "checkedAt": "2026-11-05T13:50:58.768536+00:00"
+    },
+    {
+      "url": "https://www.sepe.es/HomeSepe/que-es-el-sepe/estadisticas.html",
+      "status": 200,
+      "resolvedUrl": "https://www.sepe.es/HomeSepe/que-es-el-sepe/estadisticas.html",
+      "title": "Estadísticas",
+      "checkedAt": "2026-11-05T13:50:59.010756+00:00"
+    },
+    {
+      "url": "https://www.tesoro.es/",
+      "status": 200,
+      "resolvedUrl": "https://www.tesoro.es/",
+      "title": "Inicio - Tesoro - Elijo Tesoro",
+      "checkedAt": "2026-11-05T13:50:59.383474+00:00"
+    },
+    {
+      "url": "https://www.transportes.gob.es/",
+      "status": 403,
+      "error": "HTTP Error 403: Forbidden",
+      "checkedAt": "2026-11-05T13:50:59.030657+00:00"
+    },
+    {
+      "url": "https://www.universidata.es/",
+      "status": 200,
+      "resolvedUrl": "https://www.universidata.es/",
+      "title": "UniversiDATA | El portal de los DATOS abiertos sobre educación superior",
+      "checkedAt": "2026-11-05T13:50:59.475401+00:00"
+    },
+    {
+      "url": "https://www.uragentzia.euskadi.eus/",
+      "status": 200,
+      "resolvedUrl": "https://www.uragentzia.euskadi.eus/hasiera/",
+      "title": "URA - Uraren Euskal Agentzia",
+      "checkedAt": "2026-11-05T13:51:00.096604+00:00"
+    },
+    {
+      "url": "https://www.utm.csic.es/index.php/es",
+      "status": null,
+      "error": "<urlopen error timed out>",
+      "checkedAt": "2026-11-05T13:51:17.536166+00:00"
+    },
+    {
+      "url": "https://www.zaragoza.es/sede/portal/datos-abiertos/",
+      "status": 200,
+      "resolvedUrl": "https://www.zaragoza.es/sede/portal/espacio-de-datos/",
+      "title": "Espacio de Datos Abiertos. Ayuntamiento de Zaragoza",
+      "checkedAt": "2026-11-05T13:51:02.856578+00:00"
+    }
+  ]
+}
