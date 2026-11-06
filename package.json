@@ -1,6 +1,6 @@
 {
   "name": "el-pais-atlas",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "private": true,
   "type": "module",
   "scripts": {
@@ -10,7 +10,8 @@
     "build": "tsc --noEmit && vite build",
     "preview": "vite preview --host 127.0.0.1",
     "test": "node --test tests/*.test.mjs",
-    "data:refresh": "python scripts/ingest.py --refresh"
+    "data:refresh": "python scripts/ingest.py --refresh",
+    "catalog:build": "python scripts/build_registry.py"
   },
   "dependencies": {
     "lucide": "0.468.0",
