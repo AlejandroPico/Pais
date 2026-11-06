@@ -1,0 +1,2768 @@
+{
+  "schemaVersion": 1,
+  "plannedAt": "2026-11-06",
+  "researchSnapshot": "2026-11-05",
+  "status": "proposal_no_new_layers",
+  "routingMeaning": "Destinos de revisión, no clasificación validada de productos ni confirmación de disponibilidad. F00 reparte los catálogos multitemáticos producto por producto. Los 116236 títulos federados no están clasificados individualmente.",
+  "fascicles": [
+    {
+      "id": "F00",
+      "title": "Base común del catálogo y de la integración",
+      "scope": "- **Contenido:** inventarios de fuentes y productos, categorías, indicadores, dimensiones, licencias, procedencia, cobertura, fechas, estados y actualizaciones. Reparto de los catálogos generales por tema y detección de duplicados.\n- **Fuentes:** datos.gob.es, IOE, Plan Estadístico Nacional, IDEE y catálogos generales estatales, autonómicos y locales. La API INEbase y el IOE se mantendrán como inventarios distintos.\n- **Resultado:** una forma común de incorporar cualquier fuente, un registro de pendientes y una ficha de cobertura por fascículo. No requiere descargar todos los datos para abrir la web.",
+      "dependsOn": []
+    },
+    {
+      "id": "F01",
+      "title": "Territorio, cartografía y mapa base",
+      "scope": "- **Contenido:** relieve, ortofoto, callejero, costa terrestre, límites del país, comunidades, provincias, municipios, entidades de población, secciones y otras divisiones publicadas; direcciones, edificios y parcelas públicas no protegidas. Comarcas y divisiones insulares según la autoridad competente.\n- **Fuentes:** IGN/CNIG, CartoCiudad, Catastro y fuentes catastrales competentes, institutos cartográficos y geoportales autonómicos, entidades locales y GISCO cuando aporte correspondencias útiles.\n- **Integración:** jerarquía de límites distinguible, búsqueda y selección territorial, niveles adecuados al zoom y versiones temporales de las geometrías. España como protagonista, incluyendo islas, Ceuta y Melilla; contexto vecino atenuado. La geometría de una parcela no incorpora automáticamente información protegida de sus titulares.",
+      "dependsOn": [
+        "F00"
+      ]
+    },
+    {
+      "id": "F02",
+      "title": "Población, hogares y migraciones",
+      "scope": "- **Contenido:** censos y padrón, población residente, estructura por edad y sexo, nacionalidad, lugar de nacimiento, hogares y familias, nacimientos, defunciones, matrimonios, fecundidad, movimientos migratorios y despoblación; extranjería y protección internacional según su definición.\n- **Fuentes:** INE, Observatorio Permanente de la Inmigración, Interior y estadísticas autonómicas y locales; Eurostat para productos comparables o complementarios.\n- **Integración:** series y pirámides territoriales, densidades con superficie identificada, cambios demográficos e históricos completos disponibles. Las estadísticas administrativas de residencia o asilo no se confundirán con los recuentos de población.",
+      "dependsOn": [
+        "F00",
+        "F01"
+      ]
+    },
+    {
+      "id": "F03",
+      "title": "Renta, pobreza, consumo y condiciones de vida",
+      "scope": "- **Contenido:** renta personal y de hogares, distribución, desigualdad, pobreza y privación, gasto familiar, consumo, equipamiento de hogares, uso del tiempo, calidad de vida, hábitos y percepciones sociales con cobertura territorial publicada.\n- **Fuentes:** INE, AEAT, CIS, servicios de consumo, institutos autonómicos y observatorios locales; Eurostat y OCDE cuando proceda.\n- **Integración:** indicadores comparables por territorio y año, distinguiendo renta bruta/neta, persona/hogar, media/mediana y resultados de encuestas. No se ubicarán respuestas individuales en el mapa.",
+      "dependsOn": [
+        "F00",
+        "F01"
+      ]
+    },
+    {
+      "id": "F04",
+      "title": "Trabajo, empleo, salarios y relaciones laborales",
+      "scope": "- **Contenido:** actividad, ocupación, paro, contratos, afiliación, salarios y costes laborales, autónomos, empleo público y privado, negociación colectiva, huelgas, expedientes laborales, accidentes, enfermedades profesionales y garantías salariales.\n- **Fuentes:** INE, Trabajo, SEPE, Seguridad Social, INSST, FOGASA y servicios autonómicos de empleo; OIT y Eurostat como complemento temático.\n- **Integración:** separar paro registrado y estimaciones de encuestas, residencia del trabajador y ubicación del empleo; enlazar profesiones, sectores y colectivos cuando el producto lo permita.",
+      "dependsOn": [
+        "F00",
+        "F01"
+      ]
+    },
+    {
+      "id": "F05",
+      "title": "Pensiones, protección social, cuidados e igualdad",
+      "scope": "- **Contenido:** pensiones, prestaciones contributivas y no contributivas, desempleo protegido, ingreso mínimo, dependencia, discapacidad, residencias, servicios sociales, infancia, juventud, envejecimiento, igualdad y violencia de género.\n- **Fuentes:** Seguridad Social, SEPE, IMSERSO, Derechos Sociales, organismos de igualdad, mujeres, infancia y juventud; sistemas autonómicos y locales.\n- **Integración:** prestaciones, beneficiarios, cuantías y equipamientos como medidas distintas; indicadores por colectivos sin duplicar personas entre programas. Relacionar con población, empleo y salud mediante enlaces entre categorías.",
+      "dependsOn": [
+        "F00",
+        "F01"
+      ]
+    },
+    {
+      "id": "F06",
+      "title": "Vivienda, suelo y organización urbana",
+      "scope": "- **Contenido:** parque de viviendas, alquiler, compraventa, precios, tasaciones, hipotecas, vivienda protegida, construcción, rehabilitación, suelo, planeamiento, usos urbanos, vulnerabilidad residencial y equipamientos de proximidad.\n- **Fuentes:** Vivienda y Agenda Urbana, INE, Catastro, administraciones urbanísticas autonómicas y locales y estadísticas públicas relacionadas.\n- **Integración:** precios de oferta, alquiler declarado, transmisiones y tasaciones se consultarán bajo conceptos separados. El planeamiento conservará su vigencia y fuente; una capa informativa no se presentará como certificación urbanística.",
+      "dependsOn": [
+        "F00",
+        "F01"
+      ]
+    },
+    {
+      "id": "F07",
+      "title": "Economía, empresas, industria y producción",
+      "scope": "- **Contenido:** PIB, valor añadido, cuentas económicas territoriales, productividad, tejido empresarial, establecimientos, demografía y tamaño de empresas, producción industrial, minería no energética, actividad y estructura de servicios, economía social e internacionalización empresarial.\n- **Fuentes:** INE, Industria, Trabajo, AEAT y estadística autonómica y local; Eurostat y OCDE por producto.\n- **Integración:** clasificaciones de actividad y sus versiones; sede de empresa y centro productivo diferenciados. Los importes corrientes, los volúmenes y los índices tendrán unidades y bases explícitas.",
+      "dependsOn": [
+        "F00",
+        "F01"
+      ]
+    },
+    {
+      "id": "F08",
+      "title": "Precios, comercio, finanzas y seguros",
+      "scope": "- **Contenido:** índices de precios, inflación, comercio interior y exterior, inversión exterior, crédito, depósitos, oficinas, financiación, mercados y valores, seguros y fondos de pensiones privados; productos regulados como juego y tabaco según el contenido publicado.\n- **Fuentes:** INE, Comercio —DataComex/DataInvex—, AEAT, Banco de España, CNMV, DGSFP, CNMC, Tesoro, DGOJ y Comisionado del Tabaco; BCE y Eurostat.\n- **Integración:** precios específicos de vivienda, energía o agricultura tendrán una sola ficha canónica, enlazada desde sus temas. Las series financieras exclusivamente nacionales se mostrarán como contexto de España.",
+      "dependsOn": [
+        "F00",
+        "F01"
+      ]
+    },
+    {
+      "id": "F09",
+      "title": "Hacienda, presupuestos, fiscalidad y deuda pública",
+      "scope": "- **Contenido:** ingresos, impuestos, recaudación, presupuestos y ejecución, gasto por función, déficit, deuda, financiación autonómica y local, cuentas del sector público y evaluación fiscal.\n- **Fuentes:** Hacienda, AEAT, IGAE, AIReF, Tesoro, Banco de España y haciendas autonómicas, forales y locales.\n- **Integración:** distinguir presupuesto aprobado y ejecutado, nivel de administración y consolidación. La ubicación de un organismo no se confundirá con el territorio al que beneficia todo su gasto.",
+      "dependsOn": [
+        "F00",
+        "F01"
+      ]
+    },
+    {
+      "id": "F10",
+      "title": "Contratación, subvenciones y proyectos financiados",
+      "scope": "- **Contenido:** licitaciones, contratos, adjudicaciones, lotes, convocatorias y concesiones de ayudas, fondos europeos, proyectos financiados y cooperación al desarrollo en su vertiente pública y agregada.\n- **Fuentes:** PLACSP, BDNS, plataformas autonómicas y locales, organismos concedentes, TED, Kohesio y Cooperación Española. AEI, CDTI y CORDIS se enlazarán con F12.\n- **Integración:** separar anuncio, adjudicación, formalización, modificación, convocatoria, concesión y pago. Geolocalizar solo cuando se conozca el lugar de ejecución o la cobertura real; una sede no equivale al destino de la inversión.",
+      "dependsOn": [
+        "F00",
+        "F01"
+      ]
+    },
+    {
+      "id": "F11",
+      "title": "Educación, formación y universidad",
+      "scope": "- **Contenido:** centros, alumnado, profesorado, enseñanzas, FP, becas, resultados, abandono, formación de adultos, universidades, titulaciones, movilidad e inserción según las publicaciones disponibles.\n- **Fuentes:** EDUCAbase, SIIU, administraciones educativas, universidades públicas y estadísticas autonómicas y locales; INE y Eurostat.\n- **Integración:** centros como puntos y resultados en su escala publicada; cursos académicos diferenciados de años naturales. Conexiones con población, empleo y accesibilidad.",
+      "dependsOn": [
+        "F00",
+        "F01"
+      ]
+    },
+    {
+      "id": "F12",
+      "title": "Ciencia, investigación, innovación y patentes",
+      "scope": "- **Contenido:** I+D, personal y gasto investigador, innovación empresarial, centros e infraestructuras científicas, convocatorias y proyectos, patentes y otras modalidades de propiedad industrial, producción científica y repositorios públicos.\n- **Fuentes:** INE, SICTI, AEI, CDTI, OEPM, CSIC, universidades y CORDIS.\n- **Integración:** proyectos y centros consultables, series territoriales y enlaces a resultados. Los repositorios documentales aportarán metadatos y referencias geográficas cuando existan; no se convertirá cada publicación en un punto inventado ni se copiarán obras sin permiso.",
+      "dependsOn": [
+        "F00",
+        "F01"
+      ]
+    },
+    {
+      "id": "F13",
+      "title": "Salud, sanidad, epidemiología y alimentación saludable",
+      "scope": "- **Contenido:** hospitales y atención primaria, recursos y personal, actividad y listas de espera, gasto, salud y mortalidad, enfermedades, vigilancia epidemiológica, medicamentos, trasplantes, adicciones, seguridad alimentaria y nutrición.\n- **Fuentes:** Sanidad, ISCIII/CNE, AEMPS, ONT, AESAN, OEDA y servicios autonómicos de salud; INE, ECDC y OMS por producto.\n- **Integración:** centros sanitarios y estadísticas agregadas; separar incidencia, prevalencia, tasas y recuentos, así como fechas y definiciones. Los datos suprimidos o no publicados no se reconstruirán como ceros.",
+      "dependsOn": [
+        "F00",
+        "F01"
+      ]
+    },
+    {
+      "id": "F14",
+      "title": "Agricultura, ganadería, pesca, alimentación y medio rural",
+      "scope": "- **Contenido:** cultivos, superficies, rendimientos, calendarios, regadío, explotaciones, cabaña ganadera, producción y precios agrarios, industria y cadena alimentaria, ayudas agrarias, seguros, flota, capturas y acuicultura, desarrollo rural y caminos naturales.\n- **Fuentes:** MAPA, FEGA/SIGPAC, SIAR, SIGA, AICA, ENESA, INE, administraciones autonómicas y FAO. IEO aporta productos científicos vinculados a pesca y F19.\n- **Integración:** campañas, especies, usos y unidades compatibles. Las ayudas se referenciarán también desde F10; los caminos desde F22/F26; las observaciones agroclimáticas desde F17, manteniendo un único producto de origen.",
+      "dependsOn": [
+        "F00",
+        "F01"
+      ]
+    },
+    {
+      "id": "F15",
+      "title": "Naturaleza, biodiversidad, bosques y usos del territorio",
+      "scope": "- **Contenido:** hábitats, especies y observaciones, espacios protegidos, Red Natura, parques, bosques e inventarios forestales, cobertura y uso del suelo, fragmentación, restauración y estado de los ecosistemas.\n- **Fuentes:** MITECO, Parques Nacionales, GBIF.ES, IGN/CNIG, administraciones autonómicas, Copernicus Land, AEMA y JRC.\n- **Integración:** distinguir límites de protección, distribución estimada, observaciones de especies y muestreos. Las versiones y resoluciones de las superficies permitirán evaluar cambios sin comparar productos incompatibles.",
+      "dependsOn": [
+        "F00",
+        "F01"
+      ]
+    },
+    {
+      "id": "F16",
+      "title": "Agua continental, cuencas y acuíferos",
+      "scope": "- **Contenido:** ríos, lagos, humedales, cuencas y demarcaciones, masas superficiales y subterráneas, acuíferos, aforos, embalses, reservas, usos y demandas, abastecimiento, saneamiento, calidad, sequía, planificación e inundabilidad.\n- **Fuentes:** MITECO, todas las confederaciones inventariadas, ACA, URA, Augas de Galicia y administraciones hidráulicas autonómicas e insulares; IGME y sistemas locales relacionados.\n- **Integración:** una categoría común para todas las cuencas, con capas y series de estaciones. Cuenca, demarcación y división administrativa serán ámbitos distintos; cada servicio conservará su fecha y frecuencia.",
+      "dependsOn": [
+        "F00",
+        "F01"
+      ]
+    },
+    {
+      "id": "F17",
+      "title": "Tiempo, clima y cambio climático",
+      "scope": "- **Contenido:** estaciones, observaciones, predicciones, avisos, temperatura, precipitación, viento, nieve y otras variables publicadas, climatologías, extremos, índices, escenarios y proyecciones.\n- **Fuentes:** AEMET, Meteocat, Euskalmet, MeteoGalicia, SIAR y redes oficiales territoriales; Oficina Española de Cambio Climático, Copernicus C3S y JRC.\n- **Integración:** separar observación, predicción y escenario. Tiempo de validez, hora de actualización, periodo climatológico y resolución serán visibles. Las credenciales gratuitas que exija un servicio se gestionarán fuera del código público.",
+      "dependsOn": [
+        "F00",
+        "F01"
+      ]
+    },
+    {
+      "id": "F18",
+      "title": "Geología, suelos y riesgos naturales",
+      "scope": "- **Contenido:** mapas geológicos y edafológicos, litología, geodiversidad, recursos del subsuelo, sismicidad, volcanismo, movimientos del terreno y cartografía de peligrosidad y exposición publicada.\n- **Fuentes:** IGME-CSIC, IGN, geoportales autonómicos, JRC y Copernicus Emergency. Productos de inundación, incendios, sequía y fenómenos meteorológicos se enlazarán con F15–F17.\n- **Integración:** separar sucesos observados, peligrosidad, exposición y riesgo; respetar escala y vigencia. Las delimitaciones de una emergencia no sustituirán a la cartografía permanente del territorio.",
+      "dependsOn": [
+        "F00",
+        "F01"
+      ]
+    },
+    {
+      "id": "F19",
+      "title": "Mar, litoral y oceanografía",
+      "scope": "- **Contenido:** batimetría, cartografía hidrográfica, costa y dominio público, ámbitos marítimos publicados, boyas, oleaje, mareas, corrientes, temperatura, salinidad, hábitats y seguimiento del medio marino.\n- **Fuentes:** Instituto Hidrográfico de la Marina, Puertos del Estado, IEO-CSIC, UTM-CSIC, MITECO, Copernicus Marine y EMODnet.\n- **Integración:** ampliar la consulta a las zonas marinas relacionadas con España según la cobertura oficial de cada producto. Identificar autoridad, fecha y significado de las delimitaciones; no deducir fronteras marítimas a partir de la máscara terrestre.",
+      "dependsOn": [
+        "F00",
+        "F01"
+      ]
+    },
+    {
+      "id": "F20",
+      "title": "Aire, contaminación, residuos y presión ambiental",
+      "scope": "- **Contenido:** estaciones y calidad del aire, emisiones, focos industriales, gases de efecto invernadero, ruido, residuos, reciclaje, instalaciones de tratamiento, suelos contaminados, indicadores ambientales y vigilancia radiológica pública.\n- **Fuentes:** MITECO, PRTR, CSN, redes autonómicas y locales, AEMA, Copernicus CAMS e INE.\n- **Integración:** distinguir emisiones y concentraciones, mediciones y modelos, instalaciones y áreas afectadas. Separar fecha de medición, validación y publicación; vincular actividad industrial con F07 y energía con F21.",
+      "dependsOn": [
+        "F00",
+        "F01"
+      ]
+    },
+    {
+      "id": "F21",
+      "title": "Energía y recursos energéticos",
+      "scope": "- **Contenido:** generación, potencia y tecnologías, instalaciones y redes publicadas, demanda, consumo, renovables, hidrocarburos, gas, reservas, eficiencia, precios y puntos de suministro, gasolineras y recarga según la cobertura ofrecida.\n- **Fuentes:** MITECO, IDAE, CORES, CNMC y administraciones territoriales. REData/eSIOS y Enagás permanecerán identificados como operadores complementarios del núcleo oficial.\n- **Integración:** separar potencia y energía, producción y consumo, series reales y estimaciones. Infraestructuras y mercados se vincularán sin atribuir a cada municipio datos que solo existan por sistema eléctrico o a escala nacional.",
+      "dependsOn": [
+        "F00",
+        "F01"
+      ]
+    },
+    {
+      "id": "F22",
+      "title": "Transporte, movilidad, redes y logística",
+      "scope": "- **Contenido:** carreteras y caminos, ferrocarril de todas las clases publicadas, estaciones, servicios, transporte colectivo, horarios y paradas, tráfico y movilidad, vehículos y siniestralidad, aeropuertos, espacio e información aeronáutica pública, puertos, mercancías, faros y ayudas a la navegación.\n- **Fuentes:** IGN, Transportes/OTLE y Punto de Acceso Nacional, DGT, Adif, Renfe, Aena, ENAIRE, Puertos del Estado y autoridades/operadores públicos territoriales.\n- **Integración:** diferenciar infraestructura, servicio, frecuencia y uso; una vía dibujada no asegura servicio activo. Completar cada inventario dentro de su cobertura, con estado y fechas cuando existan. Senderos y rutas tendrán enlaces a F14, F24 y F26.",
+      "dependsOn": [
+        "F00",
+        "F01"
+      ]
+    },
+    {
+      "id": "F23",
+      "title": "Conectividad, telecomunicaciones y sociedad digital",
+      "scope": "- **Contenido:** cobertura de banda ancha y móvil, infraestructuras públicas o publicables, despliegue, servicios de comunicaciones, acceso y uso de internet, equipamiento TIC, competencias y brecha digital, digitalización de empresas y administraciones.\n- **Fuentes:** Secretaría de Estado de Telecomunicaciones/Conectemos, Red.es/ONTSI, CNMC, INE y administraciones autonómicas y locales.\n- **Integración:** diferenciar cobertura declarada, disponibilidad comercial, contratación y uso observado. Cada malla o área conservará su resolución, tecnología, fecha y condición de medición.",
+      "dependsOn": [
+        "F00",
+        "F01"
+      ]
+    },
+    {
+      "id": "F24",
+      "title": "Turismo, destinos y alojamientos",
+      "scope": "- **Contenido:** visitantes, viajes, gasto, ocupación, alojamientos y registros turísticos, empleo turístico, estacionalidad, destinos, recursos y rutas turísticas oficiales.\n- **Fuentes:** INE, Turespaña, SEGITTUR y registros y observatorios autonómicos y locales.\n- **Integración:** separar origen del viajero y destino, turista y excursionista, plazas y pernoctaciones. Los recursos culturales, naturales o de transporte se referenciarán sin volver a importar el mismo objeto.",
+      "dependsOn": [
+        "F00",
+        "F01"
+      ]
+    },
+    {
+      "id": "F25",
+      "title": "Cultura, patrimonio, archivos, memoria y diversidad religiosa",
+      "scope": "- **Contenido:** bienes patrimoniales, museos, bibliotecas, archivos, artes y actividades culturales, industrias y empleo cultural, hábitos y participación, patrimonio documental, lugares de memoria, fosas y centros de culto publicados.\n- **Fuentes:** CULTURABase, BNE, PARES, IPCE, Memoria Democrática, Observatorio del Pluralismo Religioso y administraciones territoriales.\n- **Integración:** puntos, recintos, estadísticas y referencias documentales según el producto. Ubicar documentos históricos solo cuando tengan referencia geográfica justificable y conservar fechas y derechos de cada recurso.",
+      "dependsOn": [
+        "F00",
+        "F01"
+      ]
+    },
+    {
+      "id": "F26",
+      "title": "Deporte, ocio y actividades al aire libre",
+      "scope": "- **Contenido:** instalaciones deportivas, licencias, clubes, práctica, empleo y gasto deportivo, competiciones y actividades publicadas, senderos y grandes recorridos, itinerarios recreativos y equipamientos de ocio.\n- **Fuentes:** CSD/DEPORTEData, administraciones deportivas autonómicas y locales, IGN y MAPA para redes de caminos, y gestores públicos de espacios naturales.\n- **Integración:** separar recorridos oficiales, señalización y accesibilidad publicada. Las condiciones de uso conservarán fecha y entidad responsable. Las rutas turísticas y los caminos compartidos serán referencias al mismo objeto de F14/F22/F24.",
+      "dependsOn": [
+        "F00",
+        "F01"
+      ]
+    },
+    {
+      "id": "F27",
+      "title": "Elecciones y representación política",
+      "scope": "- **Contenido:** resultados, participación, censo electoral en su escala pública, candidaturas, escaños, composición y actividad representativa de las cámaras, y elecciones estatales, europeas, autonómicas y locales con datos oficiales.\n- **Fuentes:** Interior/Infoelectoral, autoridades electorales competentes, administraciones autonómicas, Congreso, Senado y cámaras territoriales.\n- **Integración:** separar procesos, convocatorias, resultados provisionales y definitivos. Las series históricas preservarán cambios de circunscripción, candidaturas y reglas; no se asumirá que un nombre de partido mantiene siempre la misma entidad histórica.",
+      "dependsOn": [
+        "F00",
+        "F01"
+      ]
+    },
+    {
+      "id": "F28",
+      "title": "Administración, organización territorial y normativa",
+      "scope": "- **Contenido:** entidades locales, organismos y unidades administrativas, sedes y servicios, estructura del sector público, personal y empleo público, transparencia, disposiciones, normativa y referencias territoriales publicadas.\n- **Fuentes:** Registro de Entidades Locales, DIR3, Función Pública, INVENTE, Portal de Transparencia, BOE y boletines y registros autonómicos y locales.\n- **Integración:** directorio institucional con sus relaciones y vigencias, enlazado a presupuestos, contratación y servicios. La sede de una entidad no se confundirá con su ámbito competencial; la normativa será información contextual salvo que tenga una geometría publicada.",
+      "dependsOn": [
+        "F00",
+        "F01"
+      ]
+    },
+    {
+      "id": "F29",
+      "title": "Justicia, seguridad, emergencias y defensa pública",
+      "scope": "- **Contenido:** órganos y demarcaciones judiciales, actividad judicial y fiscal, criminalidad agregada, instituciones penitenciarias, protección civil y recursos de emergencias publicables, y estadísticas abiertas de defensa.\n- **Fuentes:** CGPJ, Fiscalía, Interior, Instituciones Penitenciarias, Defensa y autoridades autonómicas y locales. Violencia de género se enlaza con F05; protección internacional con F02; riesgos naturales con F18.\n- **Integración:** conservar demarcaciones y definiciones de cada sistema. Distinguir denuncias, hechos registrados, procedimientos y sentencias; no construir localizaciones individuales a partir de estadísticas agregadas.",
+      "dependsOn": [
+        "F00",
+        "F01"
+      ]
+    }
+  ],
+  "sourceRoutes": [
+    {
+      "sourceId": "F001",
+      "name": "datos.gob.es · Iniciativa Aporta",
+      "url": "https://datos.gob.es/es/apidata",
+      "sourceGroup": "Inventarios que permiten descubrir más fuentes",
+      "mode": "catalogue_discovery",
+      "candidateFascicles": [
+        "F00"
+      ],
+      "status": "planned_not_integrated",
+      "complementaryOperator": false
+    },
+    {
+      "sourceId": "F002",
+      "name": "INE · Inventario de Operaciones Estadísticas",
+      "url": "https://www.ine.es/dyngs/IOE/index.htm",
+      "sourceGroup": "Inventarios que permiten descubrir más fuentes",
+      "mode": "catalogue_discovery",
+      "candidateFascicles": [
+        "F00"
+      ],
+      "status": "planned_not_integrated",
+      "complementaryOperator": false
+    },
+    {
+      "sourceId": "F003",
+      "name": "INE · Plan Estadístico Nacional",
+      "url": "https://www.ine.es/dyngs/IOE/consultaPlan.htm?cid=9",
+      "sourceGroup": "Inventarios que permiten descubrir más fuentes",
+      "mode": "catalogue_discovery",
+      "candidateFascicles": [
+        "F00"
+      ],
+      "status": "planned_not_integrated",
+      "complementaryOperator": false
+    },
+    {
+      "sourceId": "F004",
+      "name": "IGN · Infraestructura de Datos Espaciales de España",
+      "url": "https://www.idee.es/segun-tipo-de-servicio",
+      "sourceGroup": "Inventarios que permiten descubrir más fuentes",
+      "mode": "catalogue_discovery",
+      "candidateFascicles": [
+        "F00"
+      ],
+      "status": "planned_not_integrated",
+      "complementaryOperator": false
+    },
+    {
+      "sourceId": "F005",
+      "name": "Instituto Nacional de Estadística · INEbase",
+      "url": "https://www.ine.es/inebmenu/indice.htm",
+      "sourceGroup": "Estadística general, población, sociedad y economía",
+      "mode": "multithematic_product_review",
+      "candidateFascicles": [
+        "F00"
+      ],
+      "status": "planned_not_integrated",
+      "complementaryOperator": false
+    },
+    {
+      "sourceId": "F006",
+      "name": "Instituto Geográfico Nacional y CNIG",
+      "url": "https://www.ign.es/web/ide-area-nodo-ide-ign",
+      "sourceGroup": "Cartografía, relieve, direcciones, parcelas y subsuelo",
+      "mode": "thematic_product_review",
+      "candidateFascicles": [
+        "F01",
+        "F15",
+        "F22",
+        "F26"
+      ],
+      "status": "planned_not_integrated",
+      "complementaryOperator": false
+    },
+    {
+      "sourceId": "F007",
+      "name": "IGN · CartoCiudad",
+      "url": "https://www.cartociudad.es/web/portal/directorio-de-servicios/descarga",
+      "sourceGroup": "Cartografía, relieve, direcciones, parcelas y subsuelo",
+      "mode": "thematic_product_review",
+      "candidateFascicles": [
+        "F01",
+        "F22"
+      ],
+      "status": "planned_not_integrated",
+      "complementaryOperator": false
+    },
+    {
+      "sourceId": "F008",
+      "name": "Dirección General del Catastro",
+      "url": "https://www.catastro.hacienda.gob.es/es-ES/datos_abiertos.html",
+      "sourceGroup": "Cartografía, relieve, direcciones, parcelas y subsuelo",
+      "mode": "thematic_product_review",
+      "candidateFascicles": [
+        "F01",
+        "F06",
+        "F09"
+      ],
+      "status": "planned_not_integrated",
+      "complementaryOperator": false
+    },
+    {
+      "sourceId": "F009",
+      "name": "IGME-CSIC",
+      "url": "https://www.igme.es/datos-y-mapas/",
+      "sourceGroup": "Cartografía, relieve, direcciones, parcelas y subsuelo",
+      "mode": "thematic_product_review",
+      "candidateFascicles": [
+        "F18",
+        "F16",
+        "F21"
+      ],
+      "status": "planned_not_integrated",
+      "complementaryOperator": false
+    },
+    {
+      "sourceId": "F010",
+      "name": "IGN · Sismología y volcanología",
+      "url": "https://www.ign.es/web/ign/portal/sis-area-sismicidad",
+      "sourceGroup": "Cartografía, relieve, direcciones, parcelas y subsuelo",
+      "mode": "thematic_product_review",
+      "candidateFascicles": [
+        "F18"
+      ],
+      "status": "planned_not_integrated",
+      "complementaryOperator": false
+    },
+    {
+      "sourceId": "F011",
+      "name": "Instituto Hidrográfico de la Marina · IDEIHM",
+      "url": "https://ideihm.covam.es/portal/",
+      "sourceGroup": "Cartografía, relieve, direcciones, parcelas y subsuelo",
+      "mode": "thematic_product_review",
+      "candidateFascicles": [
+        "F19",
+        "F22"
+      ],
+      "status": "planned_not_integrated",
+      "complementaryOperator": false
+    },
+    {
+      "sourceId": "F012",
+      "name": "MITECO · Dirección General del Agua",
+      "url": "https://www.miteco.gob.es/es/agua.html",
+      "sourceGroup": "Agua continental, cuencas, calidad y riesgos hidrológicos",
+      "mode": "thematic_product_review",
+      "candidateFascicles": [
+        "F16",
+        "F18"
+      ],
+      "status": "planned_not_integrated",
+      "complementaryOperator": false
+    },
+    {
+      "sourceId": "F013",
+      "name": "Confederación Hidrográfica del Cantábrico",
+      "url": "https://www.chcantabrico.es/",
+      "sourceGroup": "Agua continental, cuencas, calidad y riesgos hidrológicos",
+      "mode": "thematic_product_review",
+      "candidateFascicles": [
+        "F16"
+      ],
+      "status": "planned_not_integrated",
+      "complementaryOperator": false
+    },
+    {
+      "sourceId": "F014",
+      "name": "Confederación Hidrográfica del Duero",
+      "url": "https://www.chduero.es/",
+      "sourceGroup": "Agua continental, cuencas, calidad y riesgos hidrológicos",
+      "mode": "thematic_product_review",
+      "candidateFascicles": [
+        "F16"
+      ],
+      "status": "planned_not_integrated",
+      "complementaryOperator": false
+    },
+    {
+      "sourceId": "F015",
+      "name": "Confederación Hidrográfica del Ebro",
+      "url": "https://www.chebro.es/",
+      "sourceGroup": "Agua continental, cuencas, calidad y riesgos hidrológicos",
+      "mode": "thematic_product_review",
+      "candidateFascicles": [
+        "F16"
+      ],
+      "status": "planned_not_integrated",
+      "complementaryOperator": false
+    },
+    {
+      "sourceId": "F016",
+      "name": "Confederación Hidrográfica del Tajo",
+      "url": "https://www.chtajo.es/",
+      "sourceGroup": "Agua continental, cuencas, calidad y riesgos hidrológicos",
+      "mode": "thematic_product_review",
+      "candidateFascicles": [
+        "F16"
+      ],
+      "status": "planned_not_integrated",
+      "complementaryOperator": false
+    },
+    {
+      "sourceId": "F017",
+      "name": "Confederación Hidrográfica del Guadiana",
+      "url": "https://www.chguadiana.es/",
+      "sourceGroup": "Agua continental, cuencas, calidad y riesgos hidrológicos",
+      "mode": "thematic_product_review",
+      "candidateFascicles": [
+        "F16"
+      ],
+      "status": "planned_not_integrated",
+      "complementaryOperator": false
+    },
+    {
+      "sourceId": "F018",
+      "name": "Confederación Hidrográfica del Guadalquivir",
+      "url": "https://www.chguadalquivir.es/",
+      "sourceGroup": "Agua continental, cuencas, calidad y riesgos hidrológicos",
+      "mode": "thematic_product_review",
+      "candidateFascicles": [
+        "F16"
+      ],
+      "status": "planned_not_integrated",
+      "complementaryOperator": false
+    },
+    {
+      "sourceId": "F019",
+      "name": "Confederación Hidrográfica del Júcar",
+      "url": "https://www.chj.es/",
+      "sourceGroup": "Agua continental, cuencas, calidad y riesgos hidrológicos",
+      "mode": "thematic_product_review",
+      "candidateFascicles": [
+        "F16"
+      ],
+      "status": "planned_not_integrated",
+      "complementaryOperator": false
+    },
+    {
+      "sourceId": "F020",
+      "name": "Confederación Hidrográfica del Segura",
+      "url": "https://www.chsegura.es/",
+      "sourceGroup": "Agua continental, cuencas, calidad y riesgos hidrológicos",
+      "mode": "thematic_product_review",
+      "candidateFascicles": [
+        "F16"
+      ],
+      "status": "planned_not_integrated",
+      "complementaryOperator": false
+    },
+    {
+      "sourceId": "F021",
+      "name": "Confederación Hidrográfica del Miño-Sil",
+      "url": "https://www.chminosil.es/",
+      "sourceGroup": "Agua continental, cuencas, calidad y riesgos hidrológicos",
+      "mode": "thematic_product_review",
+      "candidateFascicles": [
+        "F16"
+      ],
+      "status": "planned_not_integrated",
+      "complementaryOperator": false
+    },
+    {
+      "sourceId": "F022",
+      "name": "Agència Catalana de l'Aigua",
+      "url": "https://aca.gencat.cat/",
+      "sourceGroup": "Agua continental, cuencas, calidad y riesgos hidrológicos",
+      "mode": "thematic_product_review",
+      "candidateFascicles": [
+        "F16"
+      ],
+      "status": "planned_not_integrated",
+      "complementaryOperator": false
+    },
+    {
+      "sourceId": "F023",
+      "name": "URA · Agencia Vasca del Agua",
+      "url": "https://www.uragentzia.euskadi.eus/",
+      "sourceGroup": "Agua continental, cuencas, calidad y riesgos hidrológicos",
+      "mode": "thematic_product_review",
+      "candidateFascicles": [
+        "F16"
+      ],
+      "status": "planned_not_integrated",
+      "complementaryOperator": false
+    },
+    {
+      "sourceId": "F024",
+      "name": "Augas de Galicia",
+      "url": "https://augasdegalicia.xunta.gal/",
+      "sourceGroup": "Agua continental, cuencas, calidad y riesgos hidrológicos",
+      "mode": "thematic_product_review",
+      "candidateFascicles": [
+        "F16"
+      ],
+      "status": "planned_not_integrated",
+      "complementaryOperator": false
+    },
+    {
+      "sourceId": "F025",
+      "name": "Administraciones hidráulicas autonómicas e insulares",
+      "url": "https://www.miteco.gob.es/es/cartografia-y-sig/ide/enlace_interes/ides-oocc.html",
+      "sourceGroup": "Agua continental, cuencas, calidad y riesgos hidrológicos",
+      "mode": "thematic_product_review",
+      "candidateFascicles": [
+        "F16"
+      ],
+      "status": "planned_not_integrated",
+      "complementaryOperator": false
+    },
+    {
+      "sourceId": "F026",
+      "name": "AEMET",
+      "url": "https://opendata.aemet.es/centrodedescargas/inicio",
+      "sourceGroup": "Clima, aire, contaminación, biodiversidad y bosques",
+      "mode": "thematic_product_review",
+      "candidateFascicles": [
+        "F17"
+      ],
+      "status": "planned_not_integrated",
+      "complementaryOperator": false
+    },
+    {
+      "sourceId": "F027",
+      "name": "Servei Meteorològic de Catalunya · Meteocat",
+      "url": "https://www.meteo.cat/wpweb/serveis/dades-obertes/",
+      "sourceGroup": "Clima, aire, contaminación, biodiversidad y bosques",
+      "mode": "thematic_product_review",
+      "candidateFascicles": [
+        "F17"
+      ],
+      "status": "planned_not_integrated",
+      "complementaryOperator": false
+    },
+    {
+      "sourceId": "F028",
+      "name": "Euskalmet",
+      "url": "https://www.euskalmet.euskadi.eus/servicios/open-data/",
+      "sourceGroup": "Clima, aire, contaminación, biodiversidad y bosques",
+      "mode": "thematic_product_review",
+      "candidateFascicles": [
+        "F17"
+      ],
+      "status": "planned_not_integrated",
+      "complementaryOperator": false
+    },
+    {
+      "sourceId": "F029",
+      "name": "MeteoGalicia",
+      "url": "https://www.meteogalicia.gal/",
+      "sourceGroup": "Clima, aire, contaminación, biodiversidad y bosques",
+      "mode": "thematic_product_review",
+      "candidateFascicles": [
+        "F17"
+      ],
+      "status": "planned_not_integrated",
+      "complementaryOperator": false
+    },
+    {
+      "sourceId": "F030",
+      "name": "MITECO · Patrimonio natural, biodiversidad y bosques",
+      "url": "https://www.miteco.gob.es/es/cartografia-y-sig/ide/directorio_datos_servicios/biodiversidad.html",
+      "sourceGroup": "Clima, aire, contaminación, biodiversidad y bosques",
+      "mode": "thematic_product_review",
+      "candidateFascicles": [
+        "F15",
+        "F18"
+      ],
+      "status": "planned_not_integrated",
+      "complementaryOperator": false
+    },
+    {
+      "sourceId": "F031",
+      "name": "Organismo Autónomo Parques Nacionales",
+      "url": "https://www.miteco.gob.es/es/parques-nacionales-oapn.html",
+      "sourceGroup": "Clima, aire, contaminación, biodiversidad y bosques",
+      "mode": "thematic_product_review",
+      "candidateFascicles": [
+        "F15",
+        "F26"
+      ],
+      "status": "planned_not_integrated",
+      "complementaryOperator": false
+    },
+    {
+      "sourceId": "F032",
+      "name": "MITECO · Calidad y evaluación ambiental",
+      "url": "https://www.miteco.gob.es/es/calidad-y-evaluacion-ambiental.html",
+      "sourceGroup": "Clima, aire, contaminación, biodiversidad y bosques",
+      "mode": "thematic_product_review",
+      "candidateFascicles": [
+        "F20"
+      ],
+      "status": "planned_not_integrated",
+      "complementaryOperator": false
+    },
+    {
+      "sourceId": "F033",
+      "name": "MITECO · PRTR-España",
+      "url": "https://prtr-es.miteco.gob.es/",
+      "sourceGroup": "Clima, aire, contaminación, biodiversidad y bosques",
+      "mode": "thematic_product_review",
+      "candidateFascicles": [
+        "F20",
+        "F07"
+      ],
+      "status": "planned_not_integrated",
+      "complementaryOperator": false
+    },
+    {
+      "sourceId": "F034",
+      "name": "MITECO · Oficina Española de Cambio Climático",
+      "url": "https://www.miteco.gob.es/es/cambio-climatico.html",
+      "sourceGroup": "Clima, aire, contaminación, biodiversidad y bosques",
+      "mode": "thematic_product_review",
+      "candidateFascicles": [
+        "F17",
+        "F20"
+      ],
+      "status": "planned_not_integrated",
+      "complementaryOperator": false
+    },
+    {
+      "sourceId": "F035",
+      "name": "CSIC · Nodo nacional GBIF.ES",
+      "url": "https://gbif.es/portal-nacional-de-datos/",
+      "sourceGroup": "Clima, aire, contaminación, biodiversidad y bosques",
+      "mode": "thematic_product_review",
+      "candidateFascicles": [
+        "F15"
+      ],
+      "status": "planned_not_integrated",
+      "complementaryOperator": false
+    },
+    {
+      "sourceId": "F036",
+      "name": "Consejo de Seguridad Nuclear",
+      "url": "https://www.csn.es/",
+      "sourceGroup": "Clima, aire, contaminación, biodiversidad y bosques",
+      "mode": "thematic_product_review",
+      "candidateFascicles": [
+        "F20",
+        "F21"
+      ],
+      "status": "planned_not_integrated",
+      "complementaryOperator": false
+    },
+    {
+      "sourceId": "F037",
+      "name": "Puertos del Estado · Oceanografía",
+      "url": "https://portuscopia.puertos.es/",
+      "sourceGroup": "Mar, litoral, oceanografía y pesca científica",
+      "mode": "thematic_product_review",
+      "candidateFascicles": [
+        "F19"
+      ],
+      "status": "planned_not_integrated",
+      "complementaryOperator": false
+    },
+    {
+      "sourceId": "F038",
+      "name": "Instituto Español de Oceanografía · IEO-CSIC",
+      "url": "https://www.ieo.es/",
+      "sourceGroup": "Mar, litoral, oceanografía y pesca científica",
+      "mode": "thematic_product_review",
+      "candidateFascicles": [
+        "F19",
+        "F14",
+        "F15"
+      ],
+      "status": "planned_not_integrated",
+      "complementaryOperator": false
+    },
+    {
+      "sourceId": "F039",
+      "name": "CSIC · Unidad de Tecnología Marina",
+      "url": "https://www.utm.csic.es/index.php/es",
+      "sourceGroup": "Mar, litoral, oceanografía y pesca científica",
+      "mode": "thematic_product_review",
+      "candidateFascicles": [
+        "F19"
+      ],
+      "status": "planned_not_integrated",
+      "complementaryOperator": false
+    },
+    {
+      "sourceId": "F040",
+      "name": "MITECO · Costa y medio marino",
+      "url": "https://www.miteco.gob.es/es/costas.html",
+      "sourceGroup": "Mar, litoral, oceanografía y pesca científica",
+      "mode": "thematic_product_review",
+      "candidateFascicles": [
+        "F19",
+        "F15"
+      ],
+      "status": "planned_not_integrated",
+      "complementaryOperator": false
+    },
+    {
+      "sourceId": "F041",
+      "name": "Banco de España",
+      "url": "https://www.bde.es/wbe/es/estadisticas/",
+      "sourceGroup": "Hacienda, economía, finanzas, ayudas y contratación",
+      "mode": "thematic_product_review",
+      "candidateFascicles": [
+        "F08",
+        "F09",
+        "F06",
+        "F03"
+      ],
+      "status": "planned_not_integrated",
+      "complementaryOperator": false
+    },
+    {
+      "sourceId": "F042",
+      "name": "Agencia Estatal de Administración Tributaria",
+      "url": "https://sede.agenciatributaria.gob.es/Sede/estadisticas.html",
+      "sourceGroup": "Hacienda, economía, finanzas, ayudas y contratación",
+      "mode": "thematic_product_review",
+      "candidateFascicles": [
+        "F03",
+        "F07",
+        "F08",
+        "F09"
+      ],
+      "status": "planned_not_integrated",
+      "complementaryOperator": false
+    },
+    {
+      "sourceId": "F043",
+      "name": "Ministerio de Hacienda · Información territorial y financiación",
+      "url": "https://www.hacienda.gob.es/es-ES/CDI/Paginas/centraldeinformacion.aspx",
+      "sourceGroup": "Hacienda, economía, finanzas, ayudas y contratación",
+      "mode": "thematic_product_review",
+      "candidateFascicles": [
+        "F09"
+      ],
+      "status": "planned_not_integrated",
+      "complementaryOperator": false
+    },
+    {
+      "sourceId": "F044",
+      "name": "Intervención General de la Administración del Estado",
+      "url": "https://www.igae.pap.hacienda.gob.es/",
+      "sourceGroup": "Hacienda, economía, finanzas, ayudas y contratación",
+      "mode": "thematic_product_review",
+      "candidateFascicles": [
+        "F09"
+      ],
+      "status": "planned_not_integrated",
+      "complementaryOperator": false
+    },
+    {
+      "sourceId": "F045",
+      "name": "IGAE · BDNS / Sistema Nacional de Publicidad de Subvenciones",
+      "url": "https://www.infosubvenciones.es/bdnstrans/doc/swagger",
+      "sourceGroup": "Hacienda, economía, finanzas, ayudas y contratación",
+      "mode": "thematic_product_review",
+      "candidateFascicles": [
+        "F10"
+      ],
+      "status": "planned_not_integrated",
+      "complementaryOperator": false
+    },
+    {
+      "sourceId": "F046",
+      "name": "Dirección General del Patrimonio del Estado · PLACSP",
+      "url": "https://www.hacienda.gob.es/es-ES/GobiernoAbierto/Datos%20Abiertos/Paginas/licitaciones_plataforma_contratacion.aspx",
+      "sourceGroup": "Hacienda, economía, finanzas, ayudas y contratación",
+      "mode": "thematic_product_review",
+      "candidateFascicles": [
+        "F10"
+      ],
+      "status": "planned_not_integrated",
+      "complementaryOperator": false
+    },
+    {
+      "sourceId": "F047",
+      "name": "Autoridad Independiente de Responsabilidad Fiscal · AIReF",
+      "url": "https://www.airef.es/es/datalab/ccll-lab/",
+      "sourceGroup": "Hacienda, economía, finanzas, ayudas y contratación",
+      "mode": "thematic_product_review",
+      "candidateFascicles": [
+        "F09"
+      ],
+      "status": "planned_not_integrated",
+      "complementaryOperator": false
+    },
+    {
+      "sourceId": "F048",
+      "name": "Comisión Nacional de los Mercados y la Competencia",
+      "url": "https://data.cnmc.es/",
+      "sourceGroup": "Hacienda, economía, finanzas, ayudas y contratación",
+      "mode": "thematic_product_review",
+      "candidateFascicles": [
+        "F08",
+        "F21",
+        "F22",
+        "F23"
+      ],
+      "status": "planned_not_integrated",
+      "complementaryOperator": false
+    },
+    {
+      "sourceId": "F049",
+      "name": "Comisión Nacional del Mercado de Valores",
+      "url": "https://www.cnmv.es/portal/Publicaciones/SeriesWeb/Inicio",
+      "sourceGroup": "Hacienda, economía, finanzas, ayudas y contratación",
+      "mode": "thematic_product_review",
+      "candidateFascicles": [
+        "F08"
+      ],
+      "status": "planned_not_integrated",
+      "complementaryOperator": false
+    },
+    {
+      "sourceId": "F050",
+      "name": "Dirección General de Seguros y Fondos de Pensiones",
+      "url": "https://dgsfp.mineco.gob.es/",
+      "sourceGroup": "Hacienda, economía, finanzas, ayudas y contratación",
+      "mode": "thematic_product_review",
+      "candidateFascicles": [
+        "F08"
+      ],
+      "status": "planned_not_integrated",
+      "complementaryOperator": false
+    },
+    {
+      "sourceId": "F051",
+      "name": "Secretaría de Estado de Comercio · DataComex y DataInvex",
+      "url": "https://comercio.gob.es/datacomex-datainvex/Paginas/Index.aspx",
+      "sourceGroup": "Hacienda, economía, finanzas, ayudas y contratación",
+      "mode": "thematic_product_review",
+      "candidateFascicles": [
+        "F08",
+        "F07"
+      ],
+      "status": "planned_not_integrated",
+      "complementaryOperator": false
+    },
+    {
+      "sourceId": "F052",
+      "name": "Tesoro Público",
+      "url": "https://www.tesoro.es/",
+      "sourceGroup": "Hacienda, economía, finanzas, ayudas y contratación",
+      "mode": "thematic_product_review",
+      "candidateFascicles": [
+        "F09",
+        "F08"
+      ],
+      "status": "planned_not_integrated",
+      "complementaryOperator": false
+    },
+    {
+      "sourceId": "F053",
+      "name": "Oficina Española de Patentes y Marcas",
+      "url": "https://www.oepm.es/es/sobre-OEPM/estadisticas/",
+      "sourceGroup": "Hacienda, economía, finanzas, ayudas y contratación",
+      "mode": "thematic_product_review",
+      "candidateFascicles": [
+        "F12"
+      ],
+      "status": "planned_not_integrated",
+      "complementaryOperator": false
+    },
+    {
+      "sourceId": "F054",
+      "name": "Ministerio de Trabajo y Economía Social",
+      "url": "https://www.mites.gob.es/es/estadisticas/",
+      "sourceGroup": "Trabajo, empleo, salarios, pensiones y protección laboral",
+      "mode": "thematic_product_review",
+      "candidateFascicles": [
+        "F04",
+        "F05",
+        "F07"
+      ],
+      "status": "planned_not_integrated",
+      "complementaryOperator": false
+    },
+    {
+      "sourceId": "F055",
+      "name": "Servicio Público de Empleo Estatal",
+      "url": "https://www.sepe.es/HomeSepe/que-es-el-sepe/estadisticas.html",
+      "sourceGroup": "Trabajo, empleo, salarios, pensiones y protección laboral",
+      "mode": "thematic_product_review",
+      "candidateFascicles": [
+        "F04",
+        "F05"
+      ],
+      "status": "planned_not_integrated",
+      "complementaryOperator": false
+    },
+    {
+      "sourceId": "F056",
+      "name": "Seguridad Social · TGSS / INSS y servicios estadísticos",
+      "url": "https://www.seg-social.es/wps/portal/wss/internet/EstadisticasPresupuestosEstudios",
+      "sourceGroup": "Trabajo, empleo, salarios, pensiones y protección laboral",
+      "mode": "thematic_product_review",
+      "candidateFascicles": [
+        "F04",
+        "F05"
+      ],
+      "status": "planned_not_integrated",
+      "complementaryOperator": false
+    },
+    {
+      "sourceId": "F057",
+      "name": "Instituto Nacional de Seguridad y Salud en el Trabajo",
+      "url": "https://www.insst.es/el-observatorio",
+      "sourceGroup": "Trabajo, empleo, salarios, pensiones y protección laboral",
+      "mode": "thematic_product_review",
+      "candidateFascicles": [
+        "F04"
+      ],
+      "status": "planned_not_integrated",
+      "complementaryOperator": false
+    },
+    {
+      "sourceId": "F058",
+      "name": "Fondo de Garantía Salarial",
+      "url": "https://www.mites.gob.es/fogasa/",
+      "sourceGroup": "Trabajo, empleo, salarios, pensiones y protección laboral",
+      "mode": "thematic_product_review",
+      "candidateFascicles": [
+        "F04"
+      ],
+      "status": "planned_not_integrated",
+      "complementaryOperator": false
+    },
+    {
+      "sourceId": "F059",
+      "name": "Instituto de Mayores y Servicios Sociales",
+      "url": "https://imserso.es/el-imserso/documentacion/estadisticas",
+      "sourceGroup": "Protección social, igualdad, juventud y migraciones",
+      "mode": "thematic_product_review",
+      "candidateFascicles": [
+        "F05"
+      ],
+      "status": "planned_not_integrated",
+      "complementaryOperator": false
+    },
+    {
+      "sourceId": "F060",
+      "name": "Ministerio de Derechos Sociales, Consumo y Agenda 2030",
+      "url": "https://www.dsca.gob.es/",
+      "sourceGroup": "Protección social, igualdad, juventud y migraciones",
+      "mode": "thematic_product_review",
+      "candidateFascicles": [
+        "F05",
+        "F03"
+      ],
+      "status": "planned_not_integrated",
+      "complementaryOperator": false
+    },
+    {
+      "sourceId": "F061",
+      "name": "Observatorio Permanente de la Inmigración",
+      "url": "https://www.inclusion.gob.es/es/web/opi/estadisticas/catalogo",
+      "sourceGroup": "Protección social, igualdad, juventud y migraciones",
+      "mode": "thematic_product_review",
+      "candidateFascicles": [
+        "F02"
+      ],
+      "status": "planned_not_integrated",
+      "complementaryOperator": false
+    },
+    {
+      "sourceId": "F062",
+      "name": "Instituto de las Mujeres",
+      "url": "https://www.inmujeres.gob.es/MujerCifras/Home.htm",
+      "sourceGroup": "Protección social, igualdad, juventud y migraciones",
+      "mode": "thematic_product_review",
+      "candidateFascicles": [
+        "F05"
+      ],
+      "status": "planned_not_integrated",
+      "complementaryOperator": false
+    },
+    {
+      "sourceId": "F063",
+      "name": "Delegación del Gobierno contra la Violencia de Género",
+      "url": "https://violenciagenero.igualdad.gob.es/violenciaencifras/",
+      "sourceGroup": "Protección social, igualdad, juventud y migraciones",
+      "mode": "thematic_product_review",
+      "candidateFascicles": [
+        "F05",
+        "F29"
+      ],
+      "status": "planned_not_integrated",
+      "complementaryOperator": false
+    },
+    {
+      "sourceId": "F064",
+      "name": "Instituto de la Juventud",
+      "url": "https://www.injuve.es/observatorio",
+      "sourceGroup": "Protección social, igualdad, juventud y migraciones",
+      "mode": "thematic_product_review",
+      "candidateFascicles": [
+        "F05"
+      ],
+      "status": "planned_not_integrated",
+      "complementaryOperator": false
+    },
+    {
+      "sourceId": "F065",
+      "name": "Ministerio de Juventud e Infancia · Observatorio de la Infancia",
+      "url": "https://observatoriodelainfancia.juventudeinfancia.gob.es/infancia-en-datos",
+      "sourceGroup": "Protección social, igualdad, juventud y migraciones",
+      "mode": "thematic_product_review",
+      "candidateFascicles": [
+        "F05"
+      ],
+      "status": "planned_not_integrated",
+      "complementaryOperator": false
+    },
+    {
+      "sourceId": "F066",
+      "name": "Centro de Investigaciones Sociológicas",
+      "url": "https://www.cis.es/",
+      "sourceGroup": "Protección social, igualdad, juventud y migraciones",
+      "mode": "thematic_product_review",
+      "candidateFascicles": [
+        "F03",
+        "F27"
+      ],
+      "status": "planned_not_integrated",
+      "complementaryOperator": false
+    },
+    {
+      "sourceId": "F067",
+      "name": "Ministerio de Sanidad · Sistema de Información Sanitaria",
+      "url": "https://www.sanidad.gob.es/estadEstudios/",
+      "sourceGroup": "Salud, sanidad, epidemiología, medicamentos y alimentación",
+      "mode": "thematic_product_review",
+      "candidateFascicles": [
+        "F13"
+      ],
+      "status": "planned_not_integrated",
+      "complementaryOperator": false
+    },
+    {
+      "sourceId": "F068",
+      "name": "Instituto de Salud Carlos III · Centro Nacional de Epidemiología",
+      "url": "https://cne.isciii.es/",
+      "sourceGroup": "Salud, sanidad, epidemiología, medicamentos y alimentación",
+      "mode": "thematic_product_review",
+      "candidateFascicles": [
+        "F13"
+      ],
+      "status": "planned_not_integrated",
+      "complementaryOperator": false
+    },
+    {
+      "sourceId": "F069",
+      "name": "Agencia Española de Medicamentos y Productos Sanitarios",
+      "url": "https://sede.aemps.gob.es/datos-abiertos/",
+      "sourceGroup": "Salud, sanidad, epidemiología, medicamentos y alimentación",
+      "mode": "thematic_product_review",
+      "candidateFascicles": [
+        "F13"
+      ],
+      "status": "planned_not_integrated",
+      "complementaryOperator": false
+    },
+    {
+      "sourceId": "F070",
+      "name": "Organización Nacional de Trasplantes",
+      "url": "https://www.ont.es/",
+      "sourceGroup": "Salud, sanidad, epidemiología, medicamentos y alimentación",
+      "mode": "thematic_product_review",
+      "candidateFascicles": [
+        "F13"
+      ],
+      "status": "planned_not_integrated",
+      "complementaryOperator": false
+    },
+    {
+      "sourceId": "F071",
+      "name": "Agencia Española de Seguridad Alimentaria y Nutrición",
+      "url": "https://www.aesan.gob.es/",
+      "sourceGroup": "Salud, sanidad, epidemiología, medicamentos y alimentación",
+      "mode": "thematic_product_review",
+      "candidateFascicles": [
+        "F13"
+      ],
+      "status": "planned_not_integrated",
+      "complementaryOperator": false
+    },
+    {
+      "sourceId": "F072",
+      "name": "Plan Nacional sobre Drogas · OEDA",
+      "url": "https://pnsd.sanidad.gob.es/profesionales/sistemasInformacion/",
+      "sourceGroup": "Salud, sanidad, epidemiología, medicamentos y alimentación",
+      "mode": "thematic_product_review",
+      "candidateFascicles": [
+        "F13"
+      ],
+      "status": "planned_not_integrated",
+      "complementaryOperator": false
+    },
+    {
+      "sourceId": "F073",
+      "name": "Ministerio de Educación, Formación Profesional y Deportes · EDUCAbase",
+      "url": "https://www.educacionfpydeportes.gob.es/servicios-al-ciudadano/estadisticas.html",
+      "sourceGroup": "Educación, universidad, investigación e innovación",
+      "mode": "thematic_product_review",
+      "candidateFascicles": [
+        "F11"
+      ],
+      "status": "planned_not_integrated",
+      "complementaryOperator": false
+    },
+    {
+      "sourceId": "F074",
+      "name": "Ministerio de Ciencia, Innovación y Universidades · SIIU",
+      "url": "https://www.ciencia.gob.es/Ministerio/Estadisticas/SIIU.html",
+      "sourceGroup": "Educación, universidad, investigación e innovación",
+      "mode": "thematic_product_review",
+      "candidateFascicles": [
+        "F11",
+        "F12"
+      ],
+      "status": "planned_not_integrated",
+      "complementaryOperator": false
+    },
+    {
+      "sourceId": "F075",
+      "name": "Ministerio de Ciencia, Innovación y Universidades · SICTI",
+      "url": "https://www.ciencia.gob.es/Ministerio/Estadisticas.html",
+      "sourceGroup": "Educación, universidad, investigación e innovación",
+      "mode": "thematic_product_review",
+      "candidateFascicles": [
+        "F12"
+      ],
+      "status": "planned_not_integrated",
+      "complementaryOperator": false
+    },
+    {
+      "sourceId": "F076",
+      "name": "Agencia Estatal de Investigación",
+      "url": "https://www.aei.gob.es/",
+      "sourceGroup": "Educación, universidad, investigación e innovación",
+      "mode": "thematic_product_review",
+      "candidateFascicles": [
+        "F12",
+        "F10"
+      ],
+      "status": "planned_not_integrated",
+      "complementaryOperator": false
+    },
+    {
+      "sourceId": "F077",
+      "name": "Centro para el Desarrollo Tecnológico y la Innovación",
+      "url": "https://www.cdti.es/",
+      "sourceGroup": "Educación, universidad, investigación e innovación",
+      "mode": "thematic_product_review",
+      "candidateFascicles": [
+        "F12",
+        "F10"
+      ],
+      "status": "planned_not_integrated",
+      "complementaryOperator": false
+    },
+    {
+      "sourceId": "F078",
+      "name": "CSIC · DIGITAL.CSIC y repositorios de investigación",
+      "url": "https://digital.csic.es/",
+      "sourceGroup": "Educación, universidad, investigación e innovación",
+      "mode": "thematic_product_review",
+      "candidateFascicles": [
+        "F12"
+      ],
+      "status": "planned_not_integrated",
+      "complementaryOperator": false
+    },
+    {
+      "sourceId": "F079",
+      "name": "Universidades públicas · portales y repositorios",
+      "url": "https://www.universidata.es/",
+      "sourceGroup": "Educación, universidad, investigación e innovación",
+      "mode": "multithematic_product_review",
+      "candidateFascicles": [
+        "F00"
+      ],
+      "status": "planned_not_integrated",
+      "complementaryOperator": false
+    },
+    {
+      "sourceId": "F080",
+      "name": "Ministerio de Cultura · CULTURABase",
+      "url": "https://www.cultura.gob.es/servicios-a-la-ciudadania/estadisticas/cultura/mc/culturabase/portada.html",
+      "sourceGroup": "Cultura, patrimonio, archivos, religión, memoria y deporte",
+      "mode": "thematic_product_review",
+      "candidateFascicles": [
+        "F25"
+      ],
+      "status": "planned_not_integrated",
+      "complementaryOperator": false
+    },
+    {
+      "sourceId": "F081",
+      "name": "Biblioteca Nacional de España",
+      "url": "https://www.bne.es/es/perfiles/bibliotecarios/suministro-registros",
+      "sourceGroup": "Cultura, patrimonio, archivos, religión, memoria y deporte",
+      "mode": "thematic_product_review",
+      "candidateFascicles": [
+        "F25"
+      ],
+      "status": "planned_not_integrated",
+      "complementaryOperator": false
+    },
+    {
+      "sourceId": "F082",
+      "name": "Ministerio de Cultura · PARES y archivos estatales",
+      "url": "https://pares.cultura.gob.es/",
+      "sourceGroup": "Cultura, patrimonio, archivos, religión, memoria y deporte",
+      "mode": "thematic_product_review",
+      "candidateFascicles": [
+        "F25"
+      ],
+      "status": "planned_not_integrated",
+      "complementaryOperator": false
+    },
+    {
+      "sourceId": "F083",
+      "name": "Instituto del Patrimonio Cultural de España",
+      "url": "https://www.cultura.gob.es/cultura/areas/patrimonio/mc/ipce/inicio.html",
+      "sourceGroup": "Cultura, patrimonio, archivos, religión, memoria y deporte",
+      "mode": "thematic_product_review",
+      "candidateFascicles": [
+        "F25"
+      ],
+      "status": "planned_not_integrated",
+      "complementaryOperator": false
+    },
+    {
+      "sourceId": "F084",
+      "name": "Consejo Superior de Deportes · DEPORTEData",
+      "url": "https://www.csd.gob.es/es/datos-abiertos",
+      "sourceGroup": "Cultura, patrimonio, archivos, religión, memoria y deporte",
+      "mode": "thematic_product_review",
+      "candidateFascicles": [
+        "F26"
+      ],
+      "status": "planned_not_integrated",
+      "complementaryOperator": false
+    },
+    {
+      "sourceId": "F085",
+      "name": "Fundación Pluralismo y Convivencia · Observatorio del Pluralismo Religioso",
+      "url": "https://www.observatorioreligion.es/directorio-lugares-culto/",
+      "sourceGroup": "Cultura, patrimonio, archivos, religión, memoria y deporte",
+      "mode": "thematic_product_review",
+      "candidateFascicles": [
+        "F25"
+      ],
+      "status": "planned_not_integrated",
+      "complementaryOperator": false
+    },
+    {
+      "sourceId": "F086",
+      "name": "Secretaría de Estado de Memoria Democrática",
+      "url": "https://mpt.gob.es/memoria-democratica/mapa-de-fosas/guia-de-fosas-por-comunidades-autonomas",
+      "sourceGroup": "Cultura, patrimonio, archivos, religión, memoria y deporte",
+      "mode": "thematic_product_review",
+      "candidateFascicles": [
+        "F25"
+      ],
+      "status": "planned_not_integrated",
+      "complementaryOperator": false
+    },
+    {
+      "sourceId": "F087",
+      "name": "Ministerio de Agricultura, Pesca y Alimentación",
+      "url": "https://www.mapa.gob.es/es/estadistica/temas/",
+      "sourceGroup": "Agricultura, ganadería, pesca, alimentación y medio rural",
+      "mode": "thematic_product_review",
+      "candidateFascicles": [
+        "F14"
+      ],
+      "status": "planned_not_integrated",
+      "complementaryOperator": false
+    },
+    {
+      "sourceId": "F088",
+      "name": "Fondo Español de Garantía Agraria · FEGA",
+      "url": "https://www.fega.gob.es/",
+      "sourceGroup": "Agricultura, ganadería, pesca, alimentación y medio rural",
+      "mode": "thematic_product_review",
+      "candidateFascicles": [
+        "F14",
+        "F10"
+      ],
+      "status": "planned_not_integrated",
+      "complementaryOperator": false
+    },
+    {
+      "sourceId": "F089",
+      "name": "MAPA · Sistema de Información Agroclimática para el Regadío",
+      "url": "https://servicio.mapa.gob.es/siarweb/home",
+      "sourceGroup": "Agricultura, ganadería, pesca, alimentación y medio rural",
+      "mode": "thematic_product_review",
+      "candidateFascicles": [
+        "F14",
+        "F17",
+        "F16"
+      ],
+      "status": "planned_not_integrated",
+      "complementaryOperator": false
+    },
+    {
+      "sourceId": "F090",
+      "name": "MAPA · Sistema de Información Geográfica de Datos Agrarios",
+      "url": "https://www.mapa.gob.es/es/agricultura/temas/sistema-de-informacion-geografica-de-datos-agrarios",
+      "sourceGroup": "Agricultura, ganadería, pesca, alimentación y medio rural",
+      "mode": "thematic_product_review",
+      "candidateFascicles": [
+        "F14",
+        "F01"
+      ],
+      "status": "planned_not_integrated",
+      "complementaryOperator": false
+    },
+    {
+      "sourceId": "F091",
+      "name": "MAPA · Caminos Naturales",
+      "url": "https://www.mapa.gob.es/es/desarrollo-rural/temas/caminos-naturales",
+      "sourceGroup": "Agricultura, ganadería, pesca, alimentación y medio rural",
+      "mode": "thematic_product_review",
+      "candidateFascicles": [
+        "F14",
+        "F22",
+        "F24",
+        "F26"
+      ],
+      "status": "planned_not_integrated",
+      "complementaryOperator": false
+    },
+    {
+      "sourceId": "F092",
+      "name": "Agencia de Información y Control Alimentarios",
+      "url": "https://www.aica.gob.es/",
+      "sourceGroup": "Agricultura, ganadería, pesca, alimentación y medio rural",
+      "mode": "thematic_product_review",
+      "candidateFascicles": [
+        "F14",
+        "F08"
+      ],
+      "status": "planned_not_integrated",
+      "complementaryOperator": false
+    },
+    {
+      "sourceId": "F093",
+      "name": "Entidad Estatal de Seguros Agrarios",
+      "url": "https://www.mapa.gob.es/es/enesa/",
+      "sourceGroup": "Agricultura, ganadería, pesca, alimentación y medio rural",
+      "mode": "thematic_product_review",
+      "candidateFascicles": [
+        "F14",
+        "F08"
+      ],
+      "status": "planned_not_integrated",
+      "complementaryOperator": false
+    },
+    {
+      "sourceId": "F094",
+      "name": "MITECO · Energía y minas",
+      "url": "https://www.miteco.gob.es/es/energia.html",
+      "sourceGroup": "Energía, industria y conectividad",
+      "mode": "thematic_product_review",
+      "candidateFascicles": [
+        "F21",
+        "F07",
+        "F18"
+      ],
+      "status": "planned_not_integrated",
+      "complementaryOperator": false
+    },
+    {
+      "sourceId": "F095",
+      "name": "MITECO · Geoportal de gasolineras y recarga",
+      "url": "https://geoportalgasolineras.es/geoportal-instalaciones/Inicio",
+      "sourceGroup": "Energía, industria y conectividad",
+      "mode": "thematic_product_review",
+      "candidateFascicles": [
+        "F21",
+        "F22"
+      ],
+      "status": "planned_not_integrated",
+      "complementaryOperator": false
+    },
+    {
+      "sourceId": "F096",
+      "name": "Instituto para la Diversificación y Ahorro de la Energía",
+      "url": "https://www.idae.es/",
+      "sourceGroup": "Energía, industria y conectividad",
+      "mode": "thematic_product_review",
+      "candidateFascicles": [
+        "F21"
+      ],
+      "status": "planned_not_integrated",
+      "complementaryOperator": false
+    },
+    {
+      "sourceId": "F097",
+      "name": "Corporación de Reservas Estratégicas de Productos Petrolíferos · CORES",
+      "url": "https://www.cores.es/estadisticas",
+      "sourceGroup": "Energía, industria y conectividad",
+      "mode": "thematic_product_review",
+      "candidateFascicles": [
+        "F21"
+      ],
+      "status": "planned_not_integrated",
+      "complementaryOperator": false
+    },
+    {
+      "sourceId": "F098",
+      "name": "Ministerio de Industria y Turismo · Estadísticas industriales",
+      "url": "https://www.mintur.gob.es/es-es/IndicadoresyEstadisticas/Paginas/Estadisticas.aspx",
+      "sourceGroup": "Energía, industria y conectividad",
+      "mode": "thematic_product_review",
+      "candidateFascicles": [
+        "F07"
+      ],
+      "status": "planned_not_integrated",
+      "complementaryOperator": false
+    },
+    {
+      "sourceId": "F099",
+      "name": "Secretaría de Estado de Telecomunicaciones · Conectemos",
+      "url": "https://conectemos.digital.gob.es/es/mapas-y-graficos/cobertura-banda-ancha-fija",
+      "sourceGroup": "Energía, industria y conectividad",
+      "mode": "thematic_product_review",
+      "candidateFascicles": [
+        "F23"
+      ],
+      "status": "planned_not_integrated",
+      "complementaryOperator": false
+    },
+    {
+      "sourceId": "F100",
+      "name": "Red.es · Observatorio Nacional de Tecnología y Sociedad",
+      "url": "https://www.ontsi.es/",
+      "sourceGroup": "Energía, industria y conectividad",
+      "mode": "thematic_product_review",
+      "candidateFascicles": [
+        "F23"
+      ],
+      "status": "planned_not_integrated",
+      "complementaryOperator": false
+    },
+    {
+      "sourceId": "F101",
+      "name": "Ministerio de Transportes y Movilidad Sostenible · OTLE y estadísticas",
+      "url": "https://www.transportes.gob.es/",
+      "sourceGroup": "Movilidad, carreteras, ferrocarril, aviación y puertos",
+      "mode": "thematic_product_review",
+      "candidateFascicles": [
+        "F22"
+      ],
+      "status": "planned_not_integrated",
+      "complementaryOperator": false
+    },
+    {
+      "sourceId": "F102",
+      "name": "Ministerio de Transportes · Punto de Acceso Nacional multimodal",
+      "url": "https://nap.transportes.gob.es/Home/",
+      "sourceGroup": "Movilidad, carreteras, ferrocarril, aviación y puertos",
+      "mode": "thematic_product_review",
+      "candidateFascicles": [
+        "F22"
+      ],
+      "status": "planned_not_integrated",
+      "complementaryOperator": false
+    },
+    {
+      "sourceId": "F103",
+      "name": "Dirección General de Tráfico",
+      "url": "https://www.dgt.es/menusecundario/dgt-en-cifras/",
+      "sourceGroup": "Movilidad, carreteras, ferrocarril, aviación y puertos",
+      "mode": "thematic_product_review",
+      "candidateFascicles": [
+        "F22",
+        "F29"
+      ],
+      "status": "planned_not_integrated",
+      "complementaryOperator": false
+    },
+    {
+      "sourceId": "F104",
+      "name": "Adif y Adif Alta Velocidad",
+      "url": "https://www.adif.es/sobre-adif/declaracion-red",
+      "sourceGroup": "Movilidad, carreteras, ferrocarril, aviación y puertos",
+      "mode": "thematic_product_review",
+      "candidateFascicles": [
+        "F22"
+      ],
+      "status": "planned_not_integrated",
+      "complementaryOperator": false
+    },
+    {
+      "sourceId": "F105",
+      "name": "Renfe · Renfe Data",
+      "url": "https://data.renfe.com/es/",
+      "sourceGroup": "Movilidad, carreteras, ferrocarril, aviación y puertos",
+      "mode": "thematic_product_review",
+      "candidateFascicles": [
+        "F22"
+      ],
+      "status": "planned_not_integrated",
+      "complementaryOperator": false
+    },
+    {
+      "sourceId": "F106",
+      "name": "Aena",
+      "url": "https://www.aena.es/es/estadisticas/inicio.html",
+      "sourceGroup": "Movilidad, carreteras, ferrocarril, aviación y puertos",
+      "mode": "thematic_product_review",
+      "candidateFascicles": [
+        "F22"
+      ],
+      "status": "planned_not_integrated",
+      "complementaryOperator": false
+    },
+    {
+      "sourceId": "F107",
+      "name": "ENAIRE · Información aeronáutica",
+      "url": "https://aip.enaire.es/AIP/DatosDigitales-en.html",
+      "sourceGroup": "Movilidad, carreteras, ferrocarril, aviación y puertos",
+      "mode": "thematic_product_review",
+      "candidateFascicles": [
+        "F22"
+      ],
+      "status": "planned_not_integrated",
+      "complementaryOperator": false
+    },
+    {
+      "sourceId": "F108",
+      "name": "Puertos del Estado · Estadística y ayudas a la navegación",
+      "url": "https://www.puertos.es/",
+      "sourceGroup": "Movilidad, carreteras, ferrocarril, aviación y puertos",
+      "mode": "thematic_product_review",
+      "candidateFascicles": [
+        "F22",
+        "F19"
+      ],
+      "status": "planned_not_integrated",
+      "complementaryOperator": false
+    },
+    {
+      "sourceId": "F109",
+      "name": "Turespaña",
+      "url": "https://conocimiento.tourspain.es/es/",
+      "sourceGroup": "Turismo, vivienda, suelo y organización urbana",
+      "mode": "thematic_product_review",
+      "candidateFascicles": [
+        "F24"
+      ],
+      "status": "planned_not_integrated",
+      "complementaryOperator": false
+    },
+    {
+      "sourceId": "F110",
+      "name": "SEGITTUR",
+      "url": "https://www.segittur.es/",
+      "sourceGroup": "Turismo, vivienda, suelo y organización urbana",
+      "mode": "thematic_product_review",
+      "candidateFascicles": [
+        "F24"
+      ],
+      "status": "planned_not_integrated",
+      "complementaryOperator": false
+    },
+    {
+      "sourceId": "F111",
+      "name": "Ministerio de Vivienda y Agenda Urbana",
+      "url": "https://www.mivau.gob.es/",
+      "sourceGroup": "Turismo, vivienda, suelo y organización urbana",
+      "mode": "thematic_product_review",
+      "candidateFascicles": [
+        "F06"
+      ],
+      "status": "planned_not_integrated",
+      "complementaryOperator": false
+    },
+    {
+      "sourceId": "F112",
+      "name": "Ministerio del Interior · Infoelectoral",
+      "url": "https://infoelectoral.interior.gob.es/es/elecciones-celebradas/area-de-descargas/",
+      "sourceGroup": "Elecciones, parlamentos, administración, justicia y seguridad",
+      "mode": "thematic_product_review",
+      "candidateFascicles": [
+        "F27"
+      ],
+      "status": "planned_not_integrated",
+      "complementaryOperator": false
+    },
+    {
+      "sourceId": "F113",
+      "name": "Congreso de los Diputados",
+      "url": "https://www.congreso.es/datos-abiertos",
+      "sourceGroup": "Elecciones, parlamentos, administración, justicia y seguridad",
+      "mode": "thematic_product_review",
+      "candidateFascicles": [
+        "F27",
+        "F28"
+      ],
+      "status": "planned_not_integrated",
+      "complementaryOperator": false
+    },
+    {
+      "sourceId": "F114",
+      "name": "Senado",
+      "url": "https://www.senado.es/web/relacionesciudadanos/datosabiertos/informaciodatosabiertos/index.html?lang=es_ES",
+      "sourceGroup": "Elecciones, parlamentos, administración, justicia y seguridad",
+      "mode": "thematic_product_review",
+      "candidateFascicles": [
+        "F27",
+        "F28"
+      ],
+      "status": "planned_not_integrated",
+      "complementaryOperator": false
+    },
+    {
+      "sourceId": "F115",
+      "name": "Agencia Estatal Boletín Oficial del Estado",
+      "url": "https://www.boe.es/datosabiertos/api/api.php",
+      "sourceGroup": "Elecciones, parlamentos, administración, justicia y seguridad",
+      "mode": "thematic_product_review",
+      "candidateFascicles": [
+        "F28"
+      ],
+      "status": "planned_not_integrated",
+      "complementaryOperator": false
+    },
+    {
+      "sourceId": "F116",
+      "name": "Ministerio de Política Territorial · Registro de Entidades Locales",
+      "url": "https://ssweb.seap.minhap.es/REL/",
+      "sourceGroup": "Elecciones, parlamentos, administración, justicia y seguridad",
+      "mode": "thematic_product_review",
+      "candidateFascicles": [
+        "F28",
+        "F01"
+      ],
+      "status": "planned_not_integrated",
+      "complementaryOperator": false
+    },
+    {
+      "sourceId": "F117",
+      "name": "Administración digital · DIR3",
+      "url": "https://administracionelectronica.gob.es/ctt/dir3",
+      "sourceGroup": "Elecciones, parlamentos, administración, justicia y seguridad",
+      "mode": "thematic_product_review",
+      "candidateFascicles": [
+        "F28"
+      ],
+      "status": "planned_not_integrated",
+      "complementaryOperator": false
+    },
+    {
+      "sourceId": "F118",
+      "name": "Función Pública · Estadística del personal público",
+      "url": "https://digital.gob.es/funcion-publica.html",
+      "sourceGroup": "Elecciones, parlamentos, administración, justicia y seguridad",
+      "mode": "thematic_product_review",
+      "candidateFascicles": [
+        "F28",
+        "F04"
+      ],
+      "status": "planned_not_integrated",
+      "complementaryOperator": false
+    },
+    {
+      "sourceId": "F119",
+      "name": "IGAE · INVENTE",
+      "url": "https://www.pap.hacienda.gob.es/invente2/PagMenuPrincipalV2.aspx?Entorno=2",
+      "sourceGroup": "Elecciones, parlamentos, administración, justicia y seguridad",
+      "mode": "thematic_product_review",
+      "candidateFascicles": [
+        "F28",
+        "F09"
+      ],
+      "status": "planned_not_integrated",
+      "complementaryOperator": false
+    },
+    {
+      "sourceId": "F120",
+      "name": "Portal de la Transparencia de la AGE",
+      "url": "https://transparencia.gob.es/",
+      "sourceGroup": "Elecciones, parlamentos, administración, justicia y seguridad",
+      "mode": "thematic_product_review",
+      "candidateFascicles": [
+        "F28"
+      ],
+      "status": "planned_not_integrated",
+      "complementaryOperator": false
+    },
+    {
+      "sourceId": "F121",
+      "name": "Consejo General del Poder Judicial",
+      "url": "https://www.poderjudicial.es/cgpj/es/Temas/Estadistica-Judicial/",
+      "sourceGroup": "Elecciones, parlamentos, administración, justicia y seguridad",
+      "mode": "thematic_product_review",
+      "candidateFascicles": [
+        "F29"
+      ],
+      "status": "planned_not_integrated",
+      "complementaryOperator": false
+    },
+    {
+      "sourceId": "F122",
+      "name": "Fiscalía General del Estado",
+      "url": "https://www.fiscal.es/",
+      "sourceGroup": "Elecciones, parlamentos, administración, justicia y seguridad",
+      "mode": "thematic_product_review",
+      "candidateFascicles": [
+        "F29"
+      ],
+      "status": "planned_not_integrated",
+      "complementaryOperator": false
+    },
+    {
+      "sourceId": "F123",
+      "name": "Ministerio del Interior · Portal Estadístico de Criminalidad",
+      "url": "https://estadisticasdecriminalidad.ses.mir.es/",
+      "sourceGroup": "Elecciones, parlamentos, administración, justicia y seguridad",
+      "mode": "thematic_product_review",
+      "candidateFascicles": [
+        "F29"
+      ],
+      "status": "planned_not_integrated",
+      "complementaryOperator": false
+    },
+    {
+      "sourceId": "F124",
+      "name": "Secretaría General de Instituciones Penitenciarias",
+      "url": "https://www.interior.gob.es/opencms/es/archivos-y-documentacion/documentacion-y-publicaciones/anuarios-y-estadisticas/",
+      "sourceGroup": "Elecciones, parlamentos, administración, justicia y seguridad",
+      "mode": "thematic_product_review",
+      "candidateFascicles": [
+        "F29"
+      ],
+      "status": "planned_not_integrated",
+      "complementaryOperator": false
+    },
+    {
+      "sourceId": "F125",
+      "name": "Ministerio del Interior · Protección internacional",
+      "url": "https://proteccion-asilo.interior.gob.es/",
+      "sourceGroup": "Elecciones, parlamentos, administración, justicia y seguridad",
+      "mode": "thematic_product_review",
+      "candidateFascicles": [
+        "F02",
+        "F29"
+      ],
+      "status": "planned_not_integrated",
+      "complementaryOperator": false
+    },
+    {
+      "sourceId": "F126",
+      "name": "Ministerio de Defensa · Estadística pública",
+      "url": "https://www.defensa.gob.es/",
+      "sourceGroup": "Elecciones, parlamentos, administración, justicia y seguridad",
+      "mode": "thematic_product_review",
+      "candidateFascicles": [
+        "F29"
+      ],
+      "status": "planned_not_integrated",
+      "complementaryOperator": false
+    },
+    {
+      "sourceId": "F127",
+      "name": "Dirección General de Ordenación del Juego",
+      "url": "https://ordenacionjuego.es/datos-estudios/estudios/descarga-datos-mercado-juego",
+      "sourceGroup": "Elecciones, parlamentos, administración, justicia y seguridad",
+      "mode": "thematic_product_review",
+      "candidateFascicles": [
+        "F08"
+      ],
+      "status": "planned_not_integrated",
+      "complementaryOperator": false
+    },
+    {
+      "sourceId": "F128",
+      "name": "Comisionado para el Mercado de Tabacos",
+      "url": "https://www.hacienda.gob.es/es-es/areas%20tematicas/cmtabacos/paginas/estadisticascmt2026.aspx",
+      "sourceGroup": "Elecciones, parlamentos, administración, justicia y seguridad",
+      "mode": "thematic_product_review",
+      "candidateFascicles": [
+        "F08"
+      ],
+      "status": "planned_not_integrated",
+      "complementaryOperator": false
+    },
+    {
+      "sourceId": "F129",
+      "name": "Cooperación Española · Estadísticas AOD y TOSSD",
+      "url": "https://www.cooperacionespanola.es/area-de-estadistica/",
+      "sourceGroup": "Elecciones, parlamentos, administración, justicia y seguridad",
+      "mode": "thematic_product_review",
+      "candidateFascicles": [
+        "F10",
+        "F09"
+      ],
+      "status": "planned_not_integrated",
+      "complementaryOperator": false
+    },
+    {
+      "sourceId": "F130",
+      "name": "Eurostat",
+      "url": "https://ec.europa.eu/eurostat/data",
+      "sourceGroup": "Fuentes europeas oficiales con datos sobre España",
+      "mode": "multithematic_product_review",
+      "candidateFascicles": [
+        "F00"
+      ],
+      "status": "planned_not_integrated",
+      "complementaryOperator": false
+    },
+    {
+      "sourceId": "F131",
+      "name": "Eurostat · GISCO",
+      "url": "https://gisco-services.ec.europa.eu/distribution/v2/",
+      "sourceGroup": "Fuentes europeas oficiales con datos sobre España",
+      "mode": "thematic_product_review",
+      "candidateFascicles": [
+        "F01"
+      ],
+      "status": "planned_not_integrated",
+      "complementaryOperator": false
+    },
+    {
+      "sourceId": "F132",
+      "name": "Comisión Europea · Copernicus Land",
+      "url": "https://land.copernicus.eu/",
+      "sourceGroup": "Fuentes europeas oficiales con datos sobre España",
+      "mode": "thematic_product_review",
+      "candidateFascicles": [
+        "F15",
+        "F18"
+      ],
+      "status": "planned_not_integrated",
+      "complementaryOperator": false
+    },
+    {
+      "sourceId": "F133",
+      "name": "Comisión Europea · Copernicus Climate / C3S",
+      "url": "https://climate.copernicus.eu/",
+      "sourceGroup": "Fuentes europeas oficiales con datos sobre España",
+      "mode": "thematic_product_review",
+      "candidateFascicles": [
+        "F17"
+      ],
+      "status": "planned_not_integrated",
+      "complementaryOperator": false
+    },
+    {
+      "sourceId": "F134",
+      "name": "Comisión Europea · Copernicus Atmosphere / CAMS",
+      "url": "https://atmosphere.copernicus.eu/",
+      "sourceGroup": "Fuentes europeas oficiales con datos sobre España",
+      "mode": "thematic_product_review",
+      "candidateFascicles": [
+        "F20"
+      ],
+      "status": "planned_not_integrated",
+      "complementaryOperator": false
+    },
+    {
+      "sourceId": "F135",
+      "name": "Comisión Europea · Copernicus Marine",
+      "url": "https://marine.copernicus.eu/",
+      "sourceGroup": "Fuentes europeas oficiales con datos sobre España",
+      "mode": "thematic_product_review",
+      "candidateFascicles": [
+        "F19"
+      ],
+      "status": "planned_not_integrated",
+      "complementaryOperator": false
+    },
+    {
+      "sourceId": "F136",
+      "name": "Comisión Europea · Copernicus Emergency",
+      "url": "https://emergency.copernicus.eu/",
+      "sourceGroup": "Fuentes europeas oficiales con datos sobre España",
+      "mode": "thematic_product_review",
+      "candidateFascicles": [
+        "F18",
+        "F15",
+        "F16"
+      ],
+      "status": "planned_not_integrated",
+      "complementaryOperator": false
+    },
+    {
+      "sourceId": "F137",
+      "name": "Agencia Europea de Medio Ambiente",
+      "url": "https://www.eea.europa.eu/en/datahub",
+      "sourceGroup": "Fuentes europeas oficiales con datos sobre España",
+      "mode": "thematic_product_review",
+      "candidateFascicles": [
+        "F15",
+        "F16",
+        "F17",
+        "F19",
+        "F20",
+        "F21"
+      ],
+      "status": "planned_not_integrated",
+      "complementaryOperator": false
+    },
+    {
+      "sourceId": "F138",
+      "name": "Comisión Europea · Joint Research Centre",
+      "url": "https://data.jrc.ec.europa.eu/",
+      "sourceGroup": "Fuentes europeas oficiales con datos sobre España",
+      "mode": "multithematic_product_review",
+      "candidateFascicles": [
+        "F00"
+      ],
+      "status": "planned_not_integrated",
+      "complementaryOperator": false
+    },
+    {
+      "sourceId": "F139",
+      "name": "Comisión Europea · EMODnet",
+      "url": "https://emodnet.ec.europa.eu/en/emodnet-central-portal",
+      "sourceGroup": "Fuentes europeas oficiales con datos sobre España",
+      "mode": "thematic_product_review",
+      "candidateFascicles": [
+        "F19"
+      ],
+      "status": "planned_not_integrated",
+      "complementaryOperator": false
+    },
+    {
+      "sourceId": "F140",
+      "name": "Comisión Europea · CORDIS",
+      "url": "https://cordis.europa.eu/about/services/es",
+      "sourceGroup": "Fuentes europeas oficiales con datos sobre España",
+      "mode": "thematic_product_review",
+      "candidateFascicles": [
+        "F12",
+        "F10"
+      ],
+      "status": "planned_not_integrated",
+      "complementaryOperator": false
+    },
+    {
+      "sourceId": "F141",
+      "name": "Oficina de Publicaciones de la UE · TED",
+      "url": "https://ted.europa.eu/",
+      "sourceGroup": "Fuentes europeas oficiales con datos sobre España",
+      "mode": "thematic_product_review",
+      "candidateFascicles": [
+        "F10"
+      ],
+      "status": "planned_not_integrated",
+      "complementaryOperator": false
+    },
+    {
+      "sourceId": "F142",
+      "name": "Comisión Europea · Kohesio",
+      "url": "https://kohesio.ec.europa.eu/",
+      "sourceGroup": "Fuentes europeas oficiales con datos sobre España",
+      "mode": "thematic_product_review",
+      "candidateFascicles": [
+        "F10"
+      ],
+      "status": "planned_not_integrated",
+      "complementaryOperator": false
+    },
+    {
+      "sourceId": "F143",
+      "name": "Banco Central Europeo",
+      "url": "https://data.ecb.europa.eu/",
+      "sourceGroup": "Fuentes europeas oficiales con datos sobre España",
+      "mode": "thematic_product_review",
+      "candidateFascicles": [
+        "F08",
+        "F09"
+      ],
+      "status": "planned_not_integrated",
+      "complementaryOperator": false
+    },
+    {
+      "sourceId": "F144",
+      "name": "Centro Europeo para la Prevención y el Control de las Enfermedades",
+      "url": "https://www.ecdc.europa.eu/en/data",
+      "sourceGroup": "Fuentes europeas oficiales con datos sobre España",
+      "mode": "thematic_product_review",
+      "candidateFascicles": [
+        "F13"
+      ],
+      "status": "planned_not_integrated",
+      "complementaryOperator": false
+    },
+    {
+      "sourceId": "F145",
+      "name": "OCDE",
+      "url": "https://data-explorer.oecd.org/",
+      "sourceGroup": "Fuentes internacionales públicas complementarias",
+      "mode": "multithematic_product_review",
+      "candidateFascicles": [
+        "F00"
+      ],
+      "status": "planned_not_integrated",
+      "complementaryOperator": false
+    },
+    {
+      "sourceId": "F146",
+      "name": "FAO · FAOSTAT",
+      "url": "https://www.fao.org/faostat/es/",
+      "sourceGroup": "Fuentes internacionales públicas complementarias",
+      "mode": "thematic_product_review",
+      "candidateFascicles": [
+        "F14",
+        "F15"
+      ],
+      "status": "planned_not_integrated",
+      "complementaryOperator": false
+    },
+    {
+      "sourceId": "F147",
+      "name": "OIT · ILOSTAT",
+      "url": "https://ilostat.ilo.org/",
+      "sourceGroup": "Fuentes internacionales públicas complementarias",
+      "mode": "thematic_product_review",
+      "candidateFascicles": [
+        "F04",
+        "F05"
+      ],
+      "status": "planned_not_integrated",
+      "complementaryOperator": false
+    },
+    {
+      "sourceId": "F148",
+      "name": "Organización Mundial de la Salud",
+      "url": "https://data.who.int/",
+      "sourceGroup": "Fuentes internacionales públicas complementarias",
+      "mode": "thematic_product_review",
+      "candidateFascicles": [
+        "F13"
+      ],
+      "status": "planned_not_integrated",
+      "complementaryOperator": false
+    },
+    {
+      "sourceId": "F149",
+      "name": "Red Eléctrica · REData / eSIOS",
+      "url": "https://www.esios.ree.es/es/",
+      "sourceGroup": "Operadores regulados complementarios, separados del núcleo de organismos oficiales",
+      "mode": "thematic_product_review",
+      "candidateFascicles": [
+        "F21"
+      ],
+      "status": "planned_not_integrated",
+      "complementaryOperator": true
+    },
+    {
+      "sourceId": "F150",
+      "name": "Enagás · Gestor Técnico del Sistema",
+      "url": "https://www.enagas.es/",
+      "sourceGroup": "Operadores regulados complementarios, separados del núcleo de organismos oficiales",
+      "mode": "thematic_product_review",
+      "candidateFascicles": [
+        "F21"
+      ],
+      "status": "planned_not_integrated",
+      "complementaryOperator": true
+    },
+    {
+      "sourceId": "F151",
+      "name": "Andalucía",
+      "url": "https://www.juntadeandalucia.es/institutodeestadisticaycartografia/",
+      "sourceGroup": "Las 17 comunidades autónomas y las 2 ciudades autónomas",
+      "mode": "multithematic_product_review",
+      "candidateFascicles": [
+        "F00"
+      ],
+      "status": "planned_not_integrated",
+      "complementaryOperator": false
+    },
+    {
+      "sourceId": "F152",
+      "name": "Aragón",
+      "url": "https://www.aragon.es/gobierno/iaest",
+      "sourceGroup": "Las 17 comunidades autónomas y las 2 ciudades autónomas",
+      "mode": "multithematic_product_review",
+      "candidateFascicles": [
+        "F00"
+      ],
+      "status": "planned_not_integrated",
+      "complementaryOperator": false
+    },
+    {
+      "sourceId": "F153",
+      "name": "Asturias",
+      "url": "https://www.sadei.es/",
+      "sourceGroup": "Las 17 comunidades autónomas y las 2 ciudades autónomas",
+      "mode": "multithematic_product_review",
+      "candidateFascicles": [
+        "F00"
+      ],
+      "status": "planned_not_integrated",
+      "complementaryOperator": false
+    },
+    {
+      "sourceId": "F154",
+      "name": "Illes Balears",
+      "url": "https://ibestat.es/",
+      "sourceGroup": "Las 17 comunidades autónomas y las 2 ciudades autónomas",
+      "mode": "multithematic_product_review",
+      "candidateFascicles": [
+        "F00"
+      ],
+      "status": "planned_not_integrated",
+      "complementaryOperator": false
+    },
+    {
+      "sourceId": "F155",
+      "name": "Canarias",
+      "url": "https://www.gobiernodecanarias.org/istac/",
+      "sourceGroup": "Las 17 comunidades autónomas y las 2 ciudades autónomas",
+      "mode": "multithematic_product_review",
+      "candidateFascicles": [
+        "F00"
+      ],
+      "status": "planned_not_integrated",
+      "complementaryOperator": false
+    },
+    {
+      "sourceId": "F156",
+      "name": "Cantabria",
+      "url": "https://www.icane.es/",
+      "sourceGroup": "Las 17 comunidades autónomas y las 2 ciudades autónomas",
+      "mode": "multithematic_product_review",
+      "candidateFascicles": [
+        "F00"
+      ],
+      "status": "planned_not_integrated",
+      "complementaryOperator": false
+    },
+    {
+      "sourceId": "F157",
+      "name": "Castilla y León",
+      "url": "https://estadistica.jcyl.es/",
+      "sourceGroup": "Las 17 comunidades autónomas y las 2 ciudades autónomas",
+      "mode": "multithematic_product_review",
+      "candidateFascicles": [
+        "F00"
+      ],
+      "status": "planned_not_integrated",
+      "complementaryOperator": false
+    },
+    {
+      "sourceId": "F158",
+      "name": "Castilla-La Mancha",
+      "url": "https://estadistica.castillalamancha.es/",
+      "sourceGroup": "Las 17 comunidades autónomas y las 2 ciudades autónomas",
+      "mode": "multithematic_product_review",
+      "candidateFascicles": [
+        "F00"
+      ],
+      "status": "planned_not_integrated",
+      "complementaryOperator": false
+    },
+    {
+      "sourceId": "F159",
+      "name": "Cataluña",
+      "url": "https://www.idescat.cat/",
+      "sourceGroup": "Las 17 comunidades autónomas y las 2 ciudades autónomas",
+      "mode": "multithematic_product_review",
+      "candidateFascicles": [
+        "F00"
+      ],
+      "status": "planned_not_integrated",
+      "complementaryOperator": false
+    },
+    {
+      "sourceId": "F160",
+      "name": "Comunitat Valenciana",
+      "url": "https://pegv.gva.es/",
+      "sourceGroup": "Las 17 comunidades autónomas y las 2 ciudades autónomas",
+      "mode": "multithematic_product_review",
+      "candidateFascicles": [
+        "F00"
+      ],
+      "status": "planned_not_integrated",
+      "complementaryOperator": false
+    },
+    {
+      "sourceId": "F161",
+      "name": "Extremadura",
+      "url": "https://www.juntaex.es/ieex/",
+      "sourceGroup": "Las 17 comunidades autónomas y las 2 ciudades autónomas",
+      "mode": "multithematic_product_review",
+      "candidateFascicles": [
+        "F00"
+      ],
+      "status": "planned_not_integrated",
+      "complementaryOperator": false
+    },
+    {
+      "sourceId": "F162",
+      "name": "Galicia",
+      "url": "https://www.ige.gal/",
+      "sourceGroup": "Las 17 comunidades autónomas y las 2 ciudades autónomas",
+      "mode": "multithematic_product_review",
+      "candidateFascicles": [
+        "F00"
+      ],
+      "status": "planned_not_integrated",
+      "complementaryOperator": false
+    },
+    {
+      "sourceId": "F163",
+      "name": "Comunidad de Madrid",
+      "url": "https://www.comunidad.madrid/gobierno/estadistica",
+      "sourceGroup": "Las 17 comunidades autónomas y las 2 ciudades autónomas",
+      "mode": "multithematic_product_review",
+      "candidateFascicles": [
+        "F00"
+      ],
+      "status": "planned_not_integrated",
+      "complementaryOperator": false
+    },
+    {
+      "sourceId": "F164",
+      "name": "Región de Murcia",
+      "url": "https://econet.carm.es/",
+      "sourceGroup": "Las 17 comunidades autónomas y las 2 ciudades autónomas",
+      "mode": "multithematic_product_review",
+      "candidateFascicles": [
+        "F00"
+      ],
+      "status": "planned_not_integrated",
+      "complementaryOperator": false
+    },
+    {
+      "sourceId": "F165",
+      "name": "Navarra",
+      "url": "https://nastat.navarra.es/",
+      "sourceGroup": "Las 17 comunidades autónomas y las 2 ciudades autónomas",
+      "mode": "multithematic_product_review",
+      "candidateFascicles": [
+        "F00"
+      ],
+      "status": "planned_not_integrated",
+      "complementaryOperator": false
+    },
+    {
+      "sourceId": "F166",
+      "name": "País Vasco",
+      "url": "https://www.eustat.eus/",
+      "sourceGroup": "Las 17 comunidades autónomas y las 2 ciudades autónomas",
+      "mode": "multithematic_product_review",
+      "candidateFascicles": [
+        "F00"
+      ],
+      "status": "planned_not_integrated",
+      "complementaryOperator": false
+    },
+    {
+      "sourceId": "F167",
+      "name": "La Rioja",
+      "url": "https://www.larioja.org/estadistica/",
+      "sourceGroup": "Las 17 comunidades autónomas y las 2 ciudades autónomas",
+      "mode": "multithematic_product_review",
+      "candidateFascicles": [
+        "F00"
+      ],
+      "status": "planned_not_integrated",
+      "complementaryOperator": false
+    },
+    {
+      "sourceId": "F168",
+      "name": "Ceuta",
+      "url": "https://www.ceuta.es/",
+      "sourceGroup": "Las 17 comunidades autónomas y las 2 ciudades autónomas",
+      "mode": "multithematic_product_review",
+      "candidateFascicles": [
+        "F00"
+      ],
+      "status": "planned_not_integrated",
+      "complementaryOperator": false
+    },
+    {
+      "sourceId": "F169",
+      "name": "Melilla",
+      "url": "https://www.melilla.es/",
+      "sourceGroup": "Las 17 comunidades autónomas y las 2 ciudades autónomas",
+      "mode": "multithematic_product_review",
+      "candidateFascicles": [
+        "F00"
+      ],
+      "status": "planned_not_integrated",
+      "complementaryOperator": false
+    },
+    {
+      "sourceId": "F170",
+      "name": "Ayuntamiento de Madrid",
+      "url": "https://datos.madrid.es/dataset/",
+      "sourceGroup": "Administración local y supramunicipal · ejemplos y expansión",
+      "mode": "multithematic_product_review",
+      "candidateFascicles": [
+        "F00"
+      ],
+      "status": "planned_not_integrated",
+      "complementaryOperator": false
+    },
+    {
+      "sourceId": "F171",
+      "name": "Ayuntamiento de Barcelona",
+      "url": "https://opendata-ajuntament.barcelona.cat/",
+      "sourceGroup": "Administración local y supramunicipal · ejemplos y expansión",
+      "mode": "multithematic_product_review",
+      "candidateFascicles": [
+        "F00"
+      ],
+      "status": "planned_not_integrated",
+      "complementaryOperator": false
+    },
+    {
+      "sourceId": "F172",
+      "name": "Ayuntamiento de València",
+      "url": "https://opendata.vlci.valencia.es/",
+      "sourceGroup": "Administración local y supramunicipal · ejemplos y expansión",
+      "mode": "multithematic_product_review",
+      "candidateFascicles": [
+        "F00"
+      ],
+      "status": "planned_not_integrated",
+      "complementaryOperator": false
+    },
+    {
+      "sourceId": "F173",
+      "name": "Ayuntamiento de Zaragoza",
+      "url": "https://www.zaragoza.es/sede/portal/datos-abiertos/",
+      "sourceGroup": "Administración local y supramunicipal · ejemplos y expansión",
+      "mode": "multithematic_product_review",
+      "candidateFascicles": [
+        "F00"
+      ],
+      "status": "planned_not_integrated",
+      "complementaryOperator": false
+    },
+    {
+      "sourceId": "F174",
+      "name": "Ayuntamiento de Málaga",
+      "url": "https://datosabiertos.malaga.eu/",
+      "sourceGroup": "Administración local y supramunicipal · ejemplos y expansión",
+      "mode": "multithematic_product_review",
+      "candidateFascicles": [
+        "F00"
+      ],
+      "status": "planned_not_integrated",
+      "complementaryOperator": false
+    },
+    {
+      "sourceId": "F175",
+      "name": "Ayuntamiento de Gijón",
+      "url": "https://www.gijon.es/es/datos-abiertos",
+      "sourceGroup": "Administración local y supramunicipal · ejemplos y expansión",
+      "mode": "multithematic_product_review",
+      "candidateFascicles": [
+        "F00"
+      ],
+      "status": "planned_not_integrated",
+      "complementaryOperator": false
+    },
+    {
+      "sourceId": "F176",
+      "name": "Diputación de Barcelona",
+      "url": "https://www.diba.cat/es/web/cartografia-sig-local/sitmun.diba.cat",
+      "sourceGroup": "Administración local y supramunicipal · ejemplos y expansión",
+      "mode": "multithematic_product_review",
+      "candidateFascicles": [
+        "F00"
+      ],
+      "status": "planned_not_integrated",
+      "complementaryOperator": false
+    },
+    {
+      "sourceId": "F177",
+      "name": "Diputación Foral de Álava",
+      "url": "https://irekia.araba.eus/es/open-data",
+      "sourceGroup": "Administración local y supramunicipal · ejemplos y expansión",
+      "mode": "multithematic_product_review",
+      "candidateFascicles": [
+        "F00"
+      ],
+      "status": "planned_not_integrated",
+      "complementaryOperator": false
+    },
+    {
+      "sourceId": "F178",
+      "name": "Diputación Foral de Bizkaia",
+      "url": "https://www.opendatabizkaia.eus/",
+      "sourceGroup": "Administración local y supramunicipal · ejemplos y expansión",
+      "mode": "multithematic_product_review",
+      "candidateFascicles": [
+        "F00"
+      ],
+      "status": "planned_not_integrated",
+      "complementaryOperator": false
+    },
+    {
+      "sourceId": "F179",
+      "name": "Diputación Foral de Gipuzkoa",
+      "url": "https://www.gipuzkoairekia.eus/",
+      "sourceGroup": "Administración local y supramunicipal · ejemplos y expansión",
+      "mode": "multithematic_product_review",
+      "candidateFascicles": [
+        "F00"
+      ],
+      "status": "planned_not_integrated",
+      "complementaryOperator": false
+    },
+    {
+      "sourceId": "F180",
+      "name": "Cabildo de Tenerife",
+      "url": "https://datos.tenerife.es/",
+      "sourceGroup": "Administración local y supramunicipal · ejemplos y expansión",
+      "mode": "multithematic_product_review",
+      "candidateFascicles": [
+        "F00"
+      ],
+      "status": "planned_not_integrated",
+      "complementaryOperator": false
+    },
+    {
+      "sourceId": "F181",
+      "name": "Cabildo de La Palma",
+      "url": "https://www.opendatalapalma.es/",
+      "sourceGroup": "Administración local y supramunicipal · ejemplos y expansión",
+      "mode": "multithematic_product_review",
+      "candidateFascicles": [
+        "F00"
+      ],
+      "status": "planned_not_integrated",
+      "complementaryOperator": false
+    },
+    {
+      "sourceId": "F182",
+      "name": "Ayuntamientos, diputaciones, cabildos, consells y consorcios del registro nacional",
+      "url": "https://datos.gob.es/es/catalogo",
+      "sourceGroup": "Administración local y supramunicipal · ejemplos y expansión",
+      "mode": "multithematic_product_review",
+      "candidateFascicles": [
+        "F00"
+      ],
+      "status": "planned_not_integrated",
+      "complementaryOperator": false
+    }
+  ],
+  "ioeSectorRoutes": [
+    {
+      "sector": "Administraciones públicas y asociaciones",
+      "operationCount": 81,
+      "candidateFascicles": [
+        "F09",
+        "F10",
+        "F27",
+        "F28"
+      ],
+      "requiresOperationReview": true
+    },
+    {
+      "sector": "Agricultura, ganadería, selvicultura y caza",
+      "operationCount": 43,
+      "candidateFascicles": [
+        "F14",
+        "F15"
+      ],
+      "requiresOperationReview": true
+    },
+    {
+      "sector": "Comercio interior y exterior",
+      "operationCount": 20,
+      "candidateFascicles": [
+        "F08"
+      ],
+      "requiresOperationReview": true
+    },
+    {
+      "sector": "Construcción y vivienda",
+      "operationCount": 15,
+      "candidateFascicles": [
+        "F06"
+      ],
+      "requiresOperationReview": true
+    },
+    {
+      "sector": "Cuentas económicas",
+      "operationCount": 52,
+      "candidateFascicles": [
+        "F07",
+        "F09"
+      ],
+      "requiresOperationReview": true
+    },
+    {
+      "sector": "Cultura, deporte y ocio",
+      "operationCount": 43,
+      "candidateFascicles": [
+        "F25",
+        "F26"
+      ],
+      "requiresOperationReview": true
+    },
+    {
+      "sector": "Demografía y población",
+      "operationCount": 35,
+      "candidateFascicles": [
+        "F02"
+      ],
+      "requiresOperationReview": true
+    },
+    {
+      "sector": "Educación y formación",
+      "operationCount": 43,
+      "candidateFascicles": [
+        "F11"
+      ],
+      "requiresOperationReview": true
+    },
+    {
+      "sector": "Estadísticas de empresas y unidades de producción no referidas a sectores particulares",
+      "operationCount": 23,
+      "candidateFascicles": [
+        "F07"
+      ],
+      "requiresOperationReview": true
+    },
+    {
+      "sector": "Estadísticas no desglosables por sector o tema",
+      "operationCount": 18,
+      "candidateFascicles": [
+        "F00"
+      ],
+      "requiresOperationReview": true
+    },
+    {
+      "sector": "Extracción de productos energéticos y energía en general",
+      "operationCount": 21,
+      "candidateFascicles": [
+        "F21"
+      ],
+      "requiresOperationReview": true
+    },
+    {
+      "sector": "Financieras y seguros",
+      "operationCount": 8,
+      "candidateFascicles": [
+        "F08"
+      ],
+      "requiresOperationReview": true
+    },
+    {
+      "sector": "Hostelería y turismo",
+      "operationCount": 17,
+      "candidateFascicles": [
+        "F24"
+      ],
+      "requiresOperationReview": true
+    },
+    {
+      "sector": "Investigación científica y desarrollo tecnológico",
+      "operationCount": 12,
+      "candidateFascicles": [
+        "F12"
+      ],
+      "requiresOperationReview": true
+    },
+    {
+      "sector": "Medio ambiente y desarrollo sostenible",
+      "operationCount": 35,
+      "candidateFascicles": [
+        "F15",
+        "F16",
+        "F17",
+        "F18",
+        "F19",
+        "F20"
+      ],
+      "requiresOperationReview": true
+    },
+    {
+      "sector": "Mercado laboral y salarios",
+      "operationCount": 43,
+      "candidateFascicles": [
+        "F04"
+      ],
+      "requiresOperationReview": true
+    },
+    {
+      "sector": "Minería e industria",
+      "operationCount": 18,
+      "candidateFascicles": [
+        "F07",
+        "F18"
+      ],
+      "requiresOperationReview": true
+    },
+    {
+      "sector": "Nivel, calidad y condiciones de vida",
+      "operationCount": 48,
+      "candidateFascicles": [
+        "F03",
+        "F05"
+      ],
+      "requiresOperationReview": true
+    },
+    {
+      "sector": "Normalización y metodología general",
+      "operationCount": 5,
+      "candidateFascicles": [
+        "F00"
+      ],
+      "requiresOperationReview": true
+    },
+    {
+      "sector": "Pesca y acuicultura",
+      "operationCount": 7,
+      "candidateFascicles": [
+        "F14"
+      ],
+      "requiresOperationReview": true
+    },
+    {
+      "sector": "Precios",
+      "operationCount": 31,
+      "candidateFascicles": [
+        "F08",
+        "F06",
+        "F14",
+        "F21"
+      ],
+      "requiresOperationReview": true
+    },
+    {
+      "sector": "Protección social y servicios sociales",
+      "operationCount": 26,
+      "candidateFascicles": [
+        "F05"
+      ],
+      "requiresOperationReview": true
+    },
+    {
+      "sector": "Salud",
+      "operationCount": 42,
+      "candidateFascicles": [
+        "F13"
+      ],
+      "requiresOperationReview": true
+    },
+    {
+      "sector": "Seguridad y justicia",
+      "operationCount": 41,
+      "candidateFascicles": [
+        "F29",
+        "F05"
+      ],
+      "requiresOperationReview": true
+    },
+    {
+      "sector": "Servicios (estadísticas generales)",
+      "operationCount": 4,
+      "candidateFascicles": [
+        "F07"
+      ],
+      "requiresOperationReview": true
+    },
+    {
+      "sector": "Tecnologías de la información y las comunicaciones (TIC)",
+      "operationCount": 7,
+      "candidateFascicles": [
+        "F23"
+      ],
+      "requiresOperationReview": true
+    },
+    {
+      "sector": "Transporte y actividades conexas",
+      "operationCount": 20,
+      "candidateFascicles": [
+        "F22"
+      ],
+      "requiresOperationReview": true
+    }
+  ]
+}

@@ -26,14 +26,10 @@ Nunca se mezclan precios de oferta, alquiler declarado y valor tasado; resultado
 - La densidad se calcula sobre superficie esférica aproximada de límites actuales; no representa superficies oficiales ni fronteras históricas.
 - No se garantiza disponibilidad de terceros, ni funcionamiento sin conexión. No se almacena información de visitantes, ni se necesitan cuentas para consultar el atlas.
 
-## Prioridades siguientes
+## Plan de incorporación
 
-1. Incorporar población reciente identificando operación, continuidad y metodología, y las series municipales del INE. Particionar por provincia y cargar por vista.
-2. Clasificar automáticamente el inventario INE por tema y detectar candidatos cartografiables a partir de dimensiones y códigos, con revisión de cada adaptador.
-3. Añadir renta (INE), vivienda/alquiler (MIVAU y fuentes oficiales con cobertura verificada), empleo y elecciones definitivas (Interior).
-4. Integrar bosque, espacios protegidos, masas de agua, acuíferos, costa y medio marino (MITECO, IGME y organismos competentes).
-5. Tiempo/clima AEMET mediante ingesta fuera del navegador; la clave gratuita se mantendría en secretos del entorno, nunca en Git ni en la web publicada.
-6. Comarcas autonómicas tipificadas, secciones censales y otras geometrías mediante PMTiles; correspondencias por fecha, sin suponer una jerarquía idéntica en todo el país.
-7. Comparación temporal, búsqueda municipal, selección de dimensiones, orden de superposición y exportación de vistas.
+El [plan de entregas del 6 de noviembre de 2026](PLAN_DE_ENTREGAS.md) organiza la ampliación en F00 —base común— y 29 fascículos temáticos. Sustituye la lista inicial de prioridades: primero se revisará el diseño de la página; después se implementarán F00 y F01 y se integrarán las familias siguientes por lotes comprobables.
+
+Las fuentes nacionales, autonómicas y locales se reunirán por indicador y tema, conservando diferencias de metodología y cobertura. El reparto del inventario es una planificación de revisión, no una declaración de capas disponibles. Cada familia incluirá sus series históricas, consulta territorial y registro de productos pendientes desde su primera integración.
 
 El JSON local facilita comenzar sin infraestructura. No se propone almacenar terabytes de imágenes en Git. Antes de superar los límites de Pages/GitHub, separar catálogo pequeño, tablas particionadas y objetos geográficos optimizados. SQLite/DuckDB/Parquet pueden tener sentido en ingesta o consultas analíticas; no son necesarios para servir esta primera versión estática.
