@@ -1,0 +1,3182 @@
+{
+  "schemaVersion": 1,
+  "revision": "2026-11-09",
+  "available": [
+    {
+      "id": "territory:country",
+      "title": "Costa y contorno de España",
+      "sourceId": "F006",
+      "categoryIds": [
+        "F01"
+      ],
+      "status": "integrado",
+      "url": "https://www.ign.es/web/ide-area-nodo-ide-ign",
+      "coverage": "Contorno de las unidades IGN. No delimita espacios marítimos.",
+      "period": "Según el servicio de origen",
+      "license": "CC BY 4.0 · IGN",
+      "mode": "remote",
+      "notes": "Contorno de las unidades IGN. No delimita espacios marítimos.",
+      "mapAction": "territory:country",
+      "fields": {
+        "Detalle visible": "Desde zoom 0",
+        "Fecha de revisión": "2026-11-09"
+      }
+    },
+    {
+      "id": "territory:comarcas",
+      "title": "Comarcas y divisiones supramunicipales",
+      "sourceId": "F004",
+      "categoryIds": [
+        "F01"
+      ],
+      "status": "integrado",
+      "url": "https://www.ign.es/web/ide-area-nodo-ide-ign",
+      "coverage": "Aragón (33), Navarra (12), Comunitat Valenciana (33), Euskadi (20), Galicia (53), Cataluña (43)",
+      "period": "Captura 2026-11-09; vigencia propia de cada fuente",
+      "license": "Condiciones de los organismos cartográficos autonómicos",
+      "mode": "local",
+      "notes": "Aragón, Cataluña, Navarra, Comunitat Valenciana, Galicia y Euskadi. Tipología y procedencia conservadas por entidad; cobertura ampliable.",
+      "mapAction": "territory:comarcas",
+      "dataFile": "territory/comarcas.geojson",
+      "fields": {
+        "Detalle visible": "Desde zoom 6",
+        "Fecha de revisión": "2026-11-09"
+      }
+    },
+    {
+      "id": "territory:canary-comarcas-a1",
+      "title": "Comarcas estadísticas A1 · Canarias",
+      "sourceId": "F155",
+      "categoryIds": [
+        "F01"
+      ],
+      "status": "integrado",
+      "url": "https://idecan2.grafcan.es/ServicioWMS/CARTO_EST",
+      "coverage": "GRAFCAN / ISTAC · zonas estadísticas intermedias A1; no son comarcas administrativas.",
+      "period": "Según el servicio de origen",
+      "license": "Condiciones de cada proveedor oficial; consultar el origen",
+      "mode": "remote",
+      "notes": "GRAFCAN / ISTAC · zonas estadísticas intermedias A1; no son comarcas administrativas.",
+      "mapAction": "territory:canary-comarcas-a1",
+      "fields": {
+        "Detalle visible": "Desde zoom 7",
+        "Fecha de revisión": "2026-11-09",
+        "Proveedores": "GRAFCAN / ISTAC · IDECanarias"
+      }
+    },
+    {
+      "id": "territory:canary-comarcas-a2",
+      "title": "Comarcas estadísticas A2 · Canarias",
+      "sourceId": "F155",
+      "categoryIds": [
+        "F01"
+      ],
+      "status": "integrado",
+      "url": "https://idecan2.grafcan.es/ServicioWMS/CARTO_EST",
+      "coverage": "GRAFCAN / ISTAC · zonas estadísticas intermedias A2; conservan su propia división.",
+      "period": "Según el servicio de origen",
+      "license": "Condiciones de cada proveedor oficial; consultar el origen",
+      "mode": "remote",
+      "notes": "GRAFCAN / ISTAC · zonas estadísticas intermedias A2; conservan su propia división.",
+      "mapAction": "territory:canary-comarcas-a2",
+      "fields": {
+        "Detalle visible": "Desde zoom 8",
+        "Fecha de revisión": "2026-11-09",
+        "Proveedores": "GRAFCAN / ISTAC · IDECanarias"
+      }
+    },
+    {
+      "id": "territory:nuclei",
+      "title": "Núcleos de población",
+      "sourceId": "F006",
+      "categoryIds": [
+        "F01"
+      ],
+      "status": "integrado",
+      "url": "https://www.ign.es/web/ide-area-nodo-ide-ign",
+      "coverage": "IGN · recintos y nombres publicados, con su código de origen.",
+      "period": "Según el servicio de origen",
+      "license": "CC BY 4.0 · IGN",
+      "mode": "remote",
+      "notes": "IGN · recintos y nombres publicados, con su código de origen.",
+      "mapAction": "territory:nuclei",
+      "fields": {
+        "Detalle visible": "Desde zoom 9",
+        "Fecha de revisión": "2026-11-09"
+      }
+    },
+    {
+      "id": "territory:other-places",
+      "title": "Otras poblaciones",
+      "sourceId": "F006",
+      "categoryIds": [
+        "F01"
+      ],
+      "status": "integrado",
+      "url": "https://www.ign.es/web/ide-area-nodo-ide-ign",
+      "coverage": "IGN · asentamientos y otras poblaciones; no equivalen a municipios.",
+      "period": "Según el servicio de origen",
+      "license": "CC BY 4.0 · IGN",
+      "mode": "remote",
+      "notes": "IGN · asentamientos y otras poblaciones; no equivalen a municipios.",
+      "mapAction": "territory:other-places",
+      "fields": {
+        "Detalle visible": "Desde zoom 10",
+        "Fecha de revisión": "2026-11-09"
+      }
+    },
+    {
+      "id": "territory:unnamed-places",
+      "title": "Lugares sin topónimo conocido",
+      "sourceId": "F006",
+      "categoryIds": [
+        "F01"
+      ],
+      "status": "integrado",
+      "url": "https://www.ign.es/web/ide-area-nodo-ide-ign",
+      "coverage": "IGN · lugares sin nombre publicado; sin completar nombres por inferencia.",
+      "period": "Según el servicio de origen",
+      "license": "CC BY 4.0 · IGN",
+      "mode": "remote",
+      "notes": "IGN · lugares sin nombre publicado; sin completar nombres por inferencia.",
+      "mapAction": "territory:unnamed-places",
+      "fields": {
+        "Detalle visible": "Desde zoom 12",
+        "Fecha de revisión": "2026-11-09"
+      }
+    },
+    {
+      "id": "territory:postal-addresses",
+      "title": "Direcciones y portales · CartoCiudad",
+      "sourceId": "F007",
+      "categoryIds": [
+        "F01"
+      ],
+      "status": "integrado",
+      "url": "https://www.cartociudad.es/wms-inspire/direcciones-ccpp",
+      "coverage": "Cobertura del servicio nacional. La búsqueda también admite direcciones.",
+      "period": "Según el servicio de origen",
+      "license": "Condiciones de cada proveedor oficial; consultar el origen",
+      "mode": "remote",
+      "notes": "Cobertura del servicio nacional. La búsqueda también admite direcciones.",
+      "mapAction": "territory:postal-addresses",
+      "fields": {
+        "Detalle visible": "Desde zoom 15",
+        "Fecha de revisión": "2026-11-09",
+        "Proveedores": "CartoCiudad · IGN y colaboradores · CC BY 4.0"
+      }
+    },
+    {
+      "id": "territory:postcodes",
+      "title": "Ámbitos de códigos postales",
+      "sourceId": "F007",
+      "categoryIds": [
+        "F01"
+      ],
+      "status": "integrado",
+      "url": "https://www.cartociudad.es/wms-inspire/direcciones-ccpp",
+      "coverage": "CartoCiudad · los ámbitos postales no son divisiones administrativas.",
+      "period": "Según el servicio de origen",
+      "license": "Condiciones de cada proveedor oficial; consultar el origen",
+      "mode": "remote",
+      "notes": "CartoCiudad · los ámbitos postales no son divisiones administrativas.",
+      "mapAction": "territory:postcodes",
+      "fields": {
+        "Detalle visible": "Desde zoom 10",
+        "Fecha de revisión": "2026-11-09",
+        "Proveedores": "CartoCiudad · IGN y colaboradores · CC BY 4.0"
+      }
+    },
+    {
+      "id": "territory:sections",
+      "title": "Secciones censales",
+      "sourceId": "F005",
+      "categoryIds": [
+        "F01"
+      ],
+      "status": "integrado",
+      "url": "https://www.ine.es/geoserver/ows",
+      "coverage": "INE · seccionado según la edición elegida, independiente del año estadístico.",
+      "period": "Ediciones de 2001, 2007–2026 y Censo 2011",
+      "license": "Seccionado cedido por el Instituto Nacional de Estadística",
+      "mode": "remote",
+      "notes": "INE · seccionado según la edición elegida, independiente del año estadístico.",
+      "mapAction": "territory:sections",
+      "fields": {
+        "Detalle visible": "Desde zoom 10",
+        "Fecha de revisión": "2026-11-09"
+      }
+    },
+    {
+      "id": "territory:historical-limits",
+      "title": "Límites administrativos históricos",
+      "sourceId": "F006",
+      "categoryIds": [
+        "F01"
+      ],
+      "status": "integrado",
+      "url": "https://www.ign.es/wms-inspire/unidades-administrativas",
+      "coverage": "IGN · fechas entre 05/07/2009 y 28/07/2026. No modifica las geometrías actuales.",
+      "period": "2009-07-05 a 2026-07-28",
+      "license": "CC BY 4.0 · IGN",
+      "mode": "remote",
+      "notes": "IGN · fechas entre 05/07/2009 y 28/07/2026. No modifica las geometrías actuales.",
+      "mapAction": "territory:historical-limits",
+      "fields": {
+        "Detalle visible": "Desde zoom 7",
+        "Fecha de revisión": "2026-11-09"
+      }
+    },
+    {
+      "id": "territory:hillshade",
+      "title": "Sombreado del terreno · IGN",
+      "sourceId": "F006",
+      "categoryIds": [
+        "F01"
+      ],
+      "status": "integrado",
+      "url": "https://www.ign.es/web/ide-area-nodo-ide-ign",
+      "coverage": "Sombreado calculado sobre el modelo de elevaciones oficial.",
+      "period": "Según el servicio de origen",
+      "license": "CC BY 4.0 · IGN",
+      "mode": "remote",
+      "notes": "Sombreado calculado sobre el modelo de elevaciones oficial.",
+      "mapAction": "territory:hillshade",
+      "fields": {
+        "Detalle visible": "Desde zoom 5",
+        "Fecha de revisión": "2026-11-09"
+      }
+    },
+    {
+      "id": "territory:contours",
+      "title": "Curvas de nivel y cotas · BTN",
+      "sourceId": "F006",
+      "categoryIds": [
+        "F01"
+      ],
+      "status": "integrado",
+      "url": "https://www.ign.es/web/ide-area-nodo-ide-ign",
+      "coverage": "Base Topográfica Nacional · detalle y equidistancia según escala.",
+      "period": "Según el servicio de origen",
+      "license": "CC BY 4.0 · IGN",
+      "mode": "remote",
+      "notes": "Base Topográfica Nacional · detalle y equidistancia según escala.",
+      "mapAction": "territory:contours",
+      "fields": {
+        "Detalle visible": "Desde zoom 11",
+        "Fecha de revisión": "2026-11-09"
+      }
+    },
+    {
+      "id": "territory:topographic-buildings",
+      "title": "Edificios · Base Topográfica Nacional",
+      "sourceId": "F006",
+      "categoryIds": [
+        "F01"
+      ],
+      "status": "integrado",
+      "url": "https://www.ign.es/web/ide-area-nodo-ide-ign",
+      "coverage": "IGN · edificios y construcciones de la BTN; no son parcelas catastrales.",
+      "period": "Según el servicio de origen",
+      "license": "CC BY 4.0 · IGN",
+      "mode": "remote",
+      "notes": "IGN · edificios y construcciones de la BTN; no son parcelas catastrales.",
+      "mapAction": "territory:topographic-buildings",
+      "fields": {
+        "Detalle visible": "Desde zoom 13",
+        "Fecha de revisión": "2026-11-09"
+      }
+    },
+    {
+      "id": "territory:parcels",
+      "title": "Parcelas catastrales",
+      "sourceId": "F008",
+      "categoryIds": [
+        "F01"
+      ],
+      "status": "integrado",
+      "url": "https://ovc.catastro.meh.es/cartografia/INSPIRE/spadgcwms.aspx",
+      "coverage": "DGC y servicios forales de Navarra, Álava, Bizkaia y Gipuzkoa. Condiciones y actualización propias de cada fuente.",
+      "period": "Según el servicio de origen",
+      "license": "Condiciones de cada proveedor oficial; consultar el origen",
+      "mode": "remote",
+      "notes": "DGC y servicios forales de Navarra, Álava, Bizkaia y Gipuzkoa. Condiciones y actualización propias de cada fuente.",
+      "mapAction": "territory:parcels",
+      "fields": {
+        "Detalle visible": "Desde zoom 15",
+        "Fecha de revisión": "2026-11-09",
+        "Proveedores": "Dirección General del Catastro · condiciones INSPIRE; Gobierno de Navarra · SITNA; Diputación Foral de Álava; Diputación Foral de Bizkaia; Diputación Foral de Gipuzkoa · b5m"
+      }
+    },
+    {
+      "id": "territory:cadastral-buildings",
+      "title": "Edificios catastrales",
+      "sourceId": "F008",
+      "categoryIds": [
+        "F01"
+      ],
+      "status": "integrado",
+      "url": "https://ovc.catastro.meh.es/cartografia/INSPIRE/spadgcwms.aspx",
+      "coverage": "DGC, Bizkaia y Gipuzkoa. No se presupone cobertura de las demás haciendas forales.",
+      "period": "Según el servicio de origen",
+      "license": "Condiciones de cada proveedor oficial; consultar el origen",
+      "mode": "remote",
+      "notes": "DGC, Bizkaia y Gipuzkoa. No se presupone cobertura de las demás haciendas forales.",
+      "mapAction": "territory:cadastral-buildings",
+      "fields": {
+        "Detalle visible": "Desde zoom 15",
+        "Fecha de revisión": "2026-11-09",
+        "Proveedores": "Dirección General del Catastro · condiciones INSPIRE; Diputación Foral de Bizkaia; Diputación Foral de Gipuzkoa · b5m"
+      }
+    },
+    {
+      "id": "territory:building-parts",
+      "title": "Partes de edificios",
+      "sourceId": "F008",
+      "categoryIds": [
+        "F01"
+      ],
+      "status": "integrado",
+      "url": "https://ovc.catastro.meh.es/cartografia/INSPIRE/spadgcwms.aspx",
+      "coverage": "DGC · unidades constructivas publicadas. Esta capa no ofrece consulta de atributos WMS.",
+      "period": "Según el servicio de origen",
+      "license": "Condiciones de cada proveedor oficial; consultar el origen",
+      "mode": "remote",
+      "notes": "DGC · unidades constructivas publicadas. Esta capa no ofrece consulta de atributos WMS.",
+      "mapAction": "territory:building-parts",
+      "fields": {
+        "Detalle visible": "Desde zoom 16",
+        "Fecha de revisión": "2026-11-09",
+        "Proveedores": "Dirección General del Catastro · condiciones INSPIRE"
+      }
+    },
+    {
+      "id": "territory:cadastral-addresses",
+      "title": "Direcciones catastrales",
+      "sourceId": "F008",
+      "categoryIds": [
+        "F01"
+      ],
+      "status": "integrado",
+      "url": "https://ovc.catastro.meh.es/cartografia/INSPIRE/spadgcwms.aspx",
+      "coverage": "DGC, Bizkaia y Gipuzkoa · numeración publicada; no muestra titulares.",
+      "period": "Según el servicio de origen",
+      "license": "Condiciones de cada proveedor oficial; consultar el origen",
+      "mode": "remote",
+      "notes": "DGC, Bizkaia y Gipuzkoa · numeración publicada; no muestra titulares.",
+      "mapAction": "territory:cadastral-addresses",
+      "fields": {
+        "Detalle visible": "Desde zoom 16",
+        "Fecha de revisión": "2026-11-09",
+        "Proveedores": "Dirección General del Catastro · condiciones INSPIRE; Diputación Foral de Bizkaia; Diputación Foral de Gipuzkoa · b5m"
+      }
+    },
+    {
+      "id": "territory:cadastral-zoning",
+      "title": "Zonificación catastral",
+      "sourceId": "F008",
+      "categoryIds": [
+        "F01"
+      ],
+      "status": "integrado",
+      "url": "https://ovc.catastro.meh.es/cartografia/INSPIRE/spadgcwms.aspx",
+      "coverage": "DGC, Bizkaia y Gipuzkoa · polígonos y zonificación, con tipologías propias.",
+      "period": "Según el servicio de origen",
+      "license": "Condiciones de cada proveedor oficial; consultar el origen",
+      "mode": "remote",
+      "notes": "DGC, Bizkaia y Gipuzkoa · polígonos y zonificación, con tipologías propias.",
+      "mapAction": "territory:cadastral-zoning",
+      "fields": {
+        "Detalle visible": "Desde zoom 13",
+        "Fecha de revisión": "2026-11-09",
+        "Proveedores": "Dirección General del Catastro · condiciones INSPIRE; Diputación Foral de Bizkaia; Diputación Foral de Gipuzkoa · b5m"
+      }
+    },
+    {
+      "id": "territory:cadastral-units",
+      "title": "Unidades administrativas catastrales",
+      "sourceId": "F008",
+      "categoryIds": [
+        "F01"
+      ],
+      "status": "integrado",
+      "url": "https://ovc.catastro.meh.es/cartografia/INSPIRE/spadgcwms.aspx",
+      "coverage": "DGC y servicios de Bizkaia y Gipuzkoa · delimitaciones propias de cada sistema.",
+      "period": "Según el servicio de origen",
+      "license": "Condiciones de cada proveedor oficial; consultar el origen",
+      "mode": "remote",
+      "notes": "DGC y servicios de Bizkaia y Gipuzkoa · delimitaciones propias de cada sistema.",
+      "mapAction": "territory:cadastral-units",
+      "fields": {
+        "Detalle visible": "Desde zoom 10",
+        "Fecha de revisión": "2026-11-09",
+        "Proveedores": "Dirección General del Catastro · condiciones INSPIRE; Diputación Foral de Bizkaia; Diputación Foral de Gipuzkoa · b5m"
+      }
+    },
+    {
+      "id": "territory:cadastral-boundaries",
+      "title": "Líneas administrativas catastrales",
+      "sourceId": "F008",
+      "categoryIds": [
+        "F01"
+      ],
+      "status": "integrado",
+      "url": "https://ovc.catastro.meh.es/cartografia/INSPIRE/spadgcwms.aspx",
+      "coverage": "DGC y Gipuzkoa · no sustituye a las líneas del Registro Central de Cartografía.",
+      "period": "Según el servicio de origen",
+      "license": "Condiciones de cada proveedor oficial; consultar el origen",
+      "mode": "remote",
+      "notes": "DGC y Gipuzkoa · no sustituye a las líneas del Registro Central de Cartografía.",
+      "mapAction": "territory:cadastral-boundaries",
+      "fields": {
+        "Detalle visible": "Desde zoom 10",
+        "Fecha de revisión": "2026-11-09",
+        "Proveedores": "Dirección General del Catastro · condiciones INSPIRE; Diputación Foral de Gipuzkoa · b5m"
+      }
+    },
+    {
+      "id": "territory:cadastral-subparcels",
+      "title": "Subparcelas, solares y otros recintos",
+      "sourceId": "F178",
+      "categoryIds": [
+        "F01"
+      ],
+      "status": "integrado",
+      "url": "https://geo.bizkaia.eus/arcgisserverinspire/services/LurraldeAntolamendua_PlanificacionTerritorial/Katastro_Catastro/MapServer/WMSServer",
+      "coverage": "Bizkaia · subparcelas urbanas, subedificadas, no catastradas, rústicas, solares y BICE. Gipuzkoa · otras construcciones.",
+      "period": "Según el servicio de origen",
+      "license": "Condiciones de cada proveedor oficial; consultar el origen",
+      "mode": "remote",
+      "notes": "Bizkaia · subparcelas urbanas, subedificadas, no catastradas, rústicas, solares y BICE. Gipuzkoa · otras construcciones.",
+      "mapAction": "territory:cadastral-subparcels",
+      "fields": {
+        "Detalle visible": "Desde zoom 16",
+        "Fecha de revisión": "2026-11-09",
+        "Proveedores": "Diputación Foral de Bizkaia; Diputación Foral de Gipuzkoa · b5m"
+      }
+    },
+    {
+      "id": "territory:municipal-index",
+      "title": "Relación de municipios y correspondencia insular",
+      "sourceId": "F005",
+      "categoryIds": [
+        "F01"
+      ],
+      "status": "integrado",
+      "url": "https://www.ine.es/daco/daco42/codmun/diccionario26.xlsx",
+      "coverage": "8.132 municipios de España; provincias, comunidades e islas vinculadas",
+      "period": "Relación municipal a 2026-01-01. El fichero insular conserva sus rótulos de origen.",
+      "license": "CC BY 4.0 · INE",
+      "mode": "local",
+      "dataFile": "territory/index.json",
+      "mapAction": "search:addresses",
+      "notes": "La correspondencia IGN preserva 81 áreas adicionales fuera del catálogo municipal. No se convierten en municipios."
+    },
+    {
+      "id": "territory:address-search",
+      "title": "Búsqueda oficial de direcciones y lugares",
+      "sourceId": "F007",
+      "categoryIds": [
+        "F01"
+      ],
+      "status": "integrado",
+      "url": "https://www.cartociudad.es/",
+      "coverage": "España · CartoCiudad",
+      "period": "Actualización del servicio",
+      "license": "CC BY 4.0 · IGN y colaboradores",
+      "mode": "remote",
+      "mapAction": "search:addresses",
+      "notes": "Búsqueda de candidatos seguida de geolocalización. No se usan coordenadas cero de las sugerencias."
+    }
+  ],
+  "inventory": [
+    {
+      "id": "f01-wms:ign-wms:AU.AdministrativeBoundary",
+      "title": "Límite administrativo",
+      "sourceId": "F006",
+      "categoryIds": [
+        "F01"
+      ],
+      "suggestedCategoryIds": [],
+      "status": "por_revisar",
+      "url": "https://www.ign.es/wms-inspire/unidades-administrativas?SERVICE=WMS&REQUEST=GetCapabilities",
+      "coverage": "España",
+      "period": "Según el producto original",
+      "license": null,
+      "notes": "Inventario técnico completo de las capas anunciadas por este servicio. No equivale a una capa nueva ni a tener todas sus variantes adaptadas.",
+      "fields": {
+        "Servicio": "IGN · Límites actuales e históricos",
+        "Nombre de capa": "AU.AdministrativeBoundary",
+        "Estilos": "LimitesAdministrativos, LimitesRojo, LimitesGris, LimitesCruz, EstadoJuridico, AU.AdministrativeBoundary.Default",
+        "Consulta de atributos": "Disponible en el servicio"
+      }
+    },
+    {
+      "id": "f01-wms:ign-wms:AU.AdministrativeUnit",
+      "title": "Unidad administrativa",
+      "sourceId": "F006",
+      "categoryIds": [
+        "F01"
+      ],
+      "suggestedCategoryIds": [],
+      "status": "por_revisar",
+      "url": "https://www.ign.es/wms-inspire/unidades-administrativas?SERVICE=WMS&REQUEST=GetCapabilities",
+      "coverage": "España",
+      "period": "Según el producto original",
+      "license": null,
+      "notes": "Inventario técnico completo de las capas anunciadas por este servicio. No equivale a una capa nueva ni a tener todas sus variantes adaptadas.",
+      "fields": {
+        "Servicio": "IGN · Límites actuales e históricos",
+        "Nombre de capa": "AU.AdministrativeUnit",
+        "Estilos": "UnidadesAdministrativas, ua-comparador, ua-EscalaGris, ccaa-gris, provincias-gris, municipios-gris, AU.AdministrativeUnit.Default",
+        "Consulta de atributos": "Disponible en el servicio"
+      }
+    },
+    {
+      "id": "f01-wms:ign-wms:LimitesHistoricos",
+      "title": "Límites históricos",
+      "sourceId": "F006",
+      "categoryIds": [
+        "F01"
+      ],
+      "suggestedCategoryIds": [],
+      "status": "por_revisar",
+      "url": "https://www.ign.es/wms-inspire/unidades-administrativas?SERVICE=WMS&REQUEST=GetCapabilities",
+      "coverage": "España",
+      "period": "Según el producto original",
+      "license": null,
+      "notes": "Inventario técnico completo de las capas anunciadas por este servicio. No equivale a una capa nueva ni a tener todas sus variantes adaptadas.",
+      "fields": {
+        "Servicio": "IGN · Límites actuales e históricos",
+        "Nombre de capa": "LimitesHistoricos",
+        "Estilos": "Historicos",
+        "Consulta de atributos": "Disponible en el servicio"
+      }
+    },
+    {
+      "id": "f01-wms:ign-wms:LimitesTime",
+      "title": "Límites históricos y vigentes consultables por fecha",
+      "sourceId": "F006",
+      "categoryIds": [
+        "F01"
+      ],
+      "suggestedCategoryIds": [],
+      "status": "por_revisar",
+      "url": "https://www.ign.es/wms-inspire/unidades-administrativas?SERVICE=WMS&REQUEST=GetCapabilities",
+      "coverage": "España",
+      "period": "2009-07-05T22:00:00.000Z/2026-07-28T23:00:00.000Z/P1D",
+      "license": null,
+      "notes": "Inventario técnico completo de las capas anunciadas por este servicio. No equivale a una capa nueva ni a tener todas sus variantes adaptadas.",
+      "fields": {
+        "Servicio": "IGN · Límites actuales e históricos",
+        "Nombre de capa": "LimitesTime",
+        "Estilos": "Historicos, EstadoJuridico, LimitesAdministrativos, LimitesRojo, LimitesGris, LimitesCruz",
+        "Consulta de atributos": "Disponible en el servicio"
+      }
+    },
+    {
+      "id": "f01-wms:ine-wms:WMS_INE_SECCIONES_G01:SU.VectorStatisticalUnit",
+      "title": "Secciones_2026",
+      "sourceId": "F005",
+      "categoryIds": [
+        "F01"
+      ],
+      "suggestedCategoryIds": [],
+      "status": "por_revisar",
+      "url": "https://www.ine.es/geoserver/ows?SERVICE=WMS&REQUEST=GetCapabilities",
+      "coverage": "España",
+      "period": "Según el producto original",
+      "license": null,
+      "notes": "Inventario técnico completo de las capas anunciadas por este servicio. No equivale a una capa nueva ni a tener todas sus variantes adaptadas.",
+      "fields": {
+        "Servicio": "INE · Secciones censales",
+        "Nombre de capa": "WMS_INE_SECCIONES_G01:SU.VectorStatisticalUnit",
+        "Estilos": "WMS_INE_SECCIONES_G01:seccionado_CE, polygon, WMS_INE_SECCIONES_G01:SU.VectorStatisticalUnits.Default",
+        "Consulta de atributos": "Disponible en el servicio"
+      }
+    },
+    {
+      "id": "f01-wms:ine-wms:WMS_INE_SECCIONES_G01:Secciones_2007",
+      "title": "Secciones_2007",
+      "sourceId": "F005",
+      "categoryIds": [
+        "F01"
+      ],
+      "suggestedCategoryIds": [],
+      "status": "por_revisar",
+      "url": "https://www.ine.es/geoserver/ows?SERVICE=WMS&REQUEST=GetCapabilities",
+      "coverage": "España",
+      "period": "Según el producto original",
+      "license": null,
+      "notes": "Inventario técnico completo de las capas anunciadas por este servicio. No equivale a una capa nueva ni a tener todas sus variantes adaptadas.",
+      "fields": {
+        "Servicio": "INE · Secciones censales",
+        "Nombre de capa": "WMS_INE_SECCIONES_G01:Secciones_2007",
+        "Estilos": "WMS_INE_SECCIONES_G01:seccionado_CE, WMS_INE_SECCIONES_G01:SU.VectorStatisticalUnits.Default",
+        "Consulta de atributos": "Disponible en el servicio"
+      }
+    },
+    {
+      "id": "f01-wms:ine-wms:WMS_INE_SECCIONES_G01:Secciones_2008",
+      "title": "Secciones_2008",
+      "sourceId": "F005",
+      "categoryIds": [
+        "F01"
+      ],
+      "suggestedCategoryIds": [],
+      "status": "por_revisar",
+      "url": "https://www.ine.es/geoserver/ows?SERVICE=WMS&REQUEST=GetCapabilities",
+      "coverage": "España",
+      "period": "Según el producto original",
+      "license": null,
+      "notes": "Inventario técnico completo de las capas anunciadas por este servicio. No equivale a una capa nueva ni a tener todas sus variantes adaptadas.",
+      "fields": {
+        "Servicio": "INE · Secciones censales",
+        "Nombre de capa": "WMS_INE_SECCIONES_G01:Secciones_2008",
+        "Estilos": "WMS_INE_SECCIONES_G01:seccionado_CE, WMS_INE_SECCIONES_G01:SU.VectorStatisticalUnits.Default",
+        "Consulta de atributos": "Disponible en el servicio"
+      }
+    },
+    {
+      "id": "f01-wms:ine-wms:WMS_INE_SECCIONES_G01:Secciones_2009",
+      "title": "Secciones_2009",
+      "sourceId": "F005",
+      "categoryIds": [
+        "F01"
+      ],
+      "suggestedCategoryIds": [],
+      "status": "por_revisar",
+      "url": "https://www.ine.es/geoserver/ows?SERVICE=WMS&REQUEST=GetCapabilities",
+      "coverage": "España",
+      "period": "Según el producto original",
+      "license": null,
+      "notes": "Inventario técnico completo de las capas anunciadas por este servicio. No equivale a una capa nueva ni a tener todas sus variantes adaptadas.",
+      "fields": {
+        "Servicio": "INE · Secciones censales",
+        "Nombre de capa": "WMS_INE_SECCIONES_G01:Secciones_2009",
+        "Estilos": "WMS_INE_SECCIONES_G01:seccionado_CE, WMS_INE_SECCIONES_G01:SU.VectorStatisticalUnits.Default",
+        "Consulta de atributos": "Disponible en el servicio"
+      }
+    },
+    {
+      "id": "f01-wms:ine-wms:WMS_INE_SECCIONES_G01:Secciones_2010",
+      "title": "Secciones_2010",
+      "sourceId": "F005",
+      "categoryIds": [
+        "F01"
+      ],
+      "suggestedCategoryIds": [],
+      "status": "por_revisar",
+      "url": "https://www.ine.es/geoserver/ows?SERVICE=WMS&REQUEST=GetCapabilities",
+      "coverage": "España",
+      "period": "Según el producto original",
+      "license": null,
+      "notes": "Inventario técnico completo de las capas anunciadas por este servicio. No equivale a una capa nueva ni a tener todas sus variantes adaptadas.",
+      "fields": {
+        "Servicio": "INE · Secciones censales",
+        "Nombre de capa": "WMS_INE_SECCIONES_G01:Secciones_2010",
+        "Estilos": "WMS_INE_SECCIONES_G01:seccionado_CE, WMS_INE_SECCIONES_G01:SU.VectorStatisticalUnits.Default",
+        "Consulta de atributos": "Disponible en el servicio"
+      }
+    },
+    {
+      "id": "f01-wms:ine-wms:WMS_INE_SECCIONES_G01:Secciones_2011",
+      "title": "Secciones_2011",
+      "sourceId": "F005",
+      "categoryIds": [
+        "F01"
+      ],
+      "suggestedCategoryIds": [],
+      "status": "por_revisar",
+      "url": "https://www.ine.es/geoserver/ows?SERVICE=WMS&REQUEST=GetCapabilities",
+      "coverage": "España",
+      "period": "Según el producto original",
+      "license": null,
+      "notes": "Inventario técnico completo de las capas anunciadas por este servicio. No equivale a una capa nueva ni a tener todas sus variantes adaptadas.",
+      "fields": {
+        "Servicio": "INE · Secciones censales",
+        "Nombre de capa": "WMS_INE_SECCIONES_G01:Secciones_2011",
+        "Estilos": "WMS_INE_SECCIONES_G01:seccionado_CE, WMS_INE_SECCIONES_G01:SU.VectorStatisticalUnits.Default",
+        "Consulta de atributos": "Disponible en el servicio"
+      }
+    },
+    {
+      "id": "f01-wms:ine-wms:WMS_INE_SECCIONES_G01:Secciones_2012",
+      "title": "Secciones_2012",
+      "sourceId": "F005",
+      "categoryIds": [
+        "F01"
+      ],
+      "suggestedCategoryIds": [],
+      "status": "por_revisar",
+      "url": "https://www.ine.es/geoserver/ows?SERVICE=WMS&REQUEST=GetCapabilities",
+      "coverage": "España",
+      "period": "Según el producto original",
+      "license": null,
+      "notes": "Inventario técnico completo de las capas anunciadas por este servicio. No equivale a una capa nueva ni a tener todas sus variantes adaptadas.",
+      "fields": {
+        "Servicio": "INE · Secciones censales",
+        "Nombre de capa": "WMS_INE_SECCIONES_G01:Secciones_2012",
+        "Estilos": "WMS_INE_SECCIONES_G01:seccionado_CE, WMS_INE_SECCIONES_G01:SU.VectorStatisticalUnits.Default",
+        "Consulta de atributos": "Disponible en el servicio"
+      }
+    },
+    {
+      "id": "f01-wms:ine-wms:WMS_INE_SECCIONES_G01:Secciones_2013",
+      "title": "Secciones_2013",
+      "sourceId": "F005",
+      "categoryIds": [
+        "F01"
+      ],
+      "suggestedCategoryIds": [],
+      "status": "por_revisar",
+      "url": "https://www.ine.es/geoserver/ows?SERVICE=WMS&REQUEST=GetCapabilities",
+      "coverage": "España",
+      "period": "Según el producto original",
+      "license": null,
+      "notes": "Inventario técnico completo de las capas anunciadas por este servicio. No equivale a una capa nueva ni a tener todas sus variantes adaptadas.",
+      "fields": {
+        "Servicio": "INE · Secciones censales",
+        "Nombre de capa": "WMS_INE_SECCIONES_G01:Secciones_2013",
+        "Estilos": "WMS_INE_SECCIONES_G01:seccionado_CE, WMS_INE_SECCIONES_G01:SU.VectorStatisticalUnits.Default",
+        "Consulta de atributos": "Disponible en el servicio"
+      }
+    },
+    {
+      "id": "f01-wms:ine-wms:WMS_INE_SECCIONES_G01:Secciones_2014",
+      "title": "Secciones_2014",
+      "sourceId": "F005",
+      "categoryIds": [
+        "F01"
+      ],
+      "suggestedCategoryIds": [],
+      "status": "por_revisar",
+      "url": "https://www.ine.es/geoserver/ows?SERVICE=WMS&REQUEST=GetCapabilities",
+      "coverage": "España",
+      "period": "Según el producto original",
+      "license": null,
+      "notes": "Inventario técnico completo de las capas anunciadas por este servicio. No equivale a una capa nueva ni a tener todas sus variantes adaptadas.",
+      "fields": {
+        "Servicio": "INE · Secciones censales",
+        "Nombre de capa": "WMS_INE_SECCIONES_G01:Secciones_2014",
+        "Estilos": "WMS_INE_SECCIONES_G01:seccionado_CE, WMS_INE_SECCIONES_G01:SU.VectorStatisticalUnits.Default",
+        "Consulta de atributos": "Disponible en el servicio"
+      }
+    },
+    {
+      "id": "f01-wms:ine-wms:WMS_INE_SECCIONES_G01:Secciones_2015",
+      "title": "Secciones_2015",
+      "sourceId": "F005",
+      "categoryIds": [
+        "F01"
+      ],
+      "suggestedCategoryIds": [],
+      "status": "por_revisar",
+      "url": "https://www.ine.es/geoserver/ows?SERVICE=WMS&REQUEST=GetCapabilities",
+      "coverage": "España",
+      "period": "Según el producto original",
+      "license": null,
+      "notes": "Inventario técnico completo de las capas anunciadas por este servicio. No equivale a una capa nueva ni a tener todas sus variantes adaptadas.",
+      "fields": {
+        "Servicio": "INE · Secciones censales",
+        "Nombre de capa": "WMS_INE_SECCIONES_G01:Secciones_2015",
+        "Estilos": "WMS_INE_SECCIONES_G01:seccionado_CE, WMS_INE_SECCIONES_G01:SU.VectorStatisticalUnits.Default",
+        "Consulta de atributos": "Disponible en el servicio"
+      }
+    },
+    {
+      "id": "f01-wms:ine-wms:WMS_INE_SECCIONES_G01:Secciones_2016",
+      "title": "Secciones_2016",
+      "sourceId": "F005",
+      "categoryIds": [
+        "F01"
+      ],
+      "suggestedCategoryIds": [],
+      "status": "por_revisar",
+      "url": "https://www.ine.es/geoserver/ows?SERVICE=WMS&REQUEST=GetCapabilities",
+      "coverage": "España",
+      "period": "Según el producto original",
+      "license": null,
+      "notes": "Inventario técnico completo de las capas anunciadas por este servicio. No equivale a una capa nueva ni a tener todas sus variantes adaptadas.",
+      "fields": {
+        "Servicio": "INE · Secciones censales",
+        "Nombre de capa": "WMS_INE_SECCIONES_G01:Secciones_2016",
+        "Estilos": "WMS_INE_SECCIONES_G01:seccionado_CE, WMS_INE_SECCIONES_G01:SU.VectorStatisticalUnits.Default",
+        "Consulta de atributos": "Disponible en el servicio"
+      }
+    },
+    {
+      "id": "f01-wms:ine-wms:WMS_INE_SECCIONES_G01:Secciones_2017",
+      "title": "Secciones_2017",
+      "sourceId": "F005",
+      "categoryIds": [
+        "F01"
+      ],
+      "suggestedCategoryIds": [],
+      "status": "por_revisar",
+      "url": "https://www.ine.es/geoserver/ows?SERVICE=WMS&REQUEST=GetCapabilities",
+      "coverage": "España",
+      "period": "Según el producto original",
+      "license": null,
+      "notes": "Inventario técnico completo de las capas anunciadas por este servicio. No equivale a una capa nueva ni a tener todas sus variantes adaptadas.",
+      "fields": {
+        "Servicio": "INE · Secciones censales",
+        "Nombre de capa": "WMS_INE_SECCIONES_G01:Secciones_2017",
+        "Estilos": "WMS_INE_SECCIONES_G01:seccionado_CE, WMS_INE_SECCIONES_G01:SU.VectorStatisticalUnits.Default",
+        "Consulta de atributos": "Disponible en el servicio"
+      }
+    },
+    {
+      "id": "f01-wms:ine-wms:WMS_INE_SECCIONES_G01:Secciones_2018",
+      "title": "Secciones_2018",
+      "sourceId": "F005",
+      "categoryIds": [
+        "F01"
+      ],
+      "suggestedCategoryIds": [],
+      "status": "por_revisar",
+      "url": "https://www.ine.es/geoserver/ows?SERVICE=WMS&REQUEST=GetCapabilities",
+      "coverage": "España",
+      "period": "Según el producto original",
+      "license": null,
+      "notes": "Inventario técnico completo de las capas anunciadas por este servicio. No equivale a una capa nueva ni a tener todas sus variantes adaptadas.",
+      "fields": {
+        "Servicio": "INE · Secciones censales",
+        "Nombre de capa": "WMS_INE_SECCIONES_G01:Secciones_2018",
+        "Estilos": "WMS_INE_SECCIONES_G01:seccionado_CE, WMS_INE_SECCIONES_G01:SU.VectorStatisticalUnits.Default",
+        "Consulta de atributos": "Disponible en el servicio"
+      }
+    },
+    {
+      "id": "f01-wms:ine-wms:WMS_INE_SECCIONES_G01:Secciones_2019",
+      "title": "Secciones_2019",
+      "sourceId": "F005",
+      "categoryIds": [
+        "F01"
+      ],
+      "suggestedCategoryIds": [],
+      "status": "por_revisar",
+      "url": "https://www.ine.es/geoserver/ows?SERVICE=WMS&REQUEST=GetCapabilities",
+      "coverage": "España",
+      "period": "Según el producto original",
+      "license": null,
+      "notes": "Inventario técnico completo de las capas anunciadas por este servicio. No equivale a una capa nueva ni a tener todas sus variantes adaptadas.",
+      "fields": {
+        "Servicio": "INE · Secciones censales",
+        "Nombre de capa": "WMS_INE_SECCIONES_G01:Secciones_2019",
+        "Estilos": "WMS_INE_SECCIONES_G01:seccionado_CE, WMS_INE_SECCIONES_G01:SU.VectorStatisticalUnits.Default",
+        "Consulta de atributos": "Disponible en el servicio"
+      }
+    },
+    {
+      "id": "f01-wms:ine-wms:WMS_INE_SECCIONES_G01:Secciones_2020",
+      "title": "Secciones_2020",
+      "sourceId": "F005",
+      "categoryIds": [
+        "F01"
+      ],
+      "suggestedCategoryIds": [],
+      "status": "por_revisar",
+      "url": "https://www.ine.es/geoserver/ows?SERVICE=WMS&REQUEST=GetCapabilities",
+      "coverage": "España",
+      "period": "Según el producto original",
+      "license": null,
+      "notes": "Inventario técnico completo de las capas anunciadas por este servicio. No equivale a una capa nueva ni a tener todas sus variantes adaptadas.",
+      "fields": {
+        "Servicio": "INE · Secciones censales",
+        "Nombre de capa": "WMS_INE_SECCIONES_G01:Secciones_2020",
+        "Estilos": "WMS_INE_SECCIONES_G01:seccionado_CE, WMS_INE_SECCIONES_G01:SU.VectorStatisticalUnits.Default",
+        "Consulta de atributos": "Disponible en el servicio"
+      }
+    },
+    {
+      "id": "f01-wms:ine-wms:WMS_INE_SECCIONES_G01:Secciones_2021",
+      "title": "Secciones_2021",
+      "sourceId": "F005",
+      "categoryIds": [
+        "F01"
+      ],
+      "suggestedCategoryIds": [],
+      "status": "por_revisar",
+      "url": "https://www.ine.es/geoserver/ows?SERVICE=WMS&REQUEST=GetCapabilities",
+      "coverage": "España",
+      "period": "Según el producto original",
+      "license": null,
+      "notes": "Inventario técnico completo de las capas anunciadas por este servicio. No equivale a una capa nueva ni a tener todas sus variantes adaptadas.",
+      "fields": {
+        "Servicio": "INE · Secciones censales",
+        "Nombre de capa": "WMS_INE_SECCIONES_G01:Secciones_2021",
+        "Estilos": "WMS_INE_SECCIONES_G01:seccionado_CE, WMS_INE_SECCIONES_G01:SU.VectorStatisticalUnits.Default",
+        "Consulta de atributos": "Disponible en el servicio"
+      }
+    },
+    {
+      "id": "f01-wms:ine-wms:WMS_INE_SECCIONES_G01:Secciones_2022",
+      "title": "Secciones_2022",
+      "sourceId": "F005",
+      "categoryIds": [
+        "F01"
+      ],
+      "suggestedCategoryIds": [],
+      "status": "por_revisar",
+      "url": "https://www.ine.es/geoserver/ows?SERVICE=WMS&REQUEST=GetCapabilities",
+      "coverage": "España",
+      "period": "Según el producto original",
+      "license": null,
+      "notes": "Inventario técnico completo de las capas anunciadas por este servicio. No equivale a una capa nueva ni a tener todas sus variantes adaptadas.",
+      "fields": {
+        "Servicio": "INE · Secciones censales",
+        "Nombre de capa": "WMS_INE_SECCIONES_G01:Secciones_2022",
+        "Estilos": "WMS_INE_SECCIONES_G01:seccionado_CE, WMS_INE_SECCIONES_G01:SU.VectorStatisticalUnits.Default",
+        "Consulta de atributos": "Disponible en el servicio"
+      }
+    },
+    {
+      "id": "f01-wms:ine-wms:WMS_INE_SECCIONES_G01:Secciones_2023",
+      "title": "Secciones_2023",
+      "sourceId": "F005",
+      "categoryIds": [
+        "F01"
+      ],
+      "suggestedCategoryIds": [],
+      "status": "por_revisar",
+      "url": "https://www.ine.es/geoserver/ows?SERVICE=WMS&REQUEST=GetCapabilities",
+      "coverage": "España",
+      "period": "Según el producto original",
+      "license": null,
+      "notes": "Inventario técnico completo de las capas anunciadas por este servicio. No equivale a una capa nueva ni a tener todas sus variantes adaptadas.",
+      "fields": {
+        "Servicio": "INE · Secciones censales",
+        "Nombre de capa": "WMS_INE_SECCIONES_G01:Secciones_2023",
+        "Estilos": "WMS_INE_SECCIONES_G01:seccionado_CE, polygon, WMS_INE_SECCIONES_G01:SU.VectorStatisticalUnits.Default",
+        "Consulta de atributos": "Disponible en el servicio"
+      }
+    },
+    {
+      "id": "f01-wms:ine-wms:WMS_INE_SECCIONES_G01:Secciones_2024",
+      "title": "Secciones_2024",
+      "sourceId": "F005",
+      "categoryIds": [
+        "F01"
+      ],
+      "suggestedCategoryIds": [],
+      "status": "por_revisar",
+      "url": "https://www.ine.es/geoserver/ows?SERVICE=WMS&REQUEST=GetCapabilities",
+      "coverage": "España",
+      "period": "Según el producto original",
+      "license": null,
+      "notes": "Inventario técnico completo de las capas anunciadas por este servicio. No equivale a una capa nueva ni a tener todas sus variantes adaptadas.",
+      "fields": {
+        "Servicio": "INE · Secciones censales",
+        "Nombre de capa": "WMS_INE_SECCIONES_G01:Secciones_2024",
+        "Estilos": "WMS_INE_SECCIONES_G01:seccionado_CE, polygon, WMS_INE_SECCIONES_G01:SU.VectorStatisticalUnits.Default",
+        "Consulta de atributos": "Disponible en el servicio"
+      }
+    },
+    {
+      "id": "f01-wms:ine-wms:WMS_INE_SECCIONES_G01:Secciones_2025",
+      "title": "Secciones_2025",
+      "sourceId": "F005",
+      "categoryIds": [
+        "F01"
+      ],
+      "suggestedCategoryIds": [],
+      "status": "por_revisar",
+      "url": "https://www.ine.es/geoserver/ows?SERVICE=WMS&REQUEST=GetCapabilities",
+      "coverage": "España",
+      "period": "Según el producto original",
+      "license": null,
+      "notes": "Inventario técnico completo de las capas anunciadas por este servicio. No equivale a una capa nueva ni a tener todas sus variantes adaptadas.",
+      "fields": {
+        "Servicio": "INE · Secciones censales",
+        "Nombre de capa": "WMS_INE_SECCIONES_G01:Secciones_2025",
+        "Estilos": "WMS_INE_SECCIONES_G01:seccionado_CE, polygon, WMS_INE_SECCIONES_G01:SU.VectorStatisticalUnits.Default",
+        "Consulta de atributos": "Disponible en el servicio"
+      }
+    },
+    {
+      "id": "f01-wms:ine-wms:WMS_INE_SECCIONES_G01:Secciones_Censo_Poblacion_Viviendas_2001",
+      "title": "Secciones_Censo_Poblacion_Viviendas_2001",
+      "sourceId": "F005",
+      "categoryIds": [
+        "F01"
+      ],
+      "suggestedCategoryIds": [],
+      "status": "por_revisar",
+      "url": "https://www.ine.es/geoserver/ows?SERVICE=WMS&REQUEST=GetCapabilities",
+      "coverage": "España",
+      "period": "Según el producto original",
+      "license": null,
+      "notes": "Inventario técnico completo de las capas anunciadas por este servicio. No equivale a una capa nueva ni a tener todas sus variantes adaptadas.",
+      "fields": {
+        "Servicio": "INE · Secciones censales",
+        "Nombre de capa": "WMS_INE_SECCIONES_G01:Secciones_Censo_Poblacion_Viviendas_2001",
+        "Estilos": "WMS_INE_SECCIONES_G01:seccionado_CE, WMS_INE_SECCIONES_G01:SU.VectorStatisticalUnits.Default",
+        "Consulta de atributos": "Disponible en el servicio"
+      }
+    },
+    {
+      "id": "f01-wms:ine-wms:WMS_INE_SECCIONES_G01:Secciones_Censo_Poblacion_Viviendas_2011",
+      "title": "Secciones_Censo_Poblacion_Viviendas_2011",
+      "sourceId": "F005",
+      "categoryIds": [
+        "F01"
+      ],
+      "suggestedCategoryIds": [],
+      "status": "por_revisar",
+      "url": "https://www.ine.es/geoserver/ows?SERVICE=WMS&REQUEST=GetCapabilities",
+      "coverage": "España",
+      "period": "Según el producto original",
+      "license": null,
+      "notes": "Inventario técnico completo de las capas anunciadas por este servicio. No equivale a una capa nueva ni a tener todas sus variantes adaptadas.",
+      "fields": {
+        "Servicio": "INE · Secciones censales",
+        "Nombre de capa": "WMS_INE_SECCIONES_G01:Secciones_Censo_Poblacion_Viviendas_2011",
+        "Estilos": "WMS_INE_SECCIONES_G01:seccionado_CE, WMS_INE_SECCIONES_G01:SU.VectorStatisticalUnits.Default",
+        "Consulta de atributos": "Disponible en el servicio"
+      }
+    },
+    {
+      "id": "f01-wms:catastro:CP.CadastralParcel",
+      "title": "CadastralParcel",
+      "sourceId": "F008",
+      "categoryIds": [
+        "F01"
+      ],
+      "suggestedCategoryIds": [],
+      "status": "por_revisar",
+      "url": "https://ovc.catastro.meh.es/cartografia/INSPIRE/spadgcwms.aspx?SERVICE=WMS&REQUEST=GetCapabilities",
+      "coverage": "Ámbito DGC; excluye Navarra y País Vasco",
+      "period": "Según el producto original",
+      "license": null,
+      "notes": "Inventario técnico completo de las capas anunciadas por este servicio. No equivale a una capa nueva ni a tener todas sus variantes adaptadas.",
+      "fields": {
+        "Servicio": "DGC · Cartografía catastral INSPIRE",
+        "Nombre de capa": "CP.CadastralParcel",
+        "Estilos": "CP.CadastralParcel.Default, CP.CadastralParcel.LabelOnReferencePoint, CP.CadastralParcel.BoundariesOnly, CP.CadastralParcel.ReferencePointOnly, CP.CadastralParcel.ElfCadastre",
+        "Consulta de atributos": "Disponible en el servicio"
+      }
+    },
+    {
+      "id": "f01-wms:catastro:CP.CadastralZoning",
+      "title": "CadastralZoning",
+      "sourceId": "F008",
+      "categoryIds": [
+        "F01"
+      ],
+      "suggestedCategoryIds": [],
+      "status": "por_revisar",
+      "url": "https://ovc.catastro.meh.es/cartografia/INSPIRE/spadgcwms.aspx?SERVICE=WMS&REQUEST=GetCapabilities",
+      "coverage": "Ámbito DGC; excluye Navarra y País Vasco",
+      "period": "Según el producto original",
+      "license": null,
+      "notes": "Inventario técnico completo de las capas anunciadas por este servicio. No equivale a una capa nueva ni a tener todas sus variantes adaptadas.",
+      "fields": {
+        "Servicio": "DGC · Cartografía catastral INSPIRE",
+        "Nombre de capa": "CP.CadastralZoning",
+        "Estilos": "CP.CadastralZoning.Default, CP.CadastralZoning.BoundariesOnly, CP.CadastralZoning.ElfCadastre",
+        "Consulta de atributos": "Disponible en el servicio"
+      }
+    },
+    {
+      "id": "f01-wms:catastro:AD.Address",
+      "title": "Address",
+      "sourceId": "F008",
+      "categoryIds": [
+        "F01"
+      ],
+      "suggestedCategoryIds": [],
+      "status": "por_revisar",
+      "url": "https://ovc.catastro.meh.es/cartografia/INSPIRE/spadgcwms.aspx?SERVICE=WMS&REQUEST=GetCapabilities",
+      "coverage": "Ámbito DGC; excluye Navarra y País Vasco",
+      "period": "Según el producto original",
+      "license": null,
+      "notes": "Inventario técnico completo de las capas anunciadas por este servicio. No equivale a una capa nueva ni a tener todas sus variantes adaptadas.",
+      "fields": {
+        "Servicio": "DGC · Cartografía catastral INSPIRE",
+        "Nombre de capa": "AD.Address",
+        "Estilos": "AD.Address.Default, AD.Address.Number.ElfCadastre",
+        "Consulta de atributos": "Disponible en el servicio"
+      }
+    },
+    {
+      "id": "f01-wms:catastro:BU.Building",
+      "title": "Building",
+      "sourceId": "F008",
+      "categoryIds": [
+        "F01"
+      ],
+      "suggestedCategoryIds": [],
+      "status": "por_revisar",
+      "url": "https://ovc.catastro.meh.es/cartografia/INSPIRE/spadgcwms.aspx?SERVICE=WMS&REQUEST=GetCapabilities",
+      "coverage": "Ámbito DGC; excluye Navarra y País Vasco",
+      "period": "Según el producto original",
+      "license": null,
+      "notes": "Inventario técnico completo de las capas anunciadas por este servicio. No equivale a una capa nueva ni a tener todas sus variantes adaptadas.",
+      "fields": {
+        "Servicio": "DGC · Cartografía catastral INSPIRE",
+        "Nombre de capa": "BU.Building",
+        "Estilos": "BU.Building.Default, BU.Building.ElfCadastre",
+        "Consulta de atributos": "Disponible en el servicio"
+      }
+    },
+    {
+      "id": "f01-wms:catastro:BU.BuildingPart",
+      "title": "BuildingPart",
+      "sourceId": "F008",
+      "categoryIds": [
+        "F01"
+      ],
+      "suggestedCategoryIds": [],
+      "status": "por_revisar",
+      "url": "https://ovc.catastro.meh.es/cartografia/INSPIRE/spadgcwms.aspx?SERVICE=WMS&REQUEST=GetCapabilities",
+      "coverage": "Ámbito DGC; excluye Navarra y País Vasco",
+      "period": "Según el producto original",
+      "license": null,
+      "notes": "Inventario técnico completo de las capas anunciadas por este servicio. No equivale a una capa nueva ni a tener todas sus variantes adaptadas.",
+      "fields": {
+        "Servicio": "DGC · Cartografía catastral INSPIRE",
+        "Nombre de capa": "BU.BuildingPart",
+        "Estilos": "BU.BuildingPart.Default, BU.BuildingPart.ElfCadastre",
+        "Consulta de atributos": "No anunciada"
+      }
+    },
+    {
+      "id": "f01-wms:catastro:AU.AdministrativeUnit",
+      "title": "AdministrativeUnit",
+      "sourceId": "F008",
+      "categoryIds": [
+        "F01"
+      ],
+      "suggestedCategoryIds": [],
+      "status": "por_revisar",
+      "url": "https://ovc.catastro.meh.es/cartografia/INSPIRE/spadgcwms.aspx?SERVICE=WMS&REQUEST=GetCapabilities",
+      "coverage": "Ámbito DGC; excluye Navarra y País Vasco",
+      "period": "Según el producto original",
+      "license": null,
+      "notes": "Inventario técnico completo de las capas anunciadas por este servicio. No equivale a una capa nueva ni a tener todas sus variantes adaptadas.",
+      "fields": {
+        "Servicio": "DGC · Cartografía catastral INSPIRE",
+        "Nombre de capa": "AU.AdministrativeUnit",
+        "Estilos": "AU.AdministrativeUnit.Default, AU.AdministrativeUnit.ElfCadastre",
+        "Consulta de atributos": "No anunciada"
+      }
+    },
+    {
+      "id": "f01-wms:catastro:AU.AdministrativeBoundary",
+      "title": "AdministrativeBoundary",
+      "sourceId": "F008",
+      "categoryIds": [
+        "F01"
+      ],
+      "suggestedCategoryIds": [],
+      "status": "por_revisar",
+      "url": "https://ovc.catastro.meh.es/cartografia/INSPIRE/spadgcwms.aspx?SERVICE=WMS&REQUEST=GetCapabilities",
+      "coverage": "Ámbito DGC; excluye Navarra y País Vasco",
+      "period": "Según el producto original",
+      "license": null,
+      "notes": "Inventario técnico completo de las capas anunciadas por este servicio. No equivale a una capa nueva ni a tener todas sus variantes adaptadas.",
+      "fields": {
+        "Servicio": "DGC · Cartografía catastral INSPIRE",
+        "Nombre de capa": "AU.AdministrativeBoundary",
+        "Estilos": "AU.AdministrativeBoundary.Default, AU.AdministrativeBoundary.ElfCadastre",
+        "Consulta de atributos": "No anunciada"
+      }
+    },
+    {
+      "id": "f01-wms:addresses:AD.Address",
+      "title": "Direcciones",
+      "sourceId": "F007",
+      "categoryIds": [
+        "F01"
+      ],
+      "suggestedCategoryIds": [],
+      "status": "por_revisar",
+      "url": "https://www.cartociudad.es/wms-inspire/direcciones-ccpp?SERVICE=WMS&REQUEST=GetCapabilities",
+      "coverage": "España",
+      "period": "Según el producto original",
+      "license": null,
+      "notes": "Inventario técnico completo de las capas anunciadas por este servicio. No equivale a una capa nueva ni a tener todas sus variantes adaptadas.",
+      "fields": {
+        "Servicio": "CartoCiudad · Direcciones y códigos postales",
+        "Nombre de capa": "AD.Address",
+        "Estilos": "portalpk, AD.Address.Default",
+        "Consulta de atributos": "Disponible en el servicio"
+      }
+    },
+    {
+      "id": "f01-wms:addresses:codigo-postal",
+      "title": "Códigos postales",
+      "sourceId": "F007",
+      "categoryIds": [
+        "F01"
+      ],
+      "suggestedCategoryIds": [],
+      "status": "por_revisar",
+      "url": "https://www.cartociudad.es/wms-inspire/direcciones-ccpp?SERVICE=WMS&REQUEST=GetCapabilities",
+      "coverage": "España",
+      "period": "Según el producto original",
+      "license": null,
+      "notes": "Inventario técnico completo de las capas anunciadas por este servicio. No equivale a una capa nueva ni a tener todas sus variantes adaptadas.",
+      "fields": {
+        "Servicio": "CartoCiudad · Direcciones y códigos postales",
+        "Nombre de capa": "codigo-postal",
+        "Estilos": "codigopostal",
+        "Consulta de atributos": "Disponible en el servicio"
+      }
+    },
+    {
+      "id": "f01-wms:comarca-canarias:WMS_CARTO_EST",
+      "title": "IDECanarias Cartografía Estadística",
+      "sourceId": "F155",
+      "categoryIds": [
+        "F01"
+      ],
+      "suggestedCategoryIds": [],
+      "status": "por_revisar",
+      "url": "https://idecan2.grafcan.es/ServicioWMS/CARTO_EST?SERVICE=WMS&REQUEST=GetCapabilities",
+      "coverage": "Canarias",
+      "period": "Según el producto original",
+      "license": null,
+      "notes": "Inventario técnico completo de las capas anunciadas por este servicio. No equivale a una capa nueva ni a tener todas sus variantes adaptadas.",
+      "fields": {
+        "Servicio": "Canarias · Cartografía estadística",
+        "Nombre de capa": "WMS_CARTO_EST",
+        "Estilos": "",
+        "Consulta de atributos": "Disponible en el servicio"
+      }
+    },
+    {
+      "id": "f01-wms:comarca-canarias:ISLAS",
+      "title": "Islas Canarias",
+      "sourceId": "F155",
+      "categoryIds": [
+        "F01"
+      ],
+      "suggestedCategoryIds": [],
+      "status": "por_revisar",
+      "url": "https://idecan2.grafcan.es/ServicioWMS/CARTO_EST?SERVICE=WMS&REQUEST=GetCapabilities",
+      "coverage": "Canarias",
+      "period": "Según el producto original",
+      "license": null,
+      "notes": "Inventario técnico completo de las capas anunciadas por este servicio. No equivale a una capa nueva ni a tener todas sus variantes adaptadas.",
+      "fields": {
+        "Servicio": "Canarias · Cartografía estadística",
+        "Nombre de capa": "ISLAS",
+        "Estilos": "default",
+        "Consulta de atributos": "Disponible en el servicio"
+      }
+    },
+    {
+      "id": "f01-wms:comarca-canarias:ISLAS_01",
+      "title": "Islas Canarias (generalización)",
+      "sourceId": "F155",
+      "categoryIds": [
+        "F01"
+      ],
+      "suggestedCategoryIds": [],
+      "status": "por_revisar",
+      "url": "https://idecan2.grafcan.es/ServicioWMS/CARTO_EST?SERVICE=WMS&REQUEST=GetCapabilities",
+      "coverage": "Canarias",
+      "period": "Según el producto original",
+      "license": null,
+      "notes": "Inventario técnico completo de las capas anunciadas por este servicio. No equivale a una capa nueva ni a tener todas sus variantes adaptadas.",
+      "fields": {
+        "Servicio": "Canarias · Cartografía estadística",
+        "Nombre de capa": "ISLAS_01",
+        "Estilos": "",
+        "Consulta de atributos": "Disponible en el servicio"
+      }
+    },
+    {
+      "id": "f01-wms:comarca-canarias:ISLAS_02",
+      "title": "Islas Canarias",
+      "sourceId": "F155",
+      "categoryIds": [
+        "F01"
+      ],
+      "suggestedCategoryIds": [],
+      "status": "por_revisar",
+      "url": "https://idecan2.grafcan.es/ServicioWMS/CARTO_EST?SERVICE=WMS&REQUEST=GetCapabilities",
+      "coverage": "Canarias",
+      "period": "Según el producto original",
+      "license": null,
+      "notes": "Inventario técnico completo de las capas anunciadas por este servicio. No equivale a una capa nueva ni a tener todas sus variantes adaptadas.",
+      "fields": {
+        "Servicio": "Canarias · Cartografía estadística",
+        "Nombre de capa": "ISLAS_02",
+        "Estilos": "default",
+        "Consulta de atributos": "Disponible en el servicio"
+      }
+    },
+    {
+      "id": "f01-wms:comarca-canarias:CME1",
+      "title": "Comarcas Estadísticas A1 (ZEI A1)",
+      "sourceId": "F155",
+      "categoryIds": [
+        "F01"
+      ],
+      "suggestedCategoryIds": [],
+      "status": "por_revisar",
+      "url": "https://idecan2.grafcan.es/ServicioWMS/CARTO_EST?SERVICE=WMS&REQUEST=GetCapabilities",
+      "coverage": "Canarias",
+      "period": "Según el producto original",
+      "license": null,
+      "notes": "Inventario técnico completo de las capas anunciadas por este servicio. No equivale a una capa nueva ni a tener todas sus variantes adaptadas.",
+      "fields": {
+        "Servicio": "Canarias · Cartografía estadística",
+        "Nombre de capa": "CME1",
+        "Estilos": "default",
+        "Consulta de atributos": "Disponible en el servicio"
+      }
+    },
+    {
+      "id": "f01-wms:comarca-canarias:CME2",
+      "title": "Comarcas Estadísticas A2 (ZEI A2)",
+      "sourceId": "F155",
+      "categoryIds": [
+        "F01"
+      ],
+      "suggestedCategoryIds": [],
+      "status": "por_revisar",
+      "url": "https://idecan2.grafcan.es/ServicioWMS/CARTO_EST?SERVICE=WMS&REQUEST=GetCapabilities",
+      "coverage": "Canarias",
+      "period": "Según el producto original",
+      "license": null,
+      "notes": "Inventario técnico completo de las capas anunciadas por este servicio. No equivale a una capa nueva ni a tener todas sus variantes adaptadas.",
+      "fields": {
+        "Servicio": "Canarias · Cartografía estadística",
+        "Nombre de capa": "CME2",
+        "Estilos": "default",
+        "Consulta de atributos": "Disponible en el servicio"
+      }
+    },
+    {
+      "id": "f01-wms:comarca-canarias:MDTUR_ENT",
+      "title": "Entidades turísticas (ZEI B1) ",
+      "sourceId": "F155",
+      "categoryIds": [
+        "F01"
+      ],
+      "suggestedCategoryIds": [],
+      "status": "por_revisar",
+      "url": "https://idecan2.grafcan.es/ServicioWMS/CARTO_EST?SERVICE=WMS&REQUEST=GetCapabilities",
+      "coverage": "Canarias",
+      "period": "Según el producto original",
+      "license": null,
+      "notes": "Inventario técnico completo de las capas anunciadas por este servicio. No equivale a una capa nueva ni a tener todas sus variantes adaptadas.",
+      "fields": {
+        "Servicio": "Canarias · Cartografía estadística",
+        "Nombre de capa": "MDTUR_ENT",
+        "Estilos": "default",
+        "Consulta de atributos": "Disponible en el servicio"
+      }
+    },
+    {
+      "id": "f01-wms:comarca-canarias:MDTUR_NUC",
+      "title": "Núcleos turísticos (ZEI B2)",
+      "sourceId": "F155",
+      "categoryIds": [
+        "F01"
+      ],
+      "suggestedCategoryIds": [],
+      "status": "por_revisar",
+      "url": "https://idecan2.grafcan.es/ServicioWMS/CARTO_EST?SERVICE=WMS&REQUEST=GetCapabilities",
+      "coverage": "Canarias",
+      "period": "Según el producto original",
+      "license": null,
+      "notes": "Inventario técnico completo de las capas anunciadas por este servicio. No equivale a una capa nueva ni a tener todas sus variantes adaptadas.",
+      "fields": {
+        "Servicio": "Canarias · Cartografía estadística",
+        "Nombre de capa": "MDTUR_NUC",
+        "Estilos": "default",
+        "Consulta de atributos": "Disponible en el servicio"
+      }
+    },
+    {
+      "id": "f01-wms:comarca-canarias:NUC2001",
+      "title": "Núcleos de población 2001",
+      "sourceId": "F155",
+      "categoryIds": [
+        "F01"
+      ],
+      "suggestedCategoryIds": [],
+      "status": "por_revisar",
+      "url": "https://idecan2.grafcan.es/ServicioWMS/CARTO_EST?SERVICE=WMS&REQUEST=GetCapabilities",
+      "coverage": "Canarias",
+      "period": "Según el producto original",
+      "license": null,
+      "notes": "Inventario técnico completo de las capas anunciadas por este servicio. No equivale a una capa nueva ni a tener todas sus variantes adaptadas.",
+      "fields": {
+        "Servicio": "Canarias · Cartografía estadística",
+        "Nombre de capa": "NUC2001",
+        "Estilos": "default",
+        "Consulta de atributos": "Disponible en el servicio"
+      }
+    },
+    {
+      "id": "f01-wms:comarca-canarias:ENT2001",
+      "title": "Entidades de población 2001",
+      "sourceId": "F155",
+      "categoryIds": [
+        "F01"
+      ],
+      "suggestedCategoryIds": [],
+      "status": "por_revisar",
+      "url": "https://idecan2.grafcan.es/ServicioWMS/CARTO_EST?SERVICE=WMS&REQUEST=GetCapabilities",
+      "coverage": "Canarias",
+      "period": "Según el producto original",
+      "license": null,
+      "notes": "Inventario técnico completo de las capas anunciadas por este servicio. No equivale a una capa nueva ni a tener todas sus variantes adaptadas.",
+      "fields": {
+        "Servicio": "Canarias · Cartografía estadística",
+        "Nombre de capa": "ENT2001",
+        "Estilos": "default",
+        "Consulta de atributos": "Disponible en el servicio"
+      }
+    },
+    {
+      "id": "f01-wms:comarca-canarias:SEC2025",
+      "title": "Secciones censales 2025 (INE)",
+      "sourceId": "F155",
+      "categoryIds": [
+        "F01"
+      ],
+      "suggestedCategoryIds": [],
+      "status": "por_revisar",
+      "url": "https://idecan2.grafcan.es/ServicioWMS/CARTO_EST?SERVICE=WMS&REQUEST=GetCapabilities",
+      "coverage": "Canarias",
+      "period": "Según el producto original",
+      "license": null,
+      "notes": "Inventario técnico completo de las capas anunciadas por este servicio. No equivale a una capa nueva ni a tener todas sus variantes adaptadas.",
+      "fields": {
+        "Servicio": "Canarias · Cartografía estadística",
+        "Nombre de capa": "SEC2025",
+        "Estilos": "default",
+        "Consulta de atributos": "Disponible en el servicio"
+      }
+    },
+    {
+      "id": "f01-wms:comarca-canarias:DIS2025",
+      "title": "Distritos censales 2025 (INE)",
+      "sourceId": "F155",
+      "categoryIds": [
+        "F01"
+      ],
+      "suggestedCategoryIds": [],
+      "status": "por_revisar",
+      "url": "https://idecan2.grafcan.es/ServicioWMS/CARTO_EST?SERVICE=WMS&REQUEST=GetCapabilities",
+      "coverage": "Canarias",
+      "period": "Según el producto original",
+      "license": null,
+      "notes": "Inventario técnico completo de las capas anunciadas por este servicio. No equivale a una capa nueva ni a tener todas sus variantes adaptadas.",
+      "fields": {
+        "Servicio": "Canarias · Cartografía estadística",
+        "Nombre de capa": "DIS2025",
+        "Estilos": "default",
+        "Consulta de atributos": "Disponible en el servicio"
+      }
+    },
+    {
+      "id": "f01-wms:comarca-canarias:SEC2019",
+      "title": "Secciones Padrón Municipal Habit. 2019",
+      "sourceId": "F155",
+      "categoryIds": [
+        "F01"
+      ],
+      "suggestedCategoryIds": [],
+      "status": "por_revisar",
+      "url": "https://idecan2.grafcan.es/ServicioWMS/CARTO_EST?SERVICE=WMS&REQUEST=GetCapabilities",
+      "coverage": "Canarias",
+      "period": "Según el producto original",
+      "license": null,
+      "notes": "Inventario técnico completo de las capas anunciadas por este servicio. No equivale a una capa nueva ni a tener todas sus variantes adaptadas.",
+      "fields": {
+        "Servicio": "Canarias · Cartografía estadística",
+        "Nombre de capa": "SEC2019",
+        "Estilos": "default",
+        "Consulta de atributos": "Disponible en el servicio"
+      }
+    },
+    {
+      "id": "f01-wms:comarca-canarias:DIS2019",
+      "title": "Distritos Padrón Municipal Habit. 2019",
+      "sourceId": "F155",
+      "categoryIds": [
+        "F01"
+      ],
+      "suggestedCategoryIds": [],
+      "status": "por_revisar",
+      "url": "https://idecan2.grafcan.es/ServicioWMS/CARTO_EST?SERVICE=WMS&REQUEST=GetCapabilities",
+      "coverage": "Canarias",
+      "period": "Según el producto original",
+      "license": null,
+      "notes": "Inventario técnico completo de las capas anunciadas por este servicio. No equivale a una capa nueva ni a tener todas sus variantes adaptadas.",
+      "fields": {
+        "Servicio": "Canarias · Cartografía estadística",
+        "Nombre de capa": "DIS2019",
+        "Estilos": "default",
+        "Consulta de atributos": "Disponible en el servicio"
+      }
+    },
+    {
+      "id": "f01-wms:comarca-canarias:SEC2018",
+      "title": "Secciones Padrón Municipal Habit. 2018",
+      "sourceId": "F155",
+      "categoryIds": [
+        "F01"
+      ],
+      "suggestedCategoryIds": [],
+      "status": "por_revisar",
+      "url": "https://idecan2.grafcan.es/ServicioWMS/CARTO_EST?SERVICE=WMS&REQUEST=GetCapabilities",
+      "coverage": "Canarias",
+      "period": "Según el producto original",
+      "license": null,
+      "notes": "Inventario técnico completo de las capas anunciadas por este servicio. No equivale a una capa nueva ni a tener todas sus variantes adaptadas.",
+      "fields": {
+        "Servicio": "Canarias · Cartografía estadística",
+        "Nombre de capa": "SEC2018",
+        "Estilos": "default",
+        "Consulta de atributos": "Disponible en el servicio"
+      }
+    },
+    {
+      "id": "f01-wms:comarca-canarias:DIS2018",
+      "title": "Distritos Padrón Municipal Habit. 2018",
+      "sourceId": "F155",
+      "categoryIds": [
+        "F01"
+      ],
+      "suggestedCategoryIds": [],
+      "status": "por_revisar",
+      "url": "https://idecan2.grafcan.es/ServicioWMS/CARTO_EST?SERVICE=WMS&REQUEST=GetCapabilities",
+      "coverage": "Canarias",
+      "period": "Según el producto original",
+      "license": null,
+      "notes": "Inventario técnico completo de las capas anunciadas por este servicio. No equivale a una capa nueva ni a tener todas sus variantes adaptadas.",
+      "fields": {
+        "Servicio": "Canarias · Cartografía estadística",
+        "Nombre de capa": "DIS2018",
+        "Estilos": "default",
+        "Consulta de atributos": "Disponible en el servicio"
+      }
+    },
+    {
+      "id": "f01-wms:comarca-canarias:SEC2017",
+      "title": "Secciones Padrón Municipal Habit. 2017",
+      "sourceId": "F155",
+      "categoryIds": [
+        "F01"
+      ],
+      "suggestedCategoryIds": [],
+      "status": "por_revisar",
+      "url": "https://idecan2.grafcan.es/ServicioWMS/CARTO_EST?SERVICE=WMS&REQUEST=GetCapabilities",
+      "coverage": "Canarias",
+      "period": "Según el producto original",
+      "license": null,
+      "notes": "Inventario técnico completo de las capas anunciadas por este servicio. No equivale a una capa nueva ni a tener todas sus variantes adaptadas.",
+      "fields": {
+        "Servicio": "Canarias · Cartografía estadística",
+        "Nombre de capa": "SEC2017",
+        "Estilos": "default",
+        "Consulta de atributos": "Disponible en el servicio"
+      }
+    },
+    {
+      "id": "f01-wms:comarca-canarias:DIS2017",
+      "title": "Distritos Padrón Municipal Habit. 2017",
+      "sourceId": "F155",
+      "categoryIds": [
+        "F01"
+      ],
+      "suggestedCategoryIds": [],
+      "status": "por_revisar",
+      "url": "https://idecan2.grafcan.es/ServicioWMS/CARTO_EST?SERVICE=WMS&REQUEST=GetCapabilities",
+      "coverage": "Canarias",
+      "period": "Según el producto original",
+      "license": null,
+      "notes": "Inventario técnico completo de las capas anunciadas por este servicio. No equivale a una capa nueva ni a tener todas sus variantes adaptadas.",
+      "fields": {
+        "Servicio": "Canarias · Cartografía estadística",
+        "Nombre de capa": "DIS2017",
+        "Estilos": "default",
+        "Consulta de atributos": "Disponible en el servicio"
+      }
+    },
+    {
+      "id": "f01-wms:comarca-canarias:SEC2016",
+      "title": "Secciones Padrón Municipal Habit. 2016",
+      "sourceId": "F155",
+      "categoryIds": [
+        "F01"
+      ],
+      "suggestedCategoryIds": [],
+      "status": "por_revisar",
+      "url": "https://idecan2.grafcan.es/ServicioWMS/CARTO_EST?SERVICE=WMS&REQUEST=GetCapabilities",
+      "coverage": "Canarias",
+      "period": "Según el producto original",
+      "license": null,
+      "notes": "Inventario técnico completo de las capas anunciadas por este servicio. No equivale a una capa nueva ni a tener todas sus variantes adaptadas.",
+      "fields": {
+        "Servicio": "Canarias · Cartografía estadística",
+        "Nombre de capa": "SEC2016",
+        "Estilos": "default",
+        "Consulta de atributos": "Disponible en el servicio"
+      }
+    },
+    {
+      "id": "f01-wms:comarca-canarias:DIS2016",
+      "title": "Distritos Padrón Municipal Habit. 2016",
+      "sourceId": "F155",
+      "categoryIds": [
+        "F01"
+      ],
+      "suggestedCategoryIds": [],
+      "status": "por_revisar",
+      "url": "https://idecan2.grafcan.es/ServicioWMS/CARTO_EST?SERVICE=WMS&REQUEST=GetCapabilities",
+      "coverage": "Canarias",
+      "period": "Según el producto original",
+      "license": null,
+      "notes": "Inventario técnico completo de las capas anunciadas por este servicio. No equivale a una capa nueva ni a tener todas sus variantes adaptadas.",
+      "fields": {
+        "Servicio": "Canarias · Cartografía estadística",
+        "Nombre de capa": "DIS2016",
+        "Estilos": "default",
+        "Consulta de atributos": "Disponible en el servicio"
+      }
+    },
+    {
+      "id": "f01-wms:comarca-canarias:SEC2015",
+      "title": "Secciones Padrón Municipal Habit. 2015",
+      "sourceId": "F155",
+      "categoryIds": [
+        "F01"
+      ],
+      "suggestedCategoryIds": [],
+      "status": "por_revisar",
+      "url": "https://idecan2.grafcan.es/ServicioWMS/CARTO_EST?SERVICE=WMS&REQUEST=GetCapabilities",
+      "coverage": "Canarias",
+      "period": "Según el producto original",
+      "license": null,
+      "notes": "Inventario técnico completo de las capas anunciadas por este servicio. No equivale a una capa nueva ni a tener todas sus variantes adaptadas.",
+      "fields": {
+        "Servicio": "Canarias · Cartografía estadística",
+        "Nombre de capa": "SEC2015",
+        "Estilos": "default",
+        "Consulta de atributos": "Disponible en el servicio"
+      }
+    },
+    {
+      "id": "f01-wms:comarca-canarias:DIS2015",
+      "title": "Distritos Padrón Municipal Habit. 2015",
+      "sourceId": "F155",
+      "categoryIds": [
+        "F01"
+      ],
+      "suggestedCategoryIds": [],
+      "status": "por_revisar",
+      "url": "https://idecan2.grafcan.es/ServicioWMS/CARTO_EST?SERVICE=WMS&REQUEST=GetCapabilities",
+      "coverage": "Canarias",
+      "period": "Según el producto original",
+      "license": null,
+      "notes": "Inventario técnico completo de las capas anunciadas por este servicio. No equivale a una capa nueva ni a tener todas sus variantes adaptadas.",
+      "fields": {
+        "Servicio": "Canarias · Cartografía estadística",
+        "Nombre de capa": "DIS2015",
+        "Estilos": "default",
+        "Consulta de atributos": "Disponible en el servicio"
+      }
+    },
+    {
+      "id": "f01-wms:comarca-canarias:SEC2014",
+      "title": "Secciones Padrón Municipal Habit. 2014",
+      "sourceId": "F155",
+      "categoryIds": [
+        "F01"
+      ],
+      "suggestedCategoryIds": [],
+      "status": "por_revisar",
+      "url": "https://idecan2.grafcan.es/ServicioWMS/CARTO_EST?SERVICE=WMS&REQUEST=GetCapabilities",
+      "coverage": "Canarias",
+      "period": "Según el producto original",
+      "license": null,
+      "notes": "Inventario técnico completo de las capas anunciadas por este servicio. No equivale a una capa nueva ni a tener todas sus variantes adaptadas.",
+      "fields": {
+        "Servicio": "Canarias · Cartografía estadística",
+        "Nombre de capa": "SEC2014",
+        "Estilos": "default",
+        "Consulta de atributos": "Disponible en el servicio"
+      }
+    },
+    {
+      "id": "f01-wms:comarca-canarias:DIS2014",
+      "title": "Distritos Padrón Municipal Habit. 2014",
+      "sourceId": "F155",
+      "categoryIds": [
+        "F01"
+      ],
+      "suggestedCategoryIds": [],
+      "status": "por_revisar",
+      "url": "https://idecan2.grafcan.es/ServicioWMS/CARTO_EST?SERVICE=WMS&REQUEST=GetCapabilities",
+      "coverage": "Canarias",
+      "period": "Según el producto original",
+      "license": null,
+      "notes": "Inventario técnico completo de las capas anunciadas por este servicio. No equivale a una capa nueva ni a tener todas sus variantes adaptadas.",
+      "fields": {
+        "Servicio": "Canarias · Cartografía estadística",
+        "Nombre de capa": "DIS2014",
+        "Estilos": "default",
+        "Consulta de atributos": "Disponible en el servicio"
+      }
+    },
+    {
+      "id": "f01-wms:comarca-canarias:SEC2013",
+      "title": "Secciones Padrón Municipal Habit. 2013",
+      "sourceId": "F155",
+      "categoryIds": [
+        "F01"
+      ],
+      "suggestedCategoryIds": [],
+      "status": "por_revisar",
+      "url": "https://idecan2.grafcan.es/ServicioWMS/CARTO_EST?SERVICE=WMS&REQUEST=GetCapabilities",
+      "coverage": "Canarias",
+      "period": "Según el producto original",
+      "license": null,
+      "notes": "Inventario técnico completo de las capas anunciadas por este servicio. No equivale a una capa nueva ni a tener todas sus variantes adaptadas.",
+      "fields": {
+        "Servicio": "Canarias · Cartografía estadística",
+        "Nombre de capa": "SEC2013",
+        "Estilos": "default",
+        "Consulta de atributos": "Disponible en el servicio"
+      }
+    },
+    {
+      "id": "f01-wms:comarca-canarias:DIS2013",
+      "title": "Distritos Padrón Municipal Habit. 2013",
+      "sourceId": "F155",
+      "categoryIds": [
+        "F01"
+      ],
+      "suggestedCategoryIds": [],
+      "status": "por_revisar",
+      "url": "https://idecan2.grafcan.es/ServicioWMS/CARTO_EST?SERVICE=WMS&REQUEST=GetCapabilities",
+      "coverage": "Canarias",
+      "period": "Según el producto original",
+      "license": null,
+      "notes": "Inventario técnico completo de las capas anunciadas por este servicio. No equivale a una capa nueva ni a tener todas sus variantes adaptadas.",
+      "fields": {
+        "Servicio": "Canarias · Cartografía estadística",
+        "Nombre de capa": "DIS2013",
+        "Estilos": "default",
+        "Consulta de atributos": "Disponible en el servicio"
+      }
+    },
+    {
+      "id": "f01-wms:comarca-canarias:SEC2012",
+      "title": "Secciones Padrón Municipal Habit. 2012",
+      "sourceId": "F155",
+      "categoryIds": [
+        "F01"
+      ],
+      "suggestedCategoryIds": [],
+      "status": "por_revisar",
+      "url": "https://idecan2.grafcan.es/ServicioWMS/CARTO_EST?SERVICE=WMS&REQUEST=GetCapabilities",
+      "coverage": "Canarias",
+      "period": "Según el producto original",
+      "license": null,
+      "notes": "Inventario técnico completo de las capas anunciadas por este servicio. No equivale a una capa nueva ni a tener todas sus variantes adaptadas.",
+      "fields": {
+        "Servicio": "Canarias · Cartografía estadística",
+        "Nombre de capa": "SEC2012",
+        "Estilos": "default",
+        "Consulta de atributos": "Disponible en el servicio"
+      }
+    },
+    {
+      "id": "f01-wms:comarca-canarias:DIS2012",
+      "title": "Distritos Padrón Municipal Habit. 2012",
+      "sourceId": "F155",
+      "categoryIds": [
+        "F01"
+      ],
+      "suggestedCategoryIds": [],
+      "status": "por_revisar",
+      "url": "https://idecan2.grafcan.es/ServicioWMS/CARTO_EST?SERVICE=WMS&REQUEST=GetCapabilities",
+      "coverage": "Canarias",
+      "period": "Según el producto original",
+      "license": null,
+      "notes": "Inventario técnico completo de las capas anunciadas por este servicio. No equivale a una capa nueva ni a tener todas sus variantes adaptadas.",
+      "fields": {
+        "Servicio": "Canarias · Cartografía estadística",
+        "Nombre de capa": "DIS2012",
+        "Estilos": "default",
+        "Consulta de atributos": "Disponible en el servicio"
+      }
+    },
+    {
+      "id": "f01-wms:comarca-canarias:SEC2011",
+      "title": "Secciones Padrón Municipal Habit. 2011",
+      "sourceId": "F155",
+      "categoryIds": [
+        "F01"
+      ],
+      "suggestedCategoryIds": [],
+      "status": "por_revisar",
+      "url": "https://idecan2.grafcan.es/ServicioWMS/CARTO_EST?SERVICE=WMS&REQUEST=GetCapabilities",
+      "coverage": "Canarias",
+      "period": "Según el producto original",
+      "license": null,
+      "notes": "Inventario técnico completo de las capas anunciadas por este servicio. No equivale a una capa nueva ni a tener todas sus variantes adaptadas.",
+      "fields": {
+        "Servicio": "Canarias · Cartografía estadística",
+        "Nombre de capa": "SEC2011",
+        "Estilos": "default",
+        "Consulta de atributos": "Disponible en el servicio"
+      }
+    },
+    {
+      "id": "f01-wms:comarca-canarias:DIS2011",
+      "title": "Distritos Padrón Municipal Habit. 2011",
+      "sourceId": "F155",
+      "categoryIds": [
+        "F01"
+      ],
+      "suggestedCategoryIds": [],
+      "status": "por_revisar",
+      "url": "https://idecan2.grafcan.es/ServicioWMS/CARTO_EST?SERVICE=WMS&REQUEST=GetCapabilities",
+      "coverage": "Canarias",
+      "period": "Según el producto original",
+      "license": null,
+      "notes": "Inventario técnico completo de las capas anunciadas por este servicio. No equivale a una capa nueva ni a tener todas sus variantes adaptadas.",
+      "fields": {
+        "Servicio": "Canarias · Cartografía estadística",
+        "Nombre de capa": "DIS2011",
+        "Estilos": "default",
+        "Consulta de atributos": "Disponible en el servicio"
+      }
+    },
+    {
+      "id": "f01-wms:comarca-canarias:SEC2010",
+      "title": "Secciones Padrón Municipal Habit. 2010",
+      "sourceId": "F155",
+      "categoryIds": [
+        "F01"
+      ],
+      "suggestedCategoryIds": [],
+      "status": "por_revisar",
+      "url": "https://idecan2.grafcan.es/ServicioWMS/CARTO_EST?SERVICE=WMS&REQUEST=GetCapabilities",
+      "coverage": "Canarias",
+      "period": "Según el producto original",
+      "license": null,
+      "notes": "Inventario técnico completo de las capas anunciadas por este servicio. No equivale a una capa nueva ni a tener todas sus variantes adaptadas.",
+      "fields": {
+        "Servicio": "Canarias · Cartografía estadística",
+        "Nombre de capa": "SEC2010",
+        "Estilos": "default",
+        "Consulta de atributos": "Disponible en el servicio"
+      }
+    },
+    {
+      "id": "f01-wms:comarca-canarias:DIS2010",
+      "title": "Distritos Padrón Municipal Habit. 2010",
+      "sourceId": "F155",
+      "categoryIds": [
+        "F01"
+      ],
+      "suggestedCategoryIds": [],
+      "status": "por_revisar",
+      "url": "https://idecan2.grafcan.es/ServicioWMS/CARTO_EST?SERVICE=WMS&REQUEST=GetCapabilities",
+      "coverage": "Canarias",
+      "period": "Según el producto original",
+      "license": null,
+      "notes": "Inventario técnico completo de las capas anunciadas por este servicio. No equivale a una capa nueva ni a tener todas sus variantes adaptadas.",
+      "fields": {
+        "Servicio": "Canarias · Cartografía estadística",
+        "Nombre de capa": "DIS2010",
+        "Estilos": "default",
+        "Consulta de atributos": "Disponible en el servicio"
+      }
+    },
+    {
+      "id": "f01-wms:comarca-canarias:SEC2009",
+      "title": "Secciones Padrón Municipal Habit. 2009",
+      "sourceId": "F155",
+      "categoryIds": [
+        "F01"
+      ],
+      "suggestedCategoryIds": [],
+      "status": "por_revisar",
+      "url": "https://idecan2.grafcan.es/ServicioWMS/CARTO_EST?SERVICE=WMS&REQUEST=GetCapabilities",
+      "coverage": "Canarias",
+      "period": "Según el producto original",
+      "license": null,
+      "notes": "Inventario técnico completo de las capas anunciadas por este servicio. No equivale a una capa nueva ni a tener todas sus variantes adaptadas.",
+      "fields": {
+        "Servicio": "Canarias · Cartografía estadística",
+        "Nombre de capa": "SEC2009",
+        "Estilos": "default",
+        "Consulta de atributos": "Disponible en el servicio"
+      }
+    },
+    {
+      "id": "f01-wms:comarca-canarias:DIS2009",
+      "title": "Distritos Padrón Municipal Habit. 2009",
+      "sourceId": "F155",
+      "categoryIds": [
+        "F01"
+      ],
+      "suggestedCategoryIds": [],
+      "status": "por_revisar",
+      "url": "https://idecan2.grafcan.es/ServicioWMS/CARTO_EST?SERVICE=WMS&REQUEST=GetCapabilities",
+      "coverage": "Canarias",
+      "period": "Según el producto original",
+      "license": null,
+      "notes": "Inventario técnico completo de las capas anunciadas por este servicio. No equivale a una capa nueva ni a tener todas sus variantes adaptadas.",
+      "fields": {
+        "Servicio": "Canarias · Cartografía estadística",
+        "Nombre de capa": "DIS2009",
+        "Estilos": "default",
+        "Consulta de atributos": "Disponible en el servicio"
+      }
+    },
+    {
+      "id": "f01-wms:comarca-canarias:SEC2008",
+      "title": "Secciones Padrón Municipal Habit. 2008",
+      "sourceId": "F155",
+      "categoryIds": [
+        "F01"
+      ],
+      "suggestedCategoryIds": [],
+      "status": "por_revisar",
+      "url": "https://idecan2.grafcan.es/ServicioWMS/CARTO_EST?SERVICE=WMS&REQUEST=GetCapabilities",
+      "coverage": "Canarias",
+      "period": "Según el producto original",
+      "license": null,
+      "notes": "Inventario técnico completo de las capas anunciadas por este servicio. No equivale a una capa nueva ni a tener todas sus variantes adaptadas.",
+      "fields": {
+        "Servicio": "Canarias · Cartografía estadística",
+        "Nombre de capa": "SEC2008",
+        "Estilos": "default",
+        "Consulta de atributos": "Disponible en el servicio"
+      }
+    },
+    {
+      "id": "f01-wms:comarca-canarias:DIS2008",
+      "title": "Distritos Padrón Municipal Habit. 2008",
+      "sourceId": "F155",
+      "categoryIds": [
+        "F01"
+      ],
+      "suggestedCategoryIds": [],
+      "status": "por_revisar",
+      "url": "https://idecan2.grafcan.es/ServicioWMS/CARTO_EST?SERVICE=WMS&REQUEST=GetCapabilities",
+      "coverage": "Canarias",
+      "period": "Según el producto original",
+      "license": null,
+      "notes": "Inventario técnico completo de las capas anunciadas por este servicio. No equivale a una capa nueva ni a tener todas sus variantes adaptadas.",
+      "fields": {
+        "Servicio": "Canarias · Cartografía estadística",
+        "Nombre de capa": "DIS2008",
+        "Estilos": "default",
+        "Consulta de atributos": "Disponible en el servicio"
+      }
+    },
+    {
+      "id": "f01-wms:comarca-canarias:SEC2007",
+      "title": "Secciones Padrón Municipal Habit. 2007",
+      "sourceId": "F155",
+      "categoryIds": [
+        "F01"
+      ],
+      "suggestedCategoryIds": [],
+      "status": "por_revisar",
+      "url": "https://idecan2.grafcan.es/ServicioWMS/CARTO_EST?SERVICE=WMS&REQUEST=GetCapabilities",
+      "coverage": "Canarias",
+      "period": "Según el producto original",
+      "license": null,
+      "notes": "Inventario técnico completo de las capas anunciadas por este servicio. No equivale a una capa nueva ni a tener todas sus variantes adaptadas.",
+      "fields": {
+        "Servicio": "Canarias · Cartografía estadística",
+        "Nombre de capa": "SEC2007",
+        "Estilos": "default",
+        "Consulta de atributos": "Disponible en el servicio"
+      }
+    },
+    {
+      "id": "f01-wms:comarca-canarias:DIS2007",
+      "title": "Distritos Padrón Municipal Habit. 2007",
+      "sourceId": "F155",
+      "categoryIds": [
+        "F01"
+      ],
+      "suggestedCategoryIds": [],
+      "status": "por_revisar",
+      "url": "https://idecan2.grafcan.es/ServicioWMS/CARTO_EST?SERVICE=WMS&REQUEST=GetCapabilities",
+      "coverage": "Canarias",
+      "period": "Según el producto original",
+      "license": null,
+      "notes": "Inventario técnico completo de las capas anunciadas por este servicio. No equivale a una capa nueva ni a tener todas sus variantes adaptadas.",
+      "fields": {
+        "Servicio": "Canarias · Cartografía estadística",
+        "Nombre de capa": "DIS2007",
+        "Estilos": "default",
+        "Consulta de atributos": "Disponible en el servicio"
+      }
+    },
+    {
+      "id": "f01-wms:comarca-canarias:SEC2006",
+      "title": "Secciones Padrón Municipal Habit. 2006",
+      "sourceId": "F155",
+      "categoryIds": [
+        "F01"
+      ],
+      "suggestedCategoryIds": [],
+      "status": "por_revisar",
+      "url": "https://idecan2.grafcan.es/ServicioWMS/CARTO_EST?SERVICE=WMS&REQUEST=GetCapabilities",
+      "coverage": "Canarias",
+      "period": "Según el producto original",
+      "license": null,
+      "notes": "Inventario técnico completo de las capas anunciadas por este servicio. No equivale a una capa nueva ni a tener todas sus variantes adaptadas.",
+      "fields": {
+        "Servicio": "Canarias · Cartografía estadística",
+        "Nombre de capa": "SEC2006",
+        "Estilos": "default",
+        "Consulta de atributos": "Disponible en el servicio"
+      }
+    },
+    {
+      "id": "f01-wms:comarca-canarias:DIS2006",
+      "title": "Distritos Padrón Municipal Habit. 2006",
+      "sourceId": "F155",
+      "categoryIds": [
+        "F01"
+      ],
+      "suggestedCategoryIds": [],
+      "status": "por_revisar",
+      "url": "https://idecan2.grafcan.es/ServicioWMS/CARTO_EST?SERVICE=WMS&REQUEST=GetCapabilities",
+      "coverage": "Canarias",
+      "period": "Según el producto original",
+      "license": null,
+      "notes": "Inventario técnico completo de las capas anunciadas por este servicio. No equivale a una capa nueva ni a tener todas sus variantes adaptadas.",
+      "fields": {
+        "Servicio": "Canarias · Cartografía estadística",
+        "Nombre de capa": "DIS2006",
+        "Estilos": "default",
+        "Consulta de atributos": "Disponible en el servicio"
+      }
+    },
+    {
+      "id": "f01-wms:comarca-canarias:SEC2005",
+      "title": "Secciones Padrón Municipal Habit. 2005",
+      "sourceId": "F155",
+      "categoryIds": [
+        "F01"
+      ],
+      "suggestedCategoryIds": [],
+      "status": "por_revisar",
+      "url": "https://idecan2.grafcan.es/ServicioWMS/CARTO_EST?SERVICE=WMS&REQUEST=GetCapabilities",
+      "coverage": "Canarias",
+      "period": "Según el producto original",
+      "license": null,
+      "notes": "Inventario técnico completo de las capas anunciadas por este servicio. No equivale a una capa nueva ni a tener todas sus variantes adaptadas.",
+      "fields": {
+        "Servicio": "Canarias · Cartografía estadística",
+        "Nombre de capa": "SEC2005",
+        "Estilos": "default",
+        "Consulta de atributos": "Disponible en el servicio"
+      }
+    },
+    {
+      "id": "f01-wms:comarca-canarias:DIS2005",
+      "title": "Distritos Padrón Municipal Habit. 2005",
+      "sourceId": "F155",
+      "categoryIds": [
+        "F01"
+      ],
+      "suggestedCategoryIds": [],
+      "status": "por_revisar",
+      "url": "https://idecan2.grafcan.es/ServicioWMS/CARTO_EST?SERVICE=WMS&REQUEST=GetCapabilities",
+      "coverage": "Canarias",
+      "period": "Según el producto original",
+      "license": null,
+      "notes": "Inventario técnico completo de las capas anunciadas por este servicio. No equivale a una capa nueva ni a tener todas sus variantes adaptadas.",
+      "fields": {
+        "Servicio": "Canarias · Cartografía estadística",
+        "Nombre de capa": "DIS2005",
+        "Estilos": "default",
+        "Consulta de atributos": "Disponible en el servicio"
+      }
+    },
+    {
+      "id": "f01-wms:comarca-canarias:SEC2004",
+      "title": "Secciones Padrón Municipal Habit. 2004",
+      "sourceId": "F155",
+      "categoryIds": [
+        "F01"
+      ],
+      "suggestedCategoryIds": [],
+      "status": "por_revisar",
+      "url": "https://idecan2.grafcan.es/ServicioWMS/CARTO_EST?SERVICE=WMS&REQUEST=GetCapabilities",
+      "coverage": "Canarias",
+      "period": "Según el producto original",
+      "license": null,
+      "notes": "Inventario técnico completo de las capas anunciadas por este servicio. No equivale a una capa nueva ni a tener todas sus variantes adaptadas.",
+      "fields": {
+        "Servicio": "Canarias · Cartografía estadística",
+        "Nombre de capa": "SEC2004",
+        "Estilos": "default",
+        "Consulta de atributos": "Disponible en el servicio"
+      }
+    },
+    {
+      "id": "f01-wms:comarca-canarias:DIS2004",
+      "title": "Distritos Padrón Municipal Habit. 2004",
+      "sourceId": "F155",
+      "categoryIds": [
+        "F01"
+      ],
+      "suggestedCategoryIds": [],
+      "status": "por_revisar",
+      "url": "https://idecan2.grafcan.es/ServicioWMS/CARTO_EST?SERVICE=WMS&REQUEST=GetCapabilities",
+      "coverage": "Canarias",
+      "period": "Según el producto original",
+      "license": null,
+      "notes": "Inventario técnico completo de las capas anunciadas por este servicio. No equivale a una capa nueva ni a tener todas sus variantes adaptadas.",
+      "fields": {
+        "Servicio": "Canarias · Cartografía estadística",
+        "Nombre de capa": "DIS2004",
+        "Estilos": "default",
+        "Consulta de atributos": "Disponible en el servicio"
+      }
+    },
+    {
+      "id": "f01-wms:comarca-canarias:SEC20190428_EG",
+      "title": "Secciones 2019/04/28 Elecciones Generales",
+      "sourceId": "F155",
+      "categoryIds": [
+        "F01"
+      ],
+      "suggestedCategoryIds": [],
+      "status": "por_revisar",
+      "url": "https://idecan2.grafcan.es/ServicioWMS/CARTO_EST?SERVICE=WMS&REQUEST=GetCapabilities",
+      "coverage": "Canarias",
+      "period": "Según el producto original",
+      "license": null,
+      "notes": "Inventario técnico completo de las capas anunciadas por este servicio. No equivale a una capa nueva ni a tener todas sus variantes adaptadas.",
+      "fields": {
+        "Servicio": "Canarias · Cartografía estadística",
+        "Nombre de capa": "SEC20190428_EG",
+        "Estilos": "default",
+        "Consulta de atributos": "Disponible en el servicio"
+      }
+    },
+    {
+      "id": "f01-wms:comarca-canarias:DIS20190428_EG",
+      "title": "Distritos 2019/04/28 Elecciones Generales",
+      "sourceId": "F155",
+      "categoryIds": [
+        "F01"
+      ],
+      "suggestedCategoryIds": [],
+      "status": "por_revisar",
+      "url": "https://idecan2.grafcan.es/ServicioWMS/CARTO_EST?SERVICE=WMS&REQUEST=GetCapabilities",
+      "coverage": "Canarias",
+      "period": "Según el producto original",
+      "license": null,
+      "notes": "Inventario técnico completo de las capas anunciadas por este servicio. No equivale a una capa nueva ni a tener todas sus variantes adaptadas.",
+      "fields": {
+        "Servicio": "Canarias · Cartografía estadística",
+        "Nombre de capa": "DIS20190428_EG",
+        "Estilos": "default",
+        "Consulta de atributos": "Disponible en el servicio"
+      }
+    },
+    {
+      "id": "f01-wms:comarca-canarias:SEC20160626_EG",
+      "title": "Secciones 2016/06/26 Elecciones Generales",
+      "sourceId": "F155",
+      "categoryIds": [
+        "F01"
+      ],
+      "suggestedCategoryIds": [],
+      "status": "por_revisar",
+      "url": "https://idecan2.grafcan.es/ServicioWMS/CARTO_EST?SERVICE=WMS&REQUEST=GetCapabilities",
+      "coverage": "Canarias",
+      "period": "Según el producto original",
+      "license": null,
+      "notes": "Inventario técnico completo de las capas anunciadas por este servicio. No equivale a una capa nueva ni a tener todas sus variantes adaptadas.",
+      "fields": {
+        "Servicio": "Canarias · Cartografía estadística",
+        "Nombre de capa": "SEC20160626_EG",
+        "Estilos": "default",
+        "Consulta de atributos": "Disponible en el servicio"
+      }
+    },
+    {
+      "id": "f01-wms:comarca-canarias:DIS20160626_EG",
+      "title": "Distritos 2016/06/26 Elecciones Generales",
+      "sourceId": "F155",
+      "categoryIds": [
+        "F01"
+      ],
+      "suggestedCategoryIds": [],
+      "status": "por_revisar",
+      "url": "https://idecan2.grafcan.es/ServicioWMS/CARTO_EST?SERVICE=WMS&REQUEST=GetCapabilities",
+      "coverage": "Canarias",
+      "period": "Según el producto original",
+      "license": null,
+      "notes": "Inventario técnico completo de las capas anunciadas por este servicio. No equivale a una capa nueva ni a tener todas sus variantes adaptadas.",
+      "fields": {
+        "Servicio": "Canarias · Cartografía estadística",
+        "Nombre de capa": "DIS20160626_EG",
+        "Estilos": "default",
+        "Consulta de atributos": "Disponible en el servicio"
+      }
+    },
+    {
+      "id": "f01-wms:comarca-canarias:SEC20151220_EG",
+      "title": "Secciones 2015/12/20 Elecciones Generales",
+      "sourceId": "F155",
+      "categoryIds": [
+        "F01"
+      ],
+      "suggestedCategoryIds": [],
+      "status": "por_revisar",
+      "url": "https://idecan2.grafcan.es/ServicioWMS/CARTO_EST?SERVICE=WMS&REQUEST=GetCapabilities",
+      "coverage": "Canarias",
+      "period": "Según el producto original",
+      "license": null,
+      "notes": "Inventario técnico completo de las capas anunciadas por este servicio. No equivale a una capa nueva ni a tener todas sus variantes adaptadas.",
+      "fields": {
+        "Servicio": "Canarias · Cartografía estadística",
+        "Nombre de capa": "SEC20151220_EG",
+        "Estilos": "default",
+        "Consulta de atributos": "Disponible en el servicio"
+      }
+    },
+    {
+      "id": "f01-wms:comarca-canarias:DIS20151220_EG",
+      "title": "Distritos 2015/12/20 Elecciones Generales",
+      "sourceId": "F155",
+      "categoryIds": [
+        "F01"
+      ],
+      "suggestedCategoryIds": [],
+      "status": "por_revisar",
+      "url": "https://idecan2.grafcan.es/ServicioWMS/CARTO_EST?SERVICE=WMS&REQUEST=GetCapabilities",
+      "coverage": "Canarias",
+      "period": "Según el producto original",
+      "license": null,
+      "notes": "Inventario técnico completo de las capas anunciadas por este servicio. No equivale a una capa nueva ni a tener todas sus variantes adaptadas.",
+      "fields": {
+        "Servicio": "Canarias · Cartografía estadística",
+        "Nombre de capa": "DIS20151220_EG",
+        "Estilos": "default",
+        "Consulta de atributos": "Disponible en el servicio"
+      }
+    },
+    {
+      "id": "f01-wms:comarca-canarias:SEC20150524_EL",
+      "title": "Secciones 2015/05/24 Elecciones Locales",
+      "sourceId": "F155",
+      "categoryIds": [
+        "F01"
+      ],
+      "suggestedCategoryIds": [],
+      "status": "por_revisar",
+      "url": "https://idecan2.grafcan.es/ServicioWMS/CARTO_EST?SERVICE=WMS&REQUEST=GetCapabilities",
+      "coverage": "Canarias",
+      "period": "Según el producto original",
+      "license": null,
+      "notes": "Inventario técnico completo de las capas anunciadas por este servicio. No equivale a una capa nueva ni a tener todas sus variantes adaptadas.",
+      "fields": {
+        "Servicio": "Canarias · Cartografía estadística",
+        "Nombre de capa": "SEC20150524_EL",
+        "Estilos": "default",
+        "Consulta de atributos": "Disponible en el servicio"
+      }
+    },
+    {
+      "id": "f01-wms:comarca-canarias:DIS20150524_EL",
+      "title": "Distritos 2015/05/24 Elecciones Locales",
+      "sourceId": "F155",
+      "categoryIds": [
+        "F01"
+      ],
+      "suggestedCategoryIds": [],
+      "status": "por_revisar",
+      "url": "https://idecan2.grafcan.es/ServicioWMS/CARTO_EST?SERVICE=WMS&REQUEST=GetCapabilities",
+      "coverage": "Canarias",
+      "period": "Según el producto original",
+      "license": null,
+      "notes": "Inventario técnico completo de las capas anunciadas por este servicio. No equivale a una capa nueva ni a tener todas sus variantes adaptadas.",
+      "fields": {
+        "Servicio": "Canarias · Cartografía estadística",
+        "Nombre de capa": "DIS20150524_EL",
+        "Estilos": "default",
+        "Consulta de atributos": "Disponible en el servicio"
+      }
+    },
+    {
+      "id": "f01-wms:comarca-canarias:SEC20140525_EE",
+      "title": "Secciones 2014/05/25 Elecciones Europeas",
+      "sourceId": "F155",
+      "categoryIds": [
+        "F01"
+      ],
+      "suggestedCategoryIds": [],
+      "status": "por_revisar",
+      "url": "https://idecan2.grafcan.es/ServicioWMS/CARTO_EST?SERVICE=WMS&REQUEST=GetCapabilities",
+      "coverage": "Canarias",
+      "period": "Según el producto original",
+      "license": null,
+      "notes": "Inventario técnico completo de las capas anunciadas por este servicio. No equivale a una capa nueva ni a tener todas sus variantes adaptadas.",
+      "fields": {
+        "Servicio": "Canarias · Cartografía estadística",
+        "Nombre de capa": "SEC20140525_EE",
+        "Estilos": "default",
+        "Consulta de atributos": "Disponible en el servicio"
+      }
+    },
+    {
+      "id": "f01-wms:comarca-canarias:DIS20140525_EE",
+      "title": "Distritos 2014/05/25 Elecciones Europeas",
+      "sourceId": "F155",
+      "categoryIds": [
+        "F01"
+      ],
+      "suggestedCategoryIds": [],
+      "status": "por_revisar",
+      "url": "https://idecan2.grafcan.es/ServicioWMS/CARTO_EST?SERVICE=WMS&REQUEST=GetCapabilities",
+      "coverage": "Canarias",
+      "period": "Según el producto original",
+      "license": null,
+      "notes": "Inventario técnico completo de las capas anunciadas por este servicio. No equivale a una capa nueva ni a tener todas sus variantes adaptadas.",
+      "fields": {
+        "Servicio": "Canarias · Cartografía estadística",
+        "Nombre de capa": "DIS20140525_EE",
+        "Estilos": "default",
+        "Consulta de atributos": "Disponible en el servicio"
+      }
+    },
+    {
+      "id": "f01-wms:comarca-canarias:SEC20111120_EG",
+      "title": "Secciones 2011/11/20 Elecciones Generales",
+      "sourceId": "F155",
+      "categoryIds": [
+        "F01"
+      ],
+      "suggestedCategoryIds": [],
+      "status": "por_revisar",
+      "url": "https://idecan2.grafcan.es/ServicioWMS/CARTO_EST?SERVICE=WMS&REQUEST=GetCapabilities",
+      "coverage": "Canarias",
+      "period": "Según el producto original",
+      "license": null,
+      "notes": "Inventario técnico completo de las capas anunciadas por este servicio. No equivale a una capa nueva ni a tener todas sus variantes adaptadas.",
+      "fields": {
+        "Servicio": "Canarias · Cartografía estadística",
+        "Nombre de capa": "SEC20111120_EG",
+        "Estilos": "default",
+        "Consulta de atributos": "Disponible en el servicio"
+      }
+    },
+    {
+      "id": "f01-wms:comarca-canarias:DIS20111120_EG",
+      "title": "Distritos 2011/11/20 Elecciones Generales",
+      "sourceId": "F155",
+      "categoryIds": [
+        "F01"
+      ],
+      "suggestedCategoryIds": [],
+      "status": "por_revisar",
+      "url": "https://idecan2.grafcan.es/ServicioWMS/CARTO_EST?SERVICE=WMS&REQUEST=GetCapabilities",
+      "coverage": "Canarias",
+      "period": "Según el producto original",
+      "license": null,
+      "notes": "Inventario técnico completo de las capas anunciadas por este servicio. No equivale a una capa nueva ni a tener todas sus variantes adaptadas.",
+      "fields": {
+        "Servicio": "Canarias · Cartografía estadística",
+        "Nombre de capa": "DIS20111120_EG",
+        "Estilos": "default",
+        "Consulta de atributos": "Disponible en el servicio"
+      }
+    },
+    {
+      "id": "f01-wms:comarca-canarias:SEC20110522_EL",
+      "title": "Secciones 2011/05/22 Elecciones Locales",
+      "sourceId": "F155",
+      "categoryIds": [
+        "F01"
+      ],
+      "suggestedCategoryIds": [],
+      "status": "por_revisar",
+      "url": "https://idecan2.grafcan.es/ServicioWMS/CARTO_EST?SERVICE=WMS&REQUEST=GetCapabilities",
+      "coverage": "Canarias",
+      "period": "Según el producto original",
+      "license": null,
+      "notes": "Inventario técnico completo de las capas anunciadas por este servicio. No equivale a una capa nueva ni a tener todas sus variantes adaptadas.",
+      "fields": {
+        "Servicio": "Canarias · Cartografía estadística",
+        "Nombre de capa": "SEC20110522_EL",
+        "Estilos": "default",
+        "Consulta de atributos": "Disponible en el servicio"
+      }
+    },
+    {
+      "id": "f01-wms:comarca-canarias:DIS20110522_EL",
+      "title": "Distritos 2011/05/22 Elecciones Locales",
+      "sourceId": "F155",
+      "categoryIds": [
+        "F01"
+      ],
+      "suggestedCategoryIds": [],
+      "status": "por_revisar",
+      "url": "https://idecan2.grafcan.es/ServicioWMS/CARTO_EST?SERVICE=WMS&REQUEST=GetCapabilities",
+      "coverage": "Canarias",
+      "period": "Según el producto original",
+      "license": null,
+      "notes": "Inventario técnico completo de las capas anunciadas por este servicio. No equivale a una capa nueva ni a tener todas sus variantes adaptadas.",
+      "fields": {
+        "Servicio": "Canarias · Cartografía estadística",
+        "Nombre de capa": "DIS20110522_EL",
+        "Estilos": "default",
+        "Consulta de atributos": "Disponible en el servicio"
+      }
+    },
+    {
+      "id": "f01-wms:comarca-canarias:SEC20090607_EE",
+      "title": "Secciones 2009/06/07 Elecciones Europeas",
+      "sourceId": "F155",
+      "categoryIds": [
+        "F01"
+      ],
+      "suggestedCategoryIds": [],
+      "status": "por_revisar",
+      "url": "https://idecan2.grafcan.es/ServicioWMS/CARTO_EST?SERVICE=WMS&REQUEST=GetCapabilities",
+      "coverage": "Canarias",
+      "period": "Según el producto original",
+      "license": null,
+      "notes": "Inventario técnico completo de las capas anunciadas por este servicio. No equivale a una capa nueva ni a tener todas sus variantes adaptadas.",
+      "fields": {
+        "Servicio": "Canarias · Cartografía estadística",
+        "Nombre de capa": "SEC20090607_EE",
+        "Estilos": "default",
+        "Consulta de atributos": "Disponible en el servicio"
+      }
+    },
+    {
+      "id": "f01-wms:comarca-canarias:DIS20090607_EE",
+      "title": "Distritos 2009/06/07 Elecciones Europeas",
+      "sourceId": "F155",
+      "categoryIds": [
+        "F01"
+      ],
+      "suggestedCategoryIds": [],
+      "status": "por_revisar",
+      "url": "https://idecan2.grafcan.es/ServicioWMS/CARTO_EST?SERVICE=WMS&REQUEST=GetCapabilities",
+      "coverage": "Canarias",
+      "period": "Según el producto original",
+      "license": null,
+      "notes": "Inventario técnico completo de las capas anunciadas por este servicio. No equivale a una capa nueva ni a tener todas sus variantes adaptadas.",
+      "fields": {
+        "Servicio": "Canarias · Cartografía estadística",
+        "Nombre de capa": "DIS20090607_EE",
+        "Estilos": "default",
+        "Consulta de atributos": "Disponible en el servicio"
+      }
+    },
+    {
+      "id": "f01-wms:comarca-canarias:SEC20080309_EG",
+      "title": "Secciones 2008/03/09 Elecciones Generales",
+      "sourceId": "F155",
+      "categoryIds": [
+        "F01"
+      ],
+      "suggestedCategoryIds": [],
+      "status": "por_revisar",
+      "url": "https://idecan2.grafcan.es/ServicioWMS/CARTO_EST?SERVICE=WMS&REQUEST=GetCapabilities",
+      "coverage": "Canarias",
+      "period": "Según el producto original",
+      "license": null,
+      "notes": "Inventario técnico completo de las capas anunciadas por este servicio. No equivale a una capa nueva ni a tener todas sus variantes adaptadas.",
+      "fields": {
+        "Servicio": "Canarias · Cartografía estadística",
+        "Nombre de capa": "SEC20080309_EG",
+        "Estilos": "default",
+        "Consulta de atributos": "Disponible en el servicio"
+      }
+    },
+    {
+      "id": "f01-wms:comarca-canarias:DIS20080309_EG",
+      "title": "Distritos 2008/03/09 Elecciones Generales",
+      "sourceId": "F155",
+      "categoryIds": [
+        "F01"
+      ],
+      "suggestedCategoryIds": [],
+      "status": "por_revisar",
+      "url": "https://idecan2.grafcan.es/ServicioWMS/CARTO_EST?SERVICE=WMS&REQUEST=GetCapabilities",
+      "coverage": "Canarias",
+      "period": "Según el producto original",
+      "license": null,
+      "notes": "Inventario técnico completo de las capas anunciadas por este servicio. No equivale a una capa nueva ni a tener todas sus variantes adaptadas.",
+      "fields": {
+        "Servicio": "Canarias · Cartografía estadística",
+        "Nombre de capa": "DIS20080309_EG",
+        "Estilos": "default",
+        "Consulta de atributos": "Disponible en el servicio"
+      }
+    },
+    {
+      "id": "f01-wms:comarca-canarias:SEC20070527_EL",
+      "title": "Secciones 2007/05/27 Elecciones Locales",
+      "sourceId": "F155",
+      "categoryIds": [
+        "F01"
+      ],
+      "suggestedCategoryIds": [],
+      "status": "por_revisar",
+      "url": "https://idecan2.grafcan.es/ServicioWMS/CARTO_EST?SERVICE=WMS&REQUEST=GetCapabilities",
+      "coverage": "Canarias",
+      "period": "Según el producto original",
+      "license": null,
+      "notes": "Inventario técnico completo de las capas anunciadas por este servicio. No equivale a una capa nueva ni a tener todas sus variantes adaptadas.",
+      "fields": {
+        "Servicio": "Canarias · Cartografía estadística",
+        "Nombre de capa": "SEC20070527_EL",
+        "Estilos": "default",
+        "Consulta de atributos": "Disponible en el servicio"
+      }
+    },
+    {
+      "id": "f01-wms:comarca-canarias:DIS20070527_EL",
+      "title": "Distritos 2007/05/27 Elecciones Locales",
+      "sourceId": "F155",
+      "categoryIds": [
+        "F01"
+      ],
+      "suggestedCategoryIds": [],
+      "status": "por_revisar",
+      "url": "https://idecan2.grafcan.es/ServicioWMS/CARTO_EST?SERVICE=WMS&REQUEST=GetCapabilities",
+      "coverage": "Canarias",
+      "period": "Según el producto original",
+      "license": null,
+      "notes": "Inventario técnico completo de las capas anunciadas por este servicio. No equivale a una capa nueva ni a tener todas sus variantes adaptadas.",
+      "fields": {
+        "Servicio": "Canarias · Cartografía estadística",
+        "Nombre de capa": "DIS20070527_EL",
+        "Estilos": "default",
+        "Consulta de atributos": "Disponible en el servicio"
+      }
+    },
+    {
+      "id": "f01-wms:comarca-canarias:SEC20040613_EE",
+      "title": "Secciones 2004/06/13 Elecciones Europeas",
+      "sourceId": "F155",
+      "categoryIds": [
+        "F01"
+      ],
+      "suggestedCategoryIds": [],
+      "status": "por_revisar",
+      "url": "https://idecan2.grafcan.es/ServicioWMS/CARTO_EST?SERVICE=WMS&REQUEST=GetCapabilities",
+      "coverage": "Canarias",
+      "period": "Según el producto original",
+      "license": null,
+      "notes": "Inventario técnico completo de las capas anunciadas por este servicio. No equivale a una capa nueva ni a tener todas sus variantes adaptadas.",
+      "fields": {
+        "Servicio": "Canarias · Cartografía estadística",
+        "Nombre de capa": "SEC20040613_EE",
+        "Estilos": "default",
+        "Consulta de atributos": "Disponible en el servicio"
+      }
+    },
+    {
+      "id": "f01-wms:comarca-canarias:DIS20040613_EE",
+      "title": "Distritos 2004/06/13 Elecciones Europeas",
+      "sourceId": "F155",
+      "categoryIds": [
+        "F01"
+      ],
+      "suggestedCategoryIds": [],
+      "status": "por_revisar",
+      "url": "https://idecan2.grafcan.es/ServicioWMS/CARTO_EST?SERVICE=WMS&REQUEST=GetCapabilities",
+      "coverage": "Canarias",
+      "period": "Según el producto original",
+      "license": null,
+      "notes": "Inventario técnico completo de las capas anunciadas por este servicio. No equivale a una capa nueva ni a tener todas sus variantes adaptadas.",
+      "fields": {
+        "Servicio": "Canarias · Cartografía estadística",
+        "Nombre de capa": "DIS20040613_EE",
+        "Estilos": "default",
+        "Consulta de atributos": "Disponible en el servicio"
+      }
+    },
+    {
+      "id": "f01-wms:comarca-canarias:SEC20040314_EG",
+      "title": "Secciones 2004/03/14 Elecciones Generales",
+      "sourceId": "F155",
+      "categoryIds": [
+        "F01"
+      ],
+      "suggestedCategoryIds": [],
+      "status": "por_revisar",
+      "url": "https://idecan2.grafcan.es/ServicioWMS/CARTO_EST?SERVICE=WMS&REQUEST=GetCapabilities",
+      "coverage": "Canarias",
+      "period": "Según el producto original",
+      "license": null,
+      "notes": "Inventario técnico completo de las capas anunciadas por este servicio. No equivale a una capa nueva ni a tener todas sus variantes adaptadas.",
+      "fields": {
+        "Servicio": "Canarias · Cartografía estadística",
+        "Nombre de capa": "SEC20040314_EG",
+        "Estilos": "default",
+        "Consulta de atributos": "Disponible en el servicio"
+      }
+    },
+    {
+      "id": "f01-wms:comarca-canarias:DIS20040314_EG",
+      "title": "Distritos 2004/03/14 Elecciones Generales",
+      "sourceId": "F155",
+      "categoryIds": [
+        "F01"
+      ],
+      "suggestedCategoryIds": [],
+      "status": "por_revisar",
+      "url": "https://idecan2.grafcan.es/ServicioWMS/CARTO_EST?SERVICE=WMS&REQUEST=GetCapabilities",
+      "coverage": "Canarias",
+      "period": "Según el producto original",
+      "license": null,
+      "notes": "Inventario técnico completo de las capas anunciadas por este servicio. No equivale a una capa nueva ni a tener todas sus variantes adaptadas.",
+      "fields": {
+        "Servicio": "Canarias · Cartografía estadística",
+        "Nombre de capa": "DIS20040314_EG",
+        "Estilos": "default",
+        "Consulta de atributos": "Disponible en el servicio"
+      }
+    },
+    {
+      "id": "f01-wms:comarca-canarias:ALJTUR2015",
+      "title": "Alojamientos Turísticos Colectivos 2015",
+      "sourceId": "F155",
+      "categoryIds": [
+        "F01"
+      ],
+      "suggestedCategoryIds": [],
+      "status": "por_revisar",
+      "url": "https://idecan2.grafcan.es/ServicioWMS/CARTO_EST?SERVICE=WMS&REQUEST=GetCapabilities",
+      "coverage": "Canarias",
+      "period": "Según el producto original",
+      "license": null,
+      "notes": "Inventario técnico completo de las capas anunciadas por este servicio. No equivale a una capa nueva ni a tener todas sus variantes adaptadas.",
+      "fields": {
+        "Servicio": "Canarias · Cartografía estadística",
+        "Nombre de capa": "ALJTUR2015",
+        "Estilos": "default",
+        "Consulta de atributos": "Disponible en el servicio"
+      }
+    },
+    {
+      "id": "f01-wms:comarca-canarias:MUN",
+      "title": "Municipios",
+      "sourceId": "F155",
+      "categoryIds": [
+        "F01"
+      ],
+      "suggestedCategoryIds": [],
+      "status": "por_revisar",
+      "url": "https://idecan2.grafcan.es/ServicioWMS/CARTO_EST?SERVICE=WMS&REQUEST=GetCapabilities",
+      "coverage": "Canarias",
+      "period": "Según el producto original",
+      "license": null,
+      "notes": "Inventario técnico completo de las capas anunciadas por este servicio. No equivale a una capa nueva ni a tener todas sus variantes adaptadas.",
+      "fields": {
+        "Servicio": "Canarias · Cartografía estadística",
+        "Nombre de capa": "MUN",
+        "Estilos": "default",
+        "Consulta de atributos": "Disponible en el servicio"
+      }
+    },
+    {
+      "id": "f01-wms:comarca-canarias:MUN08",
+      "title": "Municipios (hasta 2008)",
+      "sourceId": "F155",
+      "categoryIds": [
+        "F01"
+      ],
+      "suggestedCategoryIds": [],
+      "status": "por_revisar",
+      "url": "https://idecan2.grafcan.es/ServicioWMS/CARTO_EST?SERVICE=WMS&REQUEST=GetCapabilities",
+      "coverage": "Canarias",
+      "period": "Según el producto original",
+      "license": null,
+      "notes": "Inventario técnico completo de las capas anunciadas por este servicio. No equivale a una capa nueva ni a tener todas sus variantes adaptadas.",
+      "fields": {
+        "Servicio": "Canarias · Cartografía estadística",
+        "Nombre de capa": "MUN08",
+        "Estilos": "default",
+        "Consulta de atributos": "Disponible en el servicio"
+      }
+    },
+    {
+      "id": "f01-wms:cadastre-navarra:CP:CadastralParcel",
+      "title": "Cadastral parcels",
+      "sourceId": "F165",
+      "categoryIds": [
+        "F01"
+      ],
+      "suggestedCategoryIds": [],
+      "status": "por_revisar",
+      "url": "https://inspire.navarra.es/services/CP/wms?SERVICE=WMS&REQUEST=GetCapabilities",
+      "coverage": "Navarra",
+      "period": "Según el producto original",
+      "license": null,
+      "notes": "Inventario técnico completo de las capas anunciadas por este servicio. No equivale a una capa nueva ni a tener todas sus variantes adaptadas.",
+      "fields": {
+        "Servicio": "Navarra · Parcelas catastrales",
+        "Nombre de capa": "CP:CadastralParcel",
+        "Estilos": "CP:CP.CadastralParcel.Default, CP:CP.CadastralParcel.ELFCadastre, CP:CP.CadastralParcel.BoundariesOnly, CP:CP.CadastralParcelRefencePointOnly",
+        "Consulta de atributos": "Disponible en el servicio"
+      }
+    },
+    {
+      "id": "f01-wms:cadastre-araba:CP.CadastralParcel",
+      "title": "Cadastral Parcels",
+      "sourceId": "F177",
+      "categoryIds": [
+        "F01"
+      ],
+      "suggestedCategoryIds": [],
+      "status": "por_revisar",
+      "url": "https://geo.araba.eus/WMS_INSPIRE_CP?SERVICE=WMS&REQUEST=GetCapabilities",
+      "coverage": "Álava",
+      "period": "Según el producto original",
+      "license": null,
+      "notes": "Inventario técnico completo de las capas anunciadas por este servicio. No equivale a una capa nueva ni a tener todas sus variantes adaptadas.",
+      "fields": {
+        "Servicio": "Álava · Parcelas catastrales",
+        "Nombre de capa": "CP.CadastralParcel",
+        "Estilos": "INSPIRE_CP:CP.CadastralParcel.Default, INSPIRE_CP:CP.CadastralParcel.ELFCadastre, INSPIRE_CP:CP.CadastralParcel.BoundariesOnly, INSPIRE_CP:CP.CadastralParcel.LabelOnReferencePoint, INSPIRE_CP:CP.CadastralParcel.ReferencePointOnly",
+        "Consulta de atributos": "Disponible en el servicio"
+      }
+    },
+    {
+      "id": "f01-wms:cadastre-bizkaia:0",
+      "title": "Numeros de portal",
+      "sourceId": "F178",
+      "categoryIds": [
+        "F01"
+      ],
+      "suggestedCategoryIds": [],
+      "status": "por_revisar",
+      "url": "https://geo.bizkaia.eus/arcgisserverinspire/services/LurraldeAntolamendua_PlanificacionTerritorial/Katastro_Catastro/MapServer/WMSServer?SERVICE=WMS&REQUEST=GetCapabilities",
+      "coverage": "Bizkaia",
+      "period": "Según el producto original",
+      "license": null,
+      "notes": "Inventario técnico completo de las capas anunciadas por este servicio. No equivale a una capa nueva ni a tener todas sus variantes adaptadas.",
+      "fields": {
+        "Servicio": "Bizkaia · Catastro",
+        "Nombre de capa": "0",
+        "Estilos": "default",
+        "Consulta de atributos": "Disponible en el servicio"
+      }
+    },
+    {
+      "id": "f01-wms:cadastre-bizkaia:2",
+      "title": "Subparcelas Urbanas",
+      "sourceId": "F178",
+      "categoryIds": [
+        "F01"
+      ],
+      "suggestedCategoryIds": [],
+      "status": "por_revisar",
+      "url": "https://geo.bizkaia.eus/arcgisserverinspire/services/LurraldeAntolamendua_PlanificacionTerritorial/Katastro_Catastro/MapServer/WMSServer?SERVICE=WMS&REQUEST=GetCapabilities",
+      "coverage": "Bizkaia",
+      "period": "Según el producto original",
+      "license": null,
+      "notes": "Inventario técnico completo de las capas anunciadas por este servicio. No equivale a una capa nueva ni a tener todas sus variantes adaptadas.",
+      "fields": {
+        "Servicio": "Bizkaia · Catastro",
+        "Nombre de capa": "2",
+        "Estilos": "default",
+        "Consulta de atributos": "Disponible en el servicio"
+      }
+    },
+    {
+      "id": "f01-wms:cadastre-bizkaia:3",
+      "title": "Subparcelas Subedificadas",
+      "sourceId": "F178",
+      "categoryIds": [
+        "F01"
+      ],
+      "suggestedCategoryIds": [],
+      "status": "por_revisar",
+      "url": "https://geo.bizkaia.eus/arcgisserverinspire/services/LurraldeAntolamendua_PlanificacionTerritorial/Katastro_Catastro/MapServer/WMSServer?SERVICE=WMS&REQUEST=GetCapabilities",
+      "coverage": "Bizkaia",
+      "period": "Según el producto original",
+      "license": null,
+      "notes": "Inventario técnico completo de las capas anunciadas por este servicio. No equivale a una capa nueva ni a tener todas sus variantes adaptadas.",
+      "fields": {
+        "Servicio": "Bizkaia · Catastro",
+        "Nombre de capa": "3",
+        "Estilos": "default",
+        "Consulta de atributos": "Disponible en el servicio"
+      }
+    },
+    {
+      "id": "f01-wms:cadastre-bizkaia:4",
+      "title": "Subparcelas no catastradas",
+      "sourceId": "F178",
+      "categoryIds": [
+        "F01"
+      ],
+      "suggestedCategoryIds": [],
+      "status": "por_revisar",
+      "url": "https://geo.bizkaia.eus/arcgisserverinspire/services/LurraldeAntolamendua_PlanificacionTerritorial/Katastro_Catastro/MapServer/WMSServer?SERVICE=WMS&REQUEST=GetCapabilities",
+      "coverage": "Bizkaia",
+      "period": "Según el producto original",
+      "license": null,
+      "notes": "Inventario técnico completo de las capas anunciadas por este servicio. No equivale a una capa nueva ni a tener todas sus variantes adaptadas.",
+      "fields": {
+        "Servicio": "Bizkaia · Catastro",
+        "Nombre de capa": "4",
+        "Estilos": "default",
+        "Consulta de atributos": "Disponible en el servicio"
+      }
+    },
+    {
+      "id": "f01-wms:cadastre-bizkaia:5",
+      "title": "Subparcelas Rústicas",
+      "sourceId": "F178",
+      "categoryIds": [
+        "F01"
+      ],
+      "suggestedCategoryIds": [],
+      "status": "por_revisar",
+      "url": "https://geo.bizkaia.eus/arcgisserverinspire/services/LurraldeAntolamendua_PlanificacionTerritorial/Katastro_Catastro/MapServer/WMSServer?SERVICE=WMS&REQUEST=GetCapabilities",
+      "coverage": "Bizkaia",
+      "period": "Según el producto original",
+      "license": null,
+      "notes": "Inventario técnico completo de las capas anunciadas por este servicio. No equivale a una capa nueva ni a tener todas sus variantes adaptadas.",
+      "fields": {
+        "Servicio": "Bizkaia · Catastro",
+        "Nombre de capa": "5",
+        "Estilos": "default",
+        "Consulta de atributos": "Disponible en el servicio"
+      }
+    },
+    {
+      "id": "f01-wms:cadastre-bizkaia:6",
+      "title": "Edificios",
+      "sourceId": "F178",
+      "categoryIds": [
+        "F01"
+      ],
+      "suggestedCategoryIds": [],
+      "status": "por_revisar",
+      "url": "https://geo.bizkaia.eus/arcgisserverinspire/services/LurraldeAntolamendua_PlanificacionTerritorial/Katastro_Catastro/MapServer/WMSServer?SERVICE=WMS&REQUEST=GetCapabilities",
+      "coverage": "Bizkaia",
+      "period": "Según el producto original",
+      "license": null,
+      "notes": "Inventario técnico completo de las capas anunciadas por este servicio. No equivale a una capa nueva ni a tener todas sus variantes adaptadas.",
+      "fields": {
+        "Servicio": "Bizkaia · Catastro",
+        "Nombre de capa": "6",
+        "Estilos": "default",
+        "Consulta de atributos": "Disponible en el servicio"
+      }
+    },
+    {
+      "id": "f01-wms:cadastre-bizkaia:7",
+      "title": "Solares",
+      "sourceId": "F178",
+      "categoryIds": [
+        "F01"
+      ],
+      "suggestedCategoryIds": [],
+      "status": "por_revisar",
+      "url": "https://geo.bizkaia.eus/arcgisserverinspire/services/LurraldeAntolamendua_PlanificacionTerritorial/Katastro_Catastro/MapServer/WMSServer?SERVICE=WMS&REQUEST=GetCapabilities",
+      "coverage": "Bizkaia",
+      "period": "Según el producto original",
+      "license": null,
+      "notes": "Inventario técnico completo de las capas anunciadas por este servicio. No equivale a una capa nueva ni a tener todas sus variantes adaptadas.",
+      "fields": {
+        "Servicio": "Bizkaia · Catastro",
+        "Nombre de capa": "7",
+        "Estilos": "default",
+        "Consulta de atributos": "Disponible en el servicio"
+      }
+    },
+    {
+      "id": "f01-wms:cadastre-bizkaia:8",
+      "title": "Subparcelas BICE",
+      "sourceId": "F178",
+      "categoryIds": [
+        "F01"
+      ],
+      "suggestedCategoryIds": [],
+      "status": "por_revisar",
+      "url": "https://geo.bizkaia.eus/arcgisserverinspire/services/LurraldeAntolamendua_PlanificacionTerritorial/Katastro_Catastro/MapServer/WMSServer?SERVICE=WMS&REQUEST=GetCapabilities",
+      "coverage": "Bizkaia",
+      "period": "Según el producto original",
+      "license": null,
+      "notes": "Inventario técnico completo de las capas anunciadas por este servicio. No equivale a una capa nueva ni a tener todas sus variantes adaptadas.",
+      "fields": {
+        "Servicio": "Bizkaia · Catastro",
+        "Nombre de capa": "8",
+        "Estilos": "default",
+        "Consulta de atributos": "Disponible en el servicio"
+      }
+    },
+    {
+      "id": "f01-wms:cadastre-bizkaia:9",
+      "title": "Parcelas",
+      "sourceId": "F178",
+      "categoryIds": [
+        "F01"
+      ],
+      "suggestedCategoryIds": [],
+      "status": "por_revisar",
+      "url": "https://geo.bizkaia.eus/arcgisserverinspire/services/LurraldeAntolamendua_PlanificacionTerritorial/Katastro_Catastro/MapServer/WMSServer?SERVICE=WMS&REQUEST=GetCapabilities",
+      "coverage": "Bizkaia",
+      "period": "Según el producto original",
+      "license": null,
+      "notes": "Inventario técnico completo de las capas anunciadas por este servicio. No equivale a una capa nueva ni a tener todas sus variantes adaptadas.",
+      "fields": {
+        "Servicio": "Bizkaia · Catastro",
+        "Nombre de capa": "9",
+        "Estilos": "default",
+        "Consulta de atributos": "Disponible en el servicio"
+      }
+    },
+    {
+      "id": "f01-wms:cadastre-bizkaia:10",
+      "title": "Polígonos",
+      "sourceId": "F178",
+      "categoryIds": [
+        "F01"
+      ],
+      "suggestedCategoryIds": [],
+      "status": "por_revisar",
+      "url": "https://geo.bizkaia.eus/arcgisserverinspire/services/LurraldeAntolamendua_PlanificacionTerritorial/Katastro_Catastro/MapServer/WMSServer?SERVICE=WMS&REQUEST=GetCapabilities",
+      "coverage": "Bizkaia",
+      "period": "Según el producto original",
+      "license": null,
+      "notes": "Inventario técnico completo de las capas anunciadas por este servicio. No equivale a una capa nueva ni a tener todas sus variantes adaptadas.",
+      "fields": {
+        "Servicio": "Bizkaia · Catastro",
+        "Nombre de capa": "10",
+        "Estilos": "default",
+        "Consulta de atributos": "Disponible en el servicio"
+      }
+    },
+    {
+      "id": "f01-wms:cadastre-bizkaia:11",
+      "title": "Municipios",
+      "sourceId": "F178",
+      "categoryIds": [
+        "F01"
+      ],
+      "suggestedCategoryIds": [],
+      "status": "por_revisar",
+      "url": "https://geo.bizkaia.eus/arcgisserverinspire/services/LurraldeAntolamendua_PlanificacionTerritorial/Katastro_Catastro/MapServer/WMSServer?SERVICE=WMS&REQUEST=GetCapabilities",
+      "coverage": "Bizkaia",
+      "period": "Según el producto original",
+      "license": null,
+      "notes": "Inventario técnico completo de las capas anunciadas por este servicio. No equivale a una capa nueva ni a tener todas sus variantes adaptadas.",
+      "fields": {
+        "Servicio": "Bizkaia · Catastro",
+        "Nombre de capa": "11",
+        "Estilos": "default",
+        "Consulta de atributos": "Disponible en el servicio"
+      }
+    },
+    {
+      "id": "f01-wms:cadastre-gipuzkoa:gipuzkoa_wms",
+      "title": "Gipuzkoa INSPIRE View Services - Web Map Service",
+      "sourceId": "F179",
+      "categoryIds": [
+        "F01"
+      ],
+      "suggestedCategoryIds": [],
+      "status": "por_revisar",
+      "url": "https://b5m.gipuzkoa.eus/inspire/wms/gipuzkoa_wms?SERVICE=WMS&REQUEST=GetCapabilities",
+      "coverage": "Gipuzkoa",
+      "period": "Según el producto original",
+      "license": null,
+      "notes": "Inventario técnico completo de las capas anunciadas por este servicio. No equivale a una capa nueva ni a tener todas sus variantes adaptadas.",
+      "fields": {
+        "Servicio": "Gipuzkoa · Cartografía INSPIRE",
+        "Nombre de capa": "gipuzkoa_wms",
+        "Estilos": "default",
+        "Consulta de atributos": "Disponible en el servicio"
+      }
+    },
+    {
+      "id": "f01-wms:cadastre-gipuzkoa:bu.building",
+      "title": "Gipuzkoa Provincial Council Buildings",
+      "sourceId": "F179",
+      "categoryIds": [
+        "F01"
+      ],
+      "suggestedCategoryIds": [],
+      "status": "por_revisar",
+      "url": "https://b5m.gipuzkoa.eus/inspire/wms/gipuzkoa_wms?SERVICE=WMS&REQUEST=GetCapabilities",
+      "coverage": "Gipuzkoa",
+      "period": "Según el producto original",
+      "license": null,
+      "notes": "Inventario técnico completo de las capas anunciadas por este servicio. No equivale a una capa nueva ni a tener todas sus variantes adaptadas.",
+      "fields": {
+        "Servicio": "Gipuzkoa · Cartografía INSPIRE",
+        "Nombre de capa": "bu.building",
+        "Estilos": "BU.Building.Default, BU.Building.ELFCadastre",
+        "Consulta de atributos": "Disponible en el servicio"
+      }
+    },
+    {
+      "id": "f01-wms:cadastre-gipuzkoa:bu.otherconstruction",
+      "title": "Gipuzkoa Provincial Council Other Constructions",
+      "sourceId": "F179",
+      "categoryIds": [
+        "F01"
+      ],
+      "suggestedCategoryIds": [],
+      "status": "por_revisar",
+      "url": "https://b5m.gipuzkoa.eus/inspire/wms/gipuzkoa_wms?SERVICE=WMS&REQUEST=GetCapabilities",
+      "coverage": "Gipuzkoa",
+      "period": "Según el producto original",
+      "license": null,
+      "notes": "Inventario técnico completo de las capas anunciadas por este servicio. No equivale a una capa nueva ni a tener todas sus variantes adaptadas.",
+      "fields": {
+        "Servicio": "Gipuzkoa · Cartografía INSPIRE",
+        "Nombre de capa": "bu.otherconstruction",
+        "Estilos": "BU.OtherConstruction.Default, BU.OtherConstruction.ELFCadastre",
+        "Consulta de atributos": "Disponible en el servicio"
+      }
+    },
+    {
+      "id": "f01-wms:cadastre-gipuzkoa:ad.Address",
+      "title": "Gipuzkoa Provincial Council Addresses",
+      "sourceId": "F179",
+      "categoryIds": [
+        "F01"
+      ],
+      "suggestedCategoryIds": [],
+      "status": "por_revisar",
+      "url": "https://b5m.gipuzkoa.eus/inspire/wms/gipuzkoa_wms?SERVICE=WMS&REQUEST=GetCapabilities",
+      "coverage": "Gipuzkoa",
+      "period": "Según el producto original",
+      "license": null,
+      "notes": "Inventario técnico completo de las capas anunciadas por este servicio. No equivale a una capa nueva ni a tener todas sus variantes adaptadas.",
+      "fields": {
+        "Servicio": "Gipuzkoa · Cartografía INSPIRE",
+        "Nombre de capa": "ad.Address",
+        "Estilos": "AD.Address.Default, AD.Address.Number.ELFCadastre",
+        "Consulta de atributos": "Disponible en el servicio"
+      }
+    },
+    {
+      "id": "f01-wms:cadastre-gipuzkoa:cp.CadastralZoning",
+      "title": "Gipuzkoa Provincial Council Cadastral Zoning",
+      "sourceId": "F179",
+      "categoryIds": [
+        "F01"
+      ],
+      "suggestedCategoryIds": [],
+      "status": "por_revisar",
+      "url": "https://b5m.gipuzkoa.eus/inspire/wms/gipuzkoa_wms?SERVICE=WMS&REQUEST=GetCapabilities",
+      "coverage": "Gipuzkoa",
+      "period": "Según el producto original",
+      "license": null,
+      "notes": "Inventario técnico completo de las capas anunciadas por este servicio. No equivale a una capa nueva ni a tener todas sus variantes adaptadas.",
+      "fields": {
+        "Servicio": "Gipuzkoa · Cartografía INSPIRE",
+        "Nombre de capa": "cp.CadastralZoning",
+        "Estilos": "CP.CadastralZoning.Default, CP.CadastralZoning.ELFCadastre",
+        "Consulta de atributos": "Disponible en el servicio"
+      }
+    },
+    {
+      "id": "f01-wms:cadastre-gipuzkoa:cp.CadastralParcel",
+      "title": "Gipuzkoa Provincial Council Cadastral Parcels",
+      "sourceId": "F179",
+      "categoryIds": [
+        "F01"
+      ],
+      "suggestedCategoryIds": [],
+      "status": "por_revisar",
+      "url": "https://b5m.gipuzkoa.eus/inspire/wms/gipuzkoa_wms?SERVICE=WMS&REQUEST=GetCapabilities",
+      "coverage": "Gipuzkoa",
+      "period": "Según el producto original",
+      "license": null,
+      "notes": "Inventario técnico completo de las capas anunciadas por este servicio. No equivale a una capa nueva ni a tener todas sus variantes adaptadas.",
+      "fields": {
+        "Servicio": "Gipuzkoa · Cartografía INSPIRE",
+        "Nombre de capa": "cp.CadastralParcel",
+        "Estilos": "CP.CadastralParcel.Default, CP.CadastralParcel.LabelOnReferencePoint, CP.CadastralParcel.BoundariesOnly, CP.CadastralParcel.ReferencePointOnly, CP.CadastralParcel.ELFCadastre",
+        "Consulta de atributos": "Disponible en el servicio"
+      }
+    },
+    {
+      "id": "f01-wms:cadastre-gipuzkoa:gn.NamedPlace",
+      "title": "Gipuzkoa Provincial Council Geographical Names",
+      "sourceId": "F179",
+      "categoryIds": [
+        "F01"
+      ],
+      "suggestedCategoryIds": [],
+      "status": "por_revisar",
+      "url": "https://b5m.gipuzkoa.eus/inspire/wms/gipuzkoa_wms?SERVICE=WMS&REQUEST=GetCapabilities",
+      "coverage": "Gipuzkoa",
+      "period": "Según el producto original",
+      "license": null,
+      "notes": "Inventario técnico completo de las capas anunciadas por este servicio. No equivale a una capa nueva ni a tener todas sus variantes adaptadas.",
+      "fields": {
+        "Servicio": "Gipuzkoa · Cartografía INSPIRE",
+        "Nombre de capa": "gn.NamedPlace",
+        "Estilos": "GN.NamedPlace.Default",
+        "Consulta de atributos": "Disponible en el servicio"
+      }
+    },
+    {
+      "id": "f01-wms:cadastre-gipuzkoa:au.AdministrativeUnit",
+      "title": "Gipuzkoa Provincial Council Administrative Units",
+      "sourceId": "F179",
+      "categoryIds": [
+        "F01"
+      ],
+      "suggestedCategoryIds": [],
+      "status": "por_revisar",
+      "url": "https://b5m.gipuzkoa.eus/inspire/wms/gipuzkoa_wms?SERVICE=WMS&REQUEST=GetCapabilities",
+      "coverage": "Gipuzkoa",
+      "period": "Según el producto original",
+      "license": null,
+      "notes": "Inventario técnico completo de las capas anunciadas por este servicio. No equivale a una capa nueva ni a tener todas sus variantes adaptadas.",
+      "fields": {
+        "Servicio": "Gipuzkoa · Cartografía INSPIRE",
+        "Nombre de capa": "au.AdministrativeUnit",
+        "Estilos": "AU.AdministrativeUnit.Default, AU.AdministrativeUnit.ELFCadastre",
+        "Consulta de atributos": "Disponible en el servicio"
+      }
+    },
+    {
+      "id": "f01-wms:cadastre-gipuzkoa:au.AdministrativeBoundary",
+      "title": "Gipuzkoa Provincial Council Administrative Boundaries",
+      "sourceId": "F179",
+      "categoryIds": [
+        "F01"
+      ],
+      "suggestedCategoryIds": [],
+      "status": "por_revisar",
+      "url": "https://b5m.gipuzkoa.eus/inspire/wms/gipuzkoa_wms?SERVICE=WMS&REQUEST=GetCapabilities",
+      "coverage": "Gipuzkoa",
+      "period": "Según el producto original",
+      "license": null,
+      "notes": "Inventario técnico completo de las capas anunciadas por este servicio. No equivale a una capa nueva ni a tener todas sus variantes adaptadas.",
+      "fields": {
+        "Servicio": "Gipuzkoa · Cartografía INSPIRE",
+        "Nombre de capa": "au.AdministrativeBoundary",
+        "Estilos": "AU.AdministrativeBoundary.Default, AU.AdministrativeBoundary.ELFCadastre",
+        "Consulta de atributos": "Disponible en el servicio"
+      }
+    }
+  ]
+}

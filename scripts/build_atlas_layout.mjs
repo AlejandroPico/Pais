@@ -1,0 +1,17 @@
+import fs from 'node:fs';
+import clipping from 'polygon-clipping';
+import {projectFeature} from '../src/atlas-coordinates.ts';
+const root=new URL('../',import.meta.url);
+const read=p=>JSON.parse(fs.readFileSync(new URL(p,root),'utf8'));
+const provinces=read('public/data/provinces.geojson');
+const canaries=clipping.union(...provinces.features.filter(f=>['35','38'].includes(f.properties.code)).map(f=>f.geometry.coordinates));
+const country=clipping.union(...provinces.features.map(f=>f.geometry.coordinates));
+const feature=coordinates=>({type:'Feature',properties:{name:'España',source:'IGN · CC BY 4.0'},geometry:{type:'MultiPolygon',coordinates}});
+const moved=projectFeature(feature(canaries)).geometry.coordinates;
+const sea=read('public/data/sea.geojson');
+sea.geometry.coordinates=clipping.difference(clipping.union(sea.geometry.coordinates,canaries),moved);
+sea.properties.visualization='Canarias desplazadas para la composición del atlas; no usar estas coordenadas como datos geográficos.';
+fs.writeFileSync(new URL('public/data/territory/country.geojson',root),JSON.stringify(feature(country)));
+fs.writeFileSync(new URL('public/data/territory/country-atlas.geojson',root),JSON.stringify({...projectFeature(feature(country)),properties:{name:'España',source:'IGN · CC BY 4.0',geographicCoordinates:false,canonicalSource:'country.geojson',visualization:'Canarias desplazadas únicamente para la composición del atlas'}}));
+fs.writeFileSync(new URL('public/data/territory/sea-atlas.geojson',root),JSON.stringify(sea));
+console.log('Atlas layout: original geometry retained; Canary displacement only for display.');

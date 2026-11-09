@@ -4,6 +4,7 @@ import fs from 'node:fs';
 import crypto from 'node:crypto';
 import {gunzipSync} from 'node:zlib';
 import {matchesProduct} from '../src/registry.ts';
+import {territoryLayers} from '../src/territory-config.ts';
 const root=new URL('../',import.meta.url);
 const read=p=>JSON.parse(fs.readFileSync(new URL(p,root),'utf8'));
 const index=read('public/data/registry/index.json');
@@ -35,7 +36,10 @@ test('registry inventories retain counts, unique identifiers, references and byt
 
 test('available products link to real map actions and preserved observations; discovery is separate',()=>{
   const actions=new Set(['base:satellite','base:terrain','base:street','terrain','communities','provinces','metric:population','metric:density','metric:women','metric:change','overlay:municipal','overlay:rivers','overlay:rail','overlay:roads','overlay:camino']);
-  assert.equal(products.available.length,15);
+  for(const layer of territoryLayers)actions.add('territory:'+layer.id);
+  actions.add('search:addresses');
+  const expected=read('registry/products.json').products.length+read('registry/territory-products.json').available.length;
+  assert.equal(products.available.length,expected);
   for(const p of products.available){assert.equal(p.status,'integrado');assert.ok(actions.has(p.mapAction));assert.ok(p.license);if(p.dataFile)assert.ok(fs.existsSync(new URL('public/data/'+p.dataFile,root)));}
   for(const p of [...products.ioe,...products.national,...products.ine])if(!p.review){assert.equal(p.status,'por_revisar');assert.equal(p.categoryIds.length,0);assert.equal(p.license,null);}
   assert.equal(products.ioe.find(p=>p.id==='ioe:01005').fields['Nivel de desagregación'],'Provincial');

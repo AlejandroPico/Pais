@@ -1,0 +1,292 @@
+{
+  "checkedAt": "2026-11-09T16:56:36.142Z",
+  "scope": "Muestras técnicas de imagen; no verifican toda la cobertura geográfica ni todas las consultas.",
+  "results": [
+    {
+      "sourceId": "F155",
+      "service": "https://idecan2.grafcan.es/ServicioWMS/CARTO_EST",
+      "layers": "CME1",
+      "url": "https://idecan2.grafcan.es/ServicioWMS/CARTO_EST?SERVICE=WMS&VERSION=1.3.0&REQUEST=GetMap&LAYERS=CME1&STYLES=&CRS=EPSG%3A3857&BBOX=-1717809.742940211%2C3263961.4855878493%2C-1717509.742940211%2C3264261.4855878493&WIDTH=256&HEIGHT=256&FORMAT=image%2Fpng&TRANSPARENT=TRUE",
+      "status": 200,
+      "png": true,
+      "cors": "*",
+      "bytes": 3958,
+      "sha256": "99a91ecb17a7adf31cdf22f9d6e520c7f8ba3b1e0616ea0c11481c18ed124c29"
+    },
+    {
+      "sourceId": "F155",
+      "service": "https://idecan2.grafcan.es/ServicioWMS/CARTO_EST",
+      "layers": "CME2",
+      "url": "https://idecan2.grafcan.es/ServicioWMS/CARTO_EST?SERVICE=WMS&VERSION=1.3.0&REQUEST=GetMap&LAYERS=CME2&STYLES=&CRS=EPSG%3A3857&BBOX=-1717809.742940211%2C3263961.4855878493%2C-1717509.742940211%2C3264261.4855878493&WIDTH=256&HEIGHT=256&FORMAT=image%2Fpng&TRANSPARENT=TRUE",
+      "status": 200,
+      "png": true,
+      "cors": "*",
+      "bytes": 3316,
+      "sha256": "122c19e82f796c25caafad3ff1542cefefa71a68b5267238b515112d36b076dd"
+    },
+    {
+      "sourceId": "F007",
+      "service": "https://www.cartociudad.es/wms-inspire/direcciones-ccpp",
+      "layers": "AD.Address",
+      "url": "https://www.cartociudad.es/wms-inspire/direcciones-ccpp?SERVICE=WMS&VERSION=1.3.0&REQUEST=GetMap&LAYERS=AD.Address&STYLES=&CRS=EPSG%3A3857&BBOX=-374851.4060101589%2C4936230.779171808%2C-374551.4060101589%2C4936530.779171808&WIDTH=256&HEIGHT=256&FORMAT=image%2Fpng&TRANSPARENT=TRUE",
+      "status": 200,
+      "png": true,
+      "cors": "*",
+      "bytes": 5809,
+      "sha256": "d0a7db3aed1be9834d58c2500ae218cdd0e83ce4b05679fc26c122e9661edd73"
+    },
+    {
+      "sourceId": "F007",
+      "service": "https://www.cartociudad.es/wms-inspire/direcciones-ccpp",
+      "layers": "codigo-postal",
+      "url": "https://www.cartociudad.es/wms-inspire/direcciones-ccpp?SERVICE=WMS&VERSION=1.3.0&REQUEST=GetMap&LAYERS=codigo-postal&STYLES=&CRS=EPSG%3A3857&BBOX=-374851.4060101589%2C4936230.779171808%2C-374551.4060101589%2C4936530.779171808&WIDTH=256&HEIGHT=256&FORMAT=image%2Fpng&TRANSPARENT=TRUE",
+      "status": 200,
+      "png": true,
+      "cors": "*",
+      "bytes": 3106,
+      "sha256": "29f9a537e0ce3379e504a7993942056c3052cd8124db3d2b8b1bda4c54a8ebb9"
+    },
+    {
+      "sourceId": "F008",
+      "service": "https://ovc.catastro.meh.es/cartografia/INSPIRE/spadgcwms.aspx",
+      "layers": "CP.CadastralParcel",
+      "url": "https://ovc.catastro.meh.es/cartografia/INSPIRE/spadgcwms.aspx?SERVICE=WMS&VERSION=1.3.0&REQUEST=GetMap&LAYERS=CP.CadastralParcel&STYLES=&CRS=EPSG%3A3857&BBOX=-374851.4060101589%2C4936230.779171808%2C-374551.4060101589%2C4936530.779171808&WIDTH=256&HEIGHT=256&FORMAT=image%2Fpng&TRANSPARENT=TRUE",
+      "status": 200,
+      "png": true,
+      "cors": "*",
+      "bytes": 9793,
+      "sha256": "f01df28c9f69d2949aeb530a96ceb4735d38474cc09a58e64c6fec194403dfd9"
+    },
+    {
+      "sourceId": "F165",
+      "service": "https://inspire.navarra.es/services/CP/wms",
+      "layers": "CP:CadastralParcel",
+      "url": "https://inspire.navarra.es/services/CP/wms?SERVICE=WMS&VERSION=1.3.0&REQUEST=GetMap&LAYERS=CP%3ACadastralParcel&STYLES=&CRS=EPSG%3A3857&BBOX=-183359.6179475696%2C5284160.49277509%2C-183059.6179475696%2C5284460.49277509&WIDTH=256&HEIGHT=256&FORMAT=image%2Fpng&TRANSPARENT=TRUE",
+      "status": 200,
+      "png": true,
+      "cors": "*",
+      "bytes": 52549,
+      "sha256": "7bb13ae446b8161f00ff6cc027f8078a8c502ef755d7744d8362d854d9f7359f"
+    },
+    {
+      "sourceId": "F177",
+      "service": "https://geo.araba.eus/WMS_INSPIRE_CP",
+      "layers": "CP.CadastralParcel",
+      "url": "https://geo.araba.eus/WMS_INSPIRE_CP?SERVICE=WMS&VERSION=1.3.0&REQUEST=GetMap&LAYERS=CP.CadastralParcel&STYLES=&CRS=EPSG%3A3857&BBOX=-297595.67939962697%2C5288562.606660519%2C-297295.67939962697%2C5288862.606660519&WIDTH=256&HEIGHT=256&FORMAT=image%2Fpng&TRANSPARENT=TRUE",
+      "status": 200,
+      "png": true,
+      "cors": "https://alejandropico.github.io",
+      "bytes": 32016,
+      "sha256": "4a4bcd5b48d9ae86042b7a4f61a96268c59ce465874634f4e2a51bb9ce304ab8"
+    },
+    {
+      "sourceId": "F178",
+      "service": "https://geo.bizkaia.eus/arcgisserverinspire/services/LurraldeAntolamendua_PlanificacionTerritorial/Katastro_Catastro/MapServer/WMSServer",
+      "layers": "9",
+      "url": "https://geo.bizkaia.eus/arcgisserverinspire/services/LurraldeAntolamendua_PlanificacionTerritorial/Katastro_Catastro/MapServer/WMSServer?SERVICE=WMS&VERSION=1.3.0&REQUEST=GetMap&LAYERS=9&STYLES=&CRS=EPSG%3A3857&BBOX=-326761.3859874647%2C5351939.19115252%2C-326461.3859874647%2C5352239.19115252&WIDTH=256&HEIGHT=256&FORMAT=image%2Fpng&TRANSPARENT=TRUE",
+      "status": 200,
+      "png": true,
+      "cors": "https://alejandropico.github.io",
+      "bytes": 27346,
+      "sha256": "3da3b5f12d624ebee569c8778edd0b8b127f0ef59f4ef2f4ec7b3333fc9ae6e5"
+    },
+    {
+      "sourceId": "F179",
+      "service": "https://b5m.gipuzkoa.eus/inspire/wms/gipuzkoa_wms",
+      "layers": "cp.CadastralParcel",
+      "url": "https://b5m.gipuzkoa.eus/inspire/wms/gipuzkoa_wms?SERVICE=WMS&VERSION=1.3.0&REQUEST=GetMap&LAYERS=cp.CadastralParcel&STYLES=&CRS=EPSG%3A3857&BBOX=-220785.23075226822%2C5360962.668166384%2C-220485.23075226822%2C5361262.668166384&WIDTH=256&HEIGHT=256&FORMAT=image%2Fpng&TRANSPARENT=TRUE",
+      "status": 200,
+      "png": true,
+      "cors": "*",
+      "bytes": 50377,
+      "sha256": "0f1ca4ed4e960a643ef98c49140bea8ba73b022c4bb06a534ed5644cededdc24"
+    },
+    {
+      "sourceId": "F008",
+      "service": "https://ovc.catastro.meh.es/cartografia/INSPIRE/spadgcwms.aspx",
+      "layers": "BU.Building",
+      "url": "https://ovc.catastro.meh.es/cartografia/INSPIRE/spadgcwms.aspx?SERVICE=WMS&VERSION=1.3.0&REQUEST=GetMap&LAYERS=BU.Building&STYLES=&CRS=EPSG%3A3857&BBOX=-374851.4060101589%2C4936230.779171808%2C-374551.4060101589%2C4936530.779171808&WIDTH=256&HEIGHT=256&FORMAT=image%2Fpng&TRANSPARENT=TRUE",
+      "status": 200,
+      "png": true,
+      "cors": "*",
+      "bytes": 10843,
+      "sha256": "442630e2ab05342ced3f399d2a30bb7d4cae71e00f1cedf126e1844b06055d8f"
+    },
+    {
+      "sourceId": "F178",
+      "service": "https://geo.bizkaia.eus/arcgisserverinspire/services/LurraldeAntolamendua_PlanificacionTerritorial/Katastro_Catastro/MapServer/WMSServer",
+      "layers": "6",
+      "url": "https://geo.bizkaia.eus/arcgisserverinspire/services/LurraldeAntolamendua_PlanificacionTerritorial/Katastro_Catastro/MapServer/WMSServer?SERVICE=WMS&VERSION=1.3.0&REQUEST=GetMap&LAYERS=6&STYLES=&CRS=EPSG%3A3857&BBOX=-326761.3859874647%2C5351939.19115252%2C-326461.3859874647%2C5352239.19115252&WIDTH=256&HEIGHT=256&FORMAT=image%2Fpng&TRANSPARENT=TRUE",
+      "status": 200,
+      "png": true,
+      "cors": "https://alejandropico.github.io",
+      "bytes": 14871,
+      "sha256": "b70837df98c479c87a063980e3f2f4d76d777e7a305e78283218ea67de4bf7e4"
+    },
+    {
+      "sourceId": "F179",
+      "service": "https://b5m.gipuzkoa.eus/inspire/wms/gipuzkoa_wms",
+      "layers": "bu.building",
+      "url": "https://b5m.gipuzkoa.eus/inspire/wms/gipuzkoa_wms?SERVICE=WMS&VERSION=1.3.0&REQUEST=GetMap&LAYERS=bu.building&STYLES=&CRS=EPSG%3A3857&BBOX=-220785.23075226822%2C5360962.668166384%2C-220485.23075226822%2C5361262.668166384&WIDTH=256&HEIGHT=256&FORMAT=image%2Fpng&TRANSPARENT=TRUE",
+      "status": 200,
+      "png": true,
+      "cors": "*",
+      "bytes": 21708,
+      "sha256": "925ea0e21ffc0f1453720685da0ad9f0257bb45df09e0290cf6659f9de20c1b5"
+    },
+    {
+      "sourceId": "F008",
+      "service": "https://ovc.catastro.meh.es/cartografia/INSPIRE/spadgcwms.aspx",
+      "layers": "BU.BuildingPart",
+      "url": "https://ovc.catastro.meh.es/cartografia/INSPIRE/spadgcwms.aspx?SERVICE=WMS&VERSION=1.3.0&REQUEST=GetMap&LAYERS=BU.BuildingPart&STYLES=&CRS=EPSG%3A3857&BBOX=-374851.4060101589%2C4936230.779171808%2C-374551.4060101589%2C4936530.779171808&WIDTH=256&HEIGHT=256&FORMAT=image%2Fpng&TRANSPARENT=TRUE",
+      "status": 200,
+      "png": true,
+      "cors": "*",
+      "bytes": 10894,
+      "sha256": "8dc5286a9fc52c373eaa77e5115b6655db573890d6aa49850e56a160c465e2e7"
+    },
+    {
+      "sourceId": "F008",
+      "service": "https://ovc.catastro.meh.es/cartografia/INSPIRE/spadgcwms.aspx",
+      "layers": "AD.Address",
+      "url": "https://ovc.catastro.meh.es/cartografia/INSPIRE/spadgcwms.aspx?SERVICE=WMS&VERSION=1.3.0&REQUEST=GetMap&LAYERS=AD.Address&STYLES=&CRS=EPSG%3A3857&BBOX=-374851.4060101589%2C4936230.779171808%2C-374551.4060101589%2C4936530.779171808&WIDTH=256&HEIGHT=256&FORMAT=image%2Fpng&TRANSPARENT=TRUE",
+      "status": 200,
+      "png": true,
+      "cors": "*",
+      "bytes": 3241,
+      "sha256": "1c76c08007d4a668af3eb22a655cd8bac61aab00e2093e6423c83762b65f4664"
+    },
+    {
+      "sourceId": "F178",
+      "service": "https://geo.bizkaia.eus/arcgisserverinspire/services/LurraldeAntolamendua_PlanificacionTerritorial/Katastro_Catastro/MapServer/WMSServer",
+      "layers": "0",
+      "url": "https://geo.bizkaia.eus/arcgisserverinspire/services/LurraldeAntolamendua_PlanificacionTerritorial/Katastro_Catastro/MapServer/WMSServer?SERVICE=WMS&VERSION=1.3.0&REQUEST=GetMap&LAYERS=0&STYLES=&CRS=EPSG%3A3857&BBOX=-326761.3859874647%2C5351939.19115252%2C-326461.3859874647%2C5352239.19115252&WIDTH=256&HEIGHT=256&FORMAT=image%2Fpng&TRANSPARENT=TRUE",
+      "status": 200,
+      "png": true,
+      "cors": "https://alejandropico.github.io",
+      "bytes": 888,
+      "sha256": "4848d997ffc1f0a8e4e05602db7eb651457cc0161ae64129ed5f6ecdb512d7f3"
+    },
+    {
+      "sourceId": "F179",
+      "service": "https://b5m.gipuzkoa.eus/inspire/wms/gipuzkoa_wms",
+      "layers": "ad.Address",
+      "url": "https://b5m.gipuzkoa.eus/inspire/wms/gipuzkoa_wms?SERVICE=WMS&VERSION=1.3.0&REQUEST=GetMap&LAYERS=ad.Address&STYLES=&CRS=EPSG%3A3857&BBOX=-220785.23075226822%2C5360962.668166384%2C-220485.23075226822%2C5361262.668166384&WIDTH=256&HEIGHT=256&FORMAT=image%2Fpng&TRANSPARENT=TRUE",
+      "status": 200,
+      "png": true,
+      "cors": "*",
+      "bytes": 5097,
+      "sha256": "fd5c8c53c64dc53e9a676e822117386c14f4b3857b22d41f08fc76d3ad13c69e"
+    },
+    {
+      "sourceId": "F008",
+      "service": "https://ovc.catastro.meh.es/cartografia/INSPIRE/spadgcwms.aspx",
+      "layers": "CP.CadastralZoning",
+      "url": "https://ovc.catastro.meh.es/cartografia/INSPIRE/spadgcwms.aspx?SERVICE=WMS&VERSION=1.3.0&REQUEST=GetMap&LAYERS=CP.CadastralZoning&STYLES=&CRS=EPSG%3A3857&BBOX=-374851.4060101589%2C4936230.779171808%2C-374551.4060101589%2C4936530.779171808&WIDTH=256&HEIGHT=256&FORMAT=image%2Fpng&TRANSPARENT=TRUE",
+      "status": 200,
+      "png": true,
+      "cors": "*",
+      "bytes": 4980,
+      "sha256": "2b940033fdefeb6d7187c5795babf9f996cdb261667e98beed997e6cfc9d0002"
+    },
+    {
+      "sourceId": "F178",
+      "service": "https://geo.bizkaia.eus/arcgisserverinspire/services/LurraldeAntolamendua_PlanificacionTerritorial/Katastro_Catastro/MapServer/WMSServer",
+      "layers": "10",
+      "url": "https://geo.bizkaia.eus/arcgisserverinspire/services/LurraldeAntolamendua_PlanificacionTerritorial/Katastro_Catastro/MapServer/WMSServer?SERVICE=WMS&VERSION=1.3.0&REQUEST=GetMap&LAYERS=10&STYLES=&CRS=EPSG%3A3857&BBOX=-326761.3859874647%2C5351939.19115252%2C-326461.3859874647%2C5352239.19115252&WIDTH=256&HEIGHT=256&FORMAT=image%2Fpng&TRANSPARENT=TRUE",
+      "status": 200,
+      "png": true,
+      "cors": "https://alejandropico.github.io",
+      "bytes": 3051,
+      "sha256": "c41c68543cdba8dfcb5b88f0d8046f88a0d205106f9000f6788ca23a81c520a1"
+    },
+    {
+      "sourceId": "F179",
+      "service": "https://b5m.gipuzkoa.eus/inspire/wms/gipuzkoa_wms",
+      "layers": "cp.CadastralZoning",
+      "url": "https://b5m.gipuzkoa.eus/inspire/wms/gipuzkoa_wms?SERVICE=WMS&VERSION=1.3.0&REQUEST=GetMap&LAYERS=cp.CadastralZoning&STYLES=&CRS=EPSG%3A3857&BBOX=-220785.23075226822%2C5360962.668166384%2C-220485.23075226822%2C5361262.668166384&WIDTH=256&HEIGHT=256&FORMAT=image%2Fpng&TRANSPARENT=TRUE",
+      "status": 200,
+      "png": true,
+      "cors": "*",
+      "bytes": 19296,
+      "sha256": "da33bba554062213a22a1515ea2c186f1fed0512273b5ebbbf99122518ac5b18"
+    },
+    {
+      "sourceId": "F008",
+      "service": "https://ovc.catastro.meh.es/cartografia/INSPIRE/spadgcwms.aspx",
+      "layers": "AU.AdministrativeUnit",
+      "url": "https://ovc.catastro.meh.es/cartografia/INSPIRE/spadgcwms.aspx?SERVICE=WMS&VERSION=1.3.0&REQUEST=GetMap&LAYERS=AU.AdministrativeUnit&STYLES=&CRS=EPSG%3A3857&BBOX=-374851.4060101589%2C4936230.779171808%2C-374551.4060101589%2C4936530.779171808&WIDTH=256&HEIGHT=256&FORMAT=image%2Fpng&TRANSPARENT=TRUE",
+      "status": 200,
+      "png": true,
+      "cors": "*",
+      "bytes": 1733,
+      "sha256": "9be04466b80c05239aca62fe41ab854c77c0414f8e80de86b33e9b9174e51fee"
+    },
+    {
+      "sourceId": "F178",
+      "service": "https://geo.bizkaia.eus/arcgisserverinspire/services/LurraldeAntolamendua_PlanificacionTerritorial/Katastro_Catastro/MapServer/WMSServer",
+      "layers": "11",
+      "url": "https://geo.bizkaia.eus/arcgisserverinspire/services/LurraldeAntolamendua_PlanificacionTerritorial/Katastro_Catastro/MapServer/WMSServer?SERVICE=WMS&VERSION=1.3.0&REQUEST=GetMap&LAYERS=11&STYLES=&CRS=EPSG%3A3857&BBOX=-326761.3859874647%2C5351939.19115252%2C-326461.3859874647%2C5352239.19115252&WIDTH=256&HEIGHT=256&FORMAT=image%2Fpng&TRANSPARENT=TRUE",
+      "status": 200,
+      "png": true,
+      "cors": "https://alejandropico.github.io",
+      "bytes": 888,
+      "sha256": "4848d997ffc1f0a8e4e05602db7eb651457cc0161ae64129ed5f6ecdb512d7f3"
+    },
+    {
+      "sourceId": "F179",
+      "service": "https://b5m.gipuzkoa.eus/inspire/wms/gipuzkoa_wms",
+      "layers": "au.AdministrativeUnit",
+      "url": "https://b5m.gipuzkoa.eus/inspire/wms/gipuzkoa_wms?SERVICE=WMS&VERSION=1.3.0&REQUEST=GetMap&LAYERS=au.AdministrativeUnit&STYLES=&CRS=EPSG%3A3857&BBOX=-220785.23075226822%2C5360962.668166384%2C-220485.23075226822%2C5361262.668166384&WIDTH=256&HEIGHT=256&FORMAT=image%2Fpng&TRANSPARENT=TRUE",
+      "status": 200,
+      "png": true,
+      "cors": "*",
+      "bytes": 2718,
+      "sha256": "6f26f4b0067991cbb57a05a43d4d9005192b8cceb4b996083064bcac772c9f73"
+    },
+    {
+      "sourceId": "F008",
+      "service": "https://ovc.catastro.meh.es/cartografia/INSPIRE/spadgcwms.aspx",
+      "layers": "AU.AdministrativeBoundary",
+      "url": "https://ovc.catastro.meh.es/cartografia/INSPIRE/spadgcwms.aspx?SERVICE=WMS&VERSION=1.3.0&REQUEST=GetMap&LAYERS=AU.AdministrativeBoundary&STYLES=&CRS=EPSG%3A3857&BBOX=-374851.4060101589%2C4936230.779171808%2C-374551.4060101589%2C4936530.779171808&WIDTH=256&HEIGHT=256&FORMAT=image%2Fpng&TRANSPARENT=TRUE",
+      "status": 200,
+      "png": true,
+      "cors": "*",
+      "bytes": 1733,
+      "sha256": "9be04466b80c05239aca62fe41ab854c77c0414f8e80de86b33e9b9174e51fee"
+    },
+    {
+      "sourceId": "F179",
+      "service": "https://b5m.gipuzkoa.eus/inspire/wms/gipuzkoa_wms",
+      "layers": "au.AdministrativeBoundary",
+      "url": "https://b5m.gipuzkoa.eus/inspire/wms/gipuzkoa_wms?SERVICE=WMS&VERSION=1.3.0&REQUEST=GetMap&LAYERS=au.AdministrativeBoundary&STYLES=&CRS=EPSG%3A3857&BBOX=-220785.23075226822%2C5360962.668166384%2C-220485.23075226822%2C5361262.668166384&WIDTH=256&HEIGHT=256&FORMAT=image%2Fpng&TRANSPARENT=TRUE",
+      "status": 200,
+      "png": true,
+      "cors": "*",
+      "bytes": 334,
+      "sha256": "3c6c50f94ab35e9f96c772731fe6b7950048179bc81b8ab0396cc1edbde89163"
+    },
+    {
+      "sourceId": "F178",
+      "service": "https://geo.bizkaia.eus/arcgisserverinspire/services/LurraldeAntolamendua_PlanificacionTerritorial/Katastro_Catastro/MapServer/WMSServer",
+      "layers": "2,3,4,5,7,8",
+      "url": "https://geo.bizkaia.eus/arcgisserverinspire/services/LurraldeAntolamendua_PlanificacionTerritorial/Katastro_Catastro/MapServer/WMSServer?SERVICE=WMS&VERSION=1.3.0&REQUEST=GetMap&LAYERS=2%2C3%2C4%2C5%2C7%2C8&STYLES=&CRS=EPSG%3A3857&BBOX=-326761.3859874647%2C5351939.19115252%2C-326461.3859874647%2C5352239.19115252&WIDTH=256&HEIGHT=256&FORMAT=image%2Fpng&TRANSPARENT=TRUE",
+      "status": 200,
+      "png": true,
+      "cors": "https://alejandropico.github.io",
+      "bytes": 11615,
+      "sha256": "25ce53ef877a39ee04e5eee6c88caf12b7d73137ace6571efccc073d61598649"
+    },
+    {
+      "sourceId": "F179",
+      "service": "https://b5m.gipuzkoa.eus/inspire/wms/gipuzkoa_wms",
+      "layers": "bu.otherconstruction",
+      "url": "https://b5m.gipuzkoa.eus/inspire/wms/gipuzkoa_wms?SERVICE=WMS&VERSION=1.3.0&REQUEST=GetMap&LAYERS=bu.otherconstruction&STYLES=&CRS=EPSG%3A3857&BBOX=-220785.23075226822%2C5360962.668166384%2C-220485.23075226822%2C5361262.668166384&WIDTH=256&HEIGHT=256&FORMAT=image%2Fpng&TRANSPARENT=TRUE",
+      "status": 200,
+      "png": true,
+      "cors": "*",
+      "bytes": 551,
+      "sha256": "3a101b112a6d910c3f93bc1e32e3f6fa16323ab3ebfb3299aafbdfb5e1b9a3e4"
+    }
+  ]
+}

@@ -4,10 +4,18 @@ Un atlas para explorar España a través de sus datos oficiales, con un mapa pro
 
 **Web:** https://alejandropico.github.io/Pais/
 
+## Versión 0.3.0 · F01: territorio y cartografía
+
+- [Entrega y cobertura de F01](docs/F01.md): 8.132 municipios INE de 2026 con geometría IGN consultable, jerarquía, filtro insular y búsqueda oficial de direcciones.
+- Municipios vectoriales, 194 recintos comarcales de seis comunidades y zonas estadísticas canarias; secciones censales en 22 ediciones, límites históricos, poblaciones, curvas, edificios y catastro estatal y foral.
+- Modelo de elevaciones oficial IGN. Un solo mapa: Canarias desplazadas al oeste de Portugal con separación ficticia; comparten navegación, zoom y capas. Consultas y descargas mantienen coordenadas reales. Mar azul oscuro.
+- Los límites y estadísticas siguen sus propias fechas. La ortofoto y el terreno elevado se conservan como inicio; las capas de información permanecen apagadas por defecto.
+- 39 productos utilizables en total. El catálogo añade el inventario de 128 capas anunciadas por nueve servicios cartográficos, sin equipararlas a conjuntos únicos ni capas ya adaptadas.
+
 ## Versión 0.2.0 · Interfaz y base común F00
 
 - Menú lateral inspirado en EnRuta: favicon para ampliar, categorías con paneles desplegables y utilidades al pie. Sin cabecera ni textos decorativos. Desplazamiento táctil sin barras visibles.
-- Ortofoto por defecto, terreno elevado con cámara vertical, mar azul y países vecinos atenuados. Canarias tiene su propio mapa integrado; Ceuta y Melilla permanecen en el encuadre principal. No se activan límites ni estadísticas al abrir una vista nueva.
+- Ortofoto por defecto, terreno elevado con cámara vertical, mar azul y países vecinos atenuados. La primera versión utilizaba un mapa de Canarias independiente, sustituido en 0.3.0 por la composición unificada; Ceuta y Melilla permanecen en el encuadre principal. No se activan límites ni estadísticas al abrir una vista nueva.
 - Búsqueda, filtros, apariencia, vista general, terreno 3D, pantalla completa, Fuentes y Acerca de en el lateral. Doble clic derecho restablece norte y cámara vertical. La rueda y el pellizco controlan el zoom.
 - [F00 implementado](docs/F00.md): fuentes, publicadores, inventarios completos de metadatos, productos disponibles, estados y cobertura por fascículo. Catálogos grandes consultados bajo demanda en un trabajador separado, con comprobación de integridad y resultados paginados.
 - Acerca de con la identidad, versión, propósito, autor, portfolio y repositorio. El favicon original permanece en la raíz.
@@ -20,11 +28,11 @@ El [plan de entregas](docs/PLAN_DE_ENTREGAS.md) distribuye la incorporación en 
 
 ## Capas disponibles
 
-- Relieve IGN con elevación 3D real (DEM global Mapzen/USGS), ortofoto PNOA y callejero IGN. Ninguna clave de pago.
+- Relieve IGN con elevación 3D real (modelo oficial IGN), ortofoto PNOA y callejero IGN. Ninguna clave de pago.
 - España destacada; países vecinos y contexto marítimo atenuados. Navegación limitada al entorno de España, con acceso a Canarias, Baleares, Ceuta y Melilla.
 - Comunidades y provincias con distinta jerarquía visual. Geometrías oficiales descargadas del WFS INSPIRE del IGN, simplificadas aproximadamente 28 m en latitud para visualización. No son cartografía para deslindes legales.
 - Población histórica, densidad aproximada, proporción de mujeres y variación desde 1996, por provincia o comunidad. Cronograma, reproducción y CSV por territorio.
-- Ríos y masas de agua, red ferroviaria (no solo alta velocidad), carreteras, caminos de Santiago y municipios como capas de imagen oficiales, con opacidad independiente. Consulta de objetos WMS donde el servicio la permita.
+- Ríos y masas de agua, red ferroviaria (no solo alta velocidad), carreteras, caminos de Santiago como capas de imagen oficiales; municipios mediante teselas vectoriales IGN, con opacidad independiente. Consulta de objetos WMS donde el servicio la permita.
 - Catálogo buscable de **166 operaciones, 6.913 tablas únicas y 7.007 asociaciones operación-tabla** expuestas por la API JSON del INE al realizar la ingesta. 60 operaciones con desglose geográfico. No se afirma haber descargado todas las observaciones de esas tablas, ni haber catalogado otras interfaces del INE que no expone este inventario.
 - Directorio de organismos, estado de integración, fuentes, licencias y límites metodológicos.
 - Enlaces compartibles con año, capa, división territorial y vista; interfaz adaptable y navegación por teclado.
@@ -63,7 +71,7 @@ Sin `--refresh`, la ingesta reutiliza respuestas de `.cache/` para poder reprodu
 
 ## Atribución
 
-Proyecto independiente, no afiliado a los organismos citados. Datos INE: CC BY 4.0. Cartografía IGN/CNIG y colaboradores: CC BY 4.0, con las condiciones y créditos de cada servicio. DEM: Mapzen, USGS y demás [fuentes originales de Tilezen](https://github.com/tilezen/joerd/blob/master/docs/attribution.md). La inclusión de una fuente pendiente no presupone una licencia común a todos sus productos.
+Proyecto independiente, no afiliado a los organismos citados. Datos INE: CC BY 4.0. Cartografía IGN/CNIG y colaboradores: CC BY 4.0, con las condiciones y créditos de cada servicio. Modelo de elevaciones de esta versión: IGN, con su atribución correspondiente. El catálogo conserva la referencia del modelo Mapzen/USGS utilizado en la primera entrega. La inclusión de una fuente pendiente no presupone una licencia común a todos sus productos.
 
 Bibliotecas: MapLibre GL JS, Lucide y polygon-clipping, con sus respectivas licencias. Las tipografías se sirven desde Google Fonts y tienen alternativas locales del sistema.
 

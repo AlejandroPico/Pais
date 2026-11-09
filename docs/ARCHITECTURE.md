@@ -1,5 +1,9 @@
 # Arquitectura y evolución
 
+La ampliación vigente de territorio está descrita en [F01](F01.md), versión 0.3.0. Añade la relación municipal completa de 2026, teselas vectoriales, búsqueda, cartografía por fecha y servicios catastrales, con su cobertura efectiva. Las limitaciones de la primera entrega que aparecen debajo se conservan como contexto histórico; la ficha F01 identifica qué ha cambiado.
+
+Canarias utiliza ahora una transformación de presentación dentro del único mapa. Las geometrías fuente, códigos, observaciones, consultas y descargas mantienen sus referencias reales. Las capas derivadas para componer el atlas están identificadas como auxiliares de visualización.
+
 ## Separar descubrimiento, observaciones y representación
 
 1. **Descubrimiento:** inventario conservado de operaciones/tablas de la API INE, metadatos y directorio de publicadores. Una entrada catalogada nunca se marca automáticamente como capa disponible.
