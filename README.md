@@ -1,5 +1,12 @@
 # El país · Atlas abierto de España
 
+## Versión 0.4.0 · F02.1
+
+Primera entrega de **Población, hogares y migraciones**: 35 tablas completas del INE y 9.958.171 observaciones. Censos con edad, sexo, nacionalidad y nacimiento, hogares, movimiento natural anual y mensual, migraciones, indicadores y proyecciones de hogares identificadas por separado. Selección de todas las categorías y periodos, cronograma, series, pirámides, detalle de los 8.132 municipios por provincia, densidad aproximada y cambio censal.
+
+Datos comprimidos en el repositorio y consulta por partes, con verificación de contenido. Catálogo actualizado: 2.173 tablas anunciadas en 18 operaciones, diferenciadas de las 35 integradas. El mapa sigue empezando sin capas estadísticas activadas. [Cobertura y pendientes de F02](docs/F02.md).
+
+
 Un atlas para explorar España a través de sus datos oficiales, con un mapa protagonista, capas combinables, consulta territorial y evolución histórica.
 
 **Web:** https://alejandropico.github.io/Pais/

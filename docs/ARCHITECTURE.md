@@ -1,5 +1,7 @@
 # Arquitectura y evolución
 
+F02.1 añade cubos demográficos comprimidos y diccionarios por tabla, con detalle municipal dividido por provincia. `demography.worker.ts` comprueba el contenido y filtra fuera del hilo de interfaz. El controlador comparte mapa y cámara con F01. [Cobertura, formato y actualización](F02.md).
+
 La ampliación vigente de territorio está descrita en [F01](F01.md), versión 0.3.0. Añade la relación municipal completa de 2026, teselas vectoriales, búsqueda, cartografía por fecha y servicios catastrales, con su cobertura efectiva. Las limitaciones de la primera entrega que aparecen debajo se conservan como contexto histórico; la ficha F01 identifica qué ha cambiado.
 
 Canarias utiliza ahora una transformación de presentación dentro del único mapa. Las geometrías fuente, códigos, observaciones, consultas y descargas mantienen sus referencias reales. Las capas derivadas para componer el atlas están identificadas como auxiliares de visualización.

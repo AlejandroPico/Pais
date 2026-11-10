@@ -68,6 +68,11 @@ def build():
         territory = read(territory_path)
         products['available'] = products['available'] + territory['available']
         products['territory'] = territory['inventory']
+    demography_path = ROOT / 'registry/demography-products.json'
+    if demography_path.exists():
+        demography = read(demography_path)
+        products['available'] += demography['available']
+        products['demography'] = demography['inventory']
     for o in ioe['operations']:
         fields = o['fields']
         products['ioe'].append(dict(id='ioe:' + o['code'], title=o['title'], sourceId='F002',
@@ -153,6 +158,8 @@ def build():
                    'docs/research/datasets-catalogo-nacional.csv.gz', 'public/data/ine-catalog.json', 'registry/products.json', 'registry/reviews.json']
     if territory_path.exists():
         input_paths.extend(['registry/territory-products.json', 'public/data/territory/manifest.json', 'public/data/territory/index.json', 'public/data/territory/comarcas.geojson', 'public/data/territory/country.geojson', 'public/data/territory/country-atlas.geojson', 'public/data/territory/sea-atlas.geojson'])
+    if demography_path.exists():
+        input_paths.extend(['registry/demography-tables.json','registry/demography-products.json','public/data/demography/index.json','public/data/demography/inventory.json'])
     provenance = [dict(path=p, sha256=hashlib.sha256((ROOT / p).read_bytes()).hexdigest()) for p in input_paths]
     index = dict(schemaVersion=1, researchSnapshot='2026-11-05', revision=registered['revision'],
                  scope='Registro de metadatos. Los inventarios se solapan y sus recuentos no se suman como productos únicos. Solo Disponibles contiene productos utilizables en el mapa.',

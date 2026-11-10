@@ -38,7 +38,8 @@ test('available products link to real map actions and preserved observations; di
   const actions=new Set(['base:satellite','base:terrain','base:street','terrain','communities','provinces','metric:population','metric:density','metric:women','metric:change','overlay:municipal','overlay:rivers','overlay:rail','overlay:roads','overlay:camino']);
   for(const layer of territoryLayers)actions.add('territory:'+layer.id);
   actions.add('search:addresses');
-  const expected=read('registry/products.json').products.length+read('registry/territory-products.json').available.length;
+  const expected=read('registry/products.json').products.length+read('registry/territory-products.json').available.length+read('registry/demography-products.json').available.length;
+  for(const p of read('registry/demography-products.json').available)actions.add(p.mapAction);
   assert.equal(products.available.length,expected);
   for(const p of products.available){assert.equal(p.status,'integrado');assert.ok(actions.has(p.mapAction));assert.ok(p.license);if(p.dataFile)assert.ok(fs.existsSync(new URL('public/data/'+p.dataFile,root)));}
   for(const p of [...products.ioe,...products.national,...products.ine])if(!p.review){assert.equal(p.status,'por_revisar');assert.equal(p.categoryIds.length,0);assert.equal(p.license,null);}

@@ -1,0 +1,276 @@
+{
+  "revision": "2026-11-10",
+  "tables": [
+    {
+      "id": 68519,
+      "family": "Censos anuales",
+      "label": "Población por edad, sexo y nacionalidad",
+      "unit": "personas",
+      "note": "Censo anual. Edad año a año. Referencia a 1 de enero; no se enlaza artificialmente con el Padrón."
+    },
+    {
+      "id": 68520,
+      "family": "Censos anuales",
+      "label": "Población por edad, sexo y país de nacimiento",
+      "unit": "personas",
+      "note": "Censo anual. Nacimiento en España o extranjero; nacionalidad y nacimiento son conceptos distintos."
+    },
+    {
+      "id": 68535,
+      "family": "Censos anuales",
+      "label": "Población municipal por edad, sexo y nacionalidad",
+      "unit": "personas",
+      "note": "Censo anual, grupos quinquenales. Detalle municipal cargado por provincia, conservando todas las categorías publicadas."
+    },
+    {
+      "id": 68523,
+      "family": "Censos anuales",
+      "label": "Población por lugar de nacimiento y grandes edades",
+      "unit": "personas",
+      "note": "Censo anual. Se conserva la relación publicada entre nacimiento y residencia."
+    },
+    {
+      "id": 60133,
+      "family": "Hogares",
+      "label": "Hogares por tamaño · provincias",
+      "unit": "hogares",
+      "note": "Estadística Continua de Población. Estimaciones trimestrales; consultar las revisiones y metodología del INE."
+    },
+    {
+      "id": 60131,
+      "family": "Hogares",
+      "label": "Hogares por tamaño · comunidades",
+      "unit": "hogares",
+      "note": "Estadística Continua de Población. Los hogares no son personas ni viviendas totales."
+    },
+    {
+      "id": 60134,
+      "family": "Hogares",
+      "label": "Tamaño medio del hogar · provincias",
+      "unit": "personas por hogar",
+      "note": "Media publicada por el INE; no se suman medias territoriales."
+    },
+    {
+      "id": 60132,
+      "family": "Hogares",
+      "label": "Tamaño medio del hogar · comunidades",
+      "unit": "personas por hogar",
+      "note": "Media publicada por el INE; no se suman medias territoriales."
+    },
+    {
+      "id": 54562,
+      "family": "Proyecciones de hogares",
+      "label": "Proyección de hogares por tamaño",
+      "unit": "hogares proyectados",
+      "note": "PROYECCIÓN, no observación ni predicción cierta. Escenario y horizonte del producto original; no se mezcla con las estimaciones de hogares.",
+      "unitsByCategory": {
+        "dimension": "Tamaño del hogar",
+        "values": {
+          "Tamaño medio": "personas por hogar proyectadas"
+        }
+      }
+    },
+    {
+      "id": 6506,
+      "family": "Movimiento natural",
+      "label": "Nacimientos por residencia de la madre y sexo",
+      "unit": "nacimientos",
+      "note": "Movimiento Natural de la Población. Residencia de la madre, no lugar del parto."
+    },
+    {
+      "id": 6507,
+      "family": "Movimiento natural",
+      "label": "Nacimientos por residencia de la madre · comunidades",
+      "unit": "nacimientos",
+      "note": "Serie de comunidades autónomas; no se fabrica detalle municipal."
+    },
+    {
+      "id": 6545,
+      "family": "Movimiento natural",
+      "label": "Defunciones por residencia y sexo",
+      "unit": "defunciones",
+      "note": "Movimiento Natural de la Población. Lugar de residencia, no lugar de ocurrencia."
+    },
+    {
+      "id": 6546,
+      "family": "Movimiento natural",
+      "label": "Defunciones por residencia · comunidades",
+      "unit": "defunciones",
+      "note": "Las revisiones y periodos son propios de esta tabla."
+    },
+    {
+      "id": 6528,
+      "family": "Movimiento natural",
+      "label": "Matrimonios por residencia · provincias",
+      "unit": "matrimonios",
+      "note": "Recuento de matrimonios; no se interpreta como número de personas casadas."
+    },
+    {
+      "id": 6529,
+      "family": "Movimiento natural",
+      "label": "Matrimonios por residencia · comunidades",
+      "unit": "matrimonios",
+      "note": "Recuento publicado por lugar de residencia."
+    },
+    {
+      "id": 6524,
+      "family": "Movimiento natural mensual",
+      "label": "Nacimientos mensuales · serie desde 1975",
+      "unit": "nacimientos",
+      "note": "Meses individuales; no se presentan como totales anuales."
+    },
+    {
+      "id": 6561,
+      "family": "Movimiento natural mensual",
+      "label": "Defunciones mensuales · serie desde 1975",
+      "unit": "defunciones",
+      "note": "Meses individuales; no se presentan como totales anuales."
+    },
+    {
+      "id": 6540,
+      "family": "Movimiento natural mensual",
+      "label": "Matrimonios mensuales · serie desde 1975",
+      "unit": "matrimonios",
+      "note": "Meses individuales; no se presentan como totales anuales."
+    },
+    {
+      "id": 69691,
+      "family": "Migraciones",
+      "label": "Inmigraciones del extranjero por edad, sexo y nacionalidad",
+      "unit": "movimientos",
+      "note": "Estadística de Migraciones y Cambios de Residencia. Flujos, no población extranjera residente. Serie desde 2021 separada de operaciones anteriores."
+    },
+    {
+      "id": 69706,
+      "family": "Migraciones",
+      "label": "Emigraciones al extranjero por edad, sexo y nacionalidad",
+      "unit": "movimientos",
+      "note": "Salidas residenciales, no todas las personas de nacionalidad extranjera."
+    },
+    {
+      "id": 69696,
+      "family": "Migraciones",
+      "label": "Inmigraciones del extranjero · municipios",
+      "unit": "movimientos",
+      "note": "Detalle municipal por sexo; códigos y límites pueden cambiar entre periodos."
+    },
+    {
+      "id": 69711,
+      "family": "Migraciones",
+      "label": "Emigraciones al extranjero · municipios",
+      "unit": "movimientos",
+      "note": "Detalle municipal por sexo, según el municipio de procedencia publicado."
+    },
+    {
+      "id": 69764,
+      "family": "Migraciones",
+      "label": "Saldos migratorios · provincias",
+      "unit": "saldo de movimientos",
+      "note": "Saldos total, exterior e interior conservados como categorías. Un saldo negativo no es un dato ausente."
+    },
+    {
+      "id": 69762,
+      "family": "Migraciones",
+      "label": "Saldos migratorios · comunidades",
+      "unit": "saldo de movimientos",
+      "note": "No se suman saldos con entradas y salidas como observaciones independientes."
+    },
+    {
+      "id": 69767,
+      "family": "Migraciones",
+      "label": "Saldos migratorios · municipios",
+      "unit": "saldo de movimientos",
+      "note": "Saldos total, exterior e interior por sexo. No mide solicitudes de asilo ni autorizaciones de residencia."
+    },
+    {
+      "id": 1470,
+      "family": "Indicadores demográficos",
+      "label": "Tasa bruta de natalidad",
+      "unit": "nacimientos por 1.000 habitantes",
+      "note": "Tasa publicada por el INE, con su denominador metodológico; no se recalcula con otro censo."
+    },
+    {
+      "id": 1482,
+      "family": "Indicadores demográficos",
+      "label": "Tasa bruta de mortalidad",
+      "unit": "defunciones por 1.000 habitantes",
+      "note": "Tasa publicada por el INE; cambios de serie según la documentación original."
+    },
+    {
+      "id": 1478,
+      "family": "Indicadores demográficos",
+      "label": "Indicador coyuntural de fecundidad",
+      "unit": "hijos por mujer",
+      "note": "Indicador sintético del periodo, no número real de hijos de una cohorte."
+    },
+    {
+      "id": 1480,
+      "family": "Indicadores demográficos",
+      "label": "Tasa global de fecundidad",
+      "unit": "nacimientos por 1.000 mujeres de 15 a 49 años",
+      "note": "Tasa oficial, diferenciada del indicador coyuntural de fecundidad."
+    },
+    {
+      "id": 1485,
+      "family": "Indicadores demográficos",
+      "label": "Esperanza de vida al nacimiento",
+      "unit": "años",
+      "note": "Indicador de tabla de mortalidad, por sexo. No equivale a edad media al fallecer."
+    },
+    {
+      "id": 1486,
+      "family": "Indicadores demográficos",
+      "label": "Esperanza de vida a los 65 años",
+      "unit": "años restantes",
+      "note": "Años de vida restantes a los 65; no se interpreta como edad al fallecer."
+    },
+    {
+      "id": 1489,
+      "family": "Indicadores demográficos",
+      "label": "Índice de envejecimiento",
+      "unit": "mayores de 64 por 100 menores de 16",
+      "note": "Cociente publicado, no porcentaje de personas mayores en el conjunto de población."
+    },
+    {
+      "id": 1490,
+      "family": "Indicadores demográficos",
+      "label": "Tasa de dependencia",
+      "unit": "menores de 16 y mayores de 64 por 100 de 16–64",
+      "note": "Dependencia demográfica, no dependencia funcional ni prestaciones."
+    },
+    {
+      "id": 1581,
+      "family": "Indicadores demográficos",
+      "label": "Edad media a la maternidad",
+      "unit": "años",
+      "note": "Se conserva el desglose por orden de nacimiento."
+    },
+    {
+      "id": 3199,
+      "family": "Indicadores demográficos",
+      "label": "Edad media de la población",
+      "unit": "años",
+      "note": "Media publicada por el INE, diferenciada de la edad mediana."
+    }
+  ],
+  "operationIds": [
+    8,
+    22,
+    33,
+    70,
+    71,
+    189,
+    230,
+    305,
+    307,
+    309,
+    311,
+    326,
+    340,
+    406,
+    424,
+    450,
+    455,
+    463
+  ]
+}
