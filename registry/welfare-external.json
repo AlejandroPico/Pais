@@ -1,0 +1,45 @@
+{
+  "revision": "2026-11-10",
+  "sources": [
+    {
+      "id": "aeat:edm",
+      "sourceId": "F042",
+      "categoryIds": [
+        "F03"
+      ],
+      "title": "AEAT · Declarantes de IRPF por municipios",
+      "status": "revisado",
+      "url": "https://www3.agenciatributaria.gob.es/Sede/datosabiertos/catalogo/hacienda/Estadistica_de_los_declarantes_del_IRPF_por_municipios.shtml",
+      "coverage": "Territorio fiscal común; detalle según umbral publicado. No incluye automáticamente las haciendas forales.",
+      "period": {
+        "from": "2013",
+        "to": "2024"
+      },
+      "license": null,
+      "notes": "Renta por declaración: no equivale a renta por persona ni hogar. Renta bruta y renta disponible con definiciones propias. Publicaciones y anexos verificados; observaciones pendientes de un adaptador completo con correspondencias de los códigos internos.",
+      "review": {
+        "updatedAt": "2026-11-10",
+        "reason": "Contrastados catálogo y anexos de 2024. El CSV masivo usa MUNI_DEF interno; no se asignan esos números a códigos INE por semejanza.",
+        "nextAction": "Recuperar correspondencias y diccionario de variables y unidades de cada ejercicio antes de incorporar la base completa."
+      }
+    },
+    {
+      "id": "aeat:anuario-irpf-municipal",
+      "sourceId": "F042",
+      "categoryIds": [
+        "F03"
+      ],
+      "title": "AEAT · Anuario municipal de IRPF · fichero masivo",
+      "status": "revisado",
+      "url": "https://sede.agenciatributaria.gob.es/Sede/estadisticas/anuario-estadistico/acceso-descarga-masiva-datos.html",
+      "coverage": "Según territorio fiscal y muestra publicada",
+      "license": null,
+      "notes": "Descarga pública con EJER, TRAMO, MUNI_DEF y variables MUNI_n. Se ha comprobado su estructura, sin confundir su identificador interno con el código municipal del INE.",
+      "review": {
+        "updatedAt": "2026-11-10",
+        "reason": "Cabecera y muestras del CSV contrastadas con el directorio oficial.",
+        "nextAction": "Incorporar su diccionario completo y correspondencias territoriales y validar todas las variables."
+      }
+    }
+  ]
+}

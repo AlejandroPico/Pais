@@ -1,0 +1,344 @@
+{
+  "revision": "2026-11-10",
+  "operationIds": [
+    155,
+    236,
+    314,
+    353
+  ],
+  "atlasFamilies": [
+    "Indicadores de renta media y mediana"
+  ],
+  "tables": [
+    {
+      "id": 53689,
+      "family": "Renta administrativa · Atlas",
+      "label": "Atlas · renta media y mediana",
+      "unit": "Según indicador y escala publicados",
+      "note": "Registros administrativos INE. No equivale a la ECV ni a la renta media por declaración del IRPF. Importe anual nominal, nivel y unidad según el indicador; límites de publicación y secreto estadístico del INE. No se completan celdas ausentes."
+    },
+    {
+      "id": 53688,
+      "family": "Renta administrativa · Atlas",
+      "label": "Atlas · Gini y P80/P20",
+      "unit": "Según indicador y escala publicados",
+      "note": "Registros administrativos INE. No equivale a la ECV ni a la renta media por declaración del IRPF. Importe anual nominal, nivel y unidad según el indicador; límites de publicación y secreto estadístico del INE. No se completan celdas ausentes."
+    },
+    {
+      "id": 53687,
+      "family": "Renta administrativa · Atlas",
+      "label": "Atlas · fuentes de ingresos",
+      "unit": "Según indicador y escala publicados",
+      "note": "Registros administrativos INE. No equivale a la ECV ni a la renta media por declaración del IRPF. Importe anual nominal, nivel y unidad según el indicador; límites de publicación y secreto estadístico del INE. No se completan celdas ausentes."
+    },
+    {
+      "id": 53690,
+      "family": "Renta administrativa · Atlas",
+      "label": "Atlas · umbrales fijos de ingresos",
+      "unit": "Según indicador y escala publicados",
+      "note": "Registros administrativos INE. No equivale a la ECV ni a la renta media por declaración del IRPF. Importe anual nominal, nivel y unidad según el indicador; límites de publicación y secreto estadístico del INE. No se completan celdas ausentes."
+    },
+    {
+      "id": 53692,
+      "family": "Renta administrativa · Atlas",
+      "label": "Atlas · umbrales fijos por edad",
+      "unit": "Según indicador y escala publicados",
+      "note": "Registros administrativos INE. No equivale a la ECV ni a la renta media por declaración del IRPF. Importe anual nominal, nivel y unidad según el indicador; límites de publicación y secreto estadístico del INE. No se completan celdas ausentes."
+    },
+    {
+      "id": 53693,
+      "family": "Renta administrativa · Atlas",
+      "label": "Atlas · umbrales fijos por nacionalidad",
+      "unit": "Según indicador y escala publicados",
+      "note": "Registros administrativos INE. No equivale a la ECV ni a la renta media por declaración del IRPF. Importe anual nominal, nivel y unidad según el indicador; límites de publicación y secreto estadístico del INE. No se completan celdas ausentes."
+    },
+    {
+      "id": 53694,
+      "family": "Renta administrativa · Atlas",
+      "label": "Atlas · umbrales relativos de ingresos",
+      "unit": "Según indicador y escala publicados",
+      "note": "Registros administrativos INE. No equivale a la ECV ni a la renta media por declaración del IRPF. Importe anual nominal, nivel y unidad según el indicador; límites de publicación y secreto estadístico del INE. No se completan celdas ausentes."
+    },
+    {
+      "id": 53695,
+      "family": "Renta administrativa · Atlas",
+      "label": "Atlas · umbrales relativos por edad",
+      "unit": "Según indicador y escala publicados",
+      "note": "Registros administrativos INE. No equivale a la ECV ni a la renta media por declaración del IRPF. Importe anual nominal, nivel y unidad según el indicador; límites de publicación y secreto estadístico del INE. No se completan celdas ausentes."
+    },
+    {
+      "id": 53696,
+      "family": "Renta administrativa · Atlas",
+      "label": "Atlas · umbrales relativos por nacionalidad",
+      "unit": "Según indicador y escala publicados",
+      "note": "Registros administrativos INE. No equivale a la ECV ni a la renta media por declaración del IRPF. Importe anual nominal, nivel y unidad según el indicador; límites de publicación y secreto estadístico del INE. No se completan celdas ausentes."
+    },
+    {
+      "id": 49145,
+      "family": "Pobreza y condiciones de vida · ECV",
+      "label": "ECV · renta por persona y unidad de consumo",
+      "unit": "Según indicador y escala publicados",
+      "note": "Encuesta de Condiciones de Vida. Estimación de encuesta, no recuento administrativo. El periodo es el año de encuesta; los ingresos se refieren al año anterior. AROPE UE 2030 y Europa 2020 permanecen separados. Los coeficientes de variación miden precisión, no prevalencia.",
+      "incomeOffset": -1
+    },
+    {
+      "id": 49146,
+      "family": "Pobreza y condiciones de vida · ECV",
+      "label": "ECV · renta por hogar",
+      "unit": "Según indicador y escala publicados",
+      "note": "Encuesta de Condiciones de Vida. Estimación de encuesta, no recuento administrativo. El periodo es el año de encuesta; los ingresos se refieren al año anterior. AROPE UE 2030 y Europa 2020 permanecen separados. Los coeficientes de variación miden precisión, no prevalencia.",
+      "incomeOffset": -1
+    },
+    {
+      "id": 49148,
+      "family": "Pobreza y condiciones de vida · ECV",
+      "label": "ECV · riesgo de pobreza",
+      "unit": "Según indicador y escala publicados",
+      "note": "Encuesta de Condiciones de Vida. Estimación de encuesta, no recuento administrativo. El periodo es el año de encuesta; los ingresos se refieren al año anterior. AROPE UE 2030 y Europa 2020 permanecen separados. Los coeficientes de variación miden precisión, no prevalencia.",
+      "incomeOffset": -1
+    },
+    {
+      "id": 9956,
+      "family": "Pobreza y condiciones de vida · ECV",
+      "label": "ECV · deciles de renta",
+      "unit": "Según indicador y escala publicados",
+      "note": "Encuesta de Condiciones de Vida. Estimación de encuesta, no recuento administrativo. El periodo es el año de encuesta; los ingresos se refieren al año anterior. AROPE UE 2030 y Europa 2020 permanecen separados. Los coeficientes de variación miden precisión, no prevalencia.",
+      "incomeOffset": -1
+    },
+    {
+      "id": 76846,
+      "family": "Pobreza y condiciones de vida · ECV",
+      "label": "ECV · Gini y S80/S20",
+      "unit": "Según indicador y escala publicados",
+      "note": "Encuesta de Condiciones de Vida. Estimación de encuesta, no recuento administrativo. El periodo es el año de encuesta; los ingresos se refieren al año anterior. AROPE UE 2030 y Europa 2020 permanecen separados. Los coeficientes de variación miden precisión, no prevalencia.",
+      "incomeOffset": -1
+    },
+    {
+      "id": 76847,
+      "family": "Pobreza y condiciones de vida · ECV",
+      "label": "ECV · AROPE y componentes · UE 2030",
+      "unit": "Según indicador y escala publicados",
+      "note": "Encuesta de Condiciones de Vida. Estimación de encuesta, no recuento administrativo. El periodo es el año de encuesta; los ingresos se refieren al año anterior. AROPE UE 2030 y Europa 2020 permanecen separados. Los coeficientes de variación miden precisión, no prevalencia."
+    },
+    {
+      "id": 68033,
+      "family": "Pobreza y condiciones de vida · ECV",
+      "label": "ECV · carencia material y social · UE 2030",
+      "unit": "Según indicador y escala publicados",
+      "note": "Encuesta de Condiciones de Vida. Estimación de encuesta, no recuento administrativo. El periodo es el año de encuesta; los ingresos se refieren al año anterior. AROPE UE 2030 y Europa 2020 permanecen separados. Los coeficientes de variación miden precisión, no prevalencia."
+    },
+    {
+      "id": 9990,
+      "family": "Pobreza y condiciones de vida · ECV",
+      "label": "ECV · dificultad para llegar a fin de mes · personas",
+      "unit": "Según indicador y escala publicados",
+      "note": "Encuesta de Condiciones de Vida. Estimación de encuesta, no recuento administrativo. El periodo es el año de encuesta; los ingresos se refieren al año anterior. AROPE UE 2030 y Europa 2020 permanecen separados. Los coeficientes de variación miden precisión, no prevalencia."
+    },
+    {
+      "id": 9993,
+      "family": "Pobreza y condiciones de vida · ECV",
+      "label": "ECV · dificultad para llegar a fin de mes · hogares",
+      "unit": "Según indicador y escala publicados",
+      "note": "Encuesta de Condiciones de Vida. Estimación de encuesta, no recuento administrativo. El periodo es el año de encuesta; los ingresos se refieren al año anterior. AROPE UE 2030 y Europa 2020 permanecen separados. Los coeficientes de variación miden precisión, no prevalencia."
+    },
+    {
+      "id": 9972,
+      "family": "Pobreza y condiciones de vida · ECV",
+      "label": "ECV · carencias materiales · personas",
+      "unit": "Según indicador y escala publicados",
+      "note": "Encuesta de Condiciones de Vida. Estimación de encuesta, no recuento administrativo. El periodo es el año de encuesta; los ingresos se refieren al año anterior. AROPE UE 2030 y Europa 2020 permanecen separados. Los coeficientes de variación miden precisión, no prevalencia."
+    },
+    {
+      "id": 9975,
+      "family": "Pobreza y condiciones de vida · ECV",
+      "label": "ECV · carencias materiales · hogares",
+      "unit": "Según indicador y escala publicados",
+      "note": "Encuesta de Condiciones de Vida. Estimación de encuesta, no recuento administrativo. El periodo es el año de encuesta; los ingresos se refieren al año anterior. AROPE UE 2030 y Europa 2020 permanecen separados. Los coeficientes de variación miden precisión, no prevalencia."
+    },
+    {
+      "id": 60162,
+      "family": "Pobreza y condiciones de vida · ECV",
+      "label": "ECV · necesidades básicas y actividades sociales",
+      "unit": "Según indicador y escala publicados",
+      "note": "Encuesta de Condiciones de Vida. Estimación de encuesta, no recuento administrativo. El periodo es el año de encuesta; los ingresos se refieren al año anterior. AROPE UE 2030 y Europa 2020 permanecen separados. Los coeficientes de variación miden precisión, no prevalencia."
+    },
+    {
+      "id": 10001,
+      "family": "Pobreza y condiciones de vida · ECV",
+      "label": "ECV · problemas de vivienda y entorno",
+      "unit": "Según indicador y escala publicados",
+      "note": "Encuesta de Condiciones de Vida. Estimación de encuesta, no recuento administrativo. El periodo es el año de encuesta; los ingresos se refieren al año anterior. AROPE UE 2030 y Europa 2020 permanecen separados. Los coeficientes de variación miden precisión, no prevalencia."
+    },
+    {
+      "id": 59972,
+      "family": "Pobreza y condiciones de vida · ECV",
+      "label": "ECV · pobreza con umbral fijo de 2008",
+      "unit": "Según indicador y escala publicados",
+      "note": "Encuesta de Condiciones de Vida. Estimación de encuesta, no recuento administrativo. El periodo es el año de encuesta; los ingresos se refieren al año anterior. AROPE UE 2030 y Europa 2020 permanecen separados. Los coeficientes de variación miden precisión, no prevalencia.",
+      "incomeOffset": -1
+    },
+    {
+      "id": 79671,
+      "family": "Pobreza y condiciones de vida · ECV",
+      "label": "ECV · precisión de AROPE · coeficientes de variación",
+      "unit": "Según indicador y escala publicados",
+      "note": "Encuesta de Condiciones de Vida. Estimación de encuesta, no recuento administrativo. El periodo es el año de encuesta; los ingresos se refieren al año anterior. AROPE UE 2030 y Europa 2020 permanecen separados. Los coeficientes de variación miden precisión, no prevalencia."
+    },
+    {
+      "id": 10011,
+      "family": "Pobreza y condiciones de vida · ECV",
+      "label": "ECV · AROPE anterior · Europa 2020",
+      "unit": "Según indicador y escala publicados",
+      "note": "Encuesta de Condiciones de Vida. Estimación de encuesta, no recuento administrativo. El periodo es el año de encuesta; los ingresos se refieren al año anterior. AROPE UE 2030 y Europa 2020 permanecen separados. Los coeficientes de variación miden precisión, no prevalencia."
+    },
+    {
+      "id": 73990,
+      "family": "Consumo y gasto · EPF",
+      "label": "EPF · gasto, distribución e índice por comunidad",
+      "unit": "Según indicador y escala publicados",
+      "note": "Encuesta de Presupuestos Familiares. Clasificación COICOP 2018 y serie revisada del producto; no se empalma con ECOICOP. Se conservan importes, distribuciones, índices y variaciones con su unidad y escala propias. Gastos en euros nominales cuando así se publican; no se deflactan."
+    },
+    {
+      "id": 73991,
+      "family": "Consumo y gasto · EPF",
+      "label": "EPF · gasto por grupos COICOP 2018",
+      "unit": "Según indicador y escala publicados",
+      "note": "Encuesta de Presupuestos Familiares. Clasificación COICOP 2018 y serie revisada del producto; no se empalma con ECOICOP. Se conservan importes, distribuciones, índices y variaciones con su unidad y escala propias. Gastos en euros nominales cuando así se publican; no se deflactan."
+    },
+    {
+      "id": 73992,
+      "family": "Consumo y gasto · EPF",
+      "label": "EPF · gasto por subgrupos COICOP 2018",
+      "unit": "Según indicador y escala publicados",
+      "note": "Encuesta de Presupuestos Familiares. Clasificación COICOP 2018 y serie revisada del producto; no se empalma con ECOICOP. Se conservan importes, distribuciones, índices y variaciones con su unidad y escala propias. Gastos en euros nominales cuando así se publican; no se deflactan."
+    },
+    {
+      "id": 73993,
+      "family": "Consumo y gasto · EPF",
+      "label": "EPF · gasto por códigos COICOP 2018",
+      "unit": "Según indicador y escala publicados",
+      "note": "Encuesta de Presupuestos Familiares. Clasificación COICOP 2018 y serie revisada del producto; no se empalma con ECOICOP. Se conservan importes, distribuciones, índices y variaciones con su unidad y escala propias. Gastos en euros nominales cuando así se publican; no se deflactan."
+    },
+    {
+      "id": 73994,
+      "family": "Consumo y gasto · EPF",
+      "label": "EPF · gasto por edad del sustentador",
+      "unit": "Según indicador y escala publicados",
+      "note": "Encuesta de Presupuestos Familiares. Clasificación COICOP 2018 y serie revisada del producto; no se empalma con ECOICOP. Se conservan importes, distribuciones, índices y variaciones con su unidad y escala propias. Gastos en euros nominales cuando así se publican; no se deflactan.",
+      "classificationDimension": "Edad del sustentador principal"
+    },
+    {
+      "id": 73995,
+      "family": "Consumo y gasto · EPF",
+      "label": "EPF · gasto por formación del sustentador",
+      "unit": "Según indicador y escala publicados",
+      "note": "Encuesta de Presupuestos Familiares. Clasificación COICOP 2018 y serie revisada del producto; no se empalma con ECOICOP. Se conservan importes, distribuciones, índices y variaciones con su unidad y escala propias. Gastos en euros nominales cuando así se publican; no se deflactan.",
+      "classificationDimension": "Formación del sustentador principal"
+    },
+    {
+      "id": 73996,
+      "family": "Consumo y gasto · EPF",
+      "label": "EPF · gasto por actividad del sustentador",
+      "unit": "Según indicador y escala publicados",
+      "note": "Encuesta de Presupuestos Familiares. Clasificación COICOP 2018 y serie revisada del producto; no se empalma con ECOICOP. Se conservan importes, distribuciones, índices y variaciones con su unidad y escala propias. Gastos en euros nominales cuando así se publican; no se deflactan.",
+      "classificationDimension": "Actividad del sustentador principal"
+    },
+    {
+      "id": 73997,
+      "family": "Consumo y gasto · EPF",
+      "label": "EPF · gasto por situación profesional",
+      "unit": "Según indicador y escala publicados",
+      "note": "Encuesta de Presupuestos Familiares. Clasificación COICOP 2018 y serie revisada del producto; no se empalma con ECOICOP. Se conservan importes, distribuciones, índices y variaciones con su unidad y escala propias. Gastos en euros nominales cuando así se publican; no se deflactan.",
+      "classificationDimension": "Situación profesional del sustentador principal"
+    },
+    {
+      "id": 73998,
+      "family": "Consumo y gasto · EPF",
+      "label": "EPF · gasto por ocupación",
+      "unit": "Según indicador y escala publicados",
+      "note": "Encuesta de Presupuestos Familiares. Clasificación COICOP 2018 y serie revisada del producto; no se empalma con ECOICOP. Se conservan importes, distribuciones, índices y variaciones con su unidad y escala propias. Gastos en euros nominales cuando así se publican; no se deflactan.",
+      "classificationDimension": "Ocupación del sustentador principal"
+    },
+    {
+      "id": 73999,
+      "family": "Consumo y gasto · EPF",
+      "label": "EPF · gasto por tamaño del hogar",
+      "unit": "Según indicador y escala publicados",
+      "note": "Encuesta de Presupuestos Familiares. Clasificación COICOP 2018 y serie revisada del producto; no se empalma con ECOICOP. Se conservan importes, distribuciones, índices y variaciones con su unidad y escala propias. Gastos en euros nominales cuando así se publican; no se deflactan.",
+      "classificationDimension": "Tamaño del hogar"
+    },
+    {
+      "id": 74000,
+      "family": "Consumo y gasto · EPF",
+      "label": "EPF · gasto por tipo de hogar",
+      "unit": "Según indicador y escala publicados",
+      "note": "Encuesta de Presupuestos Familiares. Clasificación COICOP 2018 y serie revisada del producto; no se empalma con ECOICOP. Se conservan importes, distribuciones, índices y variaciones con su unidad y escala propias. Gastos en euros nominales cuando así se publican; no se deflactan.",
+      "classificationDimension": "Tipo de hogar"
+    },
+    {
+      "id": 74001,
+      "family": "Consumo y gasto · EPF",
+      "label": "EPF · gasto por fuente de ingresos",
+      "unit": "Según indicador y escala publicados",
+      "note": "Encuesta de Presupuestos Familiares. Clasificación COICOP 2018 y serie revisada del producto; no se empalma con ECOICOP. Se conservan importes, distribuciones, índices y variaciones con su unidad y escala propias. Gastos en euros nominales cuando así se publican; no se deflactan.",
+      "classificationDimension": "Fuente principal de ingresos del hogar"
+    },
+    {
+      "id": 74002,
+      "family": "Consumo y gasto · EPF",
+      "label": "EPF · gasto por nivel de ingresos",
+      "unit": "Según indicador y escala publicados",
+      "note": "Encuesta de Presupuestos Familiares. Clasificación COICOP 2018 y serie revisada del producto; no se empalma con ECOICOP. Se conservan importes, distribuciones, índices y variaciones con su unidad y escala propias. Gastos en euros nominales cuando así se publican; no se deflactan.",
+      "classificationDimension": "Nivel de ingresos del hogar"
+    },
+    {
+      "id": 69385,
+      "family": "Bienestar y percepciones",
+      "label": "Calidad de vida · satisfacción económica",
+      "unit": "Según indicador y escala publicados",
+      "note": "Indicadores de Calidad de Vida del INE. Medias, porcentajes y escalas subjetivas se conservan según los metadatos. No son mediciones individuales localizables ni se asignan a municipios."
+    },
+    {
+      "id": 74577,
+      "family": "Bienestar y percepciones",
+      "label": "Calidad de vida · relaciones personales",
+      "unit": "Según indicador y escala publicados",
+      "note": "Indicadores de Calidad de Vida del INE. Medias, porcentajes y escalas subjetivas se conservan según los metadatos. No son mediciones individuales localizables ni se asignan a municipios."
+    },
+    {
+      "id": 74606,
+      "family": "Bienestar y percepciones",
+      "label": "Calidad de vida · confianza en los demás",
+      "unit": "Según indicador y escala publicados",
+      "note": "Indicadores de Calidad de Vida del INE. Medias, porcentajes y escalas subjetivas se conservan según los metadatos. No son mediciones individuales localizables ni se asignan a municipios."
+    },
+    {
+      "id": 74627,
+      "family": "Bienestar y percepciones",
+      "label": "Calidad de vida · seguridad al caminar de noche",
+      "unit": "Según indicador y escala publicados",
+      "note": "Indicadores de Calidad de Vida del INE. Medias, porcentajes y escalas subjetivas se conservan según los metadatos. No son mediciones individuales localizables ni se asignan a municipios."
+    },
+    {
+      "id": 74635,
+      "family": "Bienestar y percepciones",
+      "label": "Calidad de vida · confianza en el sistema político",
+      "unit": "Según indicador y escala publicados",
+      "note": "Indicadores de Calidad de Vida del INE. Medias, porcentajes y escalas subjetivas se conservan según los metadatos. No son mediciones individuales localizables ni se asignan a municipios."
+    },
+    {
+      "id": 74644,
+      "family": "Bienestar y percepciones",
+      "label": "Calidad de vida · confianza en el sistema judicial",
+      "unit": "Según indicador y escala publicados",
+      "note": "Indicadores de Calidad de Vida del INE. Medias, porcentajes y escalas subjetivas se conservan según los metadatos. No son mediciones individuales localizables ni se asignan a municipios."
+    },
+    {
+      "id": 74653,
+      "family": "Bienestar y percepciones",
+      "label": "Calidad de vida · confianza en la policía",
+      "unit": "Según indicador y escala publicados",
+      "note": "Indicadores de Calidad de Vida del INE. Medias, porcentajes y escalas subjetivas se conservan según los metadatos. No son mediciones individuales localizables ni se asignan a municipios."
+    }
+  ]
+}

@@ -1,7 +1,7 @@
 import type {Map as AtlasMap,MapMouseEvent,GeoJSONSource,LayerSpecification,FilterSpecification} from 'maplibre-gl';
 import type {Feature,FeatureCollection,Geometry,Position} from 'geojson';
 import {normalize} from './data';
-import {toAtlas,fromAtlas,projectFeature,projectCollection} from './atlas-coordinates';
+import {toAtlas,fromAtlas,projectFeature,projectCollection,displayRegion} from './atlas-coordinates';
 import {atlasTileUrl,addShiftedLayer,updateShiftedTiles} from './atlas-geography';
 import {municipalCode,coordinatesExtent,validSpanishCoordinate} from './territory-data';
 import {territoryLayers,sectionEditions,wmsTile,type WmsProvider} from './territory-config';
@@ -140,14 +140,14 @@ export class TerritoryController{
   }
   private wmsQueries(m:AtlasMap,lng:number,lat:number){
     const result:{name:string;provider:WmsProvider;extra?:Record<string,string>}[]=[];
-    for(const d of territoryLayers){if(!this.options.active.has(d.id)||m.getZoom()<d.minzoom)continue;let providers=d.providers,extra:Record<string,string>|undefined;
+    for(const d of territoryLayers){if(!this.options.active.has(d.id)||m.getZoom()+Math.log2(displayRegion(toAtlas([lng,lat]))?.scale||1)<d.minzoom)continue;let providers=d.providers,extra:Record<string,string>|undefined;
       if(d.id==='sections')providers=[this.sectionsProvider()];if(d.id==='historical-limits'){providers=[this.historyProvider()];extra={TIME:this.boundaryDate+'T23:00:00Z'};}
       for(const p of providers||[])if(lng>=p.bounds[0]&&lng<=p.bounds[2]&&lat>=p.bounds[1]&&lat<=p.bounds[3])result.push({name:d.name,provider:p,extra});
     }return result;
   }
   private async queryWms(queries:ReturnType<TerritoryController['wmsQueries']>,lng:number,lat:number,m:AtlasMap){
     this.reset();const controller=this.controller=new AbortController();this.card('Elementos del mapa','Consulta cartográfica','<p role="status">Consultando las capas activas…</p>','Datos de los servicios oficiales seleccionados.');
-    const x=6378137*lng*Math.PI/180,y=6378137*Math.log(Math.tan(Math.PI/4+lat*Math.PI/360)),r=156543.033928/2**m.getZoom()*7;
+    const x=6378137*lng*Math.PI/180,y=6378137*Math.log(Math.tan(Math.PI/4+lat*Math.PI/360)),r=156543.033928/2**m.getZoom()*7/(displayRegion(toAtlas([lng,lat]))?.scale||1);
     const results:string[]=[];
     // Bound concurrency even when several cadastral families are enabled together.
     for(let start=0;start<queries.length;start+=4){const batch=await Promise.all(queries.slice(start,start+4).map(async({name,provider:p,extra})=>{

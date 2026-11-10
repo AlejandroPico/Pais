@@ -1,5 +1,7 @@
 # Arquitectura y evolución
 
+F03.1 reutiliza el visor y trabajador estadístico de F02 con catálogos y fuentes de mapa independientes. `welfare_collect.py` procesa respuestas JSON completas por partes, comprueba solapamientos y conserva la procedencia técnica de cada observación; una publicación territorial puede diferir de esa respuesta técnica. `build_demography_registry.py --kind welfare --category F03` valida y compila el inventario de F03 sin red. [Cobertura y formato](F03.md).
+
 F02.1 añade cubos demográficos comprimidos y diccionarios por tabla, con detalle municipal dividido por provincia. `demography.worker.ts` comprueba el contenido y filtra fuera del hilo de interfaz. El controlador comparte mapa y cámara con F01. [Cobertura, formato y actualización](F02.md).
 
 La ampliación vigente de territorio está descrita en [F01](F01.md), versión 0.3.0. Añade la relación municipal completa de 2026, teselas vectoriales, búsqueda, cartografía por fecha y servicios catastrales, con su cobertura efectiva. Las limitaciones de la primera entrega que aparecen debajo se conservan como contexto histórico; la ficha F01 identifica qué ha cambiado.
