@@ -3,7 +3,7 @@ export const categories = [
     "id": "F01",
     "name": "Territorio, cartografía y mapa base",
     "short": "Territorio",
-    "icon": "scan"
+    "icon": "map"
   },
   {
     "id": "F02",

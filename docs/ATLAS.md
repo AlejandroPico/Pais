@@ -1,10 +1,10 @@
-# Composición de España · versión 0.4.1
+# Composición de España · versión 0.5.1
 
 La vista general contiene únicamente la cartografía española seleccionada: península, Baleares y cuatro marcos al oeste, para Canarias, Ceuta, Melilla y otros territorios. Francia, Portugal, el continente africano y las islas extranjeras quedan completamente cubiertos por una única máscara opaca de mar azul oscuro. No existe un escenario gris alrededor.
 
 Los marcos son geometrías ancladas en un único mapa, cámara y zoom. No son ventanas de pantalla. Ceuta y Melilla se amplían ×16; el marco de otros territorios incluye Vélez de la Gomera (×128), Alhucemas (×64), Chafarinas (×32) y Alborán (×128). Cada ampliación se rotula; no se muestra una escala de distancia única que pudiera inducir a error. Los pequeños islotes tienen un contorno de apoyo para distinguirlos donde la ortofotografía es oscura.
 
-El encuadre inicial y el mínimo de zoom se ajustan al espacio disponible. Se desactivan el arrastre libre, giro y cabeceo. La rueda o el pellizco permiten ampliar para consultar detalle, y Vista general recupera la composición completa. El mapa no permite alejarse hasta un escenario mundial. La selección y las búsquedas pueden encuadrar un territorio.
+El encuadre inicial y el mínimo de zoom se ajustan al espacio disponible. El arrastre con ratón o dedo permite desplazarse también desde el zoom inicial; el centro de la cámara se mantiene dentro del ámbito del atlas. Se desactivan giro y cabeceo. La rueda o el pellizco permiten ampliar para consultar detalle, y Vista general recupera la composición completa. Su icono de centrado se distingue del mapa de Territorio y de Pantalla completa. El mapa no permite alejarse hasta un escenario mundial. La selección y las búsquedas pueden encuadrar un territorio.
 
 Imágenes, elevaciones, límites y consultas utilizan transformaciones afines reversibles en Mercator. Las teselas vectoriales se remiten a su dirección real a partir de un zoom compatible con la alineación; las ciudades autónomas utilizan sus polígonos completos para el sombreado estadístico municipal en cualquier escala de la composición. Los códigos, superficies, descargas y datos canónicos siguen en coordenadas reales. La superficie no aumenta por ampliar un dibujo.
 

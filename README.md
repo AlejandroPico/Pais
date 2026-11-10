@@ -1,10 +1,14 @@
 # El país · Atlas abierto de España
 
+## Versión 0.5.1 · Navegación e iconos
+
+Arrastre con ratón y dedo reactivado en todas las vistas, también con el zoom inicial. Se conserva el encuadre de apertura y Vista general lo recupera. Iconos diferenciados de centrado, mapa y pantalla completa.
+
 ## Versión 0.5.0 · F03.1
 
 Renta, pobreza, consumo y condiciones de vida: **98 tablas completas del INE**, agrupadas en **45 productos**, con **3.650.301 observaciones únicas**. Renta administrativa municipal, desigualdad y umbrales, ECV, gasto EPF y bienestar subjetivo. Unidades por indicador, año de encuesta e ingresos diferenciados, series, filtros, CSV y procedencia por observación. [Cobertura y pendientes de F03](docs/F03.md).
 
-Se conserva la composición compacta de España: Canarias, Ceuta, Melilla y otros territorios en marcos anclados; sin países vecinos ni arrastre libre. [Composición del atlas](docs/ATLAS.md).
+Se conserva la composición compacta de España: Canarias, Ceuta, Melilla y otros territorios en marcos anclados; sin países vecinos. [Composición del atlas](docs/ATLAS.md).
 
 ## Versión 0.4.1 · Composición de España
 
