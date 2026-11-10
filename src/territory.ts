@@ -40,7 +40,7 @@ export class TerritoryController{
   private add(m:AtlasMap,id:string,layer:LayerSpecification,before?:string){
     m.addLayer(layer,before);
     const shifted=addShiftedLayer(m,layer,before);
-    const ids=this.mapLayers.get(id)||[];if(!ids.includes(layer.id))ids.push(layer.id);if(shifted&&!ids.includes(shifted))ids.push(shifted);this.mapLayers.set(id,ids);
+    const ids=this.mapLayers.get(id)||[];if(!ids.includes(layer.id))ids.push(layer.id);for(const shiftedId of shifted)if(!ids.includes(shiftedId))ids.push(shiftedId);this.mapLayers.set(id,ids);
   }
   attach(m:AtlasMap){
     this.maps.push(m);

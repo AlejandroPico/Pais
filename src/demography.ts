@@ -1,6 +1,6 @@
 import type {Map as AtlasMap,MapMouseEvent,GeoJSONSource,ExpressionSpecification} from 'maplibre-gl';
 import type {FeatureCollection} from 'geojson';
-import {projectCollection} from './atlas-coordinates';
+import {projectCollection,shiftedIds} from './atlas-coordinates';
 import {addShiftedLayer} from './atlas-geography';
 import {municipalCode} from './territory-data';
 import {defaultDimensions,periodOrder,seriesCsv,unitFor,relativeChange,type DemographicIndex,type DemographicTable,type DemographicQuery,type DemographicResult} from './demography-data';
@@ -60,7 +60,7 @@ export class DemographyController{
       this.validSelection();this.enabled=activate;this.result=undefined;if(activate)this.options.onActivate();this.drawPanel();this.run();
     }catch(error){this.status=error instanceof Error?error.message:'No se pudo abrir la tabla.';this.drawPanel();}
   }
-  disable(){this.stop();this.enabled=false;this.request++;this.pending=false;this.legend.hidden=true;this.timeline.hidden=true;if(this.map)for(const id of ['f02-fill','f02-national-fill','f02-municipal-fill','f02-municipal-fill-canarias'])if(this.map.getLayer(id))this.map.setLayoutProperty(id,'visibility','none');if(this.options.info.dataset.demography){this.options.info.hidden=true;delete this.options.info.dataset.demography;}this.drawPanel();this.options.onChange();}
+  disable(){this.stop();this.enabled=false;this.request++;this.pending=false;this.legend.hidden=true;this.timeline.hidden=true;if(this.map)for(const id of ['f02-fill','f02-national-fill','f02-municipal-fill',...shiftedIds('f02-municipal-fill')])if(this.map.getLayer(id))this.map.setLayoutProperty(id,'visibility','none');if(this.options.info.dataset.demography){this.options.info.hidden=true;delete this.options.info.dataset.demography;}this.drawPanel();this.options.onChange();}
   private drawPanel(){
     const p=this.panel,t=this.table;if(!p?.isConnected||!t||!this.index)return;
     const families=[...new Set(this.index.tables.map(t=>t.family))],areas=this.areaOptions(),order=periodOrder(t);
@@ -97,18 +97,19 @@ export class DemographyController{
     const divergent=this.growth||this.table.unit==='saldo de movimientos';const palette=divergent?['#a75f4c','#ca9779','#e3c8aa','#eee7cf','#b8cda1','#7fa788','#31665a']:colors;
     const stops=divergent?[-1,-.5,-.15,0,.15,.5,1].map(x=>x*Math.max(1,...numbers.map(Math.abs))):[0,.15,.35,.5,.65,.85,1].map(q=>numbers[Math.floor(q*Math.max(0,numbers.length-1))]??0);
     const color=(v:number|null|undefined)=>v===null||v===undefined?'#b8b6aa':palette[stops.reduce((best,s,i)=>v>=s?i:best,0)];
-    for(const id of ['f02-fill','f02-national-fill','f02-municipal-fill','f02-municipal-fill-canarias'])if(this.map.getLayer(id))this.map.setLayoutProperty(id,'visibility','none');
-    if(['province','community'].includes(this.query.level)){
-      const geo=projectCollection(this.geometries[this.query.level]);geo.features=geo.features.map(f=>({...f,properties:{...f.properties,demographicColor:color(values.get(f.properties!.code))}}));
+    for(const id of ['f02-fill','f02-national-fill','f02-municipal-fill',...shiftedIds('f02-municipal-fill')])if(this.map.getLayer(id))this.map.setLayoutProperty(id,'visibility','none');
+    const city=this.query.level==='municipal'&&['51','52'].includes(this.province);
+    if(['province','community'].includes(this.query.level)||city){
+      const geo=projectCollection(this.geometries[city?'province':this.query.level]);geo.features=geo.features.filter(f=>!city||f.properties!.code===this.province).map(f=>{const code=city?this.province+'001':f.properties!.code;return {...f,properties:{...f.properties,code,demographicColor:color(values.get(code))}};});
       (this.map.getSource('f02-statistics') as GeoJSONSource).setData(geo);this.map.setPaintProperty('f02-fill','fill-color',['get','demographicColor']);this.map.setLayoutProperty('f02-fill','visibility','visible');
     }else if(this.query.level==='national'){
       this.map.setPaintProperty('f02-national-fill','fill-color',color(values.get('ES')));this.map.setLayoutProperty('f02-national-fill','visibility','visible');
     }else if(this.query.level==='municipal'){
       const expression:unknown[]=['match',['slice',['to-string',['get','nationalcode']],6,11],...([...values].flatMap(([code,v])=>[code,color(v)])),'#b8b6aa'];
-      for(const id of ['f02-municipal-fill','f02-municipal-fill-canarias'])if(this.map.getLayer(id)){this.map.setPaintProperty(id,'fill-color',expression.length>3?expression as ExpressionSpecification:'#b8b6aa');this.map.setLayoutProperty(id,'visibility','visible');this.map.setFilter(id,['==',['slice',['to-string',['get','nationalcode']],6,8],this.province]);}
+      for(const id of ['f02-municipal-fill',...shiftedIds('f02-municipal-fill')])if(this.map.getLayer(id)){this.map.setPaintProperty(id,'fill-color',expression.length>3?expression as ExpressionSpecification:'#b8b6aa');this.map.setLayoutProperty(id,'visibility','visible');this.map.setFilter(id,['==',['slice',['to-string',['get','nationalcode']],6,8],this.province]);}
     }
     this.legend.hidden=false;this.legend.innerHTML=`<div class="legend-title"><strong>${esc(this.table.label)}</strong><button id="demog-hide" aria-label="Desactivar datos demográficos" class="icon-button">×</button></div><p>${esc(this.table.periods[this.query.period].label)} · ${esc(this.unit())}</p><div class="color-scale" style="background:linear-gradient(90deg,${palette.join(',')})"></div><div class="scale-labels"><span>${fmt(numbers.length?stops[0]:null)}</span><span>${fmt(numbers.length?stops.at(-1)!:null)}</span></div><p class="legend-credit">Escala fija para todos los periodos · sin dato: gris · INE</p><label class="opacity-control">Opacidad<input id="demog-opacity" type="range" min="10" max="100" value="${this.alpha*100}" aria-label="Opacidad demográfica"></label>`;
-    this.legend.querySelector<HTMLButtonElement>('#demog-hide')!.onclick=()=>this.disable();this.legend.querySelector<HTMLInputElement>('#demog-opacity')!.oninput=e=>{this.alpha=Number((e.target as HTMLInputElement).value)/100;for(const id of ['f02-fill','f02-national-fill','f02-municipal-fill','f02-municipal-fill-canarias'])if(this.map.getLayer(id))this.map.setPaintProperty(id,'fill-opacity',this.alpha);};this.renderTimeline();
+    this.legend.querySelector<HTMLButtonElement>('#demog-hide')!.onclick=()=>this.disable();this.legend.querySelector<HTMLInputElement>('#demog-opacity')!.oninput=e=>{this.alpha=Number((e.target as HTMLInputElement).value)/100;for(const id of ['f02-fill','f02-national-fill','f02-municipal-fill',...shiftedIds('f02-municipal-fill')])if(this.map.getLayer(id))this.map.setPaintProperty(id,'fill-opacity',this.alpha);};this.renderTimeline();
   }
   private renderTimeline(){
     if(!this.table)return;this.timeline.hidden=!this.enabled;const order=periodOrder(this.table);
@@ -118,9 +119,9 @@ export class DemographyController{
   }
   private stop(){clearInterval(this.timer);this.timer=undefined;}
   inspect(map:AtlasMap,event:MapMouseEvent){
-    if(!this.enabled||!this.table)return false;const layer=this.query.level==='municipal'?['f02-municipal-fill','f02-municipal-fill-canarias']:this.query.level==='national'?['f02-national-fill']:['f02-fill'];
+    if(!this.enabled||!this.table)return false;const layer=this.query.level==='municipal'?['f02-fill','f02-municipal-fill',...shiftedIds('f02-municipal-fill')]:this.query.level==='national'?['f02-national-fill']:['f02-fill'];
     const hit=map.queryRenderedFeatures(event.point,{layers:layer.filter(l=>map.getLayer(l))})[0];if(!hit)return false;
-    const code=this.query.level==='municipal'?municipalCode(hit.properties.nationalcode):this.query.level==='national'?'ES':hit.properties.code;
+    const code=this.query.level==='municipal'?(hit.layer.id==='f02-fill'?String(hit.properties.code):municipalCode(hit.properties.nationalcode)):this.query.level==='national'?'ES':hit.properties.code;
     const i=this.table.territories.findIndex(a=>a.level===this.query.level&&a.code===code);if(i<0)return true;
     this.query.territory=i;this.options.info.dataset.demography='1';this.options.clearSelection();this.options.closeDrawer();this.run();return true;
   }

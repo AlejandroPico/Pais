@@ -1,5 +1,9 @@
 # El país · Atlas abierto de España
 
+## Versión 0.4.1 · Composición de España
+
+Solo España sobre mar azul oscuro, con marcos para Canarias, Ceuta, Melilla y otros territorios; sin países vecinos ni arrastre libre. Las ampliaciones se rotulan y las consultas conservan sus coordenadas reales. [Detalle del atlas](docs/ATLAS.md).
+
 ## Versión 0.4.0 · F02.1
 
 Primera entrega de **Población, hogares y migraciones**: 35 tablas completas del INE y 9.958.171 observaciones. Censos con edad, sexo, nacionalidad y nacimiento, hogares, movimiento natural anual y mensual, migraciones, indicadores y proyecciones de hogares identificadas por separado. Selección de todas las categorías y periodos, cronograma, series, pirámides, detalle de los 8.132 municipios por provincia, densidad aproximada y cambio censal.
