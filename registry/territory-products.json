@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "revision": "2026-11-09",
+  "revision": "2026-11-13",
   "available": [
     {
       "id": "territory:country",
@@ -19,7 +19,7 @@
       "mapAction": "territory:country",
       "fields": {
         "Detalle visible": "Desde zoom 0",
-        "Fecha de revisión": "2026-11-09"
+        "Fecha de revisión": "2026-11-13"
       }
     },
     {
@@ -31,16 +31,16 @@
       ],
       "status": "integrado",
       "url": "https://www.ign.es/web/ide-area-nodo-ide-ign",
-      "coverage": "Aragón (33), Navarra (12), Comunitat Valenciana (33), Euskadi (20), Galicia (53), Cataluña (43)",
-      "period": "Captura 2026-11-09; vigencia propia de cada fuente",
+      "coverage": "Aragón (33), Navarra (12), Comunitat Valenciana (33), Euskadi (20), Galicia (53), Cataluña (43), El Bierzo (1)",
+      "period": "Capturas de noviembre de 2026; vigencia propia de cada fuente",
       "license": "Condiciones de los organismos cartográficos autonómicos",
       "mode": "local",
-      "notes": "Aragón, Cataluña, Navarra, Comunitat Valenciana, Galicia y Euskadi. Tipología y procedencia conservadas por entidad; cobertura ampliable.",
+      "notes": "Aragón, Cataluña, Navarra, Comunitat Valenciana, Galicia, Euskadi y El Bierzo. Tipología y procedencia conservadas por entidad; cobertura ampliable.",
       "mapAction": "territory:comarcas",
       "dataFile": "territory/comarcas.geojson",
       "fields": {
         "Detalle visible": "Desde zoom 6",
-        "Fecha de revisión": "2026-11-09"
+        "Fecha de revisión": "2026-11-13"
       }
     },
     {
@@ -60,7 +60,7 @@
       "mapAction": "territory:canary-comarcas-a1",
       "fields": {
         "Detalle visible": "Desde zoom 7",
-        "Fecha de revisión": "2026-11-09",
+        "Fecha de revisión": "2026-11-13",
         "Proveedores": "GRAFCAN / ISTAC · IDECanarias"
       }
     },
@@ -81,7 +81,7 @@
       "mapAction": "territory:canary-comarcas-a2",
       "fields": {
         "Detalle visible": "Desde zoom 8",
-        "Fecha de revisión": "2026-11-09",
+        "Fecha de revisión": "2026-11-13",
         "Proveedores": "GRAFCAN / ISTAC · IDECanarias"
       }
     },
@@ -102,7 +102,7 @@
       "mapAction": "territory:nuclei",
       "fields": {
         "Detalle visible": "Desde zoom 9",
-        "Fecha de revisión": "2026-11-09"
+        "Fecha de revisión": "2026-11-13"
       }
     },
     {
@@ -122,7 +122,7 @@
       "mapAction": "territory:other-places",
       "fields": {
         "Detalle visible": "Desde zoom 10",
-        "Fecha de revisión": "2026-11-09"
+        "Fecha de revisión": "2026-11-13"
       }
     },
     {
@@ -142,7 +142,7 @@
       "mapAction": "territory:unnamed-places",
       "fields": {
         "Detalle visible": "Desde zoom 12",
-        "Fecha de revisión": "2026-11-09"
+        "Fecha de revisión": "2026-11-13"
       }
     },
     {
@@ -162,7 +162,7 @@
       "mapAction": "territory:postal-addresses",
       "fields": {
         "Detalle visible": "Desde zoom 15",
-        "Fecha de revisión": "2026-11-09",
+        "Fecha de revisión": "2026-11-13",
         "Proveedores": "CartoCiudad · IGN y colaboradores · CC BY 4.0"
       }
     },
@@ -183,8 +183,197 @@
       "mapAction": "territory:postcodes",
       "fields": {
         "Detalle visible": "Desde zoom 10",
-        "Fecha de revisión": "2026-11-09",
+        "Fecha de revisión": "2026-11-13",
         "Proveedores": "CartoCiudad · IGN y colaboradores · CC BY 4.0"
+      }
+    },
+    {
+      "id": "territory:historical-orthophoto",
+      "title": "Ortofotografía histórica · PNOA",
+      "sourceId": "F006",
+      "categoryIds": [
+        "F01"
+      ],
+      "status": "integrado",
+      "url": "https://www.ign.es/wms/pnoa-historico",
+      "coverage": "Vuelos históricos y ediciones anuales del IGN. Cobertura propia de cada vuelo.",
+      "period": "Según el servicio de origen",
+      "license": "Condiciones de cada proveedor oficial; consultar el origen",
+      "mode": "remote",
+      "notes": "Vuelos históricos y ediciones anuales del IGN. Cobertura propia de cada vuelo.",
+      "mapAction": "territory:historical-orthophoto",
+      "fields": {
+        "Detalle visible": "Desde zoom 6",
+        "Fecha de revisión": "2026-11-13",
+        "Proveedores": "Ortofotos históricas © IGN y colaboradores · CC BY 4.0"
+      }
+    },
+    {
+      "id": "territory:canary-cartography",
+      "title": "Cartografía estadística · Canarias",
+      "sourceId": "F155",
+      "categoryIds": [
+        "F01"
+      ],
+      "status": "integrado",
+      "url": "https://idecan2.grafcan.es/ServicioWMS/CARTO_EST",
+      "coverage": "Islas, entidades, distritos y secciones censales publicados por IDECanarias.",
+      "period": "Según el servicio de origen",
+      "license": "Condiciones de cada proveedor oficial; consultar el origen",
+      "mode": "remote",
+      "notes": "Islas, entidades, distritos y secciones censales publicados por IDECanarias.",
+      "mapAction": "territory:canary-cartography",
+      "fields": {
+        "Detalle visible": "Desde zoom 7",
+        "Fecha de revisión": "2026-11-13",
+        "Proveedores": "GRAFCAN / ISTAC · IDECanarias"
+      }
+    },
+    {
+      "id": "territory:gipuzkoa-toponyms",
+      "title": "Toponimia · Gipuzkoa",
+      "sourceId": "F179",
+      "categoryIds": [
+        "F01"
+      ],
+      "status": "integrado",
+      "url": "https://b5m.gipuzkoa.eus/inspire/wms/gipuzkoa_wms",
+      "coverage": "Nombres geográficos publicados por b5m.",
+      "period": "Según el servicio de origen",
+      "license": "Condiciones de cada proveedor oficial; consultar el origen",
+      "mode": "remote",
+      "notes": "Nombres geográficos publicados por b5m.",
+      "mapAction": "territory:gipuzkoa-toponyms",
+      "fields": {
+        "Detalle visible": "Desde zoom 9",
+        "Fecha de revisión": "2026-11-13",
+        "Proveedores": "Diputación Foral de Gipuzkoa · b5m"
+      }
+    },
+    {
+      "id": "territory:ign-administrative-boundaries",
+      "title": "Líneas administrativas · IGN",
+      "sourceId": "F006",
+      "categoryIds": [
+        "F01"
+      ],
+      "status": "integrado",
+      "url": "https://www.ign.es/wms-inspire/unidades-administrativas",
+      "coverage": "Servicio oficial de líneas administrativas.",
+      "period": "Según el servicio de origen",
+      "license": "Condiciones de cada proveedor oficial; consultar el origen",
+      "mode": "remote",
+      "notes": "Servicio oficial de líneas administrativas.",
+      "mapAction": "territory:ign-administrative-boundaries",
+      "fields": {
+        "Detalle visible": "Desde zoom 7",
+        "Fecha de revisión": "2026-11-13",
+        "Proveedores": "© IGN · CC BY 4.0"
+      }
+    },
+    {
+      "id": "territory:ign-administrative-units",
+      "title": "Unidades administrativas · IGN",
+      "sourceId": "F006",
+      "categoryIds": [
+        "F01"
+      ],
+      "status": "integrado",
+      "url": "https://www.ign.es/wms-inspire/unidades-administrativas",
+      "coverage": "Servicio oficial de unidades administrativas.",
+      "period": "Según el servicio de origen",
+      "license": "Condiciones de cada proveedor oficial; consultar el origen",
+      "mode": "remote",
+      "notes": "Servicio oficial de unidades administrativas.",
+      "mapAction": "territory:ign-administrative-units",
+      "fields": {
+        "Detalle visible": "Desde zoom 7",
+        "Fecha de revisión": "2026-11-13",
+        "Proveedores": "© IGN · CC BY 4.0"
+      }
+    },
+    {
+      "id": "territory:ign-historical-boundaries",
+      "title": "Inventario de límites históricos · IGN",
+      "sourceId": "F006",
+      "categoryIds": [
+        "F01"
+      ],
+      "status": "integrado",
+      "url": "https://www.ign.es/wms-inspire/unidades-administrativas",
+      "coverage": "Conjunto de líneas históricas publicado por el IGN.",
+      "period": "Según el servicio de origen",
+      "license": "Condiciones de cada proveedor oficial; consultar el origen",
+      "mode": "remote",
+      "notes": "Conjunto de líneas históricas publicado por el IGN.",
+      "mapAction": "territory:ign-historical-boundaries",
+      "fields": {
+        "Detalle visible": "Desde zoom 7",
+        "Fecha de revisión": "2026-11-13",
+        "Proveedores": "© IGN · CC BY 4.0"
+      }
+    },
+    {
+      "id": "territory:ign-spotelevation",
+      "title": "Puntos acotados · IGN",
+      "sourceId": "F006",
+      "categoryIds": [
+        "F01"
+      ],
+      "status": "integrado",
+      "url": "https://servicios.idee.es/wms-inspire/mdt",
+      "coverage": "Servicio de elevaciones del IGN. Detalle y cobertura según el producto.",
+      "period": "Según el servicio de origen",
+      "license": "Condiciones de cada proveedor oficial; consultar el origen",
+      "mode": "remote",
+      "notes": "Servicio de elevaciones del IGN. Detalle y cobertura según el producto.",
+      "mapAction": "territory:ign-spotelevation",
+      "fields": {
+        "Detalle visible": "Desde zoom 9",
+        "Fecha de revisión": "2026-11-13",
+        "Proveedores": "Modelo de elevaciones © IGN · CC BY 4.0"
+      }
+    },
+    {
+      "id": "territory:ign-contourline",
+      "title": "Curvas de nivel · IGN",
+      "sourceId": "F006",
+      "categoryIds": [
+        "F01"
+      ],
+      "status": "integrado",
+      "url": "https://servicios.idee.es/wms-inspire/mdt",
+      "coverage": "Servicio de elevaciones del IGN. Detalle y cobertura según el producto.",
+      "period": "Según el servicio de origen",
+      "license": "Condiciones de cada proveedor oficial; consultar el origen",
+      "mode": "remote",
+      "notes": "Servicio de elevaciones del IGN. Detalle y cobertura según el producto.",
+      "mapAction": "territory:ign-contourline",
+      "fields": {
+        "Detalle visible": "Desde zoom 9",
+        "Fecha de revisión": "2026-11-13",
+        "Proveedores": "Modelo de elevaciones © IGN · CC BY 4.0"
+      }
+    },
+    {
+      "id": "territory:ign-elevationgridcoverage",
+      "title": "Modelo Digital del Terreno · IGN",
+      "sourceId": "F006",
+      "categoryIds": [
+        "F01"
+      ],
+      "status": "integrado",
+      "url": "https://servicios.idee.es/wms-inspire/mdt",
+      "coverage": "Servicio de elevaciones del IGN. Detalle y cobertura según el producto.",
+      "period": "Según el servicio de origen",
+      "license": "Condiciones de cada proveedor oficial; consultar el origen",
+      "mode": "remote",
+      "notes": "Servicio de elevaciones del IGN. Detalle y cobertura según el producto.",
+      "mapAction": "territory:ign-elevationgridcoverage",
+      "fields": {
+        "Detalle visible": "Desde zoom 9",
+        "Fecha de revisión": "2026-11-13",
+        "Proveedores": "Modelo de elevaciones © IGN · CC BY 4.0"
       }
     },
     {
@@ -204,7 +393,7 @@
       "mapAction": "territory:sections",
       "fields": {
         "Detalle visible": "Desde zoom 10",
-        "Fecha de revisión": "2026-11-09"
+        "Fecha de revisión": "2026-11-13"
       }
     },
     {
@@ -224,7 +413,7 @@
       "mapAction": "territory:historical-limits",
       "fields": {
         "Detalle visible": "Desde zoom 7",
-        "Fecha de revisión": "2026-11-09"
+        "Fecha de revisión": "2026-11-13"
       }
     },
     {
@@ -244,7 +433,7 @@
       "mapAction": "territory:hillshade",
       "fields": {
         "Detalle visible": "Desde zoom 5",
-        "Fecha de revisión": "2026-11-09"
+        "Fecha de revisión": "2026-11-13"
       }
     },
     {
@@ -264,7 +453,7 @@
       "mapAction": "territory:contours",
       "fields": {
         "Detalle visible": "Desde zoom 11",
-        "Fecha de revisión": "2026-11-09"
+        "Fecha de revisión": "2026-11-13"
       }
     },
     {
@@ -284,7 +473,7 @@
       "mapAction": "territory:topographic-buildings",
       "fields": {
         "Detalle visible": "Desde zoom 13",
-        "Fecha de revisión": "2026-11-09"
+        "Fecha de revisión": "2026-11-13"
       }
     },
     {
@@ -304,7 +493,7 @@
       "mapAction": "territory:parcels",
       "fields": {
         "Detalle visible": "Desde zoom 15",
-        "Fecha de revisión": "2026-11-09",
+        "Fecha de revisión": "2026-11-13",
         "Proveedores": "Dirección General del Catastro · condiciones INSPIRE; Gobierno de Navarra · SITNA; Diputación Foral de Álava; Diputación Foral de Bizkaia; Diputación Foral de Gipuzkoa · b5m"
       }
     },
@@ -325,7 +514,7 @@
       "mapAction": "territory:cadastral-buildings",
       "fields": {
         "Detalle visible": "Desde zoom 15",
-        "Fecha de revisión": "2026-11-09",
+        "Fecha de revisión": "2026-11-13",
         "Proveedores": "Dirección General del Catastro · condiciones INSPIRE; Diputación Foral de Bizkaia; Diputación Foral de Gipuzkoa · b5m"
       }
     },
@@ -346,7 +535,7 @@
       "mapAction": "territory:building-parts",
       "fields": {
         "Detalle visible": "Desde zoom 16",
-        "Fecha de revisión": "2026-11-09",
+        "Fecha de revisión": "2026-11-13",
         "Proveedores": "Dirección General del Catastro · condiciones INSPIRE"
       }
     },
@@ -367,7 +556,7 @@
       "mapAction": "territory:cadastral-addresses",
       "fields": {
         "Detalle visible": "Desde zoom 16",
-        "Fecha de revisión": "2026-11-09",
+        "Fecha de revisión": "2026-11-13",
         "Proveedores": "Dirección General del Catastro · condiciones INSPIRE; Diputación Foral de Bizkaia; Diputación Foral de Gipuzkoa · b5m"
       }
     },
@@ -388,7 +577,7 @@
       "mapAction": "territory:cadastral-zoning",
       "fields": {
         "Detalle visible": "Desde zoom 13",
-        "Fecha de revisión": "2026-11-09",
+        "Fecha de revisión": "2026-11-13",
         "Proveedores": "Dirección General del Catastro · condiciones INSPIRE; Diputación Foral de Bizkaia; Diputación Foral de Gipuzkoa · b5m"
       }
     },
@@ -409,7 +598,7 @@
       "mapAction": "territory:cadastral-units",
       "fields": {
         "Detalle visible": "Desde zoom 10",
-        "Fecha de revisión": "2026-11-09",
+        "Fecha de revisión": "2026-11-13",
         "Proveedores": "Dirección General del Catastro · condiciones INSPIRE; Diputación Foral de Bizkaia; Diputación Foral de Gipuzkoa · b5m"
       }
     },
@@ -430,7 +619,7 @@
       "mapAction": "territory:cadastral-boundaries",
       "fields": {
         "Detalle visible": "Desde zoom 10",
-        "Fecha de revisión": "2026-11-09",
+        "Fecha de revisión": "2026-11-13",
         "Proveedores": "Dirección General del Catastro · condiciones INSPIRE; Diputación Foral de Gipuzkoa · b5m"
       }
     },
@@ -451,7 +640,7 @@
       "mapAction": "territory:cadastral-subparcels",
       "fields": {
         "Detalle visible": "Desde zoom 16",
-        "Fecha de revisión": "2026-11-09",
+        "Fecha de revisión": "2026-11-13",
         "Proveedores": "Diputación Foral de Bizkaia; Diputación Foral de Gipuzkoa · b5m"
       }
     },
@@ -487,6 +676,26 @@
       "mode": "remote",
       "mapAction": "search:addresses",
       "notes": "Búsqueda de candidatos seguida de geolocalización. No se usan coordenadas cero de las sugerencias."
+    },
+    {
+      "id": "territory:municipal-changes",
+      "title": "Cambios de municipios y códigos",
+      "sourceId": "F005",
+      "categoryIds": [
+        "F01"
+      ],
+      "status": "integrado",
+      "url": "https://www.ine.es/dyngs/INEbase/operacion.htm?c=Estadistica_C&cid=1254736177031&idp=1254734710990",
+      "coverage": "Altas, bajas, denominaciones y cambios territoriales de la relación municipal",
+      "period": {
+        "from": "2001",
+        "to": "2026"
+      },
+      "license": "CC BY 4.0 · INE",
+      "mode": "local",
+      "dataFile": "territory/municipal-changes.json",
+      "mapAction": "municipal-changes",
+      "notes": "Ediciones oficiales consultables por año. Se conserva la estructura de cada publicación."
     }
   ],
   "inventory": [
@@ -498,12 +707,18 @@
         "F01"
       ],
       "suggestedCategoryIds": [],
-      "status": "por_revisar",
+      "status": "integrado",
+      "mapAction": "territory:ign-administrative-boundaries",
+      "review": {
+        "implementedProductId": "territory:ign-administrative-boundaries",
+        "updatedAt": "2026-11-13",
+        "reason": "Capa representada en el producto indicado."
+      },
       "url": "https://www.ign.es/wms-inspire/unidades-administrativas?SERVICE=WMS&REQUEST=GetCapabilities",
       "coverage": "España",
       "period": "Según el producto original",
       "license": null,
-      "notes": "Inventario técnico completo de las capas anunciadas por este servicio. No equivale a una capa nueva ni a tener todas sus variantes adaptadas.",
+      "notes": "Capa consultable en el producto indicado.",
       "fields": {
         "Servicio": "IGN · Límites actuales e históricos",
         "Nombre de capa": "AU.AdministrativeBoundary",
@@ -519,12 +734,18 @@
         "F01"
       ],
       "suggestedCategoryIds": [],
-      "status": "por_revisar",
+      "status": "integrado",
+      "mapAction": "territory:ign-administrative-units",
+      "review": {
+        "implementedProductId": "territory:ign-administrative-units",
+        "updatedAt": "2026-11-13",
+        "reason": "Capa representada en el producto indicado."
+      },
       "url": "https://www.ign.es/wms-inspire/unidades-administrativas?SERVICE=WMS&REQUEST=GetCapabilities",
       "coverage": "España",
       "period": "Según el producto original",
       "license": null,
-      "notes": "Inventario técnico completo de las capas anunciadas por este servicio. No equivale a una capa nueva ni a tener todas sus variantes adaptadas.",
+      "notes": "Capa consultable en el producto indicado.",
       "fields": {
         "Servicio": "IGN · Límites actuales e históricos",
         "Nombre de capa": "AU.AdministrativeUnit",
@@ -540,12 +761,18 @@
         "F01"
       ],
       "suggestedCategoryIds": [],
-      "status": "por_revisar",
+      "status": "integrado",
+      "mapAction": "territory:ign-historical-boundaries",
+      "review": {
+        "implementedProductId": "territory:ign-historical-boundaries",
+        "updatedAt": "2026-11-13",
+        "reason": "Capa representada en el producto indicado."
+      },
       "url": "https://www.ign.es/wms-inspire/unidades-administrativas?SERVICE=WMS&REQUEST=GetCapabilities",
       "coverage": "España",
       "period": "Según el producto original",
       "license": null,
-      "notes": "Inventario técnico completo de las capas anunciadas por este servicio. No equivale a una capa nueva ni a tener todas sus variantes adaptadas.",
+      "notes": "Capa consultable en el producto indicado.",
       "fields": {
         "Servicio": "IGN · Límites actuales e históricos",
         "Nombre de capa": "LimitesHistoricos",
@@ -561,12 +788,18 @@
         "F01"
       ],
       "suggestedCategoryIds": [],
-      "status": "por_revisar",
+      "status": "integrado",
+      "mapAction": "territory:historical-limits",
+      "review": {
+        "implementedProductId": "territory:historical-limits",
+        "updatedAt": "2026-11-13",
+        "reason": "Capa representada en el producto indicado."
+      },
       "url": "https://www.ign.es/wms-inspire/unidades-administrativas?SERVICE=WMS&REQUEST=GetCapabilities",
       "coverage": "España",
       "period": "2009-07-05T22:00:00.000Z/2026-07-28T23:00:00.000Z/P1D",
       "license": null,
-      "notes": "Inventario técnico completo de las capas anunciadas por este servicio. No equivale a una capa nueva ni a tener todas sus variantes adaptadas.",
+      "notes": "Capa consultable en el producto indicado.",
       "fields": {
         "Servicio": "IGN · Límites actuales e históricos",
         "Nombre de capa": "LimitesTime",
@@ -582,12 +815,18 @@
         "F01"
       ],
       "suggestedCategoryIds": [],
-      "status": "por_revisar",
+      "status": "integrado",
+      "mapAction": "territory:sections:WMS_INE_SECCIONES_G01:SU.VectorStatisticalUnit",
+      "review": {
+        "implementedProductId": "territory:sections",
+        "updatedAt": "2026-11-13",
+        "reason": "Capa representada en el producto indicado."
+      },
       "url": "https://www.ine.es/geoserver/ows?SERVICE=WMS&REQUEST=GetCapabilities",
       "coverage": "España",
       "period": "Según el producto original",
       "license": null,
-      "notes": "Inventario técnico completo de las capas anunciadas por este servicio. No equivale a una capa nueva ni a tener todas sus variantes adaptadas.",
+      "notes": "Capa consultable en el producto indicado.",
       "fields": {
         "Servicio": "INE · Secciones censales",
         "Nombre de capa": "WMS_INE_SECCIONES_G01:SU.VectorStatisticalUnit",
@@ -603,12 +842,18 @@
         "F01"
       ],
       "suggestedCategoryIds": [],
-      "status": "por_revisar",
+      "status": "integrado",
+      "mapAction": "territory:sections:WMS_INE_SECCIONES_G01:Secciones_2007",
+      "review": {
+        "implementedProductId": "territory:sections",
+        "updatedAt": "2026-11-13",
+        "reason": "Capa representada en el producto indicado."
+      },
       "url": "https://www.ine.es/geoserver/ows?SERVICE=WMS&REQUEST=GetCapabilities",
       "coverage": "España",
       "period": "Según el producto original",
       "license": null,
-      "notes": "Inventario técnico completo de las capas anunciadas por este servicio. No equivale a una capa nueva ni a tener todas sus variantes adaptadas.",
+      "notes": "Capa consultable en el producto indicado.",
       "fields": {
         "Servicio": "INE · Secciones censales",
         "Nombre de capa": "WMS_INE_SECCIONES_G01:Secciones_2007",
@@ -624,12 +869,18 @@
         "F01"
       ],
       "suggestedCategoryIds": [],
-      "status": "por_revisar",
+      "status": "integrado",
+      "mapAction": "territory:sections:WMS_INE_SECCIONES_G01:Secciones_2008",
+      "review": {
+        "implementedProductId": "territory:sections",
+        "updatedAt": "2026-11-13",
+        "reason": "Capa representada en el producto indicado."
+      },
       "url": "https://www.ine.es/geoserver/ows?SERVICE=WMS&REQUEST=GetCapabilities",
       "coverage": "España",
       "period": "Según el producto original",
       "license": null,
-      "notes": "Inventario técnico completo de las capas anunciadas por este servicio. No equivale a una capa nueva ni a tener todas sus variantes adaptadas.",
+      "notes": "Capa consultable en el producto indicado.",
       "fields": {
         "Servicio": "INE · Secciones censales",
         "Nombre de capa": "WMS_INE_SECCIONES_G01:Secciones_2008",
@@ -645,12 +896,18 @@
         "F01"
       ],
       "suggestedCategoryIds": [],
-      "status": "por_revisar",
+      "status": "integrado",
+      "mapAction": "territory:sections:WMS_INE_SECCIONES_G01:Secciones_2009",
+      "review": {
+        "implementedProductId": "territory:sections",
+        "updatedAt": "2026-11-13",
+        "reason": "Capa representada en el producto indicado."
+      },
       "url": "https://www.ine.es/geoserver/ows?SERVICE=WMS&REQUEST=GetCapabilities",
       "coverage": "España",
       "period": "Según el producto original",
       "license": null,
-      "notes": "Inventario técnico completo de las capas anunciadas por este servicio. No equivale a una capa nueva ni a tener todas sus variantes adaptadas.",
+      "notes": "Capa consultable en el producto indicado.",
       "fields": {
         "Servicio": "INE · Secciones censales",
         "Nombre de capa": "WMS_INE_SECCIONES_G01:Secciones_2009",
@@ -666,12 +923,18 @@
         "F01"
       ],
       "suggestedCategoryIds": [],
-      "status": "por_revisar",
+      "status": "integrado",
+      "mapAction": "territory:sections:WMS_INE_SECCIONES_G01:Secciones_2010",
+      "review": {
+        "implementedProductId": "territory:sections",
+        "updatedAt": "2026-11-13",
+        "reason": "Capa representada en el producto indicado."
+      },
       "url": "https://www.ine.es/geoserver/ows?SERVICE=WMS&REQUEST=GetCapabilities",
       "coverage": "España",
       "period": "Según el producto original",
       "license": null,
-      "notes": "Inventario técnico completo de las capas anunciadas por este servicio. No equivale a una capa nueva ni a tener todas sus variantes adaptadas.",
+      "notes": "Capa consultable en el producto indicado.",
       "fields": {
         "Servicio": "INE · Secciones censales",
         "Nombre de capa": "WMS_INE_SECCIONES_G01:Secciones_2010",
@@ -687,12 +950,18 @@
         "F01"
       ],
       "suggestedCategoryIds": [],
-      "status": "por_revisar",
+      "status": "integrado",
+      "mapAction": "territory:sections:WMS_INE_SECCIONES_G01:Secciones_2011",
+      "review": {
+        "implementedProductId": "territory:sections",
+        "updatedAt": "2026-11-13",
+        "reason": "Capa representada en el producto indicado."
+      },
       "url": "https://www.ine.es/geoserver/ows?SERVICE=WMS&REQUEST=GetCapabilities",
       "coverage": "España",
       "period": "Según el producto original",
       "license": null,
-      "notes": "Inventario técnico completo de las capas anunciadas por este servicio. No equivale a una capa nueva ni a tener todas sus variantes adaptadas.",
+      "notes": "Capa consultable en el producto indicado.",
       "fields": {
         "Servicio": "INE · Secciones censales",
         "Nombre de capa": "WMS_INE_SECCIONES_G01:Secciones_2011",
@@ -708,12 +977,18 @@
         "F01"
       ],
       "suggestedCategoryIds": [],
-      "status": "por_revisar",
+      "status": "integrado",
+      "mapAction": "territory:sections:WMS_INE_SECCIONES_G01:Secciones_2012",
+      "review": {
+        "implementedProductId": "territory:sections",
+        "updatedAt": "2026-11-13",
+        "reason": "Capa representada en el producto indicado."
+      },
       "url": "https://www.ine.es/geoserver/ows?SERVICE=WMS&REQUEST=GetCapabilities",
       "coverage": "España",
       "period": "Según el producto original",
       "license": null,
-      "notes": "Inventario técnico completo de las capas anunciadas por este servicio. No equivale a una capa nueva ni a tener todas sus variantes adaptadas.",
+      "notes": "Capa consultable en el producto indicado.",
       "fields": {
         "Servicio": "INE · Secciones censales",
         "Nombre de capa": "WMS_INE_SECCIONES_G01:Secciones_2012",
@@ -729,12 +1004,18 @@
         "F01"
       ],
       "suggestedCategoryIds": [],
-      "status": "por_revisar",
+      "status": "integrado",
+      "mapAction": "territory:sections:WMS_INE_SECCIONES_G01:Secciones_2013",
+      "review": {
+        "implementedProductId": "territory:sections",
+        "updatedAt": "2026-11-13",
+        "reason": "Capa representada en el producto indicado."
+      },
       "url": "https://www.ine.es/geoserver/ows?SERVICE=WMS&REQUEST=GetCapabilities",
       "coverage": "España",
       "period": "Según el producto original",
       "license": null,
-      "notes": "Inventario técnico completo de las capas anunciadas por este servicio. No equivale a una capa nueva ni a tener todas sus variantes adaptadas.",
+      "notes": "Capa consultable en el producto indicado.",
       "fields": {
         "Servicio": "INE · Secciones censales",
         "Nombre de capa": "WMS_INE_SECCIONES_G01:Secciones_2013",
@@ -750,12 +1031,18 @@
         "F01"
       ],
       "suggestedCategoryIds": [],
-      "status": "por_revisar",
+      "status": "integrado",
+      "mapAction": "territory:sections:WMS_INE_SECCIONES_G01:Secciones_2014",
+      "review": {
+        "implementedProductId": "territory:sections",
+        "updatedAt": "2026-11-13",
+        "reason": "Capa representada en el producto indicado."
+      },
       "url": "https://www.ine.es/geoserver/ows?SERVICE=WMS&REQUEST=GetCapabilities",
       "coverage": "España",
       "period": "Según el producto original",
       "license": null,
-      "notes": "Inventario técnico completo de las capas anunciadas por este servicio. No equivale a una capa nueva ni a tener todas sus variantes adaptadas.",
+      "notes": "Capa consultable en el producto indicado.",
       "fields": {
         "Servicio": "INE · Secciones censales",
         "Nombre de capa": "WMS_INE_SECCIONES_G01:Secciones_2014",
@@ -771,12 +1058,18 @@
         "F01"
       ],
       "suggestedCategoryIds": [],
-      "status": "por_revisar",
+      "status": "integrado",
+      "mapAction": "territory:sections:WMS_INE_SECCIONES_G01:Secciones_2015",
+      "review": {
+        "implementedProductId": "territory:sections",
+        "updatedAt": "2026-11-13",
+        "reason": "Capa representada en el producto indicado."
+      },
       "url": "https://www.ine.es/geoserver/ows?SERVICE=WMS&REQUEST=GetCapabilities",
       "coverage": "España",
       "period": "Según el producto original",
       "license": null,
-      "notes": "Inventario técnico completo de las capas anunciadas por este servicio. No equivale a una capa nueva ni a tener todas sus variantes adaptadas.",
+      "notes": "Capa consultable en el producto indicado.",
       "fields": {
         "Servicio": "INE · Secciones censales",
         "Nombre de capa": "WMS_INE_SECCIONES_G01:Secciones_2015",
@@ -792,12 +1085,18 @@
         "F01"
       ],
       "suggestedCategoryIds": [],
-      "status": "por_revisar",
+      "status": "integrado",
+      "mapAction": "territory:sections:WMS_INE_SECCIONES_G01:Secciones_2016",
+      "review": {
+        "implementedProductId": "territory:sections",
+        "updatedAt": "2026-11-13",
+        "reason": "Capa representada en el producto indicado."
+      },
       "url": "https://www.ine.es/geoserver/ows?SERVICE=WMS&REQUEST=GetCapabilities",
       "coverage": "España",
       "period": "Según el producto original",
       "license": null,
-      "notes": "Inventario técnico completo de las capas anunciadas por este servicio. No equivale a una capa nueva ni a tener todas sus variantes adaptadas.",
+      "notes": "Capa consultable en el producto indicado.",
       "fields": {
         "Servicio": "INE · Secciones censales",
         "Nombre de capa": "WMS_INE_SECCIONES_G01:Secciones_2016",
@@ -813,12 +1112,18 @@
         "F01"
       ],
       "suggestedCategoryIds": [],
-      "status": "por_revisar",
+      "status": "integrado",
+      "mapAction": "territory:sections:WMS_INE_SECCIONES_G01:Secciones_2017",
+      "review": {
+        "implementedProductId": "territory:sections",
+        "updatedAt": "2026-11-13",
+        "reason": "Capa representada en el producto indicado."
+      },
       "url": "https://www.ine.es/geoserver/ows?SERVICE=WMS&REQUEST=GetCapabilities",
       "coverage": "España",
       "period": "Según el producto original",
       "license": null,
-      "notes": "Inventario técnico completo de las capas anunciadas por este servicio. No equivale a una capa nueva ni a tener todas sus variantes adaptadas.",
+      "notes": "Capa consultable en el producto indicado.",
       "fields": {
         "Servicio": "INE · Secciones censales",
         "Nombre de capa": "WMS_INE_SECCIONES_G01:Secciones_2017",
@@ -834,12 +1139,18 @@
         "F01"
       ],
       "suggestedCategoryIds": [],
-      "status": "por_revisar",
+      "status": "integrado",
+      "mapAction": "territory:sections:WMS_INE_SECCIONES_G01:Secciones_2018",
+      "review": {
+        "implementedProductId": "territory:sections",
+        "updatedAt": "2026-11-13",
+        "reason": "Capa representada en el producto indicado."
+      },
       "url": "https://www.ine.es/geoserver/ows?SERVICE=WMS&REQUEST=GetCapabilities",
       "coverage": "España",
       "period": "Según el producto original",
       "license": null,
-      "notes": "Inventario técnico completo de las capas anunciadas por este servicio. No equivale a una capa nueva ni a tener todas sus variantes adaptadas.",
+      "notes": "Capa consultable en el producto indicado.",
       "fields": {
         "Servicio": "INE · Secciones censales",
         "Nombre de capa": "WMS_INE_SECCIONES_G01:Secciones_2018",
@@ -855,12 +1166,18 @@
         "F01"
       ],
       "suggestedCategoryIds": [],
-      "status": "por_revisar",
+      "status": "integrado",
+      "mapAction": "territory:sections:WMS_INE_SECCIONES_G01:Secciones_2019",
+      "review": {
+        "implementedProductId": "territory:sections",
+        "updatedAt": "2026-11-13",
+        "reason": "Capa representada en el producto indicado."
+      },
       "url": "https://www.ine.es/geoserver/ows?SERVICE=WMS&REQUEST=GetCapabilities",
       "coverage": "España",
       "period": "Según el producto original",
       "license": null,
-      "notes": "Inventario técnico completo de las capas anunciadas por este servicio. No equivale a una capa nueva ni a tener todas sus variantes adaptadas.",
+      "notes": "Capa consultable en el producto indicado.",
       "fields": {
         "Servicio": "INE · Secciones censales",
         "Nombre de capa": "WMS_INE_SECCIONES_G01:Secciones_2019",
@@ -876,12 +1193,18 @@
         "F01"
       ],
       "suggestedCategoryIds": [],
-      "status": "por_revisar",
+      "status": "integrado",
+      "mapAction": "territory:sections:WMS_INE_SECCIONES_G01:Secciones_2020",
+      "review": {
+        "implementedProductId": "territory:sections",
+        "updatedAt": "2026-11-13",
+        "reason": "Capa representada en el producto indicado."
+      },
       "url": "https://www.ine.es/geoserver/ows?SERVICE=WMS&REQUEST=GetCapabilities",
       "coverage": "España",
       "period": "Según el producto original",
       "license": null,
-      "notes": "Inventario técnico completo de las capas anunciadas por este servicio. No equivale a una capa nueva ni a tener todas sus variantes adaptadas.",
+      "notes": "Capa consultable en el producto indicado.",
       "fields": {
         "Servicio": "INE · Secciones censales",
         "Nombre de capa": "WMS_INE_SECCIONES_G01:Secciones_2020",
@@ -897,12 +1220,18 @@
         "F01"
       ],
       "suggestedCategoryIds": [],
-      "status": "por_revisar",
+      "status": "integrado",
+      "mapAction": "territory:sections:WMS_INE_SECCIONES_G01:Secciones_2021",
+      "review": {
+        "implementedProductId": "territory:sections",
+        "updatedAt": "2026-11-13",
+        "reason": "Capa representada en el producto indicado."
+      },
       "url": "https://www.ine.es/geoserver/ows?SERVICE=WMS&REQUEST=GetCapabilities",
       "coverage": "España",
       "period": "Según el producto original",
       "license": null,
-      "notes": "Inventario técnico completo de las capas anunciadas por este servicio. No equivale a una capa nueva ni a tener todas sus variantes adaptadas.",
+      "notes": "Capa consultable en el producto indicado.",
       "fields": {
         "Servicio": "INE · Secciones censales",
         "Nombre de capa": "WMS_INE_SECCIONES_G01:Secciones_2021",
@@ -918,12 +1247,18 @@
         "F01"
       ],
       "suggestedCategoryIds": [],
-      "status": "por_revisar",
+      "status": "integrado",
+      "mapAction": "territory:sections:WMS_INE_SECCIONES_G01:Secciones_2022",
+      "review": {
+        "implementedProductId": "territory:sections",
+        "updatedAt": "2026-11-13",
+        "reason": "Capa representada en el producto indicado."
+      },
       "url": "https://www.ine.es/geoserver/ows?SERVICE=WMS&REQUEST=GetCapabilities",
       "coverage": "España",
       "period": "Según el producto original",
       "license": null,
-      "notes": "Inventario técnico completo de las capas anunciadas por este servicio. No equivale a una capa nueva ni a tener todas sus variantes adaptadas.",
+      "notes": "Capa consultable en el producto indicado.",
       "fields": {
         "Servicio": "INE · Secciones censales",
         "Nombre de capa": "WMS_INE_SECCIONES_G01:Secciones_2022",
@@ -939,12 +1274,18 @@
         "F01"
       ],
       "suggestedCategoryIds": [],
-      "status": "por_revisar",
+      "status": "integrado",
+      "mapAction": "territory:sections:WMS_INE_SECCIONES_G01:Secciones_2023",
+      "review": {
+        "implementedProductId": "territory:sections",
+        "updatedAt": "2026-11-13",
+        "reason": "Capa representada en el producto indicado."
+      },
       "url": "https://www.ine.es/geoserver/ows?SERVICE=WMS&REQUEST=GetCapabilities",
       "coverage": "España",
       "period": "Según el producto original",
       "license": null,
-      "notes": "Inventario técnico completo de las capas anunciadas por este servicio. No equivale a una capa nueva ni a tener todas sus variantes adaptadas.",
+      "notes": "Capa consultable en el producto indicado.",
       "fields": {
         "Servicio": "INE · Secciones censales",
         "Nombre de capa": "WMS_INE_SECCIONES_G01:Secciones_2023",
@@ -960,12 +1301,18 @@
         "F01"
       ],
       "suggestedCategoryIds": [],
-      "status": "por_revisar",
+      "status": "integrado",
+      "mapAction": "territory:sections:WMS_INE_SECCIONES_G01:Secciones_2024",
+      "review": {
+        "implementedProductId": "territory:sections",
+        "updatedAt": "2026-11-13",
+        "reason": "Capa representada en el producto indicado."
+      },
       "url": "https://www.ine.es/geoserver/ows?SERVICE=WMS&REQUEST=GetCapabilities",
       "coverage": "España",
       "period": "Según el producto original",
       "license": null,
-      "notes": "Inventario técnico completo de las capas anunciadas por este servicio. No equivale a una capa nueva ni a tener todas sus variantes adaptadas.",
+      "notes": "Capa consultable en el producto indicado.",
       "fields": {
         "Servicio": "INE · Secciones censales",
         "Nombre de capa": "WMS_INE_SECCIONES_G01:Secciones_2024",
@@ -981,12 +1328,18 @@
         "F01"
       ],
       "suggestedCategoryIds": [],
-      "status": "por_revisar",
+      "status": "integrado",
+      "mapAction": "territory:sections:WMS_INE_SECCIONES_G01:Secciones_2025",
+      "review": {
+        "implementedProductId": "territory:sections",
+        "updatedAt": "2026-11-13",
+        "reason": "Capa representada en el producto indicado."
+      },
       "url": "https://www.ine.es/geoserver/ows?SERVICE=WMS&REQUEST=GetCapabilities",
       "coverage": "España",
       "period": "Según el producto original",
       "license": null,
-      "notes": "Inventario técnico completo de las capas anunciadas por este servicio. No equivale a una capa nueva ni a tener todas sus variantes adaptadas.",
+      "notes": "Capa consultable en el producto indicado.",
       "fields": {
         "Servicio": "INE · Secciones censales",
         "Nombre de capa": "WMS_INE_SECCIONES_G01:Secciones_2025",
@@ -1002,12 +1355,18 @@
         "F01"
       ],
       "suggestedCategoryIds": [],
-      "status": "por_revisar",
+      "status": "integrado",
+      "mapAction": "territory:sections:WMS_INE_SECCIONES_G01:Secciones_Censo_Poblacion_Viviendas_2001",
+      "review": {
+        "implementedProductId": "territory:sections",
+        "updatedAt": "2026-11-13",
+        "reason": "Capa representada en el producto indicado."
+      },
       "url": "https://www.ine.es/geoserver/ows?SERVICE=WMS&REQUEST=GetCapabilities",
       "coverage": "España",
       "period": "Según el producto original",
       "license": null,
-      "notes": "Inventario técnico completo de las capas anunciadas por este servicio. No equivale a una capa nueva ni a tener todas sus variantes adaptadas.",
+      "notes": "Capa consultable en el producto indicado.",
       "fields": {
         "Servicio": "INE · Secciones censales",
         "Nombre de capa": "WMS_INE_SECCIONES_G01:Secciones_Censo_Poblacion_Viviendas_2001",
@@ -1023,12 +1382,18 @@
         "F01"
       ],
       "suggestedCategoryIds": [],
-      "status": "por_revisar",
+      "status": "integrado",
+      "mapAction": "territory:sections:WMS_INE_SECCIONES_G01:Secciones_Censo_Poblacion_Viviendas_2011",
+      "review": {
+        "implementedProductId": "territory:sections",
+        "updatedAt": "2026-11-13",
+        "reason": "Capa representada en el producto indicado."
+      },
       "url": "https://www.ine.es/geoserver/ows?SERVICE=WMS&REQUEST=GetCapabilities",
       "coverage": "España",
       "period": "Según el producto original",
       "license": null,
-      "notes": "Inventario técnico completo de las capas anunciadas por este servicio. No equivale a una capa nueva ni a tener todas sus variantes adaptadas.",
+      "notes": "Capa consultable en el producto indicado.",
       "fields": {
         "Servicio": "INE · Secciones censales",
         "Nombre de capa": "WMS_INE_SECCIONES_G01:Secciones_Censo_Poblacion_Viviendas_2011",
@@ -1044,12 +1409,18 @@
         "F01"
       ],
       "suggestedCategoryIds": [],
-      "status": "por_revisar",
+      "status": "integrado",
+      "mapAction": "territory:parcels",
+      "review": {
+        "implementedProductId": "territory:parcels",
+        "updatedAt": "2026-11-13",
+        "reason": "Capa representada en el producto indicado."
+      },
       "url": "https://ovc.catastro.meh.es/cartografia/INSPIRE/spadgcwms.aspx?SERVICE=WMS&REQUEST=GetCapabilities",
       "coverage": "Ámbito DGC; excluye Navarra y País Vasco",
       "period": "Según el producto original",
       "license": null,
-      "notes": "Inventario técnico completo de las capas anunciadas por este servicio. No equivale a una capa nueva ni a tener todas sus variantes adaptadas.",
+      "notes": "Capa consultable en el producto indicado.",
       "fields": {
         "Servicio": "DGC · Cartografía catastral INSPIRE",
         "Nombre de capa": "CP.CadastralParcel",
@@ -1065,12 +1436,18 @@
         "F01"
       ],
       "suggestedCategoryIds": [],
-      "status": "por_revisar",
+      "status": "integrado",
+      "mapAction": "territory:cadastral-zoning",
+      "review": {
+        "implementedProductId": "territory:cadastral-zoning",
+        "updatedAt": "2026-11-13",
+        "reason": "Capa representada en el producto indicado."
+      },
       "url": "https://ovc.catastro.meh.es/cartografia/INSPIRE/spadgcwms.aspx?SERVICE=WMS&REQUEST=GetCapabilities",
       "coverage": "Ámbito DGC; excluye Navarra y País Vasco",
       "period": "Según el producto original",
       "license": null,
-      "notes": "Inventario técnico completo de las capas anunciadas por este servicio. No equivale a una capa nueva ni a tener todas sus variantes adaptadas.",
+      "notes": "Capa consultable en el producto indicado.",
       "fields": {
         "Servicio": "DGC · Cartografía catastral INSPIRE",
         "Nombre de capa": "CP.CadastralZoning",
@@ -1086,12 +1463,18 @@
         "F01"
       ],
       "suggestedCategoryIds": [],
-      "status": "por_revisar",
+      "status": "integrado",
+      "mapAction": "territory:cadastral-addresses",
+      "review": {
+        "implementedProductId": "territory:cadastral-addresses",
+        "updatedAt": "2026-11-13",
+        "reason": "Capa representada en el producto indicado."
+      },
       "url": "https://ovc.catastro.meh.es/cartografia/INSPIRE/spadgcwms.aspx?SERVICE=WMS&REQUEST=GetCapabilities",
       "coverage": "Ámbito DGC; excluye Navarra y País Vasco",
       "period": "Según el producto original",
       "license": null,
-      "notes": "Inventario técnico completo de las capas anunciadas por este servicio. No equivale a una capa nueva ni a tener todas sus variantes adaptadas.",
+      "notes": "Capa consultable en el producto indicado.",
       "fields": {
         "Servicio": "DGC · Cartografía catastral INSPIRE",
         "Nombre de capa": "AD.Address",
@@ -1107,12 +1490,18 @@
         "F01"
       ],
       "suggestedCategoryIds": [],
-      "status": "por_revisar",
+      "status": "integrado",
+      "mapAction": "territory:cadastral-buildings",
+      "review": {
+        "implementedProductId": "territory:cadastral-buildings",
+        "updatedAt": "2026-11-13",
+        "reason": "Capa representada en el producto indicado."
+      },
       "url": "https://ovc.catastro.meh.es/cartografia/INSPIRE/spadgcwms.aspx?SERVICE=WMS&REQUEST=GetCapabilities",
       "coverage": "Ámbito DGC; excluye Navarra y País Vasco",
       "period": "Según el producto original",
       "license": null,
-      "notes": "Inventario técnico completo de las capas anunciadas por este servicio. No equivale a una capa nueva ni a tener todas sus variantes adaptadas.",
+      "notes": "Capa consultable en el producto indicado.",
       "fields": {
         "Servicio": "DGC · Cartografía catastral INSPIRE",
         "Nombre de capa": "BU.Building",
@@ -1128,12 +1517,18 @@
         "F01"
       ],
       "suggestedCategoryIds": [],
-      "status": "por_revisar",
+      "status": "integrado",
+      "mapAction": "territory:building-parts",
+      "review": {
+        "implementedProductId": "territory:building-parts",
+        "updatedAt": "2026-11-13",
+        "reason": "Capa representada en el producto indicado."
+      },
       "url": "https://ovc.catastro.meh.es/cartografia/INSPIRE/spadgcwms.aspx?SERVICE=WMS&REQUEST=GetCapabilities",
       "coverage": "Ámbito DGC; excluye Navarra y País Vasco",
       "period": "Según el producto original",
       "license": null,
-      "notes": "Inventario técnico completo de las capas anunciadas por este servicio. No equivale a una capa nueva ni a tener todas sus variantes adaptadas.",
+      "notes": "Capa consultable en el producto indicado.",
       "fields": {
         "Servicio": "DGC · Cartografía catastral INSPIRE",
         "Nombre de capa": "BU.BuildingPart",
@@ -1149,12 +1544,18 @@
         "F01"
       ],
       "suggestedCategoryIds": [],
-      "status": "por_revisar",
+      "status": "integrado",
+      "mapAction": "territory:cadastral-units",
+      "review": {
+        "implementedProductId": "territory:cadastral-units",
+        "updatedAt": "2026-11-13",
+        "reason": "Capa representada en el producto indicado."
+      },
       "url": "https://ovc.catastro.meh.es/cartografia/INSPIRE/spadgcwms.aspx?SERVICE=WMS&REQUEST=GetCapabilities",
       "coverage": "Ámbito DGC; excluye Navarra y País Vasco",
       "period": "Según el producto original",
       "license": null,
-      "notes": "Inventario técnico completo de las capas anunciadas por este servicio. No equivale a una capa nueva ni a tener todas sus variantes adaptadas.",
+      "notes": "Capa consultable en el producto indicado.",
       "fields": {
         "Servicio": "DGC · Cartografía catastral INSPIRE",
         "Nombre de capa": "AU.AdministrativeUnit",
@@ -1170,12 +1571,18 @@
         "F01"
       ],
       "suggestedCategoryIds": [],
-      "status": "por_revisar",
+      "status": "integrado",
+      "mapAction": "territory:cadastral-boundaries",
+      "review": {
+        "implementedProductId": "territory:cadastral-boundaries",
+        "updatedAt": "2026-11-13",
+        "reason": "Capa representada en el producto indicado."
+      },
       "url": "https://ovc.catastro.meh.es/cartografia/INSPIRE/spadgcwms.aspx?SERVICE=WMS&REQUEST=GetCapabilities",
       "coverage": "Ámbito DGC; excluye Navarra y País Vasco",
       "period": "Según el producto original",
       "license": null,
-      "notes": "Inventario técnico completo de las capas anunciadas por este servicio. No equivale a una capa nueva ni a tener todas sus variantes adaptadas.",
+      "notes": "Capa consultable en el producto indicado.",
       "fields": {
         "Servicio": "DGC · Cartografía catastral INSPIRE",
         "Nombre de capa": "AU.AdministrativeBoundary",
@@ -1191,12 +1598,18 @@
         "F01"
       ],
       "suggestedCategoryIds": [],
-      "status": "por_revisar",
+      "status": "integrado",
+      "mapAction": "territory:postal-addresses",
+      "review": {
+        "implementedProductId": "territory:postal-addresses",
+        "updatedAt": "2026-11-13",
+        "reason": "Capa representada en el producto indicado."
+      },
       "url": "https://www.cartociudad.es/wms-inspire/direcciones-ccpp?SERVICE=WMS&REQUEST=GetCapabilities",
       "coverage": "España",
       "period": "Según el producto original",
       "license": null,
-      "notes": "Inventario técnico completo de las capas anunciadas por este servicio. No equivale a una capa nueva ni a tener todas sus variantes adaptadas.",
+      "notes": "Capa consultable en el producto indicado.",
       "fields": {
         "Servicio": "CartoCiudad · Direcciones y códigos postales",
         "Nombre de capa": "AD.Address",
@@ -1212,12 +1625,18 @@
         "F01"
       ],
       "suggestedCategoryIds": [],
-      "status": "por_revisar",
+      "status": "integrado",
+      "mapAction": "territory:postcodes",
+      "review": {
+        "implementedProductId": "territory:postcodes",
+        "updatedAt": "2026-11-13",
+        "reason": "Capa representada en el producto indicado."
+      },
       "url": "https://www.cartociudad.es/wms-inspire/direcciones-ccpp?SERVICE=WMS&REQUEST=GetCapabilities",
       "coverage": "España",
       "period": "Según el producto original",
       "license": null,
-      "notes": "Inventario técnico completo de las capas anunciadas por este servicio. No equivale a una capa nueva ni a tener todas sus variantes adaptadas.",
+      "notes": "Capa consultable en el producto indicado.",
       "fields": {
         "Servicio": "CartoCiudad · Direcciones y códigos postales",
         "Nombre de capa": "codigo-postal",
@@ -1233,12 +1652,12 @@
         "F01"
       ],
       "suggestedCategoryIds": [],
-      "status": "por_revisar",
+      "status": "no_procede",
       "url": "https://idecan2.grafcan.es/ServicioWMS/CARTO_EST?SERVICE=WMS&REQUEST=GetCapabilities",
       "coverage": "Canarias",
       "period": "Según el producto original",
       "license": null,
-      "notes": "Inventario técnico completo de las capas anunciadas por este servicio. No equivale a una capa nueva ni a tener todas sus variantes adaptadas.",
+      "notes": "Raíz del servicio WMS que agrupa las capas temáticas.",
       "fields": {
         "Servicio": "Canarias · Cartografía estadística",
         "Nombre de capa": "WMS_CARTO_EST",
@@ -1254,12 +1673,18 @@
         "F01"
       ],
       "suggestedCategoryIds": [],
-      "status": "por_revisar",
+      "status": "integrado",
+      "mapAction": "territory:canary-cartography:ISLAS",
+      "review": {
+        "implementedProductId": "territory:canary-cartography",
+        "updatedAt": "2026-11-13",
+        "reason": "Capa representada en el producto indicado."
+      },
       "url": "https://idecan2.grafcan.es/ServicioWMS/CARTO_EST?SERVICE=WMS&REQUEST=GetCapabilities",
       "coverage": "Canarias",
       "period": "Según el producto original",
       "license": null,
-      "notes": "Inventario técnico completo de las capas anunciadas por este servicio. No equivale a una capa nueva ni a tener todas sus variantes adaptadas.",
+      "notes": "Capa consultable en el producto indicado.",
       "fields": {
         "Servicio": "Canarias · Cartografía estadística",
         "Nombre de capa": "ISLAS",
@@ -1275,12 +1700,18 @@
         "F01"
       ],
       "suggestedCategoryIds": [],
-      "status": "por_revisar",
+      "status": "integrado",
+      "mapAction": "territory:canary-cartography:ISLAS_01",
+      "review": {
+        "implementedProductId": "territory:canary-cartography",
+        "updatedAt": "2026-11-13",
+        "reason": "Capa representada en el producto indicado."
+      },
       "url": "https://idecan2.grafcan.es/ServicioWMS/CARTO_EST?SERVICE=WMS&REQUEST=GetCapabilities",
       "coverage": "Canarias",
       "period": "Según el producto original",
       "license": null,
-      "notes": "Inventario técnico completo de las capas anunciadas por este servicio. No equivale a una capa nueva ni a tener todas sus variantes adaptadas.",
+      "notes": "Capa consultable en el producto indicado.",
       "fields": {
         "Servicio": "Canarias · Cartografía estadística",
         "Nombre de capa": "ISLAS_01",
@@ -1296,12 +1727,18 @@
         "F01"
       ],
       "suggestedCategoryIds": [],
-      "status": "por_revisar",
+      "status": "integrado",
+      "mapAction": "territory:canary-cartography:ISLAS_02",
+      "review": {
+        "implementedProductId": "territory:canary-cartography",
+        "updatedAt": "2026-11-13",
+        "reason": "Capa representada en el producto indicado."
+      },
       "url": "https://idecan2.grafcan.es/ServicioWMS/CARTO_EST?SERVICE=WMS&REQUEST=GetCapabilities",
       "coverage": "Canarias",
       "period": "Según el producto original",
       "license": null,
-      "notes": "Inventario técnico completo de las capas anunciadas por este servicio. No equivale a una capa nueva ni a tener todas sus variantes adaptadas.",
+      "notes": "Capa consultable en el producto indicado.",
       "fields": {
         "Servicio": "Canarias · Cartografía estadística",
         "Nombre de capa": "ISLAS_02",
@@ -1317,12 +1754,18 @@
         "F01"
       ],
       "suggestedCategoryIds": [],
-      "status": "por_revisar",
+      "status": "integrado",
+      "mapAction": "territory:canary-comarcas-a1",
+      "review": {
+        "implementedProductId": "territory:canary-comarcas-a1",
+        "updatedAt": "2026-11-13",
+        "reason": "Capa representada en el producto indicado."
+      },
       "url": "https://idecan2.grafcan.es/ServicioWMS/CARTO_EST?SERVICE=WMS&REQUEST=GetCapabilities",
       "coverage": "Canarias",
       "period": "Según el producto original",
       "license": null,
-      "notes": "Inventario técnico completo de las capas anunciadas por este servicio. No equivale a una capa nueva ni a tener todas sus variantes adaptadas.",
+      "notes": "Capa consultable en el producto indicado.",
       "fields": {
         "Servicio": "Canarias · Cartografía estadística",
         "Nombre de capa": "CME1",
@@ -1338,12 +1781,18 @@
         "F01"
       ],
       "suggestedCategoryIds": [],
-      "status": "por_revisar",
+      "status": "integrado",
+      "mapAction": "territory:canary-comarcas-a2",
+      "review": {
+        "implementedProductId": "territory:canary-comarcas-a2",
+        "updatedAt": "2026-11-13",
+        "reason": "Capa representada en el producto indicado."
+      },
       "url": "https://idecan2.grafcan.es/ServicioWMS/CARTO_EST?SERVICE=WMS&REQUEST=GetCapabilities",
       "coverage": "Canarias",
       "period": "Según el producto original",
       "license": null,
-      "notes": "Inventario técnico completo de las capas anunciadas por este servicio. No equivale a una capa nueva ni a tener todas sus variantes adaptadas.",
+      "notes": "Capa consultable en el producto indicado.",
       "fields": {
         "Servicio": "Canarias · Cartografía estadística",
         "Nombre de capa": "CME2",
@@ -1359,12 +1808,18 @@
         "F01"
       ],
       "suggestedCategoryIds": [],
-      "status": "por_revisar",
+      "status": "integrado",
+      "mapAction": "territory:canary-cartography:MDTUR_ENT",
+      "review": {
+        "implementedProductId": "territory:canary-cartography",
+        "updatedAt": "2026-11-13",
+        "reason": "Capa representada en el producto indicado."
+      },
       "url": "https://idecan2.grafcan.es/ServicioWMS/CARTO_EST?SERVICE=WMS&REQUEST=GetCapabilities",
       "coverage": "Canarias",
       "period": "Según el producto original",
       "license": null,
-      "notes": "Inventario técnico completo de las capas anunciadas por este servicio. No equivale a una capa nueva ni a tener todas sus variantes adaptadas.",
+      "notes": "Capa consultable en el producto indicado.",
       "fields": {
         "Servicio": "Canarias · Cartografía estadística",
         "Nombre de capa": "MDTUR_ENT",
@@ -1380,12 +1835,18 @@
         "F01"
       ],
       "suggestedCategoryIds": [],
-      "status": "por_revisar",
+      "status": "integrado",
+      "mapAction": "territory:canary-cartography:MDTUR_NUC",
+      "review": {
+        "implementedProductId": "territory:canary-cartography",
+        "updatedAt": "2026-11-13",
+        "reason": "Capa representada en el producto indicado."
+      },
       "url": "https://idecan2.grafcan.es/ServicioWMS/CARTO_EST?SERVICE=WMS&REQUEST=GetCapabilities",
       "coverage": "Canarias",
       "period": "Según el producto original",
       "license": null,
-      "notes": "Inventario técnico completo de las capas anunciadas por este servicio. No equivale a una capa nueva ni a tener todas sus variantes adaptadas.",
+      "notes": "Capa consultable en el producto indicado.",
       "fields": {
         "Servicio": "Canarias · Cartografía estadística",
         "Nombre de capa": "MDTUR_NUC",
@@ -1401,12 +1862,18 @@
         "F01"
       ],
       "suggestedCategoryIds": [],
-      "status": "por_revisar",
+      "status": "integrado",
+      "mapAction": "territory:canary-cartography:NUC2001",
+      "review": {
+        "implementedProductId": "territory:canary-cartography",
+        "updatedAt": "2026-11-13",
+        "reason": "Capa representada en el producto indicado."
+      },
       "url": "https://idecan2.grafcan.es/ServicioWMS/CARTO_EST?SERVICE=WMS&REQUEST=GetCapabilities",
       "coverage": "Canarias",
       "period": "Según el producto original",
       "license": null,
-      "notes": "Inventario técnico completo de las capas anunciadas por este servicio. No equivale a una capa nueva ni a tener todas sus variantes adaptadas.",
+      "notes": "Capa consultable en el producto indicado.",
       "fields": {
         "Servicio": "Canarias · Cartografía estadística",
         "Nombre de capa": "NUC2001",
@@ -1422,12 +1889,18 @@
         "F01"
       ],
       "suggestedCategoryIds": [],
-      "status": "por_revisar",
+      "status": "integrado",
+      "mapAction": "territory:canary-cartography:ENT2001",
+      "review": {
+        "implementedProductId": "territory:canary-cartography",
+        "updatedAt": "2026-11-13",
+        "reason": "Capa representada en el producto indicado."
+      },
       "url": "https://idecan2.grafcan.es/ServicioWMS/CARTO_EST?SERVICE=WMS&REQUEST=GetCapabilities",
       "coverage": "Canarias",
       "period": "Según el producto original",
       "license": null,
-      "notes": "Inventario técnico completo de las capas anunciadas por este servicio. No equivale a una capa nueva ni a tener todas sus variantes adaptadas.",
+      "notes": "Capa consultable en el producto indicado.",
       "fields": {
         "Servicio": "Canarias · Cartografía estadística",
         "Nombre de capa": "ENT2001",
@@ -1443,12 +1916,18 @@
         "F01"
       ],
       "suggestedCategoryIds": [],
-      "status": "por_revisar",
+      "status": "integrado",
+      "mapAction": "territory:canary-cartography:SEC2025",
+      "review": {
+        "implementedProductId": "territory:canary-cartography",
+        "updatedAt": "2026-11-13",
+        "reason": "Capa representada en el producto indicado."
+      },
       "url": "https://idecan2.grafcan.es/ServicioWMS/CARTO_EST?SERVICE=WMS&REQUEST=GetCapabilities",
       "coverage": "Canarias",
       "period": "Según el producto original",
       "license": null,
-      "notes": "Inventario técnico completo de las capas anunciadas por este servicio. No equivale a una capa nueva ni a tener todas sus variantes adaptadas.",
+      "notes": "Capa consultable en el producto indicado.",
       "fields": {
         "Servicio": "Canarias · Cartografía estadística",
         "Nombre de capa": "SEC2025",
@@ -1464,12 +1943,18 @@
         "F01"
       ],
       "suggestedCategoryIds": [],
-      "status": "por_revisar",
+      "status": "integrado",
+      "mapAction": "territory:canary-cartography:DIS2025",
+      "review": {
+        "implementedProductId": "territory:canary-cartography",
+        "updatedAt": "2026-11-13",
+        "reason": "Capa representada en el producto indicado."
+      },
       "url": "https://idecan2.grafcan.es/ServicioWMS/CARTO_EST?SERVICE=WMS&REQUEST=GetCapabilities",
       "coverage": "Canarias",
       "period": "Según el producto original",
       "license": null,
-      "notes": "Inventario técnico completo de las capas anunciadas por este servicio. No equivale a una capa nueva ni a tener todas sus variantes adaptadas.",
+      "notes": "Capa consultable en el producto indicado.",
       "fields": {
         "Servicio": "Canarias · Cartografía estadística",
         "Nombre de capa": "DIS2025",
@@ -1485,12 +1970,18 @@
         "F01"
       ],
       "suggestedCategoryIds": [],
-      "status": "por_revisar",
+      "status": "integrado",
+      "mapAction": "territory:canary-cartography:SEC2019",
+      "review": {
+        "implementedProductId": "territory:canary-cartography",
+        "updatedAt": "2026-11-13",
+        "reason": "Capa representada en el producto indicado."
+      },
       "url": "https://idecan2.grafcan.es/ServicioWMS/CARTO_EST?SERVICE=WMS&REQUEST=GetCapabilities",
       "coverage": "Canarias",
       "period": "Según el producto original",
       "license": null,
-      "notes": "Inventario técnico completo de las capas anunciadas por este servicio. No equivale a una capa nueva ni a tener todas sus variantes adaptadas.",
+      "notes": "Capa consultable en el producto indicado.",
       "fields": {
         "Servicio": "Canarias · Cartografía estadística",
         "Nombre de capa": "SEC2019",
@@ -1506,12 +1997,18 @@
         "F01"
       ],
       "suggestedCategoryIds": [],
-      "status": "por_revisar",
+      "status": "integrado",
+      "mapAction": "territory:canary-cartography:DIS2019",
+      "review": {
+        "implementedProductId": "territory:canary-cartography",
+        "updatedAt": "2026-11-13",
+        "reason": "Capa representada en el producto indicado."
+      },
       "url": "https://idecan2.grafcan.es/ServicioWMS/CARTO_EST?SERVICE=WMS&REQUEST=GetCapabilities",
       "coverage": "Canarias",
       "period": "Según el producto original",
       "license": null,
-      "notes": "Inventario técnico completo de las capas anunciadas por este servicio. No equivale a una capa nueva ni a tener todas sus variantes adaptadas.",
+      "notes": "Capa consultable en el producto indicado.",
       "fields": {
         "Servicio": "Canarias · Cartografía estadística",
         "Nombre de capa": "DIS2019",
@@ -1527,12 +2024,18 @@
         "F01"
       ],
       "suggestedCategoryIds": [],
-      "status": "por_revisar",
+      "status": "integrado",
+      "mapAction": "territory:canary-cartography:SEC2018",
+      "review": {
+        "implementedProductId": "territory:canary-cartography",
+        "updatedAt": "2026-11-13",
+        "reason": "Capa representada en el producto indicado."
+      },
       "url": "https://idecan2.grafcan.es/ServicioWMS/CARTO_EST?SERVICE=WMS&REQUEST=GetCapabilities",
       "coverage": "Canarias",
       "period": "Según el producto original",
       "license": null,
-      "notes": "Inventario técnico completo de las capas anunciadas por este servicio. No equivale a una capa nueva ni a tener todas sus variantes adaptadas.",
+      "notes": "Capa consultable en el producto indicado.",
       "fields": {
         "Servicio": "Canarias · Cartografía estadística",
         "Nombre de capa": "SEC2018",
@@ -1548,12 +2051,18 @@
         "F01"
       ],
       "suggestedCategoryIds": [],
-      "status": "por_revisar",
+      "status": "integrado",
+      "mapAction": "territory:canary-cartography:DIS2018",
+      "review": {
+        "implementedProductId": "territory:canary-cartography",
+        "updatedAt": "2026-11-13",
+        "reason": "Capa representada en el producto indicado."
+      },
       "url": "https://idecan2.grafcan.es/ServicioWMS/CARTO_EST?SERVICE=WMS&REQUEST=GetCapabilities",
       "coverage": "Canarias",
       "period": "Según el producto original",
       "license": null,
-      "notes": "Inventario técnico completo de las capas anunciadas por este servicio. No equivale a una capa nueva ni a tener todas sus variantes adaptadas.",
+      "notes": "Capa consultable en el producto indicado.",
       "fields": {
         "Servicio": "Canarias · Cartografía estadística",
         "Nombre de capa": "DIS2018",
@@ -1569,12 +2078,18 @@
         "F01"
       ],
       "suggestedCategoryIds": [],
-      "status": "por_revisar",
+      "status": "integrado",
+      "mapAction": "territory:canary-cartography:SEC2017",
+      "review": {
+        "implementedProductId": "territory:canary-cartography",
+        "updatedAt": "2026-11-13",
+        "reason": "Capa representada en el producto indicado."
+      },
       "url": "https://idecan2.grafcan.es/ServicioWMS/CARTO_EST?SERVICE=WMS&REQUEST=GetCapabilities",
       "coverage": "Canarias",
       "period": "Según el producto original",
       "license": null,
-      "notes": "Inventario técnico completo de las capas anunciadas por este servicio. No equivale a una capa nueva ni a tener todas sus variantes adaptadas.",
+      "notes": "Capa consultable en el producto indicado.",
       "fields": {
         "Servicio": "Canarias · Cartografía estadística",
         "Nombre de capa": "SEC2017",
@@ -1590,12 +2105,18 @@
         "F01"
       ],
       "suggestedCategoryIds": [],
-      "status": "por_revisar",
+      "status": "integrado",
+      "mapAction": "territory:canary-cartography:DIS2017",
+      "review": {
+        "implementedProductId": "territory:canary-cartography",
+        "updatedAt": "2026-11-13",
+        "reason": "Capa representada en el producto indicado."
+      },
       "url": "https://idecan2.grafcan.es/ServicioWMS/CARTO_EST?SERVICE=WMS&REQUEST=GetCapabilities",
       "coverage": "Canarias",
       "period": "Según el producto original",
       "license": null,
-      "notes": "Inventario técnico completo de las capas anunciadas por este servicio. No equivale a una capa nueva ni a tener todas sus variantes adaptadas.",
+      "notes": "Capa consultable en el producto indicado.",
       "fields": {
         "Servicio": "Canarias · Cartografía estadística",
         "Nombre de capa": "DIS2017",
@@ -1611,12 +2132,18 @@
         "F01"
       ],
       "suggestedCategoryIds": [],
-      "status": "por_revisar",
+      "status": "integrado",
+      "mapAction": "territory:canary-cartography:SEC2016",
+      "review": {
+        "implementedProductId": "territory:canary-cartography",
+        "updatedAt": "2026-11-13",
+        "reason": "Capa representada en el producto indicado."
+      },
       "url": "https://idecan2.grafcan.es/ServicioWMS/CARTO_EST?SERVICE=WMS&REQUEST=GetCapabilities",
       "coverage": "Canarias",
       "period": "Según el producto original",
       "license": null,
-      "notes": "Inventario técnico completo de las capas anunciadas por este servicio. No equivale a una capa nueva ni a tener todas sus variantes adaptadas.",
+      "notes": "Capa consultable en el producto indicado.",
       "fields": {
         "Servicio": "Canarias · Cartografía estadística",
         "Nombre de capa": "SEC2016",
@@ -1632,12 +2159,18 @@
         "F01"
       ],
       "suggestedCategoryIds": [],
-      "status": "por_revisar",
+      "status": "integrado",
+      "mapAction": "territory:canary-cartography:DIS2016",
+      "review": {
+        "implementedProductId": "territory:canary-cartography",
+        "updatedAt": "2026-11-13",
+        "reason": "Capa representada en el producto indicado."
+      },
       "url": "https://idecan2.grafcan.es/ServicioWMS/CARTO_EST?SERVICE=WMS&REQUEST=GetCapabilities",
       "coverage": "Canarias",
       "period": "Según el producto original",
       "license": null,
-      "notes": "Inventario técnico completo de las capas anunciadas por este servicio. No equivale a una capa nueva ni a tener todas sus variantes adaptadas.",
+      "notes": "Capa consultable en el producto indicado.",
       "fields": {
         "Servicio": "Canarias · Cartografía estadística",
         "Nombre de capa": "DIS2016",
@@ -1653,12 +2186,18 @@
         "F01"
       ],
       "suggestedCategoryIds": [],
-      "status": "por_revisar",
+      "status": "integrado",
+      "mapAction": "territory:canary-cartography:SEC2015",
+      "review": {
+        "implementedProductId": "territory:canary-cartography",
+        "updatedAt": "2026-11-13",
+        "reason": "Capa representada en el producto indicado."
+      },
       "url": "https://idecan2.grafcan.es/ServicioWMS/CARTO_EST?SERVICE=WMS&REQUEST=GetCapabilities",
       "coverage": "Canarias",
       "period": "Según el producto original",
       "license": null,
-      "notes": "Inventario técnico completo de las capas anunciadas por este servicio. No equivale a una capa nueva ni a tener todas sus variantes adaptadas.",
+      "notes": "Capa consultable en el producto indicado.",
       "fields": {
         "Servicio": "Canarias · Cartografía estadística",
         "Nombre de capa": "SEC2015",
@@ -1674,12 +2213,18 @@
         "F01"
       ],
       "suggestedCategoryIds": [],
-      "status": "por_revisar",
+      "status": "integrado",
+      "mapAction": "territory:canary-cartography:DIS2015",
+      "review": {
+        "implementedProductId": "territory:canary-cartography",
+        "updatedAt": "2026-11-13",
+        "reason": "Capa representada en el producto indicado."
+      },
       "url": "https://idecan2.grafcan.es/ServicioWMS/CARTO_EST?SERVICE=WMS&REQUEST=GetCapabilities",
       "coverage": "Canarias",
       "period": "Según el producto original",
       "license": null,
-      "notes": "Inventario técnico completo de las capas anunciadas por este servicio. No equivale a una capa nueva ni a tener todas sus variantes adaptadas.",
+      "notes": "Capa consultable en el producto indicado.",
       "fields": {
         "Servicio": "Canarias · Cartografía estadística",
         "Nombre de capa": "DIS2015",
@@ -1695,12 +2240,18 @@
         "F01"
       ],
       "suggestedCategoryIds": [],
-      "status": "por_revisar",
+      "status": "integrado",
+      "mapAction": "territory:canary-cartography:SEC2014",
+      "review": {
+        "implementedProductId": "territory:canary-cartography",
+        "updatedAt": "2026-11-13",
+        "reason": "Capa representada en el producto indicado."
+      },
       "url": "https://idecan2.grafcan.es/ServicioWMS/CARTO_EST?SERVICE=WMS&REQUEST=GetCapabilities",
       "coverage": "Canarias",
       "period": "Según el producto original",
       "license": null,
-      "notes": "Inventario técnico completo de las capas anunciadas por este servicio. No equivale a una capa nueva ni a tener todas sus variantes adaptadas.",
+      "notes": "Capa consultable en el producto indicado.",
       "fields": {
         "Servicio": "Canarias · Cartografía estadística",
         "Nombre de capa": "SEC2014",
@@ -1716,12 +2267,18 @@
         "F01"
       ],
       "suggestedCategoryIds": [],
-      "status": "por_revisar",
+      "status": "integrado",
+      "mapAction": "territory:canary-cartography:DIS2014",
+      "review": {
+        "implementedProductId": "territory:canary-cartography",
+        "updatedAt": "2026-11-13",
+        "reason": "Capa representada en el producto indicado."
+      },
       "url": "https://idecan2.grafcan.es/ServicioWMS/CARTO_EST?SERVICE=WMS&REQUEST=GetCapabilities",
       "coverage": "Canarias",
       "period": "Según el producto original",
       "license": null,
-      "notes": "Inventario técnico completo de las capas anunciadas por este servicio. No equivale a una capa nueva ni a tener todas sus variantes adaptadas.",
+      "notes": "Capa consultable en el producto indicado.",
       "fields": {
         "Servicio": "Canarias · Cartografía estadística",
         "Nombre de capa": "DIS2014",
@@ -1737,12 +2294,18 @@
         "F01"
       ],
       "suggestedCategoryIds": [],
-      "status": "por_revisar",
+      "status": "integrado",
+      "mapAction": "territory:canary-cartography:SEC2013",
+      "review": {
+        "implementedProductId": "territory:canary-cartography",
+        "updatedAt": "2026-11-13",
+        "reason": "Capa representada en el producto indicado."
+      },
       "url": "https://idecan2.grafcan.es/ServicioWMS/CARTO_EST?SERVICE=WMS&REQUEST=GetCapabilities",
       "coverage": "Canarias",
       "period": "Según el producto original",
       "license": null,
-      "notes": "Inventario técnico completo de las capas anunciadas por este servicio. No equivale a una capa nueva ni a tener todas sus variantes adaptadas.",
+      "notes": "Capa consultable en el producto indicado.",
       "fields": {
         "Servicio": "Canarias · Cartografía estadística",
         "Nombre de capa": "SEC2013",
@@ -1758,12 +2321,18 @@
         "F01"
       ],
       "suggestedCategoryIds": [],
-      "status": "por_revisar",
+      "status": "integrado",
+      "mapAction": "territory:canary-cartography:DIS2013",
+      "review": {
+        "implementedProductId": "territory:canary-cartography",
+        "updatedAt": "2026-11-13",
+        "reason": "Capa representada en el producto indicado."
+      },
       "url": "https://idecan2.grafcan.es/ServicioWMS/CARTO_EST?SERVICE=WMS&REQUEST=GetCapabilities",
       "coverage": "Canarias",
       "period": "Según el producto original",
       "license": null,
-      "notes": "Inventario técnico completo de las capas anunciadas por este servicio. No equivale a una capa nueva ni a tener todas sus variantes adaptadas.",
+      "notes": "Capa consultable en el producto indicado.",
       "fields": {
         "Servicio": "Canarias · Cartografía estadística",
         "Nombre de capa": "DIS2013",
@@ -1779,12 +2348,18 @@
         "F01"
       ],
       "suggestedCategoryIds": [],
-      "status": "por_revisar",
+      "status": "integrado",
+      "mapAction": "territory:canary-cartography:SEC2012",
+      "review": {
+        "implementedProductId": "territory:canary-cartography",
+        "updatedAt": "2026-11-13",
+        "reason": "Capa representada en el producto indicado."
+      },
       "url": "https://idecan2.grafcan.es/ServicioWMS/CARTO_EST?SERVICE=WMS&REQUEST=GetCapabilities",
       "coverage": "Canarias",
       "period": "Según el producto original",
       "license": null,
-      "notes": "Inventario técnico completo de las capas anunciadas por este servicio. No equivale a una capa nueva ni a tener todas sus variantes adaptadas.",
+      "notes": "Capa consultable en el producto indicado.",
       "fields": {
         "Servicio": "Canarias · Cartografía estadística",
         "Nombre de capa": "SEC2012",
@@ -1800,12 +2375,18 @@
         "F01"
       ],
       "suggestedCategoryIds": [],
-      "status": "por_revisar",
+      "status": "integrado",
+      "mapAction": "territory:canary-cartography:DIS2012",
+      "review": {
+        "implementedProductId": "territory:canary-cartography",
+        "updatedAt": "2026-11-13",
+        "reason": "Capa representada en el producto indicado."
+      },
       "url": "https://idecan2.grafcan.es/ServicioWMS/CARTO_EST?SERVICE=WMS&REQUEST=GetCapabilities",
       "coverage": "Canarias",
       "period": "Según el producto original",
       "license": null,
-      "notes": "Inventario técnico completo de las capas anunciadas por este servicio. No equivale a una capa nueva ni a tener todas sus variantes adaptadas.",
+      "notes": "Capa consultable en el producto indicado.",
       "fields": {
         "Servicio": "Canarias · Cartografía estadística",
         "Nombre de capa": "DIS2012",
@@ -1821,12 +2402,18 @@
         "F01"
       ],
       "suggestedCategoryIds": [],
-      "status": "por_revisar",
+      "status": "integrado",
+      "mapAction": "territory:canary-cartography:SEC2011",
+      "review": {
+        "implementedProductId": "territory:canary-cartography",
+        "updatedAt": "2026-11-13",
+        "reason": "Capa representada en el producto indicado."
+      },
       "url": "https://idecan2.grafcan.es/ServicioWMS/CARTO_EST?SERVICE=WMS&REQUEST=GetCapabilities",
       "coverage": "Canarias",
       "period": "Según el producto original",
       "license": null,
-      "notes": "Inventario técnico completo de las capas anunciadas por este servicio. No equivale a una capa nueva ni a tener todas sus variantes adaptadas.",
+      "notes": "Capa consultable en el producto indicado.",
       "fields": {
         "Servicio": "Canarias · Cartografía estadística",
         "Nombre de capa": "SEC2011",
@@ -1842,12 +2429,18 @@
         "F01"
       ],
       "suggestedCategoryIds": [],
-      "status": "por_revisar",
+      "status": "integrado",
+      "mapAction": "territory:canary-cartography:DIS2011",
+      "review": {
+        "implementedProductId": "territory:canary-cartography",
+        "updatedAt": "2026-11-13",
+        "reason": "Capa representada en el producto indicado."
+      },
       "url": "https://idecan2.grafcan.es/ServicioWMS/CARTO_EST?SERVICE=WMS&REQUEST=GetCapabilities",
       "coverage": "Canarias",
       "period": "Según el producto original",
       "license": null,
-      "notes": "Inventario técnico completo de las capas anunciadas por este servicio. No equivale a una capa nueva ni a tener todas sus variantes adaptadas.",
+      "notes": "Capa consultable en el producto indicado.",
       "fields": {
         "Servicio": "Canarias · Cartografía estadística",
         "Nombre de capa": "DIS2011",
@@ -1863,12 +2456,18 @@
         "F01"
       ],
       "suggestedCategoryIds": [],
-      "status": "por_revisar",
+      "status": "integrado",
+      "mapAction": "territory:canary-cartography:SEC2010",
+      "review": {
+        "implementedProductId": "territory:canary-cartography",
+        "updatedAt": "2026-11-13",
+        "reason": "Capa representada en el producto indicado."
+      },
       "url": "https://idecan2.grafcan.es/ServicioWMS/CARTO_EST?SERVICE=WMS&REQUEST=GetCapabilities",
       "coverage": "Canarias",
       "period": "Según el producto original",
       "license": null,
-      "notes": "Inventario técnico completo de las capas anunciadas por este servicio. No equivale a una capa nueva ni a tener todas sus variantes adaptadas.",
+      "notes": "Capa consultable en el producto indicado.",
       "fields": {
         "Servicio": "Canarias · Cartografía estadística",
         "Nombre de capa": "SEC2010",
@@ -1884,12 +2483,18 @@
         "F01"
       ],
       "suggestedCategoryIds": [],
-      "status": "por_revisar",
+      "status": "integrado",
+      "mapAction": "territory:canary-cartography:DIS2010",
+      "review": {
+        "implementedProductId": "territory:canary-cartography",
+        "updatedAt": "2026-11-13",
+        "reason": "Capa representada en el producto indicado."
+      },
       "url": "https://idecan2.grafcan.es/ServicioWMS/CARTO_EST?SERVICE=WMS&REQUEST=GetCapabilities",
       "coverage": "Canarias",
       "period": "Según el producto original",
       "license": null,
-      "notes": "Inventario técnico completo de las capas anunciadas por este servicio. No equivale a una capa nueva ni a tener todas sus variantes adaptadas.",
+      "notes": "Capa consultable en el producto indicado.",
       "fields": {
         "Servicio": "Canarias · Cartografía estadística",
         "Nombre de capa": "DIS2010",
@@ -1905,12 +2510,18 @@
         "F01"
       ],
       "suggestedCategoryIds": [],
-      "status": "por_revisar",
+      "status": "integrado",
+      "mapAction": "territory:canary-cartography:SEC2009",
+      "review": {
+        "implementedProductId": "territory:canary-cartography",
+        "updatedAt": "2026-11-13",
+        "reason": "Capa representada en el producto indicado."
+      },
       "url": "https://idecan2.grafcan.es/ServicioWMS/CARTO_EST?SERVICE=WMS&REQUEST=GetCapabilities",
       "coverage": "Canarias",
       "period": "Según el producto original",
       "license": null,
-      "notes": "Inventario técnico completo de las capas anunciadas por este servicio. No equivale a una capa nueva ni a tener todas sus variantes adaptadas.",
+      "notes": "Capa consultable en el producto indicado.",
       "fields": {
         "Servicio": "Canarias · Cartografía estadística",
         "Nombre de capa": "SEC2009",
@@ -1926,12 +2537,18 @@
         "F01"
       ],
       "suggestedCategoryIds": [],
-      "status": "por_revisar",
+      "status": "integrado",
+      "mapAction": "territory:canary-cartography:DIS2009",
+      "review": {
+        "implementedProductId": "territory:canary-cartography",
+        "updatedAt": "2026-11-13",
+        "reason": "Capa representada en el producto indicado."
+      },
       "url": "https://idecan2.grafcan.es/ServicioWMS/CARTO_EST?SERVICE=WMS&REQUEST=GetCapabilities",
       "coverage": "Canarias",
       "period": "Según el producto original",
       "license": null,
-      "notes": "Inventario técnico completo de las capas anunciadas por este servicio. No equivale a una capa nueva ni a tener todas sus variantes adaptadas.",
+      "notes": "Capa consultable en el producto indicado.",
       "fields": {
         "Servicio": "Canarias · Cartografía estadística",
         "Nombre de capa": "DIS2009",
@@ -1947,12 +2564,18 @@
         "F01"
       ],
       "suggestedCategoryIds": [],
-      "status": "por_revisar",
+      "status": "integrado",
+      "mapAction": "territory:canary-cartography:SEC2008",
+      "review": {
+        "implementedProductId": "territory:canary-cartography",
+        "updatedAt": "2026-11-13",
+        "reason": "Capa representada en el producto indicado."
+      },
       "url": "https://idecan2.grafcan.es/ServicioWMS/CARTO_EST?SERVICE=WMS&REQUEST=GetCapabilities",
       "coverage": "Canarias",
       "period": "Según el producto original",
       "license": null,
-      "notes": "Inventario técnico completo de las capas anunciadas por este servicio. No equivale a una capa nueva ni a tener todas sus variantes adaptadas.",
+      "notes": "Capa consultable en el producto indicado.",
       "fields": {
         "Servicio": "Canarias · Cartografía estadística",
         "Nombre de capa": "SEC2008",
@@ -1968,12 +2591,18 @@
         "F01"
       ],
       "suggestedCategoryIds": [],
-      "status": "por_revisar",
+      "status": "integrado",
+      "mapAction": "territory:canary-cartography:DIS2008",
+      "review": {
+        "implementedProductId": "territory:canary-cartography",
+        "updatedAt": "2026-11-13",
+        "reason": "Capa representada en el producto indicado."
+      },
       "url": "https://idecan2.grafcan.es/ServicioWMS/CARTO_EST?SERVICE=WMS&REQUEST=GetCapabilities",
       "coverage": "Canarias",
       "period": "Según el producto original",
       "license": null,
-      "notes": "Inventario técnico completo de las capas anunciadas por este servicio. No equivale a una capa nueva ni a tener todas sus variantes adaptadas.",
+      "notes": "Capa consultable en el producto indicado.",
       "fields": {
         "Servicio": "Canarias · Cartografía estadística",
         "Nombre de capa": "DIS2008",
@@ -1989,12 +2618,18 @@
         "F01"
       ],
       "suggestedCategoryIds": [],
-      "status": "por_revisar",
+      "status": "integrado",
+      "mapAction": "territory:canary-cartography:SEC2007",
+      "review": {
+        "implementedProductId": "territory:canary-cartography",
+        "updatedAt": "2026-11-13",
+        "reason": "Capa representada en el producto indicado."
+      },
       "url": "https://idecan2.grafcan.es/ServicioWMS/CARTO_EST?SERVICE=WMS&REQUEST=GetCapabilities",
       "coverage": "Canarias",
       "period": "Según el producto original",
       "license": null,
-      "notes": "Inventario técnico completo de las capas anunciadas por este servicio. No equivale a una capa nueva ni a tener todas sus variantes adaptadas.",
+      "notes": "Capa consultable en el producto indicado.",
       "fields": {
         "Servicio": "Canarias · Cartografía estadística",
         "Nombre de capa": "SEC2007",
@@ -2010,12 +2645,18 @@
         "F01"
       ],
       "suggestedCategoryIds": [],
-      "status": "por_revisar",
+      "status": "integrado",
+      "mapAction": "territory:canary-cartography:DIS2007",
+      "review": {
+        "implementedProductId": "territory:canary-cartography",
+        "updatedAt": "2026-11-13",
+        "reason": "Capa representada en el producto indicado."
+      },
       "url": "https://idecan2.grafcan.es/ServicioWMS/CARTO_EST?SERVICE=WMS&REQUEST=GetCapabilities",
       "coverage": "Canarias",
       "period": "Según el producto original",
       "license": null,
-      "notes": "Inventario técnico completo de las capas anunciadas por este servicio. No equivale a una capa nueva ni a tener todas sus variantes adaptadas.",
+      "notes": "Capa consultable en el producto indicado.",
       "fields": {
         "Servicio": "Canarias · Cartografía estadística",
         "Nombre de capa": "DIS2007",
@@ -2031,12 +2672,18 @@
         "F01"
       ],
       "suggestedCategoryIds": [],
-      "status": "por_revisar",
+      "status": "integrado",
+      "mapAction": "territory:canary-cartography:SEC2006",
+      "review": {
+        "implementedProductId": "territory:canary-cartography",
+        "updatedAt": "2026-11-13",
+        "reason": "Capa representada en el producto indicado."
+      },
       "url": "https://idecan2.grafcan.es/ServicioWMS/CARTO_EST?SERVICE=WMS&REQUEST=GetCapabilities",
       "coverage": "Canarias",
       "period": "Según el producto original",
       "license": null,
-      "notes": "Inventario técnico completo de las capas anunciadas por este servicio. No equivale a una capa nueva ni a tener todas sus variantes adaptadas.",
+      "notes": "Capa consultable en el producto indicado.",
       "fields": {
         "Servicio": "Canarias · Cartografía estadística",
         "Nombre de capa": "SEC2006",
@@ -2052,12 +2699,18 @@
         "F01"
       ],
       "suggestedCategoryIds": [],
-      "status": "por_revisar",
+      "status": "integrado",
+      "mapAction": "territory:canary-cartography:DIS2006",
+      "review": {
+        "implementedProductId": "territory:canary-cartography",
+        "updatedAt": "2026-11-13",
+        "reason": "Capa representada en el producto indicado."
+      },
       "url": "https://idecan2.grafcan.es/ServicioWMS/CARTO_EST?SERVICE=WMS&REQUEST=GetCapabilities",
       "coverage": "Canarias",
       "period": "Según el producto original",
       "license": null,
-      "notes": "Inventario técnico completo de las capas anunciadas por este servicio. No equivale a una capa nueva ni a tener todas sus variantes adaptadas.",
+      "notes": "Capa consultable en el producto indicado.",
       "fields": {
         "Servicio": "Canarias · Cartografía estadística",
         "Nombre de capa": "DIS2006",
@@ -2073,12 +2726,18 @@
         "F01"
       ],
       "suggestedCategoryIds": [],
-      "status": "por_revisar",
+      "status": "integrado",
+      "mapAction": "territory:canary-cartography:SEC2005",
+      "review": {
+        "implementedProductId": "territory:canary-cartography",
+        "updatedAt": "2026-11-13",
+        "reason": "Capa representada en el producto indicado."
+      },
       "url": "https://idecan2.grafcan.es/ServicioWMS/CARTO_EST?SERVICE=WMS&REQUEST=GetCapabilities",
       "coverage": "Canarias",
       "period": "Según el producto original",
       "license": null,
-      "notes": "Inventario técnico completo de las capas anunciadas por este servicio. No equivale a una capa nueva ni a tener todas sus variantes adaptadas.",
+      "notes": "Capa consultable en el producto indicado.",
       "fields": {
         "Servicio": "Canarias · Cartografía estadística",
         "Nombre de capa": "SEC2005",
@@ -2094,12 +2753,18 @@
         "F01"
       ],
       "suggestedCategoryIds": [],
-      "status": "por_revisar",
+      "status": "integrado",
+      "mapAction": "territory:canary-cartography:DIS2005",
+      "review": {
+        "implementedProductId": "territory:canary-cartography",
+        "updatedAt": "2026-11-13",
+        "reason": "Capa representada en el producto indicado."
+      },
       "url": "https://idecan2.grafcan.es/ServicioWMS/CARTO_EST?SERVICE=WMS&REQUEST=GetCapabilities",
       "coverage": "Canarias",
       "period": "Según el producto original",
       "license": null,
-      "notes": "Inventario técnico completo de las capas anunciadas por este servicio. No equivale a una capa nueva ni a tener todas sus variantes adaptadas.",
+      "notes": "Capa consultable en el producto indicado.",
       "fields": {
         "Servicio": "Canarias · Cartografía estadística",
         "Nombre de capa": "DIS2005",
@@ -2115,12 +2780,18 @@
         "F01"
       ],
       "suggestedCategoryIds": [],
-      "status": "por_revisar",
+      "status": "integrado",
+      "mapAction": "territory:canary-cartography:SEC2004",
+      "review": {
+        "implementedProductId": "territory:canary-cartography",
+        "updatedAt": "2026-11-13",
+        "reason": "Capa representada en el producto indicado."
+      },
       "url": "https://idecan2.grafcan.es/ServicioWMS/CARTO_EST?SERVICE=WMS&REQUEST=GetCapabilities",
       "coverage": "Canarias",
       "period": "Según el producto original",
       "license": null,
-      "notes": "Inventario técnico completo de las capas anunciadas por este servicio. No equivale a una capa nueva ni a tener todas sus variantes adaptadas.",
+      "notes": "Capa consultable en el producto indicado.",
       "fields": {
         "Servicio": "Canarias · Cartografía estadística",
         "Nombre de capa": "SEC2004",
@@ -2136,12 +2807,18 @@
         "F01"
       ],
       "suggestedCategoryIds": [],
-      "status": "por_revisar",
+      "status": "integrado",
+      "mapAction": "territory:canary-cartography:DIS2004",
+      "review": {
+        "implementedProductId": "territory:canary-cartography",
+        "updatedAt": "2026-11-13",
+        "reason": "Capa representada en el producto indicado."
+      },
       "url": "https://idecan2.grafcan.es/ServicioWMS/CARTO_EST?SERVICE=WMS&REQUEST=GetCapabilities",
       "coverage": "Canarias",
       "period": "Según el producto original",
       "license": null,
-      "notes": "Inventario técnico completo de las capas anunciadas por este servicio. No equivale a una capa nueva ni a tener todas sus variantes adaptadas.",
+      "notes": "Capa consultable en el producto indicado.",
       "fields": {
         "Servicio": "Canarias · Cartografía estadística",
         "Nombre de capa": "DIS2004",
@@ -2157,12 +2834,18 @@
         "F01"
       ],
       "suggestedCategoryIds": [],
-      "status": "por_revisar",
+      "status": "integrado",
+      "mapAction": "territory:canary-cartography:SEC20190428_EG",
+      "review": {
+        "implementedProductId": "territory:canary-cartography",
+        "updatedAt": "2026-11-13",
+        "reason": "Capa representada en el producto indicado."
+      },
       "url": "https://idecan2.grafcan.es/ServicioWMS/CARTO_EST?SERVICE=WMS&REQUEST=GetCapabilities",
       "coverage": "Canarias",
       "period": "Según el producto original",
       "license": null,
-      "notes": "Inventario técnico completo de las capas anunciadas por este servicio. No equivale a una capa nueva ni a tener todas sus variantes adaptadas.",
+      "notes": "Capa consultable en el producto indicado.",
       "fields": {
         "Servicio": "Canarias · Cartografía estadística",
         "Nombre de capa": "SEC20190428_EG",
@@ -2178,12 +2861,18 @@
         "F01"
       ],
       "suggestedCategoryIds": [],
-      "status": "por_revisar",
+      "status": "integrado",
+      "mapAction": "territory:canary-cartography:DIS20190428_EG",
+      "review": {
+        "implementedProductId": "territory:canary-cartography",
+        "updatedAt": "2026-11-13",
+        "reason": "Capa representada en el producto indicado."
+      },
       "url": "https://idecan2.grafcan.es/ServicioWMS/CARTO_EST?SERVICE=WMS&REQUEST=GetCapabilities",
       "coverage": "Canarias",
       "period": "Según el producto original",
       "license": null,
-      "notes": "Inventario técnico completo de las capas anunciadas por este servicio. No equivale a una capa nueva ni a tener todas sus variantes adaptadas.",
+      "notes": "Capa consultable en el producto indicado.",
       "fields": {
         "Servicio": "Canarias · Cartografía estadística",
         "Nombre de capa": "DIS20190428_EG",
@@ -2199,12 +2888,18 @@
         "F01"
       ],
       "suggestedCategoryIds": [],
-      "status": "por_revisar",
+      "status": "integrado",
+      "mapAction": "territory:canary-cartography:SEC20160626_EG",
+      "review": {
+        "implementedProductId": "territory:canary-cartography",
+        "updatedAt": "2026-11-13",
+        "reason": "Capa representada en el producto indicado."
+      },
       "url": "https://idecan2.grafcan.es/ServicioWMS/CARTO_EST?SERVICE=WMS&REQUEST=GetCapabilities",
       "coverage": "Canarias",
       "period": "Según el producto original",
       "license": null,
-      "notes": "Inventario técnico completo de las capas anunciadas por este servicio. No equivale a una capa nueva ni a tener todas sus variantes adaptadas.",
+      "notes": "Capa consultable en el producto indicado.",
       "fields": {
         "Servicio": "Canarias · Cartografía estadística",
         "Nombre de capa": "SEC20160626_EG",
@@ -2220,12 +2915,18 @@
         "F01"
       ],
       "suggestedCategoryIds": [],
-      "status": "por_revisar",
+      "status": "integrado",
+      "mapAction": "territory:canary-cartography:DIS20160626_EG",
+      "review": {
+        "implementedProductId": "territory:canary-cartography",
+        "updatedAt": "2026-11-13",
+        "reason": "Capa representada en el producto indicado."
+      },
       "url": "https://idecan2.grafcan.es/ServicioWMS/CARTO_EST?SERVICE=WMS&REQUEST=GetCapabilities",
       "coverage": "Canarias",
       "period": "Según el producto original",
       "license": null,
-      "notes": "Inventario técnico completo de las capas anunciadas por este servicio. No equivale a una capa nueva ni a tener todas sus variantes adaptadas.",
+      "notes": "Capa consultable en el producto indicado.",
       "fields": {
         "Servicio": "Canarias · Cartografía estadística",
         "Nombre de capa": "DIS20160626_EG",
@@ -2241,12 +2942,18 @@
         "F01"
       ],
       "suggestedCategoryIds": [],
-      "status": "por_revisar",
+      "status": "integrado",
+      "mapAction": "territory:canary-cartography:SEC20151220_EG",
+      "review": {
+        "implementedProductId": "territory:canary-cartography",
+        "updatedAt": "2026-11-13",
+        "reason": "Capa representada en el producto indicado."
+      },
       "url": "https://idecan2.grafcan.es/ServicioWMS/CARTO_EST?SERVICE=WMS&REQUEST=GetCapabilities",
       "coverage": "Canarias",
       "period": "Según el producto original",
       "license": null,
-      "notes": "Inventario técnico completo de las capas anunciadas por este servicio. No equivale a una capa nueva ni a tener todas sus variantes adaptadas.",
+      "notes": "Capa consultable en el producto indicado.",
       "fields": {
         "Servicio": "Canarias · Cartografía estadística",
         "Nombre de capa": "SEC20151220_EG",
@@ -2262,12 +2969,18 @@
         "F01"
       ],
       "suggestedCategoryIds": [],
-      "status": "por_revisar",
+      "status": "integrado",
+      "mapAction": "territory:canary-cartography:DIS20151220_EG",
+      "review": {
+        "implementedProductId": "territory:canary-cartography",
+        "updatedAt": "2026-11-13",
+        "reason": "Capa representada en el producto indicado."
+      },
       "url": "https://idecan2.grafcan.es/ServicioWMS/CARTO_EST?SERVICE=WMS&REQUEST=GetCapabilities",
       "coverage": "Canarias",
       "period": "Según el producto original",
       "license": null,
-      "notes": "Inventario técnico completo de las capas anunciadas por este servicio. No equivale a una capa nueva ni a tener todas sus variantes adaptadas.",
+      "notes": "Capa consultable en el producto indicado.",
       "fields": {
         "Servicio": "Canarias · Cartografía estadística",
         "Nombre de capa": "DIS20151220_EG",
@@ -2283,12 +2996,18 @@
         "F01"
       ],
       "suggestedCategoryIds": [],
-      "status": "por_revisar",
+      "status": "integrado",
+      "mapAction": "territory:canary-cartography:SEC20150524_EL",
+      "review": {
+        "implementedProductId": "territory:canary-cartography",
+        "updatedAt": "2026-11-13",
+        "reason": "Capa representada en el producto indicado."
+      },
       "url": "https://idecan2.grafcan.es/ServicioWMS/CARTO_EST?SERVICE=WMS&REQUEST=GetCapabilities",
       "coverage": "Canarias",
       "period": "Según el producto original",
       "license": null,
-      "notes": "Inventario técnico completo de las capas anunciadas por este servicio. No equivale a una capa nueva ni a tener todas sus variantes adaptadas.",
+      "notes": "Capa consultable en el producto indicado.",
       "fields": {
         "Servicio": "Canarias · Cartografía estadística",
         "Nombre de capa": "SEC20150524_EL",
@@ -2304,12 +3023,18 @@
         "F01"
       ],
       "suggestedCategoryIds": [],
-      "status": "por_revisar",
+      "status": "integrado",
+      "mapAction": "territory:canary-cartography:DIS20150524_EL",
+      "review": {
+        "implementedProductId": "territory:canary-cartography",
+        "updatedAt": "2026-11-13",
+        "reason": "Capa representada en el producto indicado."
+      },
       "url": "https://idecan2.grafcan.es/ServicioWMS/CARTO_EST?SERVICE=WMS&REQUEST=GetCapabilities",
       "coverage": "Canarias",
       "period": "Según el producto original",
       "license": null,
-      "notes": "Inventario técnico completo de las capas anunciadas por este servicio. No equivale a una capa nueva ni a tener todas sus variantes adaptadas.",
+      "notes": "Capa consultable en el producto indicado.",
       "fields": {
         "Servicio": "Canarias · Cartografía estadística",
         "Nombre de capa": "DIS20150524_EL",
@@ -2325,12 +3050,18 @@
         "F01"
       ],
       "suggestedCategoryIds": [],
-      "status": "por_revisar",
+      "status": "integrado",
+      "mapAction": "territory:canary-cartography:SEC20140525_EE",
+      "review": {
+        "implementedProductId": "territory:canary-cartography",
+        "updatedAt": "2026-11-13",
+        "reason": "Capa representada en el producto indicado."
+      },
       "url": "https://idecan2.grafcan.es/ServicioWMS/CARTO_EST?SERVICE=WMS&REQUEST=GetCapabilities",
       "coverage": "Canarias",
       "period": "Según el producto original",
       "license": null,
-      "notes": "Inventario técnico completo de las capas anunciadas por este servicio. No equivale a una capa nueva ni a tener todas sus variantes adaptadas.",
+      "notes": "Capa consultable en el producto indicado.",
       "fields": {
         "Servicio": "Canarias · Cartografía estadística",
         "Nombre de capa": "SEC20140525_EE",
@@ -2346,12 +3077,18 @@
         "F01"
       ],
       "suggestedCategoryIds": [],
-      "status": "por_revisar",
+      "status": "integrado",
+      "mapAction": "territory:canary-cartography:DIS20140525_EE",
+      "review": {
+        "implementedProductId": "territory:canary-cartography",
+        "updatedAt": "2026-11-13",
+        "reason": "Capa representada en el producto indicado."
+      },
       "url": "https://idecan2.grafcan.es/ServicioWMS/CARTO_EST?SERVICE=WMS&REQUEST=GetCapabilities",
       "coverage": "Canarias",
       "period": "Según el producto original",
       "license": null,
-      "notes": "Inventario técnico completo de las capas anunciadas por este servicio. No equivale a una capa nueva ni a tener todas sus variantes adaptadas.",
+      "notes": "Capa consultable en el producto indicado.",
       "fields": {
         "Servicio": "Canarias · Cartografía estadística",
         "Nombre de capa": "DIS20140525_EE",
@@ -2367,12 +3104,18 @@
         "F01"
       ],
       "suggestedCategoryIds": [],
-      "status": "por_revisar",
+      "status": "integrado",
+      "mapAction": "territory:canary-cartography:SEC20111120_EG",
+      "review": {
+        "implementedProductId": "territory:canary-cartography",
+        "updatedAt": "2026-11-13",
+        "reason": "Capa representada en el producto indicado."
+      },
       "url": "https://idecan2.grafcan.es/ServicioWMS/CARTO_EST?SERVICE=WMS&REQUEST=GetCapabilities",
       "coverage": "Canarias",
       "period": "Según el producto original",
       "license": null,
-      "notes": "Inventario técnico completo de las capas anunciadas por este servicio. No equivale a una capa nueva ni a tener todas sus variantes adaptadas.",
+      "notes": "Capa consultable en el producto indicado.",
       "fields": {
         "Servicio": "Canarias · Cartografía estadística",
         "Nombre de capa": "SEC20111120_EG",
@@ -2388,12 +3131,18 @@
         "F01"
       ],
       "suggestedCategoryIds": [],
-      "status": "por_revisar",
+      "status": "integrado",
+      "mapAction": "territory:canary-cartography:DIS20111120_EG",
+      "review": {
+        "implementedProductId": "territory:canary-cartography",
+        "updatedAt": "2026-11-13",
+        "reason": "Capa representada en el producto indicado."
+      },
       "url": "https://idecan2.grafcan.es/ServicioWMS/CARTO_EST?SERVICE=WMS&REQUEST=GetCapabilities",
       "coverage": "Canarias",
       "period": "Según el producto original",
       "license": null,
-      "notes": "Inventario técnico completo de las capas anunciadas por este servicio. No equivale a una capa nueva ni a tener todas sus variantes adaptadas.",
+      "notes": "Capa consultable en el producto indicado.",
       "fields": {
         "Servicio": "Canarias · Cartografía estadística",
         "Nombre de capa": "DIS20111120_EG",
@@ -2409,12 +3158,18 @@
         "F01"
       ],
       "suggestedCategoryIds": [],
-      "status": "por_revisar",
+      "status": "integrado",
+      "mapAction": "territory:canary-cartography:SEC20110522_EL",
+      "review": {
+        "implementedProductId": "territory:canary-cartography",
+        "updatedAt": "2026-11-13",
+        "reason": "Capa representada en el producto indicado."
+      },
       "url": "https://idecan2.grafcan.es/ServicioWMS/CARTO_EST?SERVICE=WMS&REQUEST=GetCapabilities",
       "coverage": "Canarias",
       "period": "Según el producto original",
       "license": null,
-      "notes": "Inventario técnico completo de las capas anunciadas por este servicio. No equivale a una capa nueva ni a tener todas sus variantes adaptadas.",
+      "notes": "Capa consultable en el producto indicado.",
       "fields": {
         "Servicio": "Canarias · Cartografía estadística",
         "Nombre de capa": "SEC20110522_EL",
@@ -2430,12 +3185,18 @@
         "F01"
       ],
       "suggestedCategoryIds": [],
-      "status": "por_revisar",
+      "status": "integrado",
+      "mapAction": "territory:canary-cartography:DIS20110522_EL",
+      "review": {
+        "implementedProductId": "territory:canary-cartography",
+        "updatedAt": "2026-11-13",
+        "reason": "Capa representada en el producto indicado."
+      },
       "url": "https://idecan2.grafcan.es/ServicioWMS/CARTO_EST?SERVICE=WMS&REQUEST=GetCapabilities",
       "coverage": "Canarias",
       "period": "Según el producto original",
       "license": null,
-      "notes": "Inventario técnico completo de las capas anunciadas por este servicio. No equivale a una capa nueva ni a tener todas sus variantes adaptadas.",
+      "notes": "Capa consultable en el producto indicado.",
       "fields": {
         "Servicio": "Canarias · Cartografía estadística",
         "Nombre de capa": "DIS20110522_EL",
@@ -2451,12 +3212,18 @@
         "F01"
       ],
       "suggestedCategoryIds": [],
-      "status": "por_revisar",
+      "status": "integrado",
+      "mapAction": "territory:canary-cartography:SEC20090607_EE",
+      "review": {
+        "implementedProductId": "territory:canary-cartography",
+        "updatedAt": "2026-11-13",
+        "reason": "Capa representada en el producto indicado."
+      },
       "url": "https://idecan2.grafcan.es/ServicioWMS/CARTO_EST?SERVICE=WMS&REQUEST=GetCapabilities",
       "coverage": "Canarias",
       "period": "Según el producto original",
       "license": null,
-      "notes": "Inventario técnico completo de las capas anunciadas por este servicio. No equivale a una capa nueva ni a tener todas sus variantes adaptadas.",
+      "notes": "Capa consultable en el producto indicado.",
       "fields": {
         "Servicio": "Canarias · Cartografía estadística",
         "Nombre de capa": "SEC20090607_EE",
@@ -2472,12 +3239,18 @@
         "F01"
       ],
       "suggestedCategoryIds": [],
-      "status": "por_revisar",
+      "status": "integrado",
+      "mapAction": "territory:canary-cartography:DIS20090607_EE",
+      "review": {
+        "implementedProductId": "territory:canary-cartography",
+        "updatedAt": "2026-11-13",
+        "reason": "Capa representada en el producto indicado."
+      },
       "url": "https://idecan2.grafcan.es/ServicioWMS/CARTO_EST?SERVICE=WMS&REQUEST=GetCapabilities",
       "coverage": "Canarias",
       "period": "Según el producto original",
       "license": null,
-      "notes": "Inventario técnico completo de las capas anunciadas por este servicio. No equivale a una capa nueva ni a tener todas sus variantes adaptadas.",
+      "notes": "Capa consultable en el producto indicado.",
       "fields": {
         "Servicio": "Canarias · Cartografía estadística",
         "Nombre de capa": "DIS20090607_EE",
@@ -2493,12 +3266,18 @@
         "F01"
       ],
       "suggestedCategoryIds": [],
-      "status": "por_revisar",
+      "status": "integrado",
+      "mapAction": "territory:canary-cartography:SEC20080309_EG",
+      "review": {
+        "implementedProductId": "territory:canary-cartography",
+        "updatedAt": "2026-11-13",
+        "reason": "Capa representada en el producto indicado."
+      },
       "url": "https://idecan2.grafcan.es/ServicioWMS/CARTO_EST?SERVICE=WMS&REQUEST=GetCapabilities",
       "coverage": "Canarias",
       "period": "Según el producto original",
       "license": null,
-      "notes": "Inventario técnico completo de las capas anunciadas por este servicio. No equivale a una capa nueva ni a tener todas sus variantes adaptadas.",
+      "notes": "Capa consultable en el producto indicado.",
       "fields": {
         "Servicio": "Canarias · Cartografía estadística",
         "Nombre de capa": "SEC20080309_EG",
@@ -2514,12 +3293,18 @@
         "F01"
       ],
       "suggestedCategoryIds": [],
-      "status": "por_revisar",
+      "status": "integrado",
+      "mapAction": "territory:canary-cartography:DIS20080309_EG",
+      "review": {
+        "implementedProductId": "territory:canary-cartography",
+        "updatedAt": "2026-11-13",
+        "reason": "Capa representada en el producto indicado."
+      },
       "url": "https://idecan2.grafcan.es/ServicioWMS/CARTO_EST?SERVICE=WMS&REQUEST=GetCapabilities",
       "coverage": "Canarias",
       "period": "Según el producto original",
       "license": null,
-      "notes": "Inventario técnico completo de las capas anunciadas por este servicio. No equivale a una capa nueva ni a tener todas sus variantes adaptadas.",
+      "notes": "Capa consultable en el producto indicado.",
       "fields": {
         "Servicio": "Canarias · Cartografía estadística",
         "Nombre de capa": "DIS20080309_EG",
@@ -2535,12 +3320,18 @@
         "F01"
       ],
       "suggestedCategoryIds": [],
-      "status": "por_revisar",
+      "status": "integrado",
+      "mapAction": "territory:canary-cartography:SEC20070527_EL",
+      "review": {
+        "implementedProductId": "territory:canary-cartography",
+        "updatedAt": "2026-11-13",
+        "reason": "Capa representada en el producto indicado."
+      },
       "url": "https://idecan2.grafcan.es/ServicioWMS/CARTO_EST?SERVICE=WMS&REQUEST=GetCapabilities",
       "coverage": "Canarias",
       "period": "Según el producto original",
       "license": null,
-      "notes": "Inventario técnico completo de las capas anunciadas por este servicio. No equivale a una capa nueva ni a tener todas sus variantes adaptadas.",
+      "notes": "Capa consultable en el producto indicado.",
       "fields": {
         "Servicio": "Canarias · Cartografía estadística",
         "Nombre de capa": "SEC20070527_EL",
@@ -2556,12 +3347,18 @@
         "F01"
       ],
       "suggestedCategoryIds": [],
-      "status": "por_revisar",
+      "status": "integrado",
+      "mapAction": "territory:canary-cartography:DIS20070527_EL",
+      "review": {
+        "implementedProductId": "territory:canary-cartography",
+        "updatedAt": "2026-11-13",
+        "reason": "Capa representada en el producto indicado."
+      },
       "url": "https://idecan2.grafcan.es/ServicioWMS/CARTO_EST?SERVICE=WMS&REQUEST=GetCapabilities",
       "coverage": "Canarias",
       "period": "Según el producto original",
       "license": null,
-      "notes": "Inventario técnico completo de las capas anunciadas por este servicio. No equivale a una capa nueva ni a tener todas sus variantes adaptadas.",
+      "notes": "Capa consultable en el producto indicado.",
       "fields": {
         "Servicio": "Canarias · Cartografía estadística",
         "Nombre de capa": "DIS20070527_EL",
@@ -2577,12 +3374,18 @@
         "F01"
       ],
       "suggestedCategoryIds": [],
-      "status": "por_revisar",
+      "status": "integrado",
+      "mapAction": "territory:canary-cartography:SEC20040613_EE",
+      "review": {
+        "implementedProductId": "territory:canary-cartography",
+        "updatedAt": "2026-11-13",
+        "reason": "Capa representada en el producto indicado."
+      },
       "url": "https://idecan2.grafcan.es/ServicioWMS/CARTO_EST?SERVICE=WMS&REQUEST=GetCapabilities",
       "coverage": "Canarias",
       "period": "Según el producto original",
       "license": null,
-      "notes": "Inventario técnico completo de las capas anunciadas por este servicio. No equivale a una capa nueva ni a tener todas sus variantes adaptadas.",
+      "notes": "Capa consultable en el producto indicado.",
       "fields": {
         "Servicio": "Canarias · Cartografía estadística",
         "Nombre de capa": "SEC20040613_EE",
@@ -2598,12 +3401,18 @@
         "F01"
       ],
       "suggestedCategoryIds": [],
-      "status": "por_revisar",
+      "status": "integrado",
+      "mapAction": "territory:canary-cartography:DIS20040613_EE",
+      "review": {
+        "implementedProductId": "territory:canary-cartography",
+        "updatedAt": "2026-11-13",
+        "reason": "Capa representada en el producto indicado."
+      },
       "url": "https://idecan2.grafcan.es/ServicioWMS/CARTO_EST?SERVICE=WMS&REQUEST=GetCapabilities",
       "coverage": "Canarias",
       "period": "Según el producto original",
       "license": null,
-      "notes": "Inventario técnico completo de las capas anunciadas por este servicio. No equivale a una capa nueva ni a tener todas sus variantes adaptadas.",
+      "notes": "Capa consultable en el producto indicado.",
       "fields": {
         "Servicio": "Canarias · Cartografía estadística",
         "Nombre de capa": "DIS20040613_EE",
@@ -2619,12 +3428,18 @@
         "F01"
       ],
       "suggestedCategoryIds": [],
-      "status": "por_revisar",
+      "status": "integrado",
+      "mapAction": "territory:canary-cartography:SEC20040314_EG",
+      "review": {
+        "implementedProductId": "territory:canary-cartography",
+        "updatedAt": "2026-11-13",
+        "reason": "Capa representada en el producto indicado."
+      },
       "url": "https://idecan2.grafcan.es/ServicioWMS/CARTO_EST?SERVICE=WMS&REQUEST=GetCapabilities",
       "coverage": "Canarias",
       "period": "Según el producto original",
       "license": null,
-      "notes": "Inventario técnico completo de las capas anunciadas por este servicio. No equivale a una capa nueva ni a tener todas sus variantes adaptadas.",
+      "notes": "Capa consultable en el producto indicado.",
       "fields": {
         "Servicio": "Canarias · Cartografía estadística",
         "Nombre de capa": "SEC20040314_EG",
@@ -2640,12 +3455,18 @@
         "F01"
       ],
       "suggestedCategoryIds": [],
-      "status": "por_revisar",
+      "status": "integrado",
+      "mapAction": "territory:canary-cartography:DIS20040314_EG",
+      "review": {
+        "implementedProductId": "territory:canary-cartography",
+        "updatedAt": "2026-11-13",
+        "reason": "Capa representada en el producto indicado."
+      },
       "url": "https://idecan2.grafcan.es/ServicioWMS/CARTO_EST?SERVICE=WMS&REQUEST=GetCapabilities",
       "coverage": "Canarias",
       "period": "Según el producto original",
       "license": null,
-      "notes": "Inventario técnico completo de las capas anunciadas por este servicio. No equivale a una capa nueva ni a tener todas sus variantes adaptadas.",
+      "notes": "Capa consultable en el producto indicado.",
       "fields": {
         "Servicio": "Canarias · Cartografía estadística",
         "Nombre de capa": "DIS20040314_EG",
@@ -2660,13 +3481,15 @@
       "categoryIds": [
         "F01"
       ],
-      "suggestedCategoryIds": [],
-      "status": "por_revisar",
+      "suggestedCategoryIds": [
+        "F24"
+      ],
+      "status": "no_procede",
       "url": "https://idecan2.grafcan.es/ServicioWMS/CARTO_EST?SERVICE=WMS&REQUEST=GetCapabilities",
       "coverage": "Canarias",
       "period": "Según el producto original",
       "license": null,
-      "notes": "Inventario técnico completo de las capas anunciadas por este servicio. No equivale a una capa nueva ni a tener todas sus variantes adaptadas.",
+      "notes": "Capa de alojamientos turísticos asignada a F24.",
       "fields": {
         "Servicio": "Canarias · Cartografía estadística",
         "Nombre de capa": "ALJTUR2015",
@@ -2682,12 +3505,18 @@
         "F01"
       ],
       "suggestedCategoryIds": [],
-      "status": "por_revisar",
+      "status": "integrado",
+      "mapAction": "territory:canary-cartography:MUN",
+      "review": {
+        "implementedProductId": "territory:canary-cartography",
+        "updatedAt": "2026-11-13",
+        "reason": "Capa representada en el producto indicado."
+      },
       "url": "https://idecan2.grafcan.es/ServicioWMS/CARTO_EST?SERVICE=WMS&REQUEST=GetCapabilities",
       "coverage": "Canarias",
       "period": "Según el producto original",
       "license": null,
-      "notes": "Inventario técnico completo de las capas anunciadas por este servicio. No equivale a una capa nueva ni a tener todas sus variantes adaptadas.",
+      "notes": "Capa consultable en el producto indicado.",
       "fields": {
         "Servicio": "Canarias · Cartografía estadística",
         "Nombre de capa": "MUN",
@@ -2703,12 +3532,18 @@
         "F01"
       ],
       "suggestedCategoryIds": [],
-      "status": "por_revisar",
+      "status": "integrado",
+      "mapAction": "territory:canary-cartography:MUN08",
+      "review": {
+        "implementedProductId": "territory:canary-cartography",
+        "updatedAt": "2026-11-13",
+        "reason": "Capa representada en el producto indicado."
+      },
       "url": "https://idecan2.grafcan.es/ServicioWMS/CARTO_EST?SERVICE=WMS&REQUEST=GetCapabilities",
       "coverage": "Canarias",
       "period": "Según el producto original",
       "license": null,
-      "notes": "Inventario técnico completo de las capas anunciadas por este servicio. No equivale a una capa nueva ni a tener todas sus variantes adaptadas.",
+      "notes": "Capa consultable en el producto indicado.",
       "fields": {
         "Servicio": "Canarias · Cartografía estadística",
         "Nombre de capa": "MUN08",
@@ -2724,12 +3559,18 @@
         "F01"
       ],
       "suggestedCategoryIds": [],
-      "status": "por_revisar",
+      "status": "integrado",
+      "mapAction": "territory:parcels",
+      "review": {
+        "implementedProductId": "territory:parcels",
+        "updatedAt": "2026-11-13",
+        "reason": "Capa representada en el producto indicado."
+      },
       "url": "https://inspire.navarra.es/services/CP/wms?SERVICE=WMS&REQUEST=GetCapabilities",
       "coverage": "Navarra",
       "period": "Según el producto original",
       "license": null,
-      "notes": "Inventario técnico completo de las capas anunciadas por este servicio. No equivale a una capa nueva ni a tener todas sus variantes adaptadas.",
+      "notes": "Capa consultable en el producto indicado.",
       "fields": {
         "Servicio": "Navarra · Parcelas catastrales",
         "Nombre de capa": "CP:CadastralParcel",
@@ -2745,12 +3586,18 @@
         "F01"
       ],
       "suggestedCategoryIds": [],
-      "status": "por_revisar",
+      "status": "integrado",
+      "mapAction": "territory:parcels",
+      "review": {
+        "implementedProductId": "territory:parcels",
+        "updatedAt": "2026-11-13",
+        "reason": "Capa representada en el producto indicado."
+      },
       "url": "https://geo.araba.eus/WMS_INSPIRE_CP?SERVICE=WMS&REQUEST=GetCapabilities",
       "coverage": "Álava",
       "period": "Según el producto original",
       "license": null,
-      "notes": "Inventario técnico completo de las capas anunciadas por este servicio. No equivale a una capa nueva ni a tener todas sus variantes adaptadas.",
+      "notes": "Capa consultable en el producto indicado.",
       "fields": {
         "Servicio": "Álava · Parcelas catastrales",
         "Nombre de capa": "CP.CadastralParcel",
@@ -2766,12 +3613,18 @@
         "F01"
       ],
       "suggestedCategoryIds": [],
-      "status": "por_revisar",
+      "status": "integrado",
+      "mapAction": "territory:cadastral-addresses",
+      "review": {
+        "implementedProductId": "territory:cadastral-addresses",
+        "updatedAt": "2026-11-13",
+        "reason": "Capa representada en el producto indicado."
+      },
       "url": "https://geo.bizkaia.eus/arcgisserverinspire/services/LurraldeAntolamendua_PlanificacionTerritorial/Katastro_Catastro/MapServer/WMSServer?SERVICE=WMS&REQUEST=GetCapabilities",
       "coverage": "Bizkaia",
       "period": "Según el producto original",
       "license": null,
-      "notes": "Inventario técnico completo de las capas anunciadas por este servicio. No equivale a una capa nueva ni a tener todas sus variantes adaptadas.",
+      "notes": "Capa consultable en el producto indicado.",
       "fields": {
         "Servicio": "Bizkaia · Catastro",
         "Nombre de capa": "0",
@@ -2787,12 +3640,18 @@
         "F01"
       ],
       "suggestedCategoryIds": [],
-      "status": "por_revisar",
+      "status": "integrado",
+      "mapAction": "territory:cadastral-subparcels",
+      "review": {
+        "implementedProductId": "territory:cadastral-subparcels",
+        "updatedAt": "2026-11-13",
+        "reason": "Capa representada en el producto indicado."
+      },
       "url": "https://geo.bizkaia.eus/arcgisserverinspire/services/LurraldeAntolamendua_PlanificacionTerritorial/Katastro_Catastro/MapServer/WMSServer?SERVICE=WMS&REQUEST=GetCapabilities",
       "coverage": "Bizkaia",
       "period": "Según el producto original",
       "license": null,
-      "notes": "Inventario técnico completo de las capas anunciadas por este servicio. No equivale a una capa nueva ni a tener todas sus variantes adaptadas.",
+      "notes": "Capa consultable en el producto indicado.",
       "fields": {
         "Servicio": "Bizkaia · Catastro",
         "Nombre de capa": "2",
@@ -2808,12 +3667,18 @@
         "F01"
       ],
       "suggestedCategoryIds": [],
-      "status": "por_revisar",
+      "status": "integrado",
+      "mapAction": "territory:cadastral-subparcels",
+      "review": {
+        "implementedProductId": "territory:cadastral-subparcels",
+        "updatedAt": "2026-11-13",
+        "reason": "Capa representada en el producto indicado."
+      },
       "url": "https://geo.bizkaia.eus/arcgisserverinspire/services/LurraldeAntolamendua_PlanificacionTerritorial/Katastro_Catastro/MapServer/WMSServer?SERVICE=WMS&REQUEST=GetCapabilities",
       "coverage": "Bizkaia",
       "period": "Según el producto original",
       "license": null,
-      "notes": "Inventario técnico completo de las capas anunciadas por este servicio. No equivale a una capa nueva ni a tener todas sus variantes adaptadas.",
+      "notes": "Capa consultable en el producto indicado.",
       "fields": {
         "Servicio": "Bizkaia · Catastro",
         "Nombre de capa": "3",
@@ -2829,12 +3694,18 @@
         "F01"
       ],
       "suggestedCategoryIds": [],
-      "status": "por_revisar",
+      "status": "integrado",
+      "mapAction": "territory:cadastral-subparcels",
+      "review": {
+        "implementedProductId": "territory:cadastral-subparcels",
+        "updatedAt": "2026-11-13",
+        "reason": "Capa representada en el producto indicado."
+      },
       "url": "https://geo.bizkaia.eus/arcgisserverinspire/services/LurraldeAntolamendua_PlanificacionTerritorial/Katastro_Catastro/MapServer/WMSServer?SERVICE=WMS&REQUEST=GetCapabilities",
       "coverage": "Bizkaia",
       "period": "Según el producto original",
       "license": null,
-      "notes": "Inventario técnico completo de las capas anunciadas por este servicio. No equivale a una capa nueva ni a tener todas sus variantes adaptadas.",
+      "notes": "Capa consultable en el producto indicado.",
       "fields": {
         "Servicio": "Bizkaia · Catastro",
         "Nombre de capa": "4",
@@ -2850,12 +3721,18 @@
         "F01"
       ],
       "suggestedCategoryIds": [],
-      "status": "por_revisar",
+      "status": "integrado",
+      "mapAction": "territory:cadastral-subparcels",
+      "review": {
+        "implementedProductId": "territory:cadastral-subparcels",
+        "updatedAt": "2026-11-13",
+        "reason": "Capa representada en el producto indicado."
+      },
       "url": "https://geo.bizkaia.eus/arcgisserverinspire/services/LurraldeAntolamendua_PlanificacionTerritorial/Katastro_Catastro/MapServer/WMSServer?SERVICE=WMS&REQUEST=GetCapabilities",
       "coverage": "Bizkaia",
       "period": "Según el producto original",
       "license": null,
-      "notes": "Inventario técnico completo de las capas anunciadas por este servicio. No equivale a una capa nueva ni a tener todas sus variantes adaptadas.",
+      "notes": "Capa consultable en el producto indicado.",
       "fields": {
         "Servicio": "Bizkaia · Catastro",
         "Nombre de capa": "5",
@@ -2871,12 +3748,18 @@
         "F01"
       ],
       "suggestedCategoryIds": [],
-      "status": "por_revisar",
+      "status": "integrado",
+      "mapAction": "territory:cadastral-buildings",
+      "review": {
+        "implementedProductId": "territory:cadastral-buildings",
+        "updatedAt": "2026-11-13",
+        "reason": "Capa representada en el producto indicado."
+      },
       "url": "https://geo.bizkaia.eus/arcgisserverinspire/services/LurraldeAntolamendua_PlanificacionTerritorial/Katastro_Catastro/MapServer/WMSServer?SERVICE=WMS&REQUEST=GetCapabilities",
       "coverage": "Bizkaia",
       "period": "Según el producto original",
       "license": null,
-      "notes": "Inventario técnico completo de las capas anunciadas por este servicio. No equivale a una capa nueva ni a tener todas sus variantes adaptadas.",
+      "notes": "Capa consultable en el producto indicado.",
       "fields": {
         "Servicio": "Bizkaia · Catastro",
         "Nombre de capa": "6",
@@ -2892,12 +3775,18 @@
         "F01"
       ],
       "suggestedCategoryIds": [],
-      "status": "por_revisar",
+      "status": "integrado",
+      "mapAction": "territory:cadastral-subparcels",
+      "review": {
+        "implementedProductId": "territory:cadastral-subparcels",
+        "updatedAt": "2026-11-13",
+        "reason": "Capa representada en el producto indicado."
+      },
       "url": "https://geo.bizkaia.eus/arcgisserverinspire/services/LurraldeAntolamendua_PlanificacionTerritorial/Katastro_Catastro/MapServer/WMSServer?SERVICE=WMS&REQUEST=GetCapabilities",
       "coverage": "Bizkaia",
       "period": "Según el producto original",
       "license": null,
-      "notes": "Inventario técnico completo de las capas anunciadas por este servicio. No equivale a una capa nueva ni a tener todas sus variantes adaptadas.",
+      "notes": "Capa consultable en el producto indicado.",
       "fields": {
         "Servicio": "Bizkaia · Catastro",
         "Nombre de capa": "7",
@@ -2913,12 +3802,18 @@
         "F01"
       ],
       "suggestedCategoryIds": [],
-      "status": "por_revisar",
+      "status": "integrado",
+      "mapAction": "territory:cadastral-subparcels",
+      "review": {
+        "implementedProductId": "territory:cadastral-subparcels",
+        "updatedAt": "2026-11-13",
+        "reason": "Capa representada en el producto indicado."
+      },
       "url": "https://geo.bizkaia.eus/arcgisserverinspire/services/LurraldeAntolamendua_PlanificacionTerritorial/Katastro_Catastro/MapServer/WMSServer?SERVICE=WMS&REQUEST=GetCapabilities",
       "coverage": "Bizkaia",
       "period": "Según el producto original",
       "license": null,
-      "notes": "Inventario técnico completo de las capas anunciadas por este servicio. No equivale a una capa nueva ni a tener todas sus variantes adaptadas.",
+      "notes": "Capa consultable en el producto indicado.",
       "fields": {
         "Servicio": "Bizkaia · Catastro",
         "Nombre de capa": "8",
@@ -2934,12 +3829,18 @@
         "F01"
       ],
       "suggestedCategoryIds": [],
-      "status": "por_revisar",
+      "status": "integrado",
+      "mapAction": "territory:parcels",
+      "review": {
+        "implementedProductId": "territory:parcels",
+        "updatedAt": "2026-11-13",
+        "reason": "Capa representada en el producto indicado."
+      },
       "url": "https://geo.bizkaia.eus/arcgisserverinspire/services/LurraldeAntolamendua_PlanificacionTerritorial/Katastro_Catastro/MapServer/WMSServer?SERVICE=WMS&REQUEST=GetCapabilities",
       "coverage": "Bizkaia",
       "period": "Según el producto original",
       "license": null,
-      "notes": "Inventario técnico completo de las capas anunciadas por este servicio. No equivale a una capa nueva ni a tener todas sus variantes adaptadas.",
+      "notes": "Capa consultable en el producto indicado.",
       "fields": {
         "Servicio": "Bizkaia · Catastro",
         "Nombre de capa": "9",
@@ -2955,12 +3856,18 @@
         "F01"
       ],
       "suggestedCategoryIds": [],
-      "status": "por_revisar",
+      "status": "integrado",
+      "mapAction": "territory:cadastral-zoning",
+      "review": {
+        "implementedProductId": "territory:cadastral-zoning",
+        "updatedAt": "2026-11-13",
+        "reason": "Capa representada en el producto indicado."
+      },
       "url": "https://geo.bizkaia.eus/arcgisserverinspire/services/LurraldeAntolamendua_PlanificacionTerritorial/Katastro_Catastro/MapServer/WMSServer?SERVICE=WMS&REQUEST=GetCapabilities",
       "coverage": "Bizkaia",
       "period": "Según el producto original",
       "license": null,
-      "notes": "Inventario técnico completo de las capas anunciadas por este servicio. No equivale a una capa nueva ni a tener todas sus variantes adaptadas.",
+      "notes": "Capa consultable en el producto indicado.",
       "fields": {
         "Servicio": "Bizkaia · Catastro",
         "Nombre de capa": "10",
@@ -2976,12 +3883,18 @@
         "F01"
       ],
       "suggestedCategoryIds": [],
-      "status": "por_revisar",
+      "status": "integrado",
+      "mapAction": "territory:cadastral-units",
+      "review": {
+        "implementedProductId": "territory:cadastral-units",
+        "updatedAt": "2026-11-13",
+        "reason": "Capa representada en el producto indicado."
+      },
       "url": "https://geo.bizkaia.eus/arcgisserverinspire/services/LurraldeAntolamendua_PlanificacionTerritorial/Katastro_Catastro/MapServer/WMSServer?SERVICE=WMS&REQUEST=GetCapabilities",
       "coverage": "Bizkaia",
       "period": "Según el producto original",
       "license": null,
-      "notes": "Inventario técnico completo de las capas anunciadas por este servicio. No equivale a una capa nueva ni a tener todas sus variantes adaptadas.",
+      "notes": "Capa consultable en el producto indicado.",
       "fields": {
         "Servicio": "Bizkaia · Catastro",
         "Nombre de capa": "11",
@@ -2997,12 +3910,12 @@
         "F01"
       ],
       "suggestedCategoryIds": [],
-      "status": "por_revisar",
+      "status": "no_procede",
       "url": "https://b5m.gipuzkoa.eus/inspire/wms/gipuzkoa_wms?SERVICE=WMS&REQUEST=GetCapabilities",
       "coverage": "Gipuzkoa",
       "period": "Según el producto original",
       "license": null,
-      "notes": "Inventario técnico completo de las capas anunciadas por este servicio. No equivale a una capa nueva ni a tener todas sus variantes adaptadas.",
+      "notes": "Raíz del servicio WMS que agrupa las capas temáticas.",
       "fields": {
         "Servicio": "Gipuzkoa · Cartografía INSPIRE",
         "Nombre de capa": "gipuzkoa_wms",
@@ -3018,12 +3931,18 @@
         "F01"
       ],
       "suggestedCategoryIds": [],
-      "status": "por_revisar",
+      "status": "integrado",
+      "mapAction": "territory:cadastral-buildings",
+      "review": {
+        "implementedProductId": "territory:cadastral-buildings",
+        "updatedAt": "2026-11-13",
+        "reason": "Capa representada en el producto indicado."
+      },
       "url": "https://b5m.gipuzkoa.eus/inspire/wms/gipuzkoa_wms?SERVICE=WMS&REQUEST=GetCapabilities",
       "coverage": "Gipuzkoa",
       "period": "Según el producto original",
       "license": null,
-      "notes": "Inventario técnico completo de las capas anunciadas por este servicio. No equivale a una capa nueva ni a tener todas sus variantes adaptadas.",
+      "notes": "Capa consultable en el producto indicado.",
       "fields": {
         "Servicio": "Gipuzkoa · Cartografía INSPIRE",
         "Nombre de capa": "bu.building",
@@ -3039,12 +3958,18 @@
         "F01"
       ],
       "suggestedCategoryIds": [],
-      "status": "por_revisar",
+      "status": "integrado",
+      "mapAction": "territory:cadastral-subparcels",
+      "review": {
+        "implementedProductId": "territory:cadastral-subparcels",
+        "updatedAt": "2026-11-13",
+        "reason": "Capa representada en el producto indicado."
+      },
       "url": "https://b5m.gipuzkoa.eus/inspire/wms/gipuzkoa_wms?SERVICE=WMS&REQUEST=GetCapabilities",
       "coverage": "Gipuzkoa",
       "period": "Según el producto original",
       "license": null,
-      "notes": "Inventario técnico completo de las capas anunciadas por este servicio. No equivale a una capa nueva ni a tener todas sus variantes adaptadas.",
+      "notes": "Capa consultable en el producto indicado.",
       "fields": {
         "Servicio": "Gipuzkoa · Cartografía INSPIRE",
         "Nombre de capa": "bu.otherconstruction",
@@ -3060,12 +3985,18 @@
         "F01"
       ],
       "suggestedCategoryIds": [],
-      "status": "por_revisar",
+      "status": "integrado",
+      "mapAction": "territory:cadastral-addresses",
+      "review": {
+        "implementedProductId": "territory:cadastral-addresses",
+        "updatedAt": "2026-11-13",
+        "reason": "Capa representada en el producto indicado."
+      },
       "url": "https://b5m.gipuzkoa.eus/inspire/wms/gipuzkoa_wms?SERVICE=WMS&REQUEST=GetCapabilities",
       "coverage": "Gipuzkoa",
       "period": "Según el producto original",
       "license": null,
-      "notes": "Inventario técnico completo de las capas anunciadas por este servicio. No equivale a una capa nueva ni a tener todas sus variantes adaptadas.",
+      "notes": "Capa consultable en el producto indicado.",
       "fields": {
         "Servicio": "Gipuzkoa · Cartografía INSPIRE",
         "Nombre de capa": "ad.Address",
@@ -3081,12 +4012,18 @@
         "F01"
       ],
       "suggestedCategoryIds": [],
-      "status": "por_revisar",
+      "status": "integrado",
+      "mapAction": "territory:cadastral-zoning",
+      "review": {
+        "implementedProductId": "territory:cadastral-zoning",
+        "updatedAt": "2026-11-13",
+        "reason": "Capa representada en el producto indicado."
+      },
       "url": "https://b5m.gipuzkoa.eus/inspire/wms/gipuzkoa_wms?SERVICE=WMS&REQUEST=GetCapabilities",
       "coverage": "Gipuzkoa",
       "period": "Según el producto original",
       "license": null,
-      "notes": "Inventario técnico completo de las capas anunciadas por este servicio. No equivale a una capa nueva ni a tener todas sus variantes adaptadas.",
+      "notes": "Capa consultable en el producto indicado.",
       "fields": {
         "Servicio": "Gipuzkoa · Cartografía INSPIRE",
         "Nombre de capa": "cp.CadastralZoning",
@@ -3102,12 +4039,18 @@
         "F01"
       ],
       "suggestedCategoryIds": [],
-      "status": "por_revisar",
+      "status": "integrado",
+      "mapAction": "territory:parcels",
+      "review": {
+        "implementedProductId": "territory:parcels",
+        "updatedAt": "2026-11-13",
+        "reason": "Capa representada en el producto indicado."
+      },
       "url": "https://b5m.gipuzkoa.eus/inspire/wms/gipuzkoa_wms?SERVICE=WMS&REQUEST=GetCapabilities",
       "coverage": "Gipuzkoa",
       "period": "Según el producto original",
       "license": null,
-      "notes": "Inventario técnico completo de las capas anunciadas por este servicio. No equivale a una capa nueva ni a tener todas sus variantes adaptadas.",
+      "notes": "Capa consultable en el producto indicado.",
       "fields": {
         "Servicio": "Gipuzkoa · Cartografía INSPIRE",
         "Nombre de capa": "cp.CadastralParcel",
@@ -3123,12 +4066,18 @@
         "F01"
       ],
       "suggestedCategoryIds": [],
-      "status": "por_revisar",
+      "status": "integrado",
+      "mapAction": "territory:gipuzkoa-toponyms",
+      "review": {
+        "implementedProductId": "territory:gipuzkoa-toponyms",
+        "updatedAt": "2026-11-13",
+        "reason": "Capa representada en el producto indicado."
+      },
       "url": "https://b5m.gipuzkoa.eus/inspire/wms/gipuzkoa_wms?SERVICE=WMS&REQUEST=GetCapabilities",
       "coverage": "Gipuzkoa",
       "period": "Según el producto original",
       "license": null,
-      "notes": "Inventario técnico completo de las capas anunciadas por este servicio. No equivale a una capa nueva ni a tener todas sus variantes adaptadas.",
+      "notes": "Capa consultable en el producto indicado.",
       "fields": {
         "Servicio": "Gipuzkoa · Cartografía INSPIRE",
         "Nombre de capa": "gn.NamedPlace",
@@ -3144,12 +4093,18 @@
         "F01"
       ],
       "suggestedCategoryIds": [],
-      "status": "por_revisar",
+      "status": "integrado",
+      "mapAction": "territory:cadastral-units",
+      "review": {
+        "implementedProductId": "territory:cadastral-units",
+        "updatedAt": "2026-11-13",
+        "reason": "Capa representada en el producto indicado."
+      },
       "url": "https://b5m.gipuzkoa.eus/inspire/wms/gipuzkoa_wms?SERVICE=WMS&REQUEST=GetCapabilities",
       "coverage": "Gipuzkoa",
       "period": "Según el producto original",
       "license": null,
-      "notes": "Inventario técnico completo de las capas anunciadas por este servicio. No equivale a una capa nueva ni a tener todas sus variantes adaptadas.",
+      "notes": "Capa consultable en el producto indicado.",
       "fields": {
         "Servicio": "Gipuzkoa · Cartografía INSPIRE",
         "Nombre de capa": "au.AdministrativeUnit",
@@ -3165,16 +4120,1102 @@
         "F01"
       ],
       "suggestedCategoryIds": [],
-      "status": "por_revisar",
+      "status": "integrado",
+      "mapAction": "territory:cadastral-boundaries",
+      "review": {
+        "implementedProductId": "territory:cadastral-boundaries",
+        "updatedAt": "2026-11-13",
+        "reason": "Capa representada en el producto indicado."
+      },
       "url": "https://b5m.gipuzkoa.eus/inspire/wms/gipuzkoa_wms?SERVICE=WMS&REQUEST=GetCapabilities",
       "coverage": "Gipuzkoa",
       "period": "Según el producto original",
       "license": null,
-      "notes": "Inventario técnico completo de las capas anunciadas por este servicio. No equivale a una capa nueva ni a tener todas sus variantes adaptadas.",
+      "notes": "Capa consultable en el producto indicado.",
       "fields": {
         "Servicio": "Gipuzkoa · Cartografía INSPIRE",
         "Nombre de capa": "au.AdministrativeBoundary",
         "Estilos": "AU.AdministrativeBoundary.Default, AU.AdministrativeBoundary.ELFCadastre",
+        "Consulta de atributos": "Disponible en el servicio"
+      }
+    },
+    {
+      "id": "f01-wms:pnoa-historico:PNOA2024",
+      "title": "PNOA 2024",
+      "sourceId": "F006",
+      "categoryIds": [
+        "F01"
+      ],
+      "suggestedCategoryIds": [],
+      "status": "integrado",
+      "mapAction": "territory:historical-orthophoto:PNOA2024",
+      "review": {
+        "implementedProductId": "territory:historical-orthophoto",
+        "updatedAt": "2026-11-13",
+        "reason": "Capa representada en el producto indicado."
+      },
+      "url": "https://www.ign.es/wms/pnoa-historico?SERVICE=WMS&REQUEST=GetCapabilities",
+      "coverage": "Por vuelo y edición",
+      "period": "Según el producto original",
+      "license": null,
+      "notes": "Capa consultable en el producto indicado.",
+      "fields": {
+        "Servicio": "IGN · Ortofotografía histórica",
+        "Nombre de capa": "PNOA2024",
+        "Estilos": "default",
+        "Consulta de atributos": "Disponible en el servicio"
+      }
+    },
+    {
+      "id": "f01-wms:pnoa-historico:PNOA2023",
+      "title": "PNOA 2023",
+      "sourceId": "F006",
+      "categoryIds": [
+        "F01"
+      ],
+      "suggestedCategoryIds": [],
+      "status": "integrado",
+      "mapAction": "territory:historical-orthophoto:PNOA2023",
+      "review": {
+        "implementedProductId": "territory:historical-orthophoto",
+        "updatedAt": "2026-11-13",
+        "reason": "Capa representada en el producto indicado."
+      },
+      "url": "https://www.ign.es/wms/pnoa-historico?SERVICE=WMS&REQUEST=GetCapabilities",
+      "coverage": "Por vuelo y edición",
+      "period": "Según el producto original",
+      "license": null,
+      "notes": "Capa consultable en el producto indicado.",
+      "fields": {
+        "Servicio": "IGN · Ortofotografía histórica",
+        "Nombre de capa": "PNOA2023",
+        "Estilos": "default",
+        "Consulta de atributos": "Disponible en el servicio"
+      }
+    },
+    {
+      "id": "f01-wms:pnoa-historico:PNOA2022",
+      "title": "PNOA 2022",
+      "sourceId": "F006",
+      "categoryIds": [
+        "F01"
+      ],
+      "suggestedCategoryIds": [],
+      "status": "integrado",
+      "mapAction": "territory:historical-orthophoto:PNOA2022",
+      "review": {
+        "implementedProductId": "territory:historical-orthophoto",
+        "updatedAt": "2026-11-13",
+        "reason": "Capa representada en el producto indicado."
+      },
+      "url": "https://www.ign.es/wms/pnoa-historico?SERVICE=WMS&REQUEST=GetCapabilities",
+      "coverage": "Por vuelo y edición",
+      "period": "Según el producto original",
+      "license": null,
+      "notes": "Capa consultable en el producto indicado.",
+      "fields": {
+        "Servicio": "IGN · Ortofotografía histórica",
+        "Nombre de capa": "PNOA2022",
+        "Estilos": "default",
+        "Consulta de atributos": "Disponible en el servicio"
+      }
+    },
+    {
+      "id": "f01-wms:pnoa-historico:PNOA2021",
+      "title": "PNOA 2021",
+      "sourceId": "F006",
+      "categoryIds": [
+        "F01"
+      ],
+      "suggestedCategoryIds": [],
+      "status": "integrado",
+      "mapAction": "territory:historical-orthophoto:PNOA2021",
+      "review": {
+        "implementedProductId": "territory:historical-orthophoto",
+        "updatedAt": "2026-11-13",
+        "reason": "Capa representada en el producto indicado."
+      },
+      "url": "https://www.ign.es/wms/pnoa-historico?SERVICE=WMS&REQUEST=GetCapabilities",
+      "coverage": "Por vuelo y edición",
+      "period": "Según el producto original",
+      "license": null,
+      "notes": "Capa consultable en el producto indicado.",
+      "fields": {
+        "Servicio": "IGN · Ortofotografía histórica",
+        "Nombre de capa": "PNOA2021",
+        "Estilos": "default",
+        "Consulta de atributos": "Disponible en el servicio"
+      }
+    },
+    {
+      "id": "f01-wms:pnoa-historico:PNOA2020",
+      "title": "PNOA 2020",
+      "sourceId": "F006",
+      "categoryIds": [
+        "F01"
+      ],
+      "suggestedCategoryIds": [],
+      "status": "integrado",
+      "mapAction": "territory:historical-orthophoto:PNOA2020",
+      "review": {
+        "implementedProductId": "territory:historical-orthophoto",
+        "updatedAt": "2026-11-13",
+        "reason": "Capa representada en el producto indicado."
+      },
+      "url": "https://www.ign.es/wms/pnoa-historico?SERVICE=WMS&REQUEST=GetCapabilities",
+      "coverage": "Por vuelo y edición",
+      "period": "Según el producto original",
+      "license": null,
+      "notes": "Capa consultable en el producto indicado.",
+      "fields": {
+        "Servicio": "IGN · Ortofotografía histórica",
+        "Nombre de capa": "PNOA2020",
+        "Estilos": "default",
+        "Consulta de atributos": "Disponible en el servicio"
+      }
+    },
+    {
+      "id": "f01-wms:pnoa-historico:PNOA2019",
+      "title": "PNOA 2019",
+      "sourceId": "F006",
+      "categoryIds": [
+        "F01"
+      ],
+      "suggestedCategoryIds": [],
+      "status": "integrado",
+      "mapAction": "territory:historical-orthophoto:PNOA2019",
+      "review": {
+        "implementedProductId": "territory:historical-orthophoto",
+        "updatedAt": "2026-11-13",
+        "reason": "Capa representada en el producto indicado."
+      },
+      "url": "https://www.ign.es/wms/pnoa-historico?SERVICE=WMS&REQUEST=GetCapabilities",
+      "coverage": "Por vuelo y edición",
+      "period": "Según el producto original",
+      "license": null,
+      "notes": "Capa consultable en el producto indicado.",
+      "fields": {
+        "Servicio": "IGN · Ortofotografía histórica",
+        "Nombre de capa": "PNOA2019",
+        "Estilos": "default",
+        "Consulta de atributos": "Disponible en el servicio"
+      }
+    },
+    {
+      "id": "f01-wms:pnoa-historico:PNOA2018",
+      "title": "PNOA 2018",
+      "sourceId": "F006",
+      "categoryIds": [
+        "F01"
+      ],
+      "suggestedCategoryIds": [],
+      "status": "integrado",
+      "mapAction": "territory:historical-orthophoto:PNOA2018",
+      "review": {
+        "implementedProductId": "territory:historical-orthophoto",
+        "updatedAt": "2026-11-13",
+        "reason": "Capa representada en el producto indicado."
+      },
+      "url": "https://www.ign.es/wms/pnoa-historico?SERVICE=WMS&REQUEST=GetCapabilities",
+      "coverage": "Por vuelo y edición",
+      "period": "Según el producto original",
+      "license": null,
+      "notes": "Capa consultable en el producto indicado.",
+      "fields": {
+        "Servicio": "IGN · Ortofotografía histórica",
+        "Nombre de capa": "PNOA2018",
+        "Estilos": "default",
+        "Consulta de atributos": "Disponible en el servicio"
+      }
+    },
+    {
+      "id": "f01-wms:pnoa-historico:PNOA2017",
+      "title": "PNOA 2017",
+      "sourceId": "F006",
+      "categoryIds": [
+        "F01"
+      ],
+      "suggestedCategoryIds": [],
+      "status": "integrado",
+      "mapAction": "territory:historical-orthophoto:PNOA2017",
+      "review": {
+        "implementedProductId": "territory:historical-orthophoto",
+        "updatedAt": "2026-11-13",
+        "reason": "Capa representada en el producto indicado."
+      },
+      "url": "https://www.ign.es/wms/pnoa-historico?SERVICE=WMS&REQUEST=GetCapabilities",
+      "coverage": "Por vuelo y edición",
+      "period": "Según el producto original",
+      "license": null,
+      "notes": "Capa consultable en el producto indicado.",
+      "fields": {
+        "Servicio": "IGN · Ortofotografía histórica",
+        "Nombre de capa": "PNOA2017",
+        "Estilos": "default",
+        "Consulta de atributos": "Disponible en el servicio"
+      }
+    },
+    {
+      "id": "f01-wms:pnoa-historico:PNOA2016",
+      "title": "PNOA 2016",
+      "sourceId": "F006",
+      "categoryIds": [
+        "F01"
+      ],
+      "suggestedCategoryIds": [],
+      "status": "integrado",
+      "mapAction": "territory:historical-orthophoto:PNOA2016",
+      "review": {
+        "implementedProductId": "territory:historical-orthophoto",
+        "updatedAt": "2026-11-13",
+        "reason": "Capa representada en el producto indicado."
+      },
+      "url": "https://www.ign.es/wms/pnoa-historico?SERVICE=WMS&REQUEST=GetCapabilities",
+      "coverage": "Por vuelo y edición",
+      "period": "Según el producto original",
+      "license": null,
+      "notes": "Capa consultable en el producto indicado.",
+      "fields": {
+        "Servicio": "IGN · Ortofotografía histórica",
+        "Nombre de capa": "PNOA2016",
+        "Estilos": "default",
+        "Consulta de atributos": "Disponible en el servicio"
+      }
+    },
+    {
+      "id": "f01-wms:pnoa-historico:PNOA2015",
+      "title": "PNOA 2015",
+      "sourceId": "F006",
+      "categoryIds": [
+        "F01"
+      ],
+      "suggestedCategoryIds": [],
+      "status": "integrado",
+      "mapAction": "territory:historical-orthophoto:PNOA2015",
+      "review": {
+        "implementedProductId": "territory:historical-orthophoto",
+        "updatedAt": "2026-11-13",
+        "reason": "Capa representada en el producto indicado."
+      },
+      "url": "https://www.ign.es/wms/pnoa-historico?SERVICE=WMS&REQUEST=GetCapabilities",
+      "coverage": "Por vuelo y edición",
+      "period": "Según el producto original",
+      "license": null,
+      "notes": "Capa consultable en el producto indicado.",
+      "fields": {
+        "Servicio": "IGN · Ortofotografía histórica",
+        "Nombre de capa": "PNOA2015",
+        "Estilos": "default",
+        "Consulta de atributos": "Disponible en el servicio"
+      }
+    },
+    {
+      "id": "f01-wms:pnoa-historico:PNOA2014",
+      "title": "PNOA 2014",
+      "sourceId": "F006",
+      "categoryIds": [
+        "F01"
+      ],
+      "suggestedCategoryIds": [],
+      "status": "integrado",
+      "mapAction": "territory:historical-orthophoto:PNOA2014",
+      "review": {
+        "implementedProductId": "territory:historical-orthophoto",
+        "updatedAt": "2026-11-13",
+        "reason": "Capa representada en el producto indicado."
+      },
+      "url": "https://www.ign.es/wms/pnoa-historico?SERVICE=WMS&REQUEST=GetCapabilities",
+      "coverage": "Por vuelo y edición",
+      "period": "Según el producto original",
+      "license": null,
+      "notes": "Capa consultable en el producto indicado.",
+      "fields": {
+        "Servicio": "IGN · Ortofotografía histórica",
+        "Nombre de capa": "PNOA2014",
+        "Estilos": "default",
+        "Consulta de atributos": "Disponible en el servicio"
+      }
+    },
+    {
+      "id": "f01-wms:pnoa-historico:PNOA2013",
+      "title": "PNOA 2013",
+      "sourceId": "F006",
+      "categoryIds": [
+        "F01"
+      ],
+      "suggestedCategoryIds": [],
+      "status": "integrado",
+      "mapAction": "territory:historical-orthophoto:PNOA2013",
+      "review": {
+        "implementedProductId": "territory:historical-orthophoto",
+        "updatedAt": "2026-11-13",
+        "reason": "Capa representada en el producto indicado."
+      },
+      "url": "https://www.ign.es/wms/pnoa-historico?SERVICE=WMS&REQUEST=GetCapabilities",
+      "coverage": "Por vuelo y edición",
+      "period": "Según el producto original",
+      "license": null,
+      "notes": "Capa consultable en el producto indicado.",
+      "fields": {
+        "Servicio": "IGN · Ortofotografía histórica",
+        "Nombre de capa": "PNOA2013",
+        "Estilos": "default",
+        "Consulta de atributos": "Disponible en el servicio"
+      }
+    },
+    {
+      "id": "f01-wms:pnoa-historico:PNOA2012",
+      "title": "PNOA 2012",
+      "sourceId": "F006",
+      "categoryIds": [
+        "F01"
+      ],
+      "suggestedCategoryIds": [],
+      "status": "integrado",
+      "mapAction": "territory:historical-orthophoto:PNOA2012",
+      "review": {
+        "implementedProductId": "territory:historical-orthophoto",
+        "updatedAt": "2026-11-13",
+        "reason": "Capa representada en el producto indicado."
+      },
+      "url": "https://www.ign.es/wms/pnoa-historico?SERVICE=WMS&REQUEST=GetCapabilities",
+      "coverage": "Por vuelo y edición",
+      "period": "Según el producto original",
+      "license": null,
+      "notes": "Capa consultable en el producto indicado.",
+      "fields": {
+        "Servicio": "IGN · Ortofotografía histórica",
+        "Nombre de capa": "PNOA2012",
+        "Estilos": "default",
+        "Consulta de atributos": "Disponible en el servicio"
+      }
+    },
+    {
+      "id": "f01-wms:pnoa-historico:PNOA2011",
+      "title": "PNOA 2011",
+      "sourceId": "F006",
+      "categoryIds": [
+        "F01"
+      ],
+      "suggestedCategoryIds": [],
+      "status": "integrado",
+      "mapAction": "territory:historical-orthophoto:PNOA2011",
+      "review": {
+        "implementedProductId": "territory:historical-orthophoto",
+        "updatedAt": "2026-11-13",
+        "reason": "Capa representada en el producto indicado."
+      },
+      "url": "https://www.ign.es/wms/pnoa-historico?SERVICE=WMS&REQUEST=GetCapabilities",
+      "coverage": "Por vuelo y edición",
+      "period": "Según el producto original",
+      "license": null,
+      "notes": "Capa consultable en el producto indicado.",
+      "fields": {
+        "Servicio": "IGN · Ortofotografía histórica",
+        "Nombre de capa": "PNOA2011",
+        "Estilos": "default",
+        "Consulta de atributos": "Disponible en el servicio"
+      }
+    },
+    {
+      "id": "f01-wms:pnoa-historico:PNOA2010",
+      "title": "PNOA 2010",
+      "sourceId": "F006",
+      "categoryIds": [
+        "F01"
+      ],
+      "suggestedCategoryIds": [],
+      "status": "integrado",
+      "mapAction": "territory:historical-orthophoto:PNOA2010",
+      "review": {
+        "implementedProductId": "territory:historical-orthophoto",
+        "updatedAt": "2026-11-13",
+        "reason": "Capa representada en el producto indicado."
+      },
+      "url": "https://www.ign.es/wms/pnoa-historico?SERVICE=WMS&REQUEST=GetCapabilities",
+      "coverage": "Por vuelo y edición",
+      "period": "Según el producto original",
+      "license": null,
+      "notes": "Capa consultable en el producto indicado.",
+      "fields": {
+        "Servicio": "IGN · Ortofotografía histórica",
+        "Nombre de capa": "PNOA2010",
+        "Estilos": "default",
+        "Consulta de atributos": "Disponible en el servicio"
+      }
+    },
+    {
+      "id": "f01-wms:pnoa-historico:PNOA2009",
+      "title": "PNOA 2009",
+      "sourceId": "F006",
+      "categoryIds": [
+        "F01"
+      ],
+      "suggestedCategoryIds": [],
+      "status": "integrado",
+      "mapAction": "territory:historical-orthophoto:PNOA2009",
+      "review": {
+        "implementedProductId": "territory:historical-orthophoto",
+        "updatedAt": "2026-11-13",
+        "reason": "Capa representada en el producto indicado."
+      },
+      "url": "https://www.ign.es/wms/pnoa-historico?SERVICE=WMS&REQUEST=GetCapabilities",
+      "coverage": "Por vuelo y edición",
+      "period": "Según el producto original",
+      "license": null,
+      "notes": "Capa consultable en el producto indicado.",
+      "fields": {
+        "Servicio": "IGN · Ortofotografía histórica",
+        "Nombre de capa": "PNOA2009",
+        "Estilos": "default",
+        "Consulta de atributos": "Disponible en el servicio"
+      }
+    },
+    {
+      "id": "f01-wms:pnoa-historico:PNOA2008",
+      "title": "PNOA 2008",
+      "sourceId": "F006",
+      "categoryIds": [
+        "F01"
+      ],
+      "suggestedCategoryIds": [],
+      "status": "integrado",
+      "mapAction": "territory:historical-orthophoto:PNOA2008",
+      "review": {
+        "implementedProductId": "territory:historical-orthophoto",
+        "updatedAt": "2026-11-13",
+        "reason": "Capa representada en el producto indicado."
+      },
+      "url": "https://www.ign.es/wms/pnoa-historico?SERVICE=WMS&REQUEST=GetCapabilities",
+      "coverage": "Por vuelo y edición",
+      "period": "Según el producto original",
+      "license": null,
+      "notes": "Capa consultable en el producto indicado.",
+      "fields": {
+        "Servicio": "IGN · Ortofotografía histórica",
+        "Nombre de capa": "PNOA2008",
+        "Estilos": "default",
+        "Consulta de atributos": "Disponible en el servicio"
+      }
+    },
+    {
+      "id": "f01-wms:pnoa-historico:PNOA2007",
+      "title": "PNOA 2007",
+      "sourceId": "F006",
+      "categoryIds": [
+        "F01"
+      ],
+      "suggestedCategoryIds": [],
+      "status": "integrado",
+      "mapAction": "territory:historical-orthophoto:PNOA2007",
+      "review": {
+        "implementedProductId": "territory:historical-orthophoto",
+        "updatedAt": "2026-11-13",
+        "reason": "Capa representada en el producto indicado."
+      },
+      "url": "https://www.ign.es/wms/pnoa-historico?SERVICE=WMS&REQUEST=GetCapabilities",
+      "coverage": "Por vuelo y edición",
+      "period": "Según el producto original",
+      "license": null,
+      "notes": "Capa consultable en el producto indicado.",
+      "fields": {
+        "Servicio": "IGN · Ortofotografía histórica",
+        "Nombre de capa": "PNOA2007",
+        "Estilos": "default",
+        "Consulta de atributos": "Disponible en el servicio"
+      }
+    },
+    {
+      "id": "f01-wms:pnoa-historico:PNOA2006",
+      "title": "PNOA 2006",
+      "sourceId": "F006",
+      "categoryIds": [
+        "F01"
+      ],
+      "suggestedCategoryIds": [],
+      "status": "integrado",
+      "mapAction": "territory:historical-orthophoto:PNOA2006",
+      "review": {
+        "implementedProductId": "territory:historical-orthophoto",
+        "updatedAt": "2026-11-13",
+        "reason": "Capa representada en el producto indicado."
+      },
+      "url": "https://www.ign.es/wms/pnoa-historico?SERVICE=WMS&REQUEST=GetCapabilities",
+      "coverage": "Por vuelo y edición",
+      "period": "Según el producto original",
+      "license": null,
+      "notes": "Capa consultable en el producto indicado.",
+      "fields": {
+        "Servicio": "IGN · Ortofotografía histórica",
+        "Nombre de capa": "PNOA2006",
+        "Estilos": "default",
+        "Consulta de atributos": "Disponible en el servicio"
+      }
+    },
+    {
+      "id": "f01-wms:pnoa-historico:PNOA2005",
+      "title": "PNOA 2005",
+      "sourceId": "F006",
+      "categoryIds": [
+        "F01"
+      ],
+      "suggestedCategoryIds": [],
+      "status": "integrado",
+      "mapAction": "territory:historical-orthophoto:PNOA2005",
+      "review": {
+        "implementedProductId": "territory:historical-orthophoto",
+        "updatedAt": "2026-11-13",
+        "reason": "Capa representada en el producto indicado."
+      },
+      "url": "https://www.ign.es/wms/pnoa-historico?SERVICE=WMS&REQUEST=GetCapabilities",
+      "coverage": "Por vuelo y edición",
+      "period": "Según el producto original",
+      "license": null,
+      "notes": "Capa consultable en el producto indicado.",
+      "fields": {
+        "Servicio": "IGN · Ortofotografía histórica",
+        "Nombre de capa": "PNOA2005",
+        "Estilos": "default",
+        "Consulta de atributos": "Disponible en el servicio"
+      }
+    },
+    {
+      "id": "f01-wms:pnoa-historico:PNOA2004",
+      "title": "PNOA 2004",
+      "sourceId": "F006",
+      "categoryIds": [
+        "F01"
+      ],
+      "suggestedCategoryIds": [],
+      "status": "integrado",
+      "mapAction": "territory:historical-orthophoto:PNOA2004",
+      "review": {
+        "implementedProductId": "territory:historical-orthophoto",
+        "updatedAt": "2026-11-13",
+        "reason": "Capa representada en el producto indicado."
+      },
+      "url": "https://www.ign.es/wms/pnoa-historico?SERVICE=WMS&REQUEST=GetCapabilities",
+      "coverage": "Por vuelo y edición",
+      "period": "Según el producto original",
+      "license": null,
+      "notes": "Capa consultable en el producto indicado.",
+      "fields": {
+        "Servicio": "IGN · Ortofotografía histórica",
+        "Nombre de capa": "PNOA2004",
+        "Estilos": "default",
+        "Consulta de atributos": "Disponible en el servicio"
+      }
+    },
+    {
+      "id": "f01-wms:pnoa-historico:pnoa10_2018",
+      "title": "PNOA10:Galicia 2018",
+      "sourceId": "F006",
+      "categoryIds": [
+        "F01"
+      ],
+      "suggestedCategoryIds": [],
+      "status": "integrado",
+      "mapAction": "territory:historical-orthophoto:pnoa10_2018",
+      "review": {
+        "implementedProductId": "territory:historical-orthophoto",
+        "updatedAt": "2026-11-13",
+        "reason": "Capa representada en el producto indicado."
+      },
+      "url": "https://www.ign.es/wms/pnoa-historico?SERVICE=WMS&REQUEST=GetCapabilities",
+      "coverage": "Por vuelo y edición",
+      "period": "Según el producto original",
+      "license": null,
+      "notes": "Capa consultable en el producto indicado.",
+      "fields": {
+        "Servicio": "IGN · Ortofotografía histórica",
+        "Nombre de capa": "pnoa10_2018",
+        "Estilos": "default",
+        "Consulta de atributos": "Disponible en el servicio"
+      }
+    },
+    {
+      "id": "f01-wms:pnoa-historico:pnoa10_2016",
+      "title": "PNOA10:Madrid 2016",
+      "sourceId": "F006",
+      "categoryIds": [
+        "F01"
+      ],
+      "suggestedCategoryIds": [],
+      "status": "integrado",
+      "mapAction": "territory:historical-orthophoto:pnoa10_2016",
+      "review": {
+        "implementedProductId": "territory:historical-orthophoto",
+        "updatedAt": "2026-11-13",
+        "reason": "Capa representada en el producto indicado."
+      },
+      "url": "https://www.ign.es/wms/pnoa-historico?SERVICE=WMS&REQUEST=GetCapabilities",
+      "coverage": "Por vuelo y edición",
+      "period": "Según el producto original",
+      "license": null,
+      "notes": "Capa consultable en el producto indicado.",
+      "fields": {
+        "Servicio": "IGN · Ortofotografía histórica",
+        "Nombre de capa": "pnoa10_2016",
+        "Estilos": "default",
+        "Consulta de atributos": "Disponible en el servicio"
+      }
+    },
+    {
+      "id": "f01-wms:pnoa-historico:pnoa10_2013",
+      "title": "PNOA10:Madrid 2013",
+      "sourceId": "F006",
+      "categoryIds": [
+        "F01"
+      ],
+      "suggestedCategoryIds": [],
+      "status": "integrado",
+      "mapAction": "territory:historical-orthophoto:pnoa10_2013",
+      "review": {
+        "implementedProductId": "territory:historical-orthophoto",
+        "updatedAt": "2026-11-13",
+        "reason": "Capa representada en el producto indicado."
+      },
+      "url": "https://www.ign.es/wms/pnoa-historico?SERVICE=WMS&REQUEST=GetCapabilities",
+      "coverage": "Por vuelo y edición",
+      "period": "Según el producto original",
+      "license": null,
+      "notes": "Capa consultable en el producto indicado.",
+      "fields": {
+        "Servicio": "IGN · Ortofotografía histórica",
+        "Nombre de capa": "pnoa10_2013",
+        "Estilos": "default",
+        "Consulta de atributos": "Disponible en el servicio"
+      }
+    },
+    {
+      "id": "f01-wms:pnoa-historico:pnoa10_2009",
+      "title": "PNOA10:Madrid 2009",
+      "sourceId": "F006",
+      "categoryIds": [
+        "F01"
+      ],
+      "suggestedCategoryIds": [],
+      "status": "integrado",
+      "mapAction": "territory:historical-orthophoto:pnoa10_2009",
+      "review": {
+        "implementedProductId": "territory:historical-orthophoto",
+        "updatedAt": "2026-11-13",
+        "reason": "Capa representada en el producto indicado."
+      },
+      "url": "https://www.ign.es/wms/pnoa-historico?SERVICE=WMS&REQUEST=GetCapabilities",
+      "coverage": "Por vuelo y edición",
+      "period": "Según el producto original",
+      "license": null,
+      "notes": "Capa consultable en el producto indicado.",
+      "fields": {
+        "Servicio": "IGN · Ortofotografía histórica",
+        "Nombre de capa": "pnoa10_2009",
+        "Estilos": "default",
+        "Consulta de atributos": "Disponible en el servicio"
+      }
+    },
+    {
+      "id": "f01-wms:pnoa-historico:pnoa10_2007",
+      "title": "PNOA10:Castilla-La Mancha 2007",
+      "sourceId": "F006",
+      "categoryIds": [
+        "F01"
+      ],
+      "suggestedCategoryIds": [],
+      "status": "integrado",
+      "mapAction": "territory:historical-orthophoto:pnoa10_2007",
+      "review": {
+        "implementedProductId": "territory:historical-orthophoto",
+        "updatedAt": "2026-11-13",
+        "reason": "Capa representada en el producto indicado."
+      },
+      "url": "https://www.ign.es/wms/pnoa-historico?SERVICE=WMS&REQUEST=GetCapabilities",
+      "coverage": "Por vuelo y edición",
+      "period": "Según el producto original",
+      "license": null,
+      "notes": "Capa consultable en el producto indicado.",
+      "fields": {
+        "Servicio": "IGN · Ortofotografía histórica",
+        "Nombre de capa": "pnoa10_2007",
+        "Estilos": "default",
+        "Consulta de atributos": "Disponible en el servicio"
+      }
+    },
+    {
+      "id": "f01-wms:pnoa-historico:pnoa10_2008",
+      "title": "PNOA10:Illes Balears 2008",
+      "sourceId": "F006",
+      "categoryIds": [
+        "F01"
+      ],
+      "suggestedCategoryIds": [],
+      "status": "integrado",
+      "mapAction": "territory:historical-orthophoto:pnoa10_2008",
+      "review": {
+        "implementedProductId": "territory:historical-orthophoto",
+        "updatedAt": "2026-11-13",
+        "reason": "Capa representada en el producto indicado."
+      },
+      "url": "https://www.ign.es/wms/pnoa-historico?SERVICE=WMS&REQUEST=GetCapabilities",
+      "coverage": "Por vuelo y edición",
+      "period": "Según el producto original",
+      "license": null,
+      "notes": "Capa consultable en el producto indicado.",
+      "fields": {
+        "Servicio": "IGN · Ortofotografía histórica",
+        "Nombre de capa": "pnoa10_2008",
+        "Estilos": "default",
+        "Consulta de atributos": "Disponible en el servicio"
+      }
+    },
+    {
+      "id": "f01-wms:pnoa-historico:OrtoExpeditaLIDAR2024",
+      "title": "PNOA LIDAR Expedita 2024",
+      "sourceId": "F006",
+      "categoryIds": [
+        "F01"
+      ],
+      "suggestedCategoryIds": [],
+      "status": "integrado",
+      "mapAction": "territory:historical-orthophoto:OrtoExpeditaLIDAR2024",
+      "review": {
+        "implementedProductId": "territory:historical-orthophoto",
+        "updatedAt": "2026-11-13",
+        "reason": "Capa representada en el producto indicado."
+      },
+      "url": "https://www.ign.es/wms/pnoa-historico?SERVICE=WMS&REQUEST=GetCapabilities",
+      "coverage": "Por vuelo y edición",
+      "period": "Según el producto original",
+      "license": null,
+      "notes": "Capa consultable en el producto indicado.",
+      "fields": {
+        "Servicio": "IGN · Ortofotografía histórica",
+        "Nombre de capa": "OrtoExpeditaLIDAR2024",
+        "Estilos": "default",
+        "Consulta de atributos": "Disponible en el servicio"
+      }
+    },
+    {
+      "id": "f01-wms:pnoa-historico:OrtoExpeditaLIDAR2023",
+      "title": "PNOA LIDAR Expedita 2023",
+      "sourceId": "F006",
+      "categoryIds": [
+        "F01"
+      ],
+      "suggestedCategoryIds": [],
+      "status": "integrado",
+      "mapAction": "territory:historical-orthophoto:OrtoExpeditaLIDAR2023",
+      "review": {
+        "implementedProductId": "territory:historical-orthophoto",
+        "updatedAt": "2026-11-13",
+        "reason": "Capa representada en el producto indicado."
+      },
+      "url": "https://www.ign.es/wms/pnoa-historico?SERVICE=WMS&REQUEST=GetCapabilities",
+      "coverage": "Por vuelo y edición",
+      "period": "Según el producto original",
+      "license": null,
+      "notes": "Capa consultable en el producto indicado.",
+      "fields": {
+        "Servicio": "IGN · Ortofotografía histórica",
+        "Nombre de capa": "OrtoExpeditaLIDAR2023",
+        "Estilos": "default",
+        "Consulta de atributos": "Disponible en el servicio"
+      }
+    },
+    {
+      "id": "f01-wms:pnoa-historico:infoExpeditasLIDAR",
+      "title": "Consultar ortoimágenes Expeditas LIDAR disponibles",
+      "sourceId": "F006",
+      "categoryIds": [
+        "F01"
+      ],
+      "suggestedCategoryIds": [],
+      "status": "integrado",
+      "mapAction": "territory:historical-orthophoto:infoExpeditasLIDAR",
+      "review": {
+        "implementedProductId": "territory:historical-orthophoto",
+        "updatedAt": "2026-11-13",
+        "reason": "Capa representada en el producto indicado."
+      },
+      "url": "https://www.ign.es/wms/pnoa-historico?SERVICE=WMS&REQUEST=GetCapabilities",
+      "coverage": "Por vuelo y edición",
+      "period": "Según el producto original",
+      "license": null,
+      "notes": "Capa consultable en el producto indicado.",
+      "fields": {
+        "Servicio": "IGN · Ortofotografía histórica",
+        "Nombre de capa": "infoExpeditasLIDAR",
+        "Estilos": "estilo-visible-ExpeditaLIDAR, estilo-invisible-ExpeditaLIDAR",
+        "Consulta de atributos": "Disponible en el servicio"
+      }
+    },
+    {
+      "id": "f01-wms:pnoa-historico:CampoCartagena",
+      "title": "Campo de Cartagena provisionales 2022",
+      "sourceId": "F006",
+      "categoryIds": [
+        "F01"
+      ],
+      "suggestedCategoryIds": [],
+      "status": "integrado",
+      "mapAction": "territory:historical-orthophoto:CampoCartagena",
+      "review": {
+        "implementedProductId": "territory:historical-orthophoto",
+        "updatedAt": "2026-11-13",
+        "reason": "Capa representada en el producto indicado."
+      },
+      "url": "https://www.ign.es/wms/pnoa-historico?SERVICE=WMS&REQUEST=GetCapabilities",
+      "coverage": "Por vuelo y edición",
+      "period": "Según el producto original",
+      "license": null,
+      "notes": "Capa consultable en el producto indicado.",
+      "fields": {
+        "Servicio": "IGN · Ortofotografía histórica",
+        "Nombre de capa": "CampoCartagena",
+        "Estilos": "default",
+        "Consulta de atributos": "Disponible en el servicio"
+      }
+    },
+    {
+      "id": "f01-wms:pnoa-historico:SIGPAC",
+      "title": "SIGPAC (1997-2003)",
+      "sourceId": "F006",
+      "categoryIds": [
+        "F01"
+      ],
+      "suggestedCategoryIds": [],
+      "status": "integrado",
+      "mapAction": "territory:historical-orthophoto:SIGPAC",
+      "review": {
+        "implementedProductId": "territory:historical-orthophoto",
+        "updatedAt": "2026-11-13",
+        "reason": "Capa representada en el producto indicado."
+      },
+      "url": "https://www.ign.es/wms/pnoa-historico?SERVICE=WMS&REQUEST=GetCapabilities",
+      "coverage": "Por vuelo y edición",
+      "period": "Según el producto original",
+      "license": null,
+      "notes": "Capa consultable en el producto indicado.",
+      "fields": {
+        "Servicio": "IGN · Ortofotografía histórica",
+        "Nombre de capa": "SIGPAC",
+        "Estilos": "default",
+        "Consulta de atributos": "Disponible en el servicio"
+      }
+    },
+    {
+      "id": "f01-wms:pnoa-historico:OLISTAT",
+      "title": "OLISTAT (1997-1998)",
+      "sourceId": "F006",
+      "categoryIds": [
+        "F01"
+      ],
+      "suggestedCategoryIds": [],
+      "status": "integrado",
+      "mapAction": "territory:historical-orthophoto:OLISTAT",
+      "review": {
+        "implementedProductId": "territory:historical-orthophoto",
+        "updatedAt": "2026-11-13",
+        "reason": "Capa representada en el producto indicado."
+      },
+      "url": "https://www.ign.es/wms/pnoa-historico?SERVICE=WMS&REQUEST=GetCapabilities",
+      "coverage": "Por vuelo y edición",
+      "period": "Según el producto original",
+      "license": null,
+      "notes": "Capa consultable en el producto indicado.",
+      "fields": {
+        "Servicio": "IGN · Ortofotografía histórica",
+        "Nombre de capa": "OLISTAT",
+        "Estilos": "default",
+        "Consulta de atributos": "Disponible en el servicio"
+      }
+    },
+    {
+      "id": "f01-wms:pnoa-historico:Nacional_1981-1986",
+      "title": "Nacional (1981-1986)",
+      "sourceId": "F006",
+      "categoryIds": [
+        "F01"
+      ],
+      "suggestedCategoryIds": [],
+      "status": "integrado",
+      "mapAction": "territory:historical-orthophoto:Nacional_1981-1986",
+      "review": {
+        "implementedProductId": "territory:historical-orthophoto",
+        "updatedAt": "2026-11-13",
+        "reason": "Capa representada en el producto indicado."
+      },
+      "url": "https://www.ign.es/wms/pnoa-historico?SERVICE=WMS&REQUEST=GetCapabilities",
+      "coverage": "Por vuelo y edición",
+      "period": "Según el producto original",
+      "license": null,
+      "notes": "Capa consultable en el producto indicado.",
+      "fields": {
+        "Servicio": "IGN · Ortofotografía histórica",
+        "Nombre de capa": "Nacional_1981-1986",
+        "Estilos": "default",
+        "Consulta de atributos": "Disponible en el servicio"
+      }
+    },
+    {
+      "id": "f01-wms:pnoa-historico:Interministerial_1973-1986",
+      "title": "Interministerial (1973-1986)",
+      "sourceId": "F006",
+      "categoryIds": [
+        "F01"
+      ],
+      "suggestedCategoryIds": [],
+      "status": "integrado",
+      "mapAction": "territory:historical-orthophoto:Interministerial_1973-1986",
+      "review": {
+        "implementedProductId": "territory:historical-orthophoto",
+        "updatedAt": "2026-11-13",
+        "reason": "Capa representada en el producto indicado."
+      },
+      "url": "https://www.ign.es/wms/pnoa-historico?SERVICE=WMS&REQUEST=GetCapabilities",
+      "coverage": "Por vuelo y edición",
+      "period": "Según el producto original",
+      "license": null,
+      "notes": "Capa consultable en el producto indicado.",
+      "fields": {
+        "Servicio": "IGN · Ortofotografía histórica",
+        "Nombre de capa": "Interministerial_1973-1986",
+        "Estilos": "default",
+        "Consulta de atributos": "Disponible en el servicio"
+      }
+    },
+    {
+      "id": "f01-wms:pnoa-historico:AMS_1956-1957",
+      "title": "Americano (Serie B, 1956-1957)",
+      "sourceId": "F006",
+      "categoryIds": [
+        "F01"
+      ],
+      "suggestedCategoryIds": [],
+      "status": "integrado",
+      "mapAction": "territory:historical-orthophoto:AMS_1956-1957",
+      "review": {
+        "implementedProductId": "territory:historical-orthophoto",
+        "updatedAt": "2026-11-13",
+        "reason": "Capa representada en el producto indicado."
+      },
+      "url": "https://www.ign.es/wms/pnoa-historico?SERVICE=WMS&REQUEST=GetCapabilities",
+      "coverage": "Por vuelo y edición",
+      "period": "Según el producto original",
+      "license": null,
+      "notes": "Capa consultable en el producto indicado.",
+      "fields": {
+        "Servicio": "IGN · Ortofotografía histórica",
+        "Nombre de capa": "AMS_1956-1957",
+        "Estilos": "default",
+        "Consulta de atributos": "Disponible en el servicio"
+      }
+    },
+    {
+      "id": "f01-wms:pnoa-historico:infoVuelos",
+      "title": "Consultar ortoimágenes disponibles",
+      "sourceId": "F006",
+      "categoryIds": [
+        "F01"
+      ],
+      "suggestedCategoryIds": [],
+      "status": "integrado",
+      "mapAction": "territory:historical-orthophoto:infoVuelos",
+      "review": {
+        "implementedProductId": "territory:historical-orthophoto",
+        "updatedAt": "2026-11-13",
+        "reason": "Capa representada en el producto indicado."
+      },
+      "url": "https://www.ign.es/wms/pnoa-historico?SERVICE=WMS&REQUEST=GetCapabilities",
+      "coverage": "Por vuelo y edición",
+      "period": "Según el producto original",
+      "license": null,
+      "notes": "Capa consultable en el producto indicado.",
+      "fields": {
+        "Servicio": "IGN · Ortofotografía histórica",
+        "Nombre de capa": "infoVuelos",
+        "Estilos": "estilo-visible, estilo-invisible",
+        "Consulta de atributos": "Disponible en el servicio"
+      }
+    },
+    {
+      "id": "f01-wms:lidar-mdt:EL.SpotElevation",
+      "title": "Puntos acotados",
+      "sourceId": "F006",
+      "categoryIds": [
+        "F01"
+      ],
+      "suggestedCategoryIds": [],
+      "status": "integrado",
+      "mapAction": "territory:ign-spotelevation",
+      "review": {
+        "implementedProductId": "territory:ign-spotelevation",
+        "updatedAt": "2026-11-13",
+        "reason": "Capa representada en el producto indicado."
+      },
+      "url": "https://servicios.idee.es/wms-inspire/mdt?SERVICE=WMS&REQUEST=GetCapabilities",
+      "coverage": "España",
+      "period": "Según el producto original",
+      "license": null,
+      "notes": "Capa consultable en el producto indicado.",
+      "fields": {
+        "Servicio": "IGN · Modelo Digital del Terreno",
+        "Nombre de capa": "EL.SpotElevation",
+        "Estilos": "puntosacotados, EL.SpotElevation.Default",
+        "Consulta de atributos": "Disponible en el servicio"
+      }
+    },
+    {
+      "id": "f01-wms:lidar-mdt:EL.ContourLine",
+      "title": "Curvas de nivel",
+      "sourceId": "F006",
+      "categoryIds": [
+        "F01"
+      ],
+      "suggestedCategoryIds": [],
+      "status": "integrado",
+      "mapAction": "territory:ign-contourline",
+      "review": {
+        "implementedProductId": "territory:ign-contourline",
+        "updatedAt": "2026-11-13",
+        "reason": "Capa representada en el producto indicado."
+      },
+      "url": "https://servicios.idee.es/wms-inspire/mdt?SERVICE=WMS&REQUEST=GetCapabilities",
+      "coverage": "España",
+      "period": "Según el producto original",
+      "license": null,
+      "notes": "Capa consultable en el producto indicado.",
+      "fields": {
+        "Servicio": "IGN · Modelo Digital del Terreno",
+        "Nombre de capa": "EL.ContourLine",
+        "Estilos": "curvasnivel, EL.ContourLine.Default",
+        "Consulta de atributos": "Disponible en el servicio"
+      }
+    },
+    {
+      "id": "f01-wms:lidar-mdt:EL.ElevationGridCoverage",
+      "title": "Modelo Digital del Terreno",
+      "sourceId": "F006",
+      "categoryIds": [
+        "F01"
+      ],
+      "suggestedCategoryIds": [],
+      "status": "integrado",
+      "mapAction": "territory:ign-elevationgridcoverage",
+      "review": {
+        "implementedProductId": "territory:ign-elevationgridcoverage",
+        "updatedAt": "2026-11-13",
+        "reason": "Capa representada en el producto indicado."
+      },
+      "url": "https://servicios.idee.es/wms-inspire/mdt?SERVICE=WMS&REQUEST=GetCapabilities",
+      "coverage": "España",
+      "period": "Según el producto original",
+      "license": null,
+      "notes": "Capa consultable en el producto indicado.",
+      "fields": {
+        "Servicio": "IGN · Modelo Digital del Terreno",
+        "Nombre de capa": "EL.ElevationGridCoverage",
+        "Estilos": "Elevaciones, EL.ElevationGridCoverage.Default",
         "Consulta de atributos": "Disponible en el servicio"
       }
     }

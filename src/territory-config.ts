@@ -1,3 +1,5 @@
+import ignEditions from '../registry/ign-territory-editions.json' with {type:'json'};
+
 export type WmsProvider={id:string;url:string;layers:string;styles?:string;sourceId:string;credit:string;bounds:[number,number,number,number];queryable?:boolean;infoFormat?:string};
 export type TerritoryLayer={id:string;name:string;group:string;minzoom:number;note:string;providers?:WmsProvider[]};
 const spain:[number,number,number,number]=[-18.5,27.5,4.7,44];
@@ -7,10 +9,37 @@ const araba:WmsProvider={id:'araba',url:'https://geo.araba.eus/WMS_INSPIRE_CP',l
 const biz=(layers:string):WmsProvider=>({id:'bizkaia',url:'https://geo.bizkaia.eus/arcgisserverinspire/services/LurraldeAntolamendua_PlanificacionTerritorial/Katastro_Catastro/MapServer/WMSServer',layers,sourceId:'F178',credit:'Diputación Foral de Bizkaia',bounds:[-3.5,42.95,-2.4,43.5],queryable:true,infoFormat:'text/html'});
 const gip=(layers:string):WmsProvider=>({id:'gipuzkoa',url:'https://b5m.gipuzkoa.eus/inspire/wms/gipuzkoa_wms',layers,sourceId:'F179',credit:'Diputación Foral de Gipuzkoa · b5m',bounds:[-2.65,42.9,-1.7,43.45],queryable:true,infoFormat:'text/html'});
 const carto=(layers:string):WmsProvider=>({id:'cartociudad',url:'https://www.cartociudad.es/wms-inspire/direcciones-ccpp',layers,sourceId:'F007',credit:'CartoCiudad · IGN y colaboradores · CC BY 4.0',bounds:spain,queryable:true,infoFormat:'application/json'});
+export const orthophotoEditions=ignEditions.orthophoto;
+export const canaryEditions=ignEditions.canary;
+export function canaryCartography(edition:string):WmsProvider{
+  return {id:'canary-cartography',url:'https://idecan2.grafcan.es/ServicioWMS/CARTO_EST',layers:edition,
+    sourceId:'F155',credit:'GRAFCAN / ISTAC · IDECanarias',bounds:[-18.5,27.4,-13.15,29.6],
+    queryable:canaryEditions.find(item=>item.id===edition)?.queryable,infoFormat:'text/html'};
+}
+const administrativeWms:TerritoryLayer[]=[
+  {id:'ign-administrative-boundaries',name:'Líneas administrativas · IGN',group:'Divisiones territoriales',minzoom:7,note:'Servicio oficial de líneas administrativas.'},
+  {id:'ign-administrative-units',name:'Unidades administrativas · IGN',group:'Divisiones territoriales',minzoom:7,note:'Servicio oficial de unidades administrativas.'},
+  {id:'ign-historical-boundaries',name:'Inventario de límites históricos · IGN',group:'Cartografía por fecha',minzoom:7,note:'Conjunto de líneas históricas publicado por el IGN.'},
+].map((layer,i)=>({...layer,providers:[{id:'ign-admin',url:'https://www.ign.es/wms-inspire/unidades-administrativas',
+  layers:['AU.AdministrativeBoundary','AU.AdministrativeUnit','LimitesHistoricos'][i],
+  sourceId:'F006',credit:'© IGN · CC BY 4.0',bounds:spain,queryable:true,infoFormat:'application/json'}]}));
+
+export function historicOrthophoto(edition:string):WmsProvider{
+  return {id:'ign-pnoa-history',url:'https://www.ign.es/wms/pnoa-historico',layers:edition,sourceId:'F006',
+    credit:'Ortofotos históricas © IGN y colaboradores · CC BY 4.0',bounds:spain,
+    queryable:orthophotoEditions.find(item=>item.id===edition)?.queryable,infoFormat:'text/html'};
+}
+const elevationLayers:TerritoryLayer[]=ignEditions.elevation.map(edition=>({
+  id:'ign-'+edition.id.toLowerCase().replace('el.',''),name:edition.name+' · IGN',
+  group:'Relieve y edificios',minzoom:9,note:'Servicio de elevaciones del IGN. Detalle y cobertura según el producto.',
+  providers:[{id:'ign-elevation',url:'https://servicios.idee.es/wms-inspire/mdt',layers:edition.id,
+    sourceId:'F006',credit:'Modelo de elevaciones © IGN · CC BY 4.0',bounds:spain,
+    queryable:edition.queryable,infoFormat:'application/json'}],
+}));
 export const territoryLayers:TerritoryLayer[]=[
   {id:'country',name:'Costa y contorno de España',group:'Divisiones territoriales',minzoom:0,note:'Contorno de las unidades IGN. No delimita espacios marítimos.'},
   {id:'municipal',name:'Municipios',group:'Divisiones territoriales',minzoom:7,note:'Teselas vectoriales IGN; códigos contrastados con la relación INE de 2026.'},
-  {id:'comarcas',name:'Comarcas y divisiones supramunicipales',group:'Divisiones territoriales',minzoom:6,note:'Aragón, Cataluña, Navarra, Comunitat Valenciana, Galicia y Euskadi. Tipología y procedencia conservadas por entidad; cobertura ampliable.'},
+  {id:'comarcas',name:'Comarcas y divisiones supramunicipales',group:'Divisiones territoriales',minzoom:6,note:'Aragón, Cataluña, Navarra, Comunitat Valenciana, Galicia, Euskadi y El Bierzo. Tipología y procedencia conservadas por entidad; cobertura ampliable.'},
   {id:'canary-comarcas-a1',name:'Comarcas estadísticas A1 · Canarias',group:'Divisiones territoriales',minzoom:7,note:'GRAFCAN / ISTAC · zonas estadísticas intermedias A1; no son comarcas administrativas.',providers:[{id:'canarias',url:'https://idecan2.grafcan.es/ServicioWMS/CARTO_EST',layers:'CME1',sourceId:'F155',credit:'GRAFCAN / ISTAC · IDECanarias',bounds:[-18.5,27.5,-13.2,29.5],queryable:true,infoFormat:'text/html'}]},
   {id:'canary-comarcas-a2',name:'Comarcas estadísticas A2 · Canarias',group:'Divisiones territoriales',minzoom:8,note:'GRAFCAN / ISTAC · zonas estadísticas intermedias A2; conservan su propia división.',providers:[{id:'canarias',url:'https://idecan2.grafcan.es/ServicioWMS/CARTO_EST',layers:'CME2',sourceId:'F155',credit:'GRAFCAN / ISTAC · IDECanarias',bounds:[-18.5,27.5,-13.2,29.5],queryable:true,infoFormat:'text/html'}]},
   {id:'nuclei',name:'Núcleos de población',group:'Poblaciones y direcciones',minzoom:9,note:'IGN · recintos y nombres publicados, con su código de origen.'},
@@ -18,6 +47,13 @@ export const territoryLayers:TerritoryLayer[]=[
   {id:'unnamed-places',name:'Lugares sin topónimo conocido',group:'Poblaciones y direcciones',minzoom:12,note:'IGN · lugares sin nombre publicado; sin completar nombres por inferencia.'},
   {id:'postal-addresses',name:'Direcciones y portales · CartoCiudad',group:'Poblaciones y direcciones',minzoom:15,note:'Cobertura del servicio nacional. La búsqueda también admite direcciones.',providers:[carto('AD.Address')]},
   {id:'postcodes',name:'Ámbitos de códigos postales',group:'Poblaciones y direcciones',minzoom:10,note:'CartoCiudad · los ámbitos postales no son divisiones administrativas.',providers:[carto('codigo-postal')]},
+  {id:'historical-orthophoto',name:'Ortofotografía histórica · PNOA',group:'Cartografía por fecha',minzoom:6,note:'Vuelos históricos y ediciones anuales del IGN. Cobertura propia de cada vuelo.',providers:[historicOrthophoto(orthophotoEditions[0].id)]},
+  {id:'canary-cartography',name:'Cartografía estadística · Canarias',group:'Cartografía por fecha',minzoom:7,
+    note:'Islas, entidades, distritos y secciones censales publicados por IDECanarias.',providers:[canaryCartography(canaryEditions[0].id)]},
+  {id:'gipuzkoa-toponyms',name:'Toponimia · Gipuzkoa',group:'Poblaciones y direcciones',minzoom:9,
+    note:'Nombres geográficos publicados por b5m.',providers:[gip('gn.NamedPlace')]},
+  ...administrativeWms,
+  ...elevationLayers,
   {id:'sections',name:'Secciones censales',group:'Cartografía por fecha',minzoom:10,note:'INE · seccionado según la edición elegida, independiente del año estadístico.'},
   {id:'historical-limits',name:'Límites administrativos históricos',group:'Cartografía por fecha',minzoom:7,note:'IGN · fechas entre 05/07/2009 y 28/07/2026. No modifica las geometrías actuales.'},
   {id:'hillshade',name:'Sombreado del terreno · IGN',group:'Relieve y edificios',minzoom:5,note:'Sombreado calculado sobre el modelo de elevaciones oficial.'},

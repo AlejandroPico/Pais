@@ -1,0 +1,543 @@
+{
+  "orthophoto": [
+    {
+      "id": "PNOA2024",
+      "name": "PNOA 2024",
+      "queryable": true
+    },
+    {
+      "id": "PNOA2023",
+      "name": "PNOA 2023",
+      "queryable": true
+    },
+    {
+      "id": "PNOA2022",
+      "name": "PNOA 2022",
+      "queryable": true
+    },
+    {
+      "id": "PNOA2021",
+      "name": "PNOA 2021",
+      "queryable": true
+    },
+    {
+      "id": "PNOA2020",
+      "name": "PNOA 2020",
+      "queryable": true
+    },
+    {
+      "id": "PNOA2019",
+      "name": "PNOA 2019",
+      "queryable": true
+    },
+    {
+      "id": "PNOA2018",
+      "name": "PNOA 2018",
+      "queryable": true
+    },
+    {
+      "id": "PNOA2017",
+      "name": "PNOA 2017",
+      "queryable": true
+    },
+    {
+      "id": "PNOA2016",
+      "name": "PNOA 2016",
+      "queryable": true
+    },
+    {
+      "id": "PNOA2015",
+      "name": "PNOA 2015",
+      "queryable": true
+    },
+    {
+      "id": "PNOA2014",
+      "name": "PNOA 2014",
+      "queryable": true
+    },
+    {
+      "id": "PNOA2013",
+      "name": "PNOA 2013",
+      "queryable": true
+    },
+    {
+      "id": "PNOA2012",
+      "name": "PNOA 2012",
+      "queryable": true
+    },
+    {
+      "id": "PNOA2011",
+      "name": "PNOA 2011",
+      "queryable": true
+    },
+    {
+      "id": "PNOA2010",
+      "name": "PNOA 2010",
+      "queryable": true
+    },
+    {
+      "id": "PNOA2009",
+      "name": "PNOA 2009",
+      "queryable": true
+    },
+    {
+      "id": "PNOA2008",
+      "name": "PNOA 2008",
+      "queryable": true
+    },
+    {
+      "id": "PNOA2007",
+      "name": "PNOA 2007",
+      "queryable": true
+    },
+    {
+      "id": "PNOA2006",
+      "name": "PNOA 2006",
+      "queryable": true
+    },
+    {
+      "id": "PNOA2005",
+      "name": "PNOA 2005",
+      "queryable": true
+    },
+    {
+      "id": "PNOA2004",
+      "name": "PNOA 2004",
+      "queryable": true
+    },
+    {
+      "id": "pnoa10_2018",
+      "name": "PNOA10:Galicia 2018",
+      "queryable": true
+    },
+    {
+      "id": "pnoa10_2016",
+      "name": "PNOA10:Madrid 2016",
+      "queryable": true
+    },
+    {
+      "id": "pnoa10_2013",
+      "name": "PNOA10:Madrid 2013",
+      "queryable": true
+    },
+    {
+      "id": "pnoa10_2009",
+      "name": "PNOA10:Madrid 2009",
+      "queryable": true
+    },
+    {
+      "id": "pnoa10_2007",
+      "name": "PNOA10:Castilla-La Mancha 2007",
+      "queryable": true
+    },
+    {
+      "id": "pnoa10_2008",
+      "name": "PNOA10:Illes Balears 2008",
+      "queryable": true
+    },
+    {
+      "id": "OrtoExpeditaLIDAR2024",
+      "name": "PNOA LIDAR Expedita 2024",
+      "queryable": true
+    },
+    {
+      "id": "OrtoExpeditaLIDAR2023",
+      "name": "PNOA LIDAR Expedita 2023",
+      "queryable": true
+    },
+    {
+      "id": "infoExpeditasLIDAR",
+      "name": "Consultar ortoimágenes Expeditas LIDAR disponibles",
+      "queryable": true
+    },
+    {
+      "id": "CampoCartagena",
+      "name": "Campo de Cartagena provisionales 2022",
+      "queryable": true
+    },
+    {
+      "id": "SIGPAC",
+      "name": "SIGPAC (1997-2003)",
+      "queryable": true
+    },
+    {
+      "id": "OLISTAT",
+      "name": "OLISTAT (1997-1998)",
+      "queryable": true
+    },
+    {
+      "id": "Nacional_1981-1986",
+      "name": "Nacional (1981-1986)",
+      "queryable": true
+    },
+    {
+      "id": "Interministerial_1973-1986",
+      "name": "Interministerial (1973-1986)",
+      "queryable": true
+    },
+    {
+      "id": "AMS_1956-1957",
+      "name": "Americano (Serie B, 1956-1957)",
+      "queryable": true
+    },
+    {
+      "id": "infoVuelos",
+      "name": "Consultar ortoimágenes disponibles",
+      "queryable": true
+    }
+  ],
+  "elevation": [
+    {
+      "id": "EL.SpotElevation",
+      "name": "Puntos acotados",
+      "queryable": true
+    },
+    {
+      "id": "EL.ContourLine",
+      "name": "Curvas de nivel",
+      "queryable": true
+    },
+    {
+      "id": "EL.ElevationGridCoverage",
+      "name": "Modelo Digital del Terreno",
+      "queryable": true
+    }
+  ],
+  "canary": [
+    {
+      "id": "ISLAS",
+      "name": "Islas Canarias",
+      "queryable": true
+    },
+    {
+      "id": "ISLAS_01",
+      "name": "Islas Canarias (generalización)",
+      "queryable": true
+    },
+    {
+      "id": "ISLAS_02",
+      "name": "Islas Canarias",
+      "queryable": true
+    },
+    {
+      "id": "MDTUR_ENT",
+      "name": "Entidades turísticas (ZEI B1)",
+      "queryable": true
+    },
+    {
+      "id": "MDTUR_NUC",
+      "name": "Núcleos turísticos (ZEI B2)",
+      "queryable": true
+    },
+    {
+      "id": "NUC2001",
+      "name": "Núcleos de población 2001",
+      "queryable": true
+    },
+    {
+      "id": "ENT2001",
+      "name": "Entidades de población 2001",
+      "queryable": true
+    },
+    {
+      "id": "SEC2025",
+      "name": "Secciones censales 2025 (INE)",
+      "queryable": true
+    },
+    {
+      "id": "DIS2025",
+      "name": "Distritos censales 2025 (INE)",
+      "queryable": true
+    },
+    {
+      "id": "SEC2019",
+      "name": "Secciones Padrón Municipal Habit. 2019",
+      "queryable": true
+    },
+    {
+      "id": "DIS2019",
+      "name": "Distritos Padrón Municipal Habit. 2019",
+      "queryable": true
+    },
+    {
+      "id": "SEC2018",
+      "name": "Secciones Padrón Municipal Habit. 2018",
+      "queryable": true
+    },
+    {
+      "id": "DIS2018",
+      "name": "Distritos Padrón Municipal Habit. 2018",
+      "queryable": true
+    },
+    {
+      "id": "SEC2017",
+      "name": "Secciones Padrón Municipal Habit. 2017",
+      "queryable": true
+    },
+    {
+      "id": "DIS2017",
+      "name": "Distritos Padrón Municipal Habit. 2017",
+      "queryable": true
+    },
+    {
+      "id": "SEC2016",
+      "name": "Secciones Padrón Municipal Habit. 2016",
+      "queryable": true
+    },
+    {
+      "id": "DIS2016",
+      "name": "Distritos Padrón Municipal Habit. 2016",
+      "queryable": true
+    },
+    {
+      "id": "SEC2015",
+      "name": "Secciones Padrón Municipal Habit. 2015",
+      "queryable": true
+    },
+    {
+      "id": "DIS2015",
+      "name": "Distritos Padrón Municipal Habit. 2015",
+      "queryable": true
+    },
+    {
+      "id": "SEC2014",
+      "name": "Secciones Padrón Municipal Habit. 2014",
+      "queryable": true
+    },
+    {
+      "id": "DIS2014",
+      "name": "Distritos Padrón Municipal Habit. 2014",
+      "queryable": true
+    },
+    {
+      "id": "SEC2013",
+      "name": "Secciones Padrón Municipal Habit. 2013",
+      "queryable": true
+    },
+    {
+      "id": "DIS2013",
+      "name": "Distritos Padrón Municipal Habit. 2013",
+      "queryable": true
+    },
+    {
+      "id": "SEC2012",
+      "name": "Secciones Padrón Municipal Habit. 2012",
+      "queryable": true
+    },
+    {
+      "id": "DIS2012",
+      "name": "Distritos Padrón Municipal Habit. 2012",
+      "queryable": true
+    },
+    {
+      "id": "SEC2011",
+      "name": "Secciones Padrón Municipal Habit. 2011",
+      "queryable": true
+    },
+    {
+      "id": "DIS2011",
+      "name": "Distritos Padrón Municipal Habit. 2011",
+      "queryable": true
+    },
+    {
+      "id": "SEC2010",
+      "name": "Secciones Padrón Municipal Habit. 2010",
+      "queryable": true
+    },
+    {
+      "id": "DIS2010",
+      "name": "Distritos Padrón Municipal Habit. 2010",
+      "queryable": true
+    },
+    {
+      "id": "SEC2009",
+      "name": "Secciones Padrón Municipal Habit. 2009",
+      "queryable": true
+    },
+    {
+      "id": "DIS2009",
+      "name": "Distritos Padrón Municipal Habit. 2009",
+      "queryable": true
+    },
+    {
+      "id": "SEC2008",
+      "name": "Secciones Padrón Municipal Habit. 2008",
+      "queryable": true
+    },
+    {
+      "id": "DIS2008",
+      "name": "Distritos Padrón Municipal Habit. 2008",
+      "queryable": true
+    },
+    {
+      "id": "SEC2007",
+      "name": "Secciones Padrón Municipal Habit. 2007",
+      "queryable": true
+    },
+    {
+      "id": "DIS2007",
+      "name": "Distritos Padrón Municipal Habit. 2007",
+      "queryable": true
+    },
+    {
+      "id": "SEC2006",
+      "name": "Secciones Padrón Municipal Habit. 2006",
+      "queryable": true
+    },
+    {
+      "id": "DIS2006",
+      "name": "Distritos Padrón Municipal Habit. 2006",
+      "queryable": true
+    },
+    {
+      "id": "SEC2005",
+      "name": "Secciones Padrón Municipal Habit. 2005",
+      "queryable": true
+    },
+    {
+      "id": "DIS2005",
+      "name": "Distritos Padrón Municipal Habit. 2005",
+      "queryable": true
+    },
+    {
+      "id": "SEC2004",
+      "name": "Secciones Padrón Municipal Habit. 2004",
+      "queryable": true
+    },
+    {
+      "id": "DIS2004",
+      "name": "Distritos Padrón Municipal Habit. 2004",
+      "queryable": true
+    },
+    {
+      "id": "SEC20190428_EG",
+      "name": "Secciones 2019/04/28 Elecciones Generales",
+      "queryable": true
+    },
+    {
+      "id": "DIS20190428_EG",
+      "name": "Distritos 2019/04/28 Elecciones Generales",
+      "queryable": true
+    },
+    {
+      "id": "SEC20160626_EG",
+      "name": "Secciones 2016/06/26 Elecciones Generales",
+      "queryable": true
+    },
+    {
+      "id": "DIS20160626_EG",
+      "name": "Distritos 2016/06/26 Elecciones Generales",
+      "queryable": true
+    },
+    {
+      "id": "SEC20151220_EG",
+      "name": "Secciones 2015/12/20 Elecciones Generales",
+      "queryable": true
+    },
+    {
+      "id": "DIS20151220_EG",
+      "name": "Distritos 2015/12/20 Elecciones Generales",
+      "queryable": true
+    },
+    {
+      "id": "SEC20150524_EL",
+      "name": "Secciones 2015/05/24 Elecciones Locales",
+      "queryable": true
+    },
+    {
+      "id": "DIS20150524_EL",
+      "name": "Distritos 2015/05/24 Elecciones Locales",
+      "queryable": true
+    },
+    {
+      "id": "SEC20140525_EE",
+      "name": "Secciones 2014/05/25 Elecciones Europeas",
+      "queryable": true
+    },
+    {
+      "id": "DIS20140525_EE",
+      "name": "Distritos 2014/05/25 Elecciones Europeas",
+      "queryable": true
+    },
+    {
+      "id": "SEC20111120_EG",
+      "name": "Secciones 2011/11/20 Elecciones Generales",
+      "queryable": true
+    },
+    {
+      "id": "DIS20111120_EG",
+      "name": "Distritos 2011/11/20 Elecciones Generales",
+      "queryable": true
+    },
+    {
+      "id": "SEC20110522_EL",
+      "name": "Secciones 2011/05/22 Elecciones Locales",
+      "queryable": true
+    },
+    {
+      "id": "DIS20110522_EL",
+      "name": "Distritos 2011/05/22 Elecciones Locales",
+      "queryable": true
+    },
+    {
+      "id": "SEC20090607_EE",
+      "name": "Secciones 2009/06/07 Elecciones Europeas",
+      "queryable": true
+    },
+    {
+      "id": "DIS20090607_EE",
+      "name": "Distritos 2009/06/07 Elecciones Europeas",
+      "queryable": true
+    },
+    {
+      "id": "SEC20080309_EG",
+      "name": "Secciones 2008/03/09 Elecciones Generales",
+      "queryable": true
+    },
+    {
+      "id": "DIS20080309_EG",
+      "name": "Distritos 2008/03/09 Elecciones Generales",
+      "queryable": true
+    },
+    {
+      "id": "SEC20070527_EL",
+      "name": "Secciones 2007/05/27 Elecciones Locales",
+      "queryable": true
+    },
+    {
+      "id": "DIS20070527_EL",
+      "name": "Distritos 2007/05/27 Elecciones Locales",
+      "queryable": true
+    },
+    {
+      "id": "SEC20040613_EE",
+      "name": "Secciones 2004/06/13 Elecciones Europeas",
+      "queryable": true
+    },
+    {
+      "id": "DIS20040613_EE",
+      "name": "Distritos 2004/06/13 Elecciones Europeas",
+      "queryable": true
+    },
+    {
+      "id": "SEC20040314_EG",
+      "name": "Secciones 2004/03/14 Elecciones Generales",
+      "queryable": true
+    },
+    {
+      "id": "DIS20040314_EG",
+      "name": "Distritos 2004/03/14 Elecciones Generales",
+      "queryable": true
+    },
+    {
+      "id": "MUN",
+      "name": "Municipios",
+      "queryable": true
+    },
+    {
+      "id": "MUN08",
+      "name": "Municipios (hasta 2008)",
+      "queryable": true
+    }
+  ]
+}

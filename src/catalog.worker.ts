@@ -18,12 +18,13 @@ async function records(index:RegistryIndex, kind:string,base:string):Promise<Reg
   })().catch(e=>{cache.delete(kind);throw e;}));
   return cache.get(kind)!;
 }
-self.onmessage=async(e:MessageEvent<{id:number;index:RegistryIndex;query:ProductQuery;base:string}>)=>{
-  const {id,index,query,base}=e.data;newest=id;
+self.onmessage=async(e:MessageEvent<{id:number;index:RegistryIndex;query:ProductQuery;pageSize?:number;base:string}>)=>{
+  const {id,index,query,base,pageSize=40}=e.data;newest=id;
   try{
     const rows=await records(index,query.kind,base);if(id!==newest)return;
     const matches=rows.filter(p=>matchesProduct(p,query));
-    const pages=Math.max(1,Math.ceil(matches.length/40));const page=Math.min(Math.max(query.page,0),pages-1);
-    if(id===newest)self.postMessage({id,total:matches.length,page,pages,rows:matches.slice(page*40,page*40+40)});
+    const size=Math.max(1,Math.min(100,Math.trunc(pageSize)||1));
+    const pages=Math.max(1,Math.ceil(matches.length/size));const page=Math.min(Math.max(query.page,0),pages-1);
+    if(id===newest)self.postMessage({id,total:matches.length,page,pages,rows:matches.slice(page*size,(page+1)*size)});
   }catch(error){if(id===newest)self.postMessage({id,error:error instanceof Error?error.message:'No se pudo consultar el inventario'});}
 };

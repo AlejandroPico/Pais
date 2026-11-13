@@ -4,7 +4,7 @@ import {normalize} from './data';
 import {toAtlas,fromAtlas,projectFeature,projectCollection,displayRegion} from './atlas-coordinates';
 import {atlasTileUrl,addShiftedLayer,updateShiftedTiles} from './atlas-geography';
 import {municipalCode,coordinatesExtent,validSpanishCoordinate} from './territory-data';
-import {territoryLayers,sectionEditions,wmsTile,type WmsProvider} from './territory-config';
+import {territoryLayers,sectionEditions,orthophotoEditions,historicOrthophoto,canaryEditions,canaryCartography,wmsTile,type WmsProvider} from './territory-config';
 
 const esc=(v:unknown)=>String(v??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]!));
 const dataRoot=import.meta.env.BASE_URL+'data/territory/';
@@ -25,16 +25,22 @@ export class TerritoryController{
   private geometryCache=new Map<number,Feature>();
   private selected:Feature|undefined;
   private sectionEdition='2026';
+  private orthophotoEdition=orthophotoEditions[0].id;
   private boundaryDate='2026-07-28';
+  private canaryEdition=canaryEditions[0].id;
   private tileRevision=0;
   private opacities=new Map<string,number>();
   constructor(private options:Options){
     const params=new URLSearchParams(location.hash.slice(1));
     if(sectionEditions.some(e=>e.id===params.get('sections')))this.sectionEdition=params.get('sections')!;
+    const orthophoto=params.get('orthophoto');
+    if(orthophotoEditions.some(edition=>edition.id===orthophoto))this.orthophotoEdition=orthophoto!;
+    const canary=params.get('canary');
+    if(canaryEditions.some(edition=>edition.id===canary))this.canaryEdition=canary!;
     const date=params.get('boundaries')||'';
     if(/^\d{4}-\d{2}-\d{2}$/.test(date)&&date>='2009-07-05'&&date<='2026-07-28')this.boundaryDate=date;
   }
-  urlState(){return {sections:this.sectionEdition,boundaries:this.boundaryDate};}
+  urlState(){return {sections:this.sectionEdition,boundaries:this.boundaryDate,...(this.options.active.has('historical-orthophoto')?{orthophoto:this.orthophotoEdition}:{}),...(this.options.active.has('canary-cartography')?{canary:this.canaryEdition}:{})};}
   private index():Promise<TerritoryIndex>{return this.indexPromise??=fetch(dataRoot+'index.json').then(r=>{if(!r.ok)throw new Error('No se pudo cargar el catálogo municipal');return r.json();}).catch(e=>{this.indexPromise=undefined;throw e;});}
   private comarcas():Promise<FeatureCollection>{return this.comarcaPromise??=fetch(dataRoot+'comarcas.geojson').then(r=>{if(!r.ok)throw new Error('No se pudo cargar la cartografía comarcal');return r.json();}).catch(e=>{this.comarcaPromise=undefined;throw e;});}
   private add(m:AtlasMap,id:string,layer:LayerSpecification,before?:string){
@@ -67,7 +73,7 @@ export class TerritoryController{
     this.add(m,'contours',{id:'f01-elevation',type:'circle',source:'f01-btn','source-layer':'btn0204p_pun_aco',minzoom:14,layout:{visibility:visibility('contours')},paint:{'circle-radius':2,'circle-color':'#ebc18f'}});
     m.addSource('f01-shade-dem',{type:'raster-dem',tiles:[atlasTileUrl('https://xyz-mdt.idee.es/1.0.0/raster-dem/{z}/{x}/{y}.png',{size:512,dem:true})],encoding:'mapbox',tileSize:512,minzoom:5,maxzoom:15,attribution:'Modelo de elevaciones © IGN · CC BY 4.0'});
     this.add(m,'hillshade',{id:'f01-hillshade',type:'hillshade',source:'f01-shade-dem',minzoom:5,layout:{visibility:visibility('hillshade')},paint:{'hillshade-exaggeration':.45}},'province-fill');
-    for(const def of territoryLayers)if(def.providers)this.raster(m,def.id,def.providers,def.minzoom);
+    for(const def of territoryLayers)if(def.providers)this.raster(m,def.id,def.id==='historical-orthophoto'?[historicOrthophoto(this.orthophotoEdition)]:def.id==='canary-cartography'?[canaryCartography(this.canaryEdition)]:def.providers,def.minzoom);
     this.raster(m,'sections',[this.sectionsProvider()],10);
     this.raster(m,'historical-limits',[this.historyProvider()],7,{TIME:this.boundaryDate+'T23:00:00Z'});
     m.addLayer({id:'f01-selected-fill',type:'fill',source:'f01-selection',paint:{'fill-color':'#f6d584','fill-opacity':.1}});
@@ -81,15 +87,69 @@ export class TerritoryController{
   }
   update(){for(const m of this.maps)for(const [id,ids] of this.mapLayers)for(const layer of ids)if(m.getLayer(layer))m.setLayoutProperty(layer,'visibility',this.options.active.has(id)?'visible':'none');}
   reset(){this.controller?.abort();this.selected=undefined;for(const m of this.maps)(m.getSource('f01-selection') as GeoJSONSource).setData({type:'FeatureCollection',features:[]});}
-  activeLabels(){return territoryLayers.filter(d=>this.options.active.has(d.id)).map(d=>d.id==='sections'?`Secciones · ${sectionEditions.find(e=>e.id===this.sectionEdition)!.name}`:d.id==='historical-limits'?`Límites · ${this.boundaryDate}`:d.name);}
+  activeLabels(){return territoryLayers.filter(d=>this.options.active.has(d.id)).map(d=>d.id==='historical-orthophoto'?orthophotoEditions.find(e=>e.id===this.orthophotoEdition)!.name:d.id==='canary-cartography'?canaryEditions.find(e=>e.id===this.canaryEdition)!.name:d.id==='sections'?`Secciones · ${sectionEditions.find(e=>e.id===this.sectionEdition)!.name}`:d.id==='historical-limits'?`Límites · ${this.boundaryDate}`:d.name);}
   panel(){
-    return [...new Set(territoryLayers.map(d=>d.group))].map(group=>`<details class="submenu" ${group==='Divisiones territoriales'?'open':''}><summary>${esc(group)} <span aria-hidden="true">›</span></summary>${territoryLayers.filter(d=>d.group===group).map(d=>`<div class="territory-option"><label class="check-row"><input type="checkbox" data-territory-layer="${d.id}" ${this.options.active.has(d.id)?'checked':''}><span>${esc(d.name)}</span></label><p class="data-note">${esc(d.note)}${d.minzoom>=7?' Visible desde zoom '+d.minzoom+'.':''}</p>${d.providers?`<label class="opacity-control">Opacidad<input data-territory-opacity="${d.id}" type="range" min="10" max="100" value="${(this.opacities.get(d.id)??.85)*100}" aria-label="Opacidad de ${esc(d.name)}"></label>`:''}${d.id==='sections'?`<label class="field-label">Edición del seccionado<select id="section-edition">${sectionEditions.map(e=>`<option value="${e.id}" ${e.id===this.sectionEdition?'selected':''}>${e.name}</option>`).join('')}</select></label>`:''}${d.id==='historical-limits'?`<label class="field-label">Fecha de los límites<input id="boundary-date" type="date" min="2009-07-05" max="2026-07-28" value="${this.boundaryDate}"></label>`:''}</div>`).join('')}</details>`).join('');
+    return `<details id="municipal-changes" class="submenu"><summary>Cambios de municipios y códigos <span aria-hidden="true">›</span></summary><div id="municipal-changes-panel"></div></details>`+[...new Set(territoryLayers.map(d=>d.group))].map(group=>`<details class="submenu" ${group==='Divisiones territoriales'?'open':''}><summary>${esc(group)} <span aria-hidden="true">›</span></summary>${territoryLayers.filter(d=>d.group===group).map(d=>`<div class="territory-option"><label class="check-row"><input type="checkbox" data-territory-layer="${d.id}" ${this.options.active.has(d.id)?'checked':''}><span>${esc(d.name)}</span></label><p class="data-note">${esc(d.note)}${d.minzoom>=7?' Visible desde zoom '+d.minzoom+'.':''}</p>${d.providers?`<label class="opacity-control">Opacidad<input data-territory-opacity="${d.id}" type="range" min="10" max="100" value="${(this.opacities.get(d.id)??.85)*100}" aria-label="Opacidad de ${esc(d.name)}"></label>`:''}${d.id==='sections'?`<label class="field-label">Edición del seccionado<select id="section-edition">${sectionEditions.map(e=>`<option value="${e.id}" ${e.id===this.sectionEdition?'selected':''}>${e.name}</option>`).join('')}</select></label>`:''}${d.id==='historical-orthophoto'?`<label class="field-label">Vuelo o edición<select id="orthophoto-edition">${orthophotoEditions.map(e=>`<option value="${esc(e.id)}" ${e.id===this.orthophotoEdition?'selected':''}>${esc(e.name)}</option>`).join('')}</select></label>`:''}${d.id==='canary-cartography'?`<label class="field-label">Edición<select id="canary-edition">${canaryEditions.map(e=>`<option value="${esc(e.id)}" ${e.id===this.canaryEdition?'selected':''}>${esc(e.name)}</option>`).join('')}</select></label>`:''}${d.id==='historical-limits'?`<label class="field-label">Fecha de los límites<input id="boundary-date" type="date" min="2009-07-05" max="2026-07-28" value="${this.boundaryDate}"></label>`:''}</div>`).join('')}</details>`).join('');
   }
   bind(root:HTMLElement){
+    const changes=root.querySelector<HTMLDetailsElement>('#municipal-changes');
+    const panel=root.querySelector<HTMLElement>('#municipal-changes-panel');
+    if(changes&&panel)changes.ontoggle=()=>{
+      if(changes.open&&!panel.hasChildNodes())void this.mountMunicipalChanges(panel);
+    };
     root.querySelectorAll<HTMLInputElement>('[data-territory-layer]').forEach(input=>input.onchange=()=>{const id=input.dataset.territoryLayer!;input.checked?this.options.active.add(id):this.options.active.delete(id);this.update();this.options.onChange();});
     root.querySelectorAll<HTMLInputElement>('[data-territory-opacity]').forEach(input=>input.oninput=()=>{const id=input.dataset.territoryOpacity!,value=Number(input.value)/100;this.opacities.set(id,value);for(const m of this.maps)for(const layer of this.mapLayers.get(id)||[])if(m.getLayer(layer)?.type==='raster')m.setPaintProperty(layer,'raster-opacity',value);});
     root.querySelector<HTMLSelectElement>('#section-edition')?.addEventListener('change',e=>{this.sectionEdition=(e.target as HTMLSelectElement).value;this.replaceTemporal('sections',this.sectionsProvider());});
+    root.querySelector<HTMLSelectElement>('#orthophoto-edition')?.addEventListener('change',event=>{
+      this.orthophotoEdition=(event.target as HTMLSelectElement).value;
+      this.replaceTemporal('historical-orthophoto',historicOrthophoto(this.orthophotoEdition));
+    });
+    root.querySelector<HTMLSelectElement>('#canary-edition')?.addEventListener('change',event=>{
+      this.canaryEdition=(event.target as HTMLSelectElement).value;
+      this.replaceTemporal('canary-cartography',canaryCartography(this.canaryEdition));
+    });
     root.querySelector<HTMLInputElement>('#boundary-date')?.addEventListener('change',e=>{const el=e.target as HTMLInputElement;if(!el.checkValidity()||!el.value)return;this.boundaryDate=el.value;this.replaceTemporal('historical-limits',this.historyProvider(),{TIME:this.boundaryDate+'T23:00:00Z'});});
+  }
+  async mountMunicipalChanges(panel:HTMLElement){
+    panel.innerHTML='<p role="status">Cargando cambios municipales…</p>';
+    try{
+      const response=await fetch(dataRoot+'municipal-changes.json');
+      if(!response.ok)throw new Error('No se pudo consultar el archivo del INE.');
+      const {editions}=await response.json() as {editions:{year:string;url:string;sections:{name:string;rows:string[][]}[]}[]};
+      if(!panel.isConnected)return;
+      panel.innerHTML=`<label class="field-label">Año<select id="municipal-change-year">${[...editions].reverse().map(edition=>`<option>${esc(edition.year)}</option>`).join('')}</select></label>
+        <label class="field-label">Municipio o código<input type="search" placeholder="Buscar cambios en esta edición"></label><div id="municipal-change-results"></div>`;
+      const year=panel.querySelector<HTMLSelectElement>('select')!;
+      const input=panel.querySelector<HTMLInputElement>('input')!;
+      const draw=()=>{
+        const term=normalize(input.value.trim());
+        const edition=editions.find(item=>item.year===year.value)!;
+        panel.querySelector('#municipal-change-results')!.innerHTML=edition.sections.map(section=>
+          `<details class="nomen-entry"><summary>${esc(section.name)}</summary>
+            ${section.rows.filter(row=>normalize(row.join(' ')).includes(term)).map(row=>'<p>'+row.filter(Boolean).map(esc).join(' · ')+'</p>').join('')||'<p>Sin registros publicados en este apartado.</p>'}</details>`
+        ).join('')+`<p><a href="${esc(edition.url)}" target="_blank" rel="noopener">Ficha oficial del INE ↗</a></p>`;
+      };
+      year.onchange=draw;input.oninput=draw;draw();
+    }catch(error){
+      panel.textContent=error instanceof Error?error.message:'No se pudieron cargar los cambios municipales.';
+    }
+  }
+  selectEdition(id:string,layer:string){
+    if(id==='historical-orthophoto'&&orthophotoEditions.some(edition=>edition.id===layer)){
+      this.orthophotoEdition=layer;
+      this.replaceTemporal(id,historicOrthophoto(layer));
+    }
+    if(id==='canary-cartography'&&canaryEditions.some(edition=>edition.id===layer)){
+      this.canaryEdition=layer;
+      this.replaceTemporal(id,canaryCartography(layer));
+    }
+    if(id==='sections'){
+      const edition=sectionEditions.find(item=>item.layer===layer);
+      if(edition){
+        this.sectionEdition=edition.id;
+        this.replaceTemporal(id,this.sectionsProvider());
+      }
+    }
   }
   private replaceTemporal(id:string,provider:WmsProvider,extra:Record<string,string>={}){
     this.controller?.abort();const layer=`f01-raster-${id}-${provider.id}`;
@@ -141,6 +201,8 @@ export class TerritoryController{
   private wmsQueries(m:AtlasMap,lng:number,lat:number){
     const result:{name:string;provider:WmsProvider;extra?:Record<string,string>}[]=[];
     for(const d of territoryLayers){if(!this.options.active.has(d.id)||m.getZoom()+Math.log2(displayRegion(toAtlas([lng,lat]))?.scale||1)<d.minzoom)continue;let providers=d.providers,extra:Record<string,string>|undefined;
+      if(d.id==='canary-cartography')providers=[canaryCartography(this.canaryEdition)];
+      if(d.id==='historical-orthophoto')providers=[historicOrthophoto(this.orthophotoEdition)];
       if(d.id==='sections')providers=[this.sectionsProvider()];if(d.id==='historical-limits'){providers=[this.historyProvider()];extra={TIME:this.boundaryDate+'T23:00:00Z'};}
       for(const p of providers||[])if(lng>=p.bounds[0]&&lng<=p.bounds[2]&&lat>=p.bounds[1]&&lat<=p.bounds[3])result.push({name:d.name,provider:p,extra});
     }return result;

@@ -2,7 +2,7 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
 import {municipalCode,coordinatesExtent,validSpanishCoordinate} from '../src/territory-data.ts';
-import {territoryLayers,sectionEditions,wmsTile} from '../src/territory-config.ts';
+import {territoryLayers,sectionEditions,orthophotoEditions,canaryEditions,wmsTile} from '../src/territory-config.ts';
 const read=p=>JSON.parse(fs.readFileSync(new URL('../'+p,import.meta.url),'utf8'));
 const index=read('public/data/territory/index.json'),manifest=read('public/data/territory/manifest.json');
 
@@ -28,7 +28,7 @@ test('all imported comarca geometries retain their regional type, code, source a
   assert.ok(features.some(f=>f.properties.name==='Lluçanès'));
   assert.ok(features.some(f=>f.properties.name.includes('Aran')&&f.properties.kind==='Entidad territorial singular'));
   for(const f of features){
-    assert.ok(f.properties.kind);assert.ok(f.properties.sourceUrl.startsWith('https://'));assert.equal(f.properties.snapshot,'2026-11-09');
+    assert.ok(f.properties.kind);assert.ok(f.properties.sourceUrl.startsWith('https://'));assert.match(f.properties.snapshot,/^2026-11-(09|13)$/);
     for(const polygon of f.geometry.coordinates)for(const ring of polygon){assert.ok(ring.length>=4);assert.deepEqual(ring[0],ring.at(-1));for(const [x,y] of ring){assert.ok(x>=-10&&x<=5);assert.ok(y>=35&&y<=44);}}
   }
 });
@@ -53,4 +53,13 @@ test('large real-world geometries can be fitted without spreading coordinates on
   assert.deepEqual(extent[0],[-8,38]);assert.deepEqual(extent[1],coordinates.at(-1));
   assert.equal(municipalCode('34010404001'),'04001');assert.equal(municipalCode('28005'),'28005');assert.equal(municipalCode('ES300'),null);
   assert.equal(validSpanishCoordinate(0,0),false);assert.equal(validSpanishCoordinate(-16.3,28.5),true);assert.equal(validSpanishCoordinate(NaN,40),false);assert.equal(validSpanishCoordinate(-3.7,40.4),true);
+});
+
+test('orthophoto and Canary selectors use all relevant advertised WMS editions',()=>{
+  const orthophoto=manifest.services.find(s=>s.id==='pnoa-historico').layers;
+  const canary=manifest.services.find(s=>s.id==='comarca-canarias').layers;
+  assert.deepEqual(orthophotoEditions.map(e=>e.id),orthophoto.map(layer=>layer.name));
+  assert.deepEqual(canaryEditions.map(e=>e.id),canary.filter(layer=>!['WMS_CARTO_EST','ALJTUR2015','CME1','CME2'].includes(layer.name)).map(layer=>layer.name));
+  const bierzo=read('public/data/territory/bierzo-boundaries.json');
+  assert.equal(new Set(bierzo.boundaries.map(row=>row.code)).size,38);
 });

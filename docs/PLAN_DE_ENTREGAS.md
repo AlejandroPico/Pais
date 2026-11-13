@@ -19,7 +19,7 @@ En cada fascículo se seguirá el mismo recorrido:
 1. **Delimitar el inventario:** enumerar los productos de esa familia en cada fuente y fijar la fecha de revisión, incluyendo series históricas y productos descontinuados que sigan publicados. Conservar la relación entre catálogo, conjunto, distribución, tabla e indicador para no contar lo mismo varias veces.
 2. **Revisar el contenido completo:** variables, dimensiones, periodos, territorios, formatos, condiciones de uso y acceso. Una tabla no se considerará integrada por haber importado una sola columna o el último año.
 3. **Unificar los conceptos compatibles:** códigos territoriales, unidades, periodos y definiciones. Conservar las variantes metodológicas y los cambios de serie. Si hay duplicados, identificar su origen y escoger una presentación principal justificada, manteniendo la procedencia alternativa.
-4. **Integrar por lotes comprobables:** descargar, transformar, representar, consultar y verificar cada producto. Las entregas grandes podrán publicarse como F16.1, F16.2, etc., conservando el alcance y los pendientes del fascículo completo.
+4. **Integrar por lotes comprobables:** descargar, transformar, representar, consultar y verificar cada producto. Cada lote es trabajo interno del fascículo. La entrega del fascículo exige completar y verificar su inventario.
 5. **Publicar una ficha de cobertura:** qué productos funcionan, qué años y territorios cubren, qué no tiene dato y qué sigue pendiente. Las nuevas publicaciones de una fuente reabrirán su inventario; «completo» siempre se referirá a una revisión fechada.
 
 Estados del inventario: **por revisar → revisado → en integración → integrado**. Los productos con impedimentos tendrán el estado **bloqueado**, con causa y siguiente acción. Los que no proceda integrar tendrán una justificación concreta: duplicado identificado, fuera del ámbito español, ausencia de permiso de reutilización, etc. Un bloqueo o una descarga parcial no contarán como integración completa.
@@ -227,7 +227,7 @@ Los **238 publicadores y 116.236 títulos catalogados** son una cola de revisió
 - Comprobaciones de códigos, unidades, periodos, cobertura, duplicados y valores ausentes; contraste de valores y geometrías con la fuente.
 - Método de actualización con registro de cambios y fallos. Una actualización fallida no borrará silenciosamente los datos válidos anteriores.
 
-Una entrega se podrá **publicar con alcance parcial explícito**, pero el fascículo seguirá abierto hasta completar el alcance acordado o registrar los impedimentos. Los productos nuevos ampliarán la siguiente revisión, sin exigir que una fuente deje de publicar para poder avanzar.
+Cada fascículo se cierra **al completo** tras revisar el inventario fuente por fuente y comprobar cada producto en el visor. Registrar un impedimento mantiene abierta la entrada. Si un producto está fuera del alcance temático, se anota su destino en el inventario. Las nuevas publicaciones amplían la siguiente revisión fechada.
 
 ## Almacenamiento y tamaño
 
@@ -239,6 +239,6 @@ No se compromete una base de datos o infraestructura de pago para este plan. Las
 
 1. **Diseño de la página:** aspecto del mapa, jerarquía territorial, botón de capas, navegación temática, filtros, leyendas, cronograma y paneles de consulta. Mantener el favicon en la raíz y «Acerca de» discreto en la esquina superior derecha, con identidad, versión y enlaces.
 2. **Implementación de F00 y F01:** adaptar el prototipo existente a la estructura acordada, sin presentar lo ya construido como si cubriera todos los productos del fascículo.
-3. **Integración de F02 en adelante:** completar familias y publicar lotes revisables siguiendo este orden de referencia. Los cambios de orden se documentarán por dependencia o disponibilidad, sin perder el inventario pendiente.
+3. **Integración de F02 en adelante:** completar cada fascículo antes de avanzar al siguiente. Los cambios de orden se documentarán por dependencia o disponibilidad, sin perder el inventario pendiente.
 
 Este reparto no fija plazos ni equipara el tamaño de todos los fascículos. El trabajo de diseño es el siguiente paso; la integración de nuevos datos vendrá después.

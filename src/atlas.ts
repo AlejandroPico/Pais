@@ -2,7 +2,7 @@ import * as maplibregl from 'maplibre-gl';
 import {type Map as AtlasMap,type ExpressionSpecification,type StyleSpecification} from 'maplibre-gl';
 import workerUrl from 'maplibre-gl/dist/maplibre-gl-worker.mjs?worker&url';
 import 'maplibre-gl/dist/maplibre-gl.css';
-import {createIcons,Search,ChevronDown,ChevronRight,X,ArrowUpRight,MapPin,Mountain,Map,Play,Pause,Info,Download,Users,Waves,TrainFront,Route,Footprints,LocateFixed,SlidersHorizontal,ExternalLink,Database,ChartNoAxesCombined,Github,Wallet,BriefcaseBusiness,HeartHandshake,House,Factory,Landmark,FileCheck,GraduationCap,FlaskConical,HeartPulse,Wheat,Trees,CloudSun,Sailboat,Recycle,Zap,Wifi,Luggage,LibraryBig,Vote,Building2,Shield,Palette,Maximize,Minimize,Ellipsis,Check} from 'lucide';
+import {createIcons,Search,ChevronDown,ChevronRight,X,ArrowUpRight,MapPin,Mountain,Map,Play,Pause,Info,Download,Users,Waves,TrainFront,Route,Footprints,LocateFixed,Eye,SlidersHorizontal,ExternalLink,Database,ChartNoAxesCombined,Github,Wallet,BriefcaseBusiness,HeartHandshake,House,Factory,Landmark,FileCheck,GraduationCap,FlaskConical,HeartPulse,Wheat,Trees,CloudSun,Sailboat,Recycle,Zap,Wifi,Luggage,LibraryBig,Vote,Building2,Shield,Palette,Maximize,Minimize,Ellipsis,Check} from 'lucide';
 import packageInfo from '../package.json';
 import {formatValue,labels,normalize,scales,units,valueFor,type Metric,type Population,type Properties} from './data';
 import {overlays} from './sources';
@@ -12,13 +12,14 @@ import {DemographyController,type StatisticsKind} from './demography';
 import {territoryLayers} from './territory-config';
 import {toAtlas,fromAtlas,projectFeature,projectCollection,ATLAS_BOUNDS,shiftedIds,displayRegion} from './atlas-coordinates';
 import {registerAtlasProtocol,atlasTileUrl,addShiftedLayer,addAtlasSeparation} from './atlas-geography';
+import {readTheme,solarTheme,themeOptions,type Theme} from './theme';
 import './style.css';
 import type {Feature,FeatureCollection,MultiPolygon} from 'geojson';
 
 registerAtlasProtocol();maplibregl.setWorkerUrl(workerUrl);maplibregl.setWorkerCount(2);
 const $=<T extends HTMLElement=HTMLElement>(q:string)=>document.querySelector<T>(q)!;
 const icon=(name:string,cls='')=>`<i data-lucide="${name}" class="${cls}" aria-hidden="true"></i>`;
-const icons=()=>createIcons({icons:{Search,ChevronDown,ChevronRight,X,ArrowUpRight,MapPin,Mountain,Map,Play,Pause,Info,Download,Users,Waves,TrainFront,Route,Footprints,LocateFixed,SlidersHorizontal,ExternalLink,Database,ChartNoAxesCombined,Github,Wallet,BriefcaseBusiness,HeartHandshake,House,Factory,Landmark,FileCheck,GraduationCap,FlaskConical,HeartPulse,Wheat,Trees,CloudSun,Sailboat,Recycle,Zap,Wifi,Luggage,LibraryBig,Vote,Building2,Shield,Palette,Maximize,Minimize,Ellipsis,Check}});
+const icons=()=>createIcons({icons:{Search,ChevronDown,ChevronRight,X,ArrowUpRight,MapPin,Mountain,Map,Play,Pause,Info,Download,Users,Waves,TrainFront,Route,Footprints,LocateFixed,Eye,SlidersHorizontal,ExternalLink,Database,ChartNoAxesCombined,Github,Wallet,BriefcaseBusiness,HeartHandshake,House,Factory,Landmark,FileCheck,GraduationCap,FlaskConical,HeartPulse,Wheat,Trees,CloudSun,Sailboat,Recycle,Zap,Wifi,Luggage,LibraryBig,Vote,Building2,Shield,Palette,Maximize,Minimize,Ellipsis,Check}});
 const esc=(s:unknown)=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]!));
 type Geo=FeatureCollection<MultiPolygon,Properties>;
 let map:AtlasMap,maps:AtlasMap[]=[],geography:TerritoryController;
@@ -51,10 +52,10 @@ $('#app').innerHTML=`<div class="workspace"><nav class="rail" aria-label="Menú 
 ${railButton('filters-open','Filtros','sliders-horizontal')}${railButton('search-open','Buscar','search')}
 <div class="category-nav" aria-label="Categorías de capas">${categories.map(c=>`<button class="rail-btn category-btn" data-category="${c.id}" aria-label="${esc(c.name)}" title="${esc(c.name)}" aria-expanded="false" aria-controls="drawer">${icon(c.icon)}<span class="rail-label">${esc(c.name)}</span><span class="compact-label">${c.short}</span>${icon('chevron-right','category-arrow')}</button>`).join('')}</div>
 <button id="more-categories" class="rail-btn" title="Todas las categorías" aria-label="Todas las categorías">${icon('ellipsis')}</button><div class="rail-bottom">
-${railButton('home-map','Vista general','locate-fixed')}${railButton('appearance-open','Tema y mapa','palette')}<button class="rail-btn" id="terrain-toggle" title="Terreno 3D" aria-label="Terreno 3D" aria-pressed="true"><b>3D</b><span class="rail-label">Terreno 3D</span></button>${railButton('fullscreen','Pantalla completa','maximize')}${railButton('sources-open','Fuentes','database')}${railButton('about-open','Acerca de','info')}</div></nav>
+${railButton('appearance-open','Visualización','eye')}${railButton('sources-open','Fuentes','database')}${railButton('about-open','Acerca de','info')}</div></nav>
 <main class="map-area" aria-label="Mapa de España"><div id="map" aria-label="Mapa interactivo. Arrastra para desplazarte. Rueda o pellizco para ampliar. Doble clic derecho para orientar al norte."></div><section id="info-panel" class="info-panel" aria-label="Información del territorio" hidden></section><div id="legend" class="legend" hidden></div><div id="overlay-legend" class="overlay-legend" hidden></div><div id="map-status" class="map-status" role="status">Preparando cartografía…</div>
 <section id="timeline" class="timeline" aria-label="Evolución temporal" hidden><button id="play" aria-label="Reproducir evolución">${icon('play')}</button><div class="timeline-label"><small>PADRÓN · INE</small><strong id="year-value">2021</strong></div><div class="timeline-track"><input id="year" type="range" min="0" max="24" step="1" aria-label="Año de los datos"><div class="timeline-ticks"><span>1996</span><span>2005</span><span>2013</span><span>2021</span></div></div><button id="timeline-info" class="icon-button" aria-label="Información de la serie">${icon('info')}</button></section></main>
-<aside id="drawer" class="drawer" aria-labelledby="drawer-title" hidden><header class="drawer-head"><h1 id="drawer-title"></h1><button id="drawer-close" class="icon-button" aria-label="Cerrar panel">${icon('x')}</button></header><div id="drawer-content" class="drawer-content"></div></aside></div><div id="toast" class="toast" role="status" hidden></div><dialog id="modal" aria-labelledby="modal-title"><header class="modal-top"><span>EL PAÍS</span><button id="modal-close" class="icon-button" aria-label="Cerrar ventana">${icon('x')}</button></header><div id="modal-body"></div></dialog>`;
+<aside id="drawer" class="drawer" aria-labelledby="drawer-title" hidden><header class="drawer-head"><h1 id="drawer-title"></h1><button id="drawer-close" class="icon-button" aria-label="Cerrar panel">${icon('x')}</button></header><div id="drawer-content" class="drawer-content"></div></aside></div><div id="toast" class="toast" role="status" hidden></div><dialog id="modal" aria-labelledby="modal-heading"><header class="modal-top"><span id="modal-heading">El país</span><button id="modal-close" class="icon-button" aria-label="Cerrar ventana">${icon('x')}</button></header><div id="modal-body"></div></dialog>`;
 
 let toastTimeout:ReturnType<typeof setTimeout>;
 function toast(message:string){$('#toast').textContent=message;$('#toast').hidden=false;clearTimeout(toastTimeout);toastTimeout=setTimeout(()=>$('#toast').hidden=true,6000);}
@@ -63,13 +64,57 @@ function extent(f:Feature<MultiPolygon,Properties>):[[number,number],[number,num
 function home(duration=500){if(!ready)return;map.fitBounds(ATLAS_BOUNDS,{padding:{top:24,right:24,bottom:35,left:24},pitch:0,bearing:0,duration});}
 function fitOverview(){const camera=map.cameraForBounds(ATLAS_BOUNDS,{padding:{top:24,right:24,bottom:35,left:24}});if(!camera)return;const wasHome=map.getZoom()<=map.getMinZoom()+.05;map.setMinZoom(camera.zoom||3);if(wasHome||!overviewInitialized)map.jumpTo({...camera,bearing:0,pitch:0});overviewInitialized=true;}
 function selectedGeo(){return level==='province'?provinces:communities;}
-function openModal(html:string){priorFocus=document.activeElement as HTMLElement;modalController?.abort();modalController=new AbortController();$('#modal-body').innerHTML=html;const d=$<HTMLDialogElement>('#modal');if(!d.open)d.showModal();icons();}
+function openModal(html:string,view='',title='El país'){
+  const modal=$<HTMLDialogElement>('#modal');
+  if(!modal.open)priorFocus=document.activeElement as HTMLElement;
+  modalController?.abort();
+  modalController=new AbortController();
+  modal.dataset.view=view;
+  $('#modal-heading').textContent=title;
+  $('#modal-body').innerHTML=html;
+  if(!modal.open)modal.showModal();
+  icons();
+}
 function closeModal(){$<HTMLDialogElement>('#modal').close();}
-async function showCatalog(category?:string){closeDrawer();openModal('<h2 id="modal-title">Fuentes</h2><p role="status">Cargando registro…</p>');const signal=modalController!.signal;try{const {mountCatalog}=await import('./catalog');if(!signal.aborted)await mountCatalog($('#modal-body'),{category,signal,icons,activate:action=>{activateProduct(action);closeModal();}});}catch{if(!signal.aborted){$('#modal-body').innerHTML='<h2 id="modal-title">Fuentes</h2><p>No se pudo cargar el registro.</p><button id="registry-retry">Reintentar</button>';$('#registry-retry').onclick=()=>showCatalog(category);}}}
-function about(){closeDrawer();openModal(`<div class="about-brand"><img src="${import.meta.env.BASE_URL}favicon.svg" alt="" width="72" height="72"><div><h2 id="modal-title">El país</h2><span>Versión ${packageInfo.version}</span></div></div><p class="modal-lead">Atlas de España basado en datos públicos.</p><p>Reunir y organizar la información de organismos estatales, autonómicos y locales para consultarla sobre un mismo mapa, combinar capas y recorrer sus series históricas.</p><h3>Esta versión</h3><p>Ortofoto, relieve elevado, callejero y cartografía oficial. Búsqueda de los 8.132 municipios de 2026 y direcciones oficiales. Municipios, poblaciones, comarcas con cobertura identificada, secciones censales, límites históricos, edificios y catastro estatal y foral. Vista general compacta de España sin países vecinos, con marcos para Canarias, Ceuta, Melilla y otros territorios. Las ampliaciones de escala se indican en cada marco; consultas y descargas conservan su localización real. F02: censos anuales con edad, sexo, nacionalidad y nacimiento; hogares, movimiento natural, migraciones e indicadores demográficos. Series y pirámides consultables, detalle municipal por provincia y descargas con procedencia. F03: renta del Atlas y encuestas, pobreza y desigualdad, carencias, gasto familiar y bienestar subjetivo, conservando unidades y definiciones. F04: empleo y paro de la EPA, distribución salarial, costes, jornada y vacantes. Padrón histórico conservado por separado, hidrografía y transporte. Catálogo común de fuentes, productos y cobertura.</p><h3>El proyecto</h3><p>Una base común y 29 fascículos temáticos: territorio, población, salud, vivienda, naturaleza, energía, cultura y organización pública, entre otros. Cada producto conserva su procedencia, cobertura, fechas y estado de integración.</p><p>Los catálogos describen lo encontrado; solo los productos disponibles se pueden activar en el mapa. Las nuevas familias se incorporarán progresivamente.</p><div class="about-author"><span>Creado por</span><strong>Alejandro Pico</strong></div><div class="about-links"><a href="https://alejandropico.github.io/Portfolio/" target="_blank" rel="noopener">Portfolio ${icon('arrow-up-right')}</a><a href="https://github.com/AlejandroPico/Pais" target="_blank" rel="noopener">${icon('github')} Repositorio ${icon('arrow-up-right')}</a></div>`);}
+async function showCatalog(category?:string){
+  closeDrawer();
+  openModal('<p role="status">Cargando fuentes…</p>','catalog','El país · Fuentes');
+  const signal=modalController!.signal;
+  try{
+    const {mountCatalog}=await import('./catalog');
+    if(!signal.aborted)await mountCatalog($('#modal-body'),{
+      category,signal,icons,activate:action=>{activateProduct(action);closeModal();},
+      setTitle:title=>{$('#modal-heading').textContent=title;},
+    });
+  }catch{
+    if(signal.aborted)return;
+    $('#modal-body').innerHTML='<p>No se pudo cargar el registro de fuentes.</p><button id="registry-retry">Reintentar</button>';
+    $('#registry-retry').onclick=()=>showCatalog(category);
+  }
+}
+function about(){
+  closeDrawer();
+  openModal(`
+    <div class="about-body">
+      <div class="about-brand">
+        <img src="${import.meta.env.BASE_URL}favicon.svg" alt="" width="72" height="72">
+        <div><h2 id="modal-title">El país</h2><span>Atlas abierto de España · versión ${packageInfo.version}</span></div>
+      </div>
+      <p class="about-intro">Explora España a través de su territorio y sus datos públicos.</p>
+      <div class="about-features">
+        <section><h3>Explora el territorio</h3><p>Recorre la península, Baleares, Canarias, Ceuta, Melilla y otros territorios. Alterna ortofoto, relieve y callejero, y busca municipios, comarcas y direcciones.</p></section>
+        <section><h3>Consulta y compara</h3><p>Combina capas, abre fichas territoriales y recorre los periodos disponibles. Descarga las series que te interesen y consulta su unidad y procedencia.</p></section>
+      </div>
+      <p class="about-credit">Un proyecto de <strong>Alejandro Pico</strong> en desarrollo, basado en datos oficiales.</p>
+    </div>
+    <footer class="about-links">
+      <a href="https://alejandropico.github.io/Portfolio/" target="_blank" rel="noopener">Porfolio ${icon('arrow-up-right')}</a>
+      <a href="https://github.com/AlejandroPico/Pais" target="_blank" rel="noopener">${icon('github')} Repositorio ${icon('arrow-up-right')}</a>
+    </footer>`,'about','Acerca de');
+}
 function seriesInfo(){openModal(`<h2 id="modal-title">Serie histórica</h2><p>${esc(population?.note||'Padrón municipal del INE.')}</p><ul><li>Tablas INE 2852 y 2853. Datos a 1 de enero, 1996–2021; no hay observación de 1997.</li><li>Los límites actuales no reconstruyen las fronteras históricas. La superficie y la densidad son aproximadas.</li><li>El cronograma modifica la estadística seleccionada. Cada mapa base o red conserva su propia fecha.</li></ul><a href="https://www.ine.es/jaxiT3/Tabla.htm?t=2852" target="_blank" rel="noopener">Consultar el origen ↗</a>`);}
 function download(name:string,content:string,type:string){const url=URL.createObjectURL(new Blob([content],{type}));const a=document.createElement('a');a.href=url;a.download=name;a.click();setTimeout(()=>URL.revokeObjectURL(url),1000);}
-function expandRail(next=!expanded){expanded=next;$('.workspace').classList.toggle('expanded',expanded);$('#brand-menu').setAttribute('aria-expanded',String(expanded));$('#brand-menu').setAttribute('aria-label',`El país · ${expanded?'Contraer':'Ampliar'} menú`);setTimeout(()=>maps.forEach(m=>m.resize()),200);}
+function expandRail(next=!expanded){expanded=next;$('.workspace').classList.toggle('expanded',expanded);$('#brand-menu').setAttribute('aria-expanded',String(expanded));$('#brand-menu').setAttribute('aria-label',`El país · ${expanded?'Contraer':'Ampliar'} menú`);fitRail();setTimeout(()=>maps.forEach(m=>m.resize()),200);}
 function closeDrawer(){drawerTab='';$('#drawer').hidden=true;document.querySelectorAll<HTMLElement>('[data-category]').forEach(b=>{b.setAttribute('aria-expanded','false');b.classList.remove('active');});}
 function openDrawer(tab:string,title:string,html:string){if(drawerTab===tab){closeDrawer();return;}closeDrawer();if(innerWidth<760&&expanded)expandRail(false);drawerTab=tab;$('#drawer-title').textContent=title;$('#drawer-content').innerHTML=html;$('#drawer').hidden=false;$('#drawer-content').scrollTop=0;document.querySelector(`[data-category="${tab}"]`)?.setAttribute('aria-expanded','true');document.querySelector(`[data-category="${tab}"]`)?.classList.add('active');icons();bindControls();}
 function overlayRow(o:typeof overlays[number]){return `<div class="overlay-entry"><label class="check-row"><input type="checkbox" data-overlay="${o.id}" ${active.has(o.id)?'checked':''}><span>${esc(o.name)}</span></label><p class="data-note">${esc(o.note)}</p><label class="opacity-control">Opacidad<input type="range" min="10" max="100" value="${100*(overlayOpacity[o.id]??.85)}" data-opacity="${o.id}" aria-label="Opacidad de ${esc(o.name)}"></label></div>`;}
@@ -77,20 +122,69 @@ function baseOptions(){return `<div class="base-options">${[['satellite','Ortofo
 function categoryPanel(id:string){const c=categories.find(c=>c.id===id)!;let html='';
   if(id==='F01')html=`<details class="submenu" open><summary>Mapa base <span aria-hidden="true">›</span></summary>${baseOptions()}<p class="data-note">Terreno 3D: modelo oficial IGN. La cámara puede mantenerse vertical.</p></details><details class="submenu" open><summary>Comunidades y provincias <span aria-hidden="true">›</span></summary><label class="check-row"><input id="communities-toggle" type="checkbox" ${showCommunities?'checked':''}><span>Comunidades autónomas</span><span class="line-sample community-line"></span></label><label class="check-row"><input id="provinces-toggle" type="checkbox" ${showProvinces?'checked':''}><span>Provincias</span><span class="line-sample province-line"></span></label></details>${geography?.panel()||'<p>Preparando cartografía…</p>'}`;
   else if(id==='F03'||id==='F04')html='<div id="statistics-panel"></div>';
-  else if(id==='F02')html=`<div id="demography-panel"></div><details class="submenu"><summary>Padrón histórico · INE ${icon('chevron-right')}</summary>${(['population','density','women','change'] as Metric[]).map(m=>`<label class="check-row"><input type="radio" name="metric" value="${m}" ${thematic&&metric===m?'checked':''}><span>${labels[m]}</span></label>`).join('')}<button id="clear-metric" class="text-button">Desactivar población</button><label class="field-label">División territorial<select id="level"><option value="province" ${level==='province'?'selected':''}>Provincias</option><option value="community" ${level==='community'?'selected':''}>Comunidades</option></select></label><p class="data-note">1996–2021, sin 1997. No es la población más reciente.</p></details>`;
+  else if(id==='F02')html=`<details class="submenu" id="nomenclator"><summary>Nomenclátor · entidades y núcleos ${icon('chevron-right')}</summary><div id="nomenclator-panel"></div></details><details class="submenu" id="historical-census"><summary>Censos históricos · 1842–2021 ${icon('chevron-right')}</summary><div id="historical-census-panel"></div></details><div id="demography-panel"></div><details class="submenu"><summary>Padrón histórico · INE ${icon('chevron-right')}</summary>${(['population','density','women','change'] as Metric[]).map(m=>`<label class="check-row"><input type="radio" name="metric" value="${m}" ${thematic&&metric===m?'checked':''}><span>${labels[m]}</span></label>`).join('')}<button id="clear-metric" class="text-button">Desactivar población</button><label class="field-label">División territorial<select id="level"><option value="province" ${level==='province'?'selected':''}>Provincias</option><option value="community" ${level==='community'?'selected':''}>Comunidades</option></select></label><p class="data-note">1996–2021, sin 1997. No es la población más reciente.</p></details>`;
   const ids=id==='F16'?['rivers']:id==='F22'?['rail','roads','camino']:['F24','F26'].includes(id)?['camino']:[];
   if(ids.length)html+=`<details class="submenu" open><summary>Capas disponibles ${icon('chevron-right')}</summary>${overlays.filter(o=>ids.includes(o.id)).map(overlayRow).join('')}</details>`;
   if(!html)html='<p class="panel-note">Las capas de esta categoría están pendientes de integración. Puedes consultar los productos y fuentes inventariados.</p>';
   html+=`<button class="catalog-category" data-open-catalog="${id}">${icon('database')} Productos y cobertura ${icon('chevron-right')}</button>`;openDrawer(id,c.name,html);
 }
 function filtersPanel(){openDrawer('filters','Filtros',`<p class="panel-note" id="filter-summary">${active.size+Number(thematic)+statisticControllers().filter(controller=>controller.active).length+Number(showCommunities)+Number(showProvinces)} capas activas</p><button id="clear-all" class="wide-button">Desactivar todas las capas</button><details class="submenu" open><summary>Buscar una capa ${icon('chevron-right')}</summary><input id="layer-search" type="search" placeholder="Nombre o categoría…" aria-label="Buscar capas"><div id="layer-matches"></div></details><p class="data-note">Las opciones de cada indicador están dentro de su categoría.</p>`);if(!$('#clear-all'))return;$('#clear-all').onclick=()=>{active.clear();disableStatistics();thematic=false;showCommunities=false;showProvinces=false;stopPlaying();updateData();$('#filter-summary').textContent='0 capas activas';};$('#layer-search').oninput=()=>{const q=normalize($<HTMLInputElement>('#layer-search').value);$('#layer-matches').innerHTML=q?categories.filter(c=>normalize(c.name).includes(q)).map(c=>`<button data-match="${c.id}" class="search-result">${esc(c.name)} ${icon('chevron-right')}</button>`).join(''):'';document.querySelectorAll<HTMLButtonElement>('[data-match]').forEach(b=>b.onclick=()=>categoryPanel(b.dataset.match!));icons();};}
-function appearancePanel(){openDrawer('appearance','Tema y mapa',`<details class="submenu" open><summary>Mapa base ${icon('chevron-right')}</summary>${baseOptions()}</details><details class="submenu" open><summary>Interfaz ${icon('chevron-right')}</summary><div class="base-options">${[['auto','Automático'],['dark','Oscuro'],['light','Claro']].map(([id,name])=>`<button data-theme="${id}" aria-pressed="${theme===id}">${name}</button>`).join('')}</div></details><p class="data-note">Arrastra para desplazarte. Usa la rueda o pellizca para ampliar. Doble clic derecho para orientar al norte.</p>`);}
+function appearancePanel(){
+  const modes=themeOptions.map(([id,label])=>
+    `<button data-theme="${id}" aria-pressed="${theme===id}">${label}</button>`).join('');
+  openDrawer('appearance','Visualización',`
+    <div class="view-actions">
+      ${railButton('home-map','Vista general','locate-fixed')}
+      <button id="terrain-toggle" aria-pressed="${tilted}">${icon('mountain')} Terreno 3D</button>
+      <button id="fullscreen">${icon(document.fullscreenElement?'minimize':'maximize')} ${document.fullscreenElement?'Salir de pantalla completa':'Pantalla completa'}</button>
+    </div>
+    <details class="submenu" open><summary>Mapa base ${icon('chevron-right')}</summary>${baseOptions()}</details>
+    <details class="submenu" open><summary>Tema ${icon('chevron-right')}</summary>
+      <div class="theme-options">${modes}</div>
+      <p class="data-note">Automático sigue el amanecer, el mediodía solar y la puesta de sol de Madrid.</p>
+    </details>`);
+}
+
+function fitRail(){
+  const nav=$('.category-nav');
+  const buttons=Array.from(nav.querySelectorAll<HTMLElement>('.category-btn'));
+  const row=buttons[0]?.getBoundingClientRect().height;
+  if(!row)return;
+  const styles=getComputedStyle(nav);
+  const available=nav.clientHeight-parseFloat(styles.paddingTop)-parseFloat(styles.paddingBottom);
+  const count=Math.max(1,Math.floor(available/row));
+  buttons.forEach((button,i)=>{button.hidden=!expanded&&i>=count;});
+}
 function bindControls(){
   geography?.bind($('#drawer-content'));
   if($('#demography-panel')&&statistics.demography)void statistics.demography.mount($('#demography-panel'));
+  const nomenclator=$<HTMLDetailsElement>('#nomenclator');
+  if(nomenclator)nomenclator.ontoggle=()=>{
+    const target=$('#nomenclator-panel');
+    if(nomenclator.open&&target&&!target.hasChildNodes()){
+      void import('./nomenclator').then(({mountNomenclator})=>{
+        if(target.isConnected)void mountNomenclator(target,provinces.features.map(feature=>feature.properties));
+      });
+    }
+  };
+  const historical=$<HTMLDetailsElement>('#historical-census');
+  if(historical)historical.ontoggle=()=>{
+    const target=$('#historical-census-panel');
+    if(historical.open&&target&&!target.hasChildNodes()){
+      void import('./intercensal').then(({mountHistoricalCensus})=>{
+        if(target.isConnected)void mountHistoricalCensus(target,provinces.features.map(feature=>feature.properties));
+      });
+    }
+  };
   const panel=$('#statistics-panel');
   if(panel)void statistics[drawerTab==='F04'?'labor':'welfare']?.mount(panel);
-  document.querySelectorAll<HTMLButtonElement>('[data-base]').forEach(b=>b.onclick=()=>setBase(b.dataset.base!));document.querySelectorAll<HTMLButtonElement>('[data-theme]').forEach(b=>b.onclick=()=>{theme=b.dataset.theme!;try{localStorage.setItem('pais-theme',theme);}catch{}applyTheme();});
+  document.querySelectorAll<HTMLButtonElement>('[data-base]').forEach(b=>b.onclick=()=>setBase(b.dataset.base!));
+  document.querySelectorAll<HTMLButtonElement>('button[data-theme]').forEach(button=>{
+    button.onclick=()=>setTheme(readTheme(button.dataset.theme||null));
+  });
+  $('#home-map')?.addEventListener('click',()=>{closeDrawer();home();});
+  $('#terrain-toggle')?.addEventListener('click',()=>{tilted=!tilted;terrain();});
+  $('#fullscreen')?.addEventListener('click',toggleFullscreen);
   document.querySelectorAll<HTMLButtonElement>('[data-open-catalog]').forEach(b=>b.onclick=()=>showCatalog(b.dataset.openCatalog));
   $('#communities-toggle')?.addEventListener('change',e=>{showCommunities=(e.target as HTMLInputElement).checked;updateData();});$('#provinces-toggle')?.addEventListener('change',e=>{showProvinces=(e.target as HTMLInputElement).checked;updateData();});
   document.querySelectorAll<HTMLInputElement>('[name="metric"]').forEach(i=>i.onchange=()=>{disableStatistics();metric=i.value as Metric;thematic=true;updateData();});$('#clear-metric')?.addEventListener('click',()=>{thematic=false;stopPlaying();updateData();document.querySelectorAll<HTMLInputElement>('[name="metric"]').forEach(i=>i.checked=false);});
@@ -99,8 +193,8 @@ function bindControls(){
   document.querySelectorAll<HTMLInputElement>('[data-opacity]').forEach(i=>i.oninput=()=>{overlayOpacity[i.dataset.opacity!]=Number(i.value)/100;for(const m of maps)for(const id of [i.dataset.opacity!,...shiftedIds(i.dataset.opacity!)])if(m.getLayer(id))m.setPaintProperty(id,'raster-opacity',overlayOpacity[i.dataset.opacity!]);});
 }
 function setBase(next:string){base=next;for(const m of maps)for(const b of ['terrain','satellite','street'])if(m.getLayer(`base-${b}`))m.setLayoutProperty(`base-${b}`,'visibility',b===base?'visible':'none');document.querySelectorAll<HTMLElement>('[data-base]').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.base===base)));syncUrl();}
-function terrain(){for(const m of maps)if(m.getSource('dem'))m.setTerrain(tilted?{source:'dem',exaggeration:1.3}:null);$('#terrain-toggle').setAttribute('aria-pressed',String(tilted));syncUrl();}
-function activateProduct(action:string){const [kind,id]=action.split(':');
+function terrain(){for(const m of maps)if(m.getSource('dem'))m.setTerrain(tilted?{source:'dem',exaggeration:1.3}:null);$('#terrain-toggle')?.setAttribute('aria-pressed',String(tilted));syncUrl();}
+function activateProduct(action:string){const [kind,id,...parameters]=action.split(':');
   if(Object.hasOwn(statisticCategories,kind)){
     const statisticKind=kind as StatisticsKind;
     thematic=false;
@@ -109,7 +203,25 @@ function activateProduct(action:string){const [kind,id]=action.split(':');
     categoryPanel(statisticCategories[statisticKind]);
     return;
   }
-  if(action.startsWith('territory:')){active.add(action.slice(10));geography?.update();updateData();return;}if(action==='search:addresses'){closeModal();searchPanel();return;}if(action.startsWith('base:'))setBase(action.slice(5));else if(action.startsWith('metric:')){disableStatistics();metric=action.slice(7) as Metric;thematic=true;}else if(action.startsWith('overlay:'))active.add(action.slice(8));else if(action==='communities')showCommunities=true;else if(action==='provinces')showProvinces=true;else if(action==='terrain'){tilted=true;terrain();}updateData();}
+  if(kind==='territory'){
+    active.add(id);
+    if(parameters.length)geography?.selectEdition(id,parameters.join(':'));
+    geography?.update();
+    updateData();
+    return;
+  }
+  const consultation={
+    'nomenclator':['F02','nomenclator'],
+    'historical-census':['F02','historical-census'],
+    'municipal-changes':['F01','municipal-changes'],
+  }[action];
+  if(consultation){
+    closeDrawer();
+    categoryPanel(consultation[0]);
+    $('#'+consultation[1])?.setAttribute('open','');
+    return;
+  }
+  if(action==='search:addresses'){closeModal();searchPanel();return;}if(action.startsWith('base:'))setBase(action.slice(5));else if(action.startsWith('metric:')){disableStatistics();metric=action.slice(7) as Metric;thematic=true;}else if(action.startsWith('overlay:'))active.add(action.slice(8));else if(action==='communities')showCommunities=true;else if(action==='provinces')showProvinces=true;else if(action==='terrain'){tilted=true;terrain();}updateData();}
 function updateData(){if(!ready)return;
   for(const m of maps){if(!m.getLayer('province-fill'))continue;for(const l of ['province','community'] as const){const geo=l==='province'?provinces:communities;if(thematic&&l===level)for(const f of geo.features){const value=valueFor(population.data[l][f.properties.code],year,metric,f.properties.areaKm2);m.setFeatureState({source:l,id:f.id!},{value:value??-999999,missing:value===null});}const scale=scales[metric];const color=['interpolate',['linear'],['feature-state','value'],...scale.stops.flatMap((stop,i)=>[stop,scale.colors[i]])] as ExpressionSpecification;m.setPaintProperty(`${l}-fill`,'fill-color',['case',['boolean',['feature-state','missing'],true],'#b8b6aa',color]);m.setPaintProperty(`${l}-fill`,'fill-opacity',thematic&&l===level?opacity:0);}m.setLayoutProperty('province-lines','visibility',showProvinces?'visible':'none');m.setLayoutProperty('community-lines','visibility',showCommunities?'visible':'none');for(const o of overlays){m.setLayoutProperty(o.id,'visibility',active.has(o.id)?'visible':'none');for(const id of shiftedIds(o.id))if(m.getLayer(id))m.setLayoutProperty(id,'visibility',active.has(o.id)?'visible':'none');}(m.getSource('selection') as maplibregl.GeoJSONSource).setData(selected?projectFeature(selected):{type:'FeatureCollection',features:[]});}
   geography?.update();
@@ -176,12 +288,41 @@ async function init(){try{
   map.touchZoomRotate.disableRotation();map.on('moveend',()=>{const c=map.getCenter(),lng=Math.max(ATLAS_BOUNDS[0][0],Math.min(ATLAS_BOUNDS[1][0],c.lng)),lat=Math.max(ATLAS_BOUNDS[0][1],Math.min(ATLAS_BOUNDS[1][1],c.lat));if(c.lng!==lng||c.lat!==lat)map.jumpTo({center:[lng,lat],bearing:0,pitch:0});syncUrl();});new ResizeObserver(()=>{maps.forEach(m=>m.resize());if(ready)fitOverview();}).observe($('.map-area'));
 }catch(error){console.error(error);$('#map-status').hidden=false;$('#map-status').innerHTML='No se pudo iniciar el mapa. <button id="retry">Reintentar</button>';$('#retry').onclick=()=>location.reload();}}
 
-let theme='auto';try{theme=localStorage.getItem('pais-theme')||'auto';}catch{}const scheme=matchMedia('(prefers-color-scheme:dark)');
-function applyTheme(){document.documentElement.dataset.theme=theme==='auto'?(scheme.matches?'dark':'light'):theme;document.querySelectorAll<HTMLElement>('[data-theme]').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.theme===theme)));}
-applyTheme();scheme.addEventListener('change',applyTheme);
+let theme:Theme='auto';
+try{theme=readTheme(localStorage.getItem('pais-theme'));}catch{}
+function applyTheme(){
+  document.documentElement.dataset.theme=theme==='auto'?solarTheme(new Date()):theme;
+  document.querySelectorAll<HTMLButtonElement>('button[data-theme]').forEach(button=>{
+    button.setAttribute('aria-pressed',String(button.dataset.theme===theme));
+  });
+}
+function setTheme(next:Theme){
+  theme=next;
+  try{localStorage.setItem('pais-theme',next);}catch{}
+  applyTheme();
+}
+async function toggleFullscreen(){
+  try{
+    if(document.fullscreenElement)await document.exitFullscreen();
+    else await document.documentElement.requestFullscreen();
+  }catch{toast('La pantalla completa no está disponible en este navegador.');}
+}
+applyTheme();
+setInterval(()=>{if(theme==='auto')applyTheme();},30_000);
+document.addEventListener('visibilitychange',()=>{if(!document.hidden)applyTheme();});
+new ResizeObserver(fitRail).observe($('.category-nav'));
+document.fonts.ready.then(fitRail);
 $('#brand-menu').onclick=()=>expandRail();$('#more-categories').onclick=()=>expandRail(true);document.querySelectorAll<HTMLButtonElement>('[data-category]').forEach(b=>b.onclick=()=>categoryPanel(b.dataset.category!));
-$('#drawer-close').onclick=closeDrawer;$('#filters-open').onclick=filtersPanel;$('#search-open').onclick=searchPanel;$('#appearance-open').onclick=appearancePanel;$('#sources-open').onclick=()=>showCatalog();$('#about-open').onclick=about;$('#home-map').onclick=()=>home();$('#terrain-toggle').onclick=()=>{tilted=!tilted;terrain();};$('#timeline-info').onclick=seriesInfo;
-$('#fullscreen').onclick=async()=>{try{if(document.fullscreenElement)await document.exitFullscreen();else await document.documentElement.requestFullscreen();}catch{toast('La pantalla completa no está disponible en este navegador.');}};document.addEventListener('fullscreenchange',()=>{$('#fullscreen').innerHTML=icon(document.fullscreenElement?'minimize':'maximize')+'<span class="rail-label">Pantalla completa</span>';icons();maps.forEach(m=>m.resize());});
+$('#drawer-close').onclick=closeDrawer;$('#filters-open').onclick=filtersPanel;$('#search-open').onclick=searchPanel;$('#appearance-open').onclick=appearancePanel;$('#sources-open').onclick=()=>showCatalog();$('#about-open').onclick=about;$('#timeline-info').onclick=seriesInfo;
+document.addEventListener('fullscreenchange',()=>{
+  const button=$('#fullscreen');
+  if(button){
+    const full=Boolean(document.fullscreenElement);
+    button.innerHTML=icon(full?'minimize':'maximize')+(full?' Salir de pantalla completa':' Pantalla completa');
+    icons();
+  }
+  maps.forEach(m=>m.resize());
+});
 $('#modal-close').onclick=closeModal;$('#modal').addEventListener('close',()=>{modalController?.abort();priorFocus?.focus();});$('#modal').addEventListener('click',e=>{if(e.target===$('#modal')){const r=$('#modal').getBoundingClientRect();if(e.clientX<r.left||e.clientX>r.right||e.clientY<r.top||e.clientY>r.bottom)closeModal();}});
 function stopPlaying(){clearInterval(playing);playing=undefined;$('#play').innerHTML=icon('play');$('#play').setAttribute('aria-label','Reproducir evolución');icons();}
 $('#year').oninput=e=>{stopPlaying();year=years[Number((e.target as HTMLInputElement).value)];updateData();};$('#play').onclick=()=>{if(!ready)return;if(playing){stopPlaying();return;}$('#play').innerHTML=icon('pause');$('#play').setAttribute('aria-label','Pausar evolución');icons();playing=setInterval(()=>{year=years[(years.indexOf(year)+1)%years.length];updateData();},1100);};

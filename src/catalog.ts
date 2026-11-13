@@ -1,85 +1,256 @@
 import {normalize,safeUrl} from './data';
-import type {RegistryIndex,RegistryProduct,ProductQuery} from './registry';
+import type {RegistryIndex,RegistryProduct,RegistrySource,ProductQuery} from './registry';
 
 const esc=(s:unknown)=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]!));
 const number=(n:number)=>n.toLocaleString('es-ES');
-let indexPromise:Promise<RegistryIndex>|undefined;
 const base=`${import.meta.env.BASE_URL}data/registry/`;
-const kinds:Record<string,string>={available:'Disponibles en el mapa',labor:'Tablas de empleo y salarios · INE',welfare:'Inventario de renta y condiciones de vida',demography:'Tablas demográficas · INE',territory:'Servicios cartográficos F01',ioe:'Operaciones IOE',ine:'Tablas INEbase',national:'Catálogo nacional'};
+const kinds:Record<string,string>={
+  available:'Disponibles en el mapa',territory:'Inventario cartográfico',demography:'Inventario demográfico',
+  welfare:'Inventario de renta',labor:'Tablas de empleo y salarios',ioe:'Operaciones IOE',ine:'Tablas INEbase',national:'Catálogo nacional',
+};
+let indexPromise:Promise<RegistryIndex>|undefined;
 
-export async function mountCatalog(root:HTMLElement,options:{category?:string;signal:AbortSignal;icons:()=>void;activate:(action:string)=>void}) {
-  const {signal,icons,activate}=options;
-  const index:RegistryIndex=await(indexPromise??=fetch(base+'index.json').then(r=>{if(!r.ok)throw new Error('No se pudo cargar el registro de fuentes');return r.json();}).catch(e=>{indexPromise=undefined;throw e;}));
+type Options={
+  category?:string;signal:AbortSignal;icons:()=>void;
+  activate:(action:string)=>void;setTitle:(title:string)=>void;
+};
+type Reply={id:number;error?:string;total:number;page:number;pages:number;rows:RegistryProduct[]};
+
+export async function mountCatalog(root:HTMLElement,{category,signal,activate,setTitle}:Options){
+  const index=await(indexPromise??=fetch(base+'index.json').then(response=>{
+    if(!response.ok)throw new Error('No se pudo cargar el registro de fuentes');
+    return response.json() as Promise<RegistryIndex>;
+  }).catch(error=>{indexPromise=undefined;throw error;}));
   if(signal.aborted)return;
-  let tab=options.category?'products':'sources';
-  let worker:Worker|undefined,request=0,timer:ReturnType<typeof setTimeout>;
-  let query:ProductQuery={kind:options.category&&!['F01','F02','F03','F04'].includes(options.category)?'ioe':'available',q:'',category:options.category||'',source:'',status:'',page:0};
-  signal.addEventListener('abort',()=>{worker?.terminate();clearTimeout(timer);});
-  root.innerHTML=`<h2 id="modal-title">Fuentes</h2><p class="modal-lead">Procedencia, productos y cobertura. Revisión del ${esc(index.revision.split('-').reverse().join('/'))}.</p>
-  <nav class="catalog-tabs" aria-label="Apartados de Fuentes"><button data-catalog-tab="sources">Fuentes</button><button data-catalog-tab="products">Productos</button><button data-catalog-tab="coverage">Cobertura</button></nav>
-  <div id="catalog-content"></div><footer class="catalog-footer"><a href="${base}index.json" download>Descargar registro de fuentes</a><a href="https://github.com/AlejandroPico/Pais/blob/main/docs/F00.md" target="_blank" rel="noopener">Método y actualización ↗</a></footer>`;
-  const $=<T extends HTMLElement=HTMLElement>(q:string)=>root.querySelector<T>(q)!;
-  root.querySelectorAll<HTMLButtonElement>('[data-catalog-tab]').forEach(b=>b.onclick=()=>{tab=b.dataset.catalogTab!;render();});
+
+  setTitle('El país · Fuentes · Revisión '+index.revision.split('-').reverse().join('/'));
+  let tab=category?'products':'sources';
+  let worker:Worker|undefined;
+  let request=0;
+  let timer:ReturnType<typeof setTimeout>;
+  let observer:ResizeObserver|undefined;
+  let sourcePage=0,coveragePage=0,sourceTerm='',sourceKind='research';
+  let pageSize=1;
+  const query:ProductQuery={
+    kind:category&&!['F01','F02','F03','F04'].includes(category)?'ioe':'available',
+    q:'',category:category||'',source:'',status:'',page:0,
+  };
+  signal.addEventListener('abort',()=>{worker?.terminate();observer?.disconnect();clearTimeout(timer);});
+
+  root.innerHTML=`
+    <nav class="catalog-tabs" aria-label="Apartados de Fuentes">
+      <button data-catalog-tab="sources">Fuentes</button><button data-catalog-tab="products">Productos</button>
+      <button data-catalog-tab="coverage">Cobertura</button>
+    </nav>
+    <div id="catalog-content"></div>
+    <footer class="catalog-footer">
+      <a id="catalog-download" href="${base}index.json" download>Descargar registro</a>
+      <a href="https://github.com/AlejandroPico/Pais/blob/main/docs/F00.md" target="_blank" rel="noopener">Metodología ↗</a>
+    </footer>`;
+  const $=<T extends HTMLElement=HTMLElement>(selector:string)=>root.querySelector<T>(selector)!;
+  const link=(url:string,label:string)=>`<a href="${esc(safeUrl(url,'https://datos.gob.es/'))}" target="_blank" rel="noopener">${label} ↗</a>`;
+  root.querySelectorAll<HTMLButtonElement>('[data-catalog-tab]').forEach(button=>{
+    button.onclick=()=>{tab=button.dataset.catalogTab!;render();};
+  });
+
   function render(){
-    root.querySelectorAll<HTMLButtonElement>('[data-catalog-tab]').forEach(b=>b.setAttribute('aria-current',String(b.dataset.catalogTab===tab)));
-    if(tab==='sources')renderSources();else if(tab==='coverage')renderCoverage();else renderProducts();
-    icons();
+    ++request;
+    observer?.disconnect();
+    root.querySelectorAll('[data-catalog-tab]').forEach(button=>{
+      button.setAttribute('aria-current',String(button.getAttribute('data-catalog-tab')===tab));
+    });
+    const download=$<HTMLAnchorElement>('#catalog-download');
+    download.href=base+(tab==='products'?index.files[query.kind].file:'index.json');
+    download.textContent=tab==='products'?'Descargar inventario':'Descargar registro';
+    if(tab==='sources')renderSources();
+    else if(tab==='products')renderProducts();
+    else renderCoverage();
   }
-  function renderSources(){
-    $('#catalog-content').innerHTML=`<div class="registry-counts"><span><b>182</b> fichas de fuentes</span><span><b>238</b> publicadores federados</span></div><p class="catalog-note">Son dos directorios relacionados; una entidad puede aparecer en ambos. El estado se registra por producto, porque un organismo puede estar integrado solo en parte.</p>
-    <div class="catalog-filters"><input id="source-search" type="search" aria-label="Buscar fuentes" placeholder="Buscar organismo, tema o territorio…"><select id="source-kind" aria-label="Directorio"><option value="research">Fuentes investigadas</option><option value="publisher">Publicadores federados</option><option value="auxiliary">Cartografía auxiliar</option></select></div><p id="source-count" class="catalog-note" role="status"></p><div id="source-results"></div><div id="source-pages" class="pagination"></div>`;
-    let page=0;
-    const draw=()=>{
-      const terms=normalize($<HTMLInputElement>('#source-search').value).split(/\s+/).filter(Boolean);
-      const kind=$<HTMLSelectElement>('#source-kind').value;
-      const matches=index.sources.filter(s=>s.kind===kind&&terms.every(t=>normalize([s.name,s.coverage,s.group,...s.families].join(' ')).includes(t)));
-      const pages=Math.max(1,Math.ceil(matches.length/20));page=Math.min(page,pages-1);
-      $('#source-count').textContent=`${number(matches.length)} resultados · página ${page+1} de ${pages}`;
-      $('#source-results').innerHTML=matches.slice(page*20,page*20+20).map(s=>`<article class="source-card"><span class="eyebrow">${esc(s.id)}${s.group?' · '+esc(s.group):''}</span><h3>${esc(s.name)}</h3><p>${esc(s.coverage||'Cobertura según producto')}${s.datasetCount!==undefined?' · '+number(s.datasetCount)+' títulos catalogados':''}</p><details><summary>Contenido y acceso</summary><p>${esc(s.notes)}</p>${s.families.length?`<ul class="family-list">${s.families.map(f=>`<li>${esc(f)}</li>`).join('')}</ul>`:''}<p>${esc(s.access||'Consultar el producto original')}</p><p>Licencia: ${esc(s.license||'verificar en cada producto')}</p></details><a href="${esc(safeUrl(s.url,'https://datos.gob.es/'))}" target="_blank" rel="noopener">Consultar fuente ↗</a></article>`).join('')||'<p class="empty-state">No hay fuentes con esos filtros.</p>';
-      $('#source-pages').innerHTML=`<button id="source-prev" ${page===0?'disabled':''}>Anterior</button><span>${page+1} / ${pages}</span><button id="source-next" ${page>=pages-1?'disabled':''}>Siguiente</button>`;
-      $('#source-prev').onclick=()=>{page--;draw();};$('#source-next').onclick=()=>{page++;draw();};
+
+  function listShell(filters=''){
+    $('#catalog-content').innerHTML=`${filters}
+      <p class="catalog-status" role="status" id="catalog-count">Cargando…</p>
+      <div class="catalog-results" id="catalog-results"></div>
+      <nav class="pagination" aria-label="Paginación" id="catalog-pages"></nav>`;
+  }
+
+  function fitPage(draw:()=>void){
+    observer?.disconnect();
+    const results=$('#catalog-results');
+    const measure=(redraw=true)=>{
+      const styles=getComputedStyle(results);
+      const columns=styles.gridTemplateColumns.split(' ').length;
+      const row=parseFloat(styles.gridAutoRows);
+      const gap=parseFloat(styles.rowGap);
+      const next=Math.max(1,Math.floor((results.clientHeight+gap)/(row+gap)))*columns;
+      if(Number.isFinite(next)&&next!==pageSize){pageSize=next;if(redraw)draw();}
     };
-    $('#source-search').oninput=()=>{page=0;draw();};$('#source-kind').onchange=()=>{page=0;draw();};draw();
+    observer=new ResizeObserver(()=>measure());
+    observer.observe(results);
+    measure(false);
+    draw();
   }
+
+  function pages(total:number,page:number,count:number,change:(page:number)=>void){
+    $('#catalog-count').textContent=`${number(total)} ${total===1?'resultado':'resultados'}`;
+    $('#catalog-pages').innerHTML=`
+      <button id="catalog-prev" ${page<=0?'disabled':''}>Anterior</button>
+      <span aria-label="Página ${page+1} de ${count}">${page+1} / ${count}</span>
+      <button id="catalog-next" ${page>=count-1?'disabled':''}>Siguiente</button>`;
+    $('#catalog-prev').onclick=()=>change(page-1);
+    $('#catalog-next').onclick=()=>change(page+1);
+  }
+
+  function row(title:string,summary:string,actions=''){
+    return `<article class="catalog-row"><div><h3 title="${esc(title)}">${esc(title)}</h3><p>${esc(summary)}</p></div>
+      ${actions?'<div class="catalog-row-actions">'+actions+'</div>':''}</article>`;
+  }
+
+  function bindRows(details:(i:number)=>void){
+    root.querySelectorAll<HTMLButtonElement>('[data-row]').forEach(button=>{
+      button.onclick=()=>details(Number(button.dataset.row));
+    });
+    root.querySelectorAll<HTMLButtonElement>('[data-map-action]').forEach(button=>{
+      button.onclick=()=>activate(button.dataset.mapAction!);
+    });
+  }
+
+  function detail(title:string,body:string){
+    ++request;
+    observer?.disconnect();
+    $('#catalog-content').innerHTML=`<div><button id="catalog-back">← Volver al listado</button></div>
+      <article class="catalog-detail"><h3>${esc(title)}</h3>${body}</article>`;
+    $('#catalog-back').onclick=render;
+    $('#catalog-back').focus();
+  }
+
+  function sourceDetail(source:RegistrySource){
+    detail(source.name,`<p>${esc(source.coverage||'Según el producto')}</p><p>${esc(source.notes)}</p>
+      ${source.families.length?`<ul class="family-list">${source.families.map(f=>'<li>'+esc(f)+'</li>').join('')}</ul>`:''}
+      <p>${esc(source.access||'Consultar el producto original')}</p><p>${link(source.url,'Abrir fuente')}</p>`);
+  }
+
+  function renderSources(){
+    listShell(`<div class="catalog-filters"><input id="source-search" type="search" aria-label="Buscar fuentes" placeholder="Buscar organismos…" value="${esc(sourceTerm)}">
+      <select id="source-kind" aria-label="Directorio"><option value="research">Fuentes investigadas</option>
+      <option value="publisher">Publicadores federados</option><option value="auxiliary">Cartografía auxiliar</option></select></div>`);
+    $<HTMLSelectElement>('#source-kind').value=sourceKind;
+    const draw=()=>{
+      const terms=normalize(sourceTerm).split(/\s+/).filter(Boolean);
+      const matches=index.sources.filter(source=>source.kind===sourceKind&&terms.every(term=>
+        normalize([source.name,source.coverage,source.group,...source.families].join(' ')).includes(term)));
+      const count=Math.max(1,Math.ceil(matches.length/pageSize));
+      sourcePage=Math.min(sourcePage,count-1);
+      const rows=matches.slice(sourcePage*pageSize,(sourcePage+1)*pageSize);
+      $('#catalog-results').innerHTML=rows.map((source,i)=>row(source.name,source.coverage||source.group||'Según el producto',
+        `<button data-row="${i}">Ficha</button>`)).join('')||'<p class="catalog-status">No hay fuentes con esos filtros.</p>';
+      bindRows(i=>sourceDetail(rows[i]));
+      pages(matches.length,sourcePage,count,page=>{sourcePage=page;draw();});
+    };
+    $('#source-search').oninput=()=>{sourceTerm=$<HTMLInputElement>('#source-search').value;sourcePage=0;draw();};
+    $('#source-kind').onchange=()=>{sourceKind=$<HTMLSelectElement>('#source-kind').value;sourcePage=0;draw();};
+    fitPage(draw);
+  }
+
   function renderCoverage(){
-    $('#catalog-content').innerHTML=`<p class="catalog-note">Disponible significa que el producto puede utilizarse; no que su capa esté activada. Un fascículo parcial conserva productos pendientes. Los candidatos IOE necesitan revisión individual y pueden pertenecer a varios temas.</p><div class="coverage-table"><table><thead><tr><th>Tema</th><th>Disponibles</th><th>Candidatos IOE</th><th>Estado</th></tr></thead><tbody>${index.categoryCoverage.map(c=>`<tr><td>${esc(index.categories.find(x=>x.id===c.categoryId)?.name)}</td><td>${c.available}</td><td>${c.ioeCandidates}</td><td>${c.status==='parcial'?'Parcial':'Pendiente'}</td></tr>`).join('')}</tbody></table></div><p class="catalog-note">El reparto de los títulos del catálogo nacional y de las tablas generales sigue pendiente. Una ausencia de clasificación no equivale a ausencia de datos.</p>`;
+    listShell();
+    fitPage(()=>{
+      const entries=index.categoryCoverage;
+      const count=Math.max(1,Math.ceil(entries.length/pageSize));
+      coveragePage=Math.min(coveragePage,count-1);
+      const rows=entries.slice(coveragePage*pageSize,(coveragePage+1)*pageSize);
+      $('#catalog-results').innerHTML=rows.map((entry,i)=>row(index.categories.find(c=>c.id===entry.categoryId)?.name||entry.categoryId,
+        `${entry.available} disponibles · ${entry.status==='parcial'?'Parcial':entry.status==='completo'?'Completo':'Pendiente'}`,
+        `<button data-row="${i}">Productos</button>`)).join('');
+      bindRows(i=>{
+        query.category=rows[i].categoryId;
+        query.kind=rows[i].available?'available':'ioe';
+        query.page=0;query.source='';query.status='';query.q='';
+        tab='products';render();
+      });
+      pages(entries.length,coveragePage,count,page=>{coveragePage=page;renderCoverage();});
+    });
   }
+
   function renderProducts(){
-    const availableSources=index.sources.filter(s=>query.kind==='national'?s.kind==='publisher':s.kind!=='publisher');
-    $('#catalog-content').innerHTML=`<div class="catalog-filters"><select id="inventory-kind" aria-label="Inventario">${Object.entries(kinds).map(([id,label])=>`<option value="${id}" ${query.kind===id?'selected':''}>${label} · ${number(index.files[id].count)}</option>`).join('')}</select><input id="product-search" type="search" placeholder="Buscar productos…" aria-label="Buscar productos" value="${esc(query.q)}"></div>
-    <div class="catalog-filters"><select id="product-category" aria-label="Filtrar por tema"><option value="">Todos los temas y pendientes de clasificar</option>${index.categories.map(c=>`<option value="${c.id}" ${query.category===c.id?'selected':''}>${esc(c.name)}</option>`).join('')}</select><select id="product-source" aria-label="Filtrar por fuente"><option value="">Todas las fuentes</option>${availableSources.map(s=>`<option value="${esc(s.id)}" ${query.source===s.id?'selected':''}>${esc(s.name)}</option>`).join('')}</select><select id="product-status" aria-label="Estado de integración"><option value="">Todos los estados</option>${Object.entries(index.statusLabels).map(([id,label])=>`<option value="${id}" ${query.status===id?'selected':''}>${esc(label)}</option>`).join('')}</select></div>
-    <p class="catalog-note">${query.kind==='available'?'Productos utilizables en esta versión.':'Metadatos de descubrimiento; las observaciones y las condiciones de reutilización requieren revisión.'} ${query.kind==='national'||query.kind==='ine'?'Este inventario todavía no tiene clasificación temática individual.':''} ${query.kind==='ioe'?'El filtro temático usa los destinos orientativos del sector oficial.':''}</p>
-    <p id="product-count" class="catalog-note" role="status">Preparando consulta…</p><div id="product-results"></div><div id="product-pages" class="pagination"></div><a id="inventory-download" class="download-catalog" href="${base+index.files[query.kind].file}" download>Descargar este inventario comprimido (.json.gz)</a>`;
-    $('#inventory-kind').onchange=()=>{query={...query,kind:$<HTMLSelectElement>('#inventory-kind').value,source:'',page:0};renderProducts();};
-    $('#product-search').oninput=()=>{query.q=$<HTMLInputElement>('#product-search').value;query.page=0;clearTimeout(timer);timer=setTimeout(search,180);};
-    for(const [id,key] of [['product-category','category'],['product-source','source'],['product-status','status']] as const)$('#'+id).onchange=()=>{query[key]=$<HTMLSelectElement>('#'+id).value;query.page=0;search();};
-    search();
+    const options=Object.entries(kinds).filter(([id])=>index.files[id]);
+    const sources=index.sources.filter(source=>query.kind==='national'?source.kind==='publisher':source.kind!=='publisher');
+    listShell(`<div class="catalog-filters">
+      <select id="inventory-kind" aria-label="Inventario">${options.map(([id,label])=>`<option value="${id}">${label} · ${number(index.files[id].count)}</option>`).join('')}</select>
+      <input id="product-search" type="search" placeholder="Buscar productos…" aria-label="Buscar productos" value="${esc(query.q)}">
+    </div><div class="catalog-filters secondary">
+      <select id="product-category" aria-label="Tema"><option value="">Todos los temas</option>${index.categories.map(c=>`<option value="${c.id}">${esc(c.name)}</option>`).join('')}</select>
+      <select id="product-source" aria-label="Fuente"><option value="">Todas las fuentes</option>${sources.map(s=>`<option value="${esc(s.id)}">${esc(s.name)}</option>`).join('')}</select>
+      <select id="product-status" aria-label="Estado"><option value="">Todos los estados</option>${Object.entries(index.statusLabels).map(([id,label])=>`<option value="${id}">${esc(label)}</option>`).join('')}</select>
+    </div>`);
+    $<HTMLSelectElement>('#inventory-kind').value=query.kind;
+    for(const [id,key] of [['product-category','category'],['product-source','source'],['product-status','status']] as const){
+      const select=$<HTMLSelectElement>('#'+id);
+      select.value=query[key];
+      select.onchange=()=>{query[key]=select.value;query.page=0;search();};
+    }
+    $('#inventory-kind').onchange=()=>{
+      query.kind=$<HTMLSelectElement>('#inventory-kind').value;
+      query.source='';query.page=0;
+      if(['ine','national'].includes(query.kind))query.category='';
+      render();
+    };
+    $('#product-search').oninput=()=>{
+      query.q=$<HTMLInputElement>('#product-search').value;query.page=0;
+      clearTimeout(timer);timer=setTimeout(search,180);
+    };
+    fitPage(search);
   }
+
   function search(){
-    if(signal.aborted||tab!=='products')return;
-    $('#product-count').textContent=`Consultando ${kinds[query.kind].toLowerCase()}…`;
-    $('#product-results').setAttribute('aria-busy','true');
+    if(signal.aborted||tab!=='products'||!$('#catalog-results'))return;
+    $('#catalog-count').textContent='Consultando…';
     if(!worker){
       worker=new Worker(new URL('./catalog.worker.ts',import.meta.url),{type:'module'});
-      worker.onmessage=(e:MessageEvent<{id:number;error?:string;total:number;page:number;pages:number;rows:RegistryProduct[]}>)=>{
-        if(e.data.id!==request||tab!=='products'||signal.aborted)return;
-        $('#product-results').removeAttribute('aria-busy');
-        if(e.data.error){$('#product-count').textContent=e.data.error;$('#product-results').innerHTML='<button id="catalog-retry">Reintentar consulta</button>';$('#catalog-retry').onclick=search;return;}
-        const {total,page,pages,rows}=e.data;query.page=page;
-        $('#product-count').textContent=`${number(total)} ${total===1?'resultado':'resultados'} · página ${page+1} de ${pages}`;
-        $('#product-results').innerHTML=rows.map(card).join('')||'<p class="empty-state">No hay productos con estos filtros. Los inventarios sin clasificación todavía no aparecen al seleccionar un tema.</p>';
-        $('#product-pages').innerHTML=`<button id="product-prev" ${page===0?'disabled':''}>Anterior</button><span>${page+1} / ${pages}</span><button id="product-next" ${page>=pages-1?'disabled':''}>Siguiente</button>`;
-        $('#product-prev').onclick=()=>{query.page--;search();};$('#product-next').onclick=()=>{query.page++;search();};
-        root.querySelectorAll<HTMLButtonElement>('[data-map-action]').forEach(b=>b.onclick=()=>activate(b.dataset.mapAction!));
+      worker.onmessage=({data}:MessageEvent<Reply>)=>{
+        if(data.id!==request||tab!=='products'||signal.aborted)return;
+        if(data.error){
+          $('#catalog-count').textContent=data.error;
+          $('#catalog-results').innerHTML='<p><button id="catalog-retry">Reintentar</button></p>';
+          $('#catalog-retry').onclick=search;
+          return;
+        }
+        const {total,page,pages:count,rows}=data;
+        query.page=page;
+        $('#catalog-results').innerHTML=rows.map((product,i)=>row(product.title,
+          [product.responsible||index.sources.find(s=>s.id===product.sourceId)?.name,
+            index.statusLabels[product.status]||product.status].filter(Boolean).join(' · '),
+          `<button data-row="${i}">Ficha</button>${product.mapAction?`<button data-map-action="${esc(product.mapAction)}">Ver mapa</button>`:''}`))
+          .join('')||'<p class="catalog-status">No hay productos con esos filtros.</p>';
+        bindRows(i=>productDetail(rows[i]));
+        pages(total,page,count,next=>{query.page=next;search();});
       };
-      worker.onerror=()=>{if(tab==='products')$('#product-count').textContent='No se pudo iniciar la búsqueda. Recarga la página para reintentar.';};
+      worker.onerror=()=>{if(tab==='products'&&$('#catalog-count'))$('#catalog-count').textContent='No se pudo iniciar la búsqueda.';};
     }
-    worker.postMessage({id:++request,index,query,base:new URL(base,location.href).href});
+    worker.postMessage({id:++request,index,query,pageSize,base:new URL(base,location.href).href});
   }
-  function card(p:RegistryProduct){
-    const source=index.sources.find(s=>s.id===p.sourceId);
-    const period=typeof p.period==='string'?p.period:p.period?[p.period.from,p.period.to].filter(Boolean).join(' – '):'Por verificar';
-    return `<article class="product-card"><div class="product-meta"><span>${esc(p.id.startsWith('http')?'CATÁLOGO NACIONAL':p.id)}</span><span class="status-tag ${p.status==='integrado'?'integrated':''}">${esc(index.statusLabels[p.status]||p.status)}</span></div><h3>${esc(p.title)}</h3><p>${esc(p.responsible||source?.name||p.sourceId)}</p><details><summary>Cobertura y procedencia</summary><dl><dt>Territorio / escala</dt><dd>${esc(p.coverage||'Por verificar en el producto original')}</dd><dt>Periodo / frecuencia</dt><dd>${esc(period||'Por verificar')}</dd><dt>Licencia</dt><dd>${esc(p.license||'Pendiente de verificar')}</dd>${p.unit?`<dt>Unidad</dt><dd>${esc(p.unit)}</dd>`:''}</dl>${p.notes?`<p>${esc(p.notes)}</p>`:''}${p.review?`<p>Revisión: ${esc(p.review.updatedAt)} · ${esc(p.review.reason)}</p>${p.review.nextAction?`<p>Siguiente paso: ${esc(p.review.nextAction)}</p>`:''}`:''}${p.fields?`<dl>${Object.entries(p.fields).map(([k,v])=>`<dt>${esc(k)}</dt><dd>${esc(v)}</dd>`).join('')}</dl>`:''}${p.links?Object.entries(p.links).filter(([,u])=>u.startsWith('https://')).map(([k,u])=>`<a href="${esc(safeUrl(u,p.url))}" target="_blank" rel="noopener">${esc(({enlaceDatos:'Datos',enlaceCalendario:'Calendario',enlaceMetodologia:'Metodología',enlaceMetodEstand2:'Informe metodológico'} as Record<string,string>)[k]||'Documentación original')} ↗</a>`).join(' · '):''}</details><div class="product-actions"><a href="${esc(safeUrl(p.url,'https://datos.gob.es/'))}" target="_blank" rel="noopener">Origen ↗</a>${p.mapAction?`<button data-map-action="${esc(p.mapAction)}">Ver en el mapa</button>`:''}</div></article>`;
+
+  function productDetail(product:RegistryProduct){
+    const period=typeof product.period==='string'?product.period:
+      [product.period?.from,product.period?.to].filter(Boolean).join(' – ');
+    const fields={
+      'Territorio':product.coverage||'Por verificar',
+      'Periodo':period||'Por verificar',
+      'Licencia':product.license||'Por verificar',
+      ...(product.unit?{Unidad:product.unit}:{}),
+      ...product.fields,
+    };
+    detail(product.title,`<p>${esc(index.statusLabels[product.status]||product.status)}</p>
+      <dl>${Object.entries(fields).map(([key,value])=>`<dt>${esc(key)}</dt><dd>${esc(value)}</dd>`).join('')}</dl>
+      ${product.notes?`<p>${esc(product.notes)}</p>`:''}
+      ${product.review?`<p>${esc(product.review.updatedAt)} · ${esc(product.review.reason)}</p>`:''}
+      ${product.review?.nextAction?`<p>${esc(product.review.nextAction)}</p>`:''}
+      <p>${link(product.url,'Fuente original')}</p>
+      ${Object.entries(product.links||{}).filter(([,url])=>url.startsWith('https://')).map(([key,url])=>
+        `<p>${link(url,({enlaceDatos:'Datos',enlaceCalendario:'Calendario',enlaceMetodologia:'Metodología',enlaceMetodEstand2:'Informe metodológico'} as Record<string,string>)[key]||'Documentación original')}</p>`).join('')}
+      ${product.mapAction?'<button id="catalog-open-map">Ver en el mapa</button>':''}`);
+    if(product.mapAction)$('#catalog-open-map').onclick=()=>activate(product.mapAction!);
   }
+
   render();
 }

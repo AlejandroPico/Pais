@@ -32,6 +32,18 @@ def main(kind="demography",category="F02"):
             for source in t['sourceTables']:provenance[source['url']]={k:v for k,v in source.items() if k!='id'}
         index['provenance']=sorted(provenance.values(),key=lambda p:p['url'])
         (ROOT/f'public/data/{kind}/index.json').write_text(json.dumps(index,ensure_ascii=False,separators=(',',':')),encoding='utf-8')
+    if kind=='demography':
+        shared = {}
+        compact = {**index, 'tables': [], 'territoryGroups': shared}
+        for table in index['tables']:
+            fields = dict(table)
+            territories = fields.pop('territories')
+            digest = hashlib.sha256(json.dumps(territories, ensure_ascii=False, separators=(',',':')).encode()).hexdigest()
+            shared.setdefault(digest, territories)
+            fields['territoryGroup'] = digest
+            compact['tables'].append(fields)
+        payload = json.dumps(compact, ensure_ascii=False, separators=(',',':')).encode()
+        (ROOT/'public/data/demography/viewer.json.gz').write_bytes(gzip.compress(payload, compresslevel=6, mtime=0))
     available=[]
     for t in index['tables']:
         for s in t['shards']:
@@ -51,9 +63,31 @@ def main(kind="demography",category="F02"):
             if key in canonical:
                 p=canonical[key];records[key].update(status='integrado',categoryIds=[category],license=p['license'],mapAction=p['mapAction'],period=p['period'],coverage=p['coverage'],notes=p['notes'],review={'implementedProductId':p['id'],'updatedAt':index['revision'],'reason':'Todas las observaciones de la descarga se conservan en cubos consultables; sin selección de columnas ni de último periodo.'})
     if kind=='welfare':records.update({p['id']:p for p in read('registry/welfare-external.json')['sources']})
+    if kind=='demography':
+        nomenclator=read('public/data/nomenclator/index.json')
+        editions=nomenclator['editions']
+        available.append(dict(
+            id='demography:nomenclator',title='Nomenclátor · población por unidad poblacional',
+            sourceId='F005',categoryIds=[category],status='integrado',url=nomenclator['source'],
+            mapAction='nomenclator',coverage='Municipios, entidades y núcleos de población',
+            period={'from':str(editions[0]['year']),'to':str(editions[-1]['year'])},
+            unit='personas',license='CC BY 4.0 · INE',
+            notes=f"{len(editions)} ediciones nacionales. Series consultables por provincia, año, nombre y código.",
+            dataFile='nomenclator/index.json'))
+        historical=read('public/data/intercensal/index.json')
+        for part in historical['provinces'].values():
+            path=ROOT/'public/data/intercensal'/part['file']
+            assert hashlib.sha256(path.read_bytes()).hexdigest()==part['sha256'],path
+        available.append(dict(
+            id='demography:historical-census',title='Censos históricos y alteraciones de municipios',
+            sourceId='F005',categoryIds=[category],status='integrado',url=historical['source'],
+            mapAction='historical-census',coverage='52 provincias y ciudades autónomas; municipios históricos y totales publicados',
+            period={'from':'1842','to':'2021'},unit='personas y hogares',license='CC BY 4.0 · INE',
+            notes=f"{historical['records']:,} fichas censales. Incluye recuentos, símbolos y notas de las alteraciones históricas.",
+            dataFile='intercensal/index.json'))
     output={'revision':index['revision'],'available':available,'inventory':list(records.values())}
     (ROOT/f'registry/{kind}-products.json').write_text(json.dumps(output,ensure_ascii=False,indent=2),encoding='utf-8')
-    print(f'{category}: {len(available)} complete tables; {len(records)} discovery records')
+    print(f'{category}: {len(available)} available products; {len(records)} discovery records')
 
 if __name__=='__main__':
     parser=argparse.ArgumentParser();parser.add_argument('--kind',default='demography');parser.add_argument('--category',default='F02');args=parser.parse_args();main(args.kind,args.category)

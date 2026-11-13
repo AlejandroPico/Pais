@@ -1,5 +1,11 @@
 # El país · Atlas abierto de España
 
+## Versión 0.7.0
+
+El menú **Visualización** reúne vista general, mapa base, terreno 3D y pantalla completa. Los temas Mañana, Tarde, Noche y Automático se aplican a toda la interfaz. Automático utiliza la luz solar aproximada de Madrid. La barra muestra las categorías que caben en pantalla. **Fuentes** utiliza pestañas y paginación adaptada al espacio. **Acerca de** conserva los enlaces en el pie.
+
+Las fichas de [F01](docs/F01.md) y [F02](docs/F02.md) registran los productos incorporados y el trabajo que mantiene abiertos los fascículos. El [protocolo de cierre](docs/PLAN_DE_ENTREGAS.md#qué-debe-entregar-cada-fascículo) se aplica a todas las fases.
+
 ## Versión 0.6.0 · F04.1
 
 Empleo y paro de la EPA, salarios de la EAES, costes, horas y vacantes de la ETCL. Mapas, filtros, series y CSV según el ámbito de cada tabla. [Cobertura y pendientes de F04](docs/F04.md).

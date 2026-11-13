@@ -13,7 +13,9 @@ const cube=(t,part='main')=>JSON.parse(gunzipSync(fs.readFileSync(new URL('publi
 const digest=b=>createHash('sha256').update(b).digest('hex');
 
 test('every complete demographic table preserves its shard counts, hashes, dictionaries and all observations',()=>{
-  assert.equal(index.tables.length,35);assert.equal(new Set(index.tables.map(t=>t.id)).size,35);
+  const config=read('registry/demography-tables.json');
+  assert.deepEqual(index.tables.map(table=>table.id),config.tables.map(table=>table.id));
+  assert.equal(new Set(index.tables.map(table=>table.id)).size,index.tables.length);
   let total=0;
   for(const t of index.tables){
     assert.equal(new Set(t.territories.map(a=>a.id)).size,t.territories.length);
@@ -33,7 +35,7 @@ test('every complete demographic table preserves its shard counts, hashes, dicti
     assert.equal(count,t.rows);total+=count;
     for(const a of t.territories)if(a.level==='unlocated')assert.equal(a.name,'No residente','Unresolved official geography: '+t.id);
   }
-  assert.equal(total,9958171);
+  assert.equal(total,67901218);
 });
 
 test('census filters conserve source totals, sex and nationality; chart and map use the same query',()=>{
@@ -82,4 +84,34 @@ test('population change retains direction and never invents percentages from a z
   assert.equal(relativeChange(80,100),-19.999999999999996);
   assert.equal(relativeChange(0,100),-100);
   assert.equal(relativeChange(120,0),null);assert.equal(relativeChange(120,undefined),null);assert.equal(relativeChange(null,100),null);
+});
+
+test('section 2807901001 returns the official Madrid census value and annual series',()=>{
+  const t=table(65031),c=cube(t,'28');
+  const territory=t.territories.findIndex(a=>a.id==='section:2807901001');
+  assert.equal(t.territories[territory].municipalityCode,'28079');
+  const query={period:t.periods.findIndex(p=>p.id==='2025'),dims:defaultDimensions(t),level:'section',territory};
+  const result=queryCube(t,c,query);
+  assert.equal(result.series.length,5);
+  assert.equal(result.values.find(row=>row.area===territory).value,1192);
+});
+
+test('municipal census histories preserve all declared records, including dissolved municipalities',()=>{
+  const historical=read('public/data/intercensal/index.json');
+  assert.equal(Object.keys(historical.provinces).length,52);
+  let total=0;
+  for(const part of Object.values(historical.provinces)){
+    const bytes=fs.readFileSync(new URL('public/data/intercensal/'+part.file,root));
+    assert.equal(digest(bytes),part.sha256);
+    const {entries}=JSON.parse(bytes);
+    assert.equal(entries.length,part.count);
+    for(const entry of entries){
+      const [heading,,years,...lines]=entry.split('\n').filter(line=>line.trim());
+      assert.match(heading,/^Provincia: /);
+      assert.match(years,/^;(18|19|20)\d{2}/);
+      assert.ok(lines.slice(0,3).every(line=>line.split(';').length===years.split(';').length),heading);
+    }
+    total+=entries.length;
+  }
+  assert.equal(total,11977);
 });

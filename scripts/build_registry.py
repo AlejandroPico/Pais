@@ -165,15 +165,18 @@ def build():
                    'docs/research/publicadores-catalogo-nacional.json', 'docs/research/operaciones-ioe-detalladas.json',
                    'docs/research/datasets-catalogo-nacional.csv.gz', 'public/data/ine-catalog.json', 'registry/products.json', 'registry/reviews.json']
     if territory_path.exists():
-        input_paths.extend(['registry/territory-products.json', 'public/data/territory/manifest.json', 'public/data/territory/index.json', 'public/data/territory/comarcas.geojson', 'public/data/territory/country.geojson', 'public/data/territory/country-atlas.geojson', 'public/data/territory/sea-atlas.geojson', 'public/data/territory/islets-atlas.geojson'])
+        input_paths.extend(['registry/territory-products.json', 'public/data/territory/manifest.json', 'public/data/territory/index.json', 'public/data/territory/comarcas.geojson', 'public/data/territory/bierzo-boundaries.json', 'public/data/territory/municipal-changes.json', 'registry/ign-territory-editions.json', 'public/data/territory/country.geojson', 'public/data/territory/country-atlas.geojson', 'public/data/territory/sea-atlas.geojson', 'public/data/territory/islets-atlas.geojson'])
     if demography_path.exists():
-        input_paths.extend(['registry/demography-tables.json','registry/demography-products.json','public/data/demography/index.json','public/data/demography/inventory.json'])
+        input_paths.extend(['registry/demography-tables.json','registry/demography-products.json','public/data/demography/index.json','public/data/demography/inventory.json','public/data/nomenclator/index.json','public/data/intercensal/index.json'])
     if welfare_path.exists():
         input_paths.extend(['registry/welfare-tables.json','registry/welfare-external.json','registry/welfare-products.json','public/data/welfare/index.json','public/data/welfare/inventory.json'])
     if labor_path.exists():
         input_paths.extend(['registry/labor-tables.json','registry/labor-products.json','public/data/labor/index.json','public/data/labor/inventory.json'])
     provenance = [dict(path=p, sha256=hashlib.sha256((ROOT / p).read_bytes()).hexdigest()) for p in input_paths]
-    index = dict(schemaVersion=1, researchSnapshot='2026-11-05', revision=max(registered['revision'], labor['revision']) if labor_path.exists() else registered['revision'],
+    revisions=[registered['revision']]
+    for path in [territory_path,demography_path,welfare_path,labor_path]:
+        if path.exists():revisions.append(read(path)['revision'])
+    index = dict(schemaVersion=1, researchSnapshot='2026-11-05', revision=max(revisions),
                  scope='Registro de metadatos. Los inventarios se solapan y sus recuentos no se suman como productos únicos. Solo Disponibles contiene productos utilizables en el mapa.',
                  categories=categories, sources=sources, files=files, provenance=provenance,
                  statusLabels=registered['statusLabels'],

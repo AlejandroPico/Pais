@@ -57,7 +57,24 @@ export class DemographyController{
     };
     return Object.fromEntries(Object.entries(state).map(([key,value])=>[this.urlKey(key),value]));
   }
-  private async loadIndex(){return this.indexPromise??=fetch(this.dataRoot()+'index.json').then(r=>{if(!r.ok)throw new Error('No se pudo cargar el catálogo estadístico.');return r.json() as Promise<DemographicIndex>;}).then(i=>this.index=i).catch(e=>{this.indexPromise=undefined;throw e;});}
+  private async loadIndex(){
+    return this.indexPromise??=(async()=>{
+      const compact=this.kind==='demography';
+      const response=await fetch(this.dataRoot()+(compact?'viewer.json.gz':'index.json'));
+      if(!response.ok)throw new Error('No se pudo cargar el catálogo estadístico.');
+      if(!compact)return this.index=await response.json() as DemographicIndex;
+      const raw=await response.arrayBuffer();
+      const bytes=new Uint8Array(raw);
+      const data=bytes[0]===31&&bytes[1]===139
+        ?await new Response(new Blob([raw]).stream().pipeThrough(new DecompressionStream('gzip'))).json()
+        :JSON.parse(new TextDecoder().decode(raw));
+      const groups=data.territoryGroups as Record<string,DemographicTable['territories']>;
+      const tables=(data.tables as (Omit<DemographicTable,'territories'>&{territoryGroup:string})[]).map(
+        ({territoryGroup,...table})=>({...table,territories:groups[territoryGroup]}),
+      );
+      return this.index={revision:data.revision,inventoryTables:data.inventoryTables,operations:data.operations,tables};
+    })().catch(error=>{this.indexPromise=undefined;throw error;});
+  }
   attach(map:AtlasMap,provinces:FeatureCollection,communities:FeatureCollection){
     this.map=map;this.geometries={province:provinces,community:communities};
     map.addSource(this.layer('f02-statistics'),{type:'geojson',data:{type:'FeatureCollection',features:[]}});

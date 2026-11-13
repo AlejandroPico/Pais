@@ -101,7 +101,7 @@ def collect_inventory():
     with concurrent.futures.ThreadPoolExecutor(max_workers=4) as pool:
         return list(pool.map(operation,CONFIG['operationIds']))
 
-GEO_HEADERS = {'total nacional':'national','provincias':'province','provincia':'province','comunidades y ciudades autonomas':'community','comunidades autonomas':'community','municipios':'municipal','islas':'island'}
+GEO_HEADERS = {'total nacional':'national','provincias':'province','provincia':'province','comunidades y ciudades autonomas':'community','comunidades autonomas':'community','municipios':'municipal','islas':'island','isla':'island','secciones':'section','nacional':'national','provincia de inscripcion':'province'}
 GEO_NAMES = {}
 for level,file in [('province','provinces.geojson'),('community','communities.geojson')]:
     for f in json.loads((ROOT/'public/data'/file).read_text(encoding='utf-8'))['features']:
@@ -119,21 +119,25 @@ def geography(values, geo_columns):
     _,level,label=candidates[-1]
     if norm(label) in ['total','total nacional','espana']:
         return 'national:ES',{'id':'national:ES','level':'national','code':'ES','name':'España'}
-    code=re.match(r'^(\d{2,5})\s+',label)
+    code=re.match(r'^(\d{2,10})\s+',label)
     code=code[1] if code else GEO_NAMES.get((level,norm(label)))
+    if level=='island':code=label
+    if level=='municipal' and code in {'51','52'}:code+='001'
     if level=='national' or not code:
         # The source may contain "Extranjero" / "No consta". Keep, never map it.
         code=label
         level='unlocated'
     identity=level+':'+code
-    return identity,{'id':identity,'level':level,'code':code,'name':label,'provinceCode':code[:2] if level=='municipal' else None}
+    return identity,{'id':identity,'level':level,'code':code,'name':label,'provinceCode':code[:2] if level in {'municipal','section'} else None,**({'municipalityCode':code[:5]} if level=='section' else {})}
 
 def collect_table(config, metadata):
     tid=config['id'];url=f'https://www.ine.es/jaxiT3/files/t/es/csv_bd/{tid}.csv'
     path,provenance=fetch(url)
     dimensions=[];periods=[];territories=[];geo_ids={};period_ids={};dim_ids=[]
+    geo_cache={}; period_labels={}
     temp=CACHE/('parts-'+str(tid));temp.mkdir(exist_ok=True)
     handles={};counts={};missing={};seen=set();finished=set();last_gid=None;row_count=0
+    interleaved=config.get('interleaved',False)
     with gzip.open(path,'rt',encoding='utf-8-sig',newline='') as f:
         sample=f.read(2000);f.seek(0)
         delimiter='\t' if '\t' in sample.splitlines()[0] else ';'
@@ -141,19 +145,24 @@ def collect_table(config, metadata):
         headers=next(reader)
         assert headers[-1]=='Total' and 'Periodo' in headers, (tid,headers)
         pi=headers.index('Periodo');geo_columns=[(i,GEO_HEADERS[norm(h)]) for i,h in enumerate(headers) if norm(h) in GEO_HEADERS]
-        assert geo_columns,(tid,headers)
+        assert geo_columns or config.get('national'),(tid,headers)
         di=[i for i,h in enumerate(headers[:-1]) if i!=pi and i not in [x[0] for x in geo_columns]]
         dimensions=[{'name':headers[i],'values':[]} for i in di];dim_ids=[{} for _ in di]
         for row in reader:
             if not row: continue
             assert len(row)==len(headers),(tid,row)
-            gid,geo=geography(row,geo_columns)
-            if gid!=last_gid:
+            geo_key=tuple(row[i] for i,_ in geo_columns)
+            if geo_key not in geo_cache:
+                geo_cache[geo_key]=geography(row,geo_columns) if geo_columns else geography(['Total Nacional'],[(0,'national')])
+            gid,geo=geo_cache[geo_key]
+            if not interleaved and gid!=last_gid:
                 if last_gid is not None: finished.add(last_gid)
                 assert gid not in finished,(tid,'Non-contiguous geography block',gid)
                 seen.clear();last_gid=gid
             if gid not in geo_ids: geo_ids[gid]=len(territories);territories.append(geo)
-            period=row[pi].strip();key=period_key(period)
+            period=row[pi].strip()
+            if period not in period_labels:period_labels[period]=period_key(period)
+            key=period_labels[period]
             if key not in period_ids: period_ids[key]=len(periods);periods.append({'id':key,'label':period})
             record=[geo_ids[gid],period_ids[key]]
             for n,col in enumerate(di):
@@ -166,7 +175,7 @@ def collect_table(config, metadata):
             value=number(row[-1]);status='' if value is not None else row[-1].strip() or 'ausente'
             record.extend([value,status])
             if status: missing[status]=missing.get(status,0)+1
-            part=geo['provinceCode'] if geo['level']=='municipal' else 'main'
+            part=geo['provinceCode'] if geo['level'] in {'municipal','section'} else 'main'
             if part not in handles: handles[part]=(temp/(part+'.jsonl')).open('wb');counts[part]=0
             handles[part].write(encode(record)+b'\n');counts[part]+=1;row_count+=1
     for h in handles.values(): h.close()
@@ -174,7 +183,7 @@ def collect_table(config, metadata):
     for part in sorted(handles):
         name=f'{tid}-{part}.json.gz';output=OUT/name
         # One bounded JSON shard, no repeated dimension labels in observations.
-        with gzip.GzipFile(filename='',mode='wb',fileobj=output.open('wb'),mtime=0) as target:
+        with gzip.GzipFile(filename='',mode='wb',fileobj=output.open('wb'),mtime=0,compresslevel=config.get('compression',9)) as target:
             target.write(b'{"rows":[')
             with (temp/(part+'.jsonl')).open('rb') as source:
                 first=True

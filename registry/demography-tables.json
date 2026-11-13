@@ -1,5 +1,5 @@
 {
-  "revision": "2026-11-10",
+  "revision": "2026-11-13",
   "tables": [
     {
       "id": 68519,
@@ -251,6 +251,200 @@
       "label": "Edad media de la población",
       "unit": "años",
       "note": "Media publicada por el INE, diferenciada de la edad mediana."
+    },
+    {
+      "id": 29005,
+      "label": "Padrón municipal por sexo",
+      "family": "Padrón oficial",
+      "unit": "personas",
+      "note": "Serie oficial por municipio. Los códigos históricos se conservan. Los límites disponibles en el mapa son actuales."
+    },
+    {
+      "id": 2852,
+      "label": "Padrón por provincia y sexo",
+      "family": "Padrón oficial",
+      "unit": "personas",
+      "note": "Serie oficial del Padrón. Los años y revisiones proceden de la tabla original."
+    },
+    {
+      "id": 2853,
+      "label": "Padrón por comunidad y sexo",
+      "family": "Padrón oficial",
+      "unit": "personas",
+      "note": "Serie oficial del Padrón. Los años y revisiones proceden de la tabla original."
+    },
+    {
+      "id": 2910,
+      "label": "Padrón por isla y sexo",
+      "family": "Padrón oficial",
+      "unit": "personas",
+      "note": "Series insulares y totales provinciales publicados. Las islas se consultan por serie."
+    },
+    {
+      "id": 59583,
+      "label": "Población residente por edad y sexo · España",
+      "family": "Estadística Continua de Población",
+      "unit": "personas",
+      "note": "Estimaciones de población residente. El INE publica el trimestre reciente como provisional.",
+      "national": true
+    },
+    {
+      "id": 59589,
+      "label": "Población residente por edad y sexo · provincias",
+      "family": "Estadística Continua de Población",
+      "unit": "personas",
+      "note": "Serie trimestral y retrospectiva del INE. Los primeros periodos se conservan con su fecha exacta.",
+      "interleaved": true
+    },
+    {
+      "id": 69797,
+      "label": "Población residente por edad y sexo · islas",
+      "family": "Estadística Continua de Población",
+      "unit": "personas",
+      "note": "Islas y agregados insulares según la tabla original. Consulta de series.",
+      "interleaved": true
+    },
+    {
+      "id": 71118,
+      "label": "Residentes en el extranjero por municipio de inscripción",
+      "family": "PERE",
+      "unit": "personas inscritas",
+      "note": "Padrón de españoles residentes en el extranjero. El mapa identifica el municipio de inscripción."
+    },
+    {
+      "id": 71106,
+      "label": "Residentes en el extranjero por provincia de inscripción y edad",
+      "family": "PERE",
+      "unit": "personas inscritas",
+      "note": "Padrón de españoles residentes en el extranjero. El mapa identifica la provincia de inscripción."
+    },
+    {
+      "id": 46682,
+      "label": "Estimación mensual de nacimientos",
+      "family": "Movimiento natural mensual",
+      "unit": "nacimientos",
+      "note": "Estimación mensual. Los recuentos de cada mes y los acumulados se identifican en la selección."
+    },
+    {
+      "id": 62277,
+      "label": "Estimación mensual de defunciones",
+      "family": "Movimiento natural mensual",
+      "unit": "defunciones",
+      "note": "Estimación mensual de defunciones. Selecciona el tipo de dato publicado.",
+      "unitsByCategory": {
+        "dimension": "Tipo de dato",
+        "values": {
+          "Variación anual del acumulado en lo que va de año": "porcentaje"
+        }
+      }
+    },
+    {
+      "id": 69743,
+      "label": "Inmigraciones internas por municipio de destino",
+      "family": "Migraciones internas",
+      "unit": "movimientos",
+      "note": "Flujos intermunicipales por sexo y nacionalidad. Cada observación se refiere al destino."
+    },
+    {
+      "id": 6525,
+      "label": "Nacimientos mensuales · comunidades",
+      "family": "Movimiento natural mensual",
+      "unit": "nacimientos",
+      "note": "Serie mensual por residencia de la madre."
+    },
+    {
+      "id": 6541,
+      "label": "Matrimonios mensuales · comunidades",
+      "family": "Movimiento natural mensual",
+      "unit": "matrimonios",
+      "note": "Serie mensual por residencia."
+    },
+    {
+      "id": 6562,
+      "label": "Defunciones mensuales · comunidades",
+      "family": "Movimiento natural mensual",
+      "unit": "defunciones",
+      "note": "Serie mensual por residencia."
+    },
+    {
+      "id": 36643,
+      "label": "Proyección de población por sexo y edad · España",
+      "family": "Proyecciones de población",
+      "unit": "personas proyectadas",
+      "note": "Proyección oficial del INE con base 2026. Los valores dependen de las hipótesis demográficas del escenario.",
+      "national": true
+    },
+    {
+      "id": 36652,
+      "label": "Proyección de población · escenarios de sensibilidad",
+      "family": "Proyecciones de población",
+      "unit": "personas proyectadas",
+      "note": "Proyección oficial del INE con base 2026. Los valores dependen de las hipótesis demográficas del escenario.",
+      "national": true
+    },
+    {
+      "id": 36680,
+      "label": "Proyección de población por sexo y edad · comunidades",
+      "family": "Proyecciones de población",
+      "unit": "personas proyectadas",
+      "note": "Proyección oficial del INE con base 2026. Los valores dependen de las hipótesis demográficas del escenario.",
+      "interleaved": true
+    },
+    {
+      "id": 36726,
+      "label": "Proyección de población por sexo y edad · provincias",
+      "family": "Proyecciones de población",
+      "unit": "personas proyectadas",
+      "note": "Proyección oficial del INE con base 2026. Los valores dependen de las hipótesis demográficas del escenario.",
+      "interleaved": true
+    },
+    {
+      "id": 65031,
+      "label": "Secciones censales · Lugar de nacimiento",
+      "family": "Censo por sección censal",
+      "unit": "personas",
+      "note": "Censo anual del INE. Consulta por provincia, municipio y sección con su código de origen. La cartografía de secciones se activa por separado.",
+      "compression": 3
+    },
+    {
+      "id": 65032,
+      "label": "Secciones censales · Nacionalidad española o extranjera",
+      "family": "Censo por sección censal",
+      "unit": "personas",
+      "note": "Censo anual del INE. Consulta por provincia, municipio y sección con su código de origen. La cartografía de secciones se activa por separado.",
+      "compression": 3
+    },
+    {
+      "id": 65033,
+      "label": "Secciones censales · Lugar de nacimiento y residencia",
+      "family": "Censo por sección censal",
+      "unit": "personas",
+      "note": "Censo anual del INE. Consulta por provincia, municipio y sección con su código de origen. La cartografía de secciones se activa por separado.",
+      "compression": 3
+    },
+    {
+      "id": 65034,
+      "label": "Secciones censales · Edad quinquenal",
+      "family": "Censo por sección censal",
+      "unit": "personas",
+      "note": "Censo anual del INE. Consulta por provincia, municipio y sección con su código de origen. La cartografía de secciones se activa por separado.",
+      "compression": 3
+    },
+    {
+      "id": 65035,
+      "label": "Secciones censales · País de nacimiento",
+      "family": "Censo por sección censal",
+      "unit": "personas",
+      "note": "Censo anual del INE. Consulta por provincia, municipio y sección con su código de origen. La cartografía de secciones se activa por separado.",
+      "compression": 3
+    },
+    {
+      "id": 65036,
+      "label": "Secciones censales · País de nacionalidad",
+      "family": "Censo por sección censal",
+      "unit": "personas",
+      "note": "Censo anual del INE. Consulta por provincia, municipio y sección con su código de origen. La cartografía de secciones se activa por separado.",
+      "compression": 3
     }
   ],
   "operationIds": [

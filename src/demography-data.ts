@@ -9,7 +9,7 @@ export function defaultDimensions(table:DemographicTable){return table.dimension
 export function unitFor(table:DemographicTable,dims:number[]){const condition=table.unitsByConditions?.find(r=>Object.entries(r.when).every(([name,value])=>{const i=table.dimensions.findIndex(d=>d.name===name);return i>=0&&table.dimensions[i].values[dims[i]]===value;}));if(condition)return condition.unit;const rule=table.unitsByCategory,i=table.dimensions.findIndex(d=>d.name===rule?.dimension);return i>=0?rule!.values[table.dimensions[i].values[dims[i]]]||table.unit:table.unit;}
 export function queryCube(table:DemographicTable,cube:Cube,q:DemographicQuery):DemographicResult{
   const n=table.dimensions.length,vi=2+n,values:DemographicResult['values']=[],series:DemographicResult['series']=[],domain:DemographicResult['domain']=[];
-  const age=table.dimensions.findIndex(d=>/^edad$/i.test(d.name)),sex=table.dimensions.findIndex(d=>/^sexo$/i.test(d.name));
+  const age=table.dimensions.findIndex(d=>/^(edad|edad simple|grupo quinquenal de edad)$/i.test(d.name)),sex=table.dimensions.findIndex(d=>/^sexo$/i.test(d.name));
   const pyramid=new Map<number,{age:string;men:number|null;women:number|null}>();
   for(const row of cube.rows){
     const area=Number(row[0]),period=Number(row[1]);let match=true,other=true;
