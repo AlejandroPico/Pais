@@ -1,0 +1,448 @@
+{
+  "revision": "2026-11-13",
+  "available": [
+    {
+      "id": "labor:65349",
+      "title": "EPA · tasas de actividad, paro y empleo",
+      "sourceId": "F005",
+      "categoryIds": [
+        "F04"
+      ],
+      "status": "integrado",
+      "url": "https://www.ine.es/jaxiT3/Tabla.htm?t=65349",
+      "mapAction": "labor:65349",
+      "coverage": "España · Provincias",
+      "period": {
+        "from": "2002T1",
+        "to": "2026T3"
+      },
+      "unit": "Tasas",
+      "license": "CC BY 4.0 · INE",
+      "notes": "Estimaciones de la Encuesta de Población Activa para hogares residentes. La tasa de paro se calcula sobre la población activa. Tasas trimestrales publicadas por el INE. Base poblacional 2011 hasta 2020 y base 2021 desde 2021. Tabla completa: 47,223 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
+      "dataFile": "labor/index.json"
+    },
+    {
+      "id": "labor:65334",
+      "title": "EPA · tasa de paro por sexo y edad",
+      "sourceId": "F005",
+      "categoryIds": [
+        "F04"
+      ],
+      "status": "integrado",
+      "url": "https://www.ine.es/jaxiT3/Tabla.htm?t=65334",
+      "mapAction": "labor:65334",
+      "coverage": "Comunidades · España",
+      "period": {
+        "from": "2002T1",
+        "to": "2026T3"
+      },
+      "unit": "Tasas",
+      "license": "CC BY 4.0 · INE",
+      "notes": "Estimaciones de la EPA por sexo y edad. La tasa se refiere a los activos del grupo seleccionado. Base poblacional 2011 hasta 2020 y base 2021 desde 2021. Tabla completa: 41,580 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
+      "dataFile": "labor/index.json"
+    },
+    {
+      "id": "labor:65345",
+      "title": "EPA · activos, ocupados, parados e inactivos",
+      "sourceId": "F005",
+      "categoryIds": [
+        "F04"
+      ],
+      "status": "integrado",
+      "url": "https://www.ine.es/jaxiT3/Tabla.htm?t=65345",
+      "mapAction": "labor:65345",
+      "coverage": "España · Provincias",
+      "period": {
+        "from": "2002T1",
+        "to": "2026T3"
+      },
+      "unit": "Miles · Personas",
+      "license": "CC BY 4.0 · INE",
+      "notes": "Población residente de 16 y más años por relación con la actividad económica y sexo. Cifras en miles de personas. Base poblacional 2011 hasta 2020 y base 2021 desde 2021. Tabla completa: 94,446 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
+      "dataFile": "labor/index.json"
+    },
+    {
+      "id": "labor:79337",
+      "title": "EPA · ocupación por sector, CNAE 2025",
+      "sourceId": "F005",
+      "categoryIds": [
+        "F04"
+      ],
+      "status": "integrado",
+      "url": "https://www.ine.es/jaxiT3/Tabla.htm?t=79337",
+      "mapAction": "labor:79337",
+      "coverage": "España · Provincias",
+      "period": {
+        "from": "2026T1",
+        "to": "2026T3"
+      },
+      "unit": "Porcentaje",
+      "license": "CC BY 4.0 · INE",
+      "notes": "Distribución porcentual de los ocupados por sector económico. Serie con la clasificación CNAE 2025 desde 2026. Tabla completa: 636 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
+      "dataFile": "labor/index.json"
+    },
+    {
+      "id": "labor:28191",
+      "title": "EAES · salario anual medio y percentiles",
+      "sourceId": "F005",
+      "categoryIds": [
+        "F04"
+      ],
+      "status": "integrado",
+      "url": "https://www.ine.es/jaxiT3/Tabla.htm?t=28191",
+      "mapAction": "labor:28191",
+      "coverage": "Comunidades · España",
+      "period": {
+        "from": "2008",
+        "to": "2024"
+      },
+      "unit": "Euros",
+      "license": "CC BY 4.0 · INE",
+      "notes": "Ganancia bruta anual por trabajador en euros corrientes. La media y los percentiles conservan su definición y el ámbito de la encuesta. Tabla completa: 5,508 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
+      "dataFile": "labor/index.json"
+    },
+    {
+      "id": "labor:79662",
+      "title": "ETCL · coste laboral por trabajador",
+      "sourceId": "F005",
+      "categoryIds": [
+        "F04"
+      ],
+      "status": "integrado",
+      "url": "https://www.ine.es/jaxiT3/Tabla.htm?t=79662",
+      "mapAction": "labor:79662",
+      "coverage": "Comunidades · España",
+      "period": {
+        "from": "2008T1",
+        "to": "2026T2"
+      },
+      "unit": "Euros",
+      "license": "CC BY 4.0 · INE",
+      "notes": "Costes en euros por trabajador y mes. La tabla distingue coste salarial, otros costes y demás componentes publicados. Tabla completa: 37,296 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
+      "dataFile": "labor/index.json"
+    },
+    {
+      "id": "labor:6062",
+      "title": "ETCL · coste por hora efectiva",
+      "sourceId": "F005",
+      "categoryIds": [
+        "F04"
+      ],
+      "status": "integrado",
+      "url": "https://www.ine.es/jaxiT3/Tabla.htm?t=6062",
+      "mapAction": "labor:6062",
+      "coverage": "Comunidades · España",
+      "period": {
+        "from": "2008T1",
+        "to": "2026T2"
+      },
+      "unit": "Euros",
+      "license": "CC BY 4.0 · INE",
+      "notes": "Costes por hora efectiva de trabajo. Se conservan las unidades de cada indicador. Tabla completa: 21,312 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
+      "dataFile": "labor/index.json"
+    },
+    {
+      "id": "labor:6063",
+      "title": "ETCL · horas de trabajo por jornada",
+      "sourceId": "F005",
+      "categoryIds": [
+        "F04"
+      ],
+      "status": "integrado",
+      "url": "https://www.ine.es/jaxiT3/Tabla.htm?t=6063",
+      "mapAction": "labor:6063",
+      "coverage": "Comunidades · España",
+      "period": {
+        "from": "2008T1",
+        "to": "2026T2"
+      },
+      "unit": "Horas/trabajador(mes)",
+      "license": "CC BY 4.0 · INE",
+      "notes": "Horas por trabajador y mes, por tipo de jornada y sector. Se distinguen horas pactadas, efectivas y otros conceptos publicados. Tabla completa: 79,920 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
+      "dataFile": "labor/index.json"
+    },
+    {
+      "id": "labor:6064",
+      "title": "ETCL · puestos de trabajo vacantes",
+      "sourceId": "F005",
+      "categoryIds": [
+        "F04"
+      ],
+      "status": "integrado",
+      "url": "https://www.ine.es/jaxiT3/Tabla.htm?t=6064",
+      "mapAction": "labor:6064",
+      "coverage": "Comunidades · España",
+      "period": {
+        "from": "2013T3",
+        "to": "2026T2"
+      },
+      "unit": "Vacante",
+      "license": "CC BY 4.0 · INE",
+      "notes": "Puestos de trabajo vacantes en cuentas de cotización incluidas en la encuesta. Se muestra el recuento publicado. Tabla completa: 936 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
+      "dataFile": "labor/index.json"
+    }
+  ],
+  "inventory": [
+    {
+      "id": "labor-inventory:28191",
+      "title": "EAES · salario anual medio y percentiles",
+      "sourceId": "F005",
+      "categoryIds": [
+        "F04"
+      ],
+      "suggestedCategoryIds": [
+        "F04"
+      ],
+      "status": "integrado",
+      "url": "https://www.ine.es/jaxiT3/Tabla.htm?t=28191",
+      "license": "CC BY 4.0 · INE",
+      "operationIds": [
+        "EAES"
+      ],
+      "notes": "Ganancia bruta anual por trabajador en euros corrientes. La media y los percentiles conservan su definición y el ámbito de la encuesta. Tabla completa: 5,508 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
+      "mapAction": "labor:28191",
+      "period": {
+        "from": "2008",
+        "to": "2024"
+      },
+      "coverage": "Comunidades · España",
+      "review": {
+        "implementedProductId": "labor:28191",
+        "updatedAt": "2026-11-13",
+        "reason": "Todas las observaciones de la descarga se conservan en cubos consultables; sin selección de columnas ni de último periodo."
+      }
+    },
+    {
+      "id": "labor-inventory:65349",
+      "title": "EPA · tasas de actividad, paro y empleo",
+      "sourceId": "F005",
+      "categoryIds": [
+        "F04"
+      ],
+      "suggestedCategoryIds": [
+        "F04"
+      ],
+      "status": "integrado",
+      "url": "https://www.ine.es/jaxiT3/Tabla.htm?t=65349",
+      "license": "CC BY 4.0 · INE",
+      "operationIds": [
+        "EPA"
+      ],
+      "notes": "Estimaciones de la Encuesta de Población Activa para hogares residentes. La tasa de paro se calcula sobre la población activa. Tasas trimestrales publicadas por el INE. Base poblacional 2011 hasta 2020 y base 2021 desde 2021. Tabla completa: 47,223 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
+      "mapAction": "labor:65349",
+      "period": {
+        "from": "2002T1",
+        "to": "2026T3"
+      },
+      "coverage": "España · Provincias",
+      "review": {
+        "implementedProductId": "labor:65349",
+        "updatedAt": "2026-11-13",
+        "reason": "Todas las observaciones de la descarga se conservan en cubos consultables; sin selección de columnas ni de último periodo."
+      }
+    },
+    {
+      "id": "labor-inventory:65334",
+      "title": "EPA · tasa de paro por sexo y edad",
+      "sourceId": "F005",
+      "categoryIds": [
+        "F04"
+      ],
+      "suggestedCategoryIds": [
+        "F04"
+      ],
+      "status": "integrado",
+      "url": "https://www.ine.es/jaxiT3/Tabla.htm?t=65334",
+      "license": "CC BY 4.0 · INE",
+      "operationIds": [
+        "EPA"
+      ],
+      "notes": "Estimaciones de la EPA por sexo y edad. La tasa se refiere a los activos del grupo seleccionado. Base poblacional 2011 hasta 2020 y base 2021 desde 2021. Tabla completa: 41,580 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
+      "mapAction": "labor:65334",
+      "period": {
+        "from": "2002T1",
+        "to": "2026T3"
+      },
+      "coverage": "Comunidades · España",
+      "review": {
+        "implementedProductId": "labor:65334",
+        "updatedAt": "2026-11-13",
+        "reason": "Todas las observaciones de la descarga se conservan en cubos consultables; sin selección de columnas ni de último periodo."
+      }
+    },
+    {
+      "id": "labor-inventory:65345",
+      "title": "EPA · activos, ocupados, parados e inactivos",
+      "sourceId": "F005",
+      "categoryIds": [
+        "F04"
+      ],
+      "suggestedCategoryIds": [
+        "F04"
+      ],
+      "status": "integrado",
+      "url": "https://www.ine.es/jaxiT3/Tabla.htm?t=65345",
+      "license": "CC BY 4.0 · INE",
+      "operationIds": [
+        "EPA"
+      ],
+      "notes": "Población residente de 16 y más años por relación con la actividad económica y sexo. Cifras en miles de personas. Base poblacional 2011 hasta 2020 y base 2021 desde 2021. Tabla completa: 94,446 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
+      "mapAction": "labor:65345",
+      "period": {
+        "from": "2002T1",
+        "to": "2026T3"
+      },
+      "coverage": "España · Provincias",
+      "review": {
+        "implementedProductId": "labor:65345",
+        "updatedAt": "2026-11-13",
+        "reason": "Todas las observaciones de la descarga se conservan en cubos consultables; sin selección de columnas ni de último periodo."
+      }
+    },
+    {
+      "id": "labor-inventory:79337",
+      "title": "EPA · ocupación por sector, CNAE 2025",
+      "sourceId": "F005",
+      "categoryIds": [
+        "F04"
+      ],
+      "suggestedCategoryIds": [
+        "F04"
+      ],
+      "status": "integrado",
+      "url": "https://www.ine.es/jaxiT3/Tabla.htm?t=79337",
+      "license": "CC BY 4.0 · INE",
+      "operationIds": [
+        "EPA"
+      ],
+      "notes": "Distribución porcentual de los ocupados por sector económico. Serie con la clasificación CNAE 2025 desde 2026. Tabla completa: 636 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
+      "mapAction": "labor:79337",
+      "period": {
+        "from": "2026T1",
+        "to": "2026T3"
+      },
+      "coverage": "España · Provincias",
+      "review": {
+        "implementedProductId": "labor:79337",
+        "updatedAt": "2026-11-13",
+        "reason": "Todas las observaciones de la descarga se conservan en cubos consultables; sin selección de columnas ni de último periodo."
+      }
+    },
+    {
+      "id": "labor-inventory:79662",
+      "title": "ETCL · coste laboral por trabajador",
+      "sourceId": "F005",
+      "categoryIds": [
+        "F04"
+      ],
+      "suggestedCategoryIds": [
+        "F04"
+      ],
+      "status": "integrado",
+      "url": "https://www.ine.es/jaxiT3/Tabla.htm?t=79662",
+      "license": "CC BY 4.0 · INE",
+      "operationIds": [
+        "ETCL"
+      ],
+      "notes": "Costes en euros por trabajador y mes. La tabla distingue coste salarial, otros costes y demás componentes publicados. Tabla completa: 37,296 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
+      "mapAction": "labor:79662",
+      "period": {
+        "from": "2008T1",
+        "to": "2026T2"
+      },
+      "coverage": "Comunidades · España",
+      "review": {
+        "implementedProductId": "labor:79662",
+        "updatedAt": "2026-11-13",
+        "reason": "Todas las observaciones de la descarga se conservan en cubos consultables; sin selección de columnas ni de último periodo."
+      }
+    },
+    {
+      "id": "labor-inventory:6062",
+      "title": "ETCL · coste por hora efectiva",
+      "sourceId": "F005",
+      "categoryIds": [
+        "F04"
+      ],
+      "suggestedCategoryIds": [
+        "F04"
+      ],
+      "status": "integrado",
+      "url": "https://www.ine.es/jaxiT3/Tabla.htm?t=6062",
+      "license": "CC BY 4.0 · INE",
+      "operationIds": [
+        "ETCL"
+      ],
+      "notes": "Costes por hora efectiva de trabajo. Se conservan las unidades de cada indicador. Tabla completa: 21,312 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
+      "mapAction": "labor:6062",
+      "period": {
+        "from": "2008T1",
+        "to": "2026T2"
+      },
+      "coverage": "Comunidades · España",
+      "review": {
+        "implementedProductId": "labor:6062",
+        "updatedAt": "2026-11-13",
+        "reason": "Todas las observaciones de la descarga se conservan en cubos consultables; sin selección de columnas ni de último periodo."
+      }
+    },
+    {
+      "id": "labor-inventory:6063",
+      "title": "ETCL · horas de trabajo por jornada",
+      "sourceId": "F005",
+      "categoryIds": [
+        "F04"
+      ],
+      "suggestedCategoryIds": [
+        "F04"
+      ],
+      "status": "integrado",
+      "url": "https://www.ine.es/jaxiT3/Tabla.htm?t=6063",
+      "license": "CC BY 4.0 · INE",
+      "operationIds": [
+        "ETCL"
+      ],
+      "notes": "Horas por trabajador y mes, por tipo de jornada y sector. Se distinguen horas pactadas, efectivas y otros conceptos publicados. Tabla completa: 79,920 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
+      "mapAction": "labor:6063",
+      "period": {
+        "from": "2008T1",
+        "to": "2026T2"
+      },
+      "coverage": "Comunidades · España",
+      "review": {
+        "implementedProductId": "labor:6063",
+        "updatedAt": "2026-11-13",
+        "reason": "Todas las observaciones de la descarga se conservan en cubos consultables; sin selección de columnas ni de último periodo."
+      }
+    },
+    {
+      "id": "labor-inventory:6064",
+      "title": "ETCL · puestos de trabajo vacantes",
+      "sourceId": "F005",
+      "categoryIds": [
+        "F04"
+      ],
+      "suggestedCategoryIds": [
+        "F04"
+      ],
+      "status": "integrado",
+      "url": "https://www.ine.es/jaxiT3/Tabla.htm?t=6064",
+      "license": "CC BY 4.0 · INE",
+      "operationIds": [
+        "ETCL"
+      ],
+      "notes": "Puestos de trabajo vacantes en cuentas de cotización incluidas en la encuesta. Se muestra el recuento publicado. Tabla completa: 936 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
+      "mapAction": "labor:6064",
+      "period": {
+        "from": "2013T3",
+        "to": "2026T2"
+      },
+      "coverage": "Comunidades · España",
+      "review": {
+        "implementedProductId": "labor:6064",
+        "updatedAt": "2026-11-13",
+        "reason": "Todas las observaciones de la descarga se conservan en cubos consultables; sin selección de columnas ni de último periodo."
+      }
+    }
+  ]
+}

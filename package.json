@@ -1,6 +1,6 @@
 {
   "name": "el-pais-atlas",
-  "version": "0.5.1",
+  "version": "0.6.0",
   "private": true,
   "type": "module",
   "scripts": {
@@ -11,10 +11,11 @@
     "preview": "vite preview --host 127.0.0.1",
     "test": "node --test tests/*.test.mjs",
     "data:refresh": "python scripts/ingest.py --refresh",
-    "catalog:build": "node scripts/build_atlas_layout.mjs && node scripts/build_territory_catalog.mjs && python scripts/build_demography_registry.py && python scripts/build_demography_registry.py --kind welfare --category F03 && python scripts/build_registry.py",
+    "catalog:build": "node scripts/build_atlas_layout.mjs && node scripts/build_territory_catalog.mjs && python scripts/build_demography_registry.py && python scripts/build_demography_registry.py --kind welfare --category F03 && python scripts/build_demography_registry.py --kind labor --category F04 && python scripts/build_registry.py",
     "territory:refresh": "python scripts/territory_collect.py --refresh",
     "demography:refresh": "python scripts/demography_collect.py --refresh",
-    "welfare:refresh": "python scripts/welfare_collect.py --refresh"
+    "welfare:refresh": "python scripts/welfare_collect.py --refresh",
+    "labor:refresh": "python scripts/labor_collect.py --refresh"
   },
   "dependencies": {
     "lucide": "0.468.0",

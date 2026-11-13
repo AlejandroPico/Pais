@@ -9,7 +9,7 @@ ROOT=Path(__file__).resolve().parents[1]
 def read(p):return json.loads((ROOT/p).read_text(encoding='utf-8'))
 def main(kind="demography",category="F02"):
     index=read(f'public/data/{kind}/index.json');inventory=read(f'public/data/{kind}/inventory.json')
-    if kind=='welfare':
+    if kind in {'welfare','labor'}:
         provenance={p['url']:p for p in index.get('provenance',[])}
         for t in index['tables']:
             missing={}

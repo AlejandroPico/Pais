@@ -1,0 +1,88 @@
+{
+  "revision": "2026-11-13",
+  "tables": [
+    {
+      "id": 65349,
+      "label": "EPA · tasas de actividad, paro y empleo",
+      "family": "Empleo y paro · EPA",
+      "note": "Estimaciones de la Encuesta de Población Activa para hogares residentes. La tasa de paro se calcula sobre la población activa. Tasas trimestrales publicadas por el INE. Base poblacional 2011 hasta 2020 y base 2021 desde 2021.",
+      "operation": "EPA"
+    },
+    {
+      "id": 65334,
+      "label": "EPA · tasa de paro por sexo y edad",
+      "family": "Empleo y paro · EPA",
+      "note": "Estimaciones de la EPA por sexo y edad. La tasa se refiere a los activos del grupo seleccionado. Base poblacional 2011 hasta 2020 y base 2021 desde 2021.",
+      "dimensionNames": {
+        "Totales de edad": "Grupos de edad",
+        "Semiintervalos de edad": "Grupos de edad"
+      },
+      "operation": "EPA"
+    },
+    {
+      "id": 65345,
+      "label": "EPA · activos, ocupados, parados e inactivos",
+      "family": "Empleo y paro · EPA",
+      "note": "Población residente de 16 y más años por relación con la actividad económica y sexo. Cifras en miles de personas. Base poblacional 2011 hasta 2020 y base 2021 desde 2021.",
+      "operation": "EPA"
+    },
+    {
+      "id": 79337,
+      "label": "EPA · ocupación por sector, CNAE 2025",
+      "family": "Empleo y paro · EPA",
+      "note": "Distribución porcentual de los ocupados por sector económico. Serie con la clasificación CNAE 2025 desde 2026.",
+      "operation": "EPA"
+    },
+    {
+      "id": 28191,
+      "label": "EAES · salario anual medio y percentiles",
+      "family": "Salarios · EAES",
+      "note": "Ganancia bruta anual por trabajador en euros corrientes. La media y los percentiles conservan su definición y el ámbito de la encuesta.",
+      "dimensionNames": {
+        "Medidas estadísticas": "Medida salarial",
+        "Percentiles simples": "Medida salarial"
+      },
+      "operation": "EAES"
+    },
+    {
+      "id": 79662,
+      "label": "ETCL · coste laboral por trabajador",
+      "family": "Costes, jornada y vacantes · ETCL",
+      "note": "Costes en euros por trabajador y mes. La tabla distingue coste salarial, otros costes y demás componentes publicados.",
+      "dimensionNames": {
+        "AGRUPACIONES CNAE": "Sector de actividad",
+        "SECTORES": "Sector de actividad"
+      },
+      "operation": "ETCL"
+    },
+    {
+      "id": 6062,
+      "label": "ETCL · coste por hora efectiva",
+      "family": "Costes, jornada y vacantes · ETCL",
+      "note": "Costes por hora efectiva de trabajo. Se conservan las unidades de cada indicador.",
+      "dimensionNames": {
+        "AGRUPACIONES CNAE": "Sector de actividad",
+        "SECTORES": "Sector de actividad"
+      },
+      "operation": "ETCL"
+    },
+    {
+      "id": 6063,
+      "label": "ETCL · horas de trabajo por jornada",
+      "family": "Costes, jornada y vacantes · ETCL",
+      "note": "Horas por trabajador y mes, por tipo de jornada y sector. Se distinguen horas pactadas, efectivas y otros conceptos publicados.",
+      "dimensionNames": {
+        "AGRUPACIONES CNAE": "Sector de actividad",
+        "SECTORES": "Sector de actividad"
+      },
+      "operation": "ETCL"
+    },
+    {
+      "id": 6064,
+      "label": "ETCL · puestos de trabajo vacantes",
+      "family": "Costes, jornada y vacantes · ETCL",
+      "note": "Puestos de trabajo vacantes en cuentas de cotización incluidas en la encuesta. Se muestra el recuento publicado.",
+      "operation": "ETCL"
+    }
+  ]
+}

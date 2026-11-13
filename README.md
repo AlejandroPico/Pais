@@ -1,5 +1,9 @@
 # El país · Atlas abierto de España
 
+## Versión 0.6.0 · F04.1
+
+Empleo y paro de la EPA, salarios de la EAES, costes, horas y vacantes de la ETCL. Mapas, filtros, series y CSV según el ámbito de cada tabla. [Cobertura y pendientes de F04](docs/F04.md).
+
 ## Versión 0.5.1 · Navegación e iconos
 
 Arrastre con ratón y dedo reactivado en todas las vistas, también con el zoom inicial. Se conserva el encuadre de apertura y Vista general lo recupera. Iconos diferenciados de centrado, mapa y pantalla completa.

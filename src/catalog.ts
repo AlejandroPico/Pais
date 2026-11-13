@@ -5,7 +5,7 @@ const esc=(s:unknown)=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&l
 const number=(n:number)=>n.toLocaleString('es-ES');
 let indexPromise:Promise<RegistryIndex>|undefined;
 const base=`${import.meta.env.BASE_URL}data/registry/`;
-const kinds:Record<string,string>={available:'Disponibles en el mapa',welfare:'Inventario de renta y condiciones de vida',demography:'Tablas demográficas · INE',territory:'Servicios cartográficos F01',ioe:'Operaciones IOE',ine:'Tablas INEbase',national:'Catálogo nacional'};
+const kinds:Record<string,string>={available:'Disponibles en el mapa',labor:'Tablas de empleo y salarios · INE',welfare:'Inventario de renta y condiciones de vida',demography:'Tablas demográficas · INE',territory:'Servicios cartográficos F01',ioe:'Operaciones IOE',ine:'Tablas INEbase',national:'Catálogo nacional'};
 
 export async function mountCatalog(root:HTMLElement,options:{category?:string;signal:AbortSignal;icons:()=>void;activate:(action:string)=>void}) {
   const {signal,icons,activate}=options;
@@ -13,7 +13,7 @@ export async function mountCatalog(root:HTMLElement,options:{category?:string;si
   if(signal.aborted)return;
   let tab=options.category?'products':'sources';
   let worker:Worker|undefined,request=0,timer:ReturnType<typeof setTimeout>;
-  let query:ProductQuery={kind:options.category&&!['F01','F02','F03'].includes(options.category)?'ioe':'available',q:'',category:options.category||'',source:'',status:'',page:0};
+  let query:ProductQuery={kind:options.category&&!['F01','F02','F03','F04'].includes(options.category)?'ioe':'available',q:'',category:options.category||'',source:'',status:'',page:0};
   signal.addEventListener('abort',()=>{worker?.terminate();clearTimeout(timer);});
   root.innerHTML=`<h2 id="modal-title">Fuentes</h2><p class="modal-lead">Procedencia, productos y cobertura. Revisión del ${esc(index.revision.split('-').reverse().join('/'))}.</p>
   <nav class="catalog-tabs" aria-label="Apartados de Fuentes"><button data-catalog-tab="sources">Fuentes</button><button data-catalog-tab="products">Productos</button><button data-catalog-tab="coverage">Cobertura</button></nav>

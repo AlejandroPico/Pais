@@ -84,8 +84,8 @@ def infer_units(combinations,dimension_names):
     if not keys:return next(iter(rules.values())),[]
     return 'Según indicador y escala publicados',[{'when':{dimension_names[i]:dims[j] for j,i in enumerate(keys)},'unit':unit} for dims,unit in rules.items()]
 
-def build_group(config,table_ids,metadata,recover_rows=None):
-    tid=config['id'];work=Path(tempfile.gettempdir())/'Pais-F03';work.mkdir(exist_ok=True)
+def build_group(config,table_ids,metadata,recover_rows=None,output=OUT):
+    tid=config['id'];work=Path(tempfile.gettempdir())/f'Pais-{output.name}';work.mkdir(exist_ok=True)
     # Keep the scratch database outside cloud-synced project directories.
     dbpath=work/f'cube-{tid}-{os.getpid()}.sqlite'
     dbpath.unlink(missing_ok=True)
@@ -107,7 +107,11 @@ def build_group(config,table_ids,metadata,recover_rows=None):
                     if input_id not in territories[g]['sourceTableIds']:territories[g]['sourceTableIds'].append(input_id)
                     non_geo=[m for m in meta if core.norm(m['T3_Variable']) not in GEO]
                     def dimension_name(m):
-                        name=m['T3_Variable']
+                        name=m['T3_Variable'].strip()
+                        if name in config.get('dimensionNames', {}):
+                            role=config['dimensionNames'][name]
+                            aliases[name]=role
+                            return role
                         # These published EPF tables have one classification
                         # dimension. The API uses different hierarchy variables
                         # for its total, aggregates and detailed categories.
@@ -151,8 +155,12 @@ def build_group(config,table_ids,metadata,recover_rows=None):
                     assert labels not in combinations or combinations[labels]==unit,(tid,'Ambiguous unit',labels,unit)
                     combinations[labels]=unit
                     for datum in s.get('Data',[]):
-                        assert datum.get('T3_Periodo') in ['A','Anual'],(tid,'Non-annual period',datum)
-                        key=str(datum['Anyo']);label=key
+                        period=datum['T3_Periodo']
+                        key=str(datum['Anyo'])
+                        if period not in ('A','Anual'):
+                            assert period in ('T1','T2','T3','T4'),(tid,'Unknown period',datum)
+                            key+=period
+                        label=key
                         if config.get('incomeOffset') is not None:label+=f" · ingresos de {int(key)+config['incomeOffset']}"
                         if key not in period_ids:period_ids[key]=len(periods);periods.append({'id':key,'label':label})
                         value=datum.get('Valor');assert value is None or isinstance(value,(int,float)) and math.isfinite(value),(tid,value)
@@ -170,7 +178,7 @@ def build_group(config,table_ids,metadata,recover_rows=None):
     unit,rules=infer_units(list(combinations.items()),dimension_names or [])
     shards=[];files={};counts={}
     if recover_rows is not None:
-        for path in sorted(OUT.glob(f'{tid}-*.json.gz')):
+        for path in sorted(output.glob(f'{tid}-*.json.gz')):
             data=path.read_bytes();rows=json.loads(gzip.decompress(data))['rows'];part=path.name[len(str(tid))+1:].split('.')[0]
             assert all(len(r)==len(dimensions)+5 and 0<=r[0]<len(territories) and 0<=r[1]<len(periods) for r in rows),'Recovered dictionaries do not match'
             shards.append({'id':part,'file':path.name,'rows':len(rows),'bytes':len(data),'sha256':core.sha(data),'contentSha256':core.content_sha(path)})
@@ -179,15 +187,15 @@ def build_group(config,table_ids,metadata,recover_rows=None):
     for g,p,d,v,status,src in db.execute('SELECT g,p,d,v,status,src FROM observations ORDER BY g,p,d'):
         a=territories[g];part=a['provinceCode'] if a['level'] in ['municipal','district','section'] else 'main'
         if part not in files:
-            filename=f'{tid}-{part}.json.gz';handle=gzip.GzipFile(filename='',mode='wb',fileobj=(OUT/filename).open('wb'),mtime=0);handle.write(b'{"rows":[');files[part]=(filename,handle);counts[part]=0
+            filename=f'{tid}-{part}.json.gz';handle=gzip.GzipFile(filename='',mode='wb',fileobj=(output/filename).open('wb'),mtime=0);handle.write(b'{"rows":[');files[part]=(filename,handle);counts[part]=0
         if counts[part]:files[part][1].write(b',')
         files[part][1].write(core.encode([g,p,*json.loads(d),v,status,src]));counts[part]+=1
     for part,(filename,handle) in files.items():
-        handle.write(b']}');handle.close();path=OUT/filename;data=path.read_bytes()
+        handle.write(b']}');handle.close();path=output/filename;data=path.read_bytes()
         shards.append({'id':part,'file':filename,'rows':counts[part],'bytes':len(data),'sha256':core.sha(data),'contentSha256':core.content_sha(path)})
     db.close();dbpath.unlink(missing_ok=True);assert counts,(tid,'No observations')
     result={**config,'title':metadata[tid]['Nombre'],'unit':unit,'unitsByConditions':rules,'dimensionAliases':aliases,'sourceUrl':f'https://www.ine.es/jaxiT3/Tabla.htm?t={tid}','downloadUrl':sources[0]['url'],'license':'CC BY 4.0 · INE','rows':sum(counts.values()),'rawRows':raw_rows,'duplicateRows':duplicates,'dimensions':dimensions,'periods':periods,'territories':territories,'shards':shards,'sourceTables':sources,'missingTokens':{},'publisher':'INE'}
-    print(f'F03 group {tid}: {result["rows"]:,} observations / {len(territories):,} areas',flush=True)
+    print(f'{output.name} group {tid}: {result["rows"]:,} observations / {len(territories):,} areas',flush=True)
     return result
 
 def main(refresh=False,recover=None):
