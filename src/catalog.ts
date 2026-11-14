@@ -11,12 +11,12 @@ const kinds:Record<string,string>={
 let indexPromise:Promise<RegistryIndex>|undefined;
 
 type Options={
-  category?:string;signal:AbortSignal;icons:()=>void;
+  category?:string;inventory?:string;signal:AbortSignal;icons:()=>void;
   activate:(action:string)=>void;setTitle:(title:string)=>void;
 };
 type Reply={id:number;error?:string;total:number;page:number;pages:number;rows:RegistryProduct[]};
 
-export async function mountCatalog(root:HTMLElement,{category,signal,activate,setTitle}:Options){
+export async function mountCatalog(root:HTMLElement,{category,inventory,signal,activate,setTitle}:Options){
   const index=await(indexPromise??=fetch(base+'index.json').then(response=>{
     if(!response.ok)throw new Error('No se pudo cargar el registro de fuentes');
     return response.json() as Promise<RegistryIndex>;
@@ -32,7 +32,7 @@ export async function mountCatalog(root:HTMLElement,{category,signal,activate,se
   let sourcePage=0,coveragePage=0,sourceTerm='',sourceKind='research';
   let pageSize=1;
   const query:ProductQuery={
-    kind:category&&!['F01','F02','F03','F04'].includes(category)?'ioe':'available',
+    kind:inventory||(category&&!['F01','F02','F03','F04'].includes(category)?'ioe':'available'),
     q:'',category:category||'',source:'',status:'',page:0,
   };
   signal.addEventListener('abort',()=>{worker?.terminate();observer?.disconnect();clearTimeout(timer);});

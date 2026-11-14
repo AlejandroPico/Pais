@@ -76,20 +76,20 @@ function openModal(html:string,view='',title='El país'){
   icons();
 }
 function closeModal(){$<HTMLDialogElement>('#modal').close();}
-async function showCatalog(category?:string){
+async function showCatalog(category?:string,inventory?:string){
   closeDrawer();
   openModal('<p role="status">Cargando fuentes…</p>','catalog','El país · Fuentes');
   const signal=modalController!.signal;
   try{
     const {mountCatalog}=await import('./catalog');
     if(!signal.aborted)await mountCatalog($('#modal-body'),{
-      category,signal,icons,activate:action=>{activateProduct(action);closeModal();},
+      category,inventory,signal,icons,activate:action=>{activateProduct(action);closeModal();},
       setTitle:title=>{$('#modal-heading').textContent=title;},
     });
   }catch{
     if(signal.aborted)return;
     $('#modal-body').innerHTML='<p>No se pudo cargar el registro de fuentes.</p><button id="registry-retry">Reintentar</button>';
-    $('#registry-retry').onclick=()=>showCatalog(category);
+    $('#registry-retry').onclick=()=>showCatalog(category,inventory);
   }
 }
 function about(){
@@ -185,6 +185,7 @@ function bindControls(){
   $('#home-map')?.addEventListener('click',()=>{closeDrawer();home();});
   $('#terrain-toggle')?.addEventListener('click',()=>{tilted=!tilted;terrain();});
   $('#fullscreen')?.addEventListener('click',toggleFullscreen);
+  $('[data-open-cartography]')?.addEventListener('click',()=>showCatalog('F01','territory'));
   document.querySelectorAll<HTMLButtonElement>('[data-open-catalog]').forEach(b=>b.onclick=()=>showCatalog(b.dataset.openCatalog));
   $('#communities-toggle')?.addEventListener('change',e=>{showCommunities=(e.target as HTMLInputElement).checked;updateData();});$('#provinces-toggle')?.addEventListener('change',e=>{showProvinces=(e.target as HTMLInputElement).checked;updateData();});
   document.querySelectorAll<HTMLInputElement>('[name="metric"]').forEach(i=>i.onchange=()=>{disableStatistics();metric=i.value as Metric;thematic=true;updateData();});$('#clear-metric')?.addEventListener('click',()=>{thematic=false;stopPlaying();updateData();document.querySelectorAll<HTMLInputElement>('[name="metric"]').forEach(i=>i.checked=false);});
@@ -203,10 +204,15 @@ function activateProduct(action:string){const [kind,id,...parameters]=action.spl
     categoryPanel(statisticCategories[statisticKind]);
     return;
   }
+  if(kind==='official-wms'){
+    void geography?.toggleOfficial(id,true).then(()=>categoryPanel('F01')).catch(()=>toast('No se pudo abrir la capa cartográfica.'));
+    return;
+  }
   if(kind==='territory'){
     active.add(id);
     if(parameters.length)geography?.selectEdition(id,parameters.join(':'));
     geography?.update();
+    geography?.focusLayer(id);
     updateData();
     return;
   }
@@ -251,6 +257,7 @@ function setupMap(m:AtlasMap){
   m.on('click',async e=>{if(!ready)return;if(m.queryRenderedFeatures(e.point,{layers:['atlas-opaque-sea']}).length)return;featureQuery?.abort();if(statisticControllers().some(controller=>controller.inspect(m,e)))return;delete $('#info-panel').dataset.demography;if(await geography.inspect(m,e))return;geography.reset();const features=m.queryRenderedFeatures(e.point,{layers:[`${level}-fill`]});if(features[0]){const f=selectedGeo().features.find(f=>f.properties.code===features[0].properties.code);if(f)selectTerritory(f);}else{selected=undefined;$('#info-panel').hidden=true;for(const target of maps)(target.getSource('selection') as maplibregl.GeoJSONSource).setData({type:'FeatureCollection',features:[]});}const truePoint=fromAtlas([e.lngLat.lng,e.lngLat.lat]);queryObjects(truePoint[0],truePoint[1]);});
   for(const controller of statisticControllers())controller.attach(m,provinces,communities);
   addAtlasSeparation(m);
+  geography.restoreOfficial();
   let rightClick=0;m.getCanvas().addEventListener('contextmenu',e=>{e.preventDefault();const now=performance.now();if(now-rightClick<350){m.easeTo({bearing:0,pitch:0,duration:350});rightClick=0;}else rightClick=now;});
 }
 async function load<T>(file:string):Promise<T>{const r=await fetch(`${import.meta.env.BASE_URL}data/${file}`);if(!r.ok)throw new Error(`${file}: ${r.status}`);return r.json();}

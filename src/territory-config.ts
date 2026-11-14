@@ -1,7 +1,9 @@
+import sectionArchives from '../registry/section-archives.json' with {type:'json'};
+import localInventory from '../registry/local-territory.json' with {type:'json'};
 import ignEditions from '../registry/ign-territory-editions.json' with {type:'json'};
 
-export type WmsProvider={id:string;url:string;layers:string;styles?:string;sourceId:string;credit:string;bounds:[number,number,number,number];queryable?:boolean;infoFormat?:string};
-export type TerritoryLayer={id:string;name:string;group:string;minzoom:number;note:string;providers?:WmsProvider[]};
+export type WmsProvider={id:string;url:string;layers:string;styles?:string;tileEndpoint?:string;version?:'1.1.1'|'1.3.0';sourceId:string;credit:string;bounds:[number,number,number,number];queryable?:boolean;infoFormat?:string};
+export type TerritoryLayer={id:string;name:string;group:string;minzoom:number;note:string;providers?:WmsProvider[];local?:typeof localInventory.products[number]};
 const spain:[number,number,number,number]=[-18.5,27.5,4.7,44];
 const dgc=(layers:string,queryable=true):WmsProvider=>({id:'dgc',url:'https://ovc.catastro.meh.es/cartografia/INSPIRE/spadgcwms.aspx',layers,sourceId:'F008',credit:'Dirección General del Catastro · condiciones INSPIRE',bounds:spain,queryable,infoFormat:'text/html'});
 const nav:WmsProvider={id:'navarra',url:'https://inspire.navarra.es/services/CP/wms',layers:'CP:CadastralParcel',sourceId:'F165',credit:'Gobierno de Navarra · SITNA',bounds:[-2.55,41.9,-.7,43.4],queryable:true,infoFormat:'text/html'};
@@ -37,6 +39,11 @@ const elevationLayers:TerritoryLayer[]=ignEditions.elevation.map(edition=>({
     queryable:edition.queryable,infoFormat:'application/json'}],
 }));
 export const territoryLayers:TerritoryLayer[]=[
+  ...[...localInventory.products,...sectionArchives.products].map(product=>({
+    id:product.id,name:product.title,group:product.sourceId==='F005'?'Cartografía por fecha':product.sourceId==='F170'?'Madrid':'Barcelona',
+    note:product.count+' recintos oficiales · '+product.period,
+    minzoom:product.sourceId==='F005'||product.id.endsWith('-secciones')?10:8,local:product,
+  })),
   {id:'country',name:'Costa y contorno de España',group:'Divisiones territoriales',minzoom:0,note:'Contorno de las unidades IGN. No delimita espacios marítimos.'},
   {id:'municipal',name:'Municipios',group:'Divisiones territoriales',minzoom:7,note:'Teselas vectoriales IGN; códigos contrastados con la relación INE de 2026.'},
   {id:'comarcas',name:'Comarcas y divisiones supramunicipales',group:'Divisiones territoriales',minzoom:6,note:'Aragón, Cataluña, Navarra, Comunitat Valenciana, Galicia, Euskadi y El Bierzo. Tipología y procedencia conservadas por entidad; cobertura ampliable.'},
@@ -70,7 +77,32 @@ export const territoryLayers:TerritoryLayer[]=[
 ];
 export const sectionEditions=[{id:'2026',name:'2026',layer:'WMS_INE_SECCIONES_G01:SU.VectorStatisticalUnit'},...Array.from({length:19},(_,i)=>{const year=2025-i;return {id:String(year),name:String(year),layer:`WMS_INE_SECCIONES_G01:Secciones_${year}`};}),{id:'C2011',name:'2011 · Censo de población y viviendas',layer:'WMS_INE_SECCIONES_G01:Secciones_Censo_Poblacion_Viviendas_2011'},{id:'C2001',name:'2001 · Censo de población y viviendas',layer:'WMS_INE_SECCIONES_G01:Secciones_Censo_Poblacion_Viviendas_2001'}];
 
+export function sectionVectorUrl(layer:string,code?:string,field='CUSEC'){
+  if(!sectionEditions.some(edition=>edition.layer===layer))throw new Error('Edición censal desconocida');
+  const params=new URLSearchParams({SERVICE:'WFS',VERSION:'2.0.0',REQUEST:'GetFeature',
+    TYPENAMES:layer,OUTPUTFORMAT:'application/json',SRSNAME:'EPSG:4326'});
+  if(code!==undefined){
+    if(!/^\d{10}$/.test(code)||!/^cusec$/i.test(field))throw new Error('Código de sección inválido');
+    params.set('COUNT','1');
+    params.set('CQL_FILTER',field+"='"+code+"'");
+  }
+  return 'https://www.ine.es/geoserver/ows?'+params;
+}
+
 export function wmsTile(provider:WmsProvider,extra:Record<string,string>={}){
-  const params=new URLSearchParams({SERVICE:'WMS',VERSION:'1.3.0',REQUEST:'GetMap',LAYERS:provider.layers,STYLES:provider.styles||'',FORMAT:'image/png',TRANSPARENT:'TRUE',CRS:'EPSG:3857',WIDTH:'256',HEIGHT:'256',...extra});
-  return `${provider.url}?${params}&BBOX={bbox-epsg-3857}`;
+  if(provider.tileEndpoint){
+    const params=new URLSearchParams({f:'image',format:'png32',transparent:'true',bboxSR:'3857',imageSR:'3857',
+      size:'256,256',layers:'show:'+provider.layers});
+    return provider.tileEndpoint+'?'+params+'&bbox={bbox-epsg-3857}';
+  }
+  return wmsRequest(provider,{REQUEST:'GetMap',FORMAT:'image/png',TRANSPARENT:'TRUE',WIDTH:'256',HEIGHT:'256',...extra})+'&BBOX={bbox-epsg-3857}';
+}
+
+export function wmsRequest(provider:WmsProvider,options:Record<string,string>){
+  const version=provider.version||'1.3.0';
+  const url=new URL(provider.url);
+  const params={SERVICE:'WMS',VERSION:version,LAYERS:provider.layers,STYLES:provider.styles||'',
+    [version==='1.3.0'?'CRS':'SRS']:'EPSG:3857',...options};
+  for(const [key,value] of Object.entries(params))url.searchParams.set(key,value);
+  return url.href;
 }

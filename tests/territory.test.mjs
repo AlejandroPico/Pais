@@ -1,8 +1,10 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
+import {createHash} from 'node:crypto';
+import {gunzipSync} from 'node:zlib';
 import {municipalCode,coordinatesExtent,validSpanishCoordinate} from '../src/territory-data.ts';
-import {territoryLayers,sectionEditions,orthophotoEditions,canaryEditions,wmsTile} from '../src/territory-config.ts';
+import {territoryLayers,sectionEditions,orthophotoEditions,canaryEditions,sectionVectorUrl,wmsTile} from '../src/territory-config.ts';
 const read=p=>JSON.parse(fs.readFileSync(new URL('../'+p,import.meta.url),'utf8'));
 const index=read('public/data/territory/index.json'),manifest=read('public/data/territory/manifest.json');
 
@@ -62,4 +64,43 @@ test('orthophoto and Canary selectors use all relevant advertised WMS editions',
   assert.deepEqual(canaryEditions.map(e=>e.id),canary.filter(layer=>!['WMS_CARTO_EST','ALJTUR2015','CME1','CME2'].includes(layer.name)).map(layer=>layer.name));
   const bierzo=read('public/data/territory/bierzo-boundaries.json');
   assert.equal(new Set(bierzo.boundaries.map(row=>row.code)).size,38);
+});
+
+test('additional official layers preserve exact verified map endpoints',()=>{
+  const checked=read('public/data/territory/official-wms.json').services;
+  const available=read('public/data/territory/official-layers.json').layers;
+  const verified=checked.flatMap(service=>service.layers.filter(layer=>layer.mapError===null).map(layer=>[service,layer]));
+  assert.equal(available.length,verified.length);
+  assert.equal(new Set(available.map(layer=>layer.id)).size,available.length);
+  const byProvider=new Map(available.map(layer=>[layer.provider.url+'|'+layer.provider.layers,layer.provider]));
+  for(const [service,layer] of verified){
+    const provider=byProvider.get(service.url+'|'+layer.name);
+    assert.ok(provider);
+    const tile=new URL(wmsTile(provider));
+    assert.equal(tile.searchParams.get('BBOX')||tile.searchParams.get('bbox'),'{bbox-epsg-3857}');
+    if(provider.tileEndpoint)assert.equal(tile.searchParams.get('layers'),'show:'+layer.name);
+    else{
+      assert.equal(tile.searchParams.get('LAYERS'),layer.name);
+      assert.equal(tile.searchParams.get(provider.version==='1.1.1'?'SRS':'CRS'),'EPSG:3857');
+    }
+  }
+});
+
+test('municipal layers and local census archives preserve all official polygons',()=>{
+  for(const {file,count,id,sha256} of [...read('registry/local-territory.json').products,...read('registry/section-archives.json').products]){
+    const raw=fs.readFileSync(new URL('../public/data/territory/'+file,import.meta.url));
+    if(sha256)assert.equal(createHash('sha256').update(raw).digest('hex'),sha256,id);
+    const {features}=JSON.parse(file.endsWith('.gz')?gunzipSync(raw):raw);
+    assert.equal(features.length,count,id);
+    assert.equal(new Set(features.map(feature=>feature.id)).size,count,id);
+    for(const feature of features){
+      assert.ok(['Polygon','MultiPolygon'].includes(feature.geometry.type),id);
+      assert.ok(feature.properties.atlasName,id);
+    }
+  }
+  const section=sectionEditions.find(edition=>edition.id==='2025');
+  const params=new URL(sectionVectorUrl(section.layer,'2807901001')).searchParams;
+  assert.equal(params.get('TYPENAMES'),section.layer);
+  assert.equal(params.get('CQL_FILTER'),"CUSEC='2807901001'");
+  assert.throws(()=>sectionVectorUrl(section.layer,'2807901001 OR 1=1'));
 });

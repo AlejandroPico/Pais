@@ -39,6 +39,7 @@ test('available products link to real map actions and preserved observations; di
   for(const layer of territoryLayers)actions.add('territory:'+layer.id);
   actions.add('search:addresses');
   actions.add('municipal-changes');
+  for(const layer of read('public/data/territory/official-layers.json').layers)actions.add('official-wms:'+layer.id);
   const expected=read('registry/products.json').products.length+read('registry/territory-products.json').available.length+read('registry/demography-products.json').available.length+read('registry/welfare-products.json').available.length+read('registry/labor-products.json').available.length;
   for(const file of ['registry/demography-products.json','registry/welfare-products.json','registry/labor-products.json'])for(const p of read(file).available)actions.add(p.mapAction);
   assert.equal(products.available.length,expected);
