@@ -4,7 +4,7 @@ import {normalize} from './data';
 import {toAtlas,fromAtlas,projectFeature,projectCollection,displayRegion} from './atlas-coordinates';
 import {atlasTileUrl,addShiftedLayer,updateShiftedTiles} from './atlas-geography';
 import {municipalCode,coordinatesExtent,validSpanishCoordinate} from './territory-data';
-import {territoryLayers,sectionEditions,sectionVectorUrl,orthophotoEditions,historicOrthophoto,canaryEditions,canaryCartography,wmsTile,wmsRequest,type WmsProvider} from './territory-config';
+import {territoryLayers,sectionEditions,sectionVectorUrl,orthophotoEditions,historicOrthophoto,canaryEditions,canaryCartography,wmsTile,wmsRequest,localCredit,type WmsProvider} from './territory-config';
 
 const esc=(v:unknown)=>String(v??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]!));
 const dataRoot=import.meta.env.BASE_URL+'data/territory/';
@@ -78,7 +78,7 @@ export class TerritoryController{
     const existing=this.localCache.get(def.id);
     if(existing)return existing;
     const request=fetch(dataRoot+def.local!.file).then(async response=>{
-      if(!response.ok)throw new Error('No se pudo abrir el límite municipal.');
+      if(!response.ok)throw new Error('No se pudo abrir la capa territorial.');
       let data:FeatureCollection;
       if(def.local!.file.endsWith('.gz')){
         const bytes=await response.arrayBuffer();
@@ -87,19 +87,21 @@ export class TerritoryController{
           ?await new Response(new Blob([bytes]).stream().pipeThrough(new DecompressionStream('gzip'))).json()
           :JSON.parse(new TextDecoder().decode(bytes));
       }else data=await response.json();
-      if(data.features.length!==def.local!.count)throw new Error('Cartografía municipal incompleta.');
+      if(data.features.length!==def.local!.count)throw new Error('La capa territorial se ha recibido incompleta.');
       return data;
     }).catch(error=>{this.localCache.delete(def.id);throw error;});
     this.localCache.set(def.id,request);
     return request;
   }
   private showLocal(def:typeof territoryLayers[number]){
+    const product=def.local!;
+    const archive=product.file.endsWith('.gz');
+    const color=product.layer&&product.period.startsWith('2024')?'#90ddff':'#ffd7a2';
     for(const map of this.maps){
       const source='f01-local-'+def.id;
       if(map.getSource(source))continue;
-      const archive=def.local!.sourceId==='F005';
-      map.addSource(source,{type:'geojson',data:archive?{type:'FeatureCollection',features:[]}:dataRoot+def.local!.file,
-        attribution:archive?'Seccionado cedido por el Instituto Nacional de Estadística':'© Ayuntamiento de '+(def.local!.sourceId==='F170'?'Madrid':'Barcelona')+' · CC BY 4.0'});
+      map.addSource(source,{type:'geojson',data:archive?{type:'FeatureCollection',features:[]}:dataRoot+product.file,
+        attribution:localCredit(product)});
       if(archive)void this.localCollection(def).then(data=>{
         (map.getSource(source) as GeoJSONSource|undefined)?.setData(projectCollection(data));
       }).catch(error=>{
@@ -113,15 +115,26 @@ export class TerritoryController{
         const control=document.querySelector<HTMLInputElement>(`[data-territory-layer="${def.id}"]`);
         if(control)control.checked=false;
       });
-      this.add(map,def.id,{id:source+'-fill',type:'fill',source,minzoom:def.minzoom,paint:{'fill-color':'#f0b176','fill-opacity':.13}},'atlas-opaque-sea');
-      this.add(map,def.id,{id:source+'-line',type:'line',source,minzoom:def.minzoom,paint:{'line-color':'#ffd7a2','line-width':1.35}},'atlas-opaque-sea');
+      if(product.geometry!=='line')this.add(map,def.id,{id:source+'-fill',type:'fill',source,minzoom:def.minzoom,
+        paint:{'fill-color':color,'fill-opacity':.13}},'atlas-opaque-sea');
+      this.add(map,def.id,{id:source+'-line',type:'line',source,minzoom:def.minzoom,
+        paint:{'line-color':color,'line-width':def.minzoom<=5?1.7:1.35,
+          ...(product.layer?.includes('_histo_')?{'line-dasharray':[3,2]}:{})}},'atlas-opaque-sea');
     }
   }
   focusLayer(id:string){
     const def=territoryLayers.find(layer=>layer.id===id&&layer.local);
-    if(!def||def.local!.sourceId==='F005')return;
-    const center:[number,number]=def.local!.sourceId==='F170'?[-3.7,40.43]:[2.17,41.40];
-    this.maps[0]?.easeTo({center,zoom:Math.max(11,def.minzoom),duration:450});
+    const product=def?.local,map=this.maps[0];
+    if(!def||!product||!map||product.sourceId==='F005')return;
+    if(product.layer){
+      if(map.getZoom()>=def.minzoom)return;
+      const center=product.coverage==='Canarias'?toAtlas([-16.25,28.35]) as [number,number]:undefined;
+      map.easeTo({center,zoom:def.minzoom+.15,duration:450});
+      return;
+    }
+    const center:[number,number]=product.center?[product.center[0],product.center[1]]
+      :product.sourceId==='F170'?[-3.7,40.43]:[2.17,41.40];
+    map.easeTo({center,zoom:product.group==='Asturias'?9:Math.max(11,def.minzoom),duration:450});
   }
   restoreOfficial(){
     const ids=[...this.restoredOfficial];
@@ -301,9 +314,9 @@ export class TerritoryController{
     const layers=[...this.mapLayers.entries()].filter(([id])=>this.options.active.has(id)).flatMap(([,ids])=>ids).filter(id=>m.getLayer(id)&&['fill','line','circle'].includes(m.getLayer(id)!.type));
     const features=layers.length?m.queryRenderedFeatures(e.point,{layers}):[];
     const hit=features.find(f=>f.layer.id.startsWith('f01-municipal-hit'))||features.find(f=>f.layer.id==='f01-comarcas-hit')||features.find(f=>!f.layer.id.includes('country'))||features[0];
-    const localHit=features.find(feature=>feature.layer.id.startsWith('f01-local-')&&feature.layer.id.endsWith('-fill'));
+    const localHit=features.find(feature=>feature.layer.id.startsWith('f01-local-'));
     if(localHit){
-      const def=territoryLayers.find(layer=>'f01-local-'+layer.id+'-fill'===localHit.layer.id)!;
+      const def=territoryLayers.find(layer=>'f01-local-'+layer.id===localHit.layer.id.replace(/-(fill|line)$/,''))!;
       try{
         const all=await this.localCollection(def);
         const props=localHit.properties;
@@ -315,7 +328,7 @@ export class TerritoryController{
           this.showSelection(full);
           this.card(full.properties?.atlasName||def.name,def.name,this.facts(Object.fromEntries(Object.entries(full.properties||{}).filter(([key])=>!key.startsWith('atlas'))))+
             `<a class="text-button" href="${esc(dataRoot+def.local!.file)}" download>Descargar GeoJSON de la capa</a>`,
-            `<a href="${esc(def.local!.url)}" target="_blank" rel="noopener">Fuente oficial ↗</a> · ${def.local!.sourceId==='F005'?'Seccionado cedido por el Instituto Nacional de Estadística':'CC BY 4.0'} · ${esc(def.local!.period)}`);
+            `<a href="${esc(def.local!.url)}" target="_blank" rel="noopener">Fuente oficial ↗</a> · ${esc(localCredit(def.local!))} · ${esc(def.local!.period)}`);
           return true;
         }
       }catch{ /* The underlying map may still identify another layer. */ }

@@ -13,7 +13,7 @@
       "url": "https://datos.madrid.es/dataset/900012-0-limites-administrativos-mapas/information",
       "coverage": "1 recintos oficiales · 16 de mayo de 2024",
       "period": "16 de mayo de 2024",
-      "license": "CC BY 4.0",
+      "license": "Ayuntamiento de Madrid · CC BY 4.0",
       "mode": "local",
       "notes": "1 recintos oficiales · 16 de mayo de 2024",
       "mapAction": "territory:madrid-municipio",
@@ -23,7 +23,7 @@
       },
       "fields": {
         "Detalle visible": "Desde zoom 8",
-        "Fecha de revisión": "2026-11-13"
+        "Fecha de revisión": "2026-11-14"
       }
     },
     {
@@ -37,7 +37,7 @@
       "url": "https://datos.madrid.es/dataset/900012-0-limites-administrativos-mapas/information",
       "coverage": "131 recintos oficiales · Delimitación de 2021; denominaciones actualizadas en 2022",
       "period": "Delimitación de 2021; denominaciones actualizadas en 2022",
-      "license": "CC BY 4.0",
+      "license": "Ayuntamiento de Madrid · CC BY 4.0",
       "mode": "local",
       "notes": "131 recintos oficiales · Delimitación de 2021; denominaciones actualizadas en 2022",
       "mapAction": "territory:madrid-barrios",
@@ -47,7 +47,7 @@
       },
       "fields": {
         "Detalle visible": "Desde zoom 8",
-        "Fecha de revisión": "2026-11-13"
+        "Fecha de revisión": "2026-11-14"
       }
     },
     {
@@ -61,7 +61,7 @@
       "url": "https://datos.madrid.es/dataset/900012-0-limites-administrativos-mapas/information",
       "coverage": "21 recintos oficiales · Delimitación de 2021",
       "period": "Delimitación de 2021",
-      "license": "CC BY 4.0",
+      "license": "Ayuntamiento de Madrid · CC BY 4.0",
       "mode": "local",
       "notes": "21 recintos oficiales · Delimitación de 2021",
       "mapAction": "territory:madrid-distritos",
@@ -71,7 +71,7 @@
       },
       "fields": {
         "Detalle visible": "Desde zoom 8",
-        "Fecha de revisión": "2026-11-13"
+        "Fecha de revisión": "2026-11-14"
       }
     },
     {
@@ -85,7 +85,7 @@
       "url": "https://datos.madrid.es/dataset/900012-0-limites-administrativos-mapas/information",
       "coverage": "2462 recintos oficiales · Junio de 2022",
       "period": "Junio de 2022",
-      "license": "CC BY 4.0",
+      "license": "Ayuntamiento de Madrid · CC BY 4.0",
       "mode": "local",
       "notes": "2462 recintos oficiales · Junio de 2022",
       "mapAction": "territory:madrid-secciones",
@@ -95,7 +95,7 @@
       },
       "fields": {
         "Detalle visible": "Desde zoom 10",
-        "Fecha de revisión": "2026-11-13"
+        "Fecha de revisión": "2026-11-14"
       }
     },
     {
@@ -109,7 +109,7 @@
       "url": "https://opendata-ajuntament.barcelona.cat/data/dataset/20170706-districtes-barris",
       "coverage": "1 recintos oficiales · Distribución GeoJSON actualizada el 1 de diciembre de 2021",
       "period": "Distribución GeoJSON actualizada el 1 de diciembre de 2021",
-      "license": "CC BY 4.0",
+      "license": "Ayuntamiento de Barcelona · CC BY 4.0",
       "mode": "local",
       "notes": "1 recintos oficiales · Distribución GeoJSON actualizada el 1 de diciembre de 2021",
       "mapAction": "territory:barcelona-municipio",
@@ -119,7 +119,7 @@
       },
       "fields": {
         "Detalle visible": "Desde zoom 8",
-        "Fecha de revisión": "2026-11-13"
+        "Fecha de revisión": "2026-11-14"
       }
     },
     {
@@ -133,7 +133,7 @@
       "url": "https://opendata-ajuntament.barcelona.cat/data/dataset/20170706-districtes-barris",
       "coverage": "10 recintos oficiales · Distribución GeoJSON actualizada el 1 de diciembre de 2021",
       "period": "Distribución GeoJSON actualizada el 1 de diciembre de 2021",
-      "license": "CC BY 4.0",
+      "license": "Ayuntamiento de Barcelona · CC BY 4.0",
       "mode": "local",
       "notes": "10 recintos oficiales · Distribución GeoJSON actualizada el 1 de diciembre de 2021",
       "mapAction": "territory:barcelona-distritos",
@@ -143,7 +143,7 @@
       },
       "fields": {
         "Detalle visible": "Desde zoom 8",
-        "Fecha de revisión": "2026-11-13"
+        "Fecha de revisión": "2026-11-14"
       }
     },
     {
@@ -157,7 +157,7 @@
       "url": "https://opendata-ajuntament.barcelona.cat/data/dataset/20170706-districtes-barris",
       "coverage": "73 recintos oficiales · Distribución GeoJSON actualizada el 1 de diciembre de 2021",
       "period": "Distribución GeoJSON actualizada el 1 de diciembre de 2021",
-      "license": "CC BY 4.0",
+      "license": "Ayuntamiento de Barcelona · CC BY 4.0",
       "mode": "local",
       "notes": "73 recintos oficiales · Distribución GeoJSON actualizada el 1 de diciembre de 2021",
       "mapAction": "territory:barcelona-barrios",
@@ -167,7 +167,7 @@
       },
       "fields": {
         "Detalle visible": "Desde zoom 8",
-        "Fecha de revisión": "2026-11-13"
+        "Fecha de revisión": "2026-11-14"
       }
     },
     {
@@ -181,7 +181,7 @@
       "url": "https://opendata-ajuntament.barcelona.cat/data/dataset/20170706-districtes-barris",
       "coverage": "233 recintos oficiales · Distribución GeoJSON actualizada el 1 de diciembre de 2021",
       "period": "Distribución GeoJSON actualizada el 1 de diciembre de 2021",
-      "license": "CC BY 4.0",
+      "license": "Ayuntamiento de Barcelona · CC BY 4.0",
       "mode": "local",
       "notes": "233 recintos oficiales · Distribución GeoJSON actualizada el 1 de diciembre de 2021",
       "mapAction": "territory:barcelona-areas",
@@ -191,7 +191,7 @@
       },
       "fields": {
         "Detalle visible": "Desde zoom 8",
-        "Fecha de revisión": "2026-11-13"
+        "Fecha de revisión": "2026-11-14"
       }
     },
     {
@@ -205,7 +205,7 @@
       "url": "https://opendata-ajuntament.barcelona.cat/data/dataset/20170706-districtes-barris",
       "coverage": "1068 recintos oficiales · Distribución GeoJSON actualizada el 1 de diciembre de 2021",
       "period": "Distribución GeoJSON actualizada el 1 de diciembre de 2021",
-      "license": "CC BY 4.0",
+      "license": "Ayuntamiento de Barcelona · CC BY 4.0",
       "mode": "local",
       "notes": "1068 recintos oficiales · Distribución GeoJSON actualizada el 1 de diciembre de 2021",
       "mapAction": "territory:barcelona-secciones",
@@ -215,7 +215,7 @@
       },
       "fields": {
         "Detalle visible": "Desde zoom 10",
-        "Fecha de revisión": "2026-11-13"
+        "Fecha de revisión": "2026-11-14"
       }
     },
     {
@@ -229,7 +229,7 @@
       "url": "https://opendata-ajuntament.barcelona.cat/data/dataset/20170706-districtes-barris",
       "coverage": "40 recintos oficiales · Distribución GeoJSON actualizada el 1 de diciembre de 2021",
       "period": "Distribución GeoJSON actualizada el 1 de diciembre de 2021",
-      "license": "CC BY 4.0",
+      "license": "Ayuntamiento de Barcelona · CC BY 4.0",
       "mode": "local",
       "notes": "40 recintos oficiales · Distribución GeoJSON actualizada el 1 de diciembre de 2021",
       "mapAction": "territory:barcelona-grandes-barrios",
@@ -239,7 +239,7 @@
       },
       "fields": {
         "Detalle visible": "Desde zoom 8",
-        "Fecha de revisión": "2026-11-13"
+        "Fecha de revisión": "2026-11-14"
       }
     },
     {
@@ -253,7 +253,7 @@
       "url": "https://opendata-ajuntament.barcelona.cat/data/dataset/20170706-districtes-barris",
       "coverage": "74 recintos oficiales · Distribución GeoJSON actualizada el 1 de diciembre de 2021",
       "period": "Distribución GeoJSON actualizada el 1 de diciembre de 2021",
-      "license": "CC BY 4.0",
+      "license": "Ayuntamiento de Barcelona · CC BY 4.0",
       "mode": "local",
       "notes": "74 recintos oficiales · Distribución GeoJSON actualizada el 1 de diciembre de 2021",
       "mapAction": "territory:barcelona-urban-audit",
@@ -263,7 +263,7 @@
       },
       "fields": {
         "Detalle visible": "Desde zoom 8",
-        "Fecha de revisión": "2026-11-13"
+        "Fecha de revisión": "2026-11-14"
       }
     },
     {
@@ -277,7 +277,7 @@
       "url": "https://opendata-ajuntament.barcelona.cat/data/dataset/20170706-districtes-barris",
       "coverage": "2 recintos oficiales · Distribución GeoJSON actualizada el 1 de diciembre de 2021",
       "period": "Distribución GeoJSON actualizada el 1 de diciembre de 2021",
-      "license": "CC BY 4.0",
+      "license": "Ayuntamiento de Barcelona · CC BY 4.0",
       "mode": "local",
       "notes": "2 recintos oficiales · Distribución GeoJSON actualizada el 1 de diciembre de 2021",
       "mapAction": "territory:barcelona-interes",
@@ -287,7 +287,199 @@
       },
       "fields": {
         "Detalle visible": "Desde zoom 8",
-        "Fecha de revisión": "2026-11-13"
+        "Fecha de revisión": "2026-11-14"
+      }
+    },
+    {
+      "id": "territory:valencia-barrios",
+      "title": "Barrios · València",
+      "sourceId": "F172",
+      "categoryIds": [
+        "F01"
+      ],
+      "status": "integrado",
+      "url": "https://datos.gob.es/es/catalogo/l01462508-barrios",
+      "coverage": "València",
+      "period": "Catálogo de marzo de 2026",
+      "license": "Ayuntamiento de València · Condiciones del organismo publicador",
+      "mode": "local",
+      "notes": "88 recintos oficiales · Catálogo de marzo de 2026",
+      "mapAction": "territory:valencia-barrios",
+      "dataFile": "territory/local/valencia-barrios.geojson",
+      "links": {
+        "Descarga original": "https://geoportal.valencia.es/server/rest/services/OPENDATA/UrbanismoEInfraestructuras/MapServer/224/query?where=1%3D1&outFields=%2A&f=geojson"
+      },
+      "fields": {
+        "Detalle visible": "Desde zoom 8",
+        "Fecha de revisión": "2026-11-14"
+      }
+    },
+    {
+      "id": "territory:valencia-distritos",
+      "title": "Distritos · València",
+      "sourceId": "F172",
+      "categoryIds": [
+        "F01"
+      ],
+      "status": "integrado",
+      "url": "https://datos.gob.es/es/catalogo/l01462508-distritos",
+      "coverage": "València",
+      "period": "Catálogo de marzo de 2026",
+      "license": "Ayuntamiento de València · Condiciones del organismo publicador",
+      "mode": "local",
+      "notes": "22 recintos oficiales · Catálogo de marzo de 2026",
+      "mapAction": "territory:valencia-distritos",
+      "dataFile": "territory/local/valencia-distritos.geojson",
+      "links": {
+        "Descarga original": "https://geoportal.valencia.es/server/rest/services/OPENDATA/UrbanismoEInfraestructuras/MapServer/225/query?where=1%3D1&outFields=%2A&f=geojson"
+      },
+      "fields": {
+        "Detalle visible": "Desde zoom 8",
+        "Fecha de revisión": "2026-11-14"
+      }
+    },
+    {
+      "id": "territory:malaga-barrios",
+      "title": "Barrios · Málaga",
+      "sourceId": "F174",
+      "categoryIds": [
+        "F01"
+      ],
+      "status": "integrado",
+      "url": "https://datosabiertos.malaga.eu/dataset/sistema-de-informacion-cartografica-barrio",
+      "coverage": "Málaga",
+      "period": "Captura del 14/11/2026",
+      "license": "Ayuntamiento de Málaga · Condiciones del organismo publicador",
+      "mode": "local",
+      "notes": "419 recintos oficiales · Captura del 14/11/2026",
+      "mapAction": "territory:malaga-barrios",
+      "dataFile": "territory/local/malaga-barrios.geojson",
+      "links": {
+        "Descarga original": "https://datosabiertos.malaga.eu/recursos/urbanismoEInfraestructura/planimetria/callejero/da_cartografiaBarrio-4326.geojson"
+      },
+      "fields": {
+        "Detalle visible": "Desde zoom 8",
+        "Fecha de revisión": "2026-11-14"
+      }
+    },
+    {
+      "id": "territory:malaga-distritos",
+      "title": "Distritos · Málaga",
+      "sourceId": "F174",
+      "categoryIds": [
+        "F01"
+      ],
+      "status": "integrado",
+      "url": "https://datosabiertos.malaga.eu/dataset/sistema-de-informacion-cartografica-distrito-municipal",
+      "coverage": "Málaga",
+      "period": "Captura del 14/11/2026",
+      "license": "Ayuntamiento de Málaga · Condiciones del organismo publicador",
+      "mode": "local",
+      "notes": "11 recintos oficiales · Captura del 14/11/2026",
+      "mapAction": "territory:malaga-distritos",
+      "dataFile": "territory/local/malaga-distritos.geojson",
+      "links": {
+        "Descarga original": "https://datosabiertos.malaga.eu/recursos/urbanismoEInfraestructura/planimetria/callejero/da_cartografiaDistritoMunicipal-4326.geojson"
+      },
+      "fields": {
+        "Detalle visible": "Desde zoom 8",
+        "Fecha de revisión": "2026-11-14"
+      }
+    },
+    {
+      "id": "territory:zaragoza-distritos",
+      "title": "Distritos municipales · Zaragoza",
+      "sourceId": "F173",
+      "categoryIds": [
+        "F01"
+      ],
+      "status": "integrado",
+      "url": "https://www.zaragoza.es/web/espacio-de-datos/servicio/catalogo/3962",
+      "coverage": "Zaragoza",
+      "period": "Captura del 14/11/2026",
+      "license": "Ayuntamiento de Zaragoza · Condiciones del organismo publicador",
+      "mode": "local",
+      "notes": "16 recintos oficiales · Captura del 14/11/2026",
+      "mapAction": "territory:zaragoza-distritos",
+      "dataFile": "territory/local/zaragoza-distritos.geojson",
+      "links": {
+        "Descarga original": "https://idezar-sig.zaragoza.es/servicios/geoserver/urbanismo/wfs?REQUEST=GetFeature&SERVICE=WFS&VERSION=2.0.0&outputFormat=application%2Fjson&typeName=urbanismo%3ADistritos_Municipales&srsName=EPSG%3A4326"
+      },
+      "fields": {
+        "Detalle visible": "Desde zoom 8",
+        "Fecha de revisión": "2026-11-14"
+      }
+    },
+    {
+      "id": "territory:zaragoza-juntas",
+      "title": "Juntas municipales y vecinales · Zaragoza",
+      "sourceId": "F173",
+      "categoryIds": [
+        "F01"
+      ],
+      "status": "integrado",
+      "url": "https://www.zaragoza.es/web/espacio-de-datos/servicio/catalogo/3964",
+      "coverage": "Zaragoza",
+      "period": "Captura del 14/11/2026",
+      "license": "Ayuntamiento de Zaragoza · Condiciones del organismo publicador",
+      "mode": "local",
+      "notes": "29 recintos oficiales · Captura del 14/11/2026",
+      "mapAction": "territory:zaragoza-juntas",
+      "dataFile": "territory/local/zaragoza-juntas.geojson",
+      "links": {
+        "Descarga original": "https://idezar-sig.zaragoza.es/servicios/geoserver/urbanismo/wfs?REQUEST=GetFeature&SERVICE=WFS&VERSION=2.0.0&outputFormat=application%2Fjson&typeName=urbanismo%3AJuntas_Municipales_Vecinales&srsName=EPSG%3A4326"
+      },
+      "fields": {
+        "Detalle visible": "Desde zoom 8",
+        "Fecha de revisión": "2026-11-14"
+      }
+    },
+    {
+      "id": "territory:zaragoza-unidades",
+      "title": "Unidades administrativas INSPIRE · Zaragoza",
+      "sourceId": "F173",
+      "categoryIds": [
+        "F01"
+      ],
+      "status": "integrado",
+      "url": "https://www.zaragoza.es/web/espacio-de-datos/servicio/catalogo/6042",
+      "coverage": "Zaragoza",
+      "period": "12 de junio de 2026",
+      "license": "Ayuntamiento de Zaragoza · Condiciones del organismo publicador",
+      "mode": "local",
+      "notes": "46 recintos oficiales · 12 de junio de 2026",
+      "mapAction": "territory:zaragoza-unidades",
+      "dataFile": "territory/local/zaragoza-unidades.geojson",
+      "links": {
+        "Descarga original": "https://idezar-sig.zaragoza.es/servicios/geoserver/au/wfs?REQUEST=GetFeature&SERVICE=WFS&VERSION=2.0.0&outputFormat=application%2Fjson&typeName=au%3AAdministrativeUnit&srsName=EPSG%3A4326"
+      },
+      "fields": {
+        "Detalle visible": "Desde zoom 8",
+        "Fecha de revisión": "2026-11-14"
+      }
+    },
+    {
+      "id": "territory:asturias-parroquias",
+      "title": "Parroquias y recintos sin parroquia · Asturias",
+      "sourceId": "F153",
+      "categoryIds": [
+        "F01"
+      ],
+      "status": "integrado",
+      "url": "https://sig.asturias.es/servicios/rest/services/Visor/CartografiaBase/MapServer/18",
+      "coverage": "Asturias",
+      "period": "Captura del 14/11/2026",
+      "license": "Administración del Principado de Asturias · CC BY 4.0",
+      "mode": "local",
+      "notes": "859 recintos oficiales · Captura del 14/11/2026",
+      "mapAction": "territory:asturias-parroquias",
+      "dataFile": "territory/local/asturias-parroquias.geojson",
+      "links": {
+        "Descarga original": "https://sig.asturias.es/servicios/rest/services/Visor/CartografiaBase/MapServer/18/query?where=1%3D1&outFields=%2A&outSR=4326&f=geojson"
+      },
+      "fields": {
+        "Detalle visible": "Desde zoom 8",
+        "Fecha de revisión": "2026-11-14"
       }
     },
     {
@@ -299,11 +491,11 @@
       ],
       "status": "integrado",
       "url": "https://www.ine.es/dyngs/DAB/es/index.htm?cid=1389",
-      "coverage": "35776 recintos oficiales · 2003",
+      "coverage": "35.776 recintos oficiales · 2003",
       "period": "2003",
       "license": "Seccionado cedido por el Instituto Nacional de Estadística",
       "mode": "local",
-      "notes": "35776 recintos oficiales · 2003",
+      "notes": "35.776 recintos oficiales · 2003",
       "mapAction": "territory:archive-sections-2003",
       "dataFile": "territory/local/secciones-2003.geojson.gz",
       "links": {
@@ -311,7 +503,7 @@
       },
       "fields": {
         "Detalle visible": "Desde zoom 10",
-        "Fecha de revisión": "2026-11-13"
+        "Fecha de revisión": "2026-11-14"
       }
     },
     {
@@ -323,11 +515,11 @@
       ],
       "status": "integrado",
       "url": "https://www.ine.es/dyngs/DAB/es/index.htm?cid=1389",
-      "coverage": "35957 recintos oficiales · 2004",
+      "coverage": "35.957 recintos oficiales · 2004",
       "period": "2004",
       "license": "Seccionado cedido por el Instituto Nacional de Estadística",
       "mode": "local",
-      "notes": "35957 recintos oficiales · 2004",
+      "notes": "35.957 recintos oficiales · 2004",
       "mapAction": "territory:archive-sections-2004",
       "dataFile": "territory/local/secciones-2004.geojson.gz",
       "links": {
@@ -335,7 +527,7 @@
       },
       "fields": {
         "Detalle visible": "Desde zoom 10",
-        "Fecha de revisión": "2026-11-13"
+        "Fecha de revisión": "2026-11-14"
       }
     },
     {
@@ -347,11 +539,11 @@
       ],
       "status": "integrado",
       "url": "https://www.ine.es/dyngs/DAB/es/index.htm?cid=1389",
-      "coverage": "36117 recintos oficiales · 2005",
+      "coverage": "36.117 recintos oficiales · 2005",
       "period": "2005",
       "license": "Seccionado cedido por el Instituto Nacional de Estadística",
       "mode": "local",
-      "notes": "36117 recintos oficiales · 2005",
+      "notes": "36.117 recintos oficiales · 2005",
       "mapAction": "territory:archive-sections-2005",
       "dataFile": "territory/local/secciones-2005.geojson.gz",
       "links": {
@@ -359,7 +551,7 @@
       },
       "fields": {
         "Detalle visible": "Desde zoom 10",
-        "Fecha de revisión": "2026-11-13"
+        "Fecha de revisión": "2026-11-14"
       }
     },
     {
@@ -371,11 +563,11 @@
       ],
       "status": "integrado",
       "url": "https://www.ine.es/dyngs/DAB/es/index.htm?cid=1389",
-      "coverage": "36596 recintos oficiales · 2006",
+      "coverage": "36.596 recintos oficiales · 2006",
       "period": "2006",
       "license": "Seccionado cedido por el Instituto Nacional de Estadística",
       "mode": "local",
-      "notes": "36596 recintos oficiales · 2006",
+      "notes": "36.596 recintos oficiales · 2006",
       "mapAction": "territory:archive-sections-2006",
       "dataFile": "territory/local/secciones-2006.geojson.gz",
       "links": {
@@ -383,7 +575,735 @@
       },
       "fields": {
         "Detalle visible": "Desde zoom 10",
-        "Fecha de revisión": "2026-11-13"
+        "Fecha de revisión": "2026-11-14"
+      }
+    },
+    {
+      "id": "territory:cnig-2023-ll-municipales-histo-peninbal",
+      "title": "Trazados históricos municipales · Península, Baleares y plazas españolas · 2023",
+      "sourceId": "F006",
+      "categoryIds": [
+        "F01"
+      ],
+      "status": "integrado",
+      "url": "https://centrodedescargas.cnig.es/CentroDescargas/detalleArchivo?sec=12969663",
+      "coverage": "Península, Baleares y plazas españolas",
+      "period": "2023-01-01",
+      "license": "Obra derivada de BDLJE CC-BY 4.0 ign.es",
+      "mode": "local",
+      "notes": "11.510 trazados oficiales · 2023-01-01",
+      "mapAction": "territory:cnig-2023-ll-municipales-histo-peninbal",
+      "dataFile": "territory/local/cnig-2023-ll-municipales-histo-peninbal.geojson.gz",
+      "links": {
+        "Descarga original": "https://centrodedescargas.cnig.es/CentroDescargas/detalleArchivo?sec=12969663"
+      },
+      "fields": {
+        "Detalle visible": "Desde zoom 8",
+        "Fecha de revisión": "2026-11-14",
+        "Tabla GeoPackage": "ll_municipales_histo_inspire_peninbal_etrs89",
+        "Registros": "11510"
+      }
+    },
+    {
+      "id": "territory:cnig-2023-ll-municipales-histo-canarias",
+      "title": "Trazados históricos municipales · Canarias · 2023",
+      "sourceId": "F006",
+      "categoryIds": [
+        "F01"
+      ],
+      "status": "integrado",
+      "url": "https://centrodedescargas.cnig.es/CentroDescargas/detalleArchivo?sec=12969663",
+      "coverage": "Canarias",
+      "period": "2023-01-01",
+      "license": "Obra derivada de BDLJE CC-BY 4.0 ign.es",
+      "mode": "local",
+      "notes": "1050 trazados oficiales · 2023-01-01",
+      "mapAction": "territory:cnig-2023-ll-municipales-histo-canarias",
+      "dataFile": "territory/local/cnig-2023-ll-municipales-histo-canarias.geojson.gz",
+      "links": {
+        "Descarga original": "https://centrodedescargas.cnig.es/CentroDescargas/detalleArchivo?sec=12969663"
+      },
+      "fields": {
+        "Detalle visible": "Desde zoom 8",
+        "Fecha de revisión": "2026-11-14",
+        "Tabla GeoPackage": "ll_municipales_histo_inspire_canarias_wgs84",
+        "Registros": "1050"
+      }
+    },
+    {
+      "id": "territory:cnig-2023-ll-municipales-peninbal",
+      "title": "Líneas municipales · Península, Baleares y plazas españolas · 2023",
+      "sourceId": "F006",
+      "categoryIds": [
+        "F01"
+      ],
+      "status": "integrado",
+      "url": "https://centrodedescargas.cnig.es/CentroDescargas/detalleArchivo?sec=12969663",
+      "coverage": "Península, Baleares y plazas españolas",
+      "period": "2023-01-01",
+      "license": "Obra derivada de BDLJE CC-BY 4.0 ign.es",
+      "mode": "local",
+      "notes": "30.874 trazados oficiales · 2023-01-01",
+      "mapAction": "territory:cnig-2023-ll-municipales-peninbal",
+      "dataFile": "territory/local/cnig-2023-ll-municipales-peninbal.geojson.gz",
+      "links": {
+        "Descarga original": "https://centrodedescargas.cnig.es/CentroDescargas/detalleArchivo?sec=12969663"
+      },
+      "fields": {
+        "Detalle visible": "Desde zoom 7",
+        "Fecha de revisión": "2026-11-14",
+        "Tabla GeoPackage": "ll_municipales_inspire_peninbal_etrs89",
+        "Registros": "30874"
+      }
+    },
+    {
+      "id": "territory:cnig-2023-ll-municipales-canarias",
+      "title": "Líneas municipales · Canarias · 2023",
+      "sourceId": "F006",
+      "categoryIds": [
+        "F01"
+      ],
+      "status": "integrado",
+      "url": "https://centrodedescargas.cnig.es/CentroDescargas/detalleArchivo?sec=12969663",
+      "coverage": "Canarias",
+      "period": "2023-01-01",
+      "license": "Obra derivada de BDLJE CC-BY 4.0 ign.es",
+      "mode": "local",
+      "notes": "1340 trazados oficiales · 2023-01-01",
+      "mapAction": "territory:cnig-2023-ll-municipales-canarias",
+      "dataFile": "territory/local/cnig-2023-ll-municipales-canarias.geojson.gz",
+      "links": {
+        "Descarga original": "https://centrodedescargas.cnig.es/CentroDescargas/detalleArchivo?sec=12969663"
+      },
+      "fields": {
+        "Detalle visible": "Desde zoom 7",
+        "Fecha de revisión": "2026-11-14",
+        "Tabla GeoPackage": "ll_municipales_inspire_canarias_wgs84",
+        "Registros": "1340"
+      }
+    },
+    {
+      "id": "territory:cnig-2023-ll-provinciales-peninbal",
+      "title": "Líneas provinciales · Península, Baleares y plazas españolas · 2023",
+      "sourceId": "F006",
+      "categoryIds": [
+        "F01"
+      ],
+      "status": "integrado",
+      "url": "https://centrodedescargas.cnig.es/CentroDescargas/detalleArchivo?sec=12969663",
+      "coverage": "Península, Baleares y plazas españolas",
+      "period": "2023-01-01",
+      "license": "Obra derivada de BDLJE CC-BY 4.0 ign.es",
+      "mode": "local",
+      "notes": "4263 trazados oficiales · 2023-01-01",
+      "mapAction": "territory:cnig-2023-ll-provinciales-peninbal",
+      "dataFile": "territory/local/cnig-2023-ll-provinciales-peninbal.geojson.gz",
+      "links": {
+        "Descarga original": "https://centrodedescargas.cnig.es/CentroDescargas/detalleArchivo?sec=12969663"
+      },
+      "fields": {
+        "Detalle visible": "Desde zoom 5",
+        "Fecha de revisión": "2026-11-14",
+        "Tabla GeoPackage": "ll_provinciales_inspire_peninbal_etrs89",
+        "Registros": "4263"
+      }
+    },
+    {
+      "id": "territory:cnig-2023-ll-provinciales-canarias",
+      "title": "Líneas provinciales · Canarias · 2023",
+      "sourceId": "F006",
+      "categoryIds": [
+        "F01"
+      ],
+      "status": "integrado",
+      "url": "https://centrodedescargas.cnig.es/CentroDescargas/detalleArchivo?sec=12969663",
+      "coverage": "Canarias",
+      "period": "2023-01-01",
+      "license": "Obra derivada de BDLJE CC-BY 4.0 ign.es",
+      "mode": "local",
+      "notes": "1074 trazados oficiales · 2023-01-01",
+      "mapAction": "territory:cnig-2023-ll-provinciales-canarias",
+      "dataFile": "territory/local/cnig-2023-ll-provinciales-canarias.geojson.gz",
+      "links": {
+        "Descarga original": "https://centrodedescargas.cnig.es/CentroDescargas/detalleArchivo?sec=12969663"
+      },
+      "fields": {
+        "Detalle visible": "Desde zoom 5",
+        "Fecha de revisión": "2026-11-14",
+        "Tabla GeoPackage": "ll_provinciales_inspire_canarias_wgs84",
+        "Registros": "1074"
+      }
+    },
+    {
+      "id": "territory:cnig-2023-ll-autonomicas-peninbal",
+      "title": "Líneas autonómicas · Península, Baleares y plazas españolas · 2023",
+      "sourceId": "F006",
+      "categoryIds": [
+        "F01"
+      ],
+      "status": "integrado",
+      "url": "https://centrodedescargas.cnig.es/CentroDescargas/detalleArchivo?sec=12969663",
+      "coverage": "Península, Baleares y plazas españolas",
+      "period": "2023-01-01",
+      "license": "Obra derivada de BDLJE CC-BY 4.0 ign.es",
+      "mode": "local",
+      "notes": "4144 trazados oficiales · 2023-01-01",
+      "mapAction": "territory:cnig-2023-ll-autonomicas-peninbal",
+      "dataFile": "territory/local/cnig-2023-ll-autonomicas-peninbal.geojson.gz",
+      "links": {
+        "Descarga original": "https://centrodedescargas.cnig.es/CentroDescargas/detalleArchivo?sec=12969663"
+      },
+      "fields": {
+        "Detalle visible": "Desde zoom 4",
+        "Fecha de revisión": "2026-11-14",
+        "Tabla GeoPackage": "ll_autonomicas_inspire_peninbal_etrs89",
+        "Registros": "4144"
+      }
+    },
+    {
+      "id": "territory:cnig-2023-ll-autonomicas-canarias",
+      "title": "Líneas autonómicas · Canarias · 2023",
+      "sourceId": "F006",
+      "categoryIds": [
+        "F01"
+      ],
+      "status": "integrado",
+      "url": "https://centrodedescargas.cnig.es/CentroDescargas/detalleArchivo?sec=12969663",
+      "coverage": "Canarias",
+      "period": "2023-01-01",
+      "license": "Obra derivada de BDLJE CC-BY 4.0 ign.es",
+      "mode": "local",
+      "notes": "1074 trazados oficiales · 2023-01-01",
+      "mapAction": "territory:cnig-2023-ll-autonomicas-canarias",
+      "dataFile": "territory/local/cnig-2023-ll-autonomicas-canarias.geojson.gz",
+      "links": {
+        "Descarga original": "https://centrodedescargas.cnig.es/CentroDescargas/detalleArchivo?sec=12969663"
+      },
+      "fields": {
+        "Detalle visible": "Desde zoom 4",
+        "Fecha de revisión": "2026-11-14",
+        "Tabla GeoPackage": "ll_autonomicas_inspire_canarias_wgs84",
+        "Registros": "1074"
+      }
+    },
+    {
+      "id": "territory:cnig-2023-recintos-municipales-peninbal",
+      "title": "Recintos municipales · Península, Baleares y plazas españolas · 2023",
+      "sourceId": "F006",
+      "categoryIds": [
+        "F01"
+      ],
+      "status": "integrado",
+      "url": "https://centrodedescargas.cnig.es/CentroDescargas/detalleArchivo?sec=12969663",
+      "coverage": "Península, Baleares y plazas españolas",
+      "period": "2023-01-01",
+      "license": "Obra derivada de BDLJE CC-BY 4.0 ign.es",
+      "mode": "local",
+      "notes": "8136 recintos oficiales · 2023-01-01",
+      "mapAction": "territory:cnig-2023-recintos-municipales-peninbal",
+      "dataFile": "territory/local/cnig-2023-recintos-municipales-peninbal.geojson.gz",
+      "links": {
+        "Descarga original": "https://centrodedescargas.cnig.es/CentroDescargas/detalleArchivo?sec=12969663"
+      },
+      "fields": {
+        "Detalle visible": "Desde zoom 7",
+        "Fecha de revisión": "2026-11-14",
+        "Tabla GeoPackage": "recintos_municipales_inspire_peninbal_etrs89",
+        "Registros": "8136"
+      }
+    },
+    {
+      "id": "territory:cnig-2023-recintos-municipales-canarias",
+      "title": "Recintos municipales · Canarias · 2023",
+      "sourceId": "F006",
+      "categoryIds": [
+        "F01"
+      ],
+      "status": "integrado",
+      "url": "https://centrodedescargas.cnig.es/CentroDescargas/detalleArchivo?sec=12969663",
+      "coverage": "Canarias",
+      "period": "2023-01-01",
+      "license": "Obra derivada de BDLJE CC-BY 4.0 ign.es",
+      "mode": "local",
+      "notes": "88 recintos oficiales · 2023-01-01",
+      "mapAction": "territory:cnig-2023-recintos-municipales-canarias",
+      "dataFile": "territory/local/cnig-2023-recintos-municipales-canarias.geojson.gz",
+      "links": {
+        "Descarga original": "https://centrodedescargas.cnig.es/CentroDescargas/detalleArchivo?sec=12969663"
+      },
+      "fields": {
+        "Detalle visible": "Desde zoom 7",
+        "Fecha de revisión": "2026-11-14",
+        "Tabla GeoPackage": "recintos_municipales_inspire_canarias_wgs84",
+        "Registros": "88"
+      }
+    },
+    {
+      "id": "territory:cnig-2023-recintos-provinciales-peninbal",
+      "title": "Recintos provinciales · Península, Baleares y plazas españolas · 2023",
+      "sourceId": "F006",
+      "categoryIds": [
+        "F01"
+      ],
+      "status": "integrado",
+      "url": "https://centrodedescargas.cnig.es/CentroDescargas/detalleArchivo?sec=12969663",
+      "coverage": "Península, Baleares y plazas españolas",
+      "period": "2023-01-01",
+      "license": "Obra derivada de BDLJE CC-BY 4.0 ign.es",
+      "mode": "local",
+      "notes": "51 recintos oficiales · 2023-01-01",
+      "mapAction": "territory:cnig-2023-recintos-provinciales-peninbal",
+      "dataFile": "territory/local/cnig-2023-recintos-provinciales-peninbal.geojson.gz",
+      "links": {
+        "Descarga original": "https://centrodedescargas.cnig.es/CentroDescargas/detalleArchivo?sec=12969663"
+      },
+      "fields": {
+        "Detalle visible": "Desde zoom 5",
+        "Fecha de revisión": "2026-11-14",
+        "Tabla GeoPackage": "recintos_provinciales_inspire_peninbal_etrs89",
+        "Registros": "51"
+      }
+    },
+    {
+      "id": "territory:cnig-2023-recintos-provinciales-canarias",
+      "title": "Recintos provinciales · Canarias · 2023",
+      "sourceId": "F006",
+      "categoryIds": [
+        "F01"
+      ],
+      "status": "integrado",
+      "url": "https://centrodedescargas.cnig.es/CentroDescargas/detalleArchivo?sec=12969663",
+      "coverage": "Canarias",
+      "period": "2023-01-01",
+      "license": "Obra derivada de BDLJE CC-BY 4.0 ign.es",
+      "mode": "local",
+      "notes": "2 recintos oficiales · 2023-01-01",
+      "mapAction": "territory:cnig-2023-recintos-provinciales-canarias",
+      "dataFile": "territory/local/cnig-2023-recintos-provinciales-canarias.geojson.gz",
+      "links": {
+        "Descarga original": "https://centrodedescargas.cnig.es/CentroDescargas/detalleArchivo?sec=12969663"
+      },
+      "fields": {
+        "Detalle visible": "Desde zoom 5",
+        "Fecha de revisión": "2026-11-14",
+        "Tabla GeoPackage": "recintos_provinciales_inspire_canarias_wgs84",
+        "Registros": "2"
+      }
+    },
+    {
+      "id": "territory:cnig-2023-recintos-autonomicas-peninbal",
+      "title": "Recintos autonómicos · Península, Baleares y plazas españolas · 2023",
+      "sourceId": "F006",
+      "categoryIds": [
+        "F01"
+      ],
+      "status": "integrado",
+      "url": "https://centrodedescargas.cnig.es/CentroDescargas/detalleArchivo?sec=12969663",
+      "coverage": "Península, Baleares y plazas españolas",
+      "period": "2023-01-01",
+      "license": "Obra derivada de BDLJE CC-BY 4.0 ign.es",
+      "mode": "local",
+      "notes": "19 recintos oficiales · 2023-01-01",
+      "mapAction": "territory:cnig-2023-recintos-autonomicas-peninbal",
+      "dataFile": "territory/local/cnig-2023-recintos-autonomicas-peninbal.geojson.gz",
+      "links": {
+        "Descarga original": "https://centrodedescargas.cnig.es/CentroDescargas/detalleArchivo?sec=12969663"
+      },
+      "fields": {
+        "Detalle visible": "Desde zoom 4",
+        "Fecha de revisión": "2026-11-14",
+        "Tabla GeoPackage": "recintos_autonomicas_inspire_peninbal_etrs89",
+        "Registros": "19"
+      }
+    },
+    {
+      "id": "territory:cnig-2023-recintos-autonomicas-canarias",
+      "title": "Recintos autonómicos · Canarias · 2023",
+      "sourceId": "F006",
+      "categoryIds": [
+        "F01"
+      ],
+      "status": "integrado",
+      "url": "https://centrodedescargas.cnig.es/CentroDescargas/detalleArchivo?sec=12969663",
+      "coverage": "Canarias",
+      "period": "2023-01-01",
+      "license": "Obra derivada de BDLJE CC-BY 4.0 ign.es",
+      "mode": "local",
+      "notes": "1 recintos oficiales · 2023-01-01",
+      "mapAction": "territory:cnig-2023-recintos-autonomicas-canarias",
+      "dataFile": "territory/local/cnig-2023-recintos-autonomicas-canarias.geojson.gz",
+      "links": {
+        "Descarga original": "https://centrodedescargas.cnig.es/CentroDescargas/detalleArchivo?sec=12969663"
+      },
+      "fields": {
+        "Detalle visible": "Desde zoom 4",
+        "Fecha de revisión": "2026-11-14",
+        "Tabla GeoPackage": "recintos_autonomicas_inspire_canarias_wgs84",
+        "Registros": "1"
+      }
+    },
+    {
+      "id": "territory:cnig-2024-ll-municipales-histo-peninbal",
+      "title": "Trazados históricos municipales · Península, Baleares y plazas españolas · 2024",
+      "sourceId": "F006",
+      "categoryIds": [
+        "F01"
+      ],
+      "status": "integrado",
+      "url": "https://centrodedescargas.cnig.es/CentroDescargas/detalleArchivo?sec=12969664",
+      "coverage": "Península, Baleares y plazas españolas",
+      "period": "2024-01-01",
+      "license": "Obra derivada de BDLJE CC-BY 4.0 ign.es",
+      "mode": "local",
+      "notes": "12.486 trazados oficiales · 2024-01-01",
+      "mapAction": "territory:cnig-2024-ll-municipales-histo-peninbal",
+      "dataFile": "territory/local/cnig-2024-ll-municipales-histo-peninbal.geojson.gz",
+      "links": {
+        "Descarga original": "https://centrodedescargas.cnig.es/CentroDescargas/detalleArchivo?sec=12969664"
+      },
+      "fields": {
+        "Detalle visible": "Desde zoom 8",
+        "Fecha de revisión": "2026-11-14",
+        "Tabla GeoPackage": "ll_municipales_histo_inspire_peninbal_etrs89",
+        "Registros": "12486"
+      }
+    },
+    {
+      "id": "territory:cnig-2024-ll-municipales-histo-canarias",
+      "title": "Trazados históricos municipales · Canarias · 2024",
+      "sourceId": "F006",
+      "categoryIds": [
+        "F01"
+      ],
+      "status": "integrado",
+      "url": "https://centrodedescargas.cnig.es/CentroDescargas/detalleArchivo?sec=12969664",
+      "coverage": "Canarias",
+      "period": "2024-01-01",
+      "license": "Obra derivada de BDLJE CC-BY 4.0 ign.es",
+      "mode": "local",
+      "notes": "1050 trazados oficiales · 2024-01-01",
+      "mapAction": "territory:cnig-2024-ll-municipales-histo-canarias",
+      "dataFile": "territory/local/cnig-2024-ll-municipales-histo-canarias.geojson.gz",
+      "links": {
+        "Descarga original": "https://centrodedescargas.cnig.es/CentroDescargas/detalleArchivo?sec=12969664"
+      },
+      "fields": {
+        "Detalle visible": "Desde zoom 8",
+        "Fecha de revisión": "2026-11-14",
+        "Tabla GeoPackage": "ll_municipales_histo_inspire_canarias_wgs84",
+        "Registros": "1050"
+      }
+    },
+    {
+      "id": "territory:cnig-2024-ll-municipales-peninbal",
+      "title": "Líneas municipales · Península, Baleares y plazas españolas · 2024",
+      "sourceId": "F006",
+      "categoryIds": [
+        "F01"
+      ],
+      "status": "integrado",
+      "url": "https://centrodedescargas.cnig.es/CentroDescargas/detalleArchivo?sec=12969664",
+      "coverage": "Península, Baleares y plazas españolas",
+      "period": "2024-01-01",
+      "license": "Obra derivada de BDLJE CC-BY 4.0 ign.es",
+      "mode": "local",
+      "notes": "30.923 trazados oficiales · 2024-01-01",
+      "mapAction": "territory:cnig-2024-ll-municipales-peninbal",
+      "dataFile": "territory/local/cnig-2024-ll-municipales-peninbal.geojson.gz",
+      "links": {
+        "Descarga original": "https://centrodedescargas.cnig.es/CentroDescargas/detalleArchivo?sec=12969664"
+      },
+      "fields": {
+        "Detalle visible": "Desde zoom 7",
+        "Fecha de revisión": "2026-11-14",
+        "Tabla GeoPackage": "ll_municipales_inspire_peninbal_etrs89",
+        "Registros": "30923"
+      }
+    },
+    {
+      "id": "territory:cnig-2024-ll-municipales-canarias",
+      "title": "Líneas municipales · Canarias · 2024",
+      "sourceId": "F006",
+      "categoryIds": [
+        "F01"
+      ],
+      "status": "integrado",
+      "url": "https://centrodedescargas.cnig.es/CentroDescargas/detalleArchivo?sec=12969664",
+      "coverage": "Canarias",
+      "period": "2024-01-01",
+      "license": "Obra derivada de BDLJE CC-BY 4.0 ign.es",
+      "mode": "local",
+      "notes": "1340 trazados oficiales · 2024-01-01",
+      "mapAction": "territory:cnig-2024-ll-municipales-canarias",
+      "dataFile": "territory/local/cnig-2024-ll-municipales-canarias.geojson.gz",
+      "links": {
+        "Descarga original": "https://centrodedescargas.cnig.es/CentroDescargas/detalleArchivo?sec=12969664"
+      },
+      "fields": {
+        "Detalle visible": "Desde zoom 7",
+        "Fecha de revisión": "2026-11-14",
+        "Tabla GeoPackage": "ll_municipales_inspire_canarias_wgs84",
+        "Registros": "1340"
+      }
+    },
+    {
+      "id": "territory:cnig-2024-ll-provinciales-peninbal",
+      "title": "Líneas provinciales · Península, Baleares y plazas españolas · 2024",
+      "sourceId": "F006",
+      "categoryIds": [
+        "F01"
+      ],
+      "status": "integrado",
+      "url": "https://centrodedescargas.cnig.es/CentroDescargas/detalleArchivo?sec=12969664",
+      "coverage": "Península, Baleares y plazas españolas",
+      "period": "2024-01-01",
+      "license": "Obra derivada de BDLJE CC-BY 4.0 ign.es",
+      "mode": "local",
+      "notes": "4263 trazados oficiales · 2024-01-01",
+      "mapAction": "territory:cnig-2024-ll-provinciales-peninbal",
+      "dataFile": "territory/local/cnig-2024-ll-provinciales-peninbal.geojson.gz",
+      "links": {
+        "Descarga original": "https://centrodedescargas.cnig.es/CentroDescargas/detalleArchivo?sec=12969664"
+      },
+      "fields": {
+        "Detalle visible": "Desde zoom 5",
+        "Fecha de revisión": "2026-11-14",
+        "Tabla GeoPackage": "ll_provinciales_inspire_peninbal_etrs89",
+        "Registros": "4263"
+      }
+    },
+    {
+      "id": "territory:cnig-2024-ll-provinciales-canarias",
+      "title": "Líneas provinciales · Canarias · 2024",
+      "sourceId": "F006",
+      "categoryIds": [
+        "F01"
+      ],
+      "status": "integrado",
+      "url": "https://centrodedescargas.cnig.es/CentroDescargas/detalleArchivo?sec=12969664",
+      "coverage": "Canarias",
+      "period": "2024-01-01",
+      "license": "Obra derivada de BDLJE CC-BY 4.0 ign.es",
+      "mode": "local",
+      "notes": "1074 trazados oficiales · 2024-01-01",
+      "mapAction": "territory:cnig-2024-ll-provinciales-canarias",
+      "dataFile": "territory/local/cnig-2024-ll-provinciales-canarias.geojson.gz",
+      "links": {
+        "Descarga original": "https://centrodedescargas.cnig.es/CentroDescargas/detalleArchivo?sec=12969664"
+      },
+      "fields": {
+        "Detalle visible": "Desde zoom 5",
+        "Fecha de revisión": "2026-11-14",
+        "Tabla GeoPackage": "ll_provinciales_inspire_canarias_wgs84",
+        "Registros": "1074"
+      }
+    },
+    {
+      "id": "territory:cnig-2024-ll-autonomicas-peninbal",
+      "title": "Líneas autonómicas · Península, Baleares y plazas españolas · 2024",
+      "sourceId": "F006",
+      "categoryIds": [
+        "F01"
+      ],
+      "status": "integrado",
+      "url": "https://centrodedescargas.cnig.es/CentroDescargas/detalleArchivo?sec=12969664",
+      "coverage": "Península, Baleares y plazas españolas",
+      "period": "2024-01-01",
+      "license": "Obra derivada de BDLJE CC-BY 4.0 ign.es",
+      "mode": "local",
+      "notes": "4144 trazados oficiales · 2024-01-01",
+      "mapAction": "territory:cnig-2024-ll-autonomicas-peninbal",
+      "dataFile": "territory/local/cnig-2024-ll-autonomicas-peninbal.geojson.gz",
+      "links": {
+        "Descarga original": "https://centrodedescargas.cnig.es/CentroDescargas/detalleArchivo?sec=12969664"
+      },
+      "fields": {
+        "Detalle visible": "Desde zoom 4",
+        "Fecha de revisión": "2026-11-14",
+        "Tabla GeoPackage": "ll_autonomicas_inspire_peninbal_etrs89",
+        "Registros": "4144"
+      }
+    },
+    {
+      "id": "territory:cnig-2024-ll-autonomicas-canarias",
+      "title": "Líneas autonómicas · Canarias · 2024",
+      "sourceId": "F006",
+      "categoryIds": [
+        "F01"
+      ],
+      "status": "integrado",
+      "url": "https://centrodedescargas.cnig.es/CentroDescargas/detalleArchivo?sec=12969664",
+      "coverage": "Canarias",
+      "period": "2024-01-01",
+      "license": "Obra derivada de BDLJE CC-BY 4.0 ign.es",
+      "mode": "local",
+      "notes": "1074 trazados oficiales · 2024-01-01",
+      "mapAction": "territory:cnig-2024-ll-autonomicas-canarias",
+      "dataFile": "territory/local/cnig-2024-ll-autonomicas-canarias.geojson.gz",
+      "links": {
+        "Descarga original": "https://centrodedescargas.cnig.es/CentroDescargas/detalleArchivo?sec=12969664"
+      },
+      "fields": {
+        "Detalle visible": "Desde zoom 4",
+        "Fecha de revisión": "2026-11-14",
+        "Tabla GeoPackage": "ll_autonomicas_inspire_canarias_wgs84",
+        "Registros": "1074"
+      }
+    },
+    {
+      "id": "territory:cnig-2024-recintos-municipales-peninbal",
+      "title": "Recintos municipales · Península, Baleares y plazas españolas · 2024",
+      "sourceId": "F006",
+      "categoryIds": [
+        "F01"
+      ],
+      "status": "integrado",
+      "url": "https://centrodedescargas.cnig.es/CentroDescargas/detalleArchivo?sec=12969664",
+      "coverage": "Península, Baleares y plazas españolas",
+      "period": "2024-01-01",
+      "license": "Obra derivada de BDLJE CC-BY 4.0 ign.es",
+      "mode": "local",
+      "notes": "8130 recintos oficiales · 2024-01-01",
+      "mapAction": "territory:cnig-2024-recintos-municipales-peninbal",
+      "dataFile": "territory/local/cnig-2024-recintos-municipales-peninbal.geojson.gz",
+      "links": {
+        "Descarga original": "https://centrodedescargas.cnig.es/CentroDescargas/detalleArchivo?sec=12969664"
+      },
+      "fields": {
+        "Detalle visible": "Desde zoom 7",
+        "Fecha de revisión": "2026-11-14",
+        "Tabla GeoPackage": "recintos_municipales_inspire_peninbal_etrs89",
+        "Registros": "8130"
+      }
+    },
+    {
+      "id": "territory:cnig-2024-recintos-municipales-canarias",
+      "title": "Recintos municipales · Canarias · 2024",
+      "sourceId": "F006",
+      "categoryIds": [
+        "F01"
+      ],
+      "status": "integrado",
+      "url": "https://centrodedescargas.cnig.es/CentroDescargas/detalleArchivo?sec=12969664",
+      "coverage": "Canarias",
+      "period": "2024-01-01",
+      "license": "Obra derivada de BDLJE CC-BY 4.0 ign.es",
+      "mode": "local",
+      "notes": "88 recintos oficiales · 2024-01-01",
+      "mapAction": "territory:cnig-2024-recintos-municipales-canarias",
+      "dataFile": "territory/local/cnig-2024-recintos-municipales-canarias.geojson.gz",
+      "links": {
+        "Descarga original": "https://centrodedescargas.cnig.es/CentroDescargas/detalleArchivo?sec=12969664"
+      },
+      "fields": {
+        "Detalle visible": "Desde zoom 7",
+        "Fecha de revisión": "2026-11-14",
+        "Tabla GeoPackage": "recintos_municipales_inspire_canarias_wgs84",
+        "Registros": "88"
+      }
+    },
+    {
+      "id": "territory:cnig-2024-recintos-provinciales-peninbal",
+      "title": "Recintos provinciales · Península, Baleares y plazas españolas · 2024",
+      "sourceId": "F006",
+      "categoryIds": [
+        "F01"
+      ],
+      "status": "integrado",
+      "url": "https://centrodedescargas.cnig.es/CentroDescargas/detalleArchivo?sec=12969664",
+      "coverage": "Península, Baleares y plazas españolas",
+      "period": "2024-01-01",
+      "license": "Obra derivada de BDLJE CC-BY 4.0 ign.es",
+      "mode": "local",
+      "notes": "52 recintos oficiales · 2024-01-01",
+      "mapAction": "territory:cnig-2024-recintos-provinciales-peninbal",
+      "dataFile": "territory/local/cnig-2024-recintos-provinciales-peninbal.geojson.gz",
+      "links": {
+        "Descarga original": "https://centrodedescargas.cnig.es/CentroDescargas/detalleArchivo?sec=12969664"
+      },
+      "fields": {
+        "Detalle visible": "Desde zoom 5",
+        "Fecha de revisión": "2026-11-14",
+        "Tabla GeoPackage": "recintos_provinciales_inspire_peninbal_etrs89",
+        "Registros": "52"
+      }
+    },
+    {
+      "id": "territory:cnig-2024-recintos-provinciales-canarias",
+      "title": "Recintos provinciales · Canarias · 2024",
+      "sourceId": "F006",
+      "categoryIds": [
+        "F01"
+      ],
+      "status": "integrado",
+      "url": "https://centrodedescargas.cnig.es/CentroDescargas/detalleArchivo?sec=12969664",
+      "coverage": "Canarias",
+      "period": "2024-01-01",
+      "license": "Obra derivada de BDLJE CC-BY 4.0 ign.es",
+      "mode": "local",
+      "notes": "2 recintos oficiales · 2024-01-01",
+      "mapAction": "territory:cnig-2024-recintos-provinciales-canarias",
+      "dataFile": "territory/local/cnig-2024-recintos-provinciales-canarias.geojson.gz",
+      "links": {
+        "Descarga original": "https://centrodedescargas.cnig.es/CentroDescargas/detalleArchivo?sec=12969664"
+      },
+      "fields": {
+        "Detalle visible": "Desde zoom 5",
+        "Fecha de revisión": "2026-11-14",
+        "Tabla GeoPackage": "recintos_provinciales_inspire_canarias_wgs84",
+        "Registros": "2"
+      }
+    },
+    {
+      "id": "territory:cnig-2024-recintos-autonomicas-peninbal",
+      "title": "Recintos autonómicos · Península, Baleares y plazas españolas · 2024",
+      "sourceId": "F006",
+      "categoryIds": [
+        "F01"
+      ],
+      "status": "integrado",
+      "url": "https://centrodedescargas.cnig.es/CentroDescargas/detalleArchivo?sec=12969664",
+      "coverage": "Península, Baleares y plazas españolas",
+      "period": "2024-01-01",
+      "license": "Obra derivada de BDLJE CC-BY 4.0 ign.es",
+      "mode": "local",
+      "notes": "20 recintos oficiales · 2024-01-01",
+      "mapAction": "territory:cnig-2024-recintos-autonomicas-peninbal",
+      "dataFile": "territory/local/cnig-2024-recintos-autonomicas-peninbal.geojson.gz",
+      "links": {
+        "Descarga original": "https://centrodedescargas.cnig.es/CentroDescargas/detalleArchivo?sec=12969664"
+      },
+      "fields": {
+        "Detalle visible": "Desde zoom 4",
+        "Fecha de revisión": "2026-11-14",
+        "Tabla GeoPackage": "recintos_autonomicas_inspire_peninbal_etrs89",
+        "Registros": "20"
+      }
+    },
+    {
+      "id": "territory:cnig-2024-recintos-autonomicas-canarias",
+      "title": "Recintos autonómicos · Canarias · 2024",
+      "sourceId": "F006",
+      "categoryIds": [
+        "F01"
+      ],
+      "status": "integrado",
+      "url": "https://centrodedescargas.cnig.es/CentroDescargas/detalleArchivo?sec=12969664",
+      "coverage": "Canarias",
+      "period": "2024-01-01",
+      "license": "Obra derivada de BDLJE CC-BY 4.0 ign.es",
+      "mode": "local",
+      "notes": "1 recintos oficiales · 2024-01-01",
+      "mapAction": "territory:cnig-2024-recintos-autonomicas-canarias",
+      "dataFile": "territory/local/cnig-2024-recintos-autonomicas-canarias.geojson.gz",
+      "links": {
+        "Descarga original": "https://centrodedescargas.cnig.es/CentroDescargas/detalleArchivo?sec=12969664"
+      },
+      "fields": {
+        "Detalle visible": "Desde zoom 4",
+        "Fecha de revisión": "2026-11-14",
+        "Tabla GeoPackage": "recintos_autonomicas_inspire_canarias_wgs84",
+        "Registros": "1"
       }
     },
     {
@@ -403,7 +1323,7 @@
       "mapAction": "territory:country",
       "fields": {
         "Detalle visible": "Desde zoom 0",
-        "Fecha de revisión": "2026-11-13"
+        "Fecha de revisión": "2026-11-14"
       }
     },
     {
@@ -424,7 +1344,7 @@
       "dataFile": "territory/comarcas.geojson",
       "fields": {
         "Detalle visible": "Desde zoom 6",
-        "Fecha de revisión": "2026-11-13"
+        "Fecha de revisión": "2026-11-14"
       }
     },
     {
@@ -444,7 +1364,7 @@
       "mapAction": "territory:canary-comarcas-a1",
       "fields": {
         "Detalle visible": "Desde zoom 7",
-        "Fecha de revisión": "2026-11-13",
+        "Fecha de revisión": "2026-11-14",
         "Proveedores": "GRAFCAN / ISTAC · IDECanarias"
       }
     },
@@ -465,7 +1385,7 @@
       "mapAction": "territory:canary-comarcas-a2",
       "fields": {
         "Detalle visible": "Desde zoom 8",
-        "Fecha de revisión": "2026-11-13",
+        "Fecha de revisión": "2026-11-14",
         "Proveedores": "GRAFCAN / ISTAC · IDECanarias"
       }
     },
@@ -486,7 +1406,7 @@
       "mapAction": "territory:nuclei",
       "fields": {
         "Detalle visible": "Desde zoom 9",
-        "Fecha de revisión": "2026-11-13"
+        "Fecha de revisión": "2026-11-14"
       }
     },
     {
@@ -506,7 +1426,7 @@
       "mapAction": "territory:other-places",
       "fields": {
         "Detalle visible": "Desde zoom 10",
-        "Fecha de revisión": "2026-11-13"
+        "Fecha de revisión": "2026-11-14"
       }
     },
     {
@@ -526,7 +1446,7 @@
       "mapAction": "territory:unnamed-places",
       "fields": {
         "Detalle visible": "Desde zoom 12",
-        "Fecha de revisión": "2026-11-13"
+        "Fecha de revisión": "2026-11-14"
       }
     },
     {
@@ -546,7 +1466,7 @@
       "mapAction": "territory:postal-addresses",
       "fields": {
         "Detalle visible": "Desde zoom 15",
-        "Fecha de revisión": "2026-11-13",
+        "Fecha de revisión": "2026-11-14",
         "Proveedores": "CartoCiudad · IGN y colaboradores · CC BY 4.0"
       }
     },
@@ -567,7 +1487,7 @@
       "mapAction": "territory:postcodes",
       "fields": {
         "Detalle visible": "Desde zoom 10",
-        "Fecha de revisión": "2026-11-13",
+        "Fecha de revisión": "2026-11-14",
         "Proveedores": "CartoCiudad · IGN y colaboradores · CC BY 4.0"
       }
     },
@@ -588,7 +1508,7 @@
       "mapAction": "territory:historical-orthophoto",
       "fields": {
         "Detalle visible": "Desde zoom 6",
-        "Fecha de revisión": "2026-11-13",
+        "Fecha de revisión": "2026-11-14",
         "Proveedores": "Ortofotos históricas © IGN y colaboradores · CC BY 4.0"
       }
     },
@@ -609,7 +1529,7 @@
       "mapAction": "territory:canary-cartography",
       "fields": {
         "Detalle visible": "Desde zoom 7",
-        "Fecha de revisión": "2026-11-13",
+        "Fecha de revisión": "2026-11-14",
         "Proveedores": "GRAFCAN / ISTAC · IDECanarias"
       }
     },
@@ -630,7 +1550,7 @@
       "mapAction": "territory:gipuzkoa-toponyms",
       "fields": {
         "Detalle visible": "Desde zoom 9",
-        "Fecha de revisión": "2026-11-13",
+        "Fecha de revisión": "2026-11-14",
         "Proveedores": "Diputación Foral de Gipuzkoa · b5m"
       }
     },
@@ -651,7 +1571,7 @@
       "mapAction": "territory:ign-administrative-boundaries",
       "fields": {
         "Detalle visible": "Desde zoom 7",
-        "Fecha de revisión": "2026-11-13",
+        "Fecha de revisión": "2026-11-14",
         "Proveedores": "© IGN · CC BY 4.0"
       }
     },
@@ -672,7 +1592,7 @@
       "mapAction": "territory:ign-administrative-units",
       "fields": {
         "Detalle visible": "Desde zoom 7",
-        "Fecha de revisión": "2026-11-13",
+        "Fecha de revisión": "2026-11-14",
         "Proveedores": "© IGN · CC BY 4.0"
       }
     },
@@ -693,7 +1613,7 @@
       "mapAction": "territory:ign-historical-boundaries",
       "fields": {
         "Detalle visible": "Desde zoom 7",
-        "Fecha de revisión": "2026-11-13",
+        "Fecha de revisión": "2026-11-14",
         "Proveedores": "© IGN · CC BY 4.0"
       }
     },
@@ -714,7 +1634,7 @@
       "mapAction": "territory:ign-spotelevation",
       "fields": {
         "Detalle visible": "Desde zoom 9",
-        "Fecha de revisión": "2026-11-13",
+        "Fecha de revisión": "2026-11-14",
         "Proveedores": "Modelo de elevaciones © IGN · CC BY 4.0"
       }
     },
@@ -735,7 +1655,7 @@
       "mapAction": "territory:ign-contourline",
       "fields": {
         "Detalle visible": "Desde zoom 9",
-        "Fecha de revisión": "2026-11-13",
+        "Fecha de revisión": "2026-11-14",
         "Proveedores": "Modelo de elevaciones © IGN · CC BY 4.0"
       }
     },
@@ -756,7 +1676,7 @@
       "mapAction": "territory:ign-elevationgridcoverage",
       "fields": {
         "Detalle visible": "Desde zoom 9",
-        "Fecha de revisión": "2026-11-13",
+        "Fecha de revisión": "2026-11-14",
         "Proveedores": "Modelo de elevaciones © IGN · CC BY 4.0"
       }
     },
@@ -777,7 +1697,7 @@
       "mapAction": "territory:sections",
       "fields": {
         "Detalle visible": "Desde zoom 10",
-        "Fecha de revisión": "2026-11-13"
+        "Fecha de revisión": "2026-11-14"
       }
     },
     {
@@ -797,7 +1717,7 @@
       "mapAction": "territory:historical-limits",
       "fields": {
         "Detalle visible": "Desde zoom 7",
-        "Fecha de revisión": "2026-11-13"
+        "Fecha de revisión": "2026-11-14"
       }
     },
     {
@@ -817,7 +1737,7 @@
       "mapAction": "territory:hillshade",
       "fields": {
         "Detalle visible": "Desde zoom 5",
-        "Fecha de revisión": "2026-11-13"
+        "Fecha de revisión": "2026-11-14"
       }
     },
     {
@@ -837,7 +1757,7 @@
       "mapAction": "territory:contours",
       "fields": {
         "Detalle visible": "Desde zoom 11",
-        "Fecha de revisión": "2026-11-13"
+        "Fecha de revisión": "2026-11-14"
       }
     },
     {
@@ -857,7 +1777,7 @@
       "mapAction": "territory:topographic-buildings",
       "fields": {
         "Detalle visible": "Desde zoom 13",
-        "Fecha de revisión": "2026-11-13"
+        "Fecha de revisión": "2026-11-14"
       }
     },
     {
@@ -877,7 +1797,7 @@
       "mapAction": "territory:parcels",
       "fields": {
         "Detalle visible": "Desde zoom 15",
-        "Fecha de revisión": "2026-11-13",
+        "Fecha de revisión": "2026-11-14",
         "Proveedores": "Dirección General del Catastro · condiciones INSPIRE; Gobierno de Navarra · SITNA; Diputación Foral de Álava; Diputación Foral de Bizkaia; Diputación Foral de Gipuzkoa · b5m"
       }
     },
@@ -898,7 +1818,7 @@
       "mapAction": "territory:cadastral-buildings",
       "fields": {
         "Detalle visible": "Desde zoom 15",
-        "Fecha de revisión": "2026-11-13",
+        "Fecha de revisión": "2026-11-14",
         "Proveedores": "Dirección General del Catastro · condiciones INSPIRE; Diputación Foral de Bizkaia; Diputación Foral de Gipuzkoa · b5m"
       }
     },
@@ -919,7 +1839,7 @@
       "mapAction": "territory:building-parts",
       "fields": {
         "Detalle visible": "Desde zoom 16",
-        "Fecha de revisión": "2026-11-13",
+        "Fecha de revisión": "2026-11-14",
         "Proveedores": "Dirección General del Catastro · condiciones INSPIRE"
       }
     },
@@ -940,7 +1860,7 @@
       "mapAction": "territory:cadastral-addresses",
       "fields": {
         "Detalle visible": "Desde zoom 16",
-        "Fecha de revisión": "2026-11-13",
+        "Fecha de revisión": "2026-11-14",
         "Proveedores": "Dirección General del Catastro · condiciones INSPIRE; Diputación Foral de Bizkaia; Diputación Foral de Gipuzkoa · b5m"
       }
     },
@@ -961,7 +1881,7 @@
       "mapAction": "territory:cadastral-zoning",
       "fields": {
         "Detalle visible": "Desde zoom 13",
-        "Fecha de revisión": "2026-11-13",
+        "Fecha de revisión": "2026-11-14",
         "Proveedores": "Dirección General del Catastro · condiciones INSPIRE; Diputación Foral de Bizkaia; Diputación Foral de Gipuzkoa · b5m"
       }
     },
@@ -982,7 +1902,7 @@
       "mapAction": "territory:cadastral-units",
       "fields": {
         "Detalle visible": "Desde zoom 10",
-        "Fecha de revisión": "2026-11-13",
+        "Fecha de revisión": "2026-11-14",
         "Proveedores": "Dirección General del Catastro · condiciones INSPIRE; Diputación Foral de Bizkaia; Diputación Foral de Gipuzkoa · b5m"
       }
     },
@@ -1003,7 +1923,7 @@
       "mapAction": "territory:cadastral-boundaries",
       "fields": {
         "Detalle visible": "Desde zoom 10",
-        "Fecha de revisión": "2026-11-13",
+        "Fecha de revisión": "2026-11-14",
         "Proveedores": "Dirección General del Catastro · condiciones INSPIRE; Diputación Foral de Gipuzkoa · b5m"
       }
     },
@@ -1024,7 +1944,7 @@
       "mapAction": "territory:cadastral-subparcels",
       "fields": {
         "Detalle visible": "Desde zoom 16",
-        "Fecha de revisión": "2026-11-13",
+        "Fecha de revisión": "2026-11-14",
         "Proveedores": "Diputación Foral de Bizkaia; Diputación Foral de Gipuzkoa · b5m"
       }
     },
@@ -14451,6 +15371,28 @@
       "notes": "Ortofotos y fotografía aérea · imagen oficial. Disponible a partir de zoom 6."
     },
     {
+      "title": "Boundary",
+      "sourceId": "F162",
+      "categoryIds": [
+        "F01"
+      ],
+      "url": "https://ideg.xunta.gal/servizos/services/Raster/orto_2002_2003/MapServer/WMSServer?SERVICE=WMS&REQUEST=GetCapabilities&VERSION=1.3.0",
+      "coverage": "Galicia",
+      "period": "Según el producto original",
+      "fields": {
+        "Servicio": "Ortofoto de Galicia 2002-2003",
+        "Familia": "Ortofotos y fotografía aérea",
+        "Nombre de capa": "3",
+        "Consulta de atributos": "Ver servicio WMS original"
+      },
+      "id": "territory:directory:idee-90439e4fb3404f7-4e07408562be",
+      "status": "integrado",
+      "mapAction": "official-wms:idee-90439e4fb3404f7-4e07408562be",
+      "mode": "remote",
+      "license": "Condiciones del organismo publicador",
+      "notes": "Ortofotos y fotografía aérea · imagen oficial. Disponible a partir de zoom 6."
+    },
+    {
       "title": "Imagen",
       "sourceId": "F162",
       "categoryIds": [
@@ -14622,6 +15564,28 @@
       "id": "territory:directory:idee-01af761ca125dbd-4e07408562be",
       "status": "integrado",
       "mapAction": "official-wms:idee-01af761ca125dbd-4e07408562be",
+      "mode": "remote",
+      "license": "Condiciones del organismo publicador",
+      "notes": "Ortofotos y fotografía aérea · imagen oficial. Disponible a partir de zoom 6."
+    },
+    {
+      "title": "Huella",
+      "sourceId": "F162",
+      "categoryIds": [
+        "F01"
+      ],
+      "url": "https://ideg.xunta.gal/servizos/services/Raster/PNOA_2011/MapServer/WMSServer?SERVICE=WMS&REQUEST=GetCapabilities&VERSION=1.3.0",
+      "coverage": "Galicia",
+      "period": "Según el producto original",
+      "fields": {
+        "Servicio": "Ortofoto de Galicia 2011",
+        "Familia": "Ortofotos y fotografía aérea",
+        "Nombre de capa": "2",
+        "Consulta de atributos": "Ver servicio WMS original"
+      },
+      "id": "territory:directory:idee-781498996b93e21-d4735e3a265e",
+      "status": "integrado",
+      "mapAction": "official-wms:idee-781498996b93e21-d4735e3a265e",
       "mode": "remote",
       "license": "Condiciones del organismo publicador",
       "notes": "Ortofotos y fotografía aérea · imagen oficial. Disponible a partir de zoom 6."
@@ -15868,7 +16832,7 @@
       "coverage": "País Vasco / Euskadi",
       "period": "Según el producto original",
       "fields": {
-        "Servicio": "Cartografía Básica",
+        "Servicio": "Cartografía base y callejero NORA · geoEuskadi",
         "Familia": "Relieve y elevaciones",
         "Nombre de capa": "CART_DERIV_SOMBRAS",
         "Consulta de atributos": "Anunciada por el servicio"
@@ -15890,7 +16854,7 @@
       "coverage": "País Vasco / Euskadi",
       "period": "Según el producto original",
       "fields": {
-        "Servicio": "Cartografía Básica",
+        "Servicio": "Cartografía base y callejero NORA · geoEuskadi",
         "Familia": "Relieve y elevaciones",
         "Nombre de capa": "CART_DERIV_PENDIENTES_R",
         "Consulta de atributos": "Anunciada por el servicio"
@@ -15912,7 +16876,7 @@
       "coverage": "País Vasco / Euskadi",
       "period": "Según el producto original",
       "fields": {
-        "Servicio": "Cartografía Básica",
+        "Servicio": "Cartografía base y callejero NORA · geoEuskadi",
         "Familia": "Relieve y elevaciones",
         "Nombre de capa": "CART_DERIV_ORIENTACIONES_R",
         "Consulta de atributos": "Anunciada por el servicio"
@@ -15934,7 +16898,7 @@
       "coverage": "País Vasco / Euskadi",
       "period": "Según el producto original",
       "fields": {
-        "Servicio": "Cartografía Básica",
+        "Servicio": "Cartografía base y callejero NORA · geoEuskadi",
         "Familia": "Relieve y elevaciones",
         "Nombre de capa": "CART_DERIV_FONDO_HIPSOMETRICO",
         "Consulta de atributos": "Anunciada por el servicio"
@@ -15956,7 +16920,7 @@
       "coverage": "País Vasco / Euskadi",
       "period": "Según el producto original",
       "fields": {
-        "Servicio": "Cartografía Básica",
+        "Servicio": "Cartografía base y callejero NORA · geoEuskadi",
         "Familia": "Divisiones territoriales",
         "Nombre de capa": "RED_TRANS_TXT_COMARCAL",
         "Consulta de atributos": "Anunciada por el servicio"
@@ -15969,6 +16933,50 @@
       "notes": "Divisiones territoriales · imagen oficial. Disponible a partir de zoom 7."
     },
     {
+      "title": "Atariak / Portales",
+      "sourceId": "F166",
+      "categoryIds": [
+        "F01"
+      ],
+      "url": "https://www.geo.euskadi.eus/WMS_KARTOGRAFIA?SERVICE=WMS&REQUEST=GetCapabilities&VERSION=1.3.0",
+      "coverage": "País Vasco / Euskadi",
+      "period": "Según el producto original",
+      "fields": {
+        "Servicio": "Cartografía base y callejero NORA · geoEuskadi",
+        "Familia": "Cartografía base y toponimia",
+        "Nombre de capa": "CAL_PORTALES",
+        "Consulta de atributos": "Anunciada por el servicio"
+      },
+      "id": "territory:directory:idee-7a7af293eeec7d7-a113167e8a72",
+      "status": "integrado",
+      "mapAction": "official-wms:idee-7a7af293eeec7d7-a113167e8a72",
+      "mode": "remote",
+      "license": "Condiciones del organismo publicador",
+      "notes": "Cartografía base y toponimia · imagen oficial. Disponible a partir de zoom 15."
+    },
+    {
+      "title": "Kaleak / Calles",
+      "sourceId": "F166",
+      "categoryIds": [
+        "F01"
+      ],
+      "url": "https://www.geo.euskadi.eus/WMS_KARTOGRAFIA?SERVICE=WMS&REQUEST=GetCapabilities&VERSION=1.3.0",
+      "coverage": "País Vasco / Euskadi",
+      "period": "Según el producto original",
+      "fields": {
+        "Servicio": "Cartografía base y callejero NORA · geoEuskadi",
+        "Familia": "Cartografía base y toponimia",
+        "Nombre de capa": "CAL_CALLES",
+        "Consulta de atributos": "Anunciada por el servicio"
+      },
+      "id": "territory:directory:idee-7a7af293eeec7d7-47a2c55e1043",
+      "status": "integrado",
+      "mapAction": "official-wms:idee-7a7af293eeec7d7-47a2c55e1043",
+      "mode": "remote",
+      "license": "Condiciones del organismo publicador",
+      "notes": "Cartografía base y toponimia · imagen oficial. Disponible a partir de zoom 11."
+    },
+    {
       "title": "Sestra kurbaren testua (Marren arteko tartea 25m) / Textos de las curvas de nivel (Eq.25m)",
       "sourceId": "F166",
       "categoryIds": [
@@ -15978,7 +16986,7 @@
       "coverage": "País Vasco / Euskadi",
       "period": "Según el producto original",
       "fields": {
-        "Servicio": "Cartografía Básica",
+        "Servicio": "Cartografía base y callejero NORA · geoEuskadi",
         "Familia": "Relieve y elevaciones",
         "Nombre de capa": "REL_TEXTO_CURVA_25M",
         "Consulta de atributos": "Anunciada por el servicio"
@@ -16000,7 +17008,7 @@
       "coverage": "País Vasco / Euskadi",
       "period": "Según el producto original",
       "fields": {
-        "Servicio": "Cartografía Básica",
+        "Servicio": "Cartografía base y callejero NORA · geoEuskadi",
         "Familia": "Relieve y elevaciones",
         "Nombre de capa": "REL_TEXTO_CURVA_100M",
         "Consulta de atributos": "Anunciada por el servicio"
@@ -17023,6 +18031,402 @@
       "mode": "remote",
       "license": "Condiciones del organismo publicador",
       "notes": "Divisiones territoriales · imagen oficial. Disponible a partir de zoom 7."
+    },
+    {
+      "title": "Modelo Digital del Terreno 2016 (colores hipsométricos)",
+      "sourceId": "F151",
+      "categoryIds": [
+        "F01"
+      ],
+      "url": "https://www.ideandalucia.es/wms/mdt_2016?SERVICE=WMS&REQUEST=GetCapabilities&VERSION=1.3.0",
+      "coverage": "Andalucía",
+      "period": "Según el producto original",
+      "fields": {
+        "Servicio": "Modelo digital del terreno 2016 · IECA",
+        "Familia": "Relieve y elevaciones",
+        "Nombre de capa": "modelo_digital_terreno_2016_color",
+        "Consulta de atributos": "Sin consulta anunciada"
+      },
+      "id": "territory:directory:idee-3b18f8e21b1b6f4-75ee40ca76fd",
+      "status": "integrado",
+      "mapAction": "official-wms:idee-3b18f8e21b1b6f4-75ee40ca76fd",
+      "mode": "remote",
+      "license": "Condiciones del organismo publicador",
+      "notes": "Relieve y elevaciones · imagen oficial. Disponible a partir de zoom 6."
+    },
+    {
+      "title": "Modelo Digital del Terreno 2016 (escala de grises)",
+      "sourceId": "F151",
+      "categoryIds": [
+        "F01"
+      ],
+      "url": "https://www.ideandalucia.es/wms/mdt_2016?SERVICE=WMS&REQUEST=GetCapabilities&VERSION=1.3.0",
+      "coverage": "Andalucía",
+      "period": "Según el producto original",
+      "fields": {
+        "Servicio": "Modelo digital del terreno 2016 · IECA",
+        "Familia": "Relieve y elevaciones",
+        "Nombre de capa": "modelo_digital_terreno_2016_escala_grises",
+        "Consulta de atributos": "Sin consulta anunciada"
+      },
+      "id": "territory:directory:idee-3b18f8e21b1b6f4-62026bf97c2f",
+      "status": "integrado",
+      "mapAction": "official-wms:idee-3b18f8e21b1b6f4-62026bf97c2f",
+      "mode": "remote",
+      "license": "Condiciones del organismo publicador",
+      "notes": "Relieve y elevaciones · imagen oficial. Disponible a partir de zoom 6."
+    },
+    {
+      "title": "Modelo Digital de Pendientes 2016",
+      "sourceId": "F151",
+      "categoryIds": [
+        "F01"
+      ],
+      "url": "https://www.ideandalucia.es/wms/mdt_2016?SERVICE=WMS&REQUEST=GetCapabilities&VERSION=1.3.0",
+      "coverage": "Andalucía",
+      "period": "Según el producto original",
+      "fields": {
+        "Servicio": "Modelo digital del terreno 2016 · IECA",
+        "Familia": "Relieve y elevaciones",
+        "Nombre de capa": "modelo_digital_pendientes_2016",
+        "Consulta de atributos": "Sin consulta anunciada"
+      },
+      "id": "territory:directory:idee-3b18f8e21b1b6f4-e51a206019d5",
+      "status": "integrado",
+      "mapAction": "official-wms:idee-3b18f8e21b1b6f4-e51a206019d5",
+      "mode": "remote",
+      "license": "Condiciones del organismo publicador",
+      "notes": "Relieve y elevaciones · imagen oficial. Disponible a partir de zoom 6."
+    },
+    {
+      "title": "Sombreado Orográfico año 2106",
+      "sourceId": "F151",
+      "categoryIds": [
+        "F01"
+      ],
+      "url": "https://www.ideandalucia.es/wms/mdt_2016?SERVICE=WMS&REQUEST=GetCapabilities&VERSION=1.3.0",
+      "coverage": "Andalucía",
+      "period": "Según el producto original",
+      "fields": {
+        "Servicio": "Modelo digital del terreno 2016 · IECA",
+        "Familia": "Relieve y elevaciones",
+        "Nombre de capa": "sombreado_orografico_2016",
+        "Consulta de atributos": "Sin consulta anunciada"
+      },
+      "id": "territory:directory:idee-3b18f8e21b1b6f4-e92e1ca6de07",
+      "status": "integrado",
+      "mapAction": "official-wms:idee-3b18f8e21b1b6f4-e92e1ca6de07",
+      "mode": "remote",
+      "license": "Condiciones del organismo publicador",
+      "notes": "Relieve y elevaciones · imagen oficial. Disponible a partir de zoom 6."
+    },
+    {
+      "title": "Resolución 1 metros/pixel (Año 1956 - 1957)",
+      "sourceId": "F151",
+      "categoryIds": [
+        "F01"
+      ],
+      "url": "https://www.ideandalucia.es/wms/ortofoto_1956-1957?SERVICE=WMS&REQUEST=GetCapabilities&VERSION=1.3.0",
+      "coverage": "Andalucía",
+      "period": "Según el producto original",
+      "fields": {
+        "Servicio": "Ortofotografía 1956–1957 · IECA",
+        "Familia": "Ortofotos y fotografía aérea",
+        "Nombre de capa": "distribucion_ortofotos",
+        "Consulta de atributos": "Anunciada por el servicio"
+      },
+      "id": "territory:directory:idee-bd0528765c981df-0060595bdca5",
+      "status": "integrado",
+      "mapAction": "official-wms:idee-bd0528765c981df-0060595bdca5",
+      "mode": "remote",
+      "license": "Condiciones del organismo publicador",
+      "notes": "Ortofotos y fotografía aérea · imagen oficial. Disponible a partir de zoom 6."
+    },
+    {
+      "title": "Ortofografia de Andalucía 1956 - 1957 Pancromatico (1m Pixel)",
+      "sourceId": "F151",
+      "categoryIds": [
+        "F01"
+      ],
+      "url": "https://www.ideandalucia.es/wms/ortofoto_1956-1957?SERVICE=WMS&REQUEST=GetCapabilities&VERSION=1.3.0",
+      "coverage": "Andalucía",
+      "period": "Según el producto original",
+      "fields": {
+        "Servicio": "Ortofotografía 1956–1957 · IECA",
+        "Familia": "Ortofotos y fotografía aérea",
+        "Nombre de capa": "ortofotografia_1956-1957_pancromatico",
+        "Consulta de atributos": "Sin consulta anunciada"
+      },
+      "id": "territory:directory:idee-bd0528765c981df-8c0d9f165a2a",
+      "status": "integrado",
+      "mapAction": "official-wms:idee-bd0528765c981df-8c0d9f165a2a",
+      "mode": "remote",
+      "license": "Condiciones del organismo publicador",
+      "notes": "Ortofotos y fotografía aérea · imagen oficial. Disponible a partir de zoom 6."
+    },
+    {
+      "title": "Resolución 0.50 metros/pixel (Año 2016)",
+      "sourceId": "F151",
+      "categoryIds": [
+        "F01"
+      ],
+      "url": "https://www.ideandalucia.es/wms/ortofoto2016?SERVICE=WMS&REQUEST=GetCapabilities&VERSION=1.3.0",
+      "coverage": "Andalucía",
+      "period": "Según el producto original",
+      "fields": {
+        "Servicio": "Ortofotografía 2016 · IECA",
+        "Familia": "Ortofotos y fotografía aérea",
+        "Nombre de capa": "distribucion_ortofotos_10000",
+        "Consulta de atributos": "Anunciada por el servicio"
+      },
+      "id": "territory:directory:idee-a6afb7f81b299a9-84e7b38e742a",
+      "status": "integrado",
+      "mapAction": "official-wms:idee-a6afb7f81b299a9-84e7b38e742a",
+      "mode": "remote",
+      "license": "Condiciones del organismo publicador",
+      "notes": "Ortofotos y fotografía aérea · imagen oficial. Disponible a partir de zoom 6."
+    },
+    {
+      "title": "Resolución 0.25 metros/pixel (Año 2016)",
+      "sourceId": "F151",
+      "categoryIds": [
+        "F01"
+      ],
+      "url": "https://www.ideandalucia.es/wms/ortofoto2016?SERVICE=WMS&REQUEST=GetCapabilities&VERSION=1.3.0",
+      "coverage": "Andalucía",
+      "period": "Según el producto original",
+      "fields": {
+        "Servicio": "Ortofotografía 2016 · IECA",
+        "Familia": "Ortofotos y fotografía aérea",
+        "Nombre de capa": "distribucion_ortofotos_5000",
+        "Consulta de atributos": "Anunciada por el servicio"
+      },
+      "id": "territory:directory:idee-a6afb7f81b299a9-a1c23359f870",
+      "status": "integrado",
+      "mapAction": "official-wms:idee-a6afb7f81b299a9-a1c23359f870",
+      "mode": "remote",
+      "license": "Condiciones del organismo publicador",
+      "notes": "Ortofotos y fotografía aérea · imagen oficial. Disponible a partir de zoom 6."
+    },
+    {
+      "title": "Ortofografia de Andalucía 2016 Pancromatico (0.50m Pixel / 0.25m Pixel)",
+      "sourceId": "F151",
+      "categoryIds": [
+        "F01"
+      ],
+      "url": "https://www.ideandalucia.es/wms/ortofoto2016?SERVICE=WMS&REQUEST=GetCapabilities&VERSION=1.3.0",
+      "coverage": "Andalucía",
+      "period": "Según el producto original",
+      "fields": {
+        "Servicio": "Ortofotografía 2016 · IECA",
+        "Familia": "Ortofotos y fotografía aérea",
+        "Nombre de capa": "ortofotografia_2016_pancromatico",
+        "Consulta de atributos": "Sin consulta anunciada"
+      },
+      "id": "territory:directory:idee-a6afb7f81b299a9-21a814705fa5",
+      "status": "integrado",
+      "mapAction": "official-wms:idee-a6afb7f81b299a9-21a814705fa5",
+      "mode": "remote",
+      "license": "Condiciones del organismo publicador",
+      "notes": "Ortofotos y fotografía aérea · imagen oficial. Disponible a partir de zoom 6."
+    },
+    {
+      "title": "Ortofografia de Andalucía 2016 Color RGB (0.50m Pixel / 0.25m Pixel)",
+      "sourceId": "F151",
+      "categoryIds": [
+        "F01"
+      ],
+      "url": "https://www.ideandalucia.es/wms/ortofoto2016?SERVICE=WMS&REQUEST=GetCapabilities&VERSION=1.3.0",
+      "coverage": "Andalucía",
+      "period": "Según el producto original",
+      "fields": {
+        "Servicio": "Ortofotografía 2016 · IECA",
+        "Familia": "Ortofotos y fotografía aérea",
+        "Nombre de capa": "ortofotografia_2016_rgb",
+        "Consulta de atributos": "Sin consulta anunciada"
+      },
+      "id": "territory:directory:idee-a6afb7f81b299a9-b3fe8200c751",
+      "status": "integrado",
+      "mapAction": "official-wms:idee-a6afb7f81b299a9-b3fe8200c751",
+      "mode": "remote",
+      "license": "Condiciones del organismo publicador",
+      "notes": "Ortofotos y fotografía aérea · imagen oficial. Disponible a partir de zoom 6."
+    },
+    {
+      "title": "Ortofografia de Andalucía 2016 Color Infrarrojo (0.50m Pixel / 0.25m Pixel)",
+      "sourceId": "F151",
+      "categoryIds": [
+        "F01"
+      ],
+      "url": "https://www.ideandalucia.es/wms/ortofoto2016?SERVICE=WMS&REQUEST=GetCapabilities&VERSION=1.3.0",
+      "coverage": "Andalucía",
+      "period": "Según el producto original",
+      "fields": {
+        "Servicio": "Ortofotografía 2016 · IECA",
+        "Familia": "Ortofotos y fotografía aérea",
+        "Nombre de capa": "ortofotografia_2016_infrarrojo",
+        "Consulta de atributos": "Sin consulta anunciada"
+      },
+      "id": "territory:directory:idee-a6afb7f81b299a9-a9c39bde16f6",
+      "status": "integrado",
+      "mapAction": "official-wms:idee-a6afb7f81b299a9-a9c39bde16f6",
+      "mode": "remote",
+      "license": "Condiciones del organismo publicador",
+      "notes": "Ortofotos y fotografía aérea · imagen oficial. Disponible a partir de zoom 6."
+    },
+    {
+      "title": "Resolución 0.25 metros/pixel (Año 2019)",
+      "sourceId": "F151",
+      "categoryIds": [
+        "F01"
+      ],
+      "url": "https://www.ideandalucia.es/wms/ortofoto_2019?SERVICE=WMS&REQUEST=GetCapabilities&VERSION=1.3.0",
+      "coverage": "Andalucía",
+      "period": "Según el producto original",
+      "fields": {
+        "Servicio": "Ortofotografía 2019 · IECA",
+        "Familia": "Ortofotos y fotografía aérea",
+        "Nombre de capa": "distribucion",
+        "Consulta de atributos": "Anunciada por el servicio"
+      },
+      "id": "territory:directory:idee-d17ce68dc6fa8b9-7e36b0b8988a",
+      "status": "integrado",
+      "mapAction": "official-wms:idee-d17ce68dc6fa8b9-7e36b0b8988a",
+      "mode": "remote",
+      "license": "Condiciones del organismo publicador",
+      "notes": "Ortofotos y fotografía aérea · imagen oficial. Disponible a partir de zoom 6."
+    },
+    {
+      "title": "Ortofografia de Andalucía 2019 Pancromatico (0.25m Pixel)",
+      "sourceId": "F151",
+      "categoryIds": [
+        "F01"
+      ],
+      "url": "https://www.ideandalucia.es/wms/ortofoto_2019?SERVICE=WMS&REQUEST=GetCapabilities&VERSION=1.3.0",
+      "coverage": "Andalucía",
+      "period": "Según el producto original",
+      "fields": {
+        "Servicio": "Ortofotografía 2019 · IECA",
+        "Familia": "Ortofotos y fotografía aérea",
+        "Nombre de capa": "ortofotografia_2019_pancromatico",
+        "Consulta de atributos": "Sin consulta anunciada"
+      },
+      "id": "territory:directory:idee-d17ce68dc6fa8b9-5375f72903fa",
+      "status": "integrado",
+      "mapAction": "official-wms:idee-d17ce68dc6fa8b9-5375f72903fa",
+      "mode": "remote",
+      "license": "Condiciones del organismo publicador",
+      "notes": "Ortofotos y fotografía aérea · imagen oficial. Disponible a partir de zoom 6."
+    },
+    {
+      "title": "Ortofografia de Andalucía 2019 Color RGB (0.25m Pixel)",
+      "sourceId": "F151",
+      "categoryIds": [
+        "F01"
+      ],
+      "url": "https://www.ideandalucia.es/wms/ortofoto_2019?SERVICE=WMS&REQUEST=GetCapabilities&VERSION=1.3.0",
+      "coverage": "Andalucía",
+      "period": "Según el producto original",
+      "fields": {
+        "Servicio": "Ortofotografía 2019 · IECA",
+        "Familia": "Ortofotos y fotografía aérea",
+        "Nombre de capa": "ortofotografia_2019_rgb",
+        "Consulta de atributos": "Sin consulta anunciada"
+      },
+      "id": "territory:directory:idee-d17ce68dc6fa8b9-7874b81cd8fe",
+      "status": "integrado",
+      "mapAction": "official-wms:idee-d17ce68dc6fa8b9-7874b81cd8fe",
+      "mode": "remote",
+      "license": "Condiciones del organismo publicador",
+      "notes": "Ortofotos y fotografía aérea · imagen oficial. Disponible a partir de zoom 6."
+    },
+    {
+      "title": "Ortofografia de Andalucía 2019 Color Infrarrojo (0.25m Pixel)",
+      "sourceId": "F151",
+      "categoryIds": [
+        "F01"
+      ],
+      "url": "https://www.ideandalucia.es/wms/ortofoto_2019?SERVICE=WMS&REQUEST=GetCapabilities&VERSION=1.3.0",
+      "coverage": "Andalucía",
+      "period": "Según el producto original",
+      "fields": {
+        "Servicio": "Ortofotografía 2019 · IECA",
+        "Familia": "Ortofotos y fotografía aérea",
+        "Nombre de capa": "ortofotografia_2019_infrarrojo",
+        "Consulta de atributos": "Sin consulta anunciada"
+      },
+      "id": "territory:directory:idee-d17ce68dc6fa8b9-ee140d65be8a",
+      "status": "integrado",
+      "mapAction": "official-wms:idee-d17ce68dc6fa8b9-ee140d65be8a",
+      "mode": "remote",
+      "license": "Condiciones del organismo publicador",
+      "notes": "Ortofotos y fotografía aérea · imagen oficial. Disponible a partir de zoom 6."
+    },
+    {
+      "title": "Ortofografia de Andalucía 2022 Pancromatico (0.25m Pixel)",
+      "sourceId": "F151",
+      "categoryIds": [
+        "F01"
+      ],
+      "url": "https://www.ideandalucia.es/wms/ortofoto_2022?SERVICE=WMS&REQUEST=GetCapabilities&VERSION=1.3.0",
+      "coverage": "Andalucía",
+      "period": "Según el producto original",
+      "fields": {
+        "Servicio": "Ortofotografía 2022 · IECA",
+        "Familia": "Ortofotos y fotografía aérea",
+        "Nombre de capa": "ortofotografia_2022_pancromatico",
+        "Consulta de atributos": "Sin consulta anunciada"
+      },
+      "id": "territory:directory:idee-cd0f4e803333419-5b298f9495fa",
+      "status": "integrado",
+      "mapAction": "official-wms:idee-cd0f4e803333419-5b298f9495fa",
+      "mode": "remote",
+      "license": "Condiciones del organismo publicador",
+      "notes": "Ortofotos y fotografía aérea · imagen oficial. Disponible a partir de zoom 6."
+    },
+    {
+      "title": "Ortofografia de Andalucía 2022 Color RGB (0.25m Pixel)",
+      "sourceId": "F151",
+      "categoryIds": [
+        "F01"
+      ],
+      "url": "https://www.ideandalucia.es/wms/ortofoto_2022?SERVICE=WMS&REQUEST=GetCapabilities&VERSION=1.3.0",
+      "coverage": "Andalucía",
+      "period": "Según el producto original",
+      "fields": {
+        "Servicio": "Ortofotografía 2022 · IECA",
+        "Familia": "Ortofotos y fotografía aérea",
+        "Nombre de capa": "ortofotografia_2022_rgb",
+        "Consulta de atributos": "Sin consulta anunciada"
+      },
+      "id": "territory:directory:idee-cd0f4e803333419-810aaeb01586",
+      "status": "integrado",
+      "mapAction": "official-wms:idee-cd0f4e803333419-810aaeb01586",
+      "mode": "remote",
+      "license": "Condiciones del organismo publicador",
+      "notes": "Ortofotos y fotografía aérea · imagen oficial. Disponible a partir de zoom 6."
+    },
+    {
+      "title": "Ortofografia de Andalucía 2022 Color Infrarrojo (0.25m Pixel)",
+      "sourceId": "F151",
+      "categoryIds": [
+        "F01"
+      ],
+      "url": "https://www.ideandalucia.es/wms/ortofoto_2022?SERVICE=WMS&REQUEST=GetCapabilities&VERSION=1.3.0",
+      "coverage": "Andalucía",
+      "period": "Según el producto original",
+      "fields": {
+        "Servicio": "Ortofotografía 2022 · IECA",
+        "Familia": "Ortofotos y fotografía aérea",
+        "Nombre de capa": "ortofotografia_2022_infrarrojo",
+        "Consulta de atributos": "Sin consulta anunciada"
+      },
+      "id": "territory:directory:idee-cd0f4e803333419-fce4806c70a1",
+      "status": "integrado",
+      "mapAction": "official-wms:idee-cd0f4e803333419-fce4806c70a1",
+      "mode": "remote",
+      "license": "Condiciones del organismo publicador",
+      "notes": "Ortofotos y fotografía aérea · imagen oficial. Disponible a partir de zoom 6."
     },
     {
       "title": "Edificios INSPIRE",
@@ -21992,11 +23396,11 @@
       ],
       "status": "integrado",
       "url": "https://www.ine.es/prodyser/cartografia/seccionado_2006.zip",
-      "coverage": "36596 recintos oficiales · 2006",
+      "coverage": "36.596 recintos oficiales · 2006",
       "period": "2006",
       "license": "Seccionado cedido por el Instituto Nacional de Estadística",
       "mode": "local",
-      "notes": "36596 recintos oficiales · 2006",
+      "notes": "36.596 recintos oficiales · 2006",
       "mapAction": "territory:archive-sections-2006",
       "dataFile": "territory/local/secciones-2006.geojson.gz",
       "links": {
@@ -22004,7 +23408,7 @@
       },
       "fields": {
         "Detalle visible": "Desde zoom 10",
-        "Fecha de revisión": "2026-11-13"
+        "Fecha de revisión": "2026-11-14"
       },
       "review": {
         "implementedProductId": "territory:archive-sections-2006",
@@ -22021,11 +23425,11 @@
       ],
       "status": "integrado",
       "url": "https://www.ine.es/prodyser/cartografia/seccionado_2005.zip",
-      "coverage": "36117 recintos oficiales · 2005",
+      "coverage": "36.117 recintos oficiales · 2005",
       "period": "2005",
       "license": "Seccionado cedido por el Instituto Nacional de Estadística",
       "mode": "local",
-      "notes": "36117 recintos oficiales · 2005",
+      "notes": "36.117 recintos oficiales · 2005",
       "mapAction": "territory:archive-sections-2005",
       "dataFile": "territory/local/secciones-2005.geojson.gz",
       "links": {
@@ -22033,7 +23437,7 @@
       },
       "fields": {
         "Detalle visible": "Desde zoom 10",
-        "Fecha de revisión": "2026-11-13"
+        "Fecha de revisión": "2026-11-14"
       },
       "review": {
         "implementedProductId": "territory:archive-sections-2005",
@@ -22050,11 +23454,11 @@
       ],
       "status": "integrado",
       "url": "https://www.ine.es/prodyser/cartografia/seccionado_2004.zip",
-      "coverage": "35957 recintos oficiales · 2004",
+      "coverage": "35.957 recintos oficiales · 2004",
       "period": "2004",
       "license": "Seccionado cedido por el Instituto Nacional de Estadística",
       "mode": "local",
-      "notes": "35957 recintos oficiales · 2004",
+      "notes": "35.957 recintos oficiales · 2004",
       "mapAction": "territory:archive-sections-2004",
       "dataFile": "territory/local/secciones-2004.geojson.gz",
       "links": {
@@ -22062,7 +23466,7 @@
       },
       "fields": {
         "Detalle visible": "Desde zoom 10",
-        "Fecha de revisión": "2026-11-13"
+        "Fecha de revisión": "2026-11-14"
       },
       "review": {
         "implementedProductId": "territory:archive-sections-2004",
@@ -22079,11 +23483,11 @@
       ],
       "status": "integrado",
       "url": "https://www.ine.es/prodyser/cartografia/seccionado_2003.zip",
-      "coverage": "35776 recintos oficiales · 2003",
+      "coverage": "35.776 recintos oficiales · 2003",
       "period": "2003",
       "license": "Seccionado cedido por el Instituto Nacional de Estadística",
       "mode": "local",
-      "notes": "35776 recintos oficiales · 2003",
+      "notes": "35.776 recintos oficiales · 2003",
       "mapAction": "territory:archive-sections-2003",
       "dataFile": "territory/local/secciones-2003.geojson.gz",
       "links": {
@@ -22091,7 +23495,7 @@
       },
       "fields": {
         "Detalle visible": "Desde zoom 10",
-        "Fecha de revisión": "2026-11-13"
+        "Fecha de revisión": "2026-11-14"
       },
       "review": {
         "implementedProductId": "territory:archive-sections-2003",
@@ -22100,32 +23504,872 @@
       }
     },
     {
-      "id": "f01-cnig:limites:2023",
-      "title": "Límites y unidades administrativas históricos · 2023",
+      "id": "f01-cnig:cnig-2023-ll-municipales-histo-peninbal",
+      "title": "Trazados históricos municipales · Península, Baleares y plazas españolas · 2023",
       "sourceId": "F006",
       "categoryIds": [
         "F01"
       ],
-      "status": "bloqueado",
+      "status": "integrado",
       "url": "https://centrodedescargas.cnig.es/CentroDescargas/detalleArchivo?sec=12969663",
-      "coverage": "España",
-      "period": "2023",
-      "license": "CC BY 4.0 · IGN",
-      "notes": "GeoPackage oficial. El portal exige una validación antes de iniciar la descarga."
+      "coverage": "Península, Baleares y plazas españolas",
+      "period": "2023-01-01",
+      "license": "Obra derivada de BDLJE CC-BY 4.0 ign.es",
+      "mode": "local",
+      "notes": "11.510 trazados oficiales · 2023-01-01",
+      "mapAction": "territory:cnig-2023-ll-municipales-histo-peninbal",
+      "dataFile": "territory/local/cnig-2023-ll-municipales-histo-peninbal.geojson.gz",
+      "links": {
+        "Descarga original": "https://centrodedescargas.cnig.es/CentroDescargas/detalleArchivo?sec=12969663"
+      },
+      "fields": {
+        "Detalle visible": "Desde zoom 8",
+        "Fecha de revisión": "2026-11-14",
+        "Tabla GeoPackage": "ll_municipales_histo_inspire_peninbal_etrs89",
+        "Registros": "11510"
+      },
+      "review": {
+        "implementedProductId": "territory:cnig-2023-ll-municipales-histo-peninbal",
+        "updatedAt": "2026-11-14",
+        "reason": "Recuento completo de la tabla oficial. Geometría simplificada para el visor."
+      }
     },
     {
-      "id": "f01-cnig:limites:2024",
-      "title": "Límites y unidades administrativas históricos · 2024",
+      "id": "f01-cnig:cnig-2023-ll-municipales-histo-canarias",
+      "title": "Trazados históricos municipales · Canarias · 2023",
       "sourceId": "F006",
       "categoryIds": [
         "F01"
       ],
-      "status": "bloqueado",
+      "status": "integrado",
+      "url": "https://centrodedescargas.cnig.es/CentroDescargas/detalleArchivo?sec=12969663",
+      "coverage": "Canarias",
+      "period": "2023-01-01",
+      "license": "Obra derivada de BDLJE CC-BY 4.0 ign.es",
+      "mode": "local",
+      "notes": "1050 trazados oficiales · 2023-01-01",
+      "mapAction": "territory:cnig-2023-ll-municipales-histo-canarias",
+      "dataFile": "territory/local/cnig-2023-ll-municipales-histo-canarias.geojson.gz",
+      "links": {
+        "Descarga original": "https://centrodedescargas.cnig.es/CentroDescargas/detalleArchivo?sec=12969663"
+      },
+      "fields": {
+        "Detalle visible": "Desde zoom 8",
+        "Fecha de revisión": "2026-11-14",
+        "Tabla GeoPackage": "ll_municipales_histo_inspire_canarias_wgs84",
+        "Registros": "1050"
+      },
+      "review": {
+        "implementedProductId": "territory:cnig-2023-ll-municipales-histo-canarias",
+        "updatedAt": "2026-11-14",
+        "reason": "Recuento completo de la tabla oficial. Geometría simplificada para el visor."
+      }
+    },
+    {
+      "id": "f01-cnig:cnig-2023-ll-municipales-peninbal",
+      "title": "Líneas municipales · Península, Baleares y plazas españolas · 2023",
+      "sourceId": "F006",
+      "categoryIds": [
+        "F01"
+      ],
+      "status": "integrado",
+      "url": "https://centrodedescargas.cnig.es/CentroDescargas/detalleArchivo?sec=12969663",
+      "coverage": "Península, Baleares y plazas españolas",
+      "period": "2023-01-01",
+      "license": "Obra derivada de BDLJE CC-BY 4.0 ign.es",
+      "mode": "local",
+      "notes": "30.874 trazados oficiales · 2023-01-01",
+      "mapAction": "territory:cnig-2023-ll-municipales-peninbal",
+      "dataFile": "territory/local/cnig-2023-ll-municipales-peninbal.geojson.gz",
+      "links": {
+        "Descarga original": "https://centrodedescargas.cnig.es/CentroDescargas/detalleArchivo?sec=12969663"
+      },
+      "fields": {
+        "Detalle visible": "Desde zoom 7",
+        "Fecha de revisión": "2026-11-14",
+        "Tabla GeoPackage": "ll_municipales_inspire_peninbal_etrs89",
+        "Registros": "30874"
+      },
+      "review": {
+        "implementedProductId": "territory:cnig-2023-ll-municipales-peninbal",
+        "updatedAt": "2026-11-14",
+        "reason": "Recuento completo de la tabla oficial. Geometría simplificada para el visor."
+      }
+    },
+    {
+      "id": "f01-cnig:cnig-2023-ll-municipales-canarias",
+      "title": "Líneas municipales · Canarias · 2023",
+      "sourceId": "F006",
+      "categoryIds": [
+        "F01"
+      ],
+      "status": "integrado",
+      "url": "https://centrodedescargas.cnig.es/CentroDescargas/detalleArchivo?sec=12969663",
+      "coverage": "Canarias",
+      "period": "2023-01-01",
+      "license": "Obra derivada de BDLJE CC-BY 4.0 ign.es",
+      "mode": "local",
+      "notes": "1340 trazados oficiales · 2023-01-01",
+      "mapAction": "territory:cnig-2023-ll-municipales-canarias",
+      "dataFile": "territory/local/cnig-2023-ll-municipales-canarias.geojson.gz",
+      "links": {
+        "Descarga original": "https://centrodedescargas.cnig.es/CentroDescargas/detalleArchivo?sec=12969663"
+      },
+      "fields": {
+        "Detalle visible": "Desde zoom 7",
+        "Fecha de revisión": "2026-11-14",
+        "Tabla GeoPackage": "ll_municipales_inspire_canarias_wgs84",
+        "Registros": "1340"
+      },
+      "review": {
+        "implementedProductId": "territory:cnig-2023-ll-municipales-canarias",
+        "updatedAt": "2026-11-14",
+        "reason": "Recuento completo de la tabla oficial. Geometría simplificada para el visor."
+      }
+    },
+    {
+      "id": "f01-cnig:cnig-2023-ll-provinciales-peninbal",
+      "title": "Líneas provinciales · Península, Baleares y plazas españolas · 2023",
+      "sourceId": "F006",
+      "categoryIds": [
+        "F01"
+      ],
+      "status": "integrado",
+      "url": "https://centrodedescargas.cnig.es/CentroDescargas/detalleArchivo?sec=12969663",
+      "coverage": "Península, Baleares y plazas españolas",
+      "period": "2023-01-01",
+      "license": "Obra derivada de BDLJE CC-BY 4.0 ign.es",
+      "mode": "local",
+      "notes": "4263 trazados oficiales · 2023-01-01",
+      "mapAction": "territory:cnig-2023-ll-provinciales-peninbal",
+      "dataFile": "territory/local/cnig-2023-ll-provinciales-peninbal.geojson.gz",
+      "links": {
+        "Descarga original": "https://centrodedescargas.cnig.es/CentroDescargas/detalleArchivo?sec=12969663"
+      },
+      "fields": {
+        "Detalle visible": "Desde zoom 5",
+        "Fecha de revisión": "2026-11-14",
+        "Tabla GeoPackage": "ll_provinciales_inspire_peninbal_etrs89",
+        "Registros": "4263"
+      },
+      "review": {
+        "implementedProductId": "territory:cnig-2023-ll-provinciales-peninbal",
+        "updatedAt": "2026-11-14",
+        "reason": "Recuento completo de la tabla oficial. Geometría simplificada para el visor."
+      }
+    },
+    {
+      "id": "f01-cnig:cnig-2023-ll-provinciales-canarias",
+      "title": "Líneas provinciales · Canarias · 2023",
+      "sourceId": "F006",
+      "categoryIds": [
+        "F01"
+      ],
+      "status": "integrado",
+      "url": "https://centrodedescargas.cnig.es/CentroDescargas/detalleArchivo?sec=12969663",
+      "coverage": "Canarias",
+      "period": "2023-01-01",
+      "license": "Obra derivada de BDLJE CC-BY 4.0 ign.es",
+      "mode": "local",
+      "notes": "1074 trazados oficiales · 2023-01-01",
+      "mapAction": "territory:cnig-2023-ll-provinciales-canarias",
+      "dataFile": "territory/local/cnig-2023-ll-provinciales-canarias.geojson.gz",
+      "links": {
+        "Descarga original": "https://centrodedescargas.cnig.es/CentroDescargas/detalleArchivo?sec=12969663"
+      },
+      "fields": {
+        "Detalle visible": "Desde zoom 5",
+        "Fecha de revisión": "2026-11-14",
+        "Tabla GeoPackage": "ll_provinciales_inspire_canarias_wgs84",
+        "Registros": "1074"
+      },
+      "review": {
+        "implementedProductId": "territory:cnig-2023-ll-provinciales-canarias",
+        "updatedAt": "2026-11-14",
+        "reason": "Recuento completo de la tabla oficial. Geometría simplificada para el visor."
+      }
+    },
+    {
+      "id": "f01-cnig:cnig-2023-ll-autonomicas-peninbal",
+      "title": "Líneas autonómicas · Península, Baleares y plazas españolas · 2023",
+      "sourceId": "F006",
+      "categoryIds": [
+        "F01"
+      ],
+      "status": "integrado",
+      "url": "https://centrodedescargas.cnig.es/CentroDescargas/detalleArchivo?sec=12969663",
+      "coverage": "Península, Baleares y plazas españolas",
+      "period": "2023-01-01",
+      "license": "Obra derivada de BDLJE CC-BY 4.0 ign.es",
+      "mode": "local",
+      "notes": "4144 trazados oficiales · 2023-01-01",
+      "mapAction": "territory:cnig-2023-ll-autonomicas-peninbal",
+      "dataFile": "territory/local/cnig-2023-ll-autonomicas-peninbal.geojson.gz",
+      "links": {
+        "Descarga original": "https://centrodedescargas.cnig.es/CentroDescargas/detalleArchivo?sec=12969663"
+      },
+      "fields": {
+        "Detalle visible": "Desde zoom 4",
+        "Fecha de revisión": "2026-11-14",
+        "Tabla GeoPackage": "ll_autonomicas_inspire_peninbal_etrs89",
+        "Registros": "4144"
+      },
+      "review": {
+        "implementedProductId": "territory:cnig-2023-ll-autonomicas-peninbal",
+        "updatedAt": "2026-11-14",
+        "reason": "Recuento completo de la tabla oficial. Geometría simplificada para el visor."
+      }
+    },
+    {
+      "id": "f01-cnig:cnig-2023-ll-autonomicas-canarias",
+      "title": "Líneas autonómicas · Canarias · 2023",
+      "sourceId": "F006",
+      "categoryIds": [
+        "F01"
+      ],
+      "status": "integrado",
+      "url": "https://centrodedescargas.cnig.es/CentroDescargas/detalleArchivo?sec=12969663",
+      "coverage": "Canarias",
+      "period": "2023-01-01",
+      "license": "Obra derivada de BDLJE CC-BY 4.0 ign.es",
+      "mode": "local",
+      "notes": "1074 trazados oficiales · 2023-01-01",
+      "mapAction": "territory:cnig-2023-ll-autonomicas-canarias",
+      "dataFile": "territory/local/cnig-2023-ll-autonomicas-canarias.geojson.gz",
+      "links": {
+        "Descarga original": "https://centrodedescargas.cnig.es/CentroDescargas/detalleArchivo?sec=12969663"
+      },
+      "fields": {
+        "Detalle visible": "Desde zoom 4",
+        "Fecha de revisión": "2026-11-14",
+        "Tabla GeoPackage": "ll_autonomicas_inspire_canarias_wgs84",
+        "Registros": "1074"
+      },
+      "review": {
+        "implementedProductId": "territory:cnig-2023-ll-autonomicas-canarias",
+        "updatedAt": "2026-11-14",
+        "reason": "Recuento completo de la tabla oficial. Geometría simplificada para el visor."
+      }
+    },
+    {
+      "id": "f01-cnig:cnig-2023-recintos-municipales-peninbal",
+      "title": "Recintos municipales · Península, Baleares y plazas españolas · 2023",
+      "sourceId": "F006",
+      "categoryIds": [
+        "F01"
+      ],
+      "status": "integrado",
+      "url": "https://centrodedescargas.cnig.es/CentroDescargas/detalleArchivo?sec=12969663",
+      "coverage": "Península, Baleares y plazas españolas",
+      "period": "2023-01-01",
+      "license": "Obra derivada de BDLJE CC-BY 4.0 ign.es",
+      "mode": "local",
+      "notes": "8136 recintos oficiales · 2023-01-01",
+      "mapAction": "territory:cnig-2023-recintos-municipales-peninbal",
+      "dataFile": "territory/local/cnig-2023-recintos-municipales-peninbal.geojson.gz",
+      "links": {
+        "Descarga original": "https://centrodedescargas.cnig.es/CentroDescargas/detalleArchivo?sec=12969663"
+      },
+      "fields": {
+        "Detalle visible": "Desde zoom 7",
+        "Fecha de revisión": "2026-11-14",
+        "Tabla GeoPackage": "recintos_municipales_inspire_peninbal_etrs89",
+        "Registros": "8136"
+      },
+      "review": {
+        "implementedProductId": "territory:cnig-2023-recintos-municipales-peninbal",
+        "updatedAt": "2026-11-14",
+        "reason": "Recuento completo de la tabla oficial. Geometría simplificada para el visor."
+      }
+    },
+    {
+      "id": "f01-cnig:cnig-2023-recintos-municipales-canarias",
+      "title": "Recintos municipales · Canarias · 2023",
+      "sourceId": "F006",
+      "categoryIds": [
+        "F01"
+      ],
+      "status": "integrado",
+      "url": "https://centrodedescargas.cnig.es/CentroDescargas/detalleArchivo?sec=12969663",
+      "coverage": "Canarias",
+      "period": "2023-01-01",
+      "license": "Obra derivada de BDLJE CC-BY 4.0 ign.es",
+      "mode": "local",
+      "notes": "88 recintos oficiales · 2023-01-01",
+      "mapAction": "territory:cnig-2023-recintos-municipales-canarias",
+      "dataFile": "territory/local/cnig-2023-recintos-municipales-canarias.geojson.gz",
+      "links": {
+        "Descarga original": "https://centrodedescargas.cnig.es/CentroDescargas/detalleArchivo?sec=12969663"
+      },
+      "fields": {
+        "Detalle visible": "Desde zoom 7",
+        "Fecha de revisión": "2026-11-14",
+        "Tabla GeoPackage": "recintos_municipales_inspire_canarias_wgs84",
+        "Registros": "88"
+      },
+      "review": {
+        "implementedProductId": "territory:cnig-2023-recintos-municipales-canarias",
+        "updatedAt": "2026-11-14",
+        "reason": "Recuento completo de la tabla oficial. Geometría simplificada para el visor."
+      }
+    },
+    {
+      "id": "f01-cnig:cnig-2023-recintos-provinciales-peninbal",
+      "title": "Recintos provinciales · Península, Baleares y plazas españolas · 2023",
+      "sourceId": "F006",
+      "categoryIds": [
+        "F01"
+      ],
+      "status": "integrado",
+      "url": "https://centrodedescargas.cnig.es/CentroDescargas/detalleArchivo?sec=12969663",
+      "coverage": "Península, Baleares y plazas españolas",
+      "period": "2023-01-01",
+      "license": "Obra derivada de BDLJE CC-BY 4.0 ign.es",
+      "mode": "local",
+      "notes": "51 recintos oficiales · 2023-01-01",
+      "mapAction": "territory:cnig-2023-recintos-provinciales-peninbal",
+      "dataFile": "territory/local/cnig-2023-recintos-provinciales-peninbal.geojson.gz",
+      "links": {
+        "Descarga original": "https://centrodedescargas.cnig.es/CentroDescargas/detalleArchivo?sec=12969663"
+      },
+      "fields": {
+        "Detalle visible": "Desde zoom 5",
+        "Fecha de revisión": "2026-11-14",
+        "Tabla GeoPackage": "recintos_provinciales_inspire_peninbal_etrs89",
+        "Registros": "51"
+      },
+      "review": {
+        "implementedProductId": "territory:cnig-2023-recintos-provinciales-peninbal",
+        "updatedAt": "2026-11-14",
+        "reason": "Recuento completo de la tabla oficial. Geometría simplificada para el visor."
+      }
+    },
+    {
+      "id": "f01-cnig:cnig-2023-recintos-provinciales-canarias",
+      "title": "Recintos provinciales · Canarias · 2023",
+      "sourceId": "F006",
+      "categoryIds": [
+        "F01"
+      ],
+      "status": "integrado",
+      "url": "https://centrodedescargas.cnig.es/CentroDescargas/detalleArchivo?sec=12969663",
+      "coverage": "Canarias",
+      "period": "2023-01-01",
+      "license": "Obra derivada de BDLJE CC-BY 4.0 ign.es",
+      "mode": "local",
+      "notes": "2 recintos oficiales · 2023-01-01",
+      "mapAction": "territory:cnig-2023-recintos-provinciales-canarias",
+      "dataFile": "territory/local/cnig-2023-recintos-provinciales-canarias.geojson.gz",
+      "links": {
+        "Descarga original": "https://centrodedescargas.cnig.es/CentroDescargas/detalleArchivo?sec=12969663"
+      },
+      "fields": {
+        "Detalle visible": "Desde zoom 5",
+        "Fecha de revisión": "2026-11-14",
+        "Tabla GeoPackage": "recintos_provinciales_inspire_canarias_wgs84",
+        "Registros": "2"
+      },
+      "review": {
+        "implementedProductId": "territory:cnig-2023-recintos-provinciales-canarias",
+        "updatedAt": "2026-11-14",
+        "reason": "Recuento completo de la tabla oficial. Geometría simplificada para el visor."
+      }
+    },
+    {
+      "id": "f01-cnig:cnig-2023-recintos-autonomicas-peninbal",
+      "title": "Recintos autonómicos · Península, Baleares y plazas españolas · 2023",
+      "sourceId": "F006",
+      "categoryIds": [
+        "F01"
+      ],
+      "status": "integrado",
+      "url": "https://centrodedescargas.cnig.es/CentroDescargas/detalleArchivo?sec=12969663",
+      "coverage": "Península, Baleares y plazas españolas",
+      "period": "2023-01-01",
+      "license": "Obra derivada de BDLJE CC-BY 4.0 ign.es",
+      "mode": "local",
+      "notes": "19 recintos oficiales · 2023-01-01",
+      "mapAction": "territory:cnig-2023-recintos-autonomicas-peninbal",
+      "dataFile": "territory/local/cnig-2023-recintos-autonomicas-peninbal.geojson.gz",
+      "links": {
+        "Descarga original": "https://centrodedescargas.cnig.es/CentroDescargas/detalleArchivo?sec=12969663"
+      },
+      "fields": {
+        "Detalle visible": "Desde zoom 4",
+        "Fecha de revisión": "2026-11-14",
+        "Tabla GeoPackage": "recintos_autonomicas_inspire_peninbal_etrs89",
+        "Registros": "19"
+      },
+      "review": {
+        "implementedProductId": "territory:cnig-2023-recintos-autonomicas-peninbal",
+        "updatedAt": "2026-11-14",
+        "reason": "Recuento completo de la tabla oficial. Geometría simplificada para el visor."
+      }
+    },
+    {
+      "id": "f01-cnig:cnig-2023-recintos-autonomicas-canarias",
+      "title": "Recintos autonómicos · Canarias · 2023",
+      "sourceId": "F006",
+      "categoryIds": [
+        "F01"
+      ],
+      "status": "integrado",
+      "url": "https://centrodedescargas.cnig.es/CentroDescargas/detalleArchivo?sec=12969663",
+      "coverage": "Canarias",
+      "period": "2023-01-01",
+      "license": "Obra derivada de BDLJE CC-BY 4.0 ign.es",
+      "mode": "local",
+      "notes": "1 recintos oficiales · 2023-01-01",
+      "mapAction": "territory:cnig-2023-recintos-autonomicas-canarias",
+      "dataFile": "territory/local/cnig-2023-recintos-autonomicas-canarias.geojson.gz",
+      "links": {
+        "Descarga original": "https://centrodedescargas.cnig.es/CentroDescargas/detalleArchivo?sec=12969663"
+      },
+      "fields": {
+        "Detalle visible": "Desde zoom 4",
+        "Fecha de revisión": "2026-11-14",
+        "Tabla GeoPackage": "recintos_autonomicas_inspire_canarias_wgs84",
+        "Registros": "1"
+      },
+      "review": {
+        "implementedProductId": "territory:cnig-2023-recintos-autonomicas-canarias",
+        "updatedAt": "2026-11-14",
+        "reason": "Recuento completo de la tabla oficial. Geometría simplificada para el visor."
+      }
+    },
+    {
+      "id": "f01-cnig:cnig-2024-ll-municipales-histo-peninbal",
+      "title": "Trazados históricos municipales · Península, Baleares y plazas españolas · 2024",
+      "sourceId": "F006",
+      "categoryIds": [
+        "F01"
+      ],
+      "status": "integrado",
       "url": "https://centrodedescargas.cnig.es/CentroDescargas/detalleArchivo?sec=12969664",
-      "coverage": "España",
-      "period": "2024",
-      "license": "CC BY 4.0 · IGN",
-      "notes": "GeoPackage oficial. El portal exige una validación antes de iniciar la descarga."
+      "coverage": "Península, Baleares y plazas españolas",
+      "period": "2024-01-01",
+      "license": "Obra derivada de BDLJE CC-BY 4.0 ign.es",
+      "mode": "local",
+      "notes": "12.486 trazados oficiales · 2024-01-01",
+      "mapAction": "territory:cnig-2024-ll-municipales-histo-peninbal",
+      "dataFile": "territory/local/cnig-2024-ll-municipales-histo-peninbal.geojson.gz",
+      "links": {
+        "Descarga original": "https://centrodedescargas.cnig.es/CentroDescargas/detalleArchivo?sec=12969664"
+      },
+      "fields": {
+        "Detalle visible": "Desde zoom 8",
+        "Fecha de revisión": "2026-11-14",
+        "Tabla GeoPackage": "ll_municipales_histo_inspire_peninbal_etrs89",
+        "Registros": "12486"
+      },
+      "review": {
+        "implementedProductId": "territory:cnig-2024-ll-municipales-histo-peninbal",
+        "updatedAt": "2026-11-14",
+        "reason": "Recuento completo de la tabla oficial. Geometría simplificada para el visor."
+      }
+    },
+    {
+      "id": "f01-cnig:cnig-2024-ll-municipales-histo-canarias",
+      "title": "Trazados históricos municipales · Canarias · 2024",
+      "sourceId": "F006",
+      "categoryIds": [
+        "F01"
+      ],
+      "status": "integrado",
+      "url": "https://centrodedescargas.cnig.es/CentroDescargas/detalleArchivo?sec=12969664",
+      "coverage": "Canarias",
+      "period": "2024-01-01",
+      "license": "Obra derivada de BDLJE CC-BY 4.0 ign.es",
+      "mode": "local",
+      "notes": "1050 trazados oficiales · 2024-01-01",
+      "mapAction": "territory:cnig-2024-ll-municipales-histo-canarias",
+      "dataFile": "territory/local/cnig-2024-ll-municipales-histo-canarias.geojson.gz",
+      "links": {
+        "Descarga original": "https://centrodedescargas.cnig.es/CentroDescargas/detalleArchivo?sec=12969664"
+      },
+      "fields": {
+        "Detalle visible": "Desde zoom 8",
+        "Fecha de revisión": "2026-11-14",
+        "Tabla GeoPackage": "ll_municipales_histo_inspire_canarias_wgs84",
+        "Registros": "1050"
+      },
+      "review": {
+        "implementedProductId": "territory:cnig-2024-ll-municipales-histo-canarias",
+        "updatedAt": "2026-11-14",
+        "reason": "Recuento completo de la tabla oficial. Geometría simplificada para el visor."
+      }
+    },
+    {
+      "id": "f01-cnig:cnig-2024-ll-municipales-peninbal",
+      "title": "Líneas municipales · Península, Baleares y plazas españolas · 2024",
+      "sourceId": "F006",
+      "categoryIds": [
+        "F01"
+      ],
+      "status": "integrado",
+      "url": "https://centrodedescargas.cnig.es/CentroDescargas/detalleArchivo?sec=12969664",
+      "coverage": "Península, Baleares y plazas españolas",
+      "period": "2024-01-01",
+      "license": "Obra derivada de BDLJE CC-BY 4.0 ign.es",
+      "mode": "local",
+      "notes": "30.923 trazados oficiales · 2024-01-01",
+      "mapAction": "territory:cnig-2024-ll-municipales-peninbal",
+      "dataFile": "territory/local/cnig-2024-ll-municipales-peninbal.geojson.gz",
+      "links": {
+        "Descarga original": "https://centrodedescargas.cnig.es/CentroDescargas/detalleArchivo?sec=12969664"
+      },
+      "fields": {
+        "Detalle visible": "Desde zoom 7",
+        "Fecha de revisión": "2026-11-14",
+        "Tabla GeoPackage": "ll_municipales_inspire_peninbal_etrs89",
+        "Registros": "30923"
+      },
+      "review": {
+        "implementedProductId": "territory:cnig-2024-ll-municipales-peninbal",
+        "updatedAt": "2026-11-14",
+        "reason": "Recuento completo de la tabla oficial. Geometría simplificada para el visor."
+      }
+    },
+    {
+      "id": "f01-cnig:cnig-2024-ll-municipales-canarias",
+      "title": "Líneas municipales · Canarias · 2024",
+      "sourceId": "F006",
+      "categoryIds": [
+        "F01"
+      ],
+      "status": "integrado",
+      "url": "https://centrodedescargas.cnig.es/CentroDescargas/detalleArchivo?sec=12969664",
+      "coverage": "Canarias",
+      "period": "2024-01-01",
+      "license": "Obra derivada de BDLJE CC-BY 4.0 ign.es",
+      "mode": "local",
+      "notes": "1340 trazados oficiales · 2024-01-01",
+      "mapAction": "territory:cnig-2024-ll-municipales-canarias",
+      "dataFile": "territory/local/cnig-2024-ll-municipales-canarias.geojson.gz",
+      "links": {
+        "Descarga original": "https://centrodedescargas.cnig.es/CentroDescargas/detalleArchivo?sec=12969664"
+      },
+      "fields": {
+        "Detalle visible": "Desde zoom 7",
+        "Fecha de revisión": "2026-11-14",
+        "Tabla GeoPackage": "ll_municipales_inspire_canarias_wgs84",
+        "Registros": "1340"
+      },
+      "review": {
+        "implementedProductId": "territory:cnig-2024-ll-municipales-canarias",
+        "updatedAt": "2026-11-14",
+        "reason": "Recuento completo de la tabla oficial. Geometría simplificada para el visor."
+      }
+    },
+    {
+      "id": "f01-cnig:cnig-2024-ll-provinciales-peninbal",
+      "title": "Líneas provinciales · Península, Baleares y plazas españolas · 2024",
+      "sourceId": "F006",
+      "categoryIds": [
+        "F01"
+      ],
+      "status": "integrado",
+      "url": "https://centrodedescargas.cnig.es/CentroDescargas/detalleArchivo?sec=12969664",
+      "coverage": "Península, Baleares y plazas españolas",
+      "period": "2024-01-01",
+      "license": "Obra derivada de BDLJE CC-BY 4.0 ign.es",
+      "mode": "local",
+      "notes": "4263 trazados oficiales · 2024-01-01",
+      "mapAction": "territory:cnig-2024-ll-provinciales-peninbal",
+      "dataFile": "territory/local/cnig-2024-ll-provinciales-peninbal.geojson.gz",
+      "links": {
+        "Descarga original": "https://centrodedescargas.cnig.es/CentroDescargas/detalleArchivo?sec=12969664"
+      },
+      "fields": {
+        "Detalle visible": "Desde zoom 5",
+        "Fecha de revisión": "2026-11-14",
+        "Tabla GeoPackage": "ll_provinciales_inspire_peninbal_etrs89",
+        "Registros": "4263"
+      },
+      "review": {
+        "implementedProductId": "territory:cnig-2024-ll-provinciales-peninbal",
+        "updatedAt": "2026-11-14",
+        "reason": "Recuento completo de la tabla oficial. Geometría simplificada para el visor."
+      }
+    },
+    {
+      "id": "f01-cnig:cnig-2024-ll-provinciales-canarias",
+      "title": "Líneas provinciales · Canarias · 2024",
+      "sourceId": "F006",
+      "categoryIds": [
+        "F01"
+      ],
+      "status": "integrado",
+      "url": "https://centrodedescargas.cnig.es/CentroDescargas/detalleArchivo?sec=12969664",
+      "coverage": "Canarias",
+      "period": "2024-01-01",
+      "license": "Obra derivada de BDLJE CC-BY 4.0 ign.es",
+      "mode": "local",
+      "notes": "1074 trazados oficiales · 2024-01-01",
+      "mapAction": "territory:cnig-2024-ll-provinciales-canarias",
+      "dataFile": "territory/local/cnig-2024-ll-provinciales-canarias.geojson.gz",
+      "links": {
+        "Descarga original": "https://centrodedescargas.cnig.es/CentroDescargas/detalleArchivo?sec=12969664"
+      },
+      "fields": {
+        "Detalle visible": "Desde zoom 5",
+        "Fecha de revisión": "2026-11-14",
+        "Tabla GeoPackage": "ll_provinciales_inspire_canarias_wgs84",
+        "Registros": "1074"
+      },
+      "review": {
+        "implementedProductId": "territory:cnig-2024-ll-provinciales-canarias",
+        "updatedAt": "2026-11-14",
+        "reason": "Recuento completo de la tabla oficial. Geometría simplificada para el visor."
+      }
+    },
+    {
+      "id": "f01-cnig:cnig-2024-ll-autonomicas-peninbal",
+      "title": "Líneas autonómicas · Península, Baleares y plazas españolas · 2024",
+      "sourceId": "F006",
+      "categoryIds": [
+        "F01"
+      ],
+      "status": "integrado",
+      "url": "https://centrodedescargas.cnig.es/CentroDescargas/detalleArchivo?sec=12969664",
+      "coverage": "Península, Baleares y plazas españolas",
+      "period": "2024-01-01",
+      "license": "Obra derivada de BDLJE CC-BY 4.0 ign.es",
+      "mode": "local",
+      "notes": "4144 trazados oficiales · 2024-01-01",
+      "mapAction": "territory:cnig-2024-ll-autonomicas-peninbal",
+      "dataFile": "territory/local/cnig-2024-ll-autonomicas-peninbal.geojson.gz",
+      "links": {
+        "Descarga original": "https://centrodedescargas.cnig.es/CentroDescargas/detalleArchivo?sec=12969664"
+      },
+      "fields": {
+        "Detalle visible": "Desde zoom 4",
+        "Fecha de revisión": "2026-11-14",
+        "Tabla GeoPackage": "ll_autonomicas_inspire_peninbal_etrs89",
+        "Registros": "4144"
+      },
+      "review": {
+        "implementedProductId": "territory:cnig-2024-ll-autonomicas-peninbal",
+        "updatedAt": "2026-11-14",
+        "reason": "Recuento completo de la tabla oficial. Geometría simplificada para el visor."
+      }
+    },
+    {
+      "id": "f01-cnig:cnig-2024-ll-autonomicas-canarias",
+      "title": "Líneas autonómicas · Canarias · 2024",
+      "sourceId": "F006",
+      "categoryIds": [
+        "F01"
+      ],
+      "status": "integrado",
+      "url": "https://centrodedescargas.cnig.es/CentroDescargas/detalleArchivo?sec=12969664",
+      "coverage": "Canarias",
+      "period": "2024-01-01",
+      "license": "Obra derivada de BDLJE CC-BY 4.0 ign.es",
+      "mode": "local",
+      "notes": "1074 trazados oficiales · 2024-01-01",
+      "mapAction": "territory:cnig-2024-ll-autonomicas-canarias",
+      "dataFile": "territory/local/cnig-2024-ll-autonomicas-canarias.geojson.gz",
+      "links": {
+        "Descarga original": "https://centrodedescargas.cnig.es/CentroDescargas/detalleArchivo?sec=12969664"
+      },
+      "fields": {
+        "Detalle visible": "Desde zoom 4",
+        "Fecha de revisión": "2026-11-14",
+        "Tabla GeoPackage": "ll_autonomicas_inspire_canarias_wgs84",
+        "Registros": "1074"
+      },
+      "review": {
+        "implementedProductId": "territory:cnig-2024-ll-autonomicas-canarias",
+        "updatedAt": "2026-11-14",
+        "reason": "Recuento completo de la tabla oficial. Geometría simplificada para el visor."
+      }
+    },
+    {
+      "id": "f01-cnig:cnig-2024-recintos-municipales-peninbal",
+      "title": "Recintos municipales · Península, Baleares y plazas españolas · 2024",
+      "sourceId": "F006",
+      "categoryIds": [
+        "F01"
+      ],
+      "status": "integrado",
+      "url": "https://centrodedescargas.cnig.es/CentroDescargas/detalleArchivo?sec=12969664",
+      "coverage": "Península, Baleares y plazas españolas",
+      "period": "2024-01-01",
+      "license": "Obra derivada de BDLJE CC-BY 4.0 ign.es",
+      "mode": "local",
+      "notes": "8130 recintos oficiales · 2024-01-01",
+      "mapAction": "territory:cnig-2024-recintos-municipales-peninbal",
+      "dataFile": "territory/local/cnig-2024-recintos-municipales-peninbal.geojson.gz",
+      "links": {
+        "Descarga original": "https://centrodedescargas.cnig.es/CentroDescargas/detalleArchivo?sec=12969664"
+      },
+      "fields": {
+        "Detalle visible": "Desde zoom 7",
+        "Fecha de revisión": "2026-11-14",
+        "Tabla GeoPackage": "recintos_municipales_inspire_peninbal_etrs89",
+        "Registros": "8130"
+      },
+      "review": {
+        "implementedProductId": "territory:cnig-2024-recintos-municipales-peninbal",
+        "updatedAt": "2026-11-14",
+        "reason": "Recuento completo de la tabla oficial. Geometría simplificada para el visor."
+      }
+    },
+    {
+      "id": "f01-cnig:cnig-2024-recintos-municipales-canarias",
+      "title": "Recintos municipales · Canarias · 2024",
+      "sourceId": "F006",
+      "categoryIds": [
+        "F01"
+      ],
+      "status": "integrado",
+      "url": "https://centrodedescargas.cnig.es/CentroDescargas/detalleArchivo?sec=12969664",
+      "coverage": "Canarias",
+      "period": "2024-01-01",
+      "license": "Obra derivada de BDLJE CC-BY 4.0 ign.es",
+      "mode": "local",
+      "notes": "88 recintos oficiales · 2024-01-01",
+      "mapAction": "territory:cnig-2024-recintos-municipales-canarias",
+      "dataFile": "territory/local/cnig-2024-recintos-municipales-canarias.geojson.gz",
+      "links": {
+        "Descarga original": "https://centrodedescargas.cnig.es/CentroDescargas/detalleArchivo?sec=12969664"
+      },
+      "fields": {
+        "Detalle visible": "Desde zoom 7",
+        "Fecha de revisión": "2026-11-14",
+        "Tabla GeoPackage": "recintos_municipales_inspire_canarias_wgs84",
+        "Registros": "88"
+      },
+      "review": {
+        "implementedProductId": "territory:cnig-2024-recintos-municipales-canarias",
+        "updatedAt": "2026-11-14",
+        "reason": "Recuento completo de la tabla oficial. Geometría simplificada para el visor."
+      }
+    },
+    {
+      "id": "f01-cnig:cnig-2024-recintos-provinciales-peninbal",
+      "title": "Recintos provinciales · Península, Baleares y plazas españolas · 2024",
+      "sourceId": "F006",
+      "categoryIds": [
+        "F01"
+      ],
+      "status": "integrado",
+      "url": "https://centrodedescargas.cnig.es/CentroDescargas/detalleArchivo?sec=12969664",
+      "coverage": "Península, Baleares y plazas españolas",
+      "period": "2024-01-01",
+      "license": "Obra derivada de BDLJE CC-BY 4.0 ign.es",
+      "mode": "local",
+      "notes": "52 recintos oficiales · 2024-01-01",
+      "mapAction": "territory:cnig-2024-recintos-provinciales-peninbal",
+      "dataFile": "territory/local/cnig-2024-recintos-provinciales-peninbal.geojson.gz",
+      "links": {
+        "Descarga original": "https://centrodedescargas.cnig.es/CentroDescargas/detalleArchivo?sec=12969664"
+      },
+      "fields": {
+        "Detalle visible": "Desde zoom 5",
+        "Fecha de revisión": "2026-11-14",
+        "Tabla GeoPackage": "recintos_provinciales_inspire_peninbal_etrs89",
+        "Registros": "52"
+      },
+      "review": {
+        "implementedProductId": "territory:cnig-2024-recintos-provinciales-peninbal",
+        "updatedAt": "2026-11-14",
+        "reason": "Recuento completo de la tabla oficial. Geometría simplificada para el visor."
+      }
+    },
+    {
+      "id": "f01-cnig:cnig-2024-recintos-provinciales-canarias",
+      "title": "Recintos provinciales · Canarias · 2024",
+      "sourceId": "F006",
+      "categoryIds": [
+        "F01"
+      ],
+      "status": "integrado",
+      "url": "https://centrodedescargas.cnig.es/CentroDescargas/detalleArchivo?sec=12969664",
+      "coverage": "Canarias",
+      "period": "2024-01-01",
+      "license": "Obra derivada de BDLJE CC-BY 4.0 ign.es",
+      "mode": "local",
+      "notes": "2 recintos oficiales · 2024-01-01",
+      "mapAction": "territory:cnig-2024-recintos-provinciales-canarias",
+      "dataFile": "territory/local/cnig-2024-recintos-provinciales-canarias.geojson.gz",
+      "links": {
+        "Descarga original": "https://centrodedescargas.cnig.es/CentroDescargas/detalleArchivo?sec=12969664"
+      },
+      "fields": {
+        "Detalle visible": "Desde zoom 5",
+        "Fecha de revisión": "2026-11-14",
+        "Tabla GeoPackage": "recintos_provinciales_inspire_canarias_wgs84",
+        "Registros": "2"
+      },
+      "review": {
+        "implementedProductId": "territory:cnig-2024-recintos-provinciales-canarias",
+        "updatedAt": "2026-11-14",
+        "reason": "Recuento completo de la tabla oficial. Geometría simplificada para el visor."
+      }
+    },
+    {
+      "id": "f01-cnig:cnig-2024-recintos-autonomicas-peninbal",
+      "title": "Recintos autonómicos · Península, Baleares y plazas españolas · 2024",
+      "sourceId": "F006",
+      "categoryIds": [
+        "F01"
+      ],
+      "status": "integrado",
+      "url": "https://centrodedescargas.cnig.es/CentroDescargas/detalleArchivo?sec=12969664",
+      "coverage": "Península, Baleares y plazas españolas",
+      "period": "2024-01-01",
+      "license": "Obra derivada de BDLJE CC-BY 4.0 ign.es",
+      "mode": "local",
+      "notes": "20 recintos oficiales · 2024-01-01",
+      "mapAction": "territory:cnig-2024-recintos-autonomicas-peninbal",
+      "dataFile": "territory/local/cnig-2024-recintos-autonomicas-peninbal.geojson.gz",
+      "links": {
+        "Descarga original": "https://centrodedescargas.cnig.es/CentroDescargas/detalleArchivo?sec=12969664"
+      },
+      "fields": {
+        "Detalle visible": "Desde zoom 4",
+        "Fecha de revisión": "2026-11-14",
+        "Tabla GeoPackage": "recintos_autonomicas_inspire_peninbal_etrs89",
+        "Registros": "20"
+      },
+      "review": {
+        "implementedProductId": "territory:cnig-2024-recintos-autonomicas-peninbal",
+        "updatedAt": "2026-11-14",
+        "reason": "Recuento completo de la tabla oficial. Geometría simplificada para el visor."
+      }
+    },
+    {
+      "id": "f01-cnig:cnig-2024-recintos-autonomicas-canarias",
+      "title": "Recintos autonómicos · Canarias · 2024",
+      "sourceId": "F006",
+      "categoryIds": [
+        "F01"
+      ],
+      "status": "integrado",
+      "url": "https://centrodedescargas.cnig.es/CentroDescargas/detalleArchivo?sec=12969664",
+      "coverage": "Canarias",
+      "period": "2024-01-01",
+      "license": "Obra derivada de BDLJE CC-BY 4.0 ign.es",
+      "mode": "local",
+      "notes": "1 recintos oficiales · 2024-01-01",
+      "mapAction": "territory:cnig-2024-recintos-autonomicas-canarias",
+      "dataFile": "territory/local/cnig-2024-recintos-autonomicas-canarias.geojson.gz",
+      "links": {
+        "Descarga original": "https://centrodedescargas.cnig.es/CentroDescargas/detalleArchivo?sec=12969664"
+      },
+      "fields": {
+        "Detalle visible": "Desde zoom 4",
+        "Fecha de revisión": "2026-11-14",
+        "Tabla GeoPackage": "recintos_autonomicas_inspire_canarias_wgs84",
+        "Registros": "1"
+      },
+      "review": {
+        "implementedProductId": "territory:cnig-2024-recintos-autonomicas-canarias",
+        "updatedAt": "2026-11-14",
+        "reason": "Recuento completo de la tabla oficial. Geometría simplificada para el visor."
+      }
     },
     {
       "title": "Callejero",
@@ -41640,12 +43884,18 @@
         "Servicio": "Ortofoto de Galicia 2002-2003",
         "Familia": "Ortofotos y fotografía aérea",
         "Nombre de capa": "3",
-        "Consulta de atributos": "Anunciada por el servicio"
+        "Consulta de atributos": "Ver servicio WMS original"
       },
       "id": "f01-directory:idee-90439e4fb3404f7-4e07408562be",
-      "status": "bloqueado",
-      "license": null,
-      "notes": "The read operation timed out"
+      "status": "integrado",
+      "mapAction": "official-wms:idee-90439e4fb3404f7-4e07408562be",
+      "license": "Condiciones del organismo publicador",
+      "notes": "Ortofotos y fotografía aérea · capa verificada mediante petición de mapa.",
+      "review": {
+        "implementedProductId": "territory:directory:idee-90439e4fb3404f7-4e07408562be",
+        "updatedAt": "2026-11-14",
+        "reason": "Petición GetMap verificada para esta capa y origen."
+      }
     },
     {
       "title": "Imagen",
@@ -41908,12 +44158,18 @@
         "Servicio": "Ortofoto de Galicia 2011",
         "Familia": "Ortofotos y fotografía aérea",
         "Nombre de capa": "2",
-        "Consulta de atributos": "Anunciada por el servicio"
+        "Consulta de atributos": "Ver servicio WMS original"
       },
       "id": "f01-directory:idee-781498996b93e21-d4735e3a265e",
-      "status": "bloqueado",
-      "license": null,
-      "notes": "The read operation timed out"
+      "status": "integrado",
+      "mapAction": "official-wms:idee-781498996b93e21-d4735e3a265e",
+      "license": "Condiciones del organismo publicador",
+      "notes": "Ortofotos y fotografía aérea · capa verificada mediante petición de mapa.",
+      "review": {
+        "implementedProductId": "territory:directory:idee-781498996b93e21-d4735e3a265e",
+        "updatedAt": "2026-11-14",
+        "reason": "Petición GetMap verificada para esta capa y origen."
+      }
     },
     {
       "title": "Demarcación",
@@ -43379,7 +45635,7 @@
       "id": "f01-directory:idee-053420eaf275a47-9178ab1f049c",
       "status": "bloqueado",
       "license": null,
-      "notes": "GetMap no devuelve PNG"
+      "notes": "The read operation timed out"
     },
     {
       "title": "MT_1995_E5M_A_T",
@@ -43399,7 +45655,7 @@
       "id": "f01-directory:idee-053420eaf275a47-68f926404722",
       "status": "bloqueado",
       "license": null,
-      "notes": "GetMap no devuelve PNG"
+      "notes": "The read operation timed out"
     },
     {
       "title": "MT_1995_E25M_P_PG",
@@ -43523,7 +45779,7 @@
       "id": "f01-directory:idee-053420eaf275a47-da649c161f84",
       "status": "bloqueado",
       "license": null,
-      "notes": "GetMap no devuelve PNG"
+      "notes": "The read operation timed out"
     },
     {
       "title": "MT_1995_E25M_A_T",
@@ -43543,7 +45799,7 @@
       "id": "f01-directory:idee-053420eaf275a47-2c3aade838d0",
       "status": "bloqueado",
       "license": null,
-      "notes": "GetMap no devuelve PNG"
+      "notes": "The read operation timed out"
     },
     {
       "id": "f01-directory:idee-7a4f3788c7014a2",
@@ -43661,7 +45917,7 @@
       "url": "https://ogc.larioja.org/wms/callejerodelarioja/request.php",
       "coverage": "La Rioja",
       "license": null,
-      "notes": "HTTP Error 522: <none>",
+      "notes": "HTTP Error 404: Not Found",
       "fields": {
         "Servicio": "Callejero de La Rioja: Información de viales y direcciones supervisada por los Ayuntamientos",
         "Familia": "Cartografía base y toponimia"
@@ -43728,7 +45984,7 @@
       "coverage": "País Vasco / Euskadi",
       "period": "Según el producto original",
       "fields": {
-        "Servicio": "Cartografía Básica",
+        "Servicio": "Cartografía base y callejero NORA · geoEuskadi",
         "Familia": "Relieve y elevaciones",
         "Nombre de capa": "CART_DERIV_SOMBRAS",
         "Consulta de atributos": "Anunciada por el servicio"
@@ -43754,7 +46010,7 @@
       "coverage": "País Vasco / Euskadi",
       "period": "Según el producto original",
       "fields": {
-        "Servicio": "Cartografía Básica",
+        "Servicio": "Cartografía base y callejero NORA · geoEuskadi",
         "Familia": "Relieve y elevaciones",
         "Nombre de capa": "CART_DERIV_PENDIENTES_R",
         "Consulta de atributos": "Anunciada por el servicio"
@@ -43780,7 +46036,7 @@
       "coverage": "País Vasco / Euskadi",
       "period": "Según el producto original",
       "fields": {
-        "Servicio": "Cartografía Básica",
+        "Servicio": "Cartografía base y callejero NORA · geoEuskadi",
         "Familia": "Relieve y elevaciones",
         "Nombre de capa": "CART_DERIV_ORIENTACIONES_R",
         "Consulta de atributos": "Anunciada por el servicio"
@@ -43806,7 +46062,7 @@
       "coverage": "País Vasco / Euskadi",
       "period": "Según el producto original",
       "fields": {
-        "Servicio": "Cartografía Básica",
+        "Servicio": "Cartografía base y callejero NORA · geoEuskadi",
         "Familia": "Relieve y elevaciones",
         "Nombre de capa": "CART_DERIV_FONDO_HIPSOMETRICO",
         "Consulta de atributos": "Anunciada por el servicio"
@@ -43832,7 +46088,7 @@
       "coverage": "País Vasco / Euskadi",
       "period": "Según el producto original",
       "fields": {
-        "Servicio": "Cartografía Básica",
+        "Servicio": "Cartografía base y callejero NORA · geoEuskadi",
         "Familia": "Divisiones territoriales",
         "Nombre de capa": "RED_TRANS_TXT_COMARCAL",
         "Consulta de atributos": "Anunciada por el servicio"
@@ -43849,6 +46105,58 @@
       }
     },
     {
+      "title": "Atariak / Portales",
+      "sourceId": "F166",
+      "categoryIds": [
+        "F01"
+      ],
+      "url": "https://www.geo.euskadi.eus/WMS_KARTOGRAFIA?SERVICE=WMS&REQUEST=GetCapabilities&VERSION=1.3.0",
+      "coverage": "País Vasco / Euskadi",
+      "period": "Según el producto original",
+      "fields": {
+        "Servicio": "Cartografía base y callejero NORA · geoEuskadi",
+        "Familia": "Cartografía base y toponimia",
+        "Nombre de capa": "CAL_PORTALES",
+        "Consulta de atributos": "Anunciada por el servicio"
+      },
+      "id": "f01-directory:idee-7a7af293eeec7d7-a113167e8a72",
+      "status": "integrado",
+      "mapAction": "official-wms:idee-7a7af293eeec7d7-a113167e8a72",
+      "license": "Condiciones del organismo publicador",
+      "notes": "Cartografía base y toponimia · capa verificada mediante petición de mapa.",
+      "review": {
+        "implementedProductId": "territory:directory:idee-7a7af293eeec7d7-a113167e8a72",
+        "updatedAt": "2026-11-14",
+        "reason": "Petición GetMap verificada para esta capa y origen."
+      }
+    },
+    {
+      "title": "Kaleak / Calles",
+      "sourceId": "F166",
+      "categoryIds": [
+        "F01"
+      ],
+      "url": "https://www.geo.euskadi.eus/WMS_KARTOGRAFIA?SERVICE=WMS&REQUEST=GetCapabilities&VERSION=1.3.0",
+      "coverage": "País Vasco / Euskadi",
+      "period": "Según el producto original",
+      "fields": {
+        "Servicio": "Cartografía base y callejero NORA · geoEuskadi",
+        "Familia": "Cartografía base y toponimia",
+        "Nombre de capa": "CAL_CALLES",
+        "Consulta de atributos": "Anunciada por el servicio"
+      },
+      "id": "f01-directory:idee-7a7af293eeec7d7-47a2c55e1043",
+      "status": "integrado",
+      "mapAction": "official-wms:idee-7a7af293eeec7d7-47a2c55e1043",
+      "license": "Condiciones del organismo publicador",
+      "notes": "Cartografía base y toponimia · capa verificada mediante petición de mapa.",
+      "review": {
+        "implementedProductId": "territory:directory:idee-7a7af293eeec7d7-47a2c55e1043",
+        "updatedAt": "2026-11-14",
+        "reason": "Petición GetMap verificada para esta capa y origen."
+      }
+    },
+    {
       "title": "Sestra kurbaren testua (Marren arteko tartea 25m) / Textos de las curvas de nivel (Eq.25m)",
       "sourceId": "F166",
       "categoryIds": [
@@ -43858,7 +46166,7 @@
       "coverage": "País Vasco / Euskadi",
       "period": "Según el producto original",
       "fields": {
-        "Servicio": "Cartografía Básica",
+        "Servicio": "Cartografía base y callejero NORA · geoEuskadi",
         "Familia": "Relieve y elevaciones",
         "Nombre de capa": "REL_TEXTO_CURVA_25M",
         "Consulta de atributos": "Anunciada por el servicio"
@@ -43884,7 +46192,7 @@
       "coverage": "País Vasco / Euskadi",
       "period": "Según el producto original",
       "fields": {
-        "Servicio": "Cartografía Básica",
+        "Servicio": "Cartografía base y callejero NORA · geoEuskadi",
         "Familia": "Relieve y elevaciones",
         "Nombre de capa": "REL_TEXTO_CURVA_100M",
         "Consulta de atributos": "Anunciada por el servicio"
@@ -45925,6 +48233,474 @@
       "notes": "Divisiones territoriales · capa verificada mediante petición de mapa.",
       "review": {
         "implementedProductId": "territory:directory:idee-f5655b90c8a5a1b-da041be635bf",
+        "updatedAt": "2026-11-14",
+        "reason": "Petición GetMap verificada para esta capa y origen."
+      }
+    },
+    {
+      "title": "Modelo Digital del Terreno 2016 (colores hipsométricos)",
+      "sourceId": "F151",
+      "categoryIds": [
+        "F01"
+      ],
+      "url": "https://www.ideandalucia.es/wms/mdt_2016?SERVICE=WMS&REQUEST=GetCapabilities&VERSION=1.3.0",
+      "coverage": "Andalucía",
+      "period": "Según el producto original",
+      "fields": {
+        "Servicio": "Modelo digital del terreno 2016 · IECA",
+        "Familia": "Relieve y elevaciones",
+        "Nombre de capa": "modelo_digital_terreno_2016_color",
+        "Consulta de atributos": "Sin consulta anunciada"
+      },
+      "id": "f01-directory:idee-3b18f8e21b1b6f4-75ee40ca76fd",
+      "status": "integrado",
+      "mapAction": "official-wms:idee-3b18f8e21b1b6f4-75ee40ca76fd",
+      "license": "Condiciones del organismo publicador",
+      "notes": "Relieve y elevaciones · capa verificada mediante petición de mapa.",
+      "review": {
+        "implementedProductId": "territory:directory:idee-3b18f8e21b1b6f4-75ee40ca76fd",
+        "updatedAt": "2026-11-14",
+        "reason": "Petición GetMap verificada para esta capa y origen."
+      }
+    },
+    {
+      "title": "Modelo Digital del Terreno 2016 (escala de grises)",
+      "sourceId": "F151",
+      "categoryIds": [
+        "F01"
+      ],
+      "url": "https://www.ideandalucia.es/wms/mdt_2016?SERVICE=WMS&REQUEST=GetCapabilities&VERSION=1.3.0",
+      "coverage": "Andalucía",
+      "period": "Según el producto original",
+      "fields": {
+        "Servicio": "Modelo digital del terreno 2016 · IECA",
+        "Familia": "Relieve y elevaciones",
+        "Nombre de capa": "modelo_digital_terreno_2016_escala_grises",
+        "Consulta de atributos": "Sin consulta anunciada"
+      },
+      "id": "f01-directory:idee-3b18f8e21b1b6f4-62026bf97c2f",
+      "status": "integrado",
+      "mapAction": "official-wms:idee-3b18f8e21b1b6f4-62026bf97c2f",
+      "license": "Condiciones del organismo publicador",
+      "notes": "Relieve y elevaciones · capa verificada mediante petición de mapa.",
+      "review": {
+        "implementedProductId": "territory:directory:idee-3b18f8e21b1b6f4-62026bf97c2f",
+        "updatedAt": "2026-11-14",
+        "reason": "Petición GetMap verificada para esta capa y origen."
+      }
+    },
+    {
+      "title": "Modelo Digital de Pendientes 2016",
+      "sourceId": "F151",
+      "categoryIds": [
+        "F01"
+      ],
+      "url": "https://www.ideandalucia.es/wms/mdt_2016?SERVICE=WMS&REQUEST=GetCapabilities&VERSION=1.3.0",
+      "coverage": "Andalucía",
+      "period": "Según el producto original",
+      "fields": {
+        "Servicio": "Modelo digital del terreno 2016 · IECA",
+        "Familia": "Relieve y elevaciones",
+        "Nombre de capa": "modelo_digital_pendientes_2016",
+        "Consulta de atributos": "Sin consulta anunciada"
+      },
+      "id": "f01-directory:idee-3b18f8e21b1b6f4-e51a206019d5",
+      "status": "integrado",
+      "mapAction": "official-wms:idee-3b18f8e21b1b6f4-e51a206019d5",
+      "license": "Condiciones del organismo publicador",
+      "notes": "Relieve y elevaciones · capa verificada mediante petición de mapa.",
+      "review": {
+        "implementedProductId": "territory:directory:idee-3b18f8e21b1b6f4-e51a206019d5",
+        "updatedAt": "2026-11-14",
+        "reason": "Petición GetMap verificada para esta capa y origen."
+      }
+    },
+    {
+      "title": "Sombreado Orográfico año 2106",
+      "sourceId": "F151",
+      "categoryIds": [
+        "F01"
+      ],
+      "url": "https://www.ideandalucia.es/wms/mdt_2016?SERVICE=WMS&REQUEST=GetCapabilities&VERSION=1.3.0",
+      "coverage": "Andalucía",
+      "period": "Según el producto original",
+      "fields": {
+        "Servicio": "Modelo digital del terreno 2016 · IECA",
+        "Familia": "Relieve y elevaciones",
+        "Nombre de capa": "sombreado_orografico_2016",
+        "Consulta de atributos": "Sin consulta anunciada"
+      },
+      "id": "f01-directory:idee-3b18f8e21b1b6f4-e92e1ca6de07",
+      "status": "integrado",
+      "mapAction": "official-wms:idee-3b18f8e21b1b6f4-e92e1ca6de07",
+      "license": "Condiciones del organismo publicador",
+      "notes": "Relieve y elevaciones · capa verificada mediante petición de mapa.",
+      "review": {
+        "implementedProductId": "territory:directory:idee-3b18f8e21b1b6f4-e92e1ca6de07",
+        "updatedAt": "2026-11-14",
+        "reason": "Petición GetMap verificada para esta capa y origen."
+      }
+    },
+    {
+      "title": "Resolución 1 metros/pixel (Año 1956 - 1957)",
+      "sourceId": "F151",
+      "categoryIds": [
+        "F01"
+      ],
+      "url": "https://www.ideandalucia.es/wms/ortofoto_1956-1957?SERVICE=WMS&REQUEST=GetCapabilities&VERSION=1.3.0",
+      "coverage": "Andalucía",
+      "period": "Según el producto original",
+      "fields": {
+        "Servicio": "Ortofotografía 1956–1957 · IECA",
+        "Familia": "Ortofotos y fotografía aérea",
+        "Nombre de capa": "distribucion_ortofotos",
+        "Consulta de atributos": "Anunciada por el servicio"
+      },
+      "id": "f01-directory:idee-bd0528765c981df-0060595bdca5",
+      "status": "integrado",
+      "mapAction": "official-wms:idee-bd0528765c981df-0060595bdca5",
+      "license": "Condiciones del organismo publicador",
+      "notes": "Ortofotos y fotografía aérea · capa verificada mediante petición de mapa.",
+      "review": {
+        "implementedProductId": "territory:directory:idee-bd0528765c981df-0060595bdca5",
+        "updatedAt": "2026-11-14",
+        "reason": "Petición GetMap verificada para esta capa y origen."
+      }
+    },
+    {
+      "title": "Ortofografia de Andalucía 1956 - 1957 Pancromatico (1m Pixel)",
+      "sourceId": "F151",
+      "categoryIds": [
+        "F01"
+      ],
+      "url": "https://www.ideandalucia.es/wms/ortofoto_1956-1957?SERVICE=WMS&REQUEST=GetCapabilities&VERSION=1.3.0",
+      "coverage": "Andalucía",
+      "period": "Según el producto original",
+      "fields": {
+        "Servicio": "Ortofotografía 1956–1957 · IECA",
+        "Familia": "Ortofotos y fotografía aérea",
+        "Nombre de capa": "ortofotografia_1956-1957_pancromatico",
+        "Consulta de atributos": "Sin consulta anunciada"
+      },
+      "id": "f01-directory:idee-bd0528765c981df-8c0d9f165a2a",
+      "status": "integrado",
+      "mapAction": "official-wms:idee-bd0528765c981df-8c0d9f165a2a",
+      "license": "Condiciones del organismo publicador",
+      "notes": "Ortofotos y fotografía aérea · capa verificada mediante petición de mapa.",
+      "review": {
+        "implementedProductId": "territory:directory:idee-bd0528765c981df-8c0d9f165a2a",
+        "updatedAt": "2026-11-14",
+        "reason": "Petición GetMap verificada para esta capa y origen."
+      }
+    },
+    {
+      "title": "Resolución 0.50 metros/pixel (Año 2016)",
+      "sourceId": "F151",
+      "categoryIds": [
+        "F01"
+      ],
+      "url": "https://www.ideandalucia.es/wms/ortofoto2016?SERVICE=WMS&REQUEST=GetCapabilities&VERSION=1.3.0",
+      "coverage": "Andalucía",
+      "period": "Según el producto original",
+      "fields": {
+        "Servicio": "Ortofotografía 2016 · IECA",
+        "Familia": "Ortofotos y fotografía aérea",
+        "Nombre de capa": "distribucion_ortofotos_10000",
+        "Consulta de atributos": "Anunciada por el servicio"
+      },
+      "id": "f01-directory:idee-a6afb7f81b299a9-84e7b38e742a",
+      "status": "integrado",
+      "mapAction": "official-wms:idee-a6afb7f81b299a9-84e7b38e742a",
+      "license": "Condiciones del organismo publicador",
+      "notes": "Ortofotos y fotografía aérea · capa verificada mediante petición de mapa.",
+      "review": {
+        "implementedProductId": "territory:directory:idee-a6afb7f81b299a9-84e7b38e742a",
+        "updatedAt": "2026-11-14",
+        "reason": "Petición GetMap verificada para esta capa y origen."
+      }
+    },
+    {
+      "title": "Resolución 0.25 metros/pixel (Año 2016)",
+      "sourceId": "F151",
+      "categoryIds": [
+        "F01"
+      ],
+      "url": "https://www.ideandalucia.es/wms/ortofoto2016?SERVICE=WMS&REQUEST=GetCapabilities&VERSION=1.3.0",
+      "coverage": "Andalucía",
+      "period": "Según el producto original",
+      "fields": {
+        "Servicio": "Ortofotografía 2016 · IECA",
+        "Familia": "Ortofotos y fotografía aérea",
+        "Nombre de capa": "distribucion_ortofotos_5000",
+        "Consulta de atributos": "Anunciada por el servicio"
+      },
+      "id": "f01-directory:idee-a6afb7f81b299a9-a1c23359f870",
+      "status": "integrado",
+      "mapAction": "official-wms:idee-a6afb7f81b299a9-a1c23359f870",
+      "license": "Condiciones del organismo publicador",
+      "notes": "Ortofotos y fotografía aérea · capa verificada mediante petición de mapa.",
+      "review": {
+        "implementedProductId": "territory:directory:idee-a6afb7f81b299a9-a1c23359f870",
+        "updatedAt": "2026-11-14",
+        "reason": "Petición GetMap verificada para esta capa y origen."
+      }
+    },
+    {
+      "title": "Ortofografia de Andalucía 2016 Pancromatico (0.50m Pixel / 0.25m Pixel)",
+      "sourceId": "F151",
+      "categoryIds": [
+        "F01"
+      ],
+      "url": "https://www.ideandalucia.es/wms/ortofoto2016?SERVICE=WMS&REQUEST=GetCapabilities&VERSION=1.3.0",
+      "coverage": "Andalucía",
+      "period": "Según el producto original",
+      "fields": {
+        "Servicio": "Ortofotografía 2016 · IECA",
+        "Familia": "Ortofotos y fotografía aérea",
+        "Nombre de capa": "ortofotografia_2016_pancromatico",
+        "Consulta de atributos": "Sin consulta anunciada"
+      },
+      "id": "f01-directory:idee-a6afb7f81b299a9-21a814705fa5",
+      "status": "integrado",
+      "mapAction": "official-wms:idee-a6afb7f81b299a9-21a814705fa5",
+      "license": "Condiciones del organismo publicador",
+      "notes": "Ortofotos y fotografía aérea · capa verificada mediante petición de mapa.",
+      "review": {
+        "implementedProductId": "territory:directory:idee-a6afb7f81b299a9-21a814705fa5",
+        "updatedAt": "2026-11-14",
+        "reason": "Petición GetMap verificada para esta capa y origen."
+      }
+    },
+    {
+      "title": "Ortofografia de Andalucía 2016 Color RGB (0.50m Pixel / 0.25m Pixel)",
+      "sourceId": "F151",
+      "categoryIds": [
+        "F01"
+      ],
+      "url": "https://www.ideandalucia.es/wms/ortofoto2016?SERVICE=WMS&REQUEST=GetCapabilities&VERSION=1.3.0",
+      "coverage": "Andalucía",
+      "period": "Según el producto original",
+      "fields": {
+        "Servicio": "Ortofotografía 2016 · IECA",
+        "Familia": "Ortofotos y fotografía aérea",
+        "Nombre de capa": "ortofotografia_2016_rgb",
+        "Consulta de atributos": "Sin consulta anunciada"
+      },
+      "id": "f01-directory:idee-a6afb7f81b299a9-b3fe8200c751",
+      "status": "integrado",
+      "mapAction": "official-wms:idee-a6afb7f81b299a9-b3fe8200c751",
+      "license": "Condiciones del organismo publicador",
+      "notes": "Ortofotos y fotografía aérea · capa verificada mediante petición de mapa.",
+      "review": {
+        "implementedProductId": "territory:directory:idee-a6afb7f81b299a9-b3fe8200c751",
+        "updatedAt": "2026-11-14",
+        "reason": "Petición GetMap verificada para esta capa y origen."
+      }
+    },
+    {
+      "title": "Ortofografia de Andalucía 2016 Color Infrarrojo (0.50m Pixel / 0.25m Pixel)",
+      "sourceId": "F151",
+      "categoryIds": [
+        "F01"
+      ],
+      "url": "https://www.ideandalucia.es/wms/ortofoto2016?SERVICE=WMS&REQUEST=GetCapabilities&VERSION=1.3.0",
+      "coverage": "Andalucía",
+      "period": "Según el producto original",
+      "fields": {
+        "Servicio": "Ortofotografía 2016 · IECA",
+        "Familia": "Ortofotos y fotografía aérea",
+        "Nombre de capa": "ortofotografia_2016_infrarrojo",
+        "Consulta de atributos": "Sin consulta anunciada"
+      },
+      "id": "f01-directory:idee-a6afb7f81b299a9-a9c39bde16f6",
+      "status": "integrado",
+      "mapAction": "official-wms:idee-a6afb7f81b299a9-a9c39bde16f6",
+      "license": "Condiciones del organismo publicador",
+      "notes": "Ortofotos y fotografía aérea · capa verificada mediante petición de mapa.",
+      "review": {
+        "implementedProductId": "territory:directory:idee-a6afb7f81b299a9-a9c39bde16f6",
+        "updatedAt": "2026-11-14",
+        "reason": "Petición GetMap verificada para esta capa y origen."
+      }
+    },
+    {
+      "title": "Resolución 0.25 metros/pixel (Año 2019)",
+      "sourceId": "F151",
+      "categoryIds": [
+        "F01"
+      ],
+      "url": "https://www.ideandalucia.es/wms/ortofoto_2019?SERVICE=WMS&REQUEST=GetCapabilities&VERSION=1.3.0",
+      "coverage": "Andalucía",
+      "period": "Según el producto original",
+      "fields": {
+        "Servicio": "Ortofotografía 2019 · IECA",
+        "Familia": "Ortofotos y fotografía aérea",
+        "Nombre de capa": "distribucion",
+        "Consulta de atributos": "Anunciada por el servicio"
+      },
+      "id": "f01-directory:idee-d17ce68dc6fa8b9-7e36b0b8988a",
+      "status": "integrado",
+      "mapAction": "official-wms:idee-d17ce68dc6fa8b9-7e36b0b8988a",
+      "license": "Condiciones del organismo publicador",
+      "notes": "Ortofotos y fotografía aérea · capa verificada mediante petición de mapa.",
+      "review": {
+        "implementedProductId": "territory:directory:idee-d17ce68dc6fa8b9-7e36b0b8988a",
+        "updatedAt": "2026-11-14",
+        "reason": "Petición GetMap verificada para esta capa y origen."
+      }
+    },
+    {
+      "title": "Ortofografia de Andalucía 2019 Pancromatico (0.25m Pixel)",
+      "sourceId": "F151",
+      "categoryIds": [
+        "F01"
+      ],
+      "url": "https://www.ideandalucia.es/wms/ortofoto_2019?SERVICE=WMS&REQUEST=GetCapabilities&VERSION=1.3.0",
+      "coverage": "Andalucía",
+      "period": "Según el producto original",
+      "fields": {
+        "Servicio": "Ortofotografía 2019 · IECA",
+        "Familia": "Ortofotos y fotografía aérea",
+        "Nombre de capa": "ortofotografia_2019_pancromatico",
+        "Consulta de atributos": "Sin consulta anunciada"
+      },
+      "id": "f01-directory:idee-d17ce68dc6fa8b9-5375f72903fa",
+      "status": "integrado",
+      "mapAction": "official-wms:idee-d17ce68dc6fa8b9-5375f72903fa",
+      "license": "Condiciones del organismo publicador",
+      "notes": "Ortofotos y fotografía aérea · capa verificada mediante petición de mapa.",
+      "review": {
+        "implementedProductId": "territory:directory:idee-d17ce68dc6fa8b9-5375f72903fa",
+        "updatedAt": "2026-11-14",
+        "reason": "Petición GetMap verificada para esta capa y origen."
+      }
+    },
+    {
+      "title": "Ortofografia de Andalucía 2019 Color RGB (0.25m Pixel)",
+      "sourceId": "F151",
+      "categoryIds": [
+        "F01"
+      ],
+      "url": "https://www.ideandalucia.es/wms/ortofoto_2019?SERVICE=WMS&REQUEST=GetCapabilities&VERSION=1.3.0",
+      "coverage": "Andalucía",
+      "period": "Según el producto original",
+      "fields": {
+        "Servicio": "Ortofotografía 2019 · IECA",
+        "Familia": "Ortofotos y fotografía aérea",
+        "Nombre de capa": "ortofotografia_2019_rgb",
+        "Consulta de atributos": "Sin consulta anunciada"
+      },
+      "id": "f01-directory:idee-d17ce68dc6fa8b9-7874b81cd8fe",
+      "status": "integrado",
+      "mapAction": "official-wms:idee-d17ce68dc6fa8b9-7874b81cd8fe",
+      "license": "Condiciones del organismo publicador",
+      "notes": "Ortofotos y fotografía aérea · capa verificada mediante petición de mapa.",
+      "review": {
+        "implementedProductId": "territory:directory:idee-d17ce68dc6fa8b9-7874b81cd8fe",
+        "updatedAt": "2026-11-14",
+        "reason": "Petición GetMap verificada para esta capa y origen."
+      }
+    },
+    {
+      "title": "Ortofografia de Andalucía 2019 Color Infrarrojo (0.25m Pixel)",
+      "sourceId": "F151",
+      "categoryIds": [
+        "F01"
+      ],
+      "url": "https://www.ideandalucia.es/wms/ortofoto_2019?SERVICE=WMS&REQUEST=GetCapabilities&VERSION=1.3.0",
+      "coverage": "Andalucía",
+      "period": "Según el producto original",
+      "fields": {
+        "Servicio": "Ortofotografía 2019 · IECA",
+        "Familia": "Ortofotos y fotografía aérea",
+        "Nombre de capa": "ortofotografia_2019_infrarrojo",
+        "Consulta de atributos": "Sin consulta anunciada"
+      },
+      "id": "f01-directory:idee-d17ce68dc6fa8b9-ee140d65be8a",
+      "status": "integrado",
+      "mapAction": "official-wms:idee-d17ce68dc6fa8b9-ee140d65be8a",
+      "license": "Condiciones del organismo publicador",
+      "notes": "Ortofotos y fotografía aérea · capa verificada mediante petición de mapa.",
+      "review": {
+        "implementedProductId": "territory:directory:idee-d17ce68dc6fa8b9-ee140d65be8a",
+        "updatedAt": "2026-11-14",
+        "reason": "Petición GetMap verificada para esta capa y origen."
+      }
+    },
+    {
+      "title": "Ortofografia de Andalucía 2022 Pancromatico (0.25m Pixel)",
+      "sourceId": "F151",
+      "categoryIds": [
+        "F01"
+      ],
+      "url": "https://www.ideandalucia.es/wms/ortofoto_2022?SERVICE=WMS&REQUEST=GetCapabilities&VERSION=1.3.0",
+      "coverage": "Andalucía",
+      "period": "Según el producto original",
+      "fields": {
+        "Servicio": "Ortofotografía 2022 · IECA",
+        "Familia": "Ortofotos y fotografía aérea",
+        "Nombre de capa": "ortofotografia_2022_pancromatico",
+        "Consulta de atributos": "Sin consulta anunciada"
+      },
+      "id": "f01-directory:idee-cd0f4e803333419-5b298f9495fa",
+      "status": "integrado",
+      "mapAction": "official-wms:idee-cd0f4e803333419-5b298f9495fa",
+      "license": "Condiciones del organismo publicador",
+      "notes": "Ortofotos y fotografía aérea · capa verificada mediante petición de mapa.",
+      "review": {
+        "implementedProductId": "territory:directory:idee-cd0f4e803333419-5b298f9495fa",
+        "updatedAt": "2026-11-14",
+        "reason": "Petición GetMap verificada para esta capa y origen."
+      }
+    },
+    {
+      "title": "Ortofografia de Andalucía 2022 Color RGB (0.25m Pixel)",
+      "sourceId": "F151",
+      "categoryIds": [
+        "F01"
+      ],
+      "url": "https://www.ideandalucia.es/wms/ortofoto_2022?SERVICE=WMS&REQUEST=GetCapabilities&VERSION=1.3.0",
+      "coverage": "Andalucía",
+      "period": "Según el producto original",
+      "fields": {
+        "Servicio": "Ortofotografía 2022 · IECA",
+        "Familia": "Ortofotos y fotografía aérea",
+        "Nombre de capa": "ortofotografia_2022_rgb",
+        "Consulta de atributos": "Sin consulta anunciada"
+      },
+      "id": "f01-directory:idee-cd0f4e803333419-810aaeb01586",
+      "status": "integrado",
+      "mapAction": "official-wms:idee-cd0f4e803333419-810aaeb01586",
+      "license": "Condiciones del organismo publicador",
+      "notes": "Ortofotos y fotografía aérea · capa verificada mediante petición de mapa.",
+      "review": {
+        "implementedProductId": "territory:directory:idee-cd0f4e803333419-810aaeb01586",
+        "updatedAt": "2026-11-14",
+        "reason": "Petición GetMap verificada para esta capa y origen."
+      }
+    },
+    {
+      "title": "Ortofografia de Andalucía 2022 Color Infrarrojo (0.25m Pixel)",
+      "sourceId": "F151",
+      "categoryIds": [
+        "F01"
+      ],
+      "url": "https://www.ideandalucia.es/wms/ortofoto_2022?SERVICE=WMS&REQUEST=GetCapabilities&VERSION=1.3.0",
+      "coverage": "Andalucía",
+      "period": "Según el producto original",
+      "fields": {
+        "Servicio": "Ortofotografía 2022 · IECA",
+        "Familia": "Ortofotos y fotografía aérea",
+        "Nombre de capa": "ortofotografia_2022_infrarrojo",
+        "Consulta de atributos": "Sin consulta anunciada"
+      },
+      "id": "f01-directory:idee-cd0f4e803333419-fce4806c70a1",
+      "status": "integrado",
+      "mapAction": "official-wms:idee-cd0f4e803333419-fce4806c70a1",
+      "license": "Condiciones del organismo publicador",
+      "notes": "Ortofotos y fotografía aérea · capa verificada mediante petición de mapa.",
+      "review": {
+        "implementedProductId": "territory:directory:idee-cd0f4e803333419-fce4806c70a1",
         "updatedAt": "2026-11-14",
         "reason": "Petición GetMap verificada para esta capa y origen."
       }

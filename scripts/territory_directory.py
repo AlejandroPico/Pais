@@ -23,6 +23,12 @@ REGIONS = {
     'pais vasco / euskadi': 'F166', 'la rioja': 'F167', 'ceuta': 'F168', 'melilla': 'F169',
 }
 EXPLICIT = [
+    ('F166', 'País Vasco / Euskadi', 'Cartografía base y callejero NORA · geoEuskadi', 'https://www.geo.euskadi.eus/WMS_KARTOGRAFIA', 'base'),
+    ('F151', 'Andalucía', 'Modelo digital del terreno 2016 · IECA', 'https://www.ideandalucia.es/wms/mdt_2016', 'relieve'),
+    ('F151', 'Andalucía', 'Ortofotografía 1956–1957 · IECA', 'https://www.ideandalucia.es/wms/ortofoto_1956-1957', 'imagen'),
+    ('F151', 'Andalucía', 'Ortofotografía 2016 · IECA', 'https://www.ideandalucia.es/wms/ortofoto2016', 'imagen'),
+    ('F151', 'Andalucía', 'Ortofotografía 2019 · IECA', 'https://www.ideandalucia.es/wms/ortofoto_2019', 'imagen'),
+    ('F151', 'Andalucía', 'Ortofotografía 2022 · IECA', 'https://www.ideandalucia.es/wms/ortofoto_2022', 'imagen'),
     ('F165', 'Navarra', 'Edificios INSPIRE', 'https://inspire.navarra.es/services/BU/wms', 'catastro'),
     ('F165', 'Navarra', 'Direcciones INSPIRE', 'https://inspire.navarra.es/services/AD/wms', 'catastro'),
     ('F177', 'Álava', 'Edificios INSPIRE', 'https://geo.araba.eus/WMS_INSPIRE_BU', 'catastro'),
@@ -56,7 +62,7 @@ def family(title):
         ('divisiones', r'limites administr|divisiones administr|delimitaciones territoriales|limites municipal|comarcal|distritos y barrios|secciones censales|seccionado censal|entidades locales menores|demarcaciones municipales'),
         ('relieve', r'modelo digital (?:del terreno|de elevac|de superficie|sombreado|de pendientes)|^relieve|\blidar\b|curvas de nivel|hipsometr'),
         ('catastro', r'parcelas catastral|catastro|edificios inspire|direcciones inspire'),
-        ('base', r'cartografia basica|cartografia de referencia|mapa base|mapa topografico|nomenclator geografico|cuadriculas cartograficas|callejero|planimetria|redes geodesicas|toponimia|cartografia urbana'),
+        ('base', r'cartografia basica|cartografia de referencia|mapa base|mapa topografico|nomenclator geografico|cuadriculas cartograficas|callejero|planimetria|redes geodesicas|toponimia|cartografia urbana|^kaleak / calles$|^atariak / portales$'),
     ]:
         if re.search(pattern, title):
             return key
@@ -222,7 +228,7 @@ def main():
     def get(entry):
         existing = previous.get(entry[3])
         if existing and not args.refresh and existing.get('version'):
-            return existing
+            return {**existing,'sourceId':entry[0],'region':entry[1],'title':entry[2]}
         return capture(entry, args.refresh)
     with ThreadPoolExecutor(max_workers=16) as pool:
         results = list(pool.map(get,candidates))
@@ -254,7 +260,8 @@ def main():
         for (url,layer),error in zip(arcgis_jobs,errors):
             if not error:
                 layer['tileEndpoint']=url
-            layer['mapError']=error
+            if not error or 'tileEndpoint' not in layer:
+                layer['mapError']=error
     print('Capas verificadas:',sum('mapError' in layer and layer['mapError'] is None for service in results for layer in service['layers']),flush=True)
     provenance={row['url']:row for row in old.get('provenance',[])}
     if previous_path.exists():

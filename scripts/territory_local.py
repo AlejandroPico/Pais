@@ -4,6 +4,7 @@ from collections import Counter
 import io
 import json
 import zipfile
+from urllib.parse import urlencode
 import territory_collect as territory
 
 MADRID = 'https://datos.madrid.es/dataset/900012-0-limites-administrativos-mapas/information'
@@ -38,7 +39,7 @@ def shapefile_features(raw):
 
 def main(refresh=False):
     products=[]
-    def save(id,title,source,url,download,features,code,name,expected,period):
+    def save(id,title,source,url,download,features,code,name,expected,period,*,group=None,center=None,credit=None):
         assert len(features)==expected,(id,len(features),expected)
         seen=set()
         for f in features:
@@ -46,15 +47,18 @@ def main(refresh=False):
             identifier=str(props[code]).strip()
             if not identifier and source=='F171':
                 identifier=str(props[props['TIPUS_UA']]).strip()
-            row_id=props['FID'] if source=='F171' else identifier
+            row_id=props['FID'] if source=='F171' else props['objectid'] if source=='F172' else identifier
             assert row_id not in seen,(id,row_id)
             seen.add(row_id)
             f['id']=row_id
             props['atlasName']=str(props.get(name) or '').strip() or identifier
             props['atlasCode']=identifier
+            if source=='F172':props['atlasId']=row_id
         file=id+'.geojson'
         territory.save(territory.OUT/'local'/file,dict(type='FeatureCollection',features=features))
-        products.append(dict(id=id,title=title,sourceId=source,url=url,download=download,count=len(features),file='local/'+file,period=period))
+        product=dict(id=id,title=title,sourceId=source,url=url,download=download,count=len(features),file='local/'+file,period=period)
+        if group:product.update(group=group,center=center,credit=credit)
+        products.append(product)
     for number,key,title,code,expected,period in [
         (0,'municipio','Término municipal · Madrid',None,1,'16 de mayo de 2024'),
         (6,'barrios','Barrios · Madrid','COD_BAR',131,'Delimitación de 2021; denominaciones actualizadas en 2022'),
@@ -81,6 +85,83 @@ def main(refresh=False):
     for kind,(id,title,expected) in specs.items():
         selected=[f for f in features if f['properties']['TIPUS_UA']==kind]
         save('barcelona-'+id,title+' · Barcelona','F171',BARCELONA,BARCELONA_DATA,selected,'CODI_UA','NOM',expected,'Distribución GeoJSON actualizada el 1 de diciembre de 2021')
+    def fetch_collection(id,url):
+        collection=json.loads(territory.fetch(id,url,refresh))
+        assert collection['type']=='FeatureCollection' and not collection.get('exceededTransferLimit'),id
+        features=collection['features']
+        assert collection.get('numberMatched',len(features))==len(features),id
+        for item in features:
+            if item['geometry'] is None:
+                assert id in {'zaragoza-juntas','zaragoza-unidades'},id
+                continue
+            assert item['geometry']['type'] in {'Polygon','MultiPolygon'},id
+            polygons=item['geometry']['coordinates']
+            if item['geometry']['type']=='Polygon':polygons=[polygons]
+            for polygon in polygons:
+                for ring in polygon:
+                    assert len(ring)>=4 and ring[0]==ring[-1],(id,item.get('id'))
+                    assert all(-10<=x<=5 and 35<=y<=44 for x,y,*_ in ring),id
+        return features
+
+    for kind,layer,code,expected in [('barrios',224,'coddistbar',88),('distritos',225,'coddistrit',22)]:
+        id='valencia-'+kind
+        source='https://datos.gob.es/es/catalogo/l01462508-'+kind
+        url=f'https://geoportal.valencia.es/server/rest/services/OPENDATA/UrbanismoEInfraestructuras/MapServer/{layer}/query?where=1%3D1&outFields=%2A&f=geojson'
+        save(id,kind.capitalize()+' · València','F172',source,url,fetch_collection(id,url),code,'nombre',
+             expected,'Catálogo de marzo de 2026',group='València',center=[-0.376,39.459],credit='Ayuntamiento de València')
+
+    for kind,filename,code,name,expected in [('barrios','Barrio','ID_BARRIO','NOMBARRIO',419),
+                                        ('distritos','DistritoMunicipal','ID_DISMUNI','NOMBRE',11)]:
+        id='malaga-'+kind
+        source='https://datosabiertos.malaga.eu/dataset/sistema-de-informacion-cartografica-'+('barrio' if kind=='barrios' else 'distrito-municipal')
+        url='https://datosabiertos.malaga.eu/recursos/urbanismoEInfraestructura/planimetria/callejero/da_cartografia'+filename+'-4326.geojson'
+        save(id,kind.capitalize()+' · Málaga','F174',source,url,fetch_collection(id,url),code,name,
+             expected,'Captura del 14/11/2026',group='Málaga',center=[-4.432,36.72],credit='Ayuntamiento de Málaga')
+
+    def zaragoza_url(group,layer):
+        return f'https://idezar-sig.zaragoza.es/servicios/geoserver/{group}/wfs?'+urlencode(dict(
+            REQUEST='GetFeature',SERVICE='WFS',VERSION='2.0.0',outputFormat='application/json',typeName=layer,srsName='EPSG:4326'))
+
+    municipal={}
+    for kind,title,layer,record,expected in [
+        ('distritos','Distritos municipales','Distritos_Municipales','3962',16),
+        ('juntas','Juntas municipales y vecinales','Juntas_Municipales_Vecinales','3964',29),
+    ]:
+        id='zaragoza-'+kind
+        url=zaragoza_url('urbanismo','urbanismo:'+layer)
+        features=fetch_collection(id,url)
+        if kind=='juntas':
+            excluded=[item for item in features if item['geometry'] is None]
+            assert len(excluded)==1 and excluded[0]['properties']['estado']=='BAJA'
+            features=[item for item in features if item['geometry'] is not None]
+        municipal.update({item['properties']['referencia']:item['properties']['nombre'] for item in features})
+        save(id,title+' · Zaragoza','F173','https://www.zaragoza.es/web/espacio-de-datos/servicio/catalogo/'+record,url,
+             features,'referencia','nombre',expected,'Captura del 14/11/2026',
+             group='Zaragoza',center=[-0.889,41.657],credit='Ayuntamiento de Zaragoza')
+    url=zaragoza_url('au','au:AdministrativeUnit')
+    units=fetch_collection('zaragoza-unidades',url)
+    omitted=[item for item in units if item['geometry'] is None]
+    assert len(omitted)==1 and omitted[0]['properties']['nationalCode'] is None
+    units=[item for item in units if item['geometry'] is not None]
+    for item in units:
+        props=item['properties']
+        code=props['nationalCode']
+        props['atlasName']=municipal.get(code) or ('Zaragoza' if code=='50900' else code)
+        for field in ('inspireId','nationalLevel','upperLevelUnit'):
+            if field in props:props[field]=json.dumps(props[field],ensure_ascii=False)
+    assert Counter(len(f['properties']['nationalCode']) for f in units)=={5:1,8:16,11:29}
+    save('zaragoza-unidades','Unidades administrativas INSPIRE · Zaragoza','F173',
+         'https://www.zaragoza.es/web/espacio-de-datos/servicio/catalogo/6042',url,
+         units,'nationalCode','atlasName',46,'12 de junio de 2026',
+         group='Zaragoza',center=[-0.889,41.657],credit='Ayuntamiento de Zaragoza')
+
+    base='https://sig.asturias.es/servicios/rest/services/Visor/CartografiaBase/MapServer/18'
+    url=base+'/query?where=1%3D1&outFields=%2A&outSR=4326&f=geojson'
+    count=json.loads(territory.fetch('asturias-parroquias-count',base+'/query?where=1%3D1&returnCountOnly=true&f=json',refresh))['count']
+    save('asturias-parroquias','Parroquias y recintos sin parroquia · Asturias','F153',base,url,
+         fetch_collection('asturias-parroquias',url),'objectid','topo_ofi',count,'Captura del 14/11/2026',
+         group='Asturias',center=[-5.85,43.33],credit='Administración del Principado de Asturias · CC BY 4.0')
+
     territory.save(territory.ROOT/'registry/local-territory.json',dict(products=products,provenance=territory.PROVENANCE))
     print('Polígonos municipales:',sum(p['count'] for p in products),flush=True)
 

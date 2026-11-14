@@ -1,9 +1,17 @@
 import sectionArchives from '../registry/section-archives.json' with {type:'json'};
 import localInventory from '../registry/local-territory.json' with {type:'json'};
+import cnigHistory from '../registry/cnig-history.json' with {type:'json'};
 import ignEditions from '../registry/ign-territory-editions.json' with {type:'json'};
 
 export type WmsProvider={id:string;url:string;layers:string;styles?:string;tileEndpoint?:string;version?:'1.1.1'|'1.3.0';sourceId:string;credit:string;bounds:[number,number,number,number];queryable?:boolean;infoFormat?:string};
-export type TerritoryLayer={id:string;name:string;group:string;minzoom:number;note:string;providers?:WmsProvider[];local?:typeof localInventory.products[number]};
+type LocalProduct={id:string;title:string;sourceId:string;url:string;download:string;count:number;file:string;period:string;
+  group?:string;center?:number[];credit?:string;geometry?:string;coverage?:string;layer?:string};
+export type TerritoryLayer={id:string;name:string;group:string;minzoom:number;note:string;providers?:WmsProvider[];local?:LocalProduct};
+export function localCredit(product:LocalProduct){
+  if(product.credit)return product.credit;
+  if(product.sourceId==='F005')return 'Seccionado cedido por el Instituto Nacional de Estadística';
+  return 'Ayuntamiento de '+(product.sourceId==='F170'?'Madrid':'Barcelona')+' · CC BY 4.0';
+}
 const spain:[number,number,number,number]=[-18.5,27.5,4.7,44];
 const dgc=(layers:string,queryable=true):WmsProvider=>({id:'dgc',url:'https://ovc.catastro.meh.es/cartografia/INSPIRE/spadgcwms.aspx',layers,sourceId:'F008',credit:'Dirección General del Catastro · condiciones INSPIRE',bounds:spain,queryable,infoFormat:'text/html'});
 const nav:WmsProvider={id:'navarra',url:'https://inspire.navarra.es/services/CP/wms',layers:'CP:CadastralParcel',sourceId:'F165',credit:'Gobierno de Navarra · SITNA',bounds:[-2.55,41.9,-.7,43.4],queryable:true,infoFormat:'text/html'};
@@ -38,11 +46,14 @@ const elevationLayers:TerritoryLayer[]=ignEditions.elevation.map(edition=>({
     sourceId:'F006',credit:'Modelo de elevaciones © IGN · CC BY 4.0',bounds:spain,
     queryable:edition.queryable,infoFormat:'application/json'}],
 }));
+const localProducts:LocalProduct[]=[...localInventory.products,...sectionArchives.products,...cnigHistory.products];
 export const territoryLayers:TerritoryLayer[]=[
-  ...[...localInventory.products,...sectionArchives.products].map(product=>({
-    id:product.id,name:product.title,group:product.sourceId==='F005'?'Cartografía por fecha':product.sourceId==='F170'?'Madrid':'Barcelona',
-    note:product.count+' recintos oficiales · '+product.period,
-    minzoom:product.sourceId==='F005'||product.id.endsWith('-secciones')?10:8,local:product,
+  ...localProducts.map(product=>({
+    id:product.id,name:product.title,group:product.group||(product.sourceId==='F005'?'Cartografía por fecha':product.sourceId==='F170'?'Madrid':'Barcelona'),
+    note:product.count.toLocaleString('es-ES')+(product.geometry==='line'?' trazados oficiales · ':' recintos oficiales · ')+product.period,
+    minzoom:product.layer
+      ?product.layer.includes('autonomicas')?4:product.layer.includes('provinciales')?5:product.layer.includes('_histo_')?8:7
+      :product.sourceId==='F005'||product.id.endsWith('-secciones')?10:8,local:product,
   })),
   {id:'country',name:'Costa y contorno de España',group:'Divisiones territoriales',minzoom:0,note:'Contorno de las unidades IGN. No delimita espacios marítimos.'},
   {id:'municipal',name:'Municipios',group:'Divisiones territoriales',minzoom:7,note:'Teselas vectoriales IGN; códigos contrastados con la relación INE de 2026.'},

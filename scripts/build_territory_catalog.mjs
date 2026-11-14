@@ -1,7 +1,7 @@
 import fs from 'node:fs';
 import {createHash} from 'node:crypto';
 import clipping from 'polygon-clipping';
-import {territoryLayers,sectionEditions,orthophotoEditions,historicOrthophoto,canaryEditions,canaryCartography} from '../src/territory-config.ts';
+import {territoryLayers,sectionEditions,orthophotoEditions,historicOrthophoto,canaryEditions,canaryCartography,localCredit} from '../src/territory-config.ts';
 const root=new URL('../',import.meta.url);
 const read=p=>JSON.parse(fs.readFileSync(new URL(p,root),'utf8'));
 const revision='2026-11-14';
@@ -36,12 +36,15 @@ for(const layer of territoryLayers){
   const sourceId=layer.local?.sourceId||layer.providers?.[0]?.sourceId||(layer.id==='sections'?'F005':layer.id==='comarcas'?'F004':'F006');
   const sourceUrl=layer.local?.url||layer.providers?.[0]?.url||(layer.id==='sections'?'https://www.ine.es/geoserver/ows':layer.id==='historical-limits'?'https://www.ign.es/wms-inspire/unidades-administrativas':'https://www.ign.es/web/ide-area-nodo-ide-ign');
   available.push({id:'territory:'+layer.id,title:layer.name,sourceId,categoryIds:['F01'],status:'integrado',url:sourceUrl,
-    coverage:layer.id==='comarcas'?manifest.comarcaCoverage.filter(c=>c.status==='integrado').map(c=>c.territory+' ('+c.count+')').join(', '):layer.note,
+    coverage:layer.id==='comarcas'?manifest.comarcaCoverage.filter(c=>c.status==='integrado').map(c=>c.territory+' ('+c.count+')').join(', '):layer.local?.coverage||layer.local?.group||layer.note,
     period:layer.local?.period||(layer.id==='sections'?'Ediciones de 2001, 2007–2026 y Censo 2011':layer.id==='historical-limits'?'2009-07-05 a 2026-07-28':layer.id==='comarcas'?'Capturas de noviembre de 2026; vigencia propia de cada fuente':'Según el servicio de origen'),
-    license:layer.local?(layer.local.sourceId==='F005'?'Seccionado cedido por el Instituto Nacional de Estadística':'CC BY 4.0'):layer.providers?'Condiciones de cada proveedor oficial; consultar el origen':layer.id==='sections'?'Seccionado cedido por el Instituto Nacional de Estadística':layer.id==='comarcas'?'Condiciones de los organismos cartográficos autonómicos':'CC BY 4.0 · IGN',
+    license:layer.local?(localCredit(layer.local)+(layer.local.credit&&!layer.local.credit.includes('4.0')?' · Condiciones del organismo publicador':''))
+      :layer.providers?'Condiciones de cada proveedor oficial; consultar el origen':layer.id==='sections'?'Seccionado cedido por el Instituto Nacional de Estadística':layer.id==='comarcas'?'Condiciones de los organismos cartográficos autonómicos':'CC BY 4.0 · IGN',
     mode:layer.local||layer.id==='comarcas'?'local':'remote',notes:layer.note,mapAction:'territory:'+layer.id,
     ...(layer.local?{dataFile:'territory/'+layer.local.file,links:{'Descarga original':layer.local.download}}:layer.id==='comarcas'?{dataFile:'territory/comarcas.geojson'}:{}),
-    fields:{'Detalle visible':'Desde zoom '+layer.minzoom,'Fecha de revisión':'2026-11-13',...(layer.providers?{'Proveedores':layer.providers.map(p=>p.credit).join('; ')}:{})}});
+    fields:{'Detalle visible':'Desde zoom '+layer.minzoom,'Fecha de revisión':revision,
+      ...(layer.local?.layer?{'Tabla GeoPackage':layer.local.layer,'Registros':String(layer.local.count)}:{}),
+      ...(layer.providers?{'Proveedores':layer.providers.map(p=>p.credit).join('; ')}:{})}});
 }
 available.push({id:'territory:municipal-index',title:'Relación de municipios y correspondencia insular',sourceId:'F005',categoryIds:['F01'],status:'integrado',url:'https://www.ine.es/daco/daco42/codmun/diccionario26.xlsx',coverage:'8.132 municipios de España; provincias, comunidades e islas vinculadas',period:'Relación municipal a 2026-01-01. El fichero insular conserva sus rótulos de origen.',license:'CC BY 4.0 · INE',mode:'local',dataFile:'territory/index.json',mapAction:'search:addresses',notes:'La correspondencia IGN preserva 81 áreas adicionales fuera del catálogo municipal. No se convierten en municipios.'});
 available.push({id:'territory:address-search',title:'Búsqueda oficial de direcciones y lugares',sourceId:'F007',categoryIds:['F01'],status:'integrado',url:'https://www.cartociudad.es/',coverage:'España · CartoCiudad',period:'Actualización del servicio',license:'CC BY 4.0 · IGN y colaboradores',mode:'remote',mapAction:'search:addresses',notes:'Búsqueda de candidatos seguida de geolocalización. No se usan coordenadas cero de las sugerencias.'});
@@ -82,10 +85,11 @@ for(const download of sectionVectors.downloads||[]){
   const item=inventory.find(row=>row.mapAction==='territory:sections:'+edition.layer);
   if(item)item.links={'Archivo SHP nacional':download.url};
 }
-for(const [year,archive] of [['2023','12969663'],['2024','12969664']]){
-  inventory.push({id:'f01-cnig:limites:'+year,title:'Límites y unidades administrativas históricos · '+year,sourceId:'F006',
-    categoryIds:['F01'],status:'bloqueado',url:'https://centrodedescargas.cnig.es/CentroDescargas/detalleArchivo?sec='+archive,
-    coverage:'España',period:year,license:'CC BY 4.0 · IGN',notes:'GeoPackage oficial. El portal exige una validación antes de iniciar la descarga.'});
+for(const edition of read('registry/cnig-history.json').products){
+  const product=available.find(row=>row.id==='territory:'+edition.id);
+  if(!product)throw new Error('Tabla del CNIG sin representación en el visor: '+edition.layer);
+  inventory.push({...product,id:'f01-cnig:'+edition.id,
+    review:{implementedProductId:product.id,updatedAt:revision,reason:'Recuento completo de la tabla oficial. Geometría simplificada para el visor.'}});
 }
 const directory=read('public/data/territory/official-wms.json');
 const labels={imagen:'Ortofotos y fotografía aérea',divisiones:'Divisiones territoriales',relieve:'Relieve y elevaciones',catastro:'Catastro',base:'Cartografía base y toponimia'};
@@ -113,7 +117,7 @@ for(const service of directory.services){
     const record={title,sourceId:service.sourceId,categoryIds:['F01'],url:sourceUrl,coverage:service.region,period,fields};
     if(layer.mapError===null){
       const infoFormat=['application/json','application/geo+json','text/html'].find(format=>service.infoFormats.includes(format));
-      const minzoom=layer.group==='catastro'?13:layer.group==='divisiones'?7:6;
+      const minzoom=layer.name==='CAL_PORTALES'?15:layer.name==='CAL_CALLES'?11:layer.group==='catastro'?13:layer.group==='divisiones'?7:6;
       officialLayers.push({id,name:title,group:layer.group,minzoom,...(periods.length?{periods,defaultPeriod:time.default}:{}),provider:{
         id:service.id,url:service.url,layers:layer.name,version:service.version,tileEndpoint:layer.tileEndpoint,bounds:layer.bounds,sourceId:service.sourceId,
         credit:service.region+' · '+service.title,queryable:Boolean(!layer.tileEndpoint&&layer.queryable&&infoFormat),infoFormat,

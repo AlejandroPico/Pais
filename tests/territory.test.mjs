@@ -104,3 +104,37 @@ test('municipal layers and local census archives preserve all official polygons'
   assert.equal(params.get('CQL_FILTER'),"CUSEC='2807901001'");
   assert.throws(()=>sectionVectorUrl(section.layer,'2807901001 OR 1=1'));
 });
+
+test('both CNIG editions expose every line and polygon table from their GeoPackages',()=>{
+  const {products,provenance}=read('registry/cnig-history.json');
+  const {inventory}=read('registry/territory-products.json');
+  assert.deepEqual(provenance.map(source=>source.year),[2023,2024]);
+  assert.equal(products.length,28);
+  assert.equal(new Set(products.map(product=>product.id)).size,28);
+  for(const [year,count] of [[2023,63626],[2024,64647]]){
+    const edition=products.filter(product=>product.period===year+'-01-01');
+    assert.equal(edition.length,14);
+    assert.equal(new Set(edition.map(product=>product.layer)).size,14);
+    assert.equal(edition.reduce((sum,product)=>sum+product.count,0),count);
+  }
+  for(const {file,count,id,sha256,geometry,layer,period} of products){
+    const raw=fs.readFileSync(new URL('../public/data/territory/'+file,import.meta.url));
+    assert.equal(createHash('sha256').update(raw).digest('hex'),sha256,id);
+    const {features}=JSON.parse(gunzipSync(raw));
+    assert.equal(features.length,count,id);
+    assert.equal(new Set(features.map(feature=>feature.id)).size,count,id);
+    const types=geometry==='line'?['LineString','MultiLineString']:['Polygon','MultiPolygon'];
+    for(const feature of features){
+      assert.ok(types.includes(feature.geometry.type),id);
+      assert.equal(feature.id,feature.properties.fid,id);
+      assert.equal(feature.id,feature.properties.atlasId,id);
+      assert.ok('INSPIREID' in feature.properties,id);
+      assert.ok(feature.properties.atlasName,id);
+      if(layer.includes('_histo_'))assert.ok('DATE_HISTO' in feature.properties,id);
+    }
+    const entry=inventory.find(row=>row.mapAction==='territory:'+id);
+    assert.equal(entry?.status,'integrado',id);
+    assert.equal(entry?.fields['Tabla GeoPackage'],layer,id);
+    assert.equal(entry?.period,period,id);
+  }
+});
