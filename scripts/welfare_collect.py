@@ -94,6 +94,17 @@ def build_group(config,table_ids,metadata,recover_rows=None,output=OUT):
     territories=[];geo_ids={};periods=[];period_ids={};dimension_names=None;dimensions=[];dim_ids=[];sources=[];raw_rows=0;duplicates=0;combinations={};aliases={}
     with concurrent.futures.ThreadPoolExecutor(max_workers=3) as pool:
         # A bounded batch avoids retaining every downloaded table in memory.
+        if config.get('preserveMissingDimensions'):
+            names = {}
+            for input_id, path, _ in pool.map(fetch_table, table_ids):
+                for series in iter_series(path):
+                    for m in series.get('MetaData', []):
+                        n = m['T3_Variable'].strip()
+                        if core.norm(n) not in GEO:
+                            names[NAMES.get(n, n)] = None
+            dimension_names = list(names)
+            dimensions = [{'name': n, 'values': []} for n in dimension_names]
+            dim_ids = [{} for _ in dimension_names]
         for start in range(0,len(table_ids),3):
             for input_id,path,provenance in pool.map(fetch_table,table_ids[start:start+3]):
                 sources.append({'id':input_id,**provenance})
@@ -128,7 +139,7 @@ def build_group(config,table_ids,metadata,recover_rows=None,output=OUT):
                     assert len(pairs)==len(non_geo),(input_id,'Conflicting dimension aliases')
                     if dimension_names is None:
                         dimension_names=list(pairs);dimensions=[{'name':n,'values':[]} for n in dimension_names];dim_ids=[{} for _ in dimension_names]
-                    if set(pairs)!=set(dimension_names):
+                    if not config.get('preserveMissingDimensions') and set(pairs)!=set(dimension_names):
                         missing=set(dimension_names)-set(pairs);extra=set(pairs)-set(dimension_names)
                         # Some INE totals use a separate variable (e.g. Totales
                         # de edad). Only align an unambiguous single Total slot.
@@ -142,6 +153,11 @@ def build_group(config,table_ids,metadata,recover_rows=None,output=OUT):
                                 for a,target in list(aliases.items()):
                                     if target==old:aliases[a]=new
                                 dimension_names[i]=new;dimensions[i]['name']=new
+                    if config.get('preserveMissingDimensions'):
+                        # Some official series omit classifications from their metadata.
+                        # An omitted classification is a distinct category, never an implicit total.
+                        for name in dimension_names:
+                            pairs.setdefault(name, 'Sin clasificación publicada')
                     assert set(pairs)==set(dimension_names),(input_id,'Dimension mismatch',pairs,dimension_names)
                     ds=[]
                     for i,name in enumerate(dimension_names):
@@ -205,9 +221,10 @@ def main(refresh=False,recover=None):
     tables=[]
     for config in CONFIG['tables']:
         ids=[config['id']]
-        if config['id']==53689:
-            ids=[t['Id'] for o in inventory if o['id']==353 for t in o['tables'] if t['Nombre']=='Indicadores de renta media y mediana']
-            ids=[53689]+[i for i in ids if i!=53689]
+        if config['id']==53689 or config.get('groupByAtlasTableTitle'):
+            title=metadata[config['id']]['Nombre']
+            ids=[config['id']]+[t['Id'] for o in inventory if o['id']==353 for t in o['tables']
+                               if t['Nombre']==title and t['Id']!=config['id']]
         checkpoint=core.CACHE/f'group-{config["id"]}.json'
         fingerprint=core.sha(core.encode({'format':1,'config':config,'ids':ids}))
         previous=json.loads(checkpoint.read_text(encoding='utf-8')) if checkpoint.exists() and not refresh else None

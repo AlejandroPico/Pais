@@ -1,5 +1,5 @@
 {
-  "revision": "2026-11-14",
+  "revision": "2026-11-15",
   "available": [
     {
       "id": "demography:68519",
@@ -19,7 +19,7 @@
       "unit": "personas",
       "license": "CC BY 4.0 · INE",
       "notes": "Censo anual. Edad año a año. Referencia a 1 de enero; no se enlaza artificialmente con el Padrón. Tabla completa: 330,480 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
-      "dataFile": "poblacion/ine/index.json"
+      "dataFile": "poblacion/ine/viewer.json.gz"
     },
     {
       "id": "demography:68520",
@@ -39,7 +39,7 @@
       "unit": "personas",
       "license": "CC BY 4.0 · INE",
       "notes": "Censo anual. Nacimiento en España o extranjero; nacionalidad y nacimiento son conceptos distintos. Tabla completa: 330,480 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
-      "dataFile": "poblacion/ine/index.json"
+      "dataFile": "poblacion/ine/viewer.json.gz"
     },
     {
       "id": "demography:68535",
@@ -59,7 +59,7 @@
       "unit": "personas",
       "license": "CC BY 4.0 · INE",
       "notes": "Censo anual, grupos quinquenales. Detalle municipal cargado por provincia, conservando todas las categorías publicadas. Tabla completa: 8,103,150 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
-      "dataFile": "poblacion/ine/index.json"
+      "dataFile": "poblacion/ine/viewer.json.gz"
     },
     {
       "id": "demography:68523",
@@ -79,7 +79,7 @@
       "unit": "personas",
       "license": "CC BY 4.0 · INE",
       "notes": "Censo anual. Se conserva la relación publicada entre nacimiento y residencia. Tabla completa: 237,600 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
-      "dataFile": "poblacion/ine/index.json"
+      "dataFile": "poblacion/ine/viewer.json.gz"
     },
     {
       "id": "demography:60133",
@@ -99,7 +99,7 @@
       "unit": "hogares",
       "license": "CC BY 4.0 · INE",
       "notes": "Estadística Continua de Población. Estimaciones trimestrales; consultar las revisiones y metodología del INE. Tabla completa: 6,095 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
-      "dataFile": "poblacion/ine/index.json"
+      "dataFile": "poblacion/ine/viewer.json.gz"
     },
     {
       "id": "demography:60131",
@@ -119,7 +119,7 @@
       "unit": "hogares",
       "license": "CC BY 4.0 · INE",
       "notes": "Estadística Continua de Población. Los hogares no son personas ni viviendas totales. Tabla completa: 2,300 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
-      "dataFile": "poblacion/ine/index.json"
+      "dataFile": "poblacion/ine/viewer.json.gz"
     },
     {
       "id": "demography:60134",
@@ -139,7 +139,7 @@
       "unit": "personas por hogar",
       "license": "CC BY 4.0 · INE",
       "notes": "Media publicada por el INE; no se suman medias territoriales. Tabla completa: 1,219 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
-      "dataFile": "poblacion/ine/index.json"
+      "dataFile": "poblacion/ine/viewer.json.gz"
     },
     {
       "id": "demography:60132",
@@ -159,7 +159,7 @@
       "unit": "personas por hogar",
       "license": "CC BY 4.0 · INE",
       "notes": "Media publicada por el INE; no se suman medias territoriales. Tabla completa: 460 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
-      "dataFile": "poblacion/ine/index.json"
+      "dataFile": "poblacion/ine/viewer.json.gz"
     },
     {
       "id": "demography:54562",
@@ -179,7 +179,7 @@
       "unit": "hogares proyectados",
       "license": "CC BY 4.0 · INE",
       "notes": "PROYECCIÓN, no observación ni predicción cierta. Escenario y horizonte del producto original; no se mezcla con las estimaciones de hogares. Tabla completa: 6,912 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
-      "dataFile": "poblacion/ine/index.json"
+      "dataFile": "poblacion/ine/viewer.json.gz"
     },
     {
       "id": "demography:6506",
@@ -199,7 +199,7 @@
       "unit": "nacimientos",
       "license": "CC BY 4.0 · INE",
       "notes": "Movimiento Natural de la Población. Residencia de la madre, no lugar del parto. Tabla completa: 8,100 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
-      "dataFile": "poblacion/ine/index.json"
+      "dataFile": "poblacion/ine/viewer.json.gz"
     },
     {
       "id": "demography:6507",
@@ -219,7 +219,7 @@
       "unit": "nacimientos",
       "license": "CC BY 4.0 · INE",
       "notes": "Serie de comunidades autónomas; no se fabrica detalle municipal. Tabla completa: 3,150 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
-      "dataFile": "poblacion/ine/index.json"
+      "dataFile": "poblacion/ine/viewer.json.gz"
     },
     {
       "id": "demography:6545",
@@ -239,7 +239,7 @@
       "unit": "defunciones",
       "license": "CC BY 4.0 · INE",
       "notes": "Movimiento Natural de la Población. Lugar de residencia, no lugar de ocurrencia. Tabla completa: 8,100 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
-      "dataFile": "poblacion/ine/index.json"
+      "dataFile": "poblacion/ine/viewer.json.gz"
     },
     {
       "id": "demography:6546",
@@ -259,7 +259,7 @@
       "unit": "defunciones",
       "license": "CC BY 4.0 · INE",
       "notes": "Las revisiones y periodos son propios de esta tabla. Tabla completa: 3,150 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
-      "dataFile": "poblacion/ine/index.json"
+      "dataFile": "poblacion/ine/viewer.json.gz"
     },
     {
       "id": "demography:6528",
@@ -279,7 +279,7 @@
       "unit": "matrimonios",
       "license": "CC BY 4.0 · INE",
       "notes": "Recuento de matrimonios; no se interpreta como número de personas casadas. Tabla completa: 2,700 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
-      "dataFile": "poblacion/ine/index.json"
+      "dataFile": "poblacion/ine/viewer.json.gz"
     },
     {
       "id": "demography:6529",
@@ -299,7 +299,7 @@
       "unit": "matrimonios",
       "license": "CC BY 4.0 · INE",
       "notes": "Recuento publicado por lugar de residencia. Tabla completa: 1,050 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
-      "dataFile": "poblacion/ine/index.json"
+      "dataFile": "poblacion/ine/viewer.json.gz"
     },
     {
       "id": "demography:6524",
@@ -319,7 +319,7 @@
       "unit": "nacimientos",
       "license": "CC BY 4.0 · INE",
       "notes": "Meses individuales; no se presentan como totales anuales. Tabla completa: 32,400 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
-      "dataFile": "poblacion/ine/index.json"
+      "dataFile": "poblacion/ine/viewer.json.gz"
     },
     {
       "id": "demography:6561",
@@ -339,7 +339,7 @@
       "unit": "defunciones",
       "license": "CC BY 4.0 · INE",
       "notes": "Meses individuales; no se presentan como totales anuales. Tabla completa: 32,400 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
-      "dataFile": "poblacion/ine/index.json"
+      "dataFile": "poblacion/ine/viewer.json.gz"
     },
     {
       "id": "demography:6540",
@@ -359,7 +359,7 @@
       "unit": "matrimonios",
       "license": "CC BY 4.0 · INE",
       "notes": "Meses individuales; no se presentan como totales anuales. Tabla completa: 32,400 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
-      "dataFile": "poblacion/ine/index.json"
+      "dataFile": "poblacion/ine/viewer.json.gz"
     },
     {
       "id": "demography:69691",
@@ -379,7 +379,7 @@
       "unit": "movimientos",
       "license": "CC BY 4.0 · INE",
       "notes": "Estadística de Migraciones y Cambios de Residencia. Flujos, no población extranjera residente. Serie desde 2021 separada de operaciones anteriores. Tabla completa: 51,840 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
-      "dataFile": "poblacion/ine/index.json"
+      "dataFile": "poblacion/ine/viewer.json.gz"
     },
     {
       "id": "demography:69706",
@@ -399,7 +399,7 @@
       "unit": "movimientos",
       "license": "CC BY 4.0 · INE",
       "notes": "Salidas residenciales, no todas las personas de nacionalidad extranjera. Tabla completa: 51,840 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
-      "dataFile": "poblacion/ine/index.json"
+      "dataFile": "poblacion/ine/viewer.json.gz"
     },
     {
       "id": "demography:69696",
@@ -419,7 +419,7 @@
       "unit": "movimientos",
       "license": "CC BY 4.0 · INE",
       "notes": "Detalle municipal por sexo; códigos y límites pueden cambiar entre periodos. Tabla completa: 98,220 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
-      "dataFile": "poblacion/ine/index.json"
+      "dataFile": "poblacion/ine/viewer.json.gz"
     },
     {
       "id": "demography:69711",
@@ -439,7 +439,7 @@
       "unit": "movimientos",
       "license": "CC BY 4.0 · INE",
       "notes": "Detalle municipal por sexo, según el municipio de procedencia publicado. Tabla completa: 98,220 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
-      "dataFile": "poblacion/ine/index.json"
+      "dataFile": "poblacion/ine/viewer.json.gz"
     },
     {
       "id": "demography:69764",
@@ -459,7 +459,7 @@
       "unit": "saldo de movimientos",
       "license": "CC BY 4.0 · INE",
       "notes": "Saldos total, exterior e interior conservados como categorías. Un saldo negativo no es un dato ausente. Tabla completa: 114,480 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
-      "dataFile": "poblacion/ine/index.json"
+      "dataFile": "poblacion/ine/viewer.json.gz"
     },
     {
       "id": "demography:69762",
@@ -479,7 +479,7 @@
       "unit": "saldo de movimientos",
       "license": "CC BY 4.0 · INE",
       "notes": "No se suman saldos con entradas y salidas como observaciones independientes. Tabla completa: 43,200 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
-      "dataFile": "poblacion/ine/index.json"
+      "dataFile": "poblacion/ine/viewer.json.gz"
     },
     {
       "id": "demography:69767",
@@ -499,7 +499,7 @@
       "unit": "saldo de movimientos",
       "license": "CC BY 4.0 · INE",
       "notes": "Saldos total, exterior e interior por sexo. No mide solicitudes de asilo ni autorizaciones de residencia. Tabla completa: 294,660 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
-      "dataFile": "poblacion/ine/index.json"
+      "dataFile": "poblacion/ine/viewer.json.gz"
     },
     {
       "id": "demography:1470",
@@ -519,7 +519,7 @@
       "unit": "nacimientos por 1.000 habitantes",
       "license": "CC BY 4.0 · INE",
       "notes": "Tasa publicada por el INE, con su denominador metodológico; no se recalcula con otro censo. Tabla completa: 2,650 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
-      "dataFile": "poblacion/ine/index.json"
+      "dataFile": "poblacion/ine/viewer.json.gz"
     },
     {
       "id": "demography:1482",
@@ -539,7 +539,7 @@
       "unit": "defunciones por 1.000 habitantes",
       "license": "CC BY 4.0 · INE",
       "notes": "Tasa publicada por el INE; cambios de serie según la documentación original. Tabla completa: 2,650 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
-      "dataFile": "poblacion/ine/index.json"
+      "dataFile": "poblacion/ine/viewer.json.gz"
     },
     {
       "id": "demography:1478",
@@ -559,7 +559,7 @@
       "unit": "hijos por mujer",
       "license": "CC BY 4.0 · INE",
       "notes": "Indicador sintético del periodo, no número real de hijos de una cohorte. Tabla completa: 13,250 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
-      "dataFile": "poblacion/ine/index.json"
+      "dataFile": "poblacion/ine/viewer.json.gz"
     },
     {
       "id": "demography:1480",
@@ -579,7 +579,7 @@
       "unit": "nacimientos por 1.000 mujeres de 15 a 49 años",
       "license": "CC BY 4.0 · INE",
       "notes": "Tasa oficial, diferenciada del indicador coyuntural de fecundidad. Tabla completa: 2,650 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
-      "dataFile": "poblacion/ine/index.json"
+      "dataFile": "poblacion/ine/viewer.json.gz"
     },
     {
       "id": "demography:1485",
@@ -599,7 +599,7 @@
       "unit": "años",
       "license": "CC BY 4.0 · INE",
       "notes": "Indicador de tabla de mortalidad, por sexo. No equivale a edad media al fallecer. Tabla completa: 7,800 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
-      "dataFile": "poblacion/ine/index.json"
+      "dataFile": "poblacion/ine/viewer.json.gz"
     },
     {
       "id": "demography:1486",
@@ -619,7 +619,7 @@
       "unit": "años restantes",
       "license": "CC BY 4.0 · INE",
       "notes": "Años de vida restantes a los 65; no se interpreta como edad al fallecer. Tabla completa: 7,800 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
-      "dataFile": "poblacion/ine/index.json"
+      "dataFile": "poblacion/ine/viewer.json.gz"
     },
     {
       "id": "demography:1489",
@@ -639,7 +639,7 @@
       "unit": "mayores de 64 por 100 menores de 16",
       "license": "CC BY 4.0 · INE",
       "notes": "Cociente publicado, no porcentaje de personas mayores en el conjunto de población. Tabla completa: 2,703 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
-      "dataFile": "poblacion/ine/index.json"
+      "dataFile": "poblacion/ine/viewer.json.gz"
     },
     {
       "id": "demography:1490",
@@ -659,7 +659,7 @@
       "unit": "menores de 16 y mayores de 64 por 100 de 16–64",
       "license": "CC BY 4.0 · INE",
       "notes": "Dependencia demográfica, no dependencia funcional ni prestaciones. Tabla completa: 2,703 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
-      "dataFile": "poblacion/ine/index.json"
+      "dataFile": "poblacion/ine/viewer.json.gz"
     },
     {
       "id": "demography:1581",
@@ -679,7 +679,7 @@
       "unit": "años",
       "license": "CC BY 4.0 · INE",
       "notes": "Se conserva el desglose por orden de nacimiento. Tabla completa: 13,250 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
-      "dataFile": "poblacion/ine/index.json"
+      "dataFile": "poblacion/ine/viewer.json.gz"
     },
     {
       "id": "demography:3199",
@@ -699,7 +699,7 @@
       "unit": "años",
       "license": "CC BY 4.0 · INE",
       "notes": "Media publicada por el INE, diferenciada de la edad mediana. Tabla completa: 8,109 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
-      "dataFile": "poblacion/ine/index.json"
+      "dataFile": "poblacion/ine/viewer.json.gz"
     },
     {
       "id": "demography:29005",
@@ -719,7 +719,7 @@
       "unit": "personas",
       "license": "CC BY 4.0 · INE",
       "notes": "Serie oficial por municipio. Los códigos históricos se conservan. Los límites disponibles en el mapa son actuales. Tabla completa: 732,420 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
-      "dataFile": "poblacion/ine/index.json"
+      "dataFile": "poblacion/ine/viewer.json.gz"
     },
     {
       "id": "demography:2852",
@@ -739,7 +739,7 @@
       "unit": "personas",
       "license": "CC BY 4.0 · INE",
       "notes": "Serie oficial del Padrón. Los años y revisiones proceden de la tabla original. Tabla completa: 4,134 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
-      "dataFile": "poblacion/ine/index.json"
+      "dataFile": "poblacion/ine/viewer.json.gz"
     },
     {
       "id": "demography:2853",
@@ -759,7 +759,7 @@
       "unit": "personas",
       "license": "CC BY 4.0 · INE",
       "notes": "Serie oficial del Padrón. Los años y revisiones proceden de la tabla original. Tabla completa: 1,560 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
-      "dataFile": "poblacion/ine/index.json"
+      "dataFile": "poblacion/ine/viewer.json.gz"
     },
     {
       "id": "demography:2910",
@@ -779,7 +779,7 @@
       "unit": "personas",
       "license": "CC BY 4.0 · INE",
       "notes": "Series insulares y totales provinciales publicados. Las islas se consultan por serie. Tabla completa: 1,092 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
-      "dataFile": "poblacion/ine/index.json"
+      "dataFile": "poblacion/ine/viewer.json.gz"
     },
     {
       "id": "demography:59583",
@@ -799,7 +799,7 @@
       "unit": "personas",
       "license": "CC BY 4.0 · INE",
       "notes": "Estimaciones de población residente. El INE publica el trimestre reciente como provisional. Tabla completa: 69,216 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
-      "dataFile": "poblacion/ine/index.json"
+      "dataFile": "poblacion/ine/viewer.json.gz"
     },
     {
       "id": "demography:59589",
@@ -819,7 +819,7 @@
       "unit": "personas",
       "license": "CC BY 4.0 · INE",
       "notes": "Serie trimestral y retrospectiva del INE. Los primeros periodos se conservan con su fecha exacta. Tabla completa: 3,668,448 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
-      "dataFile": "poblacion/ine/index.json"
+      "dataFile": "poblacion/ine/viewer.json.gz"
     },
     {
       "id": "demography:69797",
@@ -839,7 +839,7 @@
       "unit": "personas",
       "license": "CC BY 4.0 · INE",
       "notes": "Islas y agregados insulares según la tabla original. Consulta de series. Tabla completa: 79,800 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
-      "dataFile": "poblacion/ine/index.json"
+      "dataFile": "poblacion/ine/viewer.json.gz"
     },
     {
       "id": "demography:71118",
@@ -859,7 +859,7 @@
       "unit": "personas inscritas",
       "license": "CC BY 4.0 · INE",
       "notes": "Padrón de españoles residentes en el extranjero. El mapa identifica el municipio de inscripción. Tabla completa: 442,206 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
-      "dataFile": "poblacion/ine/index.json"
+      "dataFile": "poblacion/ine/viewer.json.gz"
     },
     {
       "id": "demography:71106",
@@ -879,7 +879,7 @@
       "unit": "personas inscritas",
       "license": "CC BY 4.0 · INE",
       "notes": "Padrón de españoles residentes en el extranjero. El mapa identifica la provincia de inscripción. Tabla completa: 18,126 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
-      "dataFile": "poblacion/ine/index.json"
+      "dataFile": "poblacion/ine/viewer.json.gz"
     },
     {
       "id": "demography:46682",
@@ -899,7 +899,7 @@
       "unit": "nacimientos",
       "license": "CC BY 4.0 · INE",
       "notes": "Estimación mensual. Los recuentos de cada mes y los acumulados se identifican en la selección. Tabla completa: 18,432 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
-      "dataFile": "poblacion/ine/index.json"
+      "dataFile": "poblacion/ine/viewer.json.gz"
     },
     {
       "id": "demography:62277",
@@ -919,7 +919,7 @@
       "unit": "defunciones",
       "license": "CC BY 4.0 · INE",
       "notes": "Estimación mensual de defunciones. Selecciona el tipo de dato publicado. Tabla completa: 13,356 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
-      "dataFile": "poblacion/ine/index.json"
+      "dataFile": "poblacion/ine/viewer.json.gz"
     },
     {
       "id": "demography:69743",
@@ -939,7 +939,7 @@
       "unit": "movimientos",
       "license": "CC BY 4.0 · INE",
       "notes": "Flujos intermunicipales por sexo y nacionalidad. Cada observación se refiere al destino. Tabla completa: 294,660 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
-      "dataFile": "poblacion/ine/index.json"
+      "dataFile": "poblacion/ine/viewer.json.gz"
     },
     {
       "id": "demography:6525",
@@ -959,7 +959,7 @@
       "unit": "nacimientos",
       "license": "CC BY 4.0 · INE",
       "notes": "Serie mensual por residencia de la madre. Tabla completa: 12,600 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
-      "dataFile": "poblacion/ine/index.json"
+      "dataFile": "poblacion/ine/viewer.json.gz"
     },
     {
       "id": "demography:6541",
@@ -979,7 +979,7 @@
       "unit": "matrimonios",
       "license": "CC BY 4.0 · INE",
       "notes": "Serie mensual por residencia. Tabla completa: 12,600 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
-      "dataFile": "poblacion/ine/index.json"
+      "dataFile": "poblacion/ine/viewer.json.gz"
     },
     {
       "id": "demography:6562",
@@ -999,7 +999,7 @@
       "unit": "defunciones",
       "license": "CC BY 4.0 · INE",
       "notes": "Serie mensual por residencia. Tabla completa: 12,600 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
-      "dataFile": "poblacion/ine/index.json"
+      "dataFile": "poblacion/ine/viewer.json.gz"
     },
     {
       "id": "demography:36643",
@@ -1019,7 +1019,7 @@
       "unit": "personas proyectadas",
       "license": "CC BY 4.0 · INE",
       "notes": "Proyección oficial del INE con base 2026. Los valores dependen de las hipótesis demográficas del escenario. Tabla completa: 15,606 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
-      "dataFile": "poblacion/ine/index.json"
+      "dataFile": "poblacion/ine/viewer.json.gz"
     },
     {
       "id": "demography:36652",
@@ -1039,7 +1039,7 @@
       "unit": "personas proyectadas",
       "license": "CC BY 4.0 · INE",
       "notes": "Proyección oficial del INE con base 2026. Los valores dependen de las hipótesis demográficas del escenario. Tabla completa: 124,848 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
-      "dataFile": "poblacion/ine/index.json"
+      "dataFile": "poblacion/ine/viewer.json.gz"
     },
     {
       "id": "demography:36680",
@@ -1059,7 +1059,7 @@
       "unit": "personas proyectadas",
       "license": "CC BY 4.0 · INE",
       "notes": "Proyección oficial del INE con base 2026. Los valores dependen de las hipótesis demográficas del escenario. Tabla completa: 97,920 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
-      "dataFile": "poblacion/ine/index.json"
+      "dataFile": "poblacion/ine/viewer.json.gz"
     },
     {
       "id": "demography:36726",
@@ -1079,7 +1079,7 @@
       "unit": "personas proyectadas",
       "license": "CC BY 4.0 · INE",
       "notes": "Proyección oficial del INE con base 2026. Los valores dependen de las hipótesis demográficas del escenario. Tabla completa: 259,488 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
-      "dataFile": "poblacion/ine/index.json"
+      "dataFile": "poblacion/ine/viewer.json.gz"
     },
     {
       "id": "demography:65031",
@@ -1099,7 +1099,7 @@
       "unit": "personas",
       "license": "CC BY 4.0 · INE",
       "notes": "Censo anual del INE. Consulta por provincia, municipio y sección con su código de origen. La cartografía de secciones se activa por separado. Tabla completa: 2,028,465 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
-      "dataFile": "poblacion/ine/index.json"
+      "dataFile": "poblacion/ine/viewer.json.gz"
     },
     {
       "id": "demography:65032",
@@ -1119,7 +1119,7 @@
       "unit": "personas",
       "license": "CC BY 4.0 · INE",
       "notes": "Censo anual del INE. Consulta por provincia, municipio y sección con su código de origen. La cartografía de secciones se activa por separado. Tabla completa: 2,028,465 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
-      "dataFile": "poblacion/ine/index.json"
+      "dataFile": "poblacion/ine/viewer.json.gz"
     },
     {
       "id": "demography:65033",
@@ -1139,7 +1139,7 @@
       "unit": "personas",
       "license": "CC BY 4.0 · INE",
       "notes": "Censo anual del INE. Consulta por provincia, municipio y sección con su código de origen. La cartografía de secciones se activa por separado. Tabla completa: 4,056,930 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
-      "dataFile": "poblacion/ine/index.json"
+      "dataFile": "poblacion/ine/viewer.json.gz"
     },
     {
       "id": "demography:65034",
@@ -1159,7 +1159,7 @@
       "unit": "personas",
       "license": "CC BY 4.0 · INE",
       "notes": "Censo anual del INE. Consulta por provincia, municipio y sección con su código de origen. La cartografía de secciones se activa por separado. Tabla completa: 14,875,410 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
-      "dataFile": "poblacion/ine/index.json"
+      "dataFile": "poblacion/ine/viewer.json.gz"
     },
     {
       "id": "demography:65035",
@@ -1179,7 +1179,7 @@
       "unit": "personas",
       "license": "CC BY 4.0 · INE",
       "notes": "Censo anual del INE. Consulta por provincia, municipio y sección con su código de origen. La cartografía de secciones se activa por separado. Tabla completa: 14,199,255 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
-      "dataFile": "poblacion/ine/index.json"
+      "dataFile": "poblacion/ine/viewer.json.gz"
     },
     {
       "id": "demography:65036",
@@ -1199,7 +1199,7 @@
       "unit": "personas",
       "license": "CC BY 4.0 · INE",
       "notes": "Censo anual del INE. Consulta por provincia, municipio y sección con su código de origen. La cartografía de secciones se activa por separado. Tabla completa: 14,875,410 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
-      "dataFile": "poblacion/ine/index.json"
+      "dataFile": "poblacion/ine/viewer.json.gz"
     },
     {
       "id": "demography:79276",
@@ -1219,7 +1219,7 @@
       "unit": "personas",
       "license": "CC BY 4.0 · INE",
       "notes": "Población residente por fecha, sexo, nacionalidad(española/extranjera) y país de nacimiento (España/extranjero). Serie del INE con los periodos y el desglose territorial publicados. Tabla completa: 2,511 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
-      "dataFile": "poblacion/ine/index.json"
+      "dataFile": "poblacion/ine/viewer.json.gz"
     },
     {
       "id": "demography:79277",
@@ -1239,7 +1239,7 @@
       "unit": "personas",
       "license": "CC BY 4.0 · INE",
       "notes": "Población residente por fecha, sexo, nacionalidad(española/extranjera) y país de nacimiento (España/extranjero). Serie del INE con los periodos y el desglose territorial publicados. Tabla completa: 50,220 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
-      "dataFile": "poblacion/ine/index.json"
+      "dataFile": "poblacion/ine/viewer.json.gz"
     },
     {
       "id": "demography:79278",
@@ -1259,7 +1259,7 @@
       "unit": "personas",
       "license": "CC BY 4.0 · INE",
       "notes": "Población residente por fecha, sexo, nacionalidad(española/extranjera) y país de nacimiento (España/extranjero). Serie del INE con los periodos y el desglose territorial publicados. Tabla completa: 133,083 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
-      "dataFile": "poblacion/ine/index.json"
+      "dataFile": "poblacion/ine/viewer.json.gz"
     },
     {
       "id": "demography:1422",
@@ -1279,7 +1279,7 @@
       "unit": "matrimonios por 1.000 habitantes",
       "license": "CC BY 4.0 · INE",
       "notes": "Tasa Bruta de Nupcialidad. Serie del INE con los periodos y el desglose territorial publicados. Tabla completa: 49 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
-      "dataFile": "poblacion/ine/index.json"
+      "dataFile": "poblacion/ine/viewer.json.gz"
     },
     {
       "id": "demography:1456",
@@ -1299,7 +1299,7 @@
       "unit": "matrimonios por 1.000 habitantes",
       "license": "CC BY 4.0 · INE",
       "notes": "Tasa Bruta de Nupcialidad por comunidad autónoma. Serie del INE con los periodos y el desglose territorial publicados. Tabla completa: 980 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
-      "dataFile": "poblacion/ine/index.json"
+      "dataFile": "poblacion/ine/viewer.json.gz"
     },
     {
       "id": "demography:1493",
@@ -1319,7 +1319,547 @@
       "unit": "matrimonios por 1.000 habitantes",
       "license": "CC BY 4.0 · INE",
       "notes": "Tasa Bruta de Nupcialidad por provincia. Serie del INE con los periodos y el desglose territorial publicados. Tabla completa: 2,597 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
-      "dataFile": "poblacion/ine/index.json"
+      "dataFile": "poblacion/ine/viewer.json.gz"
+    },
+    {
+      "id": "demography:71116",
+      "title": "Población por país de residencia, sexo y grupos de edad (quinquenales) · 71116",
+      "sourceId": "F005",
+      "categoryIds": [
+        "F02"
+      ],
+      "status": "integrado",
+      "url": "https://www.ine.es/jaxiT3/Tabla.htm?t=71116",
+      "mapAction": "demography:71116",
+      "coverage": "España",
+      "period": {
+        "from": "2009",
+        "to": "2026"
+      },
+      "unit": "personas",
+      "license": "CC BY 4.0 · INE",
+      "notes": "Se conservan las categorías y periodos oficiales de la descarga del INE. Tabla completa: 208,278 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
+      "dataFile": "poblacion/ine/viewer.json.gz"
+    },
+    {
+      "id": "demography:71117",
+      "title": "Población por país de residencia (con 1000 o más residentes), provincia de inscripción (agrupadas por comunidad autónoma), sexo y edad (grandes grupos) · 71117",
+      "sourceId": "F005",
+      "categoryIds": [
+        "F02"
+      ],
+      "status": "integrado",
+      "url": "https://www.ine.es/jaxiT3/Tabla.htm?t=71117",
+      "mapAction": "demography:71117",
+      "coverage": "Comunidades · España · Provincias",
+      "period": {
+        "from": "2009",
+        "to": "2026"
+      },
+      "unit": "personas",
+      "license": "CC BY 4.0 · INE",
+      "notes": "Se conservan las categorías y periodos oficiales de la descarga del INE. Tabla completa: 3,234,816 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
+      "dataFile": "poblacion/ine/viewer.json.gz"
+    },
+    {
+      "id": "demography:71124",
+      "title": "Nuevas inscripciones por país de residencia (con 1000 o más residentes), provincia de inscripción (agrupadas por comunidad autónoma), sexo y edad (grandes grupos) · 71124",
+      "sourceId": "F005",
+      "categoryIds": [
+        "F02"
+      ],
+      "status": "integrado",
+      "url": "https://www.ine.es/jaxiT3/Tabla.htm?t=71124",
+      "mapAction": "demography:71124",
+      "coverage": "Comunidades · España · Provincias",
+      "period": {
+        "from": "2009",
+        "to": "2026"
+      },
+      "unit": "personas",
+      "license": "CC BY 4.0 · INE",
+      "notes": "Se conservan las categorías y periodos oficiales de la descarga del INE. Tabla completa: 3,234,816 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
+      "dataFile": "poblacion/ine/viewer.json.gz"
+    },
+    {
+      "id": "demography:71119",
+      "title": "Población por país de residencia, sexo y lugar de nacimiento (España, país de residencia, otros países) · 71119",
+      "sourceId": "F005",
+      "categoryIds": [
+        "F02"
+      ],
+      "status": "integrado",
+      "url": "https://www.ine.es/jaxiT3/Tabla.htm?t=71119",
+      "mapAction": "demography:71119",
+      "coverage": "España",
+      "period": {
+        "from": "2009",
+        "to": "2026"
+      },
+      "unit": "personas",
+      "license": "CC BY 4.0 · INE",
+      "notes": "Se conservan las categorías y periodos oficiales de la descarga del INE. Tabla completa: 54,810 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
+      "dataFile": "poblacion/ine/viewer.json.gz"
+    },
+    {
+      "id": "demography:71126",
+      "title": "Nuevas inscripciones por país de residencia, sexo y lugar de nacimiento (España, país de residencia, otros países) · 71126",
+      "sourceId": "F005",
+      "categoryIds": [
+        "F02"
+      ],
+      "status": "integrado",
+      "url": "https://www.ine.es/jaxiT3/Tabla.htm?t=71126",
+      "mapAction": "demography:71126",
+      "coverage": "España",
+      "period": {
+        "from": "2009",
+        "to": "2026"
+      },
+      "unit": "personas",
+      "license": "CC BY 4.0 · INE",
+      "notes": "Se conservan las categorías y periodos oficiales de la descarga del INE. Tabla completa: 54,810 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
+      "dataFile": "poblacion/ine/viewer.json.gz"
+    },
+    {
+      "id": "demography:71121",
+      "title": "Población por país de residencia (con 1000 o más residentes), provincia de inscripción (agrupadas por comunidad autónoma), sexo y lugar de nacimiento (provincia de inscripción, otra provincia, extranjero) · 71121",
+      "sourceId": "F005",
+      "categoryIds": [
+        "F02"
+      ],
+      "status": "integrado",
+      "url": "https://www.ine.es/jaxiT3/Tabla.htm?t=71121",
+      "mapAction": "demography:71121",
+      "coverage": "Comunidades · España · Provincias",
+      "period": {
+        "from": "2009",
+        "to": "2026"
+      },
+      "unit": "personas",
+      "license": "CC BY 4.0 · INE",
+      "notes": "Se conservan las categorías y periodos oficiales de la descarga del INE. Tabla completa: 4,043,520 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
+      "dataFile": "poblacion/ine/viewer.json.gz"
+    },
+    {
+      "id": "demography:71127",
+      "title": "Nuevas inscripciones por país de residencia (con 1000 o más residentes), provincia de inscripción (agrupadas por comunidad autónoma), sexo y lugar de nacimiento (provincia de inscripción, otra provincia, extranjero) · 71127",
+      "sourceId": "F005",
+      "categoryIds": [
+        "F02"
+      ],
+      "status": "integrado",
+      "url": "https://www.ine.es/jaxiT3/Tabla.htm?t=71127",
+      "mapAction": "demography:71127",
+      "coverage": "Comunidades · España · Provincias",
+      "period": {
+        "from": "2009",
+        "to": "2026"
+      },
+      "unit": "personas",
+      "license": "CC BY 4.0 · INE",
+      "notes": "Se conservan las categorías y periodos oficiales de la descarga del INE. Tabla completa: 4,043,520 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
+      "dataFile": "poblacion/ine/viewer.json.gz"
+    },
+    {
+      "id": "demography:71122",
+      "title": "Para nacidos en España: Población por país de residencia (con 1000 o más residentes), provincia de nacimiento (agrupadas por comunidad autónoma), sexo y edad (grandes grupos) · 71122",
+      "sourceId": "F005",
+      "categoryIds": [
+        "F02"
+      ],
+      "status": "integrado",
+      "url": "https://www.ine.es/jaxiT3/Tabla.htm?t=71122",
+      "mapAction": "demography:71122",
+      "coverage": "Comunidades · España · Provincias",
+      "period": {
+        "from": "2009",
+        "to": "2026"
+      },
+      "unit": "personas",
+      "license": "CC BY 4.0 · INE",
+      "notes": "Se conservan las categorías y periodos oficiales de la descarga del INE. Tabla completa: 3,234,816 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
+      "dataFile": "poblacion/ine/viewer.json.gz"
+    },
+    {
+      "id": "demography:71128",
+      "title": "Nuevas inscripciones de nacidos en España por país de residencia (con 1000 o más residentes), provincia de nacimiento (agrupadas por comunidad autónoma), sexo y edad (grandes grupos) · 71128",
+      "sourceId": "F005",
+      "categoryIds": [
+        "F02"
+      ],
+      "status": "integrado",
+      "url": "https://www.ine.es/jaxiT3/Tabla.htm?t=71128",
+      "mapAction": "demography:71128",
+      "coverage": "Comunidades · España · Provincias",
+      "period": {
+        "from": "2009",
+        "to": "2026"
+      },
+      "unit": "personas",
+      "license": "CC BY 4.0 · INE",
+      "notes": "Se conservan las categorías y periodos oficiales de la descarga del INE. Tabla completa: 3,234,816 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
+      "dataFile": "poblacion/ine/viewer.json.gz"
+    },
+    {
+      "id": "demography:35168",
+      "title": "Defunciones semanales y acumuladas.Total nacional, comunidades autónomas y provincias · 35168",
+      "sourceId": "F005",
+      "categoryIds": [
+        "F02"
+      ],
+      "status": "integrado",
+      "url": "https://www.ine.es/jaxiT3/Tabla.htm?t=35168",
+      "mapAction": "demography:35168",
+      "coverage": "Comunidades · España · Provincias",
+      "period": {
+        "from": "2016SM01",
+        "to": "2026SM40"
+      },
+      "unit": "defunciones",
+      "license": "CC BY 4.0 · INE",
+      "notes": "Se conservan las categorías y periodos oficiales de la descarga del INE. Tabla completa: 80,784 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
+      "dataFile": "poblacion/ine/viewer.json.gz"
+    },
+    {
+      "id": "demography:35177",
+      "title": "Defunciones semanales, acumuladas y variación interanual del acumulado. Total nacional y CCAA. 1975-2026 · 35177",
+      "sourceId": "F005",
+      "categoryIds": [
+        "F02"
+      ],
+      "status": "integrado",
+      "url": "https://www.ine.es/jaxiT3/Tabla.htm?t=35177",
+      "mapAction": "demography:35177",
+      "coverage": "Comunidades · España · Sin localización",
+      "period": {
+        "from": "1975SM01",
+        "to": "2026SM40"
+      },
+      "unit": "defunciones",
+      "license": "CC BY 4.0 · INE",
+      "notes": "Se conservan las categorías y periodos oficiales de la descarga del INE. Tabla completa: 170,163 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
+      "dataFile": "poblacion/ine/viewer.json.gz"
+    },
+    {
+      "id": "demography:35169",
+      "title": "Defunciones semanales diferencia absoluta del acumulado por sexo y edad.Total nacional y comunidades autónomas, · 35169",
+      "sourceId": "F005",
+      "categoryIds": [
+        "F02"
+      ],
+      "status": "integrado",
+      "url": "https://www.ine.es/jaxiT3/Tabla.htm?t=35169",
+      "mapAction": "demography:35169",
+      "coverage": "Comunidades · España · Provincias",
+      "period": {
+        "from": "2020SM01",
+        "to": "2026SM40"
+      },
+      "unit": "defunciones",
+      "license": "CC BY 4.0 · INE",
+      "notes": "Se conservan las categorías y periodos oficiales de la descarga del INE. Tabla completa: 965,808 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
+      "dataFile": "poblacion/ine/viewer.json.gz"
+    },
+    {
+      "id": "demography:35176",
+      "title": "Defunciones semanales, acumuladas y variación interanual del acumulado. Total nacional y provincias. 1975-2026 · 35176",
+      "sourceId": "F005",
+      "categoryIds": [
+        "F02"
+      ],
+      "status": "integrado",
+      "url": "https://www.ine.es/jaxiT3/Tabla.htm?t=35176",
+      "mapAction": "demography:35176",
+      "coverage": "España · Provincias · Sin localización",
+      "period": {
+        "from": "1975SM01",
+        "to": "2026SM40"
+      },
+      "unit": "defunciones",
+      "license": "CC BY 4.0 · INE",
+      "notes": "Se conservan las categorías y periodos oficiales de la descarga del INE. Tabla completa: 437,562 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
+      "dataFile": "poblacion/ine/viewer.json.gz"
+    },
+    {
+      "id": "demography:35178",
+      "title": "Defunciones semanales acumuladas y variación interanual del acumulado. Islas. 1975-2026 · 35178",
+      "sourceId": "F005",
+      "categoryIds": [
+        "F02"
+      ],
+      "status": "integrado",
+      "url": "https://www.ine.es/jaxiT3/Tabla.htm?t=35178",
+      "mapAction": "demography:35178",
+      "coverage": "Islas (series) · Provincias",
+      "period": {
+        "from": "1975SM01",
+        "to": "2026SM40"
+      },
+      "unit": "defunciones",
+      "license": "CC BY 4.0 · INE",
+      "notes": "Se conservan las categorías y periodos oficiales de la descarga del INE. Tabla completa: 105,339 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
+      "dataFile": "poblacion/ine/viewer.json.gz"
+    },
+    {
+      "id": "demography:46318",
+      "title": "Defunciones semanales y acumuladas.Total nacional, comunidades autónomas y provincias · 46318",
+      "sourceId": "F005",
+      "categoryIds": [
+        "F02"
+      ],
+      "status": "integrado",
+      "url": "https://www.ine.es/jaxiT3/Tabla.htm?t=46318",
+      "mapAction": "demography:46318",
+      "coverage": "Comunidades · España · Provincias",
+      "period": {
+        "from": "2020SM01",
+        "to": "2026SM40"
+      },
+      "unit": "defunciones",
+      "license": "CC BY 4.0 · INE",
+      "notes": "Se conservan las categorías y periodos oficiales de la descarga del INE. Tabla completa: 25,416 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
+      "dataFile": "poblacion/ine/viewer.json.gz"
+    },
+    {
+      "id": "demography:62278",
+      "title": "Defunciones mensuales, acumuladas y variación interanual del acumulado. Total nacional y provincias. 2009-2026 · 62278",
+      "sourceId": "F005",
+      "categoryIds": [
+        "F02"
+      ],
+      "status": "integrado",
+      "url": "https://www.ine.es/jaxiT3/Tabla.htm?t=62278",
+      "mapAction": "demography:62278",
+      "coverage": "España · Provincias · Sin localización",
+      "period": {
+        "from": "2009M01",
+        "to": "2026M08"
+      },
+      "unit": "defunciones",
+      "license": "CC BY 4.0 · INE",
+      "notes": "Se conservan las categorías y periodos oficiales de la descarga del INE. Tabla completa: 34,344 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
+      "dataFile": "poblacion/ine/viewer.json.gz"
+    },
+    {
+      "id": "demography:35179",
+      "title": "Defunciones semanales, acumuladas y diferencia absoluta del acumulado por sexo y edad. Total nacional y comunidades autónomas. 1975-2026 · 35179",
+      "sourceId": "F005",
+      "categoryIds": [
+        "F02"
+      ],
+      "status": "integrado",
+      "url": "https://www.ine.es/jaxiT3/Tabla.htm?t=35179",
+      "mapAction": "demography:35179",
+      "coverage": "Comunidades · España · Sin localización",
+      "period": {
+        "from": "1975SM01",
+        "to": "2026SM40"
+      },
+      "unit": "defunciones",
+      "license": "CC BY 4.0 · INE",
+      "notes": "Se conservan las categorías y periodos oficiales de la descarga del INE. Tabla completa: 10,720,269 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
+      "dataFile": "poblacion/ine/viewer.json.gz"
+    },
+    {
+      "id": "demography:62279",
+      "title": "Defunciones mensuales acumuladas y variación interanual del acumulado. Islas. 2009-2026 · 62279",
+      "sourceId": "F005",
+      "categoryIds": [
+        "F02"
+      ],
+      "status": "integrado",
+      "url": "https://www.ine.es/jaxiT3/Tabla.htm?t=62279",
+      "mapAction": "demography:62279",
+      "coverage": "Islas (series) · Provincias",
+      "period": {
+        "from": "2009M01",
+        "to": "2026M08"
+      },
+      "unit": "defunciones",
+      "license": "CC BY 4.0 · INE",
+      "notes": "Se conservan las categorías y periodos oficiales de la descarga del INE. Tabla completa: 8,268 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
+      "dataFile": "poblacion/ine/viewer.json.gz"
+    },
+    {
+      "id": "demography:36166",
+      "title": "Defunciones semanales, acumuladas y diferencia absoluta del acumulado por sexo y edad. Total nacional y provincias. 1975-2026 · 36166",
+      "sourceId": "F005",
+      "categoryIds": [
+        "F02"
+      ],
+      "status": "integrado",
+      "url": "https://www.ine.es/jaxiT3/Tabla.htm?t=36166",
+      "mapAction": "demography:36166",
+      "coverage": "España · Provincias · Sin localización",
+      "period": {
+        "from": "1975SM01",
+        "to": "2026SM40"
+      },
+      "unit": "defunciones",
+      "license": "CC BY 4.0 · INE",
+      "notes": "Se conservan las categorías y periodos oficiales de la descarga del INE. Tabla completa: 27,566,406 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
+      "dataFile": "poblacion/ine/viewer.json.gz"
+    },
+    {
+      "id": "demography:62280",
+      "title": "Defunciones mensuales, acumuladas y diferencia absoluta del acumulado por sexo y edad. Total nacional y comunidades autónomas. 2009-2026 · 62280",
+      "sourceId": "F005",
+      "categoryIds": [
+        "F02"
+      ],
+      "status": "integrado",
+      "url": "https://www.ine.es/jaxiT3/Tabla.htm?t=62280",
+      "mapAction": "demography:62280",
+      "coverage": "Comunidades · España · Sin localización",
+      "period": {
+        "from": "2009M01",
+        "to": "2026M08"
+      },
+      "unit": "defunciones",
+      "license": "CC BY 4.0 · INE",
+      "notes": "Se conservan las categorías y periodos oficiales de la descarga del INE. Tabla completa: 841,428 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
+      "dataFile": "poblacion/ine/viewer.json.gz"
+    },
+    {
+      "id": "demography:62281",
+      "title": "Defunciones mensuales, acumuladas y diferencia absoluta del acumulado por sexo y edad. Total nacional y provincias. 2009-2026 · 62281",
+      "sourceId": "F005",
+      "categoryIds": [
+        "F02"
+      ],
+      "status": "integrado",
+      "url": "https://www.ine.es/jaxiT3/Tabla.htm?t=62281",
+      "mapAction": "demography:62281",
+      "coverage": "España · Provincias · Sin localización",
+      "period": {
+        "from": "2009M01",
+        "to": "2026M08"
+      },
+      "unit": "defunciones",
+      "license": "CC BY 4.0 · INE",
+      "notes": "Se conservan las categorías y periodos oficiales de la descarga del INE. Tabla completa: 2,163,672 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
+      "dataFile": "poblacion/ine/viewer.json.gz"
+    },
+    {
+      "id": "demography:46678",
+      "title": "Nacimientos mensuales, acumulados y variación interanual del acumulado por sexo del nacido y grupo de edad de la madre. Total nacional y CCAA · 46678",
+      "sourceId": "F005",
+      "categoryIds": [
+        "F02"
+      ],
+      "status": "integrado",
+      "url": "https://www.ine.es/jaxiT3/Tabla.htm?t=46678",
+      "mapAction": "demography:46678",
+      "coverage": "Comunidades · España · Sin localización",
+      "period": {
+        "from": "2013M01",
+        "to": "2026M08"
+      },
+      "unit": "nacimientos",
+      "license": "CC BY 4.0 · INE",
+      "notes": "Se conservan las categorías y periodos oficiales de la descarga del INE. Tabla completa: 309,960 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
+      "dataFile": "poblacion/ine/viewer.json.gz"
+    },
+    {
+      "id": "demography:46679",
+      "title": "Nacimientos mensuales, acumulados y variación interanual del acumulado por sexo del nacido y grupo de edad de la madre. Total nacional y provincias · 46679",
+      "sourceId": "F005",
+      "categoryIds": [
+        "F02"
+      ],
+      "status": "integrado",
+      "url": "https://www.ine.es/jaxiT3/Tabla.htm?t=46679",
+      "mapAction": "demography:46679",
+      "coverage": "España · Provincias · Sin localización",
+      "period": {
+        "from": "2013M01",
+        "to": "2026M08"
+      },
+      "unit": "nacimientos",
+      "license": "CC BY 4.0 · INE",
+      "notes": "Se conservan las categorías y periodos oficiales de la descarga del INE. Tabla completa: 797,040 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
+      "dataFile": "poblacion/ine/viewer.json.gz"
+    },
+    {
+      "id": "demography:46683",
+      "title": "Variación interanual de los nacimientos acumulados. Total nacional, CCAA y provincias · 46683",
+      "sourceId": "F005",
+      "categoryIds": [
+        "F02"
+      ],
+      "status": "integrado",
+      "url": "https://www.ine.es/jaxiT3/Tabla.htm?t=46683",
+      "mapAction": "demography:46683",
+      "coverage": "Comunidades · España · Provincias",
+      "period": {
+        "from": "2016M01",
+        "to": "2026M08"
+      },
+      "unit": "nacimientos",
+      "license": "CC BY 4.0 · INE",
+      "notes": "Se conservan las categorías y periodos oficiales de la descarga del INE. Tabla completa: 9,216 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
+      "dataFile": "poblacion/ine/viewer.json.gz"
+    },
+    {
+      "id": "demography:46680",
+      "title": "Nacimientos mensuales por sexo del nacido y grupo de edad de la madre, acumulados y diferencia absoluta interanual del acumulado. Total nacional y CCAA · 46680",
+      "sourceId": "F005",
+      "categoryIds": [
+        "F02"
+      ],
+      "status": "integrado",
+      "url": "https://www.ine.es/jaxiT3/Tabla.htm?t=46680",
+      "mapAction": "demography:46680",
+      "coverage": "Comunidades · España · Sin localización",
+      "period": {
+        "from": "2013M01",
+        "to": "2026M08"
+      },
+      "unit": "nacimientos",
+      "license": "CC BY 4.0 · INE",
+      "notes": "Se conservan las categorías y periodos oficiales de la descarga del INE. Tabla completa: 309,960 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
+      "dataFile": "poblacion/ine/viewer.json.gz"
+    },
+    {
+      "id": "demography:46684",
+      "title": "Diferencia absoluta interanual de los nacimientos acumulados. Total nacional, CCAA y provincias · 46684",
+      "sourceId": "F005",
+      "categoryIds": [
+        "F02"
+      ],
+      "status": "integrado",
+      "url": "https://www.ine.es/jaxiT3/Tabla.htm?t=46684",
+      "mapAction": "demography:46684",
+      "coverage": "Comunidades · España · Provincias",
+      "period": {
+        "from": "2016M01",
+        "to": "2026M08"
+      },
+      "unit": "nacimientos",
+      "license": "CC BY 4.0 · INE",
+      "notes": "Se conservan las categorías y periodos oficiales de la descarga del INE. Tabla completa: 9,216 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
+      "dataFile": "poblacion/ine/viewer.json.gz"
+    },
+    {
+      "id": "demography:46681",
+      "title": "Nacimientos mensuales por sexo del nacido y grupo de edad de la madre, acumulados y diferencia absoluta interanual del acumulado. Total nacional y provincias · 46681",
+      "sourceId": "F005",
+      "categoryIds": [
+        "F02"
+      ],
+      "status": "integrado",
+      "url": "https://www.ine.es/jaxiT3/Tabla.htm?t=46681",
+      "mapAction": "demography:46681",
+      "coverage": "España · Provincias · Sin localización",
+      "period": {
+        "from": "2013M01",
+        "to": "2026M08"
+      },
+      "unit": "nacimientos",
+      "license": "CC BY 4.0 · INE",
+      "notes": "Se conservan las categorías y periodos oficiales de la descarga del INE. Tabla completa: 797,040 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
+      "dataFile": "poblacion/ine/viewer.json.gz"
     },
     {
       "id": "demography:nomenclator",
@@ -1436,7 +1976,7 @@
       "coverage": "España · Provincias",
       "review": {
         "implementedProductId": "demography:2852",
-        "updatedAt": "2026-11-14",
+        "updatedAt": "2026-11-15",
         "reason": "Todas las observaciones de la descarga se conservan en cubos consultables; sin selección de columnas ni de último periodo."
       }
     },
@@ -1465,7 +2005,7 @@
       "coverage": "Comunidades · España",
       "review": {
         "implementedProductId": "demography:2853",
-        "updatedAt": "2026-11-14",
+        "updatedAt": "2026-11-15",
         "reason": "Todas las observaciones de la descarga se conservan en cubos consultables; sin selección de columnas ni de último periodo."
       }
     },
@@ -1510,7 +2050,7 @@
       "coverage": "Islas (series) · Provincias",
       "review": {
         "implementedProductId": "demography:2910",
-        "updatedAt": "2026-11-14",
+        "updatedAt": "2026-11-15",
         "reason": "Todas las observaciones de la descarga se conservan en cubos consultables; sin selección de columnas ni de último periodo."
       }
     },
@@ -1555,7 +2095,7 @@
       "coverage": "Municipios",
       "review": {
         "implementedProductId": "demography:29005",
-        "updatedAt": "2026-11-14",
+        "updatedAt": "2026-11-15",
         "reason": "Todas las observaciones de la descarga se conservan en cubos consultables; sin selección de columnas ni de último periodo."
       }
     },
@@ -2608,7 +3148,7 @@
       "coverage": "España",
       "review": {
         "implementedProductId": "demography:1422",
-        "updatedAt": "2026-11-14",
+        "updatedAt": "2026-11-15",
         "reason": "Todas las observaciones de la descarga se conservan en cubos consultables; sin selección de columnas ni de último periodo."
       }
     },
@@ -2717,7 +3257,7 @@
       "coverage": "Comunidades · España",
       "review": {
         "implementedProductId": "demography:1456",
-        "updatedAt": "2026-11-14",
+        "updatedAt": "2026-11-15",
         "reason": "Todas las observaciones de la descarga se conservan en cubos consultables; sin selección de columnas ni de último periodo."
       }
     },
@@ -2762,7 +3302,7 @@
       "coverage": "España · Provincias",
       "review": {
         "implementedProductId": "demography:1470",
-        "updatedAt": "2026-11-14",
+        "updatedAt": "2026-11-15",
         "reason": "Todas las observaciones de la descarga se conservan en cubos consultables; sin selección de columnas ni de último periodo."
       }
     },
@@ -2791,7 +3331,7 @@
       "coverage": "España · Provincias",
       "review": {
         "implementedProductId": "demography:1480",
-        "updatedAt": "2026-11-14",
+        "updatedAt": "2026-11-15",
         "reason": "Todas las observaciones de la descarga se conservan en cubos consultables; sin selección de columnas ni de último periodo."
       }
     },
@@ -2820,7 +3360,7 @@
       "coverage": "España · Provincias",
       "review": {
         "implementedProductId": "demography:1482",
-        "updatedAt": "2026-11-14",
+        "updatedAt": "2026-11-15",
         "reason": "Todas las observaciones de la descarga se conservan en cubos consultables; sin selección de columnas ni de último periodo."
       }
     },
@@ -2849,7 +3389,7 @@
       "coverage": "España · Provincias",
       "review": {
         "implementedProductId": "demography:1493",
-        "updatedAt": "2026-11-14",
+        "updatedAt": "2026-11-15",
         "reason": "Todas las observaciones de la descarga se conservan en cubos consultables; sin selección de columnas ni de último periodo."
       }
     },
@@ -5150,7 +5690,7 @@
       "coverage": "España · Provincias",
       "review": {
         "implementedProductId": "demography:1478",
-        "updatedAt": "2026-11-14",
+        "updatedAt": "2026-11-15",
         "reason": "Todas las observaciones de la descarga se conservan en cubos consultables; sin selección de columnas ni de último periodo."
       }
     },
@@ -5627,7 +6167,7 @@
       "coverage": "España · Provincias",
       "review": {
         "implementedProductId": "demography:1581",
-        "updatedAt": "2026-11-14",
+        "updatedAt": "2026-11-15",
         "reason": "Todas las observaciones de la descarga se conservan en cubos consultables; sin selección de columnas ni de último periodo."
       }
     },
@@ -5720,7 +6260,7 @@
       "coverage": "España · Provincias",
       "review": {
         "implementedProductId": "demography:3199",
-        "updatedAt": "2026-11-14",
+        "updatedAt": "2026-11-15",
         "reason": "Todas las observaciones de la descarga se conservan en cubos consultables; sin selección de columnas ni de último periodo."
       }
     },
@@ -6565,7 +7105,7 @@
       "coverage": "Provincias",
       "review": {
         "implementedProductId": "demography:1485",
-        "updatedAt": "2026-11-14",
+        "updatedAt": "2026-11-15",
         "reason": "Todas las observaciones de la descarga se conservan en cubos consultables; sin selección de columnas ni de último periodo."
       }
     },
@@ -6850,7 +7390,7 @@
       "coverage": "Provincias",
       "review": {
         "implementedProductId": "demography:1486",
-        "updatedAt": "2026-11-14",
+        "updatedAt": "2026-11-15",
         "reason": "Todas las observaciones de la descarga se conservan en cubos consultables; sin selección de columnas ni de último periodo."
       }
     },
@@ -7439,7 +7979,7 @@
       "coverage": "España · Provincias",
       "review": {
         "implementedProductId": "demography:1489",
-        "updatedAt": "2026-11-14",
+        "updatedAt": "2026-11-15",
         "reason": "Todas las observaciones de la descarga se conservan en cubos consultables; sin selección de columnas ni de último periodo."
       }
     },
@@ -7708,7 +8248,7 @@
       "coverage": "España · Provincias",
       "review": {
         "implementedProductId": "demography:1490",
-        "updatedAt": "2026-11-14",
+        "updatedAt": "2026-11-15",
         "reason": "Todas las observaciones de la descarga se conservan en cubos consultables; sin selección de columnas ni de último periodo."
       }
     },
@@ -8169,7 +8709,7 @@
       "coverage": "Comunidades · España · Provincias",
       "review": {
         "implementedProductId": "demography:54562",
-        "updatedAt": "2026-11-14",
+        "updatedAt": "2026-11-15",
         "reason": "Todas las observaciones de la descarga se conservan en cubos consultables; sin selección de columnas ni de último periodo."
       }
     },
@@ -10913,81 +11453,146 @@
       "id": "demography-inventory:71116",
       "title": "Población por país de residencia, sexo y grupos de edad (quinquenales)",
       "sourceId": "F005",
-      "categoryIds": [],
+      "categoryIds": [
+        "F02"
+      ],
       "suggestedCategoryIds": [
         "F02"
       ],
-      "status": "por_revisar",
+      "status": "integrado",
       "url": "https://www.ine.es/jaxiT3/Tabla.htm?t=71116",
-      "license": null,
+      "license": "CC BY 4.0 · INE",
       "operationIds": [
         230
       ],
-      "notes": "Tabla anunciada en el inventario temático. Puede contener variables de otros fascículos. No implica descarga ni representación de sus observaciones."
+      "notes": "Se conservan las categorías y periodos oficiales de la descarga del INE. Tabla completa: 208,278 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
+      "mapAction": "demography:71116",
+      "period": {
+        "from": "2009",
+        "to": "2026"
+      },
+      "coverage": "España",
+      "review": {
+        "implementedProductId": "demography:71116",
+        "updatedAt": "2026-11-15",
+        "reason": "Todas las observaciones de la descarga se conservan en cubos consultables; sin selección de columnas ni de último periodo."
+      }
     },
     {
       "id": "demography-inventory:79675",
       "title": "Población por país de residencia, sexo y grupos de edad (quinquenales)",
       "sourceId": "F005",
-      "categoryIds": [],
+      "categoryIds": [
+        "F02"
+      ],
       "suggestedCategoryIds": [
         "F02"
       ],
-      "status": "por_revisar",
+      "status": "integrado",
       "url": "https://www.ine.es/jaxiT3/Tabla.htm?t=79675",
-      "license": null,
+      "license": "CC BY 4.0 · INE",
       "operationIds": [
         230
       ],
-      "notes": "Tabla anunciada en el inventario temático. Puede contener variables de otros fascículos. No implica descarga ni representación de sus observaciones."
+      "notes": "Se conservan las categorías y periodos oficiales de la descarga del INE. Tabla completa: 208,278 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
+      "mapAction": "demography:71116",
+      "period": {
+        "from": "2009",
+        "to": "2026"
+      },
+      "coverage": "España",
+      "review": {
+        "implementedProductId": "demography:71116",
+        "updatedAt": "2026-11-15",
+        "reason": "Todas las observaciones de la descarga se conservan en cubos consultables; sin selección de columnas ni de último periodo."
+      }
     },
     {
       "id": "demography-inventory:71117",
       "title": "Población por país de residencia (con 1000 o más residentes), provincia de inscripción (agrupadas por comunidad autónoma), sexo y edad (grandes grupos)",
       "sourceId": "F005",
-      "categoryIds": [],
+      "categoryIds": [
+        "F02"
+      ],
       "suggestedCategoryIds": [
         "F02"
       ],
-      "status": "por_revisar",
+      "status": "integrado",
       "url": "https://www.ine.es/jaxiT3/Tabla.htm?t=71117",
-      "license": null,
+      "license": "CC BY 4.0 · INE",
       "operationIds": [
         230
       ],
-      "notes": "Tabla anunciada en el inventario temático. Puede contener variables de otros fascículos. No implica descarga ni representación de sus observaciones."
+      "notes": "Se conservan las categorías y periodos oficiales de la descarga del INE. Tabla completa: 3,234,816 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
+      "mapAction": "demography:71117",
+      "period": {
+        "from": "2009",
+        "to": "2026"
+      },
+      "coverage": "Comunidades · España · Provincias",
+      "review": {
+        "implementedProductId": "demography:71117",
+        "updatedAt": "2026-11-15",
+        "reason": "Todas las observaciones de la descarga se conservan en cubos consultables; sin selección de columnas ni de último periodo."
+      }
     },
     {
       "id": "demography-inventory:71124",
       "title": "Nuevas inscripciones por país de residencia (con 1000 o más residentes), provincia de inscripción (agrupadas por comunidad autónoma), sexo y edad (grandes grupos)",
       "sourceId": "F005",
-      "categoryIds": [],
+      "categoryIds": [
+        "F02"
+      ],
       "suggestedCategoryIds": [
         "F02"
       ],
-      "status": "por_revisar",
+      "status": "integrado",
       "url": "https://www.ine.es/jaxiT3/Tabla.htm?t=71124",
-      "license": null,
+      "license": "CC BY 4.0 · INE",
       "operationIds": [
         230
       ],
-      "notes": "Tabla anunciada en el inventario temático. Puede contener variables de otros fascículos. No implica descarga ni representación de sus observaciones."
+      "notes": "Se conservan las categorías y periodos oficiales de la descarga del INE. Tabla completa: 3,234,816 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
+      "mapAction": "demography:71124",
+      "period": {
+        "from": "2009",
+        "to": "2026"
+      },
+      "coverage": "Comunidades · España · Provincias",
+      "review": {
+        "implementedProductId": "demography:71124",
+        "updatedAt": "2026-11-15",
+        "reason": "Todas las observaciones de la descarga se conservan en cubos consultables; sin selección de columnas ni de último periodo."
+      }
     },
     {
       "id": "demography-inventory:79676",
       "title": "Población por país de residencia, sexo y lugar de nacimiento (España, país de residencia, otros países)",
       "sourceId": "F005",
-      "categoryIds": [],
+      "categoryIds": [
+        "F02"
+      ],
       "suggestedCategoryIds": [
         "F02"
       ],
-      "status": "por_revisar",
+      "status": "integrado",
       "url": "https://www.ine.es/jaxiT3/Tabla.htm?t=79676",
-      "license": null,
+      "license": "CC BY 4.0 · INE",
       "operationIds": [
         230
       ],
-      "notes": "Tabla anunciada en el inventario temático. Puede contener variables de otros fascículos. No implica descarga ni representación de sus observaciones."
+      "notes": "Se conservan las categorías y periodos oficiales de la descarga del INE. Tabla completa: 54,810 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
+      "mapAction": "demography:71119",
+      "period": {
+        "from": "2009",
+        "to": "2026"
+      },
+      "coverage": "España",
+      "review": {
+        "implementedProductId": "demography:71119",
+        "updatedAt": "2026-11-15",
+        "reason": "Todas las observaciones de la descarga se conservan en cubos consultables; sin selección de columnas ni de último periodo."
+      }
     },
     {
       "id": "demography-inventory:71118",
@@ -11014,7 +11619,7 @@
       "coverage": "Municipios · España · Provincias",
       "review": {
         "implementedProductId": "demography:71118",
-        "updatedAt": "2026-11-14",
+        "updatedAt": "2026-11-15",
         "reason": "Todas las observaciones de la descarga se conservan en cubos consultables; sin selección de columnas ni de último periodo."
       }
     },
@@ -11022,129 +11627,233 @@
       "id": "demography-inventory:79677",
       "title": "Población por país de residencia (con 1000 o más residentes), provincia de inscripción (agrupadas por comunidad autónoma), sexo y edad (grandes grupos)",
       "sourceId": "F005",
-      "categoryIds": [],
+      "categoryIds": [
+        "F02"
+      ],
       "suggestedCategoryIds": [
         "F02"
       ],
-      "status": "por_revisar",
+      "status": "integrado",
       "url": "https://www.ine.es/jaxiT3/Tabla.htm?t=79677",
-      "license": null,
+      "license": "CC BY 4.0 · INE",
       "operationIds": [
         230
       ],
-      "notes": "Tabla anunciada en el inventario temático. Puede contener variables de otros fascículos. No implica descarga ni representación de sus observaciones."
+      "notes": "Se conservan las categorías y periodos oficiales de la descarga del INE. Tabla completa: 3,234,816 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
+      "mapAction": "demography:71117",
+      "period": {
+        "from": "2009",
+        "to": "2026"
+      },
+      "coverage": "Comunidades · España · Provincias",
+      "review": {
+        "implementedProductId": "demography:71117",
+        "updatedAt": "2026-11-15",
+        "reason": "Todas las observaciones de la descarga se conservan en cubos consultables; sin selección de columnas ni de último periodo."
+      }
     },
     {
       "id": "demography-inventory:71119",
       "title": "Población por país de residencia, sexo y lugar de nacimiento (España, país de residencia, otros países)",
       "sourceId": "F005",
-      "categoryIds": [],
+      "categoryIds": [
+        "F02"
+      ],
       "suggestedCategoryIds": [
         "F02"
       ],
-      "status": "por_revisar",
+      "status": "integrado",
       "url": "https://www.ine.es/jaxiT3/Tabla.htm?t=71119",
-      "license": null,
+      "license": "CC BY 4.0 · INE",
       "operationIds": [
         230
       ],
-      "notes": "Tabla anunciada en el inventario temático. Puede contener variables de otros fascículos. No implica descarga ni representación de sus observaciones."
+      "notes": "Se conservan las categorías y periodos oficiales de la descarga del INE. Tabla completa: 54,810 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
+      "mapAction": "demography:71119",
+      "period": {
+        "from": "2009",
+        "to": "2026"
+      },
+      "coverage": "España",
+      "review": {
+        "implementedProductId": "demography:71119",
+        "updatedAt": "2026-11-15",
+        "reason": "Todas las observaciones de la descarga se conservan en cubos consultables; sin selección de columnas ni de último periodo."
+      }
     },
     {
       "id": "demography-inventory:71126",
       "title": "Nuevas inscripciones por país de residencia, sexo y lugar de nacimiento (España, país de residencia, otros países)",
       "sourceId": "F005",
-      "categoryIds": [],
+      "categoryIds": [
+        "F02"
+      ],
       "suggestedCategoryIds": [
         "F02"
       ],
-      "status": "por_revisar",
+      "status": "integrado",
       "url": "https://www.ine.es/jaxiT3/Tabla.htm?t=71126",
-      "license": null,
+      "license": "CC BY 4.0 · INE",
       "operationIds": [
         230
       ],
-      "notes": "Tabla anunciada en el inventario temático. Puede contener variables de otros fascículos. No implica descarga ni representación de sus observaciones."
+      "notes": "Se conservan las categorías y periodos oficiales de la descarga del INE. Tabla completa: 54,810 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
+      "mapAction": "demography:71126",
+      "period": {
+        "from": "2009",
+        "to": "2026"
+      },
+      "coverage": "España",
+      "review": {
+        "implementedProductId": "demography:71126",
+        "updatedAt": "2026-11-15",
+        "reason": "Todas las observaciones de la descarga se conservan en cubos consultables; sin selección de columnas ni de último periodo."
+      }
     },
     {
       "id": "demography-inventory:79678",
       "title": "Población por país de residencia (con 1000 o más residentes), provincia de inscripción (agrupadas por comunidad autónoma), sexo y lugar de nacimiento (provincia de inscripción, otra provincia, extranjero)",
       "sourceId": "F005",
-      "categoryIds": [],
+      "categoryIds": [
+        "F02"
+      ],
       "suggestedCategoryIds": [
         "F02"
       ],
-      "status": "por_revisar",
+      "status": "integrado",
       "url": "https://www.ine.es/jaxiT3/Tabla.htm?t=79678",
-      "license": null,
+      "license": "CC BY 4.0 · INE",
       "operationIds": [
         230
       ],
-      "notes": "Tabla anunciada en el inventario temático. Puede contener variables de otros fascículos. No implica descarga ni representación de sus observaciones."
+      "notes": "Se conservan las categorías y periodos oficiales de la descarga del INE. Tabla completa: 4,043,520 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
+      "mapAction": "demography:71121",
+      "period": {
+        "from": "2009",
+        "to": "2026"
+      },
+      "coverage": "Comunidades · España · Provincias",
+      "review": {
+        "implementedProductId": "demography:71121",
+        "updatedAt": "2026-11-15",
+        "reason": "Todas las observaciones de la descarga se conservan en cubos consultables; sin selección de columnas ni de último periodo."
+      }
     },
     {
       "id": "demography-inventory:71121",
       "title": "Población por país de residencia (con 1000 o más residentes), provincia de inscripción (agrupadas por comunidad autónoma), sexo y lugar de nacimiento (provincia de inscripción, otra provincia, extranjero)",
       "sourceId": "F005",
-      "categoryIds": [],
+      "categoryIds": [
+        "F02"
+      ],
       "suggestedCategoryIds": [
         "F02"
       ],
-      "status": "por_revisar",
+      "status": "integrado",
       "url": "https://www.ine.es/jaxiT3/Tabla.htm?t=71121",
-      "license": null,
+      "license": "CC BY 4.0 · INE",
       "operationIds": [
         230
       ],
-      "notes": "Tabla anunciada en el inventario temático. Puede contener variables de otros fascículos. No implica descarga ni representación de sus observaciones."
+      "notes": "Se conservan las categorías y periodos oficiales de la descarga del INE. Tabla completa: 4,043,520 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
+      "mapAction": "demography:71121",
+      "period": {
+        "from": "2009",
+        "to": "2026"
+      },
+      "coverage": "Comunidades · España · Provincias",
+      "review": {
+        "implementedProductId": "demography:71121",
+        "updatedAt": "2026-11-15",
+        "reason": "Todas las observaciones de la descarga se conservan en cubos consultables; sin selección de columnas ni de último periodo."
+      }
     },
     {
       "id": "demography-inventory:71127",
       "title": "Nuevas inscripciones por país de residencia (con 1000 o más residentes), provincia de inscripción (agrupadas por comunidad autónoma), sexo y lugar de nacimiento (provincia de inscripción, otra provincia, extranjero)",
       "sourceId": "F005",
-      "categoryIds": [],
+      "categoryIds": [
+        "F02"
+      ],
       "suggestedCategoryIds": [
         "F02"
       ],
-      "status": "por_revisar",
+      "status": "integrado",
       "url": "https://www.ine.es/jaxiT3/Tabla.htm?t=71127",
-      "license": null,
+      "license": "CC BY 4.0 · INE",
       "operationIds": [
         230
       ],
-      "notes": "Tabla anunciada en el inventario temático. Puede contener variables de otros fascículos. No implica descarga ni representación de sus observaciones."
+      "notes": "Se conservan las categorías y periodos oficiales de la descarga del INE. Tabla completa: 4,043,520 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
+      "mapAction": "demography:71127",
+      "period": {
+        "from": "2009",
+        "to": "2026"
+      },
+      "coverage": "Comunidades · España · Provincias",
+      "review": {
+        "implementedProductId": "demography:71127",
+        "updatedAt": "2026-11-15",
+        "reason": "Todas las observaciones de la descarga se conservan en cubos consultables; sin selección de columnas ni de último periodo."
+      }
     },
     {
       "id": "demography-inventory:71122",
       "title": "Para nacidos en España: Población por país de residencia (con 1000 o más residentes), provincia de nacimiento (agrupadas por comunidad autónoma), sexo y edad (grandes grupos)",
       "sourceId": "F005",
-      "categoryIds": [],
+      "categoryIds": [
+        "F02"
+      ],
       "suggestedCategoryIds": [
         "F02"
       ],
-      "status": "por_revisar",
+      "status": "integrado",
       "url": "https://www.ine.es/jaxiT3/Tabla.htm?t=71122",
-      "license": null,
+      "license": "CC BY 4.0 · INE",
       "operationIds": [
         230
       ],
-      "notes": "Tabla anunciada en el inventario temático. Puede contener variables de otros fascículos. No implica descarga ni representación de sus observaciones."
+      "notes": "Se conservan las categorías y periodos oficiales de la descarga del INE. Tabla completa: 3,234,816 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
+      "mapAction": "demography:71122",
+      "period": {
+        "from": "2009",
+        "to": "2026"
+      },
+      "coverage": "Comunidades · España · Provincias",
+      "review": {
+        "implementedProductId": "demography:71122",
+        "updatedAt": "2026-11-15",
+        "reason": "Todas las observaciones de la descarga se conservan en cubos consultables; sin selección de columnas ni de último periodo."
+      }
     },
     {
       "id": "demography-inventory:71128",
       "title": "Nuevas inscripciones de nacidos en España por país de residencia (con 1000 o más residentes), provincia de nacimiento (agrupadas por comunidad autónoma), sexo y edad (grandes grupos)",
       "sourceId": "F005",
-      "categoryIds": [],
+      "categoryIds": [
+        "F02"
+      ],
       "suggestedCategoryIds": [
         "F02"
       ],
-      "status": "por_revisar",
+      "status": "integrado",
       "url": "https://www.ine.es/jaxiT3/Tabla.htm?t=71128",
-      "license": null,
+      "license": "CC BY 4.0 · INE",
       "operationIds": [
         230
       ],
-      "notes": "Tabla anunciada en el inventario temático. Puede contener variables de otros fascículos. No implica descarga ni representación de sus observaciones."
+      "notes": "Se conservan las categorías y periodos oficiales de la descarga del INE. Tabla completa: 3,234,816 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
+      "mapAction": "demography:71128",
+      "period": {
+        "from": "2009",
+        "to": "2026"
+      },
+      "coverage": "Comunidades · España · Provincias",
+      "review": {
+        "implementedProductId": "demography:71128",
+        "updatedAt": "2026-11-15",
+        "reason": "Todas las observaciones de la descarga se conservan en cubos consultables; sin selección de columnas ni de último periodo."
+      }
     },
     {
       "id": "demography-inventory:71106",
@@ -11171,7 +11880,7 @@
       "coverage": "España · Provincias",
       "review": {
         "implementedProductId": "demography:71106",
-        "updatedAt": "2026-11-14",
+        "updatedAt": "2026-11-15",
         "reason": "Todas las observaciones de la descarga se conservan en cubos consultables; sin selección de columnas ni de último periodo."
       }
     },
@@ -11200,7 +11909,7 @@
       "coverage": "España · Provincias · Sin localización",
       "review": {
         "implementedProductId": "demography:6528",
-        "updatedAt": "2026-11-14",
+        "updatedAt": "2026-11-15",
         "reason": "Todas las observaciones de la descarga se conservan en cubos consultables; sin selección de columnas ni de último periodo."
       }
     },
@@ -11229,7 +11938,7 @@
       "coverage": "España · Provincias · Sin localización",
       "review": {
         "implementedProductId": "demography:6540",
-        "updatedAt": "2026-11-14",
+        "updatedAt": "2026-11-15",
         "reason": "Todas las observaciones de la descarga se conservan en cubos consultables; sin selección de columnas ni de último periodo."
       }
     },
@@ -11436,7 +12145,7 @@
       "coverage": "Comunidades · España · Sin localización",
       "review": {
         "implementedProductId": "demography:6529",
-        "updatedAt": "2026-11-14",
+        "updatedAt": "2026-11-15",
         "reason": "Todas las observaciones de la descarga se conservan en cubos consultables; sin selección de columnas ni de último periodo."
       }
     },
@@ -11465,7 +12174,7 @@
       "coverage": "Comunidades · España · Sin localización",
       "review": {
         "implementedProductId": "demography:6541",
-        "updatedAt": "2026-11-14",
+        "updatedAt": "2026-11-15",
         "reason": "Todas las observaciones de la descarga se conservan en cubos consultables; sin selección de columnas ni de último periodo."
       }
     },
@@ -13100,7 +13809,7 @@
       "coverage": "España · Provincias · Sin localización",
       "review": {
         "implementedProductId": "demography:6506",
-        "updatedAt": "2026-11-14",
+        "updatedAt": "2026-11-15",
         "reason": "Todas las observaciones de la descarga se conservan en cubos consultables; sin selección de columnas ni de último periodo."
       }
     },
@@ -13129,7 +13838,7 @@
       "coverage": "España · Provincias · Sin localización",
       "review": {
         "implementedProductId": "demography:6524",
-        "updatedAt": "2026-11-14",
+        "updatedAt": "2026-11-15",
         "reason": "Todas las observaciones de la descarga se conservan en cubos consultables; sin selección de columnas ni de último periodo."
       }
     },
@@ -13222,7 +13931,7 @@
       "coverage": "Comunidades · España · Sin localización",
       "review": {
         "implementedProductId": "demography:6507",
-        "updatedAt": "2026-11-14",
+        "updatedAt": "2026-11-15",
         "reason": "Todas las observaciones de la descarga se conservan en cubos consultables; sin selección de columnas ni de último periodo."
       }
     },
@@ -13251,7 +13960,7 @@
       "coverage": "Comunidades · España · Sin localización",
       "review": {
         "implementedProductId": "demography:6525",
-        "updatedAt": "2026-11-14",
+        "updatedAt": "2026-11-15",
         "reason": "Todas las observaciones de la descarga se conservan en cubos consultables; sin selección de columnas ni de último periodo."
       }
     },
@@ -14144,7 +14853,7 @@
       "coverage": "España · Provincias · Sin localización",
       "review": {
         "implementedProductId": "demography:6545",
-        "updatedAt": "2026-11-14",
+        "updatedAt": "2026-11-15",
         "reason": "Todas las observaciones de la descarga se conservan en cubos consultables; sin selección de columnas ni de último periodo."
       }
     },
@@ -14173,7 +14882,7 @@
       "coverage": "España · Provincias · Sin localización",
       "review": {
         "implementedProductId": "demography:6561",
-        "updatedAt": "2026-11-14",
+        "updatedAt": "2026-11-15",
         "reason": "Todas las observaciones de la descarga se conservan en cubos consultables; sin selección de columnas ni de último periodo."
       }
     },
@@ -14266,7 +14975,7 @@
       "coverage": "Comunidades · España · Sin localización",
       "review": {
         "implementedProductId": "demography:6546",
-        "updatedAt": "2026-11-14",
+        "updatedAt": "2026-11-15",
         "reason": "Todas las observaciones de la descarga se conservan en cubos consultables; sin selección de columnas ni de último periodo."
       }
     },
@@ -14295,7 +15004,7 @@
       "coverage": "Comunidades · España · Sin localización",
       "review": {
         "implementedProductId": "demography:6562",
-        "updatedAt": "2026-11-14",
+        "updatedAt": "2026-11-15",
         "reason": "Todas las observaciones de la descarga se conservan en cubos consultables; sin selección de columnas ni de último periodo."
       }
     },
@@ -15348,7 +16057,7 @@
       "coverage": "España",
       "review": {
         "implementedProductId": "demography:36643",
-        "updatedAt": "2026-11-14",
+        "updatedAt": "2026-11-15",
         "reason": "Todas las observaciones de la descarga se conservan en cubos consultables; sin selección de columnas ni de último periodo."
       }
     },
@@ -15457,7 +16166,7 @@
       "coverage": "Comunidades · España",
       "review": {
         "implementedProductId": "demography:36680",
-        "updatedAt": "2026-11-14",
+        "updatedAt": "2026-11-15",
         "reason": "Todas las observaciones de la descarga se conservan en cubos consultables; sin selección de columnas ni de último periodo."
       }
     },
@@ -15582,7 +16291,7 @@
       "coverage": "España · Provincias",
       "review": {
         "implementedProductId": "demography:36726",
-        "updatedAt": "2026-11-14",
+        "updatedAt": "2026-11-15",
         "reason": "Todas las observaciones de la descarga se conservan en cubos consultables; sin selección de columnas ni de último periodo."
       }
     },
@@ -17035,7 +17744,7 @@
       "coverage": "España",
       "review": {
         "implementedProductId": "demography:36652",
-        "updatedAt": "2026-11-14",
+        "updatedAt": "2026-11-15",
         "reason": "Todas las observaciones de la descarga se conservan en cubos consultables; sin selección de columnas ni de último periodo."
       }
     },
@@ -17219,65 +17928,117 @@
       "id": "demography-inventory:35168",
       "title": "Defunciones semanales y acumuladas.Total nacional, comunidades autónomas y provincias",
       "sourceId": "F005",
-      "categoryIds": [],
+      "categoryIds": [
+        "F02"
+      ],
       "suggestedCategoryIds": [
         "F02"
       ],
-      "status": "por_revisar",
+      "status": "integrado",
       "url": "https://www.ine.es/jaxiT3/Tabla.htm?t=35168",
-      "license": null,
+      "license": "CC BY 4.0 · INE",
       "operationIds": [
         406
       ],
-      "notes": "Tabla anunciada en el inventario temático. Puede contener variables de otros fascículos. No implica descarga ni representación de sus observaciones."
+      "notes": "Se conservan las categorías y periodos oficiales de la descarga del INE. Tabla completa: 80,784 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
+      "mapAction": "demography:35168",
+      "period": {
+        "from": "2016SM01",
+        "to": "2026SM40"
+      },
+      "coverage": "Comunidades · España · Provincias",
+      "review": {
+        "implementedProductId": "demography:35168",
+        "updatedAt": "2026-11-15",
+        "reason": "Todas las observaciones de la descarga se conservan en cubos consultables; sin selección de columnas ni de último periodo."
+      }
     },
     {
       "id": "demography-inventory:35177",
       "title": "Defunciones semanales, acumuladas y variación interanual del acumulado. Total nacional y CCAA. 1975-2026",
       "sourceId": "F005",
-      "categoryIds": [],
+      "categoryIds": [
+        "F02"
+      ],
       "suggestedCategoryIds": [
         "F02"
       ],
-      "status": "por_revisar",
+      "status": "integrado",
       "url": "https://www.ine.es/jaxiT3/Tabla.htm?t=35177",
-      "license": null,
+      "license": "CC BY 4.0 · INE",
       "operationIds": [
         406
       ],
-      "notes": "Tabla anunciada en el inventario temático. Puede contener variables de otros fascículos. No implica descarga ni representación de sus observaciones."
+      "notes": "Se conservan las categorías y periodos oficiales de la descarga del INE. Tabla completa: 170,163 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
+      "mapAction": "demography:35177",
+      "period": {
+        "from": "1975SM01",
+        "to": "2026SM40"
+      },
+      "coverage": "Comunidades · España · Sin localización",
+      "review": {
+        "implementedProductId": "demography:35177",
+        "updatedAt": "2026-11-15",
+        "reason": "Todas las observaciones de la descarga se conservan en cubos consultables; sin selección de columnas ni de último periodo."
+      }
     },
     {
       "id": "demography-inventory:35169",
       "title": "Defunciones semanales diferencia absoluta del acumulado por sexo y edad.Total nacional y comunidades autónomas,",
       "sourceId": "F005",
-      "categoryIds": [],
+      "categoryIds": [
+        "F02"
+      ],
       "suggestedCategoryIds": [
         "F02"
       ],
-      "status": "por_revisar",
+      "status": "integrado",
       "url": "https://www.ine.es/jaxiT3/Tabla.htm?t=35169",
-      "license": null,
+      "license": "CC BY 4.0 · INE",
       "operationIds": [
         406
       ],
-      "notes": "Tabla anunciada en el inventario temático. Puede contener variables de otros fascículos. No implica descarga ni representación de sus observaciones."
+      "notes": "Se conservan las categorías y periodos oficiales de la descarga del INE. Tabla completa: 965,808 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
+      "mapAction": "demography:35169",
+      "period": {
+        "from": "2020SM01",
+        "to": "2026SM40"
+      },
+      "coverage": "Comunidades · España · Provincias",
+      "review": {
+        "implementedProductId": "demography:35169",
+        "updatedAt": "2026-11-15",
+        "reason": "Todas las observaciones de la descarga se conservan en cubos consultables; sin selección de columnas ni de último periodo."
+      }
     },
     {
       "id": "demography-inventory:35176",
       "title": "Defunciones semanales, acumuladas y variación interanual del acumulado. Total nacional y provincias. 1975-2026",
       "sourceId": "F005",
-      "categoryIds": [],
+      "categoryIds": [
+        "F02"
+      ],
       "suggestedCategoryIds": [
         "F02"
       ],
-      "status": "por_revisar",
+      "status": "integrado",
       "url": "https://www.ine.es/jaxiT3/Tabla.htm?t=35176",
-      "license": null,
+      "license": "CC BY 4.0 · INE",
       "operationIds": [
         406
       ],
-      "notes": "Tabla anunciada en el inventario temático. Puede contener variables de otros fascículos. No implica descarga ni representación de sus observaciones."
+      "notes": "Se conservan las categorías y periodos oficiales de la descarga del INE. Tabla completa: 437,562 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
+      "mapAction": "demography:35176",
+      "period": {
+        "from": "1975SM01",
+        "to": "2026SM40"
+      },
+      "coverage": "España · Provincias · Sin localización",
+      "review": {
+        "implementedProductId": "demography:35176",
+        "updatedAt": "2026-11-15",
+        "reason": "Todas las observaciones de la descarga se conservan en cubos consultables; sin selección de columnas ni de último periodo."
+      }
     },
     {
       "id": "demography-inventory:62277",
@@ -17304,7 +18065,7 @@
       "coverage": "Comunidades · España · Sin localización",
       "review": {
         "implementedProductId": "demography:62277",
-        "updatedAt": "2026-11-14",
+        "updatedAt": "2026-11-15",
         "reason": "Todas las observaciones de la descarga se conservan en cubos consultables; sin selección de columnas ni de último periodo."
       }
     },
@@ -17312,145 +18073,262 @@
       "id": "demography-inventory:35178",
       "title": "Defunciones semanales acumuladas y variación interanual del acumulado. Islas. 1975-2026",
       "sourceId": "F005",
-      "categoryIds": [],
+      "categoryIds": [
+        "F02"
+      ],
       "suggestedCategoryIds": [
         "F02"
       ],
-      "status": "por_revisar",
+      "status": "integrado",
       "url": "https://www.ine.es/jaxiT3/Tabla.htm?t=35178",
-      "license": null,
+      "license": "CC BY 4.0 · INE",
       "operationIds": [
         406
       ],
-      "notes": "Tabla anunciada en el inventario temático. Puede contener variables de otros fascículos. No implica descarga ni representación de sus observaciones."
+      "notes": "Se conservan las categorías y periodos oficiales de la descarga del INE. Tabla completa: 105,339 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
+      "mapAction": "demography:35178",
+      "period": {
+        "from": "1975SM01",
+        "to": "2026SM40"
+      },
+      "coverage": "Islas (series) · Provincias",
+      "review": {
+        "implementedProductId": "demography:35178",
+        "updatedAt": "2026-11-15",
+        "reason": "Todas las observaciones de la descarga se conservan en cubos consultables; sin selección de columnas ni de último periodo."
+      }
     },
     {
       "id": "demography-inventory:46318",
       "title": "Defunciones semanales y acumuladas.Total nacional, comunidades autónomas y provincias",
       "sourceId": "F005",
-      "categoryIds": [],
+      "categoryIds": [
+        "F02"
+      ],
       "suggestedCategoryIds": [
         "F02"
       ],
-      "status": "por_revisar",
+      "status": "integrado",
       "url": "https://www.ine.es/jaxiT3/Tabla.htm?t=46318",
-      "license": null,
+      "license": "CC BY 4.0 · INE",
       "operationIds": [
         406
       ],
-      "notes": "Tabla anunciada en el inventario temático. Puede contener variables de otros fascículos. No implica descarga ni representación de sus observaciones."
+      "notes": "Se conservan las categorías y periodos oficiales de la descarga del INE. Tabla completa: 25,416 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
+      "mapAction": "demography:46318",
+      "period": {
+        "from": "2020SM01",
+        "to": "2026SM40"
+      },
+      "coverage": "Comunidades · España · Provincias",
+      "review": {
+        "implementedProductId": "demography:46318",
+        "updatedAt": "2026-11-15",
+        "reason": "Todas las observaciones de la descarga se conservan en cubos consultables; sin selección de columnas ni de último periodo."
+      }
     },
     {
       "id": "demography-inventory:62278",
       "title": "Defunciones mensuales, acumuladas y variación interanual del acumulado. Total nacional y provincias. 2009-2026",
       "sourceId": "F005",
-      "categoryIds": [],
+      "categoryIds": [
+        "F02"
+      ],
       "suggestedCategoryIds": [
         "F02"
       ],
-      "status": "por_revisar",
+      "status": "integrado",
       "url": "https://www.ine.es/jaxiT3/Tabla.htm?t=62278",
-      "license": null,
+      "license": "CC BY 4.0 · INE",
       "operationIds": [
         406
       ],
-      "notes": "Tabla anunciada en el inventario temático. Puede contener variables de otros fascículos. No implica descarga ni representación de sus observaciones."
+      "notes": "Se conservan las categorías y periodos oficiales de la descarga del INE. Tabla completa: 34,344 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
+      "mapAction": "demography:62278",
+      "period": {
+        "from": "2009M01",
+        "to": "2026M08"
+      },
+      "coverage": "España · Provincias · Sin localización",
+      "review": {
+        "implementedProductId": "demography:62278",
+        "updatedAt": "2026-11-15",
+        "reason": "Todas las observaciones de la descarga se conservan en cubos consultables; sin selección de columnas ni de último periodo."
+      }
     },
     {
       "id": "demography-inventory:35179",
       "title": "Defunciones semanales, acumuladas y diferencia absoluta del acumulado por sexo y edad. Total nacional y comunidades autónomas. 1975-2026",
       "sourceId": "F005",
-      "categoryIds": [],
+      "categoryIds": [
+        "F02"
+      ],
       "suggestedCategoryIds": [
         "F02"
       ],
-      "status": "por_revisar",
+      "status": "integrado",
       "url": "https://www.ine.es/jaxiT3/Tabla.htm?t=35179",
-      "license": null,
+      "license": "CC BY 4.0 · INE",
       "operationIds": [
         406
       ],
-      "notes": "Tabla anunciada en el inventario temático. Puede contener variables de otros fascículos. No implica descarga ni representación de sus observaciones."
+      "notes": "Se conservan las categorías y periodos oficiales de la descarga del INE. Tabla completa: 10,720,269 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
+      "mapAction": "demography:35179",
+      "period": {
+        "from": "1975SM01",
+        "to": "2026SM40"
+      },
+      "coverage": "Comunidades · España · Sin localización",
+      "review": {
+        "implementedProductId": "demography:35179",
+        "updatedAt": "2026-11-15",
+        "reason": "Todas las observaciones de la descarga se conservan en cubos consultables; sin selección de columnas ni de último periodo."
+      }
     },
     {
       "id": "demography-inventory:62279",
       "title": "Defunciones mensuales acumuladas y variación interanual del acumulado. Islas. 2009-2026",
       "sourceId": "F005",
-      "categoryIds": [],
+      "categoryIds": [
+        "F02"
+      ],
       "suggestedCategoryIds": [
         "F02"
       ],
-      "status": "por_revisar",
+      "status": "integrado",
       "url": "https://www.ine.es/jaxiT3/Tabla.htm?t=62279",
-      "license": null,
+      "license": "CC BY 4.0 · INE",
       "operationIds": [
         406
       ],
-      "notes": "Tabla anunciada en el inventario temático. Puede contener variables de otros fascículos. No implica descarga ni representación de sus observaciones."
+      "notes": "Se conservan las categorías y periodos oficiales de la descarga del INE. Tabla completa: 8,268 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
+      "mapAction": "demography:62279",
+      "period": {
+        "from": "2009M01",
+        "to": "2026M08"
+      },
+      "coverage": "Islas (series) · Provincias",
+      "review": {
+        "implementedProductId": "demography:62279",
+        "updatedAt": "2026-11-15",
+        "reason": "Todas las observaciones de la descarga se conservan en cubos consultables; sin selección de columnas ni de último periodo."
+      }
     },
     {
       "id": "demography-inventory:36166",
       "title": "Defunciones semanales, acumuladas y diferencia absoluta del acumulado por sexo y edad. Total nacional y provincias. 1975-2026",
       "sourceId": "F005",
-      "categoryIds": [],
+      "categoryIds": [
+        "F02"
+      ],
       "suggestedCategoryIds": [
         "F02"
       ],
-      "status": "por_revisar",
+      "status": "integrado",
       "url": "https://www.ine.es/jaxiT3/Tabla.htm?t=36166",
-      "license": null,
+      "license": "CC BY 4.0 · INE",
       "operationIds": [
         406
       ],
-      "notes": "Tabla anunciada en el inventario temático. Puede contener variables de otros fascículos. No implica descarga ni representación de sus observaciones."
+      "notes": "Se conservan las categorías y periodos oficiales de la descarga del INE. Tabla completa: 27,566,406 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
+      "mapAction": "demography:36166",
+      "period": {
+        "from": "1975SM01",
+        "to": "2026SM40"
+      },
+      "coverage": "España · Provincias · Sin localización",
+      "review": {
+        "implementedProductId": "demography:36166",
+        "updatedAt": "2026-11-15",
+        "reason": "Todas las observaciones de la descarga se conservan en cubos consultables; sin selección de columnas ni de último periodo."
+      }
     },
     {
       "id": "demography-inventory:62280",
       "title": "Defunciones mensuales, acumuladas y diferencia absoluta del acumulado por sexo y edad. Total nacional y comunidades autónomas. 2009-2026",
       "sourceId": "F005",
-      "categoryIds": [],
+      "categoryIds": [
+        "F02"
+      ],
       "suggestedCategoryIds": [
         "F02"
       ],
-      "status": "por_revisar",
+      "status": "integrado",
       "url": "https://www.ine.es/jaxiT3/Tabla.htm?t=62280",
-      "license": null,
+      "license": "CC BY 4.0 · INE",
       "operationIds": [
         406
       ],
-      "notes": "Tabla anunciada en el inventario temático. Puede contener variables de otros fascículos. No implica descarga ni representación de sus observaciones."
+      "notes": "Se conservan las categorías y periodos oficiales de la descarga del INE. Tabla completa: 841,428 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
+      "mapAction": "demography:62280",
+      "period": {
+        "from": "2009M01",
+        "to": "2026M08"
+      },
+      "coverage": "Comunidades · España · Sin localización",
+      "review": {
+        "implementedProductId": "demography:62280",
+        "updatedAt": "2026-11-15",
+        "reason": "Todas las observaciones de la descarga se conservan en cubos consultables; sin selección de columnas ni de último periodo."
+      }
     },
     {
       "id": "demography-inventory:62281",
       "title": "Defunciones mensuales, acumuladas y diferencia absoluta del acumulado por sexo y edad. Total nacional y provincias. 2009-2026",
       "sourceId": "F005",
-      "categoryIds": [],
+      "categoryIds": [
+        "F02"
+      ],
       "suggestedCategoryIds": [
         "F02"
       ],
-      "status": "por_revisar",
+      "status": "integrado",
       "url": "https://www.ine.es/jaxiT3/Tabla.htm?t=62281",
-      "license": null,
+      "license": "CC BY 4.0 · INE",
       "operationIds": [
         406
       ],
-      "notes": "Tabla anunciada en el inventario temático. Puede contener variables de otros fascículos. No implica descarga ni representación de sus observaciones."
+      "notes": "Se conservan las categorías y periodos oficiales de la descarga del INE. Tabla completa: 2,163,672 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
+      "mapAction": "demography:62281",
+      "period": {
+        "from": "2009M01",
+        "to": "2026M08"
+      },
+      "coverage": "España · Provincias · Sin localización",
+      "review": {
+        "implementedProductId": "demography:62281",
+        "updatedAt": "2026-11-15",
+        "reason": "Todas las observaciones de la descarga se conservan en cubos consultables; sin selección de columnas ni de último periodo."
+      }
     },
     {
       "id": "demography-inventory:46678",
       "title": "Nacimientos mensuales, acumulados y variación interanual del acumulado por sexo del nacido y grupo de edad de la madre. Total nacional y CCAA",
       "sourceId": "F005",
-      "categoryIds": [],
+      "categoryIds": [
+        "F02"
+      ],
       "suggestedCategoryIds": [
         "F02"
       ],
-      "status": "por_revisar",
+      "status": "integrado",
       "url": "https://www.ine.es/jaxiT3/Tabla.htm?t=46678",
-      "license": null,
+      "license": "CC BY 4.0 · INE",
       "operationIds": [
         424
       ],
-      "notes": "Tabla anunciada en el inventario temático. Puede contener variables de otros fascículos. No implica descarga ni representación de sus observaciones."
+      "notes": "Se conservan las categorías y periodos oficiales de la descarga del INE. Tabla completa: 309,960 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
+      "mapAction": "demography:46678",
+      "period": {
+        "from": "2013M01",
+        "to": "2026M08"
+      },
+      "coverage": "Comunidades · España · Sin localización",
+      "review": {
+        "implementedProductId": "demography:46678",
+        "updatedAt": "2026-11-15",
+        "reason": "Todas las observaciones de la descarga se conservan en cubos consultables; sin selección de columnas ni de último periodo."
+      }
     },
     {
       "id": "demography-inventory:46682",
@@ -17477,7 +18355,7 @@
       "coverage": "Comunidades · España · Provincias",
       "review": {
         "implementedProductId": "demography:46682",
-        "updatedAt": "2026-11-14",
+        "updatedAt": "2026-11-15",
         "reason": "Todas las observaciones de la descarga se conservan en cubos consultables; sin selección de columnas ni de último periodo."
       }
     },
@@ -17485,81 +18363,146 @@
       "id": "demography-inventory:46679",
       "title": "Nacimientos mensuales, acumulados y variación interanual del acumulado por sexo del nacido y grupo de edad de la madre. Total nacional y provincias",
       "sourceId": "F005",
-      "categoryIds": [],
+      "categoryIds": [
+        "F02"
+      ],
       "suggestedCategoryIds": [
         "F02"
       ],
-      "status": "por_revisar",
+      "status": "integrado",
       "url": "https://www.ine.es/jaxiT3/Tabla.htm?t=46679",
-      "license": null,
+      "license": "CC BY 4.0 · INE",
       "operationIds": [
         424
       ],
-      "notes": "Tabla anunciada en el inventario temático. Puede contener variables de otros fascículos. No implica descarga ni representación de sus observaciones."
+      "notes": "Se conservan las categorías y periodos oficiales de la descarga del INE. Tabla completa: 797,040 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
+      "mapAction": "demography:46679",
+      "period": {
+        "from": "2013M01",
+        "to": "2026M08"
+      },
+      "coverage": "España · Provincias · Sin localización",
+      "review": {
+        "implementedProductId": "demography:46679",
+        "updatedAt": "2026-11-15",
+        "reason": "Todas las observaciones de la descarga se conservan en cubos consultables; sin selección de columnas ni de último periodo."
+      }
     },
     {
       "id": "demography-inventory:46683",
       "title": "Variación interanual de los nacimientos acumulados. Total nacional, CCAA y provincias",
       "sourceId": "F005",
-      "categoryIds": [],
+      "categoryIds": [
+        "F02"
+      ],
       "suggestedCategoryIds": [
         "F02"
       ],
-      "status": "por_revisar",
+      "status": "integrado",
       "url": "https://www.ine.es/jaxiT3/Tabla.htm?t=46683",
-      "license": null,
+      "license": "CC BY 4.0 · INE",
       "operationIds": [
         424
       ],
-      "notes": "Tabla anunciada en el inventario temático. Puede contener variables de otros fascículos. No implica descarga ni representación de sus observaciones."
+      "notes": "Se conservan las categorías y periodos oficiales de la descarga del INE. Tabla completa: 9,216 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
+      "mapAction": "demography:46683",
+      "period": {
+        "from": "2016M01",
+        "to": "2026M08"
+      },
+      "coverage": "Comunidades · España · Provincias",
+      "review": {
+        "implementedProductId": "demography:46683",
+        "updatedAt": "2026-11-15",
+        "reason": "Todas las observaciones de la descarga se conservan en cubos consultables; sin selección de columnas ni de último periodo."
+      }
     },
     {
       "id": "demography-inventory:46680",
       "title": "Nacimientos mensuales por sexo del nacido y grupo de edad de la madre, acumulados y diferencia absoluta interanual del acumulado. Total nacional y CCAA",
       "sourceId": "F005",
-      "categoryIds": [],
+      "categoryIds": [
+        "F02"
+      ],
       "suggestedCategoryIds": [
         "F02"
       ],
-      "status": "por_revisar",
+      "status": "integrado",
       "url": "https://www.ine.es/jaxiT3/Tabla.htm?t=46680",
-      "license": null,
+      "license": "CC BY 4.0 · INE",
       "operationIds": [
         424
       ],
-      "notes": "Tabla anunciada en el inventario temático. Puede contener variables de otros fascículos. No implica descarga ni representación de sus observaciones."
+      "notes": "Se conservan las categorías y periodos oficiales de la descarga del INE. Tabla completa: 309,960 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
+      "mapAction": "demography:46680",
+      "period": {
+        "from": "2013M01",
+        "to": "2026M08"
+      },
+      "coverage": "Comunidades · España · Sin localización",
+      "review": {
+        "implementedProductId": "demography:46680",
+        "updatedAt": "2026-11-15",
+        "reason": "Todas las observaciones de la descarga se conservan en cubos consultables; sin selección de columnas ni de último periodo."
+      }
     },
     {
       "id": "demography-inventory:46684",
       "title": "Diferencia absoluta interanual de los nacimientos acumulados. Total nacional, CCAA y provincias",
       "sourceId": "F005",
-      "categoryIds": [],
+      "categoryIds": [
+        "F02"
+      ],
       "suggestedCategoryIds": [
         "F02"
       ],
-      "status": "por_revisar",
+      "status": "integrado",
       "url": "https://www.ine.es/jaxiT3/Tabla.htm?t=46684",
-      "license": null,
+      "license": "CC BY 4.0 · INE",
       "operationIds": [
         424
       ],
-      "notes": "Tabla anunciada en el inventario temático. Puede contener variables de otros fascículos. No implica descarga ni representación de sus observaciones."
+      "notes": "Se conservan las categorías y periodos oficiales de la descarga del INE. Tabla completa: 9,216 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
+      "mapAction": "demography:46684",
+      "period": {
+        "from": "2016M01",
+        "to": "2026M08"
+      },
+      "coverage": "Comunidades · España · Provincias",
+      "review": {
+        "implementedProductId": "demography:46684",
+        "updatedAt": "2026-11-15",
+        "reason": "Todas las observaciones de la descarga se conservan en cubos consultables; sin selección de columnas ni de último periodo."
+      }
     },
     {
       "id": "demography-inventory:46681",
       "title": "Nacimientos mensuales por sexo del nacido y grupo de edad de la madre, acumulados y diferencia absoluta interanual del acumulado. Total nacional y provincias",
       "sourceId": "F005",
-      "categoryIds": [],
+      "categoryIds": [
+        "F02"
+      ],
       "suggestedCategoryIds": [
         "F02"
       ],
-      "status": "por_revisar",
+      "status": "integrado",
       "url": "https://www.ine.es/jaxiT3/Tabla.htm?t=46681",
-      "license": null,
+      "license": "CC BY 4.0 · INE",
       "operationIds": [
         424
       ],
-      "notes": "Tabla anunciada en el inventario temático. Puede contener variables de otros fascículos. No implica descarga ni representación de sus observaciones."
+      "notes": "Se conservan las categorías y periodos oficiales de la descarga del INE. Tabla completa: 797,040 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
+      "mapAction": "demography:46681",
+      "period": {
+        "from": "2013M01",
+        "to": "2026M08"
+      },
+      "coverage": "España · Provincias · Sin localización",
+      "review": {
+        "implementedProductId": "demography:46681",
+        "updatedAt": "2026-11-15",
+        "reason": "Todas las observaciones de la descarga se conservan en cubos consultables; sin selección de columnas ni de último periodo."
+      }
     },
     {
       "id": "demography-inventory:56934",
@@ -17714,7 +18657,7 @@
       "coverage": "España",
       "review": {
         "implementedProductId": "demography:59583",
-        "updatedAt": "2026-11-14",
+        "updatedAt": "2026-11-15",
         "reason": "Todas las observaciones de la descarga se conservan en cubos consultables; sin selección de columnas ni de último periodo."
       }
     },
@@ -17743,7 +18686,7 @@
       "coverage": "España · Provincias",
       "review": {
         "implementedProductId": "demography:59589",
-        "updatedAt": "2026-11-14",
+        "updatedAt": "2026-11-15",
         "reason": "Todas las observaciones de la descarga se conservan en cubos consultables; sin selección de columnas ni de último periodo."
       }
     },
@@ -17820,7 +18763,7 @@
       "coverage": "Comunidades · España",
       "review": {
         "implementedProductId": "demography:60131",
-        "updatedAt": "2026-11-14",
+        "updatedAt": "2026-11-15",
         "reason": "Todas las observaciones de la descarga se conservan en cubos consultables; sin selección de columnas ni de último periodo."
       }
     },
@@ -17849,7 +18792,7 @@
       "coverage": "España · Provincias",
       "review": {
         "implementedProductId": "demography:60133",
-        "updatedAt": "2026-11-14",
+        "updatedAt": "2026-11-15",
         "reason": "Todas las observaciones de la descarga se conservan en cubos consultables; sin selección de columnas ni de último periodo."
       }
     },
@@ -18182,7 +19125,7 @@
       "coverage": "Comunidades · España",
       "review": {
         "implementedProductId": "demography:60132",
-        "updatedAt": "2026-11-14",
+        "updatedAt": "2026-11-15",
         "reason": "Todas las observaciones de la descarga se conservan en cubos consultables; sin selección de columnas ni de último periodo."
       }
     },
@@ -18211,7 +19154,7 @@
       "coverage": "España · Provincias",
       "review": {
         "implementedProductId": "demography:60134",
-        "updatedAt": "2026-11-14",
+        "updatedAt": "2026-11-15",
         "reason": "Todas las observaciones de la descarga se conservan en cubos consultables; sin selección de columnas ni de último periodo."
       }
     },
@@ -18800,7 +19743,7 @@
       "coverage": "Comunidades · España",
       "review": {
         "implementedProductId": "demography:79277",
-        "updatedAt": "2026-11-14",
+        "updatedAt": "2026-11-15",
         "reason": "Todas las observaciones de la descarga se conservan en cubos consultables; sin selección de columnas ni de último periodo."
       }
     },
@@ -18829,7 +19772,7 @@
       "coverage": "España · Provincias",
       "review": {
         "implementedProductId": "demography:79278",
-        "updatedAt": "2026-11-14",
+        "updatedAt": "2026-11-15",
         "reason": "Todas las observaciones de la descarga se conservan en cubos consultables; sin selección de columnas ni de último periodo."
       }
     },
@@ -18890,7 +19833,7 @@
       "coverage": "España",
       "review": {
         "implementedProductId": "demography:79276",
-        "updatedAt": "2026-11-14",
+        "updatedAt": "2026-11-15",
         "reason": "Todas las observaciones de la descarga se conservan en cubos consultables; sin selección de columnas ni de último periodo."
       }
     },
@@ -18935,7 +19878,7 @@
       "coverage": "Islas (series)",
       "review": {
         "implementedProductId": "demography:69797",
-        "updatedAt": "2026-11-14",
+        "updatedAt": "2026-11-15",
         "reason": "Todas las observaciones de la descarga se conservan en cubos consultables; sin selección de columnas ni de último periodo."
       }
     },
@@ -18980,7 +19923,7 @@
       "coverage": "Comunidades · España · Provincias",
       "review": {
         "implementedProductId": "demography:69691",
-        "updatedAt": "2026-11-14",
+        "updatedAt": "2026-11-15",
         "reason": "Todas las observaciones de la descarga se conservan en cubos consultables; sin selección de columnas ni de último periodo."
       }
     },
@@ -19009,7 +19952,7 @@
       "coverage": "Municipios · España · Provincias",
       "review": {
         "implementedProductId": "demography:69696",
-        "updatedAt": "2026-11-14",
+        "updatedAt": "2026-11-15",
         "reason": "Todas las observaciones de la descarga se conservan en cubos consultables; sin selección de columnas ni de último periodo."
       }
     },
@@ -19070,7 +20013,7 @@
       "coverage": "Comunidades · España · Provincias",
       "review": {
         "implementedProductId": "demography:69706",
-        "updatedAt": "2026-11-14",
+        "updatedAt": "2026-11-15",
         "reason": "Todas las observaciones de la descarga se conservan en cubos consultables; sin selección de columnas ni de último periodo."
       }
     },
@@ -19099,7 +20042,7 @@
       "coverage": "Municipios · España · Provincias",
       "review": {
         "implementedProductId": "demography:69711",
-        "updatedAt": "2026-11-14",
+        "updatedAt": "2026-11-15",
         "reason": "Todas las observaciones de la descarga se conservan en cubos consultables; sin selección de columnas ni de último periodo."
       }
     },
@@ -19176,7 +20119,7 @@
       "coverage": "Municipios · España · Provincias",
       "review": {
         "implementedProductId": "demography:69743",
-        "updatedAt": "2026-11-14",
+        "updatedAt": "2026-11-15",
         "reason": "Todas las observaciones de la descarga se conservan en cubos consultables; sin selección de columnas ni de último periodo."
       }
     },
@@ -19221,7 +20164,7 @@
       "coverage": "Comunidades · España",
       "review": {
         "implementedProductId": "demography:69762",
-        "updatedAt": "2026-11-14",
+        "updatedAt": "2026-11-15",
         "reason": "Todas las observaciones de la descarga se conservan en cubos consultables; sin selección de columnas ni de último periodo."
       }
     },
@@ -19250,7 +20193,7 @@
       "coverage": "España · Provincias",
       "review": {
         "implementedProductId": "demography:69764",
-        "updatedAt": "2026-11-14",
+        "updatedAt": "2026-11-15",
         "reason": "Todas las observaciones de la descarga se conservan en cubos consultables; sin selección de columnas ni de último periodo."
       }
     },
@@ -19295,7 +20238,7 @@
       "coverage": "Municipios · España · Provincias",
       "review": {
         "implementedProductId": "demography:69767",
-        "updatedAt": "2026-11-14",
+        "updatedAt": "2026-11-15",
         "reason": "Todas las observaciones de la descarga se conservan en cubos consultables; sin selección de columnas ni de último periodo."
       }
     },
@@ -21116,7 +22059,7 @@
       "coverage": "Municipios · España · Provincias · Secciones (series)",
       "review": {
         "implementedProductId": "demography:65031",
-        "updatedAt": "2026-11-14",
+        "updatedAt": "2026-11-15",
         "reason": "Todas las observaciones de la descarga se conservan en cubos consultables; sin selección de columnas ni de último periodo."
       }
     },
@@ -21225,7 +22168,7 @@
       "coverage": "Comunidades · España · Provincias",
       "review": {
         "implementedProductId": "demography:68519",
-        "updatedAt": "2026-11-14",
+        "updatedAt": "2026-11-15",
         "reason": "Todas las observaciones de la descarga se conservan en cubos consultables; sin selección de columnas ni de último periodo."
       }
     },
@@ -21270,7 +22213,7 @@
       "coverage": "Municipios · España · Provincias",
       "review": {
         "implementedProductId": "demography:68535",
-        "updatedAt": "2026-11-14",
+        "updatedAt": "2026-11-15",
         "reason": "Todas las observaciones de la descarga se conservan en cubos consultables; sin selección de columnas ni de último periodo."
       }
     },
@@ -23235,7 +24178,7 @@
       "coverage": "Municipios · España · Provincias · Secciones (series)",
       "review": {
         "implementedProductId": "demography:65032",
-        "updatedAt": "2026-11-14",
+        "updatedAt": "2026-11-15",
         "reason": "Todas las observaciones de la descarga se conservan en cubos consultables; sin selección de columnas ni de último periodo."
       }
     },
@@ -23344,7 +24287,7 @@
       "coverage": "Comunidades · España · Provincias",
       "review": {
         "implementedProductId": "demography:68520",
-        "updatedAt": "2026-11-14",
+        "updatedAt": "2026-11-15",
         "reason": "Todas las observaciones de la descarga se conservan en cubos consultables; sin selección de columnas ni de último periodo."
       }
     },
@@ -25245,7 +26188,7 @@
       "coverage": "Municipios · España · Provincias · Secciones (series)",
       "review": {
         "implementedProductId": "demography:65036",
-        "updatedAt": "2026-11-14",
+        "updatedAt": "2026-11-15",
         "reason": "Todas las observaciones de la descarga se conservan en cubos consultables; sin selección de columnas ni de último periodo."
       }
     },
@@ -28058,7 +29001,7 @@
       "coverage": "Municipios · España · Provincias · Secciones (series)",
       "review": {
         "implementedProductId": "demography:65035",
-        "updatedAt": "2026-11-14",
+        "updatedAt": "2026-11-15",
         "reason": "Todas las observaciones de la descarga se conservan en cubos consultables; sin selección de columnas ni de último periodo."
       }
     },
@@ -30007,7 +30950,7 @@
       "coverage": "Municipios · España · Provincias · Secciones (series)",
       "review": {
         "implementedProductId": "demography:65033",
-        "updatedAt": "2026-11-14",
+        "updatedAt": "2026-11-15",
         "reason": "Todas las observaciones de la descarga se conservan en cubos consultables; sin selección de columnas ni de último periodo."
       }
     },
@@ -31716,7 +32659,7 @@
       "coverage": "Comunidades · España · Provincias",
       "review": {
         "implementedProductId": "demography:68523",
-        "updatedAt": "2026-11-14",
+        "updatedAt": "2026-11-15",
         "reason": "Todas las observaciones de la descarga se conservan en cubos consultables; sin selección de columnas ni de último periodo."
       }
     },
@@ -32001,7 +32944,7 @@
       "coverage": "Municipios · España · Provincias · Secciones (series)",
       "review": {
         "implementedProductId": "demography:65034",
-        "updatedAt": "2026-11-14",
+        "updatedAt": "2026-11-15",
         "reason": "Todas las observaciones de la descarga se conservan en cubos consultables; sin selección de columnas ni de último periodo."
       }
     },

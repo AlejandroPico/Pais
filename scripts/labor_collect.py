@@ -15,7 +15,7 @@ def main(refresh=False):
     core.REFRESH = refresh
     OUTPUT.mkdir(parents=True, exist_ok=True)
 
-    with ThreadPoolExecutor(max_workers=5) as pool:
+    with ThreadPoolExecutor(max_workers=4) as pool:
         list(pool.map(cubes.fetch_table, [table['id'] for table in config['tables']]))
     core.REFRESH = False
     catalog = json.loads((ROOT/'datos/catalogo/investigacion/ine-catalog.json').read_text(encoding='utf-8'))
@@ -23,7 +23,24 @@ def main(refresh=False):
                   if op['Id'] in config['operationIds']]
     assert {op['id'] for op in operations} == set(config['operationIds']), 'Incomplete labor operations'
     metadata = {table['Id']: table for op in operations for table in op['tables']}
-    tables = [cubes.build_group(table, [table['id']], metadata, output=OUTPUT) for table in config['tables']]
+    previous = json.loads((OUTPUT / 'index.json').read_text(encoding='utf-8')) if (OUTPUT / 'index.json').exists() and not refresh else {}
+    existing = {table['id']: table for table in previous.get('tables', [])}
+    tables = []
+    for table in config['tables']:
+        tid = table['id']
+        checkpoint = core.CACHE / f'labor-{tid}.json'
+        candidates = [existing.get(tid)]
+        if checkpoint.exists() and not refresh:
+            candidates.append(json.loads(checkpoint.read_text(encoding='utf-8')))
+        saved = next((item for item in candidates if item and all(
+            (OUTPUT / part['file']).is_file()
+            and core.sha((OUTPUT / part['file']).read_bytes()) == part['sha256']
+            for part in item['shards']
+        )), None)
+        if saved is None:
+            saved = cubes.build_group({**table, 'preserveMissingDimensions': True}, [tid], metadata, output=OUTPUT)
+            checkpoint.write_bytes(core.encode(saved))
+        tables.append({**saved, **table})
     (OUTPUT / 'inventory.json').write_bytes(core.encode({'revision': config['revision'], 'operations': operations}))
     index = {
         'schemaVersion': 1, 'revision': config['revision'],

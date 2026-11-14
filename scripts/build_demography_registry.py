@@ -35,7 +35,8 @@ def main(kind="demography",category="F02"):
         (ROOT/f'datos/{folder}/index.json').write_text(json.dumps(index,ensure_ascii=False,separators=(',',':')),encoding='utf-8')
     if kind=='labor':
         index['tables'] += read('datos/trabajo/sepe/sepe.json')['tables']
-    if kind=='demography':
+        index['tables'] += read('datos/trabajo/seguridad-social/index.json')['tables']
+    if kind in {'demography','welfare'}:
         shared = {}
         compact = {**index, 'tables': [], 'territoryGroups': shared}
         for table in index['tables']:
@@ -46,17 +47,28 @@ def main(kind="demography",category="F02"):
             fields['territoryGroup'] = digest
             compact['tables'].append(fields)
         payload = json.dumps(compact, ensure_ascii=False, separators=(',',':')).encode()
-        (ROOT/'datos/poblacion/ine/viewer.json.gz').write_bytes(gzip.compress(payload, compresslevel=6, mtime=0))
+        (ROOT/'datos'/folder/'viewer.json.gz').write_bytes(gzip.compress(payload, compresslevel=6, mtime=0))
+    if kind=='welfare':
+        index['tables'] += read('datos/renta/aeat/index.json')['tables']
     available=[]
     for t in index['tables']:
-        table_folder = 'trabajo/sepe' if t.get('compactColumns') else folder
+        table_folder = t.get('dataFolder') or ('trabajo/sepe' if t.get('compactColumns') else folder)
         for s in t['shards']:
             path=ROOT/'datos'/table_folder/s['file']
             assert hashlib.sha256(path.read_bytes()).hexdigest()==s['sha256'],path
         assert sum(s['rows'] for s in t['shards'])==t['rows']
         periods=sorted(t['periods'],key=lambda p:p['id'])
-        available.append(dict(id=kind+':'+str(t['id']),title=t['label'],sourceId=t.get('sourceId','F005'),categoryIds=[category],status='integrado',url=t['sourceUrl'],mapAction=kind+':'+str(t['id']),coverage=' · '.join({'national':'España','community':'Comunidades','province':'Provincias','municipal':'Municipios','district':'Distritos (series)','section':'Secciones (series)','island':'Islas (series)','unlocated':'Sin localización'}.get(l,l) for l in sorted({a['level'] for a in t['territories']})),period={'from':periods[0]['label'],'to':periods[-1]['label']},unit=t['unit'],license=t['license'],notes=t['note']+f" Tabla completa: {t['rows']:,} observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",dataFile=f"{table_folder}/{'sepe.json' if t.get('compactColumns') else 'index.json'}"))
-    canonical={str(source['id']):p for t,p in zip(index['tables'],available) for source in t.get('sourceTables',[{'id':t['id']}])}
+        filename = ('sepe.json' if t.get('publisher')=='SEPE'
+                    else 'viewer.json.gz' if table_folder == folder and kind in {'demography','welfare'}
+                    else 'index.json')
+        available.append(dict(id=kind+':'+str(t['id']),title=t['label'],sourceId=t.get('sourceId','F005'),categoryIds=[category],status='integrado',url=t['sourceUrl'],mapAction=kind+':'+str(t['id']),coverage=' · '.join({'national':'España','community':'Comunidades','province':'Provincias','municipal':'Municipios','district':'Distritos (series)','section':'Secciones (series)','island':'Islas (series)','unlocated':'Sin localización'}.get(l,l) for l in sorted({a['level'] for a in t['territories']})),period={'from':periods[0]['label'],'to':periods[-1]['label']},unit=t['unit'],license=t['license'],notes=t['note']+f" Tabla completa: {t['rows']:,} observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",dataFile=f'{table_folder}/{filename}'))
+    canonical={str(source['id']):p for t,p in zip(index['tables'],available) if p['sourceId']=='F005' for source in t.get('sourceTables',[{'id':t['id']}])}
+    for table, product in zip(index['tables'], available, strict=True):
+        for alias in table.get('equivalentDownloadIds', []):
+            url=f'https://www.ine.es/jaxiT3/files/t/es/csv_bd/{alias}.csv'
+            source=next(item for item in index['provenance'] if item['url']==url)
+            assert source['sha256']==table['source']['sha256'], (table['id'], alias)
+            canonical[str(alias)]=product
     records={}
     for o in inventory['operations']:
         for t in o['tables']:
@@ -66,16 +78,32 @@ def main(kind="demography",category="F02"):
             records[key]['operationIds'].append(o['id'])
             if key in canonical:
                 p=canonical[key];records[key].update(status='integrado',categoryIds=[category],license=p['license'],mapAction=p['mapAction'],period=p['period'],coverage=p['coverage'],notes=p['notes'],review={'implementedProductId':p['id'],'updatedAt':index['revision'],'reason':'Todas las observaciones de la descarga se conservan en cubos consultables; sin selección de columnas ni de último periodo.'})
-    if kind=='welfare':records.update({p['id']:p for p in read('registry/welfare-external.json')['sources']})
+    if kind=='welfare':
+        records.update({p['id']:p for p in read('registry/welfare-external.json')['sources']})
+        record=records['aeat:anuario-irpf-municipal']
+        product=next(p for p in available if p['id']=='welfare:920001')
+        record.update(status='integrado',mapAction=product['mapAction'],coverage=product['coverage'],
+                      period=product['period'],license=product['license'],notes=product['notes'],
+                      review=dict(implementedProductId=product['id'],updatedAt=index['revision'],
+                                  reason='Observaciones contrastadas con el diccionario oficial del Anuario.'))
     if kind=='labor':
+        for item in read('registry/labor-tables.json').get('emptyDistributions', []):
+            key=str(item['id'])
+            if key in canonical:
+                continue
+            reason=f"La API del INE devuelve cero series y la exportación CSV tiene {item['csv']['emptyCells']} celdas vacías."
+            records[key].update(status='bloqueado',categoryIds=[category],notes=reason,
+                links={'API oficial':item['api']['url'],'CSV oficial':item['csv']['url']},
+                review=dict(updatedAt=index['revision'],reason=reason,
+                            nextAction='Volver a comprobar la publicación del INE en la próxima actualización.'))
         for t,p in zip(index['tables'],available,strict=True):
             if not t.get('compactColumns'):
                 continue
             for edition in t['sourceTables']:
-                id=f"labor-sepe:{t['id']}:{edition['id']}"
+                id=f"labor-{t['publisher'].lower()}:{t['id']}:{edition['id']}"
                 records[id]=dict(p,id=id,title=f"{p['title']} · {edition['year']}",url=edition['url'],
                     period=' · '.join(edition['periods']),review=dict(implementedProductId=p['id'],
-                    updatedAt=index['revision'],reason='Serie municipal del SEPE preservada con sus desgloses y estados.'))
+                    updatedAt=index['revision'],reason=f'Serie de {t['publisher']} preservada con sus desgloses y estados.'))
     if kind=='demography':
         nomenclator=read('datos/territorio/nomenclator/index.json')
         editions=nomenclator['editions']

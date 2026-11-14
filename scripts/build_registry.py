@@ -176,9 +176,9 @@ def build():
     if demography_path.exists():
         input_paths.extend(['registry/demography-tables.json','registry/demography-products.json','datos/poblacion/ine/index.json','datos/poblacion/ine/inventory.json','datos/territorio/nomenclator/index.json','datos/poblacion/intercensal/index.json'])
     if welfare_path.exists():
-        input_paths.extend(['registry/welfare-tables.json','registry/welfare-external.json','registry/welfare-products.json','datos/renta/ine/index.json','datos/renta/ine/inventory.json'])
+        input_paths.extend(['registry/welfare-tables.json','registry/welfare-external.json','registry/welfare-products.json','datos/renta/ine/index.json','datos/renta/ine/inventory.json','datos/renta/aeat/index.json'])
     if labor_path.exists():
-        input_paths.extend(['registry/labor-tables.json','registry/labor-products.json','datos/trabajo/ine/index.json','datos/trabajo/ine/inventory.json','datos/trabajo/sepe/sepe.json'])
+        input_paths.extend(['registry/labor-tables.json','registry/labor-products.json','datos/trabajo/ine/index.json','datos/trabajo/ine/inventory.json','datos/trabajo/sepe/sepe.json','datos/trabajo/seguridad-social/index.json'])
     provenance = [dict(path=p, sha256=hashlib.sha256((ROOT / p).read_bytes()).hexdigest()) for p in input_paths]
     revisions=[registered['revision'], federated_metadata['revision']]
     for path in [territory_path,demography_path,welfare_path,labor_path]:

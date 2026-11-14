@@ -15,7 +15,7 @@ const sha=b=>createHash('sha256').update(b).digest('hex');
 const query=(t,code,year)=>({period:t.periods.findIndex(p=>p.id===year),dims:defaultDimensions(t),level:code.split(':')[0],territory:t.territories.findIndex(a=>a.id===code)});
 
 test('all welfare cubes retain verified content, complete dictionaries, original sources and territorial shards',()=>{
-  assert.equal(index.tables.length,51);assert.equal(new Set(index.tables.map(t=>t.id)).size,index.tables.length);
+  assert.equal(index.tables.length,55);assert.equal(new Set(index.tables.map(t=>t.id)).size,index.tables.length);
   const configured=read('registry/welfare-tables.json');assert.deepEqual(index.tables.map(t=>t.id),configured.tables.map(t=>t.id));
   let total=0;
   for(const t of index.tables){
@@ -87,4 +87,28 @@ with tempfile.TemporaryDirectory(prefix='pais-f03-test-') as tmp:
 test('historical charts use elapsed time rather than equally spacing sparse survey years',()=>{
   assert.equal(periodTimestamp('2024M01'),periodTimestamp('2024-01-01'));assert.equal(periodTimestamp('2024T2'),periodTimestamp('2024-04-01'));
   const a=periodTimestamp('2013'),b=periodTimestamp('2018'),c=periodTimestamp('2022');assert.ok((b-a)/(c-b)>1.24&&(b-a)/(c-b)<1.26);
+});
+
+test('AEAT bulk publication preserves all columns and consults codes without a confirmed geometry',()=>{
+  const folder=new URL('datos/renta/aeat/',base);
+  const {tables:[table]}=JSON.parse(fs.readFileSync(new URL('index.json',folder),'utf8'));
+  assert.equal(table.dimensions[0].values.length,112);
+  assert.equal(table.periods.length,12);
+  assert.equal(table.rows,3994480);
+  assert.ok(table.territories.some(a=>a.id==='unlocated:8266'));
+  const q=query(table,'municipal:28079','2024');
+  const shard=JSON.parse(gunzipSync(fs.readFileSync(new URL('920001-28.json.gz',folder))));
+  assert.equal(queryCube(table,shard,q).series.find(r=>r.period===q.period).value,2038778);
+  assert.equal(unitFor(table,q.dims),'declaraciones');
+});
+
+test('Atlas local inequality keeps its separate provincial publication and limits',()=>{
+  const t=table(53688),q=query(t,'municipal:52001','2024');
+  assert.equal(t.sourceTables.length,54);
+  assert.equal(queryCube(t,cube(t,'52'),q).series.find(r=>r.period===q.period).value,39.5);
+});
+
+test('ISO week timestamps remain continuous across year boundaries',()=>{
+  assert.equal(new Date(periodTimestamp('2020SM53')).toISOString(),'2020-12-28T00:00:00.000Z');
+  assert.equal(periodTimestamp('2021SM01')-periodTimestamp('2020SM53'),7*86400000);
 });

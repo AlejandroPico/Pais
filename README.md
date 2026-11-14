@@ -2,6 +2,10 @@
 
 La [guía para agentes](AGENTS.md) contiene la arquitectura y el protocolo de cierre. En [tareas.md](tareas.md) están los objetivos pendientes de F00 a F29.
 
+## Versión 0.8.1
+
+Series semanales y mensuales de población, Atlas local de renta e IRPF municipal, y afiliación histórica de la Seguridad Social. [F02](docs/F02.md) · [F03](docs/F03.md) · [F04](docs/F04.md)
+
 ## Versión 0.8.0
 
 Mapa base accesible desde todas las categorías, 67 opciones de fondo y ajustes de color y opacidad por capa. Los desplegables se apilan en escritorio y se abren en vertical en móvil. El visor conserva la dirección de portada al navegar y sigue admitiendo los enlaces a vistas guardadas de la versión anterior.

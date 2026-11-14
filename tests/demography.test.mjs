@@ -20,6 +20,7 @@ test('every complete demographic table preserves its shard counts, hashes, dicti
   for(const t of index.tables){
     assert.equal(new Set(t.territories.map(a=>a.id)).size,t.territories.length);
     assert.ok(t.periods.every(p=>p.id&&p.label));let count=0;
+    const partition=t.dimensions.findIndex(d=>d.name===t.partitionDimension);
     for(const shard of t.shards){
       const bytes=fs.readFileSync(new URL('datos/poblacion/ine/'+shard.file,root)),content=gunzipSync(bytes);
       assert.equal(digest(bytes),shard.sha256);assert.equal(digest(content),shard.contentSha256);assert.equal(bytes.length,shard.bytes);
@@ -29,13 +30,15 @@ test('every complete demographic table preserves its shard counts, hashes, dicti
         for(let i=0;i<t.dimensions.length;i++)assert.ok(r[i+2]>=0&&r[i+2]<t.dimensions[i].values.length);
         assert.ok(r.at(-2)===null||Number.isFinite(r.at(-2)));assert.equal(typeof r.at(-1),'string');
         if(r.at(-2)===null)assert.ok(r.at(-1));
-        if(shard.id!=='main')assert.equal(t.territories[r[0]].provinceCode,shard.id);
+        const geographicPart=t.territories[r[0]].provinceCode||'main';
+        const expected=partition<0?geographicPart:geographicPart+'-d'+r[2+partition];
+        assert.equal(shard.id,expected);
       }
     }
     assert.equal(count,t.rows);total+=count;
     for(const a of t.territories)if(a.level==='unlocated')assert.equal(a.name,'No residente','Unresolved official geography: '+t.id);
   }
-  assert.equal(total,68090658);
+  assert.equal(total,134786751);
 });
 
 test('census filters conserve source totals, sex and nationality; chart and map use the same query',()=>{

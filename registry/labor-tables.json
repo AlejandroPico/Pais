@@ -1,5 +1,5 @@
 {
-  "revision": "2026-11-14",
+  "revision": "2026-11-15",
   "tables": [
     {
       "id": 65349,
@@ -133,11 +133,492 @@
       "family": "Costes, jornada y vacantes · ETCL",
       "note": "Motivos por los que no existen vacantes por comunidad autónoma. Serie del INE. Se conservan su periodicidad, clasificación y unidad original.",
       "operation": "ETCL"
+    },
+    {
+      "id": 28185,
+      "label": "Sexo y secciones de actividad · 28185",
+      "family": "Salarios · EAES",
+      "note": "Serie del INE. Se conservan los periodos, categorías y unidades de la publicación."
+    },
+    {
+      "id": 28192,
+      "label": "Sexo y sectores de actividad · 28192",
+      "family": "Salarios · EAES",
+      "note": "Serie del INE. Se conservan los periodos, categorías y unidades de la publicación."
+    },
+    {
+      "id": 28203,
+      "label": "Sexo y sectores de actividad · 28203",
+      "family": "Salarios · EAES",
+      "note": "Serie del INE. Se conservan los periodos, categorías y unidades de la publicación."
+    },
+    {
+      "id": 28206,
+      "label": "Coeficientes de variación para ganancia bruta anual por periodo, secciones de la CNAE-2009 y sexo · 28206",
+      "family": "Salarios · EAES",
+      "note": "Serie del INE. Se conservan los periodos, categorías y unidades de la publicación."
+    },
+    {
+      "id": 28183,
+      "label": "Porcentaje de trabajadores en función de su ganancia con respecto al Salario Mínimo Interprofesional (SMI) (respecto al intervalo de ganancias) por tipo de jornada y sexo · 28183",
+      "family": "Salarios · EAES",
+      "note": "Serie del INE. Se conservan los periodos, categorías y unidades de la publicación."
+    },
+    {
+      "id": 28186,
+      "label": "Sexo y grupos principales de ocupación · 28186",
+      "family": "Salarios · EAES",
+      "note": "Serie del INE. Se conservan los periodos, categorías y unidades de la publicación."
+    },
+    {
+      "id": 28193,
+      "label": "Sexo y ocupación · 28193",
+      "family": "Salarios · EAES",
+      "note": "Serie del INE. Se conservan los periodos, categorías y unidades de la publicación."
+    },
+    {
+      "id": 28204,
+      "label": "Sexo y ocupación · 28204",
+      "family": "Salarios · EAES",
+      "note": "Serie del INE. Se conservan los periodos, categorías y unidades de la publicación."
+    },
+    {
+      "id": 28213,
+      "label": "Coeficientes de variación para ganancia bruta anual por periodo, comunidad autónoma y sexo · 28213",
+      "family": "Salarios · EAES",
+      "note": "Serie del INE. Se conservan los periodos, categorías y unidades de la publicación."
+    },
+    {
+      "id": 28187,
+      "label": "Sexo y tipo de jornada · 28187",
+      "family": "Salarios · EAES",
+      "note": "Serie del INE. Se conservan los periodos, categorías y unidades de la publicación."
+    },
+    {
+      "id": 28200,
+      "label": "Sexo y tipo de contrato · 28200",
+      "family": "Salarios · EAES",
+      "note": "Serie del INE. Se conservan los periodos, categorías y unidades de la publicación."
+    },
+    {
+      "id": 28205,
+      "label": "Sexo y tipo de contrato · 28205",
+      "family": "Salarios · EAES",
+      "note": "Serie del INE. Se conservan los periodos, categorías y unidades de la publicación."
+    },
+    {
+      "id": 28188,
+      "label": "Sexo y tipo de contrato · 28188",
+      "family": "Salarios · EAES",
+      "note": "Serie del INE. Se conservan los periodos, categorías y unidades de la publicación."
+    },
+    {
+      "id": 28201,
+      "label": "Sexo y edad · 28201",
+      "family": "Salarios · EAES",
+      "note": "Serie del INE. Se conservan los periodos, categorías y unidades de la publicación."
+    },
+    {
+      "id": 28189,
+      "label": "Sexo y edad · 28189",
+      "family": "Salarios · EAES",
+      "note": "Serie del INE. Se conservan los periodos, categorías y unidades de la publicación."
+    },
+    {
+      "id": 28202,
+      "label": "Sexo y nacionalidad · 28202",
+      "family": "Salarios · EAES",
+      "note": "Serie del INE. Se conservan los periodos, categorías y unidades de la publicación."
+    },
+    {
+      "id": 28190,
+      "label": "Sexo y nacionalidad · 28190",
+      "family": "Salarios · EAES",
+      "note": "Serie del INE. Se conservan los periodos, categorías y unidades de la publicación."
+    },
+    {
+      "id": 6030,
+      "label": "Coste laboral por trabajador por sectores de actividad · 6030",
+      "family": "Costes, jornada y vacantes · ETCL",
+      "note": "Serie del INE. Se conservan los periodos, categorías y unidades de la publicación."
+    },
+    {
+      "id": 6038,
+      "label": "Coste salarial por trabajador, tipo de jornada, sectores de actividad · 6038",
+      "family": "Costes, jornada y vacantes · ETCL",
+      "note": "Serie del INE. Se conservan los periodos, categorías y unidades de la publicación."
+    },
+    {
+      "id": 6042,
+      "label": "Tiempo de trabajo por trabajador y mes, tipo de jornada, sectores de actividad · 6042",
+      "family": "Costes, jornada y vacantes · ETCL",
+      "note": "Serie del INE. Se conservan los periodos, categorías y unidades de la publicación."
+    },
+    {
+      "id": 6047,
+      "label": "Número de vacantes por sectores de actividad · 6047",
+      "family": "Costes, jornada y vacantes · ETCL",
+      "note": "Serie del INE. Se conservan los periodos, categorías y unidades de la publicación."
+    },
+    {
+      "id": 6048,
+      "label": "Número de vacantes por secciones de actividad · 6048",
+      "family": "Costes, jornada y vacantes · ETCL",
+      "note": "Serie del INE. Se conservan los periodos, categorías y unidades de la publicación."
+    },
+    {
+      "id": 6056,
+      "label": "Percepciones por día de IT, coste indemnización por trabajador despedido por actividad económica · 6056",
+      "family": "Costes, jornada y vacantes · ETCL",
+      "note": "Serie del INE. Se conservan los periodos, categorías y unidades de la publicación."
+    },
+    {
+      "id": 6061,
+      "label": "Coste laboral por trabajador, comunidad autónoma, sectores de actividad · 6061",
+      "family": "Costes, jornada y vacantes · ETCL",
+      "note": "Serie del INE. Se conservan los periodos, categorías y unidades de la publicación."
+    },
+    {
+      "id": 6067,
+      "label": "Coste laboral total por trabajador · 6067",
+      "family": "Costes, jornada y vacantes · ETCL",
+      "note": "Serie del INE. Se conservan los periodos, categorías y unidades de la publicación."
+    },
+    {
+      "id": 6070,
+      "label": "Coste laboral por trabajador y sectores de actividad · 6070",
+      "family": "Costes, jornada y vacantes · ETCL",
+      "note": "Serie del INE. Se conservan los periodos, categorías y unidades de la publicación."
+    },
+    {
+      "id": 6076,
+      "label": "Coste salarial por trabajador , tipo de jornada, sectores de actividad · 6076",
+      "family": "Costes, jornada y vacantes · ETCL",
+      "note": "Serie del INE. Se conservan los periodos, categorías y unidades de la publicación."
+    },
+    {
+      "id": 6080,
+      "label": "Tiempo de trabajo por trabajador y mes, por sectores de actividad · 6080",
+      "family": "Costes, jornada y vacantes · ETCL",
+      "note": "Serie del INE. Se conservan los periodos, categorías y unidades de la publicación."
+    },
+    {
+      "id": 60300,
+      "label": "Errores de muestreo por divisiones de la CNAE-09 · 60300",
+      "family": "Costes, jornada y vacantes · ETCL",
+      "note": "Serie del INE. Se conservan los periodos, categorías y unidades de la publicación."
+    },
+    {
+      "id": 79658,
+      "label": "Coste laboral por hora efectiva, comunidad autónoma, sectores de actividad · 79658",
+      "family": "Costes, jornada y vacantes · ETCL",
+      "note": "Serie del INE. Se conservan los periodos, categorías y unidades de la publicación."
+    },
+    {
+      "id": 6031,
+      "label": "Coste laboral por trabajador por tamaño del establecimiento, sectores de actividad · 6031",
+      "family": "Costes, jornada y vacantes · ETCL",
+      "note": "Serie del INE. Se conservan los periodos, categorías y unidades de la publicación."
+    },
+    {
+      "id": 6039,
+      "label": "Coste salarial por trabajador, tipo de jornada, secciones de la CNAE-09 · 6039",
+      "family": "Costes, jornada y vacantes · ETCL",
+      "note": "Serie del INE. Se conservan los periodos, categorías y unidades de la publicación."
+    },
+    {
+      "id": 6043,
+      "label": "Tiempo de trabajo por trabajador y mes, tipo de jornada, secciones de la CNAE-09 · 6043",
+      "family": "Costes, jornada y vacantes · ETCL",
+      "note": "Serie del INE. Se conservan los periodos, categorías y unidades de la publicación."
+    },
+    {
+      "id": 6057,
+      "label": "Coste por hora extraordinaria, actividad económica · 6057",
+      "family": "Costes, jornada y vacantes · ETCL",
+      "note": "Serie del INE. Se conservan los periodos, categorías y unidades de la publicación."
+    },
+    {
+      "id": 6068,
+      "label": "Coste laboral total por hora efectiva · 6068",
+      "family": "Costes, jornada y vacantes · ETCL",
+      "note": "Serie del INE. Se conservan los periodos, categorías y unidades de la publicación."
+    },
+    {
+      "id": 6071,
+      "label": "Coste laboral por trabajador por tamaño del establecimiento y sectores de actividad · 6071",
+      "family": "Costes, jornada y vacantes · ETCL",
+      "note": "Serie del INE. Se conservan los periodos, categorías y unidades de la publicación."
+    },
+    {
+      "id": 6077,
+      "label": "Coste salarial por trabajador , tipo de jornada, secciones de la CNAE-09 · 6077",
+      "family": "Costes, jornada y vacantes · ETCL",
+      "note": "Serie del INE. Se conservan los periodos, categorías y unidades de la publicación."
+    },
+    {
+      "id": 6081,
+      "label": "Tiempo de trabajo por trabajador y mes por secciones de la CNAE-09 · 6081",
+      "family": "Costes, jornada y vacantes · ETCL",
+      "note": "Serie del INE. Se conservan los periodos, categorías y unidades de la publicación."
+    },
+    {
+      "id": 6091,
+      "label": "Tiempo de trabajo por trabajador, mes y tipo de jornada · 6091",
+      "family": "Costes, jornada y vacantes · ETCL",
+      "note": "Serie del INE. Se conservan los periodos, categorías y unidades de la publicación."
+    },
+    {
+      "id": 79659,
+      "label": "Tiempo de trabajo por trabajador y mes por comunidad autónoma, tipo de jornada, sectores de actividad · 79659",
+      "family": "Costes, jornada y vacantes · ETCL",
+      "note": "Serie del INE. Se conservan los periodos, categorías y unidades de la publicación."
+    },
+    {
+      "id": 6032,
+      "label": "Coste laboral por trabajador por secciones de la CNAE-09 · 6032",
+      "family": "Costes, jornada y vacantes · ETCL",
+      "note": "Serie del INE. Se conservan los periodos, categorías y unidades de la publicación."
+    },
+    {
+      "id": 6040,
+      "label": "Coste salarial por hora efectiva, tipo de jornada, sectores de actividad · 6040",
+      "family": "Costes, jornada y vacantes · ETCL",
+      "note": "Serie del INE. Se conservan los periodos, categorías y unidades de la publicación."
+    },
+    {
+      "id": 6044,
+      "label": "Tiempo de trabajo por trabajador y mes, sectores de actividad · 6044",
+      "family": "Costes, jornada y vacantes · ETCL",
+      "note": "Serie del INE. Se conservan los periodos, categorías y unidades de la publicación."
+    },
+    {
+      "id": 6060,
+      "label": "Errores de muestreo por comunidad autónoma · 6060",
+      "family": "Costes, jornada y vacantes · ETCL",
+      "note": "Serie del INE. Se conservan los periodos, categorías y unidades de la publicación."
+    },
+    {
+      "id": 6072,
+      "label": "Coste laboral por hora efectiva por secciones de la CNAE-09 · 6072",
+      "family": "Costes, jornada y vacantes · ETCL",
+      "note": "Serie del INE. Se conservan los periodos, categorías y unidades de la publicación."
+    },
+    {
+      "id": 6078,
+      "label": "Coste salarial por hora efectiva , tipo de jornada, sectores de actividad · 6078",
+      "family": "Costes, jornada y vacantes · ETCL",
+      "note": "Serie del INE. Se conservan los periodos, categorías y unidades de la publicación."
+    },
+    {
+      "id": 6082,
+      "label": "Tiempo de trabajo por trabajador y mes, tipo de jornada, sectores de actividad · 6082",
+      "family": "Costes, jornada y vacantes · ETCL",
+      "note": "Serie del INE. Se conservan los periodos, categorías y unidades de la publicación."
+    },
+    {
+      "id": 11221,
+      "label": "Costes laborales por trabajador · 11221",
+      "family": "Costes, jornada y vacantes · ETCL",
+      "note": "Serie del INE. Se conservan los periodos, categorías y unidades de la publicación."
+    },
+    {
+      "id": 79660,
+      "label": "Coste salarial por trabajador, tipo de jornada, sectores de actividad · 79660",
+      "family": "Costes, jornada y vacantes · ETCL",
+      "note": "Serie del INE. Se conservan los periodos, categorías y unidades de la publicación."
+    },
+    {
+      "id": 6033,
+      "label": "Coste laboral por trabajador por divisiones de la CNAE-09 · 6033",
+      "family": "Costes, jornada y vacantes · ETCL",
+      "note": "Serie del INE. Se conservan los periodos, categorías y unidades de la publicación."
+    },
+    {
+      "id": 6041,
+      "label": "Coste salarial por hora efectiva, tipo de jornada, secciones de la CNAE-09 · 6041",
+      "family": "Costes, jornada y vacantes · ETCL",
+      "note": "Serie del INE. Se conservan los periodos, categorías y unidades de la publicación."
+    },
+    {
+      "id": 6045,
+      "label": "Tiempo de trabajo por trabajador y mes por secciones de la CNAE-09 · 6045",
+      "family": "Costes, jornada y vacantes · ETCL",
+      "note": "Serie del INE. Se conservan los periodos, categorías y unidades de la publicación."
+    },
+    {
+      "id": 6073,
+      "label": "Coste laboral por hora efectiva por sectores de actividad · 6073",
+      "family": "Costes, jornada y vacantes · ETCL",
+      "note": "Serie del INE. Se conservan los periodos, categorías y unidades de la publicación."
+    },
+    {
+      "id": 6079,
+      "label": "Coste salarial por hora efectiva , tipo de jornada, secciones de la CNAE-09 · 6079",
+      "family": "Costes, jornada y vacantes · ETCL",
+      "note": "Serie del INE. Se conservan los periodos, categorías y unidades de la publicación."
+    },
+    {
+      "id": 6083,
+      "label": "Tiempo de trabajo por trabajador y mes, tipo de jornada, secciones de la CNAE-09 · 6083",
+      "family": "Costes, jornada y vacantes · ETCL",
+      "note": "Serie del INE. Se conservan los periodos, categorías y unidades de la publicación."
+    },
+    {
+      "id": 11222,
+      "label": "Costes laborales por hora efectiva de trabajo · 11222",
+      "family": "Costes, jornada y vacantes · ETCL",
+      "note": "Serie del INE. Se conservan los periodos, categorías y unidades de la publicación."
+    },
+    {
+      "id": 79661,
+      "label": "Coste laboral por hora efectiva por divisiones de la CNAE-09 · 79661",
+      "family": "Costes, jornada y vacantes · ETCL",
+      "note": "Serie del INE. Se conservan los periodos, categorías y unidades de la publicación."
+    },
+    {
+      "id": 6034,
+      "label": "Coste laboral por hora efectiva por sectores de actividad · 6034",
+      "family": "Costes, jornada y vacantes · ETCL",
+      "note": "Serie del INE. Se conservan los periodos, categorías y unidades de la publicación."
+    },
+    {
+      "id": 6046,
+      "label": "Tiempo de trabajo por trabajador y mes por divisiones de la CNAE-09 · 6046",
+      "family": "Costes, jornada y vacantes · ETCL",
+      "note": "Serie del INE. Se conservan los periodos, categorías y unidades de la publicación."
+    },
+    {
+      "id": 6074,
+      "label": "Coste laboral por hora efectiva por tamaño del establecimiento y sectores de actividad · 6074",
+      "family": "Costes, jornada y vacantes · ETCL",
+      "note": "Serie del INE. Se conservan los periodos, categorías y unidades de la publicación."
+    },
+    {
+      "id": 6035,
+      "label": "Coste laboral por hora efectiva por tamaño del establecimiento, sectores de actividad · 6035",
+      "family": "Costes, jornada y vacantes · ETCL",
+      "note": "Serie del INE. Se conservan los periodos, categorías y unidades de la publicación."
+    },
+    {
+      "id": 6075,
+      "label": "Coste laboral por trabajador por secciones de la CNAE-09 · 6075",
+      "family": "Costes, jornada y vacantes · ETCL",
+      "note": "Serie del INE. Se conservan los periodos, categorías y unidades de la publicación."
+    },
+    {
+      "id": 6036,
+      "label": "Coste laboral por hora efectiva por secciones de la CNAE-09 · 6036",
+      "family": "Costes, jornada y vacantes · ETCL",
+      "note": "Serie del INE. Se conservan los periodos, categorías y unidades de la publicación."
+    },
+    {
+      "id": 6053,
+      "label": "Motivos por los que no existen vacantes por sectores de activdad · 6053",
+      "family": "Costes, jornada y vacantes · ETCL",
+      "note": "Serie del INE. Se conservan los periodos, categorías y unidades de la publicación."
+    },
+    {
+      "id": 59391,
+      "label": "Series por sectores de actividad y componentes del coste · 59391",
+      "family": "Costes, jornada y vacantes · ETCL",
+      "note": "Serie del INE. Se conservan los periodos, categorías y unidades de la publicación."
+    },
+    {
+      "id": 6037,
+      "label": "Coste laboral por hora efectiva por divisiones de la CNAE-09 · 6037",
+      "family": "Costes, jornada y vacantes · ETCL",
+      "note": "Serie del INE. Se conservan los periodos, categorías y unidades de la publicación."
+    },
+    {
+      "id": 6054,
+      "label": "Motivos por los que no existen vacantes por secciones de actividad · 6054",
+      "family": "Costes, jornada y vacantes · ETCL",
+      "note": "Serie del INE. Se conservan los periodos, categorías y unidades de la publicación."
+    },
+    {
+      "id": 59392,
+      "label": "Series por comunidad autónoma y componentes del coste · 59392",
+      "family": "Costes, jornada y vacantes · ETCL",
+      "note": "Serie del INE. Se conservan los periodos, categorías y unidades de la publicación."
+    },
+    {
+      "id": 6055,
+      "label": "Motivos por los que no existen vacantes por tamaño del establecimiento · 6055",
+      "family": "Costes, jornada y vacantes · ETCL",
+      "note": "Serie del INE. Se conservan los periodos, categorías y unidades de la publicación."
     }
   ],
   "operationIds": [
     140,
     293,
     303
+  ],
+  "emptyDistributions": [
+    {
+      "id": 80180,
+      "api": {
+        "url": "https://servicios.ine.es/wstempus/js/ES/DATOS_TABLA/80180?tip=AM",
+        "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+        "series": 0
+      },
+      "csv": {
+        "url": "https://www.ine.es/jaxiT3/files/t/es/csv_bd/80180.csv",
+        "sha256": "de20d108b580024b3c750f2ba2d3613de770142b5c7ad9a9b8f72d3dc50f5f0a",
+        "emptyCells": 5508
+      }
+    },
+    {
+      "id": 80181,
+      "api": {
+        "url": "https://servicios.ine.es/wstempus/js/ES/DATOS_TABLA/80181?tip=AM",
+        "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+        "series": 0
+      },
+      "csv": {
+        "url": "https://www.ine.es/jaxiT3/files/t/es/csv_bd/80181.csv",
+        "sha256": "d954c7406d560be6464157a7342ff70669a7ff6ba145d44215894a01a748e0f4",
+        "emptyCells": 969
+      }
+    },
+    {
+      "id": 80182,
+      "api": {
+        "url": "https://servicios.ine.es/wstempus/js/ES/DATOS_TABLA/80182?tip=AM",
+        "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+        "series": 0
+      },
+      "csv": {
+        "url": "https://www.ine.es/jaxiT3/files/t/es/csv_bd/80182.csv",
+        "sha256": "f69ce7b21da13623c4bb8809936aded25965be75a64e7d8d8f7e68245de53c52",
+        "emptyCells": 1020
+      }
+    },
+    {
+      "id": 80183,
+      "api": {
+        "url": "https://servicios.ine.es/wstempus/js/ES/DATOS_TABLA/80183?tip=AM",
+        "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+        "series": 0
+      },
+      "csv": {
+        "url": "https://www.ine.es/jaxiT3/files/t/es/csv_bd/80183.csv",
+        "sha256": "20262e9e1aa1c2cf7d90fe872760d808847b4491114d9001c375de46ddaf5053",
+        "emptyCells": 918
+      }
+    },
+    {
+      "id": 80184,
+      "api": {
+        "url": "https://servicios.ine.es/wstempus/js/ES/DATOS_TABLA/80184?tip=AM",
+        "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+        "series": 0
+      },
+      "csv": {
+        "url": "https://www.ine.es/jaxiT3/files/t/es/csv_bd/80184.csv",
+        "sha256": "990dfe594030ee94cdd00f51dd28a27d1e2ad593979baa822febfcd7f5ea38ff",
+        "emptyCells": 3672
+      }
+    }
   ]
 }

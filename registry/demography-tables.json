@@ -1,5 +1,5 @@
 {
-  "revision": "2026-11-14",
+  "revision": "2026-11-15",
   "tables": [
     {
       "id": 68519,
@@ -489,6 +489,386 @@
       "family": "Indicadores demográficos",
       "note": "Tasa Bruta de Nupcialidad por provincia. Serie del INE con los periodos y el desglose territorial publicados.",
       "unit": "matrimonios por 1.000 habitantes"
+    },
+    {
+      "id": 71116,
+      "family": "Residentes en el extranjero",
+      "label": "Población por país de residencia, sexo y grupos de edad (quinquenales) · 71116",
+      "note": "Se conservan las categorías y periodos oficiales de la descarga del INE.",
+      "unit": "personas",
+      "national": true,
+      "equivalentDownloadIds": [
+        79675
+      ]
+    },
+    {
+      "id": 71117,
+      "family": "Residentes en el extranjero",
+      "label": "Población por país de residencia (con 1000 o más residentes), provincia de inscripción (agrupadas por comunidad autónoma), sexo y edad (grandes grupos) · 71117",
+      "note": "Se conservan las categorías y periodos oficiales de la descarga del INE.",
+      "unit": "personas",
+      "interleaved": true,
+      "compression": 5,
+      "equivalentDownloadIds": [
+        79677
+      ]
+    },
+    {
+      "id": 71124,
+      "family": "Residentes en el extranjero",
+      "label": "Nuevas inscripciones por país de residencia (con 1000 o más residentes), provincia de inscripción (agrupadas por comunidad autónoma), sexo y edad (grandes grupos) · 71124",
+      "note": "Se conservan las categorías y periodos oficiales de la descarga del INE.",
+      "unit": "personas",
+      "interleaved": true,
+      "compression": 5
+    },
+    {
+      "id": 71119,
+      "family": "Residentes en el extranjero",
+      "label": "Población por país de residencia, sexo y lugar de nacimiento (España, país de residencia, otros países) · 71119",
+      "note": "Se conservan las categorías y periodos oficiales de la descarga del INE.",
+      "unit": "personas",
+      "national": true,
+      "equivalentDownloadIds": [
+        79676
+      ]
+    },
+    {
+      "id": 71126,
+      "family": "Residentes en el extranjero",
+      "label": "Nuevas inscripciones por país de residencia, sexo y lugar de nacimiento (España, país de residencia, otros países) · 71126",
+      "note": "Se conservan las categorías y periodos oficiales de la descarga del INE.",
+      "unit": "personas",
+      "national": true
+    },
+    {
+      "id": 71121,
+      "family": "Residentes en el extranjero",
+      "label": "Población por país de residencia (con 1000 o más residentes), provincia de inscripción (agrupadas por comunidad autónoma), sexo y lugar de nacimiento (provincia de inscripción, otra provincia, extranjero) · 71121",
+      "note": "Se conservan las categorías y periodos oficiales de la descarga del INE.",
+      "unit": "personas",
+      "interleaved": true,
+      "compression": 5,
+      "equivalentDownloadIds": [
+        79678
+      ]
+    },
+    {
+      "id": 71127,
+      "family": "Residentes en el extranjero",
+      "label": "Nuevas inscripciones por país de residencia (con 1000 o más residentes), provincia de inscripción (agrupadas por comunidad autónoma), sexo y lugar de nacimiento (provincia de inscripción, otra provincia, extranjero) · 71127",
+      "note": "Se conservan las categorías y periodos oficiales de la descarga del INE.",
+      "unit": "personas",
+      "interleaved": true,
+      "compression": 5
+    },
+    {
+      "id": 71122,
+      "family": "Residentes en el extranjero",
+      "label": "Para nacidos en España: Población por país de residencia (con 1000 o más residentes), provincia de nacimiento (agrupadas por comunidad autónoma), sexo y edad (grandes grupos) · 71122",
+      "note": "Se conservan las categorías y periodos oficiales de la descarga del INE.",
+      "unit": "personas",
+      "interleaved": true,
+      "compression": 5
+    },
+    {
+      "id": 71128,
+      "family": "Residentes en el extranjero",
+      "label": "Nuevas inscripciones de nacidos en España por país de residencia (con 1000 o más residentes), provincia de nacimiento (agrupadas por comunidad autónoma), sexo y edad (grandes grupos) · 71128",
+      "note": "Se conservan las categorías y periodos oficiales de la descarga del INE.",
+      "unit": "personas",
+      "interleaved": true,
+      "compression": 5
+    },
+    {
+      "id": 35168,
+      "family": "Estimaciones de defunciones",
+      "label": "Defunciones semanales y acumuladas.Total nacional, comunidades autónomas y provincias · 35168",
+      "note": "Se conservan las categorías y periodos oficiales de la descarga del INE.",
+      "unit": "defunciones",
+      "interleaved": true,
+      "compression": 5,
+      "unitsByCategory": {
+        "dimension": "Tipo de dato",
+        "values": {
+          "Variación anual del acumulado en lo que va de año": "%",
+          "Variación interanual del acumulado en lo que va de año": "%"
+        }
+      }
+    },
+    {
+      "id": 35177,
+      "family": "Estimaciones de defunciones",
+      "label": "Defunciones semanales, acumuladas y variación interanual del acumulado. Total nacional y CCAA. 1975-2026 · 35177",
+      "note": "Se conservan las categorías y periodos oficiales de la descarga del INE.",
+      "unit": "defunciones",
+      "interleaved": true,
+      "compression": 5,
+      "unitsByCategory": {
+        "dimension": "Tipo de dato",
+        "values": {
+          "Variación anual del acumulado en lo que va de año": "%",
+          "Variación interanual del acumulado en lo que va de año": "%"
+        }
+      }
+    },
+    {
+      "id": 35169,
+      "family": "Estimaciones de defunciones",
+      "label": "Defunciones semanales diferencia absoluta del acumulado por sexo y edad.Total nacional y comunidades autónomas, · 35169",
+      "note": "Se conservan las categorías y periodos oficiales de la descarga del INE.",
+      "unit": "defunciones",
+      "interleaved": true,
+      "compression": 5,
+      "unitsByCategory": {
+        "dimension": "Tipo de dato",
+        "values": {
+          "Variación anual del acumulado en lo que va de año": "%",
+          "Variación interanual del acumulado en lo que va de año": "%"
+        }
+      }
+    },
+    {
+      "id": 35176,
+      "family": "Estimaciones de defunciones",
+      "label": "Defunciones semanales, acumuladas y variación interanual del acumulado. Total nacional y provincias. 1975-2026 · 35176",
+      "note": "Se conservan las categorías y periodos oficiales de la descarga del INE.",
+      "unit": "defunciones",
+      "interleaved": true,
+      "compression": 5,
+      "unitsByCategory": {
+        "dimension": "Tipo de dato",
+        "values": {
+          "Variación anual del acumulado en lo que va de año": "%",
+          "Variación interanual del acumulado en lo que va de año": "%"
+        }
+      }
+    },
+    {
+      "id": 35178,
+      "family": "Estimaciones de defunciones",
+      "label": "Defunciones semanales acumuladas y variación interanual del acumulado. Islas. 1975-2026 · 35178",
+      "note": "Se conservan las categorías y periodos oficiales de la descarga del INE.",
+      "unit": "defunciones",
+      "interleaved": true,
+      "compression": 5,
+      "unitsByCategory": {
+        "dimension": "Tipo de dato",
+        "values": {
+          "Variación anual del acumulado en lo que va de año": "%",
+          "Variación interanual del acumulado en lo que va de año": "%"
+        }
+      }
+    },
+    {
+      "id": 46318,
+      "family": "Estimaciones de defunciones",
+      "label": "Defunciones semanales y acumuladas.Total nacional, comunidades autónomas y provincias · 46318",
+      "note": "Se conservan las categorías y periodos oficiales de la descarga del INE.",
+      "unit": "defunciones",
+      "interleaved": true,
+      "compression": 5,
+      "unitsByCategory": {
+        "dimension": "Tipo de dato",
+        "values": {
+          "Variación anual del acumulado en lo que va de año": "%",
+          "Variación interanual del acumulado en lo que va de año": "%"
+        }
+      }
+    },
+    {
+      "id": 62278,
+      "family": "Estimaciones de defunciones",
+      "label": "Defunciones mensuales, acumuladas y variación interanual del acumulado. Total nacional y provincias. 2009-2026 · 62278",
+      "note": "Se conservan las categorías y periodos oficiales de la descarga del INE.",
+      "unit": "defunciones",
+      "interleaved": true,
+      "compression": 5,
+      "unitsByCategory": {
+        "dimension": "Tipo de dato",
+        "values": {
+          "Variación anual del acumulado en lo que va de año": "%",
+          "Variación interanual del acumulado en lo que va de año": "%"
+        }
+      }
+    },
+    {
+      "id": 35179,
+      "family": "Estimaciones de defunciones",
+      "label": "Defunciones semanales, acumuladas y diferencia absoluta del acumulado por sexo y edad. Total nacional y comunidades autónomas. 1975-2026 · 35179",
+      "note": "Se conservan las categorías y periodos oficiales de la descarga del INE.",
+      "unit": "defunciones",
+      "interleaved": true,
+      "compression": 5,
+      "unitsByCategory": {
+        "dimension": "Tipo de dato",
+        "values": {
+          "Variación anual del acumulado en lo que va de año": "%",
+          "Variación interanual del acumulado en lo que va de año": "%"
+        }
+      },
+      "partitionDimension": "Edad (grupos quinquenales)"
+    },
+    {
+      "id": 62279,
+      "family": "Estimaciones de defunciones",
+      "label": "Defunciones mensuales acumuladas y variación interanual del acumulado. Islas. 2009-2026 · 62279",
+      "note": "Se conservan las categorías y periodos oficiales de la descarga del INE.",
+      "unit": "defunciones",
+      "interleaved": true,
+      "compression": 5,
+      "unitsByCategory": {
+        "dimension": "Tipo de dato",
+        "values": {
+          "Variación anual del acumulado en lo que va de año": "%",
+          "Variación interanual del acumulado en lo que va de año": "%"
+        }
+      }
+    },
+    {
+      "id": 36166,
+      "family": "Estimaciones de defunciones",
+      "label": "Defunciones semanales, acumuladas y diferencia absoluta del acumulado por sexo y edad. Total nacional y provincias. 1975-2026 · 36166",
+      "note": "Se conservan las categorías y periodos oficiales de la descarga del INE.",
+      "unit": "defunciones",
+      "interleaved": true,
+      "compression": 5,
+      "unitsByCategory": {
+        "dimension": "Tipo de dato",
+        "values": {
+          "Variación anual del acumulado en lo que va de año": "%",
+          "Variación interanual del acumulado en lo que va de año": "%"
+        }
+      },
+      "partitionDimension": "Edad (grupos quinquenales)"
+    },
+    {
+      "id": 62280,
+      "family": "Estimaciones de defunciones",
+      "label": "Defunciones mensuales, acumuladas y diferencia absoluta del acumulado por sexo y edad. Total nacional y comunidades autónomas. 2009-2026 · 62280",
+      "note": "Se conservan las categorías y periodos oficiales de la descarga del INE.",
+      "unit": "defunciones",
+      "interleaved": true,
+      "compression": 5,
+      "unitsByCategory": {
+        "dimension": "Tipo de dato",
+        "values": {
+          "Variación anual del acumulado en lo que va de año": "%",
+          "Variación interanual del acumulado en lo que va de año": "%"
+        }
+      }
+    },
+    {
+      "id": 62281,
+      "family": "Estimaciones de defunciones",
+      "label": "Defunciones mensuales, acumuladas y diferencia absoluta del acumulado por sexo y edad. Total nacional y provincias. 2009-2026 · 62281",
+      "note": "Se conservan las categorías y periodos oficiales de la descarga del INE.",
+      "unit": "defunciones",
+      "interleaved": true,
+      "compression": 5,
+      "unitsByCategory": {
+        "dimension": "Tipo de dato",
+        "values": {
+          "Variación anual del acumulado en lo que va de año": "%",
+          "Variación interanual del acumulado en lo que va de año": "%"
+        }
+      }
+    },
+    {
+      "id": 46678,
+      "family": "Estimaciones de nacimientos",
+      "label": "Nacimientos mensuales, acumulados y variación interanual del acumulado por sexo del nacido y grupo de edad de la madre. Total nacional y CCAA · 46678",
+      "note": "Se conservan las categorías y periodos oficiales de la descarga del INE.",
+      "unit": "nacimientos",
+      "interleaved": true,
+      "compression": 5,
+      "unitsByCategory": {
+        "dimension": "Tipo de dato",
+        "values": {
+          "Variación anual del acumulado en lo que va de año": "%",
+          "Variación interanual del acumulado en lo que va de año": "%"
+        }
+      }
+    },
+    {
+      "id": 46679,
+      "family": "Estimaciones de nacimientos",
+      "label": "Nacimientos mensuales, acumulados y variación interanual del acumulado por sexo del nacido y grupo de edad de la madre. Total nacional y provincias · 46679",
+      "note": "Se conservan las categorías y periodos oficiales de la descarga del INE.",
+      "unit": "nacimientos",
+      "interleaved": true,
+      "compression": 5,
+      "unitsByCategory": {
+        "dimension": "Tipo de dato",
+        "values": {
+          "Variación anual del acumulado en lo que va de año": "%",
+          "Variación interanual del acumulado en lo que va de año": "%"
+        }
+      }
+    },
+    {
+      "id": 46683,
+      "family": "Estimaciones de nacimientos",
+      "label": "Variación interanual de los nacimientos acumulados. Total nacional, CCAA y provincias · 46683",
+      "note": "Se conservan las categorías y periodos oficiales de la descarga del INE.",
+      "unit": "nacimientos",
+      "interleaved": true,
+      "compression": 5,
+      "unitsByCategory": {
+        "dimension": "Tipo de dato",
+        "values": {
+          "Variación anual del acumulado en lo que va de año": "%",
+          "Variación interanual del acumulado en lo que va de año": "%"
+        }
+      }
+    },
+    {
+      "id": 46680,
+      "family": "Estimaciones de nacimientos",
+      "label": "Nacimientos mensuales por sexo del nacido y grupo de edad de la madre, acumulados y diferencia absoluta interanual del acumulado. Total nacional y CCAA · 46680",
+      "note": "Se conservan las categorías y periodos oficiales de la descarga del INE.",
+      "unit": "nacimientos",
+      "interleaved": true,
+      "compression": 5,
+      "unitsByCategory": {
+        "dimension": "Tipo de dato",
+        "values": {
+          "Variación anual del acumulado en lo que va de año": "%",
+          "Variación interanual del acumulado en lo que va de año": "%"
+        }
+      }
+    },
+    {
+      "id": 46684,
+      "family": "Estimaciones de nacimientos",
+      "label": "Diferencia absoluta interanual de los nacimientos acumulados. Total nacional, CCAA y provincias · 46684",
+      "note": "Se conservan las categorías y periodos oficiales de la descarga del INE.",
+      "unit": "nacimientos",
+      "interleaved": true,
+      "compression": 5,
+      "unitsByCategory": {
+        "dimension": "Tipo de dato",
+        "values": {
+          "Variación anual del acumulado en lo que va de año": "%",
+          "Variación interanual del acumulado en lo que va de año": "%"
+        }
+      }
+    },
+    {
+      "id": 46681,
+      "family": "Estimaciones de nacimientos",
+      "label": "Nacimientos mensuales por sexo del nacido y grupo de edad de la madre, acumulados y diferencia absoluta interanual del acumulado. Total nacional y provincias · 46681",
+      "note": "Se conservan las categorías y periodos oficiales de la descarga del INE.",
+      "unit": "nacimientos",
+      "interleaved": true,
+      "compression": 5,
+      "unitsByCategory": {
+        "dimension": "Tipo de dato",
+        "values": {
+          "Variación anual del acumulado en lo que va de año": "%",
+          "Variación interanual del acumulado en lo que va de año": "%"
+        }
+      }
     }
   ],
   "operationIds": [

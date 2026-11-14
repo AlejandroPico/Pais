@@ -1,5 +1,5 @@
 {
-  "revision": "2026-11-14",
+  "revision": "2026-11-15",
   "operationIds": [
     155,
     236,
@@ -22,14 +22,16 @@
       "family": "Renta administrativa · Atlas",
       "label": "Atlas · Gini y P80/P20",
       "unit": "Según indicador y escala publicados",
-      "note": "Registros administrativos INE. No equivale a la ECV ni a la renta media por declaración del IRPF. Importe anual nominal, nivel y unidad según el indicador; límites de publicación y secreto estadístico del INE. No se completan celdas ausentes."
+      "note": "Resultados del Atlas por territorio y edición. Reúne el resumen nacional y las distribuciones oficiales locales por provincia.",
+      "groupByAtlasTableTitle": true
     },
     {
       "id": 53687,
       "family": "Renta administrativa · Atlas",
       "label": "Atlas · fuentes de ingresos",
       "unit": "Según indicador y escala publicados",
-      "note": "Registros administrativos INE. No equivale a la ECV ni a la renta media por declaración del IRPF. Importe anual nominal, nivel y unidad según el indicador; límites de publicación y secreto estadístico del INE. No se completan celdas ausentes."
+      "note": "Resultados del Atlas por territorio y edición. Reúne el resumen nacional y las distribuciones oficiales locales por provincia.",
+      "groupByAtlasTableTitle": true
     },
     {
       "id": 53690,
@@ -375,6 +377,30 @@
       "label": "Satisfacción alta o muy alta con la vida · comunidades",
       "family": "Calidad de vida",
       "note": "Satisfacción alta o muy alta con su vida en la actualidad por comunidad autónoma. Indicador de encuesta del INE. Se conservan el ámbito, las categorías y la unidad de la publicación."
+    },
+    {
+      "id": 68338,
+      "label": "Renta media y mediana · comunidades",
+      "family": "Calidad de vida",
+      "note": "Resultados del INE por comunidad autónoma. Se conservan la unidad, las categorías y los periodos publicados."
+    },
+    {
+      "id": 69353,
+      "label": "Pobreza tras transferencias sociales · comunidades",
+      "family": "Calidad de vida",
+      "note": "Resultados del INE por comunidad autónoma. Se conservan la unidad, las categorías y los periodos publicados."
+    },
+    {
+      "id": 69366,
+      "label": "Pobreza con umbral fijo de 2008 · comunidades",
+      "family": "Calidad de vida",
+      "note": "Resultados del INE por comunidad autónoma. Se conservan la unidad, las categorías y los periodos publicados."
+    },
+    {
+      "id": 69378,
+      "label": "Desigualdad S80/S20 · comunidades",
+      "family": "Calidad de vida",
+      "note": "Resultados del INE por comunidad autónoma. Se conservan la unidad, las categorías y los periodos publicados."
     }
   ]
 }

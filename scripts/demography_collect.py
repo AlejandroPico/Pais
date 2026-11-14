@@ -16,7 +16,7 @@ import shutil
 import time
 import unicodedata
 import urllib.request
-from datetime import datetime, timezone
+from datetime import date, datetime, timezone
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -54,6 +54,10 @@ def period_key(s):
     m = re.fullmatch(r'(\d{1,2}) de (\w+) de (\d{4})', s)
     if m:
         return f'{m[3]}-{months[m[2]]:02}-{int(m[1]):02}'
+    week = re.fullmatch(r'(\d{4})SM(\d{2})', s)
+    if week:
+        date.fromisocalendar(int(week[1]), int(week[2]), 1)
+        return s
     if re.fullmatch(r'\d{4}(?:M\d{2}|T[1-4])?', s):
         return s
     raise ValueError('Unrecognized period: '+s)
@@ -148,6 +152,7 @@ def collect_table(config, metadata):
         assert geo_columns or config.get('national'),(tid,headers)
         di=[i for i,h in enumerate(headers[:-1]) if i!=pi and i not in [x[0] for x in geo_columns]]
         dimensions=[{'name':headers[i],'values':[]} for i in di];dim_ids=[{} for _ in di]
+        partition = [d['name'] for d in dimensions].index(config['partitionDimension']) if config.get('partitionDimension') else None
         for row in reader:
             if not row: continue
             assert len(row)==len(headers),(tid,row)
@@ -176,6 +181,8 @@ def collect_table(config, metadata):
             record.extend([value,status])
             if status: missing[status]=missing.get(status,0)+1
             part=geo['provinceCode'] if geo['level'] in {'municipal','section'} else 'main'
+            if partition is not None:
+                part += '-d' + str(record[2 + partition])
             if part not in handles: handles[part]=(temp/(part+'.jsonl')).open('wb');counts[part]=0
             handles[part].write(encode(record)+b'\n');counts[part]+=1;row_count+=1
     for h in handles.values(): h.close()
@@ -205,6 +212,10 @@ def main(only=None):
     old={t['id']:t for t in previous['tables']} if previous else {}
     tables=[collect_table(t,metadata[t['id']]) if not only or t['id'] in only else {**old[t['id']],**t} for t in CONFIG['tables']]
     for t in tables:
+        for alias in t.get('equivalentDownloadIds', []):
+            url = f'https://www.ine.es/jaxiT3/files/t/es/csv_bd/{alias}.csv'
+            _, evidence = fetch(url)
+            assert evidence['sha256'] == t['source']['sha256'], (t['id'], alias, 'INE downloads differ')
         for s in t['shards']:
             if 'contentSha256' not in s:s['contentSha256']=content_sha(OUT/s['file'])
     provenance={p['url']:p for p in (previous['provenance'] if previous else [])+PROVENANCE}

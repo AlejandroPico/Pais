@@ -1,5 +1,5 @@
 export type DemographicArea={id:string;level:string;code:string;name:string;provinceCode?:string;municipalityCode?:string;sourceTableIds?:number[];publicationTableId?:number};
-export type DemographicTable={id:number;compactColumns?:boolean;publisher?:string;label:string;title:string;family:string;unit:string;unitsByConditions?:{when:Record<string,string>;unit:string}[];sourceTables?:{id:number;url:string;year?:number}[];unitsByCategory?:{dimension:string;values:Record<string,string>};note:string;sourceUrl:string;downloadUrl:string;license:string;rows:number;dimensions:{name:string;values:string[]}[];periods:{id:string;label:string}[];territories:DemographicArea[];shards:{id:string;file:string;rows:number;bytes:number;sha256:string;contentSha256:string}[];missingTokens:Record<string,number>};
+export type DemographicTable={id:number;compactColumns?:boolean;dataFolder?:string;partitionDimension?:string;publisher?:string;label:string;title:string;family:string;unit:string;unitsByConditions?:{when:Record<string,string>;unit:string}[];sourceTables?:{id:number;url:string;year?:number}[];unitsByCategory?:{dimension:string;values:Record<string,string>};note:string;sourceUrl:string;downloadUrl:string;license:string;rows:number;dimensions:{name:string;values:string[]}[];periods:{id:string;label:string}[];territories:DemographicArea[];shards:{id:string;file:string;rows:number;bytes:number;sha256:string;contentSha256:string}[];missingTokens:Record<string,number>};
 export type DemographicIndex={revision:string;tables:DemographicTable[];inventoryTables:number;operations:number};
 export type DemographicQuery={period:number;dims:number[];level:string;territory:number};
 export type Cube={rows:(number|string|null)[][]};
@@ -38,21 +38,31 @@ export function queryCube(table:DemographicTable,cube:Cube,q:DemographicQuery):D
   return {values,domain,series,pyramid:[...pyramid.values()].sort((a,b)=>(Number(a.age.match(/\d+/)?.[0])||0)-(Number(b.age.match(/\d+/)?.[0])||0))};
 }
 export function periodOrder(table:DemographicTable){return table.periods.map((_,i)=>i).sort((a,b)=>table.periods[a].id.localeCompare(table.periods[b].id));}
-export function periodTimestamp(id:string){const m=id.match(/^(\d{4})(?:-(\d{2})-(\d{2})|M(\d{2})|T([1-4]))?$/);if(!m)throw new Error('Periodo desconocido');return Date.UTC(Number(m[1]),m[2]?Number(m[2])-1:m[4]?Number(m[4])-1:m[5]?(Number(m[5])-1)*3:0,Number(m[3]||1));}
+export function periodTimestamp(id:string){
+  const week=id.match(/^(\d{4})SM(\d{2})$/);
+  if(week){
+    const januaryFourth=new Date(Date.UTC(Number(week[1]),0,4));
+    const daysToMonday=(januaryFourth.getUTCDay()+6)%7;
+    return Date.UTC(Number(week[1]),0,4-daysToMonday+(Number(week[2])-1)*7);
+  }
+  const m=id.match(/^(\d{4})(?:-(\d{2})-(\d{2})|M(\d{2})|T([1-4]))?$/);
+  if(!m)throw new Error('Periodo desconocido');
+  return Date.UTC(Number(m[1]),m[2]?Number(m[2])-1:m[4]?Number(m[4])-1:m[5]?(Number(m[5])-1)*3:0,Number(m[3]||1));
+}
 export function relativeChange(value:number|null,baseline:number|undefined){return value!==null&&baseline!==undefined&&baseline>0?(value/baseline-1)*100:null;}
 export function csvCell(value:unknown){return '"'+String(value??'').replace(/"/g,'""')+'"';}
 export function seriesCsv(table:DemographicTable,q:DemographicQuery,series:DemographicResult['series']){
   const a=table.territories[q.territory];
-  const isSepe=table.publisher==='SEPE';
-  const heading=[isSepe?'año_edición':'tabla_ine','territorio','codigo','nivel','periodo',
+  const officialEdition=table.publisher&&table.publisher!=='INE';
+  const heading=[officialEdition?'año_edición':'tabla_ine','territorio','codigo','nivel','periodo',
     ...table.dimensions.map(d=>d.name),'valor','estado','unidad','fuente'];
   const units=unitFor(table,q.dims);
   const categories=table.dimensions.map((d,i)=>d.values[q.dims[i]]);
   const rows=series.map(r=>{
     const edition=table.sourceTables?.find(source=>source.id===r.sourceTableId);
-    const id=isSepe?edition?.year:r.sourceTableId||table.id;
+    const id=officialEdition?edition?.year:r.sourceTableId||table.id;
     let url=edition?.url||table.sourceUrl;
-    if(!isSepe&&r.sourceTableId&&!edition) url='https://servicios.ine.es/wstempus/js/ES/DATOS_TABLA/'+r.sourceTableId+'?tip=AM';
+    if(!officialEdition&&r.sourceTableId&&!edition) url='https://servicios.ine.es/wstempus/js/ES/DATOS_TABLA/'+r.sourceTableId+'?tip=AM';
     return [id,a.name,a.code,a.level,table.periods[r.period].label,...categories,r.value,r.status,units,url];
   });
   return '\uFEFF'+[heading,...rows].map(r=>r.map(csvCell).join(';')).join('\r\n');

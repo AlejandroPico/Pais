@@ -65,3 +65,23 @@ test('SEPE downloads preserve monthly values, suppressions and per-edition prove
     if(table.id!==900003) assert.match(exported,/segundo_semestre_2013_xls\.xls/);
   }
 });
+
+test('TGSS keeps all monthly editions, autonomos and protected totals', () => {
+  const base = new URL('../datos/trabajo/seguridad-social/', import.meta.url);
+  const {tables:[table]} = JSON.parse(readFileSync(new URL('index.json',base),'utf8'));
+  assert.equal(table.periods.length,285);
+  assert.equal(table.periods[0].id,'2003M01');
+  assert.equal(table.periods.at(-1).id,'2026M09');
+  assert.ok(table.periods.some(p=>p.id==='2018M03'));
+  assert.equal(table.rows,16372832);
+  const territory=table.territories.findIndex(a=>a.id==='municipal:01001');
+  const period=table.periods.length-1;
+  const cube=JSON.parse(gunzipSync(readFileSync(new URL('910001-01.json.gz',base))));
+  const query={level:'municipal',territory,period,dims:[0]};
+  const total=queryCube(table,cube,query).series.find(row=>row.period===period);
+  assert.equal(total.value,null);
+  assert.equal(total.status,'>=768');
+  const breakdown=queryCube(table,cube,{...query,dims:[5]}).series;
+  assert.equal(breakdown.find(row=>row.period===period).value,194);
+  assert.match(seriesCsv(table,{...query,dims:[5]},breakdown),/seg-social\.es.*Muni092026/);
+});

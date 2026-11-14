@@ -10,9 +10,11 @@ export default defineConfig({
     name: 'atlas-data',
     apply: 'build',
     writeBundle({dir}) {
-      cpSync(resolve('datos'), resolve(dir!, 'datos'), {
+      const sourceRoot = resolve('datos');
+      const offlineIndexes = new Set(['poblacion', 'renta'].map(topic => resolve(sourceRoot, topic, 'ine', 'index.json')));
+      cpSync(sourceRoot, resolve(dir!, 'datos'), {
         recursive: true,
-        filter: source => !basename(source).startsWith('.'),
+        filter: source => !basename(source).startsWith('.') && !offlineIndexes.has(source),
       });
     },
   }],
