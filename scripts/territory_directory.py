@@ -48,6 +48,13 @@ EXPLICIT = [
     ('F006', 'España', 'Modelo digital de pendientes', 'https://wms-pendientes.idee.es/pendientes', 'relieve'),
 ]
 
+# These services publish one cartographic product per named layer. Individual
+# titles often contain only a date, the name of a flight or the spectral bands.
+IMAGE_ARCHIVES = {
+    'https://wms-fototeca.idee.es/fototeca',
+    'https://wms-satelites-historicos.idee.es/satelites-historicos',
+}
+
 
 def normalized(value):
     return unicodedata.normalize('NFKD', value.casefold()).encode('ascii', 'ignore').decode()
@@ -150,7 +157,7 @@ def mercator(x, y):
     return 6378137*math.radians(x), 6378137*math.asinh(math.tan(math.radians(y)))
 
 
-def verify(url, layer, box, version, arcgis=False):
+def verify(url, layer, box, version, arcgis=False, crs='EPSG:3857'):
     box = [max(-19,box[0]),max(27,box[1]),min(5,box[2]),min(44,box[3])]
     if box[0]>=box[2] or box[1]>=box[3]:
         return 'Extensión fuera de España'
@@ -158,7 +165,7 @@ def verify(url, layer, box, version, arcgis=False):
     x2,y2 = mercator(box[2], box[3])
     test = endpoint(url, SERVICE='WMS', REQUEST='GetMap', VERSION=version, LAYERS=layer, STYLES='',
                     FORMAT='image/png', TRANSPARENT='TRUE', WIDTH=64, HEIGHT=64,
-                    **{('CRS' if version=='1.3.0' else 'SRS'): 'EPSG:3857'},
+                    **{('CRS' if version=='1.3.0' else 'SRS'): crs},
                     BBOX=','.join(map(str,(x1,y1,x2,y2))))
     if arcgis:
         test = endpoint(url, f='image', format='png32', transparent='true', bboxSR=3857, imageSR=3857,
@@ -173,7 +180,8 @@ def verify(url, layer, box, version, arcgis=False):
 
 def probe(url, layer, version, arcgis=False):
     try:
-        return verify(url, layer['name'], layer['bounds'], version, arcgis)
+        box = [-.55,39.37,-.33,39.5] if layer['name'].startswith('DANA.') else layer['bounds']
+        return verify(url, layer['name'], box, version, arcgis, layer.get('requestCrs','EPSG:3857'))
     except Exception as error:
         return str(error)
 
@@ -236,12 +244,17 @@ def main():
     for service in results:
         for layer in service['layers']:
             layer['group'] = family(layer['title'])
-            if not layer['group'] and len(service['layers']) <= 12:
+            if not layer['group'] and (len(service['layers']) <= 12 or service['url'] in IMAGE_ARCHIVES):
                 layer['group'] = service['group']
-            if layer['group'] and not layer['container'] and 'EPSG:3857' in layer['crs'] and layer['bounds'] and service.get('version'):
-                if service['status']=='verificado' or service.get('error') in {'GetMap no devuelve PNG','The read operation timed out'}:
-                    if args.refresh or 'mapError' not in layer or layer['mapError'] is not None:
-                        jobs.append((service,layer))
+            if layer['group'] and not layer['container'] and layer['bounds'] and service.get('version'):
+                crs = next((option for option in ('EPSG:3857','EPSG:3785','EPSG:102113') if option in layer['crs']), None)
+                if not crs:
+                    continue
+                if crs != 'EPSG:3857':
+                    layer['requestCrs'] = crs
+                known = layer.get('mapError', service.get('error'))
+                if args.refresh or ('mapError' not in layer or layer['mapError'] is not None) and known != 'GetMap no permite la lectura desde el visor público':
+                    jobs.append((service,layer))
     arcgis_jobs = []
     for service in results:
         parts=urlsplit(service['url'])
@@ -252,7 +265,8 @@ def main():
             if layer['group'] and not layer['container'] and layer['bounds'] and layer['name'].isdigit():
                 arcgis_jobs.append((image_url,layer))
     print('Capas candidatas:',len(jobs)+len(arcgis_jobs),flush=True)
-    with ThreadPoolExecutor(max_workers=24) as pool:
+    # Avoid flooding the image servers with expensive national overview requests.
+    with ThreadPoolExecutor(max_workers=8) as pool:
         errors = pool.map(lambda pair:probe(pair[0]['url'],pair[1],pair[0]['version']), jobs)
         for (service,layer),error in zip(jobs,errors):
             layer['mapError'] = error
@@ -260,7 +274,7 @@ def main():
         for (url,layer),error in zip(arcgis_jobs,errors):
             if not error:
                 layer['tileEndpoint']=url
-            if not error or 'tileEndpoint' not in layer:
+            if not error or 'tileEndpoint' not in layer and layer.get('mapError', True) is not None:
                 layer['mapError']=error
     print('Capas verificadas:',sum('mapError' in layer and layer['mapError'] is None for service in results for layer in service['layers']),flush=True)
     provenance={row['url']:row for row in old.get('provenance',[])}

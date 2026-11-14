@@ -3,9 +3,9 @@ import localInventory from '../registry/local-territory.json' with {type:'json'}
 import cnigHistory from '../registry/cnig-history.json' with {type:'json'};
 import ignEditions from '../registry/ign-territory-editions.json' with {type:'json'};
 
-export type WmsProvider={id:string;url:string;layers:string;styles?:string;tileEndpoint?:string;version?:'1.1.1'|'1.3.0';sourceId:string;credit:string;bounds:[number,number,number,number];queryable?:boolean;infoFormat?:string};
+export type WmsProvider={id:string;url:string;layers:string;styles?:string;tileEndpoint?:string;version?:'1.1.1'|'1.3.0';requestCrs?:string;sourceId:string;credit:string;bounds:[number,number,number,number];queryable?:boolean;infoFormat?:string};
 type LocalProduct={id:string;title:string;sourceId:string;url:string;download:string;count:number;file:string;period:string;
-  group?:string;center?:number[];credit?:string;geometry?:string;coverage?:string;layer?:string};
+  group?:string;center?:number[];credit?:string;geometry?:string;coverage?:string;layer?:string;minzoom?:number;missingCount?:number;missingFile?:string};
 export type TerritoryLayer={id:string;name:string;group:string;minzoom:number;note:string;providers?:WmsProvider[];local?:LocalProduct};
 export function localCredit(product:LocalProduct){
   if(product.credit)return product.credit;
@@ -50,10 +50,10 @@ const localProducts:LocalProduct[]=[...localInventory.products,...sectionArchive
 export const territoryLayers:TerritoryLayer[]=[
   ...localProducts.map(product=>({
     id:product.id,name:product.title,group:product.group||(product.sourceId==='F005'?'Cartografía por fecha':product.sourceId==='F170'?'Madrid':'Barcelona'),
-    note:product.count.toLocaleString('es-ES')+(product.geometry==='line'?' trazados oficiales · ':' recintos oficiales · ')+product.period,
-    minzoom:product.layer
+    note:product.count.toLocaleString('es-ES')+(product.geometry==='point'?' portales oficiales · ':product.geometry==='line'?' trazados oficiales · ':' recintos oficiales · ')+product.period,
+    minzoom:product.minzoom??(product.layer
       ?product.layer.includes('autonomicas')?4:product.layer.includes('provinciales')?5:product.layer.includes('_histo_')?8:7
-      :product.sourceId==='F005'||product.id.endsWith('-secciones')?10:8,local:product,
+      :product.sourceId==='F005'||product.id.endsWith('-secciones')?10:8),local:product,
   })),
   {id:'country',name:'Costa y contorno de España',group:'Divisiones territoriales',minzoom:0,note:'Contorno de las unidades IGN. No delimita espacios marítimos.'},
   {id:'municipal',name:'Municipios',group:'Divisiones territoriales',minzoom:7,note:'Teselas vectoriales IGN; códigos contrastados con la relación INE de 2026.'},
@@ -113,7 +113,7 @@ export function wmsRequest(provider:WmsProvider,options:Record<string,string>){
   const version=provider.version||'1.3.0';
   const url=new URL(provider.url);
   const params={SERVICE:'WMS',VERSION:version,LAYERS:provider.layers,STYLES:provider.styles||'',
-    [version==='1.3.0'?'CRS':'SRS']:'EPSG:3857',...options};
+    [version==='1.3.0'?'CRS':'SRS']:provider.requestCrs||'EPSG:3857',...options};
   for(const [key,value] of Object.entries(params))url.searchParams.set(key,value);
   return url.href;
 }

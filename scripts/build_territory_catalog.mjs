@@ -44,6 +44,7 @@ for(const layer of territoryLayers){
     ...(layer.local?{dataFile:'territory/'+layer.local.file,links:{'Descarga original':layer.local.download}}:layer.id==='comarcas'?{dataFile:'territory/comarcas.geojson'}:{}),
     fields:{'Detalle visible':'Desde zoom '+layer.minzoom,'Fecha de revisión':revision,
       ...(layer.local?.layer?{'Tabla GeoPackage':layer.local.layer,'Registros':String(layer.local.count)}:{}),
+      ...(layer.local?.missingCount?{'Registros sin coordenadas':String(layer.local.missingCount)}:{}),
       ...(layer.providers?{'Proveedores':layer.providers.map(p=>p.credit).join('; ')}:{})}});
 }
 available.push({id:'territory:municipal-index',title:'Relación de municipios y correspondencia insular',sourceId:'F005',categoryIds:['F01'],status:'integrado',url:'https://www.ine.es/daco/daco42/codmun/diccionario26.xlsx',coverage:'8.132 municipios de España; provincias, comunidades e islas vinculadas',period:'Relación municipal a 2026-01-01. El fichero insular conserva sus rótulos de origen.',license:'CC BY 4.0 · INE',mode:'local',dataFile:'territory/index.json',mapAction:'search:addresses',notes:'La correspondencia IGN preserva 81 áreas adicionales fuera del catálogo municipal. No se convierten en municipios.'});
@@ -115,12 +116,15 @@ for(const service of directory.services){
     const fields={'Servicio':service.title,'Familia':label,'Nombre de capa':layer.name,
       'Consulta de atributos':layer.tileEndpoint?'Ver servicio WMS original':layer.queryable?'Anunciada por el servicio':'Sin consulta anunciada'};
     const record={title,sourceId:service.sourceId,categoryIds:['F01'],url:sourceUrl,coverage:service.region,period,fields};
-    if(layer.mapError===null){
+    if(service.url==='https://wms-satelites-historicos.idee.es/satelites-historicos'&&layer.name==='fondo'){
+      inventory.push({...record,id:'f01-directory:'+id,status:'no_procede',license:null,
+        notes:'Fondo auxiliar del servicio de mosaicos. Las imágenes y huellas se ofrecen en sus capas propias.'});
+    }else if(layer.mapError===null){
       const infoFormat=['application/json','application/geo+json','text/html'].find(format=>service.infoFormats.includes(format));
-      const minzoom=layer.name==='CAL_PORTALES'?15:layer.name==='CAL_CALLES'?11:layer.group==='catastro'?13:layer.group==='divisiones'?7:6;
+      const minzoom=layer.name==='CAL_PORTALES'?15:layer.name==='CAL_CALLES'?11:layer.name.startsWith('DANA.')?9:layer.group==='catastro'?13:layer.group==='divisiones'?7:6;
       officialLayers.push({id,name:title,group:layer.group,minzoom,...(periods.length?{periods,defaultPeriod:time.default}:{}),provider:{
-        id:service.id,url:service.url,layers:layer.name,version:service.version,tileEndpoint:layer.tileEndpoint,bounds:layer.bounds,sourceId:service.sourceId,
-        credit:service.region+' · '+service.title,queryable:Boolean(!layer.tileEndpoint&&layer.queryable&&infoFormat),infoFormat,
+        id:service.id,url:service.url,layers:layer.name,version:service.version,tileEndpoint:layer.tileEndpoint,requestCrs:layer.requestCrs,bounds:layer.bounds,sourceId:service.sourceId,
+        credit:service.url.endsWith('/WMS_KARTOGRAFIA')?'Eusko Jaurlaritza / Gobierno Vasco':service.region+' · '+service.title,queryable:Boolean(!layer.tileEndpoint&&layer.queryable&&infoFormat),infoFormat,
       }});
       available.push({...record,id:productId,status:'integrado',mapAction,mode:'remote',license:'Condiciones del organismo publicador',
         notes:label+' · imagen oficial. Disponible a partir de zoom '+minzoom+'.'});

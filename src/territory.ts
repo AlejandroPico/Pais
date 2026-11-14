@@ -75,6 +75,8 @@ export class TerritoryController{
     this.officialActive.set(id,layer);
     this.options.active.add(id);
     for(const map of this.maps)this.raster(map,id,[layer.provider],layer.minzoom,this.officialTime(layer),'atlas-opaque-sea');
+    if(layer.provider.layers.startsWith('DANA.')&&!this.restoredOfficial.has(id))
+      this.maps[0]?.easeTo({center:[-.44,39.44],zoom:Math.max(layer.minzoom+.2,this.maps[0].getZoom()),duration:450});
     this.options.onChange();
   }
   private localCollection(def:typeof territoryLayers[number]){
@@ -118,6 +120,11 @@ export class TerritoryController{
         const control=document.querySelector<HTMLInputElement>(`[data-territory-layer="${def.id}"]`);
         if(control)control.checked=false;
       });
+      if(product.geometry==='point'){
+        this.add(map,def.id,{id:source+'-point',type:'circle',source,minzoom:def.minzoom,
+          paint:{'circle-radius':3,'circle-color':color,'circle-stroke-color':'#173548','circle-stroke-width':.7}},'atlas-opaque-sea');
+        continue;
+      }
       if(product.geometry!=='line')this.add(map,def.id,{id:source+'-fill',type:'fill',source,minzoom:def.minzoom,
         paint:{'fill-color':color,'fill-opacity':.13}},'atlas-opaque-sea');
       this.add(map,def.id,{id:source+'-line',type:'line',source,minzoom:def.minzoom,
@@ -246,6 +253,7 @@ export class TerritoryController{
     return `<details class="submenu layer-option"><summary><span class="submenu-label">${esc(d.name)}</span><span class="layer-indicator" data-layer-indicator="${d.id}" hidden aria-label="Activa"></span><span aria-hidden="true">›</span></summary>
       <label class="check-row"><input type="checkbox" data-territory-layer="${d.id}" ${this.options.active.has(d.id)?'checked':''}>Mostrar capa</label>
       <p class="data-note">${esc(d.note)}</p>${this.zoomControl(d.id,d.minzoom)}
+      ${d.local?.missingFile?`<a class="text-button" href="${esc(dataRoot+d.local.missingFile)}" download>Descargar ${d.local.missingCount} registros sin coordenadas</a>`:''}
       ${appearanceFields(d.id,color,tint ? .85 : d.id==='hillshade' ? .45 : 1,tint)}${d.id==='sections'?`<label class="field-label">Edición del seccionado<select id="section-edition">${sectionEditions.map(e=>`<option value="${e.id}" ${e.id===this.sectionEdition?'selected':''}>${e.name}</option>`).join('')}</select></label><a data-section-vector href="${esc(sectionVectorUrl(this.sectionsProvider().layers))}" target="_blank" rel="noopener">Abrir GeoJSON de esta edición ↗</a>`:''}${d.id==='historical-orthophoto'?`<label class="field-label">Vuelo o edición<select id="orthophoto-edition">${orthophotoEditions.map(e=>`<option value="${esc(e.id)}" ${e.id===this.orthophotoEdition?'selected':''}>${esc(e.name)}</option>`).join('')}</select></label>`:''}${d.id==='canary-cartography'?`<label class="field-label">Edición<select id="canary-edition">${canaryEditions.map(e=>`<option value="${esc(e.id)}" ${e.id===this.canaryEdition?'selected':''}>${esc(e.name)}</option>`).join('')}</select></label>`:''}${d.id==='historical-limits'?`<label class="field-label">Fecha de los límites<input id="boundary-date" type="date" min="2009-07-05" max="2026-07-28" value="${this.boundaryDate}"></label>`:''}</details>`;
   }
   panel(){
@@ -386,7 +394,7 @@ export class TerritoryController{
     const hit=features.find(f=>f.layer.id.startsWith('f01-municipal-hit'))||features.find(f=>f.layer.id==='f01-comarcas-hit')||features.find(f=>!f.layer.id.includes('country'))||features[0];
     const localHit=features.find(feature=>feature.layer.id.startsWith('f01-local-'));
     if(localHit){
-      const def=territoryLayers.find(layer=>'f01-local-'+layer.id===localHit.layer.id.replace(/-(fill|line)$/,''))!;
+      const def=territoryLayers.find(layer=>'f01-local-'+layer.id===localHit.layer.id.replace(/-(fill|line|point)$/,''))!;
       try{
         const all=await this.localCollection(def);
         const props=localHit.properties;

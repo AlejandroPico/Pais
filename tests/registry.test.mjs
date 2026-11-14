@@ -44,10 +44,16 @@ test('available products link to real map actions and preserved observations; di
   for(const file of ['registry/demography-products.json','registry/welfare-products.json','registry/labor-products.json'])for(const p of read(file).available)actions.add(p.mapAction);
   assert.equal(products.available.length,expected);
   for(const p of products.available){assert.equal(p.status,'integrado');assert.ok(actions.has(p.mapAction));assert.ok(p.license);if(p.dataFile)assert.ok(fs.existsSync(new URL('public/data/'+p.dataFile,root)));}
-  for(const p of [...products.ioe,...products.national,...products.ine])if(!p.review){assert.equal(p.status,'por_revisar');assert.equal(p.categoryIds.length,0);assert.equal(p.license,null);}
+  for(const p of [...products.ioe,...products.national,...products.ine])if(!p.review){assert.equal(p.status,'por_revisar');assert.equal(p.categoryIds.length,0);}
   assert.equal(products.ioe.find(p=>p.id==='ioe:01005').fields['Nivel de desagregación'],'Provincial');
   assert.ok(products.ioe.find(p=>p.id==='ioe:01005').responsible.includes('Agricultura'));
-  assert.ok(products.ine.find(p=>p.id==='ine:2852').operationIds.length>0);
+  const linked=products.ine.find(p=>p.id==='ine:2852');
+  assert.ok(linked.operationIds.length>0);
+  assert.equal(linked.mapAction,'demography:2852');
+  assert.equal(linked.status,'integrado');
+  const nationalPark=products.national.find(p=>p.id.endsWith('/l01281317-parques-y-jardines'));
+  assert.ok(nationalPark.suggestedCategoryIds.includes('F15'));
+  assert.equal(nationalPark.status,'por_revisar');
 });
 
 test('catalog search combines accents, multiple terms, source, state and explicit or candidate topics',()=>{

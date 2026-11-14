@@ -81,21 +81,26 @@ test('additional official layers preserve exact verified map endpoints',()=>{
     if(provider.tileEndpoint)assert.equal(tile.searchParams.get('layers'),'show:'+layer.name);
     else{
       assert.equal(tile.searchParams.get('LAYERS'),layer.name);
-      assert.equal(tile.searchParams.get(provider.version==='1.1.1'?'SRS':'CRS'),'EPSG:3857');
+      assert.equal(tile.searchParams.get(provider.version==='1.1.1'?'SRS':'CRS'),layer.requestCrs||'EPSG:3857');
     }
   }
 });
 
 test('municipal layers and local census archives preserve all official polygons',()=>{
-  for(const {file,count,id,sha256} of [...read('registry/local-territory.json').products,...read('registry/section-archives.json').products]){
+  for(const {file,count,id,sha256,geometry,missingFile,missingCount} of [...read('registry/local-territory.json').products,...read('registry/section-archives.json').products]){
     const raw=fs.readFileSync(new URL('../public/data/territory/'+file,import.meta.url));
     if(sha256)assert.equal(createHash('sha256').update(raw).digest('hex'),sha256,id);
     const {features}=JSON.parse(file.endsWith('.gz')?gunzipSync(raw):raw);
     assert.equal(features.length,count,id);
     assert.equal(new Set(features.map(feature=>feature.id)).size,count,id);
     for(const feature of features){
-      assert.ok(['Polygon','MultiPolygon'].includes(feature.geometry.type),id);
+      assert.ok((geometry==='point'?['Point']:['Polygon','MultiPolygon']).includes(feature.geometry.type),id);
       assert.ok(feature.properties.atlasName,id);
+    }
+    if(missingFile){
+      const missing=read('public/data/territory/'+missingFile);
+      assert.equal(missing.length,missingCount);
+      assert.ok(missing.every(row=>!row.LAT_ETRS89||!row.LON_ETRS89||Number(row.LAT_ETRS89)===0));
     }
   }
   const section=sectionEditions.find(edition=>edition.id==='2025');

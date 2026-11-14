@@ -48,7 +48,7 @@ export async function mountCatalog(root:HTMLElement,{category,inventory,signal,a
       <a href="https://github.com/AlejandroPico/Pais/blob/main/docs/F00.md" target="_blank" rel="noopener">Metodología ↗</a>
     </footer>`;
   const $=<T extends HTMLElement=HTMLElement>(selector:string)=>root.querySelector<T>(selector)!;
-  const link=(url:string,label:string)=>`<a href="${esc(safeUrl(url,'https://datos.gob.es/'))}" target="_blank" rel="noopener">${label} ↗</a>`;
+  const link=(url:string,label:string)=>`<a href="${esc(safeUrl(url,'https://datos.gob.es/'))}" target="_blank" rel="noopener">${esc(label)} ↗</a>`;
   root.querySelectorAll<HTMLButtonElement>('[data-catalog-tab]').forEach(button=>{
     button.onclick=()=>{tab=button.dataset.catalogTab!;render();};
   });
@@ -247,7 +247,7 @@ export async function mountCatalog(root:HTMLElement,{category,inventory,signal,a
       ${product.review?.nextAction?`<p>${esc(product.review.nextAction)}</p>`:''}
       <p>${link(product.url,'Fuente original')}</p>
       ${Object.entries(product.links||{}).filter(([,url])=>url.startsWith('https://')).map(([key,url])=>
-        `<p>${link(url,({enlaceDatos:'Datos',enlaceCalendario:'Calendario',enlaceMetodologia:'Metodología',enlaceMetodEstand2:'Informe metodológico'} as Record<string,string>)[key]||'Documentación original')}</p>`).join('')}
+        `<p>${link(url,({enlaceDatos:'Datos',enlaceCalendario:'Calendario',enlaceMetodologia:'Metodología',enlaceMetodEstand2:'Informe metodológico'} as Record<string,string>)[key]||key)}</p>`).join('')}
       ${product.mapAction?'<button id="catalog-open-map">Ver en el mapa</button>':''}`);
     if(product.mapAction)$('#catalog-open-map').onclick=()=>activate(product.mapAction!);
   }

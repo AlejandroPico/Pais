@@ -1,6 +1,8 @@
 """Preserve official municipal polygons with their native codes and attributes."""
 import argparse
 from collections import Counter
+import csv
+import gzip
 import io
 import json
 import zipfile
@@ -11,6 +13,41 @@ MADRID = 'https://datos.madrid.es/dataset/900012-0-limites-administrativos-mapas
 BARCELONA = 'https://opendata-ajuntament.barcelona.cat/data/dataset/20170706-districtes-barris'
 MADRID_DATA = 'https://datos.madrid.es/dataset/900012-0-limites-administrativos-mapas/resource/'
 BARCELONA_DATA = 'https://opendata-ajuntament.barcelona.cat/data/dataset/808daafa-d9ce-48c0-925a-fa5afdb1ed41/resource/cd800462-f326-429f-a67a-c69b7fc4c50a/download'
+NORA = 'https://opendata.euskadi.eus/callejero-comunidad-autonoma-del-pais-vasco/webopd00-dataset/es/'
+NORA_ARABA = 'https://www.eustat.eus/comun/ExtractorBlob.ashx?id=01_Atariak_Portales.csv'
+
+
+def nora_araba(refresh=False):
+    raw=territory.fetch('nora-araba-csv',NORA_ARABA,refresh)
+    rows=csv.DictReader(io.StringIO(raw.decode('utf-8-sig')),delimiter=';')
+    features=[]
+    missing=[]
+    seen=set()
+    for row in rows:
+        key=row['Atari-gakoa/Clave_Portal']
+        assert key and key not in seen and row['LH Kodea/Código TH']=='01', key
+        seen.add(key)
+        lng,lat=row['LON_ETRS89'],row['LAT_ETRS89']
+        if not lng or not lat or float(lat)==0:
+            missing.append(row)
+            continue
+        x,y=float(lng),float(lat)
+        assert -3.4<x<-2.2 and 42.3<y<43.3,(x,y)
+        row.update(atlasName=row['Posta-helbidea/Dirección postal'].strip(),atlasCode=key)
+        features.append(dict(type='Feature',id=key,properties=row,geometry=dict(type='Point',coordinates=[x,y])))
+    assert len(features)>50000 and len(seen)==len(features)+len(missing)
+    file='local/araba-portales.geojson.gz'
+    data=json.dumps(dict(type='FeatureCollection',features=features),ensure_ascii=False,separators=(',',':')).encode()
+    path=territory.OUT/file
+    path.parent.mkdir(parents=True,exist_ok=True)
+    tmp=path.with_suffix('.tmp')
+    tmp.write_bytes(gzip.compress(data,mtime=0))
+    tmp.replace(path)
+    territory.save(territory.OUT/'local/araba-portales-sin-coordenadas.json',missing)
+    return dict(id='araba-portales',title='Portales públicos NORA · Álava',sourceId='F166',url=NORA,download=NORA_ARABA,
+                count=len(features),file=file,period='Captura del 14/11/2026',group='Poblaciones y direcciones',
+                coverage='Álava · 51 municipios',center=[-2.67,42.85],credit='Eusko Jaurlaritza / Gobierno Vasco',
+                geometry='point',minzoom=13,missingCount=len(missing),missingFile='local/araba-portales-sin-coordenadas.json')
 
 def shapefile_features(raw):
     import sys
@@ -162,8 +199,9 @@ def main(refresh=False):
          fetch_collection('asturias-parroquias',url),'objectid','topo_ofi',count,'Captura del 14/11/2026',
          group='Asturias',center=[-5.85,43.33],credit='Administración del Principado de Asturias · CC BY 4.0')
 
+    products.append(nora_araba(refresh))
     territory.save(territory.ROOT/'registry/local-territory.json',dict(products=products,provenance=territory.PROVENANCE))
-    print('Polígonos municipales:',sum(p['count'] for p in products),flush=True)
+    print('Entidades cartográficas locales:',sum(p['count'] for p in products),flush=True)
 
 
 if __name__=='__main__':

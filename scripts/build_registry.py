@@ -10,6 +10,7 @@ import io
 import json
 import os
 from pathlib import Path
+from catalog_relationships import enrich_national, link_ine
 
 ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT / 'public/data/registry'
@@ -110,6 +111,10 @@ def build():
                                              sourceId='publisher:' + r['publicador_id'],
                                              url=r['url_catalogo'], categoryIds=[], suggestedCategoryIds=[],
                                              status='por_revisar', license=None))
+    metadata_path = RESEARCH / 'datosgob-metadata.json.gz'
+    with gzip.open(metadata_path, 'rt', encoding='utf-8') as source:
+        federated_metadata = json.load(source)
+    enrich_national(products['national'], federated_metadata['records'])
     # Editorial decisions live outside generated outputs and survive regeneration.
     reviews = read(ROOT / 'registry/reviews.json')['reviews']
     implemented = {p['id']: p for p in products['available']}
@@ -141,6 +146,7 @@ def build():
             if key in review:
                 product[key] = review[key]
         product['review'] = review
+    link_ine(products, ine['operations'])
     source_ids = {s['id'] for s in sources}
     valid_categories = {c['id'] for c in categories}
     assert len(source_ids) == len(sources), 'Duplicate source IDs'
@@ -163,7 +169,8 @@ def build():
         files[kind] = dict(file=filename, count=len(records), bytes=len(body), sha256=hashlib.sha256(body).hexdigest(), contentSha256=hashlib.sha256(content).hexdigest())
     input_paths = ['docs/planning/fasciculos.json', 'docs/research/fuentes-tematicas.json',
                    'docs/research/publicadores-catalogo-nacional.json', 'docs/research/operaciones-ioe-detalladas.json',
-                   'docs/research/datasets-catalogo-nacional.csv.gz', 'public/data/ine-catalog.json', 'registry/products.json', 'registry/reviews.json']
+                   'docs/research/datasets-catalogo-nacional.csv.gz', 'docs/research/datosgob-metadata.json.gz',
+                   'public/data/ine-catalog.json', 'registry/products.json', 'registry/reviews.json']
     if territory_path.exists():
         input_paths.extend(['registry/territory-products.json', 'registry/local-territory.json', 'registry/section-archives.json', 'registry/cnig-history.json', 'public/data/territory/manifest.json', 'public/data/territory/official-wms.json', 'public/data/territory/official-layers.json', 'public/data/territory/section-vectors.json', 'public/data/territory/index.json', 'public/data/territory/comarcas.geojson', 'public/data/territory/bierzo-boundaries.json', 'public/data/territory/municipal-changes.json', 'registry/ign-territory-editions.json', 'public/data/territory/country.geojson', 'public/data/territory/country-atlas.geojson', 'public/data/territory/sea-atlas.geojson', 'public/data/territory/islets-atlas.geojson'])
     if demography_path.exists():
@@ -173,7 +180,7 @@ def build():
     if labor_path.exists():
         input_paths.extend(['registry/labor-tables.json','registry/labor-products.json','public/data/labor/index.json','public/data/labor/inventory.json'])
     provenance = [dict(path=p, sha256=hashlib.sha256((ROOT / p).read_bytes()).hexdigest()) for p in input_paths]
-    revisions=[registered['revision']]
+    revisions=[registered['revision'], federated_metadata['revision']]
     for path in [territory_path,demography_path,welfare_path,labor_path]:
         if path.exists():revisions.append(read(path)['revision'])
     index = dict(schemaVersion=1, researchSnapshot='2026-11-05', revision=max(revisions),
