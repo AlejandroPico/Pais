@@ -1,8 +1,9 @@
-import type {Map as AtlasMap,MapMouseEvent,GeoJSONSource,LayerSpecification,FilterSpecification} from 'maplibre-gl';
+import type {Map as AtlasMap,MapMouseEvent,GeoJSONSource,LayerSpecification,FilterSpecification,RasterTileSource} from 'maplibre-gl';
 import type {Feature,FeatureCollection,Geometry,Position} from 'geojson';
 import {normalize} from './data';
-import {toAtlas,fromAtlas,projectFeature,projectCollection,displayRegion} from './atlas-coordinates';
-import {atlasTileUrl,addShiftedLayer,updateShiftedTiles} from './atlas-geography';
+import {toAtlas,fromAtlas,projectFeature,projectCollection,displayRegion,ATLAS_REGIONS} from './atlas-coordinates';
+import {atlasTileUrl,addShiftedLayer} from './atlas-geography';
+import {appearanceFields,layerAppearance,paintLayer,rememberRaster} from './layer-appearance';
 import {municipalCode,coordinatesExtent,validSpanishCoordinate} from './territory-data';
 import {territoryLayers,sectionEditions,sectionVectorUrl,orthophotoEditions,historicOrthophoto,canaryEditions,canaryCartography,wmsTile,wmsRequest,localCredit,type WmsProvider} from './territory-config';
 
@@ -49,7 +50,12 @@ export class TerritoryController{
     }).catch(error=>{this.officialPromise=undefined;throw error;});
   }
   async toggleOfficial(id:string, enabled:boolean){
-    if(enabled===this.officialActive.has(id))return;
+    if(enabled&&this.officialActive.has(id)){
+      this.options.active.add(id);
+      this.options.onChange();
+      return;
+    }
+    if(!enabled&&!this.officialActive.has(id))return;
     if(!enabled){
       for(const map of this.maps){
         for(const layer of this.mapLayers.get(id)||[]){
@@ -63,7 +69,6 @@ export class TerritoryController{
       this.mapLayers.delete(id);
       this.officialActive.delete(id);
       this.options.active.delete(id);
-      this.opacities.delete(id);
       this.options.onChange();
       return;
     }
@@ -123,7 +128,7 @@ export class TerritoryController{
     }
   }
   focusLayer(id:string){
-    const def=territoryLayers.find(layer=>layer.id===id&&layer.local);
+    const def=territoryLayers.find(layer=>layer.id===id);
     const product=def?.local,map=this.maps[0];
     if(!def||!product||!map||product.sourceId==='F005')return;
     if(product.layer){
@@ -136,6 +141,27 @@ export class TerritoryController{
       :product.sourceId==='F170'?[-3.7,40.43]:[2.17,41.40];
     map.easeTo({center,zoom:product.group==='Asturias'?9:Math.max(11,def.minzoom),duration:450});
   }
+  syncIndicators(root:HTMLElement){
+    root.querySelectorAll<HTMLElement>('[data-layer-indicator]').forEach(indicator=>{
+      indicator.hidden=!this.options.active.has(indicator.dataset.layerIndicator!);
+    });
+  }
+  applyAppearance(id:string){
+    for(const m of this.maps)for(const layer of this.mapLayers.get(id)||[])paintLayer(m,layer,layerAppearance(id));
+  }
+  private zoomControl(id:string,minzoom:number){
+    if(!minzoom)return '';
+    return `<div class="layer-scale" data-layer-scale="${minzoom}"><span>Visible desde zoom ${minzoom}</span>
+      <button type="button" class="text-button" data-layer-zoom="${minzoom}" data-layer-focus="${id}">Acercar al detalle</button></div>`;
+  }
+  zoomStatus(root:HTMLElement){
+    const zoom=this.maps[0]?.getZoom()??0;
+    root.querySelectorAll<HTMLElement>('[data-layer-scale]').forEach(scale=>{
+      const visible=zoom>=Number(scale.dataset.layerScale);
+      scale.querySelector('button')!.hidden=visible;
+      scale.classList.toggle('below-scale',!visible);
+    });
+  }
   restoreOfficial(){
     const ids=[...this.restoredOfficial];
     for(const id of ids)void this.toggleOfficial(id,true).then(()=>{
@@ -143,7 +169,6 @@ export class TerritoryController{
       this.options.onChange();
     }).catch(()=>{});
   }
-  private opacities=new Map<string,number>();
   constructor(private options:Options){
     const params=new URLSearchParams(location.hash.slice(1));
     if(sectionEditions.some(e=>e.id===params.get('sections')))this.sectionEdition=params.get('sections')!;
@@ -154,12 +179,18 @@ export class TerritoryController{
     const date=params.get('boundaries')||'';
     if(/^\d{4}-\d{2}-\d{2}$/.test(date)&&date>='2009-07-05'&&date<='2026-07-28')this.boundaryDate=date;
   }
-  urlState(){return {official:[...new Set([...this.officialActive.keys(),...this.restoredOfficial])].join(','),officialTime:[...this.officialPeriods].map(([id,period])=>id+':'+period).join(','),sections:this.sectionEdition,boundaries:this.boundaryDate,...(this.options.active.has('historical-orthophoto')?{orthophoto:this.orthophotoEdition}:{}),...(this.options.active.has('canary-cartography')?{canary:this.canaryEdition}:{})};}
+  urlState(){return {official:[...new Set([...[...this.officialActive.keys()].filter(id=>this.options.active.has(id)),...this.restoredOfficial])].join(','),officialTime:[...this.officialPeriods].map(([id,period])=>id+':'+period).join(','),sections:this.sectionEdition,boundaries:this.boundaryDate,...(this.options.active.has('historical-orthophoto')?{orthophoto:this.orthophotoEdition}:{}),...(this.options.active.has('canary-cartography')?{canary:this.canaryEdition}:{})};}
   private index():Promise<TerritoryIndex>{return this.indexPromise??=fetch(dataRoot+'index.json').then(r=>{if(!r.ok)throw new Error('No se pudo cargar el catálogo municipal');return r.json();}).catch(e=>{this.indexPromise=undefined;throw e;});}
   private comarcas():Promise<FeatureCollection>{return this.comarcaPromise??=fetch(dataRoot+'comarcas.geojson').then(r=>{if(!r.ok)throw new Error('No se pudo cargar la cartografía comarcal');return r.json();}).catch(e=>{this.comarcaPromise=undefined;throw e;});}
   private add(m:AtlasMap,id:string,layer:LayerSpecification,before?:string){
     m.addLayer(layer,before);
     const shifted=addShiftedLayer(m,layer,before);
+    const appearance=layerAppearance(id);
+    paintLayer(m,layer.id,appearance,layer);
+    for(const shiftedId of shifted){
+      const spec=m.getStyle().layers.find(item=>item.id===shiftedId)!;
+      paintLayer(m,shiftedId,appearance,spec);
+    }
     const ids=this.mapLayers.get(id)||[];if(!ids.includes(layer.id))ids.push(layer.id);for(const shiftedId of shifted)if(!ids.includes(shiftedId))ids.push(shiftedId);this.mapLayers.set(id,ids);
   }
   attach(m:AtlasMap){
@@ -167,7 +198,6 @@ export class TerritoryController{
     m.addSource('f01-admin',{type:'vector',tiles:['https://vt-unidades-administrativas.ign.es/1.0.0/uadministrativa/{z}/{x}/{y}.pbf'],maxzoom:17,attribution:'© IGN · Unidades administrativas · CC BY 4.0'});
     m.addSource('f01-country',{type:'geojson',data:dataRoot+'country-atlas.geojson'});
     m.addSource('f01-comarcas',{type:'geojson',data:dataRoot+'comarcas.geojson'});
-    m.addSource('f01-places',{type:'vector',tiles:['https://vt-poblaciones.ign.es/api.nuc,api.opob,api.sin_toponimo/{z}/{x}/{y}.pbf'],maxzoom:16,attribution:'© IGN · Poblaciones · CC BY 4.0'});
     m.addSource('f01-btn',{type:'vector',tiles:['https://vt-btn.idee.es/1.0.0/btn/tile/{z}/{y}/{x}.pbf'],maxzoom:16,attribution:'© IGN · Base Topográfica Nacional · CC BY 4.0'});
     m.addSource('f01-selection',{type:'geojson',data:{type:'FeatureCollection',features:[]}});
     const visibility=(id:string)=>this.options.active.has(id)?'visible' as const:'none' as const;
@@ -179,8 +209,13 @@ export class TerritoryController{
     this.add(m,'comarcas',{id:'f01-comarcas-line',type:'line',source:'f01-comarcas',minzoom:6,layout:{visibility:visibility('comarcas')},paint:{'line-color':'#f1bc77','line-width':1.5,'line-dasharray':[4,2]}});
     this.add(m,'comarcas',{id:'f01-comarcas-label',type:'symbol',source:'f01-comarcas',minzoom:7,layout:{visibility:visibility('comarcas'),'text-field':['get','name'],'text-font':['Noto Sans Regular'],'text-size':12},paint:{'text-color':'#ffdfb7','text-halo-color':'#483725','text-halo-width':1.2}});
     for(const [id,sourceLayer,minzoom,color] of [['nuclei','api.nuc',9,'#eec887'],['other-places','api.opob',10,'#c8d69e'],['unnamed-places','api.sin_toponimo',12,'#cccae2']] as const){
-      this.add(m,id,{id:'f01-'+id+'-fill',type:'fill',source:'f01-places','source-layer':sourceLayer,minzoom,layout:{visibility:visibility(id)},paint:{'fill-color':color,'fill-opacity':.25,'fill-outline-color':color}});
-      if(id!=='unnamed-places')this.add(m,id,{id:'f01-'+id+'-labels',type:'symbol',source:'f01-places','source-layer':sourceLayer,minzoom:Math.max(minzoom,11),layout:{visibility:visibility(id),'text-field':['get','nombre'],'text-font':['Noto Sans Regular'],'text-size':11},paint:{'text-color':color,'text-halo-color':'#243c2d','text-halo-width':1}});
+      const source='f01-place-'+id;
+      m.addSource(source,{type:'vector',tiles:[`https://vt-poblaciones.ign.es/${sourceLayer}/{z}/{x}/{y}.pbf`],
+        minzoom,maxzoom:18,attribution:'© IGN · Poblaciones · CC BY 4.0'});
+      this.add(m,id,{id:'f01-'+id+'-fill',type:'fill',source,'source-layer':sourceLayer,minzoom,layout:{visibility:visibility(id)},paint:{'fill-color':color,'fill-opacity':.25,'fill-outline-color':color}});
+      this.add(m,id,{id:'f01-'+id+'-line',type:'line',source,'source-layer':sourceLayer,minzoom,
+        layout:{visibility:visibility(id)},paint:{'line-color':color,'line-width':1.3}});
+      if(id!=='unnamed-places')this.add(m,id,{id:'f01-'+id+'-labels',type:'symbol',source,'source-layer':sourceLayer,minzoom:Math.max(minzoom,11),layout:{visibility:visibility(id),'text-field':['get','nombre'],'text-font':['Noto Sans Regular'],'text-size':11},paint:{'text-color':color,'text-halo-color':'#243c2d','text-halo-width':1}});
     }
     for(const sourceLayer of ['btn0507s_edific','btn0513s_ins_ind','btn0516s_edi_rel','btn0519s_molino','btn0534s_ref_vis'])this.add(m,'topographic-buildings',{id:'f01-building-'+sourceLayer,type:'fill',source:'f01-btn','source-layer':sourceLayer,minzoom:13,layout:{visibility:visibility('topographic-buildings')},paint:{'fill-color':'#d8c5af','fill-opacity':.6,'fill-outline-color':'#57453c'}});
     this.add(m,'contours',{id:'f01-contours',type:'line',source:'f01-btn','source-layer':'btn0201l_cur_niv',minzoom:11,layout:{visibility:visibility('contours')},paint:{'line-color':'#ebc18f','line-width':['match',['get','categ_0201'],'02 MAESTRA',1,.5],'line-opacity':.8}});
@@ -197,30 +232,48 @@ export class TerritoryController{
   private sectionsProvider():WmsProvider{return {id:'ine',url:'https://www.ine.es/geoserver/ows',layers:sectionEditions.find(e=>e.id===this.sectionEdition)!.layer,sourceId:'F005',credit:'Seccionado cedido por el Instituto Nacional de Estadística',bounds:[-18.5,27.5,4.7,44],queryable:true,infoFormat:'application/json'};}
   private historyProvider():WmsProvider{return {id:'ign-history',url:'https://www.ign.es/wms-inspire/unidades-administrativas',layers:'LimitesTime',styles:'Historicos',sourceId:'F006',credit:'© IGN · CC BY 4.0',bounds:[-18.5,27.5,4.7,44],queryable:true,infoFormat:'application/json'};}
   private raster(m:AtlasMap,id:string,providers:WmsProvider[],minzoom:number,extra:Record<string,string>={},before?:string){
-    for(const p of providers){const source=`f01-raster-${id}-${p.id}`;m.addSource(source,{type:'raster',tiles:[wmsTile(p,extra)],tileSize:256,bounds:p.bounds,attribution:p.credit});this.add(m,id,{id:source,type:'raster',source,minzoom,layout:{visibility:this.options.active.has(id)?'visible':'none'},paint:{'raster-opacity':this.opacities.get(id)??.85}},before);}
+    for(const p of providers){const source=`f01-raster-${id}-${p.id}`;m.addSource(source,{type:'raster',tiles:[wmsTile(p,extra)],tileSize:256,bounds:p.bounds,attribution:p.credit});this.add(m,id,{id:source,type:'raster',source,minzoom,layout:{visibility:this.options.active.has(id)?'visible':'none'},paint:{'raster-opacity':.85}},before);}
   }
   update(){for(const def of territoryLayers)if(def.local&&this.options.active.has(def.id))this.showLocal(def);for(const m of this.maps)for(const [id,ids] of this.mapLayers)for(const layer of ids)if(m.getLayer(layer))m.setLayoutProperty(layer,'visibility',this.options.active.has(id)?'visible':'none');}
   reset(){this.controller?.abort();this.selected=undefined;for(const m of this.maps)(m.getSource('f01-selection') as GeoJSONSource).setData({type:'FeatureCollection',features:[]});}
-  activeLabels(){return [...this.officialActive.values()].map(layer=>layer.name).concat(territoryLayers.filter(d=>this.options.active.has(d.id)).map(d=>d.id==='historical-orthophoto'?orthophotoEditions.find(e=>e.id===this.orthophotoEdition)!.name:d.id==='canary-cartography'?canaryEditions.find(e=>e.id===this.canaryEdition)!.name:d.id==='sections'?`Secciones · ${sectionEditions.find(e=>e.id===this.sectionEdition)!.name}`:d.id==='historical-limits'?`Límites · ${this.boundaryDate}`:d.name));}
+  activeLabels(){return [...this.officialActive.values()].filter(layer=>this.options.active.has(layer.id)).map(layer=>layer.name).concat(territoryLayers.filter(d=>this.options.active.has(d.id)).map(d=>d.id==='historical-orthophoto'?orthophotoEditions.find(e=>e.id===this.orthophotoEdition)!.name:d.id==='canary-cartography'?canaryEditions.find(e=>e.id===this.canaryEdition)!.name:d.id==='sections'?`Secciones · ${sectionEditions.find(e=>e.id===this.sectionEdition)!.name}`:d.id==='historical-limits'?`Límites · ${this.boundaryDate}`:d.name));}
+  private layerPanel(d:typeof territoryLayers[number]){
+    const tint=Boolean(d.providers||['sections','historical-limits'].includes(d.id));
+    const colors:Record<string,string>={country:'#e9f3ed',municipal:'#e1e7e1',comarcas:'#f1bc77',nuclei:'#eec887',
+      'other-places':'#c8d69e','unnamed-places':'#cccae2','topographic-buildings':'#d8c5af',contours:'#ebc18f',hillshade:'#000000'};
+    const color=colors[d.id]||(d.local?.layer&&d.local.period.startsWith('2024')?'#90ddff':'#ffd7a2');
+    return `<details class="submenu layer-option"><summary><span class="submenu-label">${esc(d.name)}</span><span class="layer-indicator" data-layer-indicator="${d.id}" hidden aria-label="Activa"></span><span aria-hidden="true">›</span></summary>
+      <label class="check-row"><input type="checkbox" data-territory-layer="${d.id}" ${this.options.active.has(d.id)?'checked':''}>Mostrar capa</label>
+      <p class="data-note">${esc(d.note)}</p>${this.zoomControl(d.id,d.minzoom)}
+      ${appearanceFields(d.id,color,tint ? .85 : d.id==='hillshade' ? .45 : 1,tint)}${d.id==='sections'?`<label class="field-label">Edición del seccionado<select id="section-edition">${sectionEditions.map(e=>`<option value="${e.id}" ${e.id===this.sectionEdition?'selected':''}>${e.name}</option>`).join('')}</select></label><a data-section-vector href="${esc(sectionVectorUrl(this.sectionsProvider().layers))}" target="_blank" rel="noopener">Abrir GeoJSON de esta edición ↗</a>`:''}${d.id==='historical-orthophoto'?`<label class="field-label">Vuelo o edición<select id="orthophoto-edition">${orthophotoEditions.map(e=>`<option value="${esc(e.id)}" ${e.id===this.orthophotoEdition?'selected':''}>${esc(e.name)}</option>`).join('')}</select></label>`:''}${d.id==='canary-cartography'?`<label class="field-label">Edición<select id="canary-edition">${canaryEditions.map(e=>`<option value="${esc(e.id)}" ${e.id===this.canaryEdition?'selected':''}>${esc(e.name)}</option>`).join('')}</select></label>`:''}${d.id==='historical-limits'?`<label class="field-label">Fecha de los límites<input id="boundary-date" type="date" min="2009-07-05" max="2026-07-28" value="${this.boundaryDate}"></label>`:''}</details>`;
+  }
   panel(){
-    return `<details id="official-active" class="submenu" ${this.officialActive.size?'open':''}><summary>Cartografía oficial adicional <span aria-hidden="true">›</span></summary><div id="official-active-list"></div><button class="catalog-category" data-open-cartography>Buscar capas y ediciones</button></details><details id="municipal-changes" class="submenu"><summary>Cambios de municipios y códigos <span aria-hidden="true">›</span></summary><div id="municipal-changes-panel"></div></details>`+[...new Set(territoryLayers.map(d=>d.group))].map(group=>`<details class="submenu" ${group==='Divisiones territoriales'?'open':''}><summary>${esc(group)} <span aria-hidden="true">›</span></summary>${territoryLayers.filter(d=>d.group===group).map(d=>`<div class="territory-option"><label class="check-row"><input type="checkbox" data-territory-layer="${d.id}" ${this.options.active.has(d.id)?'checked':''}><span>${esc(d.name)}</span></label><p class="data-note">${esc(d.note)}${d.minzoom>=7?' Visible desde zoom '+d.minzoom+'.':''}</p>${d.providers?`<label class="opacity-control">Opacidad<input data-territory-opacity="${d.id}" type="range" min="10" max="100" value="${(this.opacities.get(d.id)??.85)*100}" aria-label="Opacidad de ${esc(d.name)}"></label>`:''}${d.id==='sections'?`<label class="field-label">Edición del seccionado<select id="section-edition">${sectionEditions.map(e=>`<option value="${e.id}" ${e.id===this.sectionEdition?'selected':''}>${e.name}</option>`).join('')}</select></label><a data-section-vector href="${esc(sectionVectorUrl(this.sectionsProvider().layers))}" target="_blank" rel="noopener">Abrir GeoJSON de esta edición ↗</a>`:''}${d.id==='historical-orthophoto'?`<label class="field-label">Vuelo o edición<select id="orthophoto-edition">${orthophotoEditions.map(e=>`<option value="${esc(e.id)}" ${e.id===this.orthophotoEdition?'selected':''}>${esc(e.name)}</option>`).join('')}</select></label>`:''}${d.id==='canary-cartography'?`<label class="field-label">Edición<select id="canary-edition">${canaryEditions.map(e=>`<option value="${esc(e.id)}" ${e.id===this.canaryEdition?'selected':''}>${esc(e.name)}</option>`).join('')}</select></label>`:''}${d.id==='historical-limits'?`<label class="field-label">Fecha de los límites<input id="boundary-date" type="date" min="2009-07-05" max="2026-07-28" value="${this.boundaryDate}"></label>`:''}</div>`).join('')}</details>`).join('');
+    return `<details id="official-active" class="submenu"><summary>Cartografía oficial adicional <span aria-hidden="true">›</span></summary>
+      <div id="official-active-list"></div><button class="catalog-category" data-open-cartography>Buscar capas y ediciones</button></details>
+      <details id="municipal-changes" class="submenu"><summary>Cambios de municipios y códigos <span aria-hidden="true">›</span></summary><div id="municipal-changes-panel"></div></details>`
+      +[...new Set(territoryLayers.map(d=>d.group))].map(group=>`<details class="submenu">
+        <summary>${esc(group)} <span aria-hidden="true">›</span></summary>
+        ${territoryLayers.filter(d=>d.group===group).map(d=>this.layerPanel(d)).join('')}</details>`).join('');
   }
   bind(root:HTMLElement){
     const list=root.querySelector<HTMLElement>('#official-active-list');
     if(list){
-      list.innerHTML=[...this.officialActive.values()].map(layer=>`<label class="check-row"><input type="checkbox" checked data-official-remove="${esc(layer.id)}"><span>${esc(layer.name)}</span></label>${layer.periods?.length?`<label class="field-label">Edición<select data-official-period="${esc(layer.id)}">${layer.periods.map(period=>`<option ${period===this.officialTime(layer).TIME?'selected':''}>${esc(period)}</option>`).join('')}</select></label>`:''}<label class="opacity-control">Opacidad<input data-territory-opacity="${esc(layer.id)}" type="range" min="10" max="100" value="${(this.opacities.get(layer.id)??.85)*100}"></label>`).join('')||'<p class="data-note">Activa una capa desde el inventario cartográfico.</p>';
+      list.innerHTML=[...this.officialActive.values()].map(layer=>`<details class="submenu layer-option">
+        <summary><span class="submenu-label">${esc(layer.name)}</span><span aria-hidden="true">›</span></summary>
+        <label class="check-row"><input type="checkbox" ${this.options.active.has(layer.id)?'checked':''} data-official-toggle="${esc(layer.id)}">Mostrar capa</label>
+        ${layer.periods?.length?`<label class="field-label">Edición<select data-official-period="${esc(layer.id)}">${layer.periods.map(period=>`<option ${period===this.officialTime(layer).TIME?'selected':''}>${esc(period)}</option>`).join('')}</select></label>`:''}
+        ${this.zoomControl(layer.id,layer.minzoom)}${appearanceFields(layer.id,'#ffce75',.85,true)}</details>`).join('')
+        ||'<p class="data-note">Activa una capa desde el inventario cartográfico.</p>';
       list.querySelectorAll<HTMLSelectElement>('[data-official-period]').forEach(select=>select.onchange=()=>{
         const layer=this.officialActive.get(select.dataset.officialPeriod!);
         if(!layer?.periods?.includes(select.value))return;
         this.officialPeriods.set(layer.id,select.value);
         this.replaceTemporal(layer.id,layer.provider,this.officialTime(layer));
       });
-      list.querySelectorAll<HTMLInputElement>('[data-official-remove]').forEach(input=>input.onchange=()=>{
-        void this.toggleOfficial(input.dataset.officialRemove!,false);
-        list.querySelector(`[data-official-period="${input.dataset.officialRemove}"]`)?.closest('label')?.remove();
-        input.closest('label')?.nextElementSibling?.remove();
-        input.closest('label')?.remove();
-        if(!list.querySelector('input'))list.textContent='Activa una capa desde el inventario cartográfico.';
+      list.querySelectorAll<HTMLInputElement>('[data-official-toggle]').forEach(input=>input.onchange=()=>{
+        const id=input.dataset.officialToggle!;
+        input.checked?this.options.active.add(id):this.options.active.delete(id);
+        this.options.onChange();
       });
     }
     const changes=root.querySelector<HTMLDetailsElement>('#municipal-changes');
@@ -229,7 +282,14 @@ export class TerritoryController{
       if(changes.open&&!panel.hasChildNodes())void this.mountMunicipalChanges(panel);
     };
     root.querySelectorAll<HTMLInputElement>('[data-territory-layer]').forEach(input=>input.onchange=()=>{const id=input.dataset.territoryLayer!;input.checked?this.options.active.add(id):this.options.active.delete(id);this.update();if(input.checked)this.focusLayer(id);this.options.onChange();});
-    root.querySelectorAll<HTMLInputElement>('[data-territory-opacity]').forEach(input=>input.oninput=()=>{const id=input.dataset.territoryOpacity!,value=Number(input.value)/100;this.opacities.set(id,value);for(const m of this.maps)for(const layer of this.mapLayers.get(id)||[])if(m.getLayer(layer)?.type==='raster')m.setPaintProperty(layer,'raster-opacity',value);});
+    root.querySelectorAll<HTMLButtonElement>('[data-layer-zoom]').forEach(button=>button.onclick=()=>{
+      const map=this.maps[0];
+      if(!map)return;
+      const id=button.dataset.layerFocus!;
+      const local=territoryLayers.find(layer=>layer.id===id)?.local;
+      if(local?.layer||local?.center||local?.sourceId==='F170'||local?.sourceId==='F171')this.focusLayer(id);
+      else map.easeTo({zoom:Math.max(map.getZoom(),Number(button.dataset.layerZoom)+.1),duration:400});
+    });
     root.querySelector<HTMLSelectElement>('#section-edition')?.addEventListener('change',e=>{this.sectionEdition=(e.target as HTMLSelectElement).value;this.replaceTemporal('sections',this.sectionsProvider());const link=root.querySelector<HTMLAnchorElement>('[data-section-vector]');if(link)link.href=sectionVectorUrl(this.sectionsProvider().layers);});
     root.querySelector<HTMLSelectElement>('#orthophoto-edition')?.addEventListener('change',event=>{
       this.orthophotoEdition=(event.target as HTMLSelectElement).value;
@@ -284,7 +344,16 @@ export class TerritoryController{
   }
   private replaceTemporal(id:string,provider:WmsProvider,extra:Record<string,string>={}){
     this.controller?.abort();const layer=`f01-raster-${id}-${provider.id}`;
-    for(const m of this.maps){const source=m.getSource(layer) as {setTiles?:(tiles:string[])=>void};const tiles=[wmsTile(provider,{...extra,REVISION:String(++this.tileRevision)})];source?.setTiles?.(tiles);updateShiftedTiles(m,layer,tiles);}
+    const tiles=[wmsTile(provider,{...extra,REVISION:String(++this.tileRevision)})];
+    for(const m of this.maps){
+      const source=m.getSource<RasterTileSource>(layer);
+      if(source)rememberRaster(source,tiles);
+      for(const region of ATLAS_REGIONS){
+        const shifted=m.getSource<RasterTileSource>(layer+'-atlas-'+region.id);
+        if(shifted)rememberRaster(shifted,tiles.map(tile=>atlasTileUrl(tile,{shiftOnly:true,region:region.id})));
+      }
+    }
+    this.applyAppearance(id);
     this.options.onChange();
   }
   private mapFor(_coordinates:Position){return this.maps[0];}

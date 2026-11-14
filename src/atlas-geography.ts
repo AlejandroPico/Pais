@@ -6,13 +6,38 @@ type RasterOptions={size?:number;scheme?:'xyz'|'tms';dem?:boolean;shiftOnly?:boo
 export function atlasTileUrl(template:string,options:RasterOptions={}){
   return 'pais-atlas://tiles/{z}/{x}/{y}?'+new URLSearchParams({url:template,size:String(options.size||256),scheme:options.scheme||'xyz',dem:options.dem?'1':'0',shift:options.shiftOnly?'1':'0',vector:options.vector?'1':'0',region:options.region||'',max:String(options.maxzoom??(options.dem?15:19))});
 }
+export function tintedTileUrl(template:string,color:string){
+  return 'pais-atlas://tint/{z}/{x}/{y}?'+new URLSearchParams({url:template,color});
+}
 function tileBox(z:number,x:number,y:number){const step=WORLD/2**z;return [x*step-WORLD/2,WORLD/2-(y+1)*step,(x+1)*step-WORLD/2,WORLD/2-y*step];}
 function sourceUrl(template:string,z:number,x:number,y:number,scheme:string){
   return template.replaceAll('{z}',String(z)).replaceAll('{x}',String(x)).replaceAll('{y}',String(scheme==='tms'?2**z-1-y:y)).replaceAll('{bbox-epsg-3857}',tileBox(z,x,y).join(','));
 }
 export function registerAtlasProtocol(){
-  maplibregl.addProtocol('pais-atlas',async(params,abort)=>{
+  const load:maplibregl.AddProtocolAction=async(params,abort)=>{
     const url=new URL(params.url),[z,x,y]=url.pathname.split('/').filter(Boolean).map(Number);
+    if(url.host==='tint'){
+      const template=url.searchParams.get('url')!;
+      const tile=sourceUrl(template,z,x,y,'xyz');
+      const bytes=tile.startsWith('pais-atlas:')?await load({...params,url:tile},abort)
+        :{data:await fetch(tile,{signal:abort.signal}).then(response=>{
+          if(!response.ok)throw new Error('Servicio cartográfico: '+response.status);
+          return response.arrayBuffer();
+        })};
+      const bitmap=await createImageBitmap(new Blob([bytes.data as ArrayBuffer]));
+      const canvas=new OffscreenCanvas(bitmap.width,bitmap.height),ctx=canvas.getContext('2d')!;
+      ctx.drawImage(bitmap,0,0);
+      bitmap.close();
+      const image=ctx.getImageData(0,0,canvas.width,canvas.height),color=url.searchParams.get('color')!;
+      const rgb=[1,3,5].map(offset=>parseInt(color.slice(offset,offset+2),16));
+      for(let i=0;i<image.data.length;i+=4){
+        if(!image.data[i+3])continue;
+        const shade=.4+.6*(.2126*image.data[i]+.7152*image.data[i+1]+.0722*image.data[i+2])/255;
+        for(let c=0;c<3;c++)image.data[i+c]=rgb[c]*shade;
+      }
+      ctx.putImageData(image,0,0);
+      return {data:await(await canvas.convertToBlob({type:'image/png'})).arrayBuffer()};
+    }
     const template=url.searchParams.get('url')!,size=Number(url.searchParams.get('size'))||256,scheme=url.searchParams.get('scheme')||'xyz',max=Number(url.searchParams.get('max'))||19;
     const bitmapOptions:ImageBitmapOptions=url.searchParams.get('dem')==='1'?{colorSpaceConversion:'none',premultiplyAlpha:'none'}:{};
     const shiftOnly=url.searchParams.get('shift')==='1',vector=url.searchParams.get('vector')==='1',regionId=url.searchParams.get('region');
@@ -40,7 +65,8 @@ export function registerAtlasProtocol(){
     }
     if(abort.signal.aborted)throw new DOMException('Aborted','AbortError');
     return {data:await(await canvas.convertToBlob({type:'image/png'})).arrayBuffer()};
-  });
+  };
+  maplibregl.addProtocol('pais-atlas',load);
 }
 const intersects=(a:number[],b:number[])=>a[0]<b[2]&&a[2]>b[0]&&a[1]<b[3]&&a[3]>b[1];
 export function addShiftedLayer(m:AtlasMap,layer:LayerSpecification,before?:string):string[]{
@@ -57,7 +83,6 @@ export function addShiftedLayer(m:AtlasMap,layer:LayerSpecification,before?:stri
   }
   return ids;
 }
-export function updateShiftedTiles(m:AtlasMap,sourceId:string,tiles:string[]){for(const r of ATLAS_REGIONS){const source=m.getSource(sourceId+'-atlas-'+r.id) as {setTiles?:(tiles:string[])=>void}|undefined;source?.setTiles?.(tiles.map(t=>atlasTileUrl(t,{shiftOnly:true,region:r.id})));}}
 export function addAtlasSeparation(m:AtlasMap){
   m.addSource('atlas-visible-sea',{type:'geojson',data:import.meta.env.BASE_URL+'data/territory/sea-atlas.geojson'});
   m.addLayer({id:'atlas-opaque-sea',type:'fill',source:'atlas-visible-sea',paint:{'fill-color':'#0b2842','fill-opacity':1}});
