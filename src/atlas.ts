@@ -35,7 +35,10 @@ function disableStatistics(except?:StatisticsKind){
 }
 let provinces:Geo,communities:Geo,population:Population;
 let ready=false,years:number[]=[],drawerTab='',expanded=false;
-const hash=new URLSearchParams(location.hash.slice(1));const compatibleLayout=hash.get('atlas')==='2';let overviewInitialized=false;
+const hash=new URLSearchParams(location.hash.slice(1));
+const compatibleLayout=hash.get('atlas')==='2';
+if(compatibleLayout)history.replaceState(history.state,'',location.pathname+location.search);
+let overviewInitialized=false;
 let year=Number(hash.get('year'))||2021;
 let metric:Metric=(['population','density','women','change'].includes(hash.get('metric')||'')?hash.get('metric'):'density') as Metric;
 let thematic=hash.get('data')==='1',level:'province'|'community'=hash.get('level')==='community'?'community':'province';
@@ -109,7 +112,6 @@ ${railButton('appearance-open','Visualización','eye')}${railButton('sources-ope
 
 let toastTimeout:ReturnType<typeof setTimeout>;
 function toast(message:string){$('#toast').textContent=message;$('#toast').hidden=false;clearTimeout(toastTimeout);toastTimeout=setTimeout(()=>$('#toast').hidden=true,6000);}
-function syncUrl(){if(!ready)return;const c=map.getCenter();history.replaceState(null,'','#'+new URLSearchParams({atlas:'2',base,metric,year:String(year),level,data:thematic?'1':'0',flat:tilted?'0':'1',lng:c.lng.toFixed(4),lat:c.lat.toFixed(4),z:map.getZoom().toFixed(2),layers:[...active].join(','),ccaa:showCommunities?'1':'0',provinces:showProvinces?'1':'0',...geography?.urlState(),...Object.assign({},...statisticControllers().map(controller=>controller.urlState()))}));}
 function extent(f:Feature<MultiPolygon,Properties>):[[number,number],[number,number]]{const p=f.geometry.coordinates.flat(2);return [[Math.min(...p.map(p=>p[0])),Math.min(...p.map(p=>p[1]))],[Math.max(...p.map(p=>p[0])),Math.max(...p.map(p=>p[1]))]];}
 function home(duration=500){if(!ready)return;map.fitBounds(ATLAS_BOUNDS,{padding:{top:24,right:24,bottom:35,left:24},pitch:0,bearing:0,duration});}
 function fitOverview(){const camera=map.cameraForBounds(ATLAS_BOUNDS,{padding:{top:24,right:24,bottom:35,left:24}});if(!camera)return;const wasHome=map.getZoom()<=map.getMinZoom()+.05;map.setMinZoom(camera.zoom||3);if(wasHome||!overviewInitialized)map.jumpTo({...camera,bearing:0,pitch:0});overviewInitialized=true;}
@@ -311,9 +313,8 @@ function setBase(next:string){
   const selector=$<HTMLSelectElement>('#base-select');
   if(selector)selector.value=base;
   if(item.madrid&&ready)map.easeTo({center:[-3.7038,40.419],zoom:13,pitch:0,duration:500});
-  syncUrl();
 }
-function terrain(){for(const m of maps)if(m.getSource('dem'))m.setTerrain(tilted?{source:'dem',exaggeration:1.3}:null);$('#terrain-toggle')?.setAttribute('aria-pressed',String(tilted));syncUrl();}
+function terrain(){for(const m of maps)if(m.getSource('dem'))m.setTerrain(tilted?{source:'dem',exaggeration:1.3}:null);$('#terrain-toggle')?.setAttribute('aria-pressed',String(tilted));}
 function activateProduct(action:string){const [kind,id,...parameters]=action.split(':');
   if(Object.hasOwn(statisticCategories,kind)){
     const statisticKind=kind as StatisticsKind;
@@ -363,7 +364,7 @@ function updateData(){if(!ready)return;
   geography?.syncIndicators($('#drawer'));
   $('#timeline').hidden=!thematic;$('#legend').hidden=!thematic;
   if(thematic){const s=scales[metric];const appearance=layerAppearance('metric-'+metric);$('#legend').innerHTML=`<div class="legend-title"><strong>${labels[metric]}</strong><span>${year}</span></div><p>${units[metric]} · ${level==='province'?'provincias':'comunidades'}</p><div class="color-scale" style="background:linear-gradient(90deg,${paletteFor(s.colors,appearance.color).join(',')})"></div><div class="scale-labels"><span>${formatValue(s.stops[0],metric)}</span><span>≥ ${formatValue(s.stops[6],metric)}</span></div><p class="legend-credit">Sin datos: gris · INE / IGN</p>`;}
-  $('#year-value').textContent=String(year);const slider=$<HTMLInputElement>('#year');slider.max=String(years.length-1);slider.value=String(years.indexOf(year));slider.setAttribute('aria-valuetext',String(year));const enabled=[...overlays.filter(o=>active.has(o.id)).map(o=>o.name),...geography.activeLabels()];$('#overlay-legend').hidden=!enabled.length;$('#overlay-legend').textContent=enabled.join(' · ');if(selected)renderInfo();syncUrl();
+  $('#year-value').textContent=String(year);const slider=$<HTMLInputElement>('#year');slider.max=String(years.length-1);slider.value=String(years.indexOf(year));slider.setAttribute('aria-valuetext',String(year));const enabled=[...overlays.filter(o=>active.has(o.id)).map(o=>o.name),...geography.activeLabels()];$('#overlay-legend').hidden=!enabled.length;$('#overlay-legend').textContent=enabled.join(' · ');if(selected)renderInfo();
 }
 function selectTerritory(f:Feature<MultiPolygon,Properties>,zoom=false){selected=f;for(const m of maps)if(m.getSource('selection'))(m.getSource('selection') as maplibregl.GeoJSONSource).setData(projectFeature(f));renderInfo();if(zoom){const target=map;target.fitBounds(extent(projectFeature(f)),{padding:40,maxZoom:10,pitch:0,duration:600});}}
 function searchPanel(){openDrawer('search','Buscar','<div id="territory-search"></div>');const target=$('#territory-search');if(!target)return;if(ready)void geography.mountSearch(target);else target.innerHTML='<p>La búsqueda estará disponible al terminar de cargar el mapa.</p>';}
@@ -432,14 +433,13 @@ async function init(){try{
         geography?.reset();
         updateData();
       },
-      onChange:syncUrl,
       closeDrawer,
       clearSelection:clearStatisticsSelection,
-    },kind);
+    },kind,hash);
   }
-  geography=new TerritoryController({active,info:$('#info-panel'),icons,onChange:updateData,beforeInspect:()=>{featureQuery?.abort();selected=undefined;for(const m of maps)if(m.getSource('selection'))(m.getSource('selection') as maplibregl.GeoJSONSource).setData({type:'FeatureCollection',features:[]});},closeDrawer,selectLegacy:(f,l)=>{level=l;updateData();selectTerritory(f as Feature<MultiPolygon,Properties>,true);},provinces,communities});let loaded=0;
+  geography=new TerritoryController({active,info:$('#info-panel'),icons,onChange:updateData,beforeInspect:()=>{featureQuery?.abort();selected=undefined;for(const m of maps)if(m.getSource('selection'))(m.getSource('selection') as maplibregl.GeoJSONSource).setData({type:'FeatureCollection',features:[]});},closeDrawer,selectLegacy:(f,l)=>{level=l;updateData();selectTerritory(f as Feature<MultiPolygon,Properties>,true);},provinces,communities},hash);let loaded=0;
   for(const m of maps){m.on('error',e=>{sourceErrors.add((e as unknown as {sourceId?:string}).sourceId||'map');$('#map-status').hidden=false;$('#map-status').textContent='Un servicio cartográfico no ha respondido.';console.warn('Cartographic service error',e.error?.message);});m.on('load',()=>{setupMap(m);if(++loaded===1){ready=true;fitOverview();const lng=Number(hash.get('lng')),lat=Number(hash.get('lat')),z=Number(hash.get('z'));if(compatibleLayout&&hash.has('lng')&&Number.isFinite(lng)&&Number.isFinite(lat)&&Number.isFinite(z)&&lng>=-20&&lng<=7&&lat>=25.5&&lat<=46.5&&z>=3&&z<=18)map.jumpTo({center:[lng,lat],zoom:z,pitch:0});terrain();updateData();syncLayerScales();if(!sourceErrors.size)$('#map-status').hidden=true;}});}
-  map.touchZoomRotate.disableRotation();map.on('zoomend',syncLayerScales);map.on('moveend',()=>{const c=map.getCenter(),lng=Math.max(ATLAS_BOUNDS[0][0],Math.min(ATLAS_BOUNDS[1][0],c.lng)),lat=Math.max(ATLAS_BOUNDS[0][1],Math.min(ATLAS_BOUNDS[1][1],c.lat));if(c.lng!==lng||c.lat!==lat)map.jumpTo({center:[lng,lat],bearing:0,pitch:0});syncUrl();});new ResizeObserver(()=>{maps.forEach(m=>m.resize());if(ready)fitOverview();}).observe($('.map-area'));
+  map.touchZoomRotate.disableRotation();map.on('zoomend',syncLayerScales);map.on('moveend',()=>{const c=map.getCenter(),lng=Math.max(ATLAS_BOUNDS[0][0],Math.min(ATLAS_BOUNDS[1][0],c.lng)),lat=Math.max(ATLAS_BOUNDS[0][1],Math.min(ATLAS_BOUNDS[1][1],c.lat));if(c.lng!==lng||c.lat!==lat)map.jumpTo({center:[lng,lat],bearing:0,pitch:0});});new ResizeObserver(()=>{maps.forEach(m=>m.resize());if(ready)fitOverview();}).observe($('.map-area'));
 }catch(error){console.error(error);$('#map-status').hidden=false;$('#map-status').innerHTML='No se pudo iniciar el mapa. <button id="retry">Reintentar</button>';$('#retry').onclick=()=>location.reload();}}
 
 let theme:Theme='auto';

@@ -1,5 +1,9 @@
 # El país · Atlas abierto de España
 
+## Versión 0.8.0
+
+Mapa base accesible desde todas las categorías, 67 opciones de fondo y ajustes de color y opacidad por capa. Los desplegables se apilan en escritorio y se abren en vertical en móvil. El visor conserva la dirección de portada al navegar y sigue admitiendo los enlaces a vistas guardadas de la versión anterior.
+
 ## Versión 0.7.0
 
 El menú **Visualización** reúne vista general, mapa base, terreno 3D y pantalla completa. Los temas Mañana, Tarde, Noche y Automático se aplican a toda la interfaz. Automático utiliza la luz solar aproximada de Madrid. La barra muestra las categorías que caben en pantalla. **Fuentes** utiliza pestañas y paginación adaptada al espacio. **Acerca de** conserva los enlaces en el pie.

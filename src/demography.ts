@@ -10,7 +10,7 @@ const esc=(v:unknown)=>String(v??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&l
 const fmt=(v:number|null)=>v===null?'Sin datos':new Intl.NumberFormat('es-ES',{maximumFractionDigits:2}).format(v);
 const levels:Record<string,string>={national:'España',community:'Comunidades',province:'Provincias',municipal:'Municipios',district:'Distritos (consulta de series)',section:'Secciones (consulta de series)',island:'Islas (consulta de series)',unlocated:'Sin asignación territorial'};
 const colors=['#edf1d5','#c9dea7','#a0c68a','#70a87b','#43866a','#266153','#123f38'];
-type Options={info:HTMLElement;onActivate:()=>void;onChange:()=>void;closeDrawer:()=>void;clearSelection:()=>void};
+type Options={info:HTMLElement;onActivate:()=>void;closeDrawer:()=>void;clearSelection:()=>void};
 
 const statisticsConfig={
   demography:{prefix:'f02',urlPrefix:'',legend:'Leyenda demográfica',timeline:'Evolución demográfica',toggle:'Representar datos demográficos'},
@@ -25,8 +25,9 @@ export class DemographyController{
   private get alpha(){return layerAppearance(this.appearanceId).opacity??.76;}
   private query:DemographicQuery={period:0,dims:[],level:'province',territory:0};private province='28';private municipality='28079';
   private panel?:HTMLElement;private worker?:Worker;private request=0;private result?:DemographicResult;private timer?:ReturnType<typeof setTimeout>;
-  private legend=document.createElement('section');private timeline=document.createElement('section');private status='';private hash=new URLSearchParams(location.hash.slice(1));
-  constructor(private options:Options,private kind:StatisticsKind='demography'){
+  private legend=document.createElement('section');private timeline=document.createElement('section');private status='';private hash:URLSearchParams;
+  constructor(private options:Options,private kind:StatisticsKind,params:URLSearchParams){
+    this.hash=new URLSearchParams(params);
     const config=statisticsConfig[kind];
     const requestedKind=(['labor','welfare','demography'] as const).find(key=>this.hash.get(key));
     if(requestedKind!==kind)this.hash.delete(kind);
@@ -49,16 +50,6 @@ export class DemographyController{
   private restoreValue(key:string){return this.hash.get(this.urlKey(key));}
   get active(){return this.enabled;}
 
-  urlState(){
-    const state={
-      demography:this.enabled?String(this.table?.id||''):'',
-      dperiod:this.table?.periods[this.query.period]?.id||'',
-      dlevel:this.query.level,dprovince:this.province,ddims:this.query.dims.join(','),
-      darea:this.table?.territories[this.query.territory]?.id||'',
-      density:this.density?'1':'0',growth:this.growth?'1':'0',
-    };
-    return Object.fromEntries(Object.entries(state).map(([key,value])=>[this.urlKey(key),value]));
-  }
   private async loadIndex(){
     return this.indexPromise??=(async()=>{
       const compact=this.kind==='demography';
@@ -112,7 +103,7 @@ export class DemographyController{
       this.validSelection();this.enabled=activate;this.result=undefined;if(activate)this.options.onActivate();this.drawPanel();this.run();
     }catch(error){this.status=error instanceof Error?error.message:'No se pudo abrir la tabla.';this.drawPanel();}
   }
-  disable(){this.stop();this.enabled=false;this.request++;this.pending=false;this.legend.hidden=true;this.timeline.hidden=true;if(this.map)for(const id of [this.layer('f02-fill'),this.layer('f02-national-fill'),this.layer('f02-municipal-fill'),...shiftedIds(this.layer('f02-municipal-fill'))])if(this.map.getLayer(id))this.map.setLayoutProperty(id,'visibility','none');if(this.options.info.dataset.demography===this.kind){this.options.info.hidden=true;delete this.options.info.dataset.demography;}this.drawPanel();this.options.onChange();}
+  disable(){this.stop();this.enabled=false;this.request++;this.pending=false;this.legend.hidden=true;this.timeline.hidden=true;if(this.map)for(const id of [this.layer('f02-fill'),this.layer('f02-national-fill'),this.layer('f02-municipal-fill'),...shiftedIds(this.layer('f02-municipal-fill'))])if(this.map.getLayer(id))this.map.setLayoutProperty(id,'visibility','none');if(this.options.info.dataset.demography===this.kind){this.options.info.hidden=true;delete this.options.info.dataset.demography;}this.drawPanel();}
   private drawPanel(){
     const p=this.panel,t=this.table;if(!p?.isConnected||!t||!this.index)return;
     const families=[...new Set(this.index.tables.map(t=>t.family))],areas=this.areaOptions(),order=periodOrder(t);
@@ -133,8 +124,8 @@ export class DemographyController{
     el<HTMLSelectElement>('#demog-municipality')?.addEventListener('change',e=>{this.municipality=(e.target as HTMLSelectElement).value;this.validSelection();this.drawPanel();this.run();});
     el<HTMLSelectElement>('#demog-period').onchange=e=>{this.stop();this.query.period=Number((e.target as HTMLSelectElement).value);this.run();};
     p.querySelectorAll<HTMLSelectElement>('[data-demog-dim]').forEach(s=>s.onchange=()=>{this.stop();this.query.dims[Number(s.dataset.demogDim)]=Number(s.value);this.run();});
-    el<HTMLInputElement>('#demog-density')?.addEventListener('change',e=>{this.density=(e.target as HTMLInputElement).checked;if(this.density)this.growth=false;this.drawPanel();this.renderMap();this.renderDetail();this.options.onChange();});
-    el<HTMLInputElement>('#demog-growth')?.addEventListener('change',e=>{this.growth=(e.target as HTMLInputElement).checked;if(this.growth)this.density=false;this.drawPanel();this.renderMap();this.renderDetail();this.options.onChange();});
+    el<HTMLInputElement>('#demog-density')?.addEventListener('change',e=>{this.density=(e.target as HTMLInputElement).checked;if(this.density)this.growth=false;this.drawPanel();this.renderMap();this.renderDetail();});
+    el<HTMLInputElement>('#demog-growth')?.addEventListener('change',e=>{this.growth=(e.target as HTMLInputElement).checked;if(this.growth)this.density=false;this.drawPanel();this.renderMap();this.renderDetail();});
     el<HTMLSelectElement>('#demog-area').onchange=e=>{this.query.territory=Number((e.target as HTMLSelectElement).value);if(this.enabled)this.run();};
     el('#demog-show').onclick=()=>{if(!this.enabled){this.enabled=true;this.options.onActivate();}this.options.info.dataset.demography=this.kind;this.options.clearSelection();this.options.closeDrawer();this.run();};
   }
@@ -144,9 +135,9 @@ export class DemographyController{
     if(!this.worker){this.worker=new Worker(new URL('./demography.worker.ts',import.meta.url),{type:'module'});this.worker.onmessage=(e:MessageEvent<{id:number;error?:string;result?:DemographicResult}>)=>{
       if(e.data.id!==this.request||!this.enabled)return;this.pending=false;
       if(e.data.error){this.stop();this.result=undefined;this.status=e.data.error;this.renderMap();this.drawPanel();return;}
-      this.result=e.data.result;this.baselines.clear();const start=periodOrder(this.table!)[0];for(const d of this.result!.domain)if(d.period===start)this.baselines.set(this.table!.territories[d.area].code,d.value);this.status=`${fmt(this.result!.values.filter(v=>v.value!==null).length)} territorios con dato · ${this.table!.periods[this.query.period].label}`;this.renderMap();this.renderDetail();this.drawPanel();this.options.onChange();
+      this.result=e.data.result;this.baselines.clear();const start=periodOrder(this.table!)[0];for(const d of this.result!.domain)if(d.period===start)this.baselines.set(this.table!.territories[d.area].code,d.value);this.status=`${fmt(this.result!.values.filter(v=>v.value!==null).length)} territorios con dato · ${this.table!.periods[this.query.period].label}`;this.renderMap();this.renderDetail();this.drawPanel();
     };this.worker.onerror=()=>{this.stop();this.status='No se pudo iniciar la consulta. Recarga la web para reintentar.';this.drawPanel();};}
-    this.worker.postMessage({id:++this.request,base:new URL(this.dataRoot(),location.href).href,table:this.table,part:['municipal','district','section'].includes(this.query.level)?this.province:'main',query:this.query});this.renderTimeline();this.options.onChange();
+    this.worker.postMessage({id:++this.request,base:new URL(this.dataRoot(),location.href).href,table:this.table,part:['municipal','district','section'].includes(this.query.level)?this.province:'main',query:this.query});this.renderTimeline();
   }
   private unit(){if(this.growth)return '% respecto a '+this.table!.periods[periodOrder(this.table!)[0]].label;return this.density&&['province','community'].includes(this.query.level)?'personas por km² · aprox.':unitFor(this.table!,this.query.dims);}
   private mappedValue(value:number|null,code:string){if(value===null)return null;if(this.growth)return relativeChange(value,this.baselines.get(code));if(this.density&&['province','community'].includes(this.query.level)){const area=this.geometries[this.query.level].features.find(f=>f.properties?.code===code)?.properties?.areaKm2;return area>0?value/area:null;}return value;}

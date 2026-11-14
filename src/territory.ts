@@ -35,14 +35,12 @@ export class TerritoryController{
   private localCache=new Map<string,Promise<FeatureCollection>>();
   private officialPromise?:Promise<Map<string,OfficialLayer>>;
   private officialActive=new Map<string,OfficialLayer>();
-  private officialPeriods=new Map((new URLSearchParams(location.hash.slice(1)).get('officialTime')||'').split(',').flatMap(value=>{
-    const [id,period]=value.split(':');return id&&period?[[id,period] as const]:[];
-  }));
+  private officialPeriods=new Map<string,string>();
+  private restoredOfficial:Set<string>;
   private officialTime(layer:OfficialLayer):Record<string,string>{
     const candidate=this.officialPeriods.get(layer.id)||layer.defaultPeriod||layer.periods?.at(-1);
     return candidate&&layer.periods?.includes(candidate)?{TIME:candidate}:{};
   }
-  private restoredOfficial=new Set((new URLSearchParams(location.hash.slice(1)).get('official')||'').split(',').filter(Boolean));
   private loadOfficial(){
     return this.officialPromise??=fetch(dataRoot+'official-layers.json').then(response=>{
       if(!response.ok)throw new Error('No se pudo abrir el inventario cartográfico.');
@@ -169,8 +167,12 @@ export class TerritoryController{
       this.options.onChange();
     }).catch(()=>{});
   }
-  constructor(private options:Options){
-    const params=new URLSearchParams(location.hash.slice(1));
+  constructor(private options:Options,params:URLSearchParams){
+    this.restoredOfficial=new Set((params.get('official')||'').split(',').filter(Boolean));
+    for(const value of (params.get('officialTime')||'').split(',')){
+      const [id,period]=value.split(':');
+      if(id&&period)this.officialPeriods.set(id,period);
+    }
     if(sectionEditions.some(e=>e.id===params.get('sections')))this.sectionEdition=params.get('sections')!;
     const orthophoto=params.get('orthophoto');
     if(orthophotoEditions.some(edition=>edition.id===orthophoto))this.orthophotoEdition=orthophoto!;
@@ -179,7 +181,6 @@ export class TerritoryController{
     const date=params.get('boundaries')||'';
     if(/^\d{4}-\d{2}-\d{2}$/.test(date)&&date>='2009-07-05'&&date<='2026-07-28')this.boundaryDate=date;
   }
-  urlState(){return {official:[...new Set([...[...this.officialActive.keys()].filter(id=>this.options.active.has(id)),...this.restoredOfficial])].join(','),officialTime:[...this.officialPeriods].map(([id,period])=>id+':'+period).join(','),sections:this.sectionEdition,boundaries:this.boundaryDate,...(this.options.active.has('historical-orthophoto')?{orthophoto:this.orthophotoEdition}:{}),...(this.options.active.has('canary-cartography')?{canary:this.canaryEdition}:{})};}
   private index():Promise<TerritoryIndex>{return this.indexPromise??=fetch(dataRoot+'index.json').then(r=>{if(!r.ok)throw new Error('No se pudo cargar el catálogo municipal');return r.json();}).catch(e=>{this.indexPromise=undefined;throw e;});}
   private comarcas():Promise<FeatureCollection>{return this.comarcaPromise??=fetch(dataRoot+'comarcas.geojson').then(r=>{if(!r.ok)throw new Error('No se pudo cargar la cartografía comarcal');return r.json();}).catch(e=>{this.comarcaPromise=undefined;throw e;});}
   private add(m:AtlasMap,id:string,layer:LayerSpecification,before?:string){
