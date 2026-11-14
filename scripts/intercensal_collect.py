@@ -16,7 +16,7 @@ SOURCE = 'https://www.ine.es/intercensal/'
 QUERY = SOURCE + 'intercensal.do'
 DOWNLOAD = SOURCE + 'download.do?typeDownload=3&descargarformato=Ir'
 CACHE = ROOT / '.cache/f02/intercensal'
-OUT = ROOT / 'public/data/intercensal'
+OUT = ROOT / 'datos/poblacion/intercensal'
 
 
 def request(opener, url, fields=None):
@@ -71,7 +71,7 @@ def capture(code, region, refresh):
 def main(refresh=False):
     CACHE.mkdir(parents=True, exist_ok=True)
     OUT.mkdir(parents=True, exist_ok=True)
-    provinces = json.loads((ROOT/'public/data/provinces.geojson').read_text(encoding='utf-8'))['features']
+    provinces = json.loads((ROOT/'datos/territorio/provinces.geojson').read_text(encoding='utf-8'))['features']
     # The historical application uses INE community codes, including both autonomous cities.
     territories = [(f['properties']['code'],f['properties']['communityCode']) for f in provinces if 1 <= int(f['properties']['code']) <= 52]
     if {code for code, _ in territories} != {f'{n:02d}' for n in range(1, 53)}:

@@ -4,7 +4,7 @@ import {readFileSync} from 'node:fs';
 import {gunzipSync} from 'node:zlib';
 import {defaultDimensions,queryCube,seriesCsv} from '../src/demography-data.ts';
 
-const root = new URL('../public/data/labor/', import.meta.url);
+const root = new URL('../datos/trabajo/ine/', import.meta.url);
 const index = JSON.parse(readFileSync(new URL('index.json', root), 'utf8'));
 
 function checkObservation(id, periodId, indicator, expected) {
@@ -36,7 +36,7 @@ test('labor queries retain official quarterly EPA and ETCL observations and annu
 });
 
 test('SEPE downloads preserve monthly values, suppressions and per-edition provenance', () => {
-  const {tables}=JSON.parse(readFileSync(new URL('sepe.json',root),'utf8'));
+  const {tables}=JSON.parse(readFileSync(new URL('../datos/trabajo/sepe/sepe.json',import.meta.url),'utf8'));
   assert.equal(tables.length,3);
   for(const table of tables){
     assert.equal(table.publisher,'SEPE');
@@ -44,7 +44,7 @@ test('SEPE downloads preserve monthly values, suppressions and per-edition prove
     assert.equal(table.periods.at(-1).id,'2026M10');
     assert.equal(table.periods.length,table.id===900003?249:250);
     const part=table.shards.find(shard=>shard.id==='04');
-    const cube=JSON.parse(gunzipSync(readFileSync(new URL(part.file,root))));
+    const cube=JSON.parse(gunzipSync(readFileSync(new URL('../datos/trabajo/sepe/'+part.file,import.meta.url))));
     const territory=table.territories.findIndex(area=>area.code==='04001');
     const period=table.periods.findIndex(entry=>entry.id==='2022M01');
     const query={level:'municipal',territory,period,dims:[0]};

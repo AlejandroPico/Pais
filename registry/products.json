@@ -85,7 +85,7 @@
       "period": "Captura de límites actuales de 2026-11-05",
       "license": "CC BY 4.0 · IGN",
       "mode": "local",
-      "dataFile": "communities.geojson",
+      "dataFile": "territorio/communities.geojson",
       "mapAction": "communities"
     },
     {
@@ -101,7 +101,7 @@
       "period": "Captura de límites actuales de 2026-11-05",
       "license": "CC BY 4.0 · IGN",
       "mode": "local",
-      "dataFile": "provinces.geojson",
+      "dataFile": "territorio/provinces.geojson",
       "mapAction": "provinces"
     },
     {
@@ -118,7 +118,7 @@
       "unit": "habitantes",
       "license": "CC BY 4.0 · INE",
       "mode": "local",
-      "dataFile": "population.json",
+      "dataFile": "poblacion/population.json",
       "relatedInventoryIds": [
         "ine:2852",
         "ine:2853"
@@ -139,7 +139,7 @@
       "unit": "hab./km²",
       "license": "Datos INE e IGN · CC BY 4.0",
       "mode": "derived",
-      "dataFile": "population.json",
+      "dataFile": "poblacion/population.json",
       "notes": "Población dividida por superficie esférica aproximada de límites actuales IGN. No es superficie ni densidad oficial.",
       "mapAction": "metric:density"
     },
@@ -157,7 +157,7 @@
       "unit": "%",
       "license": "CC BY 4.0 · INE",
       "mode": "derived",
-      "dataFile": "population.json",
+      "dataFile": "poblacion/population.json",
       "notes": "Mujeres / población total × 100.",
       "mapAction": "metric:women"
     },
@@ -175,7 +175,7 @@
       "unit": "% respecto a 1996",
       "license": "CC BY 4.0 · INE",
       "mode": "derived",
-      "dataFile": "population.json",
+      "dataFile": "poblacion/population.json",
       "mapAction": "metric:change"
     },
     {

@@ -9,7 +9,7 @@ from urllib.parse import urlencode, urlsplit
 from urllib.request import Request, urlopen
 
 ROOT = Path(__file__).resolve().parents[1]
-RESEARCH = ROOT / 'docs/research'
+RESEARCH = ROOT / 'datos/catalogo/investigacion'
 ENDPOINT = 'https://datos.gob.es/virtuoso/sparql'
 PAGE = 3500
 GRAPH = 'http://datos.gob.es/catalogo'

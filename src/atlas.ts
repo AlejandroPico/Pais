@@ -378,7 +378,7 @@ function style():StyleSpecification{return {version:8,glyphs:'https://demotiles.
   dem:{type:'raster-dem',tiles:[atlasTileUrl('https://xyz-mdt.idee.es/1.0.0/raster-dem/{z}/{x}/{y}.png',{size:512,dem:true})],encoding:'mapbox',tileSize:512,minzoom:5,maxzoom:15,attribution:'Modelo de elevaciones © IGN · CC BY 4.0'}
 },layers:[{id:'background',type:'background',paint:{'background-color':'#0b2842'}},...rasterBases.map(({id})=>({id:`base-${id}`,type:'raster' as const,source:id,layout:{visibility:'none' as const},paint:{'raster-fade-duration':150}}))]};}
 function setupMap(m:AtlasMap){
-  m.addSource('base-spain',{type:'geojson',data:import.meta.env.BASE_URL+'data/territory/country-atlas.geojson',attribution:'Límites © IGN · CC BY 4.0'});
+  m.addSource('base-spain',{type:'geojson',data:import.meta.env.BASE_URL+'datos/territorio/country-atlas.geojson',attribution:'Límites © IGN · CC BY 4.0'});
   m.addLayer({id:'base-neutral',type:'fill',source:'base-spain',layout:{visibility:'none'},paint:{'fill-color':'#a4b4bb'}},'base-'+rasterBases[0].id);
   m.addLayer({id:'base-outline',type:'line',source:'base-spain',layout:{visibility:'none'},paint:{'line-color':'#a9c0cd','line-width':1.5}});
   for(const l of ['province','community'] as const){m.addSource(l,{type:'geojson',data:projectCollection(l==='province'?provinces:communities)});m.addLayer({id:`${l}-fill`,type:'fill',source:l,paint:{'fill-opacity':0,'fill-color':'#78a18a'}});}
@@ -408,9 +408,9 @@ function setupMap(m:AtlasMap){
   geography.restoreOfficial();
   let rightClick=0;m.getCanvas().addEventListener('contextmenu',e=>{e.preventDefault();const now=performance.now();if(now-rightClick<350){m.easeTo({bearing:0,pitch:0,duration:350});rightClick=0;}else rightClick=now;});
 }
-async function load<T>(file:string):Promise<T>{const r=await fetch(`${import.meta.env.BASE_URL}data/${file}`);if(!r.ok)throw new Error(`${file}: ${r.status}`);return r.json();}
+async function load<T>(file:string):Promise<T>{const r=await fetch(`${import.meta.env.BASE_URL}datos/${file}`);if(!r.ok)throw new Error(`${file}: ${r.status}`);return r.json();}
 async function init(){try{
-  [provinces,communities,population]=await Promise.all([load<Geo>('provinces.geojson'),load<Geo>('communities.geojson'),load<Population>('population.json')]);years=Object.keys(population.data.province['00'].series).map(Number).sort((a,b)=>a-b);if(!years.includes(year))year=years.at(-1)!;
+  [provinces,communities,population]=await Promise.all([load<Geo>('territorio/provinces.geojson'),load<Geo>('territorio/communities.geojson'),load<Population>('poblacion/population.json')]);years=Object.keys(population.data.province['00'].series).map(Number).sort((a,b)=>a-b);if(!years.includes(year))year=years.at(-1)!;
   const common={maxZoom:18,minZoom:3,dragPan:true,dragRotate:false,touchPitch:false,renderWorldCopies:false,pitch:0,attributionControl:{compact:true},maxTileCacheSize:100,fadeDuration:150};
   map=new maplibregl.Map({...common,container:'map',center:[-2.7,39.6],zoom:5.4,style:style()});maps=[map];
   const clearStatisticsSelection=()=>{

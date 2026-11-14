@@ -15,8 +15,10 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 CACHE = ROOT / '.cache' / 'research'
 OUT = ROOT / 'docs' / 'research'
+DATA = ROOT / 'datos/catalogo/investigacion'
 CACHE.mkdir(parents=True, exist_ok=True)
 OUT.mkdir(parents=True, exist_ok=True)
+DATA.mkdir(parents=True, exist_ok=True)
 REFRESH=False
 
 def fetch(url):
@@ -51,7 +53,7 @@ def inspect_more():
     query='''PREFIX dcat: <http://www.w3.org/ns/dcat#> PREFIX dct: <http://purl.org/dc/terms/> PREFIX foaf: <http://xmlns.com/foaf/0.1/> SELECT ?publisher ?name (COUNT(DISTINCT ?dataset) AS ?datasets) WHERE { ?dataset a dcat:Dataset ; dct:publisher ?publisher . OPTIONAL { ?publisher foaf:name ?name } } GROUP BY ?publisher ?name ORDER BY DESC(?datasets)'''
     url='https://datos.gob.es/virtuoso/sparql?'+urllib.parse.urlencode({'query':query,'format':'application/sparql-results+json'})
     try:
-        data=json.loads(fetch(url)); (OUT/'publishers-sparql.json').write_text(json.dumps(data,ensure_ascii=False,indent=2),encoding='utf-8'); print('SPARQL',str(data)[:1200], 'count',len(data.get('results',{}).get('bindings',[])))
+        data=json.loads(fetch(url)); (DATA/'publishers-sparql.json').write_text(json.dumps(data,ensure_ascii=False,indent=2),encoding='utf-8'); print('SPARQL',str(data)[:1200], 'count',len(data.get('results',{}).get('bindings',[])))
     except Exception as e:print('SPARQL error',str(e))
 
 def sparql(query):
@@ -61,7 +63,7 @@ def sparql(query):
 def collect():
     query='''PREFIX dcat: <http://www.w3.org/ns/dcat#> PREFIX dct: <http://purl.org/dc/terms/> PREFIX foaf: <http://xmlns.com/foaf/0.1/> SELECT ?publisher ?name (COUNT(DISTINCT ?dataset) AS ?datasets) WHERE { ?dataset a dcat:Dataset ; dct:publisher ?publisher . OPTIONAL { ?publisher foaf:name ?name } } GROUP BY ?publisher ?name ORDER BY DESC(?datasets)'''
     raw=sparql(query)
-    (OUT/'publishers-sparql.json').write_text(json.dumps({'results':{'bindings':raw}},ensure_ascii=False,indent=2),encoding='utf-8')
+    (DATA/'publishers-sparql.json').write_text(json.dumps({'results':{'bindings':raw}},ensure_ascii=False,indent=2),encoding='utf-8')
     publishers={r['publisher']['value']:{'id':r['publisher']['value'].rsplit('/',1)[-1],'name':r.get('name',{}).get('value','Sin denominación'),'uri':r['publisher']['value'],'datasets':int(r['datasets']['value'])} for r in raw}
     print('Publishers',len(publishers),'dataset total',sum(p['datasets'] for p in publishers.values()),flush=True)
     prefix='PREFIX dcat: <http://www.w3.org/ns/dcat#> PREFIX dct: <http://purl.org/dc/terms/> '
@@ -83,7 +85,7 @@ def collect():
     for row in rows:
         uri=row['dataset']['value'];pid=row['publisher']['value'];title=row['title']['value']
         datasets.setdefault(uri,{'uri':uri,'publisher':pid,'title':title})
-    export=OUT/'datasets-catalogo-nacional.csv.gz'
+    export=DATA/'datasets-catalogo-nacional.csv.gz'
     with gzip.open(export,'wt',encoding='utf-8',newline='') as f:
         w=csv.writer(f,delimiter=';');w.writerow(['publicador_id','publicador','titulo','url_catalogo'])
         for d in datasets.values():
@@ -94,7 +96,7 @@ def collect():
         p['apiUrl']='https://datos.gob.es/apidata/catalog/dataset/publisher/'+p['id']
         p['examples']=[d['title'] for d in datasets.values() if d['publisher']==p['uri']][:12]
     record={'retrievedAt':datetime.now(timezone.utc).isoformat(),'source':'https://datos.gob.es/es/sparql','scope':'Publicadores y títulos federados en datos.gob.es en el momento de la consulta. No incluye necesariamente todos los organismos, portales o datos oficiales españoles. Es un inventario de metadatos; no son observaciones descargadas. El catálogo puede cambiar durante la extracción.','publisherCount':len(publishers),'datasetCount':len(datasets),'aggregateDatasetCount':total,'publishers':list(publishers.values())}
-    (OUT/'publicadores-catalogo-nacional.json').write_text(json.dumps(record,ensure_ascii=False,indent=2),encoding='utf-8')
+    (DATA/'publicadores-catalogo-nacional.json').write_text(json.dumps(record,ensure_ascii=False,indent=2),encoding='utf-8')
     lines=['# Publicadores del catálogo nacional','',record['scope'],'',f'Consulta: {record["retrievedAt"]}. {len(publishers)} publicadores; {len(datasets):,} conjuntos con título español o sin idioma recuperados. Recuento agregado: {total:,}. La diferencia puede reflejar idiomas, múltiples publicadores o cambios durante la extracción.','']
     for p in sorted(publishers.values(),key=lambda p:p['name']):
         lines.extend([f'## {p["name"]}', '',f'- Identificador oficial: {p["id"]}. Conjuntos según recuento agregado: {p["datasets"]:,}.',f'- [Catálogo del publicador]({p["apiUrl"]})', '- Títulos de muestra (no resumen exhaustivo):']+['  - '+t.rstrip() for t in p['examples']]+[''])
@@ -108,8 +110,8 @@ def collect():
         title=clean(title);code=clean(code)
         operations.append({'code':code,'title':title,'responsibleCode':title.rsplit('(',1)[-1].rstrip(')'),'url':urllib.parse.urljoin('https://www.ine.es',href)})
     assert len(operations)>700,len(operations)
-    (OUT/'operaciones-ioe.json').write_text(json.dumps({'source':source,'retrievedAt':record['retrievedAt'],'operations':operations},ensure_ascii=False,indent=2),encoding='utf-8')
-    with (OUT/'operaciones-ioe.csv').open('w',encoding='utf-8-sig',newline='') as f:
+    (DATA/'operaciones-ioe.json').write_text(json.dumps({'source':source,'retrievedAt':record['retrievedAt'],'operations':operations},ensure_ascii=False,indent=2),encoding='utf-8')
+    with (DATA/'operaciones-ioe.csv').open('w',encoding='utf-8-sig',newline='') as f:
         w=csv.DictWriter(f,fieldnames=['code','title','responsibleCode','url'],delimiter=';');w.writeheader();w.writerows(operations)
     groups={}
     for op in operations:groups.setdefault(op['responsibleCode'],[]).append(op)
@@ -120,7 +122,7 @@ def collect():
     print('Completed',len(publishers),'publishers',len(datasets),'catalog datasets',len(operations),'IOE operations',flush=True)
 
 def enrich_ioe():
-    record=json.loads((OUT/'operaciones-ioe.json').read_text(encoding='utf-8'))
+    record=json.loads((DATA/'operaciones-ioe.json').read_text(encoding='utf-8'))
     clean=lambda v: re.sub(r'\s+',' ',html_module.unescape(re.sub('<[^>]+>',' ',v))).strip()
     def detail(op):
         try:
@@ -136,7 +138,7 @@ def enrich_ioe():
             operations.append(op)
             if i%50==0: print('IOE detailed',i,flush=True)
     record['operations']=operations;record['detailErrors']=[{'code':o['code'],'error':o['error']} for o in operations if 'error' in o]
-    (OUT/'operaciones-ioe-detalladas.json').write_text(json.dumps(record,ensure_ascii=False,indent=2),encoding='utf-8')
+    (DATA/'operaciones-ioe-detalladas.json').write_text(json.dumps(record,ensure_ascii=False,indent=2),encoding='utf-8')
     groups={}
     for op in operations:
         fields=op.get('fields',{})
@@ -153,7 +155,7 @@ def enrich_ioe():
             if op.get('error'):lines.append('  - Error de recuperación: '+op['error'])
         lines.append('')
     (OUT/'IOE_POR_ENTIDAD.md').write_text('\n'.join(lines),encoding='utf-8')
-    with (OUT/'operaciones-ioe-detalladas.csv').open('w',encoding='utf-8-sig',newline='') as f:
+    with (DATA/'operaciones-ioe-detalladas.csv').open('w',encoding='utf-8-sig',newline='') as f:
         fieldnames=['codigo','operacion','responsable','ejecutor','sector','desagregacion','ambito','variables','clasificacion','periodicidad','resultados','ficha','error']
         writer=csv.DictWriter(f,fieldnames=fieldnames,delimiter=';');writer.writeheader()
         for o in operations:

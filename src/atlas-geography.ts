@@ -84,9 +84,9 @@ export function addShiftedLayer(m:AtlasMap,layer:LayerSpecification,before?:stri
   return ids;
 }
 export function addAtlasSeparation(m:AtlasMap){
-  m.addSource('atlas-visible-sea',{type:'geojson',data:import.meta.env.BASE_URL+'data/territory/sea-atlas.geojson'});
+  m.addSource('atlas-visible-sea',{type:'geojson',data:import.meta.env.BASE_URL+'datos/territorio/sea-atlas.geojson'});
   m.addLayer({id:'atlas-opaque-sea',type:'fill',source:'atlas-visible-sea',paint:{'fill-color':'#0b2842','fill-opacity':1}});
-  m.addSource('atlas-islets',{type:'geojson',data:import.meta.env.BASE_URL+'data/territory/islets-atlas.geojson'});m.addLayer({id:'atlas-islets-shape',type:'fill',source:'atlas-islets',paint:{'fill-color':'#9aa98d','fill-opacity':.35,'fill-outline-color':'#e8e5c8'}});m.addLayer({id:'atlas-islets-edge',type:'line',source:'atlas-islets',paint:{'line-color':'#e8e5c8','line-width':.8}});
+  m.addSource('atlas-islets',{type:'geojson',data:import.meta.env.BASE_URL+'datos/territorio/islets-atlas.geojson'});m.addLayer({id:'atlas-islets-shape',type:'fill',source:'atlas-islets',paint:{'fill-color':'#9aa98d','fill-opacity':.35,'fill-outline-color':'#e8e5c8'}});m.addLayer({id:'atlas-islets-edge',type:'line',source:'atlas-islets',paint:{'line-color':'#e8e5c8','line-width':.8}});
   const features:GeoJSON.Feature[]=ATLAS_FRAMES.flatMap(f=>{const [w,s,e,n]=f.bounds;return [{type:'Feature',properties:{name:f.name},geometry:{type:'LineString',coordinates:[[w,s],[e,s],[e,n],[w,n],[w,s]]}},{type:'Feature',properties:{name:f.name},geometry:{type:'Point',coordinates:[w+.12,n-.12]}}];}) as GeoJSON.Feature[];
   for(const r of ATLAS_REGIONS.slice(3)){const b=r.display;features.push({type:'Feature',properties:{name:(r.id==='velez'?'Vélez':r.name)+'\n×'+r.scale,anchor:'center'},geometry:{type:'Point',coordinates:[(b[0]+b[2])/2,35.95]}});}
   m.addSource('atlas-separation',{type:'geojson',data:{type:'FeatureCollection',features} as GeoJSON.FeatureCollection});

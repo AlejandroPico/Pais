@@ -7,7 +7,7 @@ type Index={
   provinces:Record<string,{file:string;rows:number;contentSha256:string}>;
 };
 
-const root=import.meta.env.BASE_URL+'data/nomenclator/';
+const root=import.meta.env.BASE_URL+'datos/territorio/nomenclator/';
 const fmt=new Intl.NumberFormat('es-ES');
 const esc=(value:string)=>value.replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]!));
 let indexPromise:Promise<Index>|undefined;

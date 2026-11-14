@@ -2,7 +2,7 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
 import {toAtlas,fromAtlas,projectFeature,CANARY_DISPLAY,ATLAS_REGIONS,ATLAS_FRAMES,WORLD,mercY,vectorTileAddress} from '../src/atlas-coordinates.ts';
-const read=p=>JSON.parse(fs.readFileSync(new URL('../public/data/territory/'+p,import.meta.url),'utf8'));
+const read=p=>JSON.parse(fs.readFileSync(new URL('../datos/territorio/'+p,import.meta.url),'utf8'));
 const close=(a,b)=>assert.ok(Math.abs(a-b)<1e-8,`${a} != ${b}`);
 
 test('all atlas frames preserve real coordinates and leave mainland and Balearic coordinates unchanged',()=>{

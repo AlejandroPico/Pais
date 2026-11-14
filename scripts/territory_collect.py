@@ -19,7 +19,7 @@ from ingest import simplify
 
 ROOT = Path(__file__).resolve().parents[1]
 CACHE = ROOT / '.cache/f01'
-OUT = ROOT / 'public/data/territory'
+OUT = ROOT / 'datos/territorio'
 SHEET = {'s': 'http://schemas.openxmlformats.org/spreadsheetml/2006/main'}
 PROVENANCE = []
 

@@ -2,8 +2,8 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
 import {valueFor, normalize, safeUrl} from '../src/data.ts';
-const read = file => JSON.parse(fs.readFileSync(new URL('../public/data/'+file,import.meta.url),'utf8'));
-const population=read('population.json'), provinces=read('provinces.geojson'), communities=read('communities.geojson');
+const read = file => JSON.parse(fs.readFileSync(new URL('../datos/'+file,import.meta.url),'utf8'));
+const population=read('poblacion/population.json'), provinces=read('territorio/provinces.geojson'), communities=read('territorio/communities.geojson');
 
 test('every INE territorial code joins to the IGN geometry, including islands and autonomous cities',()=>{
   for(const [level,geo,count] of [['province',provinces,52],['community',communities,19]]){
@@ -48,14 +48,14 @@ test('geometries have closed rings, valid axis order and plausible Spain extent'
   }
   const madrid=provinces.features.find(f=>f.properties.code==='28');
   assert.ok(madrid.properties.areaKm2>7900&&madrid.properties.areaKm2<8100);
-  const mask=read('context-mask.geojson');assert.equal(mask.geometry.type,'MultiPolygon');assert.ok(mask.geometry.coordinates[0].length>1);
+  const mask=read('territorio/contexto/context-mask.geojson');assert.equal(mask.geometry.type,'MultiPolygon');assert.ok(mask.geometry.coordinates[0].length>1);
 });
 test('INE catalog is complete for the current retrieval and contains real table metadata',()=>{
-  const c=read('ine-catalog.json');assert.equal(c.errors.length,0);assert.ok(c.operations.length>=160);
+  const c=read('catalogo/investigacion/ine-catalog.json');assert.equal(c.errors.length,0);assert.ok(c.operations.length>=160);
   assert.ok(new Set(c.operations.flatMap(o=>o.tables.map(t=>t.Id))).size>=6900);
   for(const o of c.operations){assert.ok(o.Nombre);assert.equal(new Set(o.tables.map(t=>t.Id)).size,o.tables.length);}
   assert.ok(c.operations.some(o=>o.tables.some(t=>t.Id===2852)));
-  const provenance=read('provenance.json');assert.ok(provenance.length>166);assert.ok(provenance.every(p=>p.sha256.length===64&&p.url.startsWith('https://')));
+  const provenance=read('catalogo/provenance.json');assert.ok(provenance.length>166);assert.ok(provenance.every(p=>p.sha256.length===64&&p.url.startsWith('https://')));
 });
 test('search accents and original-source links are handled safely',()=>{
   assert.equal(normalize('Ávila'),normalize('avila'));

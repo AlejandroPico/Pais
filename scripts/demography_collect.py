@@ -21,7 +21,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 CACHE = ROOT / '.cache/f02'
-OUT = ROOT / 'public/data/demography'
+OUT = ROOT / 'datos/poblacion/ine'
 CONFIG = json.loads((ROOT / 'registry/demography-tables.json').read_text(encoding='utf-8'))
 REFRESH = False
 PROVENANCE = []
@@ -104,7 +104,7 @@ def collect_inventory():
 GEO_HEADERS = {'total nacional':'national','provincias':'province','provincia':'province','comunidades y ciudades autonomas':'community','comunidades autonomas':'community','municipios':'municipal','islas':'island','isla':'island','secciones':'section','nacional':'national','provincia de inscripcion':'province'}
 GEO_NAMES = {}
 for level,file in [('province','provinces.geojson'),('community','communities.geojson')]:
-    for f in json.loads((ROOT/'public/data'/file).read_text(encoding='utf-8'))['features']:
+    for f in json.loads((ROOT/'datos/territorio'/file).read_text(encoding='utf-8'))['features']:
         p=f['properties'];GEO_NAMES[level,norm(p['name'])]=p['code']
 # Names published without codes by older tables; only exact official alternatives.
 for name,code in [('Álava','01'),('Araba/Álava','01'),('Alicante/Alacant','03'),('Castellón/Castelló','12'),('Coruña, A','15'),('Girona','17'),('Illes Balears','07'),('Rioja, La','26'),('Palmas, Las','35'),('Valencia/València','46'),('Bizkaia','48'),('Gipuzkoa','20')]:

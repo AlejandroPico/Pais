@@ -6,10 +6,10 @@ import {gunzipSync} from 'node:zlib';
 import {municipalCode,coordinatesExtent,validSpanishCoordinate} from '../src/territory-data.ts';
 import {territoryLayers,sectionEditions,orthophotoEditions,canaryEditions,sectionVectorUrl,wmsTile} from '../src/territory-config.ts';
 const read=p=>JSON.parse(fs.readFileSync(new URL('../'+p,import.meta.url),'utf8'));
-const index=read('public/data/territory/index.json'),manifest=read('public/data/territory/manifest.json');
+const index=read('datos/territorio/index.json'),manifest=read('datos/territorio/manifest.json');
 
 test('every INE municipality joins to an IGN geometry and a real provincial and regional parent',()=>{
-  const provinces=read('public/data/provinces.geojson').features,communities=read('public/data/communities.geojson').features;
+  const provinces=read('datos/territorio/provinces.geojson').features,communities=read('datos/territorio/communities.geojson').features;
   const codes=new Set(index.municipalities.map(m=>m.code));
   assert.equal(codes.size,index.municipalities.length);assert.equal(codes.size,8132);assert.equal(codes.size,manifest.municipalCount);
   assert.equal(index.missingGeometryCodes.length,0);
@@ -24,7 +24,7 @@ test('every INE municipality joins to an IGN geometry and a real provincial and 
 });
 
 test('all imported comarca geometries retain their regional type, code, source and closed rings',()=>{
-  const features=read('public/data/territory/comarcas.geojson').features;
+  const features=read('datos/territorio/comarcas.geojson').features;
   assert.ok(features.length>=190);assert.equal(new Set(features.map(f=>f.id)).size,features.length);
   for(const region of manifest.comarcaCoverage.filter(c=>c.status==='integrado'))assert.equal(features.filter(f=>f.properties.sourceId===region.sourceId).length,region.count,region.territory);
   assert.ok(features.some(f=>f.properties.name==='Lluçanès'));
@@ -62,13 +62,13 @@ test('orthophoto and Canary selectors use all relevant advertised WMS editions',
   const canary=manifest.services.find(s=>s.id==='comarca-canarias').layers;
   assert.deepEqual(orthophotoEditions.map(e=>e.id),orthophoto.map(layer=>layer.name));
   assert.deepEqual(canaryEditions.map(e=>e.id),canary.filter(layer=>!['WMS_CARTO_EST','ALJTUR2015','CME1','CME2'].includes(layer.name)).map(layer=>layer.name));
-  const bierzo=read('public/data/territory/bierzo-boundaries.json');
+  const bierzo=read('datos/territorio/bierzo-boundaries.json');
   assert.equal(new Set(bierzo.boundaries.map(row=>row.code)).size,38);
 });
 
 test('additional official layers preserve exact verified map endpoints',()=>{
-  const checked=read('public/data/territory/official-wms.json').services;
-  const available=read('public/data/territory/official-layers.json').layers;
+  const checked=read('datos/territorio/official-wms.json').services;
+  const available=read('datos/territorio/official-layers.json').layers;
   const verified=checked.flatMap(service=>service.layers.filter(layer=>layer.mapError===null).map(layer=>[service,layer]));
   assert.equal(available.length,verified.length);
   assert.equal(new Set(available.map(layer=>layer.id)).size,available.length);
@@ -88,7 +88,7 @@ test('additional official layers preserve exact verified map endpoints',()=>{
 
 test('municipal layers and local census archives preserve all official polygons',()=>{
   for(const {file,count,id,sha256,geometry,missingFile,missingCount} of [...read('registry/local-territory.json').products,...read('registry/section-archives.json').products]){
-    const raw=fs.readFileSync(new URL('../public/data/territory/'+file,import.meta.url));
+    const raw=fs.readFileSync(new URL('../datos/territorio/'+file,import.meta.url));
     if(sha256)assert.equal(createHash('sha256').update(raw).digest('hex'),sha256,id);
     const {features}=JSON.parse(file.endsWith('.gz')?gunzipSync(raw):raw);
     assert.equal(features.length,count,id);
@@ -98,7 +98,7 @@ test('municipal layers and local census archives preserve all official polygons'
       assert.ok(feature.properties.atlasName,id);
     }
     if(missingFile){
-      const missing=read('public/data/territory/'+missingFile);
+      const missing=read('datos/territorio/'+missingFile);
       assert.equal(missing.length,missingCount);
       assert.ok(missing.every(row=>!row.LAT_ETRS89||!row.LON_ETRS89||Number(row.LAT_ETRS89)===0));
     }
@@ -123,7 +123,7 @@ test('both CNIG editions expose every line and polygon table from their GeoPacka
     assert.equal(edition.reduce((sum,product)=>sum+product.count,0),count);
   }
   for(const {file,count,id,sha256,geometry,layer,period} of products){
-    const raw=fs.readFileSync(new URL('../public/data/territory/'+file,import.meta.url));
+    const raw=fs.readFileSync(new URL('../datos/territorio/'+file,import.meta.url));
     assert.equal(createHash('sha256').update(raw).digest('hex'),sha256,id);
     const {features}=JSON.parse(gunzipSync(raw));
     assert.equal(features.length,count,id);

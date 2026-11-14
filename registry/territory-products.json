@@ -17,7 +17,7 @@
       "mode": "local",
       "notes": "1 recintos oficiales · 16 de mayo de 2024",
       "mapAction": "territory:madrid-municipio",
-      "dataFile": "territory/local/madrid-municipio.geojson",
+      "dataFile": "territorio/local/madrid-municipio.geojson",
       "links": {
         "Descarga original": "https://datos.madrid.es/dataset/900012-0-limites-administrativos-mapas/resource/900012-0-limites-administrativos-mapas/download/900012-0-limites-administrativos-mapas.zip"
       },
@@ -41,7 +41,7 @@
       "mode": "local",
       "notes": "131 recintos oficiales · Delimitación de 2021; denominaciones actualizadas en 2022",
       "mapAction": "territory:madrid-barrios",
-      "dataFile": "territory/local/madrid-barrios.geojson",
+      "dataFile": "territorio/local/madrid-barrios.geojson",
       "links": {
         "Descarga original": "https://datos.madrid.es/dataset/900012-0-limites-administrativos-mapas/resource/900012-6-limites-administrativos-mapas/download/900012-6-limites-administrativos-mapas.zip"
       },
@@ -65,7 +65,7 @@
       "mode": "local",
       "notes": "21 recintos oficiales · Delimitación de 2021",
       "mapAction": "territory:madrid-distritos",
-      "dataFile": "territory/local/madrid-distritos.geojson",
+      "dataFile": "territorio/local/madrid-distritos.geojson",
       "links": {
         "Descarga original": "https://datos.madrid.es/dataset/900012-0-limites-administrativos-mapas/resource/900012-2-limites-administrativos-mapas/download/900012-2-limites-administrativos-mapas.zip"
       },
@@ -89,7 +89,7 @@
       "mode": "local",
       "notes": "2462 recintos oficiales · Junio de 2022",
       "mapAction": "territory:madrid-secciones",
-      "dataFile": "territory/local/madrid-secciones.geojson",
+      "dataFile": "territorio/local/madrid-secciones.geojson",
       "links": {
         "Descarga original": "https://datos.madrid.es/dataset/900012-0-limites-administrativos-mapas/resource/900012-1-limites-administrativos-mapas/download/900012-1-limites-administrativos-mapas.zip"
       },
@@ -113,7 +113,7 @@
       "mode": "local",
       "notes": "1 recintos oficiales · Distribución GeoJSON actualizada el 1 de diciembre de 2021",
       "mapAction": "territory:barcelona-municipio",
-      "dataFile": "territory/local/barcelona-municipio.geojson",
+      "dataFile": "territorio/local/barcelona-municipio.geojson",
       "links": {
         "Descarga original": "https://opendata-ajuntament.barcelona.cat/data/dataset/808daafa-d9ce-48c0-925a-fa5afdb1ed41/resource/cd800462-f326-429f-a67a-c69b7fc4c50a/download"
       },
@@ -137,7 +137,7 @@
       "mode": "local",
       "notes": "10 recintos oficiales · Distribución GeoJSON actualizada el 1 de diciembre de 2021",
       "mapAction": "territory:barcelona-distritos",
-      "dataFile": "territory/local/barcelona-distritos.geojson",
+      "dataFile": "territorio/local/barcelona-distritos.geojson",
       "links": {
         "Descarga original": "https://opendata-ajuntament.barcelona.cat/data/dataset/808daafa-d9ce-48c0-925a-fa5afdb1ed41/resource/cd800462-f326-429f-a67a-c69b7fc4c50a/download"
       },
@@ -161,7 +161,7 @@
       "mode": "local",
       "notes": "73 recintos oficiales · Distribución GeoJSON actualizada el 1 de diciembre de 2021",
       "mapAction": "territory:barcelona-barrios",
-      "dataFile": "territory/local/barcelona-barrios.geojson",
+      "dataFile": "territorio/local/barcelona-barrios.geojson",
       "links": {
         "Descarga original": "https://opendata-ajuntament.barcelona.cat/data/dataset/808daafa-d9ce-48c0-925a-fa5afdb1ed41/resource/cd800462-f326-429f-a67a-c69b7fc4c50a/download"
       },
@@ -185,7 +185,7 @@
       "mode": "local",
       "notes": "233 recintos oficiales · Distribución GeoJSON actualizada el 1 de diciembre de 2021",
       "mapAction": "territory:barcelona-areas",
-      "dataFile": "territory/local/barcelona-areas.geojson",
+      "dataFile": "territorio/local/barcelona-areas.geojson",
       "links": {
         "Descarga original": "https://opendata-ajuntament.barcelona.cat/data/dataset/808daafa-d9ce-48c0-925a-fa5afdb1ed41/resource/cd800462-f326-429f-a67a-c69b7fc4c50a/download"
       },
@@ -209,7 +209,7 @@
       "mode": "local",
       "notes": "1068 recintos oficiales · Distribución GeoJSON actualizada el 1 de diciembre de 2021",
       "mapAction": "territory:barcelona-secciones",
-      "dataFile": "territory/local/barcelona-secciones.geojson",
+      "dataFile": "territorio/local/barcelona-secciones.geojson",
       "links": {
         "Descarga original": "https://opendata-ajuntament.barcelona.cat/data/dataset/808daafa-d9ce-48c0-925a-fa5afdb1ed41/resource/cd800462-f326-429f-a67a-c69b7fc4c50a/download"
       },
@@ -233,7 +233,7 @@
       "mode": "local",
       "notes": "40 recintos oficiales · Distribución GeoJSON actualizada el 1 de diciembre de 2021",
       "mapAction": "territory:barcelona-grandes-barrios",
-      "dataFile": "territory/local/barcelona-grandes-barrios.geojson",
+      "dataFile": "territorio/local/barcelona-grandes-barrios.geojson",
       "links": {
         "Descarga original": "https://opendata-ajuntament.barcelona.cat/data/dataset/808daafa-d9ce-48c0-925a-fa5afdb1ed41/resource/cd800462-f326-429f-a67a-c69b7fc4c50a/download"
       },
@@ -257,7 +257,7 @@
       "mode": "local",
       "notes": "74 recintos oficiales · Distribución GeoJSON actualizada el 1 de diciembre de 2021",
       "mapAction": "territory:barcelona-urban-audit",
-      "dataFile": "territory/local/barcelona-urban-audit.geojson",
+      "dataFile": "territorio/local/barcelona-urban-audit.geojson",
       "links": {
         "Descarga original": "https://opendata-ajuntament.barcelona.cat/data/dataset/808daafa-d9ce-48c0-925a-fa5afdb1ed41/resource/cd800462-f326-429f-a67a-c69b7fc4c50a/download"
       },
@@ -281,7 +281,7 @@
       "mode": "local",
       "notes": "2 recintos oficiales · Distribución GeoJSON actualizada el 1 de diciembre de 2021",
       "mapAction": "territory:barcelona-interes",
-      "dataFile": "territory/local/barcelona-interes.geojson",
+      "dataFile": "territorio/local/barcelona-interes.geojson",
       "links": {
         "Descarga original": "https://opendata-ajuntament.barcelona.cat/data/dataset/808daafa-d9ce-48c0-925a-fa5afdb1ed41/resource/cd800462-f326-429f-a67a-c69b7fc4c50a/download"
       },
@@ -305,7 +305,7 @@
       "mode": "local",
       "notes": "88 recintos oficiales · Catálogo de marzo de 2026",
       "mapAction": "territory:valencia-barrios",
-      "dataFile": "territory/local/valencia-barrios.geojson",
+      "dataFile": "territorio/local/valencia-barrios.geojson",
       "links": {
         "Descarga original": "https://geoportal.valencia.es/server/rest/services/OPENDATA/UrbanismoEInfraestructuras/MapServer/224/query?where=1%3D1&outFields=%2A&f=geojson"
       },
@@ -329,7 +329,7 @@
       "mode": "local",
       "notes": "22 recintos oficiales · Catálogo de marzo de 2026",
       "mapAction": "territory:valencia-distritos",
-      "dataFile": "territory/local/valencia-distritos.geojson",
+      "dataFile": "territorio/local/valencia-distritos.geojson",
       "links": {
         "Descarga original": "https://geoportal.valencia.es/server/rest/services/OPENDATA/UrbanismoEInfraestructuras/MapServer/225/query?where=1%3D1&outFields=%2A&f=geojson"
       },
@@ -353,7 +353,7 @@
       "mode": "local",
       "notes": "419 recintos oficiales · Captura del 14/11/2026",
       "mapAction": "territory:malaga-barrios",
-      "dataFile": "territory/local/malaga-barrios.geojson",
+      "dataFile": "territorio/local/malaga-barrios.geojson",
       "links": {
         "Descarga original": "https://datosabiertos.malaga.eu/recursos/urbanismoEInfraestructura/planimetria/callejero/da_cartografiaBarrio-4326.geojson"
       },
@@ -377,7 +377,7 @@
       "mode": "local",
       "notes": "11 recintos oficiales · Captura del 14/11/2026",
       "mapAction": "territory:malaga-distritos",
-      "dataFile": "territory/local/malaga-distritos.geojson",
+      "dataFile": "territorio/local/malaga-distritos.geojson",
       "links": {
         "Descarga original": "https://datosabiertos.malaga.eu/recursos/urbanismoEInfraestructura/planimetria/callejero/da_cartografiaDistritoMunicipal-4326.geojson"
       },
@@ -401,7 +401,7 @@
       "mode": "local",
       "notes": "16 recintos oficiales · Captura del 14/11/2026",
       "mapAction": "territory:zaragoza-distritos",
-      "dataFile": "territory/local/zaragoza-distritos.geojson",
+      "dataFile": "territorio/local/zaragoza-distritos.geojson",
       "links": {
         "Descarga original": "https://idezar-sig.zaragoza.es/servicios/geoserver/urbanismo/wfs?REQUEST=GetFeature&SERVICE=WFS&VERSION=2.0.0&outputFormat=application%2Fjson&typeName=urbanismo%3ADistritos_Municipales&srsName=EPSG%3A4326"
       },
@@ -425,7 +425,7 @@
       "mode": "local",
       "notes": "29 recintos oficiales · Captura del 14/11/2026",
       "mapAction": "territory:zaragoza-juntas",
-      "dataFile": "territory/local/zaragoza-juntas.geojson",
+      "dataFile": "territorio/local/zaragoza-juntas.geojson",
       "links": {
         "Descarga original": "https://idezar-sig.zaragoza.es/servicios/geoserver/urbanismo/wfs?REQUEST=GetFeature&SERVICE=WFS&VERSION=2.0.0&outputFormat=application%2Fjson&typeName=urbanismo%3AJuntas_Municipales_Vecinales&srsName=EPSG%3A4326"
       },
@@ -449,7 +449,7 @@
       "mode": "local",
       "notes": "46 recintos oficiales · 12 de junio de 2026",
       "mapAction": "territory:zaragoza-unidades",
-      "dataFile": "territory/local/zaragoza-unidades.geojson",
+      "dataFile": "territorio/local/zaragoza-unidades.geojson",
       "links": {
         "Descarga original": "https://idezar-sig.zaragoza.es/servicios/geoserver/au/wfs?REQUEST=GetFeature&SERVICE=WFS&VERSION=2.0.0&outputFormat=application%2Fjson&typeName=au%3AAdministrativeUnit&srsName=EPSG%3A4326"
       },
@@ -473,7 +473,7 @@
       "mode": "local",
       "notes": "859 recintos oficiales · Captura del 14/11/2026",
       "mapAction": "territory:asturias-parroquias",
-      "dataFile": "territory/local/asturias-parroquias.geojson",
+      "dataFile": "territorio/local/asturias-parroquias.geojson",
       "links": {
         "Descarga original": "https://sig.asturias.es/servicios/rest/services/Visor/CartografiaBase/MapServer/18/query?where=1%3D1&outFields=%2A&outSR=4326&f=geojson"
       },
@@ -497,7 +497,7 @@
       "mode": "local",
       "notes": "50.952 portales oficiales · Captura del 14/11/2026",
       "mapAction": "territory:araba-portales",
-      "dataFile": "territory/local/araba-portales.geojson.gz",
+      "dataFile": "territorio/local/araba-portales.geojson.gz",
       "links": {
         "Descarga original": "https://www.eustat.eus/comun/ExtractorBlob.ashx?id=01_Atariak_Portales.csv"
       },
@@ -522,7 +522,7 @@
       "mode": "local",
       "notes": "35.776 recintos oficiales · 2003",
       "mapAction": "territory:archive-sections-2003",
-      "dataFile": "territory/local/secciones-2003.geojson.gz",
+      "dataFile": "territorio/local/secciones-2003.geojson.gz",
       "links": {
         "Descarga original": "https://www.ine.es/prodyser/cartografia/seccionado_2003.zip"
       },
@@ -546,7 +546,7 @@
       "mode": "local",
       "notes": "35.957 recintos oficiales · 2004",
       "mapAction": "territory:archive-sections-2004",
-      "dataFile": "territory/local/secciones-2004.geojson.gz",
+      "dataFile": "territorio/local/secciones-2004.geojson.gz",
       "links": {
         "Descarga original": "https://www.ine.es/prodyser/cartografia/seccionado_2004.zip"
       },
@@ -570,7 +570,7 @@
       "mode": "local",
       "notes": "36.117 recintos oficiales · 2005",
       "mapAction": "territory:archive-sections-2005",
-      "dataFile": "territory/local/secciones-2005.geojson.gz",
+      "dataFile": "territorio/local/secciones-2005.geojson.gz",
       "links": {
         "Descarga original": "https://www.ine.es/prodyser/cartografia/seccionado_2005.zip"
       },
@@ -594,7 +594,7 @@
       "mode": "local",
       "notes": "36.596 recintos oficiales · 2006",
       "mapAction": "territory:archive-sections-2006",
-      "dataFile": "territory/local/secciones-2006.geojson.gz",
+      "dataFile": "territorio/local/secciones-2006.geojson.gz",
       "links": {
         "Descarga original": "https://www.ine.es/prodyser/cartografia/seccionado_2006.zip"
       },
@@ -618,7 +618,7 @@
       "mode": "local",
       "notes": "11.510 trazados oficiales · 2023-01-01",
       "mapAction": "territory:cnig-2023-ll-municipales-histo-peninbal",
-      "dataFile": "territory/local/cnig-2023-ll-municipales-histo-peninbal.geojson.gz",
+      "dataFile": "territorio/local/cnig-2023-ll-municipales-histo-peninbal.geojson.gz",
       "links": {
         "Descarga original": "https://centrodedescargas.cnig.es/CentroDescargas/detalleArchivo?sec=12969663"
       },
@@ -644,7 +644,7 @@
       "mode": "local",
       "notes": "1050 trazados oficiales · 2023-01-01",
       "mapAction": "territory:cnig-2023-ll-municipales-histo-canarias",
-      "dataFile": "territory/local/cnig-2023-ll-municipales-histo-canarias.geojson.gz",
+      "dataFile": "territorio/local/cnig-2023-ll-municipales-histo-canarias.geojson.gz",
       "links": {
         "Descarga original": "https://centrodedescargas.cnig.es/CentroDescargas/detalleArchivo?sec=12969663"
       },
@@ -670,7 +670,7 @@
       "mode": "local",
       "notes": "30.874 trazados oficiales · 2023-01-01",
       "mapAction": "territory:cnig-2023-ll-municipales-peninbal",
-      "dataFile": "territory/local/cnig-2023-ll-municipales-peninbal.geojson.gz",
+      "dataFile": "territorio/local/cnig-2023-ll-municipales-peninbal.geojson.gz",
       "links": {
         "Descarga original": "https://centrodedescargas.cnig.es/CentroDescargas/detalleArchivo?sec=12969663"
       },
@@ -696,7 +696,7 @@
       "mode": "local",
       "notes": "1340 trazados oficiales · 2023-01-01",
       "mapAction": "territory:cnig-2023-ll-municipales-canarias",
-      "dataFile": "territory/local/cnig-2023-ll-municipales-canarias.geojson.gz",
+      "dataFile": "territorio/local/cnig-2023-ll-municipales-canarias.geojson.gz",
       "links": {
         "Descarga original": "https://centrodedescargas.cnig.es/CentroDescargas/detalleArchivo?sec=12969663"
       },
@@ -722,7 +722,7 @@
       "mode": "local",
       "notes": "4263 trazados oficiales · 2023-01-01",
       "mapAction": "territory:cnig-2023-ll-provinciales-peninbal",
-      "dataFile": "territory/local/cnig-2023-ll-provinciales-peninbal.geojson.gz",
+      "dataFile": "territorio/local/cnig-2023-ll-provinciales-peninbal.geojson.gz",
       "links": {
         "Descarga original": "https://centrodedescargas.cnig.es/CentroDescargas/detalleArchivo?sec=12969663"
       },
@@ -748,7 +748,7 @@
       "mode": "local",
       "notes": "1074 trazados oficiales · 2023-01-01",
       "mapAction": "territory:cnig-2023-ll-provinciales-canarias",
-      "dataFile": "territory/local/cnig-2023-ll-provinciales-canarias.geojson.gz",
+      "dataFile": "territorio/local/cnig-2023-ll-provinciales-canarias.geojson.gz",
       "links": {
         "Descarga original": "https://centrodedescargas.cnig.es/CentroDescargas/detalleArchivo?sec=12969663"
       },
@@ -774,7 +774,7 @@
       "mode": "local",
       "notes": "4144 trazados oficiales · 2023-01-01",
       "mapAction": "territory:cnig-2023-ll-autonomicas-peninbal",
-      "dataFile": "territory/local/cnig-2023-ll-autonomicas-peninbal.geojson.gz",
+      "dataFile": "territorio/local/cnig-2023-ll-autonomicas-peninbal.geojson.gz",
       "links": {
         "Descarga original": "https://centrodedescargas.cnig.es/CentroDescargas/detalleArchivo?sec=12969663"
       },
@@ -800,7 +800,7 @@
       "mode": "local",
       "notes": "1074 trazados oficiales · 2023-01-01",
       "mapAction": "territory:cnig-2023-ll-autonomicas-canarias",
-      "dataFile": "territory/local/cnig-2023-ll-autonomicas-canarias.geojson.gz",
+      "dataFile": "territorio/local/cnig-2023-ll-autonomicas-canarias.geojson.gz",
       "links": {
         "Descarga original": "https://centrodedescargas.cnig.es/CentroDescargas/detalleArchivo?sec=12969663"
       },
@@ -826,7 +826,7 @@
       "mode": "local",
       "notes": "8136 recintos oficiales · 2023-01-01",
       "mapAction": "territory:cnig-2023-recintos-municipales-peninbal",
-      "dataFile": "territory/local/cnig-2023-recintos-municipales-peninbal.geojson.gz",
+      "dataFile": "territorio/local/cnig-2023-recintos-municipales-peninbal.geojson.gz",
       "links": {
         "Descarga original": "https://centrodedescargas.cnig.es/CentroDescargas/detalleArchivo?sec=12969663"
       },
@@ -852,7 +852,7 @@
       "mode": "local",
       "notes": "88 recintos oficiales · 2023-01-01",
       "mapAction": "territory:cnig-2023-recintos-municipales-canarias",
-      "dataFile": "territory/local/cnig-2023-recintos-municipales-canarias.geojson.gz",
+      "dataFile": "territorio/local/cnig-2023-recintos-municipales-canarias.geojson.gz",
       "links": {
         "Descarga original": "https://centrodedescargas.cnig.es/CentroDescargas/detalleArchivo?sec=12969663"
       },
@@ -878,7 +878,7 @@
       "mode": "local",
       "notes": "51 recintos oficiales · 2023-01-01",
       "mapAction": "territory:cnig-2023-recintos-provinciales-peninbal",
-      "dataFile": "territory/local/cnig-2023-recintos-provinciales-peninbal.geojson.gz",
+      "dataFile": "territorio/local/cnig-2023-recintos-provinciales-peninbal.geojson.gz",
       "links": {
         "Descarga original": "https://centrodedescargas.cnig.es/CentroDescargas/detalleArchivo?sec=12969663"
       },
@@ -904,7 +904,7 @@
       "mode": "local",
       "notes": "2 recintos oficiales · 2023-01-01",
       "mapAction": "territory:cnig-2023-recintos-provinciales-canarias",
-      "dataFile": "territory/local/cnig-2023-recintos-provinciales-canarias.geojson.gz",
+      "dataFile": "territorio/local/cnig-2023-recintos-provinciales-canarias.geojson.gz",
       "links": {
         "Descarga original": "https://centrodedescargas.cnig.es/CentroDescargas/detalleArchivo?sec=12969663"
       },
@@ -930,7 +930,7 @@
       "mode": "local",
       "notes": "19 recintos oficiales · 2023-01-01",
       "mapAction": "territory:cnig-2023-recintos-autonomicas-peninbal",
-      "dataFile": "territory/local/cnig-2023-recintos-autonomicas-peninbal.geojson.gz",
+      "dataFile": "territorio/local/cnig-2023-recintos-autonomicas-peninbal.geojson.gz",
       "links": {
         "Descarga original": "https://centrodedescargas.cnig.es/CentroDescargas/detalleArchivo?sec=12969663"
       },
@@ -956,7 +956,7 @@
       "mode": "local",
       "notes": "1 recintos oficiales · 2023-01-01",
       "mapAction": "territory:cnig-2023-recintos-autonomicas-canarias",
-      "dataFile": "territory/local/cnig-2023-recintos-autonomicas-canarias.geojson.gz",
+      "dataFile": "territorio/local/cnig-2023-recintos-autonomicas-canarias.geojson.gz",
       "links": {
         "Descarga original": "https://centrodedescargas.cnig.es/CentroDescargas/detalleArchivo?sec=12969663"
       },
@@ -982,7 +982,7 @@
       "mode": "local",
       "notes": "12.486 trazados oficiales · 2024-01-01",
       "mapAction": "territory:cnig-2024-ll-municipales-histo-peninbal",
-      "dataFile": "territory/local/cnig-2024-ll-municipales-histo-peninbal.geojson.gz",
+      "dataFile": "territorio/local/cnig-2024-ll-municipales-histo-peninbal.geojson.gz",
       "links": {
         "Descarga original": "https://centrodedescargas.cnig.es/CentroDescargas/detalleArchivo?sec=12969664"
       },
@@ -1008,7 +1008,7 @@
       "mode": "local",
       "notes": "1050 trazados oficiales · 2024-01-01",
       "mapAction": "territory:cnig-2024-ll-municipales-histo-canarias",
-      "dataFile": "territory/local/cnig-2024-ll-municipales-histo-canarias.geojson.gz",
+      "dataFile": "territorio/local/cnig-2024-ll-municipales-histo-canarias.geojson.gz",
       "links": {
         "Descarga original": "https://centrodedescargas.cnig.es/CentroDescargas/detalleArchivo?sec=12969664"
       },
@@ -1034,7 +1034,7 @@
       "mode": "local",
       "notes": "30.923 trazados oficiales · 2024-01-01",
       "mapAction": "territory:cnig-2024-ll-municipales-peninbal",
-      "dataFile": "territory/local/cnig-2024-ll-municipales-peninbal.geojson.gz",
+      "dataFile": "territorio/local/cnig-2024-ll-municipales-peninbal.geojson.gz",
       "links": {
         "Descarga original": "https://centrodedescargas.cnig.es/CentroDescargas/detalleArchivo?sec=12969664"
       },
@@ -1060,7 +1060,7 @@
       "mode": "local",
       "notes": "1340 trazados oficiales · 2024-01-01",
       "mapAction": "territory:cnig-2024-ll-municipales-canarias",
-      "dataFile": "territory/local/cnig-2024-ll-municipales-canarias.geojson.gz",
+      "dataFile": "territorio/local/cnig-2024-ll-municipales-canarias.geojson.gz",
       "links": {
         "Descarga original": "https://centrodedescargas.cnig.es/CentroDescargas/detalleArchivo?sec=12969664"
       },
@@ -1086,7 +1086,7 @@
       "mode": "local",
       "notes": "4263 trazados oficiales · 2024-01-01",
       "mapAction": "territory:cnig-2024-ll-provinciales-peninbal",
-      "dataFile": "territory/local/cnig-2024-ll-provinciales-peninbal.geojson.gz",
+      "dataFile": "territorio/local/cnig-2024-ll-provinciales-peninbal.geojson.gz",
       "links": {
         "Descarga original": "https://centrodedescargas.cnig.es/CentroDescargas/detalleArchivo?sec=12969664"
       },
@@ -1112,7 +1112,7 @@
       "mode": "local",
       "notes": "1074 trazados oficiales · 2024-01-01",
       "mapAction": "territory:cnig-2024-ll-provinciales-canarias",
-      "dataFile": "territory/local/cnig-2024-ll-provinciales-canarias.geojson.gz",
+      "dataFile": "territorio/local/cnig-2024-ll-provinciales-canarias.geojson.gz",
       "links": {
         "Descarga original": "https://centrodedescargas.cnig.es/CentroDescargas/detalleArchivo?sec=12969664"
       },
@@ -1138,7 +1138,7 @@
       "mode": "local",
       "notes": "4144 trazados oficiales · 2024-01-01",
       "mapAction": "territory:cnig-2024-ll-autonomicas-peninbal",
-      "dataFile": "territory/local/cnig-2024-ll-autonomicas-peninbal.geojson.gz",
+      "dataFile": "territorio/local/cnig-2024-ll-autonomicas-peninbal.geojson.gz",
       "links": {
         "Descarga original": "https://centrodedescargas.cnig.es/CentroDescargas/detalleArchivo?sec=12969664"
       },
@@ -1164,7 +1164,7 @@
       "mode": "local",
       "notes": "1074 trazados oficiales · 2024-01-01",
       "mapAction": "territory:cnig-2024-ll-autonomicas-canarias",
-      "dataFile": "territory/local/cnig-2024-ll-autonomicas-canarias.geojson.gz",
+      "dataFile": "territorio/local/cnig-2024-ll-autonomicas-canarias.geojson.gz",
       "links": {
         "Descarga original": "https://centrodedescargas.cnig.es/CentroDescargas/detalleArchivo?sec=12969664"
       },
@@ -1190,7 +1190,7 @@
       "mode": "local",
       "notes": "8130 recintos oficiales · 2024-01-01",
       "mapAction": "territory:cnig-2024-recintos-municipales-peninbal",
-      "dataFile": "territory/local/cnig-2024-recintos-municipales-peninbal.geojson.gz",
+      "dataFile": "territorio/local/cnig-2024-recintos-municipales-peninbal.geojson.gz",
       "links": {
         "Descarga original": "https://centrodedescargas.cnig.es/CentroDescargas/detalleArchivo?sec=12969664"
       },
@@ -1216,7 +1216,7 @@
       "mode": "local",
       "notes": "88 recintos oficiales · 2024-01-01",
       "mapAction": "territory:cnig-2024-recintos-municipales-canarias",
-      "dataFile": "territory/local/cnig-2024-recintos-municipales-canarias.geojson.gz",
+      "dataFile": "territorio/local/cnig-2024-recintos-municipales-canarias.geojson.gz",
       "links": {
         "Descarga original": "https://centrodedescargas.cnig.es/CentroDescargas/detalleArchivo?sec=12969664"
       },
@@ -1242,7 +1242,7 @@
       "mode": "local",
       "notes": "52 recintos oficiales · 2024-01-01",
       "mapAction": "territory:cnig-2024-recintos-provinciales-peninbal",
-      "dataFile": "territory/local/cnig-2024-recintos-provinciales-peninbal.geojson.gz",
+      "dataFile": "territorio/local/cnig-2024-recintos-provinciales-peninbal.geojson.gz",
       "links": {
         "Descarga original": "https://centrodedescargas.cnig.es/CentroDescargas/detalleArchivo?sec=12969664"
       },
@@ -1268,7 +1268,7 @@
       "mode": "local",
       "notes": "2 recintos oficiales · 2024-01-01",
       "mapAction": "territory:cnig-2024-recintos-provinciales-canarias",
-      "dataFile": "territory/local/cnig-2024-recintos-provinciales-canarias.geojson.gz",
+      "dataFile": "territorio/local/cnig-2024-recintos-provinciales-canarias.geojson.gz",
       "links": {
         "Descarga original": "https://centrodedescargas.cnig.es/CentroDescargas/detalleArchivo?sec=12969664"
       },
@@ -1294,7 +1294,7 @@
       "mode": "local",
       "notes": "20 recintos oficiales · 2024-01-01",
       "mapAction": "territory:cnig-2024-recintos-autonomicas-peninbal",
-      "dataFile": "territory/local/cnig-2024-recintos-autonomicas-peninbal.geojson.gz",
+      "dataFile": "territorio/local/cnig-2024-recintos-autonomicas-peninbal.geojson.gz",
       "links": {
         "Descarga original": "https://centrodedescargas.cnig.es/CentroDescargas/detalleArchivo?sec=12969664"
       },
@@ -1320,7 +1320,7 @@
       "mode": "local",
       "notes": "1 recintos oficiales · 2024-01-01",
       "mapAction": "territory:cnig-2024-recintos-autonomicas-canarias",
-      "dataFile": "territory/local/cnig-2024-recintos-autonomicas-canarias.geojson.gz",
+      "dataFile": "territorio/local/cnig-2024-recintos-autonomicas-canarias.geojson.gz",
       "links": {
         "Descarga original": "https://centrodedescargas.cnig.es/CentroDescargas/detalleArchivo?sec=12969664"
       },
@@ -1366,7 +1366,7 @@
       "mode": "local",
       "notes": "Aragón, Cataluña, Navarra, Comunitat Valenciana, Galicia, Euskadi y El Bierzo. Tipología y procedencia conservadas por entidad; cobertura ampliable.",
       "mapAction": "territory:comarcas",
-      "dataFile": "territory/comarcas.geojson",
+      "dataFile": "territorio/comarcas.geojson",
       "fields": {
         "Detalle visible": "Desde zoom 6",
         "Fecha de revisión": "2026-11-14"
@@ -1986,7 +1986,7 @@
       "period": "Relación municipal a 2026-01-01. El fichero insular conserva sus rótulos de origen.",
       "license": "CC BY 4.0 · INE",
       "mode": "local",
-      "dataFile": "territory/index.json",
+      "dataFile": "territorio/index.json",
       "mapAction": "search:addresses",
       "notes": "La correspondencia IGN preserva 81 áreas adicionales fuera del catálogo municipal. No se convierten en municipios."
     },
@@ -2022,7 +2022,7 @@
       },
       "license": "CC BY 4.0 · INE",
       "mode": "local",
-      "dataFile": "territory/municipal-changes.json",
+      "dataFile": "territorio/municipal-changes.json",
       "mapAction": "municipal-changes",
       "notes": "Ediciones oficiales consultables por año. Se conserva la estructura de cada publicación."
     },
@@ -27189,7 +27189,7 @@
       "mode": "local",
       "notes": "36.596 recintos oficiales · 2006",
       "mapAction": "territory:archive-sections-2006",
-      "dataFile": "territory/local/secciones-2006.geojson.gz",
+      "dataFile": "territorio/local/secciones-2006.geojson.gz",
       "links": {
         "Descarga original": "https://www.ine.es/prodyser/cartografia/seccionado_2006.zip"
       },
@@ -27218,7 +27218,7 @@
       "mode": "local",
       "notes": "36.117 recintos oficiales · 2005",
       "mapAction": "territory:archive-sections-2005",
-      "dataFile": "territory/local/secciones-2005.geojson.gz",
+      "dataFile": "territorio/local/secciones-2005.geojson.gz",
       "links": {
         "Descarga original": "https://www.ine.es/prodyser/cartografia/seccionado_2005.zip"
       },
@@ -27247,7 +27247,7 @@
       "mode": "local",
       "notes": "35.957 recintos oficiales · 2004",
       "mapAction": "territory:archive-sections-2004",
-      "dataFile": "territory/local/secciones-2004.geojson.gz",
+      "dataFile": "territorio/local/secciones-2004.geojson.gz",
       "links": {
         "Descarga original": "https://www.ine.es/prodyser/cartografia/seccionado_2004.zip"
       },
@@ -27276,7 +27276,7 @@
       "mode": "local",
       "notes": "35.776 recintos oficiales · 2003",
       "mapAction": "territory:archive-sections-2003",
-      "dataFile": "territory/local/secciones-2003.geojson.gz",
+      "dataFile": "territorio/local/secciones-2003.geojson.gz",
       "links": {
         "Descarga original": "https://www.ine.es/prodyser/cartografia/seccionado_2003.zip"
       },
@@ -27305,7 +27305,7 @@
       "mode": "local",
       "notes": "11.510 trazados oficiales · 2023-01-01",
       "mapAction": "territory:cnig-2023-ll-municipales-histo-peninbal",
-      "dataFile": "territory/local/cnig-2023-ll-municipales-histo-peninbal.geojson.gz",
+      "dataFile": "territorio/local/cnig-2023-ll-municipales-histo-peninbal.geojson.gz",
       "links": {
         "Descarga original": "https://centrodedescargas.cnig.es/CentroDescargas/detalleArchivo?sec=12969663"
       },
@@ -27336,7 +27336,7 @@
       "mode": "local",
       "notes": "1050 trazados oficiales · 2023-01-01",
       "mapAction": "territory:cnig-2023-ll-municipales-histo-canarias",
-      "dataFile": "territory/local/cnig-2023-ll-municipales-histo-canarias.geojson.gz",
+      "dataFile": "territorio/local/cnig-2023-ll-municipales-histo-canarias.geojson.gz",
       "links": {
         "Descarga original": "https://centrodedescargas.cnig.es/CentroDescargas/detalleArchivo?sec=12969663"
       },
@@ -27367,7 +27367,7 @@
       "mode": "local",
       "notes": "30.874 trazados oficiales · 2023-01-01",
       "mapAction": "territory:cnig-2023-ll-municipales-peninbal",
-      "dataFile": "territory/local/cnig-2023-ll-municipales-peninbal.geojson.gz",
+      "dataFile": "territorio/local/cnig-2023-ll-municipales-peninbal.geojson.gz",
       "links": {
         "Descarga original": "https://centrodedescargas.cnig.es/CentroDescargas/detalleArchivo?sec=12969663"
       },
@@ -27398,7 +27398,7 @@
       "mode": "local",
       "notes": "1340 trazados oficiales · 2023-01-01",
       "mapAction": "territory:cnig-2023-ll-municipales-canarias",
-      "dataFile": "territory/local/cnig-2023-ll-municipales-canarias.geojson.gz",
+      "dataFile": "territorio/local/cnig-2023-ll-municipales-canarias.geojson.gz",
       "links": {
         "Descarga original": "https://centrodedescargas.cnig.es/CentroDescargas/detalleArchivo?sec=12969663"
       },
@@ -27429,7 +27429,7 @@
       "mode": "local",
       "notes": "4263 trazados oficiales · 2023-01-01",
       "mapAction": "territory:cnig-2023-ll-provinciales-peninbal",
-      "dataFile": "territory/local/cnig-2023-ll-provinciales-peninbal.geojson.gz",
+      "dataFile": "territorio/local/cnig-2023-ll-provinciales-peninbal.geojson.gz",
       "links": {
         "Descarga original": "https://centrodedescargas.cnig.es/CentroDescargas/detalleArchivo?sec=12969663"
       },
@@ -27460,7 +27460,7 @@
       "mode": "local",
       "notes": "1074 trazados oficiales · 2023-01-01",
       "mapAction": "territory:cnig-2023-ll-provinciales-canarias",
-      "dataFile": "territory/local/cnig-2023-ll-provinciales-canarias.geojson.gz",
+      "dataFile": "territorio/local/cnig-2023-ll-provinciales-canarias.geojson.gz",
       "links": {
         "Descarga original": "https://centrodedescargas.cnig.es/CentroDescargas/detalleArchivo?sec=12969663"
       },
@@ -27491,7 +27491,7 @@
       "mode": "local",
       "notes": "4144 trazados oficiales · 2023-01-01",
       "mapAction": "territory:cnig-2023-ll-autonomicas-peninbal",
-      "dataFile": "territory/local/cnig-2023-ll-autonomicas-peninbal.geojson.gz",
+      "dataFile": "territorio/local/cnig-2023-ll-autonomicas-peninbal.geojson.gz",
       "links": {
         "Descarga original": "https://centrodedescargas.cnig.es/CentroDescargas/detalleArchivo?sec=12969663"
       },
@@ -27522,7 +27522,7 @@
       "mode": "local",
       "notes": "1074 trazados oficiales · 2023-01-01",
       "mapAction": "territory:cnig-2023-ll-autonomicas-canarias",
-      "dataFile": "territory/local/cnig-2023-ll-autonomicas-canarias.geojson.gz",
+      "dataFile": "territorio/local/cnig-2023-ll-autonomicas-canarias.geojson.gz",
       "links": {
         "Descarga original": "https://centrodedescargas.cnig.es/CentroDescargas/detalleArchivo?sec=12969663"
       },
@@ -27553,7 +27553,7 @@
       "mode": "local",
       "notes": "8136 recintos oficiales · 2023-01-01",
       "mapAction": "territory:cnig-2023-recintos-municipales-peninbal",
-      "dataFile": "territory/local/cnig-2023-recintos-municipales-peninbal.geojson.gz",
+      "dataFile": "territorio/local/cnig-2023-recintos-municipales-peninbal.geojson.gz",
       "links": {
         "Descarga original": "https://centrodedescargas.cnig.es/CentroDescargas/detalleArchivo?sec=12969663"
       },
@@ -27584,7 +27584,7 @@
       "mode": "local",
       "notes": "88 recintos oficiales · 2023-01-01",
       "mapAction": "territory:cnig-2023-recintos-municipales-canarias",
-      "dataFile": "territory/local/cnig-2023-recintos-municipales-canarias.geojson.gz",
+      "dataFile": "territorio/local/cnig-2023-recintos-municipales-canarias.geojson.gz",
       "links": {
         "Descarga original": "https://centrodedescargas.cnig.es/CentroDescargas/detalleArchivo?sec=12969663"
       },
@@ -27615,7 +27615,7 @@
       "mode": "local",
       "notes": "51 recintos oficiales · 2023-01-01",
       "mapAction": "territory:cnig-2023-recintos-provinciales-peninbal",
-      "dataFile": "territory/local/cnig-2023-recintos-provinciales-peninbal.geojson.gz",
+      "dataFile": "territorio/local/cnig-2023-recintos-provinciales-peninbal.geojson.gz",
       "links": {
         "Descarga original": "https://centrodedescargas.cnig.es/CentroDescargas/detalleArchivo?sec=12969663"
       },
@@ -27646,7 +27646,7 @@
       "mode": "local",
       "notes": "2 recintos oficiales · 2023-01-01",
       "mapAction": "territory:cnig-2023-recintos-provinciales-canarias",
-      "dataFile": "territory/local/cnig-2023-recintos-provinciales-canarias.geojson.gz",
+      "dataFile": "territorio/local/cnig-2023-recintos-provinciales-canarias.geojson.gz",
       "links": {
         "Descarga original": "https://centrodedescargas.cnig.es/CentroDescargas/detalleArchivo?sec=12969663"
       },
@@ -27677,7 +27677,7 @@
       "mode": "local",
       "notes": "19 recintos oficiales · 2023-01-01",
       "mapAction": "territory:cnig-2023-recintos-autonomicas-peninbal",
-      "dataFile": "territory/local/cnig-2023-recintos-autonomicas-peninbal.geojson.gz",
+      "dataFile": "territorio/local/cnig-2023-recintos-autonomicas-peninbal.geojson.gz",
       "links": {
         "Descarga original": "https://centrodedescargas.cnig.es/CentroDescargas/detalleArchivo?sec=12969663"
       },
@@ -27708,7 +27708,7 @@
       "mode": "local",
       "notes": "1 recintos oficiales · 2023-01-01",
       "mapAction": "territory:cnig-2023-recintos-autonomicas-canarias",
-      "dataFile": "territory/local/cnig-2023-recintos-autonomicas-canarias.geojson.gz",
+      "dataFile": "territorio/local/cnig-2023-recintos-autonomicas-canarias.geojson.gz",
       "links": {
         "Descarga original": "https://centrodedescargas.cnig.es/CentroDescargas/detalleArchivo?sec=12969663"
       },
@@ -27739,7 +27739,7 @@
       "mode": "local",
       "notes": "12.486 trazados oficiales · 2024-01-01",
       "mapAction": "territory:cnig-2024-ll-municipales-histo-peninbal",
-      "dataFile": "territory/local/cnig-2024-ll-municipales-histo-peninbal.geojson.gz",
+      "dataFile": "territorio/local/cnig-2024-ll-municipales-histo-peninbal.geojson.gz",
       "links": {
         "Descarga original": "https://centrodedescargas.cnig.es/CentroDescargas/detalleArchivo?sec=12969664"
       },
@@ -27770,7 +27770,7 @@
       "mode": "local",
       "notes": "1050 trazados oficiales · 2024-01-01",
       "mapAction": "territory:cnig-2024-ll-municipales-histo-canarias",
-      "dataFile": "territory/local/cnig-2024-ll-municipales-histo-canarias.geojson.gz",
+      "dataFile": "territorio/local/cnig-2024-ll-municipales-histo-canarias.geojson.gz",
       "links": {
         "Descarga original": "https://centrodedescargas.cnig.es/CentroDescargas/detalleArchivo?sec=12969664"
       },
@@ -27801,7 +27801,7 @@
       "mode": "local",
       "notes": "30.923 trazados oficiales · 2024-01-01",
       "mapAction": "territory:cnig-2024-ll-municipales-peninbal",
-      "dataFile": "territory/local/cnig-2024-ll-municipales-peninbal.geojson.gz",
+      "dataFile": "territorio/local/cnig-2024-ll-municipales-peninbal.geojson.gz",
       "links": {
         "Descarga original": "https://centrodedescargas.cnig.es/CentroDescargas/detalleArchivo?sec=12969664"
       },
@@ -27832,7 +27832,7 @@
       "mode": "local",
       "notes": "1340 trazados oficiales · 2024-01-01",
       "mapAction": "territory:cnig-2024-ll-municipales-canarias",
-      "dataFile": "territory/local/cnig-2024-ll-municipales-canarias.geojson.gz",
+      "dataFile": "territorio/local/cnig-2024-ll-municipales-canarias.geojson.gz",
       "links": {
         "Descarga original": "https://centrodedescargas.cnig.es/CentroDescargas/detalleArchivo?sec=12969664"
       },
@@ -27863,7 +27863,7 @@
       "mode": "local",
       "notes": "4263 trazados oficiales · 2024-01-01",
       "mapAction": "territory:cnig-2024-ll-provinciales-peninbal",
-      "dataFile": "territory/local/cnig-2024-ll-provinciales-peninbal.geojson.gz",
+      "dataFile": "territorio/local/cnig-2024-ll-provinciales-peninbal.geojson.gz",
       "links": {
         "Descarga original": "https://centrodedescargas.cnig.es/CentroDescargas/detalleArchivo?sec=12969664"
       },
@@ -27894,7 +27894,7 @@
       "mode": "local",
       "notes": "1074 trazados oficiales · 2024-01-01",
       "mapAction": "territory:cnig-2024-ll-provinciales-canarias",
-      "dataFile": "territory/local/cnig-2024-ll-provinciales-canarias.geojson.gz",
+      "dataFile": "territorio/local/cnig-2024-ll-provinciales-canarias.geojson.gz",
       "links": {
         "Descarga original": "https://centrodedescargas.cnig.es/CentroDescargas/detalleArchivo?sec=12969664"
       },
@@ -27925,7 +27925,7 @@
       "mode": "local",
       "notes": "4144 trazados oficiales · 2024-01-01",
       "mapAction": "territory:cnig-2024-ll-autonomicas-peninbal",
-      "dataFile": "territory/local/cnig-2024-ll-autonomicas-peninbal.geojson.gz",
+      "dataFile": "territorio/local/cnig-2024-ll-autonomicas-peninbal.geojson.gz",
       "links": {
         "Descarga original": "https://centrodedescargas.cnig.es/CentroDescargas/detalleArchivo?sec=12969664"
       },
@@ -27956,7 +27956,7 @@
       "mode": "local",
       "notes": "1074 trazados oficiales · 2024-01-01",
       "mapAction": "territory:cnig-2024-ll-autonomicas-canarias",
-      "dataFile": "territory/local/cnig-2024-ll-autonomicas-canarias.geojson.gz",
+      "dataFile": "territorio/local/cnig-2024-ll-autonomicas-canarias.geojson.gz",
       "links": {
         "Descarga original": "https://centrodedescargas.cnig.es/CentroDescargas/detalleArchivo?sec=12969664"
       },
@@ -27987,7 +27987,7 @@
       "mode": "local",
       "notes": "8130 recintos oficiales · 2024-01-01",
       "mapAction": "territory:cnig-2024-recintos-municipales-peninbal",
-      "dataFile": "territory/local/cnig-2024-recintos-municipales-peninbal.geojson.gz",
+      "dataFile": "territorio/local/cnig-2024-recintos-municipales-peninbal.geojson.gz",
       "links": {
         "Descarga original": "https://centrodedescargas.cnig.es/CentroDescargas/detalleArchivo?sec=12969664"
       },
@@ -28018,7 +28018,7 @@
       "mode": "local",
       "notes": "88 recintos oficiales · 2024-01-01",
       "mapAction": "territory:cnig-2024-recintos-municipales-canarias",
-      "dataFile": "territory/local/cnig-2024-recintos-municipales-canarias.geojson.gz",
+      "dataFile": "territorio/local/cnig-2024-recintos-municipales-canarias.geojson.gz",
       "links": {
         "Descarga original": "https://centrodedescargas.cnig.es/CentroDescargas/detalleArchivo?sec=12969664"
       },
@@ -28049,7 +28049,7 @@
       "mode": "local",
       "notes": "52 recintos oficiales · 2024-01-01",
       "mapAction": "territory:cnig-2024-recintos-provinciales-peninbal",
-      "dataFile": "territory/local/cnig-2024-recintos-provinciales-peninbal.geojson.gz",
+      "dataFile": "territorio/local/cnig-2024-recintos-provinciales-peninbal.geojson.gz",
       "links": {
         "Descarga original": "https://centrodedescargas.cnig.es/CentroDescargas/detalleArchivo?sec=12969664"
       },
@@ -28080,7 +28080,7 @@
       "mode": "local",
       "notes": "2 recintos oficiales · 2024-01-01",
       "mapAction": "territory:cnig-2024-recintos-provinciales-canarias",
-      "dataFile": "territory/local/cnig-2024-recintos-provinciales-canarias.geojson.gz",
+      "dataFile": "territorio/local/cnig-2024-recintos-provinciales-canarias.geojson.gz",
       "links": {
         "Descarga original": "https://centrodedescargas.cnig.es/CentroDescargas/detalleArchivo?sec=12969664"
       },
@@ -28111,7 +28111,7 @@
       "mode": "local",
       "notes": "20 recintos oficiales · 2024-01-01",
       "mapAction": "territory:cnig-2024-recintos-autonomicas-peninbal",
-      "dataFile": "territory/local/cnig-2024-recintos-autonomicas-peninbal.geojson.gz",
+      "dataFile": "territorio/local/cnig-2024-recintos-autonomicas-peninbal.geojson.gz",
       "links": {
         "Descarga original": "https://centrodedescargas.cnig.es/CentroDescargas/detalleArchivo?sec=12969664"
       },
@@ -28142,7 +28142,7 @@
       "mode": "local",
       "notes": "1 recintos oficiales · 2024-01-01",
       "mapAction": "territory:cnig-2024-recintos-autonomicas-canarias",
-      "dataFile": "territory/local/cnig-2024-recintos-autonomicas-canarias.geojson.gz",
+      "dataFile": "territorio/local/cnig-2024-recintos-autonomicas-canarias.geojson.gz",
       "links": {
         "Descarga original": "https://centrodedescargas.cnig.es/CentroDescargas/detalleArchivo?sec=12969664"
       },

@@ -19,7 +19,7 @@
       "unit": "personas",
       "license": "CC BY 4.0 · INE",
       "notes": "Censo anual. Edad año a año. Referencia a 1 de enero; no se enlaza artificialmente con el Padrón. Tabla completa: 330,480 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
-      "dataFile": "demography/index.json"
+      "dataFile": "poblacion/ine/index.json"
     },
     {
       "id": "demography:68520",
@@ -39,7 +39,7 @@
       "unit": "personas",
       "license": "CC BY 4.0 · INE",
       "notes": "Censo anual. Nacimiento en España o extranjero; nacionalidad y nacimiento son conceptos distintos. Tabla completa: 330,480 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
-      "dataFile": "demography/index.json"
+      "dataFile": "poblacion/ine/index.json"
     },
     {
       "id": "demography:68535",
@@ -59,7 +59,7 @@
       "unit": "personas",
       "license": "CC BY 4.0 · INE",
       "notes": "Censo anual, grupos quinquenales. Detalle municipal cargado por provincia, conservando todas las categorías publicadas. Tabla completa: 8,103,150 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
-      "dataFile": "demography/index.json"
+      "dataFile": "poblacion/ine/index.json"
     },
     {
       "id": "demography:68523",
@@ -79,7 +79,7 @@
       "unit": "personas",
       "license": "CC BY 4.0 · INE",
       "notes": "Censo anual. Se conserva la relación publicada entre nacimiento y residencia. Tabla completa: 237,600 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
-      "dataFile": "demography/index.json"
+      "dataFile": "poblacion/ine/index.json"
     },
     {
       "id": "demography:60133",
@@ -99,7 +99,7 @@
       "unit": "hogares",
       "license": "CC BY 4.0 · INE",
       "notes": "Estadística Continua de Población. Estimaciones trimestrales; consultar las revisiones y metodología del INE. Tabla completa: 6,095 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
-      "dataFile": "demography/index.json"
+      "dataFile": "poblacion/ine/index.json"
     },
     {
       "id": "demography:60131",
@@ -119,7 +119,7 @@
       "unit": "hogares",
       "license": "CC BY 4.0 · INE",
       "notes": "Estadística Continua de Población. Los hogares no son personas ni viviendas totales. Tabla completa: 2,300 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
-      "dataFile": "demography/index.json"
+      "dataFile": "poblacion/ine/index.json"
     },
     {
       "id": "demography:60134",
@@ -139,7 +139,7 @@
       "unit": "personas por hogar",
       "license": "CC BY 4.0 · INE",
       "notes": "Media publicada por el INE; no se suman medias territoriales. Tabla completa: 1,219 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
-      "dataFile": "demography/index.json"
+      "dataFile": "poblacion/ine/index.json"
     },
     {
       "id": "demography:60132",
@@ -159,7 +159,7 @@
       "unit": "personas por hogar",
       "license": "CC BY 4.0 · INE",
       "notes": "Media publicada por el INE; no se suman medias territoriales. Tabla completa: 460 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
-      "dataFile": "demography/index.json"
+      "dataFile": "poblacion/ine/index.json"
     },
     {
       "id": "demography:54562",
@@ -179,7 +179,7 @@
       "unit": "hogares proyectados",
       "license": "CC BY 4.0 · INE",
       "notes": "PROYECCIÓN, no observación ni predicción cierta. Escenario y horizonte del producto original; no se mezcla con las estimaciones de hogares. Tabla completa: 6,912 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
-      "dataFile": "demography/index.json"
+      "dataFile": "poblacion/ine/index.json"
     },
     {
       "id": "demography:6506",
@@ -199,7 +199,7 @@
       "unit": "nacimientos",
       "license": "CC BY 4.0 · INE",
       "notes": "Movimiento Natural de la Población. Residencia de la madre, no lugar del parto. Tabla completa: 8,100 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
-      "dataFile": "demography/index.json"
+      "dataFile": "poblacion/ine/index.json"
     },
     {
       "id": "demography:6507",
@@ -219,7 +219,7 @@
       "unit": "nacimientos",
       "license": "CC BY 4.0 · INE",
       "notes": "Serie de comunidades autónomas; no se fabrica detalle municipal. Tabla completa: 3,150 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
-      "dataFile": "demography/index.json"
+      "dataFile": "poblacion/ine/index.json"
     },
     {
       "id": "demography:6545",
@@ -239,7 +239,7 @@
       "unit": "defunciones",
       "license": "CC BY 4.0 · INE",
       "notes": "Movimiento Natural de la Población. Lugar de residencia, no lugar de ocurrencia. Tabla completa: 8,100 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
-      "dataFile": "demography/index.json"
+      "dataFile": "poblacion/ine/index.json"
     },
     {
       "id": "demography:6546",
@@ -259,7 +259,7 @@
       "unit": "defunciones",
       "license": "CC BY 4.0 · INE",
       "notes": "Las revisiones y periodos son propios de esta tabla. Tabla completa: 3,150 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
-      "dataFile": "demography/index.json"
+      "dataFile": "poblacion/ine/index.json"
     },
     {
       "id": "demography:6528",
@@ -279,7 +279,7 @@
       "unit": "matrimonios",
       "license": "CC BY 4.0 · INE",
       "notes": "Recuento de matrimonios; no se interpreta como número de personas casadas. Tabla completa: 2,700 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
-      "dataFile": "demography/index.json"
+      "dataFile": "poblacion/ine/index.json"
     },
     {
       "id": "demography:6529",
@@ -299,7 +299,7 @@
       "unit": "matrimonios",
       "license": "CC BY 4.0 · INE",
       "notes": "Recuento publicado por lugar de residencia. Tabla completa: 1,050 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
-      "dataFile": "demography/index.json"
+      "dataFile": "poblacion/ine/index.json"
     },
     {
       "id": "demography:6524",
@@ -319,7 +319,7 @@
       "unit": "nacimientos",
       "license": "CC BY 4.0 · INE",
       "notes": "Meses individuales; no se presentan como totales anuales. Tabla completa: 32,400 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
-      "dataFile": "demography/index.json"
+      "dataFile": "poblacion/ine/index.json"
     },
     {
       "id": "demography:6561",
@@ -339,7 +339,7 @@
       "unit": "defunciones",
       "license": "CC BY 4.0 · INE",
       "notes": "Meses individuales; no se presentan como totales anuales. Tabla completa: 32,400 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
-      "dataFile": "demography/index.json"
+      "dataFile": "poblacion/ine/index.json"
     },
     {
       "id": "demography:6540",
@@ -359,7 +359,7 @@
       "unit": "matrimonios",
       "license": "CC BY 4.0 · INE",
       "notes": "Meses individuales; no se presentan como totales anuales. Tabla completa: 32,400 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
-      "dataFile": "demography/index.json"
+      "dataFile": "poblacion/ine/index.json"
     },
     {
       "id": "demography:69691",
@@ -379,7 +379,7 @@
       "unit": "movimientos",
       "license": "CC BY 4.0 · INE",
       "notes": "Estadística de Migraciones y Cambios de Residencia. Flujos, no población extranjera residente. Serie desde 2021 separada de operaciones anteriores. Tabla completa: 51,840 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
-      "dataFile": "demography/index.json"
+      "dataFile": "poblacion/ine/index.json"
     },
     {
       "id": "demography:69706",
@@ -399,7 +399,7 @@
       "unit": "movimientos",
       "license": "CC BY 4.0 · INE",
       "notes": "Salidas residenciales, no todas las personas de nacionalidad extranjera. Tabla completa: 51,840 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
-      "dataFile": "demography/index.json"
+      "dataFile": "poblacion/ine/index.json"
     },
     {
       "id": "demography:69696",
@@ -419,7 +419,7 @@
       "unit": "movimientos",
       "license": "CC BY 4.0 · INE",
       "notes": "Detalle municipal por sexo; códigos y límites pueden cambiar entre periodos. Tabla completa: 98,220 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
-      "dataFile": "demography/index.json"
+      "dataFile": "poblacion/ine/index.json"
     },
     {
       "id": "demography:69711",
@@ -439,7 +439,7 @@
       "unit": "movimientos",
       "license": "CC BY 4.0 · INE",
       "notes": "Detalle municipal por sexo, según el municipio de procedencia publicado. Tabla completa: 98,220 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
-      "dataFile": "demography/index.json"
+      "dataFile": "poblacion/ine/index.json"
     },
     {
       "id": "demography:69764",
@@ -459,7 +459,7 @@
       "unit": "saldo de movimientos",
       "license": "CC BY 4.0 · INE",
       "notes": "Saldos total, exterior e interior conservados como categorías. Un saldo negativo no es un dato ausente. Tabla completa: 114,480 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
-      "dataFile": "demography/index.json"
+      "dataFile": "poblacion/ine/index.json"
     },
     {
       "id": "demography:69762",
@@ -479,7 +479,7 @@
       "unit": "saldo de movimientos",
       "license": "CC BY 4.0 · INE",
       "notes": "No se suman saldos con entradas y salidas como observaciones independientes. Tabla completa: 43,200 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
-      "dataFile": "demography/index.json"
+      "dataFile": "poblacion/ine/index.json"
     },
     {
       "id": "demography:69767",
@@ -499,7 +499,7 @@
       "unit": "saldo de movimientos",
       "license": "CC BY 4.0 · INE",
       "notes": "Saldos total, exterior e interior por sexo. No mide solicitudes de asilo ni autorizaciones de residencia. Tabla completa: 294,660 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
-      "dataFile": "demography/index.json"
+      "dataFile": "poblacion/ine/index.json"
     },
     {
       "id": "demography:1470",
@@ -519,7 +519,7 @@
       "unit": "nacimientos por 1.000 habitantes",
       "license": "CC BY 4.0 · INE",
       "notes": "Tasa publicada por el INE, con su denominador metodológico; no se recalcula con otro censo. Tabla completa: 2,650 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
-      "dataFile": "demography/index.json"
+      "dataFile": "poblacion/ine/index.json"
     },
     {
       "id": "demography:1482",
@@ -539,7 +539,7 @@
       "unit": "defunciones por 1.000 habitantes",
       "license": "CC BY 4.0 · INE",
       "notes": "Tasa publicada por el INE; cambios de serie según la documentación original. Tabla completa: 2,650 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
-      "dataFile": "demography/index.json"
+      "dataFile": "poblacion/ine/index.json"
     },
     {
       "id": "demography:1478",
@@ -559,7 +559,7 @@
       "unit": "hijos por mujer",
       "license": "CC BY 4.0 · INE",
       "notes": "Indicador sintético del periodo, no número real de hijos de una cohorte. Tabla completa: 13,250 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
-      "dataFile": "demography/index.json"
+      "dataFile": "poblacion/ine/index.json"
     },
     {
       "id": "demography:1480",
@@ -579,7 +579,7 @@
       "unit": "nacimientos por 1.000 mujeres de 15 a 49 años",
       "license": "CC BY 4.0 · INE",
       "notes": "Tasa oficial, diferenciada del indicador coyuntural de fecundidad. Tabla completa: 2,650 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
-      "dataFile": "demography/index.json"
+      "dataFile": "poblacion/ine/index.json"
     },
     {
       "id": "demography:1485",
@@ -599,7 +599,7 @@
       "unit": "años",
       "license": "CC BY 4.0 · INE",
       "notes": "Indicador de tabla de mortalidad, por sexo. No equivale a edad media al fallecer. Tabla completa: 7,800 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
-      "dataFile": "demography/index.json"
+      "dataFile": "poblacion/ine/index.json"
     },
     {
       "id": "demography:1486",
@@ -619,7 +619,7 @@
       "unit": "años restantes",
       "license": "CC BY 4.0 · INE",
       "notes": "Años de vida restantes a los 65; no se interpreta como edad al fallecer. Tabla completa: 7,800 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
-      "dataFile": "demography/index.json"
+      "dataFile": "poblacion/ine/index.json"
     },
     {
       "id": "demography:1489",
@@ -639,7 +639,7 @@
       "unit": "mayores de 64 por 100 menores de 16",
       "license": "CC BY 4.0 · INE",
       "notes": "Cociente publicado, no porcentaje de personas mayores en el conjunto de población. Tabla completa: 2,703 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
-      "dataFile": "demography/index.json"
+      "dataFile": "poblacion/ine/index.json"
     },
     {
       "id": "demography:1490",
@@ -659,7 +659,7 @@
       "unit": "menores de 16 y mayores de 64 por 100 de 16–64",
       "license": "CC BY 4.0 · INE",
       "notes": "Dependencia demográfica, no dependencia funcional ni prestaciones. Tabla completa: 2,703 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
-      "dataFile": "demography/index.json"
+      "dataFile": "poblacion/ine/index.json"
     },
     {
       "id": "demography:1581",
@@ -679,7 +679,7 @@
       "unit": "años",
       "license": "CC BY 4.0 · INE",
       "notes": "Se conserva el desglose por orden de nacimiento. Tabla completa: 13,250 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
-      "dataFile": "demography/index.json"
+      "dataFile": "poblacion/ine/index.json"
     },
     {
       "id": "demography:3199",
@@ -699,7 +699,7 @@
       "unit": "años",
       "license": "CC BY 4.0 · INE",
       "notes": "Media publicada por el INE, diferenciada de la edad mediana. Tabla completa: 8,109 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
-      "dataFile": "demography/index.json"
+      "dataFile": "poblacion/ine/index.json"
     },
     {
       "id": "demography:29005",
@@ -719,7 +719,7 @@
       "unit": "personas",
       "license": "CC BY 4.0 · INE",
       "notes": "Serie oficial por municipio. Los códigos históricos se conservan. Los límites disponibles en el mapa son actuales. Tabla completa: 732,420 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
-      "dataFile": "demography/index.json"
+      "dataFile": "poblacion/ine/index.json"
     },
     {
       "id": "demography:2852",
@@ -739,7 +739,7 @@
       "unit": "personas",
       "license": "CC BY 4.0 · INE",
       "notes": "Serie oficial del Padrón. Los años y revisiones proceden de la tabla original. Tabla completa: 4,134 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
-      "dataFile": "demography/index.json"
+      "dataFile": "poblacion/ine/index.json"
     },
     {
       "id": "demography:2853",
@@ -759,7 +759,7 @@
       "unit": "personas",
       "license": "CC BY 4.0 · INE",
       "notes": "Serie oficial del Padrón. Los años y revisiones proceden de la tabla original. Tabla completa: 1,560 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
-      "dataFile": "demography/index.json"
+      "dataFile": "poblacion/ine/index.json"
     },
     {
       "id": "demography:2910",
@@ -779,7 +779,7 @@
       "unit": "personas",
       "license": "CC BY 4.0 · INE",
       "notes": "Series insulares y totales provinciales publicados. Las islas se consultan por serie. Tabla completa: 1,092 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
-      "dataFile": "demography/index.json"
+      "dataFile": "poblacion/ine/index.json"
     },
     {
       "id": "demography:59583",
@@ -799,7 +799,7 @@
       "unit": "personas",
       "license": "CC BY 4.0 · INE",
       "notes": "Estimaciones de población residente. El INE publica el trimestre reciente como provisional. Tabla completa: 69,216 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
-      "dataFile": "demography/index.json"
+      "dataFile": "poblacion/ine/index.json"
     },
     {
       "id": "demography:59589",
@@ -819,7 +819,7 @@
       "unit": "personas",
       "license": "CC BY 4.0 · INE",
       "notes": "Serie trimestral y retrospectiva del INE. Los primeros periodos se conservan con su fecha exacta. Tabla completa: 3,668,448 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
-      "dataFile": "demography/index.json"
+      "dataFile": "poblacion/ine/index.json"
     },
     {
       "id": "demography:69797",
@@ -839,7 +839,7 @@
       "unit": "personas",
       "license": "CC BY 4.0 · INE",
       "notes": "Islas y agregados insulares según la tabla original. Consulta de series. Tabla completa: 79,800 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
-      "dataFile": "demography/index.json"
+      "dataFile": "poblacion/ine/index.json"
     },
     {
       "id": "demography:71118",
@@ -859,7 +859,7 @@
       "unit": "personas inscritas",
       "license": "CC BY 4.0 · INE",
       "notes": "Padrón de españoles residentes en el extranjero. El mapa identifica el municipio de inscripción. Tabla completa: 442,206 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
-      "dataFile": "demography/index.json"
+      "dataFile": "poblacion/ine/index.json"
     },
     {
       "id": "demography:71106",
@@ -879,7 +879,7 @@
       "unit": "personas inscritas",
       "license": "CC BY 4.0 · INE",
       "notes": "Padrón de españoles residentes en el extranjero. El mapa identifica la provincia de inscripción. Tabla completa: 18,126 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
-      "dataFile": "demography/index.json"
+      "dataFile": "poblacion/ine/index.json"
     },
     {
       "id": "demography:46682",
@@ -899,7 +899,7 @@
       "unit": "nacimientos",
       "license": "CC BY 4.0 · INE",
       "notes": "Estimación mensual. Los recuentos de cada mes y los acumulados se identifican en la selección. Tabla completa: 18,432 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
-      "dataFile": "demography/index.json"
+      "dataFile": "poblacion/ine/index.json"
     },
     {
       "id": "demography:62277",
@@ -919,7 +919,7 @@
       "unit": "defunciones",
       "license": "CC BY 4.0 · INE",
       "notes": "Estimación mensual de defunciones. Selecciona el tipo de dato publicado. Tabla completa: 13,356 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
-      "dataFile": "demography/index.json"
+      "dataFile": "poblacion/ine/index.json"
     },
     {
       "id": "demography:69743",
@@ -939,7 +939,7 @@
       "unit": "movimientos",
       "license": "CC BY 4.0 · INE",
       "notes": "Flujos intermunicipales por sexo y nacionalidad. Cada observación se refiere al destino. Tabla completa: 294,660 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
-      "dataFile": "demography/index.json"
+      "dataFile": "poblacion/ine/index.json"
     },
     {
       "id": "demography:6525",
@@ -959,7 +959,7 @@
       "unit": "nacimientos",
       "license": "CC BY 4.0 · INE",
       "notes": "Serie mensual por residencia de la madre. Tabla completa: 12,600 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
-      "dataFile": "demography/index.json"
+      "dataFile": "poblacion/ine/index.json"
     },
     {
       "id": "demography:6541",
@@ -979,7 +979,7 @@
       "unit": "matrimonios",
       "license": "CC BY 4.0 · INE",
       "notes": "Serie mensual por residencia. Tabla completa: 12,600 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
-      "dataFile": "demography/index.json"
+      "dataFile": "poblacion/ine/index.json"
     },
     {
       "id": "demography:6562",
@@ -999,7 +999,7 @@
       "unit": "defunciones",
       "license": "CC BY 4.0 · INE",
       "notes": "Serie mensual por residencia. Tabla completa: 12,600 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
-      "dataFile": "demography/index.json"
+      "dataFile": "poblacion/ine/index.json"
     },
     {
       "id": "demography:36643",
@@ -1019,7 +1019,7 @@
       "unit": "personas proyectadas",
       "license": "CC BY 4.0 · INE",
       "notes": "Proyección oficial del INE con base 2026. Los valores dependen de las hipótesis demográficas del escenario. Tabla completa: 15,606 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
-      "dataFile": "demography/index.json"
+      "dataFile": "poblacion/ine/index.json"
     },
     {
       "id": "demography:36652",
@@ -1039,7 +1039,7 @@
       "unit": "personas proyectadas",
       "license": "CC BY 4.0 · INE",
       "notes": "Proyección oficial del INE con base 2026. Los valores dependen de las hipótesis demográficas del escenario. Tabla completa: 124,848 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
-      "dataFile": "demography/index.json"
+      "dataFile": "poblacion/ine/index.json"
     },
     {
       "id": "demography:36680",
@@ -1059,7 +1059,7 @@
       "unit": "personas proyectadas",
       "license": "CC BY 4.0 · INE",
       "notes": "Proyección oficial del INE con base 2026. Los valores dependen de las hipótesis demográficas del escenario. Tabla completa: 97,920 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
-      "dataFile": "demography/index.json"
+      "dataFile": "poblacion/ine/index.json"
     },
     {
       "id": "demography:36726",
@@ -1079,7 +1079,7 @@
       "unit": "personas proyectadas",
       "license": "CC BY 4.0 · INE",
       "notes": "Proyección oficial del INE con base 2026. Los valores dependen de las hipótesis demográficas del escenario. Tabla completa: 259,488 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
-      "dataFile": "demography/index.json"
+      "dataFile": "poblacion/ine/index.json"
     },
     {
       "id": "demography:65031",
@@ -1099,7 +1099,7 @@
       "unit": "personas",
       "license": "CC BY 4.0 · INE",
       "notes": "Censo anual del INE. Consulta por provincia, municipio y sección con su código de origen. La cartografía de secciones se activa por separado. Tabla completa: 2,028,465 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
-      "dataFile": "demography/index.json"
+      "dataFile": "poblacion/ine/index.json"
     },
     {
       "id": "demography:65032",
@@ -1119,7 +1119,7 @@
       "unit": "personas",
       "license": "CC BY 4.0 · INE",
       "notes": "Censo anual del INE. Consulta por provincia, municipio y sección con su código de origen. La cartografía de secciones se activa por separado. Tabla completa: 2,028,465 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
-      "dataFile": "demography/index.json"
+      "dataFile": "poblacion/ine/index.json"
     },
     {
       "id": "demography:65033",
@@ -1139,7 +1139,7 @@
       "unit": "personas",
       "license": "CC BY 4.0 · INE",
       "notes": "Censo anual del INE. Consulta por provincia, municipio y sección con su código de origen. La cartografía de secciones se activa por separado. Tabla completa: 4,056,930 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
-      "dataFile": "demography/index.json"
+      "dataFile": "poblacion/ine/index.json"
     },
     {
       "id": "demography:65034",
@@ -1159,7 +1159,7 @@
       "unit": "personas",
       "license": "CC BY 4.0 · INE",
       "notes": "Censo anual del INE. Consulta por provincia, municipio y sección con su código de origen. La cartografía de secciones se activa por separado. Tabla completa: 14,875,410 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
-      "dataFile": "demography/index.json"
+      "dataFile": "poblacion/ine/index.json"
     },
     {
       "id": "demography:65035",
@@ -1179,7 +1179,7 @@
       "unit": "personas",
       "license": "CC BY 4.0 · INE",
       "notes": "Censo anual del INE. Consulta por provincia, municipio y sección con su código de origen. La cartografía de secciones se activa por separado. Tabla completa: 14,199,255 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
-      "dataFile": "demography/index.json"
+      "dataFile": "poblacion/ine/index.json"
     },
     {
       "id": "demography:65036",
@@ -1199,7 +1199,7 @@
       "unit": "personas",
       "license": "CC BY 4.0 · INE",
       "notes": "Censo anual del INE. Consulta por provincia, municipio y sección con su código de origen. La cartografía de secciones se activa por separado. Tabla completa: 14,875,410 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
-      "dataFile": "demography/index.json"
+      "dataFile": "poblacion/ine/index.json"
     },
     {
       "id": "demography:79276",
@@ -1219,7 +1219,7 @@
       "unit": "personas",
       "license": "CC BY 4.0 · INE",
       "notes": "Población residente por fecha, sexo, nacionalidad(española/extranjera) y país de nacimiento (España/extranjero). Serie del INE con los periodos y el desglose territorial publicados. Tabla completa: 2,511 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
-      "dataFile": "demography/index.json"
+      "dataFile": "poblacion/ine/index.json"
     },
     {
       "id": "demography:79277",
@@ -1239,7 +1239,7 @@
       "unit": "personas",
       "license": "CC BY 4.0 · INE",
       "notes": "Población residente por fecha, sexo, nacionalidad(española/extranjera) y país de nacimiento (España/extranjero). Serie del INE con los periodos y el desglose territorial publicados. Tabla completa: 50,220 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
-      "dataFile": "demography/index.json"
+      "dataFile": "poblacion/ine/index.json"
     },
     {
       "id": "demography:79278",
@@ -1259,7 +1259,7 @@
       "unit": "personas",
       "license": "CC BY 4.0 · INE",
       "notes": "Población residente por fecha, sexo, nacionalidad(española/extranjera) y país de nacimiento (España/extranjero). Serie del INE con los periodos y el desglose territorial publicados. Tabla completa: 133,083 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
-      "dataFile": "demography/index.json"
+      "dataFile": "poblacion/ine/index.json"
     },
     {
       "id": "demography:1422",
@@ -1279,7 +1279,7 @@
       "unit": "matrimonios por 1.000 habitantes",
       "license": "CC BY 4.0 · INE",
       "notes": "Tasa Bruta de Nupcialidad. Serie del INE con los periodos y el desglose territorial publicados. Tabla completa: 49 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
-      "dataFile": "demography/index.json"
+      "dataFile": "poblacion/ine/index.json"
     },
     {
       "id": "demography:1456",
@@ -1299,7 +1299,7 @@
       "unit": "matrimonios por 1.000 habitantes",
       "license": "CC BY 4.0 · INE",
       "notes": "Tasa Bruta de Nupcialidad por comunidad autónoma. Serie del INE con los periodos y el desglose territorial publicados. Tabla completa: 980 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
-      "dataFile": "demography/index.json"
+      "dataFile": "poblacion/ine/index.json"
     },
     {
       "id": "demography:1493",
@@ -1319,7 +1319,7 @@
       "unit": "matrimonios por 1.000 habitantes",
       "license": "CC BY 4.0 · INE",
       "notes": "Tasa Bruta de Nupcialidad por provincia. Serie del INE con los periodos y el desglose territorial publicados. Tabla completa: 2,597 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
-      "dataFile": "demography/index.json"
+      "dataFile": "poblacion/ine/index.json"
     },
     {
       "id": "demography:nomenclator",
@@ -1339,7 +1339,7 @@
       "unit": "personas",
       "license": "CC BY 4.0 · INE",
       "notes": "31 ediciones nacionales. Series consultables por provincia, año, nombre y código.",
-      "dataFile": "nomenclator/index.json"
+      "dataFile": "territorio/nomenclator/index.json"
     },
     {
       "id": "demography:historical-census",
@@ -1359,7 +1359,7 @@
       "unit": "personas y hogares",
       "license": "CC BY 4.0 · INE",
       "notes": "11,977 fichas censales. Incluye recuentos, símbolos y notas de las alteraciones históricas.",
-      "dataFile": "intercensal/index.json"
+      "dataFile": "poblacion/intercensal/index.json"
     }
   ],
   "inventory": [

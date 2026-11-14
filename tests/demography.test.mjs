@@ -7,9 +7,9 @@ import {spawnSync} from 'node:child_process';
 import {defaultDimensions,queryCube,periodOrder,seriesCsv,unitFor,relativeChange} from '../src/demography-data.ts';
 const root=new URL('../',import.meta.url);
 const read=p=>JSON.parse(fs.readFileSync(new URL(p,root),'utf8'));
-const index=read('public/data/demography/index.json');
+const index=read('datos/poblacion/ine/index.json');
 const table=id=>index.tables.find(t=>t.id===id);
-const cube=(t,part='main')=>JSON.parse(gunzipSync(fs.readFileSync(new URL('public/data/demography/'+t.shards.find(s=>s.id===part).file,root))));
+const cube=(t,part='main')=>JSON.parse(gunzipSync(fs.readFileSync(new URL('datos/poblacion/ine/'+t.shards.find(s=>s.id===part).file,root))));
 const digest=b=>createHash('sha256').update(b).digest('hex');
 
 test('every complete demographic table preserves its shard counts, hashes, dictionaries and all observations',()=>{
@@ -21,7 +21,7 @@ test('every complete demographic table preserves its shard counts, hashes, dicti
     assert.equal(new Set(t.territories.map(a=>a.id)).size,t.territories.length);
     assert.ok(t.periods.every(p=>p.id&&p.label));let count=0;
     for(const shard of t.shards){
-      const bytes=fs.readFileSync(new URL('public/data/demography/'+shard.file,root)),content=gunzipSync(bytes);
+      const bytes=fs.readFileSync(new URL('datos/poblacion/ine/'+shard.file,root)),content=gunzipSync(bytes);
       assert.equal(digest(bytes),shard.sha256);assert.equal(digest(content),shard.contentSha256);assert.equal(bytes.length,shard.bytes);
       const rows=JSON.parse(content).rows;assert.equal(rows.length,shard.rows);count+=rows.length;
       for(const r of rows){
@@ -54,7 +54,7 @@ test('census filters conserve source totals, sex and nationality; chart and map 
 });
 
 test('municipal census has all 8132 current INE municipalities and queries Canary provinces with real codes',()=>{
-  const t=table(68535),indexTerritory=read('public/data/territory/index.json');
+  const t=table(68535),indexTerritory=read('datos/territorio/index.json');
   assert.deepEqual(new Set(t.territories.filter(a=>a.level==='municipal').map(a=>a.code)),new Set(indexTerritory.municipalities.map(a=>a.code)));
   const q={period:t.periods.findIndex(p=>p.id==='2025'),dims:defaultDimensions(t),level:'municipal',territory:t.territories.findIndex(a=>a.id==='municipal:38038')};
   const result=queryCube(t,cube(t,'38'),q);assert.ok(result.values.every(v=>t.territories[v.area].provinceCode==='38'));
@@ -97,11 +97,11 @@ test('section 2807901001 returns the official Madrid census value and annual ser
 });
 
 test('municipal census histories preserve all declared records, including dissolved municipalities',()=>{
-  const historical=read('public/data/intercensal/index.json');
+  const historical=read('datos/poblacion/intercensal/index.json');
   assert.equal(Object.keys(historical.provinces).length,52);
   let total=0;
   for(const part of Object.values(historical.provinces)){
-    const bytes=fs.readFileSync(new URL('public/data/intercensal/'+part.file,root));
+    const bytes=fs.readFileSync(new URL('datos/poblacion/intercensal/'+part.file,root));
     assert.equal(digest(bytes),part.sha256);
     const {entries}=JSON.parse(bytes);
     assert.equal(entries.length,part.count);

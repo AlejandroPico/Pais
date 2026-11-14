@@ -52,7 +52,7 @@ def capture(refresh):
             {'id': layer['name'], 'name': layer['title'], 'queryable': layer['queryable']}
             for layer in current[service_id]['layers'] if layer['name'] not in excluded
         ]
-    registry = territory.OUT.parents[2] / 'registry' / 'ign-territory-editions.json'
+    registry = territory.ROOT / 'registry' / 'ign-territory-editions.json'
     registry.write_text(json.dumps(editions, ensure_ascii=False, indent=2) + '\n', encoding='utf-8', newline='\n')
 
     provenance = {p['url']:p for p in manifest['provenance']}

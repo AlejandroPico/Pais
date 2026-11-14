@@ -17,5 +17,5 @@ for(let start=0;start<providers.length;start+=4){
     }catch(e){return {sourceId:p.sourceId,service:p.url,layers:p.layers,url,error:e.message};}
   }));results.push(...batch);
 }
-fs.writeFileSync(new URL('../public/data/territory/service-audit.json',import.meta.url),JSON.stringify({checkedAt:new Date().toISOString(),scope:'Muestras técnicas de imagen; no verifican toda la cobertura geográfica ni todas las consultas.',results},null,2)+'\n');
+fs.writeFileSync(new URL('../datos/territorio/service-audit.json',import.meta.url),JSON.stringify({checkedAt:new Date().toISOString(),scope:'Muestras técnicas de imagen; no verifican toda la cobertura geográfica ni todas las consultas.',results},null,2)+'\n');
 console.log(JSON.stringify(results.map(r=>({source:r.sourceId,layers:r.layers,status:r.status,png:r.png,cors:r.cors,error:r.error})),null,2));

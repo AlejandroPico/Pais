@@ -8,7 +8,8 @@ from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1]
 def read(p):return json.loads((ROOT/p).read_text(encoding='utf-8'))
 def main(kind="demography",category="F02"):
-    index=read(f'public/data/{kind}/index.json');inventory=read(f'public/data/{kind}/inventory.json')
+    folder = {'demography': 'poblacion/ine', 'welfare': 'renta/ine', 'labor': 'trabajo/ine'}[kind]
+    index=read(f'datos/{folder}/index.json');inventory=read(f'datos/{folder}/inventory.json')
     if kind in {'welfare','labor'}:
         provenance={p['url']:p for p in index.get('provenance',[])}
         for t in index['tables']:
@@ -23,7 +24,7 @@ def main(kind="demography",category="F02"):
                 if specific:a['publicationTableId']=specific[0]
                 elif a['level'] not in ['municipal','district','section']:a['publicationTableId']=t['id']
             for s in t['shards']:
-                content=gzip.decompress((ROOT/f'public/data/{kind}'/s['file']).read_bytes())
+                content=gzip.decompress((ROOT/f'datos/{folder}'/s['file']).read_bytes())
                 assert hashlib.sha256(content).hexdigest()==s['contentSha256']
                 rows=json.loads(content)['rows'];assert len(rows)==s['rows']
                 for r in rows:
@@ -31,9 +32,9 @@ def main(kind="demography",category="F02"):
             t['missingTokens']=missing
             for source in t['sourceTables']:provenance[source['url']]={k:v for k,v in source.items() if k!='id'}
         index['provenance']=sorted(provenance.values(),key=lambda p:p['url'])
-        (ROOT/f'public/data/{kind}/index.json').write_text(json.dumps(index,ensure_ascii=False,separators=(',',':')),encoding='utf-8')
+        (ROOT/f'datos/{folder}/index.json').write_text(json.dumps(index,ensure_ascii=False,separators=(',',':')),encoding='utf-8')
     if kind=='labor':
-        index['tables'] += read('public/data/labor/sepe.json')['tables']
+        index['tables'] += read('datos/trabajo/sepe/sepe.json')['tables']
     if kind=='demography':
         shared = {}
         compact = {**index, 'tables': [], 'territoryGroups': shared}
@@ -45,15 +46,16 @@ def main(kind="demography",category="F02"):
             fields['territoryGroup'] = digest
             compact['tables'].append(fields)
         payload = json.dumps(compact, ensure_ascii=False, separators=(',',':')).encode()
-        (ROOT/'public/data/demography/viewer.json.gz').write_bytes(gzip.compress(payload, compresslevel=6, mtime=0))
+        (ROOT/'datos/poblacion/ine/viewer.json.gz').write_bytes(gzip.compress(payload, compresslevel=6, mtime=0))
     available=[]
     for t in index['tables']:
+        table_folder = 'trabajo/sepe' if t.get('compactColumns') else folder
         for s in t['shards']:
-            path=ROOT/f'public/data/{kind}'/s['file']
+            path=ROOT/'datos'/table_folder/s['file']
             assert hashlib.sha256(path.read_bytes()).hexdigest()==s['sha256'],path
         assert sum(s['rows'] for s in t['shards'])==t['rows']
         periods=sorted(t['periods'],key=lambda p:p['id'])
-        available.append(dict(id=kind+':'+str(t['id']),title=t['label'],sourceId=t.get('sourceId','F005'),categoryIds=[category],status='integrado',url=t['sourceUrl'],mapAction=kind+':'+str(t['id']),coverage=' · '.join({'national':'España','community':'Comunidades','province':'Provincias','municipal':'Municipios','district':'Distritos (series)','section':'Secciones (series)','island':'Islas (series)','unlocated':'Sin localización'}.get(l,l) for l in sorted({a['level'] for a in t['territories']})),period={'from':periods[0]['label'],'to':periods[-1]['label']},unit=t['unit'],license=t['license'],notes=t['note']+f" Tabla completa: {t['rows']:,} observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",dataFile='labor/sepe.json' if t.get('compactColumns') else f'{kind}/index.json'))
+        available.append(dict(id=kind+':'+str(t['id']),title=t['label'],sourceId=t.get('sourceId','F005'),categoryIds=[category],status='integrado',url=t['sourceUrl'],mapAction=kind+':'+str(t['id']),coverage=' · '.join({'national':'España','community':'Comunidades','province':'Provincias','municipal':'Municipios','district':'Distritos (series)','section':'Secciones (series)','island':'Islas (series)','unlocated':'Sin localización'}.get(l,l) for l in sorted({a['level'] for a in t['territories']})),period={'from':periods[0]['label'],'to':periods[-1]['label']},unit=t['unit'],license=t['license'],notes=t['note']+f" Tabla completa: {t['rows']:,} observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",dataFile=f"{table_folder}/{'sepe.json' if t.get('compactColumns') else 'index.json'}"))
     canonical={str(source['id']):p for t,p in zip(index['tables'],available) for source in t.get('sourceTables',[{'id':t['id']}])}
     records={}
     for o in inventory['operations']:
@@ -75,7 +77,7 @@ def main(kind="demography",category="F02"):
                     period=' · '.join(edition['periods']),review=dict(implementedProductId=p['id'],
                     updatedAt=index['revision'],reason='Serie municipal del SEPE preservada con sus desgloses y estados.'))
     if kind=='demography':
-        nomenclator=read('public/data/nomenclator/index.json')
+        nomenclator=read('datos/territorio/nomenclator/index.json')
         editions=nomenclator['editions']
         available.append(dict(
             id='demography:nomenclator',title='Nomenclátor · población por unidad poblacional',
@@ -84,10 +86,10 @@ def main(kind="demography",category="F02"):
             period={'from':str(editions[0]['year']),'to':str(editions[-1]['year'])},
             unit='personas',license='CC BY 4.0 · INE',
             notes=f"{len(editions)} ediciones nacionales. Series consultables por provincia, año, nombre y código.",
-            dataFile='nomenclator/index.json'))
-        historical=read('public/data/intercensal/index.json')
+            dataFile='territorio/nomenclator/index.json'))
+        historical=read('datos/poblacion/intercensal/index.json')
         for part in historical['provinces'].values():
-            path=ROOT/'public/data/intercensal'/part['file']
+            path=ROOT/'datos/poblacion/intercensal'/part['file']
             assert hashlib.sha256(path.read_bytes()).hexdigest()==part['sha256'],path
         available.append(dict(
             id='demography:historical-census',title='Censos históricos y alteraciones de municipios',
@@ -95,7 +97,7 @@ def main(kind="demography",category="F02"):
             mapAction='historical-census',coverage='52 provincias y ciudades autónomas; municipios históricos y totales publicados',
             period={'from':'1842','to':'2021'},unit='personas y hogares',license='CC BY 4.0 · INE',
             notes=f"{historical['records']:,} fichas censales. Incluye recuentos, símbolos y notas de las alteraciones históricas.",
-            dataFile='intercensal/index.json'))
+            dataFile='poblacion/intercensal/index.json'))
     output={'revision':index['revision'],'available':available,'inventory':list(records.values())}
     (ROOT/f'registry/{kind}-products.json').write_text(json.dumps(output,ensure_ascii=False,indent=2),encoding='utf-8')
     print(f'{category}: {len(available)} available products; {len(records)} discovery records')

@@ -53,11 +53,11 @@ Este trabajo amplía el proyecto desde unos ejemplos iniciales a un inventario s
 
 ## Archivos reutilizables
 
-- [Fuentes temáticas, JSON](fuentes-tematicas.json) y [CSV](fuentes-tematicas.csv).
-- [Publicadores nacionales, JSON](publicadores-catalogo-nacional.json).
-- [Catálogo completo de títulos, CSV comprimido](datasets-catalogo-nacional.csv.gz). El paquete ZIP de entrega contiene el CSV ya descomprimido.
-- [Operaciones con variables y responsables, JSON](operaciones-ioe-detalladas.json) y [CSV](operaciones-ioe-detalladas.csv).
-- [Resultado de la comprobación HTTP](comprobacion-enlaces.json).
+- [Fuentes temáticas, JSON](../../datos/catalogo/investigacion/fuentes-tematicas.json) y [CSV](../../datos/catalogo/investigacion/fuentes-tematicas.csv).
+- [Publicadores nacionales, JSON](../../datos/catalogo/investigacion/publicadores-catalogo-nacional.json).
+- [Catálogo completo de títulos, CSV comprimido](../../datos/catalogo/investigacion/datasets-catalogo-nacional.csv.gz). El paquete ZIP de entrega contiene el CSV ya descomprimido.
+- [Operaciones con variables y responsables, JSON](../../datos/catalogo/investigacion/operaciones-ioe-detalladas.json) y [CSV](../../datos/catalogo/investigacion/operaciones-ioe-detalladas.csv).
+- [Resultado de la comprobación HTTP](../../datos/catalogo/investigacion/comprobacion-enlaces.json).
 
 ## Cómo se obtuvo
 

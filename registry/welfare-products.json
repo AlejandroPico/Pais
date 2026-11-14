@@ -19,7 +19,7 @@
       "unit": "Según indicador y escala publicados",
       "license": "CC BY 4.0 · INE",
       "notes": "Registros administrativos INE. No equivale a la ECV ni a la renta media por declaración del IRPF. Importe anual nominal, nivel y unidad según el indicador; límites de publicación y secreto estadístico del INE. No se completan celdas ausentes. Tabla completa: 3,259,662 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
-      "dataFile": "welfare/index.json"
+      "dataFile": "renta/ine/index.json"
     },
     {
       "id": "welfare:53688",
@@ -39,7 +39,7 @@
       "unit": "Según indicador y escala publicados",
       "license": "CC BY 4.0 · INE",
       "notes": "Registros administrativos INE. No equivale a la ECV ni a la renta media por declaración del IRPF. Importe anual nominal, nivel y unidad según el indicador; límites de publicación y secreto estadístico del INE. No se completan celdas ausentes. Tabla completa: 1,592 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
-      "dataFile": "welfare/index.json"
+      "dataFile": "renta/ine/index.json"
     },
     {
       "id": "welfare:53687",
@@ -59,7 +59,7 @@
       "unit": "Porcentaje",
       "license": "CC BY 4.0 · INE",
       "notes": "Registros administrativos INE. No equivale a la ECV ni a la renta media por declaración del IRPF. Importe anual nominal, nivel y unidad según el indicador; límites de publicación y secreto estadístico del INE. No se completan celdas ausentes. Tabla completa: 3,955 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
-      "dataFile": "welfare/index.json"
+      "dataFile": "renta/ine/index.json"
     },
     {
       "id": "welfare:53690",
@@ -79,7 +79,7 @@
       "unit": "Porcentaje",
       "license": "CC BY 4.0 · INE",
       "notes": "Registros administrativos INE. No equivale a la ECV ni a la renta media por declaración del IRPF. Importe anual nominal, nivel y unidad según el indicador; límites de publicación y secreto estadístico del INE. No se completan celdas ausentes. Tabla completa: 7,089 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
-      "dataFile": "welfare/index.json"
+      "dataFile": "renta/ine/index.json"
     },
     {
       "id": "welfare:53692",
@@ -99,7 +99,7 @@
       "unit": "Porcentaje",
       "license": "CC BY 4.0 · INE",
       "notes": "Registros administrativos INE. No equivale a la ECV ni a la renta media por declaración del IRPF. Importe anual nominal, nivel y unidad según el indicador; límites de publicación y secreto estadístico del INE. No se completan celdas ausentes. Tabla completa: 21,267 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
-      "dataFile": "welfare/index.json"
+      "dataFile": "renta/ine/index.json"
     },
     {
       "id": "welfare:53693",
@@ -119,7 +119,7 @@
       "unit": "Porcentaje",
       "license": "CC BY 4.0 · INE",
       "notes": "Registros administrativos INE. No equivale a la ECV ni a la renta media por declaración del IRPF. Importe anual nominal, nivel y unidad según el indicador; límites de publicación y secreto estadístico del INE. No se completan celdas ausentes. Tabla completa: 14,148 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
-      "dataFile": "welfare/index.json"
+      "dataFile": "renta/ine/index.json"
     },
     {
       "id": "welfare:53694",
@@ -139,7 +139,7 @@
       "unit": "Porcentaje",
       "license": "CC BY 4.0 · INE",
       "notes": "Registros administrativos INE. No equivale a la ECV ni a la renta media por declaración del IRPF. Importe anual nominal, nivel y unidad según el indicador; límites de publicación y secreto estadístico del INE. No se completan celdas ausentes. Tabla completa: 14,178 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
-      "dataFile": "welfare/index.json"
+      "dataFile": "renta/ine/index.json"
     },
     {
       "id": "welfare:53695",
@@ -159,7 +159,7 @@
       "unit": "Porcentaje",
       "license": "CC BY 4.0 · INE",
       "notes": "Registros administrativos INE. No equivale a la ECV ni a la renta media por declaración del IRPF. Importe anual nominal, nivel y unidad según el indicador; límites de publicación y secreto estadístico del INE. No se completan celdas ausentes. Tabla completa: 42,534 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
-      "dataFile": "welfare/index.json"
+      "dataFile": "renta/ine/index.json"
     },
     {
       "id": "welfare:53696",
@@ -179,7 +179,7 @@
       "unit": "Porcentaje",
       "license": "CC BY 4.0 · INE",
       "notes": "Registros administrativos INE. No equivale a la ECV ni a la renta media por declaración del IRPF. Importe anual nominal, nivel y unidad según el indicador; límites de publicación y secreto estadístico del INE. No se completan celdas ausentes. Tabla completa: 28,296 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
-      "dataFile": "welfare/index.json"
+      "dataFile": "renta/ine/index.json"
     },
     {
       "id": "welfare:49145",
@@ -199,7 +199,7 @@
       "unit": "Euros",
       "license": "CC BY 4.0 · INE",
       "notes": "Encuesta de Condiciones de Vida. Estimación de encuesta, no recuento administrativo. El periodo es el año de encuesta; los ingresos se refieren al año anterior. AROPE UE 2030 y Europa 2020 permanecen separados. Los coeficientes de variación miden precisión, no prevalencia. Tabla completa: 1,440 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
-      "dataFile": "welfare/index.json"
+      "dataFile": "renta/ine/index.json"
     },
     {
       "id": "welfare:49146",
@@ -219,7 +219,7 @@
       "unit": "Euros",
       "license": "CC BY 4.0 · INE",
       "notes": "Encuesta de Condiciones de Vida. Estimación de encuesta, no recuento administrativo. El periodo es el año de encuesta; los ingresos se refieren al año anterior. AROPE UE 2030 y Europa 2020 permanecen separados. Los coeficientes de variación miden precisión, no prevalencia. Tabla completa: 720 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
-      "dataFile": "welfare/index.json"
+      "dataFile": "renta/ine/index.json"
     },
     {
       "id": "welfare:49148",
@@ -239,7 +239,7 @@
       "unit": "Porcentaje",
       "license": "CC BY 4.0 · INE",
       "notes": "Encuesta de Condiciones de Vida. Estimación de encuesta, no recuento administrativo. El periodo es el año de encuesta; los ingresos se refieren al año anterior. AROPE UE 2030 y Europa 2020 permanecen separados. Los coeficientes de variación miden precisión, no prevalencia. Tabla completa: 720 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
-      "dataFile": "welfare/index.json"
+      "dataFile": "renta/ine/index.json"
     },
     {
       "id": "welfare:9956",
@@ -259,7 +259,7 @@
       "unit": "Porcentaje",
       "license": "CC BY 4.0 · INE",
       "notes": "Encuesta de Condiciones de Vida. Estimación de encuesta, no recuento administrativo. El periodo es el año de encuesta; los ingresos se refieren al año anterior. AROPE UE 2030 y Europa 2020 permanecen separados. Los coeficientes de variación miden precisión, no prevalencia. Tabla completa: 3,600 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
-      "dataFile": "welfare/index.json"
+      "dataFile": "renta/ine/index.json"
     },
     {
       "id": "welfare:76846",
@@ -279,7 +279,7 @@
       "unit": "Número",
       "license": "CC BY 4.0 · INE",
       "notes": "Encuesta de Condiciones de Vida. Estimación de encuesta, no recuento administrativo. El periodo es el año de encuesta; los ingresos se refieren al año anterior. AROPE UE 2030 y Europa 2020 permanecen separados. Los coeficientes de variación miden precisión, no prevalencia. Tabla completa: 1,440 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
-      "dataFile": "welfare/index.json"
+      "dataFile": "renta/ine/index.json"
     },
     {
       "id": "welfare:76847",
@@ -299,7 +299,7 @@
       "unit": "Porcentaje",
       "license": "CC BY 4.0 · INE",
       "notes": "Encuesta de Condiciones de Vida. Estimación de encuesta, no recuento administrativo. El periodo es el año de encuesta; los ingresos se refieren al año anterior. AROPE UE 2030 y Europa 2020 permanecen separados. Los coeficientes de variación miden precisión, no prevalencia. Tabla completa: 960 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
-      "dataFile": "welfare/index.json"
+      "dataFile": "renta/ine/index.json"
     },
     {
       "id": "welfare:68033",
@@ -319,7 +319,7 @@
       "unit": "Porcentaje",
       "license": "CC BY 4.0 · INE",
       "notes": "Encuesta de Condiciones de Vida. Estimación de encuesta, no recuento administrativo. El periodo es el año de encuesta; los ingresos se refieren al año anterior. AROPE UE 2030 y Europa 2020 permanecen separados. Los coeficientes de variación miden precisión, no prevalencia. Tabla completa: 480 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
-      "dataFile": "welfare/index.json"
+      "dataFile": "renta/ine/index.json"
     },
     {
       "id": "welfare:9990",
@@ -339,7 +339,7 @@
       "unit": "Porcentaje de personas",
       "license": "CC BY 4.0 · INE",
       "notes": "Encuesta de Condiciones de Vida. Estimación de encuesta, no recuento administrativo. El periodo es el año de encuesta; los ingresos se refieren al año anterior. AROPE UE 2030 y Europa 2020 permanecen separados. Los coeficientes de variación miden precisión, no prevalencia. Tabla completa: 3,080 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
-      "dataFile": "welfare/index.json"
+      "dataFile": "renta/ine/index.json"
     },
     {
       "id": "welfare:9993",
@@ -359,7 +359,7 @@
       "unit": "Porcentaje de hogares",
       "license": "CC BY 4.0 · INE",
       "notes": "Encuesta de Condiciones de Vida. Estimación de encuesta, no recuento administrativo. El periodo es el año de encuesta; los ingresos se refieren al año anterior. AROPE UE 2030 y Europa 2020 permanecen separados. Los coeficientes de variación miden precisión, no prevalencia. Tabla completa: 3,080 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
-      "dataFile": "welfare/index.json"
+      "dataFile": "renta/ine/index.json"
     },
     {
       "id": "welfare:9972",
@@ -379,7 +379,7 @@
       "unit": "Porcentaje de personas",
       "license": "CC BY 4.0 · INE",
       "notes": "Encuesta de Condiciones de Vida. Estimación de encuesta, no recuento administrativo. El periodo es el año de encuesta; los ingresos se refieren al año anterior. AROPE UE 2030 y Europa 2020 permanecen separados. Los coeficientes de variación miden precisión, no prevalencia. Tabla completa: 3,800 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
-      "dataFile": "welfare/index.json"
+      "dataFile": "renta/ine/index.json"
     },
     {
       "id": "welfare:9975",
@@ -399,7 +399,7 @@
       "unit": "Porcentaje de hogares",
       "license": "CC BY 4.0 · INE",
       "notes": "Encuesta de Condiciones de Vida. Estimación de encuesta, no recuento administrativo. El periodo es el año de encuesta; los ingresos se refieren al año anterior. AROPE UE 2030 y Europa 2020 permanecen separados. Los coeficientes de variación miden precisión, no prevalencia. Tabla completa: 3,800 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
-      "dataFile": "welfare/index.json"
+      "dataFile": "renta/ine/index.json"
     },
     {
       "id": "welfare:60162",
@@ -419,7 +419,7 @@
       "unit": "Porcentaje",
       "license": "CC BY 4.0 · INE",
       "notes": "Encuesta de Condiciones de Vida. Estimación de encuesta, no recuento administrativo. El periodo es el año de encuesta; los ingresos se refieren al año anterior. AROPE UE 2030 y Europa 2020 permanecen separados. Los coeficientes de variación miden precisión, no prevalencia. Tabla completa: 1,560 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
-      "dataFile": "welfare/index.json"
+      "dataFile": "renta/ine/index.json"
     },
     {
       "id": "welfare:10001",
@@ -439,7 +439,7 @@
       "unit": "Porcentaje de hogares",
       "license": "CC BY 4.0 · INE",
       "notes": "Encuesta de Condiciones de Vida. Estimación de encuesta, no recuento administrativo. El periodo es el año de encuesta; los ingresos se refieren al año anterior. AROPE UE 2030 y Europa 2020 permanecen separados. Los coeficientes de variación miden precisión, no prevalencia. Tabla completa: 1,700 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
-      "dataFile": "welfare/index.json"
+      "dataFile": "renta/ine/index.json"
     },
     {
       "id": "welfare:59972",
@@ -459,7 +459,7 @@
       "unit": "Porcentaje",
       "license": "CC BY 4.0 · INE",
       "notes": "Encuesta de Condiciones de Vida. Estimación de encuesta, no recuento administrativo. El periodo es el año de encuesta; los ingresos se refieren al año anterior. AROPE UE 2030 y Europa 2020 permanecen separados. Los coeficientes de variación miden precisión, no prevalencia. Tabla completa: 720 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
-      "dataFile": "welfare/index.json"
+      "dataFile": "renta/ine/index.json"
     },
     {
       "id": "welfare:79671",
@@ -479,7 +479,7 @@
       "unit": "Porcentaje",
       "license": "CC BY 4.0 · INE",
       "notes": "Encuesta de Condiciones de Vida. Estimación de encuesta, no recuento administrativo. El periodo es el año de encuesta; los ingresos se refieren al año anterior. AROPE UE 2030 y Europa 2020 permanecen separados. Los coeficientes de variación miden precisión, no prevalencia. Tabla completa: 80 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
-      "dataFile": "welfare/index.json"
+      "dataFile": "renta/ine/index.json"
     },
     {
       "id": "welfare:10011",
@@ -499,7 +499,7 @@
       "unit": "Porcentaje",
       "license": "CC BY 4.0 · INE",
       "notes": "Encuesta de Condiciones de Vida. Estimación de encuesta, no recuento administrativo. El periodo es el año de encuesta; los ingresos se refieren al año anterior. AROPE UE 2030 y Europa 2020 permanecen separados. Los coeficientes de variación miden precisión, no prevalencia. Tabla completa: 1,440 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
-      "dataFile": "welfare/index.json"
+      "dataFile": "renta/ine/index.json"
     },
     {
       "id": "welfare:73990",
@@ -519,7 +519,7 @@
       "unit": "Según indicador y escala publicados",
       "license": "CC BY 4.0 · INE",
       "notes": "Encuesta de Presupuestos Familiares. Clasificación COICOP 2018 y serie revisada del producto; no se empalma con ECOICOP. Se conservan importes, distribuciones, índices y variaciones con su unidad y escala propias. Gastos en euros nominales cuando así se publican; no se deflactan. Tabla completa: 2,080 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
-      "dataFile": "welfare/index.json"
+      "dataFile": "renta/ine/index.json"
     },
     {
       "id": "welfare:73991",
@@ -539,7 +539,7 @@
       "unit": "Según indicador y escala publicados",
       "license": "CC BY 4.0 · INE",
       "notes": "Encuesta de Presupuestos Familiares. Clasificación COICOP 2018 y serie revisada del producto; no se empalma con ECOICOP. Se conservan importes, distribuciones, índices y variaciones con su unidad y escala propias. Gastos en euros nominales cuando así se publican; no se deflactan. Tabla completa: 26,320 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
-      "dataFile": "welfare/index.json"
+      "dataFile": "renta/ine/index.json"
     },
     {
       "id": "welfare:73992",
@@ -559,7 +559,7 @@
       "unit": "Según indicador y escala publicados",
       "license": "CC BY 4.0 · INE",
       "notes": "Encuesta de Presupuestos Familiares. Clasificación COICOP 2018 y serie revisada del producto; no se empalma con ECOICOP. Se conservan importes, distribuciones, índices y variaciones con su unidad y escala propias. Gastos en euros nominales cuando así se publican; no se deflactan. Tabla completa: 80,840 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
-      "dataFile": "welfare/index.json"
+      "dataFile": "renta/ine/index.json"
     },
     {
       "id": "welfare:73993",
@@ -579,7 +579,7 @@
       "unit": "Según indicador y escala publicados",
       "license": "CC BY 4.0 · INE",
       "notes": "Encuesta de Presupuestos Familiares. Clasificación COICOP 2018 y serie revisada del producto; no se empalma con ECOICOP. Se conservan importes, distribuciones, índices y variaciones con su unidad y escala propias. Gastos en euros nominales cuando así se publican; no se deflactan. Tabla completa: 77,600 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
-      "dataFile": "welfare/index.json"
+      "dataFile": "renta/ine/index.json"
     },
     {
       "id": "welfare:73994",
@@ -599,7 +599,7 @@
       "unit": "Según indicador y escala publicados",
       "license": "CC BY 4.0 · INE",
       "notes": "Encuesta de Presupuestos Familiares. Clasificación COICOP 2018 y serie revisada del producto; no se empalma con ECOICOP. Se conservan importes, distribuciones, índices y variaciones con su unidad y escala propias. Gastos en euros nominales cuando así se publican; no se deflactan. Tabla completa: 4,000 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
-      "dataFile": "welfare/index.json"
+      "dataFile": "renta/ine/index.json"
     },
     {
       "id": "welfare:73995",
@@ -619,7 +619,7 @@
       "unit": "Según indicador y escala publicados",
       "license": "CC BY 4.0 · INE",
       "notes": "Encuesta de Presupuestos Familiares. Clasificación COICOP 2018 y serie revisada del producto; no se empalma con ECOICOP. Se conservan importes, distribuciones, índices y variaciones con su unidad y escala propias. Gastos en euros nominales cuando así se publican; no se deflactan. Tabla completa: 5,000 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
-      "dataFile": "welfare/index.json"
+      "dataFile": "renta/ine/index.json"
     },
     {
       "id": "welfare:73996",
@@ -639,7 +639,7 @@
       "unit": "Según indicador y escala publicados",
       "license": "CC BY 4.0 · INE",
       "notes": "Encuesta de Presupuestos Familiares. Clasificación COICOP 2018 y serie revisada del producto; no se empalma con ECOICOP. Se conservan importes, distribuciones, índices y variaciones con su unidad y escala propias. Gastos en euros nominales cuando así se publican; no se deflactan. Tabla completa: 3,000 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
-      "dataFile": "welfare/index.json"
+      "dataFile": "renta/ine/index.json"
     },
     {
       "id": "welfare:73997",
@@ -659,7 +659,7 @@
       "unit": "Según indicador y escala publicados",
       "license": "CC BY 4.0 · INE",
       "notes": "Encuesta de Presupuestos Familiares. Clasificación COICOP 2018 y serie revisada del producto; no se empalma con ECOICOP. Se conservan importes, distribuciones, índices y variaciones con su unidad y escala propias. Gastos en euros nominales cuando así se publican; no se deflactan. Tabla completa: 3,000 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
-      "dataFile": "welfare/index.json"
+      "dataFile": "renta/ine/index.json"
     },
     {
       "id": "welfare:73998",
@@ -679,7 +679,7 @@
       "unit": "Según indicador y escala publicados",
       "license": "CC BY 4.0 · INE",
       "notes": "Encuesta de Presupuestos Familiares. Clasificación COICOP 2018 y serie revisada del producto; no se empalma con ECOICOP. Se conservan importes, distribuciones, índices y variaciones con su unidad y escala propias. Gastos en euros nominales cuando así se publican; no se deflactan. Tabla completa: 6,000 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
-      "dataFile": "welfare/index.json"
+      "dataFile": "renta/ine/index.json"
     },
     {
       "id": "welfare:73999",
@@ -699,7 +699,7 @@
       "unit": "Según indicador y escala publicados",
       "license": "CC BY 4.0 · INE",
       "notes": "Encuesta de Presupuestos Familiares. Clasificación COICOP 2018 y serie revisada del producto; no se empalma con ECOICOP. Se conservan importes, distribuciones, índices y variaciones con su unidad y escala propias. Gastos en euros nominales cuando así se publican; no se deflactan. Tabla completa: 5,000 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
-      "dataFile": "welfare/index.json"
+      "dataFile": "renta/ine/index.json"
     },
     {
       "id": "welfare:74000",
@@ -719,7 +719,7 @@
       "unit": "Según indicador y escala publicados",
       "license": "CC BY 4.0 · INE",
       "notes": "Encuesta de Presupuestos Familiares. Clasificación COICOP 2018 y serie revisada del producto; no se empalma con ECOICOP. Se conservan importes, distribuciones, índices y variaciones con su unidad y escala propias. Gastos en euros nominales cuando así se publican; no se deflactan. Tabla completa: 5,000 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
-      "dataFile": "welfare/index.json"
+      "dataFile": "renta/ine/index.json"
     },
     {
       "id": "welfare:74001",
@@ -739,7 +739,7 @@
       "unit": "Según indicador y escala publicados",
       "license": "CC BY 4.0 · INE",
       "notes": "Encuesta de Presupuestos Familiares. Clasificación COICOP 2018 y serie revisada del producto; no se empalma con ECOICOP. Se conservan importes, distribuciones, índices y variaciones con su unidad y escala propias. Gastos en euros nominales cuando así se publican; no se deflactan. Tabla completa: 5,000 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
-      "dataFile": "welfare/index.json"
+      "dataFile": "renta/ine/index.json"
     },
     {
       "id": "welfare:74002",
@@ -759,7 +759,7 @@
       "unit": "Según indicador y escala publicados",
       "license": "CC BY 4.0 · INE",
       "notes": "Encuesta de Presupuestos Familiares. Clasificación COICOP 2018 y serie revisada del producto; no se empalma con ECOICOP. Se conservan importes, distribuciones, índices y variaciones con su unidad y escala propias. Gastos en euros nominales cuando así se publican; no se deflactan. Tabla completa: 5,000 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
-      "dataFile": "welfare/index.json"
+      "dataFile": "renta/ine/index.json"
     },
     {
       "id": "welfare:69385",
@@ -779,7 +779,7 @@
       "unit": "Según indicador y escala publicados",
       "license": "CC BY 4.0 · INE",
       "notes": "Indicadores de Calidad de Vida del INE. Medias, porcentajes y escalas subjetivas se conservan según los metadatos. No son mediciones individuales localizables ni se asignan a municipios. Tabla completa: 300 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
-      "dataFile": "welfare/index.json"
+      "dataFile": "renta/ine/index.json"
     },
     {
       "id": "welfare:74577",
@@ -799,7 +799,7 @@
       "unit": "Según indicador y escala publicados",
       "license": "CC BY 4.0 · INE",
       "notes": "Indicadores de Calidad de Vida del INE. Medias, porcentajes y escalas subjetivas se conservan según los metadatos. No son mediciones individuales localizables ni se asignan a municipios. Tabla completa: 300 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
-      "dataFile": "welfare/index.json"
+      "dataFile": "renta/ine/index.json"
     },
     {
       "id": "welfare:74606",
@@ -819,7 +819,7 @@
       "unit": "Porcentaje",
       "license": "CC BY 4.0 · INE",
       "notes": "Indicadores de Calidad de Vida del INE. Medias, porcentajes y escalas subjetivas se conservan según los metadatos. No son mediciones individuales localizables ni se asignan a municipios. Tabla completa: 140 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
-      "dataFile": "welfare/index.json"
+      "dataFile": "renta/ine/index.json"
     },
     {
       "id": "welfare:74627",
@@ -839,7 +839,7 @@
       "unit": "Porcentaje",
       "license": "CC BY 4.0 · INE",
       "notes": "Indicadores de Calidad de Vida del INE. Medias, porcentajes y escalas subjetivas se conservan según los metadatos. No son mediciones individuales localizables ni se asignan a municipios. Tabla completa: 80 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
-      "dataFile": "welfare/index.json"
+      "dataFile": "renta/ine/index.json"
     },
     {
       "id": "welfare:74635",
@@ -859,7 +859,7 @@
       "unit": "Según indicador y escala publicados",
       "license": "CC BY 4.0 · INE",
       "notes": "Indicadores de Calidad de Vida del INE. Medias, porcentajes y escalas subjetivas se conservan según los metadatos. No son mediciones individuales localizables ni se asignan a municipios. Tabla completa: 100 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
-      "dataFile": "welfare/index.json"
+      "dataFile": "renta/ine/index.json"
     },
     {
       "id": "welfare:74644",
@@ -879,7 +879,7 @@
       "unit": "Según indicador y escala publicados",
       "license": "CC BY 4.0 · INE",
       "notes": "Indicadores de Calidad de Vida del INE. Medias, porcentajes y escalas subjetivas se conservan según los metadatos. No son mediciones individuales localizables ni se asignan a municipios. Tabla completa: 100 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
-      "dataFile": "welfare/index.json"
+      "dataFile": "renta/ine/index.json"
     },
     {
       "id": "welfare:74653",
@@ -899,7 +899,7 @@
       "unit": "Según indicador y escala publicados",
       "license": "CC BY 4.0 · INE",
       "notes": "Indicadores de Calidad de Vida del INE. Medias, porcentajes y escalas subjetivas se conservan según los metadatos. No son mediciones individuales localizables ni se asignan a municipios. Tabla completa: 100 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
-      "dataFile": "welfare/index.json"
+      "dataFile": "renta/ine/index.json"
     },
     {
       "id": "welfare:69506",
@@ -919,7 +919,7 @@
       "unit": "Porcentaje",
       "license": "CC BY 4.0 · INE",
       "notes": "Satisfacción con la vivienda por comunidad autónoma. Indicador de encuesta del INE. Se conservan el ámbito, las categorías y la unidad de la publicación. Tabla completa: 160 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
-      "dataFile": "welfare/index.json"
+      "dataFile": "renta/ine/index.json"
     },
     {
       "id": "welfare:74544",
@@ -939,7 +939,7 @@
       "unit": "Según indicador y escala publicados",
       "license": "CC BY 4.0 · INE",
       "notes": "Satisfacción con el tiempo disponible para hacer lo que a uno le gusta por comunidad autónoma. Indicador de encuesta del INE. Se conservan el ámbito, las categorías y la unidad de la publicación. Tabla completa: 300 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
-      "dataFile": "welfare/index.json"
+      "dataFile": "renta/ine/index.json"
     },
     {
       "id": "welfare:74588",
@@ -959,7 +959,7 @@
       "unit": "Porcentaje",
       "license": "CC BY 4.0 · INE",
       "notes": "Posibilidad de pedir ayuda a familiares, amigos o vecinos por comunidad autónoma. Indicador de encuesta del INE. Se conservan el ámbito, las categorías y la unidad de la publicación. Tabla completa: 80 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
-      "dataFile": "welfare/index.json"
+      "dataFile": "renta/ine/index.json"
     },
     {
       "id": "welfare:74708",
@@ -979,7 +979,7 @@
       "unit": "Según indicador y escala publicados",
       "license": "CC BY 4.0 · INE",
       "notes": "Satisfacción con las zonas verdes y áreas recreativas por comunidad autónoma. Indicador de encuesta del INE. Se conservan el ámbito, las categorías y la unidad de la publicación. Tabla completa: 200 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
-      "dataFile": "welfare/index.json"
+      "dataFile": "renta/ine/index.json"
     },
     {
       "id": "welfare:74717",
@@ -999,7 +999,7 @@
       "unit": "Según indicador y escala publicados",
       "license": "CC BY 4.0 · INE",
       "notes": "Satisfacción con el entorno en que vive por comunidad autónoma. Indicador de encuesta del INE. Se conservan el ámbito, las categorías y la unidad de la publicación. Tabla completa: 100 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
-      "dataFile": "welfare/index.json"
+      "dataFile": "renta/ine/index.json"
     },
     {
       "id": "welfare:74726",
@@ -1019,7 +1019,7 @@
       "unit": "Porcentaje",
       "license": "CC BY 4.0 · INE",
       "notes": "Satisfacción alta o muy alta con su vida en la actualidad por comunidad autónoma. Indicador de encuesta del INE. Se conservan el ámbito, las categorías y la unidad de la publicación. Tabla completa: 140 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
-      "dataFile": "welfare/index.json"
+      "dataFile": "renta/ine/index.json"
     }
   ],
   "inventory": [

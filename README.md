@@ -1,5 +1,7 @@
 # El país · Atlas abierto de España
 
+La [guía para agentes](AGENTS.md) contiene la arquitectura y el protocolo de cierre. En [tareas.md](tareas.md) están los objetivos pendientes de F00 a F29.
+
 ## Versión 0.8.0
 
 Mapa base accesible desde todas las categorías, 67 opciones de fondo y ajustes de color y opacidad por capa. Los desplegables se apilan en escritorio y se abren en vertical en móvil. El visor conserva la dirección de portada al navegar y sigue admitiendo los enlaces a vistas guardadas de la versión anterior.
@@ -91,7 +93,7 @@ La compilación genera `dist/`, con rutas relativas compatibles con `/Pais/`. El
 
 ## Datos en el repositorio
 
-Los datos estadísticos normalizados, límites y metadatos están en `public/data/`. Los servicios de imágenes se consultan al proveedor: no se descarga ni se incluye un mapa mundial completo en el repositorio. Las fuentes de mapa requieren conexión; no hay promesa de funcionamiento sin conexión.
+Los datos estadísticos normalizados, límites y metadatos están en `datos/`. Los servicios de imágenes se consultan al proveedor: no se descarga ni se incluye un mapa mundial completo en el repositorio. Las fuentes de mapa requieren conexión; no hay promesa de funcionamiento sin conexión.
 
 ```sh
 npm run data:refresh
@@ -110,4 +112,4 @@ Proyecto independiente, no afiliado a los organismos citados. Datos INE: CC BY 4
 
 Bibliotecas: MapLibre GL JS, Lucide y polygon-clipping, con sus respectivas licencias. Las tipografías se sirven desde Google Fonts y tienen alternativas locales del sistema.
 
-El mar y el contexto terrestre se separan con los límites de España del IGN y cartografía de países de [Natural Earth](https://www.naturalearthdata.com/about/terms-of-use/), de dominio público, recortada al entorno de España. [Procedencia del contexto](public/data/context-provenance.json). Esa máscara no define jurisdicciones marítimas.
+El mar y el contexto terrestre se separan con los límites de España del IGN y cartografía de países de [Natural Earth](https://www.naturalearthdata.com/about/terms-of-use/), de dominio público, recortada al entorno de España. [Procedencia del contexto](datos/territorio/contexto/context-provenance.json). Esa máscara no define jurisdicciones marítimas.

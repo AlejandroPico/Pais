@@ -13,9 +13,9 @@ const colors=['#edf1d5','#c9dea7','#a0c68a','#70a87b','#43866a','#266153','#123f
 type Options={info:HTMLElement;onActivate:()=>void;closeDrawer:()=>void;clearSelection:()=>void};
 
 const statisticsConfig={
-  demography:{prefix:'f02',urlPrefix:'',legend:'Leyenda demográfica',timeline:'Evolución demográfica',toggle:'Representar datos demográficos'},
-  welfare:{prefix:'f03',urlPrefix:'w',legend:'Leyenda de renta y condiciones de vida',timeline:'Evolución de renta y condiciones de vida',toggle:'Representar renta y condiciones de vida'},
-  labor:{prefix:'f04',urlPrefix:'l',legend:'Leyenda de empleo y salarios',timeline:'Evolución de empleo y salarios',toggle:'Representar datos de empleo y salarios'},
+  demography:{folder:'poblacion/ine',prefix:'f02',urlPrefix:'',legend:'Leyenda demográfica',timeline:'Evolución demográfica',toggle:'Representar datos demográficos'},
+  welfare:{folder:'renta/ine',prefix:'f03',urlPrefix:'w',legend:'Leyenda de renta y condiciones de vida',timeline:'Evolución de renta y condiciones de vida',toggle:'Representar renta y condiciones de vida'},
+  labor:{folder:'trabajo/ine',prefix:'f04',urlPrefix:'l',legend:'Leyenda de empleo y salarios',timeline:'Evolución de empleo y salarios',toggle:'Representar datos de empleo y salarios'},
 } as const;
 export type StatisticsKind=keyof typeof statisticsConfig;
 
@@ -40,7 +40,10 @@ export class DemographyController{
     document.querySelector('.map-area')!.append(this.legend,this.timeline);
   }
 
-  private dataRoot(){return import.meta.env.BASE_URL+'data/'+this.kind+'/';}
+  private dataRoot(table?:DemographicTable){
+    const folder=table?.compactColumns&&this.kind==='labor'?'trabajo/sepe':statisticsConfig[this.kind].folder;
+    return import.meta.env.BASE_URL+'datos/'+folder+'/';
+  }
   private layer(id:string){return id.replace('f02-',statisticsConfig[this.kind].prefix+'-');}
   private urlKey(key:string){
     if(key==='demography')return this.kind;
@@ -58,7 +61,7 @@ export class DemographyController{
       if(!compact){
         const index=await response.json() as DemographicIndex;
         if(this.kind==='labor'){
-          const sepe=await fetch(this.dataRoot()+'sepe.json');
+          const sepe=await fetch(import.meta.env.BASE_URL+'datos/trabajo/sepe/sepe.json');
           if(!sepe.ok)throw new Error('No se pudo cargar el catálogo del SEPE.');
           index.tables.push(...(await sepe.json() as Pick<DemographicIndex,'tables'>).tables);
         }
@@ -79,7 +82,7 @@ export class DemographyController{
   attach(map:AtlasMap,provinces:FeatureCollection,communities:FeatureCollection){
     this.map=map;this.geometries={province:provinces,community:communities};
     map.addSource(this.layer('f02-statistics'),{type:'geojson',data:{type:'FeatureCollection',features:[]}});
-    map.addSource(this.layer('f02-national'),{type:'geojson',data:import.meta.env.BASE_URL+'data/territory/country-atlas.geojson'});
+    map.addSource(this.layer('f02-national'),{type:'geojson',data:import.meta.env.BASE_URL+'datos/territorio/country-atlas.geojson'});
     for(const [id,source] of [[this.layer('f02-fill'),this.layer('f02-statistics')],[this.layer('f02-national-fill'),this.layer('f02-national')]])map.addLayer({id,type:'fill',source,layout:{visibility:'none'},paint:{'fill-color':'#7fa788','fill-opacity':this.alpha}},'province-lines');
     const layer={id:this.layer('f02-municipal-fill'),type:'fill' as const,source:'f01-admin','source-layer':'municipio',minzoom:7,layout:{visibility:'none' as const},paint:{'fill-color':'#b8b6aa','fill-opacity':this.alpha}};
     map.addLayer(layer,'f01-municipal-line');addShiftedLayer(map,layer,'f01-municipal-line');
@@ -150,7 +153,7 @@ export class DemographyController{
       if(e.data.error){this.stop();this.result=undefined;this.status=e.data.error;this.renderMap();this.drawPanel();return;}
       this.result=e.data.result;this.baselines.clear();const start=periodOrder(this.table!)[0];for(const d of this.result!.domain)if(d.period===start)this.baselines.set(this.table!.territories[d.area].code,d.value);this.status=`${fmt(this.result!.values.filter(v=>v.value!==null).length)} territorios con dato · ${this.table!.periods[this.query.period].label}`;this.renderMap();this.renderDetail();this.drawPanel();
     };this.worker.onerror=()=>{this.stop();this.status='No se pudo iniciar la consulta. Recarga la web para reintentar.';this.drawPanel();};}
-    this.worker.postMessage({id:++this.request,base:new URL(this.dataRoot(),location.href).href,table:this.table,part:['municipal','district','section'].includes(this.query.level)?this.province:'main',query:this.query});this.renderTimeline();
+    this.worker.postMessage({id:++this.request,base:new URL(this.dataRoot(this.table),location.href).href,table:this.table,part:['municipal','district','section'].includes(this.query.level)?this.province:'main',query:this.query});this.renderTimeline();
   }
   private unit(){if(this.growth)return '% respecto a '+this.table!.periods[periodOrder(this.table!)[0]].label;return this.density&&['province','community'].includes(this.query.level)?'personas por km² · aprox.':unitFor(this.table!,this.query.dims);}
   private mappedValue(value:number|null,code:string){if(value===null)return null;if(this.growth)return relativeChange(value,this.baselines.get(code));if(this.density&&['province','community'].includes(this.query.level)){const area=this.geometries[this.query.level].features.find(f=>f.properties?.code===code)?.properties?.areaKm2;return area>0?value/area:null;}return value;}

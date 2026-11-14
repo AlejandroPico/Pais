@@ -8,7 +8,7 @@ import {municipalCode,coordinatesExtent,validSpanishCoordinate} from './territor
 import {territoryLayers,sectionEditions,sectionVectorUrl,orthophotoEditions,historicOrthophoto,canaryEditions,canaryCartography,wmsTile,wmsRequest,localCredit,type WmsProvider} from './territory-config';
 
 const esc=(v:unknown)=>String(v??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]!));
-const dataRoot=import.meta.env.BASE_URL+'data/territory/';
+const dataRoot=import.meta.env.BASE_URL+'datos/territorio/';
 const vectorRoot='https://api-features.ign.es/collections/administrativeunit/items/';
 type Municipality={code:string;name:string;provinceCode:string;communityCode:string;ignFeatureId:number;islandId?:string;cartographicName?:string;referenceDate:string};
 export type TerritoryIndex={referenceDate:string;municipalities:Municipality[];islands:{id:string;name:string;provinceCode:string}[];supplementalAreas:{code:string;name:string;classification:string}[]};

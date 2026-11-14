@@ -19,7 +19,7 @@
       "unit": "Tasas",
       "license": "CC BY 4.0 · INE",
       "notes": "Estimaciones de la Encuesta de Población Activa para hogares residentes. La tasa de paro se calcula sobre la población activa. Tasas trimestrales publicadas por el INE. Base poblacional 2011 hasta 2020 y base 2021 desde 2021. Tabla completa: 47,223 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
-      "dataFile": "labor/index.json"
+      "dataFile": "trabajo/ine/index.json"
     },
     {
       "id": "labor:65334",
@@ -39,7 +39,7 @@
       "unit": "Tasas",
       "license": "CC BY 4.0 · INE",
       "notes": "Estimaciones de la EPA por sexo y edad. La tasa se refiere a los activos del grupo seleccionado. Base poblacional 2011 hasta 2020 y base 2021 desde 2021. Tabla completa: 41,580 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
-      "dataFile": "labor/index.json"
+      "dataFile": "trabajo/ine/index.json"
     },
     {
       "id": "labor:65345",
@@ -59,7 +59,7 @@
       "unit": "Miles · Personas",
       "license": "CC BY 4.0 · INE",
       "notes": "Población residente de 16 y más años por relación con la actividad económica y sexo. Cifras en miles de personas. Base poblacional 2011 hasta 2020 y base 2021 desde 2021. Tabla completa: 94,446 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
-      "dataFile": "labor/index.json"
+      "dataFile": "trabajo/ine/index.json"
     },
     {
       "id": "labor:79337",
@@ -79,7 +79,7 @@
       "unit": "Porcentaje",
       "license": "CC BY 4.0 · INE",
       "notes": "Distribución porcentual de los ocupados por sector económico. Serie con la clasificación CNAE 2025 desde 2026. Tabla completa: 636 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
-      "dataFile": "labor/index.json"
+      "dataFile": "trabajo/ine/index.json"
     },
     {
       "id": "labor:28191",
@@ -99,7 +99,7 @@
       "unit": "Euros",
       "license": "CC BY 4.0 · INE",
       "notes": "Ganancia bruta anual por trabajador en euros corrientes. La media y los percentiles conservan su definición y el ámbito de la encuesta. Tabla completa: 5,508 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
-      "dataFile": "labor/index.json"
+      "dataFile": "trabajo/ine/index.json"
     },
     {
       "id": "labor:79662",
@@ -119,7 +119,7 @@
       "unit": "Euros",
       "license": "CC BY 4.0 · INE",
       "notes": "Costes en euros por trabajador y mes. La tabla distingue coste salarial, otros costes y demás componentes publicados. Tabla completa: 37,296 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
-      "dataFile": "labor/index.json"
+      "dataFile": "trabajo/ine/index.json"
     },
     {
       "id": "labor:6062",
@@ -139,7 +139,7 @@
       "unit": "Euros",
       "license": "CC BY 4.0 · INE",
       "notes": "Costes por hora efectiva de trabajo. Se conservan las unidades de cada indicador. Tabla completa: 21,312 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
-      "dataFile": "labor/index.json"
+      "dataFile": "trabajo/ine/index.json"
     },
     {
       "id": "labor:6063",
@@ -159,7 +159,7 @@
       "unit": "Horas/trabajador(mes)",
       "license": "CC BY 4.0 · INE",
       "notes": "Horas por trabajador y mes, por tipo de jornada y sector. Se distinguen horas pactadas, efectivas y otros conceptos publicados. Tabla completa: 79,920 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
-      "dataFile": "labor/index.json"
+      "dataFile": "trabajo/ine/index.json"
     },
     {
       "id": "labor:6064",
@@ -179,7 +179,7 @@
       "unit": "Vacante",
       "license": "CC BY 4.0 · INE",
       "notes": "Puestos de trabajo vacantes en cuentas de cotización incluidas en la encuesta. Se muestra el recuento publicado. Tabla completa: 936 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
-      "dataFile": "labor/index.json"
+      "dataFile": "trabajo/ine/index.json"
     },
     {
       "id": "labor:28182",
@@ -199,7 +199,7 @@
       "unit": "Porcentaje",
       "license": "CC BY 4.0 · INE",
       "notes": "Porcentaje de trabajadores en función de su ganancia con respecto al Salario Mínimo Interprofesional (SMI) (respecto al total de trabajadores) por tipo de jornada y sexo. Serie del INE. Se conservan su periodicidad, clasificación y unidad original. Tabla completa: 1,020 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
-      "dataFile": "labor/index.json"
+      "dataFile": "trabajo/ine/index.json"
     },
     {
       "id": "labor:28184",
@@ -219,7 +219,7 @@
       "unit": "Según indicador y escala publicados",
       "license": "CC BY 4.0 · INE",
       "notes": "Indicadores de desigualdad. Serie del INE. Se conservan su periodicidad, clasificación y unidad original. Tabla completa: 102 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
-      "dataFile": "labor/index.json"
+      "dataFile": "trabajo/ine/index.json"
     },
     {
       "id": "labor:30046",
@@ -239,7 +239,7 @@
       "unit": "Euros",
       "license": "CC BY 4.0 · INE",
       "notes": "Ingreso medio por hora desglosado por sexo y sectores de actividad. Serie del INE. Se conservan su periodicidad, clasificación y unidad original. Tabla completa: 3,672 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
-      "dataFile": "labor/index.json"
+      "dataFile": "trabajo/ine/index.json"
     },
     {
       "id": "labor:6049",
@@ -259,7 +259,7 @@
       "unit": "Vacante",
       "license": "CC BY 4.0 · INE",
       "notes": "Número de vacantes por tamaño del establecimiento. Serie del INE. Se conservan su periodicidad, clasificación y unidad original. Tabla completa: 208 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
-      "dataFile": "labor/index.json"
+      "dataFile": "trabajo/ine/index.json"
     },
     {
       "id": "labor:6058",
@@ -279,7 +279,7 @@
       "unit": "Euros",
       "license": "CC BY 4.0 · INE",
       "notes": "Coste por hora extraordinaria por comunidad autónoma. Serie del INE. Se conservan su periodicidad, clasificación y unidad original. Tabla completa: 1,332 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
-      "dataFile": "labor/index.json"
+      "dataFile": "trabajo/ine/index.json"
     },
     {
       "id": "labor:6066",
@@ -299,7 +299,7 @@
       "unit": "Porcentaje de centros",
       "license": "CC BY 4.0 · INE",
       "notes": "Motivos por los que no existen vacantes por comunidad autónoma. Serie del INE. Se conservan su periodicidad, clasificación y unidad original. Tabla completa: 3,744 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
-      "dataFile": "labor/index.json"
+      "dataFile": "trabajo/ine/index.json"
     },
     {
       "id": "labor:900001",
@@ -319,7 +319,7 @@
       "unit": "personas",
       "license": "CC BY 4.0 · SEPE",
       "notes": "Paro registrado en el municipio de domicilio de la persona demandante. Las cifras «<5» se conservan como dato protegido. El visor usa el código municipal original para cada mes. Tabla completa: 24,373,032 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
-      "dataFile": "labor/sepe.json"
+      "dataFile": "trabajo/sepe/sepe.json"
     },
     {
       "id": "labor:900002",
@@ -339,7 +339,7 @@
       "unit": "contratos",
       "license": "CC BY 4.0 · SEPE",
       "notes": "Contratos registrados, asignados al municipio del centro de trabajo. Las cifras «<5» se conservan como dato protegido. El visor usa el código municipal original para cada mes. Tabla completa: 22,341,946 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
-      "dataFile": "labor/sepe.json"
+      "dataFile": "trabajo/sepe/sepe.json"
     },
     {
       "id": "labor:900003",
@@ -359,7 +359,7 @@
       "unit": "personas",
       "license": "CC BY 4.0 · SEPE",
       "notes": "Demandantes de empleo inscritos en el municipio de domicilio. Incluye situaciones distintas del paro registrado. Las cifras «<5» se conservan como dato protegido. El visor usa el código municipal original para cada mes. Tabla completa: 24,275,424 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
-      "dataFile": "labor/sepe.json"
+      "dataFile": "trabajo/sepe/sepe.json"
     }
   ],
   "inventory": [
@@ -18557,7 +18557,7 @@
       "unit": "personas",
       "license": "CC BY 4.0 · SEPE",
       "notes": "Paro registrado en el municipio de domicilio de la persona demandante. Las cifras «<5» se conservan como dato protegido. El visor usa el código municipal original para cada mes. Tabla completa: 24,373,032 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
-      "dataFile": "labor/sepe.json",
+      "dataFile": "trabajo/sepe/sepe.json",
       "review": {
         "implementedProductId": "labor:900001",
         "updatedAt": "2026-11-14",
@@ -18579,7 +18579,7 @@
       "unit": "personas",
       "license": "CC BY 4.0 · SEPE",
       "notes": "Paro registrado en el municipio de domicilio de la persona demandante. Las cifras «<5» se conservan como dato protegido. El visor usa el código municipal original para cada mes. Tabla completa: 24,373,032 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
-      "dataFile": "labor/sepe.json",
+      "dataFile": "trabajo/sepe/sepe.json",
       "review": {
         "implementedProductId": "labor:900001",
         "updatedAt": "2026-11-14",
@@ -18601,7 +18601,7 @@
       "unit": "personas",
       "license": "CC BY 4.0 · SEPE",
       "notes": "Paro registrado en el municipio de domicilio de la persona demandante. Las cifras «<5» se conservan como dato protegido. El visor usa el código municipal original para cada mes. Tabla completa: 24,373,032 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
-      "dataFile": "labor/sepe.json",
+      "dataFile": "trabajo/sepe/sepe.json",
       "review": {
         "implementedProductId": "labor:900001",
         "updatedAt": "2026-11-14",
@@ -18623,7 +18623,7 @@
       "unit": "personas",
       "license": "CC BY 4.0 · SEPE",
       "notes": "Paro registrado en el municipio de domicilio de la persona demandante. Las cifras «<5» se conservan como dato protegido. El visor usa el código municipal original para cada mes. Tabla completa: 24,373,032 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
-      "dataFile": "labor/sepe.json",
+      "dataFile": "trabajo/sepe/sepe.json",
       "review": {
         "implementedProductId": "labor:900001",
         "updatedAt": "2026-11-14",
@@ -18645,7 +18645,7 @@
       "unit": "personas",
       "license": "CC BY 4.0 · SEPE",
       "notes": "Paro registrado en el municipio de domicilio de la persona demandante. Las cifras «<5» se conservan como dato protegido. El visor usa el código municipal original para cada mes. Tabla completa: 24,373,032 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
-      "dataFile": "labor/sepe.json",
+      "dataFile": "trabajo/sepe/sepe.json",
       "review": {
         "implementedProductId": "labor:900001",
         "updatedAt": "2026-11-14",
@@ -18667,7 +18667,7 @@
       "unit": "personas",
       "license": "CC BY 4.0 · SEPE",
       "notes": "Paro registrado en el municipio de domicilio de la persona demandante. Las cifras «<5» se conservan como dato protegido. El visor usa el código municipal original para cada mes. Tabla completa: 24,373,032 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
-      "dataFile": "labor/sepe.json",
+      "dataFile": "trabajo/sepe/sepe.json",
       "review": {
         "implementedProductId": "labor:900001",
         "updatedAt": "2026-11-14",
@@ -18689,7 +18689,7 @@
       "unit": "personas",
       "license": "CC BY 4.0 · SEPE",
       "notes": "Paro registrado en el municipio de domicilio de la persona demandante. Las cifras «<5» se conservan como dato protegido. El visor usa el código municipal original para cada mes. Tabla completa: 24,373,032 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
-      "dataFile": "labor/sepe.json",
+      "dataFile": "trabajo/sepe/sepe.json",
       "review": {
         "implementedProductId": "labor:900001",
         "updatedAt": "2026-11-14",
@@ -18711,7 +18711,7 @@
       "unit": "personas",
       "license": "CC BY 4.0 · SEPE",
       "notes": "Paro registrado en el municipio de domicilio de la persona demandante. Las cifras «<5» se conservan como dato protegido. El visor usa el código municipal original para cada mes. Tabla completa: 24,373,032 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
-      "dataFile": "labor/sepe.json",
+      "dataFile": "trabajo/sepe/sepe.json",
       "review": {
         "implementedProductId": "labor:900001",
         "updatedAt": "2026-11-14",
@@ -18733,7 +18733,7 @@
       "unit": "personas",
       "license": "CC BY 4.0 · SEPE",
       "notes": "Paro registrado en el municipio de domicilio de la persona demandante. Las cifras «<5» se conservan como dato protegido. El visor usa el código municipal original para cada mes. Tabla completa: 24,373,032 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
-      "dataFile": "labor/sepe.json",
+      "dataFile": "trabajo/sepe/sepe.json",
       "review": {
         "implementedProductId": "labor:900001",
         "updatedAt": "2026-11-14",
@@ -18755,7 +18755,7 @@
       "unit": "personas",
       "license": "CC BY 4.0 · SEPE",
       "notes": "Paro registrado en el municipio de domicilio de la persona demandante. Las cifras «<5» se conservan como dato protegido. El visor usa el código municipal original para cada mes. Tabla completa: 24,373,032 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
-      "dataFile": "labor/sepe.json",
+      "dataFile": "trabajo/sepe/sepe.json",
       "review": {
         "implementedProductId": "labor:900001",
         "updatedAt": "2026-11-14",
@@ -18777,7 +18777,7 @@
       "unit": "personas",
       "license": "CC BY 4.0 · SEPE",
       "notes": "Paro registrado en el municipio de domicilio de la persona demandante. Las cifras «<5» se conservan como dato protegido. El visor usa el código municipal original para cada mes. Tabla completa: 24,373,032 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
-      "dataFile": "labor/sepe.json",
+      "dataFile": "trabajo/sepe/sepe.json",
       "review": {
         "implementedProductId": "labor:900001",
         "updatedAt": "2026-11-14",
@@ -18799,7 +18799,7 @@
       "unit": "personas",
       "license": "CC BY 4.0 · SEPE",
       "notes": "Paro registrado en el municipio de domicilio de la persona demandante. Las cifras «<5» se conservan como dato protegido. El visor usa el código municipal original para cada mes. Tabla completa: 24,373,032 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
-      "dataFile": "labor/sepe.json",
+      "dataFile": "trabajo/sepe/sepe.json",
       "review": {
         "implementedProductId": "labor:900001",
         "updatedAt": "2026-11-14",
@@ -18821,7 +18821,7 @@
       "unit": "personas",
       "license": "CC BY 4.0 · SEPE",
       "notes": "Paro registrado en el municipio de domicilio de la persona demandante. Las cifras «<5» se conservan como dato protegido. El visor usa el código municipal original para cada mes. Tabla completa: 24,373,032 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
-      "dataFile": "labor/sepe.json",
+      "dataFile": "trabajo/sepe/sepe.json",
       "review": {
         "implementedProductId": "labor:900001",
         "updatedAt": "2026-11-14",
@@ -18843,7 +18843,7 @@
       "unit": "personas",
       "license": "CC BY 4.0 · SEPE",
       "notes": "Paro registrado en el municipio de domicilio de la persona demandante. Las cifras «<5» se conservan como dato protegido. El visor usa el código municipal original para cada mes. Tabla completa: 24,373,032 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
-      "dataFile": "labor/sepe.json",
+      "dataFile": "trabajo/sepe/sepe.json",
       "review": {
         "implementedProductId": "labor:900001",
         "updatedAt": "2026-11-14",
@@ -18865,7 +18865,7 @@
       "unit": "personas",
       "license": "CC BY 4.0 · SEPE",
       "notes": "Paro registrado en el municipio de domicilio de la persona demandante. Las cifras «<5» se conservan como dato protegido. El visor usa el código municipal original para cada mes. Tabla completa: 24,373,032 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
-      "dataFile": "labor/sepe.json",
+      "dataFile": "trabajo/sepe/sepe.json",
       "review": {
         "implementedProductId": "labor:900001",
         "updatedAt": "2026-11-14",
@@ -18887,7 +18887,7 @@
       "unit": "personas",
       "license": "CC BY 4.0 · SEPE",
       "notes": "Paro registrado en el municipio de domicilio de la persona demandante. Las cifras «<5» se conservan como dato protegido. El visor usa el código municipal original para cada mes. Tabla completa: 24,373,032 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
-      "dataFile": "labor/sepe.json",
+      "dataFile": "trabajo/sepe/sepe.json",
       "review": {
         "implementedProductId": "labor:900001",
         "updatedAt": "2026-11-14",
@@ -18909,7 +18909,7 @@
       "unit": "personas",
       "license": "CC BY 4.0 · SEPE",
       "notes": "Paro registrado en el municipio de domicilio de la persona demandante. Las cifras «<5» se conservan como dato protegido. El visor usa el código municipal original para cada mes. Tabla completa: 24,373,032 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
-      "dataFile": "labor/sepe.json",
+      "dataFile": "trabajo/sepe/sepe.json",
       "review": {
         "implementedProductId": "labor:900001",
         "updatedAt": "2026-11-14",
@@ -18931,7 +18931,7 @@
       "unit": "personas",
       "license": "CC BY 4.0 · SEPE",
       "notes": "Paro registrado en el municipio de domicilio de la persona demandante. Las cifras «<5» se conservan como dato protegido. El visor usa el código municipal original para cada mes. Tabla completa: 24,373,032 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
-      "dataFile": "labor/sepe.json",
+      "dataFile": "trabajo/sepe/sepe.json",
       "review": {
         "implementedProductId": "labor:900001",
         "updatedAt": "2026-11-14",
@@ -18953,7 +18953,7 @@
       "unit": "personas",
       "license": "CC BY 4.0 · SEPE",
       "notes": "Paro registrado en el municipio de domicilio de la persona demandante. Las cifras «<5» se conservan como dato protegido. El visor usa el código municipal original para cada mes. Tabla completa: 24,373,032 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
-      "dataFile": "labor/sepe.json",
+      "dataFile": "trabajo/sepe/sepe.json",
       "review": {
         "implementedProductId": "labor:900001",
         "updatedAt": "2026-11-14",
@@ -18975,7 +18975,7 @@
       "unit": "personas",
       "license": "CC BY 4.0 · SEPE",
       "notes": "Paro registrado en el municipio de domicilio de la persona demandante. Las cifras «<5» se conservan como dato protegido. El visor usa el código municipal original para cada mes. Tabla completa: 24,373,032 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
-      "dataFile": "labor/sepe.json",
+      "dataFile": "trabajo/sepe/sepe.json",
       "review": {
         "implementedProductId": "labor:900001",
         "updatedAt": "2026-11-14",
@@ -18997,7 +18997,7 @@
       "unit": "personas",
       "license": "CC BY 4.0 · SEPE",
       "notes": "Paro registrado en el municipio de domicilio de la persona demandante. Las cifras «<5» se conservan como dato protegido. El visor usa el código municipal original para cada mes. Tabla completa: 24,373,032 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
-      "dataFile": "labor/sepe.json",
+      "dataFile": "trabajo/sepe/sepe.json",
       "review": {
         "implementedProductId": "labor:900001",
         "updatedAt": "2026-11-14",
@@ -19019,7 +19019,7 @@
       "unit": "personas",
       "license": "CC BY 4.0 · SEPE",
       "notes": "Paro registrado en el municipio de domicilio de la persona demandante. Las cifras «<5» se conservan como dato protegido. El visor usa el código municipal original para cada mes. Tabla completa: 24,373,032 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
-      "dataFile": "labor/sepe.json",
+      "dataFile": "trabajo/sepe/sepe.json",
       "review": {
         "implementedProductId": "labor:900001",
         "updatedAt": "2026-11-14",
@@ -19041,7 +19041,7 @@
       "unit": "personas",
       "license": "CC BY 4.0 · SEPE",
       "notes": "Paro registrado en el municipio de domicilio de la persona demandante. Las cifras «<5» se conservan como dato protegido. El visor usa el código municipal original para cada mes. Tabla completa: 24,373,032 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
-      "dataFile": "labor/sepe.json",
+      "dataFile": "trabajo/sepe/sepe.json",
       "review": {
         "implementedProductId": "labor:900001",
         "updatedAt": "2026-11-14",
@@ -19063,7 +19063,7 @@
       "unit": "personas",
       "license": "CC BY 4.0 · SEPE",
       "notes": "Paro registrado en el municipio de domicilio de la persona demandante. Las cifras «<5» se conservan como dato protegido. El visor usa el código municipal original para cada mes. Tabla completa: 24,373,032 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
-      "dataFile": "labor/sepe.json",
+      "dataFile": "trabajo/sepe/sepe.json",
       "review": {
         "implementedProductId": "labor:900001",
         "updatedAt": "2026-11-14",
@@ -19085,7 +19085,7 @@
       "unit": "contratos",
       "license": "CC BY 4.0 · SEPE",
       "notes": "Contratos registrados, asignados al municipio del centro de trabajo. Las cifras «<5» se conservan como dato protegido. El visor usa el código municipal original para cada mes. Tabla completa: 22,341,946 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
-      "dataFile": "labor/sepe.json",
+      "dataFile": "trabajo/sepe/sepe.json",
       "review": {
         "implementedProductId": "labor:900002",
         "updatedAt": "2026-11-14",
@@ -19107,7 +19107,7 @@
       "unit": "contratos",
       "license": "CC BY 4.0 · SEPE",
       "notes": "Contratos registrados, asignados al municipio del centro de trabajo. Las cifras «<5» se conservan como dato protegido. El visor usa el código municipal original para cada mes. Tabla completa: 22,341,946 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
-      "dataFile": "labor/sepe.json",
+      "dataFile": "trabajo/sepe/sepe.json",
       "review": {
         "implementedProductId": "labor:900002",
         "updatedAt": "2026-11-14",
@@ -19129,7 +19129,7 @@
       "unit": "contratos",
       "license": "CC BY 4.0 · SEPE",
       "notes": "Contratos registrados, asignados al municipio del centro de trabajo. Las cifras «<5» se conservan como dato protegido. El visor usa el código municipal original para cada mes. Tabla completa: 22,341,946 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
-      "dataFile": "labor/sepe.json",
+      "dataFile": "trabajo/sepe/sepe.json",
       "review": {
         "implementedProductId": "labor:900002",
         "updatedAt": "2026-11-14",
@@ -19151,7 +19151,7 @@
       "unit": "contratos",
       "license": "CC BY 4.0 · SEPE",
       "notes": "Contratos registrados, asignados al municipio del centro de trabajo. Las cifras «<5» se conservan como dato protegido. El visor usa el código municipal original para cada mes. Tabla completa: 22,341,946 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
-      "dataFile": "labor/sepe.json",
+      "dataFile": "trabajo/sepe/sepe.json",
       "review": {
         "implementedProductId": "labor:900002",
         "updatedAt": "2026-11-14",
@@ -19173,7 +19173,7 @@
       "unit": "contratos",
       "license": "CC BY 4.0 · SEPE",
       "notes": "Contratos registrados, asignados al municipio del centro de trabajo. Las cifras «<5» se conservan como dato protegido. El visor usa el código municipal original para cada mes. Tabla completa: 22,341,946 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
-      "dataFile": "labor/sepe.json",
+      "dataFile": "trabajo/sepe/sepe.json",
       "review": {
         "implementedProductId": "labor:900002",
         "updatedAt": "2026-11-14",
@@ -19195,7 +19195,7 @@
       "unit": "contratos",
       "license": "CC BY 4.0 · SEPE",
       "notes": "Contratos registrados, asignados al municipio del centro de trabajo. Las cifras «<5» se conservan como dato protegido. El visor usa el código municipal original para cada mes. Tabla completa: 22,341,946 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
-      "dataFile": "labor/sepe.json",
+      "dataFile": "trabajo/sepe/sepe.json",
       "review": {
         "implementedProductId": "labor:900002",
         "updatedAt": "2026-11-14",
@@ -19217,7 +19217,7 @@
       "unit": "contratos",
       "license": "CC BY 4.0 · SEPE",
       "notes": "Contratos registrados, asignados al municipio del centro de trabajo. Las cifras «<5» se conservan como dato protegido. El visor usa el código municipal original para cada mes. Tabla completa: 22,341,946 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
-      "dataFile": "labor/sepe.json",
+      "dataFile": "trabajo/sepe/sepe.json",
       "review": {
         "implementedProductId": "labor:900002",
         "updatedAt": "2026-11-14",
@@ -19239,7 +19239,7 @@
       "unit": "contratos",
       "license": "CC BY 4.0 · SEPE",
       "notes": "Contratos registrados, asignados al municipio del centro de trabajo. Las cifras «<5» se conservan como dato protegido. El visor usa el código municipal original para cada mes. Tabla completa: 22,341,946 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
-      "dataFile": "labor/sepe.json",
+      "dataFile": "trabajo/sepe/sepe.json",
       "review": {
         "implementedProductId": "labor:900002",
         "updatedAt": "2026-11-14",
@@ -19261,7 +19261,7 @@
       "unit": "contratos",
       "license": "CC BY 4.0 · SEPE",
       "notes": "Contratos registrados, asignados al municipio del centro de trabajo. Las cifras «<5» se conservan como dato protegido. El visor usa el código municipal original para cada mes. Tabla completa: 22,341,946 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
-      "dataFile": "labor/sepe.json",
+      "dataFile": "trabajo/sepe/sepe.json",
       "review": {
         "implementedProductId": "labor:900002",
         "updatedAt": "2026-11-14",
@@ -19283,7 +19283,7 @@
       "unit": "contratos",
       "license": "CC BY 4.0 · SEPE",
       "notes": "Contratos registrados, asignados al municipio del centro de trabajo. Las cifras «<5» se conservan como dato protegido. El visor usa el código municipal original para cada mes. Tabla completa: 22,341,946 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
-      "dataFile": "labor/sepe.json",
+      "dataFile": "trabajo/sepe/sepe.json",
       "review": {
         "implementedProductId": "labor:900002",
         "updatedAt": "2026-11-14",
@@ -19305,7 +19305,7 @@
       "unit": "contratos",
       "license": "CC BY 4.0 · SEPE",
       "notes": "Contratos registrados, asignados al municipio del centro de trabajo. Las cifras «<5» se conservan como dato protegido. El visor usa el código municipal original para cada mes. Tabla completa: 22,341,946 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
-      "dataFile": "labor/sepe.json",
+      "dataFile": "trabajo/sepe/sepe.json",
       "review": {
         "implementedProductId": "labor:900002",
         "updatedAt": "2026-11-14",
@@ -19327,7 +19327,7 @@
       "unit": "contratos",
       "license": "CC BY 4.0 · SEPE",
       "notes": "Contratos registrados, asignados al municipio del centro de trabajo. Las cifras «<5» se conservan como dato protegido. El visor usa el código municipal original para cada mes. Tabla completa: 22,341,946 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
-      "dataFile": "labor/sepe.json",
+      "dataFile": "trabajo/sepe/sepe.json",
       "review": {
         "implementedProductId": "labor:900002",
         "updatedAt": "2026-11-14",
@@ -19349,7 +19349,7 @@
       "unit": "contratos",
       "license": "CC BY 4.0 · SEPE",
       "notes": "Contratos registrados, asignados al municipio del centro de trabajo. Las cifras «<5» se conservan como dato protegido. El visor usa el código municipal original para cada mes. Tabla completa: 22,341,946 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
-      "dataFile": "labor/sepe.json",
+      "dataFile": "trabajo/sepe/sepe.json",
       "review": {
         "implementedProductId": "labor:900002",
         "updatedAt": "2026-11-14",
@@ -19371,7 +19371,7 @@
       "unit": "contratos",
       "license": "CC BY 4.0 · SEPE",
       "notes": "Contratos registrados, asignados al municipio del centro de trabajo. Las cifras «<5» se conservan como dato protegido. El visor usa el código municipal original para cada mes. Tabla completa: 22,341,946 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
-      "dataFile": "labor/sepe.json",
+      "dataFile": "trabajo/sepe/sepe.json",
       "review": {
         "implementedProductId": "labor:900002",
         "updatedAt": "2026-11-14",
@@ -19393,7 +19393,7 @@
       "unit": "contratos",
       "license": "CC BY 4.0 · SEPE",
       "notes": "Contratos registrados, asignados al municipio del centro de trabajo. Las cifras «<5» se conservan como dato protegido. El visor usa el código municipal original para cada mes. Tabla completa: 22,341,946 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
-      "dataFile": "labor/sepe.json",
+      "dataFile": "trabajo/sepe/sepe.json",
       "review": {
         "implementedProductId": "labor:900002",
         "updatedAt": "2026-11-14",
@@ -19415,7 +19415,7 @@
       "unit": "contratos",
       "license": "CC BY 4.0 · SEPE",
       "notes": "Contratos registrados, asignados al municipio del centro de trabajo. Las cifras «<5» se conservan como dato protegido. El visor usa el código municipal original para cada mes. Tabla completa: 22,341,946 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
-      "dataFile": "labor/sepe.json",
+      "dataFile": "trabajo/sepe/sepe.json",
       "review": {
         "implementedProductId": "labor:900002",
         "updatedAt": "2026-11-14",
@@ -19437,7 +19437,7 @@
       "unit": "contratos",
       "license": "CC BY 4.0 · SEPE",
       "notes": "Contratos registrados, asignados al municipio del centro de trabajo. Las cifras «<5» se conservan como dato protegido. El visor usa el código municipal original para cada mes. Tabla completa: 22,341,946 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
-      "dataFile": "labor/sepe.json",
+      "dataFile": "trabajo/sepe/sepe.json",
       "review": {
         "implementedProductId": "labor:900002",
         "updatedAt": "2026-11-14",
@@ -19459,7 +19459,7 @@
       "unit": "contratos",
       "license": "CC BY 4.0 · SEPE",
       "notes": "Contratos registrados, asignados al municipio del centro de trabajo. Las cifras «<5» se conservan como dato protegido. El visor usa el código municipal original para cada mes. Tabla completa: 22,341,946 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
-      "dataFile": "labor/sepe.json",
+      "dataFile": "trabajo/sepe/sepe.json",
       "review": {
         "implementedProductId": "labor:900002",
         "updatedAt": "2026-11-14",
@@ -19481,7 +19481,7 @@
       "unit": "contratos",
       "license": "CC BY 4.0 · SEPE",
       "notes": "Contratos registrados, asignados al municipio del centro de trabajo. Las cifras «<5» se conservan como dato protegido. El visor usa el código municipal original para cada mes. Tabla completa: 22,341,946 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
-      "dataFile": "labor/sepe.json",
+      "dataFile": "trabajo/sepe/sepe.json",
       "review": {
         "implementedProductId": "labor:900002",
         "updatedAt": "2026-11-14",
@@ -19503,7 +19503,7 @@
       "unit": "contratos",
       "license": "CC BY 4.0 · SEPE",
       "notes": "Contratos registrados, asignados al municipio del centro de trabajo. Las cifras «<5» se conservan como dato protegido. El visor usa el código municipal original para cada mes. Tabla completa: 22,341,946 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
-      "dataFile": "labor/sepe.json",
+      "dataFile": "trabajo/sepe/sepe.json",
       "review": {
         "implementedProductId": "labor:900002",
         "updatedAt": "2026-11-14",
@@ -19525,7 +19525,7 @@
       "unit": "contratos",
       "license": "CC BY 4.0 · SEPE",
       "notes": "Contratos registrados, asignados al municipio del centro de trabajo. Las cifras «<5» se conservan como dato protegido. El visor usa el código municipal original para cada mes. Tabla completa: 22,341,946 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
-      "dataFile": "labor/sepe.json",
+      "dataFile": "trabajo/sepe/sepe.json",
       "review": {
         "implementedProductId": "labor:900002",
         "updatedAt": "2026-11-14",
@@ -19547,7 +19547,7 @@
       "unit": "contratos",
       "license": "CC BY 4.0 · SEPE",
       "notes": "Contratos registrados, asignados al municipio del centro de trabajo. Las cifras «<5» se conservan como dato protegido. El visor usa el código municipal original para cada mes. Tabla completa: 22,341,946 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
-      "dataFile": "labor/sepe.json",
+      "dataFile": "trabajo/sepe/sepe.json",
       "review": {
         "implementedProductId": "labor:900002",
         "updatedAt": "2026-11-14",
@@ -19569,7 +19569,7 @@
       "unit": "contratos",
       "license": "CC BY 4.0 · SEPE",
       "notes": "Contratos registrados, asignados al municipio del centro de trabajo. Las cifras «<5» se conservan como dato protegido. El visor usa el código municipal original para cada mes. Tabla completa: 22,341,946 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
-      "dataFile": "labor/sepe.json",
+      "dataFile": "trabajo/sepe/sepe.json",
       "review": {
         "implementedProductId": "labor:900002",
         "updatedAt": "2026-11-14",
@@ -19591,7 +19591,7 @@
       "unit": "contratos",
       "license": "CC BY 4.0 · SEPE",
       "notes": "Contratos registrados, asignados al municipio del centro de trabajo. Las cifras «<5» se conservan como dato protegido. El visor usa el código municipal original para cada mes. Tabla completa: 22,341,946 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
-      "dataFile": "labor/sepe.json",
+      "dataFile": "trabajo/sepe/sepe.json",
       "review": {
         "implementedProductId": "labor:900002",
         "updatedAt": "2026-11-14",
@@ -19613,7 +19613,7 @@
       "unit": "personas",
       "license": "CC BY 4.0 · SEPE",
       "notes": "Demandantes de empleo inscritos en el municipio de domicilio. Incluye situaciones distintas del paro registrado. Las cifras «<5» se conservan como dato protegido. El visor usa el código municipal original para cada mes. Tabla completa: 24,275,424 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
-      "dataFile": "labor/sepe.json",
+      "dataFile": "trabajo/sepe/sepe.json",
       "review": {
         "implementedProductId": "labor:900003",
         "updatedAt": "2026-11-14",
@@ -19635,7 +19635,7 @@
       "unit": "personas",
       "license": "CC BY 4.0 · SEPE",
       "notes": "Demandantes de empleo inscritos en el municipio de domicilio. Incluye situaciones distintas del paro registrado. Las cifras «<5» se conservan como dato protegido. El visor usa el código municipal original para cada mes. Tabla completa: 24,275,424 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
-      "dataFile": "labor/sepe.json",
+      "dataFile": "trabajo/sepe/sepe.json",
       "review": {
         "implementedProductId": "labor:900003",
         "updatedAt": "2026-11-14",
@@ -19657,7 +19657,7 @@
       "unit": "personas",
       "license": "CC BY 4.0 · SEPE",
       "notes": "Demandantes de empleo inscritos en el municipio de domicilio. Incluye situaciones distintas del paro registrado. Las cifras «<5» se conservan como dato protegido. El visor usa el código municipal original para cada mes. Tabla completa: 24,275,424 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
-      "dataFile": "labor/sepe.json",
+      "dataFile": "trabajo/sepe/sepe.json",
       "review": {
         "implementedProductId": "labor:900003",
         "updatedAt": "2026-11-14",
@@ -19679,7 +19679,7 @@
       "unit": "personas",
       "license": "CC BY 4.0 · SEPE",
       "notes": "Demandantes de empleo inscritos en el municipio de domicilio. Incluye situaciones distintas del paro registrado. Las cifras «<5» se conservan como dato protegido. El visor usa el código municipal original para cada mes. Tabla completa: 24,275,424 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
-      "dataFile": "labor/sepe.json",
+      "dataFile": "trabajo/sepe/sepe.json",
       "review": {
         "implementedProductId": "labor:900003",
         "updatedAt": "2026-11-14",
@@ -19701,7 +19701,7 @@
       "unit": "personas",
       "license": "CC BY 4.0 · SEPE",
       "notes": "Demandantes de empleo inscritos en el municipio de domicilio. Incluye situaciones distintas del paro registrado. Las cifras «<5» se conservan como dato protegido. El visor usa el código municipal original para cada mes. Tabla completa: 24,275,424 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
-      "dataFile": "labor/sepe.json",
+      "dataFile": "trabajo/sepe/sepe.json",
       "review": {
         "implementedProductId": "labor:900003",
         "updatedAt": "2026-11-14",
@@ -19723,7 +19723,7 @@
       "unit": "personas",
       "license": "CC BY 4.0 · SEPE",
       "notes": "Demandantes de empleo inscritos en el municipio de domicilio. Incluye situaciones distintas del paro registrado. Las cifras «<5» se conservan como dato protegido. El visor usa el código municipal original para cada mes. Tabla completa: 24,275,424 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
-      "dataFile": "labor/sepe.json",
+      "dataFile": "trabajo/sepe/sepe.json",
       "review": {
         "implementedProductId": "labor:900003",
         "updatedAt": "2026-11-14",
@@ -19745,7 +19745,7 @@
       "unit": "personas",
       "license": "CC BY 4.0 · SEPE",
       "notes": "Demandantes de empleo inscritos en el municipio de domicilio. Incluye situaciones distintas del paro registrado. Las cifras «<5» se conservan como dato protegido. El visor usa el código municipal original para cada mes. Tabla completa: 24,275,424 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
-      "dataFile": "labor/sepe.json",
+      "dataFile": "trabajo/sepe/sepe.json",
       "review": {
         "implementedProductId": "labor:900003",
         "updatedAt": "2026-11-14",
@@ -19767,7 +19767,7 @@
       "unit": "personas",
       "license": "CC BY 4.0 · SEPE",
       "notes": "Demandantes de empleo inscritos en el municipio de domicilio. Incluye situaciones distintas del paro registrado. Las cifras «<5» se conservan como dato protegido. El visor usa el código municipal original para cada mes. Tabla completa: 24,275,424 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
-      "dataFile": "labor/sepe.json",
+      "dataFile": "trabajo/sepe/sepe.json",
       "review": {
         "implementedProductId": "labor:900003",
         "updatedAt": "2026-11-14",
@@ -19789,7 +19789,7 @@
       "unit": "personas",
       "license": "CC BY 4.0 · SEPE",
       "notes": "Demandantes de empleo inscritos en el municipio de domicilio. Incluye situaciones distintas del paro registrado. Las cifras «<5» se conservan como dato protegido. El visor usa el código municipal original para cada mes. Tabla completa: 24,275,424 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
-      "dataFile": "labor/sepe.json",
+      "dataFile": "trabajo/sepe/sepe.json",
       "review": {
         "implementedProductId": "labor:900003",
         "updatedAt": "2026-11-14",
@@ -19811,7 +19811,7 @@
       "unit": "personas",
       "license": "CC BY 4.0 · SEPE",
       "notes": "Demandantes de empleo inscritos en el municipio de domicilio. Incluye situaciones distintas del paro registrado. Las cifras «<5» se conservan como dato protegido. El visor usa el código municipal original para cada mes. Tabla completa: 24,275,424 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
-      "dataFile": "labor/sepe.json",
+      "dataFile": "trabajo/sepe/sepe.json",
       "review": {
         "implementedProductId": "labor:900003",
         "updatedAt": "2026-11-14",
@@ -19833,7 +19833,7 @@
       "unit": "personas",
       "license": "CC BY 4.0 · SEPE",
       "notes": "Demandantes de empleo inscritos en el municipio de domicilio. Incluye situaciones distintas del paro registrado. Las cifras «<5» se conservan como dato protegido. El visor usa el código municipal original para cada mes. Tabla completa: 24,275,424 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
-      "dataFile": "labor/sepe.json",
+      "dataFile": "trabajo/sepe/sepe.json",
       "review": {
         "implementedProductId": "labor:900003",
         "updatedAt": "2026-11-14",
@@ -19855,7 +19855,7 @@
       "unit": "personas",
       "license": "CC BY 4.0 · SEPE",
       "notes": "Demandantes de empleo inscritos en el municipio de domicilio. Incluye situaciones distintas del paro registrado. Las cifras «<5» se conservan como dato protegido. El visor usa el código municipal original para cada mes. Tabla completa: 24,275,424 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
-      "dataFile": "labor/sepe.json",
+      "dataFile": "trabajo/sepe/sepe.json",
       "review": {
         "implementedProductId": "labor:900003",
         "updatedAt": "2026-11-14",
@@ -19877,7 +19877,7 @@
       "unit": "personas",
       "license": "CC BY 4.0 · SEPE",
       "notes": "Demandantes de empleo inscritos en el municipio de domicilio. Incluye situaciones distintas del paro registrado. Las cifras «<5» se conservan como dato protegido. El visor usa el código municipal original para cada mes. Tabla completa: 24,275,424 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
-      "dataFile": "labor/sepe.json",
+      "dataFile": "trabajo/sepe/sepe.json",
       "review": {
         "implementedProductId": "labor:900003",
         "updatedAt": "2026-11-14",
@@ -19899,7 +19899,7 @@
       "unit": "personas",
       "license": "CC BY 4.0 · SEPE",
       "notes": "Demandantes de empleo inscritos en el municipio de domicilio. Incluye situaciones distintas del paro registrado. Las cifras «<5» se conservan como dato protegido. El visor usa el código municipal original para cada mes. Tabla completa: 24,275,424 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
-      "dataFile": "labor/sepe.json",
+      "dataFile": "trabajo/sepe/sepe.json",
       "review": {
         "implementedProductId": "labor:900003",
         "updatedAt": "2026-11-14",
@@ -19921,7 +19921,7 @@
       "unit": "personas",
       "license": "CC BY 4.0 · SEPE",
       "notes": "Demandantes de empleo inscritos en el municipio de domicilio. Incluye situaciones distintas del paro registrado. Las cifras «<5» se conservan como dato protegido. El visor usa el código municipal original para cada mes. Tabla completa: 24,275,424 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
-      "dataFile": "labor/sepe.json",
+      "dataFile": "trabajo/sepe/sepe.json",
       "review": {
         "implementedProductId": "labor:900003",
         "updatedAt": "2026-11-14",
@@ -19943,7 +19943,7 @@
       "unit": "personas",
       "license": "CC BY 4.0 · SEPE",
       "notes": "Demandantes de empleo inscritos en el municipio de domicilio. Incluye situaciones distintas del paro registrado. Las cifras «<5» se conservan como dato protegido. El visor usa el código municipal original para cada mes. Tabla completa: 24,275,424 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
-      "dataFile": "labor/sepe.json",
+      "dataFile": "trabajo/sepe/sepe.json",
       "review": {
         "implementedProductId": "labor:900003",
         "updatedAt": "2026-11-14",
@@ -19965,7 +19965,7 @@
       "unit": "personas",
       "license": "CC BY 4.0 · SEPE",
       "notes": "Demandantes de empleo inscritos en el municipio de domicilio. Incluye situaciones distintas del paro registrado. Las cifras «<5» se conservan como dato protegido. El visor usa el código municipal original para cada mes. Tabla completa: 24,275,424 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
-      "dataFile": "labor/sepe.json",
+      "dataFile": "trabajo/sepe/sepe.json",
       "review": {
         "implementedProductId": "labor:900003",
         "updatedAt": "2026-11-14",
@@ -19987,7 +19987,7 @@
       "unit": "personas",
       "license": "CC BY 4.0 · SEPE",
       "notes": "Demandantes de empleo inscritos en el municipio de domicilio. Incluye situaciones distintas del paro registrado. Las cifras «<5» se conservan como dato protegido. El visor usa el código municipal original para cada mes. Tabla completa: 24,275,424 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
-      "dataFile": "labor/sepe.json",
+      "dataFile": "trabajo/sepe/sepe.json",
       "review": {
         "implementedProductId": "labor:900003",
         "updatedAt": "2026-11-14",
@@ -20009,7 +20009,7 @@
       "unit": "personas",
       "license": "CC BY 4.0 · SEPE",
       "notes": "Demandantes de empleo inscritos en el municipio de domicilio. Incluye situaciones distintas del paro registrado. Las cifras «<5» se conservan como dato protegido. El visor usa el código municipal original para cada mes. Tabla completa: 24,275,424 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
-      "dataFile": "labor/sepe.json",
+      "dataFile": "trabajo/sepe/sepe.json",
       "review": {
         "implementedProductId": "labor:900003",
         "updatedAt": "2026-11-14",
@@ -20031,7 +20031,7 @@
       "unit": "personas",
       "license": "CC BY 4.0 · SEPE",
       "notes": "Demandantes de empleo inscritos en el municipio de domicilio. Incluye situaciones distintas del paro registrado. Las cifras «<5» se conservan como dato protegido. El visor usa el código municipal original para cada mes. Tabla completa: 24,275,424 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
-      "dataFile": "labor/sepe.json",
+      "dataFile": "trabajo/sepe/sepe.json",
       "review": {
         "implementedProductId": "labor:900003",
         "updatedAt": "2026-11-14",
@@ -20053,7 +20053,7 @@
       "unit": "personas",
       "license": "CC BY 4.0 · SEPE",
       "notes": "Demandantes de empleo inscritos en el municipio de domicilio. Incluye situaciones distintas del paro registrado. Las cifras «<5» se conservan como dato protegido. El visor usa el código municipal original para cada mes. Tabla completa: 24,275,424 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
-      "dataFile": "labor/sepe.json",
+      "dataFile": "trabajo/sepe/sepe.json",
       "review": {
         "implementedProductId": "labor:900003",
         "updatedAt": "2026-11-14",

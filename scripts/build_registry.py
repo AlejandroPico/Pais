@@ -13,8 +13,8 @@ from pathlib import Path
 from catalog_relationships import enrich_national, link_ine
 
 ROOT = Path(__file__).resolve().parents[1]
-OUT = ROOT / 'public/data/registry'
-RESEARCH = ROOT / 'docs/research'
+OUT = ROOT / 'datos/catalogo'
+RESEARCH = ROOT / 'datos/catalogo/investigacion'
 
 
 def read(path):
@@ -36,7 +36,7 @@ def build():
     research = read(RESEARCH / 'fuentes-tematicas.json')
     publishers = read(RESEARCH / 'publicadores-catalogo-nacional.json')
     ioe = read(RESEARCH / 'operaciones-ioe-detalladas.json')
-    ine = read(ROOT / 'public/data/ine-catalog.json')
+    ine = read(ROOT / 'datos/catalogo/investigacion/ine-catalog.json')
     registered = read(ROOT / 'registry/products.json')
     categories = [{'id': f['id'], 'name': f['title']} for f in plan['fascicles'] if f['id'] != 'F00']
     routes = {r['sourceId']: r for r in plan['sourceRoutes']}
@@ -167,18 +167,18 @@ def build():
         filename = kind + '.json.gz'
         atomic(OUT / filename, body)
         files[kind] = dict(file=filename, count=len(records), bytes=len(body), sha256=hashlib.sha256(body).hexdigest(), contentSha256=hashlib.sha256(content).hexdigest())
-    input_paths = ['docs/planning/fasciculos.json', 'docs/research/fuentes-tematicas.json',
-                   'docs/research/publicadores-catalogo-nacional.json', 'docs/research/operaciones-ioe-detalladas.json',
-                   'docs/research/datasets-catalogo-nacional.csv.gz', 'docs/research/datosgob-metadata.json.gz',
-                   'public/data/ine-catalog.json', 'registry/products.json', 'registry/reviews.json']
+    input_paths = ['docs/planning/fasciculos.json', 'datos/catalogo/investigacion/fuentes-tematicas.json',
+                   'datos/catalogo/investigacion/publicadores-catalogo-nacional.json', 'datos/catalogo/investigacion/operaciones-ioe-detalladas.json',
+                   'datos/catalogo/investigacion/datasets-catalogo-nacional.csv.gz', 'datos/catalogo/investigacion/datosgob-metadata.json.gz',
+                   'datos/catalogo/investigacion/ine-catalog.json', 'registry/products.json', 'registry/reviews.json']
     if territory_path.exists():
-        input_paths.extend(['registry/territory-products.json', 'registry/local-territory.json', 'registry/section-archives.json', 'registry/cnig-history.json', 'public/data/territory/manifest.json', 'public/data/territory/official-wms.json', 'public/data/territory/official-layers.json', 'public/data/territory/section-vectors.json', 'public/data/territory/index.json', 'public/data/territory/comarcas.geojson', 'public/data/territory/bierzo-boundaries.json', 'public/data/territory/municipal-changes.json', 'registry/ign-territory-editions.json', 'public/data/territory/country.geojson', 'public/data/territory/country-atlas.geojson', 'public/data/territory/sea-atlas.geojson', 'public/data/territory/islets-atlas.geojson'])
+        input_paths.extend(['registry/territory-products.json', 'registry/local-territory.json', 'registry/section-archives.json', 'registry/cnig-history.json', 'datos/territorio/manifest.json', 'datos/territorio/official-wms.json', 'datos/territorio/official-layers.json', 'datos/territorio/section-vectors.json', 'datos/territorio/index.json', 'datos/territorio/comarcas.geojson', 'datos/territorio/bierzo-boundaries.json', 'datos/territorio/municipal-changes.json', 'registry/ign-territory-editions.json', 'datos/territorio/country.geojson', 'datos/territorio/country-atlas.geojson', 'datos/territorio/sea-atlas.geojson', 'datos/territorio/islets-atlas.geojson'])
     if demography_path.exists():
-        input_paths.extend(['registry/demography-tables.json','registry/demography-products.json','public/data/demography/index.json','public/data/demography/inventory.json','public/data/nomenclator/index.json','public/data/intercensal/index.json'])
+        input_paths.extend(['registry/demography-tables.json','registry/demography-products.json','datos/poblacion/ine/index.json','datos/poblacion/ine/inventory.json','datos/territorio/nomenclator/index.json','datos/poblacion/intercensal/index.json'])
     if welfare_path.exists():
-        input_paths.extend(['registry/welfare-tables.json','registry/welfare-external.json','registry/welfare-products.json','public/data/welfare/index.json','public/data/welfare/inventory.json'])
+        input_paths.extend(['registry/welfare-tables.json','registry/welfare-external.json','registry/welfare-products.json','datos/renta/ine/index.json','datos/renta/ine/inventory.json'])
     if labor_path.exists():
-        input_paths.extend(['registry/labor-tables.json','registry/labor-products.json','public/data/labor/index.json','public/data/labor/inventory.json','public/data/labor/sepe.json'])
+        input_paths.extend(['registry/labor-tables.json','registry/labor-products.json','datos/trabajo/ine/index.json','datos/trabajo/ine/inventory.json','datos/trabajo/sepe/sepe.json'])
     provenance = [dict(path=p, sha256=hashlib.sha256((ROOT / p).read_bytes()).hexdigest()) for p in input_paths]
     revisions=[registered['revision'], federated_metadata['revision']]
     for path in [territory_path,demography_path,welfare_path,labor_path]:

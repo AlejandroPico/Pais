@@ -12,7 +12,7 @@ from urllib.request import urlopen
 
 ROOT = Path(__file__).resolve().parents[1]
 CACHE = ROOT / '.cache/f04'
-OUTPUT = ROOT / 'public/data/labor'
+OUTPUT = ROOT / 'datos/trabajo/sepe'
 DOWNLOAD = 'https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/'
 PRODUCTS = [
     (900001, 'Paro', 'Paro registrado', 'paro-registrado-por-municipio', 'personas',

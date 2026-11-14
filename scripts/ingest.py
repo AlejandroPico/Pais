@@ -15,7 +15,7 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
-OUT = ROOT / 'public' / 'data'
+OUT = ROOT / 'datos'
 CACHE = ROOT / '.cache'
 OUT.mkdir(parents=True, exist_ok=True)
 CACHE.mkdir(exist_ok=True)
@@ -49,7 +49,9 @@ def js(url):
         return json.loads(body.decode('windows-1252'))
 
 def save(name, data):
-    (OUT / name).write_text(json.dumps(data, ensure_ascii=False, separators=(',', ':')), encoding='utf-8')
+    output = OUT / name
+    output.parent.mkdir(parents=True, exist_ok=True)
+    output.write_text(json.dumps(data, ensure_ascii=False, separators=(',', ':')), encoding='utf-8')
 
 def simplify(points, tolerance=0.00025):
     # Iterative Douglas-Peucker, ~28 m latitude; same tolerance at all admin levels.
@@ -127,7 +129,7 @@ def population():
         print(f'Population {level}: {len(grouped)} series groups; variables: {sorted({m["T3_Variable"] for r in rows for m in r["MetaData"]})}', flush=True)
     assert len(result['province']) == 53, len(result['province'])
     assert len(result['community']) == 20, len(result['community'])
-    save('population.json', {'source':'INE · Padrón municipal · tablas 2852 y 2853','sourceUrl':'https://www.ine.es/jaxiT3/Tabla.htm?t=2852','license':'CC BY 4.0','note':'Serie histórica publicada 1996–2021. No hay observación de 1997. No se interpolan años ni se mezcla con otras operaciones. Densidad aproximada calculada con superficie esférica IGN actual; no reconstruye límites históricos.','data':result})
+    save('poblacion/population.json', {'source':'INE · Padrón municipal · tablas 2852 y 2853','sourceUrl':'https://www.ine.es/jaxiT3/Tabla.htm?t=2852','license':'CC BY 4.0','note':'Serie histórica publicada 1996–2021. No hay observación de 1997. No se interpolan años ni se mezcla con otras operaciones. Densidad aproximada calculada con superficie esférica IGN actual; no reconstruye límites históricos.','data':result})
 
 def catalog():
     def operations_list(query):
@@ -164,7 +166,7 @@ def catalog():
             return {**op,'geographic':op['Id'] in geographic,'tables':[],'error':str(error)}
     with futures.ThreadPoolExecutor(max_workers=4) as pool:
         entries = list(pool.map(tables, operations))
-    save('ine-catalog.json', {'sourceUrl':'https://www.ine.es/dyngs/DAB/es/index.htm?cid=1100','license':'CC BY 4.0','generatedAt':datetime.now(timezone.utc).isoformat(),'scope':'Inventario de operaciones y tablas expuesto por la API JSON INE. No equivale a haber descargado o cartografiado todas las observaciones de INEbase.','operations':entries,'errors':errors})
+    save('catalogo/investigacion/ine-catalog.json', {'sourceUrl':'https://www.ine.es/dyngs/DAB/es/index.htm?cid=1100','license':'CC BY 4.0','generatedAt':datetime.now(timezone.utc).isoformat(),'scope':'Inventario de operaciones y tablas expuesto por la API JSON INE. No equivale a haber descargado o cartografiado todas las observaciones de INEbase.','operations':entries,'errors':errors})
     print(f'INE catalog: {len(entries)} operations, {sum(len(o["tables"]) for o in entries)} table references, {len(errors)} errors', flush=True)
 
 if __name__ == '__main__':
@@ -175,14 +177,14 @@ if __name__ == '__main__':
     args = parser.parse_args()
     REFRESH = args.refresh
     if args.only in (None,'geo'):
-        boundaries('3rd','provinces.geojson')
-        boundaries('2nd','communities.geojson')
+        boundaries('3rd','territorio/provinces.geojson')
+        boundaries('2nd','territorio/communities.geojson')
         import subprocess
         subprocess.run(['node', str(ROOT / 'scripts' / 'mask.mjs')], check=True)
     if args.only in (None,'population'):
         population()
     if args.only in (None,'catalog'):
         catalog()
-    previous_path = OUT / 'provenance.json'
+    previous_path = OUT / 'catalogo/provenance.json'
     previous = json.loads(previous_path.read_text(encoding='utf-8')) if previous_path.exists() else []
-    save('provenance.json', list({p['url']:p for p in previous+PROVENANCE}.values()))
+    save('catalogo/provenance.json', list({p['url']:p for p in previous+PROVENANCE}.values()))

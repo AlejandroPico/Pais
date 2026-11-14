@@ -16,7 +16,7 @@ from pathlib import Path
 import demography_collect as core
 
 ROOT=core.ROOT
-OUT=ROOT/'public/data/welfare'
+OUT=ROOT/'datos/renta/ine'
 CONFIG=json.loads((ROOT/'registry/welfare-tables.json').read_text(encoding='utf-8'))
 core.CONFIG=CONFIG
 core.CACHE=ROOT/'.cache/f03'

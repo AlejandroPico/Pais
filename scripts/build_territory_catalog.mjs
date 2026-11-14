@@ -5,10 +5,10 @@ import {territoryLayers,sectionEditions,orthophotoEditions,historicOrthophoto,ca
 const root=new URL('../',import.meta.url);
 const read=p=>JSON.parse(fs.readFileSync(new URL(p,root),'utf8'));
 const revision='2026-11-14';
-const manifest=read('public/data/territory/manifest.json');
-const comarcaFile='public/data/territory/comarcas.geojson';
+const manifest=read('datos/territorio/manifest.json');
+const comarcaFile='datos/territorio/comarcas.geojson';
 const comarcaCollection=read(comarcaFile);
-const bierzo=read('public/data/territory/bierzo-boundaries.json');
+const bierzo=read('datos/territorio/bierzo-boundaries.json');
 if(new Set(bierzo.boundaries.map(item=>item.code)).size!==38)throw new Error('Incomplete El Bierzo municipality list');
 const geometry=clipping.union(...bierzo.boundaries.map(({geometry})=>geometry.type==='Polygon'?[geometry.coordinates]:geometry.coordinates));
 const bierzoCode='07:bierzo';
@@ -21,7 +21,7 @@ comarcaCollection.features.push({
 fs.writeFileSync(new URL(comarcaFile,root),JSON.stringify(comarcaCollection));
 manifest.comarcaCoverage=manifest.comarcaCoverage.filter(entry=>entry.territory!=='El Bierzo');
 manifest.comarcaCoverage.push({territory:'El Bierzo',sourceId:'F157',status:'integrado',count:1,kind:'Comarca administrativa',url:bierzo.law});
-fs.writeFileSync(new URL('public/data/territory/manifest.json',root),JSON.stringify(manifest));
+fs.writeFileSync(new URL('datos/territorio/manifest.json',root),JSON.stringify(manifest));
 
 const available=[];
 for(const layer of territoryLayers){
@@ -41,19 +41,19 @@ for(const layer of territoryLayers){
     license:layer.local?(localCredit(layer.local)+(layer.local.credit&&!layer.local.credit.includes('4.0')?' · Condiciones del organismo publicador':''))
       :layer.providers?'Condiciones de cada proveedor oficial; consultar el origen':layer.id==='sections'?'Seccionado cedido por el Instituto Nacional de Estadística':layer.id==='comarcas'?'Condiciones de los organismos cartográficos autonómicos':'CC BY 4.0 · IGN',
     mode:layer.local||layer.id==='comarcas'?'local':'remote',notes:layer.note,mapAction:'territory:'+layer.id,
-    ...(layer.local?{dataFile:'territory/'+layer.local.file,links:{'Descarga original':layer.local.download}}:layer.id==='comarcas'?{dataFile:'territory/comarcas.geojson'}:{}),
+    ...(layer.local?{dataFile:'territorio/'+layer.local.file,links:{'Descarga original':layer.local.download}}:layer.id==='comarcas'?{dataFile:'territorio/comarcas.geojson'}:{}),
     fields:{'Detalle visible':'Desde zoom '+layer.minzoom,'Fecha de revisión':revision,
       ...(layer.local?.layer?{'Tabla GeoPackage':layer.local.layer,'Registros':String(layer.local.count)}:{}),
       ...(layer.local?.missingCount?{'Registros sin coordenadas':String(layer.local.missingCount)}:{}),
       ...(layer.providers?{'Proveedores':layer.providers.map(p=>p.credit).join('; ')}:{})}});
 }
-available.push({id:'territory:municipal-index',title:'Relación de municipios y correspondencia insular',sourceId:'F005',categoryIds:['F01'],status:'integrado',url:'https://www.ine.es/daco/daco42/codmun/diccionario26.xlsx',coverage:'8.132 municipios de España; provincias, comunidades e islas vinculadas',period:'Relación municipal a 2026-01-01. El fichero insular conserva sus rótulos de origen.',license:'CC BY 4.0 · INE',mode:'local',dataFile:'territory/index.json',mapAction:'search:addresses',notes:'La correspondencia IGN preserva 81 áreas adicionales fuera del catálogo municipal. No se convierten en municipios.'});
+available.push({id:'territory:municipal-index',title:'Relación de municipios y correspondencia insular',sourceId:'F005',categoryIds:['F01'],status:'integrado',url:'https://www.ine.es/daco/daco42/codmun/diccionario26.xlsx',coverage:'8.132 municipios de España; provincias, comunidades e islas vinculadas',period:'Relación municipal a 2026-01-01. El fichero insular conserva sus rótulos de origen.',license:'CC BY 4.0 · INE',mode:'local',dataFile:'territorio/index.json',mapAction:'search:addresses',notes:'La correspondencia IGN preserva 81 áreas adicionales fuera del catálogo municipal. No se convierten en municipios.'});
 available.push({id:'territory:address-search',title:'Búsqueda oficial de direcciones y lugares',sourceId:'F007',categoryIds:['F01'],status:'integrado',url:'https://www.cartociudad.es/',coverage:'España · CartoCiudad',period:'Actualización del servicio',license:'CC BY 4.0 · IGN y colaboradores',mode:'remote',mapAction:'search:addresses',notes:'Búsqueda de candidatos seguida de geolocalización. No se usan coordenadas cero de las sugerencias.'});
-const changes=read('public/data/territory/municipal-changes.json');
+const changes=read('datos/territorio/municipal-changes.json');
 available.push({id:'territory:municipal-changes',title:'Cambios de municipios y códigos',sourceId:'F005',
   categoryIds:['F01'],status:'integrado',url:changes.source,coverage:'Altas, bajas, denominaciones y cambios territoriales de la relación municipal',
   period:{from:changes.editions[0].year,to:changes.editions.at(-1).year},license:'CC BY 4.0 · INE',mode:'local',
-  dataFile:'territory/municipal-changes.json',mapAction:'municipal-changes',
+  dataFile:'territorio/municipal-changes.json',mapAction:'municipal-changes',
   notes:'Ediciones oficiales consultables por año. Se conserva la estructura de cada publicación.'});
 const inventory=[];
 const implementedLayers=new Map();
@@ -73,7 +73,7 @@ for(const service of manifest.services)for(const layer of service.layers||[]){
   inventory.push({id:'f01-wms:'+service.id+':'+layer.name,title:layer.title,sourceId:service.sourceId,categoryIds:['F01'],suggestedCategoryIds:tourism?['F24']:[],status:productId?'integrado':rootLayer||tourism?'no_procede':'por_revisar',...(productId?{mapAction:['territory:historical-orthophoto','territory:canary-cartography','territory:sections'].includes(productId)?productId+':'+layer.name:productId,review:{implementedProductId:productId,updatedAt:'2026-11-13',reason:'Capa representada en el producto indicado.'}}:{}),url:service.url+'?SERVICE=WMS&REQUEST=GetCapabilities',coverage:service.coverage,period:layer.dimensions.map(d=>d.values).join('; ')||'Según el producto original',license:null,notes:productId?'Capa consultable en el producto indicado.':rootLayer?'Raíz del servicio WMS que agrupa las capas temáticas.':tourism?'Capa de alojamientos turísticos asignada a F24.':'Pendiente de comprobar su integración en el visor.',fields:{'Servicio':service.name,'Nombre de capa':layer.name,'Estilos':layer.styles.join(', '),'Consulta de atributos':layer.queryable?'Disponible en el servicio':'No anunciada'}});
 }
 for(const edition of sectionEditions)if(!manifest.services.find(s=>s.id==='ine-wms').layers.some(l=>l.name===edition.layer))throw new Error('Missing census edition '+edition.id);
-const sectionVectors=read('public/data/territory/section-vectors.json');
+const sectionVectors=read('datos/territorio/section-vectors.json');
 for(const download of sectionVectors.downloads||[]){
   const edition=sectionEditions.find(item=>item.id===download.year||(download.year==='2001'&&item.id==='C2001'));
   if(!edition){
@@ -92,7 +92,7 @@ for(const edition of read('registry/cnig-history.json').products){
   inventory.push({...product,id:'f01-cnig:'+edition.id,
     review:{implementedProductId:product.id,updatedAt:revision,reason:'Recuento completo de la tabla oficial. Geometría simplificada para el visor.'}});
 }
-const directory=read('public/data/territory/official-wms.json');
+const directory=read('datos/territorio/official-wms.json');
 const labels={imagen:'Ortofotos y fotografía aérea',divisiones:'Divisiones territoriales',relieve:'Relieve y elevaciones',catastro:'Catastro',base:'Cartografía base y toponimia'};
 const officialLayers=[];
 for(const service of directory.services){
@@ -137,7 +137,7 @@ for(const service of directory.services){
     }
   }
 }
-fs.writeFileSync(new URL('public/data/territory/official-layers.json',root),JSON.stringify({revision,layers:officialLayers}));
+fs.writeFileSync(new URL('datos/territorio/official-layers.json',root),JSON.stringify({revision,layers:officialLayers}));
 const activeCount=inventory.filter(product=>product.status==='integrado').length;
 const unresolved=inventory.filter(product=>!['integrado','no_procede'].includes(product.status)).length;
 console.log(`Inventario F01: ${activeCount} entradas disponibles; ${unresolved} requieren resolución.`);

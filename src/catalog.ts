@@ -3,7 +3,7 @@ import type {RegistryIndex,RegistryProduct,RegistrySource,ProductQuery} from './
 
 const esc=(s:unknown)=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]!));
 const number=(n:number)=>n.toLocaleString('es-ES');
-const base=`${import.meta.env.BASE_URL}data/registry/`;
+const base=`${import.meta.env.BASE_URL}datos/catalogo/`;
 const kinds:Record<string,string>={
   available:'Disponibles en el mapa',territory:'Inventario cartográfico',demography:'Inventario demográfico',
   welfare:'Inventario de renta',labor:'Tablas de empleo y salarios',ioe:'Operaciones IOE',ine:'Tablas INEbase',national:'Catálogo nacional',

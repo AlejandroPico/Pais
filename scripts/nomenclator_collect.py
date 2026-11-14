@@ -14,7 +14,7 @@ from zipfile import ZipFile
 
 ROOT = Path(__file__).resolve().parents[1]
 CACHE = ROOT / '.cache/f02/nomenclator'
-OUT = ROOT / 'public/data/nomenclator'
+OUT = ROOT / 'datos/territorio/nomenclator'
 SOURCE = 'https://www.ine.es/dyngs/INEbase/operacion.htm?c=Estadistica_C&cid=1254736177010&idp=1254735572981'
 DOWNLOAD = 'https://www.ine.es/nomen2/Descarga'
 

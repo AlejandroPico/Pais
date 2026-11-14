@@ -3,7 +3,7 @@ import {normalize} from './data';
 type Province = {code:string;name:string};
 type Index = {source:string;provinces:Record<string,{file:string;count:number;sha256:string}>};
 type Data = {entries:string[];notes:string};
-const root=import.meta.env.BASE_URL+'data/intercensal/';
+const root=import.meta.env.BASE_URL+'datos/poblacion/intercensal/';
 const esc=(value:string)=>value.replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]!));
 
 function format(entry:string){

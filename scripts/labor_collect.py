@@ -6,7 +6,7 @@ import welfare_collect as cubes
 
 ROOT = cubes.ROOT
 core = cubes.core
-OUTPUT = ROOT / 'public/data/labor'
+OUTPUT = ROOT / 'datos/trabajo/ine'
 
 def main(refresh=False):
     config = json.loads((ROOT / 'registry/labor-tables.json').read_text(encoding='utf-8'))
@@ -18,7 +18,7 @@ def main(refresh=False):
     with ThreadPoolExecutor(max_workers=5) as pool:
         list(pool.map(cubes.fetch_table, [table['id'] for table in config['tables']]))
     core.REFRESH = False
-    catalog = json.loads((ROOT/'public/data/ine-catalog.json').read_text(encoding='utf-8'))
+    catalog = json.loads((ROOT/'datos/catalogo/investigacion/ine-catalog.json').read_text(encoding='utf-8'))
     operations = [{'id': op['Id'], 'tables': op['tables']} for op in catalog['operations']
                   if op['Id'] in config['operationIds']]
     assert {op['id'] for op in operations} == set(config['operationIds']), 'Incomplete labor operations'
