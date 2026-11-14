@@ -15,7 +15,7 @@ const sha=b=>createHash('sha256').update(b).digest('hex');
 const query=(t,code,year)=>({period:t.periods.findIndex(p=>p.id===year),dims:defaultDimensions(t),level:code.split(':')[0],territory:t.territories.findIndex(a=>a.id===code)});
 
 test('all welfare cubes retain verified content, complete dictionaries, original sources and territorial shards',()=>{
-  assert.equal(index.tables.length,45);assert.equal(new Set(index.tables.map(t=>t.id)).size,index.tables.length);
+  assert.equal(index.tables.length,51);assert.equal(new Set(index.tables.map(t=>t.id)).size,index.tables.length);
   const configured=read('registry/welfare-tables.json');assert.deepEqual(index.tables.map(t=>t.id),configured.tables.map(t=>t.id));
   let total=0;
   for(const t of index.tables){

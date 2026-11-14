@@ -35,7 +35,7 @@ test('every complete demographic table preserves its shard counts, hashes, dicti
     assert.equal(count,t.rows);total+=count;
     for(const a of t.territories)if(a.level==='unlocated')assert.equal(a.name,'No residente','Unresolved official geography: '+t.id);
   }
-  assert.equal(total,67901218);
+  assert.equal(total,68090658);
 });
 
 test('census filters conserve source totals, sex and nationality; chart and map use the same query',()=>{

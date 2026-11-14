@@ -178,7 +178,7 @@ def build():
     if welfare_path.exists():
         input_paths.extend(['registry/welfare-tables.json','registry/welfare-external.json','registry/welfare-products.json','public/data/welfare/index.json','public/data/welfare/inventory.json'])
     if labor_path.exists():
-        input_paths.extend(['registry/labor-tables.json','registry/labor-products.json','public/data/labor/index.json','public/data/labor/inventory.json'])
+        input_paths.extend(['registry/labor-tables.json','registry/labor-products.json','public/data/labor/index.json','public/data/labor/inventory.json','public/data/labor/sepe.json'])
     provenance = [dict(path=p, sha256=hashlib.sha256((ROOT / p).read_bytes()).hexdigest()) for p in input_paths]
     revisions=[registered['revision'], federated_metadata['revision']]
     for path in [territory_path,demography_path,welfare_path,labor_path]:

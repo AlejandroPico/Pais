@@ -32,6 +32,8 @@ def main(kind="demography",category="F02"):
             for source in t['sourceTables']:provenance[source['url']]={k:v for k,v in source.items() if k!='id'}
         index['provenance']=sorted(provenance.values(),key=lambda p:p['url'])
         (ROOT/f'public/data/{kind}/index.json').write_text(json.dumps(index,ensure_ascii=False,separators=(',',':')),encoding='utf-8')
+    if kind=='labor':
+        index['tables'] += read('public/data/labor/sepe.json')['tables']
     if kind=='demography':
         shared = {}
         compact = {**index, 'tables': [], 'territoryGroups': shared}
@@ -51,7 +53,7 @@ def main(kind="demography",category="F02"):
             assert hashlib.sha256(path.read_bytes()).hexdigest()==s['sha256'],path
         assert sum(s['rows'] for s in t['shards'])==t['rows']
         periods=sorted(t['periods'],key=lambda p:p['id'])
-        available.append(dict(id=kind+':'+str(t['id']),title=t['label'],sourceId='F005',categoryIds=[category],status='integrado',url=t['sourceUrl'],mapAction=kind+':'+str(t['id']),coverage=' · '.join({'national':'España','community':'Comunidades','province':'Provincias','municipal':'Municipios','district':'Distritos (series)','section':'Secciones (series)','island':'Islas (series)','unlocated':'Sin localización'}.get(l,l) for l in sorted({a['level'] for a in t['territories']})),period={'from':periods[0]['label'],'to':periods[-1]['label']},unit=t['unit'],license=t['license'],notes=t['note']+f" Tabla completa: {t['rows']:,} observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",dataFile=f'{kind}/index.json'))
+        available.append(dict(id=kind+':'+str(t['id']),title=t['label'],sourceId=t.get('sourceId','F005'),categoryIds=[category],status='integrado',url=t['sourceUrl'],mapAction=kind+':'+str(t['id']),coverage=' · '.join({'national':'España','community':'Comunidades','province':'Provincias','municipal':'Municipios','district':'Distritos (series)','section':'Secciones (series)','island':'Islas (series)','unlocated':'Sin localización'}.get(l,l) for l in sorted({a['level'] for a in t['territories']})),period={'from':periods[0]['label'],'to':periods[-1]['label']},unit=t['unit'],license=t['license'],notes=t['note']+f" Tabla completa: {t['rows']:,} observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",dataFile='labor/sepe.json' if t.get('compactColumns') else f'{kind}/index.json'))
     canonical={str(source['id']):p for t,p in zip(index['tables'],available) for source in t.get('sourceTables',[{'id':t['id']}])}
     records={}
     for o in inventory['operations']:
@@ -63,6 +65,15 @@ def main(kind="demography",category="F02"):
             if key in canonical:
                 p=canonical[key];records[key].update(status='integrado',categoryIds=[category],license=p['license'],mapAction=p['mapAction'],period=p['period'],coverage=p['coverage'],notes=p['notes'],review={'implementedProductId':p['id'],'updatedAt':index['revision'],'reason':'Todas las observaciones de la descarga se conservan en cubos consultables; sin selección de columnas ni de último periodo.'})
     if kind=='welfare':records.update({p['id']:p for p in read('registry/welfare-external.json')['sources']})
+    if kind=='labor':
+        for t,p in zip(index['tables'],available,strict=True):
+            if not t.get('compactColumns'):
+                continue
+            for edition in t['sourceTables']:
+                id=f"labor-sepe:{t['id']}:{edition['id']}"
+                records[id]=dict(p,id=id,title=f"{p['title']} · {edition['year']}",url=edition['url'],
+                    period=' · '.join(edition['periods']),review=dict(implementedProductId=p['id'],
+                    updatedAt=index['revision'],reason='Serie municipal del SEPE preservada con sus desgloses y estados.'))
     if kind=='demography':
         nomenclator=read('public/data/nomenclator/index.json')
         editions=nomenclator['editions']

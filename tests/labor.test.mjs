@@ -34,3 +34,34 @@ test('labor queries retain official quarterly EPA and ETCL observations and annu
   checkObservation(28191, '2024', 'Media', 29540.26);
   checkObservation(79662, '2026T2', 'Coste laboral total', 3388.15);
 });
+
+test('SEPE downloads preserve monthly values, suppressions and per-edition provenance', () => {
+  const {tables}=JSON.parse(readFileSync(new URL('sepe.json',root),'utf8'));
+  assert.equal(tables.length,3);
+  for(const table of tables){
+    assert.equal(table.publisher,'SEPE');
+    assert.equal(table.periods[0].id,'2006M01');
+    assert.equal(table.periods.at(-1).id,'2026M10');
+    assert.equal(table.periods.length,table.id===900003?249:250);
+    const part=table.shards.find(shard=>shard.id==='04');
+    const cube=JSON.parse(gunzipSync(readFileSync(new URL(part.file,root))));
+    const territory=table.territories.findIndex(area=>area.code==='04001');
+    const period=table.periods.findIndex(entry=>entry.id==='2022M01');
+    const query={level:'municipal',territory,period,dims:[0]};
+    const {series}=queryCube(table,cube,query);
+    assert.equal(series.find(entry=>entry.period===period).value,({900001:91,900002:25,900003:166})[table.id]);
+    const protectedCell=queryCube(table,cube,{...query,dims:[1]}).series.find(entry=>entry.period===period);
+    assert.equal(protectedCell.value,null);
+    assert.equal(protectedCell.status,'<5');
+    const exported=seriesCsv(table,query,series);
+    assert.match(exported,/sede\.sepe\.gob\.es/);
+    const december=series.find(entry=>table.periods[entry.period].id==='2020M12');
+    if(table.id===900003){
+      assert.equal(december,undefined);
+    }else{
+      assert.equal(december.value,table.id===900001?88:18);
+      assert.match(exported,/www\.sepe\.es.*ESTADISTICA_MUNICIPIOS\.xls/);
+    }
+    if(table.id!==900003) assert.match(exported,/segundo_semestre_2013_xls\.xls/);
+  }
+});

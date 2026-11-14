@@ -1,5 +1,5 @@
 {
-  "revision": "2026-11-13",
+  "revision": "2026-11-14",
   "tables": [
     {
       "id": 65349,
@@ -83,6 +83,61 @@
       "family": "Costes, jornada y vacantes · ETCL",
       "note": "Puestos de trabajo vacantes en cuentas de cotización incluidas en la encuesta. Se muestra el recuento publicado.",
       "operation": "ETCL"
+    },
+    {
+      "id": 28182,
+      "label": "EAES · distribución salarial respecto al SMI",
+      "family": "Salarios · EAES",
+      "note": "Porcentaje de trabajadores en función de su ganancia con respecto al Salario Mínimo Interprofesional (SMI) (respecto al total de trabajadores) por tipo de jornada y sexo. Serie del INE. Se conservan su periodicidad, clasificación y unidad original.",
+      "operation": "EAES"
+    },
+    {
+      "id": 28184,
+      "label": "EAES · indicadores de desigualdad salarial",
+      "family": "Salarios · EAES",
+      "note": "Indicadores de desigualdad. Serie del INE. Se conservan su periodicidad, clasificación y unidad original.",
+      "operation": "EAES"
+    },
+    {
+      "id": 30046,
+      "label": "EAES · ingreso por hora y actividad",
+      "family": "Salarios · EAES",
+      "note": "Ingreso medio por hora desglosado por sexo y sectores de actividad. Serie del INE. Se conservan su periodicidad, clasificación y unidad original.",
+      "operation": "EAES",
+      "dimensionNames": {
+        "AGRUPACIONES CNAE": "Sector de actividad",
+        "SECTORES": "Sector de actividad"
+      }
+    },
+    {
+      "id": 6049,
+      "label": "ETCL · vacantes por tamaño de establecimiento",
+      "family": "Costes, jornada y vacantes · ETCL",
+      "note": "Número de vacantes por tamaño del establecimiento. Serie del INE. Se conservan su periodicidad, clasificación y unidad original.",
+      "operation": "ETCL"
+    },
+    {
+      "id": 6058,
+      "label": "ETCL · coste de la hora extraordinaria por comunidad",
+      "family": "Costes, jornada y vacantes · ETCL",
+      "note": "Coste por hora extraordinaria por comunidad autónoma. Serie del INE. Se conservan su periodicidad, clasificación y unidad original.",
+      "operation": "ETCL",
+      "dimensionNames": {
+        "AGRUPACIONES CNAE": "Sector de actividad",
+        "SECTORES": "Sector de actividad"
+      }
+    },
+    {
+      "id": 6066,
+      "label": "ETCL · motivos de ausencia de vacantes por comunidad",
+      "family": "Costes, jornada y vacantes · ETCL",
+      "note": "Motivos por los que no existen vacantes por comunidad autónoma. Serie del INE. Se conservan su periodicidad, clasificación y unidad original.",
+      "operation": "ETCL"
     }
+  ],
+  "operationIds": [
+    140,
+    293,
+    303
   ]
 }

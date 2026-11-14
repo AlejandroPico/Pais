@@ -19,7 +19,7 @@
     "nomenclator:refresh": "python scripts/nomenclator_collect.py --refresh",
     "demography:refresh": "python scripts/demography_collect.py --refresh",
     "welfare:refresh": "python scripts/welfare_collect.py --refresh",
-    "labor:refresh": "python scripts/labor_collect.py --refresh"
+    "labor:refresh": "python scripts/labor_collect.py --refresh && python scripts/sepe_collect.py --refresh"
   },
   "dependencies": {
     "lucide": "0.468.0",

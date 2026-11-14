@@ -1,5 +1,5 @@
 {
-  "revision": "2026-11-13",
+  "revision": "2026-11-14",
   "available": [
     {
       "id": "demography:68519",
@@ -1202,6 +1202,126 @@
       "dataFile": "demography/index.json"
     },
     {
+      "id": "demography:79276",
+      "title": "Población residente según nacionalidad y nacimiento · España",
+      "sourceId": "F005",
+      "categoryIds": [
+        "F02"
+      ],
+      "status": "integrado",
+      "url": "https://www.ine.es/jaxiT3/Tabla.htm?t=79276",
+      "mapAction": "demography:79276",
+      "coverage": "España",
+      "period": {
+        "from": "1 de enero de 2002",
+        "to": "1 de enero de 2025"
+      },
+      "unit": "personas",
+      "license": "CC BY 4.0 · INE",
+      "notes": "Población residente por fecha, sexo, nacionalidad(española/extranjera) y país de nacimiento (España/extranjero). Serie del INE con los periodos y el desglose territorial publicados. Tabla completa: 2,511 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
+      "dataFile": "demography/index.json"
+    },
+    {
+      "id": "demography:79277",
+      "title": "Población residente según nacionalidad y nacimiento · comunidades",
+      "sourceId": "F005",
+      "categoryIds": [
+        "F02"
+      ],
+      "status": "integrado",
+      "url": "https://www.ine.es/jaxiT3/Tabla.htm?t=79277",
+      "mapAction": "demography:79277",
+      "coverage": "Comunidades · España",
+      "period": {
+        "from": "1 de enero de 2002",
+        "to": "1 de enero de 2025"
+      },
+      "unit": "personas",
+      "license": "CC BY 4.0 · INE",
+      "notes": "Población residente por fecha, sexo, nacionalidad(española/extranjera) y país de nacimiento (España/extranjero). Serie del INE con los periodos y el desglose territorial publicados. Tabla completa: 50,220 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
+      "dataFile": "demography/index.json"
+    },
+    {
+      "id": "demography:79278",
+      "title": "Población residente según nacionalidad y nacimiento · provincias",
+      "sourceId": "F005",
+      "categoryIds": [
+        "F02"
+      ],
+      "status": "integrado",
+      "url": "https://www.ine.es/jaxiT3/Tabla.htm?t=79278",
+      "mapAction": "demography:79278",
+      "coverage": "España · Provincias",
+      "period": {
+        "from": "1 de enero de 2002",
+        "to": "1 de enero de 2025"
+      },
+      "unit": "personas",
+      "license": "CC BY 4.0 · INE",
+      "notes": "Población residente por fecha, sexo, nacionalidad(española/extranjera) y país de nacimiento (España/extranjero). Serie del INE con los periodos y el desglose territorial publicados. Tabla completa: 133,083 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
+      "dataFile": "demography/index.json"
+    },
+    {
+      "id": "demography:1422",
+      "title": "Tasa bruta de nupcialidad · España",
+      "sourceId": "F005",
+      "categoryIds": [
+        "F02"
+      ],
+      "status": "integrado",
+      "url": "https://www.ine.es/jaxiT3/Tabla.htm?t=1422",
+      "mapAction": "demography:1422",
+      "coverage": "España",
+      "period": {
+        "from": "1976",
+        "to": "2024"
+      },
+      "unit": "matrimonios por 1.000 habitantes",
+      "license": "CC BY 4.0 · INE",
+      "notes": "Tasa Bruta de Nupcialidad. Serie del INE con los periodos y el desglose territorial publicados. Tabla completa: 49 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
+      "dataFile": "demography/index.json"
+    },
+    {
+      "id": "demography:1456",
+      "title": "Tasa bruta de nupcialidad · comunidades",
+      "sourceId": "F005",
+      "categoryIds": [
+        "F02"
+      ],
+      "status": "integrado",
+      "url": "https://www.ine.es/jaxiT3/Tabla.htm?t=1456",
+      "mapAction": "demography:1456",
+      "coverage": "Comunidades · España",
+      "period": {
+        "from": "1976",
+        "to": "2024"
+      },
+      "unit": "matrimonios por 1.000 habitantes",
+      "license": "CC BY 4.0 · INE",
+      "notes": "Tasa Bruta de Nupcialidad por comunidad autónoma. Serie del INE con los periodos y el desglose territorial publicados. Tabla completa: 980 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
+      "dataFile": "demography/index.json"
+    },
+    {
+      "id": "demography:1493",
+      "title": "Tasa bruta de nupcialidad · provincias",
+      "sourceId": "F005",
+      "categoryIds": [
+        "F02"
+      ],
+      "status": "integrado",
+      "url": "https://www.ine.es/jaxiT3/Tabla.htm?t=1493",
+      "mapAction": "demography:1493",
+      "coverage": "España · Provincias",
+      "period": {
+        "from": "1976",
+        "to": "2024"
+      },
+      "unit": "matrimonios por 1.000 habitantes",
+      "license": "CC BY 4.0 · INE",
+      "notes": "Tasa Bruta de Nupcialidad por provincia. Serie del INE con los periodos y el desglose territorial publicados. Tabla completa: 2,597 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
+      "dataFile": "demography/index.json"
+    },
+    {
       "id": "demography:nomenclator",
       "title": "Nomenclátor · población por unidad poblacional",
       "sourceId": "F005",
@@ -1316,7 +1436,7 @@
       "coverage": "España · Provincias",
       "review": {
         "implementedProductId": "demography:2852",
-        "updatedAt": "2026-11-13",
+        "updatedAt": "2026-11-14",
         "reason": "Todas las observaciones de la descarga se conservan en cubos consultables; sin selección de columnas ni de último periodo."
       }
     },
@@ -1345,7 +1465,7 @@
       "coverage": "Comunidades · España",
       "review": {
         "implementedProductId": "demography:2853",
-        "updatedAt": "2026-11-13",
+        "updatedAt": "2026-11-14",
         "reason": "Todas las observaciones de la descarga se conservan en cubos consultables; sin selección de columnas ni de último periodo."
       }
     },
@@ -1390,7 +1510,7 @@
       "coverage": "Islas (series) · Provincias",
       "review": {
         "implementedProductId": "demography:2910",
-        "updatedAt": "2026-11-13",
+        "updatedAt": "2026-11-14",
         "reason": "Todas las observaciones de la descarga se conservan en cubos consultables; sin selección de columnas ni de último periodo."
       }
     },
@@ -1435,7 +1555,7 @@
       "coverage": "Municipios",
       "review": {
         "implementedProductId": "demography:29005",
-        "updatedAt": "2026-11-13",
+        "updatedAt": "2026-11-14",
         "reason": "Todas las observaciones de la descarga se conservan en cubos consultables; sin selección de columnas ni de último periodo."
       }
     },
@@ -2467,17 +2587,30 @@
       "id": "demography-inventory:1422",
       "title": "Tasa Bruta de Nupcialidad",
       "sourceId": "F005",
-      "categoryIds": [],
+      "categoryIds": [
+        "F02"
+      ],
       "suggestedCategoryIds": [
         "F02"
       ],
-      "status": "por_revisar",
+      "status": "integrado",
       "url": "https://www.ine.es/jaxiT3/Tabla.htm?t=1422",
-      "license": null,
+      "license": "CC BY 4.0 · INE",
       "operationIds": [
         33
       ],
-      "notes": "Tabla anunciada en el inventario temático. Puede contener variables de otros fascículos. No implica descarga ni representación de sus observaciones."
+      "notes": "Tasa Bruta de Nupcialidad. Serie del INE con los periodos y el desglose territorial publicados. Tabla completa: 49 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
+      "mapAction": "demography:1422",
+      "period": {
+        "from": "1976",
+        "to": "2024"
+      },
+      "coverage": "España",
+      "review": {
+        "implementedProductId": "demography:1422",
+        "updatedAt": "2026-11-14",
+        "reason": "Todas las observaciones de la descarga se conservan en cubos consultables; sin selección de columnas ni de último periodo."
+      }
     },
     {
       "id": "demography-inventory:1427",
@@ -2563,17 +2696,30 @@
       "id": "demography-inventory:1456",
       "title": "Tasa Bruta de Nupcialidad por comunidad autónoma",
       "sourceId": "F005",
-      "categoryIds": [],
+      "categoryIds": [
+        "F02"
+      ],
       "suggestedCategoryIds": [
         "F02"
       ],
-      "status": "por_revisar",
+      "status": "integrado",
       "url": "https://www.ine.es/jaxiT3/Tabla.htm?t=1456",
-      "license": null,
+      "license": "CC BY 4.0 · INE",
       "operationIds": [
         33
       ],
-      "notes": "Tabla anunciada en el inventario temático. Puede contener variables de otros fascículos. No implica descarga ni representación de sus observaciones."
+      "notes": "Tasa Bruta de Nupcialidad por comunidad autónoma. Serie del INE con los periodos y el desglose territorial publicados. Tabla completa: 980 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
+      "mapAction": "demography:1456",
+      "period": {
+        "from": "1976",
+        "to": "2024"
+      },
+      "coverage": "Comunidades · España",
+      "review": {
+        "implementedProductId": "demography:1456",
+        "updatedAt": "2026-11-14",
+        "reason": "Todas las observaciones de la descarga se conservan en cubos consultables; sin selección de columnas ni de último periodo."
+      }
     },
     {
       "id": "demography-inventory:1461",
@@ -2616,7 +2762,7 @@
       "coverage": "España · Provincias",
       "review": {
         "implementedProductId": "demography:1470",
-        "updatedAt": "2026-11-13",
+        "updatedAt": "2026-11-14",
         "reason": "Todas las observaciones de la descarga se conservan en cubos consultables; sin selección de columnas ni de último periodo."
       }
     },
@@ -2645,7 +2791,7 @@
       "coverage": "España · Provincias",
       "review": {
         "implementedProductId": "demography:1480",
-        "updatedAt": "2026-11-13",
+        "updatedAt": "2026-11-14",
         "reason": "Todas las observaciones de la descarga se conservan en cubos consultables; sin selección de columnas ni de último periodo."
       }
     },
@@ -2674,7 +2820,7 @@
       "coverage": "España · Provincias",
       "review": {
         "implementedProductId": "demography:1482",
-        "updatedAt": "2026-11-13",
+        "updatedAt": "2026-11-14",
         "reason": "Todas las observaciones de la descarga se conservan en cubos consultables; sin selección de columnas ni de último periodo."
       }
     },
@@ -2682,17 +2828,30 @@
       "id": "demography-inventory:1493",
       "title": "Tasa Bruta de Nupcialidad por provincia",
       "sourceId": "F005",
-      "categoryIds": [],
+      "categoryIds": [
+        "F02"
+      ],
       "suggestedCategoryIds": [
         "F02"
       ],
-      "status": "por_revisar",
+      "status": "integrado",
       "url": "https://www.ine.es/jaxiT3/Tabla.htm?t=1493",
-      "license": null,
+      "license": "CC BY 4.0 · INE",
       "operationIds": [
         33
       ],
-      "notes": "Tabla anunciada en el inventario temático. Puede contener variables de otros fascículos. No implica descarga ni representación de sus observaciones."
+      "notes": "Tasa Bruta de Nupcialidad por provincia. Serie del INE con los periodos y el desglose territorial publicados. Tabla completa: 2,597 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
+      "mapAction": "demography:1493",
+      "period": {
+        "from": "1976",
+        "to": "2024"
+      },
+      "coverage": "España · Provincias",
+      "review": {
+        "implementedProductId": "demography:1493",
+        "updatedAt": "2026-11-14",
+        "reason": "Todas las observaciones de la descarga se conservan en cubos consultables; sin selección de columnas ni de último periodo."
+      }
     },
     {
       "id": "demography-inventory:1722",
@@ -4991,7 +5150,7 @@
       "coverage": "España · Provincias",
       "review": {
         "implementedProductId": "demography:1478",
-        "updatedAt": "2026-11-13",
+        "updatedAt": "2026-11-14",
         "reason": "Todas las observaciones de la descarga se conservan en cubos consultables; sin selección de columnas ni de último periodo."
       }
     },
@@ -5468,7 +5627,7 @@
       "coverage": "España · Provincias",
       "review": {
         "implementedProductId": "demography:1581",
-        "updatedAt": "2026-11-13",
+        "updatedAt": "2026-11-14",
         "reason": "Todas las observaciones de la descarga se conservan en cubos consultables; sin selección de columnas ni de último periodo."
       }
     },
@@ -5561,7 +5720,7 @@
       "coverage": "España · Provincias",
       "review": {
         "implementedProductId": "demography:3199",
-        "updatedAt": "2026-11-13",
+        "updatedAt": "2026-11-14",
         "reason": "Todas las observaciones de la descarga se conservan en cubos consultables; sin selección de columnas ni de último periodo."
       }
     },
@@ -6406,7 +6565,7 @@
       "coverage": "Provincias",
       "review": {
         "implementedProductId": "demography:1485",
-        "updatedAt": "2026-11-13",
+        "updatedAt": "2026-11-14",
         "reason": "Todas las observaciones de la descarga se conservan en cubos consultables; sin selección de columnas ni de último periodo."
       }
     },
@@ -6691,7 +6850,7 @@
       "coverage": "Provincias",
       "review": {
         "implementedProductId": "demography:1486",
-        "updatedAt": "2026-11-13",
+        "updatedAt": "2026-11-14",
         "reason": "Todas las observaciones de la descarga se conservan en cubos consultables; sin selección de columnas ni de último periodo."
       }
     },
@@ -7280,7 +7439,7 @@
       "coverage": "España · Provincias",
       "review": {
         "implementedProductId": "demography:1489",
-        "updatedAt": "2026-11-13",
+        "updatedAt": "2026-11-14",
         "reason": "Todas las observaciones de la descarga se conservan en cubos consultables; sin selección de columnas ni de último periodo."
       }
     },
@@ -7549,7 +7708,7 @@
       "coverage": "España · Provincias",
       "review": {
         "implementedProductId": "demography:1490",
-        "updatedAt": "2026-11-13",
+        "updatedAt": "2026-11-14",
         "reason": "Todas las observaciones de la descarga se conservan en cubos consultables; sin selección de columnas ni de último periodo."
       }
     },
@@ -8010,7 +8169,7 @@
       "coverage": "Comunidades · España · Provincias",
       "review": {
         "implementedProductId": "demography:54562",
-        "updatedAt": "2026-11-13",
+        "updatedAt": "2026-11-14",
         "reason": "Todas las observaciones de la descarga se conservan en cubos consultables; sin selección de columnas ni de último periodo."
       }
     },
@@ -10855,7 +11014,7 @@
       "coverage": "Municipios · España · Provincias",
       "review": {
         "implementedProductId": "demography:71118",
-        "updatedAt": "2026-11-13",
+        "updatedAt": "2026-11-14",
         "reason": "Todas las observaciones de la descarga se conservan en cubos consultables; sin selección de columnas ni de último periodo."
       }
     },
@@ -11012,7 +11171,7 @@
       "coverage": "España · Provincias",
       "review": {
         "implementedProductId": "demography:71106",
-        "updatedAt": "2026-11-13",
+        "updatedAt": "2026-11-14",
         "reason": "Todas las observaciones de la descarga se conservan en cubos consultables; sin selección de columnas ni de último periodo."
       }
     },
@@ -11041,7 +11200,7 @@
       "coverage": "España · Provincias · Sin localización",
       "review": {
         "implementedProductId": "demography:6528",
-        "updatedAt": "2026-11-13",
+        "updatedAt": "2026-11-14",
         "reason": "Todas las observaciones de la descarga se conservan en cubos consultables; sin selección de columnas ni de último periodo."
       }
     },
@@ -11070,7 +11229,7 @@
       "coverage": "España · Provincias · Sin localización",
       "review": {
         "implementedProductId": "demography:6540",
-        "updatedAt": "2026-11-13",
+        "updatedAt": "2026-11-14",
         "reason": "Todas las observaciones de la descarga se conservan en cubos consultables; sin selección de columnas ni de último periodo."
       }
     },
@@ -11277,7 +11436,7 @@
       "coverage": "Comunidades · España · Sin localización",
       "review": {
         "implementedProductId": "demography:6529",
-        "updatedAt": "2026-11-13",
+        "updatedAt": "2026-11-14",
         "reason": "Todas las observaciones de la descarga se conservan en cubos consultables; sin selección de columnas ni de último periodo."
       }
     },
@@ -11306,7 +11465,7 @@
       "coverage": "Comunidades · España · Sin localización",
       "review": {
         "implementedProductId": "demography:6541",
-        "updatedAt": "2026-11-13",
+        "updatedAt": "2026-11-14",
         "reason": "Todas las observaciones de la descarga se conservan en cubos consultables; sin selección de columnas ni de último periodo."
       }
     },
@@ -12941,7 +13100,7 @@
       "coverage": "España · Provincias · Sin localización",
       "review": {
         "implementedProductId": "demography:6506",
-        "updatedAt": "2026-11-13",
+        "updatedAt": "2026-11-14",
         "reason": "Todas las observaciones de la descarga se conservan en cubos consultables; sin selección de columnas ni de último periodo."
       }
     },
@@ -12970,7 +13129,7 @@
       "coverage": "España · Provincias · Sin localización",
       "review": {
         "implementedProductId": "demography:6524",
-        "updatedAt": "2026-11-13",
+        "updatedAt": "2026-11-14",
         "reason": "Todas las observaciones de la descarga se conservan en cubos consultables; sin selección de columnas ni de último periodo."
       }
     },
@@ -13063,7 +13222,7 @@
       "coverage": "Comunidades · España · Sin localización",
       "review": {
         "implementedProductId": "demography:6507",
-        "updatedAt": "2026-11-13",
+        "updatedAt": "2026-11-14",
         "reason": "Todas las observaciones de la descarga se conservan en cubos consultables; sin selección de columnas ni de último periodo."
       }
     },
@@ -13092,7 +13251,7 @@
       "coverage": "Comunidades · España · Sin localización",
       "review": {
         "implementedProductId": "demography:6525",
-        "updatedAt": "2026-11-13",
+        "updatedAt": "2026-11-14",
         "reason": "Todas las observaciones de la descarga se conservan en cubos consultables; sin selección de columnas ni de último periodo."
       }
     },
@@ -13985,7 +14144,7 @@
       "coverage": "España · Provincias · Sin localización",
       "review": {
         "implementedProductId": "demography:6545",
-        "updatedAt": "2026-11-13",
+        "updatedAt": "2026-11-14",
         "reason": "Todas las observaciones de la descarga se conservan en cubos consultables; sin selección de columnas ni de último periodo."
       }
     },
@@ -14014,7 +14173,7 @@
       "coverage": "España · Provincias · Sin localización",
       "review": {
         "implementedProductId": "demography:6561",
-        "updatedAt": "2026-11-13",
+        "updatedAt": "2026-11-14",
         "reason": "Todas las observaciones de la descarga se conservan en cubos consultables; sin selección de columnas ni de último periodo."
       }
     },
@@ -14107,7 +14266,7 @@
       "coverage": "Comunidades · España · Sin localización",
       "review": {
         "implementedProductId": "demography:6546",
-        "updatedAt": "2026-11-13",
+        "updatedAt": "2026-11-14",
         "reason": "Todas las observaciones de la descarga se conservan en cubos consultables; sin selección de columnas ni de último periodo."
       }
     },
@@ -14136,7 +14295,7 @@
       "coverage": "Comunidades · España · Sin localización",
       "review": {
         "implementedProductId": "demography:6562",
-        "updatedAt": "2026-11-13",
+        "updatedAt": "2026-11-14",
         "reason": "Todas las observaciones de la descarga se conservan en cubos consultables; sin selección de columnas ni de último periodo."
       }
     },
@@ -15189,7 +15348,7 @@
       "coverage": "España",
       "review": {
         "implementedProductId": "demography:36643",
-        "updatedAt": "2026-11-13",
+        "updatedAt": "2026-11-14",
         "reason": "Todas las observaciones de la descarga se conservan en cubos consultables; sin selección de columnas ni de último periodo."
       }
     },
@@ -15298,7 +15457,7 @@
       "coverage": "Comunidades · España",
       "review": {
         "implementedProductId": "demography:36680",
-        "updatedAt": "2026-11-13",
+        "updatedAt": "2026-11-14",
         "reason": "Todas las observaciones de la descarga se conservan en cubos consultables; sin selección de columnas ni de último periodo."
       }
     },
@@ -15423,7 +15582,7 @@
       "coverage": "España · Provincias",
       "review": {
         "implementedProductId": "demography:36726",
-        "updatedAt": "2026-11-13",
+        "updatedAt": "2026-11-14",
         "reason": "Todas las observaciones de la descarga se conservan en cubos consultables; sin selección de columnas ni de último periodo."
       }
     },
@@ -16876,7 +17035,7 @@
       "coverage": "España",
       "review": {
         "implementedProductId": "demography:36652",
-        "updatedAt": "2026-11-13",
+        "updatedAt": "2026-11-14",
         "reason": "Todas las observaciones de la descarga se conservan en cubos consultables; sin selección de columnas ni de último periodo."
       }
     },
@@ -17145,7 +17304,7 @@
       "coverage": "Comunidades · España · Sin localización",
       "review": {
         "implementedProductId": "demography:62277",
-        "updatedAt": "2026-11-13",
+        "updatedAt": "2026-11-14",
         "reason": "Todas las observaciones de la descarga se conservan en cubos consultables; sin selección de columnas ni de último periodo."
       }
     },
@@ -17318,7 +17477,7 @@
       "coverage": "Comunidades · España · Provincias",
       "review": {
         "implementedProductId": "demography:46682",
-        "updatedAt": "2026-11-13",
+        "updatedAt": "2026-11-14",
         "reason": "Todas las observaciones de la descarga se conservan en cubos consultables; sin selección de columnas ni de último periodo."
       }
     },
@@ -17555,7 +17714,7 @@
       "coverage": "España",
       "review": {
         "implementedProductId": "demography:59583",
-        "updatedAt": "2026-11-13",
+        "updatedAt": "2026-11-14",
         "reason": "Todas las observaciones de la descarga se conservan en cubos consultables; sin selección de columnas ni de último periodo."
       }
     },
@@ -17584,7 +17743,7 @@
       "coverage": "España · Provincias",
       "review": {
         "implementedProductId": "demography:59589",
-        "updatedAt": "2026-11-13",
+        "updatedAt": "2026-11-14",
         "reason": "Todas las observaciones de la descarga se conservan en cubos consultables; sin selección de columnas ni de último periodo."
       }
     },
@@ -17661,7 +17820,7 @@
       "coverage": "Comunidades · España",
       "review": {
         "implementedProductId": "demography:60131",
-        "updatedAt": "2026-11-13",
+        "updatedAt": "2026-11-14",
         "reason": "Todas las observaciones de la descarga se conservan en cubos consultables; sin selección de columnas ni de último periodo."
       }
     },
@@ -17690,7 +17849,7 @@
       "coverage": "España · Provincias",
       "review": {
         "implementedProductId": "demography:60133",
-        "updatedAt": "2026-11-13",
+        "updatedAt": "2026-11-14",
         "reason": "Todas las observaciones de la descarga se conservan en cubos consultables; sin selección de columnas ni de último periodo."
       }
     },
@@ -18023,7 +18182,7 @@
       "coverage": "Comunidades · España",
       "review": {
         "implementedProductId": "demography:60132",
-        "updatedAt": "2026-11-13",
+        "updatedAt": "2026-11-14",
         "reason": "Todas las observaciones de la descarga se conservan en cubos consultables; sin selección de columnas ni de último periodo."
       }
     },
@@ -18052,7 +18211,7 @@
       "coverage": "España · Provincias",
       "review": {
         "implementedProductId": "demography:60134",
-        "updatedAt": "2026-11-13",
+        "updatedAt": "2026-11-14",
         "reason": "Todas las observaciones de la descarga se conservan en cubos consultables; sin selección de columnas ni de último periodo."
       }
     },
@@ -18620,33 +18779,59 @@
       "id": "demography-inventory:79277",
       "title": "Población residente por fecha, sexo, nacionalidad(española/extranjera) y país de nacimiento (España/extranjero)",
       "sourceId": "F005",
-      "categoryIds": [],
+      "categoryIds": [
+        "F02"
+      ],
       "suggestedCategoryIds": [
         "F02"
       ],
-      "status": "por_revisar",
+      "status": "integrado",
       "url": "https://www.ine.es/jaxiT3/Tabla.htm?t=79277",
-      "license": null,
+      "license": "CC BY 4.0 · INE",
       "operationIds": [
         450
       ],
-      "notes": "Tabla anunciada en el inventario temático. Puede contener variables de otros fascículos. No implica descarga ni representación de sus observaciones."
+      "notes": "Población residente por fecha, sexo, nacionalidad(española/extranjera) y país de nacimiento (España/extranjero). Serie del INE con los periodos y el desglose territorial publicados. Tabla completa: 50,220 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
+      "mapAction": "demography:79277",
+      "period": {
+        "from": "1 de enero de 2002",
+        "to": "1 de enero de 2025"
+      },
+      "coverage": "Comunidades · España",
+      "review": {
+        "implementedProductId": "demography:79277",
+        "updatedAt": "2026-11-14",
+        "reason": "Todas las observaciones de la descarga se conservan en cubos consultables; sin selección de columnas ni de último periodo."
+      }
     },
     {
       "id": "demography-inventory:79278",
       "title": "Población residente por fecha, sexo, nacionalidad(española/extranjera) y país de nacimiento (España/extranjero)",
       "sourceId": "F005",
-      "categoryIds": [],
+      "categoryIds": [
+        "F02"
+      ],
       "suggestedCategoryIds": [
         "F02"
       ],
-      "status": "por_revisar",
+      "status": "integrado",
       "url": "https://www.ine.es/jaxiT3/Tabla.htm?t=79278",
-      "license": null,
+      "license": "CC BY 4.0 · INE",
       "operationIds": [
         450
       ],
-      "notes": "Tabla anunciada en el inventario temático. Puede contener variables de otros fascículos. No implica descarga ni representación de sus observaciones."
+      "notes": "Población residente por fecha, sexo, nacionalidad(española/extranjera) y país de nacimiento (España/extranjero). Serie del INE con los periodos y el desglose territorial publicados. Tabla completa: 133,083 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
+      "mapAction": "demography:79278",
+      "period": {
+        "from": "1 de enero de 2002",
+        "to": "1 de enero de 2025"
+      },
+      "coverage": "España · Provincias",
+      "review": {
+        "implementedProductId": "demography:79278",
+        "updatedAt": "2026-11-14",
+        "reason": "Todas las observaciones de la descarga se conservan en cubos consultables; sin selección de columnas ni de último periodo."
+      }
     },
     {
       "id": "demography-inventory:79274",
@@ -18684,17 +18869,30 @@
       "id": "demography-inventory:79276",
       "title": "Población residente por fecha, sexo, nacionalidad(española/extranjera) y país de nacimiento (España/extranjero)",
       "sourceId": "F005",
-      "categoryIds": [],
+      "categoryIds": [
+        "F02"
+      ],
       "suggestedCategoryIds": [
         "F02"
       ],
-      "status": "por_revisar",
+      "status": "integrado",
       "url": "https://www.ine.es/jaxiT3/Tabla.htm?t=79276",
-      "license": null,
+      "license": "CC BY 4.0 · INE",
       "operationIds": [
         450
       ],
-      "notes": "Tabla anunciada en el inventario temático. Puede contener variables de otros fascículos. No implica descarga ni representación de sus observaciones."
+      "notes": "Población residente por fecha, sexo, nacionalidad(española/extranjera) y país de nacimiento (España/extranjero). Serie del INE con los periodos y el desglose territorial publicados. Tabla completa: 2,511 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
+      "mapAction": "demography:79276",
+      "period": {
+        "from": "1 de enero de 2002",
+        "to": "1 de enero de 2025"
+      },
+      "coverage": "España",
+      "review": {
+        "implementedProductId": "demography:79276",
+        "updatedAt": "2026-11-14",
+        "reason": "Todas las observaciones de la descarga se conservan en cubos consultables; sin selección de columnas ni de último periodo."
+      }
     },
     {
       "id": "demography-inventory:77099",
@@ -18737,7 +18935,7 @@
       "coverage": "Islas (series)",
       "review": {
         "implementedProductId": "demography:69797",
-        "updatedAt": "2026-11-13",
+        "updatedAt": "2026-11-14",
         "reason": "Todas las observaciones de la descarga se conservan en cubos consultables; sin selección de columnas ni de último periodo."
       }
     },
@@ -18782,7 +18980,7 @@
       "coverage": "Comunidades · España · Provincias",
       "review": {
         "implementedProductId": "demography:69691",
-        "updatedAt": "2026-11-13",
+        "updatedAt": "2026-11-14",
         "reason": "Todas las observaciones de la descarga se conservan en cubos consultables; sin selección de columnas ni de último periodo."
       }
     },
@@ -18811,7 +19009,7 @@
       "coverage": "Municipios · España · Provincias",
       "review": {
         "implementedProductId": "demography:69696",
-        "updatedAt": "2026-11-13",
+        "updatedAt": "2026-11-14",
         "reason": "Todas las observaciones de la descarga se conservan en cubos consultables; sin selección de columnas ni de último periodo."
       }
     },
@@ -18872,7 +19070,7 @@
       "coverage": "Comunidades · España · Provincias",
       "review": {
         "implementedProductId": "demography:69706",
-        "updatedAt": "2026-11-13",
+        "updatedAt": "2026-11-14",
         "reason": "Todas las observaciones de la descarga se conservan en cubos consultables; sin selección de columnas ni de último periodo."
       }
     },
@@ -18901,7 +19099,7 @@
       "coverage": "Municipios · España · Provincias",
       "review": {
         "implementedProductId": "demography:69711",
-        "updatedAt": "2026-11-13",
+        "updatedAt": "2026-11-14",
         "reason": "Todas las observaciones de la descarga se conservan en cubos consultables; sin selección de columnas ni de último periodo."
       }
     },
@@ -18978,7 +19176,7 @@
       "coverage": "Municipios · España · Provincias",
       "review": {
         "implementedProductId": "demography:69743",
-        "updatedAt": "2026-11-13",
+        "updatedAt": "2026-11-14",
         "reason": "Todas las observaciones de la descarga se conservan en cubos consultables; sin selección de columnas ni de último periodo."
       }
     },
@@ -19023,7 +19221,7 @@
       "coverage": "Comunidades · España",
       "review": {
         "implementedProductId": "demography:69762",
-        "updatedAt": "2026-11-13",
+        "updatedAt": "2026-11-14",
         "reason": "Todas las observaciones de la descarga se conservan en cubos consultables; sin selección de columnas ni de último periodo."
       }
     },
@@ -19052,7 +19250,7 @@
       "coverage": "España · Provincias",
       "review": {
         "implementedProductId": "demography:69764",
-        "updatedAt": "2026-11-13",
+        "updatedAt": "2026-11-14",
         "reason": "Todas las observaciones de la descarga se conservan en cubos consultables; sin selección de columnas ni de último periodo."
       }
     },
@@ -19097,7 +19295,7 @@
       "coverage": "Municipios · España · Provincias",
       "review": {
         "implementedProductId": "demography:69767",
-        "updatedAt": "2026-11-13",
+        "updatedAt": "2026-11-14",
         "reason": "Todas las observaciones de la descarga se conservan en cubos consultables; sin selección de columnas ni de último periodo."
       }
     },
@@ -20918,7 +21116,7 @@
       "coverage": "Municipios · España · Provincias · Secciones (series)",
       "review": {
         "implementedProductId": "demography:65031",
-        "updatedAt": "2026-11-13",
+        "updatedAt": "2026-11-14",
         "reason": "Todas las observaciones de la descarga se conservan en cubos consultables; sin selección de columnas ni de último periodo."
       }
     },
@@ -21027,7 +21225,7 @@
       "coverage": "Comunidades · España · Provincias",
       "review": {
         "implementedProductId": "demography:68519",
-        "updatedAt": "2026-11-13",
+        "updatedAt": "2026-11-14",
         "reason": "Todas las observaciones de la descarga se conservan en cubos consultables; sin selección de columnas ni de último periodo."
       }
     },
@@ -21072,7 +21270,7 @@
       "coverage": "Municipios · España · Provincias",
       "review": {
         "implementedProductId": "demography:68535",
-        "updatedAt": "2026-11-13",
+        "updatedAt": "2026-11-14",
         "reason": "Todas las observaciones de la descarga se conservan en cubos consultables; sin selección de columnas ni de último periodo."
       }
     },
@@ -23037,7 +23235,7 @@
       "coverage": "Municipios · España · Provincias · Secciones (series)",
       "review": {
         "implementedProductId": "demography:65032",
-        "updatedAt": "2026-11-13",
+        "updatedAt": "2026-11-14",
         "reason": "Todas las observaciones de la descarga se conservan en cubos consultables; sin selección de columnas ni de último periodo."
       }
     },
@@ -23146,7 +23344,7 @@
       "coverage": "Comunidades · España · Provincias",
       "review": {
         "implementedProductId": "demography:68520",
-        "updatedAt": "2026-11-13",
+        "updatedAt": "2026-11-14",
         "reason": "Todas las observaciones de la descarga se conservan en cubos consultables; sin selección de columnas ni de último periodo."
       }
     },
@@ -25047,7 +25245,7 @@
       "coverage": "Municipios · España · Provincias · Secciones (series)",
       "review": {
         "implementedProductId": "demography:65036",
-        "updatedAt": "2026-11-13",
+        "updatedAt": "2026-11-14",
         "reason": "Todas las observaciones de la descarga se conservan en cubos consultables; sin selección de columnas ni de último periodo."
       }
     },
@@ -27860,7 +28058,7 @@
       "coverage": "Municipios · España · Provincias · Secciones (series)",
       "review": {
         "implementedProductId": "demography:65035",
-        "updatedAt": "2026-11-13",
+        "updatedAt": "2026-11-14",
         "reason": "Todas las observaciones de la descarga se conservan en cubos consultables; sin selección de columnas ni de último periodo."
       }
     },
@@ -29809,7 +30007,7 @@
       "coverage": "Municipios · España · Provincias · Secciones (series)",
       "review": {
         "implementedProductId": "demography:65033",
-        "updatedAt": "2026-11-13",
+        "updatedAt": "2026-11-14",
         "reason": "Todas las observaciones de la descarga se conservan en cubos consultables; sin selección de columnas ni de último periodo."
       }
     },
@@ -31518,7 +31716,7 @@
       "coverage": "Comunidades · España · Provincias",
       "review": {
         "implementedProductId": "demography:68523",
-        "updatedAt": "2026-11-13",
+        "updatedAt": "2026-11-14",
         "reason": "Todas las observaciones de la descarga se conservan en cubos consultables; sin selección de columnas ni de último periodo."
       }
     },
@@ -31803,7 +32001,7 @@
       "coverage": "Municipios · España · Provincias · Secciones (series)",
       "review": {
         "implementedProductId": "demography:65034",
-        "updatedAt": "2026-11-13",
+        "updatedAt": "2026-11-14",
         "reason": "Todas las observaciones de la descarga se conservan en cubos consultables; sin selección de columnas ni de último periodo."
       }
     },

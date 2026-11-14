@@ -1,5 +1,5 @@
 {
-  "revision": "2026-11-13",
+  "revision": "2026-11-14",
   "tables": [
     {
       "id": 68519,
@@ -445,6 +445,50 @@
       "unit": "personas",
       "note": "Censo anual del INE. Consulta por provincia, municipio y sección con su código de origen. La cartografía de secciones se activa por separado.",
       "compression": 3
+    },
+    {
+      "id": 79276,
+      "label": "Población residente según nacionalidad y nacimiento · España",
+      "family": "Estadística Continua de Población",
+      "note": "Población residente por fecha, sexo, nacionalidad(española/extranjera) y país de nacimiento (España/extranjero). Serie del INE con los periodos y el desglose territorial publicados.",
+      "unit": "personas",
+      "national": true
+    },
+    {
+      "id": 79277,
+      "label": "Población residente según nacionalidad y nacimiento · comunidades",
+      "family": "Estadística Continua de Población",
+      "note": "Población residente por fecha, sexo, nacionalidad(española/extranjera) y país de nacimiento (España/extranjero). Serie del INE con los periodos y el desglose territorial publicados.",
+      "unit": "personas"
+    },
+    {
+      "id": 79278,
+      "label": "Población residente según nacionalidad y nacimiento · provincias",
+      "family": "Estadística Continua de Población",
+      "note": "Población residente por fecha, sexo, nacionalidad(española/extranjera) y país de nacimiento (España/extranjero). Serie del INE con los periodos y el desglose territorial publicados.",
+      "unit": "personas"
+    },
+    {
+      "id": 1422,
+      "label": "Tasa bruta de nupcialidad · España",
+      "family": "Indicadores demográficos",
+      "note": "Tasa Bruta de Nupcialidad. Serie del INE con los periodos y el desglose territorial publicados.",
+      "unit": "matrimonios por 1.000 habitantes",
+      "national": true
+    },
+    {
+      "id": 1456,
+      "label": "Tasa bruta de nupcialidad · comunidades",
+      "family": "Indicadores demográficos",
+      "note": "Tasa Bruta de Nupcialidad por comunidad autónoma. Serie del INE con los periodos y el desglose territorial publicados.",
+      "unit": "matrimonios por 1.000 habitantes"
+    },
+    {
+      "id": 1493,
+      "label": "Tasa bruta de nupcialidad · provincias",
+      "family": "Indicadores demográficos",
+      "note": "Tasa Bruta de Nupcialidad por provincia. Serie del INE con los periodos y el desglose territorial publicados.",
+      "unit": "matrimonios por 1.000 habitantes"
     }
   ],
   "operationIds": [

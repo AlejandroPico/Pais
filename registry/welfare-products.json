@@ -1,5 +1,5 @@
 {
-  "revision": "2026-11-10",
+  "revision": "2026-11-14",
   "available": [
     {
       "id": "welfare:53689",
@@ -900,6 +900,126 @@
       "license": "CC BY 4.0 · INE",
       "notes": "Indicadores de Calidad de Vida del INE. Medias, porcentajes y escalas subjetivas se conservan según los metadatos. No son mediciones individuales localizables ni se asignan a municipios. Tabla completa: 100 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
       "dataFile": "welfare/index.json"
+    },
+    {
+      "id": "welfare:69506",
+      "title": "Satisfacción con la vivienda · comunidades",
+      "sourceId": "F005",
+      "categoryIds": [
+        "F03"
+      ],
+      "status": "integrado",
+      "url": "https://www.ine.es/jaxiT3/Tabla.htm?t=69506",
+      "mapAction": "welfare:69506",
+      "coverage": "Comunidades · España",
+      "period": {
+        "from": "2012",
+        "to": "2023"
+      },
+      "unit": "Porcentaje",
+      "license": "CC BY 4.0 · INE",
+      "notes": "Satisfacción con la vivienda por comunidad autónoma. Indicador de encuesta del INE. Se conservan el ámbito, las categorías y la unidad de la publicación. Tabla completa: 160 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
+      "dataFile": "welfare/index.json"
+    },
+    {
+      "id": "welfare:74544",
+      "title": "Satisfacción con el tiempo disponible · comunidades",
+      "sourceId": "F005",
+      "categoryIds": [
+        "F03"
+      ],
+      "status": "integrado",
+      "url": "https://www.ine.es/jaxiT3/Tabla.htm?t=74544",
+      "mapAction": "welfare:74544",
+      "coverage": "Comunidades · España",
+      "period": {
+        "from": "2013",
+        "to": "2022"
+      },
+      "unit": "Según indicador y escala publicados",
+      "license": "CC BY 4.0 · INE",
+      "notes": "Satisfacción con el tiempo disponible para hacer lo que a uno le gusta por comunidad autónoma. Indicador de encuesta del INE. Se conservan el ámbito, las categorías y la unidad de la publicación. Tabla completa: 300 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
+      "dataFile": "welfare/index.json"
+    },
+    {
+      "id": "welfare:74588",
+      "title": "Apoyo de familiares, amigos o vecinos · comunidades",
+      "sourceId": "F005",
+      "categoryIds": [
+        "F03"
+      ],
+      "status": "integrado",
+      "url": "https://www.ine.es/jaxiT3/Tabla.htm?t=74588",
+      "mapAction": "welfare:74588",
+      "coverage": "Comunidades · España",
+      "period": {
+        "from": "2013",
+        "to": "2022"
+      },
+      "unit": "Porcentaje",
+      "license": "CC BY 4.0 · INE",
+      "notes": "Posibilidad de pedir ayuda a familiares, amigos o vecinos por comunidad autónoma. Indicador de encuesta del INE. Se conservan el ámbito, las categorías y la unidad de la publicación. Tabla completa: 80 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
+      "dataFile": "welfare/index.json"
+    },
+    {
+      "id": "welfare:74708",
+      "title": "Satisfacción con las zonas verdes · comunidades",
+      "sourceId": "F005",
+      "categoryIds": [
+        "F03"
+      ],
+      "status": "integrado",
+      "url": "https://www.ine.es/jaxiT3/Tabla.htm?t=74708",
+      "mapAction": "welfare:74708",
+      "coverage": "Comunidades · España",
+      "period": {
+        "from": "2013",
+        "to": "2025"
+      },
+      "unit": "Según indicador y escala publicados",
+      "license": "CC BY 4.0 · INE",
+      "notes": "Satisfacción con las zonas verdes y áreas recreativas por comunidad autónoma. Indicador de encuesta del INE. Se conservan el ámbito, las categorías y la unidad de la publicación. Tabla completa: 200 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
+      "dataFile": "welfare/index.json"
+    },
+    {
+      "id": "welfare:74717",
+      "title": "Satisfacción con el entorno · comunidades",
+      "sourceId": "F005",
+      "categoryIds": [
+        "F03"
+      ],
+      "status": "integrado",
+      "url": "https://www.ine.es/jaxiT3/Tabla.htm?t=74717",
+      "mapAction": "welfare:74717",
+      "coverage": "Comunidades · España",
+      "period": {
+        "from": "2013",
+        "to": "2013"
+      },
+      "unit": "Según indicador y escala publicados",
+      "license": "CC BY 4.0 · INE",
+      "notes": "Satisfacción con el entorno en que vive por comunidad autónoma. Indicador de encuesta del INE. Se conservan el ámbito, las categorías y la unidad de la publicación. Tabla completa: 100 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
+      "dataFile": "welfare/index.json"
+    },
+    {
+      "id": "welfare:74726",
+      "title": "Satisfacción alta o muy alta con la vida · comunidades",
+      "sourceId": "F005",
+      "categoryIds": [
+        "F03"
+      ],
+      "status": "integrado",
+      "url": "https://www.ine.es/jaxiT3/Tabla.htm?t=74726",
+      "mapAction": "welfare:74726",
+      "coverage": "Comunidades · España",
+      "period": {
+        "from": "2013",
+        "to": "2025"
+      },
+      "unit": "Porcentaje",
+      "license": "CC BY 4.0 · INE",
+      "notes": "Satisfacción alta o muy alta con su vida en la actualidad por comunidad autónoma. Indicador de encuesta del INE. Se conservan el ámbito, las categorías y la unidad de la publicación. Tabla completa: 140 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
+      "dataFile": "welfare/index.json"
     }
   ],
   "inventory": [
@@ -976,7 +1096,7 @@
       "coverage": "Comunidades · España",
       "review": {
         "implementedProductId": "welfare:9972",
-        "updatedAt": "2026-11-10",
+        "updatedAt": "2026-11-14",
         "reason": "Todas las observaciones de la descarga se conservan en cubos consultables; sin selección de columnas ni de último periodo."
       }
     },
@@ -1069,7 +1189,7 @@
       "coverage": "Comunidades · España",
       "review": {
         "implementedProductId": "welfare:49145",
-        "updatedAt": "2026-11-10",
+        "updatedAt": "2026-11-14",
         "reason": "Todas las observaciones de la descarga se conservan en cubos consultables; sin selección de columnas ni de último periodo."
       }
     },
@@ -1130,7 +1250,7 @@
       "coverage": "Comunidades · España",
       "review": {
         "implementedProductId": "welfare:59972",
-        "updatedAt": "2026-11-10",
+        "updatedAt": "2026-11-14",
         "reason": "Todas las observaciones de la descarga se conservan en cubos consultables; sin selección de columnas ni de último periodo."
       }
     },
@@ -1415,7 +1535,7 @@
       "coverage": "Comunidades · España",
       "review": {
         "implementedProductId": "welfare:9975",
-        "updatedAt": "2026-11-10",
+        "updatedAt": "2026-11-14",
         "reason": "Todas las observaciones de la descarga se conservan en cubos consultables; sin selección de columnas ni de último periodo."
       }
     },
@@ -1492,7 +1612,7 @@
       "coverage": "Comunidades · España",
       "review": {
         "implementedProductId": "welfare:49146",
-        "updatedAt": "2026-11-10",
+        "updatedAt": "2026-11-14",
         "reason": "Todas las observaciones de la descarga se conservan en cubos consultables; sin selección de columnas ni de último periodo."
       }
     },
@@ -1809,7 +1929,7 @@
       "coverage": "Comunidades · España",
       "review": {
         "implementedProductId": "welfare:49148",
-        "updatedAt": "2026-11-10",
+        "updatedAt": "2026-11-14",
         "reason": "Todas las observaciones de la descarga se conservan en cubos consultables; sin selección de columnas ni de último periodo."
       }
     },
@@ -1870,7 +1990,7 @@
       "coverage": "Comunidades · España",
       "review": {
         "implementedProductId": "welfare:60162",
-        "updatedAt": "2026-11-10",
+        "updatedAt": "2026-11-14",
         "reason": "Todas las observaciones de la descarga se conservan en cubos consultables; sin selección de columnas ni de último periodo."
       }
     },
@@ -2075,7 +2195,7 @@
       "coverage": "Comunidades · España",
       "review": {
         "implementedProductId": "welfare:79671",
-        "updatedAt": "2026-11-10",
+        "updatedAt": "2026-11-14",
         "reason": "Todas las observaciones de la descarga se conservan en cubos consultables; sin selección de columnas ni de último periodo."
       }
     },
@@ -2840,7 +2960,7 @@
       "coverage": "Comunidades · España",
       "review": {
         "implementedProductId": "welfare:9990",
-        "updatedAt": "2026-11-10",
+        "updatedAt": "2026-11-14",
         "reason": "Todas las observaciones de la descarga se conservan en cubos consultables; sin selección de columnas ni de último periodo."
       }
     },
@@ -2981,7 +3101,7 @@
       "coverage": "Comunidades · España",
       "review": {
         "implementedProductId": "welfare:76846",
-        "updatedAt": "2026-11-10",
+        "updatedAt": "2026-11-14",
         "reason": "Todas las observaciones de la descarga se conservan en cubos consultables; sin selección de columnas ni de último periodo."
       }
     },
@@ -3170,7 +3290,7 @@
       "coverage": "Comunidades · España",
       "review": {
         "implementedProductId": "welfare:9993",
-        "updatedAt": "2026-11-10",
+        "updatedAt": "2026-11-14",
         "reason": "Todas las observaciones de la descarga se conservan en cubos consultables; sin selección de columnas ni de último periodo."
       }
     },
@@ -3407,7 +3527,7 @@
       "coverage": "Comunidades · España",
       "review": {
         "implementedProductId": "welfare:68033",
-        "updatedAt": "2026-11-10",
+        "updatedAt": "2026-11-14",
         "reason": "Todas las observaciones de la descarga se conservan en cubos consultables; sin selección de columnas ni de último periodo."
       }
     },
@@ -3436,7 +3556,7 @@
       "coverage": "Comunidades · España",
       "review": {
         "implementedProductId": "welfare:76847",
-        "updatedAt": "2026-11-10",
+        "updatedAt": "2026-11-14",
         "reason": "Todas las observaciones de la descarga se conservan en cubos consultables; sin selección de columnas ni de último periodo."
       }
     },
@@ -3641,7 +3761,7 @@
       "coverage": "Comunidades · España",
       "review": {
         "implementedProductId": "welfare:10001",
-        "updatedAt": "2026-11-10",
+        "updatedAt": "2026-11-14",
         "reason": "Todas las observaciones de la descarga se conservan en cubos consultables; sin selección de columnas ni de último periodo."
       }
     },
@@ -3926,7 +4046,7 @@
       "coverage": "Comunidades · España",
       "review": {
         "implementedProductId": "welfare:10011",
-        "updatedAt": "2026-11-10",
+        "updatedAt": "2026-11-14",
         "reason": "Todas las observaciones de la descarga se conservan en cubos consultables; sin selección de columnas ni de último periodo."
       }
     },
@@ -4451,7 +4571,7 @@
       "coverage": "Comunidades · España",
       "review": {
         "implementedProductId": "welfare:9956",
-        "updatedAt": "2026-11-10",
+        "updatedAt": "2026-11-14",
         "reason": "Todas las observaciones de la descarga se conservan en cubos consultables; sin selección de columnas ni de último periodo."
       }
     },
@@ -5264,7 +5384,7 @@
       "coverage": "Comunidades · España",
       "review": {
         "implementedProductId": "welfare:69385",
-        "updatedAt": "2026-11-10",
+        "updatedAt": "2026-11-14",
         "reason": "Todas las observaciones de la descarga se conservan en cubos consultables; sin selección de columnas ni de último periodo."
       }
     },
@@ -5352,17 +5472,30 @@
       "id": "welfare-inventory:69506",
       "title": "Satisfacción con la vivienda por comunidad autónoma",
       "sourceId": "F005",
-      "categoryIds": [],
+      "categoryIds": [
+        "F03"
+      ],
       "suggestedCategoryIds": [
         "F03"
       ],
-      "status": "por_revisar",
+      "status": "integrado",
       "url": "https://www.ine.es/jaxiT3/Tabla.htm?t=69506",
-      "license": null,
+      "license": "CC BY 4.0 · INE",
       "operationIds": [
         236
       ],
-      "notes": "Tabla anunciada en el inventario temático. Puede contener variables de otros fascículos. No implica descarga ni representación de sus observaciones."
+      "notes": "Satisfacción con la vivienda por comunidad autónoma. Indicador de encuesta del INE. Se conservan el ámbito, las categorías y la unidad de la publicación. Tabla completa: 160 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
+      "mapAction": "welfare:69506",
+      "period": {
+        "from": "2012",
+        "to": "2023"
+      },
+      "coverage": "Comunidades · España",
+      "review": {
+        "implementedProductId": "welfare:69506",
+        "updatedAt": "2026-11-14",
+        "reason": "Todas las observaciones de la descarga se conservan en cubos consultables; sin selección de columnas ni de último periodo."
+      }
     },
     {
       "id": "welfare-inventory:69515",
@@ -5768,17 +5901,30 @@
       "id": "welfare-inventory:74544",
       "title": "Satisfacción con el tiempo disponible para hacer lo que a uno le gusta por comunidad autónoma",
       "sourceId": "F005",
-      "categoryIds": [],
+      "categoryIds": [
+        "F03"
+      ],
       "suggestedCategoryIds": [
         "F03"
       ],
-      "status": "por_revisar",
+      "status": "integrado",
       "url": "https://www.ine.es/jaxiT3/Tabla.htm?t=74544",
-      "license": null,
+      "license": "CC BY 4.0 · INE",
       "operationIds": [
         236
       ],
-      "notes": "Tabla anunciada en el inventario temático. Puede contener variables de otros fascículos. No implica descarga ni representación de sus observaciones."
+      "notes": "Satisfacción con el tiempo disponible para hacer lo que a uno le gusta por comunidad autónoma. Indicador de encuesta del INE. Se conservan el ámbito, las categorías y la unidad de la publicación. Tabla completa: 300 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
+      "mapAction": "welfare:74544",
+      "period": {
+        "from": "2013",
+        "to": "2022"
+      },
+      "coverage": "Comunidades · España",
+      "review": {
+        "implementedProductId": "welfare:74544",
+        "updatedAt": "2026-11-14",
+        "reason": "Todas las observaciones de la descarga se conservan en cubos consultables; sin selección de columnas ni de último periodo."
+      }
     },
     {
       "id": "welfare-inventory:74553",
@@ -5837,7 +5983,7 @@
       "coverage": "Comunidades · España",
       "review": {
         "implementedProductId": "welfare:74577",
-        "updatedAt": "2026-11-10",
+        "updatedAt": "2026-11-14",
         "reason": "Todas las observaciones de la descarga se conservan en cubos consultables; sin selección de columnas ni de último periodo."
       }
     },
@@ -5845,17 +5991,30 @@
       "id": "welfare-inventory:74588",
       "title": "Posibilidad de pedir ayuda a familiares, amigos o vecinos por comunidad autónoma",
       "sourceId": "F005",
-      "categoryIds": [],
+      "categoryIds": [
+        "F03"
+      ],
       "suggestedCategoryIds": [
         "F03"
       ],
-      "status": "por_revisar",
+      "status": "integrado",
       "url": "https://www.ine.es/jaxiT3/Tabla.htm?t=74588",
-      "license": null,
+      "license": "CC BY 4.0 · INE",
       "operationIds": [
         236
       ],
-      "notes": "Tabla anunciada en el inventario temático. Puede contener variables de otros fascículos. No implica descarga ni representación de sus observaciones."
+      "notes": "Posibilidad de pedir ayuda a familiares, amigos o vecinos por comunidad autónoma. Indicador de encuesta del INE. Se conservan el ámbito, las categorías y la unidad de la publicación. Tabla completa: 80 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
+      "mapAction": "welfare:74588",
+      "period": {
+        "from": "2013",
+        "to": "2022"
+      },
+      "coverage": "Comunidades · España",
+      "review": {
+        "implementedProductId": "welfare:74588",
+        "updatedAt": "2026-11-14",
+        "reason": "Todas las observaciones de la descarga se conservan en cubos consultables; sin selección de columnas ni de último periodo."
+      }
     },
     {
       "id": "welfare-inventory:74597",
@@ -5898,7 +6057,7 @@
       "coverage": "Comunidades · España",
       "review": {
         "implementedProductId": "welfare:74606",
-        "updatedAt": "2026-11-10",
+        "updatedAt": "2026-11-14",
         "reason": "Todas las observaciones de la descarga se conservan en cubos consultables; sin selección de columnas ni de último periodo."
       }
     },
@@ -5959,7 +6118,7 @@
       "coverage": "Comunidades · España",
       "review": {
         "implementedProductId": "welfare:74627",
-        "updatedAt": "2026-11-10",
+        "updatedAt": "2026-11-14",
         "reason": "Todas las observaciones de la descarga se conservan en cubos consultables; sin selección de columnas ni de último periodo."
       }
     },
@@ -5988,7 +6147,7 @@
       "coverage": "Comunidades · España",
       "review": {
         "implementedProductId": "welfare:74635",
-        "updatedAt": "2026-11-10",
+        "updatedAt": "2026-11-14",
         "reason": "Todas las observaciones de la descarga se conservan en cubos consultables; sin selección de columnas ni de último periodo."
       }
     },
@@ -6017,7 +6176,7 @@
       "coverage": "Comunidades · España",
       "review": {
         "implementedProductId": "welfare:74644",
-        "updatedAt": "2026-11-10",
+        "updatedAt": "2026-11-14",
         "reason": "Todas las observaciones de la descarga se conservan en cubos consultables; sin selección de columnas ni de último periodo."
       }
     },
@@ -6046,7 +6205,7 @@
       "coverage": "Comunidades · España",
       "review": {
         "implementedProductId": "welfare:74653",
-        "updatedAt": "2026-11-10",
+        "updatedAt": "2026-11-14",
         "reason": "Todas las observaciones de la descarga se conservan en cubos consultables; sin selección de columnas ni de último periodo."
       }
     },
@@ -6118,49 +6277,88 @@
       "id": "welfare-inventory:74708",
       "title": "Satisfacción con las zonas verdes y áreas recreativas por comunidad autónoma",
       "sourceId": "F005",
-      "categoryIds": [],
+      "categoryIds": [
+        "F03"
+      ],
       "suggestedCategoryIds": [
         "F03"
       ],
-      "status": "por_revisar",
+      "status": "integrado",
       "url": "https://www.ine.es/jaxiT3/Tabla.htm?t=74708",
-      "license": null,
+      "license": "CC BY 4.0 · INE",
       "operationIds": [
         236
       ],
-      "notes": "Tabla anunciada en el inventario temático. Puede contener variables de otros fascículos. No implica descarga ni representación de sus observaciones."
+      "notes": "Satisfacción con las zonas verdes y áreas recreativas por comunidad autónoma. Indicador de encuesta del INE. Se conservan el ámbito, las categorías y la unidad de la publicación. Tabla completa: 200 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
+      "mapAction": "welfare:74708",
+      "period": {
+        "from": "2013",
+        "to": "2025"
+      },
+      "coverage": "Comunidades · España",
+      "review": {
+        "implementedProductId": "welfare:74708",
+        "updatedAt": "2026-11-14",
+        "reason": "Todas las observaciones de la descarga se conservan en cubos consultables; sin selección de columnas ni de último periodo."
+      }
     },
     {
       "id": "welfare-inventory:74717",
       "title": "Satisfacción con el entorno en que vive por comunidad autónoma",
       "sourceId": "F005",
-      "categoryIds": [],
+      "categoryIds": [
+        "F03"
+      ],
       "suggestedCategoryIds": [
         "F03"
       ],
-      "status": "por_revisar",
+      "status": "integrado",
       "url": "https://www.ine.es/jaxiT3/Tabla.htm?t=74717",
-      "license": null,
+      "license": "CC BY 4.0 · INE",
       "operationIds": [
         236
       ],
-      "notes": "Tabla anunciada en el inventario temático. Puede contener variables de otros fascículos. No implica descarga ni representación de sus observaciones."
+      "notes": "Satisfacción con el entorno en que vive por comunidad autónoma. Indicador de encuesta del INE. Se conservan el ámbito, las categorías y la unidad de la publicación. Tabla completa: 100 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
+      "mapAction": "welfare:74717",
+      "period": {
+        "from": "2013",
+        "to": "2013"
+      },
+      "coverage": "Comunidades · España",
+      "review": {
+        "implementedProductId": "welfare:74717",
+        "updatedAt": "2026-11-14",
+        "reason": "Todas las observaciones de la descarga se conservan en cubos consultables; sin selección de columnas ni de último periodo."
+      }
     },
     {
       "id": "welfare-inventory:74726",
       "title": "Satisfacción alta o muy alta con su vida en la actualidad por comunidad autónoma",
       "sourceId": "F005",
-      "categoryIds": [],
+      "categoryIds": [
+        "F03"
+      ],
       "suggestedCategoryIds": [
         "F03"
       ],
-      "status": "por_revisar",
+      "status": "integrado",
       "url": "https://www.ine.es/jaxiT3/Tabla.htm?t=74726",
-      "license": null,
+      "license": "CC BY 4.0 · INE",
       "operationIds": [
         236
       ],
-      "notes": "Tabla anunciada en el inventario temático. Puede contener variables de otros fascículos. No implica descarga ni representación de sus observaciones."
+      "notes": "Satisfacción alta o muy alta con su vida en la actualidad por comunidad autónoma. Indicador de encuesta del INE. Se conservan el ámbito, las categorías y la unidad de la publicación. Tabla completa: 140 observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",
+      "mapAction": "welfare:74726",
+      "period": {
+        "from": "2013",
+        "to": "2025"
+      },
+      "coverage": "Comunidades · España",
+      "review": {
+        "implementedProductId": "welfare:74726",
+        "updatedAt": "2026-11-14",
+        "reason": "Todas las observaciones de la descarga se conservan en cubos consultables; sin selección de columnas ni de último periodo."
+      }
     },
     {
       "id": "welfare-inventory:74735",
@@ -13659,7 +13857,7 @@
       "coverage": "Comunidades · España",
       "review": {
         "implementedProductId": "welfare:73990",
-        "updatedAt": "2026-11-10",
+        "updatedAt": "2026-11-14",
         "reason": "Todas las observaciones de la descarga se conservan en cubos consultables; sin selección de columnas ni de último periodo."
       }
     },
@@ -13688,7 +13886,7 @@
       "coverage": "Comunidades · España",
       "review": {
         "implementedProductId": "welfare:73994",
-        "updatedAt": "2026-11-10",
+        "updatedAt": "2026-11-14",
         "reason": "Todas las observaciones de la descarga se conservan en cubos consultables; sin selección de columnas ni de último periodo."
       }
     },
@@ -13893,7 +14091,7 @@
       "coverage": "Comunidades · España",
       "review": {
         "implementedProductId": "welfare:73991",
-        "updatedAt": "2026-11-10",
+        "updatedAt": "2026-11-14",
         "reason": "Todas las observaciones de la descarga se conservan en cubos consultables; sin selección de columnas ni de último periodo."
       }
     },
@@ -13922,7 +14120,7 @@
       "coverage": "Comunidades · España",
       "review": {
         "implementedProductId": "welfare:73995",
-        "updatedAt": "2026-11-10",
+        "updatedAt": "2026-11-14",
         "reason": "Todas las observaciones de la descarga se conservan en cubos consultables; sin selección de columnas ni de último periodo."
       }
     },
@@ -14111,7 +14309,7 @@
       "coverage": "Comunidades · España",
       "review": {
         "implementedProductId": "welfare:73992",
-        "updatedAt": "2026-11-10",
+        "updatedAt": "2026-11-14",
         "reason": "Todas las observaciones de la descarga se conservan en cubos consultables; sin selección de columnas ni de último periodo."
       }
     },
@@ -14140,7 +14338,7 @@
       "coverage": "Comunidades · España",
       "review": {
         "implementedProductId": "welfare:73996",
-        "updatedAt": "2026-11-10",
+        "updatedAt": "2026-11-14",
         "reason": "Todas las observaciones de la descarga se conservan en cubos consultables; sin selección de columnas ni de último periodo."
       }
     },
@@ -14329,7 +14527,7 @@
       "coverage": "Comunidades · España",
       "review": {
         "implementedProductId": "welfare:73993",
-        "updatedAt": "2026-11-10",
+        "updatedAt": "2026-11-14",
         "reason": "Todas las observaciones de la descarga se conservan en cubos consultables; sin selección de columnas ni de último periodo."
       }
     },
@@ -14358,7 +14556,7 @@
       "coverage": "Comunidades · España",
       "review": {
         "implementedProductId": "welfare:73997",
-        "updatedAt": "2026-11-10",
+        "updatedAt": "2026-11-14",
         "reason": "Todas las observaciones de la descarga se conservan en cubos consultables; sin selección de columnas ni de último periodo."
       }
     },
@@ -14531,7 +14729,7 @@
       "coverage": "Comunidades · España",
       "review": {
         "implementedProductId": "welfare:73998",
-        "updatedAt": "2026-11-10",
+        "updatedAt": "2026-11-14",
         "reason": "Todas las observaciones de la descarga se conservan en cubos consultables; sin selección de columnas ni de último periodo."
       }
     },
@@ -14704,7 +14902,7 @@
       "coverage": "Comunidades · España",
       "review": {
         "implementedProductId": "welfare:73999",
-        "updatedAt": "2026-11-10",
+        "updatedAt": "2026-11-14",
         "reason": "Todas las observaciones de la descarga se conservan en cubos consultables; sin selección de columnas ni de último periodo."
       }
     },
@@ -14893,7 +15091,7 @@
       "coverage": "Comunidades · España",
       "review": {
         "implementedProductId": "welfare:74000",
-        "updatedAt": "2026-11-10",
+        "updatedAt": "2026-11-14",
         "reason": "Todas las observaciones de la descarga se conservan en cubos consultables; sin selección de columnas ni de último periodo."
       }
     },
@@ -15018,7 +15216,7 @@
       "coverage": "Comunidades · España",
       "review": {
         "implementedProductId": "welfare:74001",
-        "updatedAt": "2026-11-10",
+        "updatedAt": "2026-11-14",
         "reason": "Todas las observaciones de la descarga se conservan en cubos consultables; sin selección de columnas ni de último periodo."
       }
     },
@@ -15159,7 +15357,7 @@
       "coverage": "Comunidades · España",
       "review": {
         "implementedProductId": "welfare:74002",
-        "updatedAt": "2026-11-10",
+        "updatedAt": "2026-11-14",
         "reason": "Todas las observaciones de la descarga se conservan en cubos consultables; sin selección de columnas ni de último periodo."
       }
     },
@@ -15604,7 +15802,7 @@
       "coverage": "Comunidades · Distritos (series) · Islas (series) · Municipios · España · Provincias · Secciones (series)",
       "review": {
         "implementedProductId": "welfare:53689",
-        "updatedAt": "2026-11-10",
+        "updatedAt": "2026-11-14",
         "reason": "Todas las observaciones de la descarga se conservan en cubos consultables; sin selección de columnas ni de último periodo."
       }
     },
@@ -15633,7 +15831,7 @@
       "coverage": "Comunidades · Distritos (series) · Islas (series) · Municipios · España · Provincias · Secciones (series)",
       "review": {
         "implementedProductId": "welfare:53689",
-        "updatedAt": "2026-11-10",
+        "updatedAt": "2026-11-14",
         "reason": "Todas las observaciones de la descarga se conservan en cubos consultables; sin selección de columnas ni de último periodo."
       }
     },
@@ -15662,7 +15860,7 @@
       "coverage": "Comunidades · Distritos (series) · Islas (series) · Municipios · España · Provincias · Secciones (series)",
       "review": {
         "implementedProductId": "welfare:53689",
-        "updatedAt": "2026-11-10",
+        "updatedAt": "2026-11-14",
         "reason": "Todas las observaciones de la descarga se conservan en cubos consultables; sin selección de columnas ni de último periodo."
       }
     },
@@ -15691,7 +15889,7 @@
       "coverage": "Comunidades · Distritos (series) · Islas (series) · Municipios · España · Provincias · Secciones (series)",
       "review": {
         "implementedProductId": "welfare:53689",
-        "updatedAt": "2026-11-10",
+        "updatedAt": "2026-11-14",
         "reason": "Todas las observaciones de la descarga se conservan en cubos consultables; sin selección de columnas ni de último periodo."
       }
     },
@@ -15720,7 +15918,7 @@
       "coverage": "Comunidades · Distritos (series) · Islas (series) · Municipios · España · Provincias · Secciones (series)",
       "review": {
         "implementedProductId": "welfare:53689",
-        "updatedAt": "2026-11-10",
+        "updatedAt": "2026-11-14",
         "reason": "Todas las observaciones de la descarga se conservan en cubos consultables; sin selección de columnas ni de último periodo."
       }
     },
@@ -15749,7 +15947,7 @@
       "coverage": "Comunidades · Distritos (series) · Islas (series) · Municipios · España · Provincias · Secciones (series)",
       "review": {
         "implementedProductId": "welfare:53689",
-        "updatedAt": "2026-11-10",
+        "updatedAt": "2026-11-14",
         "reason": "Todas las observaciones de la descarga se conservan en cubos consultables; sin selección de columnas ni de último periodo."
       }
     },
@@ -15778,7 +15976,7 @@
       "coverage": "Comunidades · Distritos (series) · Islas (series) · Municipios · España · Provincias · Secciones (series)",
       "review": {
         "implementedProductId": "welfare:53689",
-        "updatedAt": "2026-11-10",
+        "updatedAt": "2026-11-14",
         "reason": "Todas las observaciones de la descarga se conservan en cubos consultables; sin selección de columnas ni de último periodo."
       }
     },
@@ -15807,7 +16005,7 @@
       "coverage": "Comunidades · Distritos (series) · Islas (series) · Municipios · España · Provincias · Secciones (series)",
       "review": {
         "implementedProductId": "welfare:53689",
-        "updatedAt": "2026-11-10",
+        "updatedAt": "2026-11-14",
         "reason": "Todas las observaciones de la descarga se conservan en cubos consultables; sin selección de columnas ni de último periodo."
       }
     },
@@ -15836,7 +16034,7 @@
       "coverage": "Comunidades · Distritos (series) · Islas (series) · Municipios · España · Provincias · Secciones (series)",
       "review": {
         "implementedProductId": "welfare:53689",
-        "updatedAt": "2026-11-10",
+        "updatedAt": "2026-11-14",
         "reason": "Todas las observaciones de la descarga se conservan en cubos consultables; sin selección de columnas ni de último periodo."
       }
     },
@@ -15865,7 +16063,7 @@
       "coverage": "Comunidades · Distritos (series) · Islas (series) · Municipios · España · Provincias · Secciones (series)",
       "review": {
         "implementedProductId": "welfare:53689",
-        "updatedAt": "2026-11-10",
+        "updatedAt": "2026-11-14",
         "reason": "Todas las observaciones de la descarga se conservan en cubos consultables; sin selección de columnas ni de último periodo."
       }
     },
@@ -15894,7 +16092,7 @@
       "coverage": "Comunidades · Distritos (series) · Islas (series) · Municipios · España · Provincias · Secciones (series)",
       "review": {
         "implementedProductId": "welfare:53689",
-        "updatedAt": "2026-11-10",
+        "updatedAt": "2026-11-14",
         "reason": "Todas las observaciones de la descarga se conservan en cubos consultables; sin selección de columnas ni de último periodo."
       }
     },
@@ -15923,7 +16121,7 @@
       "coverage": "Comunidades · Distritos (series) · Islas (series) · Municipios · España · Provincias · Secciones (series)",
       "review": {
         "implementedProductId": "welfare:53689",
-        "updatedAt": "2026-11-10",
+        "updatedAt": "2026-11-14",
         "reason": "Todas las observaciones de la descarga se conservan en cubos consultables; sin selección de columnas ni de último periodo."
       }
     },
@@ -15952,7 +16150,7 @@
       "coverage": "Comunidades · Distritos (series) · Islas (series) · Municipios · España · Provincias · Secciones (series)",
       "review": {
         "implementedProductId": "welfare:53689",
-        "updatedAt": "2026-11-10",
+        "updatedAt": "2026-11-14",
         "reason": "Todas las observaciones de la descarga se conservan en cubos consultables; sin selección de columnas ni de último periodo."
       }
     },
@@ -15981,7 +16179,7 @@
       "coverage": "Comunidades · Distritos (series) · Islas (series) · Municipios · España · Provincias · Secciones (series)",
       "review": {
         "implementedProductId": "welfare:53689",
-        "updatedAt": "2026-11-10",
+        "updatedAt": "2026-11-14",
         "reason": "Todas las observaciones de la descarga se conservan en cubos consultables; sin selección de columnas ni de último periodo."
       }
     },
@@ -16010,7 +16208,7 @@
       "coverage": "Comunidades · Distritos (series) · Islas (series) · Municipios · España · Provincias · Secciones (series)",
       "review": {
         "implementedProductId": "welfare:53689",
-        "updatedAt": "2026-11-10",
+        "updatedAt": "2026-11-14",
         "reason": "Todas las observaciones de la descarga se conservan en cubos consultables; sin selección de columnas ni de último periodo."
       }
     },
@@ -16039,7 +16237,7 @@
       "coverage": "Comunidades · Distritos (series) · Islas (series) · Municipios · España · Provincias · Secciones (series)",
       "review": {
         "implementedProductId": "welfare:53689",
-        "updatedAt": "2026-11-10",
+        "updatedAt": "2026-11-14",
         "reason": "Todas las observaciones de la descarga se conservan en cubos consultables; sin selección de columnas ni de último periodo."
       }
     },
@@ -16068,7 +16266,7 @@
       "coverage": "Comunidades · Distritos (series) · Islas (series) · Municipios · España · Provincias · Secciones (series)",
       "review": {
         "implementedProductId": "welfare:53689",
-        "updatedAt": "2026-11-10",
+        "updatedAt": "2026-11-14",
         "reason": "Todas las observaciones de la descarga se conservan en cubos consultables; sin selección de columnas ni de último periodo."
       }
     },
@@ -16097,7 +16295,7 @@
       "coverage": "Comunidades · Distritos (series) · Islas (series) · Municipios · España · Provincias · Secciones (series)",
       "review": {
         "implementedProductId": "welfare:53689",
-        "updatedAt": "2026-11-10",
+        "updatedAt": "2026-11-14",
         "reason": "Todas las observaciones de la descarga se conservan en cubos consultables; sin selección de columnas ni de último periodo."
       }
     },
@@ -16126,7 +16324,7 @@
       "coverage": "Comunidades · Distritos (series) · Islas (series) · Municipios · España · Provincias · Secciones (series)",
       "review": {
         "implementedProductId": "welfare:53689",
-        "updatedAt": "2026-11-10",
+        "updatedAt": "2026-11-14",
         "reason": "Todas las observaciones de la descarga se conservan en cubos consultables; sin selección de columnas ni de último periodo."
       }
     },
@@ -16155,7 +16353,7 @@
       "coverage": "Comunidades · Distritos (series) · Islas (series) · Municipios · España · Provincias · Secciones (series)",
       "review": {
         "implementedProductId": "welfare:53689",
-        "updatedAt": "2026-11-10",
+        "updatedAt": "2026-11-14",
         "reason": "Todas las observaciones de la descarga se conservan en cubos consultables; sin selección de columnas ni de último periodo."
       }
     },
@@ -16184,7 +16382,7 @@
       "coverage": "Comunidades · Distritos (series) · Islas (series) · Municipios · España · Provincias · Secciones (series)",
       "review": {
         "implementedProductId": "welfare:53689",
-        "updatedAt": "2026-11-10",
+        "updatedAt": "2026-11-14",
         "reason": "Todas las observaciones de la descarga se conservan en cubos consultables; sin selección de columnas ni de último periodo."
       }
     },
@@ -16213,7 +16411,7 @@
       "coverage": "Comunidades · Distritos (series) · Islas (series) · Municipios · España · Provincias · Secciones (series)",
       "review": {
         "implementedProductId": "welfare:53689",
-        "updatedAt": "2026-11-10",
+        "updatedAt": "2026-11-14",
         "reason": "Todas las observaciones de la descarga se conservan en cubos consultables; sin selección de columnas ni de último periodo."
       }
     },
@@ -16242,7 +16440,7 @@
       "coverage": "Comunidades · Distritos (series) · Islas (series) · Municipios · España · Provincias · Secciones (series)",
       "review": {
         "implementedProductId": "welfare:53689",
-        "updatedAt": "2026-11-10",
+        "updatedAt": "2026-11-14",
         "reason": "Todas las observaciones de la descarga se conservan en cubos consultables; sin selección de columnas ni de último periodo."
       }
     },
@@ -16271,7 +16469,7 @@
       "coverage": "Comunidades · Distritos (series) · Islas (series) · Municipios · España · Provincias · Secciones (series)",
       "review": {
         "implementedProductId": "welfare:53689",
-        "updatedAt": "2026-11-10",
+        "updatedAt": "2026-11-14",
         "reason": "Todas las observaciones de la descarga se conservan en cubos consultables; sin selección de columnas ni de último periodo."
       }
     },
@@ -16300,7 +16498,7 @@
       "coverage": "Comunidades · Distritos (series) · Islas (series) · Municipios · España · Provincias · Secciones (series)",
       "review": {
         "implementedProductId": "welfare:53689",
-        "updatedAt": "2026-11-10",
+        "updatedAt": "2026-11-14",
         "reason": "Todas las observaciones de la descarga se conservan en cubos consultables; sin selección de columnas ni de último periodo."
       }
     },
@@ -16329,7 +16527,7 @@
       "coverage": "Comunidades · Distritos (series) · Islas (series) · Municipios · España · Provincias · Secciones (series)",
       "review": {
         "implementedProductId": "welfare:53689",
-        "updatedAt": "2026-11-10",
+        "updatedAt": "2026-11-14",
         "reason": "Todas las observaciones de la descarga se conservan en cubos consultables; sin selección de columnas ni de último periodo."
       }
     },
@@ -16358,7 +16556,7 @@
       "coverage": "Comunidades · Distritos (series) · Islas (series) · Municipios · España · Provincias · Secciones (series)",
       "review": {
         "implementedProductId": "welfare:53689",
-        "updatedAt": "2026-11-10",
+        "updatedAt": "2026-11-14",
         "reason": "Todas las observaciones de la descarga se conservan en cubos consultables; sin selección de columnas ni de último periodo."
       }
     },
@@ -16387,7 +16585,7 @@
       "coverage": "Comunidades · Distritos (series) · Islas (series) · Municipios · España · Provincias · Secciones (series)",
       "review": {
         "implementedProductId": "welfare:53689",
-        "updatedAt": "2026-11-10",
+        "updatedAt": "2026-11-14",
         "reason": "Todas las observaciones de la descarga se conservan en cubos consultables; sin selección de columnas ni de último periodo."
       }
     },
@@ -16416,7 +16614,7 @@
       "coverage": "Comunidades · Distritos (series) · Islas (series) · Municipios · España · Provincias · Secciones (series)",
       "review": {
         "implementedProductId": "welfare:53689",
-        "updatedAt": "2026-11-10",
+        "updatedAt": "2026-11-14",
         "reason": "Todas las observaciones de la descarga se conservan en cubos consultables; sin selección de columnas ni de último periodo."
       }
     },
@@ -16445,7 +16643,7 @@
       "coverage": "Comunidades · Distritos (series) · Islas (series) · Municipios · España · Provincias · Secciones (series)",
       "review": {
         "implementedProductId": "welfare:53689",
-        "updatedAt": "2026-11-10",
+        "updatedAt": "2026-11-14",
         "reason": "Todas las observaciones de la descarga se conservan en cubos consultables; sin selección de columnas ni de último periodo."
       }
     },
@@ -16474,7 +16672,7 @@
       "coverage": "Comunidades · Distritos (series) · Islas (series) · Municipios · España · Provincias · Secciones (series)",
       "review": {
         "implementedProductId": "welfare:53689",
-        "updatedAt": "2026-11-10",
+        "updatedAt": "2026-11-14",
         "reason": "Todas las observaciones de la descarga se conservan en cubos consultables; sin selección de columnas ni de último periodo."
       }
     },
@@ -16503,7 +16701,7 @@
       "coverage": "Comunidades · Distritos (series) · Islas (series) · Municipios · España · Provincias · Secciones (series)",
       "review": {
         "implementedProductId": "welfare:53689",
-        "updatedAt": "2026-11-10",
+        "updatedAt": "2026-11-14",
         "reason": "Todas las observaciones de la descarga se conservan en cubos consultables; sin selección de columnas ni de último periodo."
       }
     },
@@ -16532,7 +16730,7 @@
       "coverage": "Comunidades · Distritos (series) · Islas (series) · Municipios · España · Provincias · Secciones (series)",
       "review": {
         "implementedProductId": "welfare:53689",
-        "updatedAt": "2026-11-10",
+        "updatedAt": "2026-11-14",
         "reason": "Todas las observaciones de la descarga se conservan en cubos consultables; sin selección de columnas ni de último periodo."
       }
     },
@@ -16561,7 +16759,7 @@
       "coverage": "Comunidades · Distritos (series) · Islas (series) · Municipios · España · Provincias · Secciones (series)",
       "review": {
         "implementedProductId": "welfare:53689",
-        "updatedAt": "2026-11-10",
+        "updatedAt": "2026-11-14",
         "reason": "Todas las observaciones de la descarga se conservan en cubos consultables; sin selección de columnas ni de último periodo."
       }
     },
@@ -16590,7 +16788,7 @@
       "coverage": "Comunidades · Distritos (series) · Islas (series) · Municipios · España · Provincias · Secciones (series)",
       "review": {
         "implementedProductId": "welfare:53689",
-        "updatedAt": "2026-11-10",
+        "updatedAt": "2026-11-14",
         "reason": "Todas las observaciones de la descarga se conservan en cubos consultables; sin selección de columnas ni de último periodo."
       }
     },
@@ -16619,7 +16817,7 @@
       "coverage": "Comunidades · Distritos (series) · Islas (series) · Municipios · España · Provincias · Secciones (series)",
       "review": {
         "implementedProductId": "welfare:53689",
-        "updatedAt": "2026-11-10",
+        "updatedAt": "2026-11-14",
         "reason": "Todas las observaciones de la descarga se conservan en cubos consultables; sin selección de columnas ni de último periodo."
       }
     },
@@ -16648,7 +16846,7 @@
       "coverage": "Comunidades · Distritos (series) · Islas (series) · Municipios · España · Provincias · Secciones (series)",
       "review": {
         "implementedProductId": "welfare:53689",
-        "updatedAt": "2026-11-10",
+        "updatedAt": "2026-11-14",
         "reason": "Todas las observaciones de la descarga se conservan en cubos consultables; sin selección de columnas ni de último periodo."
       }
     },
@@ -16677,7 +16875,7 @@
       "coverage": "Comunidades · Distritos (series) · Islas (series) · Municipios · España · Provincias · Secciones (series)",
       "review": {
         "implementedProductId": "welfare:53689",
-        "updatedAt": "2026-11-10",
+        "updatedAt": "2026-11-14",
         "reason": "Todas las observaciones de la descarga se conservan en cubos consultables; sin selección de columnas ni de último periodo."
       }
     },
@@ -16706,7 +16904,7 @@
       "coverage": "Comunidades · Distritos (series) · Islas (series) · Municipios · España · Provincias · Secciones (series)",
       "review": {
         "implementedProductId": "welfare:53689",
-        "updatedAt": "2026-11-10",
+        "updatedAt": "2026-11-14",
         "reason": "Todas las observaciones de la descarga se conservan en cubos consultables; sin selección de columnas ni de último periodo."
       }
     },
@@ -16735,7 +16933,7 @@
       "coverage": "Comunidades · Distritos (series) · Islas (series) · Municipios · España · Provincias · Secciones (series)",
       "review": {
         "implementedProductId": "welfare:53689",
-        "updatedAt": "2026-11-10",
+        "updatedAt": "2026-11-14",
         "reason": "Todas las observaciones de la descarga se conservan en cubos consultables; sin selección de columnas ni de último periodo."
       }
     },
@@ -16764,7 +16962,7 @@
       "coverage": "Comunidades · Distritos (series) · Islas (series) · Municipios · España · Provincias · Secciones (series)",
       "review": {
         "implementedProductId": "welfare:53689",
-        "updatedAt": "2026-11-10",
+        "updatedAt": "2026-11-14",
         "reason": "Todas las observaciones de la descarga se conservan en cubos consultables; sin selección de columnas ni de último periodo."
       }
     },
@@ -16793,7 +16991,7 @@
       "coverage": "Comunidades · Distritos (series) · Islas (series) · Municipios · España · Provincias · Secciones (series)",
       "review": {
         "implementedProductId": "welfare:53689",
-        "updatedAt": "2026-11-10",
+        "updatedAt": "2026-11-14",
         "reason": "Todas las observaciones de la descarga se conservan en cubos consultables; sin selección de columnas ni de último periodo."
       }
     },
@@ -16822,7 +17020,7 @@
       "coverage": "Comunidades · Distritos (series) · Islas (series) · Municipios · España · Provincias · Secciones (series)",
       "review": {
         "implementedProductId": "welfare:53689",
-        "updatedAt": "2026-11-10",
+        "updatedAt": "2026-11-14",
         "reason": "Todas las observaciones de la descarga se conservan en cubos consultables; sin selección de columnas ni de último periodo."
       }
     },
@@ -16851,7 +17049,7 @@
       "coverage": "Comunidades · Distritos (series) · Islas (series) · Municipios · España · Provincias · Secciones (series)",
       "review": {
         "implementedProductId": "welfare:53689",
-        "updatedAt": "2026-11-10",
+        "updatedAt": "2026-11-14",
         "reason": "Todas las observaciones de la descarga se conservan en cubos consultables; sin selección de columnas ni de último periodo."
       }
     },
@@ -16880,7 +17078,7 @@
       "coverage": "Comunidades · Distritos (series) · Islas (series) · Municipios · España · Provincias · Secciones (series)",
       "review": {
         "implementedProductId": "welfare:53689",
-        "updatedAt": "2026-11-10",
+        "updatedAt": "2026-11-14",
         "reason": "Todas las observaciones de la descarga se conservan en cubos consultables; sin selección de columnas ni de último periodo."
       }
     },
@@ -16909,7 +17107,7 @@
       "coverage": "Comunidades · Distritos (series) · Islas (series) · Municipios · España · Provincias · Secciones (series)",
       "review": {
         "implementedProductId": "welfare:53689",
-        "updatedAt": "2026-11-10",
+        "updatedAt": "2026-11-14",
         "reason": "Todas las observaciones de la descarga se conservan en cubos consultables; sin selección de columnas ni de último periodo."
       }
     },
@@ -16938,7 +17136,7 @@
       "coverage": "Comunidades · Distritos (series) · Islas (series) · Municipios · España · Provincias · Secciones (series)",
       "review": {
         "implementedProductId": "welfare:53689",
-        "updatedAt": "2026-11-10",
+        "updatedAt": "2026-11-14",
         "reason": "Todas las observaciones de la descarga se conservan en cubos consultables; sin selección de columnas ni de último periodo."
       }
     },
@@ -16967,7 +17165,7 @@
       "coverage": "Comunidades · Distritos (series) · Islas (series) · Municipios · España · Provincias · Secciones (series)",
       "review": {
         "implementedProductId": "welfare:53689",
-        "updatedAt": "2026-11-10",
+        "updatedAt": "2026-11-14",
         "reason": "Todas las observaciones de la descarga se conservan en cubos consultables; sin selección de columnas ni de último periodo."
       }
     },
@@ -16996,7 +17194,7 @@
       "coverage": "Comunidades · Distritos (series) · Islas (series) · Municipios · España · Provincias · Secciones (series)",
       "review": {
         "implementedProductId": "welfare:53689",
-        "updatedAt": "2026-11-10",
+        "updatedAt": "2026-11-14",
         "reason": "Todas las observaciones de la descarga se conservan en cubos consultables; sin selección de columnas ni de último periodo."
       }
     },
@@ -17025,7 +17223,7 @@
       "coverage": "Comunidades · Distritos (series) · Islas (series) · Municipios · España · Provincias · Secciones (series)",
       "review": {
         "implementedProductId": "welfare:53689",
-        "updatedAt": "2026-11-10",
+        "updatedAt": "2026-11-14",
         "reason": "Todas las observaciones de la descarga se conservan en cubos consultables; sin selección de columnas ni de último periodo."
       }
     },
@@ -17054,7 +17252,7 @@
       "coverage": "Comunidades · Distritos (series) · Islas (series) · Municipios · España · Provincias · Secciones (series)",
       "review": {
         "implementedProductId": "welfare:53689",
-        "updatedAt": "2026-11-10",
+        "updatedAt": "2026-11-14",
         "reason": "Todas las observaciones de la descarga se conservan en cubos consultables; sin selección de columnas ni de último periodo."
       }
     },
@@ -17083,7 +17281,7 @@
       "coverage": "Comunidades · Distritos (series) · Islas (series) · Municipios · España · Provincias · Secciones (series)",
       "review": {
         "implementedProductId": "welfare:53689",
-        "updatedAt": "2026-11-10",
+        "updatedAt": "2026-11-14",
         "reason": "Todas las observaciones de la descarga se conservan en cubos consultables; sin selección de columnas ni de último periodo."
       }
     },
@@ -17112,7 +17310,7 @@
       "coverage": "Comunidades · Distritos (series) · Islas (series) · Municipios · España · Provincias · Secciones (series)",
       "review": {
         "implementedProductId": "welfare:53689",
-        "updatedAt": "2026-11-10",
+        "updatedAt": "2026-11-14",
         "reason": "Todas las observaciones de la descarga se conservan en cubos consultables; sin selección de columnas ni de último periodo."
       }
     },
@@ -17141,7 +17339,7 @@
       "coverage": "Comunidades · Distritos (series) · Islas (series) · Municipios · España · Provincias · Secciones (series)",
       "review": {
         "implementedProductId": "welfare:53689",
-        "updatedAt": "2026-11-10",
+        "updatedAt": "2026-11-14",
         "reason": "Todas las observaciones de la descarga se conservan en cubos consultables; sin selección de columnas ni de último periodo."
       }
     },
@@ -18018,7 +18216,7 @@
       "coverage": "Comunidades · Islas (series) · España · Provincias",
       "review": {
         "implementedProductId": "welfare:53687",
-        "updatedAt": "2026-11-10",
+        "updatedAt": "2026-11-14",
         "reason": "Todas las observaciones de la descarga se conservan en cubos consultables; sin selección de columnas ni de último periodo."
       }
     },
@@ -18895,7 +19093,7 @@
       "coverage": "Comunidades · Islas (series) · España · Provincias",
       "review": {
         "implementedProductId": "welfare:53690",
-        "updatedAt": "2026-11-10",
+        "updatedAt": "2026-11-14",
         "reason": "Todas las observaciones de la descarga se conservan en cubos consultables; sin selección de columnas ni de último periodo."
       }
     },
@@ -19772,7 +19970,7 @@
       "coverage": "Comunidades · Islas (series) · España · Provincias",
       "review": {
         "implementedProductId": "welfare:53692",
-        "updatedAt": "2026-11-10",
+        "updatedAt": "2026-11-14",
         "reason": "Todas las observaciones de la descarga se conservan en cubos consultables; sin selección de columnas ni de último periodo."
       }
     },
@@ -20649,7 +20847,7 @@
       "coverage": "Comunidades · Islas (series) · España · Provincias",
       "review": {
         "implementedProductId": "welfare:53693",
-        "updatedAt": "2026-11-10",
+        "updatedAt": "2026-11-14",
         "reason": "Todas las observaciones de la descarga se conservan en cubos consultables; sin selección de columnas ni de último periodo."
       }
     },
@@ -21526,7 +21724,7 @@
       "coverage": "Comunidades · Islas (series) · España · Provincias",
       "review": {
         "implementedProductId": "welfare:53694",
-        "updatedAt": "2026-11-10",
+        "updatedAt": "2026-11-14",
         "reason": "Todas las observaciones de la descarga se conservan en cubos consultables; sin selección de columnas ni de último periodo."
       }
     },
@@ -22403,7 +22601,7 @@
       "coverage": "Comunidades · Islas (series) · España · Provincias",
       "review": {
         "implementedProductId": "welfare:53695",
-        "updatedAt": "2026-11-10",
+        "updatedAt": "2026-11-14",
         "reason": "Todas las observaciones de la descarga se conservan en cubos consultables; sin selección de columnas ni de último periodo."
       }
     },
@@ -23280,7 +23478,7 @@
       "coverage": "Comunidades · Islas (series) · España · Provincias",
       "review": {
         "implementedProductId": "welfare:53696",
-        "updatedAt": "2026-11-10",
+        "updatedAt": "2026-11-14",
         "reason": "Todas las observaciones de la descarga se conservan en cubos consultables; sin selección de columnas ni de último periodo."
       }
     },
@@ -24157,7 +24355,7 @@
       "coverage": "Comunidades · Islas (series) · España · Provincias",
       "review": {
         "implementedProductId": "welfare:53688",
-        "updatedAt": "2026-11-10",
+        "updatedAt": "2026-11-14",
         "reason": "Todas las observaciones de la descarga se conservan en cubos consultables; sin selección de columnas ni de último periodo."
       }
     },

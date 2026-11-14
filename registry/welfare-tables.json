@@ -1,5 +1,5 @@
 {
-  "revision": "2026-11-10",
+  "revision": "2026-11-14",
   "operationIds": [
     155,
     236,
@@ -339,6 +339,42 @@
       "label": "Calidad de vida · confianza en la policía",
       "unit": "Según indicador y escala publicados",
       "note": "Indicadores de Calidad de Vida del INE. Medias, porcentajes y escalas subjetivas se conservan según los metadatos. No son mediciones individuales localizables ni se asignan a municipios."
+    },
+    {
+      "id": 69506,
+      "label": "Satisfacción con la vivienda · comunidades",
+      "family": "Calidad de vida",
+      "note": "Satisfacción con la vivienda por comunidad autónoma. Indicador de encuesta del INE. Se conservan el ámbito, las categorías y la unidad de la publicación."
+    },
+    {
+      "id": 74544,
+      "label": "Satisfacción con el tiempo disponible · comunidades",
+      "family": "Calidad de vida",
+      "note": "Satisfacción con el tiempo disponible para hacer lo que a uno le gusta por comunidad autónoma. Indicador de encuesta del INE. Se conservan el ámbito, las categorías y la unidad de la publicación."
+    },
+    {
+      "id": 74588,
+      "label": "Apoyo de familiares, amigos o vecinos · comunidades",
+      "family": "Calidad de vida",
+      "note": "Posibilidad de pedir ayuda a familiares, amigos o vecinos por comunidad autónoma. Indicador de encuesta del INE. Se conservan el ámbito, las categorías y la unidad de la publicación."
+    },
+    {
+      "id": 74708,
+      "label": "Satisfacción con las zonas verdes · comunidades",
+      "family": "Calidad de vida",
+      "note": "Satisfacción con las zonas verdes y áreas recreativas por comunidad autónoma. Indicador de encuesta del INE. Se conservan el ámbito, las categorías y la unidad de la publicación."
+    },
+    {
+      "id": 74717,
+      "label": "Satisfacción con el entorno · comunidades",
+      "family": "Calidad de vida",
+      "note": "Satisfacción con el entorno en que vive por comunidad autónoma. Indicador de encuesta del INE. Se conservan el ámbito, las categorías y la unidad de la publicación."
+    },
+    {
+      "id": 74726,
+      "label": "Satisfacción alta o muy alta con la vida · comunidades",
+      "family": "Calidad de vida",
+      "note": "Satisfacción alta o muy alta con su vida en la actualidad por comunidad autónoma. Indicador de encuesta del INE. Se conservan el ámbito, las categorías y la unidad de la publicación."
     }
   ]
 }
