@@ -40,8 +40,8 @@ test('available products link to real map actions and preserved observations; di
   actions.add('search:addresses');
   actions.add('municipal-changes');
   for(const layer of read('datos/territorio/official-layers.json').layers)actions.add('official-wms:'+layer.id);
-  const expected=read('registry/products.json').products.length+read('registry/territory-products.json').available.length+read('registry/demography-products.json').available.length+read('registry/welfare-products.json').available.length+read('registry/labor-products.json').available.length;
-  for(const file of ['registry/demography-products.json','registry/welfare-products.json','registry/labor-products.json'])for(const p of read(file).available)actions.add(p.mapAction);
+  const expected=read('registry/products.json').products.length+read('registry/territory-products.json').available.length+read('registry/demography-products.json').available.length+read('registry/welfare-products.json').available.length+read('registry/labor-products.json').available.length+read('registry/care-products.json').available.length;
+  for(const file of ['registry/demography-products.json','registry/welfare-products.json','registry/labor-products.json','registry/care-products.json'])for(const p of read(file).available)actions.add(p.mapAction);
   assert.equal(products.available.length,expected);
   for(const p of products.available){assert.equal(p.status,'integrado');assert.ok(actions.has(p.mapAction));assert.ok(p.license);if(p.dataFile)assert.ok(fs.existsSync(new URL('datos/'+p.dataFile,root)));}
   for(const p of [...products.ioe,...products.national,...products.ine])if(!p.review){assert.equal(p.status,'por_revisar');assert.equal(p.categoryIds.length,0);}

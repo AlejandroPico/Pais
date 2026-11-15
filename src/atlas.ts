@@ -26,7 +26,7 @@ const esc=(s:unknown)=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&l
 type Geo=FeatureCollection<MultiPolygon,Properties>;
 let map:AtlasMap,maps:AtlasMap[]=[],geography:TerritoryController;
 const statistics={} as Record<StatisticsKind,DemographyController>;
-const statisticCategories={demography:'F02',welfare:'F03',labor:'F04'} as const;
+const statisticCategories={demography:'F02',welfare:'F03',labor:'F04',care:'F05'} as const;
 const statisticControllers=()=>Object.values(statistics);
 function disableStatistics(except?:StatisticsKind){
   for(const [kind,controller] of Object.entries(statistics)){
@@ -193,6 +193,7 @@ function categoryPanel(id:string){const c=categories.find(c=>c.id===id)!;let htm
     layerMenuRow('Comunidades autónomas',`<label class="check-row"><input id="communities-toggle" type="checkbox" ${showCommunities?'checked':''}>Mostrar capa</label>${appearanceFields('community-lines','#fff8d2')}`)
     + layerMenuRow('Provincias',`<label class="check-row"><input id="provinces-toggle" type="checkbox" ${showProvinces?'checked':''}>Mostrar capa</label>${appearanceFields('province-lines','#e9e5d5')}`)
   }</details>${geography?.panel()||'<p>Preparando cartografía…</p>'}`;
+  else if(id==='F05')html=layerMenuRow('Indicadores de cuidados y protección social','<div id="statistics-panel"></div>');
   else if(id==='F03'||id==='F04')html=layerMenuRow(id==='F04'?'Indicadores de trabajo':'Indicadores de renta y condiciones de vida','<div id="statistics-panel"></div>');
   else if(id==='F02')html=`<details class="submenu" id="nomenclator"><summary>Nomenclátor · entidades y núcleos ${icon('chevron-right')}</summary><div id="nomenclator-panel"></div></details><details class="submenu" id="historical-census"><summary>Censos históricos · 1842–2021 ${icon('chevron-right')}</summary><div id="historical-census-panel"></div></details>${layerMenuRow('Indicadores de población','<div id="demography-panel"></div>')}<details class="submenu"><summary>Padrón histórico · INE ${icon('chevron-right')}</summary>${(['population','density','women','change'] as Metric[]).map(m=>layerMenuRow(labels[m],`<label class="check-row"><input type="radio" name="metric" value="${m}" ${thematic&&metric===m?'checked':''}>Mostrar capa</label>${appearanceFields('metric-'+m,scales[m].colors[3],.73)}`)).join('')}<button id="clear-metric" class="text-button">Desactivar población</button><label class="field-label">División territorial<select id="level"><option value="province" ${level==='province'?'selected':''}>Provincias</option><option value="community" ${level==='community'?'selected':''}>Comunidades</option></select></label><p class="data-note">1996–2021, sin 1997. No es la población más reciente.</p></details>`;
   const ids=id==='F16'?['rivers']:id==='F22'?['rail','roads','camino']:['F24','F26'].includes(id)?['camino']:[];
@@ -259,7 +260,8 @@ function bindControls(){
     }
   };
   const panel=$('#statistics-panel');
-  if(panel)void statistics[drawerTab==='F04'?'labor':'welfare']?.mount(panel);
+  const kind=(Object.keys(statisticCategories) as StatisticsKind[]).find(key=>statisticCategories[key]===drawerTab);
+  if(panel&&kind)void statistics[kind]?.mount(panel);
   $<HTMLSelectElement>('#base-select').onchange=e=>setBase((e.target as HTMLSelectElement).value);
   document.querySelectorAll<HTMLButtonElement>('button[data-theme]').forEach(button=>{
     button.onclick=()=>setTheme(readTheme(button.dataset.theme||null));

@@ -77,6 +77,11 @@ def build():
     welfare_path=ROOT/'registry/welfare-products.json'
     if welfare_path.exists():
         welfare=read(welfare_path);products['available']+=welfare['available'];products['welfare']=welfare['inventory']
+    care_path=ROOT/'registry/care-products.json'
+    if care_path.exists():
+        care=read(care_path)
+        products['available']+=care['available']
+        products['care']=care['inventory']
     labor_path=ROOT/'registry/labor-products.json'
     if labor_path.exists():
         labor=read(labor_path)
@@ -179,9 +184,11 @@ def build():
         input_paths.extend(['registry/welfare-tables.json','registry/welfare-external.json','registry/welfare-products.json','datos/renta/ine/index.json','datos/renta/ine/inventory.json','datos/renta/aeat/index.json'])
     if labor_path.exists():
         input_paths.extend(['registry/labor-tables.json','registry/labor-products.json','datos/trabajo/ine/index.json','datos/trabajo/ine/inventory.json','datos/trabajo/sepe/sepe.json','datos/trabajo/seguridad-social/index.json'])
+    if care_path.exists():
+        input_paths.extend(['registry/care-tables.json','registry/care-products.json','datos/cuidados/ine/index.json','datos/cuidados/ine/inventory.json','datos/cuidados/imserso/index.json','datos/cuidados/seguridad-social/index.json'])
     provenance = [dict(path=p, sha256=hashlib.sha256((ROOT / p).read_bytes()).hexdigest()) for p in input_paths]
     revisions=[registered['revision'], federated_metadata['revision']]
-    for path in [territory_path,demography_path,welfare_path,labor_path]:
+    for path in [territory_path,demography_path,welfare_path,labor_path,care_path]:
         if path.exists():revisions.append(read(path)['revision'])
     index = dict(schemaVersion=1, researchSnapshot='2026-11-05', revision=max(revisions),
                  scope='Registro de metadatos. Los inventarios se solapan y sus recuentos no se suman como productos únicos. Solo Disponibles contiene productos utilizables en el mapa.',

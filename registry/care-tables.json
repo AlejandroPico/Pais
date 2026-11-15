@@ -1,0 +1,578 @@
+{
+  "revision": "2026-11-15",
+  "operationIds": [
+    215
+  ],
+  "tables": [
+    {
+      "id": 28195,
+      "label": "Asuntos incoados. Víctimas y Personas Denunciadas · 28195",
+      "family": "Violencia doméstica y de género",
+      "note": "Estadística del INE basada en registros judiciales. La población de referencia y las unidades dependen de la tabla."
+    },
+    {
+      "id": 28217,
+      "label": "Víctimas (con orden de protección o medidas cautelares) según edad y lugar de nacimiento · 28217",
+      "family": "Violencia doméstica y de género",
+      "note": "Estadística del INE basada en registros judiciales. La población de referencia y las unidades dependen de la tabla."
+    },
+    {
+      "id": 28289,
+      "label": "Víctimas (con orden de protección o medidas cautelares) según grupo de edad · 28289",
+      "family": "Violencia doméstica y de género",
+      "note": "Estadística del INE basada en registros judiciales. La población de referencia y las unidades dependen de la tabla."
+    },
+    {
+      "id": 28296,
+      "label": "Personas en asuntos con sentencia firme según duración del asunto · 28296",
+      "family": "Violencia doméstica y de género",
+      "note": "Estadística del INE basada en registros judiciales. La población de referencia y las unidades dependen de la tabla."
+    },
+    {
+      "id": 28306,
+      "label": "Condenados en asuntos con sentencia firme según grupo de edad · 28306",
+      "family": "Violencia doméstica y de género",
+      "note": "Estadística del INE basada en registros judiciales. La población de referencia y las unidades dependen de la tabla."
+    },
+    {
+      "id": 28311,
+      "label": "Víctimas (con orden de protección o medidas cautelares) según sexo y edad · 28311",
+      "family": "Violencia doméstica y de género",
+      "note": "Estadística del INE basada en registros judiciales. La población de referencia y las unidades dependen de la tabla."
+    },
+    {
+      "id": 28322,
+      "label": "Víctimas (con orden de protección o medidas cautelares) según sexo y grupo de edad · 28322",
+      "family": "Violencia doméstica y de género",
+      "note": "Estadística del INE basada en registros judiciales. La población de referencia y las unidades dependen de la tabla."
+    },
+    {
+      "id": 28391,
+      "label": "Personas en asuntos con sentencia firme según duración del asunto · 28391",
+      "family": "Violencia doméstica y de género",
+      "note": "Estadística del INE basada en registros judiciales. La población de referencia y las unidades dependen de la tabla."
+    },
+    {
+      "id": 28401,
+      "label": "Personas condenadas en asuntos con sentencia firme según sexo y grupo de edad · 28401",
+      "family": "Violencia doméstica y de género",
+      "note": "Estadística del INE basada en registros judiciales. La población de referencia y las unidades dependen de la tabla."
+    },
+    {
+      "id": 49120,
+      "label": "Asuntos incoados. Víctimas y Personas Denunciadas · 49120",
+      "family": "Violencia doméstica y de género",
+      "note": "Estadística del INE basada en registros judiciales. La población de referencia y las unidades dependen de la tabla."
+    },
+    {
+      "id": 75265,
+      "label": "Asuntos incoados. Víctimas, Personas Denunciadas · 75265",
+      "family": "Violencia doméstica y de género",
+      "note": "Estadística del INE basada en registros judiciales. La población de referencia y las unidades dependen de la tabla."
+    },
+    {
+      "id": 28198,
+      "label": "Asuntos incoados. Infracciones Penales y Medidas Cautelares · 28198",
+      "family": "Violencia doméstica y de género",
+      "note": "Estadística del INE basada en registros judiciales. La población de referencia y las unidades dependen de la tabla."
+    },
+    {
+      "id": 28227,
+      "label": "Víctimas (con orden de protección o medidas cautelares) según edad y tipo de relación con el denunciado · 28227",
+      "family": "Violencia doméstica y de género",
+      "note": "Estadística del INE basada en registros judiciales. La población de referencia y las unidades dependen de la tabla."
+    },
+    {
+      "id": 28290,
+      "label": "Víctimas (con orden de protección o medidas cautelares) según lugar de nacimiento · 28290",
+      "family": "Violencia doméstica y de género",
+      "note": "Estadística del INE basada en registros judiciales. La población de referencia y las unidades dependen de la tabla."
+    },
+    {
+      "id": 28297,
+      "label": "Condenados en asuntos con sentencia firme según edad y lugar de nacimiento · 28297",
+      "family": "Violencia doméstica y de género",
+      "note": "Estadística del INE basada en registros judiciales. La población de referencia y las unidades dependen de la tabla."
+    },
+    {
+      "id": 28305,
+      "label": "Condenados en asuntos con sentencia firme según lugar de nacimiento · 28305",
+      "family": "Violencia doméstica y de género",
+      "note": "Estadística del INE basada en registros judiciales. La población de referencia y las unidades dependen de la tabla."
+    },
+    {
+      "id": 28323,
+      "label": "Víctimas (con orden de protección o medidas cautelares) según lugar de nacimiento · 28323",
+      "family": "Violencia doméstica y de género",
+      "note": "Estadística del INE basada en registros judiciales. La población de referencia y las unidades dependen de la tabla."
+    },
+    {
+      "id": 28329,
+      "label": "Víctimas (con orden de protección o medidas cautelares) según sexo, grupo de edad y lugar de nacimiento · 28329",
+      "family": "Violencia doméstica y de género",
+      "note": "Estadística del INE basada en registros judiciales. La población de referencia y las unidades dependen de la tabla."
+    },
+    {
+      "id": 28392,
+      "label": "Personas condenadas en asuntos con sentencia firme según sexo y edad · 28392",
+      "family": "Violencia doméstica y de género",
+      "note": "Estadística del INE basada en registros judiciales. La población de referencia y las unidades dependen de la tabla."
+    },
+    {
+      "id": 28402,
+      "label": "Personas condenadas en asuntos con sentencia firme según sexo y lugar de nacimiento · 28402",
+      "family": "Violencia doméstica y de género",
+      "note": "Estadística del INE basada en registros judiciales. La población de referencia y las unidades dependen de la tabla."
+    },
+    {
+      "id": 34967,
+      "label": "Asuntos incoados. Víctimas, Personas Denunciadas · 34967",
+      "family": "Violencia doméstica y de género",
+      "note": "Estadística del INE basada en registros judiciales. La población de referencia y las unidades dependen de la tabla."
+    },
+    {
+      "id": 28228,
+      "label": "Víctimas (con orden de protección o medidas cautelares) según lugar de nacimiento y tipo de relación con el denunciado · 28228",
+      "family": "Violencia doméstica y de género",
+      "note": "Estadística del INE basada en registros judiciales. La población de referencia y las unidades dependen de la tabla."
+    },
+    {
+      "id": 28291,
+      "label": "Víctimas (con orden de protección o medidas cautelares) según tipo de relación con el denunciado · 28291",
+      "family": "Violencia doméstica y de género",
+      "note": "Estadística del INE basada en registros judiciales. La población de referencia y las unidades dependen de la tabla."
+    },
+    {
+      "id": 28298,
+      "label": "Absueltos en asuntos con sentencia firme según edad y lugar de nacimiento · 28298",
+      "family": "Violencia doméstica y de género",
+      "note": "Estadística del INE basada en registros judiciales. La población de referencia y las unidades dependen de la tabla."
+    },
+    {
+      "id": 28307,
+      "label": "Absueltos en asuntos con sentencia firme según grupo de edad · 28307",
+      "family": "Violencia doméstica y de género",
+      "note": "Estadística del INE basada en registros judiciales. La población de referencia y las unidades dependen de la tabla."
+    },
+    {
+      "id": 28338,
+      "label": "Personas denunciadas (con adopción de orden de protección o medidas cautelares) según sexo y grupo de edad · 28338",
+      "family": "Violencia doméstica y de género",
+      "note": "Estadística del INE basada en registros judiciales. La población de referencia y las unidades dependen de la tabla."
+    },
+    {
+      "id": 28398,
+      "label": "Personas condenadas en asuntos con sentencia firme según sexo, grupo de edad y lugar de nacimiento · 28398",
+      "family": "Violencia doméstica y de género",
+      "note": "Estadística del INE basada en registros judiciales. La población de referencia y las unidades dependen de la tabla."
+    },
+    {
+      "id": 28403,
+      "label": "Personas absueltas en asuntos con sentencia firme según sexo · 28403",
+      "family": "Violencia doméstica y de género",
+      "note": "Estadística del INE basada en registros judiciales. La población de referencia y las unidades dependen de la tabla."
+    },
+    {
+      "id": 34968,
+      "label": "Asuntos incoados. Infracciones Penales y Medidas Cautelares · 34968",
+      "family": "Violencia doméstica y de género",
+      "note": "Estadística del INE basada en registros judiciales. La población de referencia y las unidades dependen de la tabla."
+    },
+    {
+      "id": 34969,
+      "label": "Sentencias firmes. Personas Condenadas y Personas Absueltas · 34969",
+      "family": "Violencia doméstica y de género",
+      "note": "Estadística del INE basada en registros judiciales. La población de referencia y las unidades dependen de la tabla."
+    },
+    {
+      "id": 49105,
+      "label": "Sentencias firmes. Personas Condenadas y Personas Absueltas · 49105",
+      "family": "Violencia doméstica y de género",
+      "note": "Estadística del INE basada en registros judiciales. La población de referencia y las unidades dependen de la tabla."
+    },
+    {
+      "id": 28196,
+      "label": "Sentencias firmes. Personas Condenadas y Personas Absueltas · 28196",
+      "family": "Violencia doméstica y de género",
+      "note": "Estadística del INE basada en registros judiciales. La población de referencia y las unidades dependen de la tabla."
+    },
+    {
+      "id": 28199,
+      "label": "Sentencias firmes. Infracciones Penales, Penas y Medidas · 28199",
+      "family": "Violencia doméstica y de género",
+      "note": "Estadística del INE basada en registros judiciales. La población de referencia y las unidades dependen de la tabla."
+    },
+    {
+      "id": 28229,
+      "label": "Víctimas (con orden de protección o medidas cautelares) según grupo de edad, lugar de nacimiento y tipo de relación con el denunciado · 28229",
+      "family": "Violencia doméstica y de género",
+      "note": "Estadística del INE basada en registros judiciales. La población de referencia y las unidades dependen de la tabla."
+    },
+    {
+      "id": 28299,
+      "label": "Infracciones penales imputadas al condenado en asuntos con sentencia firme según tipo y grupo de edad · 28299",
+      "family": "Violencia doméstica y de género",
+      "note": "Estadística del INE basada en registros judiciales. La población de referencia y las unidades dependen de la tabla."
+    },
+    {
+      "id": 28308,
+      "label": "Absueltos en asuntos con sentencia firme según lugar de nacimiento · 28308",
+      "family": "Violencia doméstica y de género",
+      "note": "Estadística del INE basada en registros judiciales. La población de referencia y las unidades dependen de la tabla."
+    },
+    {
+      "id": 28339,
+      "label": "Personas denunciadas (con adopción de orden de protección o medidas cautelares) según sexo y lugar de nacimiento · 28339",
+      "family": "Violencia doméstica y de género",
+      "note": "Estadística del INE basada en registros judiciales. La población de referencia y las unidades dependen de la tabla."
+    },
+    {
+      "id": 28393,
+      "label": "Personas absueltas en asuntos con sentencia firme según sexo, grupo de edad y lugar de nacimiento · 28393",
+      "family": "Violencia doméstica y de género",
+      "note": "Estadística del INE basada en registros judiciales. La población de referencia y las unidades dependen de la tabla."
+    },
+    {
+      "id": 28404,
+      "label": "Infracciones penales imputadas a la persona condenada en asuntos con sentencia firme según tipo de infracción · 28404",
+      "family": "Violencia doméstica y de género",
+      "note": "Estadística del INE basada en registros judiciales. La población de referencia y las unidades dependen de la tabla."
+    },
+    {
+      "id": 34983,
+      "label": "Personas denunciadas (con adopción de orden de protección o medidas cautelares) según sexo y edad · 34983",
+      "family": "Violencia doméstica y de género",
+      "note": "Estadística del INE basada en registros judiciales. La población de referencia y las unidades dependen de la tabla."
+    },
+    {
+      "id": 59147,
+      "label": "Menores víctimas (con orden de protección o medidas cautelares) según sexo · 59147",
+      "family": "Violencia doméstica y de género",
+      "note": "Estadística del INE basada en registros judiciales. La población de referencia y las unidades dependen de la tabla."
+    },
+    {
+      "id": 28194,
+      "label": "Sentencias firmes. Infracciones Penales, Penas y Medidas · 28194",
+      "family": "Violencia doméstica y de género",
+      "note": "Estadística del INE basada en registros judiciales. La población de referencia y las unidades dependen de la tabla."
+    },
+    {
+      "id": 28292,
+      "label": "Denunciados (con adopción de orden de protección o medidas cautelares) según grupo de edad · 28292",
+      "family": "Violencia doméstica y de género",
+      "note": "Estadística del INE basada en registros judiciales. La población de referencia y las unidades dependen de la tabla."
+    },
+    {
+      "id": 28303,
+      "label": "Infracciones penales imputadas al condenado en asuntos con sentencia firme según tipo y lugar de nacimiento · 28303",
+      "family": "Violencia doméstica y de género",
+      "note": "Estadística del INE basada en registros judiciales. La población de referencia y las unidades dependen de la tabla."
+    },
+    {
+      "id": 28309,
+      "label": "Infracciones penales imputadas al condenado en asuntos con sentencia firme según tipo de infracción · 28309",
+      "family": "Violencia doméstica y de género",
+      "note": "Estadística del INE basada en registros judiciales. La población de referencia y las unidades dependen de la tabla."
+    },
+    {
+      "id": 28340,
+      "label": "Personas denunciadas y víctimas a la vez (con orden de protección o medidas cautelares) · 28340",
+      "family": "Violencia doméstica y de género",
+      "note": "Estadística del INE basada en registros judiciales. La población de referencia y las unidades dependen de la tabla."
+    },
+    {
+      "id": 28399,
+      "label": "Infracciones penales imputadas a la persona condenada en asuntos con sentencia firme según tipo y sexo · 28399",
+      "family": "Violencia doméstica y de género",
+      "note": "Estadística del INE basada en registros judiciales. La población de referencia y las unidades dependen de la tabla."
+    },
+    {
+      "id": 28405,
+      "label": "Penas y medidas dictadas sobre la persona condenada en asuntos con sentencia firme según tipo · 28405",
+      "family": "Violencia doméstica y de género",
+      "note": "Estadística del INE basada en registros judiciales. La población de referencia y las unidades dependen de la tabla."
+    },
+    {
+      "id": 59068,
+      "label": "Menores víctimas (con orden de protección o medidas cautelares) según sexo y edad · 59068",
+      "family": "Violencia doméstica y de género",
+      "note": "Estadística del INE basada en registros judiciales. La población de referencia y las unidades dependen de la tabla."
+    },
+    {
+      "id": 28293,
+      "label": "Denunciados (con adopción de orden de protección o medidas cautelares) según lugar de nacimiento · 28293",
+      "family": "Violencia doméstica y de género",
+      "note": "Estadística del INE basada en registros judiciales. La población de referencia y las unidades dependen de la tabla."
+    },
+    {
+      "id": 28301,
+      "label": "Penas y medidas dictadas sobre el condenado en asuntos con sentencia firme según tipo y grupo de edad · 28301",
+      "family": "Violencia doméstica y de género",
+      "note": "Estadística del INE basada en registros judiciales. La población de referencia y las unidades dependen de la tabla."
+    },
+    {
+      "id": 28310,
+      "label": "Penas y medidas dictadas sobre el condenado en asuntos con sentencia firme según tipo · 28310",
+      "family": "Violencia doméstica y de género",
+      "note": "Estadística del INE basada en registros judiciales. La población de referencia y las unidades dependen de la tabla."
+    },
+    {
+      "id": 28341,
+      "label": "Relaciones víctima/persona denunciada según sexo de la víctima · 28341",
+      "family": "Violencia doméstica y de género",
+      "note": "Estadística del INE basada en registros judiciales. La población de referencia y las unidades dependen de la tabla."
+    },
+    {
+      "id": 28394,
+      "label": "Infracciones penales imputadas a la persona condenada en asuntos con sentencia firme según tipo y grupo de edad · 28394",
+      "family": "Violencia doméstica y de género",
+      "note": "Estadística del INE basada en registros judiciales. La población de referencia y las unidades dependen de la tabla."
+    },
+    {
+      "id": 34984,
+      "label": "Personas denunciadas (con adopción de orden de protección o medidas cautelares) según sexo, grupo de edad y lugar de nacimiento · 34984",
+      "family": "Violencia doméstica y de género",
+      "note": "Estadística del INE basada en registros judiciales. La población de referencia y las unidades dependen de la tabla."
+    },
+    {
+      "id": 59069,
+      "label": "Menores víctimas (con orden de protección o medidas cautelares) según sexo y lugar de nacimiento · 59069",
+      "family": "Violencia doméstica y de género",
+      "note": "Estadística del INE basada en registros judiciales. La población de referencia y las unidades dependen de la tabla."
+    },
+    {
+      "id": 28294,
+      "label": "Infracciones penales imputadas al denunciado según tipo de infracción · 28294",
+      "family": "Violencia doméstica y de género",
+      "note": "Estadística del INE basada en registros judiciales. La población de referencia y las unidades dependen de la tabla."
+    },
+    {
+      "id": 28302,
+      "label": "Penas y medidas dictadas sobre el condenado en asuntos con sentencia firme según tipo y lugar de nacimiento · 28302",
+      "family": "Violencia doméstica y de género",
+      "note": "Estadística del INE basada en registros judiciales. La población de referencia y las unidades dependen de la tabla."
+    },
+    {
+      "id": 28327,
+      "label": "Infracciones penales imputadas al denunciado según tipo de infracción · 28327",
+      "family": "Violencia doméstica y de género",
+      "note": "Estadística del INE basada en registros judiciales. La población de referencia y las unidades dependen de la tabla."
+    },
+    {
+      "id": 28395,
+      "label": "Infracciones penales imputadas a la persona condenada en asuntos con sentencia firme según tipo y lugar de nacimiento · 28395",
+      "family": "Violencia doméstica y de género",
+      "note": "Estadística del INE basada en registros judiciales. La población de referencia y las unidades dependen de la tabla."
+    },
+    {
+      "id": 59070,
+      "label": "Menores víctimas (con orden de protección o medidas cautelares) según edad y lugar de nacimiento · 59070",
+      "family": "Violencia doméstica y de género",
+      "note": "Estadística del INE basada en registros judiciales. La población de referencia y las unidades dependen de la tabla."
+    },
+    {
+      "id": 28295,
+      "label": "Medidas cautelares dictadas sobre el denunciado según tipo de medida · 28295",
+      "family": "Violencia doméstica y de género",
+      "note": "Estadística del INE basada en registros judiciales. La población de referencia y las unidades dependen de la tabla."
+    },
+    {
+      "id": 28328,
+      "label": "Medidas cautelares dictadas sobre el denunciado según tipo de medida · 28328",
+      "family": "Violencia doméstica y de género",
+      "note": "Estadística del INE basada en registros judiciales. La población de referencia y las unidades dependen de la tabla."
+    },
+    {
+      "id": 28400,
+      "label": "Penas y medidas dictadas sobre la persona condenada en asuntos con sentencia firme según tipo y sexo · 28400",
+      "family": "Violencia doméstica y de género",
+      "note": "Estadística del INE basada en registros judiciales. La población de referencia y las unidades dependen de la tabla."
+    },
+    {
+      "id": 34985,
+      "label": "Personas denunciadas y víctimas a la vez (con orden de protección o medidas cautelares) según sexo, grupo de edad y lugar de nacimiento · 34985",
+      "family": "Violencia doméstica y de género",
+      "note": "Estadística del INE basada en registros judiciales. La población de referencia y las unidades dependen de la tabla."
+    },
+    {
+      "id": 59073,
+      "label": "Menores víctimas (con orden de protección o medidas cautelares) según tipo de relación con el denunciado y sexo · 59073",
+      "family": "Violencia doméstica y de género",
+      "note": "Estadística del INE basada en registros judiciales. La población de referencia y las unidades dependen de la tabla."
+    },
+    {
+      "id": 28316,
+      "label": "Relaciones de las víctimas con las personas denunciadas según sexo y grupo de edad de la víctima · 28316",
+      "family": "Violencia doméstica y de género",
+      "note": "Estadística del INE basada en registros judiciales. La población de referencia y las unidades dependen de la tabla."
+    },
+    {
+      "id": 28396,
+      "label": "Penas y medidas dictadas sobre el condenado en asuntos con sentencia firme según tipo y grupo de edad · 28396",
+      "family": "Violencia doméstica y de género",
+      "note": "Estadística del INE basada en registros judiciales. La población de referencia y las unidades dependen de la tabla."
+    },
+    {
+      "id": 36151,
+      "label": "Denunciados (con adopción de orden de protección o medidas cautelares) según edad y lugar de nacimiento · 36151",
+      "family": "Violencia doméstica y de género",
+      "note": "Estadística del INE basada en registros judiciales. La población de referencia y las unidades dependen de la tabla."
+    },
+    {
+      "id": 49117,
+      "label": "Personas en asuntos con sentencia firme según duración del asunto · 49117",
+      "family": "Violencia doméstica y de género",
+      "note": "Estadística del INE basada en registros judiciales. La población de referencia y las unidades dependen de la tabla."
+    },
+    {
+      "id": 28231,
+      "label": "Distribución porcentual del par víctima/denunciado según edades de ambos · 28231",
+      "family": "Violencia doméstica y de género",
+      "note": "Estadística del INE basada en registros judiciales. La población de referencia y las unidades dependen de la tabla."
+    },
+    {
+      "id": 28333,
+      "label": "Relaciones de las víctimas con las personas denunciadas según sexo y lugar de nacimiento de la víctima · 28333",
+      "family": "Violencia doméstica y de género",
+      "note": "Estadística del INE basada en registros judiciales. La población de referencia y las unidades dependen de la tabla."
+    },
+    {
+      "id": 28397,
+      "label": "Penas y medidas dictadas sobre el condenado en asuntos con sentencia firme según tipo y lugar de nacimiento · 28397",
+      "family": "Violencia doméstica y de género",
+      "note": "Estadística del INE basada en registros judiciales. La población de referencia y las unidades dependen de la tabla."
+    },
+    {
+      "id": 49118,
+      "label": "Condenados en asuntos con sentencia firme según edad y lugar de nacimiento · 49118",
+      "family": "Violencia doméstica y de género",
+      "note": "Estadística del INE basada en registros judiciales. La población de referencia y las unidades dependen de la tabla."
+    },
+    {
+      "id": 28232,
+      "label": "Distribución porcentual del par víctima/denunciado según lugares de nacimiento de ambos · 28232",
+      "family": "Violencia doméstica y de género",
+      "note": "Estadística del INE basada en registros judiciales. La población de referencia y las unidades dependen de la tabla."
+    },
+    {
+      "id": 28332,
+      "label": "Relaciones de las víctimas con las personas denunciadas según grupo de edad y lugar de nacimiento de la víctima · 28332",
+      "family": "Violencia doméstica y de género",
+      "note": "Estadística del INE basada en registros judiciales. La población de referencia y las unidades dependen de la tabla."
+    },
+    {
+      "id": 76214,
+      "label": "Menores víctimas (con orden de protección o medidas cautelares) según sexo y lugar de nacimiento · 76214",
+      "family": "Violencia doméstica y de género",
+      "note": "Estadística del INE basada en registros judiciales. La población de referencia y las unidades dependen de la tabla."
+    },
+    {
+      "id": 76215,
+      "label": "Infracciones penales imputadas al denunciado según tipo de infracción · 76215",
+      "family": "Violencia doméstica y de género",
+      "note": "Estadística del INE basada en registros judiciales. La población de referencia y las unidades dependen de la tabla."
+    },
+    {
+      "id": 76216,
+      "label": "Relaciones víctima/persona denunciada según sexo de la víctima · 76216",
+      "family": "Violencia doméstica y de género",
+      "note": "Estadística del INE basada en registros judiciales. La población de referencia y las unidades dependen de la tabla."
+    },
+    {
+      "id": 28334,
+      "label": "Distribución porcentual del par víctima/denunciado según edades de ambos · 28334",
+      "family": "Violencia doméstica y de género",
+      "note": "Estadística del INE basada en registros judiciales. La población de referencia y las unidades dependen de la tabla."
+    },
+    {
+      "id": 34970,
+      "label": "Infracciones penales imputadas al denunciado según tipo de infracción y grupo de edad · 34970",
+      "family": "Violencia doméstica y de género",
+      "note": "Estadística del INE basada en registros judiciales. La población de referencia y las unidades dependen de la tabla."
+    },
+    {
+      "id": 76217,
+      "label": "Penas y medidas dictadas sobre la persona condenada en asuntos con sentencia firme según tipo y sexo · 76217",
+      "family": "Violencia doméstica y de género",
+      "note": "Estadística del INE basada en registros judiciales. La población de referencia y las unidades dependen de la tabla."
+    },
+    {
+      "id": 28317,
+      "label": "Distribución porcentual del par víctima/denunciado según lugares de nacimiento de ambos · 28317",
+      "family": "Violencia doméstica y de género",
+      "note": "Estadística del INE basada en registros judiciales. La población de referencia y las unidades dependen de la tabla."
+    },
+    {
+      "id": 34971,
+      "label": "Infracciones penales imputadas al denunciado según tipo de infracción y lugar de nacimiento · 34971",
+      "family": "Violencia doméstica y de género",
+      "note": "Estadística del INE basada en registros judiciales. La población de referencia y las unidades dependen de la tabla."
+    },
+    {
+      "id": 76218,
+      "label": "Sentencias firmes. Personas Condenadas y Personas Absueltas · 76218",
+      "family": "Violencia doméstica y de género",
+      "note": "Estadística del INE basada en registros judiciales. La población de referencia y las unidades dependen de la tabla."
+    },
+    {
+      "id": 28335,
+      "label": "Infracciones penales imputadas a la persona denunciada según tipo de infracción y sexo · 28335",
+      "family": "Violencia doméstica y de género",
+      "note": "Estadística del INE basada en registros judiciales. La población de referencia y las unidades dependen de la tabla."
+    },
+    {
+      "id": 34972,
+      "label": "Medidas cautelares dictadas sobre el denunciado según tipo de medida y grupo de edad · 34972",
+      "family": "Violencia doméstica y de género",
+      "note": "Estadística del INE basada en registros judiciales. La población de referencia y las unidades dependen de la tabla."
+    },
+    {
+      "id": 76219,
+      "label": "Personas denunciadas y víctimas a la vez (con orden de protección o medidas cautelares) · 76219",
+      "family": "Violencia doméstica y de género",
+      "note": "Estadística del INE basada en registros judiciales. La población de referencia y las unidades dependen de la tabla."
+    },
+    {
+      "id": 34973,
+      "label": "Medidas cautelares dictadas sobre el denunciado según tipo de medida y lugar de nacimiento · 34973",
+      "family": "Violencia doméstica y de género",
+      "note": "Estadística del INE basada en registros judiciales. La población de referencia y las unidades dependen de la tabla."
+    },
+    {
+      "id": 34978,
+      "label": "Infracciones penales imputadas al denunciado según tipo de infracción y grupo de edad · 34978",
+      "family": "Violencia doméstica y de género",
+      "note": "Estadística del INE basada en registros judiciales. La población de referencia y las unidades dependen de la tabla."
+    },
+    {
+      "id": 76220,
+      "label": "Infracciones penales imputadas al denunciado según tipo de infracción · 76220",
+      "family": "Violencia doméstica y de género",
+      "note": "Estadística del INE basada en registros judiciales. La población de referencia y las unidades dependen de la tabla."
+    },
+    {
+      "id": 34979,
+      "label": "Infracciones penales imputadas al denunciado según tipo de infracción y lugar de nacimiento · 34979",
+      "family": "Violencia doméstica y de género",
+      "note": "Estadística del INE basada en registros judiciales. La población de referencia y las unidades dependen de la tabla."
+    },
+    {
+      "id": 28336,
+      "label": "Medidas cautelares dictadas sobre la persona denunciada según tipo de medida y sexo · 28336",
+      "family": "Violencia doméstica y de género",
+      "note": "Estadística del INE basada en registros judiciales. La población de referencia y las unidades dependen de la tabla."
+    },
+    {
+      "id": 34980,
+      "label": "Medidas cautelares dictadas sobre el denunciado según tipo de medida y grupo de edad · 34980",
+      "family": "Violencia doméstica y de género",
+      "note": "Estadística del INE basada en registros judiciales. La población de referencia y las unidades dependen de la tabla."
+    },
+    {
+      "id": 34981,
+      "label": "Medidas cautelares dictadas sobre el denunciado según tipo de medida y lugar de nacimiento · 34981",
+      "family": "Violencia doméstica y de género",
+      "note": "Estadística del INE basada en registros judiciales. La población de referencia y las unidades dependen de la tabla."
+    }
+  ]
+}

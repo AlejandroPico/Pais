@@ -8,9 +8,9 @@ from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1]
 def read(p):return json.loads((ROOT/p).read_text(encoding='utf-8'))
 def main(kind="demography",category="F02"):
-    folder = {'demography': 'poblacion/ine', 'welfare': 'renta/ine', 'labor': 'trabajo/ine'}[kind]
+    folder = {'demography': 'poblacion/ine', 'welfare': 'renta/ine', 'labor': 'trabajo/ine', 'care': 'cuidados/ine'}[kind]
     index=read(f'datos/{folder}/index.json');inventory=read(f'datos/{folder}/inventory.json')
-    if kind in {'welfare','labor'}:
+    if kind in {'welfare','labor','care'}:
         provenance={p['url']:p for p in index.get('provenance',[])}
         for t in index['tables']:
             missing={}
@@ -50,6 +50,9 @@ def main(kind="demography",category="F02"):
         (ROOT/'datos'/folder/'viewer.json.gz').write_bytes(gzip.compress(payload, compresslevel=6, mtime=0))
     if kind=='welfare':
         index['tables'] += read('datos/renta/aeat/index.json')['tables']
+    if kind=='care':
+        for name in ('imserso', 'seguridad-social'):
+            index['tables'] += read(f'datos/cuidados/{name}/index.json')['tables']
     available=[]
     for t in index['tables']:
         table_folder = t.get('dataFolder') or ('trabajo/sepe' if t.get('compactColumns') else folder)
@@ -104,6 +107,20 @@ def main(kind="demography",category="F02"):
                 records[id]=dict(p,id=id,title=f"{p['title']} · {edition['year']}",url=edition['url'],
                     period=' · '.join(edition['periods']),review=dict(implementedProductId=p['id'],
                     updatedAt=index['revision'],reason=f'Serie de {t['publisher']} preservada con sus desgloses y estados.'))
+    if kind=='care':
+        for table, product in zip(index['tables'], available, strict=True):
+            if table.get('publisher') not in {'IMSERSO', 'INSS'}:
+                continue
+            for source in table['sourceTables']:
+                path = ROOT/'datos'/table['dataFolder']/source['originalFile']
+                assert hashlib.sha256(path.read_bytes()).hexdigest() == source['sha256'], path
+                edition = source['edition']
+                id = f"{table['publisher'].lower()}:{table['id']}:{edition}"
+                records[id] = dict(product, id=id, title=f"{product['title']} · {edition}", url=source['url'],
+                    review=dict(implementedProductId=product['id'], updatedAt=index['revision'],
+                                reason=f"Original de {table['publisher']} conservado y consultable. Edición {edition}."))
+                if table['publisher'] == 'INSS':
+                    records[id]['period'] = {'from': edition, 'to': edition}
     if kind=='demography':
         nomenclator=read('datos/territorio/nomenclator/index.json')
         editions=nomenclator['editions']
