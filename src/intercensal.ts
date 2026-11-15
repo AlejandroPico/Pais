@@ -1,3 +1,4 @@
+import {compareTerritoryNames} from './demography-data';
 import {normalize} from './data';
 
 type Province = {code:string;name:string};
@@ -24,7 +25,7 @@ export async function mountHistoricalCensus(panel:HTMLElement,provinces:Province
     const index:Index=await response.json();
     if(!panel.isConnected)return;
     panel.innerHTML=`
-      <label class="field-label">Provincia<select>${provinces.filter(p=>index.provinces[p.code]).map(p=>`<option value="${esc(p.code)}">${esc(p.name)}</option>`).join('')}</select></label>
+      <label class="field-label">Provincia<select>${provinces.filter(p=>index.provinces[p.code]).sort((a,b)=>compareTerritoryNames(a.name,b.name)).map(p=>`<option value="${esc(p.code)}">${esc(p.name)}</option>`).join('')}</select></label>
       <label class="field-label">Municipio o código<input type="search" placeholder="Buscar en esta provincia"></label>
       <p role="status" class="data-note"></p><div class="historical-results"></div><details class="nomen-entry"><summary>Notas de la fuente</summary><p data-history-notes class="data-note"></p></details>
       <div class="pagination"><button data-history-prev>Anterior</button><span></span><button data-history-next>Siguiente</button></div>

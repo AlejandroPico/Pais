@@ -2,6 +2,10 @@
 
 La [guía para agentes](AGENTS.md) contiene la arquitectura y el protocolo de cierre. En [tareas.md](tareas.md) están los objetivos pendientes de F00 a F29.
 
+## Versión 0.8.4
+
+La vista municipal de Vivienda ofrece «Todas las provincias» en el mapa general. Los selectores de territorios se ordenan por nombre y los indicadores y capas muestran la ficha correspondiente a la consulta activa.
+
 ## Versión 0.8.3
 
 Vivienda y suelo incorpora series del INE y del Ministerio de Vivienda, incluidos alquiler municipal, vivienda vacía, compraventas, hipotecas, tasación y precio del suelo. Las capas del Sistema de Información Urbana incluyen planeamiento, áreas urbanas y ediciones de CORINE y SIOSE. [Cobertura y tareas de F06](docs/F06.md).

@@ -2,7 +2,7 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import {readFileSync} from 'node:fs';
 import {gunzipSync} from 'node:zlib';
-import {queryCube,seriesCsv,unitFor} from '../src/demography-data.ts';
+import {allProvinces,appendCubeResult,compareTerritoryNames,queryCube,seriesCsv,statisticalParts,territoryLabel,unitFor} from '../src/demography-data.ts';
 
 const read = path => readFileSync(new URL('../' + path, import.meta.url));
 const json = path => JSON.parse(read(path));
@@ -75,4 +75,45 @@ test('F06 keeps conflicting rehabilitation figures out of the unambiguous series
   const lookup = name => query('mivau',table,'province','23','2009M04',{...selections,'Registro':name});
   assert.equal(lookup('Serie principal').value,null);
   assert.deepEqual(new Set([lookup('Coincidencia 1').value,lookup('Coincidencia 2').value]),new Set([2,80]));
+});
+
+test('F06 combines every municipal shard while retaining the selected municipality series', () => {
+  const table = ministry.tables.find(t => t.id === 940001);
+  const query = {
+    level: 'municipal',
+    territory: table.territories.findIndex(a => a.code === '28079'),
+    period: table.periods.findIndex(p => p.id === '2024'),
+    dims: table.dimensions.map(d => d.values.indexOf({
+      'Indicador':'Cuantía mensual','Estadístico':'Mediana','Tipo de vivienda':'Colectiva'
+    }[d.name]))
+  };
+  const parts = statisticalParts(table,query,allProvinces);
+  assert.equal(parts.length,52);
+  assert.deepEqual(statisticalParts(table,query,'28'),['28']);
+  const result = {values:[],domain:[],series:[],pyramid:[]};
+  for (const part of parts) {
+    const shard = table.shards.find(s => s.id === part);
+    const cube = JSON.parse(gunzipSync(read(root + 'mivau/' + shard.file)));
+    appendCubeResult(result,queryCube(table,cube,query));
+  }
+  const values = new Map(result.values.map(row => [table.territories[row.area].code,row.value]));
+  assert.equal(values.get('28079'),868.8);
+  assert.ok(values.get('08019') > 0 && values.get('41091') > 0);
+  assert.ok(values.get('35016') > 0 && values.get('51001') > 0 && values.get('52001') > 0);
+  assert.equal(values.size,result.values.length);
+  assert.equal(result.series.length,14);
+});
+
+test('territorial selectors order Spanish names by their labels and preserve partition selectors', () => {
+  const labels = ['50 Zaragoza','09 Burgos','05 Ávila','04 Almería','31 Navarra','26 Rioja, La'];
+  assert.deepEqual(labels.sort(compareTerritoryNames).map(territoryLabel),['Almería','Ávila','Burgos','Navarra','Rioja, La','Zaragoza']);
+  const fixture = {
+    dimensions:[{name:'Serie',values:['A','B']}],partitionDimension:'Serie',
+    territories:[{level:'municipal',provinceCode:'28'},{level:'municipal',provinceCode:'08'}],
+    shards:['main-d0','28-d1','28-d0','08-d1','08-d0','41-d1'].map(id=>({id}))
+  };
+  const q={level:'municipal',dims:[1]};
+  assert.deepEqual(statisticalParts(fixture,q,allProvinces),['28-d1','08-d1']);
+  assert.deepEqual(statisticalParts(fixture,q,'08'),['08-d1']);
+  assert.deepEqual(statisticalParts(fixture,{...q,level:'national',dims:[0]},allProvinces),['main-d0']);
 });

@@ -4,6 +4,33 @@ export type DemographicIndex={revision:string;tables:DemographicTable[];inventor
 export type DemographicQuery={period:number;dims:number[];level:string;territory:number};
 export type Cube={rows:(number|string|null)[][]};
 export type DemographicResult={values:{area:number;value:number|null;status:string}[];domain:{area:number;period:number;value:number}[];series:{period:number;value:number|null;status:string;sourceTableId?:number}[];pyramid:{age:string;men:number|null;women:number|null}[]};
+export const allProvinces = 'all';
+export const detailedLevels = ['municipal','district','section'];
+const spanishNames = new Intl.Collator('es', {sensitivity:'base',numeric:true});
+
+export function territoryLabel(name:string){return name.replace(/^\d+\s+(?:[-–]\s*)?/, '');}
+export function compareTerritoryNames(a:string,b:string){return spanishNames.compare(territoryLabel(a),territoryLabel(b));}
+
+export function provinceCodesForLevel(table:DemographicTable,level:string){
+  return new Set(table.territories.filter(a=>a.level===level&&a.provinceCode).map(a=>a.provinceCode!));
+}
+
+export function statisticalParts(table:DemographicTable,query:DemographicQuery,province:string){
+  const dimension=table.dimensions.findIndex(d=>d.name===table.partitionDimension);
+  const suffix=dimension<0?'':'-d'+query.dims[dimension];
+  if(!detailedLevels.includes(query.level))return ['main'+suffix];
+  if(province!==allProvinces)return [province+suffix];
+  const codes=provinceCodesForLevel(table,query.level);
+  return table.shards.map(shard=>shard.id).filter(id=>id.endsWith(suffix)&&codes.has(suffix?id.slice(0,-suffix.length):id));
+}
+
+export function appendCubeResult(target:DemographicResult,result:DemographicResult){
+  for(const entry of result.domain)target.domain.push(entry);
+  for(const entry of result.values)target.values.push(entry);
+  for(const entry of result.series)target.series.push(entry);
+  for(const entry of result.pyramid)target.pyramid.push(entry);
+}
+
 export function totalIndex(values:string[]){const i=values.findIndex(v=>/^(total|ambos sexos|todas las edades|todos|total nacional|dato base)$/i.test(v));return i<0?0:i;}
 export function defaultDimensions(table:DemographicTable){return table.dimensions.map(d=>totalIndex(d.values));}
 export function unitFor(table:DemographicTable,dims:number[]){const condition=table.unitsByConditions?.find(r=>Object.entries(r.when).every(([name,value])=>{const i=table.dimensions.findIndex(d=>d.name===name);return i>=0&&table.dimensions[i].values[dims[i]]===value;}));if(condition)return condition.unit;const rule=table.unitsByCategory,i=table.dimensions.findIndex(d=>d.name===rule?.dimension);return i>=0?rule!.values[table.dimensions[i].values[dims[i]]]||table.unit:table.unit;}

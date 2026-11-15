@@ -106,6 +106,7 @@ Punto de partida: [F04](docs/F04.md), [inventario INE](datos/trabajo/ine/invento
 
 ## F06 · Vivienda, suelo y organización urbana · `datos/vivienda/`
 
+- [x] Añadir vista municipal general «Todas las provincias», con escala de color común y acceso a la ficha y CSV de cada municipio. Las pruebas combinan los 52 fragmentos de alquiler y contrastan municipios peninsulares, Canarias, Ceuta y Melilla. Ordenar los selectores territoriales por nombre y cancelar las consultas que ya no corresponden al indicador o a la capa activa.
 - [x] Incorporar 155 tablas pertinentes del inventario API del INE de 11 operaciones y las dos distribuciones de intensidad de uso del Censo 2021 publicadas aparte. Preservar bases, frecuencia, unidades, códigos históricos, provisionales y ámbitos sin geometría. 3.779.166 observaciones. Ver [captura del INE](datos/vivienda/ine/inventory.json).
 - [x] Incorporar las siete distribuciones VDP001–VDP007 del MIVAU. La edición municipal de alquiler contiene 531.585 filas de 2011 a 2024. Quedan conservadas todas las cifras distintas de las siete distribuciones, incluidos los valores alternativos de claves repetidas. Verificación en Chrome del alquiler colectivo de Madrid en 2024, 868,80 €/mes y 14 años de serie, con CSV. Ver [manifiesto MIVAU](datos/vivienda/mivau/index.json).
 - [x] Integrar 17 capas del SIU y comprobar GetMap, GetFeatureInfo y CORS con el origen público. Incluye áreas urbanas, clases de suelo, recintos, sectores, CORINE, sus cambios y SIOSE. Ver [inventario SIU](datos/vivienda/siu/layers.json).

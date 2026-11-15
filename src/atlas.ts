@@ -401,7 +401,7 @@ function setupMap(m:AtlasMap){
     paintLayer(m,id,layerAppearance(id),original);
   }
   m.addSource('selection',{type:'geojson',data:{type:'FeatureCollection',features:[]}});m.addLayer({id:'selected-outline',type:'line',source:'selection',paint:{'line-color':'#efd68c','line-width':2.5}});if(tilted)m.setTerrain({source:'dem',exaggeration:1.3});
-  m.on('click',async e=>{if(!ready)return;if(m.queryRenderedFeatures(e.point,{layers:['atlas-opaque-sea']}).length)return;featureQuery?.abort();if(statisticControllers().some(controller=>controller.inspect(m,e)))return;delete $('#info-panel').dataset.demography;if(await geography.inspect(m,e))return;geography.reset();const features=m.queryRenderedFeatures(e.point,{layers:[`${level}-fill`]});if(features[0]){const f=selectedGeo().features.find(f=>f.properties.code===features[0].properties.code);if(f)selectTerritory(f);}else{selected=undefined;$('#info-panel').hidden=true;for(const target of maps)(target.getSource('selection') as maplibregl.GeoJSONSource).setData({type:'FeatureCollection',features:[]});}const truePoint=fromAtlas([e.lngLat.lng,e.lngLat.lat]);queryObjects(truePoint[0],truePoint[1]);});
+  m.on('click',async e=>{if(!ready)return;if(m.queryRenderedFeatures(e.point,{layers:['atlas-opaque-sea']}).length)return;featureQuery?.abort();if(geography.inspectHousing(m,e)||statisticControllers().some(controller=>controller.inspect(m,e)))return;delete $('#info-panel').dataset.demography;if(await geography.inspect(m,e))return;geography.reset();const features=m.queryRenderedFeatures(e.point,{layers:[`${level}-fill`]});if(features[0]){const f=selectedGeo().features.find(f=>f.properties.code===features[0].properties.code);if(f)selectTerritory(f);}else{selected=undefined;$('#info-panel').hidden=true;for(const target of maps)(target.getSource('selection') as maplibregl.GeoJSONSource).setData({type:'FeatureCollection',features:[]});}const truePoint=fromAtlas([e.lngLat.lng,e.lngLat.lat]);queryObjects(truePoint[0],truePoint[1]);});
   for(const controller of statisticControllers())controller.attach(m,provinces,communities);
   addAtlasSeparation(m);
   m.moveLayer('base-outline','atlas-islets-shape');
@@ -439,6 +439,7 @@ async function init(){try{
         geography?.reset();
         updateData();
       },
+      showOverview:()=>home(),
       closeDrawer,
       clearSelection:clearStatisticsSelection,
     },kind,hash);

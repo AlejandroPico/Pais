@@ -1,3 +1,4 @@
+import {compareTerritoryNames} from './demography-data';
 import {normalize} from './data';
 
 type Row=[string,number,string,'sex'|'edad'|'naci',...number[]];
@@ -38,7 +39,7 @@ export async function mountNomenclator(panel:HTMLElement,provinces:{code:string;
     if(!panel.isConnected)return;
     const $=<T extends HTMLElement=HTMLElement>(id:string)=>panel.querySelector<T>('#'+id)!;
     panel.innerHTML=`
-      <label class="field-label">Provincia<select id="nomen-province">${provinces.filter(p=>index.provinces[p.code]).map(p=>`<option value="${esc(p.code)}">${esc(p.name)}</option>`).join('')}</select></label>
+      <label class="field-label">Provincia<select id="nomen-province">${provinces.filter(p=>index.provinces[p.code]).sort((a,b)=>compareTerritoryNames(a.name,b.name)).map(p=>`<option value="${esc(p.code)}">${esc(p.name)}</option>`).join('')}</select></label>
       <label class="field-label">Año<select id="nomen-year">${[...index.editions].reverse().map(edition=>`<option>${edition.year}</option>`).join('')}</select></label>
       <label class="field-label">Nombre o código<input id="nomen-search" type="search" placeholder="Buscar una unidad de población…"></label>
       <p class="data-note" id="nomen-count" role="status"></p><div id="nomen-list"></div>

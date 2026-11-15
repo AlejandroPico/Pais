@@ -43,6 +43,7 @@ export class TerritoryController{
   private localCache=new Map<string,Promise<FeatureCollection>>();
   private officialPromise?:Promise<Map<string,OfficialLayer>>;
   private officialActive=new Map<string,OfficialLayer>();
+  private wmsSelection?:string;
   private officialPeriods=new Map<string,string>();
   private restoredOfficial:Set<string>;
   private officialTime(layer:OfficialLayer):Record<string,string>{
@@ -250,8 +251,14 @@ export class TerritoryController{
   private raster(m:AtlasMap,id:string,providers:WmsProvider[],minzoom:number,extra:Record<string,string>={},before?:string){
     for(const p of providers){const source=`f01-raster-${id}-${p.id}`;m.addSource(source,{type:'raster',tiles:[wmsTile(p,extra)],tileSize:256,bounds:p.bounds,attribution:p.credit});this.add(m,id,{id:source,type:'raster',source,minzoom,layout:{visibility:this.options.active.has(id)?'visible':'none'},paint:{'raster-opacity':.85}},before);}
   }
-  update(){for(const def of territoryLayers)if(def.local&&this.options.active.has(def.id))this.showLocal(def);for(const m of this.maps)for(const [id,ids] of this.mapLayers)for(const layer of ids)if(m.getLayer(layer))m.setLayoutProperty(layer,'visibility',this.options.active.has(id)?'visible':'none');}
-  reset(){this.controller?.abort();this.selected=undefined;for(const m of this.maps)(m.getSource('f01-selection') as GeoJSONSource).setData({type:'FeatureCollection',features:[]});}
+  private wmsSelectionKey(){return JSON.stringify([[...this.options.active].sort(),[...this.officialPeriods].sort()]);}
+  update(){if(this.wmsSelection!==undefined&&this.wmsSelection!==this.wmsSelectionKey())this.reset();for(const def of territoryLayers)if(def.local&&this.options.active.has(def.id))this.showLocal(def);for(const m of this.maps)for(const [id,ids] of this.mapLayers)for(const layer of ids)if(m.getLayer(layer))m.setLayoutProperty(layer,'visibility',this.options.active.has(id)?'visible':'none');}
+  reset(){
+    this.controller?.abort();
+    this.wmsSelection=undefined;
+    const info=this.options.info;
+    if(info.dataset.wms){info.hidden=true;delete info.dataset.wms;}
+    this.selected=undefined;for(const m of this.maps)(m.getSource('f01-selection') as GeoJSONSource).setData({type:'FeatureCollection',features:[]});}
   activeLabels(){return [...this.officialActive.values()].filter(layer=>this.options.active.has(layer.id)).map(layer=>layer.name).concat(territoryLayers.filter(d=>this.options.active.has(d.id)).map(d=>d.id==='historical-orthophoto'?orthophotoEditions.find(e=>e.id===this.orthophotoEdition)!.name:d.id==='canary-cartography'?canaryEditions.find(e=>e.id===this.canaryEdition)!.name:d.id==='sections'?`Secciones · ${sectionEditions.find(e=>e.id===this.sectionEdition)!.name}`:d.id==='historical-limits'?`Límites · ${this.boundaryDate}`:d.name));}
   private layerPanel(d:typeof territoryLayers[number]){
     const tint=Boolean(d.providers||['sections','historical-limits'].includes(d.id));
@@ -295,6 +302,7 @@ export class TerritoryController{
         const layer=this.officialActive.get(select.dataset.officialPeriod!);
         if(!layer?.periods?.includes(select.value))return;
         this.officialPeriods.set(layer.id,select.value);
+        if(this.wmsSelection!==undefined)this.reset();
         this.replaceTemporal(layer.id,layer.provider,this.officialTime(layer));
       });
       list.querySelectorAll<HTMLInputElement>('[data-official-toggle]').forEach(input=>input.onchange=()=>{
@@ -396,7 +404,7 @@ export class TerritoryController{
   private mapFor(_coordinates:Position){return this.maps[0];}
   private showSelection(feature:Feature){this.selected=feature;for(const m of this.maps)(m.getSource('f01-selection') as GeoJSONSource).setData(projectFeature(feature));}
   private card(title:string,kind:string,content:string,source:string){
-    this.options.beforeInspect();const info=this.options.info;info.hidden=false;info.innerHTML=`<div class="info-heading"><span class="eyebrow">${esc(kind)}</span><button class="icon-button" id="geo-close" aria-label="Cerrar información">×</button></div><h3>${esc(title)}</h3>${content}<p class="data-note">${source}</p>`;
+    this.options.beforeInspect();const info=this.options.info;delete info.dataset.demography;delete info.dataset.wms;info.hidden=false;info.innerHTML=`<div class="info-heading"><span class="eyebrow">${esc(kind)}</span><button class="icon-button" id="geo-close" aria-label="Cerrar información">×</button></div><h3>${esc(title)}</h3>${content}<p class="data-note">${source}</p>`;
     info.querySelector<HTMLButtonElement>('#geo-close')!.onclick=()=>{this.reset();info.hidden=true;};this.options.icons();
   }
   private facts(fields:Record<string,unknown>){return '<dl>'+Object.entries(fields).filter(([,v])=>v!==null&&v!==undefined&&v!=='').map(([k,v])=>`<dt>${esc(k)}</dt><dd>${esc(typeof v==='object'?JSON.stringify(v):v)}</dd>`).join('')+'</dl>';}
@@ -463,6 +471,7 @@ export class TerritoryController{
       for(const p of providers||[])if(lng>=p.bounds[0]&&lng<=p.bounds[2]&&lat>=p.bounds[1]&&lat<=p.bounds[3])result.push({name:d.name,provider:p,extra});
     }
     for(const layer of this.officialActive.values()){
+      if(!this.options.active.has(layer.id))continue;
       const p=layer.provider;
       if(m.getZoom()+Math.log2(displayRegion(toAtlas([lng,lat]))?.scale||1)>=layer.minzoom&&lng>=p.bounds[0]&&lng<=p.bounds[2]&&lat>=p.bounds[1]&&lat<=p.bounds[3]){
         result.push({name:layer.name,provider:p,extra:this.officialTime(layer)});
@@ -470,8 +479,17 @@ export class TerritoryController{
     }
     return result;
   }
+  inspectHousing(m:AtlasMap,e:MapMouseEvent){
+    if(!housingLayers.some(layer=>this.options.active.has(layer.id)))return false;
+    const [lng,lat]=fromAtlas([e.lngLat.lng,e.lngLat.lat]);
+    const queries=this.wmsQueries(m,lng,lat).filter(query=>query.provider.id==='siu');
+    if(!queries.length)return false;
+    void this.queryWms(queries,lng,lat,m);
+    return true;
+  }
   private async queryWms(queries:ReturnType<TerritoryController['wmsQueries']>,lng:number,lat:number,m:AtlasMap){
     this.reset();const controller=this.controller=new AbortController();this.card('Elementos del mapa','Consulta cartográfica','<p role="status">Consultando las capas activas…</p>','Datos de los servicios oficiales seleccionados.');
+    this.wmsSelection=this.wmsSelectionKey();this.options.info.dataset.wms='true';
     const x=6378137*lng*Math.PI/180,y=6378137*Math.log(Math.tan(Math.PI/4+lat*Math.PI/360)),r=156543.033928/2**m.getZoom()*7/(displayRegion(toAtlas([lng,lat]))?.scale||1);
     const results:string[]=[];
     // Bound concurrency even when several cadastral families are enabled together.
@@ -498,7 +516,10 @@ export class TerritoryController{
         return `<article>${heading}${content||'<p>No hay un elemento identificado en este punto.</p>'}<a href="${esc(p.url)}" target="_blank" rel="noopener">Servicio de origen ↗</a></article>`;
       }catch{return `<article>${heading}<p>La consulta no ha respondido. Puedes acercarte al elemento y volver a pulsar. La imagen puede seguir visible.</p></article>`;}
     }));if(controller.signal.aborted)return;results.push(...batch);}
-    if(!controller.signal.aborted)this.card('Elementos del mapa','Consulta cartográfica','<div id="object-results">'+results.join('')+'</div>','Atributos de origen. Cada capa mantiene su cobertura y su fecha.');
+    if(!controller.signal.aborted){
+      this.card('Elementos del mapa','Consulta cartográfica','<div id="object-results">'+results.join('')+'</div>','Atributos de origen. Cada capa mantiene su cobertura y su fecha.');
+      this.options.info.dataset.wms='true';
+    }
   }
   async mountSearch(root:HTMLElement){
     root.innerHTML='<p data-geosearch-loading role="status">Cargando municipios y divisiones…</p>';
