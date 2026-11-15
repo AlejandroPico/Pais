@@ -32,7 +32,7 @@ COMMUNITIES['c. valenciana'] = '10'
 SINGLE_PROVINCE = {'03':'33','04':'07','06':'39','13':'28','14':'30','15':'31','17':'26','18':'51','19':'52'}
 PROVINCES = {'s.c. tenerife':'38','araba/alava':'01','gipuzkoa':'20','bizkaia':'48',
              'alicante':'03','castellon':'12','valencia':'46'}
-NATIONAL = ('national', '00', 'España')
+NATIONAL = ('national', 'ES', 'España')
 
 
 def territories(label, provincial):
@@ -192,7 +192,7 @@ def main(refresh=False):
             periods=[dict(id=id,label=period_label) for id, period_label in periods],
             territories=[dict(id=f'{level}:{code}', level=level, code=code, name=name, sourceTableIds=[tid]) for level, code, name in areas],
             sourceTables=[dict(id=tid,year=int(year),edition=edition,originalFile=original,**source)],
-            shards=[dict(id='all',file=filename,rows=len(rows),bytes=len(compressed),sha256=core.sha(compressed),contentSha256=core.sha(document))]))
+            shards=[dict(id='main',file=filename,rows=len(rows),bytes=len(compressed),sha256=core.sha(compressed),contentSha256=core.sha(document))]))
     (OUT/'index.json').write_bytes(core.encode({'schemaVersion':1, 'edition':edition, 'tables':tables}))
     print(f'IMSERSO: {len(tables)} annexes; {sum(table["rows"] for table in tables)} observations; edition {edition}')
 

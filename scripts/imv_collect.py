@@ -169,7 +169,7 @@ def main(refresh=False):
         rows=len(rows),dimensions=[dict(name='Indicador',values=list(metrics))],
         unitsByCategory=dict(dimension='Indicador',values={label:unit for label,(_,unit) in metrics.items()}),
         missingTokens=missing,territories=list(areas.values()),periods=periods,sourceTables=sources,
-        shards=[dict(id='all',file=filename,rows=len(rows),bytes=len(compressed),sha256=core.sha(compressed),contentSha256=core.sha(payload))])
+        shards=[dict(id='main',file=filename,rows=len(rows),bytes=len(compressed),sha256=core.sha(compressed),contentSha256=core.sha(payload))])
     (OUT/'index.json').write_bytes(core.encode(dict(schemaVersion=1,edition=periods[-1]['id'],tables=[table])))
     print(f'INSS: {len(sources)} IMV editions; {len(rows)} observations')
 
