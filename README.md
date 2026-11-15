@@ -2,6 +2,10 @@
 
 La [guía para agentes](AGENTS.md) contiene la arquitectura y el protocolo de cierre. En [tareas.md](tareas.md) están los objetivos pendientes de F00 a F29.
 
+## Versión 0.8.3
+
+Vivienda y suelo incorpora series del INE y del Ministerio de Vivienda, incluidos alquiler municipal, vivienda vacía, compraventas, hipotecas, tasación y precio del suelo. Las capas del Sistema de Información Urbana incluyen planeamiento, áreas urbanas y ediciones de CORINE y SIOSE. [Cobertura y tareas de F06](docs/F06.md).
+
 ## Versión 0.8.2
 
 En **Cuidados** se pueden consultar 95 tablas del INE sobre violencia doméstica y de género y los cinco anexos CSV de pensiones no contributivas del IMSERSO de octubre de 2026, además de las 34 nóminas del Ingreso Mínimo Vital de enero de 2024 a octubre de 2026. [Cobertura, fuentes y tareas de F05](docs/F05.md).

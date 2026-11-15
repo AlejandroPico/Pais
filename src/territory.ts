@@ -7,6 +7,14 @@ import {appearanceFields,layerAppearance,paintLayer,rememberRaster} from './laye
 import {municipalCode,coordinatesExtent,validSpanishCoordinate} from './territory-data';
 import {territoryLayers,sectionEditions,sectionVectorUrl,orthophotoEditions,historicOrthophoto,canaryEditions,canaryCartography,wmsTile,wmsRequest,localCredit,type WmsProvider} from './territory-config';
 
+import siu from '../datos/vivienda/siu/layers.json';
+
+const housingLayers=siu.layers.map((layer):OfficialLayer=>{
+  const [west,south,east,north]=layer.provider.bounds;
+  return {...layer,provider:{...layer.provider,version:'1.3.0',bounds:[west,south,east,north]}};
+});
+const housingLayerById=new Map(housingLayers.map(layer=>[layer.id,layer]));
+
 const esc=(v:unknown)=>String(v??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]!));
 const dataRoot=import.meta.env.BASE_URL+'datos/territorio/';
 const vectorRoot='https://api-features.ign.es/collections/administrativeunit/items/';
@@ -70,7 +78,7 @@ export class TerritoryController{
       this.options.onChange();
       return;
     }
-    const layer=(await this.loadOfficial()).get(id);
+    const layer=housingLayerById.get(id)||(await this.loadOfficial()).get(id);
     if(!layer||this.officialActive.has(id))return;
     this.officialActive.set(id,layer);
     this.options.active.add(id);
@@ -256,6 +264,16 @@ export class TerritoryController{
       ${d.local?.missingFile?`<a class="text-button" href="${esc(dataRoot+d.local.missingFile)}" download>Descargar ${d.local.missingCount} registros sin coordenadas</a>`:''}
       ${appearanceFields(d.id,color,tint ? .85 : d.id==='hillshade' ? .45 : 1,tint)}${d.id==='sections'?`<label class="field-label">Edición del seccionado<select id="section-edition">${sectionEditions.map(e=>`<option value="${e.id}" ${e.id===this.sectionEdition?'selected':''}>${e.name}</option>`).join('')}</select></label><a data-section-vector href="${esc(sectionVectorUrl(this.sectionsProvider().layers))}" target="_blank" rel="noopener">Abrir GeoJSON de esta edición ↗</a>`:''}${d.id==='historical-orthophoto'?`<label class="field-label">Vuelo o edición<select id="orthophoto-edition">${orthophotoEditions.map(e=>`<option value="${esc(e.id)}" ${e.id===this.orthophotoEdition?'selected':''}>${esc(e.name)}</option>`).join('')}</select></label>`:''}${d.id==='canary-cartography'?`<label class="field-label">Edición<select id="canary-edition">${canaryEditions.map(e=>`<option value="${esc(e.id)}" ${e.id===this.canaryEdition?'selected':''}>${esc(e.name)}</option>`).join('')}</select></label>`:''}${d.id==='historical-limits'?`<label class="field-label">Fecha de los límites<input id="boundary-date" type="date" min="2009-07-05" max="2026-07-28" value="${this.boundaryDate}"></label>`:''}</details>`;
   }
+  housingPanel(){
+    return [...new Set(housingLayers.map(layer=>layer.group))].map(group=>`<details class="submenu">
+      <summary>${esc(group)} <span aria-hidden="true">›</span></summary>
+      ${housingLayers.filter(layer=>layer.group===group).map(layer=>`<details class="submenu layer-option">
+        <summary><span class="submenu-label">${esc(layer.name)}</span><span aria-hidden="true">›</span></summary>
+        <label class="check-row"><input type="checkbox" ${this.options.active.has(layer.id)?'checked':''} data-housing-layer="${esc(layer.id)}">Mostrar capa</label>
+        ${this.zoomControl(layer.id,layer.minzoom)}${appearanceFields(layer.id,'#ffce75',.85,true)}
+        <p class="data-note">Información del Sistema de Información Urbana. Consulta la administración competente para determinar la vigencia jurídica del planeamiento.</p>
+      </details>`).join('')}</details>`).join('');
+  }
   panel(){
     return `<details id="official-active" class="submenu"><summary>Cartografía oficial adicional <span aria-hidden="true">›</span></summary>
       <div id="official-active-list"></div><button class="catalog-category" data-open-cartography>Buscar capas y ediciones</button></details>
@@ -267,7 +285,7 @@ export class TerritoryController{
   bind(root:HTMLElement){
     const list=root.querySelector<HTMLElement>('#official-active-list');
     if(list){
-      list.innerHTML=[...this.officialActive.values()].map(layer=>`<details class="submenu layer-option">
+      list.innerHTML=[...this.officialActive.values()].filter(layer=>!housingLayerById.has(layer.id)).map(layer=>`<details class="submenu layer-option">
         <summary><span class="submenu-label">${esc(layer.name)}</span><span aria-hidden="true">›</span></summary>
         <label class="check-row"><input type="checkbox" ${this.options.active.has(layer.id)?'checked':''} data-official-toggle="${esc(layer.id)}">Mostrar capa</label>
         ${layer.periods?.length?`<label class="field-label">Edición<select data-official-period="${esc(layer.id)}">${layer.periods.map(period=>`<option ${period===this.officialTime(layer).TIME?'selected':''}>${esc(period)}</option>`).join('')}</select></label>`:''}
@@ -285,6 +303,16 @@ export class TerritoryController{
         this.options.onChange();
       });
     }
+    root.querySelectorAll<HTMLInputElement>('[data-housing-layer]').forEach(input=>input.onchange=()=>{
+      input.disabled=true;
+      void this.toggleOfficial(input.dataset.housingLayer!,input.checked)
+        .catch(error=>{
+          input.checked=this.options.active.has(input.dataset.housingLayer!);
+          const status=document.querySelector<HTMLElement>('#map-status');
+          if(status){status.hidden=false;status.textContent=error.message;}
+        })
+        .finally(()=>{input.disabled=false;});
+    });
     const changes=root.querySelector<HTMLDetailsElement>('#municipal-changes');
     const panel=root.querySelector<HTMLElement>('#municipal-changes-panel');
     if(changes&&panel)changes.ontoggle=()=>{

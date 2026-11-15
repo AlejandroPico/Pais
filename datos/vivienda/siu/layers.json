@@ -1,0 +1,488 @@
+{
+  "revision": "2026-11-15",
+  "capabilities": "https://mapas.fomento.gob.es/arcgis/services/SIU/Servicios_OGC/MapServer/WMSServer?SERVICE=WMS&VERSION=1.3.0&REQUEST=GetCapabilities",
+  "layers": [
+    {
+      "id": "siu-areas-urbanas",
+      "name": "Áreas urbanas",
+      "group": "Planeamiento y áreas urbanas",
+      "minzoom": 7,
+      "provider": {
+        "id": "siu",
+        "url": "https://mapas.fomento.gob.es/arcgis/services/SIU/Servicios_OGC/MapServer/WMSServer",
+        "layers": "OGC_Areas_Urbanas",
+        "version": "1.3.0",
+        "requestCrs": "EPSG:3857",
+        "sourceId": "F111",
+        "credit": "Sistema de Información Urbana · MIVAU",
+        "bounds": [
+          -16.802383,
+          27.734504,
+          3.187694,
+          43.666532
+        ],
+        "queryable": true,
+        "infoFormat": "application/geo+json"
+      },
+      "period": "Según la publicación vigente del SIU",
+      "verifiedMap": "https://mapas.fomento.gob.es/arcgis/services/SIU/Servicios_OGC/MapServer/WMSServer?SERVICE=WMS&VERSION=1.3.0&REQUEST=GetMap&LAYERS=OGC_Areas_Urbanas&STYLES=&CRS=EPSG%3A3857&BBOX=-417000%2C4918000%2C-405000%2C4930000&WIDTH=256&HEIGHT=256&FORMAT=image%2Fpng&TRANSPARENT=TRUE",
+      "verifiedInfo": "https://mapas.fomento.gob.es/arcgis/services/SIU/Servicios_OGC/MapServer/WMSServer?SERVICE=WMS&VERSION=1.3.0&REQUEST=GetFeatureInfo&QUERY_LAYERS=OGC_Areas_Urbanas&INFO_FORMAT=application%2Fgeo%2Bjson&I=128&J=128&FEATURE_COUNT=5&LAYERS=OGC_Areas_Urbanas&STYLES=&CRS=EPSG%3A3857&BBOX=-417000%2C4918000%2C-405000%2C4930000&WIDTH=256&HEIGHT=256&FORMAT=image%2Fpng&TRANSPARENT=TRUE"
+    },
+    {
+      "id": "siu-clases-suelo",
+      "name": "Clases de suelo",
+      "group": "Planeamiento y áreas urbanas",
+      "minzoom": 10,
+      "provider": {
+        "id": "siu",
+        "url": "https://mapas.fomento.gob.es/arcgis/services/SIU/Servicios_OGC/MapServer/WMSServer",
+        "layers": "OGC_Clases_Suelo",
+        "version": "1.3.0",
+        "requestCrs": "EPSG:3857",
+        "sourceId": "F111",
+        "credit": "Sistema de Información Urbana · MIVAU",
+        "bounds": [
+          -18.161222,
+          27.637723,
+          4.327785,
+          43.79238
+        ],
+        "queryable": true,
+        "infoFormat": "application/geo+json"
+      },
+      "period": "Según la publicación vigente del SIU",
+      "verifiedMap": "https://mapas.fomento.gob.es/arcgis/services/SIU/Servicios_OGC/MapServer/WMSServer?SERVICE=WMS&VERSION=1.3.0&REQUEST=GetMap&LAYERS=OGC_Clases_Suelo&STYLES=&CRS=EPSG%3A3857&BBOX=-417000%2C4918000%2C-405000%2C4930000&WIDTH=256&HEIGHT=256&FORMAT=image%2Fpng&TRANSPARENT=TRUE",
+      "verifiedInfo": "https://mapas.fomento.gob.es/arcgis/services/SIU/Servicios_OGC/MapServer/WMSServer?SERVICE=WMS&VERSION=1.3.0&REQUEST=GetFeatureInfo&QUERY_LAYERS=OGC_Clases_Suelo&INFO_FORMAT=application%2Fgeo%2Bjson&I=128&J=128&FEATURE_COUNT=5&LAYERS=OGC_Clases_Suelo&STYLES=&CRS=EPSG%3A3857&BBOX=-417000%2C4918000%2C-405000%2C4930000&WIDTH=256&HEIGHT=256&FORMAT=image%2Fpng&TRANSPARENT=TRUE"
+    },
+    {
+      "id": "siu-recintos",
+      "name": "Recintos de planeamiento",
+      "group": "Planeamiento y áreas urbanas",
+      "minzoom": 10,
+      "provider": {
+        "id": "siu",
+        "url": "https://mapas.fomento.gob.es/arcgis/services/SIU/Servicios_OGC/MapServer/WMSServer",
+        "layers": "OGC_Recintos",
+        "version": "1.3.0",
+        "requestCrs": "EPSG:3857",
+        "sourceId": "F111",
+        "credit": "Sistema de Información Urbana · MIVAU",
+        "bounds": [
+          -18.026151,
+          27.640138,
+          4.296181,
+          43.739734
+        ],
+        "queryable": true,
+        "infoFormat": "application/geo+json"
+      },
+      "period": "Según la publicación vigente del SIU",
+      "verifiedMap": "https://mapas.fomento.gob.es/arcgis/services/SIU/Servicios_OGC/MapServer/WMSServer?SERVICE=WMS&VERSION=1.3.0&REQUEST=GetMap&LAYERS=OGC_Recintos&STYLES=&CRS=EPSG%3A3857&BBOX=-417000%2C4918000%2C-405000%2C4930000&WIDTH=256&HEIGHT=256&FORMAT=image%2Fpng&TRANSPARENT=TRUE",
+      "verifiedInfo": "https://mapas.fomento.gob.es/arcgis/services/SIU/Servicios_OGC/MapServer/WMSServer?SERVICE=WMS&VERSION=1.3.0&REQUEST=GetFeatureInfo&QUERY_LAYERS=OGC_Recintos&INFO_FORMAT=application%2Fgeo%2Bjson&I=128&J=128&FEATURE_COUNT=5&LAYERS=OGC_Recintos&STYLES=&CRS=EPSG%3A3857&BBOX=-417000%2C4918000%2C-405000%2C4930000&WIDTH=256&HEIGHT=256&FORMAT=image%2Fpng&TRANSPARENT=TRUE"
+    },
+    {
+      "id": "siu-sectores",
+      "name": "Sectores urbanísticos",
+      "group": "Planeamiento y áreas urbanas",
+      "minzoom": 10,
+      "provider": {
+        "id": "siu",
+        "url": "https://mapas.fomento.gob.es/arcgis/services/SIU/Servicios_OGC/MapServer/WMSServer",
+        "layers": "OGC_Sectores",
+        "version": "1.3.0",
+        "requestCrs": "EPSG:3857",
+        "sourceId": "F111",
+        "credit": "Sistema de Información Urbana · MIVAU",
+        "bounds": [
+          -18.026151,
+          27.640138,
+          4.296181,
+          43.739734
+        ],
+        "queryable": true,
+        "infoFormat": "application/geo+json"
+      },
+      "period": "Según la publicación vigente del SIU",
+      "verifiedMap": "https://mapas.fomento.gob.es/arcgis/services/SIU/Servicios_OGC/MapServer/WMSServer?SERVICE=WMS&VERSION=1.3.0&REQUEST=GetMap&LAYERS=OGC_Sectores&STYLES=&CRS=EPSG%3A3857&BBOX=-417000%2C4918000%2C-405000%2C4930000&WIDTH=256&HEIGHT=256&FORMAT=image%2Fpng&TRANSPARENT=TRUE",
+      "verifiedInfo": "https://mapas.fomento.gob.es/arcgis/services/SIU/Servicios_OGC/MapServer/WMSServer?SERVICE=WMS&VERSION=1.3.0&REQUEST=GetFeatureInfo&QUERY_LAYERS=OGC_Sectores&INFO_FORMAT=application%2Fgeo%2Bjson&I=128&J=128&FEATURE_COUNT=5&LAYERS=OGC_Sectores&STYLES=&CRS=EPSG%3A3857&BBOX=-417000%2C4918000%2C-405000%2C4930000&WIDTH=256&HEIGHT=256&FORMAT=image%2Fpng&TRANSPARENT=TRUE"
+    },
+    {
+      "id": "siu-corine-1990",
+      "name": "CORINE 1990",
+      "group": "Ocupación del suelo",
+      "minzoom": 8,
+      "provider": {
+        "id": "siu",
+        "url": "https://mapas.fomento.gob.es/arcgis/services/SIU/Servicios_OGC/MapServer/WMSServer",
+        "layers": "OGC_CORINE_1990",
+        "version": "1.3.0",
+        "requestCrs": "EPSG:3857",
+        "sourceId": "F111",
+        "credit": "Sistema de Información Urbana · MIVAU",
+        "bounds": [
+          -18.160873,
+          27.637739,
+          4.327972,
+          43.790118
+        ],
+        "queryable": true,
+        "infoFormat": "application/geo+json"
+      },
+      "period": {
+        "from": "1990",
+        "to": "1990"
+      },
+      "verifiedMap": "https://mapas.fomento.gob.es/arcgis/services/SIU/Servicios_OGC/MapServer/WMSServer?SERVICE=WMS&VERSION=1.3.0&REQUEST=GetMap&LAYERS=OGC_CORINE_1990&STYLES=&CRS=EPSG%3A3857&BBOX=-417000%2C4918000%2C-405000%2C4930000&WIDTH=256&HEIGHT=256&FORMAT=image%2Fpng&TRANSPARENT=TRUE",
+      "verifiedInfo": "https://mapas.fomento.gob.es/arcgis/services/SIU/Servicios_OGC/MapServer/WMSServer?SERVICE=WMS&VERSION=1.3.0&REQUEST=GetFeatureInfo&QUERY_LAYERS=OGC_CORINE_1990&INFO_FORMAT=application%2Fgeo%2Bjson&I=128&J=128&FEATURE_COUNT=5&LAYERS=OGC_CORINE_1990&STYLES=&CRS=EPSG%3A3857&BBOX=-417000%2C4918000%2C-405000%2C4930000&WIDTH=256&HEIGHT=256&FORMAT=image%2Fpng&TRANSPARENT=TRUE"
+    },
+    {
+      "id": "siu-corine-2000",
+      "name": "CORINE 2000",
+      "group": "Ocupación del suelo",
+      "minzoom": 8,
+      "provider": {
+        "id": "siu",
+        "url": "https://mapas.fomento.gob.es/arcgis/services/SIU/Servicios_OGC/MapServer/WMSServer",
+        "layers": "OGC_CORINE_2000",
+        "version": "1.3.0",
+        "requestCrs": "EPSG:3857",
+        "sourceId": "F111",
+        "credit": "Sistema de Información Urbana · MIVAU",
+        "bounds": [
+          -18.160873,
+          27.637739,
+          4.327972,
+          43.790118
+        ],
+        "queryable": true,
+        "infoFormat": "application/geo+json"
+      },
+      "period": {
+        "from": "2000",
+        "to": "2000"
+      },
+      "verifiedMap": "https://mapas.fomento.gob.es/arcgis/services/SIU/Servicios_OGC/MapServer/WMSServer?SERVICE=WMS&VERSION=1.3.0&REQUEST=GetMap&LAYERS=OGC_CORINE_2000&STYLES=&CRS=EPSG%3A3857&BBOX=-417000%2C4918000%2C-405000%2C4930000&WIDTH=256&HEIGHT=256&FORMAT=image%2Fpng&TRANSPARENT=TRUE",
+      "verifiedInfo": "https://mapas.fomento.gob.es/arcgis/services/SIU/Servicios_OGC/MapServer/WMSServer?SERVICE=WMS&VERSION=1.3.0&REQUEST=GetFeatureInfo&QUERY_LAYERS=OGC_CORINE_2000&INFO_FORMAT=application%2Fgeo%2Bjson&I=128&J=128&FEATURE_COUNT=5&LAYERS=OGC_CORINE_2000&STYLES=&CRS=EPSG%3A3857&BBOX=-417000%2C4918000%2C-405000%2C4930000&WIDTH=256&HEIGHT=256&FORMAT=image%2Fpng&TRANSPARENT=TRUE"
+    },
+    {
+      "id": "siu-corine-2006",
+      "name": "CORINE 2006",
+      "group": "Ocupación del suelo",
+      "minzoom": 8,
+      "provider": {
+        "id": "siu",
+        "url": "https://mapas.fomento.gob.es/arcgis/services/SIU/Servicios_OGC/MapServer/WMSServer",
+        "layers": "OGC_CORINE_2006",
+        "version": "1.3.0",
+        "requestCrs": "EPSG:3857",
+        "sourceId": "F111",
+        "credit": "Sistema de Información Urbana · MIVAU",
+        "bounds": [
+          -18.160879,
+          27.637739,
+          4.327972,
+          43.790118
+        ],
+        "queryable": true,
+        "infoFormat": "application/geo+json"
+      },
+      "period": {
+        "from": "2006",
+        "to": "2006"
+      },
+      "verifiedMap": "https://mapas.fomento.gob.es/arcgis/services/SIU/Servicios_OGC/MapServer/WMSServer?SERVICE=WMS&VERSION=1.3.0&REQUEST=GetMap&LAYERS=OGC_CORINE_2006&STYLES=&CRS=EPSG%3A3857&BBOX=-417000%2C4918000%2C-405000%2C4930000&WIDTH=256&HEIGHT=256&FORMAT=image%2Fpng&TRANSPARENT=TRUE",
+      "verifiedInfo": "https://mapas.fomento.gob.es/arcgis/services/SIU/Servicios_OGC/MapServer/WMSServer?SERVICE=WMS&VERSION=1.3.0&REQUEST=GetFeatureInfo&QUERY_LAYERS=OGC_CORINE_2006&INFO_FORMAT=application%2Fgeo%2Bjson&I=128&J=128&FEATURE_COUNT=5&LAYERS=OGC_CORINE_2006&STYLES=&CRS=EPSG%3A3857&BBOX=-417000%2C4918000%2C-405000%2C4930000&WIDTH=256&HEIGHT=256&FORMAT=image%2Fpng&TRANSPARENT=TRUE"
+    },
+    {
+      "id": "siu-corine-2012",
+      "name": "CORINE 2012",
+      "group": "Ocupación del suelo",
+      "minzoom": 8,
+      "provider": {
+        "id": "siu",
+        "url": "https://mapas.fomento.gob.es/arcgis/services/SIU/Servicios_OGC/MapServer/WMSServer",
+        "layers": "OGC_CORINE_2012",
+        "version": "1.3.0",
+        "requestCrs": "EPSG:3857",
+        "sourceId": "F111",
+        "credit": "Sistema de Información Urbana · MIVAU",
+        "bounds": [
+          -18.160809,
+          27.637723,
+          4.327785,
+          43.79238
+        ],
+        "queryable": true,
+        "infoFormat": "application/geo+json"
+      },
+      "period": {
+        "from": "2012",
+        "to": "2012"
+      },
+      "verifiedMap": "https://mapas.fomento.gob.es/arcgis/services/SIU/Servicios_OGC/MapServer/WMSServer?SERVICE=WMS&VERSION=1.3.0&REQUEST=GetMap&LAYERS=OGC_CORINE_2012&STYLES=&CRS=EPSG%3A3857&BBOX=-417000%2C4918000%2C-405000%2C4930000&WIDTH=256&HEIGHT=256&FORMAT=image%2Fpng&TRANSPARENT=TRUE",
+      "verifiedInfo": "https://mapas.fomento.gob.es/arcgis/services/SIU/Servicios_OGC/MapServer/WMSServer?SERVICE=WMS&VERSION=1.3.0&REQUEST=GetFeatureInfo&QUERY_LAYERS=OGC_CORINE_2012&INFO_FORMAT=application%2Fgeo%2Bjson&I=128&J=128&FEATURE_COUNT=5&LAYERS=OGC_CORINE_2012&STYLES=&CRS=EPSG%3A3857&BBOX=-417000%2C4918000%2C-405000%2C4930000&WIDTH=256&HEIGHT=256&FORMAT=image%2Fpng&TRANSPARENT=TRUE"
+    },
+    {
+      "id": "siu-corine-2018",
+      "name": "CORINE 2018",
+      "group": "Ocupación del suelo",
+      "minzoom": 8,
+      "provider": {
+        "id": "siu",
+        "url": "https://mapas.fomento.gob.es/arcgis/services/SIU/Servicios_OGC/MapServer/WMSServer",
+        "layers": "OGC_CORINE_2018",
+        "version": "1.3.0",
+        "requestCrs": "EPSG:3857",
+        "sourceId": "F111",
+        "credit": "Sistema de Información Urbana · MIVAU",
+        "bounds": [
+          -18.160809,
+          27.637723,
+          4.327785,
+          43.79238
+        ],
+        "queryable": true,
+        "infoFormat": "application/geo+json"
+      },
+      "period": {
+        "from": "2018",
+        "to": "2018"
+      },
+      "verifiedMap": "https://mapas.fomento.gob.es/arcgis/services/SIU/Servicios_OGC/MapServer/WMSServer?SERVICE=WMS&VERSION=1.3.0&REQUEST=GetMap&LAYERS=OGC_CORINE_2018&STYLES=&CRS=EPSG%3A3857&BBOX=-417000%2C4918000%2C-405000%2C4930000&WIDTH=256&HEIGHT=256&FORMAT=image%2Fpng&TRANSPARENT=TRUE",
+      "verifiedInfo": "https://mapas.fomento.gob.es/arcgis/services/SIU/Servicios_OGC/MapServer/WMSServer?SERVICE=WMS&VERSION=1.3.0&REQUEST=GetFeatureInfo&QUERY_LAYERS=OGC_CORINE_2018&INFO_FORMAT=application%2Fgeo%2Bjson&I=128&J=128&FEATURE_COUNT=5&LAYERS=OGC_CORINE_2018&STYLES=&CRS=EPSG%3A3857&BBOX=-417000%2C4918000%2C-405000%2C4930000&WIDTH=256&HEIGHT=256&FORMAT=image%2Fpng&TRANSPARENT=TRUE"
+    },
+    {
+      "id": "siu-corine-variacion-1990-2000",
+      "name": "Cambios CORINE 1990–2000",
+      "group": "Ocupación del suelo",
+      "minzoom": 8,
+      "provider": {
+        "id": "siu",
+        "url": "https://mapas.fomento.gob.es/arcgis/services/SIU/Servicios_OGC/MapServer/WMSServer",
+        "layers": "OGC_CORINE_Variacion_1990_2000",
+        "version": "1.3.0",
+        "requestCrs": "EPSG:3857",
+        "sourceId": "F111",
+        "credit": "Sistema de Información Urbana · MIVAU",
+        "bounds": [
+          -18.018156,
+          27.735093,
+          4.30335,
+          43.756274
+        ],
+        "queryable": true,
+        "infoFormat": "application/geo+json"
+      },
+      "period": {
+        "from": "1990",
+        "to": "2000"
+      },
+      "verifiedMap": "https://mapas.fomento.gob.es/arcgis/services/SIU/Servicios_OGC/MapServer/WMSServer?SERVICE=WMS&VERSION=1.3.0&REQUEST=GetMap&LAYERS=OGC_CORINE_Variacion_1990_2000&STYLES=&CRS=EPSG%3A3857&BBOX=-417000%2C4918000%2C-405000%2C4930000&WIDTH=256&HEIGHT=256&FORMAT=image%2Fpng&TRANSPARENT=TRUE",
+      "verifiedInfo": "https://mapas.fomento.gob.es/arcgis/services/SIU/Servicios_OGC/MapServer/WMSServer?SERVICE=WMS&VERSION=1.3.0&REQUEST=GetFeatureInfo&QUERY_LAYERS=OGC_CORINE_Variacion_1990_2000&INFO_FORMAT=application%2Fgeo%2Bjson&I=128&J=128&FEATURE_COUNT=5&LAYERS=OGC_CORINE_Variacion_1990_2000&STYLES=&CRS=EPSG%3A3857&BBOX=-417000%2C4918000%2C-405000%2C4930000&WIDTH=256&HEIGHT=256&FORMAT=image%2Fpng&TRANSPARENT=TRUE"
+    },
+    {
+      "id": "siu-corine-variacion-2000-2006",
+      "name": "Cambios CORINE 2000–2006",
+      "group": "Ocupación del suelo",
+      "minzoom": 8,
+      "provider": {
+        "id": "siu",
+        "url": "https://mapas.fomento.gob.es/arcgis/services/SIU/Servicios_OGC/MapServer/WMSServer",
+        "layers": "OGC_CORINE_Variacion_2000_2006",
+        "version": "1.3.0",
+        "requestCrs": "EPSG:3857",
+        "sourceId": "F111",
+        "credit": "Sistema de Información Urbana · MIVAU",
+        "bounds": [
+          -17.792749,
+          27.738978,
+          4.267763,
+          43.715276
+        ],
+        "queryable": true,
+        "infoFormat": "application/geo+json"
+      },
+      "period": {
+        "from": "2000",
+        "to": "2006"
+      },
+      "verifiedMap": "https://mapas.fomento.gob.es/arcgis/services/SIU/Servicios_OGC/MapServer/WMSServer?SERVICE=WMS&VERSION=1.3.0&REQUEST=GetMap&LAYERS=OGC_CORINE_Variacion_2000_2006&STYLES=&CRS=EPSG%3A3857&BBOX=-417000%2C4918000%2C-405000%2C4930000&WIDTH=256&HEIGHT=256&FORMAT=image%2Fpng&TRANSPARENT=TRUE",
+      "verifiedInfo": "https://mapas.fomento.gob.es/arcgis/services/SIU/Servicios_OGC/MapServer/WMSServer?SERVICE=WMS&VERSION=1.3.0&REQUEST=GetFeatureInfo&QUERY_LAYERS=OGC_CORINE_Variacion_2000_2006&INFO_FORMAT=application%2Fgeo%2Bjson&I=128&J=128&FEATURE_COUNT=5&LAYERS=OGC_CORINE_Variacion_2000_2006&STYLES=&CRS=EPSG%3A3857&BBOX=-417000%2C4918000%2C-405000%2C4930000&WIDTH=256&HEIGHT=256&FORMAT=image%2Fpng&TRANSPARENT=TRUE"
+    },
+    {
+      "id": "siu-corine-variacion-2006-2012",
+      "name": "Cambios CORINE 2006–2012",
+      "group": "Ocupación del suelo",
+      "minzoom": 8,
+      "provider": {
+        "id": "siu",
+        "url": "https://mapas.fomento.gob.es/arcgis/services/SIU/Servicios_OGC/MapServer/WMSServer",
+        "layers": "OGC_CORINE_Variacion_2006_2012",
+        "version": "1.3.0",
+        "requestCrs": "EPSG:3857",
+        "sourceId": "F111",
+        "credit": "Sistema de Información Urbana · MIVAU",
+        "bounds": [
+          -18.020109,
+          27.696323,
+          4.275897,
+          43.755031
+        ],
+        "queryable": true,
+        "infoFormat": "application/geo+json"
+      },
+      "period": {
+        "from": "2006",
+        "to": "2012"
+      },
+      "verifiedMap": "https://mapas.fomento.gob.es/arcgis/services/SIU/Servicios_OGC/MapServer/WMSServer?SERVICE=WMS&VERSION=1.3.0&REQUEST=GetMap&LAYERS=OGC_CORINE_Variacion_2006_2012&STYLES=&CRS=EPSG%3A3857&BBOX=-417000%2C4918000%2C-405000%2C4930000&WIDTH=256&HEIGHT=256&FORMAT=image%2Fpng&TRANSPARENT=TRUE",
+      "verifiedInfo": "https://mapas.fomento.gob.es/arcgis/services/SIU/Servicios_OGC/MapServer/WMSServer?SERVICE=WMS&VERSION=1.3.0&REQUEST=GetFeatureInfo&QUERY_LAYERS=OGC_CORINE_Variacion_2006_2012&INFO_FORMAT=application%2Fgeo%2Bjson&I=128&J=128&FEATURE_COUNT=5&LAYERS=OGC_CORINE_Variacion_2006_2012&STYLES=&CRS=EPSG%3A3857&BBOX=-417000%2C4918000%2C-405000%2C4930000&WIDTH=256&HEIGHT=256&FORMAT=image%2Fpng&TRANSPARENT=TRUE"
+    },
+    {
+      "id": "siu-corine-variacion-2012-2018",
+      "name": "Cambios CORINE 2012–2018",
+      "group": "Ocupación del suelo",
+      "minzoom": 8,
+      "provider": {
+        "id": "siu",
+        "url": "https://mapas.fomento.gob.es/arcgis/services/SIU/Servicios_OGC/MapServer/WMSServer",
+        "layers": "OGC_CORINE_Variacion_2012_2018",
+        "version": "1.3.0",
+        "requestCrs": "EPSG:3857",
+        "sourceId": "F111",
+        "credit": "Sistema de Información Urbana · MIVAU",
+        "bounds": [
+          -17.955364,
+          27.775245,
+          4.176633,
+          43.768736
+        ],
+        "queryable": true,
+        "infoFormat": "application/geo+json"
+      },
+      "period": {
+        "from": "2012",
+        "to": "2018"
+      },
+      "verifiedMap": "https://mapas.fomento.gob.es/arcgis/services/SIU/Servicios_OGC/MapServer/WMSServer?SERVICE=WMS&VERSION=1.3.0&REQUEST=GetMap&LAYERS=OGC_CORINE_Variacion_2012_2018&STYLES=&CRS=EPSG%3A3857&BBOX=-417000%2C4918000%2C-405000%2C4930000&WIDTH=256&HEIGHT=256&FORMAT=image%2Fpng&TRANSPARENT=TRUE",
+      "verifiedInfo": "https://mapas.fomento.gob.es/arcgis/services/SIU/Servicios_OGC/MapServer/WMSServer?SERVICE=WMS&VERSION=1.3.0&REQUEST=GetFeatureInfo&QUERY_LAYERS=OGC_CORINE_Variacion_2012_2018&INFO_FORMAT=application%2Fgeo%2Bjson&I=128&J=128&FEATURE_COUNT=5&LAYERS=OGC_CORINE_Variacion_2012_2018&STYLES=&CRS=EPSG%3A3857&BBOX=-417000%2C4918000%2C-405000%2C4930000&WIDTH=256&HEIGHT=256&FORMAT=image%2Fpng&TRANSPARENT=TRUE"
+    },
+    {
+      "id": "siu-siose-2005",
+      "name": "SIOSE 2005",
+      "group": "Ocupación del suelo",
+      "minzoom": 10,
+      "provider": {
+        "id": "siu",
+        "url": "https://mapas.fomento.gob.es/arcgis/services/SIU/Servicios_OGC/MapServer/WMSServer",
+        "layers": "OGC_SIOSE_2005",
+        "version": "1.3.0",
+        "requestCrs": "EPSG:3857",
+        "sourceId": "F111",
+        "credit": "Sistema de Información Urbana · MIVAU",
+        "bounds": [
+          -18.1862,
+          27.615201,
+          4.356387,
+          43.812664
+        ],
+        "queryable": true,
+        "infoFormat": "application/geo+json"
+      },
+      "period": {
+        "from": "2005",
+        "to": "2005"
+      },
+      "verifiedMap": "https://mapas.fomento.gob.es/arcgis/services/SIU/Servicios_OGC/MapServer/WMSServer?SERVICE=WMS&VERSION=1.3.0&REQUEST=GetMap&LAYERS=OGC_SIOSE_2005&STYLES=&CRS=EPSG%3A3857&BBOX=-417000%2C4918000%2C-405000%2C4930000&WIDTH=256&HEIGHT=256&FORMAT=image%2Fpng&TRANSPARENT=TRUE",
+      "verifiedInfo": "https://mapas.fomento.gob.es/arcgis/services/SIU/Servicios_OGC/MapServer/WMSServer?SERVICE=WMS&VERSION=1.3.0&REQUEST=GetFeatureInfo&QUERY_LAYERS=OGC_SIOSE_2005&INFO_FORMAT=application%2Fgeo%2Bjson&I=128&J=128&FEATURE_COUNT=5&LAYERS=OGC_SIOSE_2005&STYLES=&CRS=EPSG%3A3857&BBOX=-417000%2C4918000%2C-405000%2C4930000&WIDTH=256&HEIGHT=256&FORMAT=image%2Fpng&TRANSPARENT=TRUE"
+    },
+    {
+      "id": "siu-siose-2009",
+      "name": "SIOSE 2009",
+      "group": "Ocupación del suelo",
+      "minzoom": 10,
+      "provider": {
+        "id": "siu",
+        "url": "https://mapas.fomento.gob.es/arcgis/services/SIU/Servicios_OGC/MapServer/WMSServer",
+        "layers": "OGC_SIOSE_2009",
+        "version": "1.3.0",
+        "requestCrs": "EPSG:3857",
+        "sourceId": "F111",
+        "credit": "Sistema de Información Urbana · MIVAU",
+        "bounds": [
+          -18.160874,
+          27.63772,
+          4.327832,
+          43.790382
+        ],
+        "queryable": true,
+        "infoFormat": "application/geo+json"
+      },
+      "period": {
+        "from": "2009",
+        "to": "2009"
+      },
+      "verifiedMap": "https://mapas.fomento.gob.es/arcgis/services/SIU/Servicios_OGC/MapServer/WMSServer?SERVICE=WMS&VERSION=1.3.0&REQUEST=GetMap&LAYERS=OGC_SIOSE_2009&STYLES=&CRS=EPSG%3A3857&BBOX=-417000%2C4918000%2C-405000%2C4930000&WIDTH=256&HEIGHT=256&FORMAT=image%2Fpng&TRANSPARENT=TRUE",
+      "verifiedInfo": "https://mapas.fomento.gob.es/arcgis/services/SIU/Servicios_OGC/MapServer/WMSServer?SERVICE=WMS&VERSION=1.3.0&REQUEST=GetFeatureInfo&QUERY_LAYERS=OGC_SIOSE_2009&INFO_FORMAT=application%2Fgeo%2Bjson&I=128&J=128&FEATURE_COUNT=5&LAYERS=OGC_SIOSE_2009&STYLES=&CRS=EPSG%3A3857&BBOX=-417000%2C4918000%2C-405000%2C4930000&WIDTH=256&HEIGHT=256&FORMAT=image%2Fpng&TRANSPARENT=TRUE"
+    },
+    {
+      "id": "siu-siose-2011",
+      "name": "SIOSE 2011",
+      "group": "Ocupación del suelo",
+      "minzoom": 10,
+      "provider": {
+        "id": "siu",
+        "url": "https://mapas.fomento.gob.es/arcgis/services/SIU/Servicios_OGC/MapServer/WMSServer",
+        "layers": "OGC_SIOSE_2011",
+        "version": "1.3.0",
+        "requestCrs": "EPSG:3857",
+        "sourceId": "F111",
+        "credit": "Sistema de Información Urbana · MIVAU",
+        "bounds": [
+          -18.186195,
+          27.615182,
+          4.356387,
+          43.790382
+        ],
+        "queryable": true,
+        "infoFormat": "application/geo+json"
+      },
+      "period": {
+        "from": "2011",
+        "to": "2011"
+      },
+      "verifiedMap": "https://mapas.fomento.gob.es/arcgis/services/SIU/Servicios_OGC/MapServer/WMSServer?SERVICE=WMS&VERSION=1.3.0&REQUEST=GetMap&LAYERS=OGC_SIOSE_2011&STYLES=&CRS=EPSG%3A3857&BBOX=-417000%2C4918000%2C-405000%2C4930000&WIDTH=256&HEIGHT=256&FORMAT=image%2Fpng&TRANSPARENT=TRUE",
+      "verifiedInfo": "https://mapas.fomento.gob.es/arcgis/services/SIU/Servicios_OGC/MapServer/WMSServer?SERVICE=WMS&VERSION=1.3.0&REQUEST=GetFeatureInfo&QUERY_LAYERS=OGC_SIOSE_2011&INFO_FORMAT=application%2Fgeo%2Bjson&I=128&J=128&FEATURE_COUNT=5&LAYERS=OGC_SIOSE_2011&STYLES=&CRS=EPSG%3A3857&BBOX=-417000%2C4918000%2C-405000%2C4930000&WIDTH=256&HEIGHT=256&FORMAT=image%2Fpng&TRANSPARENT=TRUE"
+    },
+    {
+      "id": "siu-siose-2014",
+      "name": "SIOSE 2014",
+      "group": "Ocupación del suelo",
+      "minzoom": 10,
+      "provider": {
+        "id": "siu",
+        "url": "https://mapas.fomento.gob.es/arcgis/services/SIU/Servicios_OGC/MapServer/WMSServer",
+        "layers": "OGC_SIOSE_2014",
+        "version": "1.3.0",
+        "requestCrs": "EPSG:3857",
+        "sourceId": "F111",
+        "credit": "Sistema de Información Urbana · MIVAU",
+        "bounds": [
+          -18.186195,
+          27.615182,
+          4.356387,
+          43.812852
+        ],
+        "queryable": true,
+        "infoFormat": "application/geo+json"
+      },
+      "period": {
+        "from": "2014",
+        "to": "2014"
+      },
+      "verifiedMap": "https://mapas.fomento.gob.es/arcgis/services/SIU/Servicios_OGC/MapServer/WMSServer?SERVICE=WMS&VERSION=1.3.0&REQUEST=GetMap&LAYERS=OGC_SIOSE_2014&STYLES=&CRS=EPSG%3A3857&BBOX=-417000%2C4918000%2C-405000%2C4930000&WIDTH=256&HEIGHT=256&FORMAT=image%2Fpng&TRANSPARENT=TRUE",
+      "verifiedInfo": "https://mapas.fomento.gob.es/arcgis/services/SIU/Servicios_OGC/MapServer/WMSServer?SERVICE=WMS&VERSION=1.3.0&REQUEST=GetFeatureInfo&QUERY_LAYERS=OGC_SIOSE_2014&INFO_FORMAT=application%2Fgeo%2Bjson&I=128&J=128&FEATURE_COUNT=5&LAYERS=OGC_SIOSE_2014&STYLES=&CRS=EPSG%3A3857&BBOX=-417000%2C4918000%2C-405000%2C4930000&WIDTH=256&HEIGHT=256&FORMAT=image%2Fpng&TRANSPARENT=TRUE"
+    }
+  ],
+  "unavailable": []
+}

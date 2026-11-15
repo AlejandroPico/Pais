@@ -26,7 +26,7 @@ const esc=(s:unknown)=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&l
 type Geo=FeatureCollection<MultiPolygon,Properties>;
 let map:AtlasMap,maps:AtlasMap[]=[],geography:TerritoryController;
 const statistics={} as Record<StatisticsKind,DemographyController>;
-const statisticCategories={demography:'F02',welfare:'F03',labor:'F04',care:'F05'} as const;
+const statisticCategories={demography:'F02',welfare:'F03',labor:'F04',care:'F05',housing:'F06'} as const;
 const statisticControllers=()=>Object.values(statistics);
 function disableStatistics(except?:StatisticsKind){
   for(const [kind,controller] of Object.entries(statistics)){
@@ -193,6 +193,9 @@ function categoryPanel(id:string){const c=categories.find(c=>c.id===id)!;let htm
     layerMenuRow('Comunidades autónomas',`<label class="check-row"><input id="communities-toggle" type="checkbox" ${showCommunities?'checked':''}>Mostrar capa</label>${appearanceFields('community-lines','#fff8d2')}`)
     + layerMenuRow('Provincias',`<label class="check-row"><input id="provinces-toggle" type="checkbox" ${showProvinces?'checked':''}>Mostrar capa</label>${appearanceFields('province-lines','#e9e5d5')}`)
   }</details>${geography?.panel()||'<p>Preparando cartografía…</p>'}`;
+  else if(id==='F06')html=ready
+    ?layerMenuRow('Indicadores de vivienda y suelo','<div id="statistics-panel"></div>')+geography.housingPanel()
+    :'<p class="data-note" role="status">Preparando las capas de vivienda…</p>';
   else if(id==='F05')html=layerMenuRow('Indicadores de cuidados y protección social','<div id="statistics-panel"></div>');
   else if(id==='F03'||id==='F04')html=layerMenuRow(id==='F04'?'Indicadores de trabajo':'Indicadores de renta y condiciones de vida','<div id="statistics-panel"></div>');
   else if(id==='F02')html=`<details class="submenu" id="nomenclator"><summary>Nomenclátor · entidades y núcleos ${icon('chevron-right')}</summary><div id="nomenclator-panel"></div></details><details class="submenu" id="historical-census"><summary>Censos históricos · 1842–2021 ${icon('chevron-right')}</summary><div id="historical-census-panel"></div></details>${layerMenuRow('Indicadores de población','<div id="demography-panel"></div>')}<details class="submenu"><summary>Padrón histórico · INE ${icon('chevron-right')}</summary>${(['population','density','women','change'] as Metric[]).map(m=>layerMenuRow(labels[m],`<label class="check-row"><input type="radio" name="metric" value="${m}" ${thematic&&metric===m?'checked':''}>Mostrar capa</label>${appearanceFields('metric-'+m,scales[m].colors[3],.73)}`)).join('')}<button id="clear-metric" class="text-button">Desactivar población</button><label class="field-label">División territorial<select id="level"><option value="province" ${level==='province'?'selected':''}>Provincias</option><option value="community" ${level==='community'?'selected':''}>Comunidades</option></select></label><p class="data-note">1996–2021, sin 1997. No es la población más reciente.</p></details>`;
@@ -332,8 +335,9 @@ function activateProduct(action:string){const [kind,id,...parameters]=action.spl
   }
   if(kind==='official-wms'){
     void geography?.toggleOfficial(id,true).then(()=>{
-      if(drawerTab==='F01')closeDrawer();
-      categoryPanel('F01');
+      const category=id.startsWith('siu-')?'F06':'F01';
+      if(drawerTab===category)closeDrawer();
+      categoryPanel(category);
       const details=$<HTMLDetailsElement>('#official-active');
       if(details)layerMenu?.open(details);
     }).catch(()=>toast('No se pudo abrir la capa cartográfica.'));
@@ -440,7 +444,7 @@ async function init(){try{
     },kind,hash);
   }
   geography=new TerritoryController({active,info:$('#info-panel'),icons,onChange:updateData,beforeInspect:()=>{featureQuery?.abort();selected=undefined;for(const m of maps)if(m.getSource('selection'))(m.getSource('selection') as maplibregl.GeoJSONSource).setData({type:'FeatureCollection',features:[]});},closeDrawer,selectLegacy:(f,l)=>{level=l;updateData();selectTerritory(f as Feature<MultiPolygon,Properties>,true);},provinces,communities},hash);let loaded=0;
-  for(const m of maps){m.on('error',e=>{sourceErrors.add((e as unknown as {sourceId?:string}).sourceId||'map');$('#map-status').hidden=false;$('#map-status').textContent='Un servicio cartográfico no ha respondido.';console.warn('Cartographic service error',e.error?.message);});m.on('load',()=>{setupMap(m);if(++loaded===1){ready=true;fitOverview();const lng=Number(hash.get('lng')),lat=Number(hash.get('lat')),z=Number(hash.get('z'));if(compatibleLayout&&hash.has('lng')&&Number.isFinite(lng)&&Number.isFinite(lat)&&Number.isFinite(z)&&lng>=-20&&lng<=7&&lat>=25.5&&lat<=46.5&&z>=3&&z<=18)map.jumpTo({center:[lng,lat],zoom:z,pitch:0});terrain();updateData();syncLayerScales();if(!sourceErrors.size)$('#map-status').hidden=true;}});}
+  for(const m of maps){m.on('error',e=>{sourceErrors.add((e as unknown as {sourceId?:string}).sourceId||'map');$('#map-status').hidden=false;$('#map-status').textContent='Un servicio cartográfico no ha respondido.';console.warn('Cartographic service error',e.error?.message);});m.on('load',()=>{setupMap(m);if(++loaded===1){ready=true;if(drawerTab==='F06'){closeDrawer();categoryPanel('F06');}fitOverview();const lng=Number(hash.get('lng')),lat=Number(hash.get('lat')),z=Number(hash.get('z'));if(compatibleLayout&&hash.has('lng')&&Number.isFinite(lng)&&Number.isFinite(lat)&&Number.isFinite(z)&&lng>=-20&&lng<=7&&lat>=25.5&&lat<=46.5&&z>=3&&z<=18)map.jumpTo({center:[lng,lat],zoom:z,pitch:0});terrain();updateData();syncLayerScales();if(!sourceErrors.size)$('#map-status').hidden=true;}});}
   map.touchZoomRotate.disableRotation();map.on('zoomend',syncLayerScales);map.on('moveend',()=>{const c=map.getCenter(),lng=Math.max(ATLAS_BOUNDS[0][0],Math.min(ATLAS_BOUNDS[1][0],c.lng)),lat=Math.max(ATLAS_BOUNDS[0][1],Math.min(ATLAS_BOUNDS[1][1],c.lat));if(c.lng!==lng||c.lat!==lat)map.jumpTo({center:[lng,lat],bearing:0,pitch:0});});new ResizeObserver(()=>{maps.forEach(m=>m.resize());if(ready)fitOverview();}).observe($('.map-area'));
 }catch(error){console.error(error);$('#map-status').hidden=false;$('#map-status').innerHTML='No se pudo iniciar el mapa. <button id="retry">Reintentar</button>';$('#retry').onclick=()=>location.reload();}}
 

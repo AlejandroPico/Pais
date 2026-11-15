@@ -8,9 +8,9 @@ from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1]
 def read(p):return json.loads((ROOT/p).read_text(encoding='utf-8'))
 def main(kind="demography",category="F02"):
-    folder = {'demography': 'poblacion/ine', 'welfare': 'renta/ine', 'labor': 'trabajo/ine', 'care': 'cuidados/ine'}[kind]
+    folder = {'demography': 'poblacion/ine', 'welfare': 'renta/ine', 'labor': 'trabajo/ine', 'care': 'cuidados/ine', 'housing':'vivienda/ine'}[kind]
     index=read(f'datos/{folder}/index.json');inventory=read(f'datos/{folder}/inventory.json')
-    if kind in {'welfare','labor','care'}:
+    if kind in {'welfare','labor','care','housing'}:
         provenance={p['url']:p for p in index.get('provenance',[])}
         for t in index['tables']:
             missing={}
@@ -36,7 +36,7 @@ def main(kind="demography",category="F02"):
     if kind=='labor':
         index['tables'] += read('datos/trabajo/sepe/sepe.json')['tables']
         index['tables'] += read('datos/trabajo/seguridad-social/index.json')['tables']
-    if kind in {'demography','welfare'}:
+    if kind in {'demography','welfare','housing'}:
         shared = {}
         compact = {**index, 'tables': [], 'territoryGroups': shared}
         for table in index['tables']:
@@ -53,6 +53,8 @@ def main(kind="demography",category="F02"):
     if kind=='care':
         for name in ('imserso', 'seguridad-social'):
             index['tables'] += read(f'datos/cuidados/{name}/index.json')['tables']
+    if kind=='housing':
+        index['tables'] += read('datos/vivienda/mivau/index.json')['tables']
     available=[]
     for t in index['tables']:
         table_folder = t.get('dataFolder') or ('trabajo/sepe' if t.get('compactColumns') else folder)
@@ -62,7 +64,7 @@ def main(kind="demography",category="F02"):
         assert sum(s['rows'] for s in t['shards'])==t['rows']
         periods=sorted(t['periods'],key=lambda p:p['id'])
         filename = ('sepe.json' if t.get('publisher')=='SEPE'
-                    else 'viewer.json.gz' if table_folder == folder and kind in {'demography','welfare'}
+                    else 'viewer.json.gz' if table_folder == folder and kind in {'demography','welfare','housing'}
                     else 'index.json')
         available.append(dict(id=kind+':'+str(t['id']),title=t['label'],sourceId=t.get('sourceId','F005'),categoryIds=[category],status='integrado',url=t['sourceUrl'],mapAction=kind+':'+str(t['id']),coverage=' · '.join({'national':'España','community':'Comunidades','province':'Provincias','municipal':'Municipios','district':'Distritos (series)','section':'Secciones (series)','island':'Islas (series)','unlocated':'Sin localización'}.get(l,l) for l in sorted({a['level'] for a in t['territories']})),period={'from':periods[0]['label'],'to':periods[-1]['label']},unit=t['unit'],license=t['license'],notes=t['note']+f" Tabla completa: {t['rows']:,} observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",dataFile=f'{table_folder}/{filename}'))
     canonical={str(source['id']):p for t,p in zip(index['tables'],available) if p['sourceId']=='F005' for source in t.get('sourceTables',[{'id':t['id']}])}
@@ -80,7 +82,7 @@ def main(kind="demography",category="F02"):
                 records[key]=dict(id=kind+'-inventory:'+key,title=t['Nombre'],sourceId='F005',categoryIds=[],suggestedCategoryIds=[category],status='por_revisar',url='https://www.ine.es/jaxiT3/Tabla.htm?t='+key,license=None,operationIds=[],notes='Tabla anunciada en el inventario temático. Puede contener variables de otros fascículos. No implica descarga ni representación de sus observaciones.')
             records[key]['operationIds'].append(o['id'])
             if key in canonical:
-                p=canonical[key];records[key].update(status='integrado',categoryIds=[category],license=p['license'],mapAction=p['mapAction'],period=p['period'],coverage=p['coverage'],notes=p['notes'],review={'implementedProductId':p['id'],'updatedAt':index['revision'],'reason':'Todas las observaciones de la descarga se conservan en cubos consultables; sin selección de columnas ni de último periodo.'})
+                p=canonical[key];records[key].update(url=t.get('sourceUrl',records[key]['url']),status='integrado',categoryIds=[category],license=p['license'],mapAction=p['mapAction'],period=p['period'],coverage=p['coverage'],notes=p['notes'],review={'implementedProductId':p['id'],'updatedAt':index['revision'],'reason':'Todas las observaciones de la descarga se conservan en cubos consultables; sin selección de columnas ni de último periodo.'})
     if kind=='welfare':
         records.update({p['id']:p for p in read('registry/welfare-external.json')['sources']})
         record=records['aeat:anuario-irpf-municipal']
@@ -121,6 +123,38 @@ def main(kind="demography",category="F02"):
                                 reason=f"Original de {table['publisher']} conservado y consultable. Edición {edition}."))
                 if table['publisher'] == 'INSS':
                     records[id]['period'] = {'from': edition, 'to': edition}
+    if kind=='housing':
+        for table, product in zip(index['tables'], available, strict=True):
+            if table.get('publisher') != 'MIVAU':
+                continue
+            source = table['sourceTables'][0]
+            id = f"mivau:{table['id']}"
+            records[id] = dict(product, id=id,
+                links={'CSV oficial':source['url'],'Metodología':table['methodologyUrl']},
+                review=dict(implementedProductId=product['id'],updatedAt=index['revision'],
+                            reason='Todos los indicadores y ámbitos de esta distribución se pueden consultar.'))
+        for tid, reason in read('registry/housing-tables.json').get('excluded', {}).items():
+            records[tid].update(status='no_procede',categoryIds=[category],notes=reason,
+                                review=dict(updatedAt=index['revision'],reason=reason))
+        siu=read('datos/vivienda/siu/layers.json')
+        for layer in siu['layers'] + siu['unavailable']:
+            provider=layer['provider']
+            id='housing:siu:'+layer['id']
+            fields={'Capa oficial':provider['layers'],'Consulta de atributos':'GeoJSON' if provider['queryable'] else 'Según el servicio'}
+            product=dict(id=id,title=layer['name'],sourceId='F111',categoryIds=[category],url=siu['capabilities'],
+                fields=fields,coverage='Ámbitos publicados por el SIU',period=layer['period'],license='Condiciones del SIU · MIVAU',
+                mode='remote',notes=f"Cartografía oficial del SIU. Visible desde zoom {layer['minzoom']}.",
+                dataFile='vivienda/siu/layers.json')
+            record_id='siu:'+layer['id']
+            if 'verifiedMap' in layer:
+                product.update(status='integrado',mapAction='official-wms:'+layer['id'])
+                available.append(product)
+                records[record_id]=dict(product,id=record_id,links={'Mapa de comprobación':layer['verifiedMap']},
+                    review=dict(implementedProductId=id,updatedAt=siu['revision'],reason='PNG y origen de Pages verificados.'))
+            else:
+                records[record_id]=dict(product,id=record_id,status='bloqueado',notes=layer['error'],
+                    review=dict(updatedAt=siu['revision'],reason=layer['error'],
+                                nextAction='Reintentar el mapa a la escala publicada y verificar los datos de la capa.'))
     if kind=='demography':
         nomenclator=read('datos/territorio/nomenclator/index.json')
         editions=nomenclator['editions']

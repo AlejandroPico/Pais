@@ -1,0 +1,1010 @@
+{
+  "revision": "2026-11-15",
+  "operationIds": [
+    7,
+    8,
+    15,
+    40,
+    104,
+    259,
+    410,
+    432,
+    473,
+    481,
+    486
+  ],
+  "tables": [
+    {
+      "id": 6146,
+      "label": "Total fincas transmitidas según naturaleza de la finca · 6146",
+      "family": "Transmisiones de la propiedad",
+      "note": "Conserva el periodo, la unidad y las clasificaciones que publica el INE. La cobertura depende de la tabla."
+    },
+    {
+      "id": 6151,
+      "label": "Total fincas transmitidas según naturaleza de la finca · 6151",
+      "family": "Transmisiones de la propiedad",
+      "note": "Conserva el periodo, la unidad y las clasificaciones que publica el INE. La cobertura depende de la tabla."
+    },
+    {
+      "id": 49276,
+      "label": "Total fincas transmitidas según naturaleza de la finca · 49276",
+      "family": "Transmisiones de la propiedad",
+      "note": "Conserva el periodo, la unidad y las clasificaciones que publica el INE. La cobertura depende de la tabla."
+    },
+    {
+      "id": 50256,
+      "label": "Porcentaje de compraventa de viviendas según transmitente y titular · 50256",
+      "family": "Transmisiones de la propiedad",
+      "note": "Conserva el periodo, la unidad y las clasificaciones que publica el INE. La cobertura depende de la tabla."
+    },
+    {
+      "id": 6147,
+      "label": "Total fincas rústicas transmitidas según título de adquisición · 6147",
+      "family": "Transmisiones de la propiedad",
+      "note": "Conserva el periodo, la unidad y las clasificaciones que publica el INE. La cobertura depende de la tabla."
+    },
+    {
+      "id": 6152,
+      "label": "Total fincas rústicas transmitidas según título de adquisición · 6152",
+      "family": "Transmisiones de la propiedad",
+      "note": "Conserva el periodo, la unidad y las clasificaciones que publica el INE. La cobertura depende de la tabla."
+    },
+    {
+      "id": 49277,
+      "label": "Total fincas rústicas transmitidas según título de adquisición · 49277",
+      "family": "Transmisiones de la propiedad",
+      "note": "Conserva el periodo, la unidad y las clasificaciones que publica el INE. La cobertura depende de la tabla."
+    },
+    {
+      "id": 50272,
+      "label": "Porcentaje de compraventa de viviendas según transmitente y titular · 50272",
+      "family": "Transmisiones de la propiedad",
+      "note": "Conserva el periodo, la unidad y las clasificaciones que publica el INE. La cobertura depende de la tabla."
+    },
+    {
+      "id": 6148,
+      "label": "Total fincas urbanas transmitidas según título de adquisición · 6148",
+      "family": "Transmisiones de la propiedad",
+      "note": "Conserva el periodo, la unidad y las clasificaciones que publica el INE. La cobertura depende de la tabla."
+    },
+    {
+      "id": 6153,
+      "label": "Total fincas urbanas transmitidas según título de adquisición · 6153",
+      "family": "Transmisiones de la propiedad",
+      "note": "Conserva el periodo, la unidad y las clasificaciones que publica el INE. La cobertura depende de la tabla."
+    },
+    {
+      "id": 49278,
+      "label": "Total fincas urbanas transmitidas según título de adquisición · 49278",
+      "family": "Transmisiones de la propiedad",
+      "note": "Conserva el periodo, la unidad y las clasificaciones que publica el INE. La cobertura depende de la tabla."
+    },
+    {
+      "id": 6149,
+      "label": "Viviendas transmitidas según título de adquisición · 6149",
+      "family": "Transmisiones de la propiedad",
+      "note": "Conserva el periodo, la unidad y las clasificaciones que publica el INE. La cobertura depende de la tabla."
+    },
+    {
+      "id": 6154,
+      "label": "Viviendas transmitidas según título de adquisición · 6154",
+      "family": "Transmisiones de la propiedad",
+      "note": "Conserva el periodo, la unidad y las clasificaciones que publica el INE. La cobertura depende de la tabla."
+    },
+    {
+      "id": 49279,
+      "label": "Viviendas transmitidas según título de adquisición · 49279",
+      "family": "Transmisiones de la propiedad",
+      "note": "Conserva el periodo, la unidad y las clasificaciones que publica el INE. La cobertura depende de la tabla."
+    },
+    {
+      "id": 6150,
+      "label": "Compraventa de viviendas según régimen y estado · 6150",
+      "family": "Transmisiones de la propiedad",
+      "note": "Conserva el periodo, la unidad y las clasificaciones que publica el INE. La cobertura depende de la tabla."
+    },
+    {
+      "id": 6155,
+      "label": "Compraventa de viviendas según régimen y estado · 6155",
+      "family": "Transmisiones de la propiedad",
+      "note": "Conserva el periodo, la unidad y las clasificaciones que publica el INE. La cobertura depende de la tabla."
+    },
+    {
+      "id": 49280,
+      "label": "Compraventa de viviendas según régimen y estado · 49280",
+      "family": "Transmisiones de la propiedad",
+      "note": "Conserva el periodo, la unidad y las clasificaciones que publica el INE. La cobertura depende de la tabla."
+    },
+    {
+      "id": 3457,
+      "label": "Viviendas según tamaño del municipio por tipo de vivienda (por comunidades autónomas y provincias) · 3457",
+      "family": "Censos de viviendas",
+      "note": "Conserva el periodo, la unidad y las clasificaciones que publica el INE. La cobertura depende de la tabla."
+    },
+    {
+      "id": 3456,
+      "label": "Viviendas por municipios (con más de 2.000 habitantes) y tipo de vivienda · 3456",
+      "family": "Censos de viviendas",
+      "note": "Conserva el periodo, la unidad y las clasificaciones que publica el INE. La cobertura depende de la tabla."
+    },
+    {
+      "id": 79541,
+      "label": "Ponderaciones IPV nacional: general, vivienda nueva y de segunda mano. · 79541",
+      "family": "Precios de compraventa · IPV",
+      "note": "Conserva el periodo, la unidad y las clasificaciones que publica el INE. La cobertura depende de la tabla."
+    },
+    {
+      "id": 80270,
+      "label": "Índices por CCAA: general, vivienda nueva y de segunda mano. Trimestrales · 80270",
+      "family": "Precios de compraventa · IPV",
+      "note": "Conserva el periodo, la unidad y las clasificaciones que publica el INE. La cobertura depende de la tabla."
+    },
+    {
+      "id": 79540,
+      "label": "Índices por CCAA: general, vivienda nueva y de segunda mano · 79540",
+      "family": "Precios de compraventa · IPV",
+      "note": "Conserva el periodo, la unidad y las clasificaciones que publica el INE. La cobertura depende de la tabla."
+    },
+    {
+      "id": 79563,
+      "label": "Índices por CCAA: general, vivienda nueva y de segunda mano · 79563",
+      "family": "Precios de compraventa · IPV",
+      "note": "Conserva el periodo, la unidad y las clasificaciones que publica el INE. La cobertura depende de la tabla."
+    },
+    {
+      "id": 80271,
+      "label": "Índices por CCAA: general, vivienda nueva y de segunda mano. Medias anuales · 80271",
+      "family": "Precios de compraventa · IPV",
+      "note": "Conserva el periodo, la unidad y las clasificaciones que publica el INE. La cobertura depende de la tabla."
+    },
+    {
+      "id": 80272,
+      "label": "Ponderaciones IPV nacional: general, vivienda nueva y de segunda mano. · 80272",
+      "family": "Precios de compraventa · IPV",
+      "note": "Conserva el periodo, la unidad y las clasificaciones que publica el INE. La cobertura depende de la tabla."
+    },
+    {
+      "id": 3200,
+      "label": "Hipotecas constituidas sobre el total de fincas por naturaleza de la finca · 3200",
+      "family": "Hipotecas",
+      "note": "Conserva el periodo, la unidad y las clasificaciones que publica el INE. La cobertura depende de la tabla."
+    },
+    {
+      "id": 3243,
+      "label": "Resumen anual de fincas hipotecadas por naturaleza de la finca, CC.AA., capital prestado y número e importe. · 3243",
+      "family": "Hipotecas",
+      "note": "Conserva el periodo, la unidad y las clasificaciones que publica el INE. La cobertura depende de la tabla."
+    },
+    {
+      "id": 13896,
+      "label": "Hipotecas constituidas sobre el total de fincas por naturaleza de la finca · 13896",
+      "family": "Hipotecas",
+      "note": "Conserva el periodo, la unidad y las clasificaciones que publica el INE. La cobertura depende de la tabla."
+    },
+    {
+      "id": 24456,
+      "label": "Porcentaje de hipotecas constituidas según tipo de interés · 24456",
+      "family": "Hipotecas",
+      "note": "Conserva el periodo, la unidad y las clasificaciones que publica el INE. La cobertura depende de la tabla."
+    },
+    {
+      "id": 24459,
+      "label": "Porcentaje de hipotecas constituidas según tipo de interés · 24459",
+      "family": "Hipotecas",
+      "note": "Conserva el periodo, la unidad y las clasificaciones que publica el INE. La cobertura depende de la tabla."
+    },
+    {
+      "id": 3201,
+      "label": "Hipotecas por naturaleza de la finca, meses, provincias, capital prestado y número e importe. · 3201",
+      "family": "Hipotecas",
+      "note": "Conserva el periodo, la unidad y las clasificaciones que publica el INE. La cobertura depende de la tabla."
+    },
+    {
+      "id": 3202,
+      "label": "Hipotecas constituidas sobre el total de fincas por entidad que concede el préstamo · 3202",
+      "family": "Hipotecas",
+      "note": "Conserva el periodo, la unidad y las clasificaciones que publica el INE. La cobertura depende de la tabla."
+    },
+    {
+      "id": 3244,
+      "label": "Resumen anual de fincas hipotecadas por naturaleza de la finca, CC.AA., interés del préstamo y número e importe. · 3244",
+      "family": "Hipotecas",
+      "note": "Conserva el periodo, la unidad y las clasificaciones que publica el INE. La cobertura depende de la tabla."
+    },
+    {
+      "id": 13897,
+      "label": "Hipotecas constituidas sobre el total de fincas por entidad que concede el préstamo · 13897",
+      "family": "Hipotecas",
+      "note": "Conserva el periodo, la unidad y las clasificaciones que publica el INE. La cobertura depende de la tabla.",
+      "unitDimension": true
+    },
+    {
+      "id": 24457,
+      "label": "Tipo de interés medio al inicio de las hipotecas constituidas · 24457",
+      "family": "Hipotecas",
+      "note": "Conserva el periodo, la unidad y las clasificaciones que publica el INE. La cobertura depende de la tabla."
+    },
+    {
+      "id": 24460,
+      "label": "Tipo de interés medio al inicio de las hipotecas constituidas · 24460",
+      "family": "Hipotecas",
+      "note": "Conserva el periodo, la unidad y las clasificaciones que publica el INE. La cobertura depende de la tabla."
+    },
+    {
+      "id": 3203,
+      "label": "Hipotecas constituidas sobre fincas rústicas por entidad que concede el préstamo · 3203",
+      "family": "Hipotecas",
+      "note": "Conserva el periodo, la unidad y las clasificaciones que publica el INE. La cobertura depende de la tabla."
+    },
+    {
+      "id": 3230,
+      "label": "Hipotecas por naturaleza de la finca, meses, provincias, interés del préstamo y número e importe. · 3230",
+      "family": "Hipotecas",
+      "note": "Conserva el periodo, la unidad y las clasificaciones que publica el INE. La cobertura depende de la tabla."
+    },
+    {
+      "id": 13898,
+      "label": "Hipotecas constituidas sobre fincas rústicas por entidad que concede el préstamo · 13898",
+      "family": "Hipotecas",
+      "note": "Conserva el periodo, la unidad y las clasificaciones que publica el INE. La cobertura depende de la tabla.",
+      "unitDimension": true
+    },
+    {
+      "id": 24458,
+      "label": "Plazo medio de las hipotecas constituidas · 24458",
+      "family": "Hipotecas",
+      "note": "Conserva el periodo, la unidad y las clasificaciones que publica el INE. La cobertura depende de la tabla."
+    },
+    {
+      "id": 24461,
+      "label": "Plazo medio de las hipotecas constituidas · 24461",
+      "family": "Hipotecas",
+      "note": "Conserva el periodo, la unidad y las clasificaciones que publica el INE. La cobertura depende de la tabla."
+    },
+    {
+      "id": 3204,
+      "label": "Hipotecas constituidas sobre fincas urbanas por entidad que concede el préstamo · 3204",
+      "family": "Hipotecas",
+      "note": "Conserva el periodo, la unidad y las clasificaciones que publica el INE. La cobertura depende de la tabla."
+    },
+    {
+      "id": 3229,
+      "label": "Hipotecas por naturaleza de la finca (rústicas), meses, provincias, tramos de extensión y número e importe. · 3229",
+      "family": "Hipotecas",
+      "note": "Conserva el periodo, la unidad y las clasificaciones que publica el INE. La cobertura depende de la tabla."
+    },
+    {
+      "id": 13899,
+      "label": "Hipotecas constituidas sobre fincas urbanas por entidad que concede el préstamo · 13899",
+      "family": "Hipotecas",
+      "note": "Conserva el periodo, la unidad y las clasificaciones que publica el INE. La cobertura depende de la tabla.",
+      "unitDimension": true
+    },
+    {
+      "id": 76315,
+      "label": "Tipo de interés medio al inicio de las hipotecas constituidas · 76315",
+      "family": "Hipotecas",
+      "note": "Conserva el periodo, la unidad y las clasificaciones que publica el INE. La cobertura depende de la tabla."
+    },
+    {
+      "id": 3205,
+      "label": "Hipotecas con cambios registrales sobre el total de fincas por naturaleza de la finca · 3205",
+      "family": "Hipotecas",
+      "note": "Conserva el periodo, la unidad y las clasificaciones que publica el INE. La cobertura depende de la tabla."
+    },
+    {
+      "id": 3231,
+      "label": "Hipotecas por naturaleza de la finca (urbanas), meses, provincias, tramos de extensión y número e importe. · 3231",
+      "family": "Hipotecas",
+      "note": "Conserva el periodo, la unidad y las clasificaciones que publica el INE. La cobertura depende de la tabla."
+    },
+    {
+      "id": 13900,
+      "label": "Hipotecas con cambios registrales sobre el total de fincas por naturaleza de la finca · 13900",
+      "family": "Hipotecas",
+      "note": "Conserva el periodo, la unidad y las clasificaciones que publica el INE. La cobertura depende de la tabla."
+    },
+    {
+      "id": 76316,
+      "label": "Hipotecas constituidas sobre el total de fincas por naturaleza de la finca. Resultados nacionales y por comunidades autonomas. · 76316",
+      "family": "Hipotecas",
+      "note": "Conserva el periodo, la unidad y las clasificaciones que publica el INE. La cobertura depende de la tabla."
+    },
+    {
+      "id": 3206,
+      "label": "Hipotecas con cambios registrales sobre el total de fincas por tipo de cambio · 3206",
+      "family": "Hipotecas",
+      "note": "Conserva el periodo, la unidad y las clasificaciones que publica el INE. La cobertura depende de la tabla."
+    },
+    {
+      "id": 3232,
+      "label": "Hipotecas por naturaleza de la finca, meses, provincias y número e importe. · 3232",
+      "family": "Hipotecas",
+      "note": "Conserva el periodo, la unidad y las clasificaciones que publica el INE. La cobertura depende de la tabla."
+    },
+    {
+      "id": 13901,
+      "label": "Hipotecas con cambios registrales sobre el total de fincas por tipo de cambio · 13901",
+      "family": "Hipotecas",
+      "note": "Conserva el periodo, la unidad y las clasificaciones que publica el INE. La cobertura depende de la tabla."
+    },
+    {
+      "id": 76317,
+      "label": "Hipotecas constituidas sobre el total de fincas por naturaleza de la finca. Resultados nacionales y por provincias. · 76317",
+      "family": "Hipotecas",
+      "note": "Conserva el periodo, la unidad y las clasificaciones que publica el INE. La cobertura depende de la tabla."
+    },
+    {
+      "id": 3208,
+      "label": "Hipotecas canceladas registralmente sobre el total de fincas por naturaleza de la finca · 3208",
+      "family": "Hipotecas",
+      "note": "Conserva el periodo, la unidad y las clasificaciones que publica el INE. La cobertura depende de la tabla."
+    },
+    {
+      "id": 3233,
+      "label": "Hipotecas constituídas en fincas rústicas y urbanas por meses, provincias y número e importe. · 3233",
+      "family": "Hipotecas",
+      "note": "Conserva el periodo, la unidad y las clasificaciones que publica el INE. La cobertura depende de la tabla."
+    },
+    {
+      "id": 13902,
+      "label": "Hipotecas canceladas registralmente sobre el total de fincas por naturaleza de la finca · 13902",
+      "family": "Hipotecas",
+      "note": "Conserva el periodo, la unidad y las clasificaciones que publica el INE. La cobertura depende de la tabla."
+    },
+    {
+      "id": 76318,
+      "label": "Hipotecas constituidas sobre fincas urbanas por entidad que concede el préstamo · 76318",
+      "family": "Hipotecas",
+      "note": "Conserva el periodo, la unidad y las clasificaciones que publica el INE. La cobertura depende de la tabla."
+    },
+    {
+      "id": 3209,
+      "label": "Hipotecas canceladas registralmente sobre el total de fincas por naturaleza de la finca y entidad prestamista · 3209",
+      "family": "Hipotecas",
+      "note": "Conserva el periodo, la unidad y las clasificaciones que publica el INE. La cobertura depende de la tabla."
+    },
+    {
+      "id": 3234,
+      "label": "Hipotecas constituídas en bienes muebles por meses, provincias y número e importe. · 3234",
+      "family": "Hipotecas",
+      "note": "Conserva el periodo, la unidad y las clasificaciones que publica el INE. La cobertura depende de la tabla."
+    },
+    {
+      "id": 13903,
+      "label": "Hipotecas canceladas registralmente sobre el total de fincas por naturaleza de la finca y entidad prestamista · 13903",
+      "family": "Hipotecas",
+      "note": "Conserva el periodo, la unidad y las clasificaciones que publica el INE. La cobertura depende de la tabla."
+    },
+    {
+      "id": 76319,
+      "label": "Porcentaje de hipotecas constituidas según tipo de interés · 76319",
+      "family": "Hipotecas",
+      "note": "Conserva el periodo, la unidad y las clasificaciones que publica el INE. La cobertura depende de la tabla."
+    },
+    {
+      "id": 3235,
+      "label": "Hipotecas anuales por naturaleza de la finca, provincias, capital prestado y número e importe. · 3235",
+      "family": "Hipotecas",
+      "note": "Conserva el periodo, la unidad y las clasificaciones que publica el INE. La cobertura depende de la tabla."
+    },
+    {
+      "id": 3236,
+      "label": "Hipotecas anuales por naturaleza de la finca, provincias, interés del préstamo y número e importe. · 3236",
+      "family": "Hipotecas",
+      "note": "Conserva el periodo, la unidad y las clasificaciones que publica el INE. La cobertura depende de la tabla."
+    },
+    {
+      "id": 3237,
+      "label": "Hipotecas anuales por naturaleza de la finca (rústicas), provincias, tramos de extensión y número e importe. · 3237",
+      "family": "Hipotecas",
+      "note": "Conserva el periodo, la unidad y las clasificaciones que publica el INE. La cobertura depende de la tabla."
+    },
+    {
+      "id": 3238,
+      "label": "Hipotecas anuales por naturaleza de la finca (urbanas), provincias, tramos de extensión y número e importe. · 3238",
+      "family": "Hipotecas",
+      "note": "Conserva el periodo, la unidad y las clasificaciones que publica el INE. La cobertura depende de la tabla."
+    },
+    {
+      "id": 3239,
+      "label": "Hipotecas anuales por naturaleza de la finca, provincias, entidad que concede el préstamo y número e importe. · 3239",
+      "family": "Hipotecas",
+      "note": "Conserva el periodo, la unidad y las clasificaciones que publica el INE. La cobertura depende de la tabla."
+    },
+    {
+      "id": 3240,
+      "label": "Hipotecas anuales por naturaleza de la finca, provincias, duración en años y número e importe. · 3240",
+      "family": "Hipotecas",
+      "note": "Conserva el periodo, la unidad y las clasificaciones que publica el INE. La cobertura depende de la tabla."
+    },
+    {
+      "id": 3241,
+      "label": "Resumen anual de hipotecas por provincias, naturaleza de la finca y número e importe. · 3241",
+      "family": "Hipotecas",
+      "note": "Conserva el periodo, la unidad y las clasificaciones que publica el INE. La cobertura depende de la tabla."
+    },
+    {
+      "id": 3242,
+      "label": "Resumen anual de hipotecas por provincias, bienes muebles y número e importe. · 3242",
+      "family": "Hipotecas",
+      "note": "Conserva el periodo, la unidad y las clasificaciones que publica el INE. La cobertura depende de la tabla."
+    },
+    {
+      "id": 3216,
+      "label": "Hipotecas constituidas sobre el total de fincas por entidad que concede el préstamo · 3216",
+      "family": "Hipotecas",
+      "note": "Conserva el periodo, la unidad y las clasificaciones que publica el INE. La cobertura depende de la tabla."
+    },
+    {
+      "id": 3217,
+      "label": "Hipotecas constituidas sobre fincas rústicas por entidad que concede el préstamo · 3217",
+      "family": "Hipotecas",
+      "note": "Conserva el periodo, la unidad y las clasificaciones que publica el INE. La cobertura depende de la tabla."
+    },
+    {
+      "id": 3218,
+      "label": "Hipotecas constituidas sobre fincas urbanas por entidad que concede el préstamo · 3218",
+      "family": "Hipotecas",
+      "note": "Conserva el periodo, la unidad y las clasificaciones que publica el INE. La cobertura depende de la tabla."
+    },
+    {
+      "id": 3219,
+      "label": "Hipotecas con cambios registrales sobre el total de fincas por naturaleza de la finca · 3219",
+      "family": "Hipotecas",
+      "note": "Conserva el periodo, la unidad y las clasificaciones que publica el INE. La cobertura depende de la tabla."
+    },
+    {
+      "id": 3220,
+      "label": "Hipotecas con cambios registrales sobre el total de fincas por tipo de cambio · 3220",
+      "family": "Hipotecas",
+      "note": "Conserva el periodo, la unidad y las clasificaciones que publica el INE. La cobertura depende de la tabla."
+    },
+    {
+      "id": 3221,
+      "label": "Hipotecas canceladas registralmente sobre el total de fincas por naturaleza de la finca · 3221",
+      "family": "Hipotecas",
+      "note": "Conserva el periodo, la unidad y las clasificaciones que publica el INE. La cobertura depende de la tabla."
+    },
+    {
+      "id": 3222,
+      "label": "Hipotecas canceladas registralmente por provincias, naturaleza de la finca y entidad prestamista · 3222",
+      "family": "Hipotecas",
+      "note": "Conserva el periodo, la unidad y las clasificaciones que publica el INE. La cobertura depende de la tabla."
+    },
+    {
+      "id": 3223,
+      "label": "Hipotecas constituidas sobre el total de fincas por naturaleza de la finca. · 3223",
+      "family": "Hipotecas",
+      "note": "Conserva el periodo, la unidad y las clasificaciones que publica el INE. La cobertura depende de la tabla."
+    },
+    {
+      "id": 3224,
+      "label": "Hipotecas constituidas sobre el total de fincas por entidad que concede el préstamo · 3224",
+      "family": "Hipotecas",
+      "note": "Conserva el periodo, la unidad y las clasificaciones que publica el INE. La cobertura depende de la tabla."
+    },
+    {
+      "id": 3225,
+      "label": "Hipotecas con cambios registrales sobre el total de fincas por naturaleza de la finca · 3225",
+      "family": "Hipotecas",
+      "note": "Conserva el periodo, la unidad y las clasificaciones que publica el INE. La cobertura depende de la tabla."
+    },
+    {
+      "id": 3226,
+      "label": "Hipotecas con cambios registrales sobre el total de fincas por tipo de cambio · 3226",
+      "family": "Hipotecas",
+      "note": "Conserva el periodo, la unidad y las clasificaciones que publica el INE. La cobertura depende de la tabla."
+    },
+    {
+      "id": 3227,
+      "label": "Hipotecas canceladas registralmente sobre el total de fincas por naturaleza de la finca · 3227",
+      "family": "Hipotecas",
+      "note": "Conserva el periodo, la unidad y las clasificaciones que publica el INE. La cobertura depende de la tabla."
+    },
+    {
+      "id": 3228,
+      "label": "Hipotecas canceladas registralmente sobre el total de fincas por entidad que concede el préstamo y naturaleza de la finca · 3228",
+      "family": "Hipotecas",
+      "note": "Conserva el periodo, la unidad y las clasificaciones que publica el INE. La cobertura depende de la tabla."
+    },
+    {
+      "id": 10759,
+      "label": "Coeficientes de enlace base enero 1964 - diciembre 2011 · 10759",
+      "family": "Precios de materiales y mano de obra",
+      "note": "Conserva el periodo, la unidad y las clasificaciones que publica el INE. La cobertura depende de la tabla."
+    },
+    {
+      "id": 77209,
+      "label": "Índices de precios de materiales generales (base diciembre 2011) · 77209",
+      "family": "Precios de materiales y mano de obra",
+      "note": "Conserva el periodo, la unidad y las clasificaciones que publica el INE. La cobertura depende de la tabla."
+    },
+    {
+      "id": 8381,
+      "label": "Índices de precios de materiales generales (base diciembre 2011) · 8381",
+      "family": "Precios de materiales y mano de obra",
+      "note": "Conserva el periodo, la unidad y las clasificaciones que publica el INE. La cobertura depende de la tabla."
+    },
+    {
+      "id": 8382,
+      "label": "Índices de precios de materiales específicos (base diciembre 2011) · 8382",
+      "family": "Precios de materiales y mano de obra",
+      "note": "Conserva el periodo, la unidad y las clasificaciones que publica el INE. La cobertura depende de la tabla."
+    },
+    {
+      "id": 49298,
+      "label": "Índices de precios de materiales (base enero 1964) · 49298",
+      "family": "Precios de materiales y mano de obra",
+      "note": "Conserva el periodo, la unidad y las clasificaciones que publica el INE. La cobertura depende de la tabla."
+    },
+    {
+      "id": 8377,
+      "label": "Índice nacional de la mano de obra en construcción (base julio 1980) · 8377",
+      "family": "Precios de materiales y mano de obra",
+      "note": "Conserva el periodo, la unidad y las clasificaciones que publica el INE. La cobertura depende de la tabla."
+    },
+    {
+      "id": 8378,
+      "label": "Índices de precios de materiales (base enero 1964) · 8378",
+      "family": "Precios de materiales y mano de obra",
+      "note": "Conserva el periodo, la unidad y las clasificaciones que publica el INE. La cobertura depende de la tabla."
+    },
+    {
+      "id": 7709,
+      "label": "Ejecuciones hipotecarias iniciadas e inscritas en los registros de la propiedad sobre fincas rústicas y urbanas · 7709",
+      "family": "Ejecuciones hipotecarias",
+      "note": "Conserva el periodo, la unidad y las clasificaciones que publica el INE. La cobertura depende de la tabla."
+    },
+    {
+      "id": 7711,
+      "label": "Viviendas con ejecución hipotecaria iniciada según estado de la vivienda · 7711",
+      "family": "Ejecuciones hipotecarias",
+      "note": "Conserva el periodo, la unidad y las clasificaciones que publica el INE. La cobertura depende de la tabla."
+    },
+    {
+      "id": 10739,
+      "label": "Ejecuciones hipotecarias iniciadas e inscritas en los registros de la propiedad sobre fincas rústicas y urbanas por comunidad autónoma · 10739",
+      "family": "Ejecuciones hipotecarias",
+      "note": "Conserva el periodo, la unidad y las clasificaciones que publica el INE. La cobertura depende de la tabla."
+    },
+    {
+      "id": 10740,
+      "label": "Viviendas con ejecución hipotecaria iniciada según estado de la vivienda por comunidad autónoma · 10740",
+      "family": "Ejecuciones hipotecarias",
+      "note": "Conserva el periodo, la unidad y las clasificaciones que publica el INE. La cobertura depende de la tabla.",
+      "unitDimension": true
+    },
+    {
+      "id": 24468,
+      "label": "Viviendas habituales de personas físicas con ejecución hipotecaria. Total nacional · 24468",
+      "family": "Ejecuciones hipotecarias",
+      "note": "Conserva el periodo, la unidad y las clasificaciones que publica el INE. La cobertura depende de la tabla."
+    },
+    {
+      "id": 49281,
+      "label": "Ejecuciones hipotecarias iniciadas e inscritas en los registros de la propiedad sobre fincas rústicas y urbanas por comunidades y ciudades autónomas · 49281",
+      "family": "Ejecuciones hipotecarias",
+      "note": "Conserva el periodo, la unidad y las clasificaciones que publica el INE. La cobertura depende de la tabla."
+    },
+    {
+      "id": 7712,
+      "label": "Viviendas con ejecución hipotecaria iniciada según titular de la vivienda · 7712",
+      "family": "Ejecuciones hipotecarias",
+      "note": "Conserva el periodo, la unidad y las clasificaciones que publica el INE. La cobertura depende de la tabla."
+    },
+    {
+      "id": 10743,
+      "label": "Ejecuciones hipotecarias iniciadas e inscritas en los registros de la propiedad sobre fincas rústicas y urbanas por provincia · 10743",
+      "family": "Ejecuciones hipotecarias",
+      "note": "Conserva el periodo, la unidad y las clasificaciones que publica el INE. La cobertura depende de la tabla.",
+      "unitDimension": true
+    },
+    {
+      "id": 10744,
+      "label": "Viviendas con ejecución hipotecaria iniciada según estado de la vivienda por provincia · 10744",
+      "family": "Ejecuciones hipotecarias",
+      "note": "Conserva el periodo, la unidad y las clasificaciones que publica el INE. La cobertura depende de la tabla."
+    },
+    {
+      "id": 76197,
+      "label": "Ejecuciones hipotecarias iniciadas e inscritas en los registros de la propiedad sobre fincas rústicas y urbanas por provincia · 76197",
+      "family": "Ejecuciones hipotecarias",
+      "note": "Conserva el periodo, la unidad y las clasificaciones que publica el INE. La cobertura depende de la tabla.",
+      "unitDimension": true
+    },
+    {
+      "id": 10741,
+      "label": "Viviviendas con ejecución hipotecaria iniciada según titular de la vivienda por comunidad autónoma · 10741",
+      "family": "Ejecuciones hipotecarias",
+      "note": "Conserva el periodo, la unidad y las clasificaciones que publica el INE. La cobertura depende de la tabla."
+    },
+    {
+      "id": 10745,
+      "label": "Viviviendas con ejecución hipotecaria iniciada según titular de la vivienda por provincia · 10745",
+      "family": "Ejecuciones hipotecarias",
+      "note": "Conserva el periodo, la unidad y las clasificaciones que publica el INE. La cobertura depende de la tabla.",
+      "unitDimension": true
+    },
+    {
+      "id": 76198,
+      "label": "Ejecuciones hipotecarias iniciadas e inscritas en los registros de la propiedad sobre fincas rústicas y urbanas · 76198",
+      "family": "Ejecuciones hipotecarias",
+      "note": "Conserva el periodo, la unidad y las clasificaciones que publica el INE. La cobertura depende de la tabla."
+    },
+    {
+      "id": 76199,
+      "label": "Viviendas con ejecución hipotecaria iniciada según estado de la vivienda · 76199",
+      "family": "Ejecuciones hipotecarias",
+      "note": "Conserva el periodo, la unidad y las clasificaciones que publica el INE. La cobertura depende de la tabla."
+    },
+    {
+      "id": 76200,
+      "label": "Viviendas con ejecución hipotecaria iniciada según titular de la vivienda · 76200",
+      "family": "Ejecuciones hipotecarias",
+      "note": "Conserva el periodo, la unidad y las clasificaciones que publica el INE. La cobertura depende de la tabla."
+    },
+    {
+      "id": 39364,
+      "label": "Viviendas turísticas, plazas y plazas por vivienda turística. Total nacional, comunidades autónomas y provincias · 39364",
+      "family": "Viviendas turísticas",
+      "note": "Conserva el periodo, la unidad y las clasificaciones que publica el INE. La cobertura depende de la tabla."
+    },
+    {
+      "id": 46141,
+      "label": "Viviendas turísticas, plazas, plazas por vivienda turística y porcentaje de viviendas turísticas sobre el total de viviendas censadas en 2011. Total nacional, comunidades autónomas y provincias · 46141",
+      "family": "Viviendas turísticas",
+      "note": "Conserva el periodo, la unidad y las clasificaciones que publica el INE. La cobertura depende de la tabla."
+    },
+    {
+      "id": 39363,
+      "label": "Viviendas turísticas, plazas y plazas por vivienda turística. Municipios · 39363",
+      "family": "Viviendas turísticas",
+      "note": "Conserva el periodo, la unidad y las clasificaciones que publica el INE. La cobertura depende de la tabla."
+    },
+    {
+      "id": 39365,
+      "label": "Porcentaje de viviendas turísticas sobre el total de viviendas censadas. Total nacional, comunidades autónomas y provincias · 39365",
+      "family": "Viviendas turísticas",
+      "note": "Conserva el periodo, la unidad y las clasificaciones que publica el INE. La cobertura depende de la tabla."
+    },
+    {
+      "id": 39366,
+      "label": "Porcentaje de viviendas turísticas sobre el total de viviendas censadas. Municipios · 39366",
+      "family": "Viviendas turísticas",
+      "note": "Conserva el periodo, la unidad y las clasificaciones que publica el INE. La cobertura depende de la tabla."
+    },
+    {
+      "id": 59056,
+      "label": "Índices nacionales y por comunidades autónomas: general y por tipo de edificación · 59056",
+      "family": "Precios de alquiler · IPVA",
+      "note": "Conserva el periodo, la unidad y las clasificaciones que publica el INE. La cobertura depende de la tabla."
+    },
+    {
+      "id": 59058,
+      "label": "Índices provinciales: general y por tipo de edificación · 59058",
+      "family": "Precios de alquiler · IPVA",
+      "note": "Conserva el periodo, la unidad y las clasificaciones que publica el INE. La cobertura depende de la tabla."
+    },
+    {
+      "id": 59060,
+      "label": "Índices por municipio (municipios mayores de 10.000 habitantes) · 59060",
+      "family": "Precios de alquiler · IPVA",
+      "note": "Conserva el periodo, la unidad y las clasificaciones que publica el INE. La cobertura depende de la tabla."
+    },
+    {
+      "id": 59062,
+      "label": "Ponderaciones nacionales por tipo de edificación · 59062",
+      "family": "Precios de alquiler · IPVA",
+      "note": "Conserva el periodo, la unidad y las clasificaciones que publica el INE. La cobertura depende de la tabla."
+    },
+    {
+      "id": 59064,
+      "label": "Ponderaciones en cada comunidad autónoma por tipo de edificación · 59064",
+      "family": "Precios de alquiler · IPVA",
+      "note": "Conserva el periodo, la unidad y las clasificaciones que publica el INE. La cobertura depende de la tabla."
+    },
+    {
+      "id": 59066,
+      "label": "Ponderaciones provinciales por tipo de edificación · 59066",
+      "family": "Precios de alquiler · IPVA",
+      "note": "Conserva el periodo, la unidad y las clasificaciones que publica el INE. La cobertura depende de la tabla."
+    },
+    {
+      "id": 59057,
+      "label": "Índices nacionales y por comunidades autónomas: general y por tamaño de la vivienda · 59057",
+      "family": "Precios de alquiler · IPVA",
+      "note": "Conserva el periodo, la unidad y las clasificaciones que publica el INE. La cobertura depende de la tabla."
+    },
+    {
+      "id": 59059,
+      "label": "Índices provinciales: general y por tamaño de la vivienda · 59059",
+      "family": "Precios de alquiler · IPVA",
+      "note": "Conserva el periodo, la unidad y las clasificaciones que publica el INE. La cobertura depende de la tabla."
+    },
+    {
+      "id": 59061,
+      "label": "Índices por distritos de municipios capitales de provincia · 59061",
+      "family": "Precios de alquiler · IPVA",
+      "note": "Conserva el periodo, la unidad y las clasificaciones que publica el INE. La cobertura depende de la tabla."
+    },
+    {
+      "id": 59063,
+      "label": "Ponderaciones nacionales por tamaño de la vivienda · 59063",
+      "family": "Precios de alquiler · IPVA",
+      "note": "Conserva el periodo, la unidad y las clasificaciones que publica el INE. La cobertura depende de la tabla."
+    },
+    {
+      "id": 59065,
+      "label": "Ponderaciones en cada comunidad autónoma por tamaño de la vivienda · 59065",
+      "family": "Precios de alquiler · IPVA",
+      "note": "Conserva el periodo, la unidad y las clasificaciones que publica el INE. La cobertura depende de la tabla."
+    },
+    {
+      "id": 59067,
+      "label": "Ponderaciones provinciales por tamaño de la vivienda · 59067",
+      "family": "Precios de alquiler · IPVA",
+      "note": "Conserva el periodo, la unidad y las clasificaciones que publica el INE. La cobertura depende de la tabla."
+    },
+    {
+      "id": 50015,
+      "label": "Ponderaciones nacionales por comunidad autónoma · 50015",
+      "family": "Precios de alquiler · IPVA",
+      "note": "Conserva el periodo, la unidad y las clasificaciones que publica el INE. La cobertura depende de la tabla."
+    },
+    {
+      "id": 59004,
+      "label": "Índices nacionales y por comunidades autónomas: general y por antigüedad de contrato · 59004",
+      "family": "Precios de alquiler · IPVA",
+      "note": "Conserva el periodo, la unidad y las clasificaciones que publica el INE. La cobertura depende de la tabla."
+    },
+    {
+      "id": 59005,
+      "label": "Índices provinciales: general y por antigüedad de contrato · 59005",
+      "family": "Precios de alquiler · IPVA",
+      "note": "Conserva el periodo, la unidad y las clasificaciones que publica el INE. La cobertura depende de la tabla."
+    },
+    {
+      "id": 59009,
+      "label": "Ponderaciones en cada comunidad autónoma por antigüedad de contrato · 59009",
+      "family": "Precios de alquiler · IPVA",
+      "note": "Conserva el periodo, la unidad y las clasificaciones que publica el INE. La cobertura depende de la tabla."
+    },
+    {
+      "id": 59010,
+      "label": "Ponderaciones provinciales por antigüedad de contrato · 59010",
+      "family": "Precios de alquiler · IPVA",
+      "note": "Conserva el periodo, la unidad y las clasificaciones que publica el INE. La cobertura depende de la tabla."
+    },
+    {
+      "id": 50016,
+      "label": "Ponderaciones nacionales por provincia · 50016",
+      "family": "Precios de alquiler · IPVA",
+      "note": "Conserva el periodo, la unidad y las clasificaciones que publica el INE. La cobertura depende de la tabla."
+    },
+    {
+      "id": 50083,
+      "label": "Ponderaciones nacionales por municipio · 50083",
+      "family": "Precios de alquiler · IPVA",
+      "note": "Conserva el periodo, la unidad y las clasificaciones que publica el INE. La cobertura depende de la tabla."
+    },
+    {
+      "id": 59008,
+      "label": "Ponderaciones nacionales por antigüedad de contrato · 59008",
+      "family": "Precios de alquiler · IPVA",
+      "note": "Conserva el periodo, la unidad y las clasificaciones que publica el INE. La cobertura depende de la tabla."
+    },
+    {
+      "id": 80334,
+      "label": "Principales magnitudes según actividad principal (CNAE-2009 a 1, 2, 3 y 4 dígitos) · 80334",
+      "family": "Empresas del sector de la construcción",
+      "note": "Conserva el periodo, la unidad y las clasificaciones que publica el INE. La cobertura depende de la tabla.",
+      "cnaeSections": true
+    },
+    {
+      "id": 79842,
+      "label": "Principales magnitudes según actividad principal (CNAE-2009 a 1, 2, 3 y 4 dígitos) · 79842",
+      "family": "Empresas del sector de la construcción",
+      "note": "Conserva el periodo, la unidad y las clasificaciones que publica el INE. La cobertura depende de la tabla.",
+      "cnaeSections": true
+    },
+    {
+      "id": 79845,
+      "label": "Principales indicadores según actividad principal (CNAE-2009 a 1, 2, 3 y 4 dígitos) · 79845",
+      "family": "Empresas del sector de la construcción",
+      "note": "Conserva el periodo, la unidad y las clasificaciones que publica el INE. La cobertura depende de la tabla.",
+      "cnaeSections": true
+    },
+    {
+      "id": 79847,
+      "label": "Resultados de explotación según actividad principal (CNAE-2009 a 1, 2 y 3 dígitos) · 79847",
+      "family": "Empresas del sector de la construcción",
+      "note": "Conserva el periodo, la unidad y las clasificaciones que publica el INE. La cobertura depende de la tabla.",
+      "cnaeSections": true
+    },
+    {
+      "id": 79848,
+      "label": "Inversión según actividad principal (CNAE-2009 a 1, 2, 3 y 4 dígitos) · 79848",
+      "family": "Empresas del sector de la construcción",
+      "note": "Conserva el periodo, la unidad y las clasificaciones que publica el INE. La cobertura depende de la tabla.",
+      "cnaeSections": true
+    },
+    {
+      "id": 79849,
+      "label": "Desglose de la cifra de negocios por destino geográfico de las ventas, según actividad principal (CNAE-2009 a 1, 2 y 3 dígitos) · 79849",
+      "family": "Empresas del sector de la construcción",
+      "note": "Conserva el periodo, la unidad y las clasificaciones que publica el INE. La cobertura depende de la tabla.",
+      "cnaeSections": true
+    },
+    {
+      "id": 79851,
+      "label": "Magnitudes regionalizadas según comunidades y ciudades autónomas y actividad principal  (CNAE-2009 a 1 y 2 dígitos) · 79851",
+      "family": "Empresas del sector de la construcción",
+      "note": "Conserva el periodo, la unidad y las clasificaciones que publica el INE. La cobertura depende de la tabla.",
+      "cnaeSections": true
+    },
+    {
+      "id": 79852,
+      "label": "Errores de muestreo según actividad principal (CNAE-2009 a 1, 2, 3 y 4 dígitos) · 79852",
+      "family": "Empresas del sector de la construcción",
+      "note": "Conserva el periodo, la unidad y las clasificaciones que publica el INE. La cobertura depende de la tabla.",
+      "cnaeSections": true
+    },
+    {
+      "id": 80335,
+      "label": "Principales indicadores según actividad principal (CNAE-2009 a 1, 2, 3 y 4 dígitos) · 80335",
+      "family": "Empresas del sector de la construcción",
+      "note": "Conserva el periodo, la unidad y las clasificaciones que publica el INE. La cobertura depende de la tabla.",
+      "cnaeSections": true
+    },
+    {
+      "id": 79843,
+      "label": "Principales magnitudes según actividad principal (CNAE-2009 a 1, 2  y 3 dígitos )  y tamaño (por personal ocupado) · 79843",
+      "family": "Empresas del sector de la construcción",
+      "note": "Conserva el periodo, la unidad y las clasificaciones que publica el INE. La cobertura depende de la tabla.",
+      "cnaeSections": true
+    },
+    {
+      "id": 79846,
+      "label": "Principales indicadores según actividad principal (CNAE-2009 a 1, 2  y 3 dígitos )  y tamaño (por personal ocupado) · 79846",
+      "family": "Empresas del sector de la construcción",
+      "note": "Conserva el periodo, la unidad y las clasificaciones que publica el INE. La cobertura depende de la tabla.",
+      "cnaeSections": true
+    },
+    {
+      "id": 79850,
+      "label": "Desglose de los gastos en servicios exteriores según actividad principal (CNAE-2009 a 1 y 2 dígitos) · 79850",
+      "family": "Empresas del sector de la construcción",
+      "note": "Conserva el periodo, la unidad y las clasificaciones que publica el INE. La cobertura depende de la tabla.",
+      "cnaeSections": true
+    },
+    {
+      "id": 79853,
+      "label": "Errores de muestreo según comunidades y ciudades autónomas y actividad principal  (CNAE-2009 a 1 y 2 dígitos) · 79853",
+      "family": "Empresas del sector de la construcción",
+      "note": "Conserva el periodo, la unidad y las clasificaciones que publica el INE. La cobertura depende de la tabla.",
+      "cnaeSections": true
+    },
+    {
+      "id": 80336,
+      "label": "Magnitudes regionalizadas según comunidades y ciudades autónomas y actividad principal  (CNAE-2009 a 1 y 2 dígitos) · 80336",
+      "family": "Empresas del sector de la construcción",
+      "note": "Conserva el periodo, la unidad y las clasificaciones que publica el INE. La cobertura depende de la tabla.",
+      "cnaeSections": true
+    },
+    {
+      "id": 80337,
+      "label": "Principales magnitudes según actividad principal (CNAE-2009 a 1, 2  y 3 dígitos )  y tamaño (por personal ocupado) · 80337",
+      "family": "Empresas del sector de la construcción",
+      "note": "Conserva el periodo, la unidad y las clasificaciones que publica el INE. La cobertura depende de la tabla.",
+      "cnaeSections": true
+    },
+    {
+      "id": 80338,
+      "label": "Desglose de la cifra de negocios por destino geográfico de las ventas, según actividad principal (CNAE-2009 a 1, 2 y 3 dígitos) · 80338",
+      "family": "Empresas del sector de la construcción",
+      "note": "Conserva el periodo, la unidad y las clasificaciones que publica el INE. La cobertura depende de la tabla.",
+      "cnaeSections": true
+    },
+    {
+      "id": 72975,
+      "label": "Índice de Referencia de Arrendamientos de Vivienda · 72975",
+      "family": "Referencia para actualizar alquileres · IRAV",
+      "note": "Conserva el periodo, la unidad y las clasificaciones que publica el INE. La cobertura depende de la tabla."
+    },
+    {
+      "id": 75486,
+      "label": "Índices nacionales: general y por divisiones · 75486",
+      "family": "Producción de la construcción",
+      "note": "Conserva el periodo, la unidad y las clasificaciones que publica el INE. La cobertura depende de la tabla."
+    },
+    {
+      "id": 75487,
+      "label": "Índices nacionales: general y por divisiones · 75487",
+      "family": "Producción de la construcción",
+      "note": "Conserva el periodo, la unidad y las clasificaciones que publica el INE. La cobertura depende de la tabla."
+    },
+    {
+      "id": 75488,
+      "label": "Índices nacionales: general y por divisiones · 75488",
+      "family": "Producción de la construcción",
+      "note": "Conserva el periodo, la unidad y las clasificaciones que publica el INE. La cobertura depende de la tabla."
+    },
+    {
+      "id": 75489,
+      "label": "Coeficiente de variación de la tasa anual del índice general · 75489",
+      "family": "Producción de la construcción",
+      "note": "Conserva el periodo, la unidad y las clasificaciones que publica el INE. La cobertura depende de la tabla."
+    },
+    {
+      "id": 79192,
+      "label": "Índices nacionales: general y por divisiones · 79192",
+      "family": "Producción de la construcción",
+      "note": "Conserva el periodo, la unidad y las clasificaciones que publica el INE. La cobertura depende de la tabla."
+    },
+    {
+      "id": 79681,
+      "label": "Índices nacionales: general y por divisiones · 79681",
+      "family": "Producción de la construcción",
+      "note": "Conserva el periodo, la unidad y las clasificaciones que publica el INE. La cobertura depende de la tabla."
+    },
+    {
+      "id": 79682,
+      "label": "Índices nacionales: general y por divisiones corregidos de efectos de calendario (Base 2021) · 79682",
+      "family": "Producción de la construcción",
+      "note": "Conserva el periodo, la unidad y las clasificaciones que publica el INE. La cobertura depende de la tabla."
+    },
+    {
+      "id": 79683,
+      "label": "Índices nacionales: general y por divisiones corregidos de efectos estacionales y de calendario (Base 2021) · 79683",
+      "family": "Producción de la construcción",
+      "note": "Conserva el periodo, la unidad y las clasificaciones que publica el INE. La cobertura depende de la tabla."
+    },
+    {
+      "id": 79684,
+      "label": "Coeficiente de variación de la tasa anual del índice general · 79684",
+      "family": "Producción de la construcción",
+      "note": "Conserva el periodo, la unidad y las clasificaciones que publica el INE. La cobertura depende de la tabla."
+    },
+    {
+      "id": 59531,
+      "label": "Viviendas según su intensidad de uso · Censo 2021",
+      "family": "Censo 2021 · Intensidad de uso",
+      "fixedPeriod": "2021",
+      "sourceUrl": "https://www.ine.es/jaxiPx/Tabla.htm?tpx=59531",
+      "note": "La intensidad de uso se estima con el consumo eléctrico. Los grupos de resto provincial pueden consultarse como series sin polígono propio.",
+      "unitsByPublishedLabel": {
+        "Mediana consumo anual": "kWh"
+      },
+      "defaultUnit": "viviendas"
+    },
+    {
+      "id": 59532,
+      "label": "Indicadores de distribución de consumo eléctrico · Censo 2021",
+      "family": "Censo 2021 · Intensidad de uso",
+      "fixedPeriod": "2021",
+      "sourceUrl": "https://www.ine.es/jaxiPx/Tabla.htm?tpx=59532",
+      "note": "La intensidad de uso se estima con el consumo eléctrico. Los grupos de resto provincial pueden consultarse como series sin polígono propio.",
+      "fixedUnit": "kWh"
+    }
+  ],
+  "excluded": {
+    "1315": "Aplicación censal interactiva ¿A cuántos me parezco?, relativa a perfiles de población. Las dos tablas de viviendas de esta operación están disponibles en F06.",
+    "48678": "La tabla mide precios de componentes del transporte de viajeros por carretera. Su destino temático es Transporte y movilidad (F22)."
+  },
+  "additionalTables": {
+    "8": [
+      {
+        "Id": 59531,
+        "Nombre": "Viviendas según su intensidad de uso",
+        "sourceUrl": "https://www.ine.es/jaxiPx/Tabla.htm?tpx=59531"
+      },
+      {
+        "Id": 59532,
+        "Nombre": "Indicadores de distribución de consumo eléctrico",
+        "sourceUrl": "https://www.ine.es/jaxiPx/Tabla.htm?tpx=59532"
+      }
+    ]
+  }
+}

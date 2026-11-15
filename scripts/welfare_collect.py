@@ -9,6 +9,7 @@ import codecs
 import gzip
 import json
 import math
+import re
 import os
 import sqlite3
 import tempfile
@@ -20,16 +21,19 @@ OUT=ROOT/'datos/renta/ine'
 CONFIG=json.loads((ROOT/'registry/welfare-tables.json').read_text(encoding='utf-8'))
 core.CONFIG=CONFIG
 core.CACHE=ROOT/'.cache/f03'
-GEO={**core.GEO_HEADERS,'distritos':'district','secciones':'section','comunidad autonoma de residencia':'community','ambito geografico':'national','totales territoriales':'national'}
+GEO={**core.GEO_HEADERS,'distritos':'district','secciones':'section','comunidad autonoma de residencia':'community','ambito geografico':'national','totales territoriales':'national','zonas geograficas de espana':'unlocated'}
 NAMES={'SALDOS CONTABLES':'Indicador','Indicadores de renta media':'Indicador','Indicadores de renta media y mediana':'Indicador','Semiintervalos de edad':'Grupos de edad'}
 
 def area(meta):
     candidates=[(GEO[core.norm(m['T3_Variable'])],m) for m in meta if core.norm(m['T3_Variable']) in GEO]
     if not candidates:return {'id':'national:ES','level':'national','code':'ES','name':'España'}
-    rank={'national':0,'community':1,'province':2,'island':3,'municipal':4,'district':5,'section':6}
+    rank={'national':0,'community':1,'province':2,'island':3,'municipal':4,'district':5,'section':6,'unlocated':1}
     level,m=max(candidates,key=lambda c:rank[c[0]])
     name=m['Nombre'];code=str(m.get('Codigo') or '').strip()
+    if level=='unlocated':return {'id':'unlocated:'+name,'level':'unlocated','code':name,'name':name}
     if core.norm(name) in ['total','total nacional','espana','total comunidades autonomas'] or code=='00':return {'id':'national:ES','level':'national','code':'ES','name':'España'}
+    if core.norm(name) in {'ceuta y melilla','peninsula y baleares'} and not code:
+        return {'id':'unlocated:'+name,'level':'unlocated','code':name,'name':name}
     if not code:code=core.GEO_NAMES.get((level,core.norm(name)))
     if not code and level=='island':code=name
     if not code:raise ValueError('Unresolved geography '+repr(m))
@@ -92,6 +96,15 @@ def build_group(config,table_ids,metadata,recover_rows=None,output=OUT):
     db=sqlite3.connect(dbpath);db.execute('PRAGMA journal_mode=OFF');db.execute('PRAGMA synchronous=OFF')
     db.execute('CREATE TABLE observations (g INTEGER,p INTEGER,d TEXT,v REAL,status TEXT,src INTEGER,unit TEXT,PRIMARY KEY(g,p,d)) WITHOUT ROWID')
     territories=[];geo_ids={};periods=[];period_ids={};dimension_names=None;dimensions=[];dim_ids=[];sources=[];raw_rows=0;duplicates=0;combinations={};aliases={}
+    def is_geo(m):
+        name=core.norm(m['T3_Variable'])
+        return name in GEO and not (config.get('cnaeSections') and name=='secciones')
+
+    def series_unit(series):
+        unit=str(series.get('T3_Unidad') or 'Sin unidad publicada').strip()
+        scale=str(series.get('T3_Escala') or '').strip()
+        return scale+' · '+unit if scale and core.norm(scale) not in ['unidades','unidad'] else unit
+
     with concurrent.futures.ThreadPoolExecutor(max_workers=3) as pool:
         # A bounded batch avoids retaining every downloaded table in memory.
         if config.get('preserveMissingDimensions'):
@@ -100,8 +113,9 @@ def build_group(config,table_ids,metadata,recover_rows=None,output=OUT):
                 for series in iter_series(path):
                     for m in series.get('MetaData', []):
                         n = m['T3_Variable'].strip()
-                        if core.norm(n) not in GEO:
+                        if not is_geo(m):
                             names[NAMES.get(n, n)] = None
+            if config.get('unitDimension'):names['Unidad publicada']=None
             dimension_names = list(names)
             dimensions = [{'name': n, 'values': []} for n in dimension_names]
             dim_ids = [{} for _ in dimension_names]
@@ -112,11 +126,11 @@ def build_group(config,table_ids,metadata,recover_rows=None,output=OUT):
                 for s in iter_series(path):
                     series_count+=1
                     meta=s.get('MetaData',[]);assert meta,(input_id,'Missing metadata')
-                    a=area(meta)
+                    a=area([m for m in meta if is_geo(m)])
                     if a['id'] not in geo_ids:geo_ids[a['id']]=len(territories);territories.append({**a,'sourceTableIds':[]})
                     g=geo_ids[a['id']]
                     if input_id not in territories[g]['sourceTableIds']:territories[g]['sourceTableIds'].append(input_id)
-                    non_geo=[m for m in meta if core.norm(m['T3_Variable']) not in GEO]
+                    non_geo=[m for m in meta if not is_geo(m)]
                     def dimension_name(m):
                         name=m['T3_Variable'].strip()
                         if name in config.get('dimensionNames', {}):
@@ -137,6 +151,9 @@ def build_group(config,table_ids,metadata,recover_rows=None,output=OUT):
                         return aliases.get(name,name)
                     pairs={dimension_name(m):m['Nombre'] for m in non_geo}
                     assert len(pairs)==len(non_geo),(input_id,'Conflicting dimension aliases')
+                    unit=(config.get('fixedUnit') or config.get('unitsByPublishedLabel',{}).get(pairs.get('Consumo eléctrico'))
+                          or config.get('defaultUnit') or series_unit(s))
+                    if config.get('unitDimension'):pairs['Unidad publicada']=unit
                     if dimension_names is None:
                         dimension_names=list(pairs);dimensions=[{'name':n,'values':[]} for n in dimension_names];dim_ids=[{} for _ in dimension_names]
                     if not config.get('preserveMissingDimensions') and set(pairs)!=set(dimension_names):
@@ -165,17 +182,19 @@ def build_group(config,table_ids,metadata,recover_rows=None,output=OUT):
                         if value not in dim_ids[i]:dim_ids[i][value]=len(dimensions[i]['values']);dimensions[i]['values'].append(value)
                         ds.append(dim_ids[i][value])
                     signature=core.encode(ds).decode()
-                    unit=str(s.get('T3_Unidad') or 'Sin unidad publicada').strip();scale=str(s.get('T3_Escala') or '').strip()
-                    if scale and core.norm(scale) not in ['unidades','unidad']:unit=scale+' · '+unit
                     labels=tuple(pairs[n] for n in dimension_names)
                     assert labels not in combinations or combinations[labels]==unit,(tid,'Ambiguous unit',labels,unit)
                     combinations[labels]=unit
                     for datum in s.get('Data',[]):
-                        period=datum['T3_Periodo']
-                        key=str(datum['Anyo'])
-                        if period not in ('A','Anual'):
-                            assert period in ('T1','T2','T3','T4'),(tid,'Unknown period',datum)
-                            key+=period
+                        if config.get('fixedPeriod'):
+                            key=config['fixedPeriod']
+                            assert 'Anyo' not in datum or str(datum['Anyo'])==key,(tid,'Unexpected published year',datum)
+                        else:
+                            period=datum['T3_Periodo']
+                            key=str(datum['Anyo'])
+                            if period not in ('A','Anual'):
+                                assert re.fullmatch(r'T[1-4]|M(?:0[1-9]|1[0-2])', period),(tid,'Unknown period',datum)
+                                key+=period
                         label=key
                         if config.get('incomeOffset') is not None:label+=f" · ingresos de {int(key)+config['incomeOffset']}"
                         if key not in period_ids:period_ids[key]=len(periods);periods.append({'id':key,'label':label})
@@ -210,7 +229,7 @@ def build_group(config,table_ids,metadata,recover_rows=None,output=OUT):
         handle.write(b']}');handle.close();path=output/filename;data=path.read_bytes()
         shards.append({'id':part,'file':filename,'rows':counts[part],'bytes':len(data),'sha256':core.sha(data),'contentSha256':core.content_sha(path)})
     db.close();dbpath.unlink(missing_ok=True);assert counts,(tid,'No observations')
-    result={**config,'title':metadata[tid]['Nombre'],'unit':unit,'unitsByConditions':rules,'dimensionAliases':aliases,'sourceUrl':f'https://www.ine.es/jaxiT3/Tabla.htm?t={tid}','downloadUrl':sources[0]['url'],'license':'CC BY 4.0 · INE','rows':sum(counts.values()),'rawRows':raw_rows,'duplicateRows':duplicates,'dimensions':dimensions,'periods':periods,'territories':territories,'shards':shards,'sourceTables':sources,'missingTokens':{},'publisher':'INE'}
+    result={**config,'title':metadata[tid]['Nombre'],'unit':unit,'unitsByConditions':rules,'dimensionAliases':aliases,'sourceUrl':config.get('sourceUrl') or f'https://www.ine.es/jaxiT3/Tabla.htm?t={tid}','downloadUrl':sources[0]['url'],'license':'CC BY 4.0 · INE','rows':sum(counts.values()),'rawRows':raw_rows,'duplicateRows':duplicates,'dimensions':dimensions,'periods':periods,'territories':territories,'shards':shards,'sourceTables':sources,'missingTokens':{},'publisher':'INE'}
     print(f'{output.name} group {tid}: {result["rows"]:,} observations / {len(territories):,} areas',flush=True)
     return result
 

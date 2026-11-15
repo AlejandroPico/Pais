@@ -17,6 +17,7 @@ const statisticsConfig={
   demography:{folder:'poblacion/ine',prefix:'f02',urlPrefix:'',legend:'Leyenda demográfica',timeline:'Evolución demográfica',toggle:'Representar datos demográficos'},
   welfare:{folder:'renta/ine',prefix:'f03',urlPrefix:'w',legend:'Leyenda de renta y condiciones de vida',timeline:'Evolución de renta y condiciones de vida',toggle:'Representar renta y condiciones de vida'},
   labor:{folder:'trabajo/ine',prefix:'f04',urlPrefix:'l',legend:'Leyenda de empleo y salarios',timeline:'Evolución de empleo y salarios',toggle:'Representar datos de empleo y salarios'},
+  housing:{folder:'vivienda/ine',prefix:'f06',urlPrefix:'h',legend:'Leyenda de vivienda y suelo',timeline:'Evolución de vivienda y suelo',toggle:'Representar vivienda y suelo'},
   care:{folder:'cuidados/ine',prefix:'f05',urlPrefix:'c',legend:'Leyenda de cuidados y protección social',timeline:'Evolución de cuidados y protección social',toggle:'Representar cuidados y protección social'},
 } as const;
 export type StatisticsKind=keyof typeof statisticsConfig;
@@ -31,7 +32,7 @@ export class DemographyController{
   constructor(private options:Options,private kind:StatisticsKind,params:URLSearchParams){
     this.hash=new URLSearchParams(params);
     const config=statisticsConfig[kind];
-    const requestedKind=(['labor','welfare','demography','care'] as const).find(key=>this.hash.get(key));
+    const requestedKind=(['labor','welfare','demography','care','housing'] as const).find(key=>this.hash.get(key));
     if(requestedKind!==kind)this.hash.delete(kind);
     this.legend.className='legend demography-legend';
     this.legend.hidden=true;
@@ -57,7 +58,7 @@ export class DemographyController{
 
   private async loadIndex(){
     return this.indexPromise??=(async()=>{
-      const compact=this.kind==='demography'||this.kind==='welfare';
+      const compact=this.kind==='demography'||this.kind==='welfare'||this.kind==='housing';
       const response=await fetch(this.dataRoot()+(compact?'viewer.json.gz':'index.json'));
       if(!response.ok)throw new Error('No se pudo cargar el catálogo estadístico.');
       let index:DemographicIndex;
@@ -76,11 +77,13 @@ export class DemographyController{
         index=await response.json() as DemographicIndex;
       }
       const externalSources=this.kind==='labor'?['trabajo/sepe/sepe.json','trabajo/seguridad-social/index.json']
-        :this.kind==='welfare'?['renta/aeat/index.json']:this.kind==='care'?['cuidados/imserso/index.json','cuidados/seguridad-social/index.json']:[];
+        :this.kind==='welfare'?['renta/aeat/index.json']:this.kind==='care'?['cuidados/imserso/index.json','cuidados/seguridad-social/index.json']:this.kind==='housing'?['vivienda/mivau/index.json']:[];
       for(const path of externalSources){
         const data=await fetch(import.meta.env.BASE_URL+'datos/'+path);
         if(!data.ok)throw new Error('No se pudo cargar el catálogo de la fuente.');
-        index.tables.push(...(await data.json() as Pick<DemographicIndex,'tables'>).tables);
+        const {tables}=await data.json() as Pick<DemographicIndex,'tables'>;
+        if(this.kind==='housing')index.tables.unshift(...tables);
+        else index.tables.push(...tables);
       }
       return this.index=index;
     })().catch(error=>{this.indexPromise=undefined;throw error;});
@@ -211,7 +214,7 @@ export class DemographyController{
     const series=r.series.map(x=>({...x,value:this.mappedValue(x.value,a.code)})),valid=series.filter(x=>x.value!==null),ys=valid.map(x=>x.value!),lo=Math.min(...ys),hi=Math.max(...ys),order=periodOrder(t);
     const start=periodTimestamp(t.periods[order[0]].id),end=periodTimestamp(t.periods[order.at(-1)!].id);let path='',pen=false,prior=-1;for(const d of series){if(d.value===null){pen=false;continue;}const position=order.indexOf(d.period);if(prior>=0&&position>prior+1)pen=false;prior=position;const x=8+(periodTimestamp(t.periods[d.period].id)-start)/Math.max(1,end-start)*264,y=57-(d.value-lo)/(hi-lo||1)*44;path+=`${pen?'L':'M'}${x},${y}`;pen=true;}
     const external=!!t.publisher&&t.publisher!=='INE';
-    const sourceId=a.publicationTableId||(t.sourceTables?undefined:t.id),edition=t.sourceTables?.find(s=>s.id===datum?.sourceTableId),captured=edition?.url,sourceUrl=external?t.sourceUrl:sourceId?'https://www.ine.es/jaxiT3/Tabla.htm?t='+sourceId:(captured||t.sourceUrl);
+    const sourceId=a.publicationTableId||(t.sourceTables?undefined:t.id),edition=t.sourceTables?.find(s=>s.id===datum?.sourceTableId),captured=edition?.url,sourceUrl=external||sourceId===t.id?t.sourceUrl:sourceId?'https://www.ine.es/jaxiT3/Tabla.htm?t='+sourceId:(captured||t.sourceUrl);
     const censusEdition=a.level==='section'&&t.family==='Censo por sección censal'
       ?sectionEditions.find(edition=>edition.id===t.periods[this.query.period].id):undefined;
     const censusGeometry=censusEdition&&/^\d{10}$/.test(a.code)?sectionVectorUrl(censusEdition.layer,a.code):undefined;

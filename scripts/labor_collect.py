@@ -1,4 +1,4 @@
-"""Capture the selected official labor tables in the atlas cube format."""
+"""Capture official statistical tables by topic in the atlas cube format."""
 import argparse
 import json
 from concurrent.futures import ThreadPoolExecutor
@@ -6,7 +6,7 @@ import welfare_collect as cubes
 
 ROOT = cubes.ROOT
 core = cubes.core
-CAPTURES = {'labor': ('trabajo', 'f04'), 'care': ('cuidados', 'f05')}
+CAPTURES = {'labor': ('trabajo', 'f04'), 'care': ('cuidados', 'f05'), 'housing': ('vivienda', 'f06')}
 
 def main(refresh=False, kind='labor'):
     folder, cache = CAPTURES[kind]
@@ -23,11 +23,16 @@ def main(refresh=False, kind='labor'):
     catalog = json.loads((ROOT/'datos/catalogo/investigacion/ine-catalog.json').read_text(encoding='utf-8'))
     operations = [{'id': op['Id'], 'tables': op['tables']} for op in catalog['operations']
                   if op['Id'] in config['operationIds']]
-    assert {op['id'] for op in operations} == set(config['operationIds']), 'Incomplete labor operations'
+    assert {op['id'] for op in operations} == set(config['operationIds']), 'Incomplete operations'
+    for operation in operations:
+        additions = config.get('additionalTables', {}).get(str(operation['id']), [])
+        known_ids = {table['Id'] for table in operation['tables']}
+        operation['tables'] = [*operation['tables'], *(t for t in additions if t['Id'] not in known_ids)]
     metadata = {table['Id']: table for op in operations for table in op['tables']}
     previous = json.loads((output / 'index.json').read_text(encoding='utf-8')) if (output / 'index.json').exists() and not refresh else {}
     existing = {table['id']: table for table in previous.get('tables', [])}
     tables = []
+    failures = {}
     for table in config['tables']:
         tid = table['id']
         checkpoint = core.CACHE / f'{kind}-{tid}.json'
@@ -40,9 +45,19 @@ def main(refresh=False, kind='labor'):
             for part in item['shards']
         )), None)
         if saved is None:
-            saved = cubes.build_group({**table, 'preserveMissingDimensions': True}, [tid], metadata, output=output)
+            try:
+                saved = cubes.build_group({**table, 'preserveMissingDimensions': True}, [tid], metadata, output=output)
+            except (AssertionError, ValueError) as error:
+                if kind != 'housing':
+                    raise
+                failures[tid] = str(error)
+                print(f'INE {tid}: {error}', flush=True)
+                continue
             checkpoint.write_bytes(core.encode(saved))
         tables.append({**saved, **table})
+    if failures:
+        (core.CACHE / 'failures.json').write_bytes(core.encode(failures))
+        raise ValueError(f'{len(failures)} tables require review')
     (output / 'inventory.json').write_bytes(core.encode({'revision': config['revision'], 'operations': operations}))
     index = {
         'schemaVersion': 1, 'revision': config['revision'],
