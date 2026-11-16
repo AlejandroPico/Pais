@@ -6,7 +6,7 @@ import welfare_collect as cubes
 
 ROOT = cubes.ROOT
 core = cubes.core
-CAPTURES = {'labor': ('trabajo', 'f04'), 'care': ('cuidados', 'f05'), 'housing': ('vivienda', 'f06')}
+CAPTURES = {'labor': ('trabajo', 'f04'), 'care': ('cuidados', 'f05'), 'housing': ('vivienda', 'f06'), 'economy': ('economia', 'f07')}
 
 def main(refresh=False, kind='labor'):
     folder, cache = CAPTURES[kind]
@@ -48,7 +48,7 @@ def main(refresh=False, kind='labor'):
             try:
                 saved = cubes.build_group({**table, 'preserveMissingDimensions': True}, [tid], metadata, output=output)
             except (AssertionError, ValueError) as error:
-                if kind != 'housing':
+                if kind not in {'housing','economy'}:
                     raise
                 failures[tid] = str(error)
                 print(f'INE {tid}: {error}', flush=True)

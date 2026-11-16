@@ -8,6 +8,7 @@ import {municipalCode,coordinatesExtent,validSpanishCoordinate} from './territor
 import {territoryLayers,sectionEditions,sectionVectorUrl,orthophotoEditions,historicOrthophoto,canaryEditions,canaryCartography,wmsTile,wmsRequest,localCredit,type WmsProvider} from './territory-config';
 
 import siu from '../datos/vivienda/siu/layers.json';
+import pagesArchives from '../registry/pages-archives.json';
 
 const housingLayers=siu.layers.map((layer):OfficialLayer=>{
   const [west,south,east,north]=layer.provider.bounds;
@@ -17,6 +18,12 @@ const housingLayerById=new Map(housingLayers.map(layer=>[layer.id,layer]));
 
 const esc=(v:unknown)=>String(v??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]!));
 const dataRoot=import.meta.env.BASE_URL+'datos/territorio/';
+const archivedFiles=new Set(pagesArchives.files);
+function territoryAsset(file:string){
+  return import.meta.env.PROD&&archivedFiles.has(file)
+    ?'https://raw.githubusercontent.com/AlejandroPico/Pais/'+pagesArchives.commit+'/datos/territorio/'+file
+    :dataRoot+file;
+}
 const vectorRoot='https://api-features.ign.es/collections/administrativeunit/items/';
 type Municipality={code:string;name:string;provinceCode:string;communityCode:string;ignFeatureId:number;islandId?:string;cartographicName?:string;referenceDate:string};
 export type TerritoryIndex={referenceDate:string;municipalities:Municipality[];islands:{id:string;name:string;provinceCode:string}[];supplementalAreas:{code:string;name:string;classification:string}[]};
@@ -91,7 +98,7 @@ export class TerritoryController{
   private localCollection(def:typeof territoryLayers[number]){
     const existing=this.localCache.get(def.id);
     if(existing)return existing;
-    const request=fetch(dataRoot+def.local!.file).then(async response=>{
+    const request=fetch(territoryAsset(def.local!.file)).then(async response=>{
       if(!response.ok)throw new Error('No se pudo abrir la capa territorial.');
       let data:FeatureCollection;
       if(def.local!.file.endsWith('.gz')){
@@ -441,7 +448,7 @@ export class TerritoryController{
           this.reset();
           this.showSelection(full);
           this.card(full.properties?.atlasName||def.name,def.name,this.facts(Object.fromEntries(Object.entries(full.properties||{}).filter(([key])=>!key.startsWith('atlas'))))+
-            `<a class="text-button" href="${esc(dataRoot+def.local!.file)}" download>Descargar GeoJSON de la capa</a>`,
+            `<a class="text-button" href="${esc(territoryAsset(def.local!.file))}" download>Descargar GeoJSON de la capa</a>`,
             `<a href="${esc(def.local!.url)}" target="_blank" rel="noopener">Fuente oficial ↗</a> · ${esc(localCredit(def.local!))} · ${esc(def.local!.period)}`);
           return true;
         }

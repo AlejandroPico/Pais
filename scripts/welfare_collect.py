@@ -6,6 +6,7 @@ not substituted: a reviewed Atlas CSV did not match its API geography.
 import argparse
 import concurrent.futures
 import codecs
+from collections import defaultdict
 import gzip
 import json
 import math
@@ -32,7 +33,7 @@ def area(meta):
     name=m['Nombre'];code=str(m.get('Codigo') or '').strip()
     if level=='unlocated':return {'id':'unlocated:'+name,'level':'unlocated','code':name,'name':name}
     if core.norm(name) in ['total','total nacional','espana','total comunidades autonomas'] or code=='00':return {'id':'national:ES','level':'national','code':'ES','name':'España'}
-    if core.norm(name) in {'ceuta y melilla','peninsula y baleares'} and not code:
+    if core.norm(name) in {'ceuta y melilla','peninsula y baleares','territorio extrarregional','extra-regio'}:
         return {'id':'unlocated:'+name,'level':'unlocated','code':name,'name':name}
     if not code:code=core.GEO_NAMES.get((level,core.norm(name)))
     if not code and level=='island':code=name
@@ -105,6 +106,18 @@ def build_group(config,table_ids,metadata,recover_rows=None,output=OUT):
         scale=str(series.get('T3_Escala') or '').strip()
         return scale+' · '+unit if scale and core.norm(scale) not in ['unidades','unidad'] else unit
 
+    def is_period(m):
+        period_dimension=config.get('periodDimension')
+        return bool(period_dimension) and core.norm(m['T3_Variable'])==core.norm(period_dimension)
+
+    category_codes=defaultdict(set)
+    def category_code(m):
+        return str(m.get('Codigo') or m.get('Id') or '').strip()
+    def category_label(m):
+        key=(m['T3_Variable'].strip(),m['Nombre'])
+        code=category_code(m)
+        return f'{key[1]} · {code}' if len(category_codes.get(key,()))>1 else key[1]
+
     with concurrent.futures.ThreadPoolExecutor(max_workers=3) as pool:
         # A bounded batch avoids retaining every downloaded table in memory.
         if config.get('preserveMissingDimensions'):
@@ -113,8 +126,10 @@ def build_group(config,table_ids,metadata,recover_rows=None,output=OUT):
                 for series in iter_series(path):
                     for m in series.get('MetaData', []):
                         n = m['T3_Variable'].strip()
-                        if not is_geo(m):
+                        if not is_geo(m) and not is_period(m):
                             names[NAMES.get(n, n)] = None
+                            if config.get('distinguishCategories'):
+                                category_codes[n,m['Nombre']].add(category_code(m))
             if config.get('unitDimension'):names['Unidad publicada']=None
             dimension_names = list(names)
             dimensions = [{'name': n, 'values': []} for n in dimension_names]
@@ -130,7 +145,8 @@ def build_group(config,table_ids,metadata,recover_rows=None,output=OUT):
                     if a['id'] not in geo_ids:geo_ids[a['id']]=len(territories);territories.append({**a,'sourceTableIds':[]})
                     g=geo_ids[a['id']]
                     if input_id not in territories[g]['sourceTableIds']:territories[g]['sourceTableIds'].append(input_id)
-                    non_geo=[m for m in meta if not is_geo(m)]
+                    published_period=next((m['Nombre'] for m in meta if is_period(m)),None)
+                    non_geo=[m for m in meta if not is_geo(m) and not is_period(m)]
                     def dimension_name(m):
                         name=m['T3_Variable'].strip()
                         if name in config.get('dimensionNames', {}):
@@ -149,10 +165,12 @@ def build_group(config,table_ids,metadata,recover_rows=None,output=OUT):
                         if input_id==73993 and name in ['Clases COICOP/EPF','Subgrupos COICOP/EPF']:return 'Clasificación de gasto COICOP/EPF'
                         name=NAMES.get(name,name)
                         return aliases.get(name,name)
-                    pairs={dimension_name(m):m['Nombre'] for m in non_geo}
+                    pairs={dimension_name(m):category_label(m) for m in non_geo}
                     assert len(pairs)==len(non_geo),(input_id,'Conflicting dimension aliases')
                     unit=(config.get('fixedUnit') or config.get('unitsByPublishedLabel',{}).get(pairs.get('Consumo eléctrico'))
                           or config.get('defaultUnit') or series_unit(s))
+                    if config.get('dae'):
+                        unit='%' if any('(en porcentaje)' in core.norm(name) for name in pairs.values()) else 'empresas'
                     if config.get('unitDimension'):pairs['Unidad publicada']=unit
                     if dimension_names is None:
                         dimension_names=list(pairs);dimensions=[{'name':n,'values':[]} for n in dimension_names];dim_ids=[{} for _ in dimension_names]
@@ -186,7 +204,13 @@ def build_group(config,table_ids,metadata,recover_rows=None,output=OUT):
                     assert labels not in combinations or combinations[labels]==unit,(tid,'Ambiguous unit',labels,unit)
                     combinations[labels]=unit
                     for datum in s.get('Data',[]):
-                        if config.get('fixedPeriod'):
+                        observation_period=published_period
+                        if config.get('periodDimension'):
+                            observation_period=observation_period or datum.get('NombrePeriodo')
+                            match=re.search(r'\b(20\d{2})\b',observation_period or '')
+                            assert match,(tid,'Missing observation year',observation_period)
+                            key=match[1]
+                        elif config.get('fixedPeriod'):
                             key=config['fixedPeriod']
                             assert 'Anyo' not in datum or str(datum['Anyo'])==key,(tid,'Unexpected published year',datum)
                         else:
@@ -195,11 +219,11 @@ def build_group(config,table_ids,metadata,recover_rows=None,output=OUT):
                             if period not in ('A','Anual'):
                                 assert re.fullmatch(r'T[1-4]|M(?:0[1-9]|1[0-2])', period),(tid,'Unknown period',datum)
                                 key+=period
-                        label=key
+                        label=observation_period or key
                         if config.get('incomeOffset') is not None:label+=f" · ingresos de {int(key)+config['incomeOffset']}"
                         if key not in period_ids:period_ids[key]=len(periods);periods.append({'id':key,'label':label})
                         value=datum.get('Valor');assert value is None or isinstance(value,(int,float)) and math.isfinite(value),(tid,value)
-                        status=str(datum.get('T3_TipoDato') or '')
+                        status=str(datum.get('T3_TipoDato') or config.get('fixedStatus',''))
                         if value is None:status='Sin dato'+(' · '+status if status else '')
                         raw_rows+=1
                         if recover_rows is not None:continue

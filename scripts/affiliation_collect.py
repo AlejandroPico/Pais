@@ -61,13 +61,13 @@ def editions(refresh):
     return sorted(urls.items())
 
 
-def workbook(raw):
+def workbook(raw, sheet_path='xl/worksheets/sheet1.xml'):
     with ZipFile(BytesIO(raw)) as archive:
         texts = []
         if 'xl/sharedStrings.xml' in archive.namelist():
             strings = ET.fromstring(archive.read('xl/sharedStrings.xml'))
             texts = [''.join(t.text or '' for t in node.iter(SHEET + 't')) for node in strings]
-        with archive.open('xl/worksheets/sheet1.xml') as sheet:
+        with archive.open(sheet_path) as sheet:
             for _, row in ET.iterparse(sheet, events=['end']):
                 if row.tag != SHEET + 'row':
                     continue

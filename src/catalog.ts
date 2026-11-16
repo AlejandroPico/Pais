@@ -6,7 +6,7 @@ const number=(n:number)=>n.toLocaleString('es-ES');
 const base=`${import.meta.env.BASE_URL}datos/catalogo/`;
 const kinds:Record<string,string>={
   available:'Disponibles en el mapa',territory:'Inventario cartográfico',demography:'Inventario demográfico',
-  welfare:'Inventario de renta',labor:'Tablas de empleo y salarios',care:'Cuidados y protección social',housing:'Inventario de vivienda y suelo',ioe:'Operaciones IOE',ine:'Tablas INEbase',national:'Catálogo nacional',
+  welfare:'Inventario de renta',labor:'Tablas de empleo y salarios',care:'Cuidados y protección social',housing:'Inventario de vivienda y suelo',economy:'Inventario de economía y empresas',ioe:'Operaciones IOE',ine:'Tablas INEbase',national:'Catálogo nacional',
 };
 let indexPromise:Promise<RegistryIndex>|undefined;
 

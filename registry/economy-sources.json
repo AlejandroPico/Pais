@@ -1,0 +1,51 @@
+[
+  {
+    "id": "economy-source:miteco-esmin",
+    "title": "Estadística Minera de España · anuarios",
+    "sourceId": "F094",
+    "url": "https://www.miteco.gob.es/es/energia/mineria-explosivos/estadistica/consulta.html",
+    "notes": "Anuarios del Ministerio de 1994 a 2024. Incluyen producción, empleo, explotaciones y otras magnitudes. Falta extraer y verificar los cuadros de los PDF que no figuren en las descargas estructuradas."
+  },
+  {
+    "id": "economy-source:igme-archive",
+    "title": "Archivo histórico y Panorama Minero",
+    "sourceId": "F009",
+    "url": "https://info.igme.es/",
+    "notes": "El índice ministerial remite a las publicaciones digitalizadas por el IGME desde 1861. Inventariar ediciones, cuadros y cambios de delimitación histórica antes de Cartografía."
+  },
+  {
+    "id": "economy-source:mites-cooperativas",
+    "title": "Cooperativas y sociedades laborales · estadísticas",
+    "sourceId": "F054",
+    "url": "https://www.mites.gob.es/es/sec_trabajo/autonomos/economia-social/estadisticas/index.htm",
+    "notes": "Incorporar ediciones, altas, registros, empleo, clases y distribución territorial. Distinguir constituciones y altas en Seguridad Social de la cuenta satélite del INE."
+  },
+  {
+    "id": "economy-source:industria",
+    "title": "Indicadores y estadísticas industriales",
+    "sourceId": "F098",
+    "url": "https://www.mintur.gob.es/es-es/IndicadoresyEstadisticas/Paginas/Estadisticas.aspx",
+    "notes": "Revisar informes y series propias. Comparar cada distribución con las tablas del INE para detectar duplicados por edición, indicador, unidad y cobertura."
+  },
+  {
+    "id": "economy-source:eurostat",
+    "title": "Eurostat · cuentas regionales y estadísticas empresariales",
+    "sourceId": "F130",
+    "url": "https://ec.europa.eu/eurostat/data/database",
+    "notes": "Inventariar cuentas regionales, demografía empresarial, estadísticas estructurales, producción industrial PRODCOM y servicios. Preservar versiones NUTS y códigos de estado."
+  },
+  {
+    "id": "economy-source:oecd",
+    "title": "OCDE · economía regional, productividad y empresas",
+    "sourceId": "F145",
+    "url": "https://data-explorer.oecd.org/",
+    "notes": "Revisar territorios TL2/TL3 y áreas urbanas funcionales, productividad y dinámica empresarial. Guardar usos y unidades de cada dimensión SDMX."
+  },
+  {
+    "id": "economy-source:eustat-economia",
+    "title": "Eustat · economía y empresas",
+    "sourceId": "F166",
+    "url": "https://www.eustat.eus/",
+    "notes": "Punto de partida territorial. Contrastar los registros equivalentes y cargar datos propios por territorio histórico, comarca o municipio. Extender el barrido a los demás institutos autonómicos del catálogo."
+  }
+]

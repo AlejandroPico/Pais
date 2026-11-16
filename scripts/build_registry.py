@@ -82,6 +82,11 @@ def build():
         care=read(care_path)
         products['available']+=care['available']
         products['care']=care['inventory']
+    economy_path=ROOT/'registry/economy-products.json'
+    if economy_path.exists():
+        economy=read(economy_path)
+        products['available']+=economy['available']
+        products['economy']=economy['inventory']
     housing_path=ROOT/'registry/housing-products.json'
     if housing_path.exists():
         housing=read(housing_path)
@@ -193,9 +198,13 @@ def build():
         input_paths.extend(['registry/care-tables.json','registry/care-products.json','datos/cuidados/ine/index.json','datos/cuidados/ine/inventory.json','datos/cuidados/imserso/index.json','datos/cuidados/seguridad-social/index.json'])
     if housing_path.exists():
         input_paths.extend(['registry/housing-tables.json','registry/housing-products.json','datos/vivienda/ine/index.json','datos/vivienda/ine/inventory.json','datos/vivienda/mivau/index.json','datos/vivienda/siu/layers.json'])
+    if economy_path.exists():
+        input_paths.extend(['registry/economy-tables.json','registry/economy-sources.json','registry/economy-products.json',
+                            'registry/pages-archives.json','datos/economia/ine/index.json','datos/economia/ine/inventory.json',
+                            'datos/economia/dae-historica/index.json','datos/economia/cna/index.json','datos/economia/miteco/index.json'])
     provenance = [dict(path=p, sha256=hashlib.sha256((ROOT / p).read_bytes()).hexdigest()) for p in input_paths]
     revisions=[registered['revision'], federated_metadata['revision']]
-    for path in [territory_path,demography_path,welfare_path,labor_path,care_path,housing_path]:
+    for path in [territory_path,demography_path,welfare_path,labor_path,care_path,housing_path,economy_path]:
         if path.exists():revisions.append(read(path)['revision'])
     index = dict(schemaVersion=1, researchSnapshot='2026-11-05', revision=max(revisions),
                  scope='Registro de metadatos. Los inventarios se solapan y sus recuentos no se suman como productos únicos. Solo Disponibles contiene productos utilizables en el mapa.',

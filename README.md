@@ -2,6 +2,10 @@
 
 La [guía para agentes](AGENTS.md) contiene la arquitectura y el protocolo de cierre. En [tareas.md](tareas.md) están los objetivos pendientes de F00 a F29.
 
+## Versión 0.8.5
+
+Economía incorpora cuentas regionales y nacionales, empresas e industria, economía social y las distribuciones provinciales de producción y empleo minero. **Demografía Armonizada de Empresas** incluye las ediciones 2008–2024. [Cobertura y tareas de F07](docs/F07.md).
+
 ## Versión 0.8.4
 
 La vista municipal de Vivienda ofrece «Todas las provincias» en el mapa general. Los selectores de territorios se ordenan por nombre y los indicadores y capas muestran la ficha correspondiente a la consulta activa.

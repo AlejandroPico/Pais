@@ -8,9 +8,9 @@ from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1]
 def read(p):return json.loads((ROOT/p).read_text(encoding='utf-8'))
 def main(kind="demography",category="F02"):
-    folder = {'demography': 'poblacion/ine', 'welfare': 'renta/ine', 'labor': 'trabajo/ine', 'care': 'cuidados/ine', 'housing':'vivienda/ine'}[kind]
+    folder = {'demography': 'poblacion/ine', 'welfare': 'renta/ine', 'labor': 'trabajo/ine', 'care': 'cuidados/ine', 'housing':'vivienda/ine', 'economy':'economia/ine'}[kind]
     index=read(f'datos/{folder}/index.json');inventory=read(f'datos/{folder}/inventory.json')
-    if kind in {'welfare','labor','care','housing'}:
+    if kind in {'welfare','labor','care','housing','economy'}:
         provenance={p['url']:p for p in index.get('provenance',[])}
         for t in index['tables']:
             missing={}
@@ -36,7 +36,7 @@ def main(kind="demography",category="F02"):
     if kind=='labor':
         index['tables'] += read('datos/trabajo/sepe/sepe.json')['tables']
         index['tables'] += read('datos/trabajo/seguridad-social/index.json')['tables']
-    if kind in {'demography','welfare','housing'}:
+    if kind in {'demography','welfare','housing','economy'}:
         shared = {}
         compact = {**index, 'tables': [], 'territoryGroups': shared}
         for table in index['tables']:
@@ -55,6 +55,9 @@ def main(kind="demography",category="F02"):
             index['tables'] += read(f'datos/cuidados/{name}/index.json')['tables']
     if kind=='housing':
         index['tables'] += read('datos/vivienda/mivau/index.json')['tables']
+    if kind=='economy':
+        for name in ('dae-historica', 'cna', 'miteco'):
+            index['tables'] += read(f'datos/economia/{name}/index.json')['tables']
     available=[]
     for t in index['tables']:
         table_folder = t.get('dataFolder') or ('trabajo/sepe' if t.get('compactColumns') else folder)
@@ -64,7 +67,7 @@ def main(kind="demography",category="F02"):
         assert sum(s['rows'] for s in t['shards'])==t['rows']
         periods=sorted(t['periods'],key=lambda p:p['id'])
         filename = ('sepe.json' if t.get('publisher')=='SEPE'
-                    else 'viewer.json.gz' if table_folder == folder and kind in {'demography','welfare','housing'}
+                    else 'viewer.json.gz' if table_folder == folder and kind in {'demography','welfare','housing','economy'}
                     else 'index.json')
         available.append(dict(id=kind+':'+str(t['id']),title=t['label'],sourceId=t.get('sourceId','F005'),categoryIds=[category],status='integrado',url=t['sourceUrl'],mapAction=kind+':'+str(t['id']),coverage=' · '.join({'national':'España','community':'Comunidades','province':'Provincias','municipal':'Municipios','district':'Distritos (series)','section':'Secciones (series)','island':'Islas (series)','unlocated':'Sin localización'}.get(l,l) for l in sorted({a['level'] for a in t['territories']})),period={'from':periods[0]['label'],'to':periods[-1]['label']},unit=t['unit'],license=t['license'],notes=t['note']+f" Tabla completa: {t['rows']:,} observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",dataFile=f'{table_folder}/{filename}'))
     canonical={str(source['id']):p for t,p in zip(index['tables'],available) if p['sourceId']=='F005' for source in t.get('sourceTables',[{'id':t['id']}])}
@@ -91,8 +94,8 @@ def main(kind="demography",category="F02"):
                       period=product['period'],license=product['license'],notes=product['notes'],
                       review=dict(implementedProductId=product['id'],updatedAt=index['revision'],
                                   reason='Observaciones contrastadas con el diccionario oficial del Anuario.'))
-    if kind=='labor':
-        for item in read('registry/labor-tables.json').get('emptyDistributions', []):
+    if kind in {'labor','economy'}:
+        for item in read(f'registry/{kind}-tables.json').get('emptyDistributions', []):
             key=str(item['id'])
             if key in canonical:
                 continue
@@ -101,6 +104,7 @@ def main(kind="demography",category="F02"):
                 links={'API oficial':item['api']['url'],'CSV oficial':item['csv']['url']},
                 review=dict(updatedAt=index['revision'],reason=reason,
                             nextAction='Volver a comprobar la publicación del INE en la próxima actualización.'))
+    if kind=='labor':
         for t,p in zip(index['tables'],available,strict=True):
             if not t.get('compactColumns'):
                 continue
@@ -155,6 +159,24 @@ def main(kind="demography",category="F02"):
                 records[record_id]=dict(product,id=record_id,status='bloqueado',notes=layer['error'],
                     review=dict(updatedAt=siu['revision'],reason=layer['error'],
                                 nextAction='Reintentar el mapa a la escala publicada y verificar los datos de la capa.'))
+    if kind=='economy':
+        for table, product in zip(index['tables'], available, strict=True):
+            if table.get('dataFolder') not in {'economia/dae-historica','economia/cna','economia/miteco'}:
+                continue
+            source = table['sourceTables'][0]
+            if 'originalFile' in source:
+                original = ROOT/'datos'/table['dataFolder']/source['originalFile']
+                assert hashlib.sha256(original.read_bytes()).hexdigest() == source['sha256'], original
+            identifier = 'economy-archive:'+str(table['id'])
+            links={'Descarga original': source['url']}
+            if table.get('methodologyUrl'):
+                links['Metodología']=table['methodologyUrl']
+            records[identifier] = dict(product, id=identifier, links=links,
+                review=dict(implementedProductId=product['id'], updatedAt=index['revision'],
+                            reason='Todas las filas y los periodos, con el enlace a la distribución oficial.'))
+        for source in read('registry/economy-sources.json'):
+            records[source['id']] = dict(source, categoryIds=[], suggestedCategoryIds=[category],
+                                         status='por_revisar', license=None)
     if kind=='demography':
         nomenclator=read('datos/territorio/nomenclator/index.json')
         editions=nomenclator['editions']

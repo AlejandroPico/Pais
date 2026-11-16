@@ -1,0 +1,3597 @@
+{
+  "revision": "2026-11-16",
+  "operationIds": [
+    24,
+    26,
+    31,
+    42,
+    43,
+    93,
+    99,
+    103,
+    116,
+    129,
+    130,
+    166,
+    177,
+    237,
+    250,
+    256,
+    257,
+    258,
+    344,
+    345,
+    348,
+    349,
+    426,
+    465,
+    472
+  ],
+  "tables": [
+    {
+      "id": 82284,
+      "label": "Producto interior bruto a precios de mercado (PIB): Precios corrientes por Comunidades y Ciudades autónomas y provincias · 82284",
+      "family": "Contabilidad Regional de España",
+      "cnaeSections": true,
+      "note": "Conserva la base, unidad, periodo y cobertura de cada publicación. Las estimaciones provisionales y avances mantienen su estado original."
+    },
+    {
+      "id": 82285,
+      "label": "Producto interior bruto (PIB) per cápita: Precios corrientes por Comunidades y Ciudades autónomas y provincias · 82285",
+      "family": "Contabilidad Regional de España",
+      "cnaeSections": true,
+      "note": "Conserva la base, unidad, periodo y cobertura de cada publicación. Las estimaciones provisionales y avances mantienen su estado original."
+    },
+    {
+      "id": 82286,
+      "label": "Tasas de Variación Interanuales: Variaciones de volumen por Comunidades y Ciudades autónomas · 82286",
+      "family": "Contabilidad Regional de España",
+      "cnaeSections": true,
+      "note": "Conserva la base, unidad, periodo y cobertura de cada publicación. Las estimaciones provisionales y avances mantienen su estado original."
+    },
+    {
+      "id": 2532,
+      "label": "Principales variables económicas por agrupaciones de actividad · 2532",
+      "family": "Estadística Estructural de Empresas: Sector Industrial",
+      "cnaeSections": true,
+      "note": "Conserva la base, unidad, periodo y cobertura de cada publicación. Las estimaciones provisionales y avances mantienen su estado original."
+    },
+    {
+      "id": 2537,
+      "label": "Principales variables económicas por agrupaciones de actividad · 2537",
+      "family": "Estadística Estructural de Empresas: Sector Industrial",
+      "cnaeSections": true,
+      "note": "Conserva la base, unidad, periodo y cobertura de cada publicación. Las estimaciones provisionales y avances mantienen su estado original."
+    },
+    {
+      "id": 9591,
+      "label": "Errores de muestreo (%) por clase de variable y sector de actividad · 9591",
+      "family": "Estadística Estructural de Empresas: Sector Industrial",
+      "cnaeSections": true,
+      "note": "Conserva la base, unidad, periodo y cobertura de cada publicación. Las estimaciones provisionales y avances mantienen su estado original."
+    },
+    {
+      "id": 24716,
+      "label": "Principales magnitudes según actividad principal (CNAE-2009 a 1, 2, 3 y 4 dígitos) · 24716",
+      "family": "Estadística Estructural de Empresas: Sector Industrial",
+      "cnaeSections": true,
+      "note": "Conserva la base, unidad, periodo y cobertura de cada publicación. Las estimaciones provisionales y avances mantienen su estado original."
+    },
+    {
+      "id": 24739,
+      "label": "Principales indicadores según actividad principal (CNAE-2009 a 1, 2, 3 y 4 dígitos) · 24739",
+      "family": "Estadística Estructural de Empresas: Sector Industrial",
+      "cnaeSections": true,
+      "note": "Conserva la base, unidad, periodo y cobertura de cada publicación. Las estimaciones provisionales y avances mantienen su estado original."
+    },
+    {
+      "id": 24741,
+      "label": "Resultados de explotación según actividad principal (CNAE-2009 a 1, 2 y 3 dígitos) · 24741",
+      "family": "Estadística Estructural de Empresas: Sector Industrial",
+      "cnaeSections": true,
+      "note": "Conserva la base, unidad, periodo y cobertura de cada publicación. Las estimaciones provisionales y avances mantienen su estado original."
+    },
+    {
+      "id": 24742,
+      "label": "Inversión según actividad principal (CNAE-2009 a 1, 2, 3 y 4 dígitos) · 24742",
+      "family": "Estadística Estructural de Empresas: Sector Industrial",
+      "cnaeSections": true,
+      "note": "Conserva la base, unidad, periodo y cobertura de cada publicación. Las estimaciones provisionales y avances mantienen su estado original."
+    },
+    {
+      "id": 24747,
+      "label": "Desglose de la cifra de negocios por destino geográfico de las ventas, según actividad principal (CNAE-2009 a 1, 2 y 3 dígitos) · 24747",
+      "family": "Estadística Estructural de Empresas: Sector Industrial",
+      "cnaeSections": true,
+      "note": "Conserva la base, unidad, periodo y cobertura de cada publicación. Las estimaciones provisionales y avances mantienen su estado original."
+    },
+    {
+      "id": 24749,
+      "label": "Errores de muestreo según actividad principal (CNAE-2009 a 1, 2, 3 y 4 dígitos) · 24749",
+      "family": "Estadística Estructural de Empresas: Sector Industrial",
+      "cnaeSections": true,
+      "note": "Conserva la base, unidad, periodo y cobertura de cada publicación. Las estimaciones provisionales y avances mantienen su estado original."
+    },
+    {
+      "id": 24917,
+      "label": "Variables de enlace basadas en la antigua Encuesta Industrial de Empresas por sectores de actividad · 24917",
+      "family": "Estadística Estructural de Empresas: Sector Industrial",
+      "cnaeSections": true,
+      "note": "Conserva la base, unidad, periodo y cobertura de cada publicación. Las estimaciones provisionales y avances mantienen su estado original."
+    },
+    {
+      "id": 36167,
+      "label": "Principales magnitudes según actividad principal (CNAE-2009 a 1, 2, 3 y 4 dígitos) · 36167",
+      "family": "Estadística Estructural de Empresas: Sector Industrial",
+      "cnaeSections": true,
+      "note": "Conserva la base, unidad, periodo y cobertura de cada publicación. Las estimaciones provisionales y avances mantienen su estado original."
+    },
+    {
+      "id": 36170,
+      "label": "Principales indicadores según actividad principal (CNAE-2009 a 1, 2, 3 y 4 dígitos) · 36170",
+      "family": "Estadística Estructural de Empresas: Sector Industrial",
+      "cnaeSections": true,
+      "note": "Conserva la base, unidad, periodo y cobertura de cada publicación. Las estimaciones provisionales y avances mantienen su estado original."
+    },
+    {
+      "id": 36172,
+      "label": "Resultados de explotación según actividad principal (CNAE-2009 a 1, 2 y 3 dígitos) · 36172",
+      "family": "Estadística Estructural de Empresas: Sector Industrial",
+      "cnaeSections": true,
+      "note": "Conserva la base, unidad, periodo y cobertura de cada publicación. Las estimaciones provisionales y avances mantienen su estado original."
+    },
+    {
+      "id": 36173,
+      "label": "Inversión según actividad principal (CNAE-2009 a 1, 2, 3 y 4 dígitos) · 36173",
+      "family": "Estadística Estructural de Empresas: Sector Industrial",
+      "cnaeSections": true,
+      "note": "Conserva la base, unidad, periodo y cobertura de cada publicación. Las estimaciones provisionales y avances mantienen su estado original."
+    },
+    {
+      "id": 36174,
+      "label": "Desglose de la cifra de negocios por destino geográfico de las ventas, según actividad principal (CNAE-2009 a 1, 2 y 3 dígitos) · 36174",
+      "family": "Estadística Estructural de Empresas: Sector Industrial",
+      "cnaeSections": true,
+      "note": "Conserva la base, unidad, periodo y cobertura de cada publicación. Las estimaciones provisionales y avances mantienen su estado original."
+    },
+    {
+      "id": 36176,
+      "label": "Magnitudes regionalizadas según comunidades y ciudades autónomas y actividad principal  (CNAE-2009 a 1 y 2 dígitos) · 36176",
+      "family": "Estadística Estructural de Empresas: Sector Industrial",
+      "cnaeSections": true,
+      "note": "Conserva la base, unidad, periodo y cobertura de cada publicación. Las estimaciones provisionales y avances mantienen su estado original."
+    },
+    {
+      "id": 36177,
+      "label": "Errores de muestreo según actividad principal (CNAE-2009 a 1, 2, 3 y 4 dígitos) · 36177",
+      "family": "Estadística Estructural de Empresas: Sector Industrial",
+      "cnaeSections": true,
+      "note": "Conserva la base, unidad, periodo y cobertura de cada publicación. Las estimaciones provisionales y avances mantienen su estado original."
+    },
+    {
+      "id": 2533,
+      "label": "Principales variables económicas por subagrupaciones de actividad · 2533",
+      "family": "Estadística Estructural de Empresas: Sector Industrial",
+      "cnaeSections": true,
+      "note": "Conserva la base, unidad, periodo y cobertura de cada publicación. Las estimaciones provisionales y avances mantienen su estado original."
+    },
+    {
+      "id": 9592,
+      "label": "Errores de muestreo (%) por clase de variable y comunidades y ciudades autónomas · 9592",
+      "family": "Estadística Estructural de Empresas: Sector Industrial",
+      "cnaeSections": true,
+      "note": "Conserva la base, unidad, periodo y cobertura de cada publicación. Las estimaciones provisionales y avances mantienen su estado original."
+    },
+    {
+      "id": 24717,
+      "label": "Principales magnitudes según actividad principal (CNAE-2009 a 1, 2  y 3 dígitos )  y tamaño (por personal ocupado) · 24717",
+      "family": "Estadística Estructural de Empresas: Sector Industrial",
+      "cnaeSections": true,
+      "note": "Conserva la base, unidad, periodo y cobertura de cada publicación. Las estimaciones provisionales y avances mantienen su estado original."
+    },
+    {
+      "id": 24740,
+      "label": "Principales indicadores según actividad principal (CNAE-2009 a 1, 2  y 3 dígitos )  y tamaño (por personal ocupado) · 24740",
+      "family": "Estadística Estructural de Empresas: Sector Industrial",
+      "cnaeSections": true,
+      "note": "Conserva la base, unidad, periodo y cobertura de cada publicación. Las estimaciones provisionales y avances mantienen su estado original."
+    },
+    {
+      "id": 24748,
+      "label": "Desglose de los gastos en servicios exteriores según actividad principal (CNAE-2009 a 1 y 2 dígitos) · 24748",
+      "family": "Estadística Estructural de Empresas: Sector Industrial",
+      "cnaeSections": true,
+      "note": "Conserva la base, unidad, periodo y cobertura de cada publicación. Las estimaciones provisionales y avances mantienen su estado original."
+    },
+    {
+      "id": 24751,
+      "label": "Errores de muestreo según comunidades y ciudades autónomas y actividad principal  (CNAE-2009 a 1 y 2 dígitos) · 24751",
+      "family": "Estadística Estructural de Empresas: Sector Industrial",
+      "cnaeSections": true,
+      "note": "Conserva la base, unidad, periodo y cobertura de cada publicación. Las estimaciones provisionales y avances mantienen su estado original."
+    },
+    {
+      "id": 36168,
+      "label": "Principales magnitudes según actividad principal (CNAE-2009 a 1, 2  y 3 dígitos )  y tamaño (por personal ocupado) · 36168",
+      "family": "Estadística Estructural de Empresas: Sector Industrial",
+      "cnaeSections": true,
+      "note": "Conserva la base, unidad, periodo y cobertura de cada publicación. Las estimaciones provisionales y avances mantienen su estado original."
+    },
+    {
+      "id": 36171,
+      "label": "Principales indicadores según actividad principal (CNAE-2009 a 1, 2  y 3 dígitos )  y tamaño (por personal ocupado) · 36171",
+      "family": "Estadística Estructural de Empresas: Sector Industrial",
+      "cnaeSections": true,
+      "note": "Conserva la base, unidad, periodo y cobertura de cada publicación. Las estimaciones provisionales y avances mantienen su estado original."
+    },
+    {
+      "id": 36175,
+      "label": "Desglose de los gastos en servicios exteriores según actividad principal (CNAE-2009 a 1 y 2 dígitos) · 36175",
+      "family": "Estadística Estructural de Empresas: Sector Industrial",
+      "cnaeSections": true,
+      "note": "Conserva la base, unidad, periodo y cobertura de cada publicación. Las estimaciones provisionales y avances mantienen su estado original."
+    },
+    {
+      "id": 36178,
+      "label": "Errores de muestreo según comunidades y ciudades autónomas y actividad principal  (CNAE-2009 a 1 y 2 dígitos) · 36178",
+      "family": "Estadística Estructural de Empresas: Sector Industrial",
+      "cnaeSections": true,
+      "note": "Conserva la base, unidad, periodo y cobertura de cada publicación. Las estimaciones provisionales y avances mantienen su estado original."
+    },
+    {
+      "id": 2540,
+      "label": "Principales variables económicas por sectores de actividad · 2540",
+      "family": "Estadística Estructural de Empresas: Sector Industrial",
+      "cnaeSections": true,
+      "note": "Conserva la base, unidad, periodo y cobertura de cada publicación. Las estimaciones provisionales y avances mantienen su estado original."
+    },
+    {
+      "id": 2539,
+      "label": "Número de empresas por sectores de actividad · 2539",
+      "family": "Estadística Estructural de Empresas: Sector Industrial",
+      "cnaeSections": true,
+      "note": "Conserva la base, unidad, periodo y cobertura de cada publicación. Las estimaciones provisionales y avances mantienen su estado original."
+    },
+    {
+      "id": 76823,
+      "label": "Magnitudes regionalizadas según comunidades y ciudades autónomas y actividad principal  (CNAE-2009 a 1 y 2 dígitos) · 76823",
+      "family": "Estadística Estructural de Empresas: Sector Industrial",
+      "cnaeSections": true,
+      "note": "Conserva la base, unidad, periodo y cobertura de cada publicación. Las estimaciones provisionales y avances mantienen su estado original."
+    },
+    {
+      "id": 76824,
+      "label": "Principales magnitudes según actividad principal (CNAE-2009 a 1, 2, 3 y 4 dígitos) · 76824",
+      "family": "Estadística Estructural de Empresas: Sector Industrial",
+      "cnaeSections": true,
+      "note": "Conserva la base, unidad, periodo y cobertura de cada publicación. Las estimaciones provisionales y avances mantienen su estado original."
+    },
+    {
+      "id": 76825,
+      "label": "Principales magnitudes según actividad principal (CNAE-2009 a 1, 2  y 3 dígitos )  y tamaño (por personal ocupado) · 76825",
+      "family": "Estadística Estructural de Empresas: Sector Industrial",
+      "cnaeSections": true,
+      "note": "Conserva la base, unidad, periodo y cobertura de cada publicación. Las estimaciones provisionales y avances mantienen su estado original."
+    },
+    {
+      "id": 76826,
+      "label": "Principales indicadores según actividad principal (CNAE-2009 a 1, 2, 3 y 4 dígitos) · 76826",
+      "family": "Estadística Estructural de Empresas: Sector Industrial",
+      "cnaeSections": true,
+      "note": "Conserva la base, unidad, periodo y cobertura de cada publicación. Las estimaciones provisionales y avances mantienen su estado original."
+    },
+    {
+      "id": 76827,
+      "label": "Resultados de explotación según actividad principal (CNAE-2009 a 1, 2 y 3 dígitos) · 76827",
+      "family": "Estadística Estructural de Empresas: Sector Industrial",
+      "cnaeSections": true,
+      "note": "Conserva la base, unidad, periodo y cobertura de cada publicación. Las estimaciones provisionales y avances mantienen su estado original."
+    },
+    {
+      "id": 76828,
+      "label": "Desglose de la cifra de negocios por destino geográfico de las ventas, según actividad principal (CNAE-2009 a 1, 2 y 3 dígitos) · 76828",
+      "family": "Estadística Estructural de Empresas: Sector Industrial",
+      "cnaeSections": true,
+      "note": "Conserva la base, unidad, periodo y cobertura de cada publicación. Las estimaciones provisionales y avances mantienen su estado original."
+    },
+    {
+      "id": 70177,
+      "label": "General y por destino económico de los bienes. Nacional y Comunidades Autónomas · 70177",
+      "family": "Índices de Producción Industrial",
+      "cnaeSections": true,
+      "note": "Conserva la base, unidad, periodo y cobertura de cada publicación. Las estimaciones provisionales y avances mantienen su estado original."
+    },
+    {
+      "id": 60272,
+      "label": "General y por destino económico de los bienes. Nacional y Comunidades Autónomas. · 60272",
+      "family": "Índices de Producción Industrial",
+      "cnaeSections": true,
+      "note": "Conserva la base, unidad, periodo y cobertura de cada publicación. Las estimaciones provisionales y avances mantienen su estado original."
+    },
+    {
+      "id": 60276,
+      "label": "General y por destino económico corregidos de efecto calendario. Nacional. · 60276",
+      "family": "Índices de Producción Industrial",
+      "cnaeSections": true,
+      "note": "Conserva la base, unidad, periodo y cobertura de cada publicación. Las estimaciones provisionales y avances mantienen su estado original."
+    },
+    {
+      "id": 60280,
+      "label": "General y por destino económico corregidos  de efectos estacionales y de calendario. Nacional · 60280",
+      "family": "Índices de Producción Industrial",
+      "cnaeSections": true,
+      "note": "Conserva la base, unidad, periodo y cobertura de cada publicación. Las estimaciones provisionales y avances mantienen su estado original."
+    },
+    {
+      "id": 60284,
+      "label": "General y por destino económico de los bienes. Nacional y Comunidades Autónomas · 60284",
+      "family": "Índices de Producción Industrial",
+      "cnaeSections": true,
+      "note": "Conserva la base, unidad, periodo y cobertura de cada publicación. Las estimaciones provisionales y avances mantienen su estado original."
+    },
+    {
+      "id": 70178,
+      "label": "Secciones  Nacional · 70178",
+      "family": "Índices de Producción Industrial",
+      "cnaeSections": true,
+      "note": "Conserva la base, unidad, periodo y cobertura de cada publicación. Las estimaciones provisionales y avances mantienen su estado original."
+    },
+    {
+      "id": 60273,
+      "label": "Secciones  Nacional. · 60273",
+      "family": "Índices de Producción Industrial",
+      "cnaeSections": true,
+      "note": "Conserva la base, unidad, periodo y cobertura de cada publicación. Las estimaciones provisionales y avances mantienen su estado original."
+    },
+    {
+      "id": 60277,
+      "label": "Secciones corregidas de efecto calendario. Nacional. · 60277",
+      "family": "Índices de Producción Industrial",
+      "cnaeSections": true,
+      "note": "Conserva la base, unidad, periodo y cobertura de cada publicación. Las estimaciones provisionales y avances mantienen su estado original."
+    },
+    {
+      "id": 60281,
+      "label": "Secciones corregidas  de efectos estacionales y de calendario. Nacional. · 60281",
+      "family": "Índices de Producción Industrial",
+      "cnaeSections": true,
+      "note": "Conserva la base, unidad, periodo y cobertura de cada publicación. Las estimaciones provisionales y avances mantienen su estado original."
+    },
+    {
+      "id": 60285,
+      "label": "Secciones  Nacional. · 60285",
+      "family": "Índices de Producción Industrial",
+      "cnaeSections": true,
+      "note": "Conserva la base, unidad, periodo y cobertura de cada publicación. Las estimaciones provisionales y avances mantienen su estado original."
+    },
+    {
+      "id": 60274,
+      "label": "Divisiones. Nacional. · 60274",
+      "family": "Índices de Producción Industrial",
+      "cnaeSections": true,
+      "note": "Conserva la base, unidad, periodo y cobertura de cada publicación. Las estimaciones provisionales y avances mantienen su estado original."
+    },
+    {
+      "id": 60278,
+      "label": "Divisiones corregidas de efecto calendario. Nacional. · 60278",
+      "family": "Índices de Producción Industrial",
+      "cnaeSections": true,
+      "note": "Conserva la base, unidad, periodo y cobertura de cada publicación. Las estimaciones provisionales y avances mantienen su estado original."
+    },
+    {
+      "id": 60282,
+      "label": "Divisiones corregidas  de efectos estacionales y de calendario. Nacional. · 60282",
+      "family": "Índices de Producción Industrial",
+      "cnaeSections": true,
+      "note": "Conserva la base, unidad, periodo y cobertura de cada publicación. Las estimaciones provisionales y avances mantienen su estado original."
+    },
+    {
+      "id": 60286,
+      "label": "Divisiones. Nacional. · 60286",
+      "family": "Índices de Producción Industrial",
+      "cnaeSections": true,
+      "note": "Conserva la base, unidad, periodo y cobertura de cada publicación. Las estimaciones provisionales y avances mantienen su estado original."
+    },
+    {
+      "id": 75725,
+      "label": "Grupos corregidos  de efectos estacionales y de calendario. Nacional. · 75725",
+      "family": "Índices de Producción Industrial",
+      "cnaeSections": true,
+      "note": "Conserva la base, unidad, periodo y cobertura de cada publicación. Las estimaciones provisionales y avances mantienen su estado original."
+    },
+    {
+      "id": 60275,
+      "label": "Grupos. Nacional. · 60275",
+      "family": "Índices de Producción Industrial",
+      "cnaeSections": true,
+      "note": "Conserva la base, unidad, periodo y cobertura de cada publicación. Las estimaciones provisionales y avances mantienen su estado original."
+    },
+    {
+      "id": 60279,
+      "label": "Grupos corregidos de efecto calendario. Nacional. · 60279",
+      "family": "Índices de Producción Industrial",
+      "cnaeSections": true,
+      "note": "Conserva la base, unidad, periodo y cobertura de cada publicación. Las estimaciones provisionales y avances mantienen su estado original."
+    },
+    {
+      "id": 60283,
+      "label": "Grupos corregidos  de efectos estacionales y de calendario. Nacional. · 60283",
+      "family": "Índices de Producción Industrial",
+      "cnaeSections": true,
+      "note": "Conserva la base, unidad, periodo y cobertura de cada publicación. Las estimaciones provisionales y avances mantienen su estado original."
+    },
+    {
+      "id": 60287,
+      "label": "Grupos. Nacional · 60287",
+      "family": "Índices de Producción Industrial",
+      "cnaeSections": true,
+      "note": "Conserva la base, unidad, periodo y cobertura de cada publicación. Las estimaciones provisionales y avances mantienen su estado original."
+    },
+    {
+      "id": 75726,
+      "label": "Grupos. Nacional. · 75726",
+      "family": "Índices de Producción Industrial",
+      "cnaeSections": true,
+      "note": "Conserva la base, unidad, periodo y cobertura de cada publicación. Las estimaciones provisionales y avances mantienen su estado original."
+    },
+    {
+      "id": 60288,
+      "label": "Serie original. Índice general, por sectores y por ramas de actividad · 60288",
+      "family": "Indicadores de Actividad del Sector Servicios",
+      "cnaeSections": true,
+      "note": "Conserva la base, unidad, periodo y cobertura de cada publicación. Las estimaciones provisionales y avances mantienen su estado original."
+    },
+    {
+      "id": 60292,
+      "label": "Índice general, por sectores y por ramas de actividad · 60292",
+      "family": "Indicadores de Actividad del Sector Servicios",
+      "cnaeSections": true,
+      "note": "Conserva la base, unidad, periodo y cobertura de cada publicación. Las estimaciones provisionales y avances mantienen su estado original."
+    },
+    {
+      "id": 60294,
+      "label": "Serie original. Índice general · 60294",
+      "family": "Indicadores de Actividad del Sector Servicios",
+      "cnaeSections": true,
+      "note": "Conserva la base, unidad, periodo y cobertura de cada publicación. Las estimaciones provisionales y avances mantienen su estado original."
+    },
+    {
+      "id": 60296,
+      "label": "Índice general · 60296",
+      "family": "Indicadores de Actividad del Sector Servicios",
+      "cnaeSections": true,
+      "note": "Conserva la base, unidad, periodo y cobertura de cada publicación. Las estimaciones provisionales y avances mantienen su estado original."
+    },
+    {
+      "id": 60298,
+      "label": "Ponderaciones nacionales de cifra de negocios por sectores, actividades y periodo. · 60298",
+      "family": "Indicadores de Actividad del Sector Servicios",
+      "cnaeSections": true,
+      "note": "Conserva la base, unidad, periodo y cobertura de cada publicación. Las estimaciones provisionales y avances mantienen su estado original."
+    },
+    {
+      "id": 60289,
+      "label": "Serie corregida de efectos de calendario. Índice general, por sectores y por ramas de actividad · 60289",
+      "family": "Indicadores de Actividad del Sector Servicios",
+      "cnaeSections": true,
+      "note": "Conserva la base, unidad, periodo y cobertura de cada publicación. Las estimaciones provisionales y avances mantienen su estado original."
+    },
+    {
+      "id": 60293,
+      "label": "Coeficiente de variación de la tasa anual del índice general, por sectores y por ramas de actividad · 60293",
+      "family": "Indicadores de Actividad del Sector Servicios",
+      "cnaeSections": true,
+      "note": "Conserva la base, unidad, periodo y cobertura de cada publicación. Las estimaciones provisionales y avances mantienen su estado original."
+    },
+    {
+      "id": 60295,
+      "label": "Coeficiente de variación de la tasa anual del índice general · 60295",
+      "family": "Indicadores de Actividad del Sector Servicios",
+      "cnaeSections": true,
+      "note": "Conserva la base, unidad, periodo y cobertura de cada publicación. Las estimaciones provisionales y avances mantienen su estado original."
+    },
+    {
+      "id": 60297,
+      "label": "Coeficiente de variación de la tasa anual del índice general · 60297",
+      "family": "Indicadores de Actividad del Sector Servicios",
+      "cnaeSections": true,
+      "note": "Conserva la base, unidad, periodo y cobertura de cada publicación. Las estimaciones provisionales y avances mantienen su estado original."
+    },
+    {
+      "id": 60299,
+      "label": "Ponderaciones nacionales de ocupación por sectores, actividades y periodo · 60299",
+      "family": "Indicadores de Actividad del Sector Servicios",
+      "cnaeSections": true,
+      "note": "Conserva la base, unidad, periodo y cobertura de cada publicación. Las estimaciones provisionales y avances mantienen su estado original."
+    },
+    {
+      "id": 60290,
+      "label": "Serie corregida de efectos estacionales y de calendario Índice general, por sectores y por ramas de actividad · 60290",
+      "family": "Indicadores de Actividad del Sector Servicios",
+      "cnaeSections": true,
+      "note": "Conserva la base, unidad, periodo y cobertura de cada publicación. Las estimaciones provisionales y avances mantienen su estado original."
+    },
+    {
+      "id": 60291,
+      "label": "Coeficiente de variación de la tasa anual del índice general, por sectores y por ramas de actividad · 60291",
+      "family": "Indicadores de Actividad del Sector Servicios",
+      "cnaeSections": true,
+      "note": "Conserva la base, unidad, periodo y cobertura de cada publicación. Las estimaciones provisionales y avances mantienen su estado original."
+    },
+    {
+      "id": 61701,
+      "label": "Índices nacionales: general y por destino económico de los bienes. · 61701",
+      "family": "Índices de Cifras de Negocios en la Industria",
+      "cnaeSections": true,
+      "note": "Conserva la base, unidad, periodo y cobertura de cada publicación. Las estimaciones provisionales y avances mantienen su estado original."
+    },
+    {
+      "id": 61706,
+      "label": "Índices nacionales: general y por destino económico de los bienes · 61706",
+      "family": "Índices de Cifras de Negocios en la Industria",
+      "cnaeSections": true,
+      "note": "Conserva la base, unidad, periodo y cobertura de cada publicación. Las estimaciones provisionales y avances mantienen su estado original."
+    },
+    {
+      "id": 61709,
+      "label": "Índices nacionales: general y por destino económico de los bienes · 61709",
+      "family": "Índices de Cifras de Negocios en la Industria",
+      "cnaeSections": true,
+      "note": "Conserva la base, unidad, periodo y cobertura de cada publicación. Las estimaciones provisionales y avances mantienen su estado original."
+    },
+    {
+      "id": 61712,
+      "label": "Índice general y por destino económico de los bienes. Nacional · 61712",
+      "family": "Índices de Cifras de Negocios en la Industria",
+      "cnaeSections": true,
+      "note": "Conserva la base, unidad, periodo y cobertura de cada publicación. Las estimaciones provisionales y avances mantienen su estado original."
+    },
+    {
+      "id": 70181,
+      "label": "Índices nacionales: general y por destino económico de los bienes · 70181",
+      "family": "Índices de Cifras de Negocios en la Industria",
+      "cnaeSections": true,
+      "note": "Conserva la base, unidad, periodo y cobertura de cada publicación. Las estimaciones provisionales y avances mantienen su estado original."
+    },
+    {
+      "id": 61702,
+      "label": "Índices nacionales por secciones · 61702",
+      "family": "Índices de Cifras de Negocios en la Industria",
+      "cnaeSections": true,
+      "note": "Conserva la base, unidad, periodo y cobertura de cada publicación. Las estimaciones provisionales y avances mantienen su estado original."
+    },
+    {
+      "id": 61707,
+      "label": "Índices nacionales por secciones · 61707",
+      "family": "Índices de Cifras de Negocios en la Industria",
+      "cnaeSections": true,
+      "note": "Conserva la base, unidad, periodo y cobertura de cada publicación. Las estimaciones provisionales y avances mantienen su estado original."
+    },
+    {
+      "id": 61710,
+      "label": "Índices nacionales por secciones · 61710",
+      "family": "Índices de Cifras de Negocios en la Industria",
+      "cnaeSections": true,
+      "note": "Conserva la base, unidad, periodo y cobertura de cada publicación. Las estimaciones provisionales y avances mantienen su estado original."
+    },
+    {
+      "id": 61713,
+      "label": "Secciones. Nacional · 61713",
+      "family": "Índices de Cifras de Negocios en la Industria",
+      "cnaeSections": true,
+      "note": "Conserva la base, unidad, periodo y cobertura de cada publicación. Las estimaciones provisionales y avances mantienen su estado original."
+    },
+    {
+      "id": 70182,
+      "label": "Índices nacionales por secciones · 70182",
+      "family": "Índices de Cifras de Negocios en la Industria",
+      "cnaeSections": true,
+      "note": "Conserva la base, unidad, periodo y cobertura de cada publicación. Las estimaciones provisionales y avances mantienen su estado original."
+    },
+    {
+      "id": 61703,
+      "label": "Índices nacionales por divisiones · 61703",
+      "family": "Índices de Cifras de Negocios en la Industria",
+      "cnaeSections": true,
+      "note": "Conserva la base, unidad, periodo y cobertura de cada publicación. Las estimaciones provisionales y avances mantienen su estado original."
+    },
+    {
+      "id": 61708,
+      "label": "Índices nacionales por divisiones · 61708",
+      "family": "Índices de Cifras de Negocios en la Industria",
+      "cnaeSections": true,
+      "note": "Conserva la base, unidad, periodo y cobertura de cada publicación. Las estimaciones provisionales y avances mantienen su estado original."
+    },
+    {
+      "id": 61711,
+      "label": "Índices nacionales por divisiones · 61711",
+      "family": "Índices de Cifras de Negocios en la Industria",
+      "cnaeSections": true,
+      "note": "Conserva la base, unidad, periodo y cobertura de cada publicación. Las estimaciones provisionales y avances mantienen su estado original."
+    },
+    {
+      "id": 61714,
+      "label": "Divisiones. Nacional · 61714",
+      "family": "Índices de Cifras de Negocios en la Industria",
+      "cnaeSections": true,
+      "note": "Conserva la base, unidad, periodo y cobertura de cada publicación. Las estimaciones provisionales y avances mantienen su estado original."
+    },
+    {
+      "id": 75729,
+      "label": "Índices nacionales por divisiones · 75729",
+      "family": "Índices de Cifras de Negocios en la Industria",
+      "cnaeSections": true,
+      "note": "Conserva la base, unidad, periodo y cobertura de cada publicación. Las estimaciones provisionales y avances mantienen su estado original."
+    },
+    {
+      "id": 61704,
+      "label": "Índices por comunidades autónoma · 61704",
+      "family": "Índices de Cifras de Negocios en la Industria",
+      "cnaeSections": true,
+      "note": "Conserva la base, unidad, periodo y cobertura de cada publicación. Las estimaciones provisionales y avances mantienen su estado original."
+    },
+    {
+      "id": 75728,
+      "label": "Índices nacionales: general y por destino económico de los bienes · 75728",
+      "family": "Índices de Cifras de Negocios en la Industria",
+      "cnaeSections": true,
+      "note": "Conserva la base, unidad, periodo y cobertura de cada publicación. Las estimaciones provisionales y avances mantienen su estado original."
+    },
+    {
+      "id": 61705,
+      "label": "Índices por mercados · 61705",
+      "family": "Índices de Cifras de Negocios en la Industria",
+      "cnaeSections": true,
+      "note": "Conserva la base, unidad, periodo y cobertura de cada publicación. Las estimaciones provisionales y avances mantienen su estado original."
+    },
+    {
+      "id": 295,
+      "label": "Locales por estrato de asalariados y condición jurídica · 295",
+      "family": "Explotación Estadística del Directorio Central de Empresas",
+      "cnaeSections": true,
+      "note": "Conserva la base, unidad, periodo y cobertura de cada publicación. Las estimaciones provisionales y avances mantienen su estado original."
+    },
+    {
+      "id": 302,
+      "label": "Empresas por provincia y condición jurídica. · 302",
+      "family": "Explotación Estadística del Directorio Central de Empresas",
+      "cnaeSections": true,
+      "note": "Conserva la base, unidad, periodo y cobertura de cada publicación. Las estimaciones provisionales y avances mantienen su estado original."
+    },
+    {
+      "id": 306,
+      "label": "Locales por provincias y estrato de asalariados. · 306",
+      "family": "Explotación Estadística del Directorio Central de Empresas",
+      "cnaeSections": true,
+      "note": "Conserva la base, unidad, periodo y cobertura de cada publicación. Las estimaciones provisionales y avances mantienen su estado original."
+    },
+    {
+      "id": 39375,
+      "label": "Empresas por estrato de asalariados y condición jurídica. · 39375",
+      "family": "Explotación Estadística del Directorio Central de Empresas",
+      "cnaeSections": true,
+      "note": "Conserva la base, unidad, periodo y cobertura de cada publicación. Las estimaciones provisionales y avances mantienen su estado original."
+    },
+    {
+      "id": 73018,
+      "label": "Empresas por estrato de asalariados y condición jurídica. · 73018",
+      "family": "Explotación Estadística del Directorio Central de Empresas",
+      "cnaeSections": true,
+      "note": "Conserva la base, unidad, periodo y cobertura de cada publicación. Las estimaciones provisionales y avances mantienen su estado original."
+    },
+    {
+      "id": 303,
+      "label": "Locales por provincia y condición jurídica · 303",
+      "family": "Explotación Estadística del Directorio Central de Empresas",
+      "cnaeSections": true,
+      "note": "Conserva la base, unidad, periodo y cobertura de cada publicación. Las estimaciones provisionales y avances mantienen su estado original."
+    },
+    {
+      "id": 39374,
+      "label": "Empresas por provincia y estrato de asalariados. · 39374",
+      "family": "Explotación Estadística del Directorio Central de Empresas",
+      "cnaeSections": true,
+      "note": "Conserva la base, unidad, periodo y cobertura de cada publicación. Las estimaciones provisionales y avances mantienen su estado original."
+    },
+    {
+      "id": 73019,
+      "label": "Empresas por condición jurídica, actividad principal (grupos CNAE 2009) y estrato de asalariados. · 73019",
+      "family": "Explotación Estadística del Directorio Central de Empresas",
+      "cnaeSections": true,
+      "note": "Conserva la base, unidad, periodo y cobertura de cada publicación. Las estimaciones provisionales y avances mantienen su estado original.",
+      "distinguishCategories": true
+    },
+    {
+      "id": 73020,
+      "label": "Empresas por CCAA, actividad principal (grupos CNAE 2009) y estrato de asalariados. · 73020",
+      "family": "Explotación Estadística del Directorio Central de Empresas",
+      "cnaeSections": true,
+      "note": "Conserva la base, unidad, periodo y cobertura de cada publicación. Las estimaciones provisionales y avances mantienen su estado original.",
+      "distinguishCategories": true
+    },
+    {
+      "id": 3953,
+      "label": "Empresas por edad y estrato de asalariados · 3953",
+      "family": "Explotación Estadística del Directorio Central de Empresas",
+      "cnaeSections": true,
+      "note": "Conserva la base, unidad, periodo y cobertura de cada publicación. Las estimaciones provisionales y avances mantienen su estado original."
+    },
+    {
+      "id": 73021,
+      "label": "Empresas por provincia y condición jurídica. · 73021",
+      "family": "Explotación Estadística del Directorio Central de Empresas",
+      "cnaeSections": true,
+      "note": "Conserva la base, unidad, periodo y cobertura de cada publicación. Las estimaciones provisionales y avances mantienen su estado original."
+    },
+    {
+      "id": 30156,
+      "label": "Empresas con soporte legal de persona física, por sexo y estrato de asalariados · 30156",
+      "family": "Explotación Estadística del Directorio Central de Empresas",
+      "cnaeSections": true,
+      "note": "Conserva la base, unidad, periodo y cobertura de cada publicación. Las estimaciones provisionales y avances mantienen su estado original."
+    },
+    {
+      "id": 73022,
+      "label": "Empresas por provincia y estrato de asalariados. · 73022",
+      "family": "Explotación Estadística del Directorio Central de Empresas",
+      "cnaeSections": true,
+      "note": "Conserva la base, unidad, periodo y cobertura de cada publicación. Las estimaciones provisionales y avances mantienen su estado original."
+    },
+    {
+      "id": 73023,
+      "label": "Locales por estrato de asalariados y condición jurídica · 73023",
+      "family": "Explotación Estadística del Directorio Central de Empresas",
+      "cnaeSections": true,
+      "note": "Conserva la base, unidad, periodo y cobertura de cada publicación. Las estimaciones provisionales y avances mantienen su estado original."
+    },
+    {
+      "id": 79268,
+      "label": "Producción propia (valor y cantidad) por sector y producto · 79268",
+      "family": "Encuesta Industrial Anual de Productos",
+      "cnaeSections": true,
+      "note": "Conserva la base, unidad, periodo y cobertura de cada publicación. Las estimaciones provisionales y avances mantienen su estado original.",
+      "distinguishCategories": true
+    },
+    {
+      "id": 79279,
+      "label": "Resultados detallados por Comunidades y Ciudades Autónomas. Producción Propia a nivel de Clase. (CNAE4D) · 79279",
+      "family": "Encuesta Industrial Anual de Productos",
+      "cnaeSections": true,
+      "note": "Conserva la base, unidad, periodo y cobertura de cada publicación. Las estimaciones provisionales y avances mantienen su estado original."
+    },
+    {
+      "id": 80178,
+      "label": "Errores de muestreo producción propia (valor) a 4 dígitos (Clase), 6 dígitos (CPA) y 10 dígitos (producto) · 80178",
+      "family": "Encuesta Industrial Anual de Productos",
+      "cnaeSections": true,
+      "note": "Conserva la base, unidad, periodo y cobertura de cada publicación. Las estimaciones provisionales y avances mantienen su estado original.",
+      "distinguishCategories": true
+    },
+    {
+      "id": 79338,
+      "label": "Producción propia (valor) a 4 dígitos (Clase), 6 dígitos (CPA) y 10 dígitos (producto) · 79338",
+      "family": "Encuesta Industrial Anual de Productos",
+      "cnaeSections": true,
+      "note": "Conserva la base, unidad, periodo y cobertura de cada publicación. Las estimaciones provisionales y avances mantienen su estado original.",
+      "distinguishCategories": true
+    },
+    {
+      "id": 80179,
+      "label": "Errores de muestreo producción Propia a nivel de Grupo (CNAE4D) por Comunidades y Ciudades Autónomas · 80179",
+      "family": "Encuesta Industrial Anual de Productos",
+      "cnaeSections": true,
+      "note": "Conserva la base, unidad, periodo y cobertura de cada publicación. Las estimaciones provisionales y avances mantienen su estado original."
+    },
+    {
+      "id": 80327,
+      "label": "Producción propia (valor y cantidad) por sector y producto · 80327",
+      "family": "Encuesta Industrial Anual de Productos",
+      "cnaeSections": true,
+      "note": "Conserva la base, unidad, periodo y cobertura de cada publicación. Las estimaciones provisionales y avances mantienen su estado original.",
+      "distinguishCategories": true
+    },
+    {
+      "id": 80328,
+      "label": "Producción propia (valor) a 4 dígitos (Clase), 6 dígitos (CPA) y 10 dígitos (producto) · 80328",
+      "family": "Encuesta Industrial Anual de Productos",
+      "cnaeSections": true,
+      "note": "Conserva la base, unidad, periodo y cobertura de cada publicación. Las estimaciones provisionales y avances mantienen su estado original.",
+      "distinguishCategories": true
+    },
+    {
+      "id": 80329,
+      "label": "Resultados detallados por Comunidades y Ciudades Autónomas. Producción Propia a nivel de Clase. (CNAE4D) · 80329",
+      "family": "Encuesta Industrial Anual de Productos",
+      "cnaeSections": true,
+      "note": "Conserva la base, unidad, periodo y cobertura de cada publicación. Las estimaciones provisionales y avances mantienen su estado original."
+    },
+    {
+      "id": 25041,
+      "label": "Principales indicadores según actividad principal (CNAE-2009 a 1, 2, 3 y 4 dígitos) · 25041",
+      "family": "Estadística Estructural de Empresas: Sector Servicios",
+      "cnaeSections": true,
+      "note": "Conserva la base, unidad, periodo y cobertura de cada publicación. Las estimaciones provisionales y avances mantienen su estado original."
+    },
+    {
+      "id": 25043,
+      "label": "Resultados de explotación según actividad principal (CNAE-2009 a 1, 2 y 3 dígitos) · 25043",
+      "family": "Estadística Estructural de Empresas: Sector Servicios",
+      "cnaeSections": true,
+      "note": "Conserva la base, unidad, periodo y cobertura de cada publicación. Las estimaciones provisionales y avances mantienen su estado original."
+    },
+    {
+      "id": 25044,
+      "label": "Inversión según actividad principal (CNAE-2009 a 1, 2, 3 y 4 dígitos) · 25044",
+      "family": "Estadística Estructural de Empresas: Sector Servicios",
+      "cnaeSections": true,
+      "note": "Conserva la base, unidad, periodo y cobertura de cada publicación. Las estimaciones provisionales y avances mantienen su estado original."
+    },
+    {
+      "id": 25045,
+      "label": "Desglose de la cifra de negocios por destino geográfico de las ventas, según actividad principal (CNAE-2009 a 1, 2 y 3 dígitos) · 25045",
+      "family": "Estadística Estructural de Empresas: Sector Servicios",
+      "cnaeSections": true,
+      "note": "Conserva la base, unidad, periodo y cobertura de cada publicación. Las estimaciones provisionales y avances mantienen su estado original."
+    },
+    {
+      "id": 25047,
+      "label": "Magnitudes regionalizadas según comunidades y ciudades autónomas y actividad principal (CNAE-2009 a 1 y 2 dígitos) · 25047",
+      "family": "Estadística Estructural de Empresas: Sector Servicios",
+      "cnaeSections": true,
+      "note": "Conserva la base, unidad, periodo y cobertura de cada publicación. Las estimaciones provisionales y avances mantienen su estado original."
+    },
+    {
+      "id": 25048,
+      "label": "Errores de muestreo según actividad principal (CNAE-2009 a 1, 2, 3 y 4 dígitos) · 25048",
+      "family": "Estadística Estructural de Empresas: Sector Servicios",
+      "cnaeSections": true,
+      "note": "Conserva la base, unidad, periodo y cobertura de cada publicación. Las estimaciones provisionales y avances mantienen su estado original."
+    },
+    {
+      "id": 36179,
+      "label": "Principales magnitudes según actividad principal (CNAE-2009 a 1, 2, 3 y 4 dígitos) · 36179",
+      "family": "Estadística Estructural de Empresas: Sector Servicios",
+      "cnaeSections": true,
+      "note": "Conserva la base, unidad, periodo y cobertura de cada publicación. Las estimaciones provisionales y avances mantienen su estado original."
+    },
+    {
+      "id": 36182,
+      "label": "Principales indicadores según actividad principal (CNAE-2009 a 1, 2, 3 y 4 dígitos) · 36182",
+      "family": "Estadística Estructural de Empresas: Sector Servicios",
+      "cnaeSections": true,
+      "note": "Conserva la base, unidad, periodo y cobertura de cada publicación. Las estimaciones provisionales y avances mantienen su estado original."
+    },
+    {
+      "id": 36184,
+      "label": "Resultados de explotación según actividad principal (CNAE-2009 a 1, 2 y 3 dígitos) · 36184",
+      "family": "Estadística Estructural de Empresas: Sector Servicios",
+      "cnaeSections": true,
+      "note": "Conserva la base, unidad, periodo y cobertura de cada publicación. Las estimaciones provisionales y avances mantienen su estado original."
+    },
+    {
+      "id": 36185,
+      "label": "Inversión según actividad principal (CNAE-2009 a 1, 2, 3 y 4 dígitos) · 36185",
+      "family": "Estadística Estructural de Empresas: Sector Servicios",
+      "cnaeSections": true,
+      "note": "Conserva la base, unidad, periodo y cobertura de cada publicación. Las estimaciones provisionales y avances mantienen su estado original."
+    },
+    {
+      "id": 36186,
+      "label": "Desglose de la cifra de negocios por destino geográfico de las ventas, según actividad principal (CNAE-2009 a 1, 2 y 3 dígitos) · 36186",
+      "family": "Estadística Estructural de Empresas: Sector Servicios",
+      "cnaeSections": true,
+      "note": "Conserva la base, unidad, periodo y cobertura de cada publicación. Las estimaciones provisionales y avances mantienen su estado original."
+    },
+    {
+      "id": 36188,
+      "label": "Magnitudes regionalizadas según comunidades y ciudades autónomas y actividad principal (CNAE-2009 a 1 y 2 dígitos) · 36188",
+      "family": "Estadística Estructural de Empresas: Sector Servicios",
+      "cnaeSections": true,
+      "note": "Conserva la base, unidad, periodo y cobertura de cada publicación. Las estimaciones provisionales y avances mantienen su estado original."
+    },
+    {
+      "id": 36189,
+      "label": "Errores de muestreo según actividad principal (CNAE-2009 a 1, 2, 3 y 4 dígitos) · 36189",
+      "family": "Estadística Estructural de Empresas: Sector Servicios",
+      "cnaeSections": true,
+      "note": "Conserva la base, unidad, periodo y cobertura de cada publicación. Las estimaciones provisionales y avances mantienen su estado original."
+    },
+    {
+      "id": 76812,
+      "label": "Magnitudes regionalizadas según comunidades y ciudades autónomas y actividad principal (CNAE-2009 a 1 y 2 dígitos) · 76812",
+      "family": "Estadística Estructural de Empresas: Sector Servicios",
+      "cnaeSections": true,
+      "note": "Conserva la base, unidad, periodo y cobertura de cada publicación. Las estimaciones provisionales y avances mantienen su estado original."
+    },
+    {
+      "id": 25038,
+      "label": "Principales magnitudes según actividad principal (CNAE-2009 a 1, 2, 3 y 4 dígitos) · 25038",
+      "family": "Estadística Estructural de Empresas: Sector Servicios",
+      "cnaeSections": true,
+      "note": "Conserva la base, unidad, periodo y cobertura de cada publicación. Las estimaciones provisionales y avances mantienen su estado original."
+    },
+    {
+      "id": 25042,
+      "label": "Principales indicadores según actividad principal (CNAE-2009 a 1, 2  y 3 dígitos )  y tamaño (por personal ocupado) · 25042",
+      "family": "Estadística Estructural de Empresas: Sector Servicios",
+      "cnaeSections": true,
+      "note": "Conserva la base, unidad, periodo y cobertura de cada publicación. Las estimaciones provisionales y avances mantienen su estado original."
+    },
+    {
+      "id": 25046,
+      "label": "Desglose de los gastos en servicios exteriores según actividad principal (CNAE-2009 a 1 y 2 dígitos) · 25046",
+      "family": "Estadística Estructural de Empresas: Sector Servicios",
+      "cnaeSections": true,
+      "note": "Conserva la base, unidad, periodo y cobertura de cada publicación. Las estimaciones provisionales y avances mantienen su estado original."
+    },
+    {
+      "id": 25049,
+      "label": "Errores de muestreo según comunidades y ciudades autómas según actividad principal (CNAE-2009 a 1, 2  y 3 dígitos) · 25049",
+      "family": "Estadística Estructural de Empresas: Sector Servicios",
+      "cnaeSections": true,
+      "note": "Conserva la base, unidad, periodo y cobertura de cada publicación. Las estimaciones provisionales y avances mantienen su estado original."
+    },
+    {
+      "id": 36180,
+      "label": "Principales magnitudes según actividad principal (CNAE-2009 a 1, 2  y 3 dígitos )  y tamaño (por personal ocupado) · 36180",
+      "family": "Estadística Estructural de Empresas: Sector Servicios",
+      "cnaeSections": true,
+      "note": "Conserva la base, unidad, periodo y cobertura de cada publicación. Las estimaciones provisionales y avances mantienen su estado original."
+    },
+    {
+      "id": 36183,
+      "label": "Principales indicadores según actividad principal (CNAE-2009 a 1, 2  y 3 dígitos )  y tamaño (por personal ocupado) · 36183",
+      "family": "Estadística Estructural de Empresas: Sector Servicios",
+      "cnaeSections": true,
+      "note": "Conserva la base, unidad, periodo y cobertura de cada publicación. Las estimaciones provisionales y avances mantienen su estado original."
+    },
+    {
+      "id": 36187,
+      "label": "Desglose de los gastos en servicios exteriores según actividad principal (CNAE-2009 a 1 y 2 dígitos) · 36187",
+      "family": "Estadística Estructural de Empresas: Sector Servicios",
+      "cnaeSections": true,
+      "note": "Conserva la base, unidad, periodo y cobertura de cada publicación. Las estimaciones provisionales y avances mantienen su estado original."
+    },
+    {
+      "id": 36190,
+      "label": "Errores de muestreo según comunidades y ciudades autónomas según actividad principal (CNAE-2009 a 1 y 2) · 36190",
+      "family": "Estadística Estructural de Empresas: Sector Servicios",
+      "cnaeSections": true,
+      "note": "Conserva la base, unidad, periodo y cobertura de cada publicación. Las estimaciones provisionales y avances mantienen su estado original."
+    },
+    {
+      "id": 76811,
+      "label": "Principales magnitudes según actividad principal (CNAE-2009 a 1, 2, 3 y 4 dígitos) · 76811",
+      "family": "Estadística Estructural de Empresas: Sector Servicios",
+      "cnaeSections": true,
+      "note": "Conserva la base, unidad, periodo y cobertura de cada publicación. Las estimaciones provisionales y avances mantienen su estado original."
+    },
+    {
+      "id": 25039,
+      "label": "Principales magnitudes según actividad principal (CNAE-2009 a 1, 2  y 3 dígitos )  y tamaño (por personal ocupado) · 25039",
+      "family": "Estadística Estructural de Empresas: Sector Servicios",
+      "cnaeSections": true,
+      "note": "Conserva la base, unidad, periodo y cobertura de cada publicación. Las estimaciones provisionales y avances mantienen su estado original."
+    },
+    {
+      "id": 76813,
+      "label": "Principales magnitudes según actividad principal (CNAE-2009 a 1, 2  y 3 dígitos )  y tamaño (por personal ocupado) · 76813",
+      "family": "Estadística Estructural de Empresas: Sector Servicios",
+      "cnaeSections": true,
+      "note": "Conserva la base, unidad, periodo y cobertura de cada publicación. Las estimaciones provisionales y avances mantienen su estado original."
+    },
+    {
+      "id": 76814,
+      "label": "Principales indicadores según actividad principal (CNAE-2009 a 1, 2, 3 y 4 dígitos) · 76814",
+      "family": "Estadística Estructural de Empresas: Sector Servicios",
+      "cnaeSections": true,
+      "note": "Conserva la base, unidad, periodo y cobertura de cada publicación. Las estimaciones provisionales y avances mantienen su estado original."
+    },
+    {
+      "id": 76815,
+      "label": "Resultados de explotación según actividad principal (CNAE-2009 a 1, 2 y 3 dígitos) · 76815",
+      "family": "Estadística Estructural de Empresas: Sector Servicios",
+      "cnaeSections": true,
+      "note": "Conserva la base, unidad, periodo y cobertura de cada publicación. Las estimaciones provisionales y avances mantienen su estado original."
+    },
+    {
+      "id": 76816,
+      "label": "Desglose de la cifra de negocios por destino geográfico de las ventas, según actividad principal (CNAE-2009 a 1, 2 y 3 dígitos) · 76816",
+      "family": "Estadística Estructural de Empresas: Sector Servicios",
+      "cnaeSections": true,
+      "note": "Conserva la base, unidad, periodo y cobertura de cada publicación. Las estimaciones provisionales y avances mantienen su estado original."
+    },
+    {
+      "id": 59936,
+      "label": "Principales variables según pertenencia a grupo empresarial y tipo, por rama de actividad de la empresa · 59936",
+      "family": "Estadística de Empresas según su pertenencia a grupos",
+      "cnaeSections": true,
+      "note": "Conserva la base, unidad, periodo y cobertura de cada publicación. Las estimaciones provisionales y avances mantienen su estado original."
+    },
+    {
+      "id": 59937,
+      "label": "FILINT. Principales variables por rama de actividad. Valor y porcentaje sobre total de empresas · 59937",
+      "family": "Estadística de Empresas según su pertenencia a grupos",
+      "cnaeSections": true,
+      "note": "Conserva la base, unidad, periodo y cobertura de cada publicación. Las estimaciones provisionales y avances mantienen su estado original."
+    },
+    {
+      "id": 82289,
+      "label": "Principales variables según pertenencia a grupo empresarial y tipo, por rama de actividad de la empresa · 82289",
+      "family": "Estadística de Empresas según su pertenencia a grupos",
+      "cnaeSections": true,
+      "note": "Conserva la base, unidad, periodo y cobertura de cada publicación. Las estimaciones provisionales y avances mantienen su estado original."
+    },
+    {
+      "id": 59938,
+      "label": "Principales variables según pertenencia a grupo empresarial y tipo, por sector de actividad y tamaño de la empresa · 59938",
+      "family": "Estadística de Empresas según su pertenencia a grupos",
+      "cnaeSections": true,
+      "note": "Conserva la base, unidad, periodo y cobertura de cada publicación. Las estimaciones provisionales y avances mantienen su estado original."
+    },
+    {
+      "id": 59941,
+      "label": "FILINT. Principales variables por intervalos de tamaño de la empresa. Valor y porcentaje sobre total de empresas · 59941",
+      "family": "Estadística de Empresas según su pertenencia a grupos",
+      "cnaeSections": true,
+      "note": "Conserva la base, unidad, periodo y cobertura de cada publicación. Las estimaciones provisionales y avances mantienen su estado original."
+    },
+    {
+      "id": 82290,
+      "label": "FILINT. Principales variables por sector de actividad y tamaño de la empresa. Valor y porcentaje sobre total de empresas · 82290",
+      "family": "Estadística de Empresas según su pertenencia a grupos",
+      "cnaeSections": true,
+      "note": "Conserva la base, unidad, periodo y cobertura de cada publicación. Las estimaciones provisionales y avances mantienen su estado original."
+    },
+    {
+      "id": 59939,
+      "label": "Principales indicadores según pertenencia a grupo empresarial y tipo, por rama de actividad de la empresa · 59939",
+      "family": "Estadística de Empresas según su pertenencia a grupos",
+      "cnaeSections": true,
+      "note": "Conserva la base, unidad, periodo y cobertura de cada publicación. Las estimaciones provisionales y avances mantienen su estado original."
+    },
+    {
+      "id": 59942,
+      "label": "FILINT. Principales variables por sector de actividad y tamaño de la empresa. Valor y porcentaje sobre total de empresas · 59942",
+      "family": "Estadística de Empresas según su pertenencia a grupos",
+      "cnaeSections": true,
+      "note": "Conserva la base, unidad, periodo y cobertura de cada publicación. Las estimaciones provisionales y avances mantienen su estado original."
+    },
+    {
+      "id": 82291,
+      "label": "FILINT. Principales variables por país de la empresa matriz · 82291",
+      "family": "Estadística de Empresas según su pertenencia a grupos",
+      "cnaeSections": true,
+      "note": "Conserva la base, unidad, periodo y cobertura de cada publicación. Las estimaciones provisionales y avances mantienen su estado original."
+    },
+    {
+      "id": 59943,
+      "label": "FILINT. Principales variables por país de la empresa matriz · 59943",
+      "family": "Estadística de Empresas según su pertenencia a grupos",
+      "cnaeSections": true,
+      "note": "Conserva la base, unidad, periodo y cobertura de cada publicación. Las estimaciones provisionales y avances mantienen su estado original."
+    },
+    {
+      "id": 59948,
+      "label": "Principales indicadores según pertenencia a grupo empresarial y tipo, por sector de actividad y tamaño de la empresa · 59948",
+      "family": "Estadística de Empresas según su pertenencia a grupos",
+      "cnaeSections": true,
+      "note": "Conserva la base, unidad, periodo y cobertura de cada publicación. Las estimaciones provisionales y avances mantienen su estado original."
+    },
+    {
+      "id": 59944,
+      "label": "FILINT. Principales variables por sector de actividad y zona geográfica de la empresa matriz · 59944",
+      "family": "Estadística de Empresas según su pertenencia a grupos",
+      "cnaeSections": true,
+      "note": "Conserva la base, unidad, periodo y cobertura de cada publicación. Las estimaciones provisionales y avances mantienen su estado original."
+    },
+    {
+      "id": 67196,
+      "label": "PIB pm Oferta (Precios corrientes) · 67196",
+      "family": "Contabilidad Nacional Trimestral de España: Principales Agregados",
+      "cnaeSections": true,
+      "note": "Conserva la base, unidad, periodo y cobertura de cada publicación. Las estimaciones provisionales y avances mantienen su estado original."
+    },
+    {
+      "id": 67201,
+      "label": "Empleo por ramas de actividad · 67201",
+      "family": "Contabilidad Nacional Trimestral de España: Principales Agregados",
+      "cnaeSections": true,
+      "note": "Conserva la base, unidad, periodo y cobertura de cada publicación. Las estimaciones provisionales y avances mantienen su estado original."
+    },
+    {
+      "id": 67821,
+      "label": "PIB pm Oferta (Precios corrientes) · 67821",
+      "family": "Contabilidad Nacional Trimestral de España: Principales Agregados",
+      "cnaeSections": true,
+      "note": "Conserva la base, unidad, periodo y cobertura de cada publicación. Las estimaciones provisionales y avances mantienen su estado original."
+    },
+    {
+      "id": 67827,
+      "label": "Empleo por ramas de actividad · 67827",
+      "family": "Contabilidad Nacional Trimestral de España: Principales Agregados",
+      "cnaeSections": true,
+      "note": "Conserva la base, unidad, periodo y cobertura de cada publicación. Las estimaciones provisionales y avances mantienen su estado original."
+    },
+    {
+      "id": 67822,
+      "label": "PIB pm Oferta (Indices de volumen encadenado) · 67822",
+      "family": "Contabilidad Nacional Trimestral de España: Principales Agregados",
+      "cnaeSections": true,
+      "note": "Conserva la base, unidad, periodo y cobertura de cada publicación. Las estimaciones provisionales y avances mantienen su estado original."
+    },
+    {
+      "id": 67828,
+      "label": "Productividad y costes laborales · 67828",
+      "family": "Contabilidad Nacional Trimestral de España: Principales Agregados",
+      "cnaeSections": true,
+      "note": "Conserva la base, unidad, periodo y cobertura de cada publicación. Las estimaciones provisionales y avances mantienen su estado original."
+    },
+    {
+      "id": 67823,
+      "label": "PIB pm Demanda (Precios corrientes) · 67823",
+      "family": "Contabilidad Nacional Trimestral de España: Principales Agregados",
+      "cnaeSections": true,
+      "note": "Conserva la base, unidad, periodo y cobertura de cada publicación. Las estimaciones provisionales y avances mantienen su estado original."
+    },
+    {
+      "id": 67198,
+      "label": "PIB pm Demanda (Indices de volumen encadenado) · 67198",
+      "family": "Contabilidad Nacional Trimestral de España: Principales Agregados",
+      "cnaeSections": true,
+      "note": "Conserva la base, unidad, periodo y cobertura de cada publicación. Las estimaciones provisionales y avances mantienen su estado original."
+    },
+    {
+      "id": 67824,
+      "label": "PIB pm Demanda (Indices de volumen encadenado) · 67824",
+      "family": "Contabilidad Nacional Trimestral de España: Principales Agregados",
+      "cnaeSections": true,
+      "note": "Conserva la base, unidad, periodo y cobertura de cada publicación. Las estimaciones provisionales y avances mantienen su estado original."
+    },
+    {
+      "id": 67200,
+      "label": "PIB pm Rentas (Precios corrientes) · 67200",
+      "family": "Contabilidad Nacional Trimestral de España: Principales Agregados",
+      "cnaeSections": true,
+      "note": "Conserva la base, unidad, periodo y cobertura de cada publicación. Las estimaciones provisionales y avances mantienen su estado original."
+    },
+    {
+      "id": 67825,
+      "label": "PIB pm Rentas (Precios corrientes) · 67825",
+      "family": "Contabilidad Nacional Trimestral de España: Principales Agregados",
+      "cnaeSections": true,
+      "note": "Conserva la base, unidad, periodo y cobertura de cada publicación. Las estimaciones provisionales y avances mantienen su estado original."
+    },
+    {
+      "id": 60558,
+      "label": "Serie original. Índice general, por sectores y por ramas de actividad · 60558",
+      "family": "Índice de Producción del Sector Servicios",
+      "cnaeSections": true,
+      "note": "Conserva la base, unidad, periodo y cobertura de cada publicación. Las estimaciones provisionales y avances mantienen su estado original."
+    },
+    {
+      "id": 60908,
+      "label": "Ponderaciones nacionales de producción por sectores, actividades y periodo. · 60908",
+      "family": "Índice de Producción del Sector Servicios",
+      "cnaeSections": true,
+      "note": "Conserva la base, unidad, periodo y cobertura de cada publicación. Las estimaciones provisionales y avances mantienen su estado original."
+    },
+    {
+      "id": 67274,
+      "label": "Serie original. Índice general, por sectores y por ramas de actividad · 67274",
+      "family": "Índice de Producción del Sector Servicios",
+      "cnaeSections": true,
+      "note": "Conserva la base, unidad, periodo y cobertura de cada publicación. Las estimaciones provisionales y avances mantienen su estado original."
+    },
+    {
+      "id": 60731,
+      "label": "Serie corregida de efectos de calendario. Índice general, por sectores y por ramas de actividad · 60731",
+      "family": "Índice de Producción del Sector Servicios",
+      "cnaeSections": true,
+      "note": "Conserva la base, unidad, periodo y cobertura de cada publicación. Las estimaciones provisionales y avances mantienen su estado original."
+    },
+    {
+      "id": 67275,
+      "label": "Serie corregida de efectos de calendario. Índice general, por sectores y por ramas de actividad · 67275",
+      "family": "Índice de Producción del Sector Servicios",
+      "cnaeSections": true,
+      "note": "Conserva la base, unidad, periodo y cobertura de cada publicación. Las estimaciones provisionales y avances mantienen su estado original."
+    },
+    {
+      "id": 60732,
+      "label": "Serie corregida de efectos estacionales y de calendario Índice general, por sectores y por ramas de actividad · 60732",
+      "family": "Índice de Producción del Sector Servicios",
+      "cnaeSections": true,
+      "note": "Conserva la base, unidad, periodo y cobertura de cada publicación. Las estimaciones provisionales y avances mantienen su estado original."
+    },
+    {
+      "id": 67276,
+      "label": "Serie corregida de efectos estacionales y de calendario Índice general, por sectores y por ramas de actividad · 67276",
+      "family": "Índice de Producción del Sector Servicios",
+      "cnaeSections": true,
+      "note": "Conserva la base, unidad, periodo y cobertura de cada publicación. Las estimaciones provisionales y avances mantienen su estado original."
+    },
+    {
+      "id": 24886,
+      "label": "Principales magnitudes según actividad principal (CNAE-2009 a 1, 2, 3 y 4 dígitos) · 24886",
+      "family": "Estadística Estructural de Empresas: Sector Comercio",
+      "cnaeSections": true,
+      "note": "Conserva la base, unidad, periodo y cobertura de cada publicación. Las estimaciones provisionales y avances mantienen su estado original."
+    },
+    {
+      "id": 24889,
+      "label": "Principales indicadores según actividad principal (CNAE-2009 a 1, 2, 3 y 4 dígitos) · 24889",
+      "family": "Estadística Estructural de Empresas: Sector Comercio",
+      "cnaeSections": true,
+      "note": "Conserva la base, unidad, periodo y cobertura de cada publicación. Las estimaciones provisionales y avances mantienen su estado original."
+    },
+    {
+      "id": 24891,
+      "label": "Resultados de explotación según actividad principal (CNAE-2009 a 1, 2 y 3 dígitos) · 24891",
+      "family": "Estadística Estructural de Empresas: Sector Comercio",
+      "cnaeSections": true,
+      "note": "Conserva la base, unidad, periodo y cobertura de cada publicación. Las estimaciones provisionales y avances mantienen su estado original."
+    },
+    {
+      "id": 24892,
+      "label": "Inversión según actividad principal (CNAE-2009 a 1, 2, 3 y 4 dígitos) · 24892",
+      "family": "Estadística Estructural de Empresas: Sector Comercio",
+      "cnaeSections": true,
+      "note": "Conserva la base, unidad, periodo y cobertura de cada publicación. Las estimaciones provisionales y avances mantienen su estado original."
+    },
+    {
+      "id": 24893,
+      "label": "Desglose de la cifra de negocios por destino geográfico de las ventas, según actividad principal (CNAE-2009 a 1, 2 y 3 dígitos) · 24893",
+      "family": "Estadística Estructural de Empresas: Sector Comercio",
+      "cnaeSections": true,
+      "note": "Conserva la base, unidad, periodo y cobertura de cada publicación. Las estimaciones provisionales y avances mantienen su estado original."
+    },
+    {
+      "id": 24895,
+      "label": "Magnitudes regionalizadas según comunidades y ciudades autónomas y actividad principal (CNAE-2009 a 1,2 y 3 dígitos) · 24895",
+      "family": "Estadística Estructural de Empresas: Sector Comercio",
+      "cnaeSections": true,
+      "note": "Conserva la base, unidad, periodo y cobertura de cada publicación. Las estimaciones provisionales y avances mantienen su estado original."
+    },
+    {
+      "id": 24896,
+      "label": "Errores de muestreo según actividad principal (CNAE-2009 a 1, 2, 3 y 4 dígitos) · 24896",
+      "family": "Estadística Estructural de Empresas: Sector Comercio",
+      "cnaeSections": true,
+      "note": "Conserva la base, unidad, periodo y cobertura de cada publicación. Las estimaciones provisionales y avances mantienen su estado original."
+    },
+    {
+      "id": 36194,
+      "label": "Principales magnitudes según actividad principal (CNAE-2009 a 1, 2, 3 y 4 dígitos) · 36194",
+      "family": "Estadística Estructural de Empresas: Sector Comercio",
+      "cnaeSections": true,
+      "note": "Conserva la base, unidad, periodo y cobertura de cada publicación. Las estimaciones provisionales y avances mantienen su estado original."
+    },
+    {
+      "id": 36197,
+      "label": "Principales indicadores según actividad principal (CNAE-2009 a 1, 2, 3 y 4 dígitos) · 36197",
+      "family": "Estadística Estructural de Empresas: Sector Comercio",
+      "cnaeSections": true,
+      "note": "Conserva la base, unidad, periodo y cobertura de cada publicación. Las estimaciones provisionales y avances mantienen su estado original."
+    },
+    {
+      "id": 36199,
+      "label": "Resultados de explotación según actividad principal (CNAE-2009 a 1, 2 y 3 dígitos) · 36199",
+      "family": "Estadística Estructural de Empresas: Sector Comercio",
+      "cnaeSections": true,
+      "note": "Conserva la base, unidad, periodo y cobertura de cada publicación. Las estimaciones provisionales y avances mantienen su estado original."
+    },
+    {
+      "id": 36200,
+      "label": "Inversión según actividad principal (CNAE-2009 a 1, 2, 3 y 4 dígitos) · 36200",
+      "family": "Estadística Estructural de Empresas: Sector Comercio",
+      "cnaeSections": true,
+      "note": "Conserva la base, unidad, periodo y cobertura de cada publicación. Las estimaciones provisionales y avances mantienen su estado original."
+    },
+    {
+      "id": 36201,
+      "label": "Desglose de la cifra de negocios por destino geográfico de las ventas, según actividad principal (CNAE-2009 a 1, 2 y 3 dígitos) · 36201",
+      "family": "Estadística Estructural de Empresas: Sector Comercio",
+      "cnaeSections": true,
+      "note": "Conserva la base, unidad, periodo y cobertura de cada publicación. Las estimaciones provisionales y avances mantienen su estado original."
+    },
+    {
+      "id": 36203,
+      "label": "Magnitudes regionalizadas según comunidades y ciudades autónomas y actividad principal (CNAE-2009 a 1,2 y 3 dígitos) · 36203",
+      "family": "Estadística Estructural de Empresas: Sector Comercio",
+      "cnaeSections": true,
+      "note": "Conserva la base, unidad, periodo y cobertura de cada publicación. Las estimaciones provisionales y avances mantienen su estado original."
+    },
+    {
+      "id": 36204,
+      "label": "Errores de muestreo según actividad principal (CNAE-2009 a 1, 2, 3 y 4 dígitos) · 36204",
+      "family": "Estadística Estructural de Empresas: Sector Comercio",
+      "cnaeSections": true,
+      "note": "Conserva la base, unidad, periodo y cobertura de cada publicación. Las estimaciones provisionales y avances mantienen su estado original."
+    },
+    {
+      "id": 76817,
+      "label": "Magnitudes regionalizadas según comunidades y ciudades autónomas y actividad principal (CNAE-2009 a 1,2 y 3 dígitos) · 76817",
+      "family": "Estadística Estructural de Empresas: Sector Comercio",
+      "cnaeSections": true,
+      "note": "Conserva la base, unidad, periodo y cobertura de cada publicación. Las estimaciones provisionales y avances mantienen su estado original."
+    },
+    {
+      "id": 24887,
+      "label": "Principales magnitudes según actividad principal (CNAE-2009 a 1, 2  y 3 dígitos)  y tamaño (por personal ocupado) · 24887",
+      "family": "Estadística Estructural de Empresas: Sector Comercio",
+      "cnaeSections": true,
+      "note": "Conserva la base, unidad, periodo y cobertura de cada publicación. Las estimaciones provisionales y avances mantienen su estado original."
+    },
+    {
+      "id": 24890,
+      "label": "Principales indicadores según actividad principal (CNAE-2009 a 1, 2  y 3 dígitos )  y tamaño (por personal ocupado) · 24890",
+      "family": "Estadística Estructural de Empresas: Sector Comercio",
+      "cnaeSections": true,
+      "note": "Conserva la base, unidad, periodo y cobertura de cada publicación. Las estimaciones provisionales y avances mantienen su estado original."
+    },
+    {
+      "id": 24894,
+      "label": "Desglose de los gastos en servicios exteriores según actividad principal (CNAE-2009 a 1 y 2 dígitos) · 24894",
+      "family": "Estadística Estructural de Empresas: Sector Comercio",
+      "cnaeSections": true,
+      "note": "Conserva la base, unidad, periodo y cobertura de cada publicación. Las estimaciones provisionales y avances mantienen su estado original."
+    },
+    {
+      "id": 24897,
+      "label": "Errores de muestreo según comunidades y ciudades autómas según actividad principal (CNAE-2009 a 1, 2  y 3 dígitos) · 24897",
+      "family": "Estadística Estructural de Empresas: Sector Comercio",
+      "cnaeSections": true,
+      "note": "Conserva la base, unidad, periodo y cobertura de cada publicación. Las estimaciones provisionales y avances mantienen su estado original."
+    },
+    {
+      "id": 36195,
+      "label": "Principales magnitudes según actividad principal (CNAE-2009 a 1, 2  y 3 dígitos)  y tamaño (por personal ocupado) · 36195",
+      "family": "Estadística Estructural de Empresas: Sector Comercio",
+      "cnaeSections": true,
+      "note": "Conserva la base, unidad, periodo y cobertura de cada publicación. Las estimaciones provisionales y avances mantienen su estado original."
+    },
+    {
+      "id": 36198,
+      "label": "Principales indicadores según actividad principal (CNAE-2009 a 1, 2  y 3 dígitos )  y tamaño (por personal ocupado) · 36198",
+      "family": "Estadística Estructural de Empresas: Sector Comercio",
+      "cnaeSections": true,
+      "note": "Conserva la base, unidad, periodo y cobertura de cada publicación. Las estimaciones provisionales y avances mantienen su estado original."
+    },
+    {
+      "id": 36202,
+      "label": "Desglose de los gastos en servicios exteriores según actividad principal (CNAE-2009 a 1 y 2 dígitos) · 36202",
+      "family": "Estadística Estructural de Empresas: Sector Comercio",
+      "cnaeSections": true,
+      "note": "Conserva la base, unidad, periodo y cobertura de cada publicación. Las estimaciones provisionales y avances mantienen su estado original."
+    },
+    {
+      "id": 36205,
+      "label": "Errores de muestreo según comunidades y ciudades autómas según actividad principal (CNAE-2009 a 1, 2  y 3 dígitos) · 36205",
+      "family": "Estadística Estructural de Empresas: Sector Comercio",
+      "cnaeSections": true,
+      "note": "Conserva la base, unidad, periodo y cobertura de cada publicación. Las estimaciones provisionales y avances mantienen su estado original."
+    },
+    {
+      "id": 76818,
+      "label": "Principales magnitudes según actividad principal (CNAE-2009 a 1, 2, 3 y 4 dígitos) · 76818",
+      "family": "Estadística Estructural de Empresas: Sector Comercio",
+      "cnaeSections": true,
+      "note": "Conserva la base, unidad, periodo y cobertura de cada publicación. Las estimaciones provisionales y avances mantienen su estado original."
+    },
+    {
+      "id": 76819,
+      "label": "Principales magnitudes según actividad principal (CNAE-2009 a 1, 2  y 3 dígitos)  y tamaño (por personal ocupado) · 76819",
+      "family": "Estadística Estructural de Empresas: Sector Comercio",
+      "cnaeSections": true,
+      "note": "Conserva la base, unidad, periodo y cobertura de cada publicación. Las estimaciones provisionales y avances mantienen su estado original."
+    },
+    {
+      "id": 76820,
+      "label": "Principales indicadores según actividad principal (CNAE-2009 a 1, 2  y 3 dígitos )  y tamaño (por personal ocupado) · 76820",
+      "family": "Estadística Estructural de Empresas: Sector Comercio",
+      "cnaeSections": true,
+      "note": "Conserva la base, unidad, periodo y cobertura de cada publicación. Las estimaciones provisionales y avances mantienen su estado original."
+    },
+    {
+      "id": 76821,
+      "label": "Resultados de explotación según actividad principal (CNAE-2009 a 1, 2 y 3 dígitos) · 76821",
+      "family": "Estadística Estructural de Empresas: Sector Comercio",
+      "cnaeSections": true,
+      "note": "Conserva la base, unidad, periodo y cobertura de cada publicación. Las estimaciones provisionales y avances mantienen su estado original."
+    },
+    {
+      "id": 76822,
+      "label": "Inversión según actividad principal (CNAE-2009 a 1, 2, 3 y 4 dígitos) · 76822",
+      "family": "Estadística Estructural de Empresas: Sector Comercio",
+      "cnaeSections": true,
+      "note": "Conserva la base, unidad, periodo y cobertura de cada publicación. Las estimaciones provisionales y avances mantienen su estado original."
+    },
+    {
+      "id": 45599,
+      "label": "Tasa de crecimiento anual del PIB real per cápita por comunidad autónoma · 45599",
+      "family": "Contabilidad Regional de España",
+      "cnaeSections": true,
+      "note": "Conserva la base, unidad, periodo y cobertura de cada publicación. Las estimaciones provisionales y avances mantienen su estado original."
+    },
+    {
+      "id": 45600,
+      "label": "Tasa de crecimiento anual de la productividad por comunidad autónoma · 45600",
+      "family": "Contabilidad Regional de España",
+      "cnaeSections": true,
+      "note": "Conserva la base, unidad, periodo y cobertura de cada publicación. Las estimaciones provisionales y avances mantienen su estado original."
+    },
+    {
+      "id": 45601,
+      "label": "Valor añadido del sector manufacturero per cápita por comunidad autónoma · 45601",
+      "family": "Contabilidad Regional de España",
+      "cnaeSections": true,
+      "note": "Conserva la base, unidad, periodo y cobertura de cada publicación. Las estimaciones provisionales y avances mantienen su estado original."
+    },
+    {
+      "id": 80109,
+      "label": "Producto interior bruto a precios de mercado (PIB): Precios corrientes por Comunidades y Ciudades autónomas y provincias · 80109",
+      "family": "Contabilidad Regional de España",
+      "cnaeSections": true,
+      "note": "Conserva la base, unidad, periodo y cobertura de cada publicación. Las estimaciones provisionales y avances mantienen su estado original."
+    },
+    {
+      "id": 81998,
+      "label": "Remuneración de los asalariados: Precios corrientes por comunidades y ciudades autónomas · 81998",
+      "family": "Contabilidad Regional de España",
+      "cnaeSections": true,
+      "note": "Conserva la base, unidad, periodo y cobertura de cada publicación. Las estimaciones provisionales y avances mantienen su estado original."
+    },
+    {
+      "id": 45602,
+      "label": "Valor añadido del sector manufacturero en proporción al PIB por comunidad autónoma · 45602",
+      "family": "Contabilidad Regional de España",
+      "cnaeSections": true,
+      "note": "Conserva la base, unidad, periodo y cobertura de cada publicación. Las estimaciones provisionales y avances mantienen su estado original."
+    },
+    {
+      "id": 81999,
+      "label": "Excedente de explotación bruto / Renta mixta bruta: Precios corrientes por comunidades y ciudades autónomas · 81999",
+      "family": "Contabilidad Regional de España",
+      "cnaeSections": true,
+      "note": "Conserva la base, unidad, periodo y cobertura de cada publicación. Las estimaciones provisionales y avances mantienen su estado original."
+    },
+    {
+      "id": 80110,
+      "label": "Producto interior bruto (PIB) per cápita: Precios corrientes por Comunidades y Ciudades autónomas y provincias · 80110",
+      "family": "Contabilidad Regional de España",
+      "cnaeSections": true,
+      "note": "Conserva la base, unidad, periodo y cobertura de cada publicación. Las estimaciones provisionales y avances mantienen su estado original."
+    },
+    {
+      "id": 82000,
+      "label": "Empleo total: Personas por comunidades y ciudades autónomas y provincias · 82000",
+      "family": "Contabilidad Regional de España",
+      "cnaeSections": true,
+      "note": "Conserva la base, unidad, periodo y cobertura de cada publicación. Las estimaciones provisionales y avances mantienen su estado original."
+    },
+    {
+      "id": 80111,
+      "label": "Tasas de Variación Interanuales: Variaciones de volumen por Comunidades y Ciudades autónomas · 80111",
+      "family": "Contabilidad Regional de España",
+      "cnaeSections": true,
+      "note": "Conserva la base, unidad, periodo y cobertura de cada publicación. Las estimaciones provisionales y avances mantienen su estado original."
+    },
+    {
+      "id": 80113,
+      "label": "Cifras de Población · 80113",
+      "family": "Contabilidad Regional de España",
+      "cnaeSections": true,
+      "note": "Conserva la base, unidad, periodo y cobertura de cada publicación. Las estimaciones provisionales y avances mantienen su estado original."
+    },
+    {
+      "id": 82001,
+      "label": "Empleo asalariado: Personas por comunidades y ciudades autónomas y provincias · 82001",
+      "family": "Contabilidad Regional de España",
+      "cnaeSections": true,
+      "note": "Conserva la base, unidad, periodo y cobertura de cada publicación. Las estimaciones provisionales y avances mantienen su estado original."
+    },
+    {
+      "id": 82002,
+      "label": "Empleo total: Horas por comunidades y ciudades autónomas · 82002",
+      "family": "Contabilidad Regional de España",
+      "cnaeSections": true,
+      "note": "Conserva la base, unidad, periodo y cobertura de cada publicación. Las estimaciones provisionales y avances mantienen su estado original."
+    },
+    {
+      "id": 82003,
+      "label": "Empleo asalariado: Horas por comunidades y ciudades autónomas · 82003",
+      "family": "Contabilidad Regional de España",
+      "cnaeSections": true,
+      "note": "Conserva la base, unidad, periodo y cobertura de cada publicación. Las estimaciones provisionales y avances mantienen su estado original."
+    },
+    {
+      "id": 61782,
+      "label": "Índices nacionales: general y por sectores · 61782",
+      "family": "Índice de Cifra de Negocios Empresarial",
+      "cnaeSections": true,
+      "note": "Conserva la base, unidad, periodo y cobertura de cada publicación. Las estimaciones provisionales y avances mantienen su estado original."
+    },
+    {
+      "id": 61783,
+      "label": "Índices nacionales: general y por sectores · 61783",
+      "family": "Índice de Cifra de Negocios Empresarial",
+      "cnaeSections": true,
+      "note": "Conserva la base, unidad, periodo y cobertura de cada publicación. Las estimaciones provisionales y avances mantienen su estado original."
+    },
+    {
+      "id": 61784,
+      "label": "Índices nacionales: general y por sectores · 61784",
+      "family": "Índice de Cifra de Negocios Empresarial",
+      "cnaeSections": true,
+      "note": "Conserva la base, unidad, periodo y cobertura de cada publicación. Las estimaciones provisionales y avances mantienen su estado original."
+    },
+    {
+      "id": 61785,
+      "label": "Índices nacionales: general y por sectores · 61785",
+      "family": "Índice de Cifra de Negocios Empresarial",
+      "cnaeSections": true,
+      "note": "Conserva la base, unidad, periodo y cobertura de cada publicación. Las estimaciones provisionales y avances mantienen su estado original."
+    },
+    {
+      "id": 67195,
+      "label": "Agregados por ramas de actividad · 67195",
+      "family": "Contabilidad nacional anual de España: agregados por rama de actividad",
+      "cnaeSections": true,
+      "note": "Conserva la base, unidad, periodo y cobertura de cada publicación. Las estimaciones provisionales y avances mantienen su estado original."
+    },
+    {
+      "id": 69069,
+      "label": "Agregados por ramas de actividad · 69069",
+      "family": "Contabilidad nacional anual de España: agregados por rama de actividad",
+      "cnaeSections": true,
+      "note": "Conserva la base, unidad, periodo y cobertura de cada publicación. Las estimaciones provisionales y avances mantienen su estado original."
+    },
+    {
+      "id": 71129,
+      "label": "Agregados por ramas de actividad · 71129",
+      "family": "Contabilidad nacional anual de España: agregados por rama de actividad",
+      "cnaeSections": true,
+      "note": "Conserva la base, unidad, periodo y cobertura de cada publicación. Las estimaciones provisionales y avances mantienen su estado original."
+    },
+    {
+      "id": 67197,
+      "label": "Valor Añadido Bruto · 67197",
+      "family": "Contabilidad nacional anual de España: agregados por rama de actividad",
+      "cnaeSections": true,
+      "note": "Conserva la base, unidad, periodo y cobertura de cada publicación. Las estimaciones provisionales y avances mantienen su estado original."
+    },
+    {
+      "id": 69070,
+      "label": "Valor Añadido Bruto · 69070",
+      "family": "Contabilidad nacional anual de España: agregados por rama de actividad",
+      "cnaeSections": true,
+      "note": "Conserva la base, unidad, periodo y cobertura de cada publicación. Las estimaciones provisionales y avances mantienen su estado original."
+    },
+    {
+      "id": 67202,
+      "label": "Empleo · 67202",
+      "family": "Contabilidad nacional anual de España: agregados por rama de actividad",
+      "cnaeSections": true,
+      "note": "Conserva la base, unidad, periodo y cobertura de cada publicación. Las estimaciones provisionales y avances mantienen su estado original."
+    },
+    {
+      "id": 69071,
+      "label": "Empleo · 69071",
+      "family": "Contabilidad nacional anual de España: agregados por rama de actividad",
+      "cnaeSections": true,
+      "note": "Conserva la base, unidad, periodo y cobertura de cada publicación. Las estimaciones provisionales y avances mantienen su estado original."
+    },
+    {
+      "id": 71132,
+      "label": "Valor Añadido Bruto · 71132",
+      "family": "Contabilidad nacional anual de España: agregados por rama de actividad",
+      "cnaeSections": true,
+      "note": "Conserva la base, unidad, periodo y cobertura de cada publicación. Las estimaciones provisionales y avances mantienen su estado original."
+    },
+    {
+      "id": 69072,
+      "label": "Consumo de capital fijo por ramas de actividad · 69072",
+      "family": "Contabilidad nacional anual de España: agregados por rama de actividad",
+      "cnaeSections": true,
+      "note": "Conserva la base, unidad, periodo y cobertura de cada publicación. Las estimaciones provisionales y avances mantienen su estado original."
+    },
+    {
+      "id": 71133,
+      "label": "Empleo · 71133",
+      "family": "Contabilidad nacional anual de España: agregados por rama de actividad",
+      "cnaeSections": true,
+      "note": "Conserva la base, unidad, periodo y cobertura de cada publicación. Las estimaciones provisionales y avances mantienen su estado original."
+    },
+    {
+      "id": 76276,
+      "label": "Formación bruta de capital fijo por activos y ramas de actividad · 76276",
+      "family": "Contabilidad nacional anual de España: agregados por rama de actividad",
+      "cnaeSections": true,
+      "note": "Conserva la base, unidad, periodo y cobertura de cada publicación. Las estimaciones provisionales y avances mantienen su estado original."
+    },
+    {
+      "id": 67199,
+      "label": "Formación bruta de capital fijo por activos y ramas de actividad · 67199",
+      "family": "Contabilidad nacional anual de España: agregados por rama de actividad",
+      "cnaeSections": true,
+      "note": "Conserva la base, unidad, periodo y cobertura de cada publicación. Las estimaciones provisionales y avances mantienen su estado original."
+    },
+    {
+      "id": 69073,
+      "label": "Formación bruta de capital fijo por activos y ramas de actividad · 69073",
+      "family": "Contabilidad nacional anual de España: agregados por rama de actividad",
+      "cnaeSections": true,
+      "note": "Conserva la base, unidad, periodo y cobertura de cada publicación. Las estimaciones provisionales y avances mantienen su estado original."
+    },
+    {
+      "id": 69074,
+      "label": "Balances de activos no financieros: Stocks de capital fijo por activos y ramas de actividad · 69074",
+      "family": "Contabilidad nacional anual de España: agregados por rama de actividad",
+      "cnaeSections": true,
+      "note": "Conserva la base, unidad, periodo y cobertura de cada publicación. Las estimaciones provisionales y avances mantienen su estado original."
+    },
+    {
+      "id": 82126,
+      "label": "Datos generales: Flujos de unidades legales empleadoras por comunidades autónomas · 82126",
+      "family": "Coyuntura demográfica de empresas",
+      "cnaeSections": true,
+      "note": "Conserva la base, unidad, periodo y cobertura de cada publicación. Las estimaciones provisionales y avances mantienen su estado original."
+    },
+    {
+      "id": 82133,
+      "label": "Datos generales: Flujos de trabajadores autónomos por comunidades autónomas · 82133",
+      "family": "Coyuntura demográfica de empresas",
+      "cnaeSections": true,
+      "note": "Conserva la base, unidad, periodo y cobertura de cada publicación. Las estimaciones provisionales y avances mantienen su estado original."
+    },
+    {
+      "id": 82127,
+      "label": "Supervivencias: Evolución de cohortes de unidades legales empleadoras por comunidades autónomas según división CNAE 2025 y antigüedad · 82127",
+      "family": "Coyuntura demográfica de empresas",
+      "cnaeSections": true,
+      "note": "Conserva la base, unidad, periodo y cobertura de cada publicación. Las estimaciones provisionales y avances mantienen su estado original."
+    },
+    {
+      "id": 82134,
+      "label": "Supervivencias: Evolución de cohortes de trabajadores autónomos por comunidades autónomas según división CNAE 2025 y sexo · 82134",
+      "family": "Coyuntura demográfica de empresas",
+      "cnaeSections": true,
+      "note": "Conserva la base, unidad, periodo y cobertura de cada publicación. Las estimaciones provisionales y avances mantienen su estado original."
+    },
+    {
+      "id": 82128,
+      "label": "Supervivencias: Evolución de cohortes de unidades legales empleadoras por comunidades autónomas según estrato de asalariados y antigüedad · 82128",
+      "family": "Coyuntura demográfica de empresas",
+      "cnaeSections": true,
+      "note": "Conserva la base, unidad, periodo y cobertura de cada publicación. Las estimaciones provisionales y avances mantienen su estado original."
+    },
+    {
+      "id": 82135,
+      "label": "Supervivencias: Evolución de cohortes de trabajadores autónomos por comunidades autónomas según estrato de edad y sexo · 82135",
+      "family": "Coyuntura demográfica de empresas",
+      "cnaeSections": true,
+      "note": "Conserva la base, unidad, periodo y cobertura de cada publicación. Las estimaciones provisionales y avances mantienen su estado original."
+    },
+    {
+      "id": 82129,
+      "label": "Supervivencias: Evolución de cohortes de unidades legales empleadoras por provincias según división CNAE 2025 y antigüedad · 82129",
+      "family": "Coyuntura demográfica de empresas",
+      "cnaeSections": true,
+      "note": "Conserva la base, unidad, periodo y cobertura de cada publicación. Las estimaciones provisionales y avances mantienen su estado original."
+    },
+    {
+      "id": 82136,
+      "label": "Supervivencias: Evolución de cohortes de trabajadores autónomos por provincias según división CNAE 2025 y sexo · 82136",
+      "family": "Coyuntura demográfica de empresas",
+      "cnaeSections": true,
+      "note": "Conserva la base, unidad, periodo y cobertura de cada publicación. Las estimaciones provisionales y avances mantienen su estado original."
+    },
+    {
+      "id": 82130,
+      "label": "Supervivencias: Evolución de cohortes de unidades legales empleadoras por provincias según estrato de asalariados y antigüedad · 82130",
+      "family": "Coyuntura demográfica de empresas",
+      "cnaeSections": true,
+      "note": "Conserva la base, unidad, periodo y cobertura de cada publicación. Las estimaciones provisionales y avances mantienen su estado original."
+    },
+    {
+      "id": 82137,
+      "label": "Supervivencias: Evolución de cohortes de trabajadores autónomos por provincias según estrato de edad y sexo · 82137",
+      "family": "Coyuntura demográfica de empresas",
+      "cnaeSections": true,
+      "note": "Conserva la base, unidad, periodo y cobertura de cada publicación. Las estimaciones provisionales y avances mantienen su estado original."
+    },
+    {
+      "id": 82131,
+      "label": "Datos por actividad: Flujos de unidades legales empleadoras por provincias según división CNAE 2025 · 82131",
+      "family": "Coyuntura demográfica de empresas",
+      "cnaeSections": true,
+      "note": "Conserva la base, unidad, periodo y cobertura de cada publicación. Las estimaciones provisionales y avances mantienen su estado original."
+    },
+    {
+      "id": 82138,
+      "label": "Datos por actividad: Flujos de trabajadores autónomos por provincias según división CNAE 2025 · 82138",
+      "family": "Coyuntura demográfica de empresas",
+      "cnaeSections": true,
+      "note": "Conserva la base, unidad, periodo y cobertura de cada publicación. Las estimaciones provisionales y avances mantienen su estado original."
+    },
+    {
+      "id": 82132,
+      "label": "Datos municipales: Indicadores de unidades legales empleadoras · 82132",
+      "family": "Coyuntura demográfica de empresas",
+      "cnaeSections": true,
+      "note": "Conserva la base, unidad, periodo y cobertura de cada publicación. Las estimaciones provisionales y avances mantienen su estado original."
+    },
+    {
+      "id": 82139,
+      "label": "Datos municipales: Indicadores de trabajadores autónomos · 82139",
+      "family": "Coyuntura demográfica de empresas",
+      "cnaeSections": true,
+      "note": "Conserva la base, unidad, periodo y cobertura de cada publicación. Las estimaciones provisionales y avances mantienen su estado original."
+    },
+    {
+      "id": 73979,
+      "label": "Por tipo de operación, actividad económica principal, intervalo de tamaño y área geográfica · 73979",
+      "family": "Comercio Internacional de Servicios por Características de las Empresas (STEC)",
+      "cnaeSections": true,
+      "note": "Conserva la base, unidad, periodo y cobertura de cada publicación. Las estimaciones provisionales y avances mantienen su estado original."
+    },
+    {
+      "id": 73983,
+      "label": "Por tipo de operación, actividad económica principal, tipo de servicio principal y área geográfica · 73983",
+      "family": "Comercio Internacional de Servicios por Características de las Empresas (STEC)",
+      "cnaeSections": true,
+      "note": "Conserva la base, unidad, periodo y cobertura de cada publicación. Las estimaciones provisionales y avances mantienen su estado original."
+    },
+    {
+      "id": 73984,
+      "label": "Por tipo de operación, actividad económica principal, total de servicios y área geográfica/países seleccionados · 73984",
+      "family": "Comercio Internacional de Servicios por Características de las Empresas (STEC)",
+      "cnaeSections": true,
+      "note": "Conserva la base, unidad, periodo y cobertura de cada publicación. Las estimaciones provisionales y avances mantienen su estado original."
+    },
+    {
+      "id": 73985,
+      "label": "Por tipo de operación, actividad económica principal, tipo de control y área geográfica · 73985",
+      "family": "Comercio Internacional de Servicios por Características de las Empresas (STEC)",
+      "cnaeSections": true,
+      "note": "Conserva la base, unidad, periodo y cobertura de cada publicación. Las estimaciones provisionales y avances mantienen su estado original."
+    },
+    {
+      "id": 76182,
+      "label": "Por tipo de operación, actividad económica principal, intervalo de tamaño y área geográfica · 76182",
+      "family": "Comercio Internacional de Servicios por Características de las Empresas (STEC)",
+      "cnaeSections": true,
+      "note": "Conserva la base, unidad, periodo y cobertura de cada publicación. Las estimaciones provisionales y avances mantienen su estado original."
+    },
+    {
+      "id": 76183,
+      "label": "Por tipo de operación, actividad económica principal, tipo de servicio principal y área geográfica · 76183",
+      "family": "Comercio Internacional de Servicios por Características de las Empresas (STEC)",
+      "cnaeSections": true,
+      "note": "Conserva la base, unidad, periodo y cobertura de cada publicación. Las estimaciones provisionales y avances mantienen su estado original."
+    },
+    {
+      "id": 76184,
+      "label": "Por tipo de operación, actividad económica principal, total de servicios y área geográfica/países seleccionados · 76184",
+      "family": "Comercio Internacional de Servicios por Características de las Empresas (STEC)",
+      "cnaeSections": true,
+      "note": "Conserva la base, unidad, periodo y cobertura de cada publicación. Las estimaciones provisionales y avances mantienen su estado original."
+    },
+    {
+      "id": 76185,
+      "label": "Por tipo de operación, actividad económica principal, tipo de control y área geográfica · 76185",
+      "family": "Comercio Internacional de Servicios por Características de las Empresas (STEC)",
+      "cnaeSections": true,
+      "note": "Conserva la base, unidad, periodo y cobertura de cada publicación. Las estimaciones provisionales y avances mantienen su estado original."
+    },
+    {
+      "id": 82463,
+      "label": "Stock de empresas por comunidades y ciudades autónomas, actividad principal (CNAE 2009) y estrato de asalariados · 2024",
+      "family": "Demografía armonizada de empresas",
+      "sourceUrl": "https://www.ine.es/jaxiPx/Tabla.htm?tpx=82463",
+      "note": "Edición 2024. Las cifras se refieren a la empresa estadística y a su actividad. Se conserva el carácter provisional cuando figura en el título.",
+      "dae": true,
+      "fixedPeriod": "2024"
+    },
+    {
+      "id": 82464,
+      "label": "Stock de empresas por comunidades y ciudades autónomas, actividad principal (CNAE 2009) y condición jurídica · 2024",
+      "family": "Demografía armonizada de empresas",
+      "sourceUrl": "https://www.ine.es/jaxiPx/Tabla.htm?tpx=82464",
+      "note": "Edición 2024. Las cifras se refieren a la empresa estadística y a su actividad. Se conserva el carácter provisional cuando figura en el título.",
+      "dae": true,
+      "fixedPeriod": "2024"
+    },
+    {
+      "id": 82465,
+      "label": "Nacimientos de empresas por comunidades y ciudades autónomas, actividad principal (CNAE 2009) y estrato de asalariados · 2024",
+      "family": "Demografía armonizada de empresas",
+      "sourceUrl": "https://www.ine.es/jaxiPx/Tabla.htm?tpx=82465",
+      "note": "Edición 2024. Las cifras se refieren a la empresa estadística y a su actividad. Se conserva el carácter provisional cuando figura en el título.",
+      "dae": true,
+      "fixedPeriod": "2024"
+    },
+    {
+      "id": 82466,
+      "label": "Nacimientos de empresas por comunidades y ciudades autónomas, actividad principal (CNAE 2009) y condición jurídica · 2024",
+      "family": "Demografía armonizada de empresas",
+      "sourceUrl": "https://www.ine.es/jaxiPx/Tabla.htm?tpx=82466",
+      "note": "Edición 2024. Las cifras se refieren a la empresa estadística y a su actividad. Se conserva el carácter provisional cuando figura en el título.",
+      "dae": true,
+      "fixedPeriod": "2024"
+    },
+    {
+      "id": 82467,
+      "label": "Muertes provisionales de empresas por comunidades y ciudades autónomas, actividad principal (CNAE 2009) y estrato de asalariados · 2024",
+      "family": "Demografía armonizada de empresas",
+      "sourceUrl": "https://www.ine.es/jaxiPx/Tabla.htm?tpx=82467",
+      "note": "Edición 2024. Las cifras se refieren a la empresa estadística y a su actividad. Se conserva el carácter provisional cuando figura en el título.",
+      "dae": true,
+      "fixedPeriod": "2024",
+      "fixedStatus": "Provisional"
+    },
+    {
+      "id": 82468,
+      "label": "Muertes provisionales de empresas por comunidades y ciudades autónomas, actividad principal (CNAE 2009) y condición jurídica · 2024",
+      "family": "Demografía armonizada de empresas",
+      "sourceUrl": "https://www.ine.es/jaxiPx/Tabla.htm?tpx=82468",
+      "note": "Edición 2024. Las cifras se refieren a la empresa estadística y a su actividad. Se conserva el carácter provisional cuando figura en el título.",
+      "dae": true,
+      "fixedPeriod": "2024",
+      "fixedStatus": "Provisional"
+    },
+    {
+      "id": 82469,
+      "label": "Supervivencias de empresas nacidas en 2019 por actividad principal (CNAE 2009) y año · 2024",
+      "family": "Demografía armonizada de empresas",
+      "sourceUrl": "https://www.ine.es/jaxiPx/Tabla.htm?tpx=82469",
+      "note": "Edición 2024. Las cifras se refieren a la empresa estadística y a su actividad. Cada cohorte conserva el ejercicio observado.",
+      "dae": true,
+      "periodDimension": "Año"
+    },
+    {
+      "id": 82470,
+      "label": "Supervivencias de empresas nacidas en 2020 por actividad principal (CNAE 2009) y año · 2024",
+      "family": "Demografía armonizada de empresas",
+      "sourceUrl": "https://www.ine.es/jaxiPx/Tabla.htm?tpx=82470",
+      "note": "Edición 2024. Las cifras se refieren a la empresa estadística y a su actividad. Cada cohorte conserva el ejercicio observado.",
+      "dae": true,
+      "periodDimension": "Año"
+    },
+    {
+      "id": 82471,
+      "label": "Supervivencias de empresas nacidas en 2021 por actividad principal (CNAE 2009) y año · 2024",
+      "family": "Demografía armonizada de empresas",
+      "sourceUrl": "https://www.ine.es/jaxiPx/Tabla.htm?tpx=82471",
+      "note": "Edición 2024. Las cifras se refieren a la empresa estadística y a su actividad. Cada cohorte conserva el ejercicio observado.",
+      "dae": true,
+      "periodDimension": "Año"
+    },
+    {
+      "id": 82472,
+      "label": "Supervivencias de empresas nacidas en 2022 por actividad principal (CNAE 2009) y año · 2024",
+      "family": "Demografía armonizada de empresas",
+      "sourceUrl": "https://www.ine.es/jaxiPx/Tabla.htm?tpx=82472",
+      "note": "Edición 2024. Las cifras se refieren a la empresa estadística y a su actividad. Cada cohorte conserva el ejercicio observado.",
+      "dae": true,
+      "periodDimension": "Año"
+    },
+    {
+      "id": 82473,
+      "label": "Supervivencias de empresas nacidas en 2023 por actividad principal (CNAE 2009) y año · 2024",
+      "family": "Demografía armonizada de empresas",
+      "sourceUrl": "https://www.ine.es/jaxiPx/Tabla.htm?tpx=82473",
+      "note": "Edición 2024. Las cifras se refieren a la empresa estadística y a su actividad. Cada cohorte conserva el ejercicio observado.",
+      "dae": true,
+      "periodDimension": "Año"
+    },
+    {
+      "id": 76644,
+      "label": "Stock de empresas por comunidades y ciudades autónomas, actividad principal (CNAE 2009) y estrato de asalariados · 2023",
+      "family": "Demografía armonizada de empresas",
+      "sourceUrl": "https://www.ine.es/jaxiPx/Tabla.htm?tpx=76644",
+      "note": "Edición 2023. Las cifras se refieren a la empresa estadística y a su actividad. Se conserva el carácter provisional cuando figura en el título.",
+      "dae": true,
+      "fixedPeriod": "2023"
+    },
+    {
+      "id": 76645,
+      "label": "Stock de empresas por comunidades y ciudades autónomas, actividad principal (CNAE 2009) y condición jurídica · 2023",
+      "family": "Demografía armonizada de empresas",
+      "sourceUrl": "https://www.ine.es/jaxiPx/Tabla.htm?tpx=76645",
+      "note": "Edición 2023. Las cifras se refieren a la empresa estadística y a su actividad. Se conserva el carácter provisional cuando figura en el título.",
+      "dae": true,
+      "fixedPeriod": "2023"
+    },
+    {
+      "id": 76646,
+      "label": "Nacimientos de empresas por comunidades y ciudades autónomas, actividad principal (CNAE 2009) y estrato de asalariados · 2023",
+      "family": "Demografía armonizada de empresas",
+      "sourceUrl": "https://www.ine.es/jaxiPx/Tabla.htm?tpx=76646",
+      "note": "Edición 2023. Las cifras se refieren a la empresa estadística y a su actividad. Se conserva el carácter provisional cuando figura en el título.",
+      "dae": true,
+      "fixedPeriod": "2023"
+    },
+    {
+      "id": 76647,
+      "label": "Nacimientos de empresas por comunidades y ciudades autónomas, actividad principal (CNAE 2009) y condición jurídica · 2023",
+      "family": "Demografía armonizada de empresas",
+      "sourceUrl": "https://www.ine.es/jaxiPx/Tabla.htm?tpx=76647",
+      "note": "Edición 2023. Las cifras se refieren a la empresa estadística y a su actividad. Se conserva el carácter provisional cuando figura en el título.",
+      "dae": true,
+      "fixedPeriod": "2023"
+    },
+    {
+      "id": 76648,
+      "label": "Muertes provisionales de empresas por comunidades y ciudades autónomas, actividad principal (CNAE 2009) y estrato de asalariados · 2023",
+      "family": "Demografía armonizada de empresas",
+      "sourceUrl": "https://www.ine.es/jaxiPx/Tabla.htm?tpx=76648",
+      "note": "Edición 2023. Las cifras se refieren a la empresa estadística y a su actividad. Se conserva el carácter provisional cuando figura en el título.",
+      "dae": true,
+      "fixedPeriod": "2023",
+      "fixedStatus": "Provisional"
+    },
+    {
+      "id": 76649,
+      "label": "Muertes provisionales de empresas por comunidades y ciudades autónomas, actividad principal (CNAE 2009) y condición jurídica · 2023",
+      "family": "Demografía armonizada de empresas",
+      "sourceUrl": "https://www.ine.es/jaxiPx/Tabla.htm?tpx=76649",
+      "note": "Edición 2023. Las cifras se refieren a la empresa estadística y a su actividad. Se conserva el carácter provisional cuando figura en el título.",
+      "dae": true,
+      "fixedPeriod": "2023",
+      "fixedStatus": "Provisional"
+    },
+    {
+      "id": 76650,
+      "label": "Supervivencias de empresas nacidas en 2018 por actividad principal (CNAE 2009) y año · 2023",
+      "family": "Demografía armonizada de empresas",
+      "sourceUrl": "https://www.ine.es/jaxiPx/Tabla.htm?tpx=76650",
+      "note": "Edición 2023. Las cifras se refieren a la empresa estadística y a su actividad. Cada cohorte conserva el ejercicio observado.",
+      "dae": true,
+      "periodDimension": "Año"
+    },
+    {
+      "id": 76651,
+      "label": "Supervivencias de empresas nacidas en 2019 por actividad principal (CNAE 2009) y año · 2023",
+      "family": "Demografía armonizada de empresas",
+      "sourceUrl": "https://www.ine.es/jaxiPx/Tabla.htm?tpx=76651",
+      "note": "Edición 2023. Las cifras se refieren a la empresa estadística y a su actividad. Cada cohorte conserva el ejercicio observado.",
+      "dae": true,
+      "periodDimension": "Año"
+    },
+    {
+      "id": 76652,
+      "label": "Supervivencias de empresas nacidas en 2020 por actividad principal (CNAE 2009) y año · 2023",
+      "family": "Demografía armonizada de empresas",
+      "sourceUrl": "https://www.ine.es/jaxiPx/Tabla.htm?tpx=76652",
+      "note": "Edición 2023. Las cifras se refieren a la empresa estadística y a su actividad. Cada cohorte conserva el ejercicio observado.",
+      "dae": true,
+      "periodDimension": "Año"
+    },
+    {
+      "id": 76653,
+      "label": "Supervivencias de empresas nacidas en 2021 por actividad principal (CNAE 2009) y año · 2023",
+      "family": "Demografía armonizada de empresas",
+      "sourceUrl": "https://www.ine.es/jaxiPx/Tabla.htm?tpx=76653",
+      "note": "Edición 2023. Las cifras se refieren a la empresa estadística y a su actividad. Cada cohorte conserva el ejercicio observado.",
+      "dae": true,
+      "periodDimension": "Año"
+    },
+    {
+      "id": 76654,
+      "label": "Supervivencias de empresas nacidas en 2022 por actividad principal (CNAE 2009) y año · 2023",
+      "family": "Demografía armonizada de empresas",
+      "sourceUrl": "https://www.ine.es/jaxiPx/Tabla.htm?tpx=76654",
+      "note": "Edición 2023. Las cifras se refieren a la empresa estadística y a su actividad. Cada cohorte conserva el ejercicio observado.",
+      "dae": true,
+      "periodDimension": "Año"
+    },
+    {
+      "id": 71095,
+      "label": "Stock de empresas por comunidades y ciudades autónomas, actividad principal (CNAE 2009) y estrato de asalariados · 2022",
+      "family": "Demografía armonizada de empresas",
+      "sourceUrl": "https://www.ine.es/jaxiPx/Tabla.htm?tpx=71095",
+      "note": "Edición 2022. Las cifras se refieren a la empresa estadística y a su actividad. Se conserva el carácter provisional cuando figura en el título.",
+      "dae": true,
+      "fixedPeriod": "2022"
+    },
+    {
+      "id": 71096,
+      "label": "Stock de empresas por comunidades y ciudades autónomas, actividad principal (CNAE 2009) y condición jurídica · 2022",
+      "family": "Demografía armonizada de empresas",
+      "sourceUrl": "https://www.ine.es/jaxiPx/Tabla.htm?tpx=71096",
+      "note": "Edición 2022. Las cifras se refieren a la empresa estadística y a su actividad. Se conserva el carácter provisional cuando figura en el título.",
+      "dae": true,
+      "fixedPeriod": "2022"
+    },
+    {
+      "id": 71097,
+      "label": "Nacimientos de empresas por comunidades y ciudades autónomas, actividad principal (CNAE 2009) y estrato de asalariados · 2022",
+      "family": "Demografía armonizada de empresas",
+      "sourceUrl": "https://www.ine.es/jaxiPx/Tabla.htm?tpx=71097",
+      "note": "Edición 2022. Las cifras se refieren a la empresa estadística y a su actividad. Se conserva el carácter provisional cuando figura en el título.",
+      "dae": true,
+      "fixedPeriod": "2022"
+    },
+    {
+      "id": 71098,
+      "label": "Nacimientos de empresas por comunidades y ciudades autónomas, actividad principal (CNAE 2009) y condición jurídica · 2022",
+      "family": "Demografía armonizada de empresas",
+      "sourceUrl": "https://www.ine.es/jaxiPx/Tabla.htm?tpx=71098",
+      "note": "Edición 2022. Las cifras se refieren a la empresa estadística y a su actividad. Se conserva el carácter provisional cuando figura en el título.",
+      "dae": true,
+      "fixedPeriod": "2022"
+    },
+    {
+      "id": 71099,
+      "label": "Supervivencias de empresas nacidas en 2017 por actividad principal (CNAE 2009) y año · 2022",
+      "family": "Demografía armonizada de empresas",
+      "sourceUrl": "https://www.ine.es/jaxiPx/Tabla.htm?tpx=71099",
+      "note": "Edición 2022. Las cifras se refieren a la empresa estadística y a su actividad. Cada cohorte conserva el ejercicio observado.",
+      "dae": true,
+      "periodDimension": "Año"
+    },
+    {
+      "id": 71100,
+      "label": "Supervivencias de empresas nacidas en 2018 por actividad principal (CNAE 2009) y año · 2022",
+      "family": "Demografía armonizada de empresas",
+      "sourceUrl": "https://www.ine.es/jaxiPx/Tabla.htm?tpx=71100",
+      "note": "Edición 2022. Las cifras se refieren a la empresa estadística y a su actividad. Cada cohorte conserva el ejercicio observado.",
+      "dae": true,
+      "periodDimension": "Año"
+    },
+    {
+      "id": 71101,
+      "label": "Supervivencias de empresas nacidas en 2019 por actividad principal (CNAE 2009) y año · 2022",
+      "family": "Demografía armonizada de empresas",
+      "sourceUrl": "https://www.ine.es/jaxiPx/Tabla.htm?tpx=71101",
+      "note": "Edición 2022. Las cifras se refieren a la empresa estadística y a su actividad. Cada cohorte conserva el ejercicio observado.",
+      "dae": true,
+      "periodDimension": "Año"
+    },
+    {
+      "id": 71102,
+      "label": "Supervivencias de empresas nacidas en 2020 por actividad principal (CNAE 2009) y año · 2022",
+      "family": "Demografía armonizada de empresas",
+      "sourceUrl": "https://www.ine.es/jaxiPx/Tabla.htm?tpx=71102",
+      "note": "Edición 2022. Las cifras se refieren a la empresa estadística y a su actividad. Cada cohorte conserva el ejercicio observado.",
+      "dae": true,
+      "periodDimension": "Año"
+    },
+    {
+      "id": 71103,
+      "label": "Supervivencias de empresas nacidas en 2021 por actividad principal (CNAE 2009) y año · 2022",
+      "family": "Demografía armonizada de empresas",
+      "sourceUrl": "https://www.ine.es/jaxiPx/Tabla.htm?tpx=71103",
+      "note": "Edición 2022. Las cifras se refieren a la empresa estadística y a su actividad. Cada cohorte conserva el ejercicio observado.",
+      "dae": true,
+      "periodDimension": "Año"
+    },
+    {
+      "id": 71104,
+      "label": "Muertes provisionales de empresas por comunidades y ciudades autónomas, actividad principal (CNAE 2009) y estrato de asalariados · 2022",
+      "family": "Demografía armonizada de empresas",
+      "sourceUrl": "https://www.ine.es/jaxiPx/Tabla.htm?tpx=71104",
+      "note": "Edición 2022. Las cifras se refieren a la empresa estadística y a su actividad. Se conserva el carácter provisional cuando figura en el título.",
+      "dae": true,
+      "fixedPeriod": "2022",
+      "fixedStatus": "Provisional"
+    },
+    {
+      "id": 71105,
+      "label": "Muertes provisionales de empresas por comunidades y ciudades autónomas, actividad principal (CNAE 2009) y condición jurídica · 2022",
+      "family": "Demografía armonizada de empresas",
+      "sourceUrl": "https://www.ine.es/jaxiPx/Tabla.htm?tpx=71105",
+      "note": "Edición 2022. Las cifras se refieren a la empresa estadística y a su actividad. Se conserva el carácter provisional cuando figura en el título.",
+      "dae": true,
+      "fixedPeriod": "2022",
+      "fixedStatus": "Provisional"
+    },
+    {
+      "id": 60301,
+      "label": "Stock de empresas por comunidades y ciudades autónomas, actividad principal (CNAE 2009) y estrato de asalariados · 2021",
+      "family": "Demografía armonizada de empresas",
+      "sourceUrl": "https://www.ine.es/jaxiPx/Tabla.htm?tpx=60301",
+      "note": "Edición 2021. Las cifras se refieren a la empresa estadística y a su actividad. Se conserva el carácter provisional cuando figura en el título.",
+      "dae": true,
+      "fixedPeriod": "2021"
+    },
+    {
+      "id": 60302,
+      "label": "Stock de empresas por comunidades y ciudades autónomas, actividad principal (CNAE 2009) y condición jurídica · 2021",
+      "family": "Demografía armonizada de empresas",
+      "sourceUrl": "https://www.ine.es/jaxiPx/Tabla.htm?tpx=60302",
+      "note": "Edición 2021. Las cifras se refieren a la empresa estadística y a su actividad. Se conserva el carácter provisional cuando figura en el título.",
+      "dae": true,
+      "fixedPeriod": "2021"
+    },
+    {
+      "id": 60303,
+      "label": "Nacimientos de empresas por comunidades y ciudades autónomas, actividad principal (CNAE 2009) y estrato de asalariados · 2021",
+      "family": "Demografía armonizada de empresas",
+      "sourceUrl": "https://www.ine.es/jaxiPx/Tabla.htm?tpx=60303",
+      "note": "Edición 2021. Las cifras se refieren a la empresa estadística y a su actividad. Se conserva el carácter provisional cuando figura en el título.",
+      "dae": true,
+      "fixedPeriod": "2021"
+    },
+    {
+      "id": 60304,
+      "label": "Nacimientos de empresas por comunidades y ciudades autónomas, actividad principal (CNAE 2009) y condición jurídica · 2021",
+      "family": "Demografía armonizada de empresas",
+      "sourceUrl": "https://www.ine.es/jaxiPx/Tabla.htm?tpx=60304",
+      "note": "Edición 2021. Las cifras se refieren a la empresa estadística y a su actividad. Se conserva el carácter provisional cuando figura en el título.",
+      "dae": true,
+      "fixedPeriod": "2021"
+    },
+    {
+      "id": 60305,
+      "label": "Muertes provisionales de empresas por comunidades y ciudades autónomas, actividad principal (CNAE 2009) y estrato de asalariados · 2021",
+      "family": "Demografía armonizada de empresas",
+      "sourceUrl": "https://www.ine.es/jaxiPx/Tabla.htm?tpx=60305",
+      "note": "Edición 2021. Las cifras se refieren a la empresa estadística y a su actividad. Se conserva el carácter provisional cuando figura en el título.",
+      "dae": true,
+      "fixedPeriod": "2021",
+      "fixedStatus": "Provisional"
+    },
+    {
+      "id": 60306,
+      "label": "Muertes provisionales de empresas por comunidades y ciudades autónomas, actividad principal (CNAE 2009) y condición jurídica · 2021",
+      "family": "Demografía armonizada de empresas",
+      "sourceUrl": "https://www.ine.es/jaxiPx/Tabla.htm?tpx=60306",
+      "note": "Edición 2021. Las cifras se refieren a la empresa estadística y a su actividad. Se conserva el carácter provisional cuando figura en el título.",
+      "dae": true,
+      "fixedPeriod": "2021",
+      "fixedStatus": "Provisional"
+    },
+    {
+      "id": 60307,
+      "label": "Supervivencias de empresas nacidas en 2016 por actividad principal (CNAE 2009) y año · 2021",
+      "family": "Demografía armonizada de empresas",
+      "sourceUrl": "https://www.ine.es/jaxiPx/Tabla.htm?tpx=60307",
+      "note": "Edición 2021. Las cifras se refieren a la empresa estadística y a su actividad. Cada cohorte conserva el ejercicio observado.",
+      "dae": true,
+      "periodDimension": "Año"
+    },
+    {
+      "id": 60308,
+      "label": "Supervivencias de empresas nacidas en 2017 por actividad principal (CNAE 2009) y año · 2021",
+      "family": "Demografía armonizada de empresas",
+      "sourceUrl": "https://www.ine.es/jaxiPx/Tabla.htm?tpx=60308",
+      "note": "Edición 2021. Las cifras se refieren a la empresa estadística y a su actividad. Cada cohorte conserva el ejercicio observado.",
+      "dae": true,
+      "periodDimension": "Año"
+    },
+    {
+      "id": 60309,
+      "label": "Supervivencias de empresas nacidas en 2018 por actividad principal (CNAE 2009) y año · 2021",
+      "family": "Demografía armonizada de empresas",
+      "sourceUrl": "https://www.ine.es/jaxiPx/Tabla.htm?tpx=60309",
+      "note": "Edición 2021. Las cifras se refieren a la empresa estadística y a su actividad. Cada cohorte conserva el ejercicio observado.",
+      "dae": true,
+      "periodDimension": "Año"
+    },
+    {
+      "id": 60310,
+      "label": "Supervivencias de empresas nacidas en 2019 por actividad principal (CNAE 2009) y año · 2021",
+      "family": "Demografía armonizada de empresas",
+      "sourceUrl": "https://www.ine.es/jaxiPx/Tabla.htm?tpx=60310",
+      "note": "Edición 2021. Las cifras se refieren a la empresa estadística y a su actividad. Cada cohorte conserva el ejercicio observado.",
+      "dae": true,
+      "periodDimension": "Año"
+    },
+    {
+      "id": 60311,
+      "label": "Supervivencias de empresas nacidas en 2020 por actividad principal (CNAE 2009) y año · 2021",
+      "family": "Demografía armonizada de empresas",
+      "sourceUrl": "https://www.ine.es/jaxiPx/Tabla.htm?tpx=60311",
+      "note": "Edición 2021. Las cifras se refieren a la empresa estadística y a su actividad. Cada cohorte conserva el ejercicio observado.",
+      "dae": true,
+      "periodDimension": "Año"
+    },
+    {
+      "id": 54685,
+      "label": "Stock de empresas por comunidades y ciudades autónomas, actividad principal (CNAE 2009) y estrato de asalariados · 2020",
+      "family": "Demografía armonizada de empresas",
+      "sourceUrl": "https://www.ine.es/jaxiPx/Tabla.htm?tpx=54685",
+      "note": "Edición 2020. Las cifras se refieren a la empresa estadística y a su actividad. Se conserva el carácter provisional cuando figura en el título.",
+      "dae": true,
+      "fixedPeriod": "2020"
+    },
+    {
+      "id": 54686,
+      "label": "Stock de empresas por comunidades y ciudades autónomas, actividad principal (CNAE 2009) y condición jurídica · 2020",
+      "family": "Demografía armonizada de empresas",
+      "sourceUrl": "https://www.ine.es/jaxiPx/Tabla.htm?tpx=54686",
+      "note": "Edición 2020. Las cifras se refieren a la empresa estadística y a su actividad. Se conserva el carácter provisional cuando figura en el título.",
+      "dae": true,
+      "fixedPeriod": "2020"
+    },
+    {
+      "id": 54687,
+      "label": "Nacimientos de empresas por comunidades y ciudades autónomas, actividad principal (CNAE 2009) y estrato de asalariados · 2020",
+      "family": "Demografía armonizada de empresas",
+      "sourceUrl": "https://www.ine.es/jaxiPx/Tabla.htm?tpx=54687",
+      "note": "Edición 2020. Las cifras se refieren a la empresa estadística y a su actividad. Se conserva el carácter provisional cuando figura en el título.",
+      "dae": true,
+      "fixedPeriod": "2020"
+    },
+    {
+      "id": 54688,
+      "label": "Nacimientos de empresas por comunidades y ciudades autónomas, actividad principal (CNAE 2009) y condición jurídica · 2020",
+      "family": "Demografía armonizada de empresas",
+      "sourceUrl": "https://www.ine.es/jaxiPx/Tabla.htm?tpx=54688",
+      "note": "Edición 2020. Las cifras se refieren a la empresa estadística y a su actividad. Se conserva el carácter provisional cuando figura en el título.",
+      "dae": true,
+      "fixedPeriod": "2020"
+    },
+    {
+      "id": 54689,
+      "label": "Muertes provisionales de empresas por comunidades y ciudades autónomas, actividad principal (CNAE 2009) y estrato de asalariados · 2020",
+      "family": "Demografía armonizada de empresas",
+      "sourceUrl": "https://www.ine.es/jaxiPx/Tabla.htm?tpx=54689",
+      "note": "Edición 2020. Las cifras se refieren a la empresa estadística y a su actividad. Se conserva el carácter provisional cuando figura en el título.",
+      "dae": true,
+      "fixedPeriod": "2020",
+      "fixedStatus": "Provisional"
+    },
+    {
+      "id": 54690,
+      "label": "Muertes provisionales de empresas por comunidades y ciudades autónomas, actividad principal (CNAE 2009) y condición jurídica · 2020",
+      "family": "Demografía armonizada de empresas",
+      "sourceUrl": "https://www.ine.es/jaxiPx/Tabla.htm?tpx=54690",
+      "note": "Edición 2020. Las cifras se refieren a la empresa estadística y a su actividad. Se conserva el carácter provisional cuando figura en el título.",
+      "dae": true,
+      "fixedPeriod": "2020",
+      "fixedStatus": "Provisional"
+    },
+    {
+      "id": 54691,
+      "label": "Supervivencias de empresas nacidas en 2015 por actividad principal (CNAE 2009) y año · 2020",
+      "family": "Demografía armonizada de empresas",
+      "sourceUrl": "https://www.ine.es/jaxiPx/Tabla.htm?tpx=54691",
+      "note": "Edición 2020. Las cifras se refieren a la empresa estadística y a su actividad. Cada cohorte conserva el ejercicio observado.",
+      "dae": true,
+      "periodDimension": "Año"
+    },
+    {
+      "id": 54692,
+      "label": "Supervivencias de empresas nacidas en 2016 por actividad principal (CNAE 2009) y año · 2020",
+      "family": "Demografía armonizada de empresas",
+      "sourceUrl": "https://www.ine.es/jaxiPx/Tabla.htm?tpx=54692",
+      "note": "Edición 2020. Las cifras se refieren a la empresa estadística y a su actividad. Cada cohorte conserva el ejercicio observado.",
+      "dae": true,
+      "periodDimension": "Año"
+    },
+    {
+      "id": 54693,
+      "label": "Supervivencias de empresas nacidas en 2017 por actividad principal (CNAE 2009) y año · 2020",
+      "family": "Demografía armonizada de empresas",
+      "sourceUrl": "https://www.ine.es/jaxiPx/Tabla.htm?tpx=54693",
+      "note": "Edición 2020. Las cifras se refieren a la empresa estadística y a su actividad. Cada cohorte conserva el ejercicio observado.",
+      "dae": true,
+      "periodDimension": "Año"
+    },
+    {
+      "id": 54694,
+      "label": "Supervivencias de empresas nacidas en 2018 por actividad principal (CNAE 2009) y año · 2020",
+      "family": "Demografía armonizada de empresas",
+      "sourceUrl": "https://www.ine.es/jaxiPx/Tabla.htm?tpx=54694",
+      "note": "Edición 2020. Las cifras se refieren a la empresa estadística y a su actividad. Cada cohorte conserva el ejercicio observado.",
+      "dae": true,
+      "periodDimension": "Año"
+    },
+    {
+      "id": 54695,
+      "label": "Supervivencias de empresas nacidas en 2019 por actividad principal (CNAE 2009) y año · 2020",
+      "family": "Demografía armonizada de empresas",
+      "sourceUrl": "https://www.ine.es/jaxiPx/Tabla.htm?tpx=54695",
+      "note": "Edición 2020. Las cifras se refieren a la empresa estadística y a su actividad. Cada cohorte conserva el ejercicio observado.",
+      "dae": true,
+      "periodDimension": "Año"
+    },
+    {
+      "id": 50023,
+      "label": "Stock de empresas por comunidades y ciudades autónomas, actividad principal (CNAE 2009) y estrato de asalariados · 2019",
+      "family": "Demografía armonizada de empresas",
+      "sourceUrl": "https://www.ine.es/jaxiPx/Tabla.htm?tpx=50023",
+      "note": "Edición 2019. Las cifras se refieren a la empresa estadística y a su actividad. Se conserva el carácter provisional cuando figura en el título.",
+      "dae": true,
+      "fixedPeriod": "2019"
+    },
+    {
+      "id": 50024,
+      "label": "Stock de empresas por comunidades y ciudades autónomas, actividad principal (CNAE 2009) y condición jurídica · 2019",
+      "family": "Demografía armonizada de empresas",
+      "sourceUrl": "https://www.ine.es/jaxiPx/Tabla.htm?tpx=50024",
+      "note": "Edición 2019. Las cifras se refieren a la empresa estadística y a su actividad. Se conserva el carácter provisional cuando figura en el título.",
+      "dae": true,
+      "fixedPeriod": "2019"
+    },
+    {
+      "id": 50025,
+      "label": "Nacimientos de empresas por comunidades y ciudades autónomas, actividad principal (CNAE 2009) y estrato de asalariados · 2019",
+      "family": "Demografía armonizada de empresas",
+      "sourceUrl": "https://www.ine.es/jaxiPx/Tabla.htm?tpx=50025",
+      "note": "Edición 2019. Las cifras se refieren a la empresa estadística y a su actividad. Se conserva el carácter provisional cuando figura en el título.",
+      "dae": true,
+      "fixedPeriod": "2019"
+    },
+    {
+      "id": 50026,
+      "label": "Nacimientos de empresas por comunidades y ciudades autónomas, actividad principal (CNAE 2009) y condición jurídica · 2019",
+      "family": "Demografía armonizada de empresas",
+      "sourceUrl": "https://www.ine.es/jaxiPx/Tabla.htm?tpx=50026",
+      "note": "Edición 2019. Las cifras se refieren a la empresa estadística y a su actividad. Se conserva el carácter provisional cuando figura en el título.",
+      "dae": true,
+      "fixedPeriod": "2019"
+    },
+    {
+      "id": 50027,
+      "label": "Muertes provisionales de empresas por comunidades y ciudades autónomas, actividad principal (CNAE 2009) y estrato de asalariados · 2019",
+      "family": "Demografía armonizada de empresas",
+      "sourceUrl": "https://www.ine.es/jaxiPx/Tabla.htm?tpx=50027",
+      "note": "Edición 2019. Las cifras se refieren a la empresa estadística y a su actividad. Se conserva el carácter provisional cuando figura en el título.",
+      "dae": true,
+      "fixedPeriod": "2019",
+      "fixedStatus": "Provisional"
+    },
+    {
+      "id": 50028,
+      "label": "Muertes provisionales de empresas por comunidades y ciudades autónomas, actividad principal (CNAE 2009) y condición jurídica · 2019",
+      "family": "Demografía armonizada de empresas",
+      "sourceUrl": "https://www.ine.es/jaxiPx/Tabla.htm?tpx=50028",
+      "note": "Edición 2019. Las cifras se refieren a la empresa estadística y a su actividad. Se conserva el carácter provisional cuando figura en el título.",
+      "dae": true,
+      "fixedPeriod": "2019",
+      "fixedStatus": "Provisional"
+    },
+    {
+      "id": 50029,
+      "label": "Supervivencias de empresas nacidas en 2014 por actividad principal (CNAE 2009) y año · 2019",
+      "family": "Demografía armonizada de empresas",
+      "sourceUrl": "https://www.ine.es/jaxiPx/Tabla.htm?tpx=50029",
+      "note": "Edición 2019. Las cifras se refieren a la empresa estadística y a su actividad. Cada cohorte conserva el ejercicio observado.",
+      "dae": true,
+      "periodDimension": "Año"
+    },
+    {
+      "id": 50030,
+      "label": "Supervivencias de empresas nacidas en 2015 por actividad principal (CNAE 2009) y año · 2019",
+      "family": "Demografía armonizada de empresas",
+      "sourceUrl": "https://www.ine.es/jaxiPx/Tabla.htm?tpx=50030",
+      "note": "Edición 2019. Las cifras se refieren a la empresa estadística y a su actividad. Cada cohorte conserva el ejercicio observado.",
+      "dae": true,
+      "periodDimension": "Año"
+    },
+    {
+      "id": 50031,
+      "label": "Supervivencias de empresas nacidas en 2016 por actividad principal (CNAE 2009) y año · 2019",
+      "family": "Demografía armonizada de empresas",
+      "sourceUrl": "https://www.ine.es/jaxiPx/Tabla.htm?tpx=50031",
+      "note": "Edición 2019. Las cifras se refieren a la empresa estadística y a su actividad. Cada cohorte conserva el ejercicio observado.",
+      "dae": true,
+      "periodDimension": "Año"
+    },
+    {
+      "id": 50032,
+      "label": "Supervivencias de empresas nacidas en 2017 por actividad principal (CNAE 2009) y año · 2019",
+      "family": "Demografía armonizada de empresas",
+      "sourceUrl": "https://www.ine.es/jaxiPx/Tabla.htm?tpx=50032",
+      "note": "Edición 2019. Las cifras se refieren a la empresa estadística y a su actividad. Cada cohorte conserva el ejercicio observado.",
+      "dae": true,
+      "periodDimension": "Año"
+    },
+    {
+      "id": 50033,
+      "label": "Supervivencias de empresas nacidas en 2018 por actividad principal (CNAE 2009) y año · 2019",
+      "family": "Demografía armonizada de empresas",
+      "sourceUrl": "https://www.ine.es/jaxiPx/Tabla.htm?tpx=50033",
+      "note": "Edición 2019. Las cifras se refieren a la empresa estadística y a su actividad. Cada cohorte conserva el ejercicio observado.",
+      "dae": true,
+      "periodDimension": "Año"
+    },
+    {
+      "id": 39376,
+      "label": "Stock de empresas por comunidades y ciudades autónomas, actividad principal (CNAE 2009) y estrato de asalariados · 2018",
+      "family": "Demografía armonizada de empresas",
+      "sourceUrl": "https://www.ine.es/jaxiPx/Tabla.htm?tpx=39376",
+      "note": "Edición 2018. Las cifras se refieren a la empresa estadística y a su actividad. Se conserva el carácter provisional cuando figura en el título.",
+      "dae": true,
+      "fixedPeriod": "2018"
+    },
+    {
+      "id": 39377,
+      "label": "Stock de empresas por comunidades y ciudades autónomas, actividad principal (CNAE 2009) y condición jurídica · 2018",
+      "family": "Demografía armonizada de empresas",
+      "sourceUrl": "https://www.ine.es/jaxiPx/Tabla.htm?tpx=39377",
+      "note": "Edición 2018. Las cifras se refieren a la empresa estadística y a su actividad. Se conserva el carácter provisional cuando figura en el título.",
+      "dae": true,
+      "fixedPeriod": "2018"
+    },
+    {
+      "id": 39378,
+      "label": "Nacimientos de empresas por comunidades y ciudades autónomas, actividad principal (CNAE 2009) y estrato de asalariados · 2018",
+      "family": "Demografía armonizada de empresas",
+      "sourceUrl": "https://www.ine.es/jaxiPx/Tabla.htm?tpx=39378",
+      "note": "Edición 2018. Las cifras se refieren a la empresa estadística y a su actividad. Se conserva el carácter provisional cuando figura en el título.",
+      "dae": true,
+      "fixedPeriod": "2018"
+    },
+    {
+      "id": 39379,
+      "label": "Nacimientos de empresas por comunidades y ciudades autónomas, actividad principal (CNAE 2009) y condición jurídica · 2018",
+      "family": "Demografía armonizada de empresas",
+      "sourceUrl": "https://www.ine.es/jaxiPx/Tabla.htm?tpx=39379",
+      "note": "Edición 2018. Las cifras se refieren a la empresa estadística y a su actividad. Se conserva el carácter provisional cuando figura en el título.",
+      "dae": true,
+      "fixedPeriod": "2018"
+    },
+    {
+      "id": 39385,
+      "label": "Muertes provisionales de empresas por comunidades y ciudades autónomas, actividad principal (CNAE 2009) y estrato de asalariados · 2018",
+      "family": "Demografía armonizada de empresas",
+      "sourceUrl": "https://www.ine.es/jaxiPx/Tabla.htm?tpx=39385",
+      "note": "Edición 2018. Las cifras se refieren a la empresa estadística y a su actividad. Se conserva el carácter provisional cuando figura en el título.",
+      "dae": true,
+      "fixedPeriod": "2018",
+      "fixedStatus": "Provisional"
+    },
+    {
+      "id": 39386,
+      "label": "Muertes provisionales de empresas por comunidades y ciudades autónomas, actividad principal (CNAE 2009) y condición jurídica · 2018",
+      "family": "Demografía armonizada de empresas",
+      "sourceUrl": "https://www.ine.es/jaxiPx/Tabla.htm?tpx=39386",
+      "note": "Edición 2018. Las cifras se refieren a la empresa estadística y a su actividad. Se conserva el carácter provisional cuando figura en el título.",
+      "dae": true,
+      "fixedPeriod": "2018",
+      "fixedStatus": "Provisional"
+    },
+    {
+      "id": 39387,
+      "label": "Supervivencias de empresas nacidas en 2013 por actividad principal (CNAE 2009) y año · 2018",
+      "family": "Demografía armonizada de empresas",
+      "sourceUrl": "https://www.ine.es/jaxiPx/Tabla.htm?tpx=39387",
+      "note": "Edición 2018. Las cifras se refieren a la empresa estadística y a su actividad. Cada cohorte conserva el ejercicio observado.",
+      "dae": true,
+      "periodDimension": "Año"
+    },
+    {
+      "id": 39388,
+      "label": "Supervivencias de empresas nacidas en 2014 por actividad principal (CNAE 2009) y año · 2018",
+      "family": "Demografía armonizada de empresas",
+      "sourceUrl": "https://www.ine.es/jaxiPx/Tabla.htm?tpx=39388",
+      "note": "Edición 2018. Las cifras se refieren a la empresa estadística y a su actividad. Cada cohorte conserva el ejercicio observado.",
+      "dae": true,
+      "periodDimension": "Año"
+    },
+    {
+      "id": 39389,
+      "label": "Supervivencias de empresas nacidas en 2015 por actividad principal (CNAE 2009) y año · 2018",
+      "family": "Demografía armonizada de empresas",
+      "sourceUrl": "https://www.ine.es/jaxiPx/Tabla.htm?tpx=39389",
+      "note": "Edición 2018. Las cifras se refieren a la empresa estadística y a su actividad. Cada cohorte conserva el ejercicio observado.",
+      "dae": true,
+      "periodDimension": "Año"
+    },
+    {
+      "id": 39390,
+      "label": "Supervivencias de empresas nacidas en 2016 por actividad principal (CNAE 2009) y año · 2018",
+      "family": "Demografía armonizada de empresas",
+      "sourceUrl": "https://www.ine.es/jaxiPx/Tabla.htm?tpx=39390",
+      "note": "Edición 2018. Las cifras se refieren a la empresa estadística y a su actividad. Cada cohorte conserva el ejercicio observado.",
+      "dae": true,
+      "periodDimension": "Año"
+    },
+    {
+      "id": 39391,
+      "label": "Supervivencias de empresas nacidas en 2017 por actividad principal (CNAE 2009) y año · 2018",
+      "family": "Demografía armonizada de empresas",
+      "sourceUrl": "https://www.ine.es/jaxiPx/Tabla.htm?tpx=39391",
+      "note": "Edición 2018. Las cifras se refieren a la empresa estadística y a su actividad. Cada cohorte conserva el ejercicio observado.",
+      "dae": true,
+      "periodDimension": "Año"
+    },
+    {
+      "id": 32927,
+      "label": "Stock de empresas por comunidades y ciudades autónomas, actividad principal (CNAE 2009) y estrato de asalariados · 2017",
+      "family": "Demografía armonizada de empresas",
+      "sourceUrl": "https://www.ine.es/jaxiPx/Tabla.htm?tpx=32927",
+      "note": "Edición 2017. Las cifras se refieren a la empresa estadística y a su actividad. Se conserva el carácter provisional cuando figura en el título.",
+      "dae": true,
+      "fixedPeriod": "2017"
+    },
+    {
+      "id": 32928,
+      "label": "Stock de empresas por comunidades y ciudades autónomas, actividad principal (CNAE 2009) y condición jurídica · 2017",
+      "family": "Demografía armonizada de empresas",
+      "sourceUrl": "https://www.ine.es/jaxiPx/Tabla.htm?tpx=32928",
+      "note": "Edición 2017. Las cifras se refieren a la empresa estadística y a su actividad. Se conserva el carácter provisional cuando figura en el título.",
+      "dae": true,
+      "fixedPeriod": "2017"
+    },
+    {
+      "id": 32929,
+      "label": "Nacimientos de empresas por comunidades y ciudades autónomas, actividad principal (CNAE 2009) y estrato de asalariados · 2017",
+      "family": "Demografía armonizada de empresas",
+      "sourceUrl": "https://www.ine.es/jaxiPx/Tabla.htm?tpx=32929",
+      "note": "Edición 2017. Las cifras se refieren a la empresa estadística y a su actividad. Se conserva el carácter provisional cuando figura en el título.",
+      "dae": true,
+      "fixedPeriod": "2017"
+    },
+    {
+      "id": 32930,
+      "label": "Nacimientos de empresas por comunidades y ciudades autónomas, actividad principal (CNAE 2009) y condición jurídica · 2017",
+      "family": "Demografía armonizada de empresas",
+      "sourceUrl": "https://www.ine.es/jaxiPx/Tabla.htm?tpx=32930",
+      "note": "Edición 2017. Las cifras se refieren a la empresa estadística y a su actividad. Se conserva el carácter provisional cuando figura en el título.",
+      "dae": true,
+      "fixedPeriod": "2017"
+    },
+    {
+      "id": 32931,
+      "label": "Muertes provisionales de empresas por comunidades y ciudades autónomas, actividad principal (CNAE 2009) y estrato de asalariados · 2017",
+      "family": "Demografía armonizada de empresas",
+      "sourceUrl": "https://www.ine.es/jaxiPx/Tabla.htm?tpx=32931",
+      "note": "Edición 2017. Las cifras se refieren a la empresa estadística y a su actividad. Se conserva el carácter provisional cuando figura en el título.",
+      "dae": true,
+      "fixedPeriod": "2017",
+      "fixedStatus": "Provisional"
+    },
+    {
+      "id": 32932,
+      "label": "Muertes provisionales de empresas por comunidades y ciudades autónomas, actividad principal (CNAE 2009) y condición jurídica · 2017",
+      "family": "Demografía armonizada de empresas",
+      "sourceUrl": "https://www.ine.es/jaxiPx/Tabla.htm?tpx=32932",
+      "note": "Edición 2017. Las cifras se refieren a la empresa estadística y a su actividad. Se conserva el carácter provisional cuando figura en el título.",
+      "dae": true,
+      "fixedPeriod": "2017",
+      "fixedStatus": "Provisional"
+    },
+    {
+      "id": 32933,
+      "label": "Supervivencias de empresas nacidas en 2012 por actividad principal (CNAE 2009) y año · 2017",
+      "family": "Demografía armonizada de empresas",
+      "sourceUrl": "https://www.ine.es/jaxiPx/Tabla.htm?tpx=32933",
+      "note": "Edición 2017. Las cifras se refieren a la empresa estadística y a su actividad. Cada cohorte conserva el ejercicio observado.",
+      "dae": true,
+      "periodDimension": "Año"
+    },
+    {
+      "id": 32934,
+      "label": "Supervivencias de empresas nacidas en 2013 por actividad principal (CNAE 2009) y año · 2017",
+      "family": "Demografía armonizada de empresas",
+      "sourceUrl": "https://www.ine.es/jaxiPx/Tabla.htm?tpx=32934",
+      "note": "Edición 2017. Las cifras se refieren a la empresa estadística y a su actividad. Cada cohorte conserva el ejercicio observado.",
+      "dae": true,
+      "periodDimension": "Año"
+    },
+    {
+      "id": 32935,
+      "label": "Supervivencias de empresas nacidas en 2014 por actividad principal (CNAE 2009) y año · 2017",
+      "family": "Demografía armonizada de empresas",
+      "sourceUrl": "https://www.ine.es/jaxiPx/Tabla.htm?tpx=32935",
+      "note": "Edición 2017. Las cifras se refieren a la empresa estadística y a su actividad. Cada cohorte conserva el ejercicio observado.",
+      "dae": true,
+      "periodDimension": "Año"
+    },
+    {
+      "id": 32936,
+      "label": "Supervivencias de empresas nacidas en 2015 por actividad principal (CNAE 2009) y año · 2017",
+      "family": "Demografía armonizada de empresas",
+      "sourceUrl": "https://www.ine.es/jaxiPx/Tabla.htm?tpx=32936",
+      "note": "Edición 2017. Las cifras se refieren a la empresa estadística y a su actividad. Cada cohorte conserva el ejercicio observado.",
+      "dae": true,
+      "periodDimension": "Año"
+    },
+    {
+      "id": 32937,
+      "label": "Supervivencias de empresas nacidas en 2016 por actividad principal (CNAE 2009) y año · 2017",
+      "family": "Demografía armonizada de empresas",
+      "sourceUrl": "https://www.ine.es/jaxiPx/Tabla.htm?tpx=32937",
+      "note": "Edición 2017. Las cifras se refieren a la empresa estadística y a su actividad. Cada cohorte conserva el ejercicio observado.",
+      "dae": true,
+      "periodDimension": "Año"
+    },
+    {
+      "id": 29257,
+      "label": "Stock de empresas por comunidades y ciudades autónomas, actividad principal (CNAE 2009) y estrato de asalariados · 2016",
+      "family": "Demografía armonizada de empresas",
+      "sourceUrl": "https://www.ine.es/jaxiPx/Tabla.htm?tpx=29257",
+      "note": "Edición 2016. Las cifras se refieren a la empresa estadística y a su actividad. Se conserva el carácter provisional cuando figura en el título.",
+      "dae": true,
+      "fixedPeriod": "2016"
+    },
+    {
+      "id": 29258,
+      "label": "Stock de empresas por comunidades y ciudades autónomas, actividad principal (CNAE 2009) y condición jurídica · 2016",
+      "family": "Demografía armonizada de empresas",
+      "sourceUrl": "https://www.ine.es/jaxiPx/Tabla.htm?tpx=29258",
+      "note": "Edición 2016. Las cifras se refieren a la empresa estadística y a su actividad. Se conserva el carácter provisional cuando figura en el título.",
+      "dae": true,
+      "fixedPeriod": "2016"
+    },
+    {
+      "id": 29259,
+      "label": "Nacimientos de empresas por comunidades y ciudades autónomas, actividad principal (CNAE 2009) y estrato de asalariados · 2016",
+      "family": "Demografía armonizada de empresas",
+      "sourceUrl": "https://www.ine.es/jaxiPx/Tabla.htm?tpx=29259",
+      "note": "Edición 2016. Las cifras se refieren a la empresa estadística y a su actividad. Se conserva el carácter provisional cuando figura en el título.",
+      "dae": true,
+      "fixedPeriod": "2016"
+    },
+    {
+      "id": 29260,
+      "label": "Nacimientos de empresas por comunidades y ciudades autónomas, actividad principal (CNAE 2009) y condición jurídica · 2016",
+      "family": "Demografía armonizada de empresas",
+      "sourceUrl": "https://www.ine.es/jaxiPx/Tabla.htm?tpx=29260",
+      "note": "Edición 2016. Las cifras se refieren a la empresa estadística y a su actividad. Se conserva el carácter provisional cuando figura en el título.",
+      "dae": true,
+      "fixedPeriod": "2016"
+    },
+    {
+      "id": 29261,
+      "label": "Muertes provisionales de empresas por comunidades y ciudades autónomas, actividad principal (CNAE 2009) y estrato de asalariados · 2016",
+      "family": "Demografía armonizada de empresas",
+      "sourceUrl": "https://www.ine.es/jaxiPx/Tabla.htm?tpx=29261",
+      "note": "Edición 2016. Las cifras se refieren a la empresa estadística y a su actividad. Se conserva el carácter provisional cuando figura en el título.",
+      "dae": true,
+      "fixedPeriod": "2016",
+      "fixedStatus": "Provisional"
+    },
+    {
+      "id": 29262,
+      "label": "Muertes provisionales de empresas por comunidades y ciudades autónomas, actividad principal (CNAE 2009) y condición jurídica · 2016",
+      "family": "Demografía armonizada de empresas",
+      "sourceUrl": "https://www.ine.es/jaxiPx/Tabla.htm?tpx=29262",
+      "note": "Edición 2016. Las cifras se refieren a la empresa estadística y a su actividad. Se conserva el carácter provisional cuando figura en el título.",
+      "dae": true,
+      "fixedPeriod": "2016",
+      "fixedStatus": "Provisional"
+    },
+    {
+      "id": 29263,
+      "label": "Supervivencias de empresas nacidas en 2011 por actividad principal (CNAE 2009) y año · 2016",
+      "family": "Demografía armonizada de empresas",
+      "sourceUrl": "https://www.ine.es/jaxiPx/Tabla.htm?tpx=29263",
+      "note": "Edición 2016. Las cifras se refieren a la empresa estadística y a su actividad. Cada cohorte conserva el ejercicio observado.",
+      "dae": true,
+      "periodDimension": "Año"
+    },
+    {
+      "id": 29264,
+      "label": "Supervivencias de empresas nacidas en 2012 por actividad principal (CNAE 2009) y año · 2016",
+      "family": "Demografía armonizada de empresas",
+      "sourceUrl": "https://www.ine.es/jaxiPx/Tabla.htm?tpx=29264",
+      "note": "Edición 2016. Las cifras se refieren a la empresa estadística y a su actividad. Cada cohorte conserva el ejercicio observado.",
+      "dae": true,
+      "periodDimension": "Año"
+    },
+    {
+      "id": 29265,
+      "label": "Supervivencias de empresas nacidas en 2013 por actividad principal (CNAE 2009) y año · 2016",
+      "family": "Demografía armonizada de empresas",
+      "sourceUrl": "https://www.ine.es/jaxiPx/Tabla.htm?tpx=29265",
+      "note": "Edición 2016. Las cifras se refieren a la empresa estadística y a su actividad. Cada cohorte conserva el ejercicio observado.",
+      "dae": true,
+      "periodDimension": "Año"
+    },
+    {
+      "id": 29266,
+      "label": "Supervivencias de empresas nacidas en 2014 por actividad principal (CNAE 2009) y año · 2016",
+      "family": "Demografía armonizada de empresas",
+      "sourceUrl": "https://www.ine.es/jaxiPx/Tabla.htm?tpx=29266",
+      "note": "Edición 2016. Las cifras se refieren a la empresa estadística y a su actividad. Cada cohorte conserva el ejercicio observado.",
+      "dae": true,
+      "periodDimension": "Año"
+    },
+    {
+      "id": 29267,
+      "label": "Supervivencias de empresas nacidas en 2015 por actividad principal (CNAE 2009) y año · 2016",
+      "family": "Demografía armonizada de empresas",
+      "sourceUrl": "https://www.ine.es/jaxiPx/Tabla.htm?tpx=29267",
+      "note": "Edición 2016. Las cifras se refieren a la empresa estadística y a su actividad. Cada cohorte conserva el ejercicio observado.",
+      "dae": true,
+      "periodDimension": "Año"
+    },
+    {
+      "id": 26077,
+      "label": "Stock de empresas por comunidades y ciudades autónomas, actividad principal (CNAE 2009) y estrato de asalariados · 2015",
+      "family": "Demografía armonizada de empresas",
+      "sourceUrl": "https://www.ine.es/jaxiPx/Tabla.htm?tpx=26077",
+      "note": "Edición 2015. Las cifras se refieren a la empresa estadística y a su actividad. Se conserva el carácter provisional cuando figura en el título.",
+      "dae": true,
+      "fixedPeriod": "2015"
+    },
+    {
+      "id": 26078,
+      "label": "Stock de empresas por comunidades y ciudades autónomas, actividad principal (CNAE 2009) y condición jurídica · 2015",
+      "family": "Demografía armonizada de empresas",
+      "sourceUrl": "https://www.ine.es/jaxiPx/Tabla.htm?tpx=26078",
+      "note": "Edición 2015. Las cifras se refieren a la empresa estadística y a su actividad. Se conserva el carácter provisional cuando figura en el título.",
+      "dae": true,
+      "fixedPeriod": "2015"
+    },
+    {
+      "id": 26079,
+      "label": "Nacimientos de empresas por comunidades y ciudades autónomas, actividad principal (CNAE 2009) y estrato de asalariados · 2015",
+      "family": "Demografía armonizada de empresas",
+      "sourceUrl": "https://www.ine.es/jaxiPx/Tabla.htm?tpx=26079",
+      "note": "Edición 2015. Las cifras se refieren a la empresa estadística y a su actividad. Se conserva el carácter provisional cuando figura en el título.",
+      "dae": true,
+      "fixedPeriod": "2015"
+    },
+    {
+      "id": 26080,
+      "label": "Nacimientos de empresas por comunidades y ciudades autónomas, actividad principal (CNAE 2009) y condición jurídica · 2015",
+      "family": "Demografía armonizada de empresas",
+      "sourceUrl": "https://www.ine.es/jaxiPx/Tabla.htm?tpx=26080",
+      "note": "Edición 2015. Las cifras se refieren a la empresa estadística y a su actividad. Se conserva el carácter provisional cuando figura en el título.",
+      "dae": true,
+      "fixedPeriod": "2015"
+    },
+    {
+      "id": 26081,
+      "label": "Muertes provisionales de empresas por comunidades y ciudades autónomas, actividad principal (CNAE 2009) y estrato de asalariados · 2015",
+      "family": "Demografía armonizada de empresas",
+      "sourceUrl": "https://www.ine.es/jaxiPx/Tabla.htm?tpx=26081",
+      "note": "Edición 2015. Las cifras se refieren a la empresa estadística y a su actividad. Se conserva el carácter provisional cuando figura en el título.",
+      "dae": true,
+      "fixedPeriod": "2015",
+      "fixedStatus": "Provisional"
+    },
+    {
+      "id": 26082,
+      "label": "Muertes provisionales de empresas por comunidades y ciudades autónomas, actividad principal (CNAE 2009) y condición jurídica · 2015",
+      "family": "Demografía armonizada de empresas",
+      "sourceUrl": "https://www.ine.es/jaxiPx/Tabla.htm?tpx=26082",
+      "note": "Edición 2015. Las cifras se refieren a la empresa estadística y a su actividad. Se conserva el carácter provisional cuando figura en el título.",
+      "dae": true,
+      "fixedPeriod": "2015",
+      "fixedStatus": "Provisional"
+    },
+    {
+      "id": 26083,
+      "label": "Supervivencias de empresas nacidas en 2010 por actividad principal (CNAE 2009) y año · 2015",
+      "family": "Demografía armonizada de empresas",
+      "sourceUrl": "https://www.ine.es/jaxiPx/Tabla.htm?tpx=26083",
+      "note": "Edición 2015. Las cifras se refieren a la empresa estadística y a su actividad. Cada cohorte conserva el ejercicio observado.",
+      "dae": true,
+      "periodDimension": "Año"
+    },
+    {
+      "id": 26084,
+      "label": "Supervivencias de empresas nacidas en 2011 por actividad principal (CNAE 2009) y año · 2015",
+      "family": "Demografía armonizada de empresas",
+      "sourceUrl": "https://www.ine.es/jaxiPx/Tabla.htm?tpx=26084",
+      "note": "Edición 2015. Las cifras se refieren a la empresa estadística y a su actividad. Cada cohorte conserva el ejercicio observado.",
+      "dae": true,
+      "periodDimension": "Año"
+    },
+    {
+      "id": 26085,
+      "label": "Supervivencias de empresas nacidas en 2012 por actividad principal (CNAE 2009) y año · 2015",
+      "family": "Demografía armonizada de empresas",
+      "sourceUrl": "https://www.ine.es/jaxiPx/Tabla.htm?tpx=26085",
+      "note": "Edición 2015. Las cifras se refieren a la empresa estadística y a su actividad. Cada cohorte conserva el ejercicio observado.",
+      "dae": true,
+      "periodDimension": "Año"
+    },
+    {
+      "id": 26086,
+      "label": "Supervivencias de empresas nacidas en 2013 por actividad principal (CNAE 2009) y año · 2015",
+      "family": "Demografía armonizada de empresas",
+      "sourceUrl": "https://www.ine.es/jaxiPx/Tabla.htm?tpx=26086",
+      "note": "Edición 2015. Las cifras se refieren a la empresa estadística y a su actividad. Cada cohorte conserva el ejercicio observado.",
+      "dae": true,
+      "periodDimension": "Año"
+    },
+    {
+      "id": 26087,
+      "label": "Supervivencias de empresas nacidas en 2014 por actividad principal (CNAE 2009) y año · 2015",
+      "family": "Demografía armonizada de empresas",
+      "sourceUrl": "https://www.ine.es/jaxiPx/Tabla.htm?tpx=26087",
+      "note": "Edición 2015. Las cifras se refieren a la empresa estadística y a su actividad. Cada cohorte conserva el ejercicio observado.",
+      "dae": true,
+      "periodDimension": "Año"
+    },
+    {
+      "id": 24753,
+      "label": "Stock de empresas por comunidades y ciudades autónomas, actividad principal (CNAE 2009) y estrato de asalariados · 2014",
+      "family": "Demografía armonizada de empresas",
+      "sourceUrl": "https://www.ine.es/jaxiPx/Tabla.htm?tpx=24753",
+      "note": "Edición 2014. Las cifras se refieren a la empresa estadística y a su actividad. Se conserva el carácter provisional cuando figura en el título.",
+      "dae": true,
+      "fixedPeriod": "2014"
+    },
+    {
+      "id": 24754,
+      "label": "Stock de empresas por comunidades y ciudades autónomas, actividad principal (CNAE 2009) y condición jurídica · 2014",
+      "family": "Demografía armonizada de empresas",
+      "sourceUrl": "https://www.ine.es/jaxiPx/Tabla.htm?tpx=24754",
+      "note": "Edición 2014. Las cifras se refieren a la empresa estadística y a su actividad. Se conserva el carácter provisional cuando figura en el título.",
+      "dae": true,
+      "fixedPeriod": "2014"
+    },
+    {
+      "id": 24755,
+      "label": "Nacimientos de empresas por comunidades y ciudades autónomas, actividad principal (CNAE 2009) y estrato de asalariados · 2014",
+      "family": "Demografía armonizada de empresas",
+      "sourceUrl": "https://www.ine.es/jaxiPx/Tabla.htm?tpx=24755",
+      "note": "Edición 2014. Las cifras se refieren a la empresa estadística y a su actividad. Se conserva el carácter provisional cuando figura en el título.",
+      "dae": true,
+      "fixedPeriod": "2014"
+    },
+    {
+      "id": 24756,
+      "label": "Nacimientos de empresas por comunidades y ciudades autónomas, actividad principal (CNAE 2009) y condición jurídica · 2014",
+      "family": "Demografía armonizada de empresas",
+      "sourceUrl": "https://www.ine.es/jaxiPx/Tabla.htm?tpx=24756",
+      "note": "Edición 2014. Las cifras se refieren a la empresa estadística y a su actividad. Se conserva el carácter provisional cuando figura en el título.",
+      "dae": true,
+      "fixedPeriod": "2014"
+    },
+    {
+      "id": 24757,
+      "label": "Supervivencias de empresas nacidas en 2009 por actividad principal (CNAE 2009) y año · 2014",
+      "family": "Demografía armonizada de empresas",
+      "sourceUrl": "https://www.ine.es/jaxiPx/Tabla.htm?tpx=24757",
+      "note": "Edición 2014. Las cifras se refieren a la empresa estadística y a su actividad. Cada cohorte conserva el ejercicio observado.",
+      "dae": true,
+      "periodDimension": "Año"
+    },
+    {
+      "id": 24758,
+      "label": "Supervivencias de empresas nacidas en 2010 por actividad principal (CNAE 2009) y año · 2014",
+      "family": "Demografía armonizada de empresas",
+      "sourceUrl": "https://www.ine.es/jaxiPx/Tabla.htm?tpx=24758",
+      "note": "Edición 2014. Las cifras se refieren a la empresa estadística y a su actividad. Cada cohorte conserva el ejercicio observado.",
+      "dae": true,
+      "periodDimension": "Año"
+    },
+    {
+      "id": 24759,
+      "label": "Supervivencias de empresas nacidas en 2011 por actividad principal (CNAE 2009) y año · 2014",
+      "family": "Demografía armonizada de empresas",
+      "sourceUrl": "https://www.ine.es/jaxiPx/Tabla.htm?tpx=24759",
+      "note": "Edición 2014. Las cifras se refieren a la empresa estadística y a su actividad. Cada cohorte conserva el ejercicio observado.",
+      "dae": true,
+      "periodDimension": "Año"
+    },
+    {
+      "id": 24760,
+      "label": "Supervivencias de empresas nacidas en 2012 por actividad principal (CNAE 2009) y año · 2014",
+      "family": "Demografía armonizada de empresas",
+      "sourceUrl": "https://www.ine.es/jaxiPx/Tabla.htm?tpx=24760",
+      "note": "Edición 2014. Las cifras se refieren a la empresa estadística y a su actividad. Cada cohorte conserva el ejercicio observado.",
+      "dae": true,
+      "periodDimension": "Año"
+    },
+    {
+      "id": 24761,
+      "label": "Supervivencias de empresas nacidas en 2013 por actividad principal (CNAE 2009) y año · 2014",
+      "family": "Demografía armonizada de empresas",
+      "sourceUrl": "https://www.ine.es/jaxiPx/Tabla.htm?tpx=24761",
+      "note": "Edición 2014. Las cifras se refieren a la empresa estadística y a su actividad. Cada cohorte conserva el ejercicio observado.",
+      "dae": true,
+      "periodDimension": "Año"
+    },
+    {
+      "id": 24762,
+      "label": "Muertes provisionales de empresas por comunidades y ciudades autónomas, actividad principal (CNAE 2009) y estrato de asalariados · 2014",
+      "family": "Demografía armonizada de empresas",
+      "sourceUrl": "https://www.ine.es/jaxiPx/Tabla.htm?tpx=24762",
+      "note": "Edición 2014. Las cifras se refieren a la empresa estadística y a su actividad. Se conserva el carácter provisional cuando figura en el título.",
+      "dae": true,
+      "fixedPeriod": "2014",
+      "fixedStatus": "Provisional"
+    },
+    {
+      "id": 24763,
+      "label": "Muertes provisionales de empresas por comunidades y ciudades autónomas, actividad principal (CNAE 2009) y condición jurídica · 2014",
+      "family": "Demografía armonizada de empresas",
+      "sourceUrl": "https://www.ine.es/jaxiPx/Tabla.htm?tpx=24763",
+      "note": "Edición 2014. Las cifras se refieren a la empresa estadística y a su actividad. Se conserva el carácter provisional cuando figura en el título.",
+      "dae": true,
+      "fixedPeriod": "2014",
+      "fixedStatus": "Provisional"
+    },
+    {
+      "id": 78690,
+      "label": "Agregados por ramas de actividad · 78690",
+      "family": "Cuenta Satélite de la Economía Social",
+      "note": "Cuenta nacional de la economía social. Se conservan las ramas y los tipos de entidad que publica el INE."
+    },
+    {
+      "id": 79485,
+      "label": "Agregados por ramas de actividad · 79485",
+      "family": "Cuenta Satélite de la Economía Social",
+      "note": "Cuenta nacional de la economía social. Se conservan las ramas y los tipos de entidad que publica el INE."
+    },
+    {
+      "id": 78708,
+      "label": "Valor Añadido Bruto · 78708",
+      "family": "Cuenta Satélite de la Economía Social",
+      "note": "Cuenta nacional de la economía social. Se conservan las ramas y los tipos de entidad que publica el INE."
+    },
+    {
+      "id": 79486,
+      "label": "Valor Añadido Bruto · 79486",
+      "family": "Cuenta Satélite de la Economía Social",
+      "note": "Cuenta nacional de la economía social. Se conservan las ramas y los tipos de entidad que publica el INE."
+    },
+    {
+      "id": 78713,
+      "label": "Empleo · 78713",
+      "family": "Cuenta Satélite de la Economía Social",
+      "note": "Cuenta nacional de la economía social. Se conservan las ramas y los tipos de entidad que publica el INE."
+    },
+    {
+      "id": 79487,
+      "label": "Empleo · 79487",
+      "family": "Cuenta Satélite de la Economía Social",
+      "note": "Cuenta nacional de la economía social. Se conservan las ramas y los tipos de entidad que publica el INE."
+    },
+    {
+      "id": 78717,
+      "label": "Voluntariado · 78717",
+      "family": "Cuenta Satélite de la Economía Social",
+      "note": "Cuenta nacional de la economía social. Se conservan las ramas y los tipos de entidad que publica el INE."
+    },
+    {
+      "id": 79488,
+      "label": "Voluntariado · 79488",
+      "family": "Cuenta Satélite de la Economía Social",
+      "note": "Cuenta nacional de la economía social. Se conservan las ramas y los tipos de entidad que publica el INE."
+    }
+  ],
+  "daeLegacyEditions": [
+    {
+      "year": 2008,
+      "url": "https://www.ine.es/dynt3/inebase/es/index.htm?type=pcaxis&file=pcaxis&path=%2Ft37%2Fp204%2F%2Fa2008"
+    },
+    {
+      "year": 2009,
+      "url": "https://www.ine.es/dynt3/inebase/es/index.htm?type=pcaxis&file=pcaxis&path=%2Ft37%2Fp204%2F%2Fa2009"
+    },
+    {
+      "year": 2010,
+      "url": "https://www.ine.es/dynt3/inebase/es/index.htm?type=pcaxis&file=pcaxis&path=%2Ft37%2Fp204%2F%2Fa2010"
+    },
+    {
+      "year": 2011,
+      "url": "https://www.ine.es/dynt3/inebase/es/index.htm?type=pcaxis&file=pcaxis&path=%2Ft37%2Fp204%2F%2Fa2011"
+    },
+    {
+      "year": 2012,
+      "url": "https://www.ine.es/dynt3/inebase/es/index.htm?type=pcaxis&file=pcaxis&path=%2Ft37%2Fp204%2F%2Fa2012"
+    },
+    {
+      "year": 2013,
+      "url": "https://www.ine.es/dynt3/inebase/es/index.htm?type=pcaxis&file=pcaxis&path=%2Ft37%2Fp204%2F%2Fa2013"
+    }
+  ],
+  "additionalTables": {
+    "166": [
+      {
+        "Id": 82463,
+        "Nombre": "Stock de empresas por comunidades y ciudades autónomas, actividad principal (CNAE 2009) y estrato de asalariados.",
+        "sourceUrl": "https://www.ine.es/jaxiPx/Tabla.htm?tpx=82463"
+      },
+      {
+        "Id": 82464,
+        "Nombre": "Stock de empresas por comunidades y ciudades autónomas, actividad principal (CNAE 2009) y condición jurídica.",
+        "sourceUrl": "https://www.ine.es/jaxiPx/Tabla.htm?tpx=82464"
+      },
+      {
+        "Id": 82465,
+        "Nombre": "Nacimientos de empresas por comunidades y ciudades autónomas, actividad principal (CNAE 2009) y estrato de asalariados.",
+        "sourceUrl": "https://www.ine.es/jaxiPx/Tabla.htm?tpx=82465"
+      },
+      {
+        "Id": 82466,
+        "Nombre": "Nacimientos de empresas por comunidades y ciudades autónomas, actividad principal (CNAE 2009) y condición jurídica.",
+        "sourceUrl": "https://www.ine.es/jaxiPx/Tabla.htm?tpx=82466"
+      },
+      {
+        "Id": 82467,
+        "Nombre": "Muertes provisionales de empresas por comunidades y ciudades autónomas, actividad principal (CNAE 2009) y estrato de asalariados.",
+        "sourceUrl": "https://www.ine.es/jaxiPx/Tabla.htm?tpx=82467"
+      },
+      {
+        "Id": 82468,
+        "Nombre": "Muertes provisionales de empresas por comunidades y ciudades autónomas, actividad principal (CNAE 2009) y condición jurídica.",
+        "sourceUrl": "https://www.ine.es/jaxiPx/Tabla.htm?tpx=82468"
+      },
+      {
+        "Id": 82469,
+        "Nombre": "Supervivencias de empresas nacidas en 2019 por actividad principal (CNAE 2009) y año.",
+        "sourceUrl": "https://www.ine.es/jaxiPx/Tabla.htm?tpx=82469"
+      },
+      {
+        "Id": 82470,
+        "Nombre": "Supervivencias de empresas nacidas en 2020 por actividad principal (CNAE 2009) y año.",
+        "sourceUrl": "https://www.ine.es/jaxiPx/Tabla.htm?tpx=82470"
+      },
+      {
+        "Id": 82471,
+        "Nombre": "Supervivencias de empresas nacidas en 2021 por actividad principal (CNAE 2009) y año.",
+        "sourceUrl": "https://www.ine.es/jaxiPx/Tabla.htm?tpx=82471"
+      },
+      {
+        "Id": 82472,
+        "Nombre": "Supervivencias de empresas nacidas en 2022 por actividad principal (CNAE 2009) y año.",
+        "sourceUrl": "https://www.ine.es/jaxiPx/Tabla.htm?tpx=82472"
+      },
+      {
+        "Id": 82473,
+        "Nombre": "Supervivencias de empresas nacidas en 2023 por actividad principal (CNAE 2009) y año.",
+        "sourceUrl": "https://www.ine.es/jaxiPx/Tabla.htm?tpx=82473"
+      },
+      {
+        "Id": 76644,
+        "Nombre": "Stock de empresas por comunidades y ciudades autónomas, actividad principal (CNAE 2009) y estrato de asalariados.",
+        "sourceUrl": "https://www.ine.es/jaxiPx/Tabla.htm?tpx=76644"
+      },
+      {
+        "Id": 76645,
+        "Nombre": "Stock de empresas por comunidades y ciudades autónomas, actividad principal (CNAE 2009) y condición jurídica.",
+        "sourceUrl": "https://www.ine.es/jaxiPx/Tabla.htm?tpx=76645"
+      },
+      {
+        "Id": 76646,
+        "Nombre": "Nacimientos de empresas por comunidades y ciudades autónomas, actividad principal (CNAE 2009) y estrato de asalariados.",
+        "sourceUrl": "https://www.ine.es/jaxiPx/Tabla.htm?tpx=76646"
+      },
+      {
+        "Id": 76647,
+        "Nombre": "Nacimientos de empresas por comunidades y ciudades autónomas, actividad principal (CNAE 2009) y condición jurídica.",
+        "sourceUrl": "https://www.ine.es/jaxiPx/Tabla.htm?tpx=76647"
+      },
+      {
+        "Id": 76648,
+        "Nombre": "Muertes provisionales de empresas por comunidades y ciudades autónomas, actividad principal (CNAE 2009) y estrato de asalariados.",
+        "sourceUrl": "https://www.ine.es/jaxiPx/Tabla.htm?tpx=76648"
+      },
+      {
+        "Id": 76649,
+        "Nombre": "Muertes provisionales de empresas por comunidades y ciudades autónomas, actividad principal (CNAE 2009) y condición jurídica.",
+        "sourceUrl": "https://www.ine.es/jaxiPx/Tabla.htm?tpx=76649"
+      },
+      {
+        "Id": 76650,
+        "Nombre": "Supervivencias de empresas nacidas en 2018 por actividad principal (CNAE 2009) y año.",
+        "sourceUrl": "https://www.ine.es/jaxiPx/Tabla.htm?tpx=76650"
+      },
+      {
+        "Id": 76651,
+        "Nombre": "Supervivencias de empresas nacidas en 2019 por actividad principal (CNAE 2009) y año.",
+        "sourceUrl": "https://www.ine.es/jaxiPx/Tabla.htm?tpx=76651"
+      },
+      {
+        "Id": 76652,
+        "Nombre": "Supervivencias de empresas nacidas en 2020 por actividad principal (CNAE 2009) y año.",
+        "sourceUrl": "https://www.ine.es/jaxiPx/Tabla.htm?tpx=76652"
+      },
+      {
+        "Id": 76653,
+        "Nombre": "Supervivencias de empresas nacidas en 2021 por actividad principal (CNAE 2009) y año.",
+        "sourceUrl": "https://www.ine.es/jaxiPx/Tabla.htm?tpx=76653"
+      },
+      {
+        "Id": 76654,
+        "Nombre": "Supervivencias de empresas nacidas en 2022 por actividad principal (CNAE 2009) y año.",
+        "sourceUrl": "https://www.ine.es/jaxiPx/Tabla.htm?tpx=76654"
+      },
+      {
+        "Id": 71095,
+        "Nombre": "Stock de empresas por comunidades y ciudades autónomas, actividad principal (CNAE 2009) y estrato de asalariados.",
+        "sourceUrl": "https://www.ine.es/jaxiPx/Tabla.htm?tpx=71095"
+      },
+      {
+        "Id": 71096,
+        "Nombre": "Stock de empresas por comunidades y ciudades autónomas, actividad principal (CNAE 2009) y condición jurídica.",
+        "sourceUrl": "https://www.ine.es/jaxiPx/Tabla.htm?tpx=71096"
+      },
+      {
+        "Id": 71097,
+        "Nombre": "Nacimientos de empresas por comunidades y ciudades autónomas, actividad principal (CNAE 2009) y estrato de asalariados.",
+        "sourceUrl": "https://www.ine.es/jaxiPx/Tabla.htm?tpx=71097"
+      },
+      {
+        "Id": 71098,
+        "Nombre": "Nacimientos de empresas por comunidades y ciudades autónomas, actividad principal (CNAE 2009) y condición jurídica.",
+        "sourceUrl": "https://www.ine.es/jaxiPx/Tabla.htm?tpx=71098"
+      },
+      {
+        "Id": 71099,
+        "Nombre": "Supervivencias de empresas nacidas en 2017 por actividad principal (CNAE 2009) y año.",
+        "sourceUrl": "https://www.ine.es/jaxiPx/Tabla.htm?tpx=71099"
+      },
+      {
+        "Id": 71100,
+        "Nombre": "Supervivencias de empresas nacidas en 2018 por actividad principal (CNAE 2009) y año.",
+        "sourceUrl": "https://www.ine.es/jaxiPx/Tabla.htm?tpx=71100"
+      },
+      {
+        "Id": 71101,
+        "Nombre": "Supervivencias de empresas nacidas en 2019 por actividad principal (CNAE 2009) y año.",
+        "sourceUrl": "https://www.ine.es/jaxiPx/Tabla.htm?tpx=71101"
+      },
+      {
+        "Id": 71102,
+        "Nombre": "Supervivencias de empresas nacidas en 2020 por actividad principal (CNAE 2009) y año.",
+        "sourceUrl": "https://www.ine.es/jaxiPx/Tabla.htm?tpx=71102"
+      },
+      {
+        "Id": 71103,
+        "Nombre": "Supervivencias de empresas nacidas en 2021 por actividad principal (CNAE 2009) y año.",
+        "sourceUrl": "https://www.ine.es/jaxiPx/Tabla.htm?tpx=71103"
+      },
+      {
+        "Id": 71104,
+        "Nombre": "Muertes provisionales de empresas por comunidades y ciudades autónomas, actividad principal (CNAE 2009) y estrato de asalariados.",
+        "sourceUrl": "https://www.ine.es/jaxiPx/Tabla.htm?tpx=71104"
+      },
+      {
+        "Id": 71105,
+        "Nombre": "Muertes provisionales de empresas por comunidades y ciudades autónomas, actividad principal (CNAE 2009) y condición jurídica.",
+        "sourceUrl": "https://www.ine.es/jaxiPx/Tabla.htm?tpx=71105"
+      },
+      {
+        "Id": 60301,
+        "Nombre": "Stock de empresas por comunidades y ciudades autónomas, actividad principal (CNAE 2009) y estrato de asalariados.",
+        "sourceUrl": "https://www.ine.es/jaxiPx/Tabla.htm?tpx=60301"
+      },
+      {
+        "Id": 60302,
+        "Nombre": "Stock de empresas por comunidades y ciudades autónomas, actividad principal (CNAE 2009) y condición jurídica.",
+        "sourceUrl": "https://www.ine.es/jaxiPx/Tabla.htm?tpx=60302"
+      },
+      {
+        "Id": 60303,
+        "Nombre": "Nacimientos de empresas por comunidades y ciudades autónomas, actividad principal (CNAE 2009) y estrato de asalariados.",
+        "sourceUrl": "https://www.ine.es/jaxiPx/Tabla.htm?tpx=60303"
+      },
+      {
+        "Id": 60304,
+        "Nombre": "Nacimientos de empresas por comunidades y ciudades autónomas, actividad principal (CNAE 2009) y condición jurídica.",
+        "sourceUrl": "https://www.ine.es/jaxiPx/Tabla.htm?tpx=60304"
+      },
+      {
+        "Id": 60305,
+        "Nombre": "Muertes provisionales de empresas por comunidades y ciudades autónomas, actividad principal (CNAE 2009) y estrato de asalariados.",
+        "sourceUrl": "https://www.ine.es/jaxiPx/Tabla.htm?tpx=60305"
+      },
+      {
+        "Id": 60306,
+        "Nombre": "Muertes provisionales de empresas por comunidades y ciudades autónomas, actividad principal (CNAE 2009) y condición jurídica.",
+        "sourceUrl": "https://www.ine.es/jaxiPx/Tabla.htm?tpx=60306"
+      },
+      {
+        "Id": 60307,
+        "Nombre": "Supervivencias de empresas nacidas en 2016 por actividad principal (CNAE 2009) y año.",
+        "sourceUrl": "https://www.ine.es/jaxiPx/Tabla.htm?tpx=60307"
+      },
+      {
+        "Id": 60308,
+        "Nombre": "Supervivencias de empresas nacidas en 2017 por actividad principal (CNAE 2009) y año.",
+        "sourceUrl": "https://www.ine.es/jaxiPx/Tabla.htm?tpx=60308"
+      },
+      {
+        "Id": 60309,
+        "Nombre": "Supervivencias de empresas nacidas en 2018 por actividad principal (CNAE 2009) y año.",
+        "sourceUrl": "https://www.ine.es/jaxiPx/Tabla.htm?tpx=60309"
+      },
+      {
+        "Id": 60310,
+        "Nombre": "Supervivencias de empresas nacidas en 2019 por actividad principal (CNAE 2009) y año.",
+        "sourceUrl": "https://www.ine.es/jaxiPx/Tabla.htm?tpx=60310"
+      },
+      {
+        "Id": 60311,
+        "Nombre": "Supervivencias de empresas nacidas en 2020 por actividad principal (CNAE 2009) y año.",
+        "sourceUrl": "https://www.ine.es/jaxiPx/Tabla.htm?tpx=60311"
+      },
+      {
+        "Id": 54685,
+        "Nombre": "Stock de empresas por comunidades y ciudades autónomas, actividad principal (CNAE 2009) y estrato de asalariados.",
+        "sourceUrl": "https://www.ine.es/jaxiPx/Tabla.htm?tpx=54685"
+      },
+      {
+        "Id": 54686,
+        "Nombre": "Stock de empresas por comunidades y ciudades autónomas, actividad principal (CNAE 2009) y condición jurídica.",
+        "sourceUrl": "https://www.ine.es/jaxiPx/Tabla.htm?tpx=54686"
+      },
+      {
+        "Id": 54687,
+        "Nombre": "Nacimientos de empresas por comunidades y ciudades autónomas, actividad principal (CNAE 2009) y estrato de asalariados.",
+        "sourceUrl": "https://www.ine.es/jaxiPx/Tabla.htm?tpx=54687"
+      },
+      {
+        "Id": 54688,
+        "Nombre": "Nacimientos de empresas por comunidades y ciudades autónomas, actividad principal (CNAE 2009) y condición jurídica.",
+        "sourceUrl": "https://www.ine.es/jaxiPx/Tabla.htm?tpx=54688"
+      },
+      {
+        "Id": 54689,
+        "Nombre": "Muertes provisionales de empresas por comunidades y ciudades autónomas, actividad principal (CNAE 2009) y estrato de asalariados.",
+        "sourceUrl": "https://www.ine.es/jaxiPx/Tabla.htm?tpx=54689"
+      },
+      {
+        "Id": 54690,
+        "Nombre": "Muertes provisionales de empresas por comunidades y ciudades autónomas, actividad principal (CNAE 2009) y condición jurídica.",
+        "sourceUrl": "https://www.ine.es/jaxiPx/Tabla.htm?tpx=54690"
+      },
+      {
+        "Id": 54691,
+        "Nombre": "Supervivencias de empresas nacidas en 2015 por actividad principal (CNAE 2009) y año.",
+        "sourceUrl": "https://www.ine.es/jaxiPx/Tabla.htm?tpx=54691"
+      },
+      {
+        "Id": 54692,
+        "Nombre": "Supervivencias de empresas nacidas en 2016 por actividad principal (CNAE 2009) y año.",
+        "sourceUrl": "https://www.ine.es/jaxiPx/Tabla.htm?tpx=54692"
+      },
+      {
+        "Id": 54693,
+        "Nombre": "Supervivencias de empresas nacidas en 2017 por actividad principal (CNAE 2009) y año.",
+        "sourceUrl": "https://www.ine.es/jaxiPx/Tabla.htm?tpx=54693"
+      },
+      {
+        "Id": 54694,
+        "Nombre": "Supervivencias de empresas nacidas en 2018 por actividad principal (CNAE 2009) y año.",
+        "sourceUrl": "https://www.ine.es/jaxiPx/Tabla.htm?tpx=54694"
+      },
+      {
+        "Id": 54695,
+        "Nombre": "Supervivencias de empresas nacidas en 2019 por actividad principal (CNAE 2009) y año.",
+        "sourceUrl": "https://www.ine.es/jaxiPx/Tabla.htm?tpx=54695"
+      },
+      {
+        "Id": 50023,
+        "Nombre": "Stock de empresas por comunidades y ciudades autónomas, actividad principal (CNAE 2009) y estrato de asalariados.",
+        "sourceUrl": "https://www.ine.es/jaxiPx/Tabla.htm?tpx=50023"
+      },
+      {
+        "Id": 50024,
+        "Nombre": "Stock de empresas por comunidades y ciudades autónomas, actividad principal (CNAE 2009) y condición jurídica.",
+        "sourceUrl": "https://www.ine.es/jaxiPx/Tabla.htm?tpx=50024"
+      },
+      {
+        "Id": 50025,
+        "Nombre": "Nacimientos de empresas por comunidades y ciudades autónomas, actividad principal (CNAE 2009) y estrato de asalariados.",
+        "sourceUrl": "https://www.ine.es/jaxiPx/Tabla.htm?tpx=50025"
+      },
+      {
+        "Id": 50026,
+        "Nombre": "Nacimientos de empresas por comunidades y ciudades autónomas, actividad principal (CNAE 2009) y condición jurídica.",
+        "sourceUrl": "https://www.ine.es/jaxiPx/Tabla.htm?tpx=50026"
+      },
+      {
+        "Id": 50027,
+        "Nombre": "Muertes provisionales de empresas por comunidades y ciudades autónomas, actividad principal (CNAE 2009) y estrato de asalariados.",
+        "sourceUrl": "https://www.ine.es/jaxiPx/Tabla.htm?tpx=50027"
+      },
+      {
+        "Id": 50028,
+        "Nombre": "Muertes provisionales de empresas por comunidades y ciudades autónomas, actividad principal (CNAE 2009) y condición jurídica.",
+        "sourceUrl": "https://www.ine.es/jaxiPx/Tabla.htm?tpx=50028"
+      },
+      {
+        "Id": 50029,
+        "Nombre": "Supervivencias de empresas nacidas en 2014 por actividad principal (CNAE 2009) y año.",
+        "sourceUrl": "https://www.ine.es/jaxiPx/Tabla.htm?tpx=50029"
+      },
+      {
+        "Id": 50030,
+        "Nombre": "Supervivencias de empresas nacidas en 2015 por actividad principal (CNAE 2009) y año.",
+        "sourceUrl": "https://www.ine.es/jaxiPx/Tabla.htm?tpx=50030"
+      },
+      {
+        "Id": 50031,
+        "Nombre": "Supervivencias de empresas nacidas en 2016 por actividad principal (CNAE 2009) y año.",
+        "sourceUrl": "https://www.ine.es/jaxiPx/Tabla.htm?tpx=50031"
+      },
+      {
+        "Id": 50032,
+        "Nombre": "Supervivencias de empresas nacidas en 2017 por actividad principal (CNAE 2009) y año.",
+        "sourceUrl": "https://www.ine.es/jaxiPx/Tabla.htm?tpx=50032"
+      },
+      {
+        "Id": 50033,
+        "Nombre": "Supervivencias de empresas nacidas en 2018 por actividad principal (CNAE 2009) y año.",
+        "sourceUrl": "https://www.ine.es/jaxiPx/Tabla.htm?tpx=50033"
+      },
+      {
+        "Id": 39376,
+        "Nombre": "Stock de empresas por comunidades y ciudades autónomas, actividad principal (CNAE 2009) y estrato de asalariados.",
+        "sourceUrl": "https://www.ine.es/jaxiPx/Tabla.htm?tpx=39376"
+      },
+      {
+        "Id": 39377,
+        "Nombre": "Stock de empresas por comunidades y ciudades autónomas, actividad principal (CNAE 2009) y condición jurídica.",
+        "sourceUrl": "https://www.ine.es/jaxiPx/Tabla.htm?tpx=39377"
+      },
+      {
+        "Id": 39378,
+        "Nombre": "Nacimientos de empresas por comunidades y ciudades autónomas, actividad principal (CNAE 2009) y estrato de asalariados.",
+        "sourceUrl": "https://www.ine.es/jaxiPx/Tabla.htm?tpx=39378"
+      },
+      {
+        "Id": 39379,
+        "Nombre": "Nacimientos de empresas por comunidades y ciudades autónomas, actividad principal (CNAE 2009) y condición jurídica.",
+        "sourceUrl": "https://www.ine.es/jaxiPx/Tabla.htm?tpx=39379"
+      },
+      {
+        "Id": 39385,
+        "Nombre": "Muertes provisionales de empresas por comunidades y ciudades autónomas, actividad principal (CNAE 2009) y estrato de asalariados.",
+        "sourceUrl": "https://www.ine.es/jaxiPx/Tabla.htm?tpx=39385"
+      },
+      {
+        "Id": 39386,
+        "Nombre": "Muertes provisionales de empresas por comunidades y ciudades autónomas, actividad principal (CNAE 2009) y condición jurídica.",
+        "sourceUrl": "https://www.ine.es/jaxiPx/Tabla.htm?tpx=39386"
+      },
+      {
+        "Id": 39387,
+        "Nombre": "Supervivencias de empresas nacidas en 2013 por actividad principal (CNAE 2009) y año.",
+        "sourceUrl": "https://www.ine.es/jaxiPx/Tabla.htm?tpx=39387"
+      },
+      {
+        "Id": 39388,
+        "Nombre": "Supervivencias de empresas nacidas en 2014 por actividad principal (CNAE 2009) y año.",
+        "sourceUrl": "https://www.ine.es/jaxiPx/Tabla.htm?tpx=39388"
+      },
+      {
+        "Id": 39389,
+        "Nombre": "Supervivencias de empresas nacidas en 2015 por actividad principal (CNAE 2009) y año.",
+        "sourceUrl": "https://www.ine.es/jaxiPx/Tabla.htm?tpx=39389"
+      },
+      {
+        "Id": 39390,
+        "Nombre": "Supervivencias de empresas nacidas en 2016 por actividad principal (CNAE 2009) y año.",
+        "sourceUrl": "https://www.ine.es/jaxiPx/Tabla.htm?tpx=39390"
+      },
+      {
+        "Id": 39391,
+        "Nombre": "Supervivencias de empresas nacidas en 2017 por actividad principal (CNAE 2009) y año.",
+        "sourceUrl": "https://www.ine.es/jaxiPx/Tabla.htm?tpx=39391"
+      },
+      {
+        "Id": 32927,
+        "Nombre": "Stock de empresas por comunidades y ciudades autónomas, actividad principal (CNAE 2009) y estrato de asalariados.",
+        "sourceUrl": "https://www.ine.es/jaxiPx/Tabla.htm?tpx=32927"
+      },
+      {
+        "Id": 32928,
+        "Nombre": "Stock de empresas por comunidades y ciudades autónomas, actividad principal (CNAE 2009) y condición jurídica.",
+        "sourceUrl": "https://www.ine.es/jaxiPx/Tabla.htm?tpx=32928"
+      },
+      {
+        "Id": 32929,
+        "Nombre": "Nacimientos de empresas por comunidades y ciudades autónomas, actividad principal (CNAE 2009) y estrato de asalariados.",
+        "sourceUrl": "https://www.ine.es/jaxiPx/Tabla.htm?tpx=32929"
+      },
+      {
+        "Id": 32930,
+        "Nombre": "Nacimientos de empresas por comunidades y ciudades autónomas, actividad principal (CNAE 2009) y condición jurídica.",
+        "sourceUrl": "https://www.ine.es/jaxiPx/Tabla.htm?tpx=32930"
+      },
+      {
+        "Id": 32931,
+        "Nombre": "Muertes provisionales de empresas por comunidades y ciudades autónomas, actividad principal (CNAE 2009) y estrato de asalariados.",
+        "sourceUrl": "https://www.ine.es/jaxiPx/Tabla.htm?tpx=32931"
+      },
+      {
+        "Id": 32932,
+        "Nombre": "Muertes provisionales de empresas por comunidades y ciudades autónomas, actividad principal (CNAE 2009) y condición jurídica.",
+        "sourceUrl": "https://www.ine.es/jaxiPx/Tabla.htm?tpx=32932"
+      },
+      {
+        "Id": 32933,
+        "Nombre": "Supervivencias de empresas nacidas en 2012 por actividad principal (CNAE 2009) y año.",
+        "sourceUrl": "https://www.ine.es/jaxiPx/Tabla.htm?tpx=32933"
+      },
+      {
+        "Id": 32934,
+        "Nombre": "Supervivencias de empresas nacidas en 2013 por actividad principal (CNAE 2009) y año.",
+        "sourceUrl": "https://www.ine.es/jaxiPx/Tabla.htm?tpx=32934"
+      },
+      {
+        "Id": 32935,
+        "Nombre": "Supervivencias de empresas nacidas en 2014 por actividad principal (CNAE 2009) y año.",
+        "sourceUrl": "https://www.ine.es/jaxiPx/Tabla.htm?tpx=32935"
+      },
+      {
+        "Id": 32936,
+        "Nombre": "Supervivencias de empresas nacidas en 2015 por actividad principal (CNAE 2009) y año.",
+        "sourceUrl": "https://www.ine.es/jaxiPx/Tabla.htm?tpx=32936"
+      },
+      {
+        "Id": 32937,
+        "Nombre": "Supervivencias de empresas nacidas en 2016 por actividad principal (CNAE 2009) y año.",
+        "sourceUrl": "https://www.ine.es/jaxiPx/Tabla.htm?tpx=32937"
+      },
+      {
+        "Id": 29257,
+        "Nombre": "Stock de empresas por comunidades y ciudades autónomas, actividad principal (CNAE 2009) y estrato de asalariados.",
+        "sourceUrl": "https://www.ine.es/jaxiPx/Tabla.htm?tpx=29257"
+      },
+      {
+        "Id": 29258,
+        "Nombre": "Stock de empresas por comunidades y ciudades autónomas, actividad principal (CNAE 2009) y condición jurídica.",
+        "sourceUrl": "https://www.ine.es/jaxiPx/Tabla.htm?tpx=29258"
+      },
+      {
+        "Id": 29259,
+        "Nombre": "Nacimientos de empresas por comunidades y ciudades autónomas, actividad principal (CNAE 2009) y estrato de asalariados.",
+        "sourceUrl": "https://www.ine.es/jaxiPx/Tabla.htm?tpx=29259"
+      },
+      {
+        "Id": 29260,
+        "Nombre": "Nacimientos de empresas por comunidades y ciudades autónomas, actividad principal (CNAE 2009) y condición jurídica.",
+        "sourceUrl": "https://www.ine.es/jaxiPx/Tabla.htm?tpx=29260"
+      },
+      {
+        "Id": 29261,
+        "Nombre": "Muertes provisionales de empresas por comunidades y ciudades autónomas, actividad principal (CNAE 2009) y estrato de asalariados.",
+        "sourceUrl": "https://www.ine.es/jaxiPx/Tabla.htm?tpx=29261"
+      },
+      {
+        "Id": 29262,
+        "Nombre": "Muertes provisionales de empresas por comunidades y ciudades autónomas, actividad principal (CNAE 2009) y condición jurídica.",
+        "sourceUrl": "https://www.ine.es/jaxiPx/Tabla.htm?tpx=29262"
+      },
+      {
+        "Id": 29263,
+        "Nombre": "Supervivencias de empresas nacidas en 2011 por actividad principal (CNAE 2009) y año.",
+        "sourceUrl": "https://www.ine.es/jaxiPx/Tabla.htm?tpx=29263"
+      },
+      {
+        "Id": 29264,
+        "Nombre": "Supervivencias de empresas nacidas en 2012 por actividad principal (CNAE 2009) y año.",
+        "sourceUrl": "https://www.ine.es/jaxiPx/Tabla.htm?tpx=29264"
+      },
+      {
+        "Id": 29265,
+        "Nombre": "Supervivencias de empresas nacidas en 2013 por actividad principal (CNAE 2009) y año.",
+        "sourceUrl": "https://www.ine.es/jaxiPx/Tabla.htm?tpx=29265"
+      },
+      {
+        "Id": 29266,
+        "Nombre": "Supervivencias de empresas nacidas en 2014 por actividad principal (CNAE 2009) y año.",
+        "sourceUrl": "https://www.ine.es/jaxiPx/Tabla.htm?tpx=29266"
+      },
+      {
+        "Id": 29267,
+        "Nombre": "Supervivencias de empresas nacidas en 2015 por actividad principal (CNAE 2009) y año.",
+        "sourceUrl": "https://www.ine.es/jaxiPx/Tabla.htm?tpx=29267"
+      },
+      {
+        "Id": 26077,
+        "Nombre": "Stock de empresas por comunidades y ciudades autónomas, actividad principal (CNAE 2009) y estrato de asalariados.",
+        "sourceUrl": "https://www.ine.es/jaxiPx/Tabla.htm?tpx=26077"
+      },
+      {
+        "Id": 26078,
+        "Nombre": "Stock de empresas por comunidades y ciudades autónomas, actividad principal (CNAE 2009) y condición jurídica.",
+        "sourceUrl": "https://www.ine.es/jaxiPx/Tabla.htm?tpx=26078"
+      },
+      {
+        "Id": 26079,
+        "Nombre": "Nacimientos de empresas por comunidades y ciudades autónomas, actividad principal (CNAE 2009) y estrato de asalariados.",
+        "sourceUrl": "https://www.ine.es/jaxiPx/Tabla.htm?tpx=26079"
+      },
+      {
+        "Id": 26080,
+        "Nombre": "Nacimientos de empresas por comunidades y ciudades autónomas, actividad principal (CNAE 2009) y condición jurídica.",
+        "sourceUrl": "https://www.ine.es/jaxiPx/Tabla.htm?tpx=26080"
+      },
+      {
+        "Id": 26081,
+        "Nombre": "Muertes provisionales de empresas por comunidades y ciudades autónomas, actividad principal (CNAE 2009) y estrato de asalariados.",
+        "sourceUrl": "https://www.ine.es/jaxiPx/Tabla.htm?tpx=26081"
+      },
+      {
+        "Id": 26082,
+        "Nombre": "Muertes provisionales de empresas por comunidades y ciudades autónomas, actividad principal (CNAE 2009) y condición jurídica.",
+        "sourceUrl": "https://www.ine.es/jaxiPx/Tabla.htm?tpx=26082"
+      },
+      {
+        "Id": 26083,
+        "Nombre": "Supervivencias de empresas nacidas en 2010 por actividad principal (CNAE 2009) y año.",
+        "sourceUrl": "https://www.ine.es/jaxiPx/Tabla.htm?tpx=26083"
+      },
+      {
+        "Id": 26084,
+        "Nombre": "Supervivencias de empresas nacidas en 2011 por actividad principal (CNAE 2009) y año.",
+        "sourceUrl": "https://www.ine.es/jaxiPx/Tabla.htm?tpx=26084"
+      },
+      {
+        "Id": 26085,
+        "Nombre": "Supervivencias de empresas nacidas en 2012 por actividad principal (CNAE 2009) y año.",
+        "sourceUrl": "https://www.ine.es/jaxiPx/Tabla.htm?tpx=26085"
+      },
+      {
+        "Id": 26086,
+        "Nombre": "Supervivencias de empresas nacidas en 2013 por actividad principal (CNAE 2009) y año.",
+        "sourceUrl": "https://www.ine.es/jaxiPx/Tabla.htm?tpx=26086"
+      },
+      {
+        "Id": 26087,
+        "Nombre": "Supervivencias de empresas nacidas en 2014 por actividad principal (CNAE 2009) y año.",
+        "sourceUrl": "https://www.ine.es/jaxiPx/Tabla.htm?tpx=26087"
+      },
+      {
+        "Id": 24753,
+        "Nombre": "Stock de empresas por comunidades y ciudades autónomas, actividad principal (CNAE 2009) y estrato de asalariados.",
+        "sourceUrl": "https://www.ine.es/jaxiPx/Tabla.htm?tpx=24753"
+      },
+      {
+        "Id": 24754,
+        "Nombre": "Stock de empresas por comunidades y ciudades autónomas, actividad principal (CNAE 2009) y condición jurídica.",
+        "sourceUrl": "https://www.ine.es/jaxiPx/Tabla.htm?tpx=24754"
+      },
+      {
+        "Id": 24755,
+        "Nombre": "Nacimientos de empresas por comunidades y ciudades autónomas, actividad principal (CNAE 2009) y estrato de asalariados.",
+        "sourceUrl": "https://www.ine.es/jaxiPx/Tabla.htm?tpx=24755"
+      },
+      {
+        "Id": 24756,
+        "Nombre": "Nacimientos de empresas por comunidades y ciudades autónomas, actividad principal (CNAE 2009) y condición jurídica.",
+        "sourceUrl": "https://www.ine.es/jaxiPx/Tabla.htm?tpx=24756"
+      },
+      {
+        "Id": 24757,
+        "Nombre": "Supervivencias de empresas nacidas en 2009 por actividad principal (CNAE 2009) y año.",
+        "sourceUrl": "https://www.ine.es/jaxiPx/Tabla.htm?tpx=24757"
+      },
+      {
+        "Id": 24758,
+        "Nombre": "Supervivencias de empresas nacidas en 2010 por actividad principal (CNAE 2009) y año.",
+        "sourceUrl": "https://www.ine.es/jaxiPx/Tabla.htm?tpx=24758"
+      },
+      {
+        "Id": 24759,
+        "Nombre": "Supervivencias de empresas nacidas en 2011 por actividad principal (CNAE 2009) y año.",
+        "sourceUrl": "https://www.ine.es/jaxiPx/Tabla.htm?tpx=24759"
+      },
+      {
+        "Id": 24760,
+        "Nombre": "Supervivencias de empresas nacidas en 2012 por actividad principal (CNAE 2009) y año.",
+        "sourceUrl": "https://www.ine.es/jaxiPx/Tabla.htm?tpx=24760"
+      },
+      {
+        "Id": 24761,
+        "Nombre": "Supervivencias de empresas nacidas en 2013 por actividad principal (CNAE 2009) y año.",
+        "sourceUrl": "https://www.ine.es/jaxiPx/Tabla.htm?tpx=24761"
+      },
+      {
+        "Id": 24762,
+        "Nombre": "Muertes provisionales de empresas por comunidades y ciudades autónomas, actividad principal (CNAE 2009) y estrato de asalariados.",
+        "sourceUrl": "https://www.ine.es/jaxiPx/Tabla.htm?tpx=24762"
+      },
+      {
+        "Id": 24763,
+        "Nombre": "Muertes provisionales de empresas por comunidades y ciudades autónomas, actividad principal (CNAE 2009) y condición jurídica.",
+        "sourceUrl": "https://www.ine.es/jaxiPx/Tabla.htm?tpx=24763"
+      }
+    ]
+  },
+  "emptyDistributions": [
+    {
+      "id": 82225,
+      "api": {
+        "url": "https://servicios.ine.es/wstempus/js/ES/DATOS_TABLA/82225?tip=AM",
+        "series": 0
+      },
+      "csv": {
+        "url": "https://www.ine.es/jaxiT3/files/t/es/csv_bdsc/82225.csv",
+        "emptyCells": 11676,
+        "sha256": "f1616ff3dba58bafd22d1776bc23c013d2c99c8f7ffea72ed07bb21b6ff1863f"
+      }
+    }
+  ]
+}

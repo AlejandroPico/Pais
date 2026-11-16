@@ -81,13 +81,15 @@ export function csvCell(value:unknown){return '"'+String(value??'').replace(/"/g
 export function seriesCsv(table:DemographicTable,q:DemographicQuery,series:DemographicResult['series']){
   const a=table.territories[q.territory];
   const officialEdition=table.publisher&&table.publisher!=='INE';
-  const heading=[officialEdition?'año_edición':'tabla_ine','territorio','codigo','nivel','periodo',
+  const hasEditionYear=officialEdition&&table.sourceTables?.some(source=>source.year!==undefined);
+  const distributionId=table.dataFolder==='economia/cna'||table.dataFolder==='economia/dae-historica'?'identificador_atlas':'tabla_ine';
+  const heading=[officialEdition?(hasEditionYear?'año_edición':'distribución'):distributionId,'territorio','codigo','nivel','periodo',
     ...table.dimensions.map(d=>d.name),'valor','estado','unidad','fuente'];
   const units=unitFor(table,q.dims);
   const categories=table.dimensions.map((d,i)=>d.values[q.dims[i]]);
   const rows=series.map(r=>{
     const edition=table.sourceTables?.find(source=>source.id===r.sourceTableId);
-    const id=officialEdition?edition?.year:r.sourceTableId||table.id;
+    const id=hasEditionYear?edition?.year:r.sourceTableId||table.id;
     let url=edition?.url||table.sourceUrl;
     if(!officialEdition&&r.sourceTableId&&!edition) url='https://servicios.ine.es/wstempus/js/ES/DATOS_TABLA/'+r.sourceTableId+'?tip=AM';
     return [id,a.name,a.code,a.level,table.periods[r.period].label,...categories,r.value,r.status,units,url];

@@ -26,7 +26,8 @@ En cada intervención, actualiza este archivo y AGENTS.md antes de subir a `main
 | F04 | Parcial. 84 tablas del INE, 912.954 observaciones, tres productos del SEPE con 70.990.402 observaciones y 285 ediciones de afiliación de la TGSS. |
 | F05 | Abierto. 95 tablas del INE con 238.792 observaciones, cinco anexos PNC del IMSERSO con 1.223 filas consultables y 34 nóminas IMV con 66.096 observaciones. [Cobertura](docs/F05.md). |
 | F06 | Abierto. 157 tablas del INE, siete distribuciones del MIVAU y 17 capas verificadas del SIU. [Cobertura](docs/F06.md). |
-| F07–F29 | Los inventarios de estos fascículos siguen por completar. F16, F22, F24 y F26 ya tienen referencias disponibles a algunas capas base o productos compartidos. Conserva esos enlaces y verifica cada nueva ficha individualmente. |
+| F07 | Abierto. 454 productos del INE y MITECO. [Cobertura, pruebas y faltantes](docs/F07.md). |
+| F08–F29 | Los inventarios de estos fascículos siguen por completar. F16, F22, F24 y F26 ya tienen referencias disponibles a algunas capas base o productos compartidos. Conserva esos enlaces y verifica cada nueva ficha individualmente. |
 
 Los números proceden de la captura de trabajo. Diferentes inventarios se solapan y los recuentos de tablas, operaciones, fichas y observaciones miden cosas distintas. Confirma en Git y en el sitio público qué revisión está desplegada si el encargo incluye publicar.
 
@@ -121,9 +122,11 @@ Punto de partida: [F04](docs/F04.md), [inventario INE](datos/trabajo/ine/invento
 
 ## F07 · Economía, empresas, industria y producción · `datos/economia/`
 
-- [ ] Inventariar cuentas territoriales, PIB y valor añadido, productividad, tejido empresarial, demografía y tamaño de empresas, economía social, industria, minería no energética, actividad de servicios e internacionalización. Revisar INE, Industria, Trabajo, AEAT, institutos autonómicos, administraciones locales, Eurostat y OCDE.
-- [ ] Completar todas las ediciones y medidas de PIB, rendimientos, sectores, actividad, volumen, ocupación, tamaño y forma jurídica. Diferenciar establecimientos, empresas y sedes, productos y actividades, precios corrientes y volúmenes encadenados. Mantener versiones CNAE y bases de índice.
-- [ ] Implementar mapas y series por escala real. Validar totales territoriales y cambios de clasificación. Enlazar operaciones laborales de F04, registros fiscales de F09 y minería energética de F21.
+- [x] Incorporar 379 tablas de la API del INE, las 60 tablas PC-Axis de demografía empresarial de 2008–2013 y las 13 hojas de Contabilidad Nacional Anual de 1995–2025. Mostrar las observaciones del INE con los filtros y unidades de cada tabla.
+- [x] Incorporar los CSV provinciales de producción y empleo mineros del MITECO de 2005–2023. Guardar los datos, la procedencia y los formatos de consulta bajo `datos/economia/`.
+- [ ] Completar las operaciones del INE cuyo catálogo API carece de tablas. Revisar rama por rama el menú de ediciones y las descargas de cada operación, incluyendo las bases antiguas de contabilidad, producción y servicios. Contrastar los identificadores encontrados con `registry/economy-tables.json`. Revisar el estado de la tabla vacía 82225.
+- [ ] Incorporar los cuadros de minería que solo figuran en los anuarios del Ministerio de 1994–2024 y el archivo del IGME. Verificar las unidades por producto y la edición 2024 frente a MINERVA. Enlazar minería energética con F21.
+- [ ] Incorporar los registros de cooperativas y sociedades laborales del MITES, las estadísticas propias de Industria y de las autoridades autonómicas y locales, los registros fiscales pertinentes de AEAT y las series de Eurostat y OCDE. Ampliar `registry/economy-sources.json` hasta distribución y edición. Enlazar actividad de F04, comercio exterior de F08 y registros fiscales de F09 con los indicadores comunes.
 
 ## F08 · Precios, comercio, finanzas y seguros · `datos/comercio/`
 
