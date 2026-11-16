@@ -12,7 +12,7 @@ export default defineConfig({
     apply: 'build',
     writeBundle({dir}) {
       const sourceRoot = resolve('datos');
-      const offlineIndexes = new Set(['poblacion', 'renta', 'vivienda', 'economia'].map(topic => resolve(sourceRoot, topic, 'ine', 'index.json')));
+      const offlineIndexes = new Set(['poblacion', 'renta', 'vivienda', 'economia', 'comercio'].map(topic => resolve(sourceRoot, topic, 'ine', 'index.json')));
       offlineIndexes.add(resolve(sourceRoot, 'catalogo', 'investigacion'));
       for(const file of pagesArchives.files)offlineIndexes.add(resolve(sourceRoot,'territorio',file));
       cpSync(sourceRoot, resolve(dir!, 'datos'), {

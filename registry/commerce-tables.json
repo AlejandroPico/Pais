@@ -1,0 +1,2960 @@
+{
+  "revision": "2026-11-16",
+  "operationIds": [
+    25,
+    18,
+    32,
+    27,
+    14,
+    48,
+    44,
+    67,
+    104,
+    125,
+    246,
+    259,
+    464,
+    482
+  ],
+  "tables": [
+    {
+      "id": 76141,
+      "label": "Índices provinciales: general y de grupos ECOICOP ver.2 · 76141",
+      "family": "Índice de Precios de Consumo",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 76136,
+      "label": "Índices por comunidades autónomas: general y de grupos ECOICOP ver.2 · 76136",
+      "family": "Índice de Precios de Consumo",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 76125,
+      "label": "Índices nacionales: general y de grupos ECOICOP ver.2 · 76125",
+      "family": "Índice de Precios de Consumo",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 76143,
+      "label": "Tasa de variación del índice general por provincias. Series desde enero de 1993 · 76143",
+      "family": "Índice de Precios de Consumo",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 76140,
+      "label": "Tasa de variación del índice general por comunidades autónomas. Series desde enero de 1978 · 76140",
+      "family": "Índice de Precios de Consumo",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 76134,
+      "label": "Tasa de variacion del índice general nacional. Series desde enero de 1961 · 76134",
+      "family": "Índice de Precios de Consumo",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 79185,
+      "label": "Ponderaciones: general y de grupos ECOICOP ver.2 · 79185",
+      "family": "Índice de Precios de Consumo",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 79184,
+      "label": "Índices nacionales de subclases ECOICOP ver.2 · 79184",
+      "family": "Índice de Precios de Consumo",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 79183,
+      "label": "Índices nacionales de subgrupos ECOICOP ver.2 · 79183",
+      "family": "Índice de Precios de Consumo",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 79182,
+      "label": "Índices por comunidades autónomas: general y de grupos ECOICOP ver.2 · 79182",
+      "family": "Índice de Precios de Consumo",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 79181,
+      "label": "Índices nacionales: general y de grupos ECOICOP ver.2 · 79181",
+      "family": "Índice de Precios de Consumo",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 78680,
+      "label": "Índice nacionales de grupos ECOICOP ver. 2. Series desde enero de 2002 · 78680",
+      "family": "Índice de Precios de Consumo",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 76167,
+      "label": "Ponderaciones provinciales de subgrupos ECOICOP ver.2 · 76167",
+      "family": "Índice de Precios de Consumo",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 76166,
+      "label": "Ponderaciones provinciales: general y de grupos ECOICOP ver.2 · 76166",
+      "family": "Índice de Precios de Consumo",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 76165,
+      "label": "Ponderaciones por comunidades autónomas de grupos especiales · 76165",
+      "family": "Índice de Precios de Consumo",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 76164,
+      "label": "Ponderaciones por comunidades autónomas de rúbricas · 76164",
+      "family": "Índice de Precios de Consumo",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 76163,
+      "label": "Ponderaciones por comunidades autónomas de subgrupos ECOICOP ver.2 · 76163",
+      "family": "Índice de Precios de Consumo",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 76162,
+      "label": "Ponderaciones por comunidades autónomas: general y de grupos ECOICOP ver.2 · 76162",
+      "family": "Índice de Precios de Consumo",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 76161,
+      "label": "Ponderaciones de grupos especiales · 76161",
+      "family": "Índice de Precios de Consumo",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 76160,
+      "label": "Ponderaciones de rúbricas · 76160",
+      "family": "Índice de Precios de Consumo",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 76159,
+      "label": "Ponderaciones de subclases ECOICOP ver.2 · 76159",
+      "family": "Índice de Precios de Consumo",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 76158,
+      "label": "Ponderaciones de clases ECOICOP ver.2 · 76158",
+      "family": "Índice de Precios de Consumo",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 76157,
+      "label": "Ponderaciones de subgrupos ECOICOP ver.2 · 76157",
+      "family": "Índice de Precios de Consumo",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 76156,
+      "label": "Ponderaciones: general y de grupos ECOICOP ver.2 · 76156",
+      "family": "Índice de Precios de Consumo",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 76155,
+      "label": "Índices provinciales de subgrupos ECOICOP ver.2 · 76155",
+      "family": "Índice de Precios de Consumo",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 76154,
+      "label": "Índices provinciales: general y de grupos ECOICOP ver.2 · 76154",
+      "family": "Índice de Precios de Consumo",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 76153,
+      "label": "Índices por comunidades autónomas de grupos especiales · 76153",
+      "family": "Índice de Precios de Consumo",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 76152,
+      "label": "Índices por comunidades autónomas de rúbricas · 76152",
+      "family": "Índice de Precios de Consumo",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 76151,
+      "label": "Índices por comunidades autónomas de subgrupos ECOICOP ver.2 · 76151",
+      "family": "Índice de Precios de Consumo",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 76150,
+      "label": "Índices por comunidades autónomas: general y de grupos ECOICOP ver.2 · 76150",
+      "family": "Índice de Precios de Consumo",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 76149,
+      "label": "Índices nacionales de grupos especiales · 76149",
+      "family": "Índice de Precios de Consumo",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 76148,
+      "label": "Índices nacionales de rúbricas · 76148",
+      "family": "Índice de Precios de Consumo",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 76147,
+      "label": "Índices nacionales de subclases ECOICOP ver.2 · 76147",
+      "family": "Índice de Precios de Consumo",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 76146,
+      "label": "Índices nacionales de clases ECOICOP ver.2 · 76146",
+      "family": "Índice de Precios de Consumo",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 76145,
+      "label": "Índices nacionales de subgrupos ECOICOP ver.2 · 76145",
+      "family": "Índice de Precios de Consumo",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 76144,
+      "label": "Índices nacionales: general y de grupos ECOICOP ver.2 · 76144",
+      "family": "Índice de Precios de Consumo",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 76142,
+      "label": "Índices provinciales de subgrupos ECOICOP ver.2 · 76142",
+      "family": "Índice de Precios de Consumo",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 76139,
+      "label": "Índices por comunidades autónomas de grupos especiales · 76139",
+      "family": "Índice de Precios de Consumo",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 76138,
+      "label": "Índices por comunidades autónomas de rúbricas · 76138",
+      "family": "Índice de Precios de Consumo",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 76137,
+      "label": "Índices por comunidades autónomas de subgrupos ECOICOP ver.2 · 76137",
+      "family": "Índice de Precios de Consumo",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 76135,
+      "label": "Tasa de variación del índice nacionales de grupos ECOICOP ver.2. Series desde enero de 2002 · 76135",
+      "family": "Índice de Precios de Consumo",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 76133,
+      "label": "Índices nacionales a impuestos constantes de grupos especiales · 76133",
+      "family": "Índice de Precios de Consumo",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 76132,
+      "label": "Índices nacionales a impuestos constantes de subclases ECOICOP ver.2 · 76132",
+      "family": "Índice de Precios de Consumo",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 76131,
+      "label": "Índices nacionales a impuestos constantes: general y de grupos ECOICOP ver.2 · 76131",
+      "family": "Índice de Precios de Consumo",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 76130,
+      "label": "Índices nacionales de grupos especiales · 76130",
+      "family": "Índice de Precios de Consumo",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 76129,
+      "label": "Índices nacionales de rúbricas · 76129",
+      "family": "Índice de Precios de Consumo",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 76128,
+      "label": "Índices nacionales de subclases ECOICOP ver.2 · 76128",
+      "family": "Índice de Precios de Consumo",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos.",
+      "apiFormat": "am"
+    },
+    {
+      "id": 76127,
+      "label": "Índices nacionales de clases ECOICOP ver.2 · 76127",
+      "family": "Índice de Precios de Consumo",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 76126,
+      "label": "Índices nacionales de subgrupos ECOICOP ver.2 · 76126",
+      "family": "Índice de Precios de Consumo",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 53459,
+      "label": "Índices provinciales de subgrupos · 53459",
+      "family": "Índice de Precios de Consumo",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 53458,
+      "label": "Índices por comunidades autónomas de subgrupos · 53458",
+      "family": "Índice de Precios de Consumo",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 35083,
+      "label": "Índices nacionales: Componentes para el análisis de la COVID-19 · 35083",
+      "family": "Índice de Precios de Consumo",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 25333,
+      "label": "Índices nacionales: general y de grupos ECOICOP · 25333",
+      "family": "Índice de Precios de Consumo",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 25331,
+      "label": "Ponderaciones: general y de grupos ECOICOP · 25331",
+      "family": "Índice de Precios de Consumo",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 24081,
+      "label": "Índice general por provincias. Series desde enero de 1993 · 24081",
+      "family": "Índice de Precios de Consumo",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 24080,
+      "label": "Índice nacionales de grupos ECOICOP. Series desde enero de 1993 · 24080",
+      "family": "Índice de Precios de Consumo",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 24079,
+      "label": "Índice Nacional de la Vivienda en Alquiler. Series desde enero de 1961 · 24079",
+      "family": "Índice de Precios de Consumo",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 24078,
+      "label": "Índice general por comunidades autónomas. Series desde enero de 1978 · 24078",
+      "family": "Índice de Precios de Consumo",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 24077,
+      "label": "Índice general nacional. Series desde enero de 1961 · 24077",
+      "family": "Índice de Precios de Consumo",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 79191,
+      "label": "Índices nacionales de subgrupos ECOICOP ver.2 · 79191",
+      "family": "Índice de Precios de Consumo Armonizado",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 79188,
+      "label": "Índices nacionales: general y de grupos ECOICOP ver.2 · 79188",
+      "family": "Índice de Precios de Consumo Armonizado",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 79187,
+      "label": "Índices nacionales de clases ECOICOP ver.2 · 79187",
+      "family": "Índice de Precios de Consumo Armonizado",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 76124,
+      "label": "Ponderaciones de grupos especiales · 76124",
+      "family": "Índice de Precios de Consumo Armonizado",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 76123,
+      "label": "Ponderaciones de subclases ECOICOP ver.2 · 76123",
+      "family": "Índice de Precios de Consumo Armonizado",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 76122,
+      "label": "Ponderaciones de clases ECOICOP ver.2 · 76122",
+      "family": "Índice de Precios de Consumo Armonizado",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 76121,
+      "label": "Ponderaciones de subgrupos ECOICOP ver.2 · 76121",
+      "family": "Índice de Precios de Consumo Armonizado",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 76120,
+      "label": "Ponderaciones: general y de grupos ECOICOP ver.2 · 76120",
+      "family": "Índice de Precios de Consumo Armonizado",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 76119,
+      "label": "Índices nacionales de subclases ECOICOP ver.2 · 76119",
+      "family": "Índice de Precios de Consumo Armonizado",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 76118,
+      "label": "Índices nacionales de clases ECOICOP ver.2 · 76118",
+      "family": "Índice de Precios de Consumo Armonizado",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 76117,
+      "label": "Índices nacionales de subgrupos ECOICOP ver.2 · 76117",
+      "family": "Índice de Precios de Consumo Armonizado",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 76116,
+      "label": "Índices nacionales: general y de grupos ECOICOP ver.2 · 76116",
+      "family": "Índice de Precios de Consumo Armonizado",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 76115,
+      "label": "Índices nacionales de grupos especiales · 76115",
+      "family": "Índice de Precios de Consumo Armonizado",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 76114,
+      "label": "Índices nacionales de subclases ECOICOP ver.2 · 76114",
+      "family": "Índice de Precios de Consumo Armonizado",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 76113,
+      "label": "Índices nacionales de clases ECOICOP ver.2 · 76113",
+      "family": "Índice de Precios de Consumo Armonizado",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 76112,
+      "label": "Índices nacionales de subgrupos ECOICOP ver.2 · 76112",
+      "family": "Índice de Precios de Consumo Armonizado",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 76111,
+      "label": "Índices nacionales: general y de grupos ECOICOP ver.2 · 76111",
+      "family": "Índice de Precios de Consumo Armonizado",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 76110,
+      "label": "Índices nacionales de subclases ECOICOP ver.2 · 76110",
+      "family": "Índice de Precios de Consumo Armonizado",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 76109,
+      "label": "Índices nacionales de clases ECOICOP ver.2 · 76109",
+      "family": "Índice de Precios de Consumo Armonizado",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 76108,
+      "label": "Índices nacionales de subgrupos ECOICOP ver.2 · 76108",
+      "family": "Índice de Precios de Consumo Armonizado",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 76107,
+      "label": "Índices nacionales: general y de grupos ECOICOP ver.2 · 76107",
+      "family": "Índice de Precios de Consumo Armonizado",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 76106,
+      "label": "Índices nacionales de grupos especiales · 76106",
+      "family": "Índice de Precios de Consumo Armonizado",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 76105,
+      "label": "Índices nacionales de subclases ECOICOP ver.2 · 76105",
+      "family": "Índice de Precios de Consumo Armonizado",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 76104,
+      "label": "Índices nacionales de clases ECOICOP ver.2 · 76104",
+      "family": "Índice de Precios de Consumo Armonizado",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 76103,
+      "label": "Índices nacionales de subgrupos ECOICOP ver.2 · 76103",
+      "family": "Índice de Precios de Consumo Armonizado",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 76102,
+      "label": "Índices nacionales: general y de grupos ECOICOP ver.2 · 76102",
+      "family": "Índice de Precios de Consumo Armonizado",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 67264,
+      "label": "Índices nacionales de subclases ECOICOP ver.2 · 67264",
+      "family": "Índice de Precios de Consumo Armonizado",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 67263,
+      "label": "Índices nacionales de clases ECOICOP ver.2 · 67263",
+      "family": "Índice de Precios de Consumo Armonizado",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 67262,
+      "label": "Índices nacionales de subgrupos ECOICOP ver.2 · 67262",
+      "family": "Índice de Precios de Consumo Armonizado",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 67261,
+      "label": "Índices nacionales: general y de grupos ECOICOP ver.2 · 67261",
+      "family": "Índice de Precios de Consumo Armonizado",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 67260,
+      "label": "Índices nacionales de grupos especiales · 67260",
+      "family": "Índice de Precios de Consumo Armonizado",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 67259,
+      "label": "Índices nacionales de subclases ECOICOP ver.2 · 67259",
+      "family": "Índice de Precios de Consumo Armonizado",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 67258,
+      "label": "Índices nacionales de clases ECOICOP ver.2 · 67258",
+      "family": "Índice de Precios de Consumo Armonizado",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 67257,
+      "label": "Índices nacionales de subgrupos ECOICOP ver.2 · 67257",
+      "family": "Índice de Precios de Consumo Armonizado",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 67256,
+      "label": "Índices nacionales: general y de grupos ECOICOP ver.2 · 67256",
+      "family": "Índice de Precios de Consumo Armonizado",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 30131,
+      "label": "Ponderaciones de grupos especiales · 30131",
+      "family": "Índice de Precios de Consumo Armonizado",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 23719,
+      "label": "Ponderaciones de subclases · 23719",
+      "family": "Índice de Precios de Consumo Armonizado",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 23718,
+      "label": "Ponderaciones de clases · 23718",
+      "family": "Índice de Precios de Consumo Armonizado",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 23717,
+      "label": "Ponderaciones de subgrupos · 23717",
+      "family": "Índice de Precios de Consumo Armonizado",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 23716,
+      "label": "Ponderaciones: general y de grupos ECOICOP · 23716",
+      "family": "Índice de Precios de Consumo Armonizado",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 75809,
+      "label": "Índices nacionales: comercio sin estaciones de servicio y por modos de distribución · 75809",
+      "family": "Comercio al por menor",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 75808,
+      "label": "Índices de cifra de negocios por comunidades autónomas. Precios constantes · 75808",
+      "family": "Comercio al por menor",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 75807,
+      "label": "Índices por actividad · 75807",
+      "family": "Comercio al por menor",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 74015,
+      "label": "Índices de cifra de negocios por comunidades autónomas. Precios corrientes · 74015",
+      "family": "Comercio al por menor",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 74013,
+      "label": "Índices de especiales agregados · 74013",
+      "family": "Comercio al por menor",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 67178,
+      "label": "Índices de especiales agregados · 67178",
+      "family": "Comercio al por menor",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 67177,
+      "label": "Índices por actividad · 67177",
+      "family": "Comercio al por menor",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 67176,
+      "label": "Índices de especiales agregados · 67176",
+      "family": "Comercio al por menor",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 67175,
+      "label": "Índices por actividad · 67175",
+      "family": "Comercio al por menor",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 67174,
+      "label": "Índices de especiales agregados · 67174",
+      "family": "Comercio al por menor",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 67173,
+      "label": "Índices por actividad · 67173",
+      "family": "Comercio al por menor",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 67172,
+      "label": "Índices de especiales agregados · 67172",
+      "family": "Comercio al por menor",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 67171,
+      "label": "Índices por actividad · 67171",
+      "family": "Comercio al por menor",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 67170,
+      "label": "Índices de especiales agregados · 67170",
+      "family": "Comercio al por menor",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 67169,
+      "label": "Índices por actividad · 67169",
+      "family": "Comercio al por menor",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 67168,
+      "label": "Índices de especiales agregados · 67168",
+      "family": "Comercio al por menor",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 67167,
+      "label": "Índices por actividad · 67167",
+      "family": "Comercio al por menor",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 60271,
+      "label": "Nacionales generales y por modos de distribución · 60271",
+      "family": "Comercio al por menor",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 60252,
+      "label": "Ocupación Nacionales por actividad · 60252",
+      "family": "Comercio al por menor",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 60122,
+      "label": "Coeficientes de variación de la tasa anual del índice de ocupación · 60122",
+      "family": "Comercio al por menor",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 60121,
+      "label": "Coeficientes de variación de la tasa anual de los índices de cifra de negocio · 60121",
+      "family": "Comercio al por menor",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 60120,
+      "label": "Índices de ocupación por comunidades autónomas · 60120",
+      "family": "Comercio al por menor",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 60119,
+      "label": "Coeficientes de variación de la tasa anual del índice de ocupación · 60119",
+      "family": "Comercio al por menor",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 60118,
+      "label": "Coeficientes de variación de la tasa anual de los índices de cifra de negocio por modos de distribución · 60118",
+      "family": "Comercio al por menor",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 60117,
+      "label": "Coeficientes de variación de la tasa anual de los índices de cifra de negocio por especiales agregados · 60117",
+      "family": "Comercio al por menor",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 60116,
+      "label": "Coeficientes de variación de la tasa anual de los índices cifra de negocio por actividad · 60116",
+      "family": "Comercio al por menor",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 60115,
+      "label": "Índices de ocupación nacionales: comercio sin estaciones de servicio y por modo de distribucion · 60115",
+      "family": "Comercio al por menor",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 60114,
+      "label": "Índices de ocupación nacionales por actividad · 60114",
+      "family": "Comercio al por menor",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 60113,
+      "label": "Índices por actividad · 60113",
+      "family": "Comercio al por menor",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 60111,
+      "label": "Índices de cifra de negocios por comunidades autónomas. Precios constantes · 60111",
+      "family": "Comercio al por menor",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 60110,
+      "label": "Índices de cifra de negocios por comunidades autónomas. Precios corrientes · 60110",
+      "family": "Comercio al por menor",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 60109,
+      "label": "Índices nacionales: comercio sin estaciones de servicio y por modos de distribución · 60109",
+      "family": "Comercio al por menor",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 60108,
+      "label": "Índices nacionales: comercio sin estaciones de servicio y por modos de distribución · 60108",
+      "family": "Comercio al por menor",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 60107,
+      "label": "Índices nacionales: comercio sin estaciones de servicio y por modos de distribución · 60107",
+      "family": "Comercio al por menor",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 60106,
+      "label": "Índices nacionales: comercio sin estaciones de servicio y por modos de distribución · 60106",
+      "family": "Comercio al por menor",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 60105,
+      "label": "Índices nacionales: comercio sin estaciones de servicio y por modos de distribución · 60105",
+      "family": "Comercio al por menor",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 60104,
+      "label": "Índices de especiales agregados · 60104",
+      "family": "Comercio al por menor",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 60103,
+      "label": "Índices de especiales agregados · 60103",
+      "family": "Comercio al por menor",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 60102,
+      "label": "Índices de especiales agregados · 60102",
+      "family": "Comercio al por menor",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 60101,
+      "label": "Índices de especiales agregados · 60101",
+      "family": "Comercio al por menor",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 60100,
+      "label": "Índices de especiales agregados · 60100",
+      "family": "Comercio al por menor",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 60098,
+      "label": "Índices por actividad · 60098",
+      "family": "Comercio al por menor",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 60097,
+      "label": "Índices por actividad · 60097",
+      "family": "Comercio al por menor",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 60096,
+      "label": "Índices por actividad · 60096",
+      "family": "Comercio al por menor",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 60095,
+      "label": "Índices por actividad · 60095",
+      "family": "Comercio al por menor",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 60094,
+      "label": "Índices por actividad · 60094",
+      "family": "Comercio al por menor",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 59802,
+      "label": "Ocupación Nacionales: generales y por modo de distribución · 59802",
+      "family": "Comercio al por menor",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 59800,
+      "label": "Nacionales por actividad · 59800",
+      "family": "Comercio al por menor",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 59788,
+      "label": "Índices nacionales: comercio sin estaciones de servicio y por modos de distribución · 59788",
+      "family": "Comercio al por menor",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 59787,
+      "label": "Índices de especiales agregados · 59787",
+      "family": "Comercio al por menor",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 3484,
+      "label": "Ocupación nacionales: generales y por modo de distribución · 3484",
+      "family": "Comercio al por menor",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 3483,
+      "label": "Nacionales: generales y por modo de distribución · 3483",
+      "family": "Comercio al por menor",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 3482,
+      "label": "Nacionales por productos · 3482",
+      "family": "Comercio al por menor",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 2277,
+      "label": "Índices generales según el modo de distribución del comercio · 2277",
+      "family": "Comercio al por menor",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 2276,
+      "label": "Índice de ocupación: nacional general y grandes superficies · 2276",
+      "family": "Comercio al por menor",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 2275,
+      "label": "Índices de ocupación según el modo de distribución del comercio · 2275",
+      "family": "Comercio al por menor",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 2274,
+      "label": "Índice de ocupación (mensual): por comunidades autónomas · 2274",
+      "family": "Comercio al por menor",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 2273,
+      "label": "Índice de ocupación (mensual):  nacional general y grandes superficies · 2273",
+      "family": "Comercio al por menor",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 2272,
+      "label": "Índices nacionales: generales y por modo de distribución · 2272",
+      "family": "Comercio al por menor",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 2271,
+      "label": "Índices de grandes superficies · 2271",
+      "family": "Comercio al por menor",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 2270,
+      "label": "Índices corregidos de efecto calendario · 2270",
+      "family": "Comercio al por menor",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 2269,
+      "label": "Índice general por comunidades autónomas · 2269",
+      "family": "Comercio al por menor",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 2268,
+      "label": "Índices nacionales por productos · 2268",
+      "family": "Comercio al por menor",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 2267,
+      "label": "Índices nacionales: generales y por modo de distribución · 2267",
+      "family": "Comercio al por menor",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 2266,
+      "label": "Índices corregidos de efecto calendario · 2266",
+      "family": "Comercio al por menor",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 2265,
+      "label": "Índice general por comunidades autónomas · 2265",
+      "family": "Comercio al por menor",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 2264,
+      "label": "Índices de grandes superficies · 2264",
+      "family": "Comercio al por menor",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 2263,
+      "label": "Índices nacionales por productos · 2263",
+      "family": "Comercio al por menor",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 2262,
+      "label": "Índice de ocupación por comunidades autónomas · 2262",
+      "family": "Comercio al por menor",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 2261,
+      "label": "Índice de ocupación: nacional general y grandes superficies · 2261",
+      "family": "Comercio al por menor",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 2260,
+      "label": "Índice de ocupación (mensual): por comunidades autónomas · 2260",
+      "family": "Comercio al por menor",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 2259,
+      "label": "Índice de ocupación (mensual): nacional general y grandes superficies · 2259",
+      "family": "Comercio al por menor",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 2258,
+      "label": "Índices de grandes superficies · 2258",
+      "family": "Comercio al por menor",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 2257,
+      "label": "Índice general y de grandes superficies corregido de efecto calendario · 2257",
+      "family": "Comercio al por menor",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 2256,
+      "label": "Índice general por comunidades autónomas · 2256",
+      "family": "Comercio al por menor",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 2255,
+      "label": "Índices nacionales: general y por grupos · 2255",
+      "family": "Comercio al por menor",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 2254,
+      "label": "Índice general y de grandes superficies corregido de efecto calendario · 2254",
+      "family": "Comercio al por menor",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 2253,
+      "label": "Índice general por comunidades autónomas · 2253",
+      "family": "Comercio al por menor",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 2252,
+      "label": "Índices de grandes superficies · 2252",
+      "family": "Comercio al por menor",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 2251,
+      "label": "Índices nacionales: general y por grupos · 2251",
+      "family": "Comercio al por menor",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 2250,
+      "label": "Índice de ocupación (mensual): por comunidades autónomas · 2250",
+      "family": "Comercio al por menor",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 2249,
+      "label": "Índice de ocupación (mensual):  nacional general y grandes superficies · 2249",
+      "family": "Comercio al por menor",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 2248,
+      "label": "Índice general y de grandes superficies corregido de efecto calendario · 2248",
+      "family": "Comercio al por menor",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 2247,
+      "label": "Índice general y de grandes superficies corregido de efecto calendario · 2247",
+      "family": "Comercio al por menor",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 2246,
+      "label": "Antiguo índice de ocupación en grandes superficies · 2246",
+      "family": "Comercio al por menor",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 2245,
+      "label": "Índice de ocupación por comunidades autónomas · 2245",
+      "family": "Comercio al por menor",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 2244,
+      "label": "Índice de ocupación: nacional general y grandes superficies · 2244",
+      "family": "Comercio al por menor",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 2243,
+      "label": "Índice general por comunidades autónomas · 2243",
+      "family": "Comercio al por menor",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 2242,
+      "label": "Índices de grandes superficies · 2242",
+      "family": "Comercio al por menor",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 2241,
+      "label": "Índices nacionales: general y por grupos · 2241",
+      "family": "Comercio al por menor",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 2240,
+      "label": "Antiguos índices de grandes superficies: general y por grupos · 2240",
+      "family": "Comercio al por menor",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 2239,
+      "label": "Índice general por comunidades autónomas · 2239",
+      "family": "Comercio al por menor",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 2238,
+      "label": "Índices de grandes superficies · 2238",
+      "family": "Comercio al por menor",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 2237,
+      "label": "Índices nacionales: general y por grupos · 2237",
+      "family": "Comercio al por menor",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 2236,
+      "label": "Índices de ocupación según el tipo de distribución del comercio · 2236",
+      "family": "Comercio al por menor",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 2235,
+      "label": "Índice de ocupación por comunidades autónomas · 2235",
+      "family": "Comercio al por menor",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 2234,
+      "label": "Índices generales según el modo de distribución del comercio · 2234",
+      "family": "Comercio al por menor",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 76659,
+      "label": "Índices nacionales de clases · 76659",
+      "family": "Precios industriales",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 76658,
+      "label": "Índices nacionales de grupos · 76658",
+      "family": "Precios industriales",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 76657,
+      "label": "Índices nacionales y por comunidad autónoma de divisiones · 76657",
+      "family": "Precios industriales",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 76656,
+      "label": "Índices nacionales y por comunidad autónoma de secciones · 76656",
+      "family": "Precios industriales",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 76655,
+      "label": "Índices nacionales y por comunidad autónoma: general y por destino económico de los bienes · 76655",
+      "family": "Precios industriales",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 67165,
+      "label": "Índices nacionales de clases · 67165",
+      "family": "Precios industriales",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 67162,
+      "label": "Índices nacionales de grupos · 67162",
+      "family": "Precios industriales",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 67158,
+      "label": "Índices nacionales y por comunidad autónoma de divisiones · 67158",
+      "family": "Precios industriales",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 67155,
+      "label": "Índices nacionales y por comunidad autónoma de secciones · 67155",
+      "family": "Precios industriales",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 67152,
+      "label": "Índices nacionales y por comunidad autónoma: general y por destino económico de los bienes · 67152",
+      "family": "Precios industriales",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 61535,
+      "label": "Índices nacionales de clases · 61535",
+      "family": "Precios industriales",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 61534,
+      "label": "Índices nacionales de grupos · 61534",
+      "family": "Precios industriales",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 61533,
+      "label": "Índices nacionales y por comunidad autónoma de divisiones · 61533",
+      "family": "Precios industriales",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 61532,
+      "label": "Índices nacionales y por comunidad autónoma de secciones · 61532",
+      "family": "Precios industriales",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 61531,
+      "label": "Índices nacionales y por comunidad autónoma: general y por destino económico de los bienes · 61531",
+      "family": "Precios industriales",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 61530,
+      "label": "Índices nacionales de clases · 61530",
+      "family": "Precios industriales",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 61529,
+      "label": "Índices nacionales de grupos · 61529",
+      "family": "Precios industriales",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 61528,
+      "label": "Índices nacionales y por comunidad autónoma de divisiones · 61528",
+      "family": "Precios industriales",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 61527,
+      "label": "Índices nacionales y por comunidad autónoma de secciones · 61527",
+      "family": "Precios industriales",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 61526,
+      "label": "Índices nacionales y por comunidad autónoma: general y por destino económico de los bienes · 61526",
+      "family": "Precios industriales",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 61525,
+      "label": "Índices nacionales de clases · 61525",
+      "family": "Precios industriales",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 61524,
+      "label": "Índices nacionales de grupos · 61524",
+      "family": "Precios industriales",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 61523,
+      "label": "Índices nacionales y por comunidad autónoma de divisiones · 61523",
+      "family": "Precios industriales",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 61522,
+      "label": "Índices nacionales y por comunidad autónoma de secciones · 61522",
+      "family": "Precios industriales",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 61521,
+      "label": "Índices nacionales y por comunidad autónoma: general y por destino económico de los bienes · 61521",
+      "family": "Precios industriales",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 3395,
+      "label": "Grupos. Nacional · 3395",
+      "family": "Precios industriales",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 3393,
+      "label": "Divisiones. Nacional · 3393",
+      "family": "Precios industriales",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 3392,
+      "label": "Secciones. Nacional · 3392",
+      "family": "Precios industriales",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 3381,
+      "label": "Destino económico de los bienes · 3381",
+      "family": "Precios industriales",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 1807,
+      "label": "Grupos. Nacional · 1807",
+      "family": "Precios industriales",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 1800,
+      "label": "Divisiones. Nacional · 1800",
+      "family": "Precios industriales",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 1796,
+      "label": "General y por destino económico de los bienes. Nacional · 1796",
+      "family": "Precios industriales",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 1789,
+      "label": "Secciones. Nacional · 1789",
+      "family": "Precios industriales",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 1788,
+      "label": "General y por destino económico de los bienes. CNAE-74 (Anual) · 1788",
+      "family": "Precios industriales",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 1786,
+      "label": "General y por destino económico de los bienes. Nacional y Comunidades Autónomas · 1786",
+      "family": "Precios industriales",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 79673,
+      "label": "Índices de precios del sector servicios por sectores · 79673",
+      "family": "Precios de servicios",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 67840,
+      "label": "Índices de precios del sector servicios por sectores · 67840",
+      "family": "Precios de servicios",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 67159,
+      "label": "Índices de precios del sector servicios por sectores · 67159",
+      "family": "Precios de servicios",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 59974,
+      "label": "Índices de precios del sector servicios por sectores · 59974",
+      "family": "Precios de servicios",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 59973,
+      "label": "Índices de precios del sector servicios por sectores · 59973",
+      "family": "Precios de servicios",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 28482,
+      "label": "Índices de precios del sector servicios por sectores · 28482",
+      "family": "Precios de servicios",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 28481,
+      "label": "Índices de precios del sector servicios por sectores · 28481",
+      "family": "Precios de servicios",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 3700,
+      "label": "Índices de precios del sector servicios por sectores · 3700",
+      "family": "Precios de servicios",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 3693,
+      "label": "Índices de precios del sector servicios por sectores · 3693",
+      "family": "Precios de servicios",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 76207,
+      "label": "Índices nacionales de divisiones · 76207",
+      "family": "Precios de exportación e importación",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 76206,
+      "label": "Índices nacionales: general y por destino económico de los bienes · 76206",
+      "family": "Precios de exportación e importación",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 76205,
+      "label": "Índices nacionales de grupos · 76205",
+      "family": "Precios de exportación e importación",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 76204,
+      "label": "Índices nacionales de secciones · 76204",
+      "family": "Precios de exportación e importación",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 76203,
+      "label": "Índices nacionales de clases · 76203",
+      "family": "Precios de exportación e importación",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 67166,
+      "label": "Índices nacionales de clases · 67166",
+      "family": "Precios de exportación e importación",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 67164,
+      "label": "Índices nacionales de clases · 67164",
+      "family": "Precios de exportación e importación",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 67163,
+      "label": "Índices nacionales de grupos · 67163",
+      "family": "Precios de exportación e importación",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 67161,
+      "label": "Índices nacionales de grupos · 67161",
+      "family": "Precios de exportación e importación",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 67160,
+      "label": "Índices nacionales de divisiones · 67160",
+      "family": "Precios de exportación e importación",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 67157,
+      "label": "Índices nacionales de divisiones · 67157",
+      "family": "Precios de exportación e importación",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 67156,
+      "label": "Índices nacionales de secciones · 67156",
+      "family": "Precios de exportación e importación",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 67154,
+      "label": "Índices nacionales de secciones · 67154",
+      "family": "Precios de exportación e importación",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 67153,
+      "label": "Índices nacionales: general y por destino económico de los bienes · 67153",
+      "family": "Precios de exportación e importación",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 67151,
+      "label": "Índices nacionales: general y por destino económico de los bienes · 67151",
+      "family": "Precios de exportación e importación",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 61700,
+      "label": "Índices nacionales de divisiones · 61700",
+      "family": "Precios de exportación e importación",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 61699,
+      "label": "Índices nacionales de secciones · 61699",
+      "family": "Precios de exportación e importación",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 61698,
+      "label": "Índices nacionales: general y por destino económico de los bienes · 61698",
+      "family": "Precios de exportación e importación",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 61697,
+      "label": "Índices nacionales de clases · 61697",
+      "family": "Precios de exportación e importación",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 61696,
+      "label": "Índices nacionales de grupos · 61696",
+      "family": "Precios de exportación e importación",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 61695,
+      "label": "Índices nacionales de divisiones · 61695",
+      "family": "Precios de exportación e importación",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 61694,
+      "label": "Índices nacionales de secciones · 61694",
+      "family": "Precios de exportación e importación",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 61693,
+      "label": "Índices nacionales: general y por destino económico de los bienes · 61693",
+      "family": "Precios de exportación e importación",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 61692,
+      "label": "Índices nacionales de clases · 61692",
+      "family": "Precios de exportación e importación",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 61691,
+      "label": "Índices nacionales de grupos · 61691",
+      "family": "Precios de exportación e importación",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 61690,
+      "label": "Índices nacionales de divisiones · 61690",
+      "family": "Precios de exportación e importación",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 61689,
+      "label": "Índices nacionales de secciones · 61689",
+      "family": "Precios de exportación e importación",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 61688,
+      "label": "Índices nacionales: general y por destino económico de los bienes · 61688",
+      "family": "Precios de exportación e importación",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 61687,
+      "label": "Índices nacionales de divisiones · 61687",
+      "family": "Precios de exportación e importación",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 61686,
+      "label": "Índices nacionales de secciones · 61686",
+      "family": "Precios de exportación e importación",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 61685,
+      "label": "Índices nacionales: general y por destino económico de los bienes · 61685",
+      "family": "Precios de exportación e importación",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 61684,
+      "label": "Índices nacionales de clases · 61684",
+      "family": "Precios de exportación e importación",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 61683,
+      "label": "Índices nacionales de grupos · 61683",
+      "family": "Precios de exportación e importación",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 61682,
+      "label": "Índices nacionales de divisiones · 61682",
+      "family": "Precios de exportación e importación",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 61681,
+      "label": "Índices nacionales de secciones · 61681",
+      "family": "Precios de exportación e importación",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 61680,
+      "label": "Índices nacionales: general y por destino económico de los bienes · 61680",
+      "family": "Precios de exportación e importación",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 61679,
+      "label": "Índices nacionales de clases · 61679",
+      "family": "Precios de exportación e importación",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 61678,
+      "label": "Índices nacionales de grupos · 61678",
+      "family": "Precios de exportación e importación",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 61677,
+      "label": "Índices nacionales de divisiones · 61677",
+      "family": "Precios de exportación e importación",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 61676,
+      "label": "Índices nacionales de secciones · 61676",
+      "family": "Precios de exportación e importación",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 61675,
+      "label": "Índices nacionales: general y por destino económico de los bienes · 61675",
+      "family": "Precios de exportación e importación",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 61674,
+      "label": "Índices nacionales de divisiones · 61674",
+      "family": "Precios de exportación e importación",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 61673,
+      "label": "Índices nacionales de secciones · 61673",
+      "family": "Precios de exportación e importación",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 61672,
+      "label": "Índices nacionales: general y por destino económico de los bienes · 61672",
+      "family": "Precios de exportación e importación",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 61671,
+      "label": "Índices nacionales de clases · 61671",
+      "family": "Precios de exportación e importación",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 61670,
+      "label": "Índices nacionales de grupos · 61670",
+      "family": "Precios de exportación e importación",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 61669,
+      "label": "Índices nacionales de divisiones · 61669",
+      "family": "Precios de exportación e importación",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 61668,
+      "label": "Índices nacionales de secciones · 61668",
+      "family": "Precios de exportación e importación",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 61667,
+      "label": "Índices nacionales: general y por destino económico de los bienes · 61667",
+      "family": "Precios de exportación e importación",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 61666,
+      "label": "Índices nacionales de clases · 61666",
+      "family": "Precios de exportación e importación",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 61665,
+      "label": "Índices nacionales de grupos · 61665",
+      "family": "Precios de exportación e importación",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 61664,
+      "label": "Índices nacionales de divisiones · 61664",
+      "family": "Precios de exportación e importación",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 61663,
+      "label": "Índices nacionales de secciones · 61663",
+      "family": "Precios de exportación e importación",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 61662,
+      "label": "Índices nacionales: general y por destino económico de los bienes · 61662",
+      "family": "Precios de exportación e importación",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 36641,
+      "label": "Coeficiente de variación por tipo de operación y área geográfica · 36641",
+      "family": "Comercio internacional de servicios",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 36640,
+      "label": "Coeficiente de variación por tipo de operación y tipo de servicio · 36640",
+      "family": "Comercio internacional de servicios",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 10875,
+      "label": "Por tipo de operación y área geográfica · 10875",
+      "family": "Comercio internacional de servicios",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 10874,
+      "label": "Por tipo de operación y tipo de servicio · 10874",
+      "family": "Comercio internacional de servicios",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 77209,
+      "label": "Índices de precios de materiales generales (base diciembre 2011) · 77209",
+      "family": "Precios de materiales y energía",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 49298,
+      "label": "Índices de precios de materiales (base enero 1964) · 49298",
+      "family": "Precios de materiales y energía",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 48678,
+      "label": "Índices de precios de componentes de transporte de viajeros por carretera · 48678",
+      "family": "Precios de materiales y energía",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 10759,
+      "label": "Coeficientes de enlace base enero 1964 - diciembre 2011 · 10759",
+      "family": "Precios de materiales y energía",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 8382,
+      "label": "Índices de precios de materiales específicos (base diciembre 2011) · 8382",
+      "family": "Precios de materiales y energía",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 8381,
+      "label": "Índices de precios de materiales generales (base diciembre 2011) · 8381",
+      "family": "Precios de materiales y energía",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 8378,
+      "label": "Índices de precios de materiales (base enero 1964) · 8378",
+      "family": "Precios de materiales y energía",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 8377,
+      "label": "Índice nacional de la mano de obra en construcción (base julio 1980) · 8377",
+      "family": "Precios de materiales y energía",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 76418,
+      "label": "Sociedades que emiten obligaciones, clasificadas por periodo, Comunidades, Ciudades Autónomas y Provincias, forma jurídica, número y capital · 76418",
+      "family": "Sociedades mercantiles",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 76417,
+      "label": "Sociedades clasificadas por Comunidades, Ciudades Autónomas y Provincias, tipo de sociedad, número y capital · 76417",
+      "family": "Sociedades mercantiles",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 76416,
+      "label": "Porcentaje de sociedades mercantiles según su actividad económica principal · 76416",
+      "family": "Sociedades mercantiles",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 49260,
+      "label": "Sociedades que amplían capital, clasificadas por periodo, Comunidades, Ciudades Autónomas y Provincias, forma jurídica, número y capital · 49260",
+      "family": "Sociedades mercantiles",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 49259,
+      "label": "Sociedades constituidas, clasificadas por Comunidades, Ciudades Autónomas y Provincias, forma jurídica, número y capital · 49259",
+      "family": "Sociedades mercantiles",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 24467,
+      "label": "Capital suscrito de sociedades mercantiles creadas según su actividad económica principal (miles de euros) · 24467",
+      "family": "Sociedades mercantiles",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 24466,
+      "label": "Saldo neto de sociedades mercantiles creadas según su actividad económica principal · 24466",
+      "family": "Sociedades mercantiles",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 24465,
+      "label": "Porcentaje de sociedades mercantiles según su actividad económica principal · 24465",
+      "family": "Sociedades mercantiles",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 24464,
+      "label": "Capital suscrito de sociedades mercantiles creadas según su actividad económica principal (miles de euros) · 24464",
+      "family": "Sociedades mercantiles",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 24463,
+      "label": "Saldo neto de sociedades mercantiles creadas según su actividad económica principal · 24463",
+      "family": "Sociedades mercantiles",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 24462,
+      "label": "Porcentaje de sociedades mercantiles según su actividad económica principal · 24462",
+      "family": "Sociedades mercantiles",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 13923,
+      "label": "Sociedades mercantiles disueltas · 13923",
+      "family": "Sociedades mercantiles",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 13922,
+      "label": "Sociedades mercantiles que aumentan capital · 13922",
+      "family": "Sociedades mercantiles",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 13917,
+      "label": "Sociedades mercantiles constituídas · 13917",
+      "family": "Sociedades mercantiles",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 13916,
+      "label": "Resumen de sociedades mercantiles · 13916",
+      "family": "Sociedades mercantiles",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos.",
+      "unitDimension": true
+    },
+    {
+      "id": 13915,
+      "label": "Sociedades mercantiles disueltas · 13915",
+      "family": "Sociedades mercantiles",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 13914,
+      "label": "Sociedades mercantiles que aumentan capital · 13914",
+      "family": "Sociedades mercantiles",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 13913,
+      "label": "Sociedades mercantiles constituídas · 13913",
+      "family": "Sociedades mercantiles",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 13912,
+      "label": "Resumen de sociedades mercantiles · 13912",
+      "family": "Sociedades mercantiles",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos.",
+      "unitDimension": true
+    },
+    {
+      "id": 6474,
+      "label": "Sociedades especiales y otras entidades disueltas, clasificadas por Comunidades y Ciudades Autónomas y clase de sociedad · 6474",
+      "family": "Sociedades mercantiles",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 6471,
+      "label": "Sociedades especiales constituídas, clasificadas por tipo de sociedad, Comunidades y Ciudades Autónomas, número y capital · 6471",
+      "family": "Sociedades mercantiles",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 6469,
+      "label": "S.L. que amplían capital, clasificadas por periodo, Comunidades, Ciudades Autónomas y Provincias, tramos de capital de S.L, número y capital · 6469",
+      "family": "Sociedades mercantiles",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 6468,
+      "label": "S.A. que amplían capital, clasificadas por periodo, Comunidades, Ciudades Autónomas y Provincias, tramos de capital de S.A, número y capital · 6468",
+      "family": "Sociedades mercantiles",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 6467,
+      "label": "S.L. constituídas, clasificadas por periodo, Comunidades, Ciudades Autónomas y Provincias, tramos de capital de S.L, número y capital · 6467",
+      "family": "Sociedades mercantiles",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 6466,
+      "label": "S.A. constituídas, clasificadas por periodo, Comunidades, Ciudades Autónomas y Provincias, tramos de capital de S.A, número y capital · 6466",
+      "family": "Sociedades mercantiles",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 6465,
+      "label": "Sociedades disueltas, clasificadas por periodo, Comunidades, Ciudades Autónomas y Provincias y clase de disolución · 6465",
+      "family": "Sociedades mercantiles",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 6464,
+      "label": "Sociedades disueltas, clasificadas por periodo, Comunidades, Ciudades Autónomas y Provincias y forma jurídica · 6464",
+      "family": "Sociedades mercantiles",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 6461,
+      "label": "Sociedades que han reducido capital, clasificadas por periodo, Comunidades, Ciudades Autónomas y Provincias, forma jurídica, número y capital · 6461",
+      "family": "Sociedades mercantiles",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 6458,
+      "label": "Sociedades que emiten obligaciones, clasificadas por periodo, Comunidades, Ciudades Autónomas y Provincias, forma jurídica, número y capital · 6458",
+      "family": "Sociedades mercantiles",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 6456,
+      "label": "Sociedades que amplían capital, clasificadas por periodo, Comunidades, Ciudades Autónomas y Provincias, forma jurídica, número y capital · 6456",
+      "family": "Sociedades mercantiles",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 6454,
+      "label": "Sociedades constituidas, clasificadas por Comunidades, Ciudades Autónomas y Provincias, forma jurídica, número y capital · 6454",
+      "family": "Sociedades mercantiles",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 6453,
+      "label": "Sociedades clasificadas según desembolso de dividendos pasivos por periodo, Comunidades, Ciudades Autónomas y Provincias, tipo de sociedad, número y capital · 6453",
+      "family": "Sociedades mercantiles",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 6452,
+      "label": "Sociedades clasificadas por Comunidades, Ciudades Autónomas y Provincias, tipo de sociedad, número y capital · 6452",
+      "family": "Sociedades mercantiles",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 6451,
+      "label": "Sociedades clasificadas por Comunidades, Ciudades Autónomas y Provincias, estados sociedades, número y capital · 6451",
+      "family": "Sociedades mercantiles",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 6315,
+      "label": "Sociedades especiales y otras entidades disueltas, clasificadas por Comunidades y Ciudades Autónomas y clase de sociedad · 6315",
+      "family": "Sociedades mercantiles",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 6312,
+      "label": "Sociedades especiales constituídas, clasificadas por tipo de sociedad, Comunidades y Ciudades Autónomas, número y capital · 6312",
+      "family": "Sociedades mercantiles",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 6310,
+      "label": "S.L. que amplían capital, clasificadas por periodo, Comunidades, Ciudades Autónomas y Provincias, tramos de capital de S.L, número y capital · 6310",
+      "family": "Sociedades mercantiles",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos.",
+      "unitDimension": true
+    },
+    {
+      "id": 6309,
+      "label": "S.A. que amplían capital, clasificadas por periodo, Comunidades, Ciudades Autónomas y Provincias, tramos de capital de S.A, número y capital · 6309",
+      "family": "Sociedades mercantiles",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos.",
+      "unitDimension": true
+    },
+    {
+      "id": 6308,
+      "label": "S.L. constituídas, clasificadas por periodo, Comunidades, Ciudades Autónomas y Provincias, tramos de capital de S.L, número y capital · 6308",
+      "family": "Sociedades mercantiles",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos.",
+      "unitDimension": true
+    },
+    {
+      "id": 6307,
+      "label": "S.A. constituídas, clasificadas por periodo, Comunidades, Ciudades Autónomas y Provincias, tramos de capital de S.A, número y capital · 6307",
+      "family": "Sociedades mercantiles",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 6306,
+      "label": "Sociedades disueltas, clasificadas por periodo, Comunidades, Ciudades Autónomas y Provincias y clase de disolución · 6306",
+      "family": "Sociedades mercantiles",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 6305,
+      "label": "Sociedades disueltas, clasificadas por periodo, Comunidades, Ciudades Autónomas y Provincias y forma jurídica · 6305",
+      "family": "Sociedades mercantiles",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 6302,
+      "label": "Sociedades que han reducido capital, clasificadas por periodo, Comunidades, Ciudades Autónomas y Provincias, forma jurídica, número y capital · 6302",
+      "family": "Sociedades mercantiles",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 6299,
+      "label": "Sociedades que emiten obligaciones, clasificadas por periodo, Comunidades, Ciudades Autónomas y Provincias, forma jurídica, número y capital · 6299",
+      "family": "Sociedades mercantiles",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 6297,
+      "label": "Sociedades que amplían capital, clasificadas por periodo, Comunidades, Ciudades Autónomas y Provincias, forma jurídica, número y capital · 6297",
+      "family": "Sociedades mercantiles",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 6295,
+      "label": "Sociedades constituidas, clasificadas por Comunidades, Ciudades Autónomas y Provincias, forma jurídica número y capital · 6295",
+      "family": "Sociedades mercantiles",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 6294,
+      "label": "Sociedades clasificadas según desembolso de dividendos pasivos por periodo, Comunidades, Ciudades Autónomas y Provincias, tipo de sociedad, número y capital · 6294",
+      "family": "Sociedades mercantiles",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 6293,
+      "label": "Sociedades clasificadas por Comunidades, Ciudades Autónomas y Provincias, tipo de sociedad, número y capital · 6293",
+      "family": "Sociedades mercantiles",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 6292,
+      "label": "Sociedades clasificadas por Comunidades, Ciudades Autónomas y Provincias, estados sociedades, número y capital · 6292",
+      "family": "Sociedades mercantiles",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 80333,
+      "label": "S1.Total de la economía. Saldos contables · 80333",
+      "family": "Cuentas no financieras de los sectores institucionales",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 80332,
+      "label": "S11. Sociedades no financieras. Operaciones · 80332",
+      "family": "Cuentas no financieras de los sectores institucionales",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 80331,
+      "label": "Saldos contables · 80331",
+      "family": "Cuentas no financieras de los sectores institucionales",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 80330,
+      "label": "Operaciones · 80330",
+      "family": "Cuentas no financieras de los sectores institucionales",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 67280,
+      "label": "Saldos contables · 67280",
+      "family": "Cuentas no financieras de los sectores institucionales",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 67204,
+      "label": "Saldos contables · 67204",
+      "family": "Cuentas no financieras de los sectores institucionales",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 67203,
+      "label": "Operaciones · 67203",
+      "family": "Cuentas no financieras de los sectores institucionales",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 62276,
+      "label": "Operaciones · 62276",
+      "family": "Cuentas no financieras de los sectores institucionales",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 62275,
+      "label": "Saldos contables · 62275",
+      "family": "Cuentas no financieras de los sectores institucionales",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 62274,
+      "label": "Operaciones · 62274",
+      "family": "Cuentas no financieras de los sectores institucionales",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 62273,
+      "label": "Saldos contables · 62273",
+      "family": "Cuentas no financieras de los sectores institucionales",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 62272,
+      "label": "Operaciones · 62272",
+      "family": "Cuentas no financieras de los sectores institucionales",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 62271,
+      "label": "Saldos contables · 62271",
+      "family": "Cuentas no financieras de los sectores institucionales",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 62270,
+      "label": "Operaciones · 62270",
+      "family": "Cuentas no financieras de los sectores institucionales",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 62269,
+      "label": "Saldos contables · 62269",
+      "family": "Cuentas no financieras de los sectores institucionales",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 62266,
+      "label": "Saldos contables · 62266",
+      "family": "Cuentas no financieras de los sectores institucionales",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 62265,
+      "label": "Operaciones · 62265",
+      "family": "Cuentas no financieras de los sectores institucionales",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 76200,
+      "label": "Viviendas con ejecución hipotecaria iniciada según titular de la vivienda · 76200",
+      "family": "Ejecuciones hipotecarias",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 76199,
+      "label": "Viviendas con ejecución hipotecaria iniciada según estado de la vivienda · 76199",
+      "family": "Ejecuciones hipotecarias",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 76198,
+      "label": "Ejecuciones hipotecarias iniciadas e inscritas en los registros de la propiedad sobre fincas rústicas y urbanas · 76198",
+      "family": "Ejecuciones hipotecarias",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 76197,
+      "label": "Ejecuciones hipotecarias iniciadas e inscritas en los registros de la propiedad sobre fincas rústicas y urbanas por provincia · 76197",
+      "family": "Ejecuciones hipotecarias",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos.",
+      "unitDimension": true
+    },
+    {
+      "id": 49281,
+      "label": "Ejecuciones hipotecarias iniciadas e inscritas en los registros de la propiedad sobre fincas rústicas y urbanas por comunidades y ciudades autónomas · 49281",
+      "family": "Ejecuciones hipotecarias",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 24468,
+      "label": "Viviendas habituales de personas físicas con ejecución hipotecaria. Total nacional · 24468",
+      "family": "Ejecuciones hipotecarias",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 10745,
+      "label": "Viviviendas con ejecución hipotecaria iniciada según titular de la vivienda por provincia · 10745",
+      "family": "Ejecuciones hipotecarias",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos.",
+      "unitDimension": true
+    },
+    {
+      "id": 10744,
+      "label": "Viviendas con ejecución hipotecaria iniciada según estado de la vivienda por provincia · 10744",
+      "family": "Ejecuciones hipotecarias",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 10743,
+      "label": "Ejecuciones hipotecarias iniciadas e inscritas en los registros de la propiedad sobre fincas rústicas y urbanas por provincia · 10743",
+      "family": "Ejecuciones hipotecarias",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos.",
+      "unitDimension": true
+    },
+    {
+      "id": 10741,
+      "label": "Viviviendas con ejecución hipotecaria iniciada según titular de la vivienda por comunidad autónoma · 10741",
+      "family": "Ejecuciones hipotecarias",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 10740,
+      "label": "Viviendas con ejecución hipotecaria iniciada según estado de la vivienda por comunidad autónoma · 10740",
+      "family": "Ejecuciones hipotecarias",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos.",
+      "unitDimension": true
+    },
+    {
+      "id": 10739,
+      "label": "Ejecuciones hipotecarias iniciadas e inscritas en los registros de la propiedad sobre fincas rústicas y urbanas por comunidad autónoma · 10739",
+      "family": "Ejecuciones hipotecarias",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 7712,
+      "label": "Viviendas con ejecución hipotecaria iniciada según titular de la vivienda · 7712",
+      "family": "Ejecuciones hipotecarias",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 7711,
+      "label": "Viviendas con ejecución hipotecaria iniciada según estado de la vivienda · 7711",
+      "family": "Ejecuciones hipotecarias",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 7709,
+      "label": "Ejecuciones hipotecarias iniciadas e inscritas en los registros de la propiedad sobre fincas rústicas y urbanas · 7709",
+      "family": "Ejecuciones hipotecarias",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 76181,
+      "label": "Por tipo de operación, modo de suministro y país/área geográfica · 76181",
+      "family": "Comercio de servicios por modos de suministro",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 76180,
+      "label": "Por tipo de operación, modo de suministro y tipo de servicio · 76180",
+      "family": "Comercio de servicios por modos de suministro",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 72118,
+      "label": "Por tipo de operación, modo de suministro y tipo de servicio · 72118",
+      "family": "Comercio de servicios por modos de suministro",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 72117,
+      "label": "Por tipo de operación, modo de suministro y país/área geográfica · 72117",
+      "family": "Comercio de servicios por modos de suministro",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 80269,
+      "label": "Valor añadido interior según rama de actividad y país de contrapartida, expuesto a la demanda de estos países · 80269",
+      "family": "Comercio internacional en valor añadido",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 80268,
+      "label": "Valor añadido interior total, según país de contrapartida, expuesto a la demanda de estos países (Demanda final, intermedia e indirecta) · 80268",
+      "family": "Comercio internacional en valor añadido",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 80267,
+      "label": "Valor añadido interior total, según país de contrapartida, expuesto a la demanda de estos países · 80267",
+      "family": "Comercio internacional en valor añadido",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 80266,
+      "label": "Saldo de valor añadido bilateral vinculado a la demanda final entre España y cada país · 80266",
+      "family": "Comercio internacional en valor añadido",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 80265,
+      "label": "Empleo interior según rama de actividad y país de consumo, vinculado a la demanda final de estos países · 80265",
+      "family": "Comercio internacional en valor añadido",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 80264,
+      "label": "Empleo interior total, según país de consumo, vinculado a la demanda final de estos países · 80264",
+      "family": "Comercio internacional en valor añadido",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 80263,
+      "label": "Valor añadido exterior total por país, vinculado a la demanda final de España · 80263",
+      "family": "Comercio internacional en valor añadido",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 80262,
+      "label": "Valor añadido interior según rama de actividad y país de consumo, vinculado a la demanda final de estos países · 80262",
+      "family": "Comercio internacional en valor añadido",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 80261,
+      "label": "Valor añadido interior total, según país de consumo, vinculado a la demanda final de estos países · 80261",
+      "family": "Comercio internacional en valor añadido",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 75186,
+      "label": "Valor añadido exterior total contenido en las exportaciones totales de España, sobre las exportaciones totales de España. (Backward participation) · 75186",
+      "family": "Comercio internacional en valor añadido",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 75180,
+      "label": "Gases de efecto invernadero exteriores por país, generados por las importaciones totales de España · 75180",
+      "family": "Comercio internacional en valor añadido",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 75178,
+      "label": "Gases de efecto invernadero interiores totales, generados en las exportaciones de cada rama de actividad de España · 75178",
+      "family": "Comercio internacional en valor añadido",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 75177,
+      "label": "Empleo interior total, según país importador, contenido en las exportaciones totales de España · 75177",
+      "family": "Comercio internacional en valor añadido",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 75176,
+      "label": "Empleo interior total, contenido en las exportaciones de cada rama de actividad de España · 75176",
+      "family": "Comercio internacional en valor añadido",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 74946,
+      "label": "Empleo interior según rama de actividad, contenido en las exportaciones totales de España · 74946",
+      "family": "Comercio internacional en valor añadido",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 74945,
+      "label": "Valor añadido exterior total por país, contenido en las importaciones de España desde estos países. (Datos relativos a UE-27) · 74945",
+      "family": "Comercio internacional en valor añadido",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 74943,
+      "label": "Valor añadido exterior total por país, contenido en las exportaciones totales de España · 74943",
+      "family": "Comercio internacional en valor añadido",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 74941,
+      "label": "Valor añadido interior total contenido en las exportaciones de bienes de España, sobre las exportaciones de bienes de España · 74941",
+      "family": "Comercio internacional en valor añadido",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 74940,
+      "label": "Valor añadido interior total contenido en las exportaciones de servicios de España, sobre las exportaciones de servicios de España · 74940",
+      "family": "Comercio internacional en valor añadido",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 74938,
+      "label": "Valor añadido interior total contenido en las exportaciones totales de otros países UE-27, sobre las exportaciones totales de España. (Forward participation) · 74938",
+      "family": "Comercio internacional en valor añadido",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 74937,
+      "label": "Valor añadido interior total, según país exportador, contenido en las exportaciones totales de otros países UE-27 · 74937",
+      "family": "Comercio internacional en valor añadido",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 74936,
+      "label": "Valor añadido interior indirecto, contenido en las exportaciones de cada rama de actividad de España. (Valor añadido generado en otras ramas) · 74936",
+      "family": "Comercio internacional en valor añadido",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 74935,
+      "label": "Valor añadido interior directo, contenido en las exportaciones de cada rama de actividad de España. (Valor añadido generado en la misma rama) · 74935",
+      "family": "Comercio internacional en valor añadido",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 74934,
+      "label": "Valor añadido interior total, según país importador, contenido en las exportaciones totales de España · 74934",
+      "family": "Comercio internacional en valor añadido",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 74924,
+      "label": "Valor añadido interior total, contenido en las exportaciones de cada rama de actividad de España · 74924",
+      "family": "Comercio internacional en valor añadido",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    },
+    {
+      "id": 74874,
+      "label": "Valor añadido interior según rama de actividad, contenido en las exportaciones totales de España · 74874",
+      "family": "Comercio internacional en valor añadido",
+      "cnaeSections": true,
+      "note": "Conserva las unidades, base, ajuste estacional, territorio y estado de la publicación cuando se ofrecen como variables o metadatos."
+    }
+  ],
+  "unavailable": [
+    {
+      "id": 82281,
+      "reason": "La API del INE responde HTTP 404. Las distribuciones CSV JAXI y TPX consultadas devuelven un archivo de cero bytes. La tabla se mantiene registrada para volver a verificar su publicación."
+    },
+    {
+      "id": 79189,
+      "reason": "La API del INE responde HTTP 404. Las distribuciones CSV JAXI y TPX consultadas devuelven un archivo de cero bytes. La tabla se mantiene registrada para volver a verificar su publicación."
+    }
+  ]
+}

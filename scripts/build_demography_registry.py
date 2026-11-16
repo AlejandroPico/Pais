@@ -8,9 +8,10 @@ from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1]
 def read(p):return json.loads((ROOT/p).read_text(encoding='utf-8'))
 def main(kind="demography",category="F02"):
-    folder = {'demography': 'poblacion/ine', 'welfare': 'renta/ine', 'labor': 'trabajo/ine', 'care': 'cuidados/ine', 'housing':'vivienda/ine', 'economy':'economia/ine'}[kind]
+    folder = {'demography': 'poblacion/ine', 'welfare': 'renta/ine', 'labor': 'trabajo/ine', 'care': 'cuidados/ine', 'housing':'vivienda/ine', 'economy':'economia/ine', 'commerce':'comercio/ine'}[kind]
+    compressed_kinds = {'demography','welfare','housing','economy','commerce'}
     index=read(f'datos/{folder}/index.json');inventory=read(f'datos/{folder}/inventory.json')
-    if kind in {'welfare','labor','care','housing','economy'}:
+    if kind != 'demography':
         provenance={p['url']:p for p in index.get('provenance',[])}
         for t in index['tables']:
             missing={}
@@ -36,7 +37,7 @@ def main(kind="demography",category="F02"):
     if kind=='labor':
         index['tables'] += read('datos/trabajo/sepe/sepe.json')['tables']
         index['tables'] += read('datos/trabajo/seguridad-social/index.json')['tables']
-    if kind in {'demography','welfare','housing','economy'}:
+    if kind in compressed_kinds:
         shared = {}
         compact = {**index, 'tables': [], 'territoryGroups': shared}
         for table in index['tables']:
@@ -58,6 +59,9 @@ def main(kind="demography",category="F02"):
     if kind=='economy':
         for name in ('dae-historica', 'cna', 'miteco'):
             index['tables'] += read(f'datos/economia/{name}/index.json')['tables']
+    if kind=='commerce':
+        for name in ('bde','datacomex','dgoj'):
+            index['tables'] += read(f'datos/comercio/{name}/index.json')['tables']
     available=[]
     for t in index['tables']:
         table_folder = t.get('dataFolder') or ('trabajo/sepe' if t.get('compactColumns') else folder)
@@ -67,7 +71,7 @@ def main(kind="demography",category="F02"):
         assert sum(s['rows'] for s in t['shards'])==t['rows']
         periods=sorted(t['periods'],key=lambda p:p['id'])
         filename = ('sepe.json' if t.get('publisher')=='SEPE'
-                    else 'viewer.json.gz' if table_folder == folder and kind in {'demography','welfare','housing','economy'}
+                    else 'viewer.json.gz' if table_folder == folder and kind in compressed_kinds
                     else 'index.json')
         available.append(dict(id=kind+':'+str(t['id']),title=t['label'],sourceId=t.get('sourceId','F005'),categoryIds=[category],status='integrado',url=t['sourceUrl'],mapAction=kind+':'+str(t['id']),coverage=' · '.join({'national':'España','community':'Comunidades','province':'Provincias','municipal':'Municipios','district':'Distritos (series)','section':'Secciones (series)','island':'Islas (series)','unlocated':'Sin localización'}.get(l,l) for l in sorted({a['level'] for a in t['territories']})),period={'from':periods[0]['label'],'to':periods[-1]['label']},unit=t['unit'],license=t['license'],notes=t['note']+f" Tabla completa: {t['rows']:,} observaciones, todas las categorías y periodos de la descarga preservada. Detalle municipal por provincia cuando existe.",dataFile=f'{table_folder}/{filename}'))
     canonical={str(source['id']):p for t,p in zip(index['tables'],available) if p['sourceId']=='F005' for source in t.get('sourceTables',[{'id':t['id']}])}
@@ -94,7 +98,7 @@ def main(kind="demography",category="F02"):
                       period=product['period'],license=product['license'],notes=product['notes'],
                       review=dict(implementedProductId=product['id'],updatedAt=index['revision'],
                                   reason='Observaciones contrastadas con el diccionario oficial del Anuario.'))
-    if kind in {'labor','economy'}:
+    if kind in {'labor','economy','commerce'}:
         for item in read(f'registry/{kind}-tables.json').get('emptyDistributions', []):
             key=str(item['id'])
             if key in canonical:
@@ -175,6 +179,30 @@ def main(kind="demography",category="F02"):
                 review=dict(implementedProductId=product['id'], updatedAt=index['revision'],
                             reason='Todas las filas y los periodos, con el enlace a la distribución oficial.'))
         for source in read('registry/economy-sources.json'):
+            records[source['id']] = dict(source, categoryIds=[], suggestedCategoryIds=[category],
+                                         status='por_revisar', license=None)
+    if kind=='commerce':
+        config = read('registry/commerce-tables.json')
+        for item in config.get('unavailable', []):
+            key = str(item['id'])
+            records[key].update(status='bloqueado', categoryIds=[category], notes=item['reason'],
+                                review=dict(updatedAt=index['revision'], reason=item['reason']))
+        for table, product in zip(index['tables'], available, strict=True):
+            if table.get('dataFolder') not in {'comercio/bde','comercio/datacomex','comercio/dgoj'}:
+                continue
+            source = table['sourceTables'][0]
+            if 'originalFile' in source:
+                original = ROOT/'datos'/table['dataFolder']/source['originalFile']
+                assert hashlib.sha256(original.read_bytes()).hexdigest()==source['sha256'], original
+            record_id = 'commerce-distribution:'+str(table['id'])
+            links={'Publicación oficial':product['url']}
+            if table.get('licenseUrl'):
+                links['Condiciones de uso']=table['licenseUrl']
+            records[record_id] = dict(product, id=record_id, url=source['url'],
+                links=links,
+                review=dict(implementedProductId=product['id'], updatedAt=index['revision'],
+                            reason='Valores, fuentes y códigos de las series integradas disponibles en el visor.'))
+        for source in read('registry/commerce-sources.json'):
             records[source['id']] = dict(source, categoryIds=[], suggestedCategoryIds=[category],
                                          status='por_revisar', license=None)
     if kind=='demography':

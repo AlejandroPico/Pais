@@ -2,6 +2,12 @@
   "commit": "7e79ca416915b98039be99cff926a9fae9c7dc7b",
   "files": [
     "local/cnig-2023-recintos-municipales-peninbal.geojson.gz",
-    "local/cnig-2024-recintos-municipales-peninbal.geojson.gz"
+    "local/cnig-2024-recintos-municipales-peninbal.geojson.gz",
+    "local/cnig-2023-ll-municipales-peninbal.geojson.gz",
+    "local/cnig-2024-ll-municipales-peninbal.geojson.gz",
+    "local/secciones-2003.geojson.gz",
+    "local/secciones-2004.geojson.gz",
+    "local/secciones-2005.geojson.gz",
+    "local/secciones-2006.geojson.gz"
   ]
 }

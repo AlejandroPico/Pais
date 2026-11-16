@@ -1,5 +1,6 @@
 export type DemographicArea={id:string;level:string;code:string;name:string;provinceCode?:string;municipalityCode?:string;sourceTableIds?:number[];publicationTableId?:number};
-export type DemographicTable={id:number;compactColumns?:boolean;dataFolder?:string;partitionDimension?:string;publisher?:string;label:string;title:string;family:string;unit:string;unitsByConditions?:{when:Record<string,string>;unit:string}[];sourceTables?:{id:number;url:string;year?:number;notes?:string[]}[];unitsByCategory?:{dimension:string;values:Record<string,string>};note:string;sourceUrl:string;downloadUrl:string;license:string;rows:number;dimensions:{name:string;values:string[]}[];periods:{id:string;label:string}[];territories:DemographicArea[];shards:{id:string;file:string;rows:number;bytes:number;sha256:string;contentSha256:string}[];missingTokens:Record<string,number>};
+export type SeriesMetadata={code:string;publisher?:string;description?:string;note?:string;frequency?:string;alias?:string};
+export type DemographicTable={seriesMetadata?:Record<string,Record<string,SeriesMetadata>>;id:number;compactColumns?:boolean;dataFolder?:string;partitionDimension?:string;publisher?:string;label:string;title:string;family:string;unit:string;unitsByConditions?:{when:Record<string,string>;unit:string}[];sourceTables?:{id:number;url:string;year?:number;notes?:string[]}[];unitsByCategory?:{dimension:string;values:Record<string,string>};note:string;sourceUrl:string;downloadUrl:string;license:string;rows:number;dimensions:{name:string;values:string[]}[];periods:{id:string;label:string}[];territories:DemographicArea[];shards:{id:string;file:string;rows:number;bytes:number;sha256:string;contentSha256:string}[];missingTokens:Record<string,number>};
 export type DemographicIndex={revision:string;tables:DemographicTable[];inventoryTables:number;operations:number};
 export type DemographicQuery={period:number;dims:number[];level:string;territory:number};
 export type Cube={rows:(number|string|null)[][]};
@@ -78,13 +79,21 @@ export function periodTimestamp(id:string){
 }
 export function relativeChange(value:number|null,baseline:number|undefined){return value!==null&&baseline!==undefined&&baseline>0?(value/baseline-1)*100:null;}
 export function csvCell(value:unknown){return '"'+String(value??'').replace(/"/g,'""')+'"';}
+export function selectedSeriesMetadata(table:DemographicTable,q:DemographicQuery){
+  const dimension=table.dimensions.findIndex(d=>d.name==='Serie');
+  if(!table.seriesMetadata||dimension<0)return undefined;
+  const measure=table.dimensions[dimension].values[q.dims[dimension]];
+  return table.seriesMetadata[measure]?.[table.territories[q.territory].id];
+}
 export function seriesCsv(table:DemographicTable,q:DemographicQuery,series:DemographicResult['series']){
   const a=table.territories[q.territory];
   const officialEdition=table.publisher&&table.publisher!=='INE';
   const hasEditionYear=officialEdition&&table.sourceTables?.some(source=>source.year!==undefined);
   const distributionId=table.dataFolder==='economia/cna'||table.dataFolder==='economia/dae-historica'?'identificador_atlas':'tabla_ine';
+  const metadata=selectedSeriesMetadata(table,q);
   const heading=[officialEdition?(hasEditionYear?'año_edición':'distribución'):distributionId,'territorio','codigo','nivel','periodo',
     ...table.dimensions.map(d=>d.name),'valor','estado','unidad','fuente'];
+  if(metadata)heading.push('codigo_serie','publicador_original');
   const units=unitFor(table,q.dims);
   const categories=table.dimensions.map((d,i)=>d.values[q.dims[i]]);
   const rows=series.map(r=>{
@@ -92,7 +101,8 @@ export function seriesCsv(table:DemographicTable,q:DemographicQuery,series:Demog
     const id=hasEditionYear?edition?.year:r.sourceTableId||table.id;
     let url=edition?.url||table.sourceUrl;
     if(!officialEdition&&r.sourceTableId&&!edition) url='https://servicios.ine.es/wstempus/js/ES/DATOS_TABLA/'+r.sourceTableId+'?tip=AM';
-    return [id,a.name,a.code,a.level,table.periods[r.period].label,...categories,r.value,r.status,units,url];
+    return [id,a.name,a.code,a.level,table.periods[r.period].label,...categories,r.value,r.status,units,url,
+      ...(metadata?[metadata.code,metadata.publisher||table.publisher]:[])];
   });
   return '\uFEFF'+[heading,...rows].map(r=>r.map(csvCell).join(';')).join('\r\n');
 }

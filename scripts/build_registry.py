@@ -92,11 +92,25 @@ def build():
         housing=read(housing_path)
         products['available']+=housing['available']
         products['housing']=housing['inventory']
+    commerce_path=ROOT/'registry/commerce-products.json'
+    if commerce_path.exists():
+        commerce=read(commerce_path)
+        products['available']+=commerce['available']
+        products['commerce']=commerce['inventory']
     labor_path=ROOT/'registry/labor-products.json'
     if labor_path.exists():
         labor=read(labor_path)
         products['available']+=labor['available']
         products['labor']=labor['inventory']
+    if commerce_path.exists():
+        shared = {7, 15, 40, 432, 256, 465}
+        table_ids = {t['Id'] for op in ine['operations'] if op['Id'] in shared for t in op['tables']}
+        for product in products['available']:
+            if not product['id'].startswith(('housing:', 'economy:')):
+                continue
+            tid = product['id'].split(':',1)[1]
+            if tid.isdigit() and int(tid) in table_ids:
+                product['categoryIds'].append('F08')
     for o in ioe['operations']:
         fields = o['fields']
         products['ioe'].append(dict(id='ioe:' + o['code'], title=o['title'], sourceId='F002',
@@ -202,9 +216,13 @@ def build():
         input_paths.extend(['registry/economy-tables.json','registry/economy-sources.json','registry/economy-products.json',
                             'registry/pages-archives.json','datos/economia/ine/index.json','datos/economia/ine/inventory.json',
                             'datos/economia/dae-historica/index.json','datos/economia/cna/index.json','datos/economia/miteco/index.json'])
+    if commerce_path.exists():
+        input_paths.extend(['registry/commerce-tables.json','registry/commerce-sources.json','registry/commerce-products.json',
+                            'datos/comercio/ine/index.json','datos/comercio/ine/inventory.json','datos/comercio/bde/index.json',
+                            'datos/comercio/datacomex/index.json','datos/comercio/dgoj/index.json'])
     provenance = [dict(path=p, sha256=hashlib.sha256((ROOT / p).read_bytes()).hexdigest()) for p in input_paths]
     revisions=[registered['revision'], federated_metadata['revision']]
-    for path in [territory_path,demography_path,welfare_path,labor_path,care_path,housing_path,economy_path]:
+    for path in [territory_path,demography_path,welfare_path,labor_path,care_path,housing_path,economy_path,commerce_path]:
         if path.exists():revisions.append(read(path)['revision'])
     index = dict(schemaVersion=1, researchSnapshot='2026-11-05', revision=max(revisions),
                  scope='Registro de metadatos. Los inventarios se solapan y sus recuentos no se suman como productos únicos. Solo Disponibles contiene productos utilizables en el mapa.',

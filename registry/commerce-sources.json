@@ -1,0 +1,72 @@
+[
+  {
+    "id": "commerce-source:aeat-aduanas-territoriales",
+    "title": "Aduanas · datos territoriales mensuales por mercancía",
+    "sourceId": "F042",
+    "url": "https://sede.agenciatributaria.gob.es/Sede/estadisticas/estadisticas-comercio-exterior.html",
+    "notes": "Completar los ficheros territoriales, resúmenes y máxima desagregación. El fichero de cierre continuo de enero a agosto de 2026 supera los 600 MB y estrena formato. Revisar particionado e identificadores sin suponer equivalencia con los cierres anteriores."
+  },
+  {
+    "id": "commerce-source:datainvex",
+    "title": "DataInvex · inversiones exteriores",
+    "sourceId": "F051",
+    "url": "https://comercio.gob.es/es-es/inversiones_exteriores/estadisticas/paginas/datainvex.aspx",
+    "notes": "Inversión extranjera en España e inversión española en el exterior desde 1993. Inventariar flujos, posiciones, operaciones ETVE, importes brutos y netos, origen, destino e imputación territorial."
+  },
+  {
+    "id": "commerce-source:cnmv",
+    "title": "CNMV · series de mercados y entidades supervisadas",
+    "sourceId": "F049",
+    "url": "https://www.cnmv.es/portal/Publicaciones/SeriesWeb/Inicio",
+    "notes": "Inventariar las series de CNMV independientemente del Boletín Estadístico del Banco de España. Contrastar mercados, intermediarios y fondos por código y periodo."
+  },
+  {
+    "id": "commerce-source:dgsfp",
+    "title": "DGSFP · seguros y fondos de pensiones",
+    "sourceId": "F050",
+    "url": "https://dgsfp.mineco.gob.es/es/Publicaciones/Paginas/default.aspx",
+    "notes": "Revisar series propias de actividad aseguradora y fondos privados, aseguradoras, ramos, primas, prestaciones y solvencia. El capítulo 10 del Banco de España cubre cuentas agregadas."
+  },
+  {
+    "id": "commerce-source:bde-territorial-historicas",
+    "title": "Banco de España · estadísticas territoriales históricas",
+    "sourceId": "F041",
+    "url": "https://www.bde.es/wbe/es/estadisticas/otras-estadisticas/historicas/anuncios-estadisticas-historicas/nuevos-conjuntos-de-datos-con-informacion-por-comunidades-autonomas-y-provincias.html",
+    "notes": "Completar las ediciones históricas de oficinas, crédito y depósitos y contrastar su enlace con las series vigentes."
+  },
+  {
+    "id": "commerce-source:bce",
+    "title": "BCE · tipos, crédito, depósitos, pagos y valores",
+    "sourceId": "F143",
+    "url": "https://data.ecb.europa.eu/",
+    "notes": "Inventariar las distribuciones SDMX con referencia a España. Distinguir el país declarante, el área de la contraparte y los agregados de la zona del euro."
+  },
+  {
+    "id": "commerce-source:tesoro",
+    "title": "Tesoro Público · subastas y deuda pública",
+    "sourceId": "F052",
+    "url": "https://www.tesoro.es/deuda-publica/subastas",
+    "notes": "Recorrer resultados de subastas, calendario y saldos que publica el Tesoro por instrumento, vencimiento y fecha. Contrastar con mercado primario del Banco de España."
+  },
+  {
+    "id": "commerce-source:dgoj-presencial",
+    "title": "DGOJ · libro del mercado español de juego",
+    "sourceId": "F127",
+    "url": "https://www.ordenacionjuego.es/en/node/3018",
+    "notes": "Libro de nueve hojas con actividad por modalidad, locales, máquinas, red de ventas de ONCE y SELAE, canales, interdicciones y expedientes. Separar datos propios de la DGOJ de las fuentes cuya reutilización se debe verificar. El juego en línea ya se ofrece con sus cuatro CSV."
+  },
+  {
+    "id": "commerce-source:cmt",
+    "title": "Comisionado para el Mercado de Tabacos · estadísticas de ventas",
+    "sourceId": "F128",
+    "url": "https://www.hacienda.gob.es/es-es/areas%20tematicas/cmtabacos/paginas/estadisticascmt2026.aspx",
+    "notes": "Incorporar las ediciones mensuales provinciales, las unidades de venta y el ámbito fiscal publicado."
+  },
+  {
+    "id": "commerce-source:eurostat",
+    "title": "Eurostat · comercio, precios y estadísticas financieras",
+    "sourceId": "F130",
+    "url": "https://ec.europa.eu/eurostat/data/database",
+    "notes": "Inventariar Comext, el IPCA europeo y las series financieras de España. Preservar nomenclaturas de bienes, versiones y unidades."
+  }
+]

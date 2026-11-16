@@ -26,7 +26,7 @@ const esc=(s:unknown)=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&l
 type Geo=FeatureCollection<MultiPolygon,Properties>;
 let map:AtlasMap,maps:AtlasMap[]=[],geography:TerritoryController;
 const statistics={} as Record<StatisticsKind,DemographyController>;
-const statisticCategories={demography:'F02',welfare:'F03',labor:'F04',care:'F05',housing:'F06',economy:'F07'} as const;
+const statisticCategories={demography:'F02',welfare:'F03',labor:'F04',care:'F05',housing:'F06',economy:'F07',commerce:'F08'} as const;
 const statisticControllers=()=>Object.values(statistics);
 function disableStatistics(except?:StatisticsKind){
   for(const [kind,controller] of Object.entries(statistics)){
@@ -196,6 +196,9 @@ function categoryPanel(id:string){const c=categories.find(c=>c.id===id)!;let htm
   else if(id==='F07')html=ready
     ?layerMenuRow('Indicadores de economía y empresas','<div id="statistics-panel"></div>')
     :'<p class="data-note" role="status">Preparando los indicadores económicos…</p>';
+  else if(id==='F08')html=ready
+    ?layerMenuRow('Indicadores de precios, comercio y finanzas','<div id="statistics-panel"></div>')
+    :'<p class="data-note" role="status">Preparando los indicadores de comercio y finanzas…</p>';
   else if(id==='F06')html=ready
     ?layerMenuRow('Indicadores de vivienda y suelo','<div id="statistics-panel"></div>')+geography.housingPanel()
     :'<p class="data-note" role="status">Preparando las capas de vivienda…</p>';
@@ -448,7 +451,7 @@ async function init(){try{
     },kind,hash);
   }
   geography=new TerritoryController({active,info:$('#info-panel'),icons,onChange:updateData,beforeInspect:()=>{featureQuery?.abort();selected=undefined;for(const m of maps)if(m.getSource('selection'))(m.getSource('selection') as maplibregl.GeoJSONSource).setData({type:'FeatureCollection',features:[]});},closeDrawer,selectLegacy:(f,l)=>{level=l;updateData();selectTerritory(f as Feature<MultiPolygon,Properties>,true);},provinces,communities},hash);let loaded=0;
-  for(const m of maps){m.on('error',e=>{sourceErrors.add((e as unknown as {sourceId?:string}).sourceId||'map');$('#map-status').hidden=false;$('#map-status').textContent='Un servicio cartográfico no ha respondido.';console.warn('Cartographic service error',e.error?.message);});m.on('load',()=>{setupMap(m);if(++loaded===1){ready=true;if(drawerTab==='F06'||drawerTab==='F07'){const category=drawerTab;closeDrawer();categoryPanel(category);}fitOverview();const lng=Number(hash.get('lng')),lat=Number(hash.get('lat')),z=Number(hash.get('z'));if(compatibleLayout&&hash.has('lng')&&Number.isFinite(lng)&&Number.isFinite(lat)&&Number.isFinite(z)&&lng>=-20&&lng<=7&&lat>=25.5&&lat<=46.5&&z>=3&&z<=18)map.jumpTo({center:[lng,lat],zoom:z,pitch:0});terrain();updateData();syncLayerScales();if(!sourceErrors.size)$('#map-status').hidden=true;}});}
+  for(const m of maps){m.on('error',e=>{sourceErrors.add((e as unknown as {sourceId?:string}).sourceId||'map');$('#map-status').hidden=false;$('#map-status').textContent='Un servicio cartográfico no ha respondido.';console.warn('Cartographic service error',e.error?.message);});m.on('load',()=>{setupMap(m);if(++loaded===1){ready=true;if(drawerTab==='F06'||drawerTab==='F07'||drawerTab==='F08'){const category=drawerTab;closeDrawer();categoryPanel(category);}fitOverview();const lng=Number(hash.get('lng')),lat=Number(hash.get('lat')),z=Number(hash.get('z'));if(compatibleLayout&&hash.has('lng')&&Number.isFinite(lng)&&Number.isFinite(lat)&&Number.isFinite(z)&&lng>=-20&&lng<=7&&lat>=25.5&&lat<=46.5&&z>=3&&z<=18)map.jumpTo({center:[lng,lat],zoom:z,pitch:0});terrain();updateData();syncLayerScales();if(!sourceErrors.size)$('#map-status').hidden=true;}});}
   map.touchZoomRotate.disableRotation();map.on('zoomend',syncLayerScales);map.on('moveend',()=>{const c=map.getCenter(),lng=Math.max(ATLAS_BOUNDS[0][0],Math.min(ATLAS_BOUNDS[1][0],c.lng)),lat=Math.max(ATLAS_BOUNDS[0][1],Math.min(ATLAS_BOUNDS[1][1],c.lat));if(c.lng!==lng||c.lat!==lat)map.jumpTo({center:[lng,lat],bearing:0,pitch:0});});new ResizeObserver(()=>{maps.forEach(m=>m.resize());if(ready)fitOverview();}).observe($('.map-area'));
 }catch(error){console.error(error);$('#map-status').hidden=false;$('#map-status').innerHTML='No se pudo iniciar el mapa. <button id="retry">Reintentar</button>';$('#retry').onclick=()=>location.reload();}}
 

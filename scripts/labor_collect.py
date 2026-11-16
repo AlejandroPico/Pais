@@ -2,11 +2,19 @@
 import argparse
 import json
 from concurrent.futures import ThreadPoolExecutor
+from urllib.error import URLError
 import welfare_collect as cubes
 
 ROOT = cubes.ROOT
 core = cubes.core
-CAPTURES = {'labor': ('trabajo', 'f04'), 'care': ('cuidados', 'f05'), 'housing': ('vivienda', 'f06'), 'economy': ('economia', 'f07')}
+CAPTURES = {'labor': ('trabajo', 'f04'), 'care': ('cuidados', 'f05'), 'housing': ('vivienda', 'f06'), 'economy': ('economia', 'f07'), 'commerce': ('comercio', 'f08')}
+
+def prefetch(table_id):
+    try:
+        cubes.fetch_table(table_id)
+    except (URLError, TimeoutError) as error:
+        return table_id, str(error)
+    return table_id, None
 
 def main(refresh=False, kind='labor'):
     folder, cache = CAPTURES[kind]
@@ -16,9 +24,14 @@ def main(refresh=False, kind='labor'):
     core.CACHE.mkdir(parents=True, exist_ok=True)
     core.REFRESH = refresh
     output.mkdir(parents=True, exist_ok=True)
+    cubes.API_FORMATS = {t['id']:t['apiFormat'] for t in config['tables'] if 'apiFormat' in t}
 
     with ThreadPoolExecutor(max_workers=4) as pool:
-        list(pool.map(cubes.fetch_table, [table['id'] for table in config['tables']]))
+        if kind == 'commerce':
+            failures = {tid: error for tid, error in pool.map(prefetch, (t['id'] for t in config['tables'])) if error}
+        else:
+            list(pool.map(cubes.fetch_table, [table['id'] for table in config['tables']]))
+            failures = {}
     core.REFRESH = False
     catalog = json.loads((ROOT/'datos/catalogo/investigacion/ine-catalog.json').read_text(encoding='utf-8'))
     operations = [{'id': op['Id'], 'tables': op['tables']} for op in catalog['operations']
@@ -32,9 +45,11 @@ def main(refresh=False, kind='labor'):
     previous = json.loads((output / 'index.json').read_text(encoding='utf-8')) if (output / 'index.json').exists() and not refresh else {}
     existing = {table['id']: table for table in previous.get('tables', [])}
     tables = []
-    failures = {}
     for table in config['tables']:
         tid = table['id']
+        if tid in failures:
+            print(f"INE {tid}: {failures[tid]}", flush=True)
+            continue
         checkpoint = core.CACHE / f'{kind}-{tid}.json'
         candidates = [existing.get(tid)]
         if checkpoint.exists() and not refresh:
@@ -48,7 +63,7 @@ def main(refresh=False, kind='labor'):
             try:
                 saved = cubes.build_group({**table, 'preserveMissingDimensions': True}, [tid], metadata, output=output)
             except (AssertionError, ValueError) as error:
-                if kind not in {'housing','economy'}:
+                if kind not in {'housing','economy','commerce'}:
                     raise
                 failures[tid] = str(error)
                 print(f'INE {tid}: {error}', flush=True)

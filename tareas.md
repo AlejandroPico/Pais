@@ -27,7 +27,8 @@ En cada intervención, actualiza este archivo y AGENTS.md antes de subir a `main
 | F05 | Abierto. 95 tablas del INE con 238.792 observaciones, cinco anexos PNC del IMSERSO con 1.223 filas consultables y 34 nóminas IMV con 66.096 observaciones. [Cobertura](docs/F05.md). |
 | F06 | Abierto. 157 tablas del INE, siete distribuciones del MIVAU y 17 capas verificadas del SIU. [Cobertura](docs/F06.md). |
 | F07 | Abierto. 454 productos del INE y MITECO. [Cobertura, pruebas y faltantes](docs/F07.md). |
-| F08–F29 | Los inventarios de estos fascículos siguen por completar. F16, F22, F24 y F26 ya tienen referencias disponibles a algunas capas base o productos compartidos. Conserva esos enlaces y verifica cada nueva ficha individualmente. |
+| F08 | Abierto. 664 productos del INE, BdE, DataComex y DGOJ. [Cobertura, verificaciones y faltantes](docs/F08.md). |
+| F09–F29 | Los inventarios de estos fascículos siguen por completar. F16, F22, F24 y F26 ya tienen referencias disponibles a algunas capas base o productos compartidos. Conserva esos enlaces y verifica cada nueva ficha individualmente. |
 
 Los números proceden de la captura de trabajo. Diferentes inventarios se solapan y los recuentos de tablas, operaciones, fichas y observaciones miden cosas distintas. Confirma en Git y en el sitio público qué revisión está desplegada si el encargo incluye publicar.
 
@@ -130,9 +131,15 @@ Punto de partida: [F04](docs/F04.md), [inventario INE](datos/trabajo/ine/invento
 
 ## F08 · Precios, comercio, finanzas y seguros · `datos/comercio/`
 
-- [ ] Inventariar IPC y precios, distribución comercial, comercio interior y exterior, operaciones por producto, origen y destino, e inversión exterior. Recorrer INE, Secretaría de Estado de Comercio, DataComex/DataInvex, Aduanas/AEAT, Eurostat y autoridades territoriales.
-- [ ] Incorporar crédito, depósitos, oficinas, financiación, mercado de valores, seguros y fondos privados; juego, tabaco y productos regulados donde corresponda. Revisar Banco de España, BCE, CNMV, DGSFP, CNMC, Tesoro, DGOJ y Comisionado del Tabaco. Mantener saldos y flujos separados y preservar frecuencia, moneda y base.
-- [ ] Diferenciar origen aduanero, localización de la empresa y mercado de destino. Aplicar fichas nacionales cuando proceda. Enlazar precios canónicos de F06, F14 y F21 sin duplicarlos.
+- [x] Capturar 417 tablas del inventario de la API del INE, incluidas series mensuales, medias y ponderaciones. La tabla 76128 se recuperó con la variante `?tip=am`. Separar por unidad publicada cuando las observaciones tienen la misma clave y unidades distintas.
+- [ ] Volver a comprobar las dos distribuciones del INE sin observaciones accesibles, 82281 y 79189. Las variantes de la API probadas devuelven HTTP 404 y los CSV JAXI y TPX se descargan con cero bytes.
+- [x] Incorporar las nueve descargas de análisis mensual y anual de DataComex, organizadas en 14 productos. Conservar origen territorial, socio, sectores y capítulos. En el XLSX territorial acumulado el periodo corresponde a enero–agosto de 2026 y el encabezado de saldo conserva «Acum. 24» y «Acum. 23». El saldo del periodo se contrastó con exportaciones menos importaciones. Verificar con Comercio a qué edición corresponde el rótulo del periodo de comparación.
+- [x] Incorporar las series reutilizables de los nueve capítulos revisados del Banco de España, con mapas de crédito y depósitos de los cuadros 4.28–4.31, y los cuatro CSV de juego en línea de la DGOJ. Conservar códigos, fuentes, notas, unidades y la diferencia entre cero y ausencia.
+- [x] Enlazar en Fuentes 136 fichas de vivienda, hipotecas y comercio ya disponibles en F06 o F07, con un único producto por tabla.
+- [ ] Completar las bases archivadas y las descargas del INE fuera de las operaciones capturadas. Revisar Estadística de Productos en el Sector Comercio, comercio electrónico, comercio minorista diario, precios específicos en F14 y F21 y las tablas cuya respuesta oficial requiere revisión.
+- [ ] Incorporar DataInvex y las distribuciones de Aduanas a máxima desagregación, más Eurostat Comext y estadísticas territoriales propias. Separar territorio de origen, socio comercial e imputación de la sede. La AEAT introdujo un formato de cierre continuo en 2026 y su primera distribución supera los 600 MB. Definir particionado por fecha y clasificación arancelaria antes de publicarla.
+- [ ] Incorporar las series primarias de CNMV, DGSFP, BCE, CNMC y Tesoro. Completar las series históricas territoriales del Banco de España y revisar las 67 series de terceros diferenciadas en `datos/comercio/bde/index.json`. Cuantificar qué ámbitos corresponden a España y cuáles a la zona del euro.
+- [ ] Revisar y completar el libro de nueve hojas de juego de la DGOJ y las ventas provinciales del Comisionado para el Mercado de Tabacos. Comprobar las condiciones de reutilización por fuente original dentro del libro de juego.
 
 ## F09 · Hacienda, presupuestos, fiscalidad y deuda pública · `datos/hacienda/`
 

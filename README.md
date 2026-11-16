@@ -2,6 +2,10 @@
 
 La [guía para agentes](AGENTS.md) contiene la arquitectura y el protocolo de cierre. En [tareas.md](tareas.md) están los objetivos pendientes de F00 a F29.
 
+## Versión 0.8.6
+
+La categoría **Precios, comercio, finanzas y seguros** incorpora IPC, comercio minorista, comercio exterior de mercancías, crédito y depósitos territoriales, seguros, mercados y juego en línea. [Cobertura y tareas de F08](docs/F08.md).
+
 ## Versión 0.8.5
 
 Economía incorpora cuentas regionales y nacionales, empresas e industria, economía social y las distribuciones provinciales de producción y empleo minero. **Demografía Armonizada de Empresas** incluye las ediciones 2008–2024. [Cobertura y tareas de F07](docs/F07.md).

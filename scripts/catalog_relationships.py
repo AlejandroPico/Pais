@@ -75,7 +75,7 @@ def link_ine(products, ine_operations):
     ioe = {row['id'].removeprefix('ioe:'): row for row in products['ioe']}
     operations = {op['Id']: ioe.get(str(op.get('Cod_IOE'))) for op in ine_operations}
     equivalents = defaultdict(list)
-    for kind in ('demography', 'welfare', 'labor', 'care', 'housing', 'economy'):
+    for kind in ('demography', 'welfare', 'labor', 'care', 'housing', 'economy', 'commerce'):
         for row in products.get(kind, []):
             match = re.fullmatch(r'https://www\.ine\.es/jaxiT3/Tabla\.htm\?t=(\d+)',row['url'])
             if match:

@@ -24,6 +24,7 @@ core.CONFIG=CONFIG
 core.CACHE=ROOT/'.cache/f03'
 GEO={**core.GEO_HEADERS,'distritos':'district','secciones':'section','comunidad autonoma de residencia':'community','ambito geografico':'national','totales territoriales':'national','zonas geograficas de espana':'unlocated'}
 NAMES={'SALDOS CONTABLES':'Indicador','Indicadores de renta media':'Indicador','Indicadores de renta media y mediana':'Indicador','Semiintervalos de edad':'Grupos de edad'}
+API_FORMATS={}
 
 def area(meta):
     candidates=[(GEO[core.norm(m['T3_Variable'])],m) for m in meta if core.norm(m['T3_Variable']) in GEO]
@@ -42,7 +43,7 @@ def area(meta):
     return {'id':level+':'+code,'level':level,'code':code,'name':name,'provinceCode':code[:2] if level in ['municipal','district','section'] else None,'municipalityCode':code[:5] if level in ['district','section'] else None}
 
 def fetch_table(tid):
-    url=f'https://servicios.ine.es/wstempus/js/ES/DATOS_TABLA/{tid}?tip=AM'
+    url=f'https://servicios.ine.es/wstempus/js/ES/DATOS_TABLA/{tid}?tip={API_FORMATS.get(tid,"AM")}'
     path,provenance=core.fetch(url)
     return tid,path,provenance
 
