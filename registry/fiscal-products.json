@@ -1,0 +1,4466 @@
+{
+  "revision": "2026-11-17",
+  "available": [
+    {
+      "id": "fiscal:961001",
+      "title": "Deuda viva de los ayuntamientos",
+      "sourceId": "F043",
+      "categoryIds": [
+        "F09"
+      ],
+      "status": "integrado",
+      "url": "https://www.hacienda.gob.es/es-ES/CDI/paginas/sistemasfinanciaciondeuda/informacioneells/deudaviva.aspx",
+      "mapAction": "fiscal:961001",
+      "period": {
+        "from": "2008",
+        "to": "2025"
+      },
+      "coverage": "Municipios",
+      "unit": "Según indicador",
+      "license": "Condiciones de reutilización del Ministerio de Hacienda",
+      "notes": "Saldo a 31 de diciembre, en miles de euros. Se conserva el código provincial y municipal de cada edición y la población que acompaña a la edición de 2008. El total de un ayuntamiento no incluye el de las diputaciones y entidades supramunicipales.",
+      "dataFile": "hacienda/deuda-local/index.json"
+    },
+    {
+      "id": "fiscal:674129233",
+      "title": "Administraciones públicas · cuadro 11.1",
+      "sourceId": "F041",
+      "categoryIds": [
+        "F09"
+      ],
+      "status": "integrado",
+      "url": "https://www.bde.es/webbe/es/estadisticas/otras-clasificaciones/publicaciones/boletin-estadistico/capitulo-11.html",
+      "mapAction": "fiscal:674129233",
+      "period": {
+        "from": "DIC 1994",
+        "to": "JUN 2026"
+      },
+      "coverage": "España",
+      "unit": "Miles de euros",
+      "license": "Términos de las estadísticas del Banco de España",
+      "notes": "Elaboración propia con datos extraídos del sitio web del Banco de España (www.bde.es). Se conservan la unidad, los códigos de serie, las notas y el símbolo de cada dato ausente.",
+      "dataFile": "hacienda/bde/index.json"
+    },
+    {
+      "id": "fiscal:674129234",
+      "title": "Administraciones públicas · cuadro 11.2",
+      "sourceId": "F041",
+      "categoryIds": [
+        "F09"
+      ],
+      "status": "integrado",
+      "url": "https://www.bde.es/webbe/es/estadisticas/otras-clasificaciones/publicaciones/boletin-estadistico/capitulo-11.html",
+      "mapAction": "fiscal:674129234",
+      "period": {
+        "from": "MAR 1995",
+        "to": "JUN 2026"
+      },
+      "coverage": "España",
+      "unit": "Según serie",
+      "license": "Términos de las estadísticas del Banco de España",
+      "notes": "Elaboración propia con datos extraídos del sitio web del Banco de España (www.bde.es). Se conservan la unidad, los códigos de serie, las notas y el símbolo de cada dato ausente.",
+      "dataFile": "hacienda/bde/index.json"
+    },
+    {
+      "id": "fiscal:674129235",
+      "title": "Administraciones públicas · cuadro 11.3",
+      "sourceId": "F041",
+      "categoryIds": [
+        "F09"
+      ],
+      "status": "integrado",
+      "url": "https://www.bde.es/webbe/es/estadisticas/otras-clasificaciones/publicaciones/boletin-estadistico/capitulo-11.html",
+      "mapAction": "fiscal:674129235",
+      "period": {
+        "from": "MAR 1995",
+        "to": "JUN 2026"
+      },
+      "coverage": "España",
+      "unit": "Según serie",
+      "license": "Términos de las estadísticas del Banco de España",
+      "notes": "Elaboración propia con datos extraídos del sitio web del Banco de España (www.bde.es). Se conservan la unidad, los códigos de serie, las notas y el símbolo de cada dato ausente.",
+      "dataFile": "hacienda/bde/index.json"
+    },
+    {
+      "id": "fiscal:674129236",
+      "title": "Pasivos y deuda según el PDE",
+      "sourceId": "F041",
+      "categoryIds": [
+        "F09"
+      ],
+      "status": "integrado",
+      "url": "https://www.bde.es/webbe/es/estadisticas/otras-clasificaciones/publicaciones/boletin-estadistico/capitulo-11.html",
+      "mapAction": "fiscal:674129236",
+      "period": {
+        "from": "DIC 1994",
+        "to": "JUN 2026"
+      },
+      "coverage": "España",
+      "unit": "Miles de euros",
+      "license": "Términos de las estadísticas del Banco de España",
+      "notes": "Elaboración propia con datos extraídos del sitio web del Banco de España (www.bde.es). Se conservan la unidad, los códigos de serie, las notas y el símbolo de cada dato ausente.",
+      "dataFile": "hacienda/bde/index.json"
+    },
+    {
+      "id": "fiscal:674129237",
+      "title": "Administraciones públicas · cuadro 11.5",
+      "sourceId": "F041",
+      "categoryIds": [
+        "F09"
+      ],
+      "status": "integrado",
+      "url": "https://www.bde.es/webbe/es/estadisticas/otras-clasificaciones/publicaciones/boletin-estadistico/capitulo-11.html",
+      "mapAction": "fiscal:674129237",
+      "period": {
+        "from": "MAR 1995",
+        "to": "JUN 2026"
+      },
+      "coverage": "España",
+      "unit": "Según serie",
+      "license": "Términos de las estadísticas del Banco de España",
+      "notes": "Elaboración propia con datos extraídos del sitio web del Banco de España (www.bde.es). Se conservan la unidad, los códigos de serie, las notas y el símbolo de cada dato ausente.",
+      "dataFile": "hacienda/bde/index.json"
+    },
+    {
+      "id": "fiscal:674129238",
+      "title": "Administraciones públicas · cuadro 11.6",
+      "sourceId": "F041",
+      "categoryIds": [
+        "F09"
+      ],
+      "status": "integrado",
+      "url": "https://www.bde.es/webbe/es/estadisticas/otras-clasificaciones/publicaciones/boletin-estadistico/capitulo-11.html",
+      "mapAction": "fiscal:674129238",
+      "period": {
+        "from": "DIC 1994",
+        "to": "JUN 2026"
+      },
+      "coverage": "España",
+      "unit": "Miles de euros",
+      "license": "Términos de las estadísticas del Banco de España",
+      "notes": "Elaboración propia con datos extraídos del sitio web del Banco de España (www.bde.es). Se conservan la unidad, los códigos de serie, las notas y el símbolo de cada dato ausente.",
+      "dataFile": "hacienda/bde/index.json"
+    },
+    {
+      "id": "fiscal:674129239",
+      "title": "Administraciones públicas · cuadro 11.7",
+      "sourceId": "F041",
+      "categoryIds": [
+        "F09"
+      ],
+      "status": "integrado",
+      "url": "https://www.bde.es/webbe/es/estadisticas/otras-clasificaciones/publicaciones/boletin-estadistico/capitulo-11.html",
+      "mapAction": "fiscal:674129239",
+      "period": {
+        "from": "MAR 1995",
+        "to": "JUN 2026"
+      },
+      "coverage": "España",
+      "unit": "Porcentaje",
+      "license": "Términos de las estadísticas del Banco de España",
+      "notes": "Elaboración propia con datos extraídos del sitio web del Banco de España (www.bde.es). Se conservan la unidad, los códigos de serie, las notas y el símbolo de cada dato ausente.",
+      "dataFile": "hacienda/bde/index.json"
+    },
+    {
+      "id": "fiscal:674129240",
+      "title": "Administraciones públicas · cuadro 11.8",
+      "sourceId": "F041",
+      "categoryIds": [
+        "F09"
+      ],
+      "status": "integrado",
+      "url": "https://www.bde.es/webbe/es/estadisticas/otras-clasificaciones/publicaciones/boletin-estadistico/capitulo-11.html",
+      "mapAction": "fiscal:674129240",
+      "period": {
+        "from": "MAR 1995",
+        "to": "JUN 2026"
+      },
+      "coverage": "España",
+      "unit": "Miles de euros",
+      "license": "Términos de las estadísticas del Banco de España",
+      "notes": "Elaboración propia con datos extraídos del sitio web del Banco de España (www.bde.es). Se conservan la unidad, los códigos de serie, las notas y el símbolo de cada dato ausente.",
+      "dataFile": "hacienda/bde/index.json"
+    },
+    {
+      "id": "fiscal:674129241",
+      "title": "Administraciones públicas · cuadro 11.9",
+      "sourceId": "F041",
+      "categoryIds": [
+        "F09"
+      ],
+      "status": "integrado",
+      "url": "https://www.bde.es/webbe/es/estadisticas/otras-clasificaciones/publicaciones/boletin-estadistico/capitulo-11.html",
+      "mapAction": "fiscal:674129241",
+      "period": {
+        "from": "MAR 1995",
+        "to": "JUN 2026"
+      },
+      "coverage": "España",
+      "unit": "Porcentaje",
+      "license": "Términos de las estadísticas del Banco de España",
+      "notes": "Elaboración propia con datos extraídos del sitio web del Banco de España (www.bde.es). Se conservan la unidad, los códigos de serie, las notas y el símbolo de cada dato ausente.",
+      "dataFile": "hacienda/bde/index.json"
+    },
+    {
+      "id": "fiscal:674129268",
+      "title": "Administraciones públicas · cuadro 11.10",
+      "sourceId": "F041",
+      "categoryIds": [
+        "F09"
+      ],
+      "status": "integrado",
+      "url": "https://www.bde.es/webbe/es/estadisticas/otras-clasificaciones/publicaciones/boletin-estadistico/capitulo-11.html",
+      "mapAction": "fiscal:674129268",
+      "period": {
+        "from": "MAR 1995",
+        "to": "JUN 2026"
+      },
+      "coverage": "España",
+      "unit": "Miles de euros",
+      "license": "Términos de las estadísticas del Banco de España",
+      "notes": "Elaboración propia con datos extraídos del sitio web del Banco de España (www.bde.es). Se conservan la unidad, los códigos de serie, las notas y el símbolo de cada dato ausente.",
+      "dataFile": "hacienda/bde/index.json"
+    },
+    {
+      "id": "fiscal:674129269",
+      "title": "Administraciones públicas · cuadro 11.11",
+      "sourceId": "F041",
+      "categoryIds": [
+        "F09"
+      ],
+      "status": "integrado",
+      "url": "https://www.bde.es/webbe/es/estadisticas/otras-clasificaciones/publicaciones/boletin-estadistico/capitulo-11.html",
+      "mapAction": "fiscal:674129269",
+      "period": {
+        "from": "MAR 1995",
+        "to": "JUN 2026"
+      },
+      "coverage": "España",
+      "unit": "Miles de euros",
+      "license": "Términos de las estadísticas del Banco de España",
+      "notes": "Elaboración propia con datos extraídos del sitio web del Banco de España (www.bde.es). Se conservan la unidad, los códigos de serie, las notas y el símbolo de cada dato ausente.",
+      "dataFile": "hacienda/bde/index.json"
+    },
+    {
+      "id": "fiscal:674129270",
+      "title": "Administraciones públicas · cuadro 11.12",
+      "sourceId": "F041",
+      "categoryIds": [
+        "F09"
+      ],
+      "status": "integrado",
+      "url": "https://www.bde.es/webbe/es/estadisticas/otras-clasificaciones/publicaciones/boletin-estadistico/capitulo-11.html",
+      "mapAction": "fiscal:674129270",
+      "period": {
+        "from": "DIC 1994",
+        "to": "JUN 2026"
+      },
+      "coverage": "España",
+      "unit": "Según serie",
+      "license": "Términos de las estadísticas del Banco de España",
+      "notes": "Elaboración propia con datos extraídos del sitio web del Banco de España (www.bde.es). Se conservan la unidad, los códigos de serie, las notas y el símbolo de cada dato ausente.",
+      "dataFile": "hacienda/bde/index.json"
+    },
+    {
+      "id": "fiscal:674129271",
+      "title": "Administraciones públicas · cuadro 11.13",
+      "sourceId": "F041",
+      "categoryIds": [
+        "F09"
+      ],
+      "status": "integrado",
+      "url": "https://www.bde.es/webbe/es/estadisticas/otras-clasificaciones/publicaciones/boletin-estadistico/capitulo-11.html",
+      "mapAction": "fiscal:674129271",
+      "period": {
+        "from": "MAR 1994",
+        "to": "JUN 2026"
+      },
+      "coverage": "España",
+      "unit": "Miles de euros",
+      "license": "Términos de las estadísticas del Banco de España",
+      "notes": "Elaboración propia con datos extraídos del sitio web del Banco de España (www.bde.es). Se conservan la unidad, los códigos de serie, las notas y el símbolo de cada dato ausente.",
+      "dataFile": "hacienda/bde/index.json"
+    },
+    {
+      "id": "fiscal:674129272",
+      "title": "Administraciones públicas · cuadro 11.14",
+      "sourceId": "F041",
+      "categoryIds": [
+        "F09"
+      ],
+      "status": "integrado",
+      "url": "https://www.bde.es/webbe/es/estadisticas/otras-clasificaciones/publicaciones/boletin-estadistico/capitulo-11.html",
+      "mapAction": "fiscal:674129272",
+      "period": {
+        "from": "MAR 1995",
+        "to": "JUN 2026"
+      },
+      "coverage": "España",
+      "unit": "Miles de euros",
+      "license": "Términos de las estadísticas del Banco de España",
+      "notes": "Elaboración propia con datos extraídos del sitio web del Banco de España (www.bde.es). Se conservan la unidad, los códigos de serie, las notas y el símbolo de cada dato ausente.",
+      "dataFile": "hacienda/bde/index.json"
+    },
+    {
+      "id": "fiscal:674129273",
+      "title": "Administraciones públicas · cuadro 11.15",
+      "sourceId": "F041",
+      "categoryIds": [
+        "F09"
+      ],
+      "status": "integrado",
+      "url": "https://www.bde.es/webbe/es/estadisticas/otras-clasificaciones/publicaciones/boletin-estadistico/capitulo-11.html",
+      "mapAction": "fiscal:674129273",
+      "period": {
+        "from": "DIC 1994",
+        "to": "JUN 2026"
+      },
+      "coverage": "España",
+      "unit": "Según serie",
+      "license": "Términos de las estadísticas del Banco de España",
+      "notes": "Elaboración propia con datos extraídos del sitio web del Banco de España (www.bde.es). Se conservan la unidad, los códigos de serie, las notas y el símbolo de cada dato ausente.",
+      "dataFile": "hacienda/bde/index.json"
+    },
+    {
+      "id": "fiscal:674129274",
+      "title": "Administraciones públicas · cuadro 11.16",
+      "sourceId": "F041",
+      "categoryIds": [
+        "F09"
+      ],
+      "status": "integrado",
+      "url": "https://www.bde.es/webbe/es/estadisticas/otras-clasificaciones/publicaciones/boletin-estadistico/capitulo-11.html",
+      "mapAction": "fiscal:674129274",
+      "period": {
+        "from": "ENE 1986",
+        "to": "SEP 2026"
+      },
+      "coverage": "España",
+      "unit": "Miles de euros",
+      "license": "Términos de las estadísticas del Banco de España",
+      "notes": "Elaboración propia con datos extraídos del sitio web del Banco de España (www.bde.es). Se conservan la unidad, los códigos de serie, las notas y el símbolo de cada dato ausente.",
+      "dataFile": "hacienda/bde/index.json"
+    },
+    {
+      "id": "fiscal:674127982",
+      "title": "Administraciones públicas · cuadro 11.a",
+      "sourceId": "F041",
+      "categoryIds": [
+        "F09"
+      ],
+      "status": "integrado",
+      "url": "https://www.bde.es/webbe/es/estadisticas/otras-clasificaciones/publicaciones/boletin-estadistico/capitulo-11.html",
+      "mapAction": "fiscal:674127982",
+      "period": {
+        "from": "ENE 1995",
+        "to": "SEP 2026"
+      },
+      "coverage": "España",
+      "unit": "Según serie",
+      "license": "Términos de las estadísticas del Banco de España",
+      "notes": "Elaboración propia con datos extraídos del sitio web del Banco de España (www.bde.es). Se conservan la unidad, los códigos de serie, las notas y el símbolo de cada dato ausente.",
+      "dataFile": "hacienda/bde/index.json"
+    },
+    {
+      "id": "fiscal:674127983",
+      "title": "Administraciones públicas · cuadro 11.b",
+      "sourceId": "F041",
+      "categoryIds": [
+        "F09"
+      ],
+      "status": "integrado",
+      "url": "https://www.bde.es/webbe/es/estadisticas/otras-clasificaciones/publicaciones/boletin-estadistico/capitulo-11.html",
+      "mapAction": "fiscal:674127983",
+      "period": {
+        "from": "DIC 1994",
+        "to": "AGO 2026"
+      },
+      "coverage": "España",
+      "unit": "Miles de euros",
+      "license": "Términos de las estadísticas del Banco de España",
+      "notes": "Elaboración propia con datos extraídos del sitio web del Banco de España (www.bde.es). Se conservan la unidad, los códigos de serie, las notas y el símbolo de cada dato ausente.",
+      "dataFile": "hacienda/bde/index.json"
+    },
+    {
+      "id": "fiscal:734595409",
+      "title": "Administración central y Seguridad Social · cuadro 12.1",
+      "sourceId": "F041",
+      "categoryIds": [
+        "F09"
+      ],
+      "status": "integrado",
+      "url": "https://www.bde.es/webbe/es/estadisticas/otras-clasificaciones/publicaciones/boletin-estadistico/capitulo-12.html",
+      "mapAction": "fiscal:734595409",
+      "period": {
+        "from": "DIC 1994",
+        "to": "JUN 2026"
+      },
+      "coverage": "España",
+      "unit": "Miles de euros",
+      "license": "Términos de las estadísticas del Banco de España",
+      "notes": "Elaboración propia con datos extraídos del sitio web del Banco de España (www.bde.es). Se conservan la unidad, los códigos de serie, las notas y el símbolo de cada dato ausente.",
+      "dataFile": "hacienda/bde/index.json"
+    },
+    {
+      "id": "fiscal:734595410",
+      "title": "Administración central y Seguridad Social · cuadro 12.2",
+      "sourceId": "F041",
+      "categoryIds": [
+        "F09"
+      ],
+      "status": "integrado",
+      "url": "https://www.bde.es/webbe/es/estadisticas/otras-clasificaciones/publicaciones/boletin-estadistico/capitulo-12.html",
+      "mapAction": "fiscal:734595410",
+      "period": {
+        "from": "MAR 1995",
+        "to": "JUN 2026"
+      },
+      "coverage": "España",
+      "unit": "Según serie",
+      "license": "Términos de las estadísticas del Banco de España",
+      "notes": "Elaboración propia con datos extraídos del sitio web del Banco de España (www.bde.es). Se conservan la unidad, los códigos de serie, las notas y el símbolo de cada dato ausente.",
+      "dataFile": "hacienda/bde/index.json"
+    },
+    {
+      "id": "fiscal:734595411",
+      "title": "Administración central y Seguridad Social · cuadro 12.3",
+      "sourceId": "F041",
+      "categoryIds": [
+        "F09"
+      ],
+      "status": "integrado",
+      "url": "https://www.bde.es/webbe/es/estadisticas/otras-clasificaciones/publicaciones/boletin-estadistico/capitulo-12.html",
+      "mapAction": "fiscal:734595411",
+      "period": {
+        "from": "MAR 1995",
+        "to": "JUN 2026"
+      },
+      "coverage": "España",
+      "unit": "Miles de euros",
+      "license": "Términos de las estadísticas del Banco de España",
+      "notes": "Elaboración propia con datos extraídos del sitio web del Banco de España (www.bde.es). Se conservan la unidad, los códigos de serie, las notas y el símbolo de cada dato ausente.",
+      "dataFile": "hacienda/bde/index.json"
+    },
+    {
+      "id": "fiscal:734595412",
+      "title": "Administración central y Seguridad Social · cuadro 12.4",
+      "sourceId": "F041",
+      "categoryIds": [
+        "F09"
+      ],
+      "status": "integrado",
+      "url": "https://www.bde.es/webbe/es/estadisticas/otras-clasificaciones/publicaciones/boletin-estadistico/capitulo-12.html",
+      "mapAction": "fiscal:734595412",
+      "period": {
+        "from": "MAR 1995",
+        "to": "JUN 2026"
+      },
+      "coverage": "España",
+      "unit": "Porcentaje",
+      "license": "Términos de las estadísticas del Banco de España",
+      "notes": "Elaboración propia con datos extraídos del sitio web del Banco de España (www.bde.es). Se conservan la unidad, los códigos de serie, las notas y el símbolo de cada dato ausente.",
+      "dataFile": "hacienda/bde/index.json"
+    },
+    {
+      "id": "fiscal:734595413",
+      "title": "Administración central y Seguridad Social · cuadro 12.5",
+      "sourceId": "F041",
+      "categoryIds": [
+        "F09"
+      ],
+      "status": "integrado",
+      "url": "https://www.bde.es/webbe/es/estadisticas/otras-clasificaciones/publicaciones/boletin-estadistico/capitulo-12.html",
+      "mapAction": "fiscal:734595413",
+      "period": {
+        "from": "MAR 1995",
+        "to": "JUN 2026"
+      },
+      "coverage": "España",
+      "unit": "Miles de euros",
+      "license": "Términos de las estadísticas del Banco de España",
+      "notes": "Elaboración propia con datos extraídos del sitio web del Banco de España (www.bde.es). Se conservan la unidad, los códigos de serie, las notas y el símbolo de cada dato ausente.",
+      "dataFile": "hacienda/bde/index.json"
+    },
+    {
+      "id": "fiscal:734595414",
+      "title": "Administración central y Seguridad Social · cuadro 12.6",
+      "sourceId": "F041",
+      "categoryIds": [
+        "F09"
+      ],
+      "status": "integrado",
+      "url": "https://www.bde.es/webbe/es/estadisticas/otras-clasificaciones/publicaciones/boletin-estadistico/capitulo-12.html",
+      "mapAction": "fiscal:734595414",
+      "period": {
+        "from": "DIC 1994",
+        "to": "JUN 2026"
+      },
+      "coverage": "España",
+      "unit": "Según serie",
+      "license": "Términos de las estadísticas del Banco de España",
+      "notes": "Elaboración propia con datos extraídos del sitio web del Banco de España (www.bde.es). Se conservan la unidad, los códigos de serie, las notas y el símbolo de cada dato ausente.",
+      "dataFile": "hacienda/bde/index.json"
+    },
+    {
+      "id": "fiscal:734595415",
+      "title": "Administración central y Seguridad Social · cuadro 12.7",
+      "sourceId": "F041",
+      "categoryIds": [
+        "F09"
+      ],
+      "status": "integrado",
+      "url": "https://www.bde.es/webbe/es/estadisticas/otras-clasificaciones/publicaciones/boletin-estadistico/capitulo-12.html",
+      "mapAction": "fiscal:734595415",
+      "period": {
+        "from": "DIC 1994",
+        "to": "JUN 2026"
+      },
+      "coverage": "España",
+      "unit": "Miles de euros",
+      "license": "Términos de las estadísticas del Banco de España",
+      "notes": "Elaboración propia con datos extraídos del sitio web del Banco de España (www.bde.es). Se conservan la unidad, los códigos de serie, las notas y el símbolo de cada dato ausente.",
+      "dataFile": "hacienda/bde/index.json"
+    },
+    {
+      "id": "fiscal:734595416",
+      "title": "Administración central y Seguridad Social · cuadro 12.8",
+      "sourceId": "F041",
+      "categoryIds": [
+        "F09"
+      ],
+      "status": "integrado",
+      "url": "https://www.bde.es/webbe/es/estadisticas/otras-clasificaciones/publicaciones/boletin-estadistico/capitulo-12.html",
+      "mapAction": "fiscal:734595416",
+      "period": {
+        "from": "DIC 1994",
+        "to": "JUN 2026"
+      },
+      "coverage": "España",
+      "unit": "Según serie",
+      "license": "Términos de las estadísticas del Banco de España",
+      "notes": "Elaboración propia con datos extraídos del sitio web del Banco de España (www.bde.es). Se conservan la unidad, los códigos de serie, las notas y el símbolo de cada dato ausente.",
+      "dataFile": "hacienda/bde/index.json"
+    },
+    {
+      "id": "fiscal:734595417",
+      "title": "Administración central y Seguridad Social · cuadro 12.9",
+      "sourceId": "F041",
+      "categoryIds": [
+        "F09"
+      ],
+      "status": "integrado",
+      "url": "https://www.bde.es/webbe/es/estadisticas/otras-clasificaciones/publicaciones/boletin-estadistico/capitulo-12.html",
+      "mapAction": "fiscal:734595417",
+      "period": {
+        "from": "DIC 1994",
+        "to": "JUN 2026"
+      },
+      "coverage": "España",
+      "unit": "Según serie",
+      "license": "Términos de las estadísticas del Banco de España",
+      "notes": "Elaboración propia con datos extraídos del sitio web del Banco de España (www.bde.es). Se conservan la unidad, los códigos de serie, las notas y el símbolo de cada dato ausente.",
+      "dataFile": "hacienda/bde/index.json"
+    },
+    {
+      "id": "fiscal:734595444",
+      "title": "Administración central y Seguridad Social · cuadro 12.10",
+      "sourceId": "F041",
+      "categoryIds": [
+        "F09"
+      ],
+      "status": "integrado",
+      "url": "https://www.bde.es/webbe/es/estadisticas/otras-clasificaciones/publicaciones/boletin-estadistico/capitulo-12.html",
+      "mapAction": "fiscal:734595444",
+      "period": {
+        "from": "DIC 1994",
+        "to": "JUN 2026"
+      },
+      "coverage": "España",
+      "unit": "Según serie",
+      "license": "Términos de las estadísticas del Banco de España",
+      "notes": "Elaboración propia con datos extraídos del sitio web del Banco de España (www.bde.es). Se conservan la unidad, los códigos de serie, las notas y el símbolo de cada dato ausente.",
+      "dataFile": "hacienda/bde/index.json"
+    },
+    {
+      "id": "fiscal:734595445",
+      "title": "Administración central y Seguridad Social · cuadro 12.11",
+      "sourceId": "F041",
+      "categoryIds": [
+        "F09"
+      ],
+      "status": "integrado",
+      "url": "https://www.bde.es/webbe/es/estadisticas/otras-clasificaciones/publicaciones/boletin-estadistico/capitulo-12.html",
+      "mapAction": "fiscal:734595445",
+      "period": {
+        "from": "DIC 1979",
+        "to": "JUN 2026"
+      },
+      "coverage": "España",
+      "unit": "Miles de euros",
+      "license": "Términos de las estadísticas del Banco de España",
+      "notes": "Elaboración propia con datos extraídos del sitio web del Banco de España (www.bde.es). Se conservan la unidad, los códigos de serie, las notas y el símbolo de cada dato ausente.",
+      "dataFile": "hacienda/bde/index.json"
+    },
+    {
+      "id": "fiscal:734595446",
+      "title": "Administración central y Seguridad Social · cuadro 12.12",
+      "sourceId": "F041",
+      "categoryIds": [
+        "F09"
+      ],
+      "status": "integrado",
+      "url": "https://www.bde.es/webbe/es/estadisticas/otras-clasificaciones/publicaciones/boletin-estadistico/capitulo-12.html",
+      "mapAction": "fiscal:734595446",
+      "period": {
+        "from": "MAR 1995",
+        "to": "JUN 2026"
+      },
+      "coverage": "España",
+      "unit": "Según serie",
+      "license": "Términos de las estadísticas del Banco de España",
+      "notes": "Elaboración propia con datos extraídos del sitio web del Banco de España (www.bde.es). Se conservan la unidad, los códigos de serie, las notas y el símbolo de cada dato ausente.",
+      "dataFile": "hacienda/bde/index.json"
+    },
+    {
+      "id": "fiscal:734595447",
+      "title": "Administración central y Seguridad Social · cuadro 12.13",
+      "sourceId": "F041",
+      "categoryIds": [
+        "F09"
+      ],
+      "status": "integrado",
+      "url": "https://www.bde.es/webbe/es/estadisticas/otras-clasificaciones/publicaciones/boletin-estadistico/capitulo-12.html",
+      "mapAction": "fiscal:734595447",
+      "period": {
+        "from": "DIC 1962",
+        "to": "JUN 2026"
+      },
+      "coverage": "España",
+      "unit": "Miles de euros",
+      "license": "Términos de las estadísticas del Banco de España",
+      "notes": "Elaboración propia con datos extraídos del sitio web del Banco de España (www.bde.es). Se conservan la unidad, los códigos de serie, las notas y el símbolo de cada dato ausente.",
+      "dataFile": "hacienda/bde/index.json"
+    },
+    {
+      "id": "fiscal:734595448",
+      "title": "Administración central y Seguridad Social · cuadro 12.14",
+      "sourceId": "F041",
+      "categoryIds": [
+        "F09"
+      ],
+      "status": "integrado",
+      "url": "https://www.bde.es/webbe/es/estadisticas/otras-clasificaciones/publicaciones/boletin-estadistico/capitulo-12.html",
+      "mapAction": "fiscal:734595448",
+      "period": {
+        "from": "MAR 1995",
+        "to": "JUN 2026"
+      },
+      "coverage": "España",
+      "unit": "Porcentaje",
+      "license": "Términos de las estadísticas del Banco de España",
+      "notes": "Elaboración propia con datos extraídos del sitio web del Banco de España (www.bde.es). Se conservan la unidad, los códigos de serie, las notas y el símbolo de cada dato ausente.",
+      "dataFile": "hacienda/bde/index.json"
+    },
+    {
+      "id": "fiscal:734595449",
+      "title": "Administración central y Seguridad Social · cuadro 12.15",
+      "sourceId": "F041",
+      "categoryIds": [
+        "F09"
+      ],
+      "status": "integrado",
+      "url": "https://www.bde.es/webbe/es/estadisticas/otras-clasificaciones/publicaciones/boletin-estadistico/capitulo-12.html",
+      "mapAction": "fiscal:734595449",
+      "period": {
+        "from": "MAR 1995",
+        "to": "JUN 2026"
+      },
+      "coverage": "España",
+      "unit": "Miles de euros",
+      "license": "Términos de las estadísticas del Banco de España",
+      "notes": "Elaboración propia con datos extraídos del sitio web del Banco de España (www.bde.es). Se conservan la unidad, los códigos de serie, las notas y el símbolo de cada dato ausente.",
+      "dataFile": "hacienda/bde/index.json"
+    },
+    {
+      "id": "fiscal:734595450",
+      "title": "Administración central y Seguridad Social · cuadro 12.16",
+      "sourceId": "F041",
+      "categoryIds": [
+        "F09"
+      ],
+      "status": "integrado",
+      "url": "https://www.bde.es/webbe/es/estadisticas/otras-clasificaciones/publicaciones/boletin-estadistico/capitulo-12.html",
+      "mapAction": "fiscal:734595450",
+      "period": {
+        "from": "DIC 1994",
+        "to": "JUN 2026"
+      },
+      "coverage": "España",
+      "unit": "Según serie",
+      "license": "Términos de las estadísticas del Banco de España",
+      "notes": "Elaboración propia con datos extraídos del sitio web del Banco de España (www.bde.es). Se conservan la unidad, los códigos de serie, las notas y el símbolo de cada dato ausente.",
+      "dataFile": "hacienda/bde/index.json"
+    },
+    {
+      "id": "fiscal:734594158",
+      "title": "Administración central y Seguridad Social · cuadro 12.a",
+      "sourceId": "F041",
+      "categoryIds": [
+        "F09"
+      ],
+      "status": "integrado",
+      "url": "https://www.bde.es/webbe/es/estadisticas/otras-clasificaciones/publicaciones/boletin-estadistico/capitulo-12.html",
+      "mapAction": "fiscal:734594158",
+      "period": {
+        "from": "ENE 1985",
+        "to": "SEP 2026"
+      },
+      "coverage": "España",
+      "unit": "Miles de euros",
+      "license": "Términos de las estadísticas del Banco de España",
+      "notes": "Elaboración propia con datos extraídos del sitio web del Banco de España (www.bde.es). Se conservan la unidad, los códigos de serie, las notas y el símbolo de cada dato ausente.",
+      "dataFile": "hacienda/bde/index.json"
+    },
+    {
+      "id": "fiscal:734594159",
+      "title": "Administración central y Seguridad Social · cuadro 12.b",
+      "sourceId": "F041",
+      "categoryIds": [
+        "F09"
+      ],
+      "status": "integrado",
+      "url": "https://www.bde.es/webbe/es/estadisticas/otras-clasificaciones/publicaciones/boletin-estadistico/capitulo-12.html",
+      "mapAction": "fiscal:734594159",
+      "period": {
+        "from": "ENE 1995",
+        "to": "SEP 2026"
+      },
+      "coverage": "España",
+      "unit": "Miles de euros",
+      "license": "Términos de las estadísticas del Banco de España",
+      "notes": "Elaboración propia con datos extraídos del sitio web del Banco de España (www.bde.es). Se conservan la unidad, los códigos de serie, las notas y el símbolo de cada dato ausente.",
+      "dataFile": "hacienda/bde/index.json"
+    },
+    {
+      "id": "fiscal:734594160",
+      "title": "Administración central y Seguridad Social · cuadro 12.c",
+      "sourceId": "F041",
+      "categoryIds": [
+        "F09"
+      ],
+      "status": "integrado",
+      "url": "https://www.bde.es/webbe/es/estadisticas/otras-clasificaciones/publicaciones/boletin-estadistico/capitulo-12.html",
+      "mapAction": "fiscal:734594160",
+      "period": {
+        "from": "DIC 1991",
+        "to": "SEP 2026"
+      },
+      "coverage": "España",
+      "unit": "Miles de euros",
+      "license": "Términos de las estadísticas del Banco de España",
+      "notes": "Elaboración propia con datos extraídos del sitio web del Banco de España (www.bde.es). Se conservan la unidad, los códigos de serie, las notas y el símbolo de cada dato ausente.",
+      "dataFile": "hacienda/bde/index.json"
+    },
+    {
+      "id": "fiscal:795061585",
+      "title": "Comunidades autónomas · cuadro 13.1",
+      "sourceId": "F041",
+      "categoryIds": [
+        "F09"
+      ],
+      "status": "integrado",
+      "url": "https://www.bde.es/webbe/es/estadisticas/otras-clasificaciones/publicaciones/boletin-estadistico/capitulo-13.html",
+      "mapAction": "fiscal:795061585",
+      "period": {
+        "from": "DIC 1994",
+        "to": "JUN 2026"
+      },
+      "coverage": "España",
+      "unit": "Miles de euros",
+      "license": "Términos de las estadísticas del Banco de España",
+      "notes": "Elaboración propia con datos extraídos del sitio web del Banco de España (www.bde.es). Se conservan la unidad, los códigos de serie, las notas y el símbolo de cada dato ausente.",
+      "dataFile": "hacienda/bde/index.json"
+    },
+    {
+      "id": "fiscal:795061586",
+      "title": "Comunidades autónomas · cuadro 13.2",
+      "sourceId": "F041",
+      "categoryIds": [
+        "F09"
+      ],
+      "status": "integrado",
+      "url": "https://www.bde.es/webbe/es/estadisticas/otras-clasificaciones/publicaciones/boletin-estadistico/capitulo-13.html",
+      "mapAction": "fiscal:795061586",
+      "period": {
+        "from": "MAR 1995",
+        "to": "JUN 2026"
+      },
+      "coverage": "España",
+      "unit": "Según serie",
+      "license": "Términos de las estadísticas del Banco de España",
+      "notes": "Elaboración propia con datos extraídos del sitio web del Banco de España (www.bde.es). Se conservan la unidad, los códigos de serie, las notas y el símbolo de cada dato ausente.",
+      "dataFile": "hacienda/bde/index.json"
+    },
+    {
+      "id": "fiscal:795061587",
+      "title": "Comunidades autónomas · cuadro 13.3",
+      "sourceId": "F041",
+      "categoryIds": [
+        "F09"
+      ],
+      "status": "integrado",
+      "url": "https://www.bde.es/webbe/es/estadisticas/otras-clasificaciones/publicaciones/boletin-estadistico/capitulo-13.html",
+      "mapAction": "fiscal:795061587",
+      "period": {
+        "from": "MAR 1995",
+        "to": "JUN 2026"
+      },
+      "coverage": "España",
+      "unit": "Miles de euros",
+      "license": "Términos de las estadísticas del Banco de España",
+      "notes": "Elaboración propia con datos extraídos del sitio web del Banco de España (www.bde.es). Se conservan la unidad, los códigos de serie, las notas y el símbolo de cada dato ausente.",
+      "dataFile": "hacienda/bde/index.json"
+    },
+    {
+      "id": "fiscal:795061588",
+      "title": "Comunidades autónomas · cuadro 13.4",
+      "sourceId": "F041",
+      "categoryIds": [
+        "F09"
+      ],
+      "status": "integrado",
+      "url": "https://www.bde.es/webbe/es/estadisticas/otras-clasificaciones/publicaciones/boletin-estadistico/capitulo-13.html",
+      "mapAction": "fiscal:795061588",
+      "period": {
+        "from": "MAR 1995",
+        "to": "JUN 2026"
+      },
+      "coverage": "España",
+      "unit": "Porcentaje",
+      "license": "Términos de las estadísticas del Banco de España",
+      "notes": "Elaboración propia con datos extraídos del sitio web del Banco de España (www.bde.es). Se conservan la unidad, los códigos de serie, las notas y el símbolo de cada dato ausente.",
+      "dataFile": "hacienda/bde/index.json"
+    },
+    {
+      "id": "fiscal:795061589",
+      "title": "Comunidades autónomas · cuadro 13.5",
+      "sourceId": "F041",
+      "categoryIds": [
+        "F09"
+      ],
+      "status": "integrado",
+      "url": "https://www.bde.es/webbe/es/estadisticas/otras-clasificaciones/publicaciones/boletin-estadistico/capitulo-13.html",
+      "mapAction": "fiscal:795061589",
+      "period": {
+        "from": "MAR 1995",
+        "to": "JUN 2026"
+      },
+      "coverage": "España",
+      "unit": "Miles de euros",
+      "license": "Términos de las estadísticas del Banco de España",
+      "notes": "Elaboración propia con datos extraídos del sitio web del Banco de España (www.bde.es). Se conservan la unidad, los códigos de serie, las notas y el símbolo de cada dato ausente.",
+      "dataFile": "hacienda/bde/index.json"
+    },
+    {
+      "id": "fiscal:795061590",
+      "title": "Deuda autonómica por instrumento y comunidad",
+      "sourceId": "F041",
+      "categoryIds": [
+        "F09"
+      ],
+      "status": "integrado",
+      "url": "https://www.bde.es/webbe/es/estadisticas/otras-clasificaciones/publicaciones/boletin-estadistico/capitulo-13.html",
+      "mapAction": "fiscal:795061590",
+      "period": {
+        "from": "DIC 1994",
+        "to": "JUN 2026"
+      },
+      "coverage": "Comunidades autónomas · España",
+      "unit": "Miles de euros",
+      "license": "Términos de las estadísticas del Banco de España",
+      "notes": "Elaboración propia con datos extraídos del sitio web del Banco de España (www.bde.es). Se conservan la unidad, los códigos de serie, las notas y el símbolo de cada dato ausente.",
+      "dataFile": "hacienda/bde/index.json"
+    },
+    {
+      "id": "fiscal:795061591",
+      "title": "Comunidades autónomas · cuadro 13.7",
+      "sourceId": "F041",
+      "categoryIds": [
+        "F09"
+      ],
+      "status": "integrado",
+      "url": "https://www.bde.es/webbe/es/estadisticas/otras-clasificaciones/publicaciones/boletin-estadistico/capitulo-13.html",
+      "mapAction": "fiscal:795061591",
+      "period": {
+        "from": "DIC 1994",
+        "to": "JUN 2026"
+      },
+      "coverage": "España",
+      "unit": "Según serie",
+      "license": "Términos de las estadísticas del Banco de España",
+      "notes": "Elaboración propia con datos extraídos del sitio web del Banco de España (www.bde.es). Se conservan la unidad, los códigos de serie, las notas y el símbolo de cada dato ausente.",
+      "dataFile": "hacienda/bde/index.json"
+    },
+    {
+      "id": "fiscal:795061592",
+      "title": "Comunidades autónomas · cuadro 13.8",
+      "sourceId": "F041",
+      "categoryIds": [
+        "F09"
+      ],
+      "status": "integrado",
+      "url": "https://www.bde.es/webbe/es/estadisticas/otras-clasificaciones/publicaciones/boletin-estadistico/capitulo-13.html",
+      "mapAction": "fiscal:795061592",
+      "period": {
+        "from": "DIC 1994",
+        "to": "JUN 2026"
+      },
+      "coverage": "España",
+      "unit": "Según serie",
+      "license": "Términos de las estadísticas del Banco de España",
+      "notes": "Elaboración propia con datos extraídos del sitio web del Banco de España (www.bde.es). Se conservan la unidad, los códigos de serie, las notas y el símbolo de cada dato ausente.",
+      "dataFile": "hacienda/bde/index.json"
+    },
+    {
+      "id": "fiscal:795061593",
+      "title": "Deuda PDE por comunidad autónoma",
+      "sourceId": "F041",
+      "categoryIds": [
+        "F09"
+      ],
+      "status": "integrado",
+      "url": "https://www.bde.es/webbe/es/estadisticas/otras-clasificaciones/publicaciones/boletin-estadistico/capitulo-13.html",
+      "mapAction": "fiscal:795061593",
+      "period": {
+        "from": "DIC 1994",
+        "to": "JUN 2026"
+      },
+      "coverage": "Comunidades autónomas · España",
+      "unit": "Miles de euros",
+      "license": "Términos de las estadísticas del Banco de España",
+      "notes": "Elaboración propia con datos extraídos del sitio web del Banco de España (www.bde.es). Se conservan la unidad, los códigos de serie, las notas y el símbolo de cada dato ausente.",
+      "dataFile": "hacienda/bde/index.json"
+    },
+    {
+      "id": "fiscal:795061620",
+      "title": "Deuda PDE por comunidad autónoma en porcentaje del PIB",
+      "sourceId": "F041",
+      "categoryIds": [
+        "F09"
+      ],
+      "status": "integrado",
+      "url": "https://www.bde.es/webbe/es/estadisticas/otras-clasificaciones/publicaciones/boletin-estadistico/capitulo-13.html",
+      "mapAction": "fiscal:795061620",
+      "period": {
+        "from": "MAR 1995",
+        "to": "JUN 2026"
+      },
+      "coverage": "Comunidades autónomas · España",
+      "unit": "Porcentaje",
+      "license": "Términos de las estadísticas del Banco de España",
+      "notes": "Elaboración propia con datos extraídos del sitio web del Banco de España (www.bde.es). Se conservan la unidad, los códigos de serie, las notas y el símbolo de cada dato ausente.",
+      "dataFile": "hacienda/bde/index.json"
+    },
+    {
+      "id": "fiscal:795061621",
+      "title": "Comunidades autónomas · cuadro 13.11",
+      "sourceId": "F041",
+      "categoryIds": [
+        "F09"
+      ],
+      "status": "integrado",
+      "url": "https://www.bde.es/webbe/es/estadisticas/otras-clasificaciones/publicaciones/boletin-estadistico/capitulo-13.html",
+      "mapAction": "fiscal:795061621",
+      "period": {
+        "from": "DIC 1994",
+        "to": "JUN 2026"
+      },
+      "coverage": "Comunidades autónomas · España",
+      "unit": "Miles de euros",
+      "license": "Términos de las estadísticas del Banco de España",
+      "notes": "Elaboración propia con datos extraídos del sitio web del Banco de España (www.bde.es). Se conservan la unidad, los códigos de serie, las notas y el símbolo de cada dato ausente.",
+      "dataFile": "hacienda/bde/index.json"
+    },
+    {
+      "id": "fiscal:795061622",
+      "title": "Comunidades autónomas · cuadro 13.12",
+      "sourceId": "F041",
+      "categoryIds": [
+        "F09"
+      ],
+      "status": "integrado",
+      "url": "https://www.bde.es/webbe/es/estadisticas/otras-clasificaciones/publicaciones/boletin-estadistico/capitulo-13.html",
+      "mapAction": "fiscal:795061622",
+      "period": {
+        "from": "MAR 1995",
+        "to": "JUN 2026"
+      },
+      "coverage": "Comunidades autónomas · España",
+      "unit": "Porcentaje",
+      "license": "Términos de las estadísticas del Banco de España",
+      "notes": "Elaboración propia con datos extraídos del sitio web del Banco de España (www.bde.es). Se conservan la unidad, los códigos de serie, las notas y el símbolo de cada dato ausente.",
+      "dataFile": "hacienda/bde/index.json"
+    },
+    {
+      "id": "fiscal:795060334",
+      "title": "Capacidad o necesidad de financiación por comunidad autónoma",
+      "sourceId": "F041",
+      "categoryIds": [
+        "F09"
+      ],
+      "status": "integrado",
+      "url": "https://www.bde.es/webbe/es/estadisticas/otras-clasificaciones/publicaciones/boletin-estadistico/capitulo-13.html",
+      "mapAction": "fiscal:795060334",
+      "period": {
+        "from": "DIC 2004",
+        "to": "AGO 2026"
+      },
+      "coverage": "Comunidades autónomas · España",
+      "unit": "Miles de euros",
+      "license": "Términos de las estadísticas del Banco de España",
+      "notes": "Elaboración propia con datos extraídos del sitio web del Banco de España (www.bde.es). Se conservan la unidad, los códigos de serie, las notas y el símbolo de cada dato ausente.",
+      "dataFile": "hacienda/bde/index.json"
+    },
+    {
+      "id": "fiscal:855527761",
+      "title": "Corporaciones locales · cuadro 14.1",
+      "sourceId": "F041",
+      "categoryIds": [
+        "F09"
+      ],
+      "status": "integrado",
+      "url": "https://www.bde.es/webbe/es/estadisticas/otras-clasificaciones/publicaciones/boletin-estadistico/capitulo-14.html",
+      "mapAction": "fiscal:855527761",
+      "period": {
+        "from": "DIC 1994",
+        "to": "JUN 2026"
+      },
+      "coverage": "España",
+      "unit": "Miles de euros",
+      "license": "Términos de las estadísticas del Banco de España",
+      "notes": "Elaboración propia con datos extraídos del sitio web del Banco de España (www.bde.es). Se conservan la unidad, los códigos de serie, las notas y el símbolo de cada dato ausente.",
+      "dataFile": "hacienda/bde/index.json"
+    },
+    {
+      "id": "fiscal:855527762",
+      "title": "Corporaciones locales · cuadro 14.2",
+      "sourceId": "F041",
+      "categoryIds": [
+        "F09"
+      ],
+      "status": "integrado",
+      "url": "https://www.bde.es/webbe/es/estadisticas/otras-clasificaciones/publicaciones/boletin-estadistico/capitulo-14.html",
+      "mapAction": "fiscal:855527762",
+      "period": {
+        "from": "MAR 1995",
+        "to": "JUN 2026"
+      },
+      "coverage": "España",
+      "unit": "Según serie",
+      "license": "Términos de las estadísticas del Banco de España",
+      "notes": "Elaboración propia con datos extraídos del sitio web del Banco de España (www.bde.es). Se conservan la unidad, los códigos de serie, las notas y el símbolo de cada dato ausente.",
+      "dataFile": "hacienda/bde/index.json"
+    },
+    {
+      "id": "fiscal:855527763",
+      "title": "Corporaciones locales · cuadro 14.3",
+      "sourceId": "F041",
+      "categoryIds": [
+        "F09"
+      ],
+      "status": "integrado",
+      "url": "https://www.bde.es/webbe/es/estadisticas/otras-clasificaciones/publicaciones/boletin-estadistico/capitulo-14.html",
+      "mapAction": "fiscal:855527763",
+      "period": {
+        "from": "MAR 1995",
+        "to": "JUN 2026"
+      },
+      "coverage": "España",
+      "unit": "Miles de euros",
+      "license": "Términos de las estadísticas del Banco de España",
+      "notes": "Elaboración propia con datos extraídos del sitio web del Banco de España (www.bde.es). Se conservan la unidad, los códigos de serie, las notas y el símbolo de cada dato ausente.",
+      "dataFile": "hacienda/bde/index.json"
+    },
+    {
+      "id": "fiscal:855527764",
+      "title": "Corporaciones locales · cuadro 14.4",
+      "sourceId": "F041",
+      "categoryIds": [
+        "F09"
+      ],
+      "status": "integrado",
+      "url": "https://www.bde.es/webbe/es/estadisticas/otras-clasificaciones/publicaciones/boletin-estadistico/capitulo-14.html",
+      "mapAction": "fiscal:855527764",
+      "period": {
+        "from": "MAR 1995",
+        "to": "JUN 2026"
+      },
+      "coverage": "España",
+      "unit": "Porcentaje",
+      "license": "Términos de las estadísticas del Banco de España",
+      "notes": "Elaboración propia con datos extraídos del sitio web del Banco de España (www.bde.es). Se conservan la unidad, los códigos de serie, las notas y el símbolo de cada dato ausente.",
+      "dataFile": "hacienda/bde/index.json"
+    },
+    {
+      "id": "fiscal:855527765",
+      "title": "Corporaciones locales · cuadro 14.5",
+      "sourceId": "F041",
+      "categoryIds": [
+        "F09"
+      ],
+      "status": "integrado",
+      "url": "https://www.bde.es/webbe/es/estadisticas/otras-clasificaciones/publicaciones/boletin-estadistico/capitulo-14.html",
+      "mapAction": "fiscal:855527765",
+      "period": {
+        "from": "MAR 1995",
+        "to": "JUN 2026"
+      },
+      "coverage": "España",
+      "unit": "Miles de euros",
+      "license": "Términos de las estadísticas del Banco de España",
+      "notes": "Elaboración propia con datos extraídos del sitio web del Banco de España (www.bde.es). Se conservan la unidad, los códigos de serie, las notas y el símbolo de cada dato ausente.",
+      "dataFile": "hacienda/bde/index.json"
+    },
+    {
+      "id": "fiscal:855527766",
+      "title": "Deuda de las corporaciones locales por entidad e instrumento",
+      "sourceId": "F041",
+      "categoryIds": [
+        "F09"
+      ],
+      "status": "integrado",
+      "url": "https://www.bde.es/webbe/es/estadisticas/otras-clasificaciones/publicaciones/boletin-estadistico/capitulo-14.html",
+      "mapAction": "fiscal:855527766",
+      "period": {
+        "from": "DIC 1994",
+        "to": "JUN 2026"
+      },
+      "coverage": "Municipios · España",
+      "unit": "Miles de euros",
+      "license": "Términos de las estadísticas del Banco de España",
+      "notes": "Elaboración propia con datos extraídos del sitio web del Banco de España (www.bde.es). Se conservan la unidad, los códigos de serie, las notas y el símbolo de cada dato ausente.",
+      "dataFile": "hacienda/bde/index.json"
+    },
+    {
+      "id": "fiscal:857213858",
+      "title": "Corporaciones locales · cuadro 14.602",
+      "sourceId": "F041",
+      "categoryIds": [
+        "F09"
+      ],
+      "status": "integrado",
+      "url": "https://www.bde.es/webbe/es/estadisticas/otras-clasificaciones/publicaciones/boletin-estadistico/capitulo-14.html",
+      "mapAction": "fiscal:857213858",
+      "period": {
+        "from": "DIC 1994",
+        "to": "SEP 2018"
+      },
+      "coverage": "Municipios · España · Ámbitos de consulta",
+      "unit": "Miles de Euros",
+      "license": "Términos de las estadísticas del Banco de España",
+      "notes": "Elaboración propia con datos extraídos del sitio web del Banco de España (www.bde.es). Se conservan la unidad, los códigos de serie, las notas y el símbolo de cada dato ausente.",
+      "dataFile": "hacienda/bde/index.json"
+    },
+    {
+      "id": "fiscal:857213859",
+      "title": "Corporaciones locales · cuadro 14.603",
+      "sourceId": "F041",
+      "categoryIds": [
+        "F09"
+      ],
+      "status": "integrado",
+      "url": "https://www.bde.es/webbe/es/estadisticas/otras-clasificaciones/publicaciones/boletin-estadistico/capitulo-14.html",
+      "mapAction": "fiscal:857213859",
+      "period": {
+        "from": "DIC 1994",
+        "to": "SEP 2018"
+      },
+      "coverage": "Municipios · España · Ámbitos de consulta",
+      "unit": "Miles de Euros",
+      "license": "Términos de las estadísticas del Banco de España",
+      "notes": "Elaboración propia con datos extraídos del sitio web del Banco de España (www.bde.es). Se conservan la unidad, los códigos de serie, las notas y el símbolo de cada dato ausente.",
+      "dataFile": "hacienda/bde/index.json"
+    },
+    {
+      "id": "fiscal:857213860",
+      "title": "Corporaciones locales · cuadro 14.604",
+      "sourceId": "F041",
+      "categoryIds": [
+        "F09"
+      ],
+      "status": "integrado",
+      "url": "https://www.bde.es/webbe/es/estadisticas/otras-clasificaciones/publicaciones/boletin-estadistico/capitulo-14.html",
+      "mapAction": "fiscal:857213860",
+      "period": {
+        "from": "DIC 1994",
+        "to": "SEP 2018"
+      },
+      "coverage": "Municipios · España · Ámbitos de consulta",
+      "unit": "Miles de Euros",
+      "license": "Términos de las estadísticas del Banco de España",
+      "notes": "Elaboración propia con datos extraídos del sitio web del Banco de España (www.bde.es). Se conservan la unidad, los códigos de serie, las notas y el símbolo de cada dato ausente.",
+      "dataFile": "hacienda/bde/index.json"
+    },
+    {
+      "id": "fiscal:857213861",
+      "title": "Corporaciones locales · cuadro 14.605",
+      "sourceId": "F041",
+      "categoryIds": [
+        "F09"
+      ],
+      "status": "integrado",
+      "url": "https://www.bde.es/webbe/es/estadisticas/otras-clasificaciones/publicaciones/boletin-estadistico/capitulo-14.html",
+      "mapAction": "fiscal:857213861",
+      "period": {
+        "from": "DIC 1994",
+        "to": "SEP 2018"
+      },
+      "coverage": "Municipios · España · Ámbitos de consulta",
+      "unit": "Miles de Euros",
+      "license": "Términos de las estadísticas del Banco de España",
+      "notes": "Elaboración propia con datos extraídos del sitio web del Banco de España (www.bde.es). Se conservan la unidad, los códigos de serie, las notas y el símbolo de cada dato ausente.",
+      "dataFile": "hacienda/bde/index.json"
+    },
+    {
+      "id": "fiscal:857213862",
+      "title": "Corporaciones locales · cuadro 14.606",
+      "sourceId": "F041",
+      "categoryIds": [
+        "F09"
+      ],
+      "status": "integrado",
+      "url": "https://www.bde.es/webbe/es/estadisticas/otras-clasificaciones/publicaciones/boletin-estadistico/capitulo-14.html",
+      "mapAction": "fiscal:857213862",
+      "period": {
+        "from": "DIC 1994",
+        "to": "SEP 2018"
+      },
+      "coverage": "Municipios · España · Ámbitos de consulta",
+      "unit": "Miles de Euros",
+      "license": "Términos de las estadísticas del Banco de España",
+      "notes": "Elaboración propia con datos extraídos del sitio web del Banco de España (www.bde.es). Se conservan la unidad, los códigos de serie, las notas y el símbolo de cada dato ausente.",
+      "dataFile": "hacienda/bde/index.json"
+    },
+    {
+      "id": "fiscal:857213863",
+      "title": "Corporaciones locales · cuadro 14.607",
+      "sourceId": "F041",
+      "categoryIds": [
+        "F09"
+      ],
+      "status": "integrado",
+      "url": "https://www.bde.es/webbe/es/estadisticas/otras-clasificaciones/publicaciones/boletin-estadistico/capitulo-14.html",
+      "mapAction": "fiscal:857213863",
+      "period": {
+        "from": "DIC 1994",
+        "to": "SEP 2018"
+      },
+      "coverage": "Municipios · España · Ámbitos de consulta",
+      "unit": "Miles de Euros",
+      "license": "Términos de las estadísticas del Banco de España",
+      "notes": "Elaboración propia con datos extraídos del sitio web del Banco de España (www.bde.es). Se conservan la unidad, los códigos de serie, las notas y el símbolo de cada dato ausente.",
+      "dataFile": "hacienda/bde/index.json"
+    },
+    {
+      "id": "fiscal:857213864",
+      "title": "Corporaciones locales · cuadro 14.608",
+      "sourceId": "F041",
+      "categoryIds": [
+        "F09"
+      ],
+      "status": "integrado",
+      "url": "https://www.bde.es/webbe/es/estadisticas/otras-clasificaciones/publicaciones/boletin-estadistico/capitulo-14.html",
+      "mapAction": "fiscal:857213864",
+      "period": {
+        "from": "DIC 1994",
+        "to": "SEP 2018"
+      },
+      "coverage": "Municipios · España · Ámbitos de consulta",
+      "unit": "Miles de Euros",
+      "license": "Términos de las estadísticas del Banco de España",
+      "notes": "Elaboración propia con datos extraídos del sitio web del Banco de España (www.bde.es). Se conservan la unidad, los códigos de serie, las notas y el símbolo de cada dato ausente.",
+      "dataFile": "hacienda/bde/index.json"
+    },
+    {
+      "id": "fiscal:857213865",
+      "title": "Corporaciones locales · cuadro 14.609",
+      "sourceId": "F041",
+      "categoryIds": [
+        "F09"
+      ],
+      "status": "integrado",
+      "url": "https://www.bde.es/webbe/es/estadisticas/otras-clasificaciones/publicaciones/boletin-estadistico/capitulo-14.html",
+      "mapAction": "fiscal:857213865",
+      "period": {
+        "from": "DIC 1994",
+        "to": "SEP 2018"
+      },
+      "coverage": "Municipios · España · Ámbitos de consulta",
+      "unit": "Miles de Euros",
+      "license": "Términos de las estadísticas del Banco de España",
+      "notes": "Elaboración propia con datos extraídos del sitio web del Banco de España (www.bde.es). Se conservan la unidad, los códigos de serie, las notas y el símbolo de cada dato ausente.",
+      "dataFile": "hacienda/bde/index.json"
+    },
+    {
+      "id": "fiscal:857213892",
+      "title": "Corporaciones locales · cuadro 14.610",
+      "sourceId": "F041",
+      "categoryIds": [
+        "F09"
+      ],
+      "status": "integrado",
+      "url": "https://www.bde.es/webbe/es/estadisticas/otras-clasificaciones/publicaciones/boletin-estadistico/capitulo-14.html",
+      "mapAction": "fiscal:857213892",
+      "period": {
+        "from": "DIC 1994",
+        "to": "SEP 2018"
+      },
+      "coverage": "Municipios · España · Ámbitos de consulta",
+      "unit": "Miles de Euros",
+      "license": "Términos de las estadísticas del Banco de España",
+      "notes": "Elaboración propia con datos extraídos del sitio web del Banco de España (www.bde.es). Se conservan la unidad, los códigos de serie, las notas y el símbolo de cada dato ausente.",
+      "dataFile": "hacienda/bde/index.json"
+    },
+    {
+      "id": "fiscal:857213893",
+      "title": "Corporaciones locales · cuadro 14.611",
+      "sourceId": "F041",
+      "categoryIds": [
+        "F09"
+      ],
+      "status": "integrado",
+      "url": "https://www.bde.es/webbe/es/estadisticas/otras-clasificaciones/publicaciones/boletin-estadistico/capitulo-14.html",
+      "mapAction": "fiscal:857213893",
+      "period": {
+        "from": "DIC 1994",
+        "to": "SEP 2018"
+      },
+      "coverage": "Municipios · España · Ámbitos de consulta",
+      "unit": "Miles de Euros",
+      "license": "Términos de las estadísticas del Banco de España",
+      "notes": "Elaboración propia con datos extraídos del sitio web del Banco de España (www.bde.es). Se conservan la unidad, los códigos de serie, las notas y el símbolo de cada dato ausente.",
+      "dataFile": "hacienda/bde/index.json"
+    },
+    {
+      "id": "fiscal:857213894",
+      "title": "Corporaciones locales · cuadro 14.612",
+      "sourceId": "F041",
+      "categoryIds": [
+        "F09"
+      ],
+      "status": "integrado",
+      "url": "https://www.bde.es/webbe/es/estadisticas/otras-clasificaciones/publicaciones/boletin-estadistico/capitulo-14.html",
+      "mapAction": "fiscal:857213894",
+      "period": {
+        "from": "JUN 2012",
+        "to": "SEP 2018"
+      },
+      "coverage": "Municipios · España · Ámbitos de consulta",
+      "unit": "Miles de Euros",
+      "license": "Términos de las estadísticas del Banco de España",
+      "notes": "Elaboración propia con datos extraídos del sitio web del Banco de España (www.bde.es). Se conservan la unidad, los códigos de serie, las notas y el símbolo de cada dato ausente.",
+      "dataFile": "hacienda/bde/index.json"
+    },
+    {
+      "id": "fiscal:857213895",
+      "title": "Corporaciones locales · cuadro 14.613",
+      "sourceId": "F041",
+      "categoryIds": [
+        "F09"
+      ],
+      "status": "integrado",
+      "url": "https://www.bde.es/webbe/es/estadisticas/otras-clasificaciones/publicaciones/boletin-estadistico/capitulo-14.html",
+      "mapAction": "fiscal:857213895",
+      "period": {
+        "from": "DIC 2006",
+        "to": "SEP 2018"
+      },
+      "coverage": "Municipios · España · Ámbitos de consulta",
+      "unit": "Miles de Euros",
+      "license": "Términos de las estadísticas del Banco de España",
+      "notes": "Elaboración propia con datos extraídos del sitio web del Banco de España (www.bde.es). Se conservan la unidad, los códigos de serie, las notas y el símbolo de cada dato ausente.",
+      "dataFile": "hacienda/bde/index.json"
+    },
+    {
+      "id": "fiscal:855527767",
+      "title": "Corporaciones locales · cuadro 14.7",
+      "sourceId": "F041",
+      "categoryIds": [
+        "F09"
+      ],
+      "status": "integrado",
+      "url": "https://www.bde.es/webbe/es/estadisticas/otras-clasificaciones/publicaciones/boletin-estadistico/capitulo-14.html",
+      "mapAction": "fiscal:855527767",
+      "period": {
+        "from": "DIC 1994",
+        "to": "JUN 2026"
+      },
+      "coverage": "España",
+      "unit": "Según serie",
+      "license": "Términos de las estadísticas del Banco de España",
+      "notes": "Elaboración propia con datos extraídos del sitio web del Banco de España (www.bde.es). Se conservan la unidad, los códigos de serie, las notas y el símbolo de cada dato ausente.",
+      "dataFile": "hacienda/bde/index.json"
+    },
+    {
+      "id": "fiscal:855527768",
+      "title": "Corporaciones locales · cuadro 14.8",
+      "sourceId": "F041",
+      "categoryIds": [
+        "F09"
+      ],
+      "status": "integrado",
+      "url": "https://www.bde.es/webbe/es/estadisticas/otras-clasificaciones/publicaciones/boletin-estadistico/capitulo-14.html",
+      "mapAction": "fiscal:855527768",
+      "period": {
+        "from": "DIC 1994",
+        "to": "JUN 2026"
+      },
+      "coverage": "España",
+      "unit": "Según serie",
+      "license": "Términos de las estadísticas del Banco de España",
+      "notes": "Elaboración propia con datos extraídos del sitio web del Banco de España (www.bde.es). Se conservan la unidad, los códigos de serie, las notas y el símbolo de cada dato ausente.",
+      "dataFile": "hacienda/bde/index.json"
+    },
+    {
+      "id": "fiscal:855527769",
+      "title": "Deuda de los ayuntamientos de más de 300.000 habitantes",
+      "sourceId": "F041",
+      "categoryIds": [
+        "F09"
+      ],
+      "status": "integrado",
+      "url": "https://www.bde.es/webbe/es/estadisticas/otras-clasificaciones/publicaciones/boletin-estadistico/capitulo-14.html",
+      "mapAction": "fiscal:855527769",
+      "period": {
+        "from": "DIC 1994",
+        "to": "JUN 2026"
+      },
+      "coverage": "Municipios · España",
+      "unit": "Miles de euros",
+      "license": "Términos de las estadísticas del Banco de España",
+      "notes": "Elaboración propia con datos extraídos del sitio web del Banco de España (www.bde.es). Se conservan la unidad, los códigos de serie, las notas y el símbolo de cada dato ausente.",
+      "dataFile": "hacienda/bde/index.json"
+    },
+    {
+      "id": "fiscal:963001",
+      "title": "Administraciones públicas (S.13) · Millones de euros",
+      "sourceId": "F044",
+      "categoryIds": [
+        "F09"
+      ],
+      "status": "integrado",
+      "url": "https://www.igae.pap.hacienda.gob.es/sitios/igae/es-ES/Contabilidad/ContabilidadNacional/Publicaciones/paginas/itnofinancierastotal.aspx",
+      "mapAction": "fiscal:963001",
+      "period": {
+        "from": "1995T1",
+        "to": "2026T2"
+      },
+      "coverage": "España",
+      "unit": "Millones de euros",
+      "license": "Condiciones de reutilización de la IGAE",
+      "notes": "IGAE, SEC 2010, Revisión Estadística 2024. Los saldos se refieren al subsector público declarado. El PIB de referencia se conserva en millones. Datos trimestrales acumulados desde el comienzo del ejercicio.",
+      "dataFile": "hacienda/igae/index.json"
+    },
+    {
+      "id": "fiscal:963002",
+      "title": "Administraciones públicas (S.13) · Porcentaje del PIB",
+      "sourceId": "F044",
+      "categoryIds": [
+        "F09"
+      ],
+      "status": "integrado",
+      "url": "https://www.igae.pap.hacienda.gob.es/sitios/igae/es-ES/Contabilidad/ContabilidadNacional/Publicaciones/paginas/itnofinancierastotal.aspx",
+      "mapAction": "fiscal:963002",
+      "period": {
+        "from": "1995T1",
+        "to": "2026T4"
+      },
+      "coverage": "España",
+      "unit": "Según indicador",
+      "license": "Condiciones de reutilización de la IGAE",
+      "notes": "IGAE, SEC 2010, Revisión Estadística 2024. Los saldos se refieren al subsector público declarado. El PIB de referencia se conserva en millones. Datos trimestrales acumulados desde el comienzo del ejercicio.",
+      "dataFile": "hacienda/igae/index.json"
+    },
+    {
+      "id": "fiscal:963003",
+      "title": "Administración central (S.1311) · Millones de euros",
+      "sourceId": "F044",
+      "categoryIds": [
+        "F09"
+      ],
+      "status": "integrado",
+      "url": "https://www.igae.pap.hacienda.gob.es/sitios/igae/es-ES/Contabilidad/ContabilidadNacional/Publicaciones/paginas/itnofinancierastotal.aspx",
+      "mapAction": "fiscal:963003",
+      "period": {
+        "from": "2004T1",
+        "to": "2026T2"
+      },
+      "coverage": "España",
+      "unit": "Millones de euros",
+      "license": "Condiciones de reutilización de la IGAE",
+      "notes": "IGAE, SEC 2010, Revisión Estadística 2024. Los saldos se refieren al subsector público declarado. El PIB de referencia se conserva en millones. Datos trimestrales acumulados desde el comienzo del ejercicio.",
+      "dataFile": "hacienda/igae/index.json"
+    },
+    {
+      "id": "fiscal:963004",
+      "title": "Administración central (S.1311) · Porcentaje del PIB",
+      "sourceId": "F044",
+      "categoryIds": [
+        "F09"
+      ],
+      "status": "integrado",
+      "url": "https://www.igae.pap.hacienda.gob.es/sitios/igae/es-ES/Contabilidad/ContabilidadNacional/Publicaciones/paginas/itnofinancierastotal.aspx",
+      "mapAction": "fiscal:963004",
+      "period": {
+        "from": "2004T1",
+        "to": "2026T4"
+      },
+      "coverage": "España",
+      "unit": "Según indicador",
+      "license": "Condiciones de reutilización de la IGAE",
+      "notes": "IGAE, SEC 2010, Revisión Estadística 2024. Los saldos se refieren al subsector público declarado. El PIB de referencia se conserva en millones. Datos trimestrales acumulados desde el comienzo del ejercicio.",
+      "dataFile": "hacienda/igae/index.json"
+    },
+    {
+      "id": "fiscal:963005",
+      "title": "Administración regional (S.1312) · Millones de euros",
+      "sourceId": "F044",
+      "categoryIds": [
+        "F09"
+      ],
+      "status": "integrado",
+      "url": "https://www.igae.pap.hacienda.gob.es/sitios/igae/es-ES/Contabilidad/ContabilidadNacional/Publicaciones/paginas/itnofinancierastotal.aspx",
+      "mapAction": "fiscal:963005",
+      "period": {
+        "from": "2004T1",
+        "to": "2026T2"
+      },
+      "coverage": "España",
+      "unit": "Millones de euros",
+      "license": "Condiciones de reutilización de la IGAE",
+      "notes": "IGAE, SEC 2010, Revisión Estadística 2024. Los saldos se refieren al subsector público declarado. El PIB de referencia se conserva en millones. Datos trimestrales acumulados desde el comienzo del ejercicio.",
+      "dataFile": "hacienda/igae/index.json"
+    },
+    {
+      "id": "fiscal:963006",
+      "title": "Administración regional (S.1312) · Porcentaje del PIB",
+      "sourceId": "F044",
+      "categoryIds": [
+        "F09"
+      ],
+      "status": "integrado",
+      "url": "https://www.igae.pap.hacienda.gob.es/sitios/igae/es-ES/Contabilidad/ContabilidadNacional/Publicaciones/paginas/itnofinancierastotal.aspx",
+      "mapAction": "fiscal:963006",
+      "period": {
+        "from": "2004T1",
+        "to": "2026T4"
+      },
+      "coverage": "España",
+      "unit": "Según indicador",
+      "license": "Condiciones de reutilización de la IGAE",
+      "notes": "IGAE, SEC 2010, Revisión Estadística 2024. Los saldos se refieren al subsector público declarado. El PIB de referencia se conserva en millones. Datos trimestrales acumulados desde el comienzo del ejercicio.",
+      "dataFile": "hacienda/igae/index.json"
+    },
+    {
+      "id": "fiscal:963007",
+      "title": "Administración local (S.1313) · Millones de euros",
+      "sourceId": "F044",
+      "categoryIds": [
+        "F09"
+      ],
+      "status": "integrado",
+      "url": "https://www.igae.pap.hacienda.gob.es/sitios/igae/es-ES/Contabilidad/ContabilidadNacional/Publicaciones/paginas/itnofinancierastotal.aspx",
+      "mapAction": "fiscal:963007",
+      "period": {
+        "from": "2004T1",
+        "to": "2026T2"
+      },
+      "coverage": "España",
+      "unit": "Millones de euros",
+      "license": "Condiciones de reutilización de la IGAE",
+      "notes": "IGAE, SEC 2010, Revisión Estadística 2024. Los saldos se refieren al subsector público declarado. El PIB de referencia se conserva en millones. Datos trimestrales acumulados desde el comienzo del ejercicio.",
+      "dataFile": "hacienda/igae/index.json"
+    },
+    {
+      "id": "fiscal:963008",
+      "title": "Administración local (S.1313) · Porcentaje del PIB",
+      "sourceId": "F044",
+      "categoryIds": [
+        "F09"
+      ],
+      "status": "integrado",
+      "url": "https://www.igae.pap.hacienda.gob.es/sitios/igae/es-ES/Contabilidad/ContabilidadNacional/Publicaciones/paginas/itnofinancierastotal.aspx",
+      "mapAction": "fiscal:963008",
+      "period": {
+        "from": "2004T1",
+        "to": "2026T4"
+      },
+      "coverage": "España",
+      "unit": "Según indicador",
+      "license": "Condiciones de reutilización de la IGAE",
+      "notes": "IGAE, SEC 2010, Revisión Estadística 2024. Los saldos se refieren al subsector público declarado. El PIB de referencia se conserva en millones. Datos trimestrales acumulados desde el comienzo del ejercicio.",
+      "dataFile": "hacienda/igae/index.json"
+    },
+    {
+      "id": "fiscal:963009",
+      "title": "Fondos de la Seguridad Social (S.1314) · Millones de euros",
+      "sourceId": "F044",
+      "categoryIds": [
+        "F09"
+      ],
+      "status": "integrado",
+      "url": "https://www.igae.pap.hacienda.gob.es/sitios/igae/es-ES/Contabilidad/ContabilidadNacional/Publicaciones/paginas/itnofinancierastotal.aspx",
+      "mapAction": "fiscal:963009",
+      "period": {
+        "from": "2004T1",
+        "to": "2026T2"
+      },
+      "coverage": "España",
+      "unit": "Millones de euros",
+      "license": "Condiciones de reutilización de la IGAE",
+      "notes": "IGAE, SEC 2010, Revisión Estadística 2024. Los saldos se refieren al subsector público declarado. El PIB de referencia se conserva en millones. Datos trimestrales acumulados desde el comienzo del ejercicio.",
+      "dataFile": "hacienda/igae/index.json"
+    },
+    {
+      "id": "fiscal:963010",
+      "title": "Fondos de la Seguridad Social (S.1314) · Porcentaje del PIB",
+      "sourceId": "F044",
+      "categoryIds": [
+        "F09"
+      ],
+      "status": "integrado",
+      "url": "https://www.igae.pap.hacienda.gob.es/sitios/igae/es-ES/Contabilidad/ContabilidadNacional/Publicaciones/paginas/itnofinancierastotal.aspx",
+      "mapAction": "fiscal:963010",
+      "period": {
+        "from": "2004T1",
+        "to": "2026T4"
+      },
+      "coverage": "España",
+      "unit": "Según indicador",
+      "license": "Condiciones de reutilización de la IGAE",
+      "notes": "IGAE, SEC 2010, Revisión Estadística 2024. Los saldos se refieren al subsector público declarado. El PIB de referencia se conserva en millones. Datos trimestrales acumulados desde el comienzo del ejercicio.",
+      "dataFile": "hacienda/igae/index.json"
+    },
+    {
+      "id": "fiscal:963011",
+      "title": "Administración regional · serie anual · Millones de euros",
+      "sourceId": "F044",
+      "categoryIds": [
+        "F09"
+      ],
+      "status": "integrado",
+      "url": "https://www.igae.pap.hacienda.gob.es/sitios/igae/es-ES/Contabilidad/ContabilidadNacional/Publicaciones/paginas/ianofinancierasca.aspx",
+      "mapAction": "fiscal:963011",
+      "period": {
+        "from": "1995",
+        "to": "2025"
+      },
+      "coverage": "España",
+      "unit": "Millones de euros",
+      "license": "Condiciones de reutilización de la IGAE",
+      "notes": "IGAE, SEC 2010, Revisión Estadística 2024. Los saldos se refieren al subsector público declarado. El PIB de referencia se conserva en millones.",
+      "dataFile": "hacienda/igae/index.json"
+    },
+    {
+      "id": "fiscal:963012",
+      "title": "Administración regional · serie anual · Porcentaje del PIB",
+      "sourceId": "F044",
+      "categoryIds": [
+        "F09"
+      ],
+      "status": "integrado",
+      "url": "https://www.igae.pap.hacienda.gob.es/sitios/igae/es-ES/Contabilidad/ContabilidadNacional/Publicaciones/paginas/ianofinancierasca.aspx",
+      "mapAction": "fiscal:963012",
+      "period": {
+        "from": "1995",
+        "to": "2025"
+      },
+      "coverage": "España",
+      "unit": "Según indicador",
+      "license": "Condiciones de reutilización de la IGAE",
+      "notes": "IGAE, SEC 2010, Revisión Estadística 2024. Los saldos se refieren al subsector público declarado. El PIB de referencia se conserva en millones.",
+      "dataFile": "hacienda/igae/index.json"
+    },
+    {
+      "id": "fiscal:963091",
+      "title": "Operaciones no financieras por comunidad · Millones de euros",
+      "sourceId": "F044",
+      "categoryIds": [
+        "F09"
+      ],
+      "status": "integrado",
+      "url": "https://www.igae.pap.hacienda.gob.es/sitios/igae/es-ES/Contabilidad/ContabilidadNacional/Publicaciones/paginas/ianofinancierasca.aspx",
+      "mapAction": "fiscal:963091",
+      "period": {
+        "from": "2000",
+        "to": "2025"
+      },
+      "coverage": "Comunidades autónomas · España",
+      "unit": "Millones de euros",
+      "license": "Condiciones de reutilización de la IGAE",
+      "notes": "IGAE, SEC 2010, Revisión Estadística 2024. Los saldos se refieren al subsector público declarado. El PIB de referencia se conserva en millones.",
+      "dataFile": "hacienda/igae/index.json"
+    },
+    {
+      "id": "fiscal:963092",
+      "title": "Operaciones no financieras por comunidad · Porcentaje del PIB",
+      "sourceId": "F044",
+      "categoryIds": [
+        "F09"
+      ],
+      "status": "integrado",
+      "url": "https://www.igae.pap.hacienda.gob.es/sitios/igae/es-ES/Contabilidad/ContabilidadNacional/Publicaciones/paginas/ianofinancierasca.aspx",
+      "mapAction": "fiscal:963092",
+      "period": {
+        "from": "2000",
+        "to": "2025"
+      },
+      "coverage": "Comunidades autónomas · España",
+      "unit": "Según indicador",
+      "license": "Condiciones de reutilización de la IGAE",
+      "notes": "IGAE, SEC 2010, Revisión Estadística 2024. Los saldos se refieren al subsector público declarado. El PIB de referencia se conserva en millones. Las portadas de la hoja Tabla1b rotulan «Millones de euros» en 2024 y 2025. Se verificó la unidad de porcentaje con los importes de Tabla1a y el PIB de referencia.",
+      "dataFile": "hacienda/igae/index.json"
+    },
+    {
+      "id": "fiscal:964001",
+      "title": "Ingresos, devoluciones y conceptos por delegación",
+      "sourceId": "F042",
+      "categoryIds": [
+        "F09"
+      ],
+      "status": "integrado",
+      "url": "https://sede.agenciatributaria.gob.es/Sede/datosabiertos/catalogo/hacienda/Informe_mensual_de_Recaudacion_Tributaria.shtml",
+      "mapAction": "fiscal:964001",
+      "period": {
+        "from": "2007M01",
+        "to": "2026M09"
+      },
+      "coverage": "Comunidades autónomas · España · Ámbitos de consulta",
+      "unit": "Miles de euros",
+      "license": "Condiciones de reutilización de la AEAT",
+      "notes": "Ingresos tributarios en términos de caja. Las Delegaciones Especiales se dibujan en su ámbito de gestión. La recaudación contabilizada por una oficina no equivale a la recaudación generada en el territorio. Se conserva el resto de las oficinas y partidas centrales como fichas.",
+      "dataFile": "hacienda/aeat/index.json"
+    },
+    {
+      "id": "fiscal:965000",
+      "title": "Liquidación local 2025 · por entidad",
+      "sourceId": "F043",
+      "categoryIds": [
+        "F09"
+      ],
+      "status": "integrado",
+      "url": "https://serviciostelematicosext.hacienda.gob.es/SGFAL/CONPREL",
+      "mapAction": "fiscal:965000",
+      "period": {
+        "from": "2025",
+        "to": "2025"
+      },
+      "coverage": "Municipios · Ámbitos de consulta",
+      "unit": "Según indicador",
+      "license": "Condiciones de reutilización del Ministerio de Hacienda",
+      "notes": "Avance publicado el 30/10/2026. Distingue el ejercicio, la clasificación, la fase y el tipo de entidad. El código de estado se conserva tal como figura en el Excel.",
+      "dataFile": "hacienda/conprel/index.json"
+    },
+    {
+      "id": "fiscal:965001",
+      "title": "Liquidación local 2025 · cuadros agregados",
+      "sourceId": "F043",
+      "categoryIds": [
+        "F09"
+      ],
+      "status": "integrado",
+      "url": "https://serviciostelematicosext.hacienda.gob.es/SGFAL/CONPREL",
+      "mapAction": "fiscal:965001",
+      "period": {
+        "from": "2025",
+        "to": "2025"
+      },
+      "coverage": "Comunidades autónomas · Municipios · España",
+      "unit": "Miles de euros",
+      "license": "Condiciones de reutilización del Ministerio de Hacienda",
+      "notes": "Avance publicado el 30/10/2026. Distingue el ejercicio, la clasificación, la fase y el tipo de entidad. El código de estado se conserva tal como figura en el Excel.",
+      "dataFile": "hacienda/conprel/index.json"
+    },
+    {
+      "id": "fiscal:965010",
+      "title": "Presupuesto local 2026 · por entidad",
+      "sourceId": "F043",
+      "categoryIds": [
+        "F09"
+      ],
+      "status": "integrado",
+      "url": "https://serviciostelematicosext.hacienda.gob.es/SGFAL/CONPREL",
+      "mapAction": "fiscal:965010",
+      "period": {
+        "from": "2026",
+        "to": "2026"
+      },
+      "coverage": "Municipios · Ámbitos de consulta",
+      "unit": "Según indicador",
+      "license": "Condiciones de reutilización del Ministerio de Hacienda",
+      "notes": "Avance publicado el 30/10/2026. Distingue el ejercicio, la clasificación, la fase y el tipo de entidad. El código de estado se conserva tal como figura en el Excel. La columna de población conserva el encabezado literal «Pobla 2021» de la publicación de 2026.",
+      "dataFile": "hacienda/conprel/index.json"
+    },
+    {
+      "id": "fiscal:965011",
+      "title": "Presupuesto local 2026 · cuadros agregados",
+      "sourceId": "F043",
+      "categoryIds": [
+        "F09"
+      ],
+      "status": "integrado",
+      "url": "https://serviciostelematicosext.hacienda.gob.es/SGFAL/CONPREL",
+      "mapAction": "fiscal:965011",
+      "period": {
+        "from": "2026",
+        "to": "2026"
+      },
+      "coverage": "Comunidades autónomas · Municipios · España",
+      "unit": "Miles de euros",
+      "license": "Condiciones de reutilización del Ministerio de Hacienda",
+      "notes": "Avance publicado el 30/10/2026. Distingue el ejercicio, la clasificación, la fase y el tipo de entidad. El código de estado se conserva tal como figura en el Excel.",
+      "dataFile": "hacienda/conprel/index.json"
+    }
+  ],
+  "inventory": [
+    {
+      "id": "fiscal-distribution:961001",
+      "title": "Deuda viva de los ayuntamientos",
+      "sourceId": "F043",
+      "categoryIds": [
+        "F09"
+      ],
+      "status": "integrado",
+      "url": "https://www.hacienda.gob.es/es-ES/CDI/paginas/sistemasfinanciaciondeuda/informacioneells/deudaviva.aspx",
+      "mapAction": "fiscal:961001",
+      "period": {
+        "from": "2008",
+        "to": "2025"
+      },
+      "coverage": "Municipios",
+      "unit": "Según indicador",
+      "license": "Condiciones de reutilización del Ministerio de Hacienda",
+      "notes": "Saldo a 31 de diciembre, en miles de euros. Se conserva el código provincial y municipal de cada edición y la población que acompaña a la edición de 2008. El total de un ayuntamiento no incluye el de las diputaciones y entidades supramunicipales.",
+      "dataFile": "hacienda/deuda-local/index.json",
+      "links": {
+        "Descarga oficial": "https://www.hacienda.gob.es/cdi/sist%20financiacion%20y%20deuda/informacioneells/2025/deuda-viva-ayuntamientos-202512.xlsx"
+      },
+      "review": {
+        "implementedProductId": "fiscal:961001",
+        "updatedAt": "2026-11-17",
+        "reason": "Distribución cotejada. 154,335 celdas conservadas con sus estados y unidades."
+      }
+    },
+    {
+      "id": "fiscal-distribution:674129233",
+      "title": "Administraciones públicas · cuadro 11.1",
+      "sourceId": "F041",
+      "categoryIds": [
+        "F09"
+      ],
+      "status": "integrado",
+      "url": "https://www.bde.es/webbe/es/estadisticas/otras-clasificaciones/publicaciones/boletin-estadistico/capitulo-11.html",
+      "mapAction": "fiscal:674129233",
+      "period": {
+        "from": "DIC 1994",
+        "to": "JUN 2026"
+      },
+      "coverage": "España",
+      "unit": "Miles de euros",
+      "license": "Términos de las estadísticas del Banco de España",
+      "notes": "Elaboración propia con datos extraídos del sitio web del Banco de España (www.bde.es). Se conservan la unidad, los códigos de serie, las notas y el símbolo de cada dato ausente.",
+      "dataFile": "hacienda/bde/index.json",
+      "links": {
+        "Descarga oficial": "https://www.bde.es/webbe/es/estadisticas/compartido/datos/csv/be1101.csv"
+      },
+      "review": {
+        "implementedProductId": "fiscal:674129233",
+        "updatedAt": "2026-11-17",
+        "reason": "Distribución cotejada. 1,524 celdas conservadas con sus estados y unidades."
+      }
+    },
+    {
+      "id": "fiscal-distribution:674129234",
+      "title": "Administraciones públicas · cuadro 11.2",
+      "sourceId": "F041",
+      "categoryIds": [
+        "F09"
+      ],
+      "status": "integrado",
+      "url": "https://www.bde.es/webbe/es/estadisticas/otras-clasificaciones/publicaciones/boletin-estadistico/capitulo-11.html",
+      "mapAction": "fiscal:674129234",
+      "period": {
+        "from": "MAR 1995",
+        "to": "JUN 2026"
+      },
+      "coverage": "España",
+      "unit": "Según serie",
+      "license": "Términos de las estadísticas del Banco de España",
+      "notes": "Elaboración propia con datos extraídos del sitio web del Banco de España (www.bde.es). Se conservan la unidad, los códigos de serie, las notas y el símbolo de cada dato ausente.",
+      "dataFile": "hacienda/bde/index.json",
+      "links": {
+        "Descarga oficial": "https://www.bde.es/webbe/es/estadisticas/compartido/datos/csv/be1102.csv"
+      },
+      "review": {
+        "implementedProductId": "fiscal:674129234",
+        "updatedAt": "2026-11-17",
+        "reason": "Distribución cotejada. 1,512 celdas conservadas con sus estados y unidades."
+      }
+    },
+    {
+      "id": "fiscal-distribution:674129235",
+      "title": "Administraciones públicas · cuadro 11.3",
+      "sourceId": "F041",
+      "categoryIds": [
+        "F09"
+      ],
+      "status": "integrado",
+      "url": "https://www.bde.es/webbe/es/estadisticas/otras-clasificaciones/publicaciones/boletin-estadistico/capitulo-11.html",
+      "mapAction": "fiscal:674129235",
+      "period": {
+        "from": "MAR 1995",
+        "to": "JUN 2026"
+      },
+      "coverage": "España",
+      "unit": "Según serie",
+      "license": "Términos de las estadísticas del Banco de España",
+      "notes": "Elaboración propia con datos extraídos del sitio web del Banco de España (www.bde.es). Se conservan la unidad, los códigos de serie, las notas y el símbolo de cada dato ausente.",
+      "dataFile": "hacienda/bde/index.json",
+      "links": {
+        "Descarga oficial": "https://www.bde.es/webbe/es/estadisticas/compartido/datos/csv/be1103.csv"
+      },
+      "review": {
+        "implementedProductId": "fiscal:674129235",
+        "updatedAt": "2026-11-17",
+        "reason": "Distribución cotejada. 1,512 celdas conservadas con sus estados y unidades."
+      }
+    },
+    {
+      "id": "fiscal-distribution:674129236",
+      "title": "Pasivos y deuda según el PDE",
+      "sourceId": "F041",
+      "categoryIds": [
+        "F09"
+      ],
+      "status": "integrado",
+      "url": "https://www.bde.es/webbe/es/estadisticas/otras-clasificaciones/publicaciones/boletin-estadistico/capitulo-11.html",
+      "mapAction": "fiscal:674129236",
+      "period": {
+        "from": "DIC 1994",
+        "to": "JUN 2026"
+      },
+      "coverage": "España",
+      "unit": "Miles de euros",
+      "license": "Términos de las estadísticas del Banco de España",
+      "notes": "Elaboración propia con datos extraídos del sitio web del Banco de España (www.bde.es). Se conservan la unidad, los códigos de serie, las notas y el símbolo de cada dato ausente.",
+      "dataFile": "hacienda/bde/index.json",
+      "links": {
+        "Descarga oficial": "https://www.bde.es/webbe/es/estadisticas/compartido/datos/csv/be1104.csv"
+      },
+      "review": {
+        "implementedProductId": "fiscal:674129236",
+        "updatedAt": "2026-11-17",
+        "reason": "Distribución cotejada. 1,905 celdas conservadas con sus estados y unidades."
+      }
+    },
+    {
+      "id": "fiscal-distribution:674129237",
+      "title": "Administraciones públicas · cuadro 11.5",
+      "sourceId": "F041",
+      "categoryIds": [
+        "F09"
+      ],
+      "status": "integrado",
+      "url": "https://www.bde.es/webbe/es/estadisticas/otras-clasificaciones/publicaciones/boletin-estadistico/capitulo-11.html",
+      "mapAction": "fiscal:674129237",
+      "period": {
+        "from": "MAR 1995",
+        "to": "JUN 2026"
+      },
+      "coverage": "España",
+      "unit": "Según serie",
+      "license": "Términos de las estadísticas del Banco de España",
+      "notes": "Elaboración propia con datos extraídos del sitio web del Banco de España (www.bde.es). Se conservan la unidad, los códigos de serie, las notas y el símbolo de cada dato ausente.",
+      "dataFile": "hacienda/bde/index.json",
+      "links": {
+        "Descarga oficial": "https://www.bde.es/webbe/es/estadisticas/compartido/datos/csv/be1105.csv"
+      },
+      "review": {
+        "implementedProductId": "fiscal:674129237",
+        "updatedAt": "2026-11-17",
+        "reason": "Distribución cotejada. 2,016 celdas conservadas con sus estados y unidades."
+      }
+    },
+    {
+      "id": "fiscal-distribution:674129238",
+      "title": "Administraciones públicas · cuadro 11.6",
+      "sourceId": "F041",
+      "categoryIds": [
+        "F09"
+      ],
+      "status": "integrado",
+      "url": "https://www.bde.es/webbe/es/estadisticas/otras-clasificaciones/publicaciones/boletin-estadistico/capitulo-11.html",
+      "mapAction": "fiscal:674129238",
+      "period": {
+        "from": "DIC 1994",
+        "to": "JUN 2026"
+      },
+      "coverage": "España",
+      "unit": "Miles de euros",
+      "license": "Términos de las estadísticas del Banco de España",
+      "notes": "Elaboración propia con datos extraídos del sitio web del Banco de España (www.bde.es). Se conservan la unidad, los códigos de serie, las notas y el símbolo de cada dato ausente.",
+      "dataFile": "hacienda/bde/index.json",
+      "links": {
+        "Descarga oficial": "https://www.bde.es/webbe/es/estadisticas/compartido/datos/csv/be1106.csv"
+      },
+      "review": {
+        "implementedProductId": "fiscal:674129238",
+        "updatedAt": "2026-11-17",
+        "reason": "Distribución cotejada. 1,651 celdas conservadas con sus estados y unidades."
+      }
+    },
+    {
+      "id": "fiscal-distribution:674129239",
+      "title": "Administraciones públicas · cuadro 11.7",
+      "sourceId": "F041",
+      "categoryIds": [
+        "F09"
+      ],
+      "status": "integrado",
+      "url": "https://www.bde.es/webbe/es/estadisticas/otras-clasificaciones/publicaciones/boletin-estadistico/capitulo-11.html",
+      "mapAction": "fiscal:674129239",
+      "period": {
+        "from": "MAR 1995",
+        "to": "JUN 2026"
+      },
+      "coverage": "España",
+      "unit": "Porcentaje",
+      "license": "Términos de las estadísticas del Banco de España",
+      "notes": "Elaboración propia con datos extraídos del sitio web del Banco de España (www.bde.es). Se conservan la unidad, los códigos de serie, las notas y el símbolo de cada dato ausente.",
+      "dataFile": "hacienda/bde/index.json",
+      "links": {
+        "Descarga oficial": "https://www.bde.es/webbe/es/estadisticas/compartido/datos/csv/be1107.csv"
+      },
+      "review": {
+        "implementedProductId": "fiscal:674129239",
+        "updatedAt": "2026-11-17",
+        "reason": "Distribución cotejada. 1,638 celdas conservadas con sus estados y unidades."
+      }
+    },
+    {
+      "id": "fiscal-distribution:674129240",
+      "title": "Administraciones públicas · cuadro 11.8",
+      "sourceId": "F041",
+      "categoryIds": [
+        "F09"
+      ],
+      "status": "integrado",
+      "url": "https://www.bde.es/webbe/es/estadisticas/otras-clasificaciones/publicaciones/boletin-estadistico/capitulo-11.html",
+      "mapAction": "fiscal:674129240",
+      "period": {
+        "from": "MAR 1995",
+        "to": "JUN 2026"
+      },
+      "coverage": "España",
+      "unit": "Miles de euros",
+      "license": "Términos de las estadísticas del Banco de España",
+      "notes": "Elaboración propia con datos extraídos del sitio web del Banco de España (www.bde.es). Se conservan la unidad, los códigos de serie, las notas y el símbolo de cada dato ausente.",
+      "dataFile": "hacienda/bde/index.json",
+      "links": {
+        "Descarga oficial": "https://www.bde.es/webbe/es/estadisticas/compartido/datos/csv/be1108.csv"
+      },
+      "review": {
+        "implementedProductId": "fiscal:674129240",
+        "updatedAt": "2026-11-17",
+        "reason": "Distribución cotejada. 1,638 celdas conservadas con sus estados y unidades."
+      }
+    },
+    {
+      "id": "fiscal-distribution:674129241",
+      "title": "Administraciones públicas · cuadro 11.9",
+      "sourceId": "F041",
+      "categoryIds": [
+        "F09"
+      ],
+      "status": "integrado",
+      "url": "https://www.bde.es/webbe/es/estadisticas/otras-clasificaciones/publicaciones/boletin-estadistico/capitulo-11.html",
+      "mapAction": "fiscal:674129241",
+      "period": {
+        "from": "MAR 1995",
+        "to": "JUN 2026"
+      },
+      "coverage": "España",
+      "unit": "Porcentaje",
+      "license": "Términos de las estadísticas del Banco de España",
+      "notes": "Elaboración propia con datos extraídos del sitio web del Banco de España (www.bde.es). Se conservan la unidad, los códigos de serie, las notas y el símbolo de cada dato ausente.",
+      "dataFile": "hacienda/bde/index.json",
+      "links": {
+        "Descarga oficial": "https://www.bde.es/webbe/es/estadisticas/compartido/datos/csv/be1109.csv"
+      },
+      "review": {
+        "implementedProductId": "fiscal:674129241",
+        "updatedAt": "2026-11-17",
+        "reason": "Distribución cotejada. 1,638 celdas conservadas con sus estados y unidades."
+      }
+    },
+    {
+      "id": "fiscal-distribution:674129268",
+      "title": "Administraciones públicas · cuadro 11.10",
+      "sourceId": "F041",
+      "categoryIds": [
+        "F09"
+      ],
+      "status": "integrado",
+      "url": "https://www.bde.es/webbe/es/estadisticas/otras-clasificaciones/publicaciones/boletin-estadistico/capitulo-11.html",
+      "mapAction": "fiscal:674129268",
+      "period": {
+        "from": "MAR 1995",
+        "to": "JUN 2026"
+      },
+      "coverage": "España",
+      "unit": "Miles de euros",
+      "license": "Términos de las estadísticas del Banco de España",
+      "notes": "Elaboración propia con datos extraídos del sitio web del Banco de España (www.bde.es). Se conservan la unidad, los códigos de serie, las notas y el símbolo de cada dato ausente.",
+      "dataFile": "hacienda/bde/index.json",
+      "links": {
+        "Descarga oficial": "https://www.bde.es/webbe/es/estadisticas/compartido/datos/csv/be1110.csv"
+      },
+      "review": {
+        "implementedProductId": "fiscal:674129268",
+        "updatedAt": "2026-11-17",
+        "reason": "Distribución cotejada. 1,764 celdas conservadas con sus estados y unidades."
+      }
+    },
+    {
+      "id": "fiscal-distribution:674129269",
+      "title": "Administraciones públicas · cuadro 11.11",
+      "sourceId": "F041",
+      "categoryIds": [
+        "F09"
+      ],
+      "status": "integrado",
+      "url": "https://www.bde.es/webbe/es/estadisticas/otras-clasificaciones/publicaciones/boletin-estadistico/capitulo-11.html",
+      "mapAction": "fiscal:674129269",
+      "period": {
+        "from": "MAR 1995",
+        "to": "JUN 2026"
+      },
+      "coverage": "España",
+      "unit": "Miles de euros",
+      "license": "Términos de las estadísticas del Banco de España",
+      "notes": "Elaboración propia con datos extraídos del sitio web del Banco de España (www.bde.es). Se conservan la unidad, los códigos de serie, las notas y el símbolo de cada dato ausente.",
+      "dataFile": "hacienda/bde/index.json",
+      "links": {
+        "Descarga oficial": "https://www.bde.es/webbe/es/estadisticas/compartido/datos/csv/be1111.csv"
+      },
+      "review": {
+        "implementedProductId": "fiscal:674129269",
+        "updatedAt": "2026-11-17",
+        "reason": "Distribución cotejada. 1,890 celdas conservadas con sus estados y unidades."
+      }
+    },
+    {
+      "id": "fiscal-distribution:674129270",
+      "title": "Administraciones públicas · cuadro 11.12",
+      "sourceId": "F041",
+      "categoryIds": [
+        "F09"
+      ],
+      "status": "integrado",
+      "url": "https://www.bde.es/webbe/es/estadisticas/otras-clasificaciones/publicaciones/boletin-estadistico/capitulo-11.html",
+      "mapAction": "fiscal:674129270",
+      "period": {
+        "from": "DIC 1994",
+        "to": "JUN 2026"
+      },
+      "coverage": "España",
+      "unit": "Según serie",
+      "license": "Términos de las estadísticas del Banco de España",
+      "notes": "Elaboración propia con datos extraídos del sitio web del Banco de España (www.bde.es). Se conservan la unidad, los códigos de serie, las notas y el símbolo de cada dato ausente.",
+      "dataFile": "hacienda/bde/index.json",
+      "links": {
+        "Descarga oficial": "https://www.bde.es/webbe/es/estadisticas/compartido/datos/csv/be1112.csv"
+      },
+      "review": {
+        "implementedProductId": "fiscal:674129270",
+        "updatedAt": "2026-11-17",
+        "reason": "Distribución cotejada. 1,270 celdas conservadas con sus estados y unidades."
+      }
+    },
+    {
+      "id": "fiscal-distribution:674129271",
+      "title": "Administraciones públicas · cuadro 11.13",
+      "sourceId": "F041",
+      "categoryIds": [
+        "F09"
+      ],
+      "status": "integrado",
+      "url": "https://www.bde.es/webbe/es/estadisticas/otras-clasificaciones/publicaciones/boletin-estadistico/capitulo-11.html",
+      "mapAction": "fiscal:674129271",
+      "period": {
+        "from": "MAR 1994",
+        "to": "JUN 2026"
+      },
+      "coverage": "España",
+      "unit": "Miles de euros",
+      "license": "Términos de las estadísticas del Banco de España",
+      "notes": "Elaboración propia con datos extraídos del sitio web del Banco de España (www.bde.es). Se conservan la unidad, los códigos de serie, las notas y el símbolo de cada dato ausente.",
+      "dataFile": "hacienda/bde/index.json",
+      "links": {
+        "Descarga oficial": "https://www.bde.es/webbe/es/estadisticas/compartido/datos/csv/be1113.csv"
+      },
+      "review": {
+        "implementedProductId": "fiscal:674129271",
+        "updatedAt": "2026-11-17",
+        "reason": "Distribución cotejada. 1,560 celdas conservadas con sus estados y unidades."
+      }
+    },
+    {
+      "id": "fiscal-distribution:674129272",
+      "title": "Administraciones públicas · cuadro 11.14",
+      "sourceId": "F041",
+      "categoryIds": [
+        "F09"
+      ],
+      "status": "integrado",
+      "url": "https://www.bde.es/webbe/es/estadisticas/otras-clasificaciones/publicaciones/boletin-estadistico/capitulo-11.html",
+      "mapAction": "fiscal:674129272",
+      "period": {
+        "from": "MAR 1995",
+        "to": "JUN 2026"
+      },
+      "coverage": "España",
+      "unit": "Miles de euros",
+      "license": "Términos de las estadísticas del Banco de España",
+      "notes": "Elaboración propia con datos extraídos del sitio web del Banco de España (www.bde.es). Se conservan la unidad, los códigos de serie, las notas y el símbolo de cada dato ausente.",
+      "dataFile": "hacienda/bde/index.json",
+      "links": {
+        "Descarga oficial": "https://www.bde.es/webbe/es/estadisticas/compartido/datos/csv/be1114.csv"
+      },
+      "review": {
+        "implementedProductId": "fiscal:674129272",
+        "updatedAt": "2026-11-17",
+        "reason": "Distribución cotejada. 1,512 celdas conservadas con sus estados y unidades."
+      }
+    },
+    {
+      "id": "fiscal-distribution:674129273",
+      "title": "Administraciones públicas · cuadro 11.15",
+      "sourceId": "F041",
+      "categoryIds": [
+        "F09"
+      ],
+      "status": "integrado",
+      "url": "https://www.bde.es/webbe/es/estadisticas/otras-clasificaciones/publicaciones/boletin-estadistico/capitulo-11.html",
+      "mapAction": "fiscal:674129273",
+      "period": {
+        "from": "DIC 1994",
+        "to": "JUN 2026"
+      },
+      "coverage": "España",
+      "unit": "Según serie",
+      "license": "Términos de las estadísticas del Banco de España",
+      "notes": "Elaboración propia con datos extraídos del sitio web del Banco de España (www.bde.es). Se conservan la unidad, los códigos de serie, las notas y el símbolo de cada dato ausente.",
+      "dataFile": "hacienda/bde/index.json",
+      "links": {
+        "Descarga oficial": "https://www.bde.es/webbe/es/estadisticas/compartido/datos/csv/be1115.csv"
+      },
+      "review": {
+        "implementedProductId": "fiscal:674129273",
+        "updatedAt": "2026-11-17",
+        "reason": "Distribución cotejada. 1,397 celdas conservadas con sus estados y unidades."
+      }
+    },
+    {
+      "id": "fiscal-distribution:674129274",
+      "title": "Administraciones públicas · cuadro 11.16",
+      "sourceId": "F041",
+      "categoryIds": [
+        "F09"
+      ],
+      "status": "integrado",
+      "url": "https://www.bde.es/webbe/es/estadisticas/otras-clasificaciones/publicaciones/boletin-estadistico/capitulo-11.html",
+      "mapAction": "fiscal:674129274",
+      "period": {
+        "from": "ENE 1986",
+        "to": "SEP 2026"
+      },
+      "coverage": "España",
+      "unit": "Miles de euros",
+      "license": "Términos de las estadísticas del Banco de España",
+      "notes": "Elaboración propia con datos extraídos del sitio web del Banco de España (www.bde.es). Se conservan la unidad, los códigos de serie, las notas y el símbolo de cada dato ausente.",
+      "dataFile": "hacienda/bde/index.json",
+      "links": {
+        "Descarga oficial": "https://www.bde.es/webbe/es/estadisticas/compartido/datos/csv/be1116.csv"
+      },
+      "review": {
+        "implementedProductId": "fiscal:674129274",
+        "updatedAt": "2026-11-17",
+        "reason": "Distribución cotejada. 7,824 celdas conservadas con sus estados y unidades."
+      }
+    },
+    {
+      "id": "fiscal-distribution:674127982",
+      "title": "Administraciones públicas · cuadro 11.a",
+      "sourceId": "F041",
+      "categoryIds": [
+        "F09"
+      ],
+      "status": "integrado",
+      "url": "https://www.bde.es/webbe/es/estadisticas/otras-clasificaciones/publicaciones/boletin-estadistico/capitulo-11.html",
+      "mapAction": "fiscal:674127982",
+      "period": {
+        "from": "ENE 1995",
+        "to": "SEP 2026"
+      },
+      "coverage": "España",
+      "unit": "Según serie",
+      "license": "Términos de las estadísticas del Banco de España",
+      "notes": "Elaboración propia con datos extraídos del sitio web del Banco de España (www.bde.es). Se conservan la unidad, los códigos de serie, las notas y el símbolo de cada dato ausente.",
+      "dataFile": "hacienda/bde/index.json",
+      "links": {
+        "Descarga oficial": "https://www.bde.es/webbe/es/estadisticas/compartido/datos/csv/be11a.csv"
+      },
+      "review": {
+        "implementedProductId": "fiscal:674127982",
+        "updatedAt": "2026-11-17",
+        "reason": "Distribución cotejada. 2,286 celdas conservadas con sus estados y unidades."
+      }
+    },
+    {
+      "id": "fiscal-distribution:674127983",
+      "title": "Administraciones públicas · cuadro 11.b",
+      "sourceId": "F041",
+      "categoryIds": [
+        "F09"
+      ],
+      "status": "integrado",
+      "url": "https://www.bde.es/webbe/es/estadisticas/otras-clasificaciones/publicaciones/boletin-estadistico/capitulo-11.html",
+      "mapAction": "fiscal:674127983",
+      "period": {
+        "from": "DIC 1994",
+        "to": "AGO 2026"
+      },
+      "coverage": "España",
+      "unit": "Miles de euros",
+      "license": "Términos de las estadísticas del Banco de España",
+      "notes": "Elaboración propia con datos extraídos del sitio web del Banco de España (www.bde.es). Se conservan la unidad, los códigos de serie, las notas y el símbolo de cada dato ausente.",
+      "dataFile": "hacienda/bde/index.json",
+      "links": {
+        "Descarga oficial": "https://www.bde.es/webbe/es/estadisticas/compartido/datos/csv/be11b.csv"
+      },
+      "review": {
+        "implementedProductId": "fiscal:674127983",
+        "updatedAt": "2026-11-17",
+        "reason": "Distribución cotejada. 5,334 celdas conservadas con sus estados y unidades."
+      }
+    },
+    {
+      "id": "fiscal-distribution:734595409",
+      "title": "Administración central y Seguridad Social · cuadro 12.1",
+      "sourceId": "F041",
+      "categoryIds": [
+        "F09"
+      ],
+      "status": "integrado",
+      "url": "https://www.bde.es/webbe/es/estadisticas/otras-clasificaciones/publicaciones/boletin-estadistico/capitulo-12.html",
+      "mapAction": "fiscal:734595409",
+      "period": {
+        "from": "DIC 1994",
+        "to": "JUN 2026"
+      },
+      "coverage": "España",
+      "unit": "Miles de euros",
+      "license": "Términos de las estadísticas del Banco de España",
+      "notes": "Elaboración propia con datos extraídos del sitio web del Banco de España (www.bde.es). Se conservan la unidad, los códigos de serie, las notas y el símbolo de cada dato ausente.",
+      "dataFile": "hacienda/bde/index.json",
+      "links": {
+        "Descarga oficial": "https://www.bde.es/webbe/es/estadisticas/compartido/datos/csv/be1201.csv"
+      },
+      "review": {
+        "implementedProductId": "fiscal:734595409",
+        "updatedAt": "2026-11-17",
+        "reason": "Distribución cotejada. 1,270 celdas conservadas con sus estados y unidades."
+      }
+    },
+    {
+      "id": "fiscal-distribution:734595410",
+      "title": "Administración central y Seguridad Social · cuadro 12.2",
+      "sourceId": "F041",
+      "categoryIds": [
+        "F09"
+      ],
+      "status": "integrado",
+      "url": "https://www.bde.es/webbe/es/estadisticas/otras-clasificaciones/publicaciones/boletin-estadistico/capitulo-12.html",
+      "mapAction": "fiscal:734595410",
+      "period": {
+        "from": "MAR 1995",
+        "to": "JUN 2026"
+      },
+      "coverage": "España",
+      "unit": "Según serie",
+      "license": "Términos de las estadísticas del Banco de España",
+      "notes": "Elaboración propia con datos extraídos del sitio web del Banco de España (www.bde.es). Se conservan la unidad, los códigos de serie, las notas y el símbolo de cada dato ausente.",
+      "dataFile": "hacienda/bde/index.json",
+      "links": {
+        "Descarga oficial": "https://www.bde.es/webbe/es/estadisticas/compartido/datos/csv/be1202.csv"
+      },
+      "review": {
+        "implementedProductId": "fiscal:734595410",
+        "updatedAt": "2026-11-17",
+        "reason": "Distribución cotejada. 1,386 celdas conservadas con sus estados y unidades."
+      }
+    },
+    {
+      "id": "fiscal-distribution:734595411",
+      "title": "Administración central y Seguridad Social · cuadro 12.3",
+      "sourceId": "F041",
+      "categoryIds": [
+        "F09"
+      ],
+      "status": "integrado",
+      "url": "https://www.bde.es/webbe/es/estadisticas/otras-clasificaciones/publicaciones/boletin-estadistico/capitulo-12.html",
+      "mapAction": "fiscal:734595411",
+      "period": {
+        "from": "MAR 1995",
+        "to": "JUN 2026"
+      },
+      "coverage": "España",
+      "unit": "Miles de euros",
+      "license": "Términos de las estadísticas del Banco de España",
+      "notes": "Elaboración propia con datos extraídos del sitio web del Banco de España (www.bde.es). Se conservan la unidad, los códigos de serie, las notas y el símbolo de cada dato ausente.",
+      "dataFile": "hacienda/bde/index.json",
+      "links": {
+        "Descarga oficial": "https://www.bde.es/webbe/es/estadisticas/compartido/datos/csv/be1203.csv"
+      },
+      "review": {
+        "implementedProductId": "fiscal:734595411",
+        "updatedAt": "2026-11-17",
+        "reason": "Distribución cotejada. 1,638 celdas conservadas con sus estados y unidades."
+      }
+    },
+    {
+      "id": "fiscal-distribution:734595412",
+      "title": "Administración central y Seguridad Social · cuadro 12.4",
+      "sourceId": "F041",
+      "categoryIds": [
+        "F09"
+      ],
+      "status": "integrado",
+      "url": "https://www.bde.es/webbe/es/estadisticas/otras-clasificaciones/publicaciones/boletin-estadistico/capitulo-12.html",
+      "mapAction": "fiscal:734595412",
+      "period": {
+        "from": "MAR 1995",
+        "to": "JUN 2026"
+      },
+      "coverage": "España",
+      "unit": "Porcentaje",
+      "license": "Términos de las estadísticas del Banco de España",
+      "notes": "Elaboración propia con datos extraídos del sitio web del Banco de España (www.bde.es). Se conservan la unidad, los códigos de serie, las notas y el símbolo de cada dato ausente.",
+      "dataFile": "hacienda/bde/index.json",
+      "links": {
+        "Descarga oficial": "https://www.bde.es/webbe/es/estadisticas/compartido/datos/csv/be1204.csv"
+      },
+      "review": {
+        "implementedProductId": "fiscal:734595412",
+        "updatedAt": "2026-11-17",
+        "reason": "Distribución cotejada. 1,638 celdas conservadas con sus estados y unidades."
+      }
+    },
+    {
+      "id": "fiscal-distribution:734595413",
+      "title": "Administración central y Seguridad Social · cuadro 12.5",
+      "sourceId": "F041",
+      "categoryIds": [
+        "F09"
+      ],
+      "status": "integrado",
+      "url": "https://www.bde.es/webbe/es/estadisticas/otras-clasificaciones/publicaciones/boletin-estadistico/capitulo-12.html",
+      "mapAction": "fiscal:734595413",
+      "period": {
+        "from": "MAR 1995",
+        "to": "JUN 2026"
+      },
+      "coverage": "España",
+      "unit": "Miles de euros",
+      "license": "Términos de las estadísticas del Banco de España",
+      "notes": "Elaboración propia con datos extraídos del sitio web del Banco de España (www.bde.es). Se conservan la unidad, los códigos de serie, las notas y el símbolo de cada dato ausente.",
+      "dataFile": "hacienda/bde/index.json",
+      "links": {
+        "Descarga oficial": "https://www.bde.es/webbe/es/estadisticas/compartido/datos/csv/be1205.csv"
+      },
+      "review": {
+        "implementedProductId": "fiscal:734595413",
+        "updatedAt": "2026-11-17",
+        "reason": "Distribución cotejada. 1,764 celdas conservadas con sus estados y unidades."
+      }
+    },
+    {
+      "id": "fiscal-distribution:734595414",
+      "title": "Administración central y Seguridad Social · cuadro 12.6",
+      "sourceId": "F041",
+      "categoryIds": [
+        "F09"
+      ],
+      "status": "integrado",
+      "url": "https://www.bde.es/webbe/es/estadisticas/otras-clasificaciones/publicaciones/boletin-estadistico/capitulo-12.html",
+      "mapAction": "fiscal:734595414",
+      "period": {
+        "from": "DIC 1994",
+        "to": "JUN 2026"
+      },
+      "coverage": "España",
+      "unit": "Según serie",
+      "license": "Términos de las estadísticas del Banco de España",
+      "notes": "Elaboración propia con datos extraídos del sitio web del Banco de España (www.bde.es). Se conservan la unidad, los códigos de serie, las notas y el símbolo de cada dato ausente.",
+      "dataFile": "hacienda/bde/index.json",
+      "links": {
+        "Descarga oficial": "https://www.bde.es/webbe/es/estadisticas/compartido/datos/csv/be1206.csv"
+      },
+      "review": {
+        "implementedProductId": "fiscal:734595414",
+        "updatedAt": "2026-11-17",
+        "reason": "Distribución cotejada. 1,524 celdas conservadas con sus estados y unidades."
+      }
+    },
+    {
+      "id": "fiscal-distribution:734595415",
+      "title": "Administración central y Seguridad Social · cuadro 12.7",
+      "sourceId": "F041",
+      "categoryIds": [
+        "F09"
+      ],
+      "status": "integrado",
+      "url": "https://www.bde.es/webbe/es/estadisticas/otras-clasificaciones/publicaciones/boletin-estadistico/capitulo-12.html",
+      "mapAction": "fiscal:734595415",
+      "period": {
+        "from": "DIC 1994",
+        "to": "JUN 2026"
+      },
+      "coverage": "España",
+      "unit": "Miles de euros",
+      "license": "Términos de las estadísticas del Banco de España",
+      "notes": "Elaboración propia con datos extraídos del sitio web del Banco de España (www.bde.es). Se conservan la unidad, los códigos de serie, las notas y el símbolo de cada dato ausente.",
+      "dataFile": "hacienda/bde/index.json",
+      "links": {
+        "Descarga oficial": "https://www.bde.es/webbe/es/estadisticas/compartido/datos/csv/be1207.csv"
+      },
+      "review": {
+        "implementedProductId": "fiscal:734595415",
+        "updatedAt": "2026-11-17",
+        "reason": "Distribución cotejada. 1,397 celdas conservadas con sus estados y unidades."
+      }
+    },
+    {
+      "id": "fiscal-distribution:734595416",
+      "title": "Administración central y Seguridad Social · cuadro 12.8",
+      "sourceId": "F041",
+      "categoryIds": [
+        "F09"
+      ],
+      "status": "integrado",
+      "url": "https://www.bde.es/webbe/es/estadisticas/otras-clasificaciones/publicaciones/boletin-estadistico/capitulo-12.html",
+      "mapAction": "fiscal:734595416",
+      "period": {
+        "from": "DIC 1994",
+        "to": "JUN 2026"
+      },
+      "coverage": "España",
+      "unit": "Según serie",
+      "license": "Términos de las estadísticas del Banco de España",
+      "notes": "Elaboración propia con datos extraídos del sitio web del Banco de España (www.bde.es). Se conservan la unidad, los códigos de serie, las notas y el símbolo de cada dato ausente.",
+      "dataFile": "hacienda/bde/index.json",
+      "links": {
+        "Descarga oficial": "https://www.bde.es/webbe/es/estadisticas/compartido/datos/csv/be1208.csv"
+      },
+      "review": {
+        "implementedProductId": "fiscal:734595416",
+        "updatedAt": "2026-11-17",
+        "reason": "Distribución cotejada. 1,397 celdas conservadas con sus estados y unidades."
+      }
+    },
+    {
+      "id": "fiscal-distribution:734595417",
+      "title": "Administración central y Seguridad Social · cuadro 12.9",
+      "sourceId": "F041",
+      "categoryIds": [
+        "F09"
+      ],
+      "status": "integrado",
+      "url": "https://www.bde.es/webbe/es/estadisticas/otras-clasificaciones/publicaciones/boletin-estadistico/capitulo-12.html",
+      "mapAction": "fiscal:734595417",
+      "period": {
+        "from": "DIC 1994",
+        "to": "JUN 2026"
+      },
+      "coverage": "España",
+      "unit": "Según serie",
+      "license": "Términos de las estadísticas del Banco de España",
+      "notes": "Elaboración propia con datos extraídos del sitio web del Banco de España (www.bde.es). Se conservan la unidad, los códigos de serie, las notas y el símbolo de cada dato ausente.",
+      "dataFile": "hacienda/bde/index.json",
+      "links": {
+        "Descarga oficial": "https://www.bde.es/webbe/es/estadisticas/compartido/datos/csv/be1209.csv"
+      },
+      "review": {
+        "implementedProductId": "fiscal:734595417",
+        "updatedAt": "2026-11-17",
+        "reason": "Distribución cotejada. 1,143 celdas conservadas con sus estados y unidades."
+      }
+    },
+    {
+      "id": "fiscal-distribution:734595444",
+      "title": "Administración central y Seguridad Social · cuadro 12.10",
+      "sourceId": "F041",
+      "categoryIds": [
+        "F09"
+      ],
+      "status": "integrado",
+      "url": "https://www.bde.es/webbe/es/estadisticas/otras-clasificaciones/publicaciones/boletin-estadistico/capitulo-12.html",
+      "mapAction": "fiscal:734595444",
+      "period": {
+        "from": "DIC 1994",
+        "to": "JUN 2026"
+      },
+      "coverage": "España",
+      "unit": "Según serie",
+      "license": "Términos de las estadísticas del Banco de España",
+      "notes": "Elaboración propia con datos extraídos del sitio web del Banco de España (www.bde.es). Se conservan la unidad, los códigos de serie, las notas y el símbolo de cada dato ausente.",
+      "dataFile": "hacienda/bde/index.json",
+      "links": {
+        "Descarga oficial": "https://www.bde.es/webbe/es/estadisticas/compartido/datos/csv/be1210.csv"
+      },
+      "review": {
+        "implementedProductId": "fiscal:734595444",
+        "updatedAt": "2026-11-17",
+        "reason": "Distribución cotejada. 1,016 celdas conservadas con sus estados y unidades."
+      }
+    },
+    {
+      "id": "fiscal-distribution:734595445",
+      "title": "Administración central y Seguridad Social · cuadro 12.11",
+      "sourceId": "F041",
+      "categoryIds": [
+        "F09"
+      ],
+      "status": "integrado",
+      "url": "https://www.bde.es/webbe/es/estadisticas/otras-clasificaciones/publicaciones/boletin-estadistico/capitulo-12.html",
+      "mapAction": "fiscal:734595445",
+      "period": {
+        "from": "DIC 1979",
+        "to": "JUN 2026"
+      },
+      "coverage": "España",
+      "unit": "Miles de euros",
+      "license": "Términos de las estadísticas del Banco de España",
+      "notes": "Elaboración propia con datos extraídos del sitio web del Banco de España (www.bde.es). Se conservan la unidad, los códigos de serie, las notas y el símbolo de cada dato ausente.",
+      "dataFile": "hacienda/bde/index.json",
+      "links": {
+        "Descarga oficial": "https://www.bde.es/webbe/es/estadisticas/compartido/datos/csv/be1211.csv"
+      },
+      "review": {
+        "implementedProductId": "fiscal:734595445",
+        "updatedAt": "2026-11-17",
+        "reason": "Distribución cotejada. 1,870 celdas conservadas con sus estados y unidades."
+      }
+    },
+    {
+      "id": "fiscal-distribution:734595446",
+      "title": "Administración central y Seguridad Social · cuadro 12.12",
+      "sourceId": "F041",
+      "categoryIds": [
+        "F09"
+      ],
+      "status": "integrado",
+      "url": "https://www.bde.es/webbe/es/estadisticas/otras-clasificaciones/publicaciones/boletin-estadistico/capitulo-12.html",
+      "mapAction": "fiscal:734595446",
+      "period": {
+        "from": "MAR 1995",
+        "to": "JUN 2026"
+      },
+      "coverage": "España",
+      "unit": "Según serie",
+      "license": "Términos de las estadísticas del Banco de España",
+      "notes": "Elaboración propia con datos extraídos del sitio web del Banco de España (www.bde.es). Se conservan la unidad, los códigos de serie, las notas y el símbolo de cada dato ausente.",
+      "dataFile": "hacienda/bde/index.json",
+      "links": {
+        "Descarga oficial": "https://www.bde.es/webbe/es/estadisticas/compartido/datos/csv/be1212.csv"
+      },
+      "review": {
+        "implementedProductId": "fiscal:734595446",
+        "updatedAt": "2026-11-17",
+        "reason": "Distribución cotejada. 1,260 celdas conservadas con sus estados y unidades."
+      }
+    },
+    {
+      "id": "fiscal-distribution:734595447",
+      "title": "Administración central y Seguridad Social · cuadro 12.13",
+      "sourceId": "F041",
+      "categoryIds": [
+        "F09"
+      ],
+      "status": "integrado",
+      "url": "https://www.bde.es/webbe/es/estadisticas/otras-clasificaciones/publicaciones/boletin-estadistico/capitulo-12.html",
+      "mapAction": "fiscal:734595447",
+      "period": {
+        "from": "DIC 1962",
+        "to": "JUN 2026"
+      },
+      "coverage": "España",
+      "unit": "Miles de euros",
+      "license": "Términos de las estadísticas del Banco de España",
+      "notes": "Elaboración propia con datos extraídos del sitio web del Banco de España (www.bde.es). Se conservan la unidad, los códigos de serie, las notas y el símbolo de cada dato ausente.",
+      "dataFile": "hacienda/bde/index.json",
+      "links": {
+        "Descarga oficial": "https://www.bde.es/webbe/es/estadisticas/compartido/datos/csv/be1213.csv"
+      },
+      "review": {
+        "implementedProductId": "fiscal:734595447",
+        "updatedAt": "2026-11-17",
+        "reason": "Distribución cotejada. 3,315 celdas conservadas con sus estados y unidades."
+      }
+    },
+    {
+      "id": "fiscal-distribution:734595448",
+      "title": "Administración central y Seguridad Social · cuadro 12.14",
+      "sourceId": "F041",
+      "categoryIds": [
+        "F09"
+      ],
+      "status": "integrado",
+      "url": "https://www.bde.es/webbe/es/estadisticas/otras-clasificaciones/publicaciones/boletin-estadistico/capitulo-12.html",
+      "mapAction": "fiscal:734595448",
+      "period": {
+        "from": "MAR 1995",
+        "to": "JUN 2026"
+      },
+      "coverage": "España",
+      "unit": "Porcentaje",
+      "license": "Términos de las estadísticas del Banco de España",
+      "notes": "Elaboración propia con datos extraídos del sitio web del Banco de España (www.bde.es). Se conservan la unidad, los códigos de serie, las notas y el símbolo de cada dato ausente.",
+      "dataFile": "hacienda/bde/index.json",
+      "links": {
+        "Descarga oficial": "https://www.bde.es/webbe/es/estadisticas/compartido/datos/csv/be1214.csv"
+      },
+      "review": {
+        "implementedProductId": "fiscal:734595448",
+        "updatedAt": "2026-11-17",
+        "reason": "Distribución cotejada. 1,638 celdas conservadas con sus estados y unidades."
+      }
+    },
+    {
+      "id": "fiscal-distribution:734595449",
+      "title": "Administración central y Seguridad Social · cuadro 12.15",
+      "sourceId": "F041",
+      "categoryIds": [
+        "F09"
+      ],
+      "status": "integrado",
+      "url": "https://www.bde.es/webbe/es/estadisticas/otras-clasificaciones/publicaciones/boletin-estadistico/capitulo-12.html",
+      "mapAction": "fiscal:734595449",
+      "period": {
+        "from": "MAR 1995",
+        "to": "JUN 2026"
+      },
+      "coverage": "España",
+      "unit": "Miles de euros",
+      "license": "Términos de las estadísticas del Banco de España",
+      "notes": "Elaboración propia con datos extraídos del sitio web del Banco de España (www.bde.es). Se conservan la unidad, los códigos de serie, las notas y el símbolo de cada dato ausente.",
+      "dataFile": "hacienda/bde/index.json",
+      "links": {
+        "Descarga oficial": "https://www.bde.es/webbe/es/estadisticas/compartido/datos/csv/be1215.csv"
+      },
+      "review": {
+        "implementedProductId": "fiscal:734595449",
+        "updatedAt": "2026-11-17",
+        "reason": "Distribución cotejada. 1,764 celdas conservadas con sus estados y unidades."
+      }
+    },
+    {
+      "id": "fiscal-distribution:734595450",
+      "title": "Administración central y Seguridad Social · cuadro 12.16",
+      "sourceId": "F041",
+      "categoryIds": [
+        "F09"
+      ],
+      "status": "integrado",
+      "url": "https://www.bde.es/webbe/es/estadisticas/otras-clasificaciones/publicaciones/boletin-estadistico/capitulo-12.html",
+      "mapAction": "fiscal:734595450",
+      "period": {
+        "from": "DIC 1994",
+        "to": "JUN 2026"
+      },
+      "coverage": "España",
+      "unit": "Según serie",
+      "license": "Términos de las estadísticas del Banco de España",
+      "notes": "Elaboración propia con datos extraídos del sitio web del Banco de España (www.bde.es). Se conservan la unidad, los códigos de serie, las notas y el símbolo de cada dato ausente.",
+      "dataFile": "hacienda/bde/index.json",
+      "links": {
+        "Descarga oficial": "https://www.bde.es/webbe/es/estadisticas/compartido/datos/csv/be1216.csv"
+      },
+      "review": {
+        "implementedProductId": "fiscal:734595450",
+        "updatedAt": "2026-11-17",
+        "reason": "Distribución cotejada. 1,524 celdas conservadas con sus estados y unidades."
+      }
+    },
+    {
+      "id": "fiscal-distribution:734594158",
+      "title": "Administración central y Seguridad Social · cuadro 12.a",
+      "sourceId": "F041",
+      "categoryIds": [
+        "F09"
+      ],
+      "status": "integrado",
+      "url": "https://www.bde.es/webbe/es/estadisticas/otras-clasificaciones/publicaciones/boletin-estadistico/capitulo-12.html",
+      "mapAction": "fiscal:734594158",
+      "period": {
+        "from": "ENE 1985",
+        "to": "SEP 2026"
+      },
+      "coverage": "España",
+      "unit": "Miles de euros",
+      "license": "Términos de las estadísticas del Banco de España",
+      "notes": "Elaboración propia con datos extraídos del sitio web del Banco de España (www.bde.es). Se conservan la unidad, los códigos de serie, las notas y el símbolo de cada dato ausente.",
+      "dataFile": "hacienda/bde/index.json",
+      "links": {
+        "Descarga oficial": "https://www.bde.es/webbe/es/estadisticas/compartido/datos/csv/be12a.csv"
+      },
+      "review": {
+        "implementedProductId": "fiscal:734594158",
+        "updatedAt": "2026-11-17",
+        "reason": "Distribución cotejada. 8,016 celdas conservadas con sus estados y unidades."
+      }
+    },
+    {
+      "id": "fiscal-distribution:734594159",
+      "title": "Administración central y Seguridad Social · cuadro 12.b",
+      "sourceId": "F041",
+      "categoryIds": [
+        "F09"
+      ],
+      "status": "integrado",
+      "url": "https://www.bde.es/webbe/es/estadisticas/otras-clasificaciones/publicaciones/boletin-estadistico/capitulo-12.html",
+      "mapAction": "fiscal:734594159",
+      "period": {
+        "from": "ENE 1995",
+        "to": "SEP 2026"
+      },
+      "coverage": "España",
+      "unit": "Miles de euros",
+      "license": "Términos de las estadísticas del Banco de España",
+      "notes": "Elaboración propia con datos extraídos del sitio web del Banco de España (www.bde.es). Se conservan la unidad, los códigos de serie, las notas y el símbolo de cada dato ausente.",
+      "dataFile": "hacienda/bde/index.json",
+      "links": {
+        "Descarga oficial": "https://www.bde.es/webbe/es/estadisticas/compartido/datos/csv/be12b.csv"
+      },
+      "review": {
+        "implementedProductId": "fiscal:734594159",
+        "updatedAt": "2026-11-17",
+        "reason": "Distribución cotejada. 5,715 celdas conservadas con sus estados y unidades."
+      }
+    },
+    {
+      "id": "fiscal-distribution:734594160",
+      "title": "Administración central y Seguridad Social · cuadro 12.c",
+      "sourceId": "F041",
+      "categoryIds": [
+        "F09"
+      ],
+      "status": "integrado",
+      "url": "https://www.bde.es/webbe/es/estadisticas/otras-clasificaciones/publicaciones/boletin-estadistico/capitulo-12.html",
+      "mapAction": "fiscal:734594160",
+      "period": {
+        "from": "DIC 1991",
+        "to": "SEP 2026"
+      },
+      "coverage": "España",
+      "unit": "Miles de euros",
+      "license": "Términos de las estadísticas del Banco de España",
+      "notes": "Elaboración propia con datos extraídos del sitio web del Banco de España (www.bde.es). Se conservan la unidad, los códigos de serie, las notas y el símbolo de cada dato ausente.",
+      "dataFile": "hacienda/bde/index.json",
+      "links": {
+        "Descarga oficial": "https://www.bde.es/webbe/es/estadisticas/compartido/datos/csv/be12c.csv"
+      },
+      "review": {
+        "implementedProductId": "fiscal:734594160",
+        "updatedAt": "2026-11-17",
+        "reason": "Distribución cotejada. 6,270 celdas conservadas con sus estados y unidades."
+      }
+    },
+    {
+      "id": "fiscal-distribution:795061585",
+      "title": "Comunidades autónomas · cuadro 13.1",
+      "sourceId": "F041",
+      "categoryIds": [
+        "F09"
+      ],
+      "status": "integrado",
+      "url": "https://www.bde.es/webbe/es/estadisticas/otras-clasificaciones/publicaciones/boletin-estadistico/capitulo-13.html",
+      "mapAction": "fiscal:795061585",
+      "period": {
+        "from": "DIC 1994",
+        "to": "JUN 2026"
+      },
+      "coverage": "España",
+      "unit": "Miles de euros",
+      "license": "Términos de las estadísticas del Banco de España",
+      "notes": "Elaboración propia con datos extraídos del sitio web del Banco de España (www.bde.es). Se conservan la unidad, los códigos de serie, las notas y el símbolo de cada dato ausente.",
+      "dataFile": "hacienda/bde/index.json",
+      "links": {
+        "Descarga oficial": "https://www.bde.es/webbe/es/estadisticas/compartido/datos/csv/be1301.csv"
+      },
+      "review": {
+        "implementedProductId": "fiscal:795061585",
+        "updatedAt": "2026-11-17",
+        "reason": "Distribución cotejada. 1,270 celdas conservadas con sus estados y unidades."
+      }
+    },
+    {
+      "id": "fiscal-distribution:795061586",
+      "title": "Comunidades autónomas · cuadro 13.2",
+      "sourceId": "F041",
+      "categoryIds": [
+        "F09"
+      ],
+      "status": "integrado",
+      "url": "https://www.bde.es/webbe/es/estadisticas/otras-clasificaciones/publicaciones/boletin-estadistico/capitulo-13.html",
+      "mapAction": "fiscal:795061586",
+      "period": {
+        "from": "MAR 1995",
+        "to": "JUN 2026"
+      },
+      "coverage": "España",
+      "unit": "Según serie",
+      "license": "Términos de las estadísticas del Banco de España",
+      "notes": "Elaboración propia con datos extraídos del sitio web del Banco de España (www.bde.es). Se conservan la unidad, los códigos de serie, las notas y el símbolo de cada dato ausente.",
+      "dataFile": "hacienda/bde/index.json",
+      "links": {
+        "Descarga oficial": "https://www.bde.es/webbe/es/estadisticas/compartido/datos/csv/be1302.csv"
+      },
+      "review": {
+        "implementedProductId": "fiscal:795061586",
+        "updatedAt": "2026-11-17",
+        "reason": "Distribución cotejada. 1,260 celdas conservadas con sus estados y unidades."
+      }
+    },
+    {
+      "id": "fiscal-distribution:795061587",
+      "title": "Comunidades autónomas · cuadro 13.3",
+      "sourceId": "F041",
+      "categoryIds": [
+        "F09"
+      ],
+      "status": "integrado",
+      "url": "https://www.bde.es/webbe/es/estadisticas/otras-clasificaciones/publicaciones/boletin-estadistico/capitulo-13.html",
+      "mapAction": "fiscal:795061587",
+      "period": {
+        "from": "MAR 1995",
+        "to": "JUN 2026"
+      },
+      "coverage": "España",
+      "unit": "Miles de euros",
+      "license": "Términos de las estadísticas del Banco de España",
+      "notes": "Elaboración propia con datos extraídos del sitio web del Banco de España (www.bde.es). Se conservan la unidad, los códigos de serie, las notas y el símbolo de cada dato ausente.",
+      "dataFile": "hacienda/bde/index.json",
+      "links": {
+        "Descarga oficial": "https://www.bde.es/webbe/es/estadisticas/compartido/datos/csv/be1303.csv"
+      },
+      "review": {
+        "implementedProductId": "fiscal:795061587",
+        "updatedAt": "2026-11-17",
+        "reason": "Distribución cotejada. 1,638 celdas conservadas con sus estados y unidades."
+      }
+    },
+    {
+      "id": "fiscal-distribution:795061588",
+      "title": "Comunidades autónomas · cuadro 13.4",
+      "sourceId": "F041",
+      "categoryIds": [
+        "F09"
+      ],
+      "status": "integrado",
+      "url": "https://www.bde.es/webbe/es/estadisticas/otras-clasificaciones/publicaciones/boletin-estadistico/capitulo-13.html",
+      "mapAction": "fiscal:795061588",
+      "period": {
+        "from": "MAR 1995",
+        "to": "JUN 2026"
+      },
+      "coverage": "España",
+      "unit": "Porcentaje",
+      "license": "Términos de las estadísticas del Banco de España",
+      "notes": "Elaboración propia con datos extraídos del sitio web del Banco de España (www.bde.es). Se conservan la unidad, los códigos de serie, las notas y el símbolo de cada dato ausente.",
+      "dataFile": "hacienda/bde/index.json",
+      "links": {
+        "Descarga oficial": "https://www.bde.es/webbe/es/estadisticas/compartido/datos/csv/be1304.csv"
+      },
+      "review": {
+        "implementedProductId": "fiscal:795061588",
+        "updatedAt": "2026-11-17",
+        "reason": "Distribución cotejada. 1,638 celdas conservadas con sus estados y unidades."
+      }
+    },
+    {
+      "id": "fiscal-distribution:795061589",
+      "title": "Comunidades autónomas · cuadro 13.5",
+      "sourceId": "F041",
+      "categoryIds": [
+        "F09"
+      ],
+      "status": "integrado",
+      "url": "https://www.bde.es/webbe/es/estadisticas/otras-clasificaciones/publicaciones/boletin-estadistico/capitulo-13.html",
+      "mapAction": "fiscal:795061589",
+      "period": {
+        "from": "MAR 1995",
+        "to": "JUN 2026"
+      },
+      "coverage": "España",
+      "unit": "Miles de euros",
+      "license": "Términos de las estadísticas del Banco de España",
+      "notes": "Elaboración propia con datos extraídos del sitio web del Banco de España (www.bde.es). Se conservan la unidad, los códigos de serie, las notas y el símbolo de cada dato ausente.",
+      "dataFile": "hacienda/bde/index.json",
+      "links": {
+        "Descarga oficial": "https://www.bde.es/webbe/es/estadisticas/compartido/datos/csv/be1305.csv"
+      },
+      "review": {
+        "implementedProductId": "fiscal:795061589",
+        "updatedAt": "2026-11-17",
+        "reason": "Distribución cotejada. 1,764 celdas conservadas con sus estados y unidades."
+      }
+    },
+    {
+      "id": "fiscal-distribution:795061590",
+      "title": "Deuda autonómica por instrumento y comunidad",
+      "sourceId": "F041",
+      "categoryIds": [
+        "F09"
+      ],
+      "status": "integrado",
+      "url": "https://www.bde.es/webbe/es/estadisticas/otras-clasificaciones/publicaciones/boletin-estadistico/capitulo-13.html",
+      "mapAction": "fiscal:795061590",
+      "period": {
+        "from": "DIC 1994",
+        "to": "JUN 2026"
+      },
+      "coverage": "Comunidades autónomas · España",
+      "unit": "Miles de euros",
+      "license": "Términos de las estadísticas del Banco de España",
+      "notes": "Elaboración propia con datos extraídos del sitio web del Banco de España (www.bde.es). Se conservan la unidad, los códigos de serie, las notas y el símbolo de cada dato ausente.",
+      "dataFile": "hacienda/bde/index.json",
+      "links": {
+        "Descarga oficial": "https://www.bde.es/webbe/es/estadisticas/compartido/datos/csv/be1306.csv"
+      },
+      "review": {
+        "implementedProductId": "fiscal:795061590",
+        "updatedAt": "2026-11-17",
+        "reason": "Distribución cotejada. 28,702 celdas conservadas con sus estados y unidades."
+      }
+    },
+    {
+      "id": "fiscal-distribution:795061591",
+      "title": "Comunidades autónomas · cuadro 13.7",
+      "sourceId": "F041",
+      "categoryIds": [
+        "F09"
+      ],
+      "status": "integrado",
+      "url": "https://www.bde.es/webbe/es/estadisticas/otras-clasificaciones/publicaciones/boletin-estadistico/capitulo-13.html",
+      "mapAction": "fiscal:795061591",
+      "period": {
+        "from": "DIC 1994",
+        "to": "JUN 2026"
+      },
+      "coverage": "España",
+      "unit": "Según serie",
+      "license": "Términos de las estadísticas del Banco de España",
+      "notes": "Elaboración propia con datos extraídos del sitio web del Banco de España (www.bde.es). Se conservan la unidad, los códigos de serie, las notas y el símbolo de cada dato ausente.",
+      "dataFile": "hacienda/bde/index.json",
+      "links": {
+        "Descarga oficial": "https://www.bde.es/webbe/es/estadisticas/compartido/datos/csv/be1307.csv"
+      },
+      "review": {
+        "implementedProductId": "fiscal:795061591",
+        "updatedAt": "2026-11-17",
+        "reason": "Distribución cotejada. 1,651 celdas conservadas con sus estados y unidades."
+      }
+    },
+    {
+      "id": "fiscal-distribution:795061592",
+      "title": "Comunidades autónomas · cuadro 13.8",
+      "sourceId": "F041",
+      "categoryIds": [
+        "F09"
+      ],
+      "status": "integrado",
+      "url": "https://www.bde.es/webbe/es/estadisticas/otras-clasificaciones/publicaciones/boletin-estadistico/capitulo-13.html",
+      "mapAction": "fiscal:795061592",
+      "period": {
+        "from": "DIC 1994",
+        "to": "JUN 2026"
+      },
+      "coverage": "España",
+      "unit": "Según serie",
+      "license": "Términos de las estadísticas del Banco de España",
+      "notes": "Elaboración propia con datos extraídos del sitio web del Banco de España (www.bde.es). Se conservan la unidad, los códigos de serie, las notas y el símbolo de cada dato ausente.",
+      "dataFile": "hacienda/bde/index.json",
+      "links": {
+        "Descarga oficial": "https://www.bde.es/webbe/es/estadisticas/compartido/datos/csv/be1308.csv"
+      },
+      "review": {
+        "implementedProductId": "fiscal:795061592",
+        "updatedAt": "2026-11-17",
+        "reason": "Distribución cotejada. 1,651 celdas conservadas con sus estados y unidades."
+      }
+    },
+    {
+      "id": "fiscal-distribution:795061593",
+      "title": "Deuda PDE por comunidad autónoma",
+      "sourceId": "F041",
+      "categoryIds": [
+        "F09"
+      ],
+      "status": "integrado",
+      "url": "https://www.bde.es/webbe/es/estadisticas/otras-clasificaciones/publicaciones/boletin-estadistico/capitulo-13.html",
+      "mapAction": "fiscal:795061593",
+      "period": {
+        "from": "DIC 1994",
+        "to": "JUN 2026"
+      },
+      "coverage": "Comunidades autónomas · España",
+      "unit": "Miles de euros",
+      "license": "Términos de las estadísticas del Banco de España",
+      "notes": "Elaboración propia con datos extraídos del sitio web del Banco de España (www.bde.es). Se conservan la unidad, los códigos de serie, las notas y el símbolo de cada dato ausente.",
+      "dataFile": "hacienda/bde/index.json",
+      "links": {
+        "Descarga oficial": "https://www.bde.es/webbe/es/estadisticas/compartido/datos/csv/be1309.csv"
+      },
+      "review": {
+        "implementedProductId": "fiscal:795061593",
+        "updatedAt": "2026-11-17",
+        "reason": "Distribución cotejada. 2,286 celdas conservadas con sus estados y unidades."
+      }
+    },
+    {
+      "id": "fiscal-distribution:795061620",
+      "title": "Deuda PDE por comunidad autónoma en porcentaje del PIB",
+      "sourceId": "F041",
+      "categoryIds": [
+        "F09"
+      ],
+      "status": "integrado",
+      "url": "https://www.bde.es/webbe/es/estadisticas/otras-clasificaciones/publicaciones/boletin-estadistico/capitulo-13.html",
+      "mapAction": "fiscal:795061620",
+      "period": {
+        "from": "MAR 1995",
+        "to": "JUN 2026"
+      },
+      "coverage": "Comunidades autónomas · España",
+      "unit": "Porcentaje",
+      "license": "Términos de las estadísticas del Banco de España",
+      "notes": "Elaboración propia con datos extraídos del sitio web del Banco de España (www.bde.es). Se conservan la unidad, los códigos de serie, las notas y el símbolo de cada dato ausente.",
+      "dataFile": "hacienda/bde/index.json",
+      "links": {
+        "Descarga oficial": "https://www.bde.es/webbe/es/estadisticas/compartido/datos/csv/be1310.csv"
+      },
+      "review": {
+        "implementedProductId": "fiscal:795061620",
+        "updatedAt": "2026-11-17",
+        "reason": "Distribución cotejada. 2,268 celdas conservadas con sus estados y unidades."
+      }
+    },
+    {
+      "id": "fiscal-distribution:795061621",
+      "title": "Comunidades autónomas · cuadro 13.11",
+      "sourceId": "F041",
+      "categoryIds": [
+        "F09"
+      ],
+      "status": "integrado",
+      "url": "https://www.bde.es/webbe/es/estadisticas/otras-clasificaciones/publicaciones/boletin-estadistico/capitulo-13.html",
+      "mapAction": "fiscal:795061621",
+      "period": {
+        "from": "DIC 1994",
+        "to": "JUN 2026"
+      },
+      "coverage": "Comunidades autónomas · España",
+      "unit": "Miles de euros",
+      "license": "Términos de las estadísticas del Banco de España",
+      "notes": "Elaboración propia con datos extraídos del sitio web del Banco de España (www.bde.es). Se conservan la unidad, los códigos de serie, las notas y el símbolo de cada dato ausente.",
+      "dataFile": "hacienda/bde/index.json",
+      "links": {
+        "Descarga oficial": "https://www.bde.es/webbe/es/estadisticas/compartido/datos/csv/be1311.csv"
+      },
+      "review": {
+        "implementedProductId": "fiscal:795061621",
+        "updatedAt": "2026-11-17",
+        "reason": "Distribución cotejada. 2,286 celdas conservadas con sus estados y unidades."
+      }
+    },
+    {
+      "id": "fiscal-distribution:795061622",
+      "title": "Comunidades autónomas · cuadro 13.12",
+      "sourceId": "F041",
+      "categoryIds": [
+        "F09"
+      ],
+      "status": "integrado",
+      "url": "https://www.bde.es/webbe/es/estadisticas/otras-clasificaciones/publicaciones/boletin-estadistico/capitulo-13.html",
+      "mapAction": "fiscal:795061622",
+      "period": {
+        "from": "MAR 1995",
+        "to": "JUN 2026"
+      },
+      "coverage": "Comunidades autónomas · España",
+      "unit": "Porcentaje",
+      "license": "Términos de las estadísticas del Banco de España",
+      "notes": "Elaboración propia con datos extraídos del sitio web del Banco de España (www.bde.es). Se conservan la unidad, los códigos de serie, las notas y el símbolo de cada dato ausente.",
+      "dataFile": "hacienda/bde/index.json",
+      "links": {
+        "Descarga oficial": "https://www.bde.es/webbe/es/estadisticas/compartido/datos/csv/be1312.csv"
+      },
+      "review": {
+        "implementedProductId": "fiscal:795061622",
+        "updatedAt": "2026-11-17",
+        "reason": "Distribución cotejada. 2,268 celdas conservadas con sus estados y unidades."
+      }
+    },
+    {
+      "id": "fiscal-distribution:795060334",
+      "title": "Capacidad o necesidad de financiación por comunidad autónoma",
+      "sourceId": "F041",
+      "categoryIds": [
+        "F09"
+      ],
+      "status": "integrado",
+      "url": "https://www.bde.es/webbe/es/estadisticas/otras-clasificaciones/publicaciones/boletin-estadistico/capitulo-13.html",
+      "mapAction": "fiscal:795060334",
+      "period": {
+        "from": "DIC 2004",
+        "to": "AGO 2026"
+      },
+      "coverage": "Comunidades autónomas · España",
+      "unit": "Miles de euros",
+      "license": "Términos de las estadísticas del Banco de España",
+      "notes": "Elaboración propia con datos extraídos del sitio web del Banco de España (www.bde.es). Se conservan la unidad, los códigos de serie, las notas y el símbolo de cada dato ausente.",
+      "dataFile": "hacienda/bde/index.json",
+      "links": {
+        "Descarga oficial": "https://www.bde.es/webbe/es/estadisticas/compartido/datos/csv/be13a.csv"
+      },
+      "review": {
+        "implementedProductId": "fiscal:795060334",
+        "updatedAt": "2026-11-17",
+        "reason": "Distribución cotejada. 4,698 celdas conservadas con sus estados y unidades."
+      }
+    },
+    {
+      "id": "fiscal-distribution:855527761",
+      "title": "Corporaciones locales · cuadro 14.1",
+      "sourceId": "F041",
+      "categoryIds": [
+        "F09"
+      ],
+      "status": "integrado",
+      "url": "https://www.bde.es/webbe/es/estadisticas/otras-clasificaciones/publicaciones/boletin-estadistico/capitulo-14.html",
+      "mapAction": "fiscal:855527761",
+      "period": {
+        "from": "DIC 1994",
+        "to": "JUN 2026"
+      },
+      "coverage": "España",
+      "unit": "Miles de euros",
+      "license": "Términos de las estadísticas del Banco de España",
+      "notes": "Elaboración propia con datos extraídos del sitio web del Banco de España (www.bde.es). Se conservan la unidad, los códigos de serie, las notas y el símbolo de cada dato ausente.",
+      "dataFile": "hacienda/bde/index.json",
+      "links": {
+        "Descarga oficial": "https://www.bde.es/webbe/es/estadisticas/compartido/datos/csv/be1401.csv"
+      },
+      "review": {
+        "implementedProductId": "fiscal:855527761",
+        "updatedAt": "2026-11-17",
+        "reason": "Distribución cotejada. 1,270 celdas conservadas con sus estados y unidades."
+      }
+    },
+    {
+      "id": "fiscal-distribution:855527762",
+      "title": "Corporaciones locales · cuadro 14.2",
+      "sourceId": "F041",
+      "categoryIds": [
+        "F09"
+      ],
+      "status": "integrado",
+      "url": "https://www.bde.es/webbe/es/estadisticas/otras-clasificaciones/publicaciones/boletin-estadistico/capitulo-14.html",
+      "mapAction": "fiscal:855527762",
+      "period": {
+        "from": "MAR 1995",
+        "to": "JUN 2026"
+      },
+      "coverage": "España",
+      "unit": "Según serie",
+      "license": "Términos de las estadísticas del Banco de España",
+      "notes": "Elaboración propia con datos extraídos del sitio web del Banco de España (www.bde.es). Se conservan la unidad, los códigos de serie, las notas y el símbolo de cada dato ausente.",
+      "dataFile": "hacienda/bde/index.json",
+      "links": {
+        "Descarga oficial": "https://www.bde.es/webbe/es/estadisticas/compartido/datos/csv/be1402.csv"
+      },
+      "review": {
+        "implementedProductId": "fiscal:855527762",
+        "updatedAt": "2026-11-17",
+        "reason": "Distribución cotejada. 1,260 celdas conservadas con sus estados y unidades."
+      }
+    },
+    {
+      "id": "fiscal-distribution:855527763",
+      "title": "Corporaciones locales · cuadro 14.3",
+      "sourceId": "F041",
+      "categoryIds": [
+        "F09"
+      ],
+      "status": "integrado",
+      "url": "https://www.bde.es/webbe/es/estadisticas/otras-clasificaciones/publicaciones/boletin-estadistico/capitulo-14.html",
+      "mapAction": "fiscal:855527763",
+      "period": {
+        "from": "MAR 1995",
+        "to": "JUN 2026"
+      },
+      "coverage": "España",
+      "unit": "Miles de euros",
+      "license": "Términos de las estadísticas del Banco de España",
+      "notes": "Elaboración propia con datos extraídos del sitio web del Banco de España (www.bde.es). Se conservan la unidad, los códigos de serie, las notas y el símbolo de cada dato ausente.",
+      "dataFile": "hacienda/bde/index.json",
+      "links": {
+        "Descarga oficial": "https://www.bde.es/webbe/es/estadisticas/compartido/datos/csv/be1403.csv"
+      },
+      "review": {
+        "implementedProductId": "fiscal:855527763",
+        "updatedAt": "2026-11-17",
+        "reason": "Distribución cotejada. 1,638 celdas conservadas con sus estados y unidades."
+      }
+    },
+    {
+      "id": "fiscal-distribution:855527764",
+      "title": "Corporaciones locales · cuadro 14.4",
+      "sourceId": "F041",
+      "categoryIds": [
+        "F09"
+      ],
+      "status": "integrado",
+      "url": "https://www.bde.es/webbe/es/estadisticas/otras-clasificaciones/publicaciones/boletin-estadistico/capitulo-14.html",
+      "mapAction": "fiscal:855527764",
+      "period": {
+        "from": "MAR 1995",
+        "to": "JUN 2026"
+      },
+      "coverage": "España",
+      "unit": "Porcentaje",
+      "license": "Términos de las estadísticas del Banco de España",
+      "notes": "Elaboración propia con datos extraídos del sitio web del Banco de España (www.bde.es). Se conservan la unidad, los códigos de serie, las notas y el símbolo de cada dato ausente.",
+      "dataFile": "hacienda/bde/index.json",
+      "links": {
+        "Descarga oficial": "https://www.bde.es/webbe/es/estadisticas/compartido/datos/csv/be1404.csv"
+      },
+      "review": {
+        "implementedProductId": "fiscal:855527764",
+        "updatedAt": "2026-11-17",
+        "reason": "Distribución cotejada. 1,638 celdas conservadas con sus estados y unidades."
+      }
+    },
+    {
+      "id": "fiscal-distribution:855527765",
+      "title": "Corporaciones locales · cuadro 14.5",
+      "sourceId": "F041",
+      "categoryIds": [
+        "F09"
+      ],
+      "status": "integrado",
+      "url": "https://www.bde.es/webbe/es/estadisticas/otras-clasificaciones/publicaciones/boletin-estadistico/capitulo-14.html",
+      "mapAction": "fiscal:855527765",
+      "period": {
+        "from": "MAR 1995",
+        "to": "JUN 2026"
+      },
+      "coverage": "España",
+      "unit": "Miles de euros",
+      "license": "Términos de las estadísticas del Banco de España",
+      "notes": "Elaboración propia con datos extraídos del sitio web del Banco de España (www.bde.es). Se conservan la unidad, los códigos de serie, las notas y el símbolo de cada dato ausente.",
+      "dataFile": "hacienda/bde/index.json",
+      "links": {
+        "Descarga oficial": "https://www.bde.es/webbe/es/estadisticas/compartido/datos/csv/be1405.csv"
+      },
+      "review": {
+        "implementedProductId": "fiscal:855527765",
+        "updatedAt": "2026-11-17",
+        "reason": "Distribución cotejada. 1,764 celdas conservadas con sus estados y unidades."
+      }
+    },
+    {
+      "id": "fiscal-distribution:855527766",
+      "title": "Deuda de las corporaciones locales por entidad e instrumento",
+      "sourceId": "F041",
+      "categoryIds": [
+        "F09"
+      ],
+      "status": "integrado",
+      "url": "https://www.bde.es/webbe/es/estadisticas/otras-clasificaciones/publicaciones/boletin-estadistico/capitulo-14.html",
+      "mapAction": "fiscal:855527766",
+      "period": {
+        "from": "DIC 1994",
+        "to": "JUN 2026"
+      },
+      "coverage": "Municipios · España",
+      "unit": "Miles de euros",
+      "license": "Términos de las estadísticas del Banco de España",
+      "notes": "Elaboración propia con datos extraídos del sitio web del Banco de España (www.bde.es). Se conservan la unidad, los códigos de serie, las notas y el símbolo de cada dato ausente.",
+      "dataFile": "hacienda/bde/index.json",
+      "links": {
+        "Descarga oficial": "https://www.bde.es/webbe/es/estadisticas/compartido/datos/csv/be1406.csv"
+      },
+      "review": {
+        "implementedProductId": "fiscal:855527766",
+        "updatedAt": "2026-11-17",
+        "reason": "Distribución cotejada. 38,100 celdas conservadas con sus estados y unidades."
+      }
+    },
+    {
+      "id": "fiscal-distribution:857213858",
+      "title": "Corporaciones locales · cuadro 14.602",
+      "sourceId": "F041",
+      "categoryIds": [
+        "F09"
+      ],
+      "status": "integrado",
+      "url": "https://www.bde.es/webbe/es/estadisticas/otras-clasificaciones/publicaciones/boletin-estadistico/capitulo-14.html",
+      "mapAction": "fiscal:857213858",
+      "period": {
+        "from": "DIC 1994",
+        "to": "SEP 2018"
+      },
+      "coverage": "Municipios · España · Ámbitos de consulta",
+      "unit": "Miles de Euros",
+      "license": "Términos de las estadísticas del Banco de España",
+      "notes": "Elaboración propia con datos extraídos del sitio web del Banco de España (www.bde.es). Se conservan la unidad, los códigos de serie, las notas y el símbolo de cada dato ausente.",
+      "dataFile": "hacienda/bde/index.json",
+      "links": {
+        "Descarga oficial": "https://www.bde.es/webbe/es/estadisticas/compartido/datos/csv/be140602.csv"
+      },
+      "review": {
+        "implementedProductId": "fiscal:857213858",
+        "updatedAt": "2026-11-17",
+        "reason": "Distribución cotejada. 2,400 celdas conservadas con sus estados y unidades."
+      }
+    },
+    {
+      "id": "fiscal-distribution:857213859",
+      "title": "Corporaciones locales · cuadro 14.603",
+      "sourceId": "F041",
+      "categoryIds": [
+        "F09"
+      ],
+      "status": "integrado",
+      "url": "https://www.bde.es/webbe/es/estadisticas/otras-clasificaciones/publicaciones/boletin-estadistico/capitulo-14.html",
+      "mapAction": "fiscal:857213859",
+      "period": {
+        "from": "DIC 1994",
+        "to": "SEP 2018"
+      },
+      "coverage": "Municipios · España · Ámbitos de consulta",
+      "unit": "Miles de Euros",
+      "license": "Términos de las estadísticas del Banco de España",
+      "notes": "Elaboración propia con datos extraídos del sitio web del Banco de España (www.bde.es). Se conservan la unidad, los códigos de serie, las notas y el símbolo de cada dato ausente.",
+      "dataFile": "hacienda/bde/index.json",
+      "links": {
+        "Descarga oficial": "https://www.bde.es/webbe/es/estadisticas/compartido/datos/csv/be140603.csv"
+      },
+      "review": {
+        "implementedProductId": "fiscal:857213859",
+        "updatedAt": "2026-11-17",
+        "reason": "Distribución cotejada. 2,400 celdas conservadas con sus estados y unidades."
+      }
+    },
+    {
+      "id": "fiscal-distribution:857213860",
+      "title": "Corporaciones locales · cuadro 14.604",
+      "sourceId": "F041",
+      "categoryIds": [
+        "F09"
+      ],
+      "status": "integrado",
+      "url": "https://www.bde.es/webbe/es/estadisticas/otras-clasificaciones/publicaciones/boletin-estadistico/capitulo-14.html",
+      "mapAction": "fiscal:857213860",
+      "period": {
+        "from": "DIC 1994",
+        "to": "SEP 2018"
+      },
+      "coverage": "Municipios · España · Ámbitos de consulta",
+      "unit": "Miles de Euros",
+      "license": "Términos de las estadísticas del Banco de España",
+      "notes": "Elaboración propia con datos extraídos del sitio web del Banco de España (www.bde.es). Se conservan la unidad, los códigos de serie, las notas y el símbolo de cada dato ausente.",
+      "dataFile": "hacienda/bde/index.json",
+      "links": {
+        "Descarga oficial": "https://www.bde.es/webbe/es/estadisticas/compartido/datos/csv/be140604.csv"
+      },
+      "review": {
+        "implementedProductId": "fiscal:857213860",
+        "updatedAt": "2026-11-17",
+        "reason": "Distribución cotejada. 2,400 celdas conservadas con sus estados y unidades."
+      }
+    },
+    {
+      "id": "fiscal-distribution:857213861",
+      "title": "Corporaciones locales · cuadro 14.605",
+      "sourceId": "F041",
+      "categoryIds": [
+        "F09"
+      ],
+      "status": "integrado",
+      "url": "https://www.bde.es/webbe/es/estadisticas/otras-clasificaciones/publicaciones/boletin-estadistico/capitulo-14.html",
+      "mapAction": "fiscal:857213861",
+      "period": {
+        "from": "DIC 1994",
+        "to": "SEP 2018"
+      },
+      "coverage": "Municipios · España · Ámbitos de consulta",
+      "unit": "Miles de Euros",
+      "license": "Términos de las estadísticas del Banco de España",
+      "notes": "Elaboración propia con datos extraídos del sitio web del Banco de España (www.bde.es). Se conservan la unidad, los códigos de serie, las notas y el símbolo de cada dato ausente.",
+      "dataFile": "hacienda/bde/index.json",
+      "links": {
+        "Descarga oficial": "https://www.bde.es/webbe/es/estadisticas/compartido/datos/csv/be140605.csv"
+      },
+      "review": {
+        "implementedProductId": "fiscal:857213861",
+        "updatedAt": "2026-11-17",
+        "reason": "Distribución cotejada. 2,400 celdas conservadas con sus estados y unidades."
+      }
+    },
+    {
+      "id": "fiscal-distribution:857213862",
+      "title": "Corporaciones locales · cuadro 14.606",
+      "sourceId": "F041",
+      "categoryIds": [
+        "F09"
+      ],
+      "status": "integrado",
+      "url": "https://www.bde.es/webbe/es/estadisticas/otras-clasificaciones/publicaciones/boletin-estadistico/capitulo-14.html",
+      "mapAction": "fiscal:857213862",
+      "period": {
+        "from": "DIC 1994",
+        "to": "SEP 2018"
+      },
+      "coverage": "Municipios · España · Ámbitos de consulta",
+      "unit": "Miles de Euros",
+      "license": "Términos de las estadísticas del Banco de España",
+      "notes": "Elaboración propia con datos extraídos del sitio web del Banco de España (www.bde.es). Se conservan la unidad, los códigos de serie, las notas y el símbolo de cada dato ausente.",
+      "dataFile": "hacienda/bde/index.json",
+      "links": {
+        "Descarga oficial": "https://www.bde.es/webbe/es/estadisticas/compartido/datos/csv/be140606.csv"
+      },
+      "review": {
+        "implementedProductId": "fiscal:857213862",
+        "updatedAt": "2026-11-17",
+        "reason": "Distribución cotejada. 2,400 celdas conservadas con sus estados y unidades."
+      }
+    },
+    {
+      "id": "fiscal-distribution:857213863",
+      "title": "Corporaciones locales · cuadro 14.607",
+      "sourceId": "F041",
+      "categoryIds": [
+        "F09"
+      ],
+      "status": "integrado",
+      "url": "https://www.bde.es/webbe/es/estadisticas/otras-clasificaciones/publicaciones/boletin-estadistico/capitulo-14.html",
+      "mapAction": "fiscal:857213863",
+      "period": {
+        "from": "DIC 1994",
+        "to": "SEP 2018"
+      },
+      "coverage": "Municipios · España · Ámbitos de consulta",
+      "unit": "Miles de Euros",
+      "license": "Términos de las estadísticas del Banco de España",
+      "notes": "Elaboración propia con datos extraídos del sitio web del Banco de España (www.bde.es). Se conservan la unidad, los códigos de serie, las notas y el símbolo de cada dato ausente.",
+      "dataFile": "hacienda/bde/index.json",
+      "links": {
+        "Descarga oficial": "https://www.bde.es/webbe/es/estadisticas/compartido/datos/csv/be140607.csv"
+      },
+      "review": {
+        "implementedProductId": "fiscal:857213863",
+        "updatedAt": "2026-11-17",
+        "reason": "Distribución cotejada. 2,400 celdas conservadas con sus estados y unidades."
+      }
+    },
+    {
+      "id": "fiscal-distribution:857213864",
+      "title": "Corporaciones locales · cuadro 14.608",
+      "sourceId": "F041",
+      "categoryIds": [
+        "F09"
+      ],
+      "status": "integrado",
+      "url": "https://www.bde.es/webbe/es/estadisticas/otras-clasificaciones/publicaciones/boletin-estadistico/capitulo-14.html",
+      "mapAction": "fiscal:857213864",
+      "period": {
+        "from": "DIC 1994",
+        "to": "SEP 2018"
+      },
+      "coverage": "Municipios · España · Ámbitos de consulta",
+      "unit": "Miles de Euros",
+      "license": "Términos de las estadísticas del Banco de España",
+      "notes": "Elaboración propia con datos extraídos del sitio web del Banco de España (www.bde.es). Se conservan la unidad, los códigos de serie, las notas y el símbolo de cada dato ausente.",
+      "dataFile": "hacienda/bde/index.json",
+      "links": {
+        "Descarga oficial": "https://www.bde.es/webbe/es/estadisticas/compartido/datos/csv/be140608.csv"
+      },
+      "review": {
+        "implementedProductId": "fiscal:857213864",
+        "updatedAt": "2026-11-17",
+        "reason": "Distribución cotejada. 2,400 celdas conservadas con sus estados y unidades."
+      }
+    },
+    {
+      "id": "fiscal-distribution:857213865",
+      "title": "Corporaciones locales · cuadro 14.609",
+      "sourceId": "F041",
+      "categoryIds": [
+        "F09"
+      ],
+      "status": "integrado",
+      "url": "https://www.bde.es/webbe/es/estadisticas/otras-clasificaciones/publicaciones/boletin-estadistico/capitulo-14.html",
+      "mapAction": "fiscal:857213865",
+      "period": {
+        "from": "DIC 1994",
+        "to": "SEP 2018"
+      },
+      "coverage": "Municipios · España · Ámbitos de consulta",
+      "unit": "Miles de Euros",
+      "license": "Términos de las estadísticas del Banco de España",
+      "notes": "Elaboración propia con datos extraídos del sitio web del Banco de España (www.bde.es). Se conservan la unidad, los códigos de serie, las notas y el símbolo de cada dato ausente.",
+      "dataFile": "hacienda/bde/index.json",
+      "links": {
+        "Descarga oficial": "https://www.bde.es/webbe/es/estadisticas/compartido/datos/csv/be140609.csv"
+      },
+      "review": {
+        "implementedProductId": "fiscal:857213865",
+        "updatedAt": "2026-11-17",
+        "reason": "Distribución cotejada. 2,400 celdas conservadas con sus estados y unidades."
+      }
+    },
+    {
+      "id": "fiscal-distribution:857213892",
+      "title": "Corporaciones locales · cuadro 14.610",
+      "sourceId": "F041",
+      "categoryIds": [
+        "F09"
+      ],
+      "status": "integrado",
+      "url": "https://www.bde.es/webbe/es/estadisticas/otras-clasificaciones/publicaciones/boletin-estadistico/capitulo-14.html",
+      "mapAction": "fiscal:857213892",
+      "period": {
+        "from": "DIC 1994",
+        "to": "SEP 2018"
+      },
+      "coverage": "Municipios · España · Ámbitos de consulta",
+      "unit": "Miles de Euros",
+      "license": "Términos de las estadísticas del Banco de España",
+      "notes": "Elaboración propia con datos extraídos del sitio web del Banco de España (www.bde.es). Se conservan la unidad, los códigos de serie, las notas y el símbolo de cada dato ausente.",
+      "dataFile": "hacienda/bde/index.json",
+      "links": {
+        "Descarga oficial": "https://www.bde.es/webbe/es/estadisticas/compartido/datos/csv/be140610.csv"
+      },
+      "review": {
+        "implementedProductId": "fiscal:857213892",
+        "updatedAt": "2026-11-17",
+        "reason": "Distribución cotejada. 2,400 celdas conservadas con sus estados y unidades."
+      }
+    },
+    {
+      "id": "fiscal-distribution:857213893",
+      "title": "Corporaciones locales · cuadro 14.611",
+      "sourceId": "F041",
+      "categoryIds": [
+        "F09"
+      ],
+      "status": "integrado",
+      "url": "https://www.bde.es/webbe/es/estadisticas/otras-clasificaciones/publicaciones/boletin-estadistico/capitulo-14.html",
+      "mapAction": "fiscal:857213893",
+      "period": {
+        "from": "DIC 1994",
+        "to": "SEP 2018"
+      },
+      "coverage": "Municipios · España · Ámbitos de consulta",
+      "unit": "Miles de Euros",
+      "license": "Términos de las estadísticas del Banco de España",
+      "notes": "Elaboración propia con datos extraídos del sitio web del Banco de España (www.bde.es). Se conservan la unidad, los códigos de serie, las notas y el símbolo de cada dato ausente.",
+      "dataFile": "hacienda/bde/index.json",
+      "links": {
+        "Descarga oficial": "https://www.bde.es/webbe/es/estadisticas/compartido/datos/csv/be140611.csv"
+      },
+      "review": {
+        "implementedProductId": "fiscal:857213893",
+        "updatedAt": "2026-11-17",
+        "reason": "Distribución cotejada. 2,400 celdas conservadas con sus estados y unidades."
+      }
+    },
+    {
+      "id": "fiscal-distribution:857213894",
+      "title": "Corporaciones locales · cuadro 14.612",
+      "sourceId": "F041",
+      "categoryIds": [
+        "F09"
+      ],
+      "status": "integrado",
+      "url": "https://www.bde.es/webbe/es/estadisticas/otras-clasificaciones/publicaciones/boletin-estadistico/capitulo-14.html",
+      "mapAction": "fiscal:857213894",
+      "period": {
+        "from": "JUN 2012",
+        "to": "SEP 2018"
+      },
+      "coverage": "Municipios · España · Ámbitos de consulta",
+      "unit": "Miles de Euros",
+      "license": "Términos de las estadísticas del Banco de España",
+      "notes": "Elaboración propia con datos extraídos del sitio web del Banco de España (www.bde.es). Se conservan la unidad, los códigos de serie, las notas y el símbolo de cada dato ausente.",
+      "dataFile": "hacienda/bde/index.json",
+      "links": {
+        "Descarga oficial": "https://www.bde.es/webbe/es/estadisticas/compartido/datos/csv/be140612.csv"
+      },
+      "review": {
+        "implementedProductId": "fiscal:857213894",
+        "updatedAt": "2026-11-17",
+        "reason": "Distribución cotejada. 650 celdas conservadas con sus estados y unidades."
+      }
+    },
+    {
+      "id": "fiscal-distribution:857213895",
+      "title": "Corporaciones locales · cuadro 14.613",
+      "sourceId": "F041",
+      "categoryIds": [
+        "F09"
+      ],
+      "status": "integrado",
+      "url": "https://www.bde.es/webbe/es/estadisticas/otras-clasificaciones/publicaciones/boletin-estadistico/capitulo-14.html",
+      "mapAction": "fiscal:857213895",
+      "period": {
+        "from": "DIC 2006",
+        "to": "SEP 2018"
+      },
+      "coverage": "Municipios · España · Ámbitos de consulta",
+      "unit": "Miles de Euros",
+      "license": "Términos de las estadísticas del Banco de España",
+      "notes": "Elaboración propia con datos extraídos del sitio web del Banco de España (www.bde.es). Se conservan la unidad, los códigos de serie, las notas y el símbolo de cada dato ausente.",
+      "dataFile": "hacienda/bde/index.json",
+      "links": {
+        "Descarga oficial": "https://www.bde.es/webbe/es/estadisticas/compartido/datos/csv/be140613.csv"
+      },
+      "review": {
+        "implementedProductId": "fiscal:857213895",
+        "updatedAt": "2026-11-17",
+        "reason": "Distribución cotejada. 1,200 celdas conservadas con sus estados y unidades."
+      }
+    },
+    {
+      "id": "fiscal-distribution:855527767",
+      "title": "Corporaciones locales · cuadro 14.7",
+      "sourceId": "F041",
+      "categoryIds": [
+        "F09"
+      ],
+      "status": "integrado",
+      "url": "https://www.bde.es/webbe/es/estadisticas/otras-clasificaciones/publicaciones/boletin-estadistico/capitulo-14.html",
+      "mapAction": "fiscal:855527767",
+      "period": {
+        "from": "DIC 1994",
+        "to": "JUN 2026"
+      },
+      "coverage": "España",
+      "unit": "Según serie",
+      "license": "Términos de las estadísticas del Banco de España",
+      "notes": "Elaboración propia con datos extraídos del sitio web del Banco de España (www.bde.es). Se conservan la unidad, los códigos de serie, las notas y el símbolo de cada dato ausente.",
+      "dataFile": "hacienda/bde/index.json",
+      "links": {
+        "Descarga oficial": "https://www.bde.es/webbe/es/estadisticas/compartido/datos/csv/be1407.csv"
+      },
+      "review": {
+        "implementedProductId": "fiscal:855527767",
+        "updatedAt": "2026-11-17",
+        "reason": "Distribución cotejada. 1,651 celdas conservadas con sus estados y unidades."
+      }
+    },
+    {
+      "id": "fiscal-distribution:855527768",
+      "title": "Corporaciones locales · cuadro 14.8",
+      "sourceId": "F041",
+      "categoryIds": [
+        "F09"
+      ],
+      "status": "integrado",
+      "url": "https://www.bde.es/webbe/es/estadisticas/otras-clasificaciones/publicaciones/boletin-estadistico/capitulo-14.html",
+      "mapAction": "fiscal:855527768",
+      "period": {
+        "from": "DIC 1994",
+        "to": "JUN 2026"
+      },
+      "coverage": "España",
+      "unit": "Según serie",
+      "license": "Términos de las estadísticas del Banco de España",
+      "notes": "Elaboración propia con datos extraídos del sitio web del Banco de España (www.bde.es). Se conservan la unidad, los códigos de serie, las notas y el símbolo de cada dato ausente.",
+      "dataFile": "hacienda/bde/index.json",
+      "links": {
+        "Descarga oficial": "https://www.bde.es/webbe/es/estadisticas/compartido/datos/csv/be1408.csv"
+      },
+      "review": {
+        "implementedProductId": "fiscal:855527768",
+        "updatedAt": "2026-11-17",
+        "reason": "Distribución cotejada. 1,651 celdas conservadas con sus estados y unidades."
+      }
+    },
+    {
+      "id": "fiscal-distribution:855527769",
+      "title": "Deuda de los ayuntamientos de más de 300.000 habitantes",
+      "sourceId": "F041",
+      "categoryIds": [
+        "F09"
+      ],
+      "status": "integrado",
+      "url": "https://www.bde.es/webbe/es/estadisticas/otras-clasificaciones/publicaciones/boletin-estadistico/capitulo-14.html",
+      "mapAction": "fiscal:855527769",
+      "period": {
+        "from": "DIC 1994",
+        "to": "JUN 2026"
+      },
+      "coverage": "Municipios · España",
+      "unit": "Miles de euros",
+      "license": "Términos de las estadísticas del Banco de España",
+      "notes": "Elaboración propia con datos extraídos del sitio web del Banco de España (www.bde.es). Se conservan la unidad, los códigos de serie, las notas y el símbolo de cada dato ausente.",
+      "dataFile": "hacienda/bde/index.json",
+      "links": {
+        "Descarga oficial": "https://www.bde.es/webbe/es/estadisticas/compartido/datos/csv/be1409.csv"
+      },
+      "review": {
+        "implementedProductId": "fiscal:855527769",
+        "updatedAt": "2026-11-17",
+        "reason": "Distribución cotejada. 1,778 celdas conservadas con sus estados y unidades."
+      }
+    },
+    {
+      "id": "fiscal-distribution:963001",
+      "title": "Administraciones públicas (S.13) · Millones de euros",
+      "sourceId": "F044",
+      "categoryIds": [
+        "F09"
+      ],
+      "status": "integrado",
+      "url": "https://www.igae.pap.hacienda.gob.es/sitios/igae/es-ES/Contabilidad/ContabilidadNacional/Publicaciones/paginas/itnofinancierastotal.aspx",
+      "mapAction": "fiscal:963001",
+      "period": {
+        "from": "1995T1",
+        "to": "2026T2"
+      },
+      "coverage": "España",
+      "unit": "Millones de euros",
+      "license": "Condiciones de reutilización de la IGAE",
+      "notes": "IGAE, SEC 2010, Revisión Estadística 2024. Los saldos se refieren al subsector público declarado. El PIB de referencia se conserva en millones. Datos trimestrales acumulados desde el comienzo del ejercicio.",
+      "dataFile": "hacienda/igae/index.json",
+      "links": {
+        "Descarga oficial": "https://www.igae.pap.hacienda.gob.es/sitios/igae/es-ES/Contabilidad/ContabilidadNacional/Publicaciones/Documents/AAPP_Trimestral/T_AAPP.xlsx"
+      },
+      "review": {
+        "implementedProductId": "fiscal:963001",
+        "updatedAt": "2026-11-17",
+        "reason": "Distribución cotejada. 8,946 celdas conservadas con sus estados y unidades."
+      }
+    },
+    {
+      "id": "fiscal-distribution:963002",
+      "title": "Administraciones públicas (S.13) · Porcentaje del PIB",
+      "sourceId": "F044",
+      "categoryIds": [
+        "F09"
+      ],
+      "status": "integrado",
+      "url": "https://www.igae.pap.hacienda.gob.es/sitios/igae/es-ES/Contabilidad/ContabilidadNacional/Publicaciones/paginas/itnofinancierastotal.aspx",
+      "mapAction": "fiscal:963002",
+      "period": {
+        "from": "1995T1",
+        "to": "2026T4"
+      },
+      "coverage": "España",
+      "unit": "Según indicador",
+      "license": "Condiciones de reutilización de la IGAE",
+      "notes": "IGAE, SEC 2010, Revisión Estadística 2024. Los saldos se refieren al subsector público declarado. El PIB de referencia se conserva en millones. Datos trimestrales acumulados desde el comienzo del ejercicio.",
+      "dataFile": "hacienda/igae/index.json",
+      "links": {
+        "Descarga oficial": "https://www.igae.pap.hacienda.gob.es/sitios/igae/es-ES/Contabilidad/ContabilidadNacional/Publicaciones/Documents/AAPP_Trimestral/T_AAPP.xlsx"
+      },
+      "review": {
+        "implementedProductId": "fiscal:963002",
+        "updatedAt": "2026-11-17",
+        "reason": "Distribución cotejada. 9,144 celdas conservadas con sus estados y unidades."
+      }
+    },
+    {
+      "id": "fiscal-distribution:963003",
+      "title": "Administración central (S.1311) · Millones de euros",
+      "sourceId": "F044",
+      "categoryIds": [
+        "F09"
+      ],
+      "status": "integrado",
+      "url": "https://www.igae.pap.hacienda.gob.es/sitios/igae/es-ES/Contabilidad/ContabilidadNacional/Publicaciones/paginas/itnofinancierastotal.aspx",
+      "mapAction": "fiscal:963003",
+      "period": {
+        "from": "2004T1",
+        "to": "2026T2"
+      },
+      "coverage": "España",
+      "unit": "Millones de euros",
+      "license": "Condiciones de reutilización de la IGAE",
+      "notes": "IGAE, SEC 2010, Revisión Estadística 2024. Los saldos se refieren al subsector público declarado. El PIB de referencia se conserva en millones. Datos trimestrales acumulados desde el comienzo del ejercicio.",
+      "dataFile": "hacienda/igae/index.json",
+      "links": {
+        "Descarga oficial": "https://www.igae.pap.hacienda.gob.es/sitios/igae/es-ES/Contabilidad/ContabilidadNacional/Publicaciones/Documents/AACC-T/T_AACC.xlsx"
+      },
+      "review": {
+        "implementedProductId": "fiscal:963003",
+        "updatedAt": "2026-11-17",
+        "reason": "Distribución cotejada. 6,390 celdas conservadas con sus estados y unidades."
+      }
+    },
+    {
+      "id": "fiscal-distribution:963004",
+      "title": "Administración central (S.1311) · Porcentaje del PIB",
+      "sourceId": "F044",
+      "categoryIds": [
+        "F09"
+      ],
+      "status": "integrado",
+      "url": "https://www.igae.pap.hacienda.gob.es/sitios/igae/es-ES/Contabilidad/ContabilidadNacional/Publicaciones/paginas/itnofinancierastotal.aspx",
+      "mapAction": "fiscal:963004",
+      "period": {
+        "from": "2004T1",
+        "to": "2026T4"
+      },
+      "coverage": "España",
+      "unit": "Según indicador",
+      "license": "Condiciones de reutilización de la IGAE",
+      "notes": "IGAE, SEC 2010, Revisión Estadística 2024. Los saldos se refieren al subsector público declarado. El PIB de referencia se conserva en millones. Datos trimestrales acumulados desde el comienzo del ejercicio.",
+      "dataFile": "hacienda/igae/index.json",
+      "links": {
+        "Descarga oficial": "https://www.igae.pap.hacienda.gob.es/sitios/igae/es-ES/Contabilidad/ContabilidadNacional/Publicaciones/Documents/AACC-T/T_AACC.xlsx"
+      },
+      "review": {
+        "implementedProductId": "fiscal:963004",
+        "updatedAt": "2026-11-17",
+        "reason": "Distribución cotejada. 6,552 celdas conservadas con sus estados y unidades."
+      }
+    },
+    {
+      "id": "fiscal-distribution:963005",
+      "title": "Administración regional (S.1312) · Millones de euros",
+      "sourceId": "F044",
+      "categoryIds": [
+        "F09"
+      ],
+      "status": "integrado",
+      "url": "https://www.igae.pap.hacienda.gob.es/sitios/igae/es-ES/Contabilidad/ContabilidadNacional/Publicaciones/paginas/itnofinancierastotal.aspx",
+      "mapAction": "fiscal:963005",
+      "period": {
+        "from": "2004T1",
+        "to": "2026T2"
+      },
+      "coverage": "España",
+      "unit": "Millones de euros",
+      "license": "Condiciones de reutilización de la IGAE",
+      "notes": "IGAE, SEC 2010, Revisión Estadística 2024. Los saldos se refieren al subsector público declarado. El PIB de referencia se conserva en millones. Datos trimestrales acumulados desde el comienzo del ejercicio.",
+      "dataFile": "hacienda/igae/index.json",
+      "links": {
+        "Descarga oficial": "https://www.igae.pap.hacienda.gob.es/sitios/igae/es-ES/Contabilidad/ContabilidadNacional/Publicaciones/Documents/CCAA-Trimestral/T_CCAA.xlsx"
+      },
+      "review": {
+        "implementedProductId": "fiscal:963005",
+        "updatedAt": "2026-11-17",
+        "reason": "Distribución cotejada. 6,300 celdas conservadas con sus estados y unidades."
+      }
+    },
+    {
+      "id": "fiscal-distribution:963006",
+      "title": "Administración regional (S.1312) · Porcentaje del PIB",
+      "sourceId": "F044",
+      "categoryIds": [
+        "F09"
+      ],
+      "status": "integrado",
+      "url": "https://www.igae.pap.hacienda.gob.es/sitios/igae/es-ES/Contabilidad/ContabilidadNacional/Publicaciones/paginas/itnofinancierastotal.aspx",
+      "mapAction": "fiscal:963006",
+      "period": {
+        "from": "2004T1",
+        "to": "2026T4"
+      },
+      "coverage": "España",
+      "unit": "Según indicador",
+      "license": "Condiciones de reutilización de la IGAE",
+      "notes": "IGAE, SEC 2010, Revisión Estadística 2024. Los saldos se refieren al subsector público declarado. El PIB de referencia se conserva en millones. Datos trimestrales acumulados desde el comienzo del ejercicio.",
+      "dataFile": "hacienda/igae/index.json",
+      "links": {
+        "Descarga oficial": "https://www.igae.pap.hacienda.gob.es/sitios/igae/es-ES/Contabilidad/ContabilidadNacional/Publicaciones/Documents/CCAA-Trimestral/T_CCAA.xlsx"
+      },
+      "review": {
+        "implementedProductId": "fiscal:963006",
+        "updatedAt": "2026-11-17",
+        "reason": "Distribución cotejada. 6,461 celdas conservadas con sus estados y unidades."
+      }
+    },
+    {
+      "id": "fiscal-distribution:963007",
+      "title": "Administración local (S.1313) · Millones de euros",
+      "sourceId": "F044",
+      "categoryIds": [
+        "F09"
+      ],
+      "status": "integrado",
+      "url": "https://www.igae.pap.hacienda.gob.es/sitios/igae/es-ES/Contabilidad/ContabilidadNacional/Publicaciones/paginas/itnofinancierastotal.aspx",
+      "mapAction": "fiscal:963007",
+      "period": {
+        "from": "2004T1",
+        "to": "2026T2"
+      },
+      "coverage": "España",
+      "unit": "Millones de euros",
+      "license": "Condiciones de reutilización de la IGAE",
+      "notes": "IGAE, SEC 2010, Revisión Estadística 2024. Los saldos se refieren al subsector público declarado. El PIB de referencia se conserva en millones. Datos trimestrales acumulados desde el comienzo del ejercicio.",
+      "dataFile": "hacienda/igae/index.json",
+      "links": {
+        "Descarga oficial": "https://www.igae.pap.hacienda.gob.es/sitios/igae/es-ES/Contabilidad/ContabilidadNacional/Publicaciones/Documents/CCLL-Trimestral/T_CCLL.xlsx"
+      },
+      "review": {
+        "implementedProductId": "fiscal:963007",
+        "updatedAt": "2026-11-17",
+        "reason": "Distribución cotejada. 6,300 celdas conservadas con sus estados y unidades."
+      }
+    },
+    {
+      "id": "fiscal-distribution:963008",
+      "title": "Administración local (S.1313) · Porcentaje del PIB",
+      "sourceId": "F044",
+      "categoryIds": [
+        "F09"
+      ],
+      "status": "integrado",
+      "url": "https://www.igae.pap.hacienda.gob.es/sitios/igae/es-ES/Contabilidad/ContabilidadNacional/Publicaciones/paginas/itnofinancierastotal.aspx",
+      "mapAction": "fiscal:963008",
+      "period": {
+        "from": "2004T1",
+        "to": "2026T4"
+      },
+      "coverage": "España",
+      "unit": "Según indicador",
+      "license": "Condiciones de reutilización de la IGAE",
+      "notes": "IGAE, SEC 2010, Revisión Estadística 2024. Los saldos se refieren al subsector público declarado. El PIB de referencia se conserva en millones. Datos trimestrales acumulados desde el comienzo del ejercicio.",
+      "dataFile": "hacienda/igae/index.json",
+      "links": {
+        "Descarga oficial": "https://www.igae.pap.hacienda.gob.es/sitios/igae/es-ES/Contabilidad/ContabilidadNacional/Publicaciones/Documents/CCLL-Trimestral/T_CCLL.xlsx"
+      },
+      "review": {
+        "implementedProductId": "fiscal:963008",
+        "updatedAt": "2026-11-17",
+        "reason": "Distribución cotejada. 6,461 celdas conservadas con sus estados y unidades."
+      }
+    },
+    {
+      "id": "fiscal-distribution:963009",
+      "title": "Fondos de la Seguridad Social (S.1314) · Millones de euros",
+      "sourceId": "F044",
+      "categoryIds": [
+        "F09"
+      ],
+      "status": "integrado",
+      "url": "https://www.igae.pap.hacienda.gob.es/sitios/igae/es-ES/Contabilidad/ContabilidadNacional/Publicaciones/paginas/itnofinancierastotal.aspx",
+      "mapAction": "fiscal:963009",
+      "period": {
+        "from": "2004T1",
+        "to": "2026T2"
+      },
+      "coverage": "España",
+      "unit": "Millones de euros",
+      "license": "Condiciones de reutilización de la IGAE",
+      "notes": "IGAE, SEC 2010, Revisión Estadística 2024. Los saldos se refieren al subsector público declarado. El PIB de referencia se conserva en millones. Datos trimestrales acumulados desde el comienzo del ejercicio.",
+      "dataFile": "hacienda/igae/index.json",
+      "links": {
+        "Descarga oficial": "https://www.igae.pap.hacienda.gob.es/sitios/igae/es-ES/Contabilidad/ContabilidadNacional/Publicaciones/Documents/AASS-Trimestral/T_AASS.xlsx"
+      },
+      "review": {
+        "implementedProductId": "fiscal:963009",
+        "updatedAt": "2026-11-17",
+        "reason": "Distribución cotejada. 6,300 celdas conservadas con sus estados y unidades."
+      }
+    },
+    {
+      "id": "fiscal-distribution:963010",
+      "title": "Fondos de la Seguridad Social (S.1314) · Porcentaje del PIB",
+      "sourceId": "F044",
+      "categoryIds": [
+        "F09"
+      ],
+      "status": "integrado",
+      "url": "https://www.igae.pap.hacienda.gob.es/sitios/igae/es-ES/Contabilidad/ContabilidadNacional/Publicaciones/paginas/itnofinancierastotal.aspx",
+      "mapAction": "fiscal:963010",
+      "period": {
+        "from": "2004T1",
+        "to": "2026T4"
+      },
+      "coverage": "España",
+      "unit": "Según indicador",
+      "license": "Condiciones de reutilización de la IGAE",
+      "notes": "IGAE, SEC 2010, Revisión Estadística 2024. Los saldos se refieren al subsector público declarado. El PIB de referencia se conserva en millones. Datos trimestrales acumulados desde el comienzo del ejercicio.",
+      "dataFile": "hacienda/igae/index.json",
+      "links": {
+        "Descarga oficial": "https://www.igae.pap.hacienda.gob.es/sitios/igae/es-ES/Contabilidad/ContabilidadNacional/Publicaciones/Documents/AASS-Trimestral/T_AASS.xlsx"
+      },
+      "review": {
+        "implementedProductId": "fiscal:963010",
+        "updatedAt": "2026-11-17",
+        "reason": "Distribución cotejada. 6,461 celdas conservadas con sus estados y unidades."
+      }
+    },
+    {
+      "id": "fiscal-distribution:963011",
+      "title": "Administración regional · serie anual · Millones de euros",
+      "sourceId": "F044",
+      "categoryIds": [
+        "F09"
+      ],
+      "status": "integrado",
+      "url": "https://www.igae.pap.hacienda.gob.es/sitios/igae/es-ES/Contabilidad/ContabilidadNacional/Publicaciones/paginas/ianofinancierasca.aspx",
+      "mapAction": "fiscal:963011",
+      "period": {
+        "from": "1995",
+        "to": "2025"
+      },
+      "coverage": "España",
+      "unit": "Millones de euros",
+      "license": "Condiciones de reutilización de la IGAE",
+      "notes": "IGAE, SEC 2010, Revisión Estadística 2024. Los saldos se refieren al subsector público declarado. El PIB de referencia se conserva en millones.",
+      "dataFile": "hacienda/igae/index.json",
+      "links": {
+        "Descarga oficial": "https://www.igae.pap.hacienda.gob.es/sitios/igae/es-ES/Contabilidad/ContabilidadNacional/Publicaciones/Documents/CCAA-A/A_CCAA.xlsx"
+      },
+      "review": {
+        "implementedProductId": "fiscal:963011",
+        "updatedAt": "2026-11-17",
+        "reason": "Distribución cotejada. 2,170 celdas conservadas con sus estados y unidades."
+      }
+    },
+    {
+      "id": "fiscal-distribution:963012",
+      "title": "Administración regional · serie anual · Porcentaje del PIB",
+      "sourceId": "F044",
+      "categoryIds": [
+        "F09"
+      ],
+      "status": "integrado",
+      "url": "https://www.igae.pap.hacienda.gob.es/sitios/igae/es-ES/Contabilidad/ContabilidadNacional/Publicaciones/paginas/ianofinancierasca.aspx",
+      "mapAction": "fiscal:963012",
+      "period": {
+        "from": "1995",
+        "to": "2025"
+      },
+      "coverage": "España",
+      "unit": "Según indicador",
+      "license": "Condiciones de reutilización de la IGAE",
+      "notes": "IGAE, SEC 2010, Revisión Estadística 2024. Los saldos se refieren al subsector público declarado. El PIB de referencia se conserva en millones.",
+      "dataFile": "hacienda/igae/index.json",
+      "links": {
+        "Descarga oficial": "https://www.igae.pap.hacienda.gob.es/sitios/igae/es-ES/Contabilidad/ContabilidadNacional/Publicaciones/Documents/CCAA-A/A_CCAA.xlsx"
+      },
+      "review": {
+        "implementedProductId": "fiscal:963012",
+        "updatedAt": "2026-11-17",
+        "reason": "Distribución cotejada. 2,201 celdas conservadas con sus estados y unidades."
+      }
+    },
+    {
+      "id": "fiscal-distribution:963091",
+      "title": "Operaciones no financieras por comunidad · Millones de euros",
+      "sourceId": "F044",
+      "categoryIds": [
+        "F09"
+      ],
+      "status": "integrado",
+      "url": "https://www.igae.pap.hacienda.gob.es/sitios/igae/es-ES/Contabilidad/ContabilidadNacional/Publicaciones/paginas/ianofinancierasca.aspx",
+      "mapAction": "fiscal:963091",
+      "period": {
+        "from": "2000",
+        "to": "2025"
+      },
+      "coverage": "Comunidades autónomas · España",
+      "unit": "Millones de euros",
+      "license": "Condiciones de reutilización de la IGAE",
+      "notes": "IGAE, SEC 2010, Revisión Estadística 2024. Los saldos se refieren al subsector público declarado. El PIB de referencia se conserva en millones.",
+      "dataFile": "hacienda/igae/index.json",
+      "links": {
+        "Descarga oficial": "https://www.igae.pap.hacienda.gob.es/sitios/igae/es-ES/Contabilidad/ContabilidadNacional/Publicaciones/Documents/CCAA-A/A_CCAA_Det_2025.xlsx"
+      },
+      "review": {
+        "implementedProductId": "fiscal:963091",
+        "updatedAt": "2026-11-17",
+        "reason": "Distribución cotejada. 26,712 celdas conservadas con sus estados y unidades."
+      }
+    },
+    {
+      "id": "fiscal-distribution:963092",
+      "title": "Operaciones no financieras por comunidad · Porcentaje del PIB",
+      "sourceId": "F044",
+      "categoryIds": [
+        "F09"
+      ],
+      "status": "integrado",
+      "url": "https://www.igae.pap.hacienda.gob.es/sitios/igae/es-ES/Contabilidad/ContabilidadNacional/Publicaciones/paginas/ianofinancierasca.aspx",
+      "mapAction": "fiscal:963092",
+      "period": {
+        "from": "2000",
+        "to": "2025"
+      },
+      "coverage": "Comunidades autónomas · España",
+      "unit": "Según indicador",
+      "license": "Condiciones de reutilización de la IGAE",
+      "notes": "IGAE, SEC 2010, Revisión Estadística 2024. Los saldos se refieren al subsector público declarado. El PIB de referencia se conserva en millones. Las portadas de la hoja Tabla1b rotulan «Millones de euros» en 2024 y 2025. Se verificó la unidad de porcentaje con los importes de Tabla1a y el PIB de referencia.",
+      "dataFile": "hacienda/igae/index.json",
+      "links": {
+        "Descarga oficial": "https://www.igae.pap.hacienda.gob.es/sitios/igae/es-ES/Contabilidad/ContabilidadNacional/Publicaciones/Documents/CCAA-A/A_CCAA_Det_2025.xlsx"
+      },
+      "review": {
+        "implementedProductId": "fiscal:963092",
+        "updatedAt": "2026-11-17",
+        "reason": "Distribución cotejada. 27,180 celdas conservadas con sus estados y unidades."
+      }
+    },
+    {
+      "id": "fiscal-distribution:964001",
+      "title": "Ingresos, devoluciones y conceptos por delegación",
+      "sourceId": "F042",
+      "categoryIds": [
+        "F09"
+      ],
+      "status": "integrado",
+      "url": "https://sede.agenciatributaria.gob.es/Sede/datosabiertos/catalogo/hacienda/Informe_mensual_de_Recaudacion_Tributaria.shtml",
+      "mapAction": "fiscal:964001",
+      "period": {
+        "from": "2007M01",
+        "to": "2026M09"
+      },
+      "coverage": "Comunidades autónomas · España · Ámbitos de consulta",
+      "unit": "Miles de euros",
+      "license": "Condiciones de reutilización de la AEAT",
+      "notes": "Ingresos tributarios en términos de caja. Las Delegaciones Especiales se dibujan en su ámbito de gestión. La recaudación contabilizada por una oficina no equivale a la recaudación generada en el territorio. Se conserva el resto de las oficinas y partidas centrales como fichas.",
+      "dataFile": "hacienda/aeat/index.json",
+      "links": {
+        "Descarga oficial": "https://sede.agenciatributaria.gob.es/static_files/Sede/Tema/Estadisticas/Recaudacion_Tributaria/Informes_mensuales/Ingresos_por_Delegaciones.xlsx"
+      },
+      "review": {
+        "implementedProductId": "fiscal:964001",
+        "updatedAt": "2026-11-17",
+        "reason": "Distribución cotejada. 778,545 celdas conservadas con sus estados y unidades."
+      }
+    },
+    {
+      "id": "fiscal-distribution:965000",
+      "title": "Liquidación local 2025 · por entidad",
+      "sourceId": "F043",
+      "categoryIds": [
+        "F09"
+      ],
+      "status": "integrado",
+      "url": "https://serviciostelematicosext.hacienda.gob.es/SGFAL/CONPREL",
+      "mapAction": "fiscal:965000",
+      "period": {
+        "from": "2025",
+        "to": "2025"
+      },
+      "coverage": "Municipios · Ámbitos de consulta",
+      "unit": "Según indicador",
+      "license": "Condiciones de reutilización del Ministerio de Hacienda",
+      "notes": "Avance publicado el 30/10/2026. Distingue el ejercicio, la clasificación, la fase y el tipo de entidad. El código de estado se conserva tal como figura en el Excel.",
+      "dataFile": "hacienda/conprel/index.json",
+      "links": {
+        "Descarga oficial": "https://serviciostelematicosext.hacienda.gob.es/SGFAL/CONPREL/Consulta/DescargaFichero?CCAA=&TipoDato=Liquidaciones&Ejercicio=2025&TipoPublicacion=Avance"
+      },
+      "review": {
+        "implementedProductId": "fiscal:965000",
+        "updatedAt": "2026-11-17",
+        "reason": "Distribución cotejada. 363,440 celdas conservadas con sus estados y unidades."
+      }
+    },
+    {
+      "id": "fiscal-distribution:965001",
+      "title": "Liquidación local 2025 · cuadros agregados",
+      "sourceId": "F043",
+      "categoryIds": [
+        "F09"
+      ],
+      "status": "integrado",
+      "url": "https://serviciostelematicosext.hacienda.gob.es/SGFAL/CONPREL",
+      "mapAction": "fiscal:965001",
+      "period": {
+        "from": "2025",
+        "to": "2025"
+      },
+      "coverage": "Comunidades autónomas · Municipios · España",
+      "unit": "Miles de euros",
+      "license": "Condiciones de reutilización del Ministerio de Hacienda",
+      "notes": "Avance publicado el 30/10/2026. Distingue el ejercicio, la clasificación, la fase y el tipo de entidad. El código de estado se conserva tal como figura en el Excel.",
+      "dataFile": "hacienda/conprel/index.json",
+      "links": {
+        "Descarga oficial": "https://serviciostelematicosext.hacienda.gob.es/SGFAL/CONPREL/Consulta/DescargaFichero?CCAA=&TipoDato=Liquidaciones&Ejercicio=2025&TipoPublicacion=Avance"
+      },
+      "review": {
+        "implementedProductId": "fiscal:965001",
+        "updatedAt": "2026-11-17",
+        "reason": "Distribución cotejada. 7,840 celdas conservadas con sus estados y unidades."
+      }
+    },
+    {
+      "id": "fiscal-distribution:965010",
+      "title": "Presupuesto local 2026 · por entidad",
+      "sourceId": "F043",
+      "categoryIds": [
+        "F09"
+      ],
+      "status": "integrado",
+      "url": "https://serviciostelematicosext.hacienda.gob.es/SGFAL/CONPREL",
+      "mapAction": "fiscal:965010",
+      "period": {
+        "from": "2026",
+        "to": "2026"
+      },
+      "coverage": "Municipios · Ámbitos de consulta",
+      "unit": "Según indicador",
+      "license": "Condiciones de reutilización del Ministerio de Hacienda",
+      "notes": "Avance publicado el 30/10/2026. Distingue el ejercicio, la clasificación, la fase y el tipo de entidad. El código de estado se conserva tal como figura en el Excel. La columna de población conserva el encabezado literal «Pobla 2021» de la publicación de 2026.",
+      "dataFile": "hacienda/conprel/index.json",
+      "links": {
+        "Descarga oficial": "https://serviciostelematicosext.hacienda.gob.es/SGFAL/CONPREL/Consulta/DescargaFichero?CCAA=&TipoDato=Presupuestos&Ejercicio=2026&TipoPublicacion=Avance"
+      },
+      "review": {
+        "implementedProductId": "fiscal:965010",
+        "updatedAt": "2026-11-17",
+        "reason": "Distribución cotejada. 363,076 celdas conservadas con sus estados y unidades."
+      }
+    },
+    {
+      "id": "fiscal-distribution:965011",
+      "title": "Presupuesto local 2026 · cuadros agregados",
+      "sourceId": "F043",
+      "categoryIds": [
+        "F09"
+      ],
+      "status": "integrado",
+      "url": "https://serviciostelematicosext.hacienda.gob.es/SGFAL/CONPREL",
+      "mapAction": "fiscal:965011",
+      "period": {
+        "from": "2026",
+        "to": "2026"
+      },
+      "coverage": "Comunidades autónomas · Municipios · España",
+      "unit": "Miles de euros",
+      "license": "Condiciones de reutilización del Ministerio de Hacienda",
+      "notes": "Avance publicado el 30/10/2026. Distingue el ejercicio, la clasificación, la fase y el tipo de entidad. El código de estado se conserva tal como figura en el Excel.",
+      "dataFile": "hacienda/conprel/index.json",
+      "links": {
+        "Descarga oficial": "https://serviciostelematicosext.hacienda.gob.es/SGFAL/CONPREL/Consulta/DescargaFichero?CCAA=&TipoDato=Presupuestos&Ejercicio=2026&TipoPublicacion=Avance"
+      },
+      "review": {
+        "implementedProductId": "fiscal:965011",
+        "updatedAt": "2026-11-17",
+        "reason": "Distribución cotejada. 2,968 celdas conservadas con sus estados y unidades."
+      }
+    },
+    {
+      "id": "fiscal-source:aeat",
+      "title": "AEAT · recaudación, bases, tipos y devengos",
+      "sourceId": "F042",
+      "url": "https://sede.agenciatributaria.gob.es/Sede/estadisticas-recaudacion-tributaria-historico-informes-mensuales-anos-2016-2025.html",
+      "notes": "Completar los cuadros estadísticos, históricos de bases, tipos e impuestos devengados, metadatos normativos y las distribuciones por modelo del Anuario. Mantener caja y devengo como medidas distintas.",
+      "status": "por_revisar",
+      "categoryIds": [],
+      "suggestedCategoryIds": [
+        "F09"
+      ],
+      "license": null
+    },
+    {
+      "id": "fiscal-source:igae",
+      "title": "IGAE · caja, contabilidad nacional y gasto por función",
+      "sourceId": "F044",
+      "url": "https://www.igae.pap.hacienda.gob.es/sitios/igae/es-ES/Contabilidad/ContabilidadNacional/Publicaciones/paginas/imdatoscaja.aspx",
+      "notes": "Completar cuentas mensuales, ejecución estatal, clasificación funcional COFOG e inventarios de entidades. Quedan por revisar las bases anteriores y sus correspondencias.",
+      "status": "por_revisar",
+      "categoryIds": [],
+      "suggestedCategoryIds": [
+        "F09"
+      ],
+      "license": null
+    },
+    {
+      "id": "fiscal-source:conprel",
+      "title": "Hacienda · archivo de presupuestos y liquidaciones locales",
+      "sourceId": "F043",
+      "url": "https://serviciostelematicosext.hacienda.gob.es/SGFAL/CONPREL",
+      "notes": "Completar publicaciones definitivas de cada ejercicio y ficheros Access de máximo desglose. Los avances 2025 y 2026 en Excel ya están incorporados.",
+      "status": "por_revisar",
+      "categoryIds": [],
+      "suggestedCategoryIds": [
+        "F09"
+      ],
+      "license": null
+    },
+    {
+      "id": "fiscal-source:deuda-entes",
+      "title": "Hacienda · deuda de diputaciones, cabildos y otras entidades",
+      "sourceId": "F043",
+      "url": "https://www.hacienda.gob.es/es-ES/CDI/paginas/sistemasfinanciaciondeuda/informacioneells/deudaviva.aspx",
+      "notes": "Integrar las publicaciones de diputaciones, consejos, cabildos y entes supramunicipales y conciliar los resúmenes de deuda. Las ediciones de deuda de ayuntamientos están en el visor.",
+      "status": "por_revisar",
+      "categoryIds": [],
+      "suggestedCategoryIds": [
+        "F09"
+      ],
+      "license": null
+    },
+    {
+      "id": "fiscal-source:financiacion",
+      "title": "Hacienda · sistemas de financiación autonómica y local",
+      "sourceId": "F043",
+      "url": "https://www.hacienda.gob.es/es-ES/CDI/Paginas/SistemasFinanciacionDeuda/SistemasFinanciacionDeuda.aspx",
+      "notes": "Inventariar entregas a cuenta, liquidaciones, participación tributaria y financiación foral, más ejecución y presupuestos autonómicos.",
+      "status": "por_revisar",
+      "categoryIds": [],
+      "suggestedCategoryIds": [
+        "F09"
+      ],
+      "license": null
+    },
+    {
+      "id": "fiscal-source:airef",
+      "title": "AIReF · seguimiento fiscal y administraciones locales",
+      "sourceId": "F047",
+      "url": "https://www.airef.es/es/datalab/ccll-lab/",
+      "notes": "Ampliar cobertura con previsiones, seguimiento de reglas fiscales y comparativas por entidad. Distinguir estimación de observación oficial.",
+      "status": "por_revisar",
+      "categoryIds": [],
+      "suggestedCategoryIds": [
+        "F09"
+      ],
+      "license": null
+    },
+    {
+      "id": "fiscal-source:tesoro",
+      "title": "Tesoro Público · deuda del Estado",
+      "sourceId": "F052",
+      "url": "https://www.tesoro.es/",
+      "notes": "Revisar series de cartera, calendario y financiación por instrumento. Contrastar con las series ya publicadas por el Banco de España.",
+      "status": "por_revisar",
+      "categoryIds": [],
+      "suggestedCategoryIds": [
+        "F09"
+      ],
+      "license": null
+    }
+  ]
+}

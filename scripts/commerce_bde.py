@@ -119,7 +119,8 @@ def series_dates(body):
     return metadata, rows
 
 
-def capture(chapter, file, body, archive):
+def capture(chapter, file, body, archive, *, section='comercio',
+            chapters=CHAPTERS, titles=TITLES, resolve_area=geography, public_sources=PUBLIC_SOURCES):
     key = file[2:-4]
     identifier = 9_000_000 + chapter * 36**5 + int('1'+key[2:],36)
     metadata, cells = series_dates(body)
@@ -132,10 +133,10 @@ def capture(chapter, file, body, archive):
     for i, description in enumerate(descriptions):
         code = field('CÓDIGO DE LA SERIE', i) or field('NOMBRE DE LA SERIE', i) or field('', i) or field('NÚMERO SECUENCIAL', i)
         source = field('FUENTE', i)
-        if source not in {'','_'} and not norm(source).startswith(PUBLIC_SOURCES):
+        if source not in {'','_'} and not norm(source).startswith(public_sources):
             omitted.append(dict(code=code, source=source))
             continue
-        area, measure = geography(key, description, chapter)
+        area, measure = resolve_area(key, description, chapter)
         area_index = territories.setdefault(area['id'], (len(territories), area))[0]
         unit = field('DESCRIPCIÓN DE LAS UNIDADES', i) or 'Según la publicación'
         # Names from territorial tables are compared across territories. Keep
@@ -167,27 +168,36 @@ def capture(chapter, file, body, archive):
 
     if not observations:
         return None, omitted
-    filename = f'{identifier}-main.json.gz'
-    payload = encode(dict(rows=observations))
-    compressed = gzip.compress(payload, compresslevel=6, mtime=0)
-    (OUTPUT / filename).write_bytes(compressed)
-    title = TITLES.get(key, f'{CHAPTERS[chapter]} · cuadro {chapter}.{key[2:].lstrip("0")}')
+    areas = [{**area, 'sourceTableIds':[identifier]} for _, area in territories.values()]
+    parts = {}
+    for row in observations:
+        area=areas[row[0]]
+        part=area['provinceCode'] if area['level']=='municipal' else 'main'
+        parts.setdefault(part,[]).append(row)
+    shards=[]
+    for part,rows in sorted(parts.items()):
+        filename = f'{identifier}-{part}.json.gz'
+        payload = encode(dict(rows=rows))
+        compressed = gzip.compress(payload, compresslevel=6, mtime=0)
+        (ROOT / 'datos' / section / 'bde' / filename).write_bytes(compressed)
+        shards.append(dict(id=part,file=filename,rows=len(rows),bytes=len(compressed),
+            sha256=sha(compressed),contentSha256=sha(payload)))
+    title = titles.get(key, f'{chapters[chapter]} · cuadro {chapter}.{key[2:].lstrip("0")}')
     source_url = BASE + 'compartido/datos/csv/' + file
     note = 'Elaboración propia con datos extraídos del sitio web del Banco de España (www.bde.es). Se conservan la unidad, los códigos de serie, las notas y el símbolo de cada dato ausente.'
     if omitted:
         note += f' {len(omitted)} series con fuente externa quedan en el inventario de revisión.'
-    return dict(id=identifier, label=title, title=title, family=f'Banco de España · {CHAPTERS[chapter]}',
-                publisher='Banco de España', sourceId='F041', dataFolder='comercio/bde',
+    return dict(id=identifier, label=title, title=title, family=f'Banco de España · {chapters[chapter]}',
+                publisher='Banco de España', sourceId='F041', dataFolder=f'{section}/bde',
                 sourceUrl=BULLETIN.format(chapter), downloadUrl=source_url, license='Términos de las estadísticas del Banco de España',
                 note=note, rows=len(observations), unit=next(iter(units.values())) if len(set(units.values()))==1 else 'Según serie',
                 unitsByCategory=dict(dimension='Serie',values=units), dimensions=[dict(name='Serie', values=list(measures))],
                 seriesMetadata=metadata_by_series,
-                territories=[{**area, 'sourceTableIds':[identifier]} for _, area in territories.values()],
+                territories=areas,
                 periods=[dict(id=id, label=label) for id, (_, label) in periods.items()],
                 missingTokens=dict(missing), sourceTables=[dict(id=identifier, url=source_url, sha256=sha(body), bytes=len(body),
                     member=file, archive=archive['url'], sourceCodes=len(descriptions))],
-                licenseUrl=TERMS, shards=[dict(id='main', file=filename, rows=len(observations), bytes=len(compressed),
-                sha256=sha(compressed), contentSha256=sha(payload))]), omitted
+                licenseUrl=TERMS, shards=shards), omitted
 
 
 def main(refresh=False):

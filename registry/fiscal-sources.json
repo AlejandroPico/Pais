@@ -1,0 +1,51 @@
+[
+  {
+    "id": "fiscal-source:aeat",
+    "title": "AEAT · recaudación, bases, tipos y devengos",
+    "sourceId": "F042",
+    "url": "https://sede.agenciatributaria.gob.es/Sede/estadisticas-recaudacion-tributaria-historico-informes-mensuales-anos-2016-2025.html",
+    "notes": "Completar los cuadros estadísticos, históricos de bases, tipos e impuestos devengados, metadatos normativos y las distribuciones por modelo del Anuario. Mantener caja y devengo como medidas distintas."
+  },
+  {
+    "id": "fiscal-source:igae",
+    "title": "IGAE · caja, contabilidad nacional y gasto por función",
+    "sourceId": "F044",
+    "url": "https://www.igae.pap.hacienda.gob.es/sitios/igae/es-ES/Contabilidad/ContabilidadNacional/Publicaciones/paginas/imdatoscaja.aspx",
+    "notes": "Completar cuentas mensuales, ejecución estatal, clasificación funcional COFOG e inventarios de entidades. Quedan por revisar las bases anteriores y sus correspondencias."
+  },
+  {
+    "id": "fiscal-source:conprel",
+    "title": "Hacienda · archivo de presupuestos y liquidaciones locales",
+    "sourceId": "F043",
+    "url": "https://serviciostelematicosext.hacienda.gob.es/SGFAL/CONPREL",
+    "notes": "Completar publicaciones definitivas de cada ejercicio y ficheros Access de máximo desglose. Los avances 2025 y 2026 en Excel ya están incorporados."
+  },
+  {
+    "id": "fiscal-source:deuda-entes",
+    "title": "Hacienda · deuda de diputaciones, cabildos y otras entidades",
+    "sourceId": "F043",
+    "url": "https://www.hacienda.gob.es/es-ES/CDI/paginas/sistemasfinanciaciondeuda/informacioneells/deudaviva.aspx",
+    "notes": "Integrar las publicaciones de diputaciones, consejos, cabildos y entes supramunicipales y conciliar los resúmenes de deuda. Las ediciones de deuda de ayuntamientos están en el visor."
+  },
+  {
+    "id": "fiscal-source:financiacion",
+    "title": "Hacienda · sistemas de financiación autonómica y local",
+    "sourceId": "F043",
+    "url": "https://www.hacienda.gob.es/es-ES/CDI/Paginas/SistemasFinanciacionDeuda/SistemasFinanciacionDeuda.aspx",
+    "notes": "Inventariar entregas a cuenta, liquidaciones, participación tributaria y financiación foral, más ejecución y presupuestos autonómicos."
+  },
+  {
+    "id": "fiscal-source:airef",
+    "title": "AIReF · seguimiento fiscal y administraciones locales",
+    "sourceId": "F047",
+    "url": "https://www.airef.es/es/datalab/ccll-lab/",
+    "notes": "Ampliar cobertura con previsiones, seguimiento de reglas fiscales y comparativas por entidad. Distinguir estimación de observación oficial."
+  },
+  {
+    "id": "fiscal-source:tesoro",
+    "title": "Tesoro Público · deuda del Estado",
+    "sourceId": "F052",
+    "url": "https://www.tesoro.es/",
+    "notes": "Revisar series de cartera, calendario y financiación por instrumento. Contrastar con las series ya publicadas por el Banco de España."
+  }
+]

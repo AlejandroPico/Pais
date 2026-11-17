@@ -49,12 +49,13 @@ def number(value, delimiter='.'):
         return None, text or 'Sin dato'
 
 
-def publish(folder, product, input_rows, dimension_names, units):
-    output = ROOT / 'datos/comercio' / folder
+def publish(folder, product, input_rows, dimension_names, units, *, section='comercio', source_by_period=None):
+    output = ROOT / 'datos' / section / folder
     identifier = product['id']
     territories, periods = {}, {}
     dimensions = [{} for _ in dimension_names]
     records, missing = [], Counter()
+    area_sources = {}
     seen = set()
     for area, period_id, label, categories, value, status in input_rows:
         g = territories.setdefault(area['id'], (len(territories), area))[0]
@@ -64,20 +65,30 @@ def publish(folder, product, input_rows, dimension_names, units):
         seen.add(position)
         if value is None:
             missing[status] += 1
-        records.append([*position, value, status, identifier])
+        source = source_by_period[period_id] if source_by_period else identifier
+        area_sources.setdefault(g, set()).add(source)
+        records.append([*position, value, status, source])
     assert records, product['label']
-    file = f'{identifier}-main.json.gz'
-    payload = encode(dict(rows=records))
-    data = gzip.compress(payload, compresslevel=6, mtime=0)
-    (output / file).write_bytes(data)
-    return {**product, 'title':product['label'], 'dataFolder':f'comercio/{folder}', 'rows':len(records),
+    areas = [{**area, 'sourceTableIds': sorted(area_sources[index])} for index,area in territories.values()]
+    parts = {}
+    for row in records:
+        area=areas[row[0]]
+        part=area['provinceCode'] if area['level']=='municipal' else 'main'
+        parts.setdefault(part,[]).append(row)
+    shards=[]
+    for part,rows in sorted(parts.items()):
+        file = f'{identifier}-{part}.json.gz'
+        payload = encode(dict(rows=rows))
+        data = gzip.compress(payload, compresslevel=6, mtime=0)
+        (output / file).write_bytes(data)
+        shards.append(dict(id=part,file=file,rows=len(rows),bytes=len(data),sha256=sha(data),contentSha256=sha(payload)))
+    return {**product, 'title':product['label'], 'dataFolder':f'{section}/{folder}', 'rows':len(records),
         'unit':next(iter(units.values())) if len(set(units.values()))==1 else 'Según indicador',
         'unitsByCategory':dict(dimension='Indicador',values=units),
-        'territories':[{**area,'sourceTableIds':[identifier]} for _,area in territories.values()],
+        'territories':areas,
         'periods':[dict(id=id,label=label) for id,(_,label) in periods.items()],
         'dimensions':[dict(name=name,values=list(values)) for name,values in zip(dimension_names,dimensions,strict=True)],
-        'missingTokens':dict(missing), 'shards':[dict(id='main',file=file,rows=len(records),bytes=len(data),
-            sha256=sha(data),contentSha256=sha(payload))]}
+        'missingTokens':dict(missing), 'shards':shards}
 
 
 def distribution(folder, path, url, refresh):

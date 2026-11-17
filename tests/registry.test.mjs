@@ -40,7 +40,7 @@ test('available products link to real map actions and preserved observations; di
   actions.add('search:addresses');
   actions.add('municipal-changes');
   for(const layer of read('datos/territorio/official-layers.json').layers)actions.add('official-wms:'+layer.id);
-  const topicNames=['demography','welfare','labor','care','housing','economy','commerce'];
+  const topicNames=['demography','welfare','labor','care','housing','economy','commerce','fiscal'];
   const topicProducts=topicNames.flatMap(name=>read(`registry/${name}-products.json`).available);
   const expected=read('registry/products.json').products.length+read('registry/territory-products.json').available.length+topicProducts.length;
   for(const p of topicProducts)actions.add(p.mapAction);

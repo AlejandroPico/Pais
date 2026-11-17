@@ -97,6 +97,16 @@ def build():
         commerce=read(commerce_path)
         products['available']+=commerce['available']
         products['commerce']=commerce['inventory']
+    fiscal_path=ROOT/'registry/fiscal-products.json'
+    if fiscal_path.exists():
+        fiscal=read(fiscal_path)
+        products['available']+=fiscal['available']
+        products['fiscal']=fiscal['inventory']
+        governmental_accounts={t['Id'] for o in ine['operations'] if o['Id']==246 for t in o['tables']}
+        for product in products['available']:
+            kind,_,tid=product['id'].partition(':')
+            if product['id']=='welfare:920001' or (kind=='commerce' and tid.isdigit() and int(tid) in governmental_accounts):
+                product['categoryIds'].append('F09')
     labor_path=ROOT/'registry/labor-products.json'
     if labor_path.exists():
         labor=read(labor_path)
@@ -220,9 +230,12 @@ def build():
         input_paths.extend(['registry/commerce-tables.json','registry/commerce-sources.json','registry/commerce-products.json',
                             'datos/comercio/ine/index.json','datos/comercio/ine/inventory.json','datos/comercio/bde/index.json',
                             'datos/comercio/datacomex/index.json','datos/comercio/dgoj/index.json'])
+    if fiscal_path.exists():
+        input_paths.extend(['registry/fiscal-sources.json','registry/fiscal-products.json',
+                            *[f'datos/hacienda/{folder}/index.json' for folder in ('deuda-local','bde','igae','aeat','conprel')]])
     provenance = [dict(path=p, sha256=hashlib.sha256((ROOT / p).read_bytes()).hexdigest()) for p in input_paths]
     revisions=[registered['revision'], federated_metadata['revision']]
-    for path in [territory_path,demography_path,welfare_path,labor_path,care_path,housing_path,economy_path,commerce_path]:
+    for path in [territory_path,demography_path,welfare_path,labor_path,care_path,housing_path,economy_path,commerce_path,fiscal_path]:
         if path.exists():revisions.append(read(path)['revision'])
     index = dict(schemaVersion=1, researchSnapshot='2026-11-05', revision=max(revisions),
                  scope='Registro de metadatos. Los inventarios se solapan y sus recuentos no se suman como productos únicos. Solo Disponibles contiene productos utilizables en el mapa.',

@@ -8,6 +8,8 @@
     "local/secciones-2003.geojson.gz",
     "local/secciones-2004.geojson.gz",
     "local/secciones-2005.geojson.gz",
-    "local/secciones-2006.geojson.gz"
+    "local/secciones-2006.geojson.gz",
+    "local/cnig-2023-ll-municipales-histo-peninbal.geojson.gz",
+    "local/cnig-2024-ll-municipales-histo-peninbal.geojson.gz"
   ]
 }

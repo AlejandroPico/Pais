@@ -20,6 +20,7 @@ const statisticsConfig={
   labor:{folder:'trabajo/ine',prefix:'f04',urlPrefix:'l',legend:'Leyenda de empleo y salarios',timeline:'Evolución de empleo y salarios',toggle:'Representar datos de empleo y salarios'},
   economy:{folder:'economia/ine',prefix:'f07',urlPrefix:'e',legend:'Leyenda de economía y empresas',timeline:'Evolución de economía y empresas',toggle:'Representar economía y empresas'},
   commerce:{folder:'comercio/ine',prefix:'f08',urlPrefix:'m',legend:'Leyenda de precios, comercio y finanzas',timeline:'Evolución de precios, comercio y finanzas',toggle:'Representar el indicador'},
+  fiscal:{folder:'hacienda/deuda-local',prefix:'f09',urlPrefix:'f',legend:'Leyenda de Hacienda',timeline:'Evolución de Hacienda',toggle:'Representar el indicador fiscal'},
   housing:{folder:'vivienda/ine',prefix:'f06',urlPrefix:'h',legend:'Leyenda de vivienda y suelo',timeline:'Evolución de vivienda y suelo',toggle:'Representar vivienda y suelo'},
   care:{folder:'cuidados/ine',prefix:'f05',urlPrefix:'c',legend:'Leyenda de cuidados y protección social',timeline:'Evolución de cuidados y protección social',toggle:'Representar cuidados y protección social'},
 } as const;
@@ -35,8 +36,8 @@ export class DemographyController{
   constructor(private options:Options,private kind:StatisticsKind,params:URLSearchParams){
     this.hash=new URLSearchParams(params);
     const config=statisticsConfig[kind];
-    if(kind==='housing')this.province=allProvinces;
-    const requestedKind=(['labor','welfare','demography','care','housing','economy','commerce'] as const).find(key=>this.hash.get(key));
+    if(this.hasNationwideMunicipalView)this.province=allProvinces;
+    const requestedKind=(['labor','welfare','demography','care','housing','economy','commerce','fiscal'] as const).find(key=>this.hash.get(key));
     if(requestedKind!==kind)this.hash.delete(kind);
     this.legend.className='legend demography-legend';
     this.legend.hidden=true;
@@ -83,7 +84,8 @@ export class DemographyController{
       const externalSources=this.kind==='labor'?['trabajo/sepe/sepe.json','trabajo/seguridad-social/index.json']
         :this.kind==='welfare'?['renta/aeat/index.json']:this.kind==='care'?['cuidados/imserso/index.json','cuidados/seguridad-social/index.json']:this.kind==='housing'?['vivienda/mivau/index.json']
         :this.kind==='economy'?['economia/dae-historica/index.json','economia/cna/index.json','economia/miteco/index.json']
-        :this.kind==='commerce'?['comercio/bde/index.json','comercio/datacomex/index.json','comercio/dgoj/index.json']:[];
+        :this.kind==='commerce'?['comercio/bde/index.json','comercio/datacomex/index.json','comercio/dgoj/index.json']
+        :this.kind==='fiscal'?['hacienda/bde/index.json','hacienda/igae/index.json','hacienda/aeat/index.json','hacienda/conprel/index.json']:[];
       for(const path of externalSources){
         const data=await fetch(import.meta.env.BASE_URL+'datos/'+path);
         if(!data.ok)throw new Error('No se pudo cargar el catálogo de la fuente.');
@@ -108,7 +110,8 @@ export class DemographyController{
     try{const index=await this.loadIndex();if(!panel.isConnected)return;if(!this.table)this.table=index.tables[0];if(!this.query.dims.length&&this.table){this.query.dims=defaultDimensions(this.table);this.query.period=periodOrder(this.table).at(-1)!;this.validSelection();}this.drawPanel();}
     catch(error){panel.innerHTML=`<p role="status">${esc(error instanceof Error?error.message:error)}</p><button id="demog-retry">Reintentar</button>`;panel.querySelector('button')!.onclick=()=>void this.mount(panel);}
   }
-  private get nationwide(){return this.query.level==='municipal'&&this.kind==='housing'&&this.province===allProvinces;}
+  private get hasNationwideMunicipalView(){return this.kind==='housing'||this.kind==='fiscal';}
+  private get nationwide(){return this.query.level==='municipal'&&this.hasNationwideMunicipalView&&this.province===allProvinces;}
   private provinceOptions(){
     const codes=provinceCodesForLevel(this.table!,this.query.level);
     return (this.geometries?.province.features||[]).filter(f=>codes.has(f.properties!.code))
@@ -153,7 +156,7 @@ export class DemographyController{
       if(restore){
         const period=table.periods.findIndex(p=>p.id===this.restoreValue('dperiod'));if(period>=0)this.query.period=period;
         const dims=(this.restoreValue('ddims')||'').split(',').map(Number);if(dims.length===table.dimensions.length&&dims.every((v,i)=>Number.isInteger(v)&&v>=0&&v<table.dimensions[i].values.length))this.query.dims=dims;
-        this.query.level=this.restoreValue('dlevel')||'province';this.province=this.restoreValue('dprovince')||(this.kind==='housing'?allProvinces:'28');this.density=this.restoreValue('density')==='1'&&table.unit==='personas';this.growth=this.restoreValue('growth')==='1'&&table.unit==='personas';if(this.growth)this.density=false;
+        this.query.level=this.restoreValue('dlevel')||'province';this.province=this.restoreValue('dprovince')||(this.hasNationwideMunicipalView?allProvinces:'28');this.density=this.restoreValue('density')==='1'&&table.unit==='personas';this.growth=this.restoreValue('growth')==='1'&&table.unit==='personas';if(this.growth)this.density=false;
         const area=table.territories.findIndex(a=>a.id===this.restoreValue('darea'));if(area>=0){this.query.territory=area;this.municipality=table.territories[area].municipalityCode||this.municipality;}
       }
       this.validSelection();this.enabled=activate;this.result=undefined;
@@ -180,7 +183,7 @@ export class DemographyController{
   private territoryFields(){
     const level=this.query.level;
     if(!detailedLevels.includes(level))return '';
-    const allowAll=this.kind==='housing'&&level==='municipal';
+    const allowAll=this.hasNationwideMunicipalView&&level==='municipal';
     const all=allowAll?`<option value="${allProvinces}" ${this.nationwide?'selected':''}>Todas las provincias</option>`:'';
     const options=this.provinceOptions().map(f=>`<option value="${f.properties!.code}" ${f.properties!.code===this.province?'selected':''}>${esc(f.properties!.name)}</option>`).join('');
     const province=`<label class="field-label">Provincia<select id="demog-province">${all}${options}</select></label>`;

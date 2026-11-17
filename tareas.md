@@ -28,7 +28,8 @@ En cada intervención, actualiza este archivo y AGENTS.md antes de subir a `main
 | F06 | Abierto. 157 tablas del INE, siete distribuciones del MIVAU y 17 capas verificadas del SIU. [Cobertura](docs/F06.md). |
 | F07 | Abierto. 454 productos del INE y MITECO. [Cobertura, pruebas y faltantes](docs/F07.md). |
 | F08 | Abierto. 664 productos del INE, BdE, DataComex y DGOJ. [Cobertura, verificaciones y faltantes](docs/F08.md). |
-| F09–F29 | Los inventarios de estos fascículos siguen por completar. F16, F22, F24 y F26 ya tienen referencias disponibles a algunas capas base o productos compartidos. Conserva esos enlaces y verifica cada nueva ficha individualmente. |
+| F09 | Abierto. 91 productos de Hacienda, Banco de España, IGAE y AEAT. [Cobertura y comprobaciones](docs/F09.md). |
+| F10–F29 | Los inventarios de estos fascículos siguen por completar. F16, F22, F24 y F26 ya tienen referencias disponibles a algunas capas base o productos compartidos. Conserva esos enlaces y verifica cada nueva ficha individualmente. |
 
 Los números proceden de la captura de trabajo. Diferentes inventarios se solapan y los recuentos de tablas, operaciones, fichas y observaciones miden cosas distintas. Confirma en Git y en el sitio público qué revisión está desplegada si el encargo incluye publicar.
 
@@ -143,9 +144,13 @@ Punto de partida: [F04](docs/F04.md), [inventario INE](datos/trabajo/ine/invento
 
 ## F09 · Hacienda, presupuestos, fiscalidad y deuda pública · `datos/hacienda/`
 
-- [ ] Completar ingresos, impuestos, recaudación, presupuestos, ejecución, gasto funcional, déficit, deuda, financiación territorial y cuentas públicas. Revisar Hacienda, IGAE, AEAT, AIReF, Tesoro, Banco de España, haciendas forales y portales autonómicos y locales.
-- [ ] Normalizar niveles de administración, entidades, ejercicio, devengo y caja, fase presupuestaria, consolidación, función y unidades. Distinguir previsión, aprobado, modificado, obligado y pagado. Relacionar las versiones de clasificaciones y todas las ediciones.
-- [ ] Representar el territorio beneficiario solo cuando conste. Validar cifras de contraste en niveles estatal, autonómico y local. Enlazar declaraciones de renta de F03 y contratación y financiación de F10.
+- [x] Incorporar deuda viva de ayuntamientos de 2008 a 2025 y los cuadros 11 a 14 del Banco de España. Mantener separado el saldo PDE por subsector y conservar el archivo que publica cada ejercicio municipal.
+- [x] Incorporar las series trimestrales SEC de la IGAE, la serie anual regional y el detalle de las 17 comunidades de 2000 a 2025. Las portadas de Tabla1b del detalle de 2024 y 2025 rotulan «Millones de euros». Se verificó en las 17 comunidades que B.9 en Tabla1b es el importe de Tabla1a dividido por el PIB publicado y multiplicado por cien.
+- [x] Incorporar la hoja `datos_delegaciones` del libro de la AEAT, de enero de 2007 a septiembre de 2026. Distinguir oficina de gestión, Delegación Especial, servicios centrales y total publicado. Enlazar el IRPF municipal de F03 y las cuentas institucionales de F08.
+- [x] Incorporar los dos libros Excel de avance CONPREL, liquidación 2025 y presupuesto 2026. Conservar fases, unidades, fichas de grandes ciudades y estado por entidad.
+- [ ] Confirmar con Hacienda el año de referencia de la columna «Pobla 2021» en hojas de entidades del avance de presupuesto 2026. El visor conserva el encabezado y no la usa para indicadores per cápita.
+- [ ] Completar los ejercicios definitivos y ficheros Access de CONPREL, resúmenes locales y deuda de diputaciones, consejos, cabildos y otras entidades. Incorporar presupuestos generales del Estado, ejecución estatal y autonómica y financiación territorial, incluidas haciendas forales.
+- [ ] Completar series mensuales y COFOG de la IGAE, cuadros nacionales y bases, tipos y devengos de la AEAT, datos por modelo del Anuario, AIReF y Tesoro. Mantener caja y devengo, previsión y ejecución, y consolidación separados. Enlazar contratación y financiación de F10 cuando esté disponible.
 
 ## F10 · Contratación, subvenciones y proyectos financiados · `datos/ayudas/`
 

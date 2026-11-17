@@ -2,6 +2,10 @@
 
 La [guía para agentes](AGENTS.md) contiene la arquitectura y el protocolo de cierre. En [tareas.md](tareas.md) están los objetivos pendientes de F00 a F29.
 
+## Versión 0.8.7
+
+**Hacienda, presupuestos, fiscalidad y deuda pública** incorpora deuda de los ayuntamientos desde 2008, avances de liquidación y presupuesto local, cuentas públicas SEC, deuda autonómica y recaudación por delegación. [Cobertura y tareas de F09](docs/F09.md).
+
 ## Versión 0.8.6
 
 La categoría **Precios, comercio, finanzas y seguros** incorpora IPC, comercio minorista, comercio exterior de mercancías, crédito y depósitos territoriales, seguros, mercados y juego en línea. [Cobertura y tareas de F08](docs/F08.md).
