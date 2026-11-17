@@ -11,6 +11,7 @@ import json
 import os
 from pathlib import Path
 from catalog_relationships import enrich_national, link_ine
+from build_fiscal_registry import TOPICS
 
 ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT / 'datos/catalogo'
@@ -107,6 +108,11 @@ def build():
             kind,_,tid=product['id'].partition(':')
             if product['id']=='welfare:920001' or (kind=='commerce' and tid.isdigit() and int(tid) in governmental_accounts):
                 product['categoryIds'].append('F09')
+    funding_path=ROOT/'registry/funding-products.json'
+    if funding_path.exists():
+        funding=read(funding_path)
+        products['available']+=funding['available']
+        products['funding']=funding['inventory']
     labor_path=ROOT/'registry/labor-products.json'
     if labor_path.exists():
         labor=read(labor_path)
@@ -233,9 +239,13 @@ def build():
     if fiscal_path.exists():
         input_paths.extend(['registry/fiscal-sources.json','registry/fiscal-products.json',
                             *[f'datos/hacienda/{folder}/index.json' for folder in ('deuda-local','bde','igae','aeat','conprel')]])
+    if funding_path.exists():
+        _,section,folders=TOPICS['funding']
+        input_paths.extend(['registry/funding-sources.json','registry/funding-products.json',
+                            *[f'datos/{section}/{folder}/index.json' for folder in folders]])
     provenance = [dict(path=p, sha256=hashlib.sha256((ROOT / p).read_bytes()).hexdigest()) for p in input_paths]
     revisions=[registered['revision'], federated_metadata['revision']]
-    for path in [territory_path,demography_path,welfare_path,labor_path,care_path,housing_path,economy_path,commerce_path,fiscal_path]:
+    for path in [territory_path,demography_path,welfare_path,labor_path,care_path,housing_path,economy_path,commerce_path,fiscal_path,funding_path]:
         if path.exists():revisions.append(read(path)['revision'])
     index = dict(schemaVersion=1, researchSnapshot='2026-11-05', revision=max(revisions),
                  scope='Registro de metadatos. Los inventarios se solapan y sus recuentos no se suman como productos únicos. Solo Disponibles contiene productos utilizables en el mapa.',

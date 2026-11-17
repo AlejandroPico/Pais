@@ -8,6 +8,7 @@ const kinds:Record<string,string>={
   available:'Disponibles en el mapa',territory:'Inventario cartográfico',demography:'Inventario demográfico',
   welfare:'Inventario de renta',labor:'Tablas de empleo y salarios',care:'Cuidados y protección social',housing:'Inventario de vivienda y suelo',economy:'Inventario de economía y empresas',commerce:'Inventario de precios, comercio, finanzas y seguros',ioe:'Operaciones IOE',ine:'Tablas INEbase',national:'Catálogo nacional',
   fiscal:'Inventario de Hacienda, fiscalidad y deuda pública',
+  funding:'Inventario de contratación, subvenciones y proyectos',
 };
 let indexPromise:Promise<RegistryIndex>|undefined;
 

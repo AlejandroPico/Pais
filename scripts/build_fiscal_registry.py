@@ -1,11 +1,15 @@
-"""Build the F09 catalogue after checking its saved distributions."""
+"""Build the fiscal and funding catalogues after checking their saved distributions."""
+import argparse
 import gzip
 import hashlib
 import json
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
-FOLDERS = ('deuda-local','bde','igae','aeat','conprel')
+TOPICS = {
+    'fiscal': ('F09','hacienda',('deuda-local','bde','igae','aeat','conprel')),
+    'funding': ('F10','ayudas',('contratos','placsp','ted','feder','cohesion','bdns')),
+}
 LEVELS = dict(national='España', community='Comunidades autónomas', province='Provincias',
               municipal='Municipios', unlocated='Ámbitos de consulta')
 
@@ -19,9 +23,13 @@ def checksum(data):
 
 
 def main():
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument('--kind', choices=TOPICS, default='fiscal')
+    kind = parser.parse_args().kind
+    category, section, folders = TOPICS[kind]
     products, inventory, checked = [], [], set()
-    for name in FOLDERS:
-        folder = ROOT/'datos/hacienda'/name
+    for name in folders:
+        folder = ROOT/'datos'/section/name
         index = read(folder/'index.json')
         revision = index['revision']
         for table in index['tables']:
@@ -37,24 +45,24 @@ def main():
                     if origin not in checked:
                         assert checksum(origin.read_bytes())==source['sha256'], origin
                         checked.add(origin)
-            key = 'fiscal:'+str(table['id'])
+            key = kind+':'+str(table['id'])
             periods = sorted(table['periods'],key=lambda period: period['id'])
-            entry = dict(id=key,title=table['label'],sourceId=table['sourceId'],categoryIds=['F09'],
+            entry = dict(id=key,title=table['label'],sourceId=table['sourceId'],categoryIds=[category],
                 status='integrado',url=table['sourceUrl'],mapAction=key,
                 period={'from':periods[0]['label'],'to':periods[-1]['label']},
                 coverage=' · '.join(LEVELS[key] for key in sorted({a['level'] for a in table['territories']})),
-                unit=table['unit'],license=table['license'],notes=table['note'],dataFile=f'hacienda/{name}/index.json')
+                unit=table['unit'],license=table['license'],notes=table['note'],dataFile=f'{section}/{name}/index.json')
             products.append(entry)
-            inventory.append({**entry,'id':'fiscal-distribution:'+str(table['id']),
+            inventory.append({**entry,'id':kind+'-distribution:'+str(table['id']),
                 'links':{'Descarga oficial':table['downloadUrl']},
                 'review':dict(implementedProductId=key,updatedAt=revision,
                     reason=f'Distribución cotejada. {table["rows"]:,} celdas conservadas con sus estados y unidades.')})
-    for source in read(ROOT/'registry/fiscal-sources.json'):
-        inventory.append({**source,'status':'por_revisar','categoryIds':[],'suggestedCategoryIds':['F09'],'license':None})
+    for source in read(ROOT/f'registry/{kind}-sources.json'):
+        inventory.append({**source,'status':'por_revisar','categoryIds':[],'suggestedCategoryIds':[category],'license':None})
     assert len({p['id'] for p in products})==len(products)
     output=dict(revision=revision,available=products,inventory=inventory)
-    (ROOT/'registry/fiscal-products.json').write_text(json.dumps(output,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
-    print(f'F09: {len(products)} productos, {len(inventory)} fichas de inventario')
+    (ROOT/f'registry/{kind}-products.json').write_text(json.dumps(output,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+    print(f'{category}: {len(products)} productos, {len(inventory)} fichas de inventario')
 
 
 if __name__=='__main__':

@@ -1,0 +1,12 @@
+	Abierto		Restringido		Resto (*)		Total general
+Entidades Locales	Importe	%	Importe	%	Importe	%	Importe
+AYUNTAMIENTOS	7.540.997.428	87,92%	46.298.256	0,54%	989.686.503	11,54%	8.576.982.187
+CABILDOS/CONSELLS	134.966.758	68,43%		0,00%	62.274.303	31,57%	197.241.061
+COMARCAS	3.527.233	66,45%	14.568	0,27%	1.766.376	33,28%	5.308.177
+CONSORCIOS	94.788.160	93,11%	1.461.026	1,44%	5.551.251	5,45%	101.800.437
+DIPUTACIONES PROVINCIALES Y FORALES	441.905.611	67,92%	4.137.244	0,64%	204.613.486	31,45%	650.656.341
+MANCOMUNIDADES	154.727.976	88,56%		0,00%	19.977.798	11,43%	174.705.774
+Total general	8.370.913.166	86,24%	51.911.094	0,53%	1.283.869.717	13,23%	9.706.693.977
+							
+Datos a fecha 01-12-2015							
+(*) Columna Resto: Incluye los contratos adjudicados por procedimiento negociado, diálogo competitivo, directo y aquellos en los que no consta el mismo							

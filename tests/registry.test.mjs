@@ -40,7 +40,7 @@ test('available products link to real map actions and preserved observations; di
   actions.add('search:addresses');
   actions.add('municipal-changes');
   for(const layer of read('datos/territorio/official-layers.json').layers)actions.add('official-wms:'+layer.id);
-  const topicNames=['demography','welfare','labor','care','housing','economy','commerce','fiscal'];
+  const topicNames=['demography','welfare','labor','care','housing','economy','commerce','fiscal','funding'];
   const topicProducts=topicNames.flatMap(name=>read(`registry/${name}-products.json`).available);
   const expected=read('registry/products.json').products.length+read('registry/territory-products.json').available.length+topicProducts.length;
   for(const p of topicProducts)actions.add(p.mapAction);
@@ -68,6 +68,31 @@ test('catalog search combines accents, multiple terms, source, state and explici
   assert.equal(matchesProduct(p,{...q,source:'F006'}),false);
   assert.equal(matchesProduct(p,{...q,q:'poblacion inexistente'}),false);
   assert.equal(matchesProduct({...p,suggestedCategoryIds:[]},{...q,category:'F02'}),false);
+});
+
+test('F10 preserves published totals, phase units and the FEDER text-formatted territories',()=>{
+  const fundingTable=(folder,id)=>read(`datos/ayudas/${folder}/index.json`).tables.find(t=>t.id===id);
+  const selectedRow=(table,areaId,periodId,dimensions)=>{
+    const geography=table.territories.findIndex(a=>a.id===areaId);
+    const period=table.periods.findIndex(p=>p.id===periodId);
+    const dims=dimensions.map((v,i)=>table.dimensions[i].values.indexOf(v));
+    const shard=table.shards.find(s=>s.id==='main');
+    const cube=JSON.parse(gunzipSync(fs.readFileSync(new URL('datos/'+table.dataFolder+'/'+shard.file,root))));
+    return cube.rows.find(row=>[geography,period,...dims].every((v,i)=>v===row[i]));
+  };
+  const awards=fundingTable('bdns',970302);
+  assert.equal(selectedRow(awards,'national:ES','2026M10',['Concesiones publicadas','Total','Total'])?.[5],327980);
+  const ted=fundingTable('ted',970501);
+  assert.equal(selectedRow(ted,'national:ES','2026M10',['Anuncios publicados','Total','Total'])?.[5],5966);
+  const contracts=fundingTable('contratos',970001);
+  assert.equal(selectedRow(contracts,'community:01','2024',['Contratos registrados','Total'])?.[4],129547);
+  assert.equal(selectedRow(contracts,'community:01','2024',['Importe registrado','Total'])?.[4],5395518820);
+  assert.equal(contracts.unitsByCategory.values['Peso del procedimiento'],'Porcentaje');
+  const feder=fundingTable('feder',970100);
+  for(const code of ['18','12']){
+    const records=feder.periods.flatMap(({id})=>[selectedRow(feder,'community:'+code,id,['Operaciones con inicio comunicado','Total'])||[]]);
+    assert.equal(records.reduce((sum,row)=>sum+(row[4]||0),0),code==='18'?365:9450);
+  }
 });
 
 function insideRing([x,y],ring){let inside=false;for(let i=0,j=ring.length-1;i<ring.length;j=i++){const [xi,yi]=ring[i],[xj,yj]=ring[j];if((yi>y)!==(yj>y)&&x<(xj-xi)*(y-yi)/(yj-yi)+xi)inside=!inside;}return inside;}

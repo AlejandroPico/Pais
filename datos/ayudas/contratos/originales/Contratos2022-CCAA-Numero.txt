@@ -1,0 +1,25 @@
+Comunidad Autónoma	Abierto	Abierto Simplificado	Restringido	Diálogo Competitivo	Negociado	Concurso de proyectos	Directo	No consta (*)	Total general
+ANDALUCIA	9.640	1.413	29		190		80.980	727	92.979
+ARAGON	841	111	3		186		24	843	2.008
+ASTURIAS	639	367	28	1	74		43.531	940	45.580
+CANARIAS	431	346			210		148.370	816	150.173
+CANTABRIA	50	123			211			1	385
+CASTILLA-LA MANCHA	1.435		1		237		18.247	799	20.719
+CASTILLA-LEON	739	820	14		254		18.944	1.442	22.213
+CATALUÑA	4.398	1.792	14		1.312	2	139.385	6.099	153.002
+CEUTA	3	21			1				25
+EXTREMADURA	1.775	467	4		81		72.644	85	75.056
+GALICIA	2.085		4		228		202.320	13.667	218.304
+ILLES BALEARS	464	284	5		142		1.398	169	2.462
+MADRID	2.415	966	4		604		66	54	4.109
+MELILLA	116	51			27				194
+MURCIA	956	158	30		121			348	1.613
+NAVARRA	391	36	3		88			37	555
+PAIS VASCO	589	77						216	882
+RIOJA	324	255			53			139	771
+VALENCIA	1.291	995			162	3	30.306	868	33.625
+Total general	28.582	8.282	139	1	4.181	5	756.215	27.250	824.655
+									
+Datos a fecha 26-02-2024									
+No incluidos contratos de las Universidades. Publicados de forma independiente.									
+"(*) Procedimiento comunicado ""otros"" o sin determinar"									

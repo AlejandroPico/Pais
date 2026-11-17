@@ -1,0 +1,12 @@
+Entidades Locales	Abierto	Abierto Simplificado	Restringido	Diálogo Competitivo	Negociado	Concurso Proyectos	Asoc. para la Innovación	Directo	No consta (*)	Total general
+AREAS METROPOLITANAS		4			1			7		12
+AYUNTAMIENTOS	19.959	4.013	84	16	6.567	14	3	49.424	14.345	94.425
+CABILDOS/CONSELLS	310	79			83			4.092	2	4.566
+COMARCAS	385	4			8			972	309	1.678
+CONSORCIOS	192	17	6	2	5			647	151	1.020
+DIPUTACIONES PROVINCIALES Y FORALES	2.391	443	14	1	720			21.120	2.233	26.922
+MANCOMUNIDADES	261	18		1	26			345	47	698
+Total general	23.498	4.578	104	20	7.410	14	3	76.607	17.087	129.321
+										
+Datos a fecha 20-01-2020										
+"(*) Procedimiento comunicado ""otros"" o sin determinar"										

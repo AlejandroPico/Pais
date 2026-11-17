@@ -1,0 +1,19 @@
+Ministerio	Abierto	Restringido	Resto (*)	Total general
+AGRICULTURA, ALIMENTACION Y MEDIO AMBIENTE	550	3	461	1.014
+ASUNTOS EXTERIORES Y COOPERACION	118	1	223	342
+DEFENSA	1.470		3.763	5.233
+ECONOMIA Y COMPETITIVIDAD	1.328		290	1.618
+EDUCACION, CULTURA Y DEPORTE	512		1.147	1.659
+EMPLEO Y SEGURIDAD SOCIAL (**)	1.539	1	280	1.820
+FOMENTO	518	1	2.179	2.698
+HACIENDA Y ADMINISTRACIONES PUBLICAS	1.090	1	830	1.921
+INDUSTRIA, ENERGIA Y TURISMO	286	2	100	388
+JUSTICIA	252		91	343
+PRESIDENCIA	203		137	340
+SANIDAD, SERVICIOS SOCIALES E IGUALDAD	478		239	717
+INTERIOR	1.497		320	1.817
+Total general	9.841	9	10.060	19.910
+				
+Datos a fecha 01-12-2015				
+(*) Columna Resto: Incluye los contratos adjudicados por procedimiento negociado, diálogo competitivo, directo y aquellos en los que no consta el mismo				
+(**)Ministerio de Empleo y Seguridad Social. No incluidos contratos de las Mutuas de A.T y E.P. Publicados de forma independiente.				

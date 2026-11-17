@@ -29,7 +29,8 @@ En cada intervención, actualiza este archivo y AGENTS.md antes de subir a `main
 | F07 | Abierto. 454 productos del INE y MITECO. [Cobertura, pruebas y faltantes](docs/F07.md). |
 | F08 | Abierto. 664 productos del INE, BdE, DataComex y DGOJ. [Cobertura, verificaciones y faltantes](docs/F08.md). |
 | F09 | Abierto. 91 productos de Hacienda, Banco de España, IGAE y AEAT. [Cobertura y comprobaciones](docs/F09.md). |
-| F10–F29 | Los inventarios de estos fascículos siguen por completar. F16, F22, F24 y F26 ya tienen referencias disponibles a algunas capas base o productos compartidos. Conserva esos enlaces y verifica cada nueva ficha individualmente. |
+| F10 | Integrados el Registro de Contratos, dos canales PLACSP, anuncios TED, BDNS, operaciones regionales FEDER y financiación de cohesión. El detalle de cobertura y las tareas de cierre están en F10. |
+| F11–F29 | Los inventarios de estos fascículos siguen por completar. F16, F22, F24 y F26 ya tienen referencias disponibles a algunas capas base o productos compartidos. Conserva esos enlaces y verifica cada nueva ficha individualmente. |
 
 Los números proceden de la captura de trabajo. Diferentes inventarios se solapan y los recuentos de tablas, operaciones, fichas y observaciones miden cosas distintas. Confirma en Git y en el sitio público qué revisión está desplegada si el encargo incluye publicar.
 
@@ -154,9 +155,18 @@ Punto de partida: [F04](docs/F04.md), [inventario INE](datos/trabajo/ine/invento
 
 ## F10 · Contratación, subvenciones y proyectos financiados · `datos/ayudas/`
 
-- [ ] Enumerar PLACSP, BDNS, TED, Kohesio, fondos europeos, Cooperación Española y plataformas públicas territoriales. Importar licitación, lotes, adjudicación, formalización, modificaciones, convocatorias, concesiones y pagos cuando se publiquen.
-- [ ] Enlazar registros por identificador de expediente, lote, convocatoria o concesión; conservar estados, importes, fechas e historial. Comprobar origen, moneda, criterio territorial y límites de uso y publicación de datos personales. Relacionar cada proyecto con su financiación sin sumar dos veces notificaciones y adjudicaciones.
-- [ ] Situar puntos o regiones sobre el lugar de ejecución identificado. Mantener una ficha tabular cuando solo se conozca la sede. Enlazar AEI/CDTI/CORDIS a F12 y ayudas agrarias a F14.
+- [x] Incorporar las 120 tablas TXT del Registro de Contratos del Sector Público de 2013–2024. Conservar cinco ámbitos, procedimientos, notas, importes, porcentajes oficiales y vacíos de origen. Las tablas autonómicas localizan la administración contratante.
+- [x] Incorporar los dos canales PLACSP sin contratos menores para octubre de 2026. Conservar las versiones de cada expediente dentro de su canal, referencias, lotes, enlaces, anuncios y fechas de adjudicación y formalización cuando figuren. Emplear la ejecución declarada por NUTS.
+- [x] Incorporar los 5.966 anuncios de TED de octubre de 2026 con comprador o ejecución en España. Conservar tipo de formulario y claves de anuncio, publicación y procedimiento. Mostrar la geografía de ejecución explícita.
+- [x] Incorporar las 616.221 convocatorias BDNS por fecha de recepción de 2016 a octubre de 2026 y las 327.980 concesiones con fecha de octubre de 2026. Cotejar cada corte con el total oficial, guardar huellas de las consultas y asociar las comunidades al órgano concedente o convocante.
+- [x] Incorporar las 19 listas regionales FEDER 2014–2020 de marzo de 2024 y la financiación de los programas españoles de Cohesion Open Data de junio de 2023 a agosto de 2026. Conservar coste elegible, gasto declarado y cofinanciación según la definición de cada fuente. Interpretar los formatos de fecha y cuantía de Ceuta y Galicia junto con las celdas numéricas del resto de libros.
+- [x] Mantener el margen de tamaño del despliegue con las copias inmutables de recintos y líneas provinciales CNIG 2024 de Península y Baleares. Cotejar bytes y acceso desde el dominio de Pages. Los originales se conservan en el repositorio.
+- [ ] Completar los archivos históricos sin menores, contratos menores, encargos propios y consultas preliminares de PLACSP. Incorporar modificaciones, retiradas, adjudicación y formalización como historial de eventos. Revisar la comunicación de Hacienda sobre cobertura incompleta y actualizar hasta una edición contrastada.
+- [ ] Ampliar TED a toda la cobertura y a resultados por lote, cotejar eForms y formularios históricos. Conciliar por clave de anuncio, expediente, autoridad y lote con PLACSP y los portales territoriales. Abrir las fichas individuales desde el mapa y comprobar expedientes repetidos, resultados múltiples y cambios de alcance.
+- [ ] Ampliar el histórico de BDNS, añadir fichas por código de convocatoria y concesión, bases reguladoras, instrumentos, ayudas de Estado, minimis, planes, proyectos y pagos cuando exista importe desembolsado explícito. Documentar las exclusiones de reutilización y preservar la diferencia entre administración, ámbito elegible y ubicación del proyecto.
+- [ ] Completar operaciones FEDER plurirregionales y anteriores a 2014, fondos 2021–2027 a nivel de proyecto, Kohesio, MRR y Cooperación Española. Cotejar CCI y claves de operación al enlazar las fichas para evitar doble contabilización. Registrar en las fichas las fechas, geografía, beneficiario institucional, fuente y clases de financiación cuando estén publicadas.
+- [ ] Obtener la distribución de AOD/TOSSD por agente, destino y tipo de flujo. La pantalla de publicaciones de Info@OD exigió validación humana para continuar el 17/11/2026. Buscar una descarga institucional que cubra esos campos o incorporar la exportación oficial tras la validación.
+- [ ] Enlazar AEI, CDTI y CORDIS con F12, y FEGA y las demás ayudas agrarias con F14 por identificadores oficiales. Verificar importes y moneda, fuentes, reglas de publicación y alcance territorial. Véanse [la documentación de F10](docs/F10.md) y [el inventario de fuentes](registry/funding-sources.json).
 
 ## F11 · Educación, formación y universidad · `datos/educacion/`
 

@@ -1,0 +1,12 @@
+	Abierto		Restringido		Otros/SC (*)		Total general
+Entidades Locales	Importe	%	Importe	%	Importe	%	Importe
+AYUNTAMIENTOS	4.545.710.125	80,60%	37.567.143	0,67%	1.056.627.923	18,73%	5.639.905.190
+CABILDOS/CONSELLS	310.218.855	92,93%		0,00%	23.610.781	7,07%	333.829.636
+COMARCAS	18.775.565	88,07%		0,00%	2.543.805	11,93%	21.319.370
+CONSORCIOS	75.014.979	91,10%	457.545	0,56%	6.869.846	8,34%	82.342.370
+DIPUTACIONES PROVINCIALES Y FORALES	472.417.607	50,60%	3.592.579	0,38%	457.706.427	49,02%	933.716.613
+MANCOMUNIDADES	8.641.343	83,72%		0,00%	1.680.300	16,28%	10.321.643
+Total general	5.430.778.474	77,35%	41.617.267	0,59%	1.549.039.082	22,06%	7.021.434.822
+							
+Datos a fecha 31-05-2016							
+(*)Incluye los contratos adjudicados por procedimiento negociado, diálogo competitivo, directo y aquellos en los que no consta el mismo							

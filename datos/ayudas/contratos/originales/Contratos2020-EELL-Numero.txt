@@ -1,0 +1,12 @@
+Entidades Locales	Abierto	Abierto Simplificado	Restringido	Negociado	Concurso Proyectos	Directo	No consta (*)	Total general
+AREAS METROPOLITANAS	86	124		19		103	75	407
+AYUNTAMIENTOS	13.047	9.453	89	4.142	9	208.315	18.909	253.964
+CABILDOS/CONSELLS	232	262		130		1.796	1.466	3.886
+COMARCAS	164	208		10		6.199	234	6.815
+CONSORCIOS	102	38	6	1		2.403	58	2.608
+DIPUTACIONES PROVINCIALES Y FORALES	1.681	1.366	9	659		33.008	4.581	41.304
+MANCOMUNIDADES	61	44	8	25		1.470	91	1.699
+Total general	15.373	11.495	112	4.986	9	253.294	25.414	310.683
+								
+Datos a fecha 28-03-2022								
+"(*) Procedimiento comunicado ""otros"" o sin determinar"								

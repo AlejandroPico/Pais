@@ -1,0 +1,58 @@
+[
+  {
+    "id": "funding-source:placsp-menores-encargos",
+    "title": "PLACSP · Contratos menores, encargos y consultas preliminares",
+    "sourceId": "F046",
+    "url": "https://www.hacienda.gob.es/es-ES/GobiernoAbierto/Datos%20Abiertos/Paginas/licitaciones_plataforma_contratacion.aspx",
+    "notes": "Levantar la cobertura histórica de las sindicaciones por separado. Comprobar las incidencias de publicación comunicadas por Hacienda y conciliar los expedientes, sus estados y sus lotes."
+  },
+  {
+    "id": "funding-source:bdns",
+    "title": "BDNS · Histórico restante, minimis, ayudas de Estado y pagos",
+    "sourceId": "F045",
+    "url": "https://www.infosubvenciones.es/bdnstrans/doc/swagger",
+    "notes": "Completar cortes de convocatoria y concesiones y revisar distribuciones de ayudas de Estado, minimis, planes y proyectos. Los pagos requieren una fuente explícita y comprobación del enlace con la concesión."
+  },
+  {
+    "id": "funding-source:ted",
+    "title": "TED · Histórico, documentos y resultados por lote",
+    "sourceId": "F141",
+    "url": "https://ted.europa.eu/en/help/data-reuse",
+    "notes": "El corte de anuncios de octubre de 2026 está en el visor. Ampliar el histórico, los documentos eForms y los resultados por lote. Conciliar expedientes y lotes por identificadores contrastados con PLACSP. Registrar fecha de envío, publicación y adjudicación."
+  },
+  {
+    "id": "funding-source:kohesio",
+    "title": "Kohesio · Fichas de proyectos y beneficiarios",
+    "sourceId": "F142",
+    "url": "https://kohesio.ec.europa.eu/",
+    "notes": "Incorporar las referencias a operaciones y cotejar el solapamiento con las listas FEDER. Comprobar si la ubicación publicada corresponde al proyecto o al beneficiario."
+  },
+  {
+    "id": "funding-source:fondos",
+    "title": "Fondos Europeos · Operaciones restantes y Plan de Recuperación",
+    "sourceId": "F043",
+    "url": "https://fondoseuropeos.gob.es/es-es/subvenciones/Paginas/Buscador.aspx",
+    "notes": "Investigar distribuciones de operaciones FEDER plurirregionales y de otros períodos, FSE+, FTJ, MRR y otros instrumentos. Vincular convocatoria, concesión, operación y pago con sus claves y unidades."
+  },
+  {
+    "id": "funding-source:cooperacion",
+    "title": "Cooperación Española · Info@OD, AOD y TOSSD",
+    "sourceId": "F129",
+    "url": "https://infoaod.maec.es/",
+    "notes": "Obtener los flujos de la fuente oficial por agente y sector. Conservar entidades financiadoras españolas, receptores, países de ejecución y desembolsos en dimensiones separadas."
+  },
+  {
+    "id": "funding-source:territorial",
+    "title": "Plataformas territoriales · Contratación, subvenciones y ejecución",
+    "sourceId": "F046",
+    "url": "https://www.hacienda.gob.es/es-es/gobiernoabierto/datos%20abiertos/paginas/licitacionesagregacion.aspx",
+    "notes": "Inventariar portales autonómicos y locales y sus periodos de agregación. Mantener fuentes propias de la entidad y relacionarlas con el mismo expediente PA/PLACSP/TED cuando se pueda verificar."
+  },
+  {
+    "id": "funding-source:cordis",
+    "title": "CORDIS · Contratos de financiación e investigación española",
+    "sourceId": "F140",
+    "url": "https://cordis.europa.eu/projects",
+    "notes": "Cruzar F12 y la financiación de F10 por identificador de acuerdo y convocatoria. Distinguir coste total del proyecto, aportación UE y participación española."
+  }
+]

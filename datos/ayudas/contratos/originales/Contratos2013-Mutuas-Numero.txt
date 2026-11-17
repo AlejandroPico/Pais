@@ -1,0 +1,18 @@
+Mutuas de A.T. y E.P.	Abierto	Restringido	Resto (*)	Total general
+ACTIVA MUTUA 2008	52			52
+EGARSAT	3		16	19
+FRATERNIDAD-MUPRESPA	143		96	239
+FREMAP	11		149	160
+MAZ. MUTUA DE ACCIDENTES DE ZARAGOZA	35		1	36
+MC MUTUAL	69		779	848
+MUTUA DE ANDALUCIA Y CEUTA-CESMA	10			10
+MUTUA MONTAÑESA	10		1	11
+MUTUA NAVARRA	8		6	14
+MUTUALIA	19			19
+SOLIMAT			3	3
+UMIVALE	38		661	699
+UNION DE MUTUAS		2	122	124
+Total general	398	2	1.834	2.234
+				
+Datos a fecha 01-12-2015				
+(*) Columna Resto: Incluye los contratos adjudicados por procedimiento negociado, diálogo competitivo, directo y aquellos en los que no consta el mismo				

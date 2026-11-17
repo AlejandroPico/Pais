@@ -1,0 +1,687 @@
+{
+  "revision": "2026-11-17",
+  "available": [
+    {
+      "id": "funding:970001",
+      "title": "Contratos registrados · Comunidades y ciudades autónomas",
+      "sourceId": "F046",
+      "categoryIds": [
+        "F10"
+      ],
+      "status": "integrado",
+      "url": "https://www.hacienda.gob.es/es-ES/Areas%20Tematicas/Contratacion/Junta%20Consultiva%20de%20Contratacion%20Administrativa/Paginas/Registro%20publico%20de%20contratos.aspx",
+      "mapAction": "funding:970001",
+      "period": {
+        "from": "2013",
+        "to": "2024"
+      },
+      "coverage": "Comunidades autónomas · España",
+      "unit": "Según indicador",
+      "license": "Condiciones de reutilización de Hacienda",
+      "notes": "La ubicación indica la comunidad de la administración contratante. El Registro clasifica contratos comunicados y publica sus importes, recuentos y porcentajes. Se conservan las celdas vacías y las notas de cada edición.",
+      "dataFile": "ayudas/contratos/index.json"
+    },
+    {
+      "id": "funding:970002",
+      "title": "Contratos registrados · Ministerios",
+      "sourceId": "F046",
+      "categoryIds": [
+        "F10"
+      ],
+      "status": "integrado",
+      "url": "https://www.hacienda.gob.es/es-ES/Areas%20Tematicas/Contratacion/Junta%20Consultiva%20de%20Contratacion%20Administrativa/Paginas/Registro%20publico%20de%20contratos.aspx",
+      "mapAction": "funding:970002",
+      "period": {
+        "from": "2013",
+        "to": "2024"
+      },
+      "coverage": "España · Ámbitos de consulta",
+      "unit": "Según indicador",
+      "license": "Condiciones de reutilización de Hacienda",
+      "notes": "El total corresponde a España. Los desgloses institucionales se consultan como ámbitos sin geometría. El Registro clasifica contratos comunicados y publica sus importes, recuentos y porcentajes. Se conservan las celdas vacías y las notas de cada edición.",
+      "dataFile": "ayudas/contratos/index.json"
+    },
+    {
+      "id": "funding:970003",
+      "title": "Contratos registrados · Tipos de entidades locales",
+      "sourceId": "F046",
+      "categoryIds": [
+        "F10"
+      ],
+      "status": "integrado",
+      "url": "https://www.hacienda.gob.es/es-ES/Areas%20Tematicas/Contratacion/Junta%20Consultiva%20de%20Contratacion%20Administrativa/Paginas/Registro%20publico%20de%20contratos.aspx",
+      "mapAction": "funding:970003",
+      "period": {
+        "from": "2013",
+        "to": "2024"
+      },
+      "coverage": "España · Ámbitos de consulta",
+      "unit": "Según indicador",
+      "license": "Condiciones de reutilización de Hacienda",
+      "notes": "El total corresponde a España. Los desgloses institucionales se consultan como ámbitos sin geometría. El Registro clasifica contratos comunicados y publica sus importes, recuentos y porcentajes. Se conservan las celdas vacías y las notas de cada edición.",
+      "dataFile": "ayudas/contratos/index.json"
+    },
+    {
+      "id": "funding:970004",
+      "title": "Contratos registrados · Universidades",
+      "sourceId": "F046",
+      "categoryIds": [
+        "F10"
+      ],
+      "status": "integrado",
+      "url": "https://www.hacienda.gob.es/es-ES/Areas%20Tematicas/Contratacion/Junta%20Consultiva%20de%20Contratacion%20Administrativa/Paginas/Registro%20publico%20de%20contratos.aspx",
+      "mapAction": "funding:970004",
+      "period": {
+        "from": "2013",
+        "to": "2024"
+      },
+      "coverage": "España · Ámbitos de consulta",
+      "unit": "Según indicador",
+      "license": "Condiciones de reutilización de Hacienda",
+      "notes": "El total corresponde a España. Los desgloses institucionales se consultan como ámbitos sin geometría. El Registro clasifica contratos comunicados y publica sus importes, recuentos y porcentajes. Se conservan las celdas vacías y las notas de cada edición.",
+      "dataFile": "ayudas/contratos/index.json"
+    },
+    {
+      "id": "funding:970005",
+      "title": "Contratos registrados · Mutuas colaboradoras",
+      "sourceId": "F046",
+      "categoryIds": [
+        "F10"
+      ],
+      "status": "integrado",
+      "url": "https://www.hacienda.gob.es/es-ES/Areas%20Tematicas/Contratacion/Junta%20Consultiva%20de%20Contratacion%20Administrativa/Paginas/Registro%20publico%20de%20contratos.aspx",
+      "mapAction": "funding:970005",
+      "period": {
+        "from": "2013",
+        "to": "2024"
+      },
+      "coverage": "España · Ámbitos de consulta",
+      "unit": "Según indicador",
+      "license": "Condiciones de reutilización de Hacienda",
+      "notes": "El total corresponde a España. Los desgloses institucionales se consultan como ámbitos sin geometría. El Registro clasifica contratos comunicados y publica sus importes, recuentos y porcentajes. Se conservan las celdas vacías y las notas de cada edición.",
+      "dataFile": "ayudas/contratos/index.json"
+    },
+    {
+      "id": "funding:970401",
+      "title": "PLACSP · Perfiles de la plataforma",
+      "sourceId": "F046",
+      "categoryIds": [
+        "F10"
+      ],
+      "status": "integrado",
+      "url": "https://www.hacienda.gob.es/es-ES/GobiernoAbierto/Datos%20Abiertos/Paginas/licitacionescontratante.aspx",
+      "mapAction": "funding:970401",
+      "period": {
+        "from": "2026-10",
+        "to": "2026-10"
+      },
+      "coverage": "Comunidades autónomas · España · Provincias · Ámbitos de consulta",
+      "unit": "Según indicador",
+      "license": "Condiciones de reutilización de PLACSP",
+      "notes": "39,995 expedientes distintos y 61,638 versiones en el paquete de octubre de 2026, sin contratos menores. Se conserva la referencia al expediente, su enlace, versiones, códigos, lotes, fechas y cuantías seleccionadas. Los estados, lotes y resultados usan la versión más reciente del expediente en este paquete. Los anuncios, adjudicaciones y formalizaciones cuentan observaciones fechadas en octubre. La geografía usa el NUTS de ejecución, con un ámbito sin asignar para registros sin código suficiente o con varios ámbitos. Cada canal se consulta por separado.",
+      "dataFile": "ayudas/placsp/index.json"
+    },
+    {
+      "id": "funding:970402",
+      "title": "PLACSP · Plataformas agregadas",
+      "sourceId": "F046",
+      "categoryIds": [
+        "F10"
+      ],
+      "status": "integrado",
+      "url": "https://www.hacienda.gob.es/es-ES/GobiernoAbierto/Datos%20Abiertos/Paginas/licitacionesagregacion.aspx",
+      "mapAction": "funding:970402",
+      "period": {
+        "from": "2026-10",
+        "to": "2026-10"
+      },
+      "coverage": "Comunidades autónomas · España · Provincias · Ámbitos de consulta",
+      "unit": "Según indicador",
+      "license": "Condiciones de reutilización de PLACSP",
+      "notes": "17,087 expedientes distintos y 26,853 versiones en el paquete de octubre de 2026, sin contratos menores. Se conserva la referencia al expediente, su enlace, versiones, códigos, lotes, fechas y cuantías seleccionadas. Los estados, lotes y resultados usan la versión más reciente del expediente en este paquete. Los anuncios, adjudicaciones y formalizaciones cuentan observaciones fechadas en octubre. La geografía usa el NUTS de ejecución, con un ámbito sin asignar para registros sin código suficiente o con varios ámbitos. Cada canal se consulta por separado.",
+      "dataFile": "ayudas/placsp/index.json"
+    },
+    {
+      "id": "funding:970501",
+      "title": "TED · Anuncios con comprador o ejecución en España",
+      "sourceId": "F141",
+      "categoryIds": [
+        "F10"
+      ],
+      "status": "integrado",
+      "url": "https://ted.europa.eu/en/help/data-reuse",
+      "mapAction": "funding:970501",
+      "period": {
+        "from": "2026-10",
+        "to": "2026-10"
+      },
+      "coverage": "Comunidades autónomas · España · Provincias · Ámbitos de consulta",
+      "unit": "Anuncios",
+      "license": "Condiciones de reutilización de TED",
+      "notes": "5,966 publicaciones distintas de octubre de 2026. El filtro oficial combina comprador en España y lugar de ejecución en España. Se conservan las referencias de publicación, anuncio y procedimiento, incluida la publicación de cambios. Las comunidades y provincias usan únicamente un lugar español de ejecución declarado. Los anuncios con varios lugares o sin NUTS suficiente quedan en el total y en los ámbitos de consulta. Una publicación puede actualizar un procedimiento ya publicado y puede figurar también en PLACSP.",
+      "dataFile": "ayudas/ted/index.json"
+    },
+    {
+      "id": "funding:970100",
+      "title": "FEDER 2014–2020 · Operaciones de programas regionales",
+      "sourceId": "F043",
+      "categoryIds": [
+        "F10"
+      ],
+      "status": "integrado",
+      "url": "https://www.dgfc.sepg.hacienda.gob.es/sitios/dgfc/es-ES/loFEDER1420/porFEDER/Paginas/FicheroExcel.aspx",
+      "mapAction": "funding:970100",
+      "period": {
+        "from": "2006",
+        "to": "2023"
+      },
+      "coverage": "Comunidades autónomas · Municipios · España · Provincias",
+      "unit": "Según indicador",
+      "license": "Condiciones de reutilización de Hacienda",
+      "notes": "19 listas de operaciones de los programas regionales 2014–2020, versión de marzo de 2024. 71,662 filas de operación, con 0 duplicados exactos retirados, 0 sin año interpretable, 0 sin comunidad identificada, 0 sin coste interpretable y 0 con coste pero sin tasa utilizable. Localización declarada en la operación según NUTS y código municipal explícito. Los totales incluyen filas con geografía incompleta. El coste es subvencionable. La cofinanciación se estima solo en filas con coste y tasa válidos. Ambos indicadores son distintos de los pagos.",
+      "dataFile": "ayudas/feder/index.json"
+    },
+    {
+      "id": "funding:970200",
+      "title": "Cohesión 2021–2027 · Financiación planificada, seleccionada y declarada",
+      "sourceId": "F142",
+      "categoryIds": [
+        "F10"
+      ],
+      "status": "integrado",
+      "url": "https://cohesion-data.ec.europa.eu/d/3git-md5z",
+      "mapAction": "funding:970200",
+      "period": {
+        "from": "2023-06",
+        "to": "2026-08"
+      },
+      "coverage": "Comunidades autónomas · España · Ámbitos de consulta",
+      "unit": "Euros",
+      "license": "Reuse of Commission documents · Decision 2011/833/EU",
+      "notes": "24,755 filas de la dimensión campo de intervención para España. Ciclos de declaración acumulados. Cada ciclo se suma por separado siguiendo el gráfico oficial. El mapa autonómico representa el ámbito de los programas regionales. Los programas de ámbito nacional o plurirregional se consultan por nombre y en el total nacional. El total de cohesión comprende FEDER, FSE+ y FTJ. AMIF, BMVI e ISF pueden consultarse por fondo. El gasto declarado se distingue de los pagos. Los componentes UE de ejecución son estimaciones de la fuente.",
+      "dataFile": "ayudas/cohesion/index.json"
+    },
+    {
+      "id": "funding:970301",
+      "title": "BDNS · Convocatorias publicadas",
+      "sourceId": "F045",
+      "categoryIds": [
+        "F10"
+      ],
+      "status": "integrado",
+      "url": "https://www.infosubvenciones.es/bdnstrans/doc/swagger",
+      "mapAction": "funding:970301",
+      "period": {
+        "from": "2016",
+        "to": "2026"
+      },
+      "coverage": "Comunidades autónomas · España",
+      "unit": "Convocatorias",
+      "license": "Condiciones de reutilización del SNPSAP",
+      "notes": "616,221 registros públicos con la fecha de recepción dentro de los cortes indicados. Cada corte se ha cotejado con el total de la API y se ha comprobado la unicidad de los registros. Las comunidades corresponden a la administración que convoca o concede. El total nacional incluye todos los ámbitos. Las cuantías de concesión se distinguen de los pagos. Los archivos conservan los campos de las series y omiten la identidad del beneficiario.",
+      "dataFile": "ayudas/bdns/index.json"
+    },
+    {
+      "id": "funding:970302",
+      "title": "BDNS · Concesiones publicadas",
+      "sourceId": "F045",
+      "categoryIds": [
+        "F10"
+      ],
+      "status": "integrado",
+      "url": "https://www.infosubvenciones.es/bdnstrans/doc/swagger",
+      "mapAction": "funding:970302",
+      "period": {
+        "from": "2026-10",
+        "to": "2026-10"
+      },
+      "coverage": "Comunidades autónomas · España",
+      "unit": "Según indicador",
+      "license": "Condiciones de reutilización del SNPSAP",
+      "notes": "327,980 registros públicos con la fecha de concesión dentro de los cortes indicados. Cada corte se ha cotejado con el total de la API y se ha comprobado la unicidad de los registros. Las comunidades corresponden a la administración que convoca o concede. El total nacional incluye todos los ámbitos. Las cuantías de concesión se distinguen de los pagos. Los archivos conservan los campos de las series y omiten la identidad del beneficiario.",
+      "dataFile": "ayudas/bdns/index.json"
+    }
+  ],
+  "inventory": [
+    {
+      "id": "funding-distribution:970001",
+      "title": "Contratos registrados · Comunidades y ciudades autónomas",
+      "sourceId": "F046",
+      "categoryIds": [
+        "F10"
+      ],
+      "status": "integrado",
+      "url": "https://www.hacienda.gob.es/es-ES/Areas%20Tematicas/Contratacion/Junta%20Consultiva%20de%20Contratacion%20Administrativa/Paginas/Registro%20publico%20de%20contratos.aspx",
+      "mapAction": "funding:970001",
+      "period": {
+        "from": "2013",
+        "to": "2024"
+      },
+      "coverage": "Comunidades autónomas · España",
+      "unit": "Según indicador",
+      "license": "Condiciones de reutilización de Hacienda",
+      "notes": "La ubicación indica la comunidad de la administración contratante. El Registro clasifica contratos comunicados y publica sus importes, recuentos y porcentajes. Se conservan las celdas vacías y las notas de cada edición.",
+      "dataFile": "ayudas/contratos/index.json",
+      "links": {
+        "Descarga oficial": "https://www.hacienda.gob.es/DGPatrimonio/Junta%20Consultiva/Documentos%20txt%20registro%20de%20contratos/2013/Contratos2013-CCAA-Numero.txt"
+      },
+      "review": {
+        "implementedProductId": "funding:970001",
+        "updatedAt": "2026-11-17",
+        "reason": "Distribución cotejada. 4,860 celdas conservadas con sus estados y unidades."
+      }
+    },
+    {
+      "id": "funding-distribution:970002",
+      "title": "Contratos registrados · Ministerios",
+      "sourceId": "F046",
+      "categoryIds": [
+        "F10"
+      ],
+      "status": "integrado",
+      "url": "https://www.hacienda.gob.es/es-ES/Areas%20Tematicas/Contratacion/Junta%20Consultiva%20de%20Contratacion%20Administrativa/Paginas/Registro%20publico%20de%20contratos.aspx",
+      "mapAction": "funding:970002",
+      "period": {
+        "from": "2013",
+        "to": "2024"
+      },
+      "coverage": "España · Ámbitos de consulta",
+      "unit": "Según indicador",
+      "license": "Condiciones de reutilización de Hacienda",
+      "notes": "El total corresponde a España. Los desgloses institucionales se consultan como ámbitos sin geometría. El Registro clasifica contratos comunicados y publica sus importes, recuentos y porcentajes. Se conservan las celdas vacías y las notas de cada edición.",
+      "dataFile": "ayudas/contratos/index.json",
+      "links": {
+        "Descarga oficial": "https://www.hacienda.gob.es/DGPatrimonio/Junta%20Consultiva/Documentos%20txt%20registro%20de%20contratos/2013/Contratos2013-Estado-Numero.txt"
+      },
+      "review": {
+        "implementedProductId": "funding:970002",
+        "updatedAt": "2026-11-17",
+        "reason": "Distribución cotejada. 4,522 celdas conservadas con sus estados y unidades."
+      }
+    },
+    {
+      "id": "funding-distribution:970003",
+      "title": "Contratos registrados · Tipos de entidades locales",
+      "sourceId": "F046",
+      "categoryIds": [
+        "F10"
+      ],
+      "status": "integrado",
+      "url": "https://www.hacienda.gob.es/es-ES/Areas%20Tematicas/Contratacion/Junta%20Consultiva%20de%20Contratacion%20Administrativa/Paginas/Registro%20publico%20de%20contratos.aspx",
+      "mapAction": "funding:970003",
+      "period": {
+        "from": "2013",
+        "to": "2024"
+      },
+      "coverage": "España · Ámbitos de consulta",
+      "unit": "Según indicador",
+      "license": "Condiciones de reutilización de Hacienda",
+      "notes": "El total corresponde a España. Los desgloses institucionales se consultan como ámbitos sin geometría. El Registro clasifica contratos comunicados y publica sus importes, recuentos y porcentajes. Se conservan las celdas vacías y las notas de cada edición.",
+      "dataFile": "ayudas/contratos/index.json",
+      "links": {
+        "Descarga oficial": "https://www.hacienda.gob.es/DGPatrimonio/Junta%20Consultiva/Documentos%20txt%20registro%20de%20contratos/2013/Contratos2013-EELL-Numero.txt"
+      },
+      "review": {
+        "implementedProductId": "funding:970003",
+        "updatedAt": "2026-11-17",
+        "reason": "Distribución cotejada. 1,784 celdas conservadas con sus estados y unidades."
+      }
+    },
+    {
+      "id": "funding-distribution:970004",
+      "title": "Contratos registrados · Universidades",
+      "sourceId": "F046",
+      "categoryIds": [
+        "F10"
+      ],
+      "status": "integrado",
+      "url": "https://www.hacienda.gob.es/es-ES/Areas%20Tematicas/Contratacion/Junta%20Consultiva%20de%20Contratacion%20Administrativa/Paginas/Registro%20publico%20de%20contratos.aspx",
+      "mapAction": "funding:970004",
+      "period": {
+        "from": "2013",
+        "to": "2024"
+      },
+      "coverage": "España · Ámbitos de consulta",
+      "unit": "Según indicador",
+      "license": "Condiciones de reutilización de Hacienda",
+      "notes": "El total corresponde a España. Los desgloses institucionales se consultan como ámbitos sin geometría. El Registro clasifica contratos comunicados y publica sus importes, recuentos y porcentajes. Se conservan las celdas vacías y las notas de cada edición.",
+      "dataFile": "ayudas/contratos/index.json",
+      "links": {
+        "Descarga oficial": "https://www.hacienda.gob.es/DGPatrimonio/Junta%20Consultiva/Documentos%20txt%20registro%20de%20contratos/2013/Contratos2013-Universidades-Numero.txt"
+      },
+      "review": {
+        "implementedProductId": "funding:970004",
+        "updatedAt": "2026-11-17",
+        "reason": "Distribución cotejada. 10,880 celdas conservadas con sus estados y unidades."
+      }
+    },
+    {
+      "id": "funding-distribution:970005",
+      "title": "Contratos registrados · Mutuas colaboradoras",
+      "sourceId": "F046",
+      "categoryIds": [
+        "F10"
+      ],
+      "status": "integrado",
+      "url": "https://www.hacienda.gob.es/es-ES/Areas%20Tematicas/Contratacion/Junta%20Consultiva%20de%20Contratacion%20Administrativa/Paginas/Registro%20publico%20de%20contratos.aspx",
+      "mapAction": "funding:970005",
+      "period": {
+        "from": "2013",
+        "to": "2024"
+      },
+      "coverage": "España · Ámbitos de consulta",
+      "unit": "Según indicador",
+      "license": "Condiciones de reutilización de Hacienda",
+      "notes": "El total corresponde a España. Los desgloses institucionales se consultan como ámbitos sin geometría. El Registro clasifica contratos comunicados y publica sus importes, recuentos y porcentajes. Se conservan las celdas vacías y las notas de cada edición.",
+      "dataFile": "ayudas/contratos/index.json",
+      "links": {
+        "Descarga oficial": "https://www.hacienda.gob.es/DGPatrimonio/Junta%20Consultiva/Documentos%20txt%20registro%20de%20contratos/2013/Contratos2013-Mutuas-Numero.txt"
+      },
+      "review": {
+        "implementedProductId": "funding:970005",
+        "updatedAt": "2026-11-17",
+        "reason": "Distribución cotejada. 3,846 celdas conservadas con sus estados y unidades."
+      }
+    },
+    {
+      "id": "funding-distribution:970401",
+      "title": "PLACSP · Perfiles de la plataforma",
+      "sourceId": "F046",
+      "categoryIds": [
+        "F10"
+      ],
+      "status": "integrado",
+      "url": "https://www.hacienda.gob.es/es-ES/GobiernoAbierto/Datos%20Abiertos/Paginas/licitacionescontratante.aspx",
+      "mapAction": "funding:970401",
+      "period": {
+        "from": "2026-10",
+        "to": "2026-10"
+      },
+      "coverage": "Comunidades autónomas · España · Provincias · Ámbitos de consulta",
+      "unit": "Según indicador",
+      "license": "Condiciones de reutilización de PLACSP",
+      "notes": "39,995 expedientes distintos y 61,638 versiones en el paquete de octubre de 2026, sin contratos menores. Se conserva la referencia al expediente, su enlace, versiones, códigos, lotes, fechas y cuantías seleccionadas. Los estados, lotes y resultados usan la versión más reciente del expediente en este paquete. Los anuncios, adjudicaciones y formalizaciones cuentan observaciones fechadas en octubre. La geografía usa el NUTS de ejecución, con un ámbito sin asignar para registros sin código suficiente o con varios ámbitos. Cada canal se consulta por separado.",
+      "dataFile": "ayudas/placsp/index.json",
+      "links": {
+        "Descarga oficial": "https://contrataciondelsectorpublico.gob.es/sindicacion/sindicacion_643/licitacionesPerfilesContratanteCompleto3_202610.zip"
+      },
+      "review": {
+        "implementedProductId": "funding:970401",
+        "updatedAt": "2026-11-17",
+        "reason": "Distribución cotejada. 3,334 celdas conservadas con sus estados y unidades."
+      }
+    },
+    {
+      "id": "funding-distribution:970402",
+      "title": "PLACSP · Plataformas agregadas",
+      "sourceId": "F046",
+      "categoryIds": [
+        "F10"
+      ],
+      "status": "integrado",
+      "url": "https://www.hacienda.gob.es/es-ES/GobiernoAbierto/Datos%20Abiertos/Paginas/licitacionesagregacion.aspx",
+      "mapAction": "funding:970402",
+      "period": {
+        "from": "2026-10",
+        "to": "2026-10"
+      },
+      "coverage": "Comunidades autónomas · España · Provincias · Ámbitos de consulta",
+      "unit": "Según indicador",
+      "license": "Condiciones de reutilización de PLACSP",
+      "notes": "17,087 expedientes distintos y 26,853 versiones en el paquete de octubre de 2026, sin contratos menores. Se conserva la referencia al expediente, su enlace, versiones, códigos, lotes, fechas y cuantías seleccionadas. Los estados, lotes y resultados usan la versión más reciente del expediente en este paquete. Los anuncios, adjudicaciones y formalizaciones cuentan observaciones fechadas en octubre. La geografía usa el NUTS de ejecución, con un ámbito sin asignar para registros sin código suficiente o con varios ámbitos. Cada canal se consulta por separado.",
+      "dataFile": "ayudas/placsp/index.json",
+      "links": {
+        "Descarga oficial": "https://contrataciondelsectorpublico.gob.es/sindicacion/sindicacion_1044/PlataformasAgregadasSinMenores_202610.zip"
+      },
+      "review": {
+        "implementedProductId": "funding:970402",
+        "updatedAt": "2026-11-17",
+        "reason": "Distribución cotejada. 1,279 celdas conservadas con sus estados y unidades."
+      }
+    },
+    {
+      "id": "funding-distribution:970501",
+      "title": "TED · Anuncios con comprador o ejecución en España",
+      "sourceId": "F141",
+      "categoryIds": [
+        "F10"
+      ],
+      "status": "integrado",
+      "url": "https://ted.europa.eu/en/help/data-reuse",
+      "mapAction": "funding:970501",
+      "period": {
+        "from": "2026-10",
+        "to": "2026-10"
+      },
+      "coverage": "Comunidades autónomas · España · Provincias · Ámbitos de consulta",
+      "unit": "Anuncios",
+      "license": "Condiciones de reutilización de TED",
+      "notes": "5,966 publicaciones distintas de octubre de 2026. El filtro oficial combina comprador en España y lugar de ejecución en España. Se conservan las referencias de publicación, anuncio y procedimiento, incluida la publicación de cambios. Las comunidades y provincias usan únicamente un lugar español de ejecución declarado. Los anuncios con varios lugares o sin NUTS suficiente quedan en el total y en los ámbitos de consulta. Una publicación puede actualizar un procedimiento ya publicado y puede figurar también en PLACSP.",
+      "dataFile": "ayudas/ted/index.json",
+      "links": {
+        "Descarga oficial": "https://ted.europa.eu/es/search/result"
+      },
+      "review": {
+        "implementedProductId": "funding:970501",
+        "updatedAt": "2026-11-17",
+        "reason": "Distribución cotejada. 1,254 celdas conservadas con sus estados y unidades."
+      }
+    },
+    {
+      "id": "funding-distribution:970100",
+      "title": "FEDER 2014–2020 · Operaciones de programas regionales",
+      "sourceId": "F043",
+      "categoryIds": [
+        "F10"
+      ],
+      "status": "integrado",
+      "url": "https://www.dgfc.sepg.hacienda.gob.es/sitios/dgfc/es-ES/loFEDER1420/porFEDER/Paginas/FicheroExcel.aspx",
+      "mapAction": "funding:970100",
+      "period": {
+        "from": "2006",
+        "to": "2023"
+      },
+      "coverage": "Comunidades autónomas · Municipios · España · Provincias",
+      "unit": "Según indicador",
+      "license": "Condiciones de reutilización de Hacienda",
+      "notes": "19 listas de operaciones de los programas regionales 2014–2020, versión de marzo de 2024. 71,662 filas de operación, con 0 duplicados exactos retirados, 0 sin año interpretable, 0 sin comunidad identificada, 0 sin coste interpretable y 0 con coste pero sin tasa utilizable. Localización declarada en la operación según NUTS y código municipal explícito. Los totales incluyen filas con geografía incompleta. El coste es subvencionable. La cofinanciación se estima solo en filas con coste y tasa válidos. Ambos indicadores son distintos de los pagos.",
+      "dataFile": "ayudas/feder/index.json",
+      "links": {
+        "Descarga oficial": "https://www.dgfc.sepg.hacienda.gob.es/sitios/dgfc/es-ES/loFEDER1420/porFEDER/Documents/LO-AN.xlsx"
+      },
+      "review": {
+        "implementedProductId": "funding:970100",
+        "updatedAt": "2026-11-17",
+        "reason": "Distribución cotejada. 111,006 celdas conservadas con sus estados y unidades."
+      }
+    },
+    {
+      "id": "funding-distribution:970200",
+      "title": "Cohesión 2021–2027 · Financiación planificada, seleccionada y declarada",
+      "sourceId": "F142",
+      "categoryIds": [
+        "F10"
+      ],
+      "status": "integrado",
+      "url": "https://cohesion-data.ec.europa.eu/d/3git-md5z",
+      "mapAction": "funding:970200",
+      "period": {
+        "from": "2023-06",
+        "to": "2026-08"
+      },
+      "coverage": "Comunidades autónomas · España · Ámbitos de consulta",
+      "unit": "Euros",
+      "license": "Reuse of Commission documents · Decision 2011/833/EU",
+      "notes": "24,755 filas de la dimensión campo de intervención para España. Ciclos de declaración acumulados. Cada ciclo se suma por separado siguiendo el gráfico oficial. El mapa autonómico representa el ámbito de los programas regionales. Los programas de ámbito nacional o plurirregional se consultan por nombre y en el total nacional. El total de cohesión comprende FEDER, FSE+ y FTJ. AMIF, BMVI e ISF pueden consultarse por fondo. El gasto declarado se distingue de los pagos. Los componentes UE de ejecución son estimaciones de la fuente.",
+      "dataFile": "ayudas/cohesion/index.json",
+      "links": {
+        "Descarga oficial": "https://cohesion-data.ec.europa.eu/resource/3git-md5z.csv?%24select=cci%2Cprogramme_short_title%2Cfund%2Ctod_cycle%2Ccategory_region_name%2Cpriority_code%2Cspec_obj_code%2Ccategory_code%2Ceu_amount%2Ctotal_amount%2Ctotal_eligiblecost_of_selectedoperations%2Ceueligible_costs_decided_selectednotional%2Ctotalspendeligibleexpenditure_declared%2Ceuspendshare_eligexpendituredeclarednotional%2Cnumber_of_operations&%24where=ms+%3D+%27ES%27+AND+dimension_type+%3D+%27Intervention+Field%27&%24order=cci%2Cprogramme_short_title%2Cfund%2Ctod_cycle%2Ccategory_region_name%2Cpriority_code%2Cspec_obj_code%2Ccategory_code&%24limit=500000"
+      },
+      "review": {
+        "implementedProductId": "funding:970200",
+        "updatedAt": "2026-11-17",
+        "reason": "Distribución cotejada. 8,304 celdas conservadas con sus estados y unidades."
+      }
+    },
+    {
+      "id": "funding-distribution:970301",
+      "title": "BDNS · Convocatorias publicadas",
+      "sourceId": "F045",
+      "categoryIds": [
+        "F10"
+      ],
+      "status": "integrado",
+      "url": "https://www.infosubvenciones.es/bdnstrans/doc/swagger",
+      "mapAction": "funding:970301",
+      "period": {
+        "from": "2016",
+        "to": "2026"
+      },
+      "coverage": "Comunidades autónomas · España",
+      "unit": "Convocatorias",
+      "license": "Condiciones de reutilización del SNPSAP",
+      "notes": "616,221 registros públicos con la fecha de recepción dentro de los cortes indicados. Cada corte se ha cotejado con el total de la API y se ha comprobado la unicidad de los registros. Las comunidades corresponden a la administración que convoca o concede. El total nacional incluye todos los ámbitos. Las cuantías de concesión se distinguen de los pagos. Los archivos conservan los campos de las series y omiten la identidad del beneficiario.",
+      "dataFile": "ayudas/bdns/index.json",
+      "links": {
+        "Descarga oficial": "https://www.infosubvenciones.es/bdnstrans/api/convocatorias/busqueda?page=0&pageSize=10000&order=fechaRecepcion&direccion=desc&fechaDesde=01%2F01%2F2016&fechaHasta=31%2F12%2F2016"
+      },
+      "review": {
+        "implementedProductId": "funding:970301",
+        "updatedAt": "2026-11-17",
+        "reason": "Distribución cotejada. 1,188 celdas conservadas con sus estados y unidades."
+      }
+    },
+    {
+      "id": "funding-distribution:970302",
+      "title": "BDNS · Concesiones publicadas",
+      "sourceId": "F045",
+      "categoryIds": [
+        "F10"
+      ],
+      "status": "integrado",
+      "url": "https://www.infosubvenciones.es/bdnstrans/doc/swagger",
+      "mapAction": "funding:970302",
+      "period": {
+        "from": "2026-10",
+        "to": "2026-10"
+      },
+      "coverage": "Comunidades autónomas · España",
+      "unit": "Según indicador",
+      "license": "Condiciones de reutilización del SNPSAP",
+      "notes": "327,980 registros públicos con la fecha de concesión dentro de los cortes indicados. Cada corte se ha cotejado con el total de la API y se ha comprobado la unicidad de los registros. Las comunidades corresponden a la administración que convoca o concede. El total nacional incluye todos los ámbitos. Las cuantías de concesión se distinguen de los pagos. Los archivos conservan los campos de las series y omiten la identidad del beneficiario.",
+      "dataFile": "ayudas/bdns/index.json",
+      "links": {
+        "Descarga oficial": "https://www.infosubvenciones.es/bdnstrans/api/concesiones/busqueda?page=0&pageSize=10000&order=fechaConcesion&direccion=desc&fechaDesde=01%2F10%2F2026&fechaHasta=31%2F10%2F2026"
+      },
+      "review": {
+        "implementedProductId": "funding:970302",
+        "updatedAt": "2026-11-17",
+        "reason": "Distribución cotejada. 315 celdas conservadas con sus estados y unidades."
+      }
+    },
+    {
+      "id": "funding-source:placsp-menores-encargos",
+      "title": "PLACSP · Contratos menores, encargos y consultas preliminares",
+      "sourceId": "F046",
+      "url": "https://www.hacienda.gob.es/es-ES/GobiernoAbierto/Datos%20Abiertos/Paginas/licitaciones_plataforma_contratacion.aspx",
+      "notes": "Levantar la cobertura histórica de las sindicaciones por separado. Comprobar las incidencias de publicación comunicadas por Hacienda y conciliar los expedientes, sus estados y sus lotes.",
+      "status": "por_revisar",
+      "categoryIds": [],
+      "suggestedCategoryIds": [
+        "F10"
+      ],
+      "license": null
+    },
+    {
+      "id": "funding-source:bdns",
+      "title": "BDNS · Histórico restante, minimis, ayudas de Estado y pagos",
+      "sourceId": "F045",
+      "url": "https://www.infosubvenciones.es/bdnstrans/doc/swagger",
+      "notes": "Completar cortes de convocatoria y concesiones y revisar distribuciones de ayudas de Estado, minimis, planes y proyectos. Los pagos requieren una fuente explícita y comprobación del enlace con la concesión.",
+      "status": "por_revisar",
+      "categoryIds": [],
+      "suggestedCategoryIds": [
+        "F10"
+      ],
+      "license": null
+    },
+    {
+      "id": "funding-source:ted",
+      "title": "TED · Histórico, documentos y resultados por lote",
+      "sourceId": "F141",
+      "url": "https://ted.europa.eu/en/help/data-reuse",
+      "notes": "El corte de anuncios de octubre de 2026 está en el visor. Ampliar el histórico, los documentos eForms y los resultados por lote. Conciliar expedientes y lotes por identificadores contrastados con PLACSP. Registrar fecha de envío, publicación y adjudicación.",
+      "status": "por_revisar",
+      "categoryIds": [],
+      "suggestedCategoryIds": [
+        "F10"
+      ],
+      "license": null
+    },
+    {
+      "id": "funding-source:kohesio",
+      "title": "Kohesio · Fichas de proyectos y beneficiarios",
+      "sourceId": "F142",
+      "url": "https://kohesio.ec.europa.eu/",
+      "notes": "Incorporar las referencias a operaciones y cotejar el solapamiento con las listas FEDER. Comprobar si la ubicación publicada corresponde al proyecto o al beneficiario.",
+      "status": "por_revisar",
+      "categoryIds": [],
+      "suggestedCategoryIds": [
+        "F10"
+      ],
+      "license": null
+    },
+    {
+      "id": "funding-source:fondos",
+      "title": "Fondos Europeos · Operaciones restantes y Plan de Recuperación",
+      "sourceId": "F043",
+      "url": "https://fondoseuropeos.gob.es/es-es/subvenciones/Paginas/Buscador.aspx",
+      "notes": "Investigar distribuciones de operaciones FEDER plurirregionales y de otros períodos, FSE+, FTJ, MRR y otros instrumentos. Vincular convocatoria, concesión, operación y pago con sus claves y unidades.",
+      "status": "por_revisar",
+      "categoryIds": [],
+      "suggestedCategoryIds": [
+        "F10"
+      ],
+      "license": null
+    },
+    {
+      "id": "funding-source:cooperacion",
+      "title": "Cooperación Española · Info@OD, AOD y TOSSD",
+      "sourceId": "F129",
+      "url": "https://infoaod.maec.es/",
+      "notes": "Obtener los flujos de la fuente oficial por agente y sector. Conservar entidades financiadoras españolas, receptores, países de ejecución y desembolsos en dimensiones separadas.",
+      "status": "por_revisar",
+      "categoryIds": [],
+      "suggestedCategoryIds": [
+        "F10"
+      ],
+      "license": null
+    },
+    {
+      "id": "funding-source:territorial",
+      "title": "Plataformas territoriales · Contratación, subvenciones y ejecución",
+      "sourceId": "F046",
+      "url": "https://www.hacienda.gob.es/es-es/gobiernoabierto/datos%20abiertos/paginas/licitacionesagregacion.aspx",
+      "notes": "Inventariar portales autonómicos y locales y sus periodos de agregación. Mantener fuentes propias de la entidad y relacionarlas con el mismo expediente PA/PLACSP/TED cuando se pueda verificar.",
+      "status": "por_revisar",
+      "categoryIds": [],
+      "suggestedCategoryIds": [
+        "F10"
+      ],
+      "license": null
+    },
+    {
+      "id": "funding-source:cordis",
+      "title": "CORDIS · Contratos de financiación e investigación española",
+      "sourceId": "F140",
+      "url": "https://cordis.europa.eu/projects",
+      "notes": "Cruzar F12 y la financiación de F10 por identificador de acuerdo y convocatoria. Distinguir coste total del proyecto, aportación UE y participación española.",
+      "status": "por_revisar",
+      "categoryIds": [],
+      "suggestedCategoryIds": [
+        "F10"
+      ],
+      "license": null
+    }
+  ]
+}

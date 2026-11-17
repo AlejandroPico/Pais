@@ -1,0 +1,34 @@
+	Abierto		Restringido		Resto (*)		Total general
+Ministerio	Importe	%	Importe	%	Importe	%	Importe
+AGRICULTURA, ALIMENTACION Y MEDIO AMBIENTE	151.912.989	63,14%	444.000	0,18%	88.246.870	36,68%	240.603.859
+ASUNTOS EXTERIORES Y COOPERACION	10.106.665	35,57%	296.287	1,04%	18.010.262	63,39%	28.413.214
+DEFENSA	185.122.607	22,72%		0,00%	629.795.296	77,28%	814.917.903
+ECONOMIA Y COMPETITIVIDAD	105.627.791	75,71%		0,00%	33.879.785	24,29%	139.507.576
+EDUCACION, CULTURA Y DEPORTE	83.831.491	73,72%		0,00%	29.881.134	26,28%	113.712.625
+EMPLEO Y SEGURIDAD SOCIAL (**)	292.553.003	92,04%	150.369	0,05%	25.149.352	7,91%	317.852.724
+FOMENTO	347.684.331	53,07%	49.610	0,01%	307.419.786	46,92%	655.153.727
+HACIENDA Y ADMINISTRACIONES PUBLICAS	1.171.456.647	90,13%	45.325	0,00%	128.239.965	9,87%	1.299.741.937
+INDUSTRIA, ENERGIA Y TURISMO	36.367.399	86,76%	316.415	0,75%	5.234.072	12,49%	41.917.886
+JUSTICIA	52.635.271	92,36%		0,00%	4.352.584	7,64%	56.987.855
+PRESIDENCIA	17.836.583	28,23%		0,00%	45.349.382	71,77%	63.185.965
+SANIDAD, SERVICIOS SOCIALES E IGUALDAD	57.668.980	76,96%		0,00%	17.266.498	23,04%	74.935.478
+INTERIOR	500.937.450	87,74%		0,00%	69.967.754	12,26%	570.905.204
+Total general	3.013.741.207	68,22%	1.302.006	0,03%	1.402.792.740	31,75%	4.417.835.953
+							
+Datos a fecha 01-12-2015							
+(*) Columna Resto: Incluye los contratos adjudicados por procedimiento negociado, diálogo competitivo, directo y aquellos en los que no consta el mismo							
+(**)Ministerio de Empleo y Seguridad Social. No incluidos contratos de las Mutuas de A.T y E.P. Publicados de forma independiente.							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							

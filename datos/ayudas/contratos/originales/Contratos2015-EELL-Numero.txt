@@ -1,0 +1,11 @@
+Entidades Locales	Abierto	Restringido	Otros/SC (*)	Total general
+AYUNTAMIENTOS	9.906	88	16.876	26.870
+CABILDOS/CONSELLS	297		235	532
+COMARCAS	56		29	85
+CONSORCIOS	142	3	460	605
+DIPUTACIONES PROVINCIALES Y FORALES	1.440	10	3.067	4.517
+MANCOMUNIDADES	29		40	69
+Total general	11.870	101	20.707	32.678
+				
+Datos a fecha 27-12-2016				
+(*)Incluye los contratos adjudicados por procedimiento negociado, diálogo competitivo, directo y aquellos en los que no consta el mismo				

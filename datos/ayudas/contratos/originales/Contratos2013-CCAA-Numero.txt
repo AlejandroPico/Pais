@@ -1,0 +1,25 @@
+Comunidad Autónoma	Abierto	Restringido	Resto (*)	Total general
+ANDALUCIA	1.358	12	2.251	3.621
+ARAGON	1.540	6	1.081	2.627
+ASTURIAS	481		452	933
+CANARIAS	579		921	1.500
+CANTABRIA	510		214	724
+CASTILLA-LA MANCHA	746		1.069	1.815
+CASTILLA-LEON	504		581	1.085
+CATALUÑA	2.245	5	13.246	15.496
+CEUTA	6		1	7
+EXTREMADURA	848		12.965	13.813
+GALICIA	1.047	1	2.616	3.664
+ILLES BALEARS	282	2	148	432
+MADRID	3.233		750	3.983
+MELILLA	84		69	153
+MURCIA	527		565	1.092
+NAVARRA	120		175	295
+PAIS VASCO	356	2	314	672
+RIOJA	123		207	330
+VALENCIA	607	4	2.798	3.409
+Total general	15.196	32	40.423	55.651
+				
+Datos a fecha 01-12-2015				
+(*) Columna Resto: Incluye los contratos adjudicados por procedimiento negociado, diálogo competitivo, directo y aquellos en los que no consta el mismo				
+No incluidos contratos de las Universidades. Publicados de forma independiente.				

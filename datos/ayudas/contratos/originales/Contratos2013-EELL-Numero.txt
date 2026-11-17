@@ -1,0 +1,11 @@
+Entidades Locales	Abierto	Restringido	Resto (*)	Total general
+AYUNTAMIENTOS	8.627	64	12.106	20.797
+CABILDOS/CONSELLS	275		246	521
+COMARCAS	29	1	33	63
+CONSORCIOS	88	2	80	170
+DIPUTACIONES PROVINCIALES Y FORALES	1.547	3	3.133	4.683
+MANCOMUNIDADES	30		53	83
+Total general	10.596	70	15.651	26.317
+				
+Datos a fecha 01-12-2015				
+(*) Columna Resto: Incluye los contratos adjudicados por procedimiento negociado, diálogo competitivo, directo y aquellos en los que no consta el mismo				

@@ -1,0 +1,20 @@
+Ministerio	Abierto	Restringido	Otros/SC (*)	Total general
+AGRICULTURA, ALIMENTACION Y MEDIO AMBIENTE	658	3	413	1.074
+ASUNTOS EXTERIORES Y COOPERACION	135	1	259	395
+DEFENSA (**)	1.119	7	1.169	2.295
+ECONOMIA Y COMPETITIVIDAD	1.303		390	1.693
+EDUCACION, CULTURA Y DEPORTE	552		1.430	1.982
+EMPLEO Y SEGURIDAD SOCIAL (***)	1.053	1	333	1.387
+FOMENTO	796	4	2.473	3.273
+HACIENDA Y ADMINISTRACIONES PUBLICAS	1.099	1	918	2.018
+INDUSTRIA, ENERGIA Y TURISMO	225		181	406
+JUSTICIA	152		6	158
+PRESIDENCIA	161		294	455
+SANIDAD, SERVICIOS SOCIALES E IGUALDAD	429		308	737
+INTERIOR	1.227	1	654	1.882
+Total general	8.909	18	8.828	17.755
+				
+Datos a fecha 27-12-2016				
+(*) Incluye los contratos adjudicados por procedimiento negociado, diálogo competitivo, directo y aquellos en los que no consta el mismo				
+(**) No incluidos los contratos declarados reservados 				
+(***)No incluidos contratos de las Mutuas de A.T y E.P. Publicados de forma independiente.				

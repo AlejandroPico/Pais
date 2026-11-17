@@ -49,7 +49,8 @@ def number(value, delimiter='.'):
         return None, text or 'Sin dato'
 
 
-def publish(folder, product, input_rows, dimension_names, units, *, section='comercio', source_by_period=None):
+def publish(folder, product, input_rows, dimension_names, units, *, section='comercio', source_by_period=None,
+            source_for_record=None):
     output = ROOT / 'datos' / section / folder
     identifier = product['id']
     territories, periods = {}, {}
@@ -65,7 +66,8 @@ def publish(folder, product, input_rows, dimension_names, units, *, section='com
         seen.add(position)
         if value is None:
             missing[status] += 1
-        source = source_by_period[period_id] if source_by_period else identifier
+        source = source_for_record(period_id, categories) if source_for_record else (
+            source_by_period[period_id] if source_by_period else identifier)
         area_sources.setdefault(g, set()).add(source)
         records.append([*position, value, status, source])
     assert records, product['label']
