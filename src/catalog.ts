@@ -10,6 +10,7 @@ const kinds:Record<string,string>={
   fiscal:'Inventario de Hacienda, fiscalidad y deuda pública',
   funding:'Inventario de contratación, subvenciones y proyectos',
   education:'Inventario de educación, formación y universidad',
+  science:'Inventario de ciencia, investigación, innovación y patentes',
 };
 let indexPromise:Promise<RegistryIndex>|undefined;
 

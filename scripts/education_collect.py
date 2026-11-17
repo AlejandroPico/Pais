@@ -162,8 +162,8 @@ def top_geography(axes, fields, labels):
     return -1,[no_geometry('Consulta de instituciones') if institutional else NATIONAL]
 
 
-def publish_grid(folder, table, cells, axes, flags=None):
-    output = OUTPUT/folder
+def publish_grid(folder, table, cells, axes, flags=None, *, section='educacion'):
+    output = ROOT/'datos'/section/folder
     output.mkdir(parents=True,exist_ok=True)
     rows = len(cells)
     shape = {-2:len(table['territories']),-1:len(table['periods']),
@@ -177,24 +177,26 @@ def publish_grid(folder, table, cells, axes, flags=None):
     raw = gzip.compress(uncompressed,compresslevel=6,mtime=0)
     name = str(table['id'])+'-main.json.gz'
     (output/name).write_bytes(raw)
-    return {**table,'dataFolder':f'educacion/{folder}','rows':rows,'shards':[
+    return {**table,'dataFolder':f'{section}/{folder}','rows':rows,'shards':[
         dict(id='main',file=name,rows=rows,bytes=len(raw),sha256=sha(raw),contentSha256=sha(uncompressed))]}
 
 
-def px_product(info, raw):
+def px_product(info, raw, *, section='educacion', profile=None):
     fields, data = metadata(raw)
     axes = fields.get(('STUB',''),[])+fields.get(('HEADING',''),[])
     labels = [fields[('VALUES',name)] for name in axes]
     start = info['topic'].split('-')
     group = start[0]
-    family = ('SIIU · '+STUDENT_GROUPS[int(start[1])-1] if group=='uedirectory' else FAMILIES[group])
+    family = profile['family'] if profile else (
+        'SIIU · '+STUDENT_GROUPS[int(start[1])-1] if group=='uedirectory' else FAMILIES[group])
     geo_index, territories = top_geography(axes,fields,labels)
     timed = [i for i,name in enumerate(axes)
              if norm(name) in {'periodo','curso academico','ano','ano academico','anio','ano de referencia','time'}
              or academic_axis(labels[i])]
     time_index = timed[0] if timed else -1
     if time_index>=0:
-        periods = [period(entry,course='curso' in norm(axes[time_index])) for entry in labels[time_index]]
+        periods = (profile['periods'](labels[time_index]) if profile and 'periods' in profile else
+                   [period(entry,course='curso' in norm(axes[time_index])) for entry in labels[time_index]])
     else:
         edition = info.get('edition') or COURSE_FALLBACK.get(group)
         periods = [period(edition) if edition else dict(id='0000',label='Periodo no indicado en la tabla')]
@@ -213,12 +215,14 @@ def px_product(info, raw):
     if time_index<0:
         grid_axes.append(-1)
     cells, missing = data_values(data)
-    code = capture_id(info['download'])
+    code = profile['id'] if profile else capture_id(info['download'])
     note = ('Dimensión territorial original: '+axes[geo_index]+'. ' if geo_index>=0 else 'Ámbito según las dimensiones de la tabla. ')
     label = info['title']
     details = clean_label(''.join(fields.get(('NOTE',''),[])))
     publisher,source_id,folder = ('INE','F005','ine') if group=='ine' else (
         ('Sistema Integrado de Información Universitaria','F074','siiu') if group.startswith('ue') else ('EDUCAbase','F073','educabase'))
+    if profile:
+        publisher,source_id,folder=(profile[key] for key in ('publisher','sourceId','folder'))
     public_fields = dict(id=code,label=label,title=label,family=family,sourceId=source_id,publisher=publisher,
                          note=note+(details[:1200] if details else 'Conserva las categorías y los estados de la edición original.'),
                          unit=clean_label(' / '.join(fields.get(('UNITS',''),[]))) or 'Consultar la unidad en origen',
@@ -257,7 +261,9 @@ def px_product(info, raw):
                     units[value]='Estudiantes'
             if units:
                 public_fields['unitsByCategory']=dict(dimension=indicator['name'],values=units)
-    return publish_grid(folder,public_fields,cells,grid_axes)
+    if profile:
+        public_fields.update({key:profile[key] for key in ('license','note','unitsByCategory') if key in profile})
+    return publish_grid(folder,public_fields,cells,grid_axes,section=section)
 
 
 EUROSTAT_TITLES = {
@@ -268,45 +274,50 @@ EUROSTAT_TITLES = {
 EUROSTAT_DIMENSIONS = {'freq':'Frecuencia','unit':'Unidad','sex':'Sexo','age':'Edad','isced11':'Nivel CINE 2011'}
 
 
+def jsonstat_grid(original, dimension_names):
+    assert original['id'] and len(original['id'])==len(original['size'])
+    dimensions, axes = [], []
+    for code in original['id']:
+        category = original['dimension'][code]['category']
+        codes = sorted(category['index'],key=category['index'].get)
+        labels = [category.get('label',{}).get(k,k) for k in codes]
+        if code=='geo':
+            territories=[]
+            for k,label in zip(codes,labels,strict=True):
+                community=NUTS_COMMUNITIES.get(k)
+                territories.append(NATIONAL if k=='ES' else area(COMMUNITY_NAMES[community],'community',community)
+                                   if community else no_geometry(label+' ('+k+')'))
+            axes.append(-2)
+        elif code=='time':
+            periods = [period(k) for k in codes]
+            axes.append(-1)
+        else:
+            if code=='sex':
+                labels = [dict(T='Total',M='Hombres',F='Mujeres').get(k,v) for k,v in zip(codes,labels,strict=True)]
+            dimensions.append(dict(name=dimension_names.get(code,original['dimension'][code]['label']),
+                                   values=labels))
+            axes.append(len(dimensions)-1)
+    values=original.get('value',{})
+    flags=original.get('status',{})
+    count=math.prod(original['size'])
+    missing='Sin dato en la respuesta'
+    cells=[values.get(str(i),missing) for i in range(count)]
+    return dict(territories=territories,periods=periods,dimensions=dimensions,
+                missingTokens={missing:cells.count(missing)}),cells,axes,flags
+
+
 def eurostat_products():
     for offset,(dataset,title) in enumerate(EUROSTAT_TITLES.items(),1):
         raw = (CACHE/(dataset+'.json')).read_bytes()
         url = (CACHE/(dataset+'.url')).read_text(encoding='utf-8')
         source_url = 'https://ec.europa.eu/eurostat/databrowser/view/'+dataset+'/default/table'
         original = json.loads(raw)
-        assert original['id'] and len(original['id'])==len(original['size'])
-        dimensions, axes = [], []
-        for code in original['id']:
-            category = original['dimension'][code]['category']
-            codes = sorted(category['index'],key=category['index'].get)
-            labels = [category.get('label',{}).get(k,k) for k in codes]
-            if code=='geo':
-                territories=[]
-                for k,label in zip(codes,labels,strict=True):
-                    community=NUTS_COMMUNITIES.get(k)
-                    territories.append(NATIONAL if k=='ES' else area(COMMUNITY_NAMES[community],'community',community)
-                                       if community else no_geometry(label+' ('+k+')'))
-                axes.append(-2)
-            elif code=='time':
-                periods = [period(k) for k in codes]
-                axes.append(-1)
-            else:
-                if code=='sex':
-                    labels = [dict(T='Total',M='Hombres',F='Mujeres').get(k,v) for k,v in zip(codes,labels,strict=True)]
-                dimensions.append(dict(name=EUROSTAT_DIMENSIONS.get(code,original['dimension'][code]['label']),
-                                       values=labels))
-                axes.append(len(dimensions)-1)
-        values=original.get('value',{})
-        flags=original.get('status',{})
-        count=math.prod(original['size'])
-        missing='Sin dato en la respuesta'
-        cells=[values.get(str(i),missing) for i in range(count)]
+        structure,cells,axes,flags = jsonstat_grid(original, EUROSTAT_DIMENSIONS)
         metadata=dict(id=990110+offset,label=title,title=title,family='Eurostat · Educación y formación',sourceId='F130',
                       publisher='Eurostat',note='España y territorios NUTS 2 consultados con la API. '
                       'Conserva los indicadores, las categorías y las marcas de calidad de la encuesta.',
                       unit='Porcentaje',license='Política de reutilización de Eurostat',
-                      sourceUrl=source_url,downloadUrl=url,territories=territories,periods=periods,
-                      dimensions=dimensions,missingTokens={missing:cells.count(missing)},
+                      sourceUrl=source_url,downloadUrl=url,**structure,
                       sourceTables=[dict(id=990110+offset,url=url,bytes=len(raw),sha256=sha(raw))])
         yield publish_grid('eurostat',metadata,cells,axes,flags)
 

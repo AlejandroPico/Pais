@@ -118,6 +118,14 @@ def build():
         education=read(education_path)
         products['available']+=education['available']
         products['education']=education['inventory']
+    science_path=ROOT/'registry/science-products.json'
+    if science_path.exists():
+        science=read(science_path)
+        for product in science['available']:
+            if product['id'] in {'science:120101','science:120102','science:120103'}:
+                product['categoryIds'].append('F10')
+        products['available']+=science['available']
+        products['science']=science['inventory']
     labor_path=ROOT/'registry/labor-products.json'
     if labor_path.exists():
         labor=read(labor_path)
@@ -253,9 +261,14 @@ def build():
         input_paths.extend(['registry/education-sources.json','registry/education-products.json',
                             'registry/education-capture.json','registry/education-inputs.json','registry/education-archive.json',
                             *[f'datos/{section}/{folder}/index.json' for folder in folders]])
+    if science_path.exists():
+        _,section,folders=TOPICS['science']
+        input_paths.extend(['registry/science-sources.json','registry/science-products.json',
+                            'registry/science-capture.json','registry/science-inputs.json','registry/science-archive.json',
+                            *[f'datos/{section}/{folder}/index.json' for folder in folders]])
     provenance = [dict(path=p, sha256=hashlib.sha256((ROOT / p).read_bytes()).hexdigest()) for p in input_paths]
     revisions=[registered['revision'], federated_metadata['revision']]
-    for path in [territory_path,demography_path,welfare_path,labor_path,care_path,housing_path,economy_path,commerce_path,fiscal_path,funding_path,education_path]:
+    for path in [territory_path,demography_path,welfare_path,labor_path,care_path,housing_path,economy_path,commerce_path,fiscal_path,funding_path,education_path,science_path]:
         if path.exists():revisions.append(read(path)['revision'])
     index = dict(schemaVersion=1, researchSnapshot='2026-11-05', revision=max(revisions),
                  scope='Registro de metadatos. Los inventarios se solapan y sus recuentos no se suman como productos únicos. Solo Disponibles contiene productos utilizables en el mapa.',

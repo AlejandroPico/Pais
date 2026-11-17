@@ -1,6 +1,6 @@
 export type DemographicArea={id:string;level:string;code:string;name:string;provinceCode?:string;municipalityCode?:string;sourceTableIds?:number[];publicationTableId?:number};
 export type SeriesMetadata={code:string;publisher?:string;description?:string;note?:string;frequency?:string;alias?:string};
-export type DemographicTable={seriesMetadata?:Record<string,Record<string,SeriesMetadata>>;id:number;compactColumns?:boolean;dataFolder?:string;partitionDimension?:string;publisher?:string;label:string;title:string;family:string;unit:string;unitsByConditions?:{when:Record<string,string>;unit:string}[];sourceTables?:{id:number;url:string;year?:number;notes?:string[]}[];unitsByCategory?:{dimension:string;values:Record<string,string>};note:string;sourceUrl:string;downloadUrl:string;license:string;rows:number;dimensions:{name:string;values:string[]}[];periods:{id:string;label:string}[];territories:DemographicArea[];shards:{id:string;file:string;rows:number;bytes:number;sha256:string;contentSha256:string}[];missingTokens:Record<string,number>};
+export type DemographicTable={snapshotFile?:string;snapshotLabel?:string;seriesMetadata?:Record<string,Record<string,SeriesMetadata>>;id:number;compactColumns?:boolean;dataFolder?:string;partitionDimension?:string;publisher?:string;label:string;title:string;family:string;unit:string;unitsByConditions?:{when:Record<string,string>;unit:string}[];sourceTables?:{id:number;url:string;year?:number;notes?:string[]}[];unitsByCategory?:{dimension:string;values:Record<string,string>};note:string;sourceUrl:string;downloadUrl:string;license:string;rows:number;dimensions:{name:string;values:string[]}[];periods:{id:string;label:string}[];territories:DemographicArea[];shards:{id:string;file:string;rows:number;bytes:number;sha256:string;contentSha256:string}[];missingTokens:Record<string,number>};
 export type DemographicIndex={revision:string;tables:DemographicTable[];inventoryTables:number;operations:number};
 export type DemographicQuery={period:number;dims:number[];level:string;territory:number};
 type Cells=(number|string|null)[];
@@ -104,7 +104,7 @@ export function periodTimestamp(id:string){
     const daysToMonday=(januaryFourth.getUTCDay()+6)%7;
     return Date.UTC(Number(week[1]),0,4-daysToMonday+(Number(week[2])-1)*7);
   }
-  const m=id.match(/^(\d{4})(?:-(\d{2})-(\d{2})|M(\d{2})|T([1-4]))?$/);
+  const m=id.match(/^(\d{4})(?:-(\d{2})-(\d{2})|M(\d{2})|T([1-4])|R\d{2})?$/);
   if(!m)throw new Error('Periodo desconocido');
   return Date.UTC(Number(m[1]),m[2]?Number(m[2])-1:m[4]?Number(m[4])-1:m[5]?(Number(m[5])-1)*3:0,Number(m[3]||1));
 }

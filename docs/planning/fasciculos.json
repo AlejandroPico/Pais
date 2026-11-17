@@ -2528,6 +2528,18 @@
       ],
       "status": "planned_not_integrated",
       "complementaryOperator": false
+    },
+    {
+      "sourceId": "F183",
+      "name": "Oficina Europea de Patentes",
+      "url": "https://www.epo.org/en/about-us/statistics/data-download",
+      "sourceGroup": "Fuentes europeas oficiales con datos sobre España",
+      "mode": "thematic_product_review",
+      "candidateFascicles": [
+        "F12"
+      ],
+      "status": "planned_not_integrated",
+      "complementaryOperator": false
     }
   ],
   "ioeSectorRoutes": [

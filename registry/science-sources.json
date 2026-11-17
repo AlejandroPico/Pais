@@ -1,0 +1,65 @@
+[
+  {
+    "id": "science-source:ine-legacy",
+    "title": "INE · Detalle anual de I+D e innovación en los catálogos históricos",
+    "sourceId": "F005",
+    "url": "https://www.ine.es/dyngs/INEbase/operacion.htm?c=Estadistica_C&cid=1254736176754&idp=1254735576669&menu=resultados",
+    "notes": "Completar los ficheros históricos de la estructura JAXI anterior a los índices numerados. Conservar diferencias entre unidad legal y Empresa Estadística e identificar el cambio del Manual de Oslo en innovación."
+  },
+  {
+    "id": "science-source:sicti",
+    "title": "SICTI · Presupuestos, ayudas y transferencia de I+D+I",
+    "sourceId": "F075",
+    "url": "https://www.ciencia.gob.es/Ministerio/Estadisticas/sicti.html",
+    "notes": "Completar los créditos de la AGE y las comunidades, la ejecución, el retorno de convocatorias y la transferencia. Las ocho fichas de presupuesto se abren y los enlaces PC-Axis, CSV y XLSX devuelven 599 durante la captura."
+  },
+  {
+    "id": "science-source:recidi",
+    "title": "SICTI · Red Española de Centros de I+D+I",
+    "sourceId": "F075",
+    "url": "https://www.ciencia.gob.es/Ministerio/Estadisticas/sicti/recidi.html",
+    "notes": "Obtener el directorio con códigos, centros, sedes, ámbitos de investigación y coordenadas publicadas. El informe consultado está integrado en Power BI."
+  },
+  {
+    "id": "science-source:aei",
+    "title": "AEI · Convocatorias, resoluciones y ayudas concedidas",
+    "sourceId": "F076",
+    "url": "https://www.aei.gob.es/ayudas-concedidas/buscador-ayudas-concedidas",
+    "notes": "Incorporar la relación de proyectos y centros por convocatoria y resolución. Verificar los identificadores de expediente y BDNS y su correspondencia con F10."
+  },
+  {
+    "id": "science-source:cdti",
+    "title": "CDTI · Créditos, subvenciones y proyectos aprobados",
+    "sourceId": "F077",
+    "url": "https://www.cdti.es/datos-abiertos-creditos-subvenciones-y-lineas",
+    "notes": "El catálogo público anuncia una descarga. El acceso directo utilizado en la captura devolvió el control de acceso del portal. Completar aportaciones y presupuestos por instrumento, convocatoria y territorio."
+  },
+  {
+    "id": "science-source:oepm",
+    "title": "OEPM · Patentes, modelos de utilidad, marcas y diseños",
+    "sourceId": "F053",
+    "url": "https://www.oepm.es/es/sobre-OEPM/estadisticas/",
+    "notes": "Contrastar solicitud, concesión, publicación y vigencia. Completar series territoriales y libros mensuales, que han devuelto 503. Añadir nombres comerciales, BOPI y propiedad industrial de universidades y CSIC."
+  },
+  {
+    "id": "science-source:csic",
+    "title": "DIGITAL.CSIC · Publicaciones, datos y otros resultados científicos",
+    "sourceId": "F078",
+    "url": "https://digital.csic.es/",
+    "notes": "Integrar metadatos, enlace, licencia individual, DOI o Handle y centro cuando este conste. Evitar atribuir el resultado a una provincia por la dirección de una persona."
+  },
+  {
+    "id": "science-source:universidades",
+    "title": "Infraestructuras y repositorios de las universidades públicas",
+    "sourceId": "F079",
+    "url": "https://www.universidata.es/",
+    "notes": "Inventariar los centros, infraestructuras, repositorios y estadísticas de investigación oficiales. Relacionarlos con F11 por los códigos publicados."
+  },
+  {
+    "id": "science-source:cordis-resultados",
+    "title": "CORDIS · Informes, entregables, propiedad intelectual y programas adicionales",
+    "sourceId": "F140",
+    "url": "https://cordis.europa.eu/projects",
+    "notes": "Ampliar los programas marco anteriores, proyectos complementarios, informes, entregables y patentes de proyecto. Mantener vínculo exacto por acuerdo europeo y verificar equivalencias con otras fuentes."
+  }
+]

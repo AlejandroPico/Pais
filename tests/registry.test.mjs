@@ -5,7 +5,7 @@ import crypto from 'node:crypto';
 import {gunzipSync} from 'node:zlib';
 import {matchesProduct} from '../src/registry.ts';
 import {territoryLayers} from '../src/territory-config.ts';
-import {defaultDimensions,queryCube,unitFor} from '../src/demography-data.ts';
+import {defaultDimensions,periodTimestamp,queryCube,unitFor} from '../src/demography-data.ts';
 const root=new URL('../',import.meta.url);
 const read=p=>JSON.parse(fs.readFileSync(new URL(p,root),'utf8'));
 const index=read('datos/catalogo/index.json');
@@ -15,7 +15,7 @@ const sha=bytes=>crypto.createHash('sha256').update(bytes).digest('hex');
 test('registry inventories retain counts, unique identifiers, references and byte integrity',()=>{
   const sources=new Set(index.sources.map(s=>s.id)),categories=new Set(index.categories.map(c=>c.id));
   assert.equal(sources.size,index.sources.length);assert.equal(categories.size,29);
-  assert.equal(index.sources.filter(s=>s.kind==='research').length,182);
+  assert.equal(index.sources.filter(s=>s.kind==='research').length,183);
   assert.equal(index.sources.filter(s=>s.kind==='publisher').length,238);
   const national=read('datos/catalogo/investigacion/publicadores-catalogo-nacional.json');
   assert.equal(products.national.length,national.datasetCount);
@@ -41,7 +41,7 @@ test('available products link to real map actions and preserved observations; di
   actions.add('search:addresses');
   actions.add('municipal-changes');
   for(const layer of read('datos/territorio/official-layers.json').layers)actions.add('official-wms:'+layer.id);
-  const topicNames=['demography','welfare','labor','care','housing','economy','commerce','fiscal','funding','education'];
+  const topicNames=['demography','welfare','labor','care','housing','economy','commerce','fiscal','funding','education','science'];
   const topicProducts=topicNames.flatMap(name=>read(`registry/${name}-products.json`).available);
   const expected=read('registry/products.json').products.length+read('registry/territory-products.json').available.length+topicProducts.length;
   for(const p of topicProducts)actions.add(p.mapAction);
@@ -120,6 +120,32 @@ test('F11 grids preserve academic courses, territorial axes and the units of exp
   assert.equal(queryCube(expense,readGrid(expense),{
     territory:0,level:'national',period:0,dims,
   }).values[0].value,2056);
+});
+
+test('F12 preserves distinct patent phases, historical editions and links by grant agreement',()=>{
+  const table=(folder,id)=>read(`datos/ciencia/${folder}/index.json`).tables.find(row=>row.id===id);
+  const fromDisk=(folder,file)=>JSON.parse(gunzipSync(fs.readFileSync(new URL(`datos/ciencia/${folder}/${file}`,root))));
+  const selectedValue=(product,territory,year,measure)=>{
+    const area=product.territories.findIndex(row=>row.id===territory);
+    const period=product.periods.findIndex(row=>row.id===year);
+    const dims=defaultDimensions(product);
+    dims[0]=product.dimensions[0].values.indexOf(measure);
+    return queryCube(product,fromDisk(product.dataFolder.split('/')[1],product.shards[0].file),{
+      territory:area,level:product.territories[area].level,period,dims,
+    }).values.find(row=>row.area===area)?.value;
+  };
+  const patent=table('epo',120250);
+  assert.equal(selectedValue(patent,'national:ES','2025','Solicitudes europeas'),2255);
+  assert.equal(selectedValue(patent,'community:09','2025','Solicitudes europeas'),754);
+  assert.equal(periodTimestamp('2001R01'),periodTimestamp('2001'));
+  const horizon=table('cordis',120103);
+  assert.ok(horizon.dimensions.find(row=>row.name==='Convocatoria').values.some(value=>value.startsWith('HORIZON-')));
+  const snapshot=fromDisk('cordis',horizon.snapshotFile);
+  const ids=new Set(snapshot.projects.map(project=>project.id));
+  assert.equal(ids.size,7155);
+  assert.equal(snapshot.organizations.length,16477);
+  assert.ok(snapshot.organizations.every(row=>ids.has(row.projectID)));
+  assert.ok(products.available.find(row=>row.id==='science:120103').categoryIds.includes('F10'));
 });
 
 function insideRing([x,y],ring){let inside=false;for(let i=0,j=ring.length-1;i<ring.length;j=i++){const [xi,yi]=ring[i],[xj,yj]=ring[j];if((yi>y)!==(yj>y)&&x<(xj-xi)*(y-yi)/(yj-yi)+xi)inside=!inside;}return inside;}

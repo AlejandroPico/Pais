@@ -1,8 +1,8 @@
 {
   "reviewedAt": "2026-11-05",
   "scope": "Guía editorial de organismos, servicios y familias de datos potencialmente incorporables. Las fichas de servicio no se cuentan como organismos jurídicos distintos. Identificación no implica descarga, licencia validada o integración en el mapa.",
-  "sourceEntries": 182,
-  "familyMentions": 1953,
+  "sourceEntries": 183,
+  "familyMentions": 1958,
   "groups": {
     "Inventarios que permiten descubrir más fuentes": 4,
     "Estadística general, población, sociedad y economía": 1,
@@ -21,7 +21,7 @@
     "Movilidad, carreteras, ferrocarril, aviación y puertos": 8,
     "Turismo, vivienda, suelo y organización urbana": 3,
     "Elecciones, parlamentos, administración, justicia y seguridad": 18,
-    "Fuentes europeas oficiales con datos sobre España": 15,
+    "Fuentes europeas oficiales con datos sobre España": 16,
     "Fuentes internacionales públicas complementarias": 4,
     "Operadores regulados complementarios, separados del núcleo de organismos oficiales": 2,
     "Las 17 comunidades autónomas y las 2 ciudades autónomas": 19,
@@ -6281,6 +6281,31 @@
         "resolvedUrl": "https://datos.gob.es/es/catalogo/conjuntos-datos",
         "title": "",
         "checkedAt": "2026-11-05T13:50:24.507751+00:00"
+      },
+      "linkedPageChecks": []
+    },
+    {
+      "group": "Fuentes europeas oficiales con datos sobre España",
+      "name": "Oficina Europea de Patentes",
+      "url": "https://www.epo.org/en/about-us/statistics/data-download",
+      "access": "Descargas XLSX",
+      "geography": "País y comunidades españolas según publicación",
+      "families": [
+        "Solicitudes europeas",
+        "Patentes concedidas",
+        "Residencia del primer solicitante",
+        "Campos tecnológicos",
+        "Actividad de oficinas nacionales"
+      ],
+      "note": "Cada fase tiene su propia serie. La geografía se refiere a la residencia publicada del primer solicitante.",
+      "reviewedAt": "2026-11-17",
+      "id": "F183",
+      "landingPageCheck": {
+        "url": "https://www.epo.org/en/about-us/statistics/data-download",
+        "status": 200,
+        "resolvedUrl": "https://www.epo.org/en/about-us/statistics/data-download",
+        "title": "Data to download",
+        "checkedAt": "2026-11-17"
       },
       "linkedPageChecks": []
     }

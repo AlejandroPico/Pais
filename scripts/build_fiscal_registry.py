@@ -1,4 +1,4 @@
-"""Build the F09–F11 catalogues after checking their saved distributions."""
+"""Build the F09–F12 catalogues after checking their saved distributions."""
 import argparse
 import gzip
 import hashlib
@@ -11,6 +11,7 @@ TOPICS = {
     'fiscal': ('F09','hacienda',('deuda-local','bde','igae','aeat','conprel')),
     'funding': ('F10','ayudas',('contratos','placsp','ted','feder','cohesion','bdns')),
     'education': ('F11','educacion',('educabase','siiu','ine','eurostat')),
+    'science': ('F12','ciencia',('ine','eurostat','epo','cordis','resultados')),
 }
 LEVELS = dict(national='España', community='Comunidades autónomas', province='Provincias',
               municipal='Municipios', unlocated='Ámbitos de consulta')
@@ -29,6 +30,7 @@ def main():
     parser.add_argument('--kind', choices=TOPICS, default='fiscal')
     kind = parser.parse_args().kind
     category, section, folders = TOPICS[kind]
+    compact = kind in {'education','science'}
     products, inventory, checked = [], [], set()
     grids, groups = [], {}
     for name in folders:
@@ -63,13 +65,13 @@ def main():
                 period={'from':periods[0]['label'],'to':periods[-1]['label']},
                 coverage=' · '.join(LEVELS[key] for key in sorted({a['level'] for a in table['territories']})),
                 unit=table['unit'],license=table['license'],notes=table['note'],
-                dataFile=f'{section}/viewer.json.gz' if kind=='education' else f'{section}/{name}/index.json')
+                dataFile=f'{section}/viewer.json.gz' if compact else f'{section}/{name}/index.json')
             products.append(entry)
             inventory.append({**entry,'id':kind+'-distribution:'+str(table['id']),
                 'links':{'Descarga oficial':table['downloadUrl']},
                 'review':dict(implementedProductId=key,updatedAt=revision,
                     reason=f'Distribución cotejada. {table["rows"]:,} celdas conservadas con sus estados y unidades.')})
-            if kind=='education':
+            if compact:
                 grid = dict(table)
                 territories = grid.pop('territories')
                 group = checksum(json.dumps(territories,ensure_ascii=False,separators=(',',':')).encode())
@@ -77,11 +79,12 @@ def main():
                 grids.append(dict(grid,territoryGroup=group))
     for source in read(ROOT/f'registry/{kind}-sources.json'):
         inventory.append({**source,'status':'por_revisar','categoryIds':[],'suggestedCategoryIds':[category],'license':None})
-    if kind=='education':
-        capture = read(ROOT/'registry/education-capture.json')
+    if compact:
+        capture = read(ROOT/f'registry/{kind}-capture.json')
         for gap in capture['gaps']:
-            source_id='F005' if gap['topic']=='ine' else 'F074' if gap['topic'].startswith('ue') else 'F073'
-            inventory.append(dict(id='education-pending:'+checksum(gap['download'].encode())[:20],
+            source_id=gap.get('sourceId','F005') if kind=='science' else (
+                'F005' if gap['topic']=='ine' else 'F074' if gap['topic'].startswith('ue') else 'F073')
+            inventory.append(dict(id=kind+'-pending:'+checksum(gap['download'].encode())[:20],
                 title=gap['title'], sourceId=source_id,
                 url=gap['table'],status='bloqueado',categoryIds=[category],license=None,notes=gap['reason'],
                 links={'Descarga oficial':gap['download']},review=dict(
