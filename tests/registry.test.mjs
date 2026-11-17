@@ -5,6 +5,7 @@ import crypto from 'node:crypto';
 import {gunzipSync} from 'node:zlib';
 import {matchesProduct} from '../src/registry.ts';
 import {territoryLayers} from '../src/territory-config.ts';
+import {defaultDimensions,queryCube,unitFor} from '../src/demography-data.ts';
 const root=new URL('../',import.meta.url);
 const read=p=>JSON.parse(fs.readFileSync(new URL(p,root),'utf8'));
 const index=read('datos/catalogo/index.json');
@@ -40,7 +41,7 @@ test('available products link to real map actions and preserved observations; di
   actions.add('search:addresses');
   actions.add('municipal-changes');
   for(const layer of read('datos/territorio/official-layers.json').layers)actions.add('official-wms:'+layer.id);
-  const topicNames=['demography','welfare','labor','care','housing','economy','commerce','fiscal','funding'];
+  const topicNames=['demography','welfare','labor','care','housing','economy','commerce','fiscal','funding','education'];
   const topicProducts=topicNames.flatMap(name=>read(`registry/${name}-products.json`).available);
   const expected=read('registry/products.json').products.length+read('registry/territory-products.json').available.length+topicProducts.length;
   for(const p of topicProducts)actions.add(p.mapAction);
@@ -93,6 +94,32 @@ test('F10 preserves published totals, phase units and the FEDER text-formatted t
     const records=feder.periods.flatMap(({id})=>[selectedRow(feder,'community:'+code,id,['Operaciones con inicio comunicado','Total'])||[]]);
     assert.equal(records.reduce((sum,row)=>sum+(row[4]||0),0),code==='18'?365:9450);
   }
+});
+
+test('F11 grids preserve academic courses, territorial axes and the units of expenditure measures',()=>{
+  const centers=read('datos/educacion/educabase/index.json').tables.find(table=>
+    table.downloadUrl.endsWith('/series/centros/l0/series_01.px'));
+  const readGrid=table=>JSON.parse(gunzipSync(fs.readFileSync(new URL(
+    'datos/'+table.dataFolder+'/'+table.shards[0].file,root))));
+  const country=centers.territories.findIndex(area=>area.id==='national:ES');
+  const course=centers.periods.findIndex(entry=>entry.id==='2025M09');
+  const centerQuery={territory:country,level:'national',period:course,dims:defaultDimensions(centers)};
+  const centerResult=queryCube(centers,readGrid(centers),centerQuery);
+  assert.equal(centerResult.values[0].value,28623);
+  assert.equal(centerResult.series.length,21);
+  assert.ok(centers.periods[course].label.includes('(*)'));
+  assert.equal(centers.territories.filter(area=>area.level==='community').length,19);
+  const expense=read('datos/educacion/ine/index.json').tables.find(table=>table.downloadUrl.endsWith('/76085.px'));
+  const dims=defaultDimensions(expense);
+  const indicator=expense.dimensions.findIndex(d=>d.name==='Indicador');
+  assert.equal(queryCube(expense,readGrid(expense),{
+    territory:0,level:'national',period:0,dims,
+  }).values[0].value,27806164);
+  dims[indicator]=expense.dimensions[indicator].values.indexOf('Gasto Medio por estudiante');
+  assert.equal(unitFor(expense,dims),'Euros');
+  assert.equal(queryCube(expense,readGrid(expense),{
+    territory:0,level:'national',period:0,dims,
+  }).values[0].value,2056);
 });
 
 function insideRing([x,y],ring){let inside=false;for(let i=0,j=ring.length-1;i<ring.length;j=i++){const [xi,yi]=ring[i],[xj,yj]=ring[j];if((yi>y)!==(yj>y)&&x<(xj-xi)*(y-yi)/(yj-yi)+xi)inside=!inside;}return inside;}

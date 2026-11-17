@@ -1,4 +1,5 @@
 import {appearanceFields,bindAppearance,layerAppearance,paletteFor} from './layer-appearance';
+import educationArchive from '../registry/education-archive.json';
 import type {Map as AtlasMap,MapMouseEvent,GeoJSONSource,ExpressionSpecification} from 'maplibre-gl';
 import type {FeatureCollection} from 'geojson';
 import {ATLAS_REGIONS,projectCollection,shiftedIds} from './atlas-coordinates';
@@ -22,6 +23,7 @@ const statisticsConfig={
   commerce:{folder:'comercio/ine',prefix:'f08',urlPrefix:'m',legend:'Leyenda de precios, comercio y finanzas',timeline:'Evolución de precios, comercio y finanzas',toggle:'Representar el indicador'},
   fiscal:{folder:'hacienda/deuda-local',prefix:'f09',urlPrefix:'f',legend:'Leyenda de Hacienda',timeline:'Evolución de Hacienda',toggle:'Representar el indicador fiscal'},
   funding:{folder:'ayudas/contratos',prefix:'f10',urlPrefix:'u',legend:'Leyenda de contratación y ayudas',timeline:'Evolución de contratación y ayudas',toggle:'Representar contratación o ayudas'},
+  education:{folder:'educacion',prefix:'f11',urlPrefix:'k',legend:'Leyenda de educación',timeline:'Evolución educativa',toggle:'Representar el indicador educativo'},
   housing:{folder:'vivienda/ine',prefix:'f06',urlPrefix:'h',legend:'Leyenda de vivienda y suelo',timeline:'Evolución de vivienda y suelo',toggle:'Representar vivienda y suelo'},
   care:{folder:'cuidados/ine',prefix:'f05',urlPrefix:'c',legend:'Leyenda de cuidados y protección social',timeline:'Evolución de cuidados y protección social',toggle:'Representar cuidados y protección social'},
 } as const;
@@ -38,7 +40,7 @@ export class DemographyController{
     this.hash=new URLSearchParams(params);
     const config=statisticsConfig[kind];
     if(this.hasNationwideMunicipalView)this.province=allProvinces;
-    const requestedKind=(['labor','welfare','demography','care','housing','economy','commerce','fiscal','funding'] as const).find(key=>this.hash.get(key));
+    const requestedKind=(['labor','welfare','demography','care','housing','economy','commerce','fiscal','funding','education'] as const).find(key=>this.hash.get(key));
     if(requestedKind!==kind)this.hash.delete(kind);
     this.legend.className='legend demography-legend';
     this.legend.hidden=true;
@@ -53,6 +55,11 @@ export class DemographyController{
     const folder=table?.dataFolder||(table?.compactColumns&&this.kind==='labor'?'trabajo/sepe':statisticsConfig[this.kind].folder);
     return import.meta.env.BASE_URL+'datos/'+folder+'/';
   }
+  private cubeRoot(table:DemographicTable){
+    return this.kind==='education'&&import.meta.env.PROD
+      ?'https://raw.githubusercontent.com/AlejandroPico/Pais/'+educationArchive.commit+'/datos/'+table.dataFolder+'/'
+      :this.dataRoot(table);
+  }
   private layer(id:string){return id.replace('f02-',statisticsConfig[this.kind].prefix+'-');}
   private urlKey(key:string){
     if(key==='demography')return this.kind;
@@ -64,7 +71,7 @@ export class DemographyController{
 
   private async loadIndex(){
     return this.indexPromise??=(async()=>{
-      const compact=this.kind==='demography'||this.kind==='welfare'||this.kind==='housing'||this.kind==='economy'||this.kind==='commerce';
+      const compact=this.kind==='demography'||this.kind==='welfare'||this.kind==='housing'||this.kind==='economy'||this.kind==='commerce'||this.kind==='education';
       const response=await fetch(this.dataRoot()+(compact?'viewer.json.gz':'index.json'));
       if(!response.ok)throw new Error('No se pudo cargar el catálogo estadístico.');
       let index:DemographicIndex;
@@ -214,7 +221,11 @@ export class DemographyController{
   private drawPanel(){
     const p=this.panel,t=this.table;if(!p?.isConnected||!t||!this.index)return;
     const families=[...new Set(this.index.tables.map(t=>t.family))],order=periodOrder(t);
-    p.innerHTML=`<label class="check-row"><input type="checkbox" id="demog-enabled" ${this.enabled?'checked':''}><span>${statisticsConfig[this.kind].toggle}</span></label><label class="field-label">Producto<select id="demog-table">${families.map(f=>`<optgroup label="${esc(f)}">${this.index!.tables.filter(t=>t.family===f).map(x=>`<option value="${x.id}" ${t.id===x.id?'selected':''}>${esc(x.label)}</option>`).join('')}</optgroup>`).join('')}</select></label><label class="field-label">Territorio<select id="demog-level">${Object.entries(levels).filter(([l])=>t.territories.some(a=>a.level===l)).map(([l,n])=>`<option value="${l}" ${this.query.level===l?'selected':''}>${n}</option>`).join('')}</select></label>${this.territoryFields()}<label class="field-label">Periodo<select id="demog-period">${[...order].reverse().map(i=>`<option value="${i}" ${i===this.query.period?'selected':''}>${esc(t.periods[i].label)}</option>`).join('')}</select></label>${t.dimensions.map((d,i)=>d.values.length>1?`<label class="field-label">${esc(d.name)}<select data-demog-dim="${i}" aria-label="${esc(d.name)}">${d.values.map((v,j)=>`<option value="${j}" ${this.query.dims[i]===j?'selected':''}>${esc(v)}</option>`).join('')}</select></label>`:'').join('')}${t.unit==='personas'&&this.query.level!=='municipal'&&this.query.level!=='national'?`<label class="check-row"><input id="demog-density" type="checkbox" ${this.density?'checked':''}><span>Densidad aproximada del grupo seleccionado</span></label>`:''}${t.unit==='personas'?`<label class="check-row"><input id="demog-growth" type="checkbox" ${this.growth?'checked':''}><span>Cambio porcentual desde ${esc(t.periods[order[0]].label)}</span></label>`:''}<label class="field-label">Consultar territorio<select id="demog-area">${this.areaOptionMarkup()}</select></label><button id="demog-show" class="wide-button">Ver serie y ficha</button><p class="data-note" role="status" id="demog-status">${esc(this.status||`${fmt(t.rows)} ${this.kind==='funding'?'observaciones del producto.':'observaciones · tabla completa, todas sus categorías y periodos.'}`)}</p><p class="data-note">${esc(t.note)}</p><a href="${esc(t.sourceUrl)}" target="_blank" rel="noopener">${esc(t.publisher&&t.publisher!=='INE'?t.publisher+' · ficha del producto':ineArchive(t)?'INE · publicación':'INE · tabla '+t.id)} ↗</a><p class="data-note">${esc(t.unit)} · ${esc(t.license)}. Límites IGN actuales: el año estadístico no reconstruye fronteras históricas.</p>`;
+    const education=this.kind==='education';
+    if(education)families.sort(compareTerritoryNames);
+    const familyPicker=education?`<label class="field-label">Colección<select id="demog-family">${families.map((family,i)=>`<option value="${i}" ${family===t.family?'selected':''}>${esc(family)}</option>`).join('')}</select></label>`:'';
+    const productFamilies=education?[t.family]:families;
+    p.innerHTML=`<label class="check-row"><input type="checkbox" id="demog-enabled" ${this.enabled?'checked':''}><span>${statisticsConfig[this.kind].toggle}</span></label>${familyPicker}<label class="field-label">Producto<select id="demog-table">${productFamilies.map(f=>`<optgroup label="${esc(f)}">${this.index!.tables.filter(t=>t.family===f).map(x=>`<option value="${x.id}" ${t.id===x.id?'selected':''}>${esc(x.label)}</option>`).join('')}</optgroup>`).join('')}</select></label><label class="field-label">Territorio<select id="demog-level">${Object.entries(levels).filter(([l])=>t.territories.some(a=>a.level===l)).map(([l,n])=>`<option value="${l}" ${this.query.level===l?'selected':''}>${n}</option>`).join('')}</select></label>${this.territoryFields()}<label class="field-label">Periodo<select id="demog-period">${[...order].reverse().map(i=>`<option value="${i}" ${i===this.query.period?'selected':''}>${esc(t.periods[i].label)}</option>`).join('')}</select></label>${t.dimensions.map((d,i)=>d.values.length>1?`<label class="field-label">${esc(d.name)}<select data-demog-dim="${i}" aria-label="${esc(d.name)}">${d.values.map((v,j)=>`<option value="${j}" ${this.query.dims[i]===j?'selected':''}>${esc(v)}</option>`).join('')}</select></label>`:'').join('')}${t.unit==='personas'&&this.query.level!=='municipal'&&this.query.level!=='national'?`<label class="check-row"><input id="demog-density" type="checkbox" ${this.density?'checked':''}><span>Densidad aproximada del grupo seleccionado</span></label>`:''}${t.unit==='personas'?`<label class="check-row"><input id="demog-growth" type="checkbox" ${this.growth?'checked':''}><span>Cambio porcentual desde ${esc(t.periods[order[0]].label)}</span></label>`:''}<label class="field-label">Consultar territorio<select id="demog-area">${this.areaOptionMarkup()}</select></label><button id="demog-show" class="wide-button">Ver serie y ficha</button><p class="data-note" role="status" id="demog-status">${esc(this.status||`${fmt(t.rows)} ${(this.kind==='funding'||education)?'observaciones del producto.':'observaciones · tabla completa, todas sus categorías y periodos.'}`)}</p><p class="data-note">${esc(t.note)}</p><a href="${esc(t.sourceUrl)}" target="_blank" rel="noopener">${esc(t.publisher&&t.publisher!=='INE'?t.publisher+' · ficha del producto':ineArchive(t)?'INE · publicación':'INE · tabla '+t.id)} ↗</a><p class="data-note">${esc(t.unit)} · ${esc(t.license)}. Límites IGN actuales: el año estadístico no reconstruye fronteras históricas.</p>`;
     const spatial=['national','province','community','municipal'].includes(this.query.level);
     if(spatial){
       const appearance=document.createElement('div');
@@ -224,6 +235,11 @@ export class DemographyController{
     }
     const el=<T extends HTMLElement=HTMLElement>(s:string)=>p.querySelector<T>(s)!;
     el<HTMLInputElement>('#demog-enabled').onchange=e=>{if((e.target as HTMLInputElement).checked){this.enabled=true;this.options.onActivate();if(this.nationwide)this.options.showOverview();this.run();}else this.disable();};
+    el<HTMLSelectElement>('#demog-family')?.addEventListener('change',e=>{
+      const family=families[Number((e.target as HTMLSelectElement).value)];
+      const first=this.index!.tables.find(table=>table.family===family);
+      if(first)void this.useTable(first.id,this.enabled);
+    });
     el<HTMLSelectElement>('#demog-table').onchange=e=>void this.useTable(Number((e.target as HTMLSelectElement).value));
     el<HTMLSelectElement>('#demog-level').onchange=e=>{this.query.level=(e.target as HTMLSelectElement).value;this.density=false;this.validSelection();this.drawPanel();if(this.query.level==='municipal')this.fitMunicipalScope();this.run();};
     el<HTMLSelectElement>('#demog-province')?.addEventListener('change',e=>{this.province=(e.target as HTMLSelectElement).value;this.validSelection();this.drawPanel();this.fitMunicipalScope();this.run();});
@@ -273,7 +289,7 @@ export class DemographyController{
       this.worker.onerror=()=>{this.worker?.terminate();this.worker=undefined;this.queryFailed('No se pudo iniciar la consulta. Vuelve a elegir el indicador para reintentar.');};
     }
     const parts=statisticalParts(this.table,this.query,this.province);
-    this.worker.postMessage({id:++this.request,base:new URL(this.dataRoot(this.table),location.href).href,table:this.table,parts,query:this.query});
+    this.worker.postMessage({id:++this.request,base:new URL(this.cubeRoot(this.table),location.href).href,table:this.table,parts,query:this.query});
     this.renderTimeline();
   }
   private unit(){if(this.growth)return '% respecto a '+this.table!.periods[periodOrder(this.table!)[0]].label;return this.density&&['province','community'].includes(this.query.level)?'personas por km² · aprox.':unitFor(this.table!,this.query.dims);}

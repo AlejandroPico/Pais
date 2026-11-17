@@ -1,0 +1,65 @@
+[
+  {
+    "id": "education-source:registro-estatal",
+    "title": "Registro estatal de centros docentes no universitarios",
+    "sourceId": "F073",
+    "url": "https://www.educacionfpydeportes.gob.es/contenidos/centros-docentes/portada.html",
+    "notes": "Inventariar el directorio por código, centro, sede, titularidad y enseñanzas. Verificar una distribución reutilizable y coordenadas de origen antes de activar puntos."
+  },
+  {
+    "id": "education-source:reg-fp",
+    "title": "Registro general de centros de Formación Profesional",
+    "sourceId": "F073",
+    "url": "https://www.todofp.es/como-cuando-y-donde-estudiar/donde-estudiar/como-buscar-tu-centro.html",
+    "notes": "Conciliar centros, sedes y ciclos autorizados con el registro estatal y los directorios territoriales."
+  },
+  {
+    "id": "education-source:edu-ediciones",
+    "title": "EDUCAbase · ediciones anuales y desgloses detallados de las enseñanzas",
+    "sourceId": "F073",
+    "url": "https://www.educacionfpydeportes.gob.es/servicios-al-ciudadano/estadisticas/no-universitaria.html",
+    "notes": "Completar los cursos y las distribuciones de resultados detallados que no pertenecen a las series incorporadas. Revisar centros, matrícula, edades, apoyos educativos, itinerarios, profesorado, movilidad y adultos."
+  },
+  {
+    "id": "education-source:becas-antiguas",
+    "title": "Ministerio de Educación · cursos anteriores de becas y ayudas",
+    "sourceId": "F073",
+    "url": "https://www.educacionfpydeportes.gob.es/servicios-al-ciudadano/estadisticas/economicas/becas/anteriores.html",
+    "notes": "Completar el histórico con sus definiciones. Distinguir beca, becario, importe, administración financiadora y destino."
+  },
+  {
+    "id": "education-source:siiu-archivos",
+    "title": "SIIU · ediciones anteriores, libros de oferta y datos por titulación",
+    "sourceId": "F074",
+    "url": "https://www.ciencia.gob.es/Ministerio/Estadisticas/SIIU.html",
+    "notes": "Completar los libros y tablas históricas que se publican fuera de UNIVbase. Incorporar el detalle de titulaciones y admisión e identificar programa, centro, campus y universidad."
+  },
+  {
+    "id": "education-source:ine-archivos",
+    "title": "INE · Encuesta de Gasto de los Hogares en Educación y fuentes complementarias",
+    "sourceId": "F005",
+    "url": "https://www.ine.es/dyngs/INEbase/operacion.htm?c=Estadistica_C&cid=1254736176983&idp=1254735573113&menu=resultados",
+    "notes": "Verificar el acceso a 2011/12, las ediciones paralelas del Anuario y las tablas comparables de INEbase. Conservar los errores de muestreo y las unidades de gasto, alumnado y hogares."
+  },
+  {
+    "id": "education-source:centros-territoriales",
+    "title": "Catálogo nacional de centros educativos · fuentes autonómicas y locales",
+    "sourceId": "F073",
+    "url": "https://datos.gob.es/es/catalogo?title=centros+docentes",
+    "notes": "Revisar las distribuciones de las 17 comunidades, Ceuta, Melilla y los publicadores locales. Ya se identificaron directorios de Andalucía, Castilla y León, Cataluña y Madrid. Enlazar por código oficial y sede, preservando el curso, las coordenadas y el tipo de centro."
+  },
+  {
+    "id": "education-source:universidades",
+    "title": "Universidades públicas · portales, datos abiertos y campus",
+    "sourceId": "F079",
+    "url": "https://www.universidata.es/",
+    "notes": "Levantar las publicaciones por universidad, campus y curso. Relacionar RUCT, SIIU y F12 con los códigos publicados y registrar definiciones de cada institución."
+  },
+  {
+    "id": "education-source:eurostat",
+    "title": "Eurostat · educación, formación continua y cuestionario UOE",
+    "sourceId": "F130",
+    "url": "https://ec.europa.eu/eurostat/web/education-and-training/database",
+    "notes": "Inventariar las restantes series de UOE, AES, CVTS y fuerza de trabajo. Conservar diferencias de unidad, NUTS, definiciones CINE, errores y revisiones."
+  }
+]

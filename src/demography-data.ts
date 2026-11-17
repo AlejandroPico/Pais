@@ -3,7 +3,9 @@ export type SeriesMetadata={code:string;publisher?:string;description?:string;no
 export type DemographicTable={seriesMetadata?:Record<string,Record<string,SeriesMetadata>>;id:number;compactColumns?:boolean;dataFolder?:string;partitionDimension?:string;publisher?:string;label:string;title:string;family:string;unit:string;unitsByConditions?:{when:Record<string,string>;unit:string}[];sourceTables?:{id:number;url:string;year?:number;notes?:string[]}[];unitsByCategory?:{dimension:string;values:Record<string,string>};note:string;sourceUrl:string;downloadUrl:string;license:string;rows:number;dimensions:{name:string;values:string[]}[];periods:{id:string;label:string}[];territories:DemographicArea[];shards:{id:string;file:string;rows:number;bytes:number;sha256:string;contentSha256:string}[];missingTokens:Record<string,number>};
 export type DemographicIndex={revision:string;tables:DemographicTable[];inventoryTables:number;operations:number};
 export type DemographicQuery={period:number;dims:number[];level:string;territory:number};
-export type Cube={rows:(number|string|null)[][]};
+type Cells=(number|string|null)[];
+export type Cube={rows:Cells[]}|{axes:number[];cells:Cells;flags?:Record<number,string>};
+export function cubeSize(cube:Cube){return 'rows' in cube?cube.rows.length:cube.cells.length;}
 export type DemographicResult={values:{area:number;value:number|null;status:string}[];domain:{area:number;period:number;value:number}[];series:{period:number;value:number|null;status:string;sourceTableId?:number}[];pyramid:{age:string;men:number|null;women:number|null}[]};
 export const allProvinces = 'all';
 export const detailedLevels = ['municipal','district','section'];
@@ -35,7 +37,36 @@ export function appendCubeResult(target:DemographicResult,result:DemographicResu
 export function totalIndex(values:string[]){const i=values.findIndex(v=>/^(total|ambos sexos|todas las edades|todos|total nacional|dato base)$/i.test(v));return i<0?0:i;}
 export function defaultDimensions(table:DemographicTable){return table.dimensions.map(d=>totalIndex(d.values));}
 export function unitFor(table:DemographicTable,dims:number[]){const condition=table.unitsByConditions?.find(r=>Object.entries(r.when).every(([name,value])=>{const i=table.dimensions.findIndex(d=>d.name===name);return i>=0&&table.dimensions[i].values[dims[i]]===value;}));if(condition)return condition.unit;const rule=table.unitsByCategory,i=table.dimensions.findIndex(d=>d.name===rule?.dimension);return i>=0?rule!.values[table.dimensions[i].values[dims[i]]]||table.unit:table.unit;}
+function queryGrid(table:DemographicTable,cube:Extract<Cube,{axes:number[]}>,q:DemographicQuery):DemographicResult{
+  const strides=new Map<number,number>();
+  const result:DemographicResult={values:[],domain:[],series:[],pyramid:[]};
+  let size=1;
+  for(const axis of [...cube.axes].reverse()){
+    strides.set(axis,size);
+    size*=axis===-2?table.territories.length:axis===-1?table.periods.length:table.dimensions[axis].values.length;
+  }
+  if(size!==cube.cells.length||!strides.has(-2)||!strides.has(-1))throw new Error('La cuadrícula tiene dimensiones incorrectas.');
+  const selected=q.dims.reduce((offset,category,axis)=>offset+category*strides.get(axis)!,0);
+  const areaStride=strides.get(-2)!,periodStride=strides.get(-1)!;
+  const periods=periodOrder(table);
+  for(const [area,territory] of table.territories.entries()){
+    if(territory.level!==q.level&&area!==q.territory)continue;
+    for(const period of periods){
+      const index=selected+area*areaStride+period*periodStride;
+      const cell=cube.cells[index];
+      const value=typeof cell==='number'?cell:null;
+      const status=cube.flags?.[index]||(typeof cell==='string'?cell:'');
+      if(territory.level===q.level){
+        if(period===q.period)result.values.push({area,value,status});
+        if(value!==null)result.domain.push({area,period,value});
+      }
+      if(area===q.territory)result.series.push({period,value,status,sourceTableId:table.id});
+    }
+  }
+  return result;
+}
 export function queryCube(table:DemographicTable,cube:Cube,q:DemographicQuery):DemographicResult{
+  if('axes' in cube)return queryGrid(table,cube,q);
   const n=table.dimensions.length,vi=2+n,values:DemographicResult['values']=[],series:DemographicResult['series']=[],domain:DemographicResult['domain']=[];
   const age=table.dimensions.findIndex(d=>/^(edad|edad simple|grupo quinquenal de edad)$/i.test(d.name)),sex=table.dimensions.findIndex(d=>/^sexo$/i.test(d.name));
   const pyramid=new Map<number,{age:string;men:number|null;women:number|null}>();

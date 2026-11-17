@@ -1,6 +1,6 @@
 {
   "name": "el-pais-atlas",
-  "version": "0.8.8",
+  "version": "0.8.9",
   "private": true,
   "type": "module",
   "scripts": {
@@ -11,7 +11,7 @@
     "preview": "vite preview --host 127.0.0.1",
     "test": "node --test tests/*.test.mjs",
     "data:refresh": "python scripts/ingest.py --refresh",
-    "catalog:build": "node scripts/build_atlas_layout.mjs && node scripts/build_territory_catalog.mjs && python scripts/build_demography_registry.py && python scripts/build_demography_registry.py --kind welfare --category F03 && python scripts/build_demography_registry.py --kind labor --category F04 && python scripts/build_demography_registry.py --kind care --category F05 && python scripts/build_demography_registry.py --kind housing --category F06 && python scripts/build_demography_registry.py --kind economy --category F07 && python scripts/build_demography_registry.py --kind commerce --category F08 && python scripts/build_fiscal_registry.py && python scripts/build_fiscal_registry.py --kind funding && python scripts/build_registry.py",
+    "catalog:build": "node scripts/build_atlas_layout.mjs && node scripts/build_territory_catalog.mjs && python scripts/build_demography_registry.py && python scripts/build_demography_registry.py --kind welfare --category F03 && python scripts/build_demography_registry.py --kind labor --category F04 && python scripts/build_demography_registry.py --kind care --category F05 && python scripts/build_demography_registry.py --kind housing --category F06 && python scripts/build_demography_registry.py --kind economy --category F07 && python scripts/build_demography_registry.py --kind commerce --category F08 && python scripts/build_fiscal_registry.py && python scripts/build_fiscal_registry.py --kind funding && python scripts/build_fiscal_registry.py --kind education && python scripts/build_registry.py",
     "territory:refresh": "python scripts/territory_collect.py --refresh && python scripts/capture_territory_additions.py --refresh && python scripts/municipal_changes.py --refresh && python scripts/territory_directory.py --refresh",
     "intercensal:refresh": "python scripts/intercensal_collect.py --refresh",
     "territory:sections:refresh": "python scripts/territory_sections.py --refresh && python scripts/territory_section_archives.py --refresh",

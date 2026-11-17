@@ -30,7 +30,8 @@ En cada intervención, actualiza este archivo y AGENTS.md antes de subir a `main
 | F08 | Abierto. 664 productos del INE, BdE, DataComex y DGOJ. [Cobertura, verificaciones y faltantes](docs/F08.md). |
 | F09 | Abierto. 91 productos de Hacienda, Banco de España, IGAE y AEAT. [Cobertura y comprobaciones](docs/F09.md). |
 | F10 | Integrados el Registro de Contratos, dos canales PLACSP, anuncios TED, BDNS, operaciones regionales FEDER y financiación de cohesión. El detalle de cobertura y las tareas de cierre están en F10. |
-| F11–F29 | Los inventarios de estos fascículos siguen por completar. F16, F22, F24 y F26 ya tienen referencias disponibles a algunas capas base o productos compartidos. Conserva esos enlaces y verifica cada nueva ficha individualmente. |
+| F11 | 1.643 tablas de EDUCAbase, UNIVbase, el INE y Eurostat, con 26 incidencias de distribución registradas. [Cobertura](docs/F11.md). |
+| F12–F29 | Los inventarios de estos fascículos siguen por completar. F16, F22, F24 y F26 ya tienen referencias disponibles a algunas capas base o productos compartidos. Conserva esos enlaces y verifica cada nueva ficha individualmente. |
 
 Los números proceden de la captura de trabajo. Diferentes inventarios se solapan y los recuentos de tablas, operaciones, fichas y observaciones miden cosas distintas. Confirma en Git y en el sitio público qué revisión está desplegada si el encargo incluye publicar.
 
@@ -170,9 +171,13 @@ Punto de partida: [F04](docs/F04.md), [inventario INE](datos/trabajo/ine/invento
 
 ## F11 · Educación, formación y universidad · `datos/educacion/`
 
-- [ ] Enumerar Ministerio de Educación y Formación Profesional, Universidades, INE, estadísticas de consejerías, centros y universidades públicas y Eurostat por producto. Integrar centros, etapas, enseñanzas, FP, matrículas, profesorado, resultados, becas, itinerarios, abandono, educación de adultos, recursos y oferta universitaria.
-- [ ] Completar cada curso y cobertura, con códigos de centro, niveles y cambios de clasificación. Separar curso académico, año natural, curso de matrícula y cohorte de resultados. Distinguir sede del centro, ámbito del servicio y residencia del alumno cuando se publique.
-- [ ] Probar búsqueda de centros, series y agregaciones con cobertura real, y enlaces a F02, F04, F12 y accesibilidad de F22.
+- [x] Integrar 909 tablas de centros y unidades, matrícula, escolarización, repetición, profesorado, educación de adultos, resultados, formación profesional, becas, TIC, bibliotecas y gasto público de EDUCAbase. Preservar los cursos, cohortes, dimensiones y estados de cada edición.
+- [x] Integrar 648 tablas de UNIVbase sobre matrícula, egreso, nuevo ingreso, centros y titulaciones, preinscripción, rendimiento, becas, personal, financiación e internacionalización. Preservar residencia del alumnado, sede del centro y desglose institucional como dimensiones de origen.
+- [x] Integrar 83 tablas de la Encuesta de Gasto de los Hogares en Educación del INE para 2019/20 y 2023/24 y tres tablas de Eurostat sobre abandono, nivel educativo y participación en formación para España y las comunidades NUTS 2.
+- [ ] Reintentar las distribuciones bloqueadas por sus URL exactas del [registro de captura](registry/education-capture.json). Comprobar las respuestas 5xx del servicio de UNIVbase y la exportación alternativa disponible. Contrastar el periodo incoherente `2026-26 (*)` de EDUCAbase en `mujer_02.px` antes de situarlo en el cronograma.
+- [ ] Completar los cursos detallados y las ediciones históricas fuera de las series de EDUCAbase, UNIVbase y los libros de centros, becas, oferta universitaria y titulaciones. Verificar la distribución de gasto educativo del INE de 2011/12 y las series restantes UOE, AES, CVTS y de fuerza de trabajo de Eurostat.
+- [ ] Integrar el directorio estatal por código de centro y el Registro General de Centros de FP, RUCT, y los directorios autonómicos y locales por sede y enseñanzas, con cobertura para las 17 comunidades y las dos ciudades autónomas. Verificar borrados, cambios de código y relación centro–sede antes de habilitar búsqueda y puntos.
+- [ ] Enlazar indicadores con F02 y F04, universidades y campus con F12, y accesibilidad con F22. Verificar el tipo de geografía, unidades, cambios de clasificación y error muestral en cada cruce. [Cobertura y mantenimiento](docs/F11.md) · [Fuentes ampliables](registry/education-sources.json)
 
 ## F12 · Ciencia, investigación, innovación y patentes · `datos/ciencia/`
 

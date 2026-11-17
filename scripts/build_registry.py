@@ -113,6 +113,11 @@ def build():
         funding=read(funding_path)
         products['available']+=funding['available']
         products['funding']=funding['inventory']
+    education_path=ROOT/'registry/education-products.json'
+    if education_path.exists():
+        education=read(education_path)
+        products['available']+=education['available']
+        products['education']=education['inventory']
     labor_path=ROOT/'registry/labor-products.json'
     if labor_path.exists():
         labor=read(labor_path)
@@ -243,9 +248,14 @@ def build():
         _,section,folders=TOPICS['funding']
         input_paths.extend(['registry/funding-sources.json','registry/funding-products.json',
                             *[f'datos/{section}/{folder}/index.json' for folder in folders]])
+    if education_path.exists():
+        _,section,folders=TOPICS['education']
+        input_paths.extend(['registry/education-sources.json','registry/education-products.json',
+                            'registry/education-capture.json','registry/education-inputs.json','registry/education-archive.json',
+                            *[f'datos/{section}/{folder}/index.json' for folder in folders]])
     provenance = [dict(path=p, sha256=hashlib.sha256((ROOT / p).read_bytes()).hexdigest()) for p in input_paths]
     revisions=[registered['revision'], federated_metadata['revision']]
-    for path in [territory_path,demography_path,welfare_path,labor_path,care_path,housing_path,economy_path,commerce_path,fiscal_path,funding_path]:
+    for path in [territory_path,demography_path,welfare_path,labor_path,care_path,housing_path,economy_path,commerce_path,fiscal_path,funding_path,education_path]:
         if path.exists():revisions.append(read(path)['revision'])
     index = dict(schemaVersion=1, researchSnapshot='2026-11-05', revision=max(revisions),
                  scope='Registro de metadatos. Los inventarios se solapan y sus recuentos no se suman como productos únicos. Solo Disponibles contiene productos utilizables en el mapa.',

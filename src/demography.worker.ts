@@ -1,4 +1,4 @@
-import {appendCubeResult,queryCube,type Cube,type DemographicResult,type DemographicTable,type DemographicQuery} from './demography-data';
+import {appendCubeResult,cubeSize,queryCube,type Cube,type DemographicResult,type DemographicTable,type DemographicQuery} from './demography-data';
 
 const cache = new Map<string,Cube>();
 const cacheRowLimit = 550_000;
@@ -24,14 +24,15 @@ async function loadCube(key:string,hash:string,signal:AbortSignal){
   if(actual!==hash)throw new Error('La tabla no coincide con su ficha. Recarga la página para actualizarla.');
   signal.throwIfAborted();
   const cube=JSON.parse(new TextDecoder().decode(content)) as Cube;
-  if(cube.rows.length<=cacheRowLimit){
-    while(cachedRows+cube.rows.length>cacheRowLimit){
+  const rows=cubeSize(cube);
+  if(rows<=cacheRowLimit){
+    while(cachedRows+rows>cacheRowLimit){
       const oldest=cache.keys().next().value!;
-      cachedRows-=cache.get(oldest)!.rows.length;
+      cachedRows-=cubeSize(cache.get(oldest)!);
       cache.delete(oldest);
     }
     cache.set(key,cube);
-    cachedRows+=cube.rows.length;
+    cachedRows+=rows;
   }
   return cube;
 }
