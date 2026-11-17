@@ -14482,6 +14482,26 @@
       "dataFile": "ciencia/viewer.json.gz"
     },
     {
+      "id": "science:120501",
+      "title": "Ayudas, presupuestos y aportaciones aprobadas",
+      "sourceId": "F077",
+      "categoryIds": [
+        "F12"
+      ],
+      "status": "integrado",
+      "url": "https://www.cdti.es/datos-abiertos-creditos-subvenciones-y-lineas",
+      "mapAction": "science:120501",
+      "period": {
+        "from": "2014",
+        "to": "2026"
+      },
+      "coverage": "Comunidades autónomas · España · Provincias · Ámbitos de consulta",
+      "unit": "Según indicador",
+      "license": "Aviso de reutilización de datos abiertos del CDTI",
+      "notes": "20,637 registros en 13 cortes anuales. Última actualización en la descarga: 17/11/2026. La geografía sigue las columnas del CDTI. Año según la aprobación o resolución. Presupuesto y aportación publicada son importes diferentes. El recuento es de filas de ayuda. 1 registro con clasificación territorial contradictoria. El extracto conservado omite beneficiarios e identificadores fiscales.",
+      "dataFile": "ciencia/viewer.json.gz"
+    },
+    {
       "id": "science:120301",
       "title": "CORDIS · Publicaciones de Horizonte 2020",
       "sourceId": "F140",
@@ -34796,6 +34816,34 @@
       }
     },
     {
+      "id": "science-distribution:120501",
+      "title": "Ayudas, presupuestos y aportaciones aprobadas",
+      "sourceId": "F077",
+      "categoryIds": [
+        "F12"
+      ],
+      "status": "integrado",
+      "url": "https://www.cdti.es/datos-abiertos-creditos-subvenciones-y-lineas",
+      "mapAction": "science:120501",
+      "period": {
+        "from": "2014",
+        "to": "2026"
+      },
+      "coverage": "Comunidades autónomas · España · Provincias · Ámbitos de consulta",
+      "unit": "Según indicador",
+      "license": "Aviso de reutilización de datos abiertos del CDTI",
+      "notes": "20,637 registros en 13 cortes anuales. Última actualización en la descarga: 17/11/2026. La geografía sigue las columnas del CDTI. Año según la aprobación o resolución. Presupuesto y aportación publicada son importes diferentes. El recuento es de filas de ayuda. 1 registro con clasificación territorial contradictoria. El extracto conservado omite beneficiarios e identificadores fiscales.",
+      "dataFile": "ciencia/viewer.json.gz",
+      "links": {
+        "Descarga oficial": "https://sede.cdti.gob.es/AreaPrivada/Servicios/DatosAbiertos/api/datos/proyectosidi/JSON/2014/ALL"
+      },
+      "review": {
+        "implementedProductId": "science:120501",
+        "updatedAt": "2026-11-17",
+        "reason": "Distribución cotejada. 95,526 celdas conservadas con sus estados y unidades."
+      }
+    },
+    {
       "id": "science-distribution:120301",
       "title": "CORDIS · Publicaciones de Horizonte 2020",
       "sourceId": "F140",
@@ -34908,7 +34956,7 @@
       "title": "CDTI · Créditos, subvenciones y proyectos aprobados",
       "sourceId": "F077",
       "url": "https://www.cdti.es/datos-abiertos-creditos-subvenciones-y-lineas",
-      "notes": "El catálogo público anuncia una descarga. El acceso directo utilizado en la captura devolvió el control de acceso del portal. Completar aportaciones y presupuestos por instrumento, convocatoria y territorio.",
+      "notes": "Los cortes 2014–2026 están integrados. Completar los anteriores a 2014 y los paneles y distribuciones complementarias. Conciliar beneficiarios de la ayuda y expedientes con otros registros solo cuando exista una clave publicada en común.",
       "status": "por_revisar",
       "categoryIds": [],
       "suggestedCategoryIds": [
@@ -35175,6 +35223,272 @@
       "review": {
         "updatedAt": "2026-11-17",
         "reason": "HTTP 503 al solicitar el libro XLSX publicado por la OEPM."
+      }
+    },
+    {
+      "id": "science-pending:29335f2c47155e7ad68e",
+      "title": "CDTI · Ayudas aprobadas en 2000",
+      "sourceId": "F077",
+      "url": "https://www.cdti.es/datos-abiertos-creditos-subvenciones-y-lineas",
+      "status": "bloqueado",
+      "categoryIds": [
+        "F12"
+      ],
+      "license": null,
+      "notes": "HTTP 400. El servicio declara que el año solicitado no es válido.",
+      "links": {
+        "Descarga oficial": "https://sede.cdti.gob.es/AreaPrivada/Servicios/DatosAbiertos/api/datos/proyectosidi/JSON/2000/ALL"
+      },
+      "review": {
+        "updatedAt": "2026-11-17",
+        "reason": "HTTP 400. El servicio declara que el año solicitado no es válido."
+      }
+    },
+    {
+      "id": "science-pending:29b445b52ba719328348",
+      "title": "CDTI · Ayudas aprobadas en 2001",
+      "sourceId": "F077",
+      "url": "https://www.cdti.es/datos-abiertos-creditos-subvenciones-y-lineas",
+      "status": "bloqueado",
+      "categoryIds": [
+        "F12"
+      ],
+      "license": null,
+      "notes": "HTTP 400. El servicio declara que el año solicitado no es válido.",
+      "links": {
+        "Descarga oficial": "https://sede.cdti.gob.es/AreaPrivada/Servicios/DatosAbiertos/api/datos/proyectosidi/JSON/2001/ALL"
+      },
+      "review": {
+        "updatedAt": "2026-11-17",
+        "reason": "HTTP 400. El servicio declara que el año solicitado no es válido."
+      }
+    },
+    {
+      "id": "science-pending:25edabd75d19bcf44f7f",
+      "title": "CDTI · Ayudas aprobadas en 2002",
+      "sourceId": "F077",
+      "url": "https://www.cdti.es/datos-abiertos-creditos-subvenciones-y-lineas",
+      "status": "bloqueado",
+      "categoryIds": [
+        "F12"
+      ],
+      "license": null,
+      "notes": "HTTP 400. El servicio declara que el año solicitado no es válido.",
+      "links": {
+        "Descarga oficial": "https://sede.cdti.gob.es/AreaPrivada/Servicios/DatosAbiertos/api/datos/proyectosidi/JSON/2002/ALL"
+      },
+      "review": {
+        "updatedAt": "2026-11-17",
+        "reason": "HTTP 400. El servicio declara que el año solicitado no es válido."
+      }
+    },
+    {
+      "id": "science-pending:b68d42b9250672375833",
+      "title": "CDTI · Ayudas aprobadas en 2003",
+      "sourceId": "F077",
+      "url": "https://www.cdti.es/datos-abiertos-creditos-subvenciones-y-lineas",
+      "status": "bloqueado",
+      "categoryIds": [
+        "F12"
+      ],
+      "license": null,
+      "notes": "HTTP 400. El servicio declara que el año solicitado no es válido.",
+      "links": {
+        "Descarga oficial": "https://sede.cdti.gob.es/AreaPrivada/Servicios/DatosAbiertos/api/datos/proyectosidi/JSON/2003/ALL"
+      },
+      "review": {
+        "updatedAt": "2026-11-17",
+        "reason": "HTTP 400. El servicio declara que el año solicitado no es válido."
+      }
+    },
+    {
+      "id": "science-pending:c986aede477ad8fee8f3",
+      "title": "CDTI · Ayudas aprobadas en 2004",
+      "sourceId": "F077",
+      "url": "https://www.cdti.es/datos-abiertos-creditos-subvenciones-y-lineas",
+      "status": "bloqueado",
+      "categoryIds": [
+        "F12"
+      ],
+      "license": null,
+      "notes": "HTTP 400. El servicio declara que el año solicitado no es válido.",
+      "links": {
+        "Descarga oficial": "https://sede.cdti.gob.es/AreaPrivada/Servicios/DatosAbiertos/api/datos/proyectosidi/JSON/2004/ALL"
+      },
+      "review": {
+        "updatedAt": "2026-11-17",
+        "reason": "HTTP 400. El servicio declara que el año solicitado no es válido."
+      }
+    },
+    {
+      "id": "science-pending:ce1d991f7b0af5fa4d21",
+      "title": "CDTI · Ayudas aprobadas en 2005",
+      "sourceId": "F077",
+      "url": "https://www.cdti.es/datos-abiertos-creditos-subvenciones-y-lineas",
+      "status": "bloqueado",
+      "categoryIds": [
+        "F12"
+      ],
+      "license": null,
+      "notes": "HTTP 400. El servicio declara que el año solicitado no es válido.",
+      "links": {
+        "Descarga oficial": "https://sede.cdti.gob.es/AreaPrivada/Servicios/DatosAbiertos/api/datos/proyectosidi/JSON/2005/ALL"
+      },
+      "review": {
+        "updatedAt": "2026-11-17",
+        "reason": "HTTP 400. El servicio declara que el año solicitado no es válido."
+      }
+    },
+    {
+      "id": "science-pending:c37710d84076d8b0ad7d",
+      "title": "CDTI · Ayudas aprobadas en 2006",
+      "sourceId": "F077",
+      "url": "https://www.cdti.es/datos-abiertos-creditos-subvenciones-y-lineas",
+      "status": "bloqueado",
+      "categoryIds": [
+        "F12"
+      ],
+      "license": null,
+      "notes": "HTTP 400. El servicio declara que el año solicitado no es válido.",
+      "links": {
+        "Descarga oficial": "https://sede.cdti.gob.es/AreaPrivada/Servicios/DatosAbiertos/api/datos/proyectosidi/JSON/2006/ALL"
+      },
+      "review": {
+        "updatedAt": "2026-11-17",
+        "reason": "HTTP 400. El servicio declara que el año solicitado no es válido."
+      }
+    },
+    {
+      "id": "science-pending:cdd946d8ba93d3575024",
+      "title": "CDTI · Ayudas aprobadas en 2007",
+      "sourceId": "F077",
+      "url": "https://www.cdti.es/datos-abiertos-creditos-subvenciones-y-lineas",
+      "status": "bloqueado",
+      "categoryIds": [
+        "F12"
+      ],
+      "license": null,
+      "notes": "HTTP 400. El servicio declara que el año solicitado no es válido.",
+      "links": {
+        "Descarga oficial": "https://sede.cdti.gob.es/AreaPrivada/Servicios/DatosAbiertos/api/datos/proyectosidi/JSON/2007/ALL"
+      },
+      "review": {
+        "updatedAt": "2026-11-17",
+        "reason": "HTTP 400. El servicio declara que el año solicitado no es válido."
+      }
+    },
+    {
+      "id": "science-pending:dd55e10fb01287009a9c",
+      "title": "CDTI · Ayudas aprobadas en 2008",
+      "sourceId": "F077",
+      "url": "https://www.cdti.es/datos-abiertos-creditos-subvenciones-y-lineas",
+      "status": "bloqueado",
+      "categoryIds": [
+        "F12"
+      ],
+      "license": null,
+      "notes": "HTTP 400. El servicio declara que el año solicitado no es válido.",
+      "links": {
+        "Descarga oficial": "https://sede.cdti.gob.es/AreaPrivada/Servicios/DatosAbiertos/api/datos/proyectosidi/JSON/2008/ALL"
+      },
+      "review": {
+        "updatedAt": "2026-11-17",
+        "reason": "HTTP 400. El servicio declara que el año solicitado no es válido."
+      }
+    },
+    {
+      "id": "science-pending:21175dd7c0e30b100127",
+      "title": "CDTI · Ayudas aprobadas en 2009",
+      "sourceId": "F077",
+      "url": "https://www.cdti.es/datos-abiertos-creditos-subvenciones-y-lineas",
+      "status": "bloqueado",
+      "categoryIds": [
+        "F12"
+      ],
+      "license": null,
+      "notes": "HTTP 400. El servicio declara que el año solicitado no es válido.",
+      "links": {
+        "Descarga oficial": "https://sede.cdti.gob.es/AreaPrivada/Servicios/DatosAbiertos/api/datos/proyectosidi/JSON/2009/ALL"
+      },
+      "review": {
+        "updatedAt": "2026-11-17",
+        "reason": "HTTP 400. El servicio declara que el año solicitado no es válido."
+      }
+    },
+    {
+      "id": "science-pending:7cda19e9d4639cfd6a77",
+      "title": "CDTI · Ayudas aprobadas en 2010",
+      "sourceId": "F077",
+      "url": "https://www.cdti.es/datos-abiertos-creditos-subvenciones-y-lineas",
+      "status": "bloqueado",
+      "categoryIds": [
+        "F12"
+      ],
+      "license": null,
+      "notes": "HTTP 400. El servicio declara que el año solicitado no es válido.",
+      "links": {
+        "Descarga oficial": "https://sede.cdti.gob.es/AreaPrivada/Servicios/DatosAbiertos/api/datos/proyectosidi/JSON/2010/ALL"
+      },
+      "review": {
+        "updatedAt": "2026-11-17",
+        "reason": "HTTP 400. El servicio declara que el año solicitado no es válido."
+      }
+    },
+    {
+      "id": "science-pending:08338e61ae0e5ec835c4",
+      "title": "CDTI · Ayudas aprobadas en 2011",
+      "sourceId": "F077",
+      "url": "https://www.cdti.es/datos-abiertos-creditos-subvenciones-y-lineas",
+      "status": "bloqueado",
+      "categoryIds": [
+        "F12"
+      ],
+      "license": null,
+      "notes": "HTTP 400. El servicio declara que el año solicitado no es válido.",
+      "links": {
+        "Descarga oficial": "https://sede.cdti.gob.es/AreaPrivada/Servicios/DatosAbiertos/api/datos/proyectosidi/JSON/2011/ALL"
+      },
+      "review": {
+        "updatedAt": "2026-11-17",
+        "reason": "HTTP 400. El servicio declara que el año solicitado no es válido."
+      }
+    },
+    {
+      "id": "science-pending:3698c868657594a684bb",
+      "title": "CDTI · Ayudas aprobadas en 2012",
+      "sourceId": "F077",
+      "url": "https://www.cdti.es/datos-abiertos-creditos-subvenciones-y-lineas",
+      "status": "bloqueado",
+      "categoryIds": [
+        "F12"
+      ],
+      "license": null,
+      "notes": "HTTP 400. El servicio declara que el año solicitado no es válido.",
+      "links": {
+        "Descarga oficial": "https://sede.cdti.gob.es/AreaPrivada/Servicios/DatosAbiertos/api/datos/proyectosidi/JSON/2012/ALL"
+      },
+      "review": {
+        "updatedAt": "2026-11-17",
+        "reason": "HTTP 400. El servicio declara que el año solicitado no es válido."
+      }
+    },
+    {
+      "id": "science-pending:fbe6e8598c3a23cfaaa5",
+      "title": "CDTI · Ayudas aprobadas en 2013",
+      "sourceId": "F077",
+      "url": "https://www.cdti.es/datos-abiertos-creditos-subvenciones-y-lineas",
+      "status": "bloqueado",
+      "categoryIds": [
+        "F12"
+      ],
+      "license": null,
+      "notes": "HTTP 400. El servicio declara que el año solicitado no es válido.",
+      "links": {
+        "Descarga oficial": "https://sede.cdti.gob.es/AreaPrivada/Servicios/DatosAbiertos/api/datos/proyectosidi/JSON/2013/ALL"
+      },
+      "review": {
+        "updatedAt": "2026-11-17",
+        "reason": "HTTP 400. El servicio declara que el año solicitado no es válido."
       }
     }
   ]

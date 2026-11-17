@@ -22,6 +22,7 @@ def main():
         (CACHE/(family+('-tables.json' if family=='ine' else '-books.json'))).write_bytes(encode(manifest[family]))
     inputs=[('ine-'+key+'.px',row['download']) for key,row in manifest['ine'].items()]
     inputs.extend((key,row['url']) for key,row in manifest['epo'].items())
+    inputs.extend((f'cdti-{year}.json',url) for year,url in manifest.get('cdti',{}).items())
     for key,url in manifest['eurostat'].items():
         inputs.append((key+'.json',url))
         (CACHE/(key+'.url')).write_text(url,encoding='utf-8')

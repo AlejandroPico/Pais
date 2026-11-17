@@ -11,7 +11,7 @@ TOPICS = {
     'fiscal': ('F09','hacienda',('deuda-local','bde','igae','aeat','conprel')),
     'funding': ('F10','ayudas',('contratos','placsp','ted','feder','cohesion','bdns')),
     'education': ('F11','educacion',('educabase','siiu','ine','eurostat')),
-    'science': ('F12','ciencia',('ine','eurostat','epo','cordis','resultados')),
+    'science': ('F12','ciencia',('ine','eurostat','epo','cordis','cdti','resultados')),
 }
 LEVELS = dict(national='España', community='Comunidades autónomas', province='Provincias',
               municipal='Municipios', unlocated='Ámbitos de consulta')

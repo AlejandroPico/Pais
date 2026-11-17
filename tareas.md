@@ -31,7 +31,7 @@ En cada intervención, actualiza este archivo y AGENTS.md antes de subir a `main
 | F09 | Abierto. 91 productos de Hacienda, Banco de España, IGAE y AEAT. [Cobertura y comprobaciones](docs/F09.md). |
 | F10 | Integrados el Registro de Contratos, dos canales PLACSP, anuncios TED, BDNS, operaciones regionales FEDER y financiación de cohesión. El detalle de cobertura y las tareas de cierre están en F10. |
 | F11 | 1.643 tablas de EDUCAbase, UNIVbase, el INE y Eurostat, con 26 incidencias de distribución registradas. [Cobertura](docs/F11.md). |
-| F12 | 726 productos del INE, Eurostat, EPO y CORDIS. Las incidencias de las descargas de SICTI y OEPM y los grupos pendientes quedan registrados. [Cobertura](docs/F12.md). |
+| F12 | 727 productos del INE, Eurostat, EPO, CORDIS y CDTI. Las incidencias de las descargas de SICTI, OEPM y CDTI y los grupos pendientes quedan registrados. [Cobertura](docs/F12.md). |
 | F13–F29 | Los inventarios de estos fascículos siguen por completar. F16, F22, F24 y F26 ya tienen referencias disponibles a algunas capas base o productos compartidos. Conserva esos enlaces y verifica cada nueva ficha individualmente. |
 
 Los números proceden de la captura de trabajo. Diferentes inventarios se solapan y los recuentos de tablas, operaciones, fichas y observaciones miden cosas distintas. Confirma en Git y en el sitio público qué revisión está desplegada si el encargo incluye publicar.
@@ -168,7 +168,7 @@ Punto de partida: [F04](docs/F04.md), [inventario INE](datos/trabajo/ine/invento
 - [ ] Ampliar el histórico de BDNS, añadir fichas por código de convocatoria y concesión, bases reguladoras, instrumentos, ayudas de Estado, minimis, planes, proyectos y pagos cuando exista importe desembolsado explícito. Documentar las exclusiones de reutilización y preservar la diferencia entre administración, ámbito elegible y ubicación del proyecto.
 - [ ] Completar operaciones FEDER plurirregionales y anteriores a 2014, fondos 2021–2027 a nivel de proyecto, Kohesio, MRR y Cooperación Española. Cotejar CCI y claves de operación al enlazar las fichas para evitar doble contabilización. Registrar en las fichas las fechas, geografía, beneficiario institucional, fuente y clases de financiación cuando estén publicadas.
 - [ ] Obtener la distribución de AOD/TOSSD por agente, destino y tipo de flujo. La pantalla de publicaciones de Info@OD exigió validación humana para continuar el 17/11/2026. Buscar una descarga institucional que cubra esos campos o incorporar la exportación oficial tras la validación.
-- [x] Enlazar los tres productos de financiación CORDIS de F12 desde el catálogo de F10. El registro de proyecto conserva el identificador del acuerdo.
+- [x] Enlazar los tres productos de financiación CORDIS y el de ayudas CDTI de F12 desde el catálogo de F10. El registro CORDIS conserva el identificador del acuerdo.
 - [ ] Conciliar AEI, CDTI y los acuerdos CORDIS con los registros de financiación de F10 cuando exista una clave exacta. Enlazar FEGA y las demás ayudas agrarias con F14. Verificar importes y moneda, fuentes, reglas de publicación y alcance territorial.
 
 ## F11 · Educación, formación y universidad · `datos/educacion/`
@@ -187,8 +187,10 @@ Punto de partida: [F04](docs/F04.md), [inventario INE](datos/trabajo/ine/invento
 - [x] Incorporar seis series de patentes de la EPO. Conservar solicitudes y concesiones europeas por año y campo tecnológico, solicitudes por residencia del primer solicitante con desglose autonómico y la referencia de solicitudes ante la oficina española.
 - [x] Comprobar la discrepancia del libro de solicitudes EPO por campo tecnológico. Su nombre de descarga contiene `2016-2026`, mientras la ficha y las hojas cubren 2016–2025. Usar los años de las hojas.
 - [x] Incorporar los proyectos con participación española de 7PM, Horizonte 2020 y Horizonte Europa con sus convocatorias, estado, organizaciones y cifras publicadas. Enlazar los metadatos de publicaciones de ambos programas Horizonte mediante el identificador de proyecto. Las fichas CORDIS de financiación aparecen también en el catálogo de F10.
+- [x] Incorporar los 13 cortes anuales de ayudas CDTI de 2014 a 2026. Conservar los créditos y subvenciones, los importes y las clasificaciones territoriales que publica el organismo.
+- [x] Cotejar las variantes provinciales de Baleares y Santa Cruz de Tenerife en CDTI. Conservar en consulta tabular el registro que declara Madrid como comunidad y Valencia como provincia. Mantener su cuantía en el total.
 - [ ] Reintentar las ocho exportaciones presupuestarias de SICTI que devolvieron 599 en PC-Axis, CSV y Excel, y los tres libros OEPM 2024–2026 que devolvieron 503. Conservar los enlaces exactos y el error por fichero en [science-capture.json](registry/science-capture.json). Completar la propiedad industrial nacional por fases y territorios, incluidos marcas, diseños, modelos de utilidad y nombres comerciales.
-- [ ] Completar los archivos antiguos de detalle del INE, el directorio RECIDI y los resultados y convocatorias complementarios de SICTI. Incorporar AEI y CDTI por resolución y código. El acceso directo a la distribución del CDTI devolvió el control de acceso del portal.
+- [ ] Completar los archivos antiguos de detalle del INE, el directorio RECIDI y los resultados y convocatorias complementarios de SICTI. Incorporar AEI por resolución y código. El selector CDTI anuncia 2000–2013, pero su descarga devuelve HTTP 400 y declara que el año solicitado no es válido. Localizar esos 14 cortes y las distribuciones complementarias.
 - [ ] Integrar DIGITAL.CSIC, repositorios y directorios universitarios, informes, entregables y propiedades intelectuales restantes de CORDIS. Verificar la licencia y los identificadores de cada resultado. Completar la consulta individual y la conciliación con F10 mediante claves publicadas. [Fuentes y cobertura](docs/F12.md).
 
 ## F13 · Salud, sanidad, epidemiología y alimentación saludable · `datos/salud/`

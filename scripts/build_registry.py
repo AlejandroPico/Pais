@@ -122,7 +122,7 @@ def build():
     if science_path.exists():
         science=read(science_path)
         for product in science['available']:
-            if product['id'] in {'science:120101','science:120102','science:120103'}:
+            if product['id'] in {'science:120101','science:120102','science:120103','science:120501'}:
                 product['categoryIds'].append('F10')
         products['available']+=science['available']
         products['science']=science['inventory']

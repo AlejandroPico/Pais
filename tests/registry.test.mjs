@@ -146,6 +146,10 @@ test('F12 preserves distinct patent phases, historical editions and links by gra
   assert.equal(snapshot.organizations.length,16477);
   assert.ok(snapshot.organizations.every(row=>ids.has(row.projectID)));
   assert.ok(products.available.find(row=>row.id==='science:120103').categoryIds.includes('F10'));
+  const cdti=table('cdti',120501);
+  assert.equal(cdti.periods.length,13);
+  assert.equal(selectedValue(cdti,'national:ES','2026','Registros de ayuda aprobada'),1090);
+  assert.ok(products.available.find(row=>row.id==='science:120501').categoryIds.includes('F10'));
 });
 
 function insideRing([x,y],ring){let inside=false;for(let i=0,j=ring.length-1;i<ring.length;j=i++){const [xi,yi]=ring[i],[xj,yj]=ring[j];if((yi>y)!==(yj>y)&&x<(xj-xi)*(y-yi)/(yj-yi)+xi)inside=!inside;}return inside;}
