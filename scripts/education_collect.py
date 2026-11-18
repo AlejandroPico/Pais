@@ -189,7 +189,8 @@ def px_product(info, raw, *, section='educacion', profile=None):
     group = start[0]
     family = profile['family'] if profile else (
         'SIIU · '+STUDENT_GROUPS[int(start[1])-1] if group=='uedirectory' else FAMILIES[group])
-    geo_index, territories = top_geography(axes,fields,labels)
+    geography = profile.get('geography',top_geography) if profile else top_geography
+    geo_index, territories = geography(axes,fields,labels)
     timed = [i for i,name in enumerate(axes)
              if norm(name) in {'periodo','curso academico','ano','ano academico','anio','ano de referencia','time'}
              or academic_axis(labels[i])]

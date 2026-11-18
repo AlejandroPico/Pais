@@ -11,6 +11,7 @@ const kinds:Record<string,string>={
   funding:'Inventario de contratación, subvenciones y proyectos',
   education:'Inventario de educación, formación y universidad',
   science:'Inventario de ciencia, investigación, innovación y patentes',
+  health:'Inventario de salud, sanidad y epidemiología',
 };
 let indexPromise:Promise<RegistryIndex>|undefined;
 

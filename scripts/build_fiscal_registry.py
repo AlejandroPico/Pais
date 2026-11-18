@@ -1,4 +1,4 @@
-"""Build the F09–F12 catalogues after checking their saved distributions."""
+"""Build the F09–F13 catalogues after checking their saved distributions."""
 import argparse
 import gzip
 import hashlib
@@ -12,9 +12,10 @@ TOPICS = {
     'funding': ('F10','ayudas',('contratos','placsp','ted','feder','cohesion','bdns')),
     'education': ('F11','educacion',('educabase','siiu','ine','eurostat')),
     'science': ('F12','ciencia',('ine','eurostat','epo','cordis','cdti','resultados')),
+    'health': ('F13','salud',('sanidad','ine','eurostat','isciii','ont','oms','comunidad-madrid','aesan','oeda')),
 }
 LEVELS = dict(national='España', community='Comunidades autónomas', province='Provincias',
-              municipal='Municipios', unlocated='Ámbitos de consulta')
+              municipal='Municipios', unlocated='Ámbitos de consulta',point='Puntos')
 
 
 def read(path):
@@ -30,7 +31,7 @@ def main():
     parser.add_argument('--kind', choices=TOPICS, default='fiscal')
     kind = parser.parse_args().kind
     category, section, folders = TOPICS[kind]
-    compact = kind in {'education','science'}
+    compact = kind in {'education','science','health'}
     products, inventory, checked = [], [], set()
     grids, groups = [], {}
     for name in folders:
@@ -46,6 +47,9 @@ def main():
                 if 'cells' in cube:
                     lengths = {-2:len(table['territories']),-1:len(table['periods']),
                                **{i:len(d['values']) for i,d in enumerate(table['dimensions'])}}
+                    if table.get('partitionDimension'):
+                        axis=next(i for i,d in enumerate(table['dimensions']) if d['name']==table['partitionDimension'])
+                        assert part['id'].startswith('main-d') and int(part['id'][6:]) in range(lengths.pop(axis))
                     assert set(lengths)==set(cube['axes']) and len(lengths)==len(cube['axes'])
                     assert len(cube['cells'])==part['rows']==math.prod(lengths.values())
                     assert all(0<=int(cell)<part['rows'] for cell in cube.get('flags',{}))
@@ -77,12 +81,26 @@ def main():
                 group = checksum(json.dumps(territories,ensure_ascii=False,separators=(',',':')).encode())
                 groups.setdefault(group,territories)
                 grids.append(dict(grid,territoryGroup=group))
+    if kind=='health':
+        for layer in read(ROOT/'registry/health-geography.json'):
+            path=ROOT/'datos'/section/layer['file']
+            raw=path.read_bytes()
+            assert checksum(raw)==layer['sha256']
+            assert len(json.loads(gzip.decompress(raw))['features'])==layer['count']
+            entry=dict(id='health-geometry:'+layer['id'],title=layer['title'],sourceId=layer['sourceId'],
+                categoryIds=[category],status='integrado',url=layer['url'],mapAction='territory:'+layer['id'],
+                coverage=layer['coverage'],period=None,unit='Establecimientos sanitarios georreferenciados',
+                license=layer['credit'],notes=layer['note'],dataFile=section+'/'+layer['file'])
+            products.append(entry)
+            inventory.append({**entry,'id':entry['id']+'-inventory','links':{'Descarga oficial':layer['download']},
+                'review':dict(implementedProductId=entry['id'],updatedAt=revision,
+                              reason=f"{layer['count']} registros con posición publicada y validada.")})
     for source in read(ROOT/f'registry/{kind}-sources.json'):
         inventory.append({**source,'status':'por_revisar','categoryIds':[],'suggestedCategoryIds':[category],'license':None})
     if compact:
         capture = read(ROOT/f'registry/{kind}-capture.json')
         for gap in capture['gaps']:
-            source_id=gap.get('sourceId','F005') if kind=='science' else (
+            source_id=gap.get('sourceId','F005') if kind in {'science','health'} else (
                 'F005' if gap['topic']=='ine' else 'F074' if gap['topic'].startswith('ue') else 'F073')
             inventory.append(dict(id=kind+'-pending:'+checksum(gap['download'].encode())[:20],
                 title=gap['title'], sourceId=source_id,

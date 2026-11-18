@@ -25,6 +25,7 @@ fs.writeFileSync(new URL('datos/territorio/manifest.json',root),JSON.stringify(m
 
 const available=[];
 for(const layer of territoryLayers){
+  if(layer.local?.directory)continue;
   if(layer.id==='municipal')continue; // Canonical product already registered in F00.
   const providers=layer.id==='historical-orthophoto'?orthophotoEditions.map(edition=>historicOrthophoto(edition.id)):layer.id==='canary-cartography'?canaryEditions.map(edition=>canaryCartography(edition.id)):layer.providers||[];
   for(const provider of providers){

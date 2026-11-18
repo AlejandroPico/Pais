@@ -2,10 +2,11 @@ import sectionArchives from '../registry/section-archives.json' with {type:'json
 import localInventory from '../registry/local-territory.json' with {type:'json'};
 import cnigHistory from '../registry/cnig-history.json' with {type:'json'};
 import ignEditions from '../registry/ign-territory-editions.json' with {type:'json'};
+import healthGeography from '../registry/health-geography.json' with {type:'json'};
 
 export type WmsProvider={id:string;url:string;layers:string;styles?:string;tileEndpoint?:string;version?:'1.1.1'|'1.3.0';requestCrs?:string;sourceId:string;credit:string;bounds:[number,number,number,number];queryable?:boolean;infoFormat?:string};
 type LocalProduct={id:string;title:string;sourceId:string;url:string;download:string;count:number;file:string;period:string;
-  group?:string;center?:number[];credit?:string;geometry?:string;coverage?:string;layer?:string;minzoom?:number;missingCount?:number;missingFile?:string};
+  group?:string;center?:number[];credit?:string;geometry?:string;coverage?:string;layer?:string;minzoom?:number;missingCount?:number;missingFile?:string;directory?:string};
 export type TerritoryLayer={id:string;name:string;group:string;minzoom:number;note:string;providers?:WmsProvider[];local?:LocalProduct};
 export function localCredit(product:LocalProduct){
   if(product.credit)return product.credit;
@@ -47,7 +48,13 @@ const elevationLayers:TerritoryLayer[]=ignEditions.elevation.map(edition=>({
     queryable:edition.queryable,infoFormat:'application/json'}],
 }));
 const localProducts:LocalProduct[]=[...localInventory.products,...sectionArchives.products,...cnigHistory.products];
+export const healthLayers:TerritoryLayer[]=healthGeography.map(product=>({
+  id:product.id,name:product.title,group:product.group,minzoom:product.minzoom,
+  note:`${product.note} ${product.count.toLocaleString('es-ES')} de ${product.registered.toLocaleString('es-ES')} establecimientos en el mapa.`,
+  local:product,
+}));
 export const territoryLayers:TerritoryLayer[]=[
+  ...healthLayers,
   ...localProducts.map(product=>({
     id:product.id,name:product.title,group:product.group||(product.sourceId==='F005'?'Cartografía por fecha':product.sourceId==='F170'?'Madrid':'Barcelona'),
     note:product.count.toLocaleString('es-ES')+(product.geometry==='point'?' portales oficiales · ':product.geometry==='line'?' trazados oficiales · ':' recintos oficiales · ')+product.period,

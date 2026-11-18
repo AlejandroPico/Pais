@@ -5,7 +5,7 @@ import crypto from 'node:crypto';
 import {gunzipSync} from 'node:zlib';
 import {matchesProduct} from '../src/registry.ts';
 import {territoryLayers} from '../src/territory-config.ts';
-import {defaultDimensions,periodTimestamp,queryCube,unitFor} from '../src/demography-data.ts';
+import {defaultDimensions,periodTimestamp,queryCube,statisticalParts,unitFor} from '../src/demography-data.ts';
 const root=new URL('../',import.meta.url);
 const read=p=>JSON.parse(fs.readFileSync(new URL(p,root),'utf8'));
 const index=read('datos/catalogo/index.json');
@@ -41,7 +41,7 @@ test('available products link to real map actions and preserved observations; di
   actions.add('search:addresses');
   actions.add('municipal-changes');
   for(const layer of read('datos/territorio/official-layers.json').layers)actions.add('official-wms:'+layer.id);
-  const topicNames=['demography','welfare','labor','care','housing','economy','commerce','fiscal','funding','education','science'];
+  const topicNames=['demography','welfare','labor','care','housing','economy','commerce','fiscal','funding','education','science','health'];
   const topicProducts=topicNames.flatMap(name=>read(`registry/${name}-products.json`).available);
   const expected=read('registry/products.json').products.length+read('registry/territory-products.json').available.length+topicProducts.length;
   for(const p of topicProducts)actions.add(p.mapAction);
@@ -69,6 +69,34 @@ test('catalog search combines accents, multiple terms, source, state and explici
   assert.equal(matchesProduct(p,{...q,source:'F006'}),false);
   assert.equal(matchesProduct(p,{...q,q:'poblacion inexistente'}),false);
   assert.equal(matchesProduct({...p,suggestedCategoryIds:[]},{...q,category:'F02'}),false);
+});
+
+test('F13 keeps the corrected waiting-list rows, MoMo daily partitions and official center coverage',()=>{
+  const table=(folder,id)=>read(`datos/salud/${folder}/index.json`).tables.find(value=>value.id===id);
+  const cube=(t,part)=>JSON.parse(gunzipSync(fs.readFileSync(
+    new URL(`datos/${t.dataFolder}/${t.shards.find(shard=>shard.id===part).file}`,root))));
+  const wait=table('sanidad',130160);
+  const territory=wait.territories.findIndex(area=>area.id==='community:08');
+  const dims=['Pacientes en espera estructural','Total'].map((label,i)=>wait.dimensions[i].values.indexOf(label));
+  const waitValue=queryCube(wait,cube(wait,'main'),{level:'community',period:0,territory,dims}).series[0].value;
+  assert.equal(waitValue,36491);
+  assert.equal(wait.periods[0].id,'2025-12-31');
+  const momo=table('isciii',130200);
+  const day=momo.periods.findIndex(period=>period.id==='2026-11-16');
+  const national=momo.territories.findIndex(area=>area.level==='national');
+  const query={level:'national',period:day,territory:national,dims:defaultDimensions(momo)};
+  const [part]=statisticalParts(momo,query,'all');
+  const nationalValue=queryCube(momo,cube(momo,part),query).values[0].value;
+  assert.equal(part,'main-d0');
+  assert.equal(nationalValue,1205.72);
+  const [layer]=read('registry/health-geography.json');
+  const published=products.available.filter(p=>p.mapAction==='territory:'+layer.id);
+  assert.equal(published.length,1);
+  assert.deepEqual(published[0].categoryIds,['F13']);
+  const features=JSON.parse(gunzipSync(fs.readFileSync(new URL('datos/salud/'+layer.file,root)))).features;
+  assert.equal(features.length,5609);
+  assert.equal(layer.registered,5680);
+  assert.ok(features.every(feature=>feature.properties.Registro&&feature.geometry.type==='Point'));
 });
 
 test('F10 preserves published totals, phase units and the FEDER text-formatted territories',()=>{

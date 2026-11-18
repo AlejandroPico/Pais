@@ -126,6 +126,14 @@ def build():
                 product['categoryIds'].append('F10')
         products['available']+=science['available']
         products['science']=science['inventory']
+    health_path=ROOT/'registry/health-products.json'
+    if health_path.exists():
+        health=read(health_path)
+        for product in health['available']:
+            if product['id']=='health:130370':
+                product['categoryIds'].append('F14')
+        products['available']+=health['available']
+        products['health']=health['inventory']
     labor_path=ROOT/'registry/labor-products.json'
     if labor_path.exists():
         labor=read(labor_path)
@@ -266,9 +274,15 @@ def build():
         input_paths.extend(['registry/science-sources.json','registry/science-products.json',
                             'registry/science-capture.json','registry/science-inputs.json','registry/science-archive.json',
                             *[f'datos/{section}/{folder}/index.json' for folder in folders]])
+    if health_path.exists():
+        _,section,folders=TOPICS['health']
+        input_paths.extend(['registry/health-sources.json','registry/health-products.json',
+                            'registry/health-capture.json','registry/health-inputs.json','registry/health-archive.json',
+                            'registry/health-geography.json',
+                            *[f'datos/{section}/{folder}/index.json' for folder in folders]])
     provenance = [dict(path=p, sha256=hashlib.sha256((ROOT / p).read_bytes()).hexdigest()) for p in input_paths]
     revisions=[registered['revision'], federated_metadata['revision']]
-    for path in [territory_path,demography_path,welfare_path,labor_path,care_path,housing_path,economy_path,commerce_path,fiscal_path,funding_path,education_path,science_path]:
+    for path in [territory_path,demography_path,welfare_path,labor_path,care_path,housing_path,economy_path,commerce_path,fiscal_path,funding_path,education_path,science_path,health_path]:
         if path.exists():revisions.append(read(path)['revision'])
     index = dict(schemaVersion=1, researchSnapshot='2026-11-05', revision=max(revisions),
                  scope='Registro de metadatos. Los inventarios se solapan y sus recuentos no se suman como productos únicos. Solo Disponibles contiene productos utilizables en el mapa.',

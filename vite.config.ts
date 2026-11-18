@@ -16,13 +16,13 @@ export default defineConfig({
       offlineIndexes.add(resolve(sourceRoot, 'catalogo', 'investigacion'));
       for(const file of pagesArchives.files)offlineIndexes.add(resolve(sourceRoot,'territorio',file));
       const education=resolve(sourceRoot,'educacion');
-      const science=resolve(sourceRoot,'ciencia');
+      const archivedTopics=['ciencia','salud'].map(topic=>resolve(sourceRoot,topic));
       cpSync(sourceRoot, resolve(dir!, 'datos'), {
         recursive: true,
         filter: source => !basename(source).startsWith('.') && !offlineIndexes.has(source)
           && !(source.startsWith(education+sep)&&['index.json', '-main.json.gz'].some(suffix=>source.endsWith(suffix)))
-          && !(source.startsWith(science+sep)&&resolve(science,'viewer.json.gz')!==source
-            && (source.endsWith('index.json')||source.endsWith('.gz'))),
+          && !archivedTopics.some(topic=>source.startsWith(topic+sep)&&resolve(topic,'viewer.json.gz')!==source
+            && (source.endsWith('index.json')||source.endsWith('.json.gz')||source.slice(topic.length+1).split(sep).includes('originales'))),
       });
     },
   }],

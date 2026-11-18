@@ -46,7 +46,11 @@ function queryGrid(table:DemographicTable,cube:Extract<Cube,{axes:number[]}>,q:D
     size*=axis===-2?table.territories.length:axis===-1?table.periods.length:table.dimensions[axis].values.length;
   }
   if(size!==cube.cells.length||!strides.has(-2)||!strides.has(-1))throw new Error('La cuadrícula tiene dimensiones incorrectas.');
-  const selected=q.dims.reduce((offset,category,axis)=>offset+category*strides.get(axis)!,0);
+  const selected=q.dims.reduce((offset,category,axis)=>{
+    const stride=strides.get(axis);
+    if(stride===undefined&&table.dimensions[axis].name!==table.partitionDimension)throw new Error('Falta una dimensión en la cuadrícula.');
+    return offset+category*(stride??0);
+  },0);
   const areaStride=strides.get(-2)!,periodStride=strides.get(-1)!;
   const periods=periodOrder(table);
   for(const [area,territory] of table.territories.entries()){

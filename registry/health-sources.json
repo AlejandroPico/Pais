@@ -1,0 +1,107 @@
+[
+  {
+    "id": "health-source:sis",
+    "sourceId": "F067",
+    "title": "Sistema de Información Sanitaria · SIAP, SIAE, RAE-CMBD, BDCAP e INCLASNS",
+    "url": "https://www.sanidad.gob.es/estadEstudios/estadisticas/bancoDatos.htm",
+    "notes": "Inventariar todas las ediciones y desgloses de actividad, profesionales, modalidades de gestión y cobertura. El volcado masivo de INCLASNS requiere correo. El catálogo de oferta de atención primaria ya dispone de una primera serie."
+  },
+  {
+    "id": "health-source:regcess",
+    "sourceId": "F067",
+    "title": "REGCESS y EGEO · centros, servicios y establecimientos autorizados",
+    "url": "https://www.sanidad.gob.es/estadEstudios/sistInfSanit/centrosServicios/regcess/home.htm",
+    "notes": "El Excel nacional que publica Sanidad carece de coordenadas. Buscar una distribución nacional georreferenciada estable con códigos CCN, unidad y vigencia. Mantener el directorio hospitalario y los centros asistenciales independientes del registro de autorizaciones."
+  },
+  {
+    "id": "health-source:espera",
+    "sourceId": "F067",
+    "title": "SISLE-SNS · informes semestrales anteriores",
+    "url": "https://www.sanidad.gob.es/estadEstudios/estadisticas/inforRecopilaciones/listaEsperaInfAnt.htm",
+    "notes": "Incorporar cortes históricos, anexos nacionales, rectificaciones y series autonómicas de los portales propios. Los indicadores de consultas y cirugía emplean umbrales y denominadores distintos."
+  },
+  {
+    "id": "health-source:farmacia",
+    "sourceId": "F067",
+    "title": "Sanidad · Consumo farmacéutico en hospitales y recetas anteriores",
+    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/home.htm",
+    "notes": "Separar consumo dispensado, importe, envases y DDD. Completar históricos y ámbito hospitalario. Conservar las definiciones de las mutuas y los cortes revisados."
+  },
+  {
+    "id": "health-source:renave",
+    "sourceId": "F068",
+    "title": "ISCIII / CNE · Red Nacional de Vigilancia Epidemiológica",
+    "url": "https://cne.isciii.es/",
+    "notes": "Integrar informes y series agregadas por enfermedad, semana, residencia y definición de caso. MoMo emplea otro universo y modelo y ya se sirve con Kairós."
+  },
+  {
+    "id": "health-source:sivira",
+    "sourceId": "F068",
+    "title": "ISCIII · Vigilancia de infecciones respiratorias agudas",
+    "url": "https://sivira-centinela.isciii.es/",
+    "notes": "Localizar los conjuntos agregados reproducibles con muestras, positividad, hospitalización y fases de vigilancia. Conservar los cambios en vigilancia centinela."
+  },
+  {
+    "id": "health-source:aemps",
+    "sourceId": "F069",
+    "title": "AEMPS · Datos abiertos, CIMA y registros administrativos",
+    "url": "https://sede.aemps.gob.es/datos-abiertos/",
+    "notes": "Incorporar registro de autorizaciones y series públicas de problemas de suministro y farmacovigilancia con sus licencias. Presentar los recursos estatales sin inventar distribución autonómica."
+  },
+  {
+    "id": "health-source:ont",
+    "sourceId": "F070",
+    "title": "ONT · Memorias, registros y centros autorizados",
+    "url": "https://www.ont.es/",
+    "notes": "Ampliar la captura por órgano con series históricas, tejidos, células, médula, lista de espera, residencia del paciente y red coordinadora. Mantener distinto el ámbito del receptor frente al hospital trasplantador."
+  },
+  {
+    "id": "health-source:aesan",
+    "sourceId": "F071",
+    "title": "AESAN · Estudios de nutrición, PNCOCA, RELSA y alertas",
+    "url": "https://www.aesan.gob.es/datos-abiertos/control-oficial-y-red-alertas",
+    "notes": "Integrar series de controles oficiales, red de laboratorios y notificaciones SCIRI. Diferenciar alertas, controles y prevalencia poblacional. Completar las ediciones de ALADINO y ENALIA."
+  },
+  {
+    "id": "health-source:oeda",
+    "sourceId": "F072",
+    "title": "OEDA · EDADES, ESTUDES y Sistema Estatal de Información",
+    "url": "https://pnsd.sanidad.gob.es/profesionales/sistemasInformacion/informesEstadisticas/",
+    "notes": "Integrar las ediciones oficiales con prevalencias, edades, sustancias y adicciones comportamentales, admisiones, urgencias y mortalidad. Distinguir población escolar y hogares."
+  },
+  {
+    "id": "health-source:ecdc",
+    "sourceId": "F144",
+    "title": "ECDC · Atlas europeo de vigilancia",
+    "url": "https://www.ecdc.europa.eu/en/surveillance-atlas-infectious-diseases",
+    "notes": "Recuperar las distribuciones agregadas con España, tasas, casos y metadatos. Incluir los perfiles anuales revisados y las definiciones de caso."
+  },
+  {
+    "id": "health-source:oms",
+    "sourceId": "F148",
+    "title": "OMS · Global Health Observatory",
+    "url": "https://www.who.int/data/gho/info/gho-odata-api",
+    "notes": "Ampliar las dos series de esperanza de vida con vacunación, mortalidad, cobertura, carga de enfermedad y determinantes. Conservar población, sexo, valor estimado e intervalos."
+  },
+  {
+    "id": "health-source:eurostat",
+    "sourceId": "F130",
+    "title": "Eurostat · Base de datos de salud",
+    "url": "https://ec.europa.eu/eurostat/web/health/database",
+    "notes": "Completar diagnósticos, causas de muerte, recursos, uso de servicios, EHIS y gastos sanitarios. Conservar los cambios en NUTS, unidad, registro y banderas."
+  },
+  {
+    "id": "health-source:madrid",
+    "sourceId": "F163",
+    "title": "Comunidad de Madrid · Registro de centros sanitarios",
+    "url": "https://datos.gob.es/es/catalogo/a13002908-centros-servicios-y-establecimientos-sanitarios1",
+    "notes": "Confirmar el sistema de referencia de las coordenadas x e y antes de publicarlas como puntos. El diccionario consigna campos numéricos. El visor integra recuentos de centros y filas asistenciales."
+  },
+  {
+    "id": "health-source:generalitat",
+    "sourceId": "F159",
+    "title": "Generalitat de Catalunya · Establecimientos sanitarios autorizados",
+    "url": "https://datos.gob.es/es/catalogo/a09002970-establecimientos-sanitarios-autorizados-en-cataluna",
+    "notes": "Actualizar geometrías con cada edición. Revisar registros con coordenadas no publicadas y distinguir establecimientos fuera del registro."
+  }
+]

@@ -5,7 +5,7 @@ import {toAtlas,fromAtlas,projectFeature,projectCollection,displayRegion,ATLAS_R
 import {atlasTileUrl,addShiftedLayer} from './atlas-geography';
 import {appearanceFields,layerAppearance,paintLayer,rememberRaster} from './layer-appearance';
 import {municipalCode,coordinatesExtent,validSpanishCoordinate} from './territory-data';
-import {territoryLayers,sectionEditions,sectionVectorUrl,orthophotoEditions,historicOrthophoto,canaryEditions,canaryCartography,wmsTile,wmsRequest,localCredit,type WmsProvider} from './territory-config';
+import {healthLayers,territoryLayers,sectionEditions,sectionVectorUrl,orthophotoEditions,historicOrthophoto,canaryEditions,canaryCartography,wmsTile,wmsRequest,localCredit,type WmsProvider} from './territory-config';
 
 import siu from '../datos/vivienda/siu/layers.json';
 import pagesArchives from '../registry/pages-archives.json';
@@ -23,6 +23,9 @@ function territoryAsset(file:string){
   return import.meta.env.PROD&&archivedFiles.has(file)
     ?'https://raw.githubusercontent.com/AlejandroPico/Pais/'+pagesArchives.commit+'/datos/territorio/'+file
     :dataRoot+file;
+}
+function localAsset(product:NonNullable<(typeof territoryLayers)[number]['local']>){
+  return product.directory ? import.meta.env.BASE_URL+'datos/'+product.directory+'/'+product.file : territoryAsset(product.file);
 }
 const vectorRoot='https://api-features.ign.es/collections/administrativeunit/items/';
 type Municipality={code:string;name:string;provinceCode:string;communityCode:string;ignFeatureId:number;islandId?:string;cartographicName?:string;referenceDate:string};
@@ -98,7 +101,7 @@ export class TerritoryController{
   private localCollection(def:typeof territoryLayers[number]){
     const existing=this.localCache.get(def.id);
     if(existing)return existing;
-    const request=fetch(territoryAsset(def.local!.file)).then(async response=>{
+    const request=fetch(localAsset(def.local!)).then(async response=>{
       if(!response.ok)throw new Error('No se pudo abrir la capa territorial.');
       let data:FeatureCollection;
       if(def.local!.file.endsWith('.gz')){
@@ -121,7 +124,7 @@ export class TerritoryController{
     for(const map of this.maps){
       const source='f01-local-'+def.id;
       if(map.getSource(source))continue;
-      map.addSource(source,{type:'geojson',data:archive?{type:'FeatureCollection',features:[]}:dataRoot+product.file,
+      map.addSource(source,{type:'geojson',data:archive?{type:'FeatureCollection',features:[]}:localAsset(product),
         attribution:localCredit(product)});
       if(archive)void this.localCollection(def).then(data=>{
         (map.getSource(source) as GeoJSONSource|undefined)?.setData(projectCollection(data));
@@ -288,13 +291,17 @@ export class TerritoryController{
         <p class="data-note">Información del Sistema de Información Urbana. Consulta la administración competente para determinar la vigencia jurídica del planeamiento.</p>
       </details>`).join('')}</details>`).join('');
   }
+  healthPanel(){
+    return `<details class="submenu"><summary>Centros y establecimientos sanitarios <span aria-hidden="true">›</span></summary>${healthLayers.map(d=>this.layerPanel(d)).join('')}</details>`;
+  }
   panel(){
+    const baseLayers=territoryLayers.filter(layer=>!layer.local?.directory);
     return `<details id="official-active" class="submenu"><summary>Cartografía oficial adicional <span aria-hidden="true">›</span></summary>
       <div id="official-active-list"></div><button class="catalog-category" data-open-cartography>Buscar capas y ediciones</button></details>
       <details id="municipal-changes" class="submenu"><summary>Cambios de municipios y códigos <span aria-hidden="true">›</span></summary><div id="municipal-changes-panel"></div></details>`
-      +[...new Set(territoryLayers.map(d=>d.group))].map(group=>`<details class="submenu">
+      +[...new Set(baseLayers.map(d=>d.group))].map(group=>`<details class="submenu">
         <summary>${esc(group)} <span aria-hidden="true">›</span></summary>
-        ${territoryLayers.filter(d=>d.group===group).map(d=>this.layerPanel(d)).join('')}</details>`).join('');
+        ${baseLayers.filter(d=>d.group===group).map(d=>this.layerPanel(d)).join('')}</details>`).join('');
   }
   bind(root:HTMLElement){
     const list=root.querySelector<HTMLElement>('#official-active-list');
@@ -448,7 +455,7 @@ export class TerritoryController{
           this.reset();
           this.showSelection(full);
           this.card(full.properties?.atlasName||def.name,def.name,this.facts(Object.fromEntries(Object.entries(full.properties||{}).filter(([key])=>!key.startsWith('atlas'))))+
-            `<a class="text-button" href="${esc(territoryAsset(def.local!.file))}" download>Descargar GeoJSON de la capa</a>`,
+            `<a class="text-button" href="${esc(localAsset(def.local!))}" download>Descargar GeoJSON de la capa</a>`,
             `<a href="${esc(def.local!.url)}" target="_blank" rel="noopener">Fuente oficial ↗</a> · ${esc(localCredit(def.local!))} · ${esc(def.local!.period)}`);
           return true;
         }
